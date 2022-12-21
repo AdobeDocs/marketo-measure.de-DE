@@ -3,9 +3,9 @@ unique-page-id: 42762762
 description: Einrichten der Marketo-Verbindung - [!DNL Marketo Measure] - Produktdokumentation
 title: Einrichten der Marketo-Verbindung
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
-source-git-commit: 391d2f42c0ee7e0b9e36c8257d23a6e942e4a9fa
+source-git-commit: ff3ebd557ffe745e1297d053be1390093dc4033c
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ So richten Sie Ihre Verbindung zu Marketo ein.
 
 >[!PREREQUISITES]
 >
->[Benutzerrolle &quot;Nur API erstellen&quot;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) für die Verbindung Marketo Measurement/Marketo Engage.
+>[Benutzerrolle &quot;Nur API erstellen&quot;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) für [!DNL Marketo Measure]/Marketo Engage-Verbindung.
 
 1. In [!DNL Marketo Measure], klicken Sie auf die **[!UICONTROL Mein Konto]** und wählen Sie **[!UICONTROL Einstellungen]**.
 
