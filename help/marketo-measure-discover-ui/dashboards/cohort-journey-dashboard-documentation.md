@@ -3,18 +3,32 @@ unique-page-id: 42762648
 description: Dokumentation zum Journey-Dashboard für Kohorten - [!DNL Marketo Measure] - Produktdokumentation
 title: Dokumentation zum Kohorten-Journey-Dashboard
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # Dokumentation zum Kohorten-Journey-Dashboard {#cohort-journey-dashboard-documentation}
 
-Das Journey-Dashboard der Kohorte ermöglicht es Marketingexperten, den Fortschritt von einer Kohortenphase für einen ausgewählten Zeitraum anzuzeigen und die Konversionsrate zu messen.
+Mit den Dashboards &quot;Kohortenauswirkungen&quot;und &quot;Trichter&quot;können Marketingexperten den Fortschritt von einer Kohortenphase für einen ausgewählten Zeitraum anzeigen und die Konversionsrate messen.
 
-Dieses Dashboard besteht aus zwei Kacheln:
+Der Hauptunterschied besteht darin, wie wir jede Entität aus der Kohortenphase zählen.
+
+* Kohortentrichter: Das Ergebnis jeder Phase ergibt sich direkt aus der vorherigen Phase.
+
+   * Es werden nur Datensätze gezählt, die nach der festgelegten Kohortenstartzeit durch die einzelnen Phasen des Trichters geraten sind.
+
+![](assets/cohort-journey-dashboard-documentation-1.png)
+
+* Auswirkungen der Kohorte: Das Ergebnis jeder Phase ergibt sich aus der Kohorte und nicht aus der vorherigen Phase.
+
+   * Alle Datensätze in jeder Phase werden so lange gezählt, wie sie nach der festgelegten Kohortenstartzeit erfolgten. Dieses Dashboard enthält natürlich mehr Datensätze als das Trichter-Dashboard, da wir uns ansehen, wie die Entitäten von der Kohortenphase aus beeinflusst wurden, nicht nur die Bewegung durch den Trichter.
+
+![](assets/cohort-journey-dashboard-documentation-2.png)
+
+Jedes Dashboard verfügt über zwei Kacheln:
 
 * Kohortenumsatz: Die gesamte Opportunität aus allen Gelegenheiten in der Journey-Kachel der Kohorte.
 * Kohorte-Journey: Der Fortschritt zu jeder Journey-Phase ab der Anfangs-Kohortenphase für einen ausgewählten Zeitraum.
@@ -40,7 +54,7 @@ In allen Filtern wird die Logik &quot;AND&quot;verwendet.
 >
 >Segmentfilter gelten nur für die LC-Phase und danach. Wenn die Kohortenstufe unbekannt oder bekannt ist und einer der Segmentfilter einen Wert aufweist, gibt das Dashboard keine Ergebnisse zurück.
 
-![](assets/one-2.png)
+![](assets/cohort-journey-dashboard-documentation-3.png)
 
 Zu den Phasen gehören unbekannte, bekannte, LC, ausgewählte Trichterphasen in den offenen Lead-/Kontaktstadien (Einstellungen > CRM > Staging-Zuordnung), OC, ausgewählte Trichterphasen in den Open Opportunity Stages (Einstellungen > CRM > Staging-Zuordnung) und Angebote (Geschlossene Chancen).
 
