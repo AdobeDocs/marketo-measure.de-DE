@@ -3,7 +3,7 @@ unique-page-id: 42762648
 description: Dokumentation zum Journey-Dashboard für Kohorten - [!DNL Marketo Measure] - Produktdokumentation
 title: Dokumentation zum Kohorten-Journey-Dashboard
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
+source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Jedes Dashboard verfügt über zwei Kacheln:
 >
 >In allen Discover-Dashboards kann nur ein Personenobjekt (Lead oder Kontakt) gemeldet werden. Dies wird in [!UICONTROL Einstellungen] > [!UICONTROL Berichterstellung] > [!UICONTROL Attributionseinstellungen] > [!UICONTROL Standard-Dashboard-Objekt].
 
-Dieses Dashboard unterstützt die folgenden Filter:
+Die Dashboards unterstützen die folgenden Filter:
 
 * Kohortenphase: Wählen Sie die Anfangs-Kohorte aus. Datensätze in allen folgenden Phasen werden aus den Datensätzen in der Kohortenphase entwickelt.
 * Datumsbereich der Kohorte: Wählen Sie den Zeitraum für die ausgewählte Kohortenphase aus. Zusammen mit der Kohortenphase wird der Startdatensatz definiert.
@@ -53,8 +53,6 @@ In allen Filtern wird die Logik &quot;AND&quot;verwendet.
 >[!NOTE]
 >
 >Segmentfilter gelten nur für die LC-Phase und danach. Wenn die Kohortenstufe unbekannt oder bekannt ist und einer der Segmentfilter einen Wert aufweist, gibt das Dashboard keine Ergebnisse zurück.
-
-![](assets/cohort-journey-dashboard-documentation-3.png)
 
 Zu den Phasen gehören unbekannte, bekannte, LC, ausgewählte Trichterphasen in den offenen Lead-/Kontaktstadien (Einstellungen > CRM > Staging-Zuordnung), OC, ausgewählte Trichterphasen in den Open Opportunity Stages (Einstellungen > CRM > Staging-Zuordnung) und Angebote (Geschlossene Chancen).
 
