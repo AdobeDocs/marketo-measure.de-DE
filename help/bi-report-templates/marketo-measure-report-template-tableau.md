@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] Berichtsvorlage - Tableau - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Berichtsvorlage - Tableau"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+source-git-commit: 1b0d043e9015f2f8e2f6a3a2a49849bb792c7f21
 workflow-type: tm+mt
-source-wordcount: '2324'
+source-wordcount: '2323'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Sie können auf die [!DNL Tableau] Berichtsvorlage [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
-Öffnen Sie die [!DNL Adobe Marketo] Messen Sie die Reporting-Vorlage Tableau-Arbeitsmappen-Datei.
+Öffnen Sie die [!DNL Adobe Marketo Measure] Berichtsvorlage Tableau-Arbeitsmappen-Datei.
 
 Sie müssen die vorhandenen Verbindungsdaten auf Ihre spezifischen Snowflake-Verbindungsinformationen aktualisieren. Klicken Sie auf [!UICONTROL Verbindung bearbeiten] und folgen Sie den Schritten, die im Abschnitt [[!UICONTROL Datenverbindung]](#data-connection) Abschnitt dieser Dokumentation.
 
