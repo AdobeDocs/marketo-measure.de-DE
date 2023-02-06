@@ -5,7 +5,7 @@ title: Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce] Kampagnen
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Die Kampagnenlistenansicht, die erstellt werden kann, ermöglicht es Ihnen, eine
 1. Benennen Sie die Ansicht &quot;Kampagnen, mit denen synchronisiert werden soll&quot;. [!DNL Marketo Measure].&quot;
 1. Wir möchten, dass diese Liste nur die Kampagnen anzeigt, mit denen wir synchronisieren möchten [!DNL Marketo Measure] Daher benötigen wir einige Filter:
 
-   * **Typ** [GLEICH] &quot;Alle Kampagnentypen, die wir Ihren Offline-Kanälen zugeordnet haben&quot;. Siehe Implementierungsplan oder Registerkarte Offline-Kanäle in [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} -> Mein Konto -> Einstellungen -> Offline-Kanäle). Über das Lupensymbol können Sie die gewünschten Typen auswählen (die einem Offline-Marketingkanal zugeordnet sind).
+   * **Typ** [GLEICH] &quot;Alle Kampagnentypen, die wir Ihren Offline-Kanälen zugeordnet haben&quot;. Siehe Implementierungsplan oder Registerkarte Offline-Kanäle in [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mein Konto -> Einstellungen -> Offline-Kanäle). Über das Lupensymbol können Sie die gewünschten Typen auswählen (die einem Offline-Marketingkanal zugeordnet sind).
 
       * Wählen Sie für jeden Filter maximal 3 Typen aus. In einem Filterfeld können maximal Zeichen verwendet werden. Beginnen Sie mit 3 Typen pro Filter und fügen Sie bei Bedarf zusätzliche Zeilen von &quot;Typ&quot;-Filtern hinzu.
    * **Erstellungsdatum** [GRÖSSER ODER GLEICH] Ihre [!DNL Marketo Measure] Startdatum. Ihr Startdatum finden Sie im ROI-Dashboard im Abschnitt [!DNL Marketo Measure] App. Wählen Sie einfach &quot;Seit Erstellungsdatum&quot;im Datumsbereich des Bindestrichs aus und es wird Ihr Startdatum angezeigt.
@@ -39,4 +39,4 @@ Die Kampagnenlistenansicht, die erstellt werden kann, ermöglicht es Ihnen, eine
 
 >[!MORELIKETHIS]
 >
->[Beheben häufiger Probleme bei der Inline-Bearbeitung der Listenansicht](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target=&quot;_blank&quot;}
+>[Beheben häufiger Probleme bei der Inline-Bearbeitung der Listenansicht](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}

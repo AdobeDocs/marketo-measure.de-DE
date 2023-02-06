@@ -5,7 +5,7 @@ title: Hinzufügen [!DNL Marketo Measure] zu Marketo-Landingpages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Beispiel für einen Screenshot unten
 
 * Wahrscheinlich werden mehrere Landingpage-Vorlagen verwendet. Stellen Sie sicher, dass Sie den Code zu allen Vorlagen hinzufügen, die Formulare enthalten.
 
-* Manchmal müssen Sie bei der Bearbeitung der Vorlage für Landingpages die Seiten erneut validieren, von denen die Landingpage verwendet wird. In diesem Artikel wird [wie eine Massengenehmigung erteilt wird](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target=&quot;_blank&quot;}.
+* Manchmal müssen Sie bei der Bearbeitung der Vorlage für Landingpages die Seiten erneut validieren, von denen die Landingpage verwendet wird. In diesem Artikel wird [wie eine Massengenehmigung erteilt wird](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

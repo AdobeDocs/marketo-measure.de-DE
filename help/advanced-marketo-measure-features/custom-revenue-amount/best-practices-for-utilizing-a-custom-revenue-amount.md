@@ -26,7 +26,7 @@ Folgendes sollte beachtet werden:
 * Wählen Sie das Umsatzfeld aus, das für alle Chancen genau und genutzt ist.
    * ARR oder Gesamtauftragswert wird empfohlen
 * Kein Formelfeld verwenden
-* Wenn Sie einen benutzerdefinierten Umsatzbetrag für Währungsumrechnungen verwenden, wird die Variable [!UICONTROL Marketo messen mehrerer Währungen] -Funktion ist stattdessen die bevorzugte Methode.
+* Wenn Sie einen benutzerdefinierten Umsatzbetrag für Währungsumrechnungen verwenden, wird die Variable [!UICONTROL Marketo Measure - Mehrere Währungen] -Funktion ist stattdessen die bevorzugte Methode.
    * Die [!DNL Marketo Measure] Die Funktion für mehrere Währungen verweist auf die in [!DNL Salesforce] , um die Abstimmung zwischen Währungsumrechnungen am besten sicherzustellen. Auf diese Weise können Sie den Standardbetrag &quot;Betrag&quot;(SFDC-Standard) oder ein anderes benutzerdefiniertes Feld, das sich auf die [!DNL Salesforce] Konversionsraten.
 * Wenn Sie das Feld Betrag aktualisieren, das Sie möchten [!DNL Marketo Measure] Verwenden Sie zum Referenzieren Data Loader, um vergangene Möglichkeiten zu aktualisieren, um sicherzustellen, dass Ihre Umsatzdaten konsistent sind und das richtige Feld über den Workflow aufgefüllt wird.
 

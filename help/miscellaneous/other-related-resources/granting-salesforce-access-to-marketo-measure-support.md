@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874791
 description: Gewährung [!DNL Salesforce] Zugriff auf [!DNL Marketo Measure] Support - [!DNL Marketo Measure] - Produktdokumentation
-title: Gewährung [!DNL Salesforce] Zugriff auf Marketo Measurement Support
+title: Gewährung [!DNL Salesforce] Zugriff auf Marketo Measure-Support
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Gewährung [!DNL Salesforce] Zugriff auf Marketo Measurement Support {#granting-salesforce-access-to-marketo-measure-support}
+# Gewährung [!DNL Salesforce] Zugriff auf Marketo Measure-Support {#granting-salesforce-access-to-marketo-measure-support}
 
 In einigen Fällen [!DNL Marketo Measure] Support kann Zugriff auf Ihre [!DNL Salesforce] -Umgebung zur Unterstützung der Diagnose-Fehlerbehebung oder der Salesforce-Konfiguration während der Implementierung.
 
@@ -28,12 +28,12 @@ Je nach Organisation kann die [!UICONTROL Einrichtung] wird entweder oben rechts
 
    * Klicken Sie auf `<your name>` > **[!UICONTROL Meine Einstellungen]** > **[!UICONTROL Persönlich]** > **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
 
-1. Legen Sie das Zugriffsablaufdatum für fest. [!UICONTROL Marketo Measurement-Unterstützung]. Zur technischen Fehlerbehebung wird empfohlen, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche.
+1. Legen Sie das Zugriffsablaufdatum für fest. [!UICONTROL Marketo Measure-Support]. Zur technischen Fehlerbehebung wird empfohlen, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche.
 1. Klicken **[!UICONTROL Speichern]**.
 
 ## Gewähren des Anmeldezugriffs [!DNL Salesforce] Blitze {#granting-login-access-in-salesforce-lightning}
 
 1. Klicken Sie auf Ihren Avatar oben rechts im Bildschirm und wählen Sie **[!UICONTROL Einstellungen]**.
 1. Klicken **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
-1. Legen Sie das Zugriffsablaufdatum für fest.[!UICONTROL Marketo Measurement-Unterstützung].&quot; Zur technischen Fehlerbehebung wird empfohlen, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche.
+1. Legen Sie das Zugriffsablaufdatum für fest.[!UICONTROL Marketo Measure-Support].&quot; Zur technischen Fehlerbehebung wird empfohlen, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche.
 1. Klicken **[!UICONTROL Speichern]**.

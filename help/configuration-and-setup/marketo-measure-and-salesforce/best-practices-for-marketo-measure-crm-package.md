@@ -4,7 +4,7 @@ title: Best Practices für [!DNL Marketo Measure] CRM-Package
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 source-git-commit: 00268f49ff6e5dfc105fa7ea21837375eae49647
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -49,12 +49,12 @@ Andere Gründe dafür könnten Trigger für eine Überprüfung sein...
 
 >[!NOTE]
 >
->Wenn Sie Marketo Measurement deaktivieren, um Daten in Salesforce zu exportieren, werden keine vorhandenen Daten entfernt. Um sie zu entfernen, führen Sie die Schritte unter [dieser Salesforce-Hilfeartikel](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target=&quot;_blank&quot;}.
+>Wenn Sie Marketo Measure deaktivieren, um Daten in Salesforce zu exportieren, werden keine vorhandenen Daten entfernt. Um sie zu entfernen, führen Sie die Schritte unter [dieser Salesforce-Hilfeartikel](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [Aktualisieren des Käufer-Touchpoint-Pakets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [[!DNL Marketo Measure] Berechtigungssätze](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 >* [Ordner &quot;Berichte und Dashboards freigeben&quot;](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0)
->* [Marketo-Maßnahme mit Salesforce verbinden](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+>* [Verbinden von Marketo Measure mit Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
 

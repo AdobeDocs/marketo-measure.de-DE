@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] Berichtsvorlage - Tableau"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2324'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Erste Schritte {#getting-started}
 
-Sie können auf die [!DNL Tableau] Berichtsvorlage [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}.
+Sie können auf die [!DNL Tableau] Berichtsvorlage [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Öffnen Sie die [!DNL Adobe Marketo] Messen Sie die Reporting-Vorlage Tableau-Arbeitsmappen-Datei.
 
@@ -23,7 +23,7 @@ Sie müssen die vorhandenen Verbindungsdaten auf Ihre spezifischen Snowflake-Ver
 
 ## Datenverbindung {#data-connection}
 
-Sie müssen eine Datenverbindung zu Ihrer Snowflake-Instanz einrichten. Dazu benötigen Sie den Servernamen sowie Ihren Benutzernamen und Ihr Passwort. Details darüber, wo Sie diese Informationen finden und Ihr Passwort zurücksetzen können, werden bei Bedarf dokumentiert. [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+Sie müssen eine Datenverbindung zu Ihrer Snowflake-Instanz einrichten. Dazu benötigen Sie den Servernamen sowie Ihren Benutzernamen und Ihr Passwort. Details darüber, wo Sie diese Informationen finden und Ihr Passwort zurücksetzen können, werden bei Bedarf dokumentiert. [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -109,7 +109,7 @@ Die andere Option besteht darin, die Spalten direkt im [!DNL Tableau] Tabelle.
 
 Klicken Sie auf das folgende Bild, um die Vollversion zu erhalten.
 
-[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target="_blank"}
 
 ### Beziehungen und Datenfluss {#relationships-and-data-flow}
 
@@ -152,7 +152,7 @@ Definitionen wurden zum [!DNL Tableau model] für Parameter, benutzerdefinierte 
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-So zeigen Sie Definitionen für Spalten an, die direkt von [!DNL Snowflake], siehe [Data Warehouse-Dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}.
+So zeigen Sie Definitionen für Spalten an, die direkt von [!DNL Snowflake], siehe [Data Warehouse-Dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Diskrepanzen zwischen Vorlagen und Discover {#discrepancies-between-templates-and-discover}
 

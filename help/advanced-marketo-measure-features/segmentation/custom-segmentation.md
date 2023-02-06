@@ -5,7 +5,7 @@ title: Benutzerdefinierte Segmentierung
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Bevor Sie diese Funktion verwenden, sollten Sie herausfinden, nach welchen Touch
 
 Schritt 2: Anmelden und Suchen Sie die Funktion Segmente .
 
-* Navigieren Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} und sich anmelden
+* Navigieren Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} und sich anmelden
 * Unter dem [!UICONTROL Mein Konto] Registerkarte, wählen Sie [!UICONTROL Einstellungen]
 * Auswählen [!UICONTROL Segmente] aus den Optionen auf der Seitenleiste nach links, unter der [!UICONTROL Berichterstellung] Abschnitt
 

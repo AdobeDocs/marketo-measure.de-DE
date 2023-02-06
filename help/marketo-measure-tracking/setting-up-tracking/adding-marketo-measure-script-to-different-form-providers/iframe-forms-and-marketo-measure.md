@@ -5,7 +5,7 @@ title: IFrame Forms und [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
 source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Es wird empfohlen, das JavaScript im Kopfbereich des IFrame zu platzieren. Von d
 
 ![](assets/1-1.png)
 
-Wenn Sie Fragen zum Hinzufügen von JavaScript zu IFrame-Formularen haben, wenden Sie sich an Ihren Kundenbetreuer oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Wenn Sie Fragen zum Hinzufügen von JavaScript zu IFrame-Formularen haben, wenden Sie sich an Ihren Kundenbetreuer oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

@@ -128,7 +128,7 @@ _Wird verwendet in: Übersicht, Web-Traffic, CMO, Paid Media, Content Marketing_
 
 Es gibt zwei verschiedene Metrikwähler, die auf verschiedenen Pinnwänden verwendet werden. Die Metrikauswahl ändert die Kennzahl in einem Diagramm, sodass Sie z. B. zwischen Umsatz, Ausgaben oder Impressionen wechseln können.
 
-Auf den Übersichts- und CMO-Pinnwänden finden Sie eine gekürzte Liste von Werten im Zusammenhang mit ROI-Metriken:
+Auf den Übersichts- und CMO-Pinnwänden finden Sie eine gekürzte Liste von Werten für ROI-Metriken:
 
 * Umsatz
 * Ausgaben

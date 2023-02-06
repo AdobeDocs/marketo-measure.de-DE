@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874570
-description: Marketo Measurement Framework - Marketo-Maßnahme - Produktdokumentation
-title: Marketo Measurement Framework
+description: Marketo Measure Framework - Marketo Measure - Produktdokumentation
+title: Marketo Measure Framework
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 source-git-commit: 7eb5ef616e3ae77d53056496f9a1b301ce59d6ee
 workflow-type: tm+mt
@@ -10,34 +10,34 @@ ht-degree: 0%
 
 ---
 
-# Marketo Measurement Framework {#marketo-measure-framework}
+# Marketo Measure Framework {#marketo-measure-framework}
 
-Erfahren Sie mehr über die vier Hauptkomponenten des Marketo Measurement-Frameworks. Marketo Measurement nutzt diese Anwendungen zum Tracking, Organisieren und Verwalten von Daten sowie zur Bereitstellung von Berichtsfunktionen. Die vier Bestandteile des Marketo-Maßnahmenrahmens sind:
+Erfahren Sie mehr über die vier Hauptkomponenten des Marketo Measure-Frameworks. Marketo Measure verlässt sich bei der Verfolgung, Organisation und Speicherung von Daten sowie bei der Bereitstellung von Berichtsfunktionen auf diese Anwendungen. Die vier Komponenten des Marketo Measure-Frameworks sind:
 
-* JavaScript von Marketo Measurement
+* JavaScript von Marketo Measure
 * CRM-Integrationen
 * Anwendungen/Systeme von Drittanbietern
-* Marketo Measurement Application
+* Marketo Measure-Anwendung
 
 ## Marketo Measure JavaScript {#marketo-measure-javascript}
 
-Das Marketo Measure JavaScript verfolgt alle Online-Marketing-Interaktionen, auch Touchpoints genannt, die Interessenten/Leads mit Ihrem Unternehmen haben. Es handelt sich um ein benutzerdefiniertes Skript, das vor dem schließenden `</head>` -Tags auf jeder Seite Ihrer Website.
+Das Marketo Measure-JavaScript verfolgt alle Online-Marketing-Interaktionen, auch Touchpoints genannt, die Interessenten/Leads mit Ihrem Unternehmen haben. Es handelt sich um ein benutzerdefiniertes Skript, das vor dem schließenden `</head>` -Tags auf jeder Seite Ihrer Website.
 
 `<script type="text/javascript" src="//[cdn.bizible.com/scripts/bizible.js](http://cdn.bizible.com/scripts/bizible.js)" async=""></script>`
 
 >[!NOTE]
 >
->Anweisungen zum Hinzufügen des Marketo Measurement JS finden Sie unter [Hier klicken](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
+>Anweisungen zum Hinzufügen des Marketo Measure-JS finden Sie unter [Hier klicken](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
-Das JS von Marketo Measurement erfasst Daten von Webbesuchen (einschließlich anonymer Webbesuche), allgemeiner Traffic-/Seitennavigation, Inhaltsdownloads und Formularübermittlungen. Diese Daten werden in Ihr CRM-System übertragen und jede Marketing-Interaktion wird als Touchpoint angezeigt.
+Das JS von Marketo Measure erfasst Daten von Webbesuchen (einschließlich anonymer Webbesuche), allgemeiner Traffic-/Seitennavigation, Inhaltsdownloads und Formularübermittlungen. Diese Daten werden in Ihr CRM-System übertragen und jede Marketing-Interaktion wird als Touchpoint angezeigt.
 
 ## CRM-Integrationen {#crm-integrations}
 
-Marketo Measurement kann in CRMs integriert werden, um alle Daten zu speichern und zu organisieren, die von Marketo Measurement JS erfasst werden. Derzeit verfügt Marketo Measurement über API-Integrationen mit zwei CRMs:
+Marketo Measure kann in CRMs integriert werden, um alle Daten zu speichern und zu organisieren, die von Marketo Measure JS erfasst werden. Derzeit verfügt Marketo Measure über API-Integrationen mit zwei CRMs:
 
 ![](assets/1-2.png)
 
-Durch das Aufrufen von Marketo Measure -Daten in Ihrem CRM-System können Sie die detaillierten Informationen zu jedem Touchpoint anzeigen und Berichte generieren, um die Leistung Ihrer Kanäle zu verstehen.
+Indem Sie Marketo Measure-Daten in Ihrem CRM-System aufrufen, können Sie die detaillierten Informationen zu jedem Touchpoint anzeigen und Berichte generieren, um die Leistung Ihrer Kanäle zu verstehen.
 
 ## Drittanbieteranwendungen {#third-party-applications}
 
@@ -45,15 +45,15 @@ Die meisten Marketing-Experten sind für ihre Marketing-Maßnahmen auf einige ve
 
 ![](assets/2-1.png)
 
-Wenn Sie Marketingbemühungen mit den oben genannten Anwendungen ausführen, können Sie diese Konten mit Ihrem Marketo Measurement-Konto verknüpfen. Dies ermöglicht das einfache Tracking und die Übertragung von Daten an Ihr Marketo Measurement-Konto.
+Wenn Sie Marketingbemühungen mit den oben genannten Anwendungen ausführen, können Sie diese Konten mit Ihrem Marketo Measure-Konto verknüpfen. Dies ermöglicht das einfache Tracking und die Übertragung von Daten an Ihr Marketo Measure-Konto.
 
-## Marketo Measurement Application {#marketo-measure-application}
+## Marketo Measure-Anwendung {#marketo-measure-application}
 
-Die Marketo Measurement-Anwendung wird verwendet, um Ihre Attributionsdaten anzuzeigen und darüber zu berichten, Kontoeinstellungen zu konfigurieren und Kontoinformationen zu aktualisieren. Die Hauptmenüelemente der Marketo Measurement App sind:
+Die Marketo Measure-Anwendung wird verwendet, um Ihre Attributionsdaten anzuzeigen und darüber zu berichten, Kontoeinstellungen zu konfigurieren und Kontoinformationen zu aktualisieren. Zu den Hauptmenüelementen im Marketo Measure-Programm gehören:
 
 **Kontokonfiguration**
 
-Hier können Sie die allgemeinen Informationen Ihres Unternehmens aktualisieren und auf das Marketo Measure JavaScript zugreifen.
+Hier können Sie die allgemeinen Informationen Ihres Unternehmens aktualisieren und auf das Marketo Measure-JavaScript zugreifen.
 
 **Einstellungen**
 

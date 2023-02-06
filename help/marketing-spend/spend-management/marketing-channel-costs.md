@@ -5,14 +5,14 @@ title: Marketingkanal-Kosten
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1297'
 ht-degree: 1%
 
 ---
 
 # Marketingkanal-Kosten {#marketing-channel-costs}
 
-Einer der grundlegendsten Vorteile der Verwendung von [!DNL Marketo Measure] ist die Möglichkeit, Marketing-Maßnahmen direkt mit den Auswirkungen auf den Umsatz zu verbinden - mit so hoher Granularität wie gewünscht. Es ist möglich, die Kapitalrendite auf der Touchpoint-Ebene zu sehen. Um diesen Nutzen nutzen zu können, müssen die Kanalkosten einfach in die [!DNL Marketo Measure] App. ROI-Berichte werden automatisch erstellt und stehen im **Marketing-ROI-Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+Einer der grundlegendsten Vorteile der Verwendung von [!DNL Marketo Measure] ist die Möglichkeit, Marketing-Maßnahmen direkt mit den Auswirkungen auf den Umsatz zu verbinden - mit so hoher Granularität wie gewünscht. Es ist möglich, die Kapitalrendite auf der Touchpoint-Ebene zu sehen. Um diesen Nutzen nutzen zu können, müssen die Kanalkosten einfach in die [!DNL Marketo Measure] App. ROI-Berichte werden automatisch erstellt und stehen im **Marketing-ROI-Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Klicken Sie hier , um direkt zu den Anweisungen zu navigieren.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 

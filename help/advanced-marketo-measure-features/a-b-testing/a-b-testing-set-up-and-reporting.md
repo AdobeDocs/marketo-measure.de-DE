@@ -5,18 +5,18 @@ title: Einrichten und Reporting von A/B-Tests
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
 
 # Einrichten und Reporting von A/B-Tests {#a-b-testing-set-up-and-reporting}
 
-Die [!DNL Marketo Measure] Mit der A/B-Test-Integration können Sie die Auswirkungen Ihrer [Optimizely](https://optimizely.com/){target=&quot;_blank&quot;} und VWO-Site-Experimente. In diesem Artikel finden Sie Anweisungen zum Hinzufügen von [!DNL Marketo Measure] Abschnitte A/B-Tests zum Lead, [!UICONTROL Kontakt], Groß-/Kleinschreibung und [!UICONTROL Chancen] Seitenlayouts. Wir werden auch allgemeine Berichtspraktiken und Empfehlungen für die Ausführung von [!DNL Marketo Measure] A/B-Berichtstypen.
+Die [!DNL Marketo Measure] Mit der A/B-Test-Integration können Sie die Auswirkungen Ihrer [Optimizely](https://optimizely.com/){target="_blank"} und VWO-Site-Experimente. In diesem Artikel finden Sie Anweisungen zum Hinzufügen von [!DNL Marketo Measure] Abschnitte A/B-Tests zum Lead, [!UICONTROL Kontakt], Groß-/Kleinschreibung und [!UICONTROL Chancen] Seitenlayouts. Wir werden auch allgemeine Berichtspraktiken und Empfehlungen für die Ausführung von [!DNL Marketo Measure] A/B-Berichtstypen.
 
 ## Einrichten {#set-up}
 
-Fügen Sie die [!DNL Marketo Measure] Abschnitte zu A/B-Tests zu Lead, Kontakt, Fall und Chancen. [!DNL Marketo Measure] Mit der A/B-Test-Integration können Sie die Auswirkungen Ihrer [Optimizely](https://optimizely.com/){target=&quot;_blank&quot;} und [VWO](https://vwo.com/){target=&quot;_blank&quot;} Site-Experimente.
+Fügen Sie die [!DNL Marketo Measure] Abschnitte zu A/B-Tests zu Lead, Kontakt, Fall und Chancen. [!DNL Marketo Measure] Mit der A/B-Test-Integration können Sie die Auswirkungen Ihrer [Optimizely](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} Site-Experimente.
 
 1. Überprüfen der Verwendung des Pakets [!DNL Marketo Measure] v3.9 oder höher. Gehen Sie dazu wie folgt vor: [!UICONTROL Salesforce] >[!UICONTROL Einrichten] > [!UICONTROL Installierte Packages].
 1. Bearbeiten Sie das Layout der Lead-Seite und fügen Sie die **[!DNL Marketo Measure]A/B-Tests** Zugehörige Liste der Seiten.
@@ -31,7 +31,7 @@ Fügen Sie die [!DNL Marketo Measure] Abschnitte zu A/B-Tests zu Lead, Kontakt, 
 
    ![](assets/3.png)
 
-1. Wenden Sie sich an [!DNL Marketo Measure] rep oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}, um die Funktion zu aktivieren.
+1. Wenden Sie sich an [!DNL Marketo Measure] rep oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} , um die Funktion zu aktivieren.
 
 ## Berichterstellung {#reporting}
 

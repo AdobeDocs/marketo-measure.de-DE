@@ -66,13 +66,13 @@ Es wird empfohlen, [!DNL Marketo Measure] Felder zu Ihrer SFDC-Kampagne hinzu, n
    >
    >Wählen Sie für jeden dieser Abschnitte das Format &quot;eine Spalte&quot; aus.
 
-1. Ziehen Sie die **[!UICONTROL Marketo-Liste zum Messen von Interessenten]** VisualForce-Seite in den Abschnitt mit dem Seitenlayout einfügen.
+1. Ziehen Sie die **[!UICONTROL Marketo Measure Lead-bezogene Liste]** VisualForce-Seite in den Abschnitt mit dem Seitenlayout einfügen.
 
    ![](assets/5-1.png)
 
 1. Klicken Sie auf das Schraubenschlüssel im [!DNL VisualForce] und ändern Sie die Höhe in 100 und aktivieren Sie Bildlaufleisten.
 
-1. Wählen Sie im Menü die Option [!UICONTROL Leinwandanwendungen] und erstellen Sie einen neuen Abschnitt namens &quot;Marketo Measurement Insights&quot;unter den Touchpoints. [!DNL VisualForce] -Abschnitt, den Sie gerade erstellt haben.
+1. Wählen Sie im Menü die Option [!UICONTROL Leinwandanwendungen] und erstellen Sie einen neuen Abschnitt mit dem Namen &quot;Marketo Measure Insights&quot;unter den Touchpoints. [!DNL VisualForce] -Abschnitt, den Sie gerade erstellt haben.
 
    >[!NOTE]
    >

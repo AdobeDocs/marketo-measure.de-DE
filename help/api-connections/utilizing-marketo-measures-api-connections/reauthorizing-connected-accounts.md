@@ -5,7 +5,7 @@ title: Erneutes Autorisieren von Connected Accounts
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Wenn die Verbindung zwischen Ihrer CRM-Plattform getrennt wird, [!DNL Marketo Me
 
 ## Erneutes Autorisieren von getrennten Konten {#re-authorizing-disconnected-accounts}
 
-1. Navigieren Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} und melden Sie sich an.
+1. Navigieren Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} und melden Sie sich an.
 1. Auswählen **[!UICONTROL Einstellungen]** unter [!UICONTROL Mein Konto] in der oberen linken Ecke.
 1. Suchen Sie links den Abschnitt Integrationen und klicken Sie auf **[!UICONTROL Verbindungen]**.
 1. Wählen Sie neben dem Konto, das neu verbunden werden soll, das Symbol für den roten Schlüssel aus.

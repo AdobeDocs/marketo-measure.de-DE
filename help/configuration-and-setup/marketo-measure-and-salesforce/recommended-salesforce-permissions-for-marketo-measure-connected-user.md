@@ -5,7 +5,7 @@ title: Empfohlen [!DNL Salesforce] Berechtigungen für [!DNL Marketo Measure] Co
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,4 @@ Wenn der dedizierte Benutzer keinen Zugriff auf Leads in Warteschlangen hat, kan
 
 Die Sicherheit auf Feldebene und die Barrierefreiheit der Felder sind miteinander verbunden, weisen jedoch einige wesentliche Unterschiede auf. Die Sicherheit auf Feldebene definiert die Sichtbarkeit des Felds für ein bestimmtes Profil, während die Barrierefreiheit des Felds anhand der Sicherheitskonfiguration auf Feldebene und der Seitenlayoutkonfiguration bestimmt, ob ein Feld bearbeitbar ist. Verwenden der [!DNL Marketo Measure] -Berechtigungssätze des Pakets erhalten Sie die erforderlichen Sicherheitseinstellungen für Feldobjekte. In einigen Fällen muss der verbundene Benutzer über die [!DNL Marketo Measure] -Felder in den Seitenlayouts. [!DNL Marketo Measure] -Felder im Layout ermöglichen die [!DNL Marketo Measure] Daten, die zugeordnet werden sollen [!DNL Salesforce]. Dies hängt von Ihrem jeweiligen [!DNL Salesforce] Umgebung.
 
-Die [!DNL Salesforce] hat individuelle Bedürfnisse, aber wir stellen Ihnen unsere Anforderungen, um [!DNL Marketo Measure] Zugriffsanforderungen mit Ihren Sicherheitsprotokollen. Zögern Sie nicht, Kontakt aufzunehmen zu [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Die [!DNL Salesforce] hat individuelle Bedürfnisse, aber wir stellen Ihnen unsere Anforderungen, um [!DNL Marketo Measure] Zugriffsanforderungen mit Ihren Sicherheitsprotokollen. Zögern Sie nicht, Kontakt aufzunehmen zu [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

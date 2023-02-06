@@ -4,7 +4,7 @@ title: Datenschutzanfragen
 exl-id: 883e475f-9868-412a-b505-230556f38484
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -15,14 +15,14 @@ Dieses Dokument bietet einen Überblick über die Verwaltung von Datenschutzanfr
 
 Sie können einzelne Anfragen zum Zugriff auf und zum Löschen von Verbraucherdaten aus senden [!DNL Marketo Measure] auf zwei Arten:
 
-* Durch die [[!DNL Privacy Service] Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=&quot;_blank&quot;}.
-* Durch die **[!DNL Privacy Service]API**. Weitere Informationen finden Sie in der Dokumentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=&quot;_blank&quot;} und der API-Referenz [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target=&quot;_blank&quot;}.
+* Durch die [[!DNL Privacy Service] Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Durch die **[!DNL Privacy Service]API**. Weitere Informationen finden Sie in der Dokumentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-Die [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;} unterstützt zwei Anforderungstypen: Datenzugriff und Datenlöschung.
+Die [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} unterstützt zwei Arten von Anforderungen: Datenzugriff und Datenlöschung.
 
 Im Folgenden wird beschrieben, wie Sie Zugriffs- und Löschanfragen erstellen können.
 
-## Erforderliche Einrichtung zum Senden von Anfragen für Marketo-Maßnahmen {#required-setup-to-send-requests-for-marketo-measure}
+## Erforderliche Einrichtung zum Senden von Anforderungen an Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
 So stellen Sie Anfragen zum Zugreifen auf und Löschen von Daten für [!DNL Marketo Measure]müssen Sie:
 

@@ -1,7 +1,7 @@
 ---
 unique-page-id: 35586069
-description: Gewährleisten der Zustimmung zur DSGVO in Marketo Measurement JS - Marketo Measurement - Produktdokumentation
-title: Sicherstellen der Zustimmung zur DSGVO in Marketo Measurement JS
+description: Sicherstellen der Zustimmung für die DSGVO in Marketo Measure JS - Marketo Measure - Produktdokumentation
+title: Sicherstellen der Zustimmung zur DSGVO in Marketo Measure JS
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 source-git-commit: c7d3bbce1f0c6a99409822c06c43961c93cd9458
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Sicherstellen der Zustimmung zur DSGVO in Marketo Measurement JS {#ensuring-consent-for-gdpr-in-marketo-measure-js}
+# Sicherstellen der Zustimmung zur DSGVO in Marketo Measure JS {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 Die Datenschutz-Grundverordnung (DSGVO) ist eine EU-Rechtsvorschrift, die am 25. Mai 2018 in Kraft getreten ist.
 

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874566
-description: Marketing-Attribution - Marketo-Maßnahme - Produktdokumentation
+description: Marketing Attribution - Marketo Measure - Produktdokumentation
 title: Marketing-Zuordnung
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
@@ -12,9 +12,9 @@ ht-degree: 7%
 
 # Marketing-Zuordnung {#marketing-attribution}
 
-## Willkommen bei der Marketo-Maßnahme {#welcome-to-marketo-measure}
+## Willkommen bei Marketo Measure {#welcome-to-marketo-measure}
 
-Marketo Measure gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen. Marketo Measurement ist eine Marketing-Attributionslösung, die automatisch die Kanalleistung verfolgt und in Berichten aufzeigt, welche Kanäle die Kundeninteraktion am meisten fördern und es Ihnen ermöglicht, Ihre Marketing-Ausgaben entsprechend zu optimieren.
+Marketo Measure gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen. Marketo Measure ist eine Marketing-Attributionslösung, die die Kanalleistung automatisch verfolgt und in Berichten aufzeigt, welche Kanäle die Kundeninteraktion am meisten fördern und Ihnen die Möglichkeit gibt, Ihre Marketing-Ausgaben entsprechend zu optimieren.
 
 ## Marketing-Zuordnung {#marketing-attribution-1}
 
@@ -24,7 +24,7 @@ Marketo Measure gibt Marketing-Experten einen Einblick, welche Marketing-Maßnah
 
 ![](assets/1.png)
 
-Diese Meilensteinberührungen bilden die Grundlage für die Marketo-Maßnahme **Attributionsmodelle**. Marketo Measure bietet sechs Attributionsmodelle. Jedes Modell konzentriert sich auf verschiedene Phasen der Journey und bietet eine allgemeine Struktur für die Zuweisung von Umsatzguthaben zu Ihren Marketing-Touchpoints. Das Modell, das Sie verwenden, hängt davon ab, welche Phasen des Journey am meisten an der Messung interessiert sind und wie viele Daten Sie melden möchten. Die von Marketo Measurement angebotenen Attributionsmodelle sind:
+Diese Meilensteinberührungen bilden die Grundlage für Marketo Measures **Attributionsmodelle**. Marketo Measure bietet sechs Attributionsmodelle. Jedes Modell konzentriert sich auf verschiedene Phasen der Journey und bietet eine allgemeine Struktur für die Zuweisung von Umsatzguthaben zu Ihren Marketing-Touchpoints. Das Modell, das Sie verwenden, hängt davon ab, welche Phasen des Journey am meisten an der Messung interessiert sind und wie viele Daten Sie melden möchten. Die von Marketo Measure angebotenen Attributionsmodelle sind:
 
 * First Touch
 * Leaderstellung

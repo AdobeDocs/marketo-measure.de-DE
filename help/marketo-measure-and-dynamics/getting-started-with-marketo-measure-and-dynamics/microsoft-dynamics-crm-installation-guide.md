@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874763
-description: "[!DNL Microsoft Dynamics] CRM-Installationsanleitung - Marketo-Maßnahme - Produktdokumentation"
+description: "[!DNL Microsoft Dynamics] CRM-Installationsanleitung - Marketo Measure - Produktdokumentation"
 title: "[!DNL Microsoft Dynamics] CRM-Installationsanleitung"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 source-git-commit: 9de82556ca543aa8e6c53242eacae5c87019886c
@@ -220,4 +220,4 @@ Zur [!DNL Marketo Measure] zur Verfolgung Ihrer Web-Aktivitäten gibt es mehrere
 
    >[!NOTE]
    >
-   >Wenn Sie Marketo Measure (Datenexport nach Dynamics) deaktivieren, werden keine vorhandenen Daten entfernt. Hilfe zum Entfernen vorhandener Daten erhalten Sie beim Dynamics-Support.
+   >Wenn Sie Marketo Measure deaktivieren und Daten nach Dynamics exportieren, werden keine vorhandenen Daten entfernt. Hilfe zum Entfernen vorhandener Daten erhalten Sie beim Dynamics-Support.

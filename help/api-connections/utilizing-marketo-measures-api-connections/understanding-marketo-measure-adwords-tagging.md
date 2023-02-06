@@ -5,7 +5,7 @@ title: Grundlagen [!DNL Marketo Measure] AdWords-Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Dieselbe URL liefert jedoch granulare Daten aufgrund der [!DNL Marketo Measure] 
 **Wenn [!DNL Marketo Measure] findet eine Tracking-Vorlage:**
 
 * [!DNL Marketo Measure] fügt seine Parameter zur Tracking-Vorlage hinzu.
-* Wenn eine Umleitung von Drittanbietern in einer Tracking-Vorlage wie Kenshoo oder Marin gefunden wird, [!DNL Marketo Measure] wird keine Maßnahmen ergreifen. Stattdessen müssen Sie [add [!DNL Marketo Measure] Parameter für das Tool eines Drittanbieters in Ihrem Konto](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* Wenn eine Umleitung von Drittanbietern in einer Tracking-Vorlage wie Kenshoo oder Marin gefunden wird, [!DNL Marketo Measure] wird keine Maßnahmen ergreifen. Stattdessen müssen Sie [add [!DNL Marketo Measure] Parameter für das Tool eines Drittanbieters in Ihrem Konto](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 Wenn jedoch keine Tracking-Vorlage gefunden wird, [!DNL Marketo Measure] wird:
 
@@ -40,7 +40,7 @@ Wenn jedoch keine Tracking-Vorlage gefunden wird, [!DNL Marketo Measure] wird:
 
 ## Tracking-Vorlagen {#tracking-templates}
 
-Wie von [!DNL Google AdWords], ist eine Tracking-Vorlage die URL, mit der eine Landingpage erreicht wird. Die erfassten Tracking-Informationen werden verwendet, um Ihren Anzeigen-Traffic zu verstehen. [Hier klicken](https://support.google.com/adwords/answer/7197008?hl=en){target=&quot;_blank&quot;} für weitere Informationen von Google.
+Wie von [!DNL Google AdWords], ist eine Tracking-Vorlage die URL, mit der eine Landingpage erreicht wird. Die erfassten Tracking-Informationen werden verwendet, um Ihren Anzeigen-Traffic zu verstehen. [Hier klicken](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} für weitere Informationen von Google.
 
 [!DNL Marketo Measure] empfiehlt die Verwendung einer Tracking-Vorlage auf Kontoebene, Kampagnenebene oder Anzeigengruppenebene, da diese die Addition und Subtraktion von Parametern für alle Anzeigen ermöglicht, ohne dass das Risiko von Unterbrechungen oder Löschungen des Anzeigenverlaufs besteht.
 
@@ -108,6 +108,6 @@ A: 4 Stunden
 
 >[!NOTE]
 >
->Sobald die Änderungen vorgenommen wurden, sind Sie fertig. Sie können gerne Kontakt mit [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}, wenn beim Einrichten Fragen auftreten.
+>Sobald die Änderungen vorgenommen wurden, sind Sie fertig. Sie können gerne Kontakt mit [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} , wenn während der Einrichtung Fragen auftreten.
 
-[Hier klicken](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;} für Anweisungen von Google zum Erstellen von Tracking-Vorlagen auf Kontoebene.
+[Hier klicken](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} Anweisungen von Google zum Erstellen von Tracking-Vorlagen auf Kontoebene.

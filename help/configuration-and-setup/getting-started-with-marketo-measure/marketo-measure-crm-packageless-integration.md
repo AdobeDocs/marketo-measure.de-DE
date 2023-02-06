@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] Integration ohne CRM"
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Um sicherzustellen, dass alle Daten ordnungsgemäß aus Ihrem CRM-System abgeruf
 
 [!DNL Microsoft Dynamics] Kunden, klicken Sie auf [here](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-Sobald Sie alle oben genannten Schritte ausgeführt haben, können Sie loslegen. Wenn Sie auf dem Weg auf Probleme stoßen, wenden Sie sich bitte an Ihren [!DNL Marketo Measure] repräsentativ oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Sobald Sie alle oben genannten Schritte ausgeführt haben, können Sie loslegen. Wenn Sie auf dem Weg auf Probleme stoßen, wenden Sie sich bitte an Ihren [!DNL Marketo Measure] repräsentativ oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >

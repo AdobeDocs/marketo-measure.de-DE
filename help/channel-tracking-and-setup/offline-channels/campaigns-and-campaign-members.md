@@ -5,7 +5,7 @@ title: Kampagnen und Kampagnenmitglieder
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Das Bulk Update Touchpoint Date ist im installierten [!DNL Marketo Measure] [!DN
 
 Wenn eine große Anzahl von Campaign-Mitgliederdatensätzen aktualisiert werden muss, können Sie die [!UICONTROL Touchpoint-Datum für Massenaktualisierung] Schaltfläche zur Massenbearbeitung.
 
-Wenn es eindeutige Anwendungsfälle gibt, die diese Schnittstelle nicht abdeckt, können Sie auch die [Datenlader](https://dataloader.io/){target=&quot;_blank&quot;}, um die Datensätze zu exportieren, die Änderung vorzunehmen und die Datensätze erneut hochzuladen.
+Wenn es eindeutige Anwendungsfälle gibt, die diese Schnittstelle nicht abdeckt, können Sie auch die [Datenlader](https://dataloader.io/){target="_blank"} , um die Datensätze zu exportieren, die Änderung vorzunehmen und die Datensätze erneut hochzuladen.
 
 Suchen Sie zunächst nach den Datensätzen und filtern Sie die Datensätze, für die Sie ein Käufer-Touchpoint-Datum festlegen möchten.
 
@@ -117,7 +117,7 @@ Um dieses Problem zu umgehen, [!DNL Marketo Measure] erstellt [!DNL Marketo Meas
 
 >[!CAUTION]
 >
->Beachten Sie, dass dieser Trigger keine Kampagnenmitglieder verfolgt, die in der Vergangenheit entfernt wurden. Daher funktioniert dies nur in Zukunft. Wenn Sie die Touchpoints einer großen Anzahl von früheren Kampagnenmitgliedern entfernen müssen, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+>Beachten Sie, dass dieser Trigger keine Kampagnenmitglieder verfolgt, die in der Vergangenheit entfernt wurden. Daher funktioniert dies nur in Zukunft. Wenn Sie die Touchpoints einer großen Anzahl von früheren Kampagnenmitgliedern entfernen müssen, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

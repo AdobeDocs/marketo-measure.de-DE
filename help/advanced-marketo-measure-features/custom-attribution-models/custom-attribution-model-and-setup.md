@@ -5,7 +5,7 @@ title: Benutzerdefiniertes Attributionsmodell und -einrichtung
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Die [!DNL Marketo Measure] Mit dem benutzerdefinierten Attributionsmodell könne
 
    Um mit der Erstellung Ihres benutzerdefinierten Attributionsmodells zu beginnen, müssen Sie auswählen, welche Phasen für Ihr Marketing-Team wichtig sind. Zusätzlich zu den [!DNL Marketo Measure] Meilensteine (FT, LC, OC, Closed) können Sie bis zu sechs weitere Lead-/Kontaktstatus- oder Opportunity-Phasen in Ihrem benutzerdefinierten Modell hinzufügen. Beispielsweise ist es üblich, dass die MQL-Bühne in das benutzerdefinierte Modell aufgenommen wird. Marketing-Teams möchten häufig wissen, welche Bemühungen oder Kanäle den Übergang zur MQL-Phase vorantreiben.
 
-   Anmelden bei [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. Navigieren Sie zu [!UICONTROL Mein Konto] > [!UICONTROL Einstellungen] > und wählen Sie im Abschnitt CRM die Option **[!UICONTROL Staging-Zuordnung]**.
+   Anmelden bei [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Navigieren Sie zu [!UICONTROL Mein Konto] > [!UICONTROL Einstellungen] > und wählen Sie im Abschnitt CRM die Option **[!UICONTROL Staging-Zuordnung]**.
 
    Hier müssen Sie auswählen, welche Leads/Kontakte und Opportunity-Phasen eingeschlossen werden sollen, indem Sie die **[!UICONTROL In Modell einschließen]** ankreuzen.
 

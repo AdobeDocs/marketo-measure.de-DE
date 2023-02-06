@@ -5,7 +5,7 @@ title: Best Practices für die Zusammenführung von Leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Wenn mehrere Datensätze mit [!DNL Marketo Measure] müssen Sie sicherstellen, d
 
 Dort sollten Sie die Leads und [!DNL Marketo Measure] Daten werden in den neuen Datensatz übertragen.
 
-Bei Fragen wenden Sie sich bitte an Ihren Customer Success Manager oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Bei Fragen wenden Sie sich bitte an Ihren Customer Success Manager oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 ![](assets/1.jpg)

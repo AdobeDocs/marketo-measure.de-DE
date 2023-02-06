@@ -5,7 +5,7 @@ title: Best Practices zum Einrichten von UTM-Parametern
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 UTM-Parameter eignen sich hervorragend, um Ihre Marketing-Daten zu zerteilen und zu würzen. [!DNL Marketo Measure] verwendet und erfasst alle UTM-Parameter, um Felder in Salesforce und in der [!DNL Marketo Measure] App. Mit diesen Informationen erhalten Sie ein detailliertes Verständnis davon, woher Ihre Leads, Chancen und geschlossenen/gewachten Angebote kommen.
 
-Sie können die [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;}, um Ihre UTM-Parameter einzurichten und sie zu Ihren Links in Ihren Marketing-Maßnahmen hinzuzufügen. Verwenden Sie diese [Google-Tabelle](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;} , wenn Sie eine einfachere Möglichkeit haben möchten, alle UTM-Links zu verfolgen.
+Sie können die [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} , wenn Sie eine einfachere Möglichkeit wünschen, alle UTM-Links zu verfolgen.
 
 ## Hohe Werte für jeden Parameter {#high-level-values-for-each-parameter}
 
@@ -68,4 +68,4 @@ fakewebsite.com/
 
 Beachten Sie, dass Begriffe/Kanäle nicht dupliziert werden und in diesem Fall utm_term nicht verwendet wird.
 
-Wenden Sie sich bei Fragen an Ihren Customer Success Manager oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Wenden Sie sich bei Fragen an Ihren Customer Success Manager oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

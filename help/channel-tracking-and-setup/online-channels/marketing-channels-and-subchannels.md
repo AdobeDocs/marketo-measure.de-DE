@@ -72,7 +72,7 @@ Weitere Beispiele..
 * Doppelklicken
 * Capterra
 * Drip-Kampagnen
-* linkedIn Ads
+* LinkedIn Ads
 
 **Inhalt (Whitepaper, Seiten-URLs, Blog-Beiträge)**
 

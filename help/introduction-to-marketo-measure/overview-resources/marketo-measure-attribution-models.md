@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874568
-description: Marketo Measurement Attribution Models - Marketo Measurement - Produktdokumentation
-title: Marketo-Attributionsmodelle messen
+description: Marketo Measure-Attributionsmodelle - Marketo Measure - Produktdokumentation
+title: Marketo Measure-Attributionsmodelle
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
 workflow-type: tm+mt
@@ -10,9 +10,9 @@ ht-degree: 2%
 
 ---
 
-# Marketo-Attributionsmodelle messen {#marketo-measure-attribution-models}
+# Marketo Measure-Attributionsmodelle {#marketo-measure-attribution-models}
 
-Marketo Measurement bietet sechs Arten von Attributionsmodellen:
+Marketo Measure bietet sechs Arten von Attributionsmodellen:
 
 * First Touch
 * Leaderstellung
@@ -21,7 +21,7 @@ Marketo Measurement bietet sechs Arten von Attributionsmodellen:
 * Vollständiger Pfad
 * Benutzerdefiniertes Modell
 
-Diese Modelle sind unterschiedlich komplex. First Touch und Lead Creation sind unsere einfachen Single Touch Modelle. Die restlichen vier sind unsere komplexeren Multitouch-Modelle. Die Struktur der Attributionsmodelle von Marketo Measurement spiegelt die vier wichtigsten Touchpoints wider, die auf der Journey des Kunden auftreten:
+Diese Modelle sind unterschiedlich komplex. First Touch und Lead Creation sind unsere einfachen Single Touch Modelle. Die restlichen vier sind unsere komplexeren Multitouch-Modelle. Die Struktur der Attributionsmodelle von Marketo Measure spiegelt die vier wichtigsten Touchpoints wider, die auf der Journey des Kunden auftreten:
 
 * First Touch (FT)
 * Lead Creation (LC)
@@ -69,7 +69,7 @@ Kates erster Besuch bei www.adobe.com über eine AdWords-Website würde 50 % des
 
 Drei der Meilenstein-Touchpoints sind im W-förmigen Modell enthalten. In diesem Modell werden den Touchpoints FT, LC und OC jeweils 30 % des Attributionskredits zugeordnet. Die verbleibenden 10 % werden proportional zu allen zwischengeschalteten Touchpoints zugeordnet, die zwischen den drei Meilenstein-Touchpoints auftreten.
 
-Kate und Austin erwähnen Marketo Measure ihrem Mitarbeiter, Hillary. Sie findet einen Inhalt durch eine Google-Suche und füllt ein Formular aus. Später erhält Austin eine E-Mail für eine Webinar-Registrierung und füllt das Registrierungsformular auf der Website aus. Kate führt mit einem Vertriebsmitarbeiter ein Gespräch über das Marketo Measure-Produkt.
+Kate und Austin erwähnen Marketo Measure zu ihrem Kollegen Hillary. Sie findet einen Inhalt durch eine Google-Suche und füllt ein Formular aus. Später erhält Austin eine E-Mail für eine Webinar-Registrierung und füllt das Registrierungsformular auf der Website aus. Kate unterhält sich mit einem Vertriebsmitarbeiter über das Marketo Measure-Produkt.
 
 Hillary erhält eine E-Mail mit einem Link zur Preisseite und besucht die Seite. Anschließend wird eine Chance für ihr Konto erstellt. Der Webbesuch von Hillary auf der Preisseite erhält die Gutschrift für die Opportunity-Erstellung, da es sich um die am nächsten gelegene Marketing-Interaktion zum Erstellungsdatum der Opportunity handelte. Jedem Meilenstein-Touchpoint werden 30 % des Attributionskredits zugewiesen, und den Zwischen-Touchpoints werden die verbleibenden 10 % zugeordnet.
 
@@ -79,10 +79,10 @@ Hillary erhält eine E-Mail mit einem Link zur Preisseite und besucht die Seite.
 
 Das vollständige Pfadmodell umfasst alle vier Meilensteinkontaktpunkte. FT, LC, OC und CW erhalten jeweils 22,5 % des Einnahmenkredits, und die verbleibenden 10 % werden zu gleichen Teilen auf die zwischengeschalteten Personen verteilt.
 
-Nach der Schaffung dieser Möglichkeiten entscheiden sich Kate, Austin und Hillary, Marketo Measure ihrer CMO, Elizabeth, zu überlassen. Elizabeth nimmt an einer Konferenz teil, auf der Marketo Measure eine Veranstaltung veranstaltet. Kate sieht einen LinkedIn-Beitrag zu einer Fallstudie und füllt ein Formular aus, um den Inhalt herunterzuladen. Elizabeth nimmt an einem Verkaufsabendessen teil, das von Marketo Measure veranstaltet wird. Nach dem Abendessen beschließt sie, Marketo Measure zu erwerben und wird Kunde. In diesem Szenario würde das Abendessen für Verkäufe 22,5 % des Umsatzkredits aus dem geschlossenen Geschäft zugeordnet. Die Touchpoints FT, LC und OC erhalten ebenfalls jeweils 22,5 % des Kredits. Den zwischengeschalteten Touchpoints werden ebenfalls die verbleibenden 10 % des Umsatzkredits zugewiesen.
+Nach der Schaffung dieser Gelegenheit entscheiden sich Kate, Austin und Hillary, Marketo Measure ihrer CMO, Elizabeth, vorzustellen. Elizabeth nimmt an einer Konferenz teil, auf der Marketo Measure eine Veranstaltung veranstaltet. Kate sieht einen LinkedIn-Beitrag zu einer Fallstudie und füllt ein Formular aus, um den Inhalt herunterzuladen. Elizabeth nimmt an einem Verkaufsabend teil, das von Marketo Measure veranstaltet wird. Nach dem Abendessen entscheidet sie sich für den Kauf von Marketo Measure und wird Kunde. In diesem Szenario würde das Abendessen für Verkäufe 22,5 % des Umsatzkredits aus dem geschlossenen Geschäft zugeordnet. Die Touchpoints FT, LC und OC erhalten ebenfalls jeweils 22,5 % des Kredits. Den zwischengeschalteten Touchpoints werden ebenfalls die verbleibenden 10 % des Umsatzkredits zugewiesen.
 
 ![](assets/6.png)
 
 **Benutzerdefiniertes Attributionsmodell**
 
-Marketo Measurement bietet außerdem ein Custom Attribution-Modell, mit dem Benutzer auswählen können, welche Touchpoints oder benutzerdefinierten Bühnen in ihr Modell aufgenommen werden sollen. Darüber hinaus können Benutzer den Prozentsatz der Attributionszuweisung steuern, der diesen Touchpoints und Bühnen zugeordnet ist.
+Marketo Measure bietet außerdem ein Custom Attribution-Modell, mit dem Benutzer auswählen können, welche Touchpoints oder benutzerdefinierten Bühnen in ihr Modell aufgenommen werden sollen. Darüber hinaus können Benutzer den Prozentsatz der Attributionszuweisung steuern, der diesen Touchpoints und Bühnen zugeordnet ist.

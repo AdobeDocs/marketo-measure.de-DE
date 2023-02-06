@@ -5,7 +5,7 @@ title: Kosten für CRM-Kampagnen
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Nachdem eine Kampagne aus dem CRM importiert wurde, wird sie einem API Ads Provi
 
 **Ich habe das Start- und Enddatum sowie die Kosten ausgefüllt, aber warum werden meine Kosten immer noch nicht angezeigt? [!DNL Marketo Measure]?**
 
-Vergewissern Sie sich, dass entweder der Wert &quot;Käufer-Touchpoint aktivieren&quot;auf &quot;Alle Campaign-Mitglieder einschließen&quot;oder zumindest auf &quot;Respondierte Kampagnenmitglieder einschließen&quot;gesetzt ist oder dass Sie eine benutzerdefinierte Kampagnensynchronisierungsregel erstellt haben, die diese Kampagne enthält. Wenn Sie dies bestätigt haben und die Kampagne immer noch nicht sehen, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}, damit wir überprüfen können, ob Ihre Kampagnen ordnungsgemäß importiert werden.
+Vergewissern Sie sich, dass entweder der Wert &quot;Käufer-Touchpoint aktivieren&quot;auf &quot;Alle Campaign-Mitglieder einschließen&quot;oder zumindest auf &quot;Respondierte Kampagnenmitglieder einschließen&quot;gesetzt ist oder dass Sie eine benutzerdefinierte Kampagnensynchronisierungsregel erstellt haben, die diese Kampagne enthält. Wenn Sie dies bestätigt haben und die Kampagne immer noch nicht sehen, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} damit wir überprüfen können, ob Ihre Kampagnen ordnungsgemäß importiert werden.
 
 **Ich muss die Verteilung meiner Kampagne ändern, damit ich sie in bestimmten Monaten schwerer wiegen kann. Wie mache ich das?**
 

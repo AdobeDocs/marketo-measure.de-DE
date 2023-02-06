@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] Wartung"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Aktualisieren Sie Ihren Speicher, um Informationen zum Hochladen von Kosteninfor
 
 **Liste der nachzuverfolgenden Domänen aktualisieren (1x/Monat)**
 
-Marketo Measurement verfolgt alle Seiten und Subdomänen, auf denen unser JavaScript aktiv ist, aber nur für Domänen, über die wir Bescheid wissen. Wenn Sie kürzlich eine neue Domäne deklariert, international erweitert oder Ihre primäre Domäne geändert haben, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}, um sicherzustellen, dass wir Ihr Konto entsprechend aktualisieren.
+Marketo Measure verfolgt alle Seiten und Subdomänen, auf denen unser JavaScript aktiv ist, aber nur für Domänen, über die wir Bescheid wissen. Wenn Sie kürzlich eine neue Domäne deklariert, international erweitert oder Ihre primäre Domäne geändert haben, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} um sicherzustellen, dass wir Ihr Konto entsprechend aktualisieren.
 
 **Überprüfen Sie die Zuordnung benutzerdefinierter Kanäle auf Genauigkeit (1x/Monat).**
 
-Beim Onboarding richten Sie ein benutzerdefiniertes Kanal-Mapping für Ihre Online- und Offline-Marketing-Maßnahmen ein. Wenn sich Ihre Marketing-Strategie und Ihre Verwendung von Marketo Measurement weiterentwickeln, sollten Sie diese Zuordnungslogik im Auge behalten, um sicherzustellen, dass alle Touchpoints angemessen kategorisiert werden.
+Beim Onboarding richten Sie ein benutzerdefiniertes Kanal-Mapping für Ihre Online- und Offline-Marketing-Maßnahmen ein. Wenn sich Ihre Marketing-Strategie und Ihre Verwendung von Marketo Measure weiterentwickeln, sollten Sie diese Zuordnungslogik im Auge behalten, um sicherzustellen, dass alle Touchpoints angemessen kategorisiert werden.
 
 Denken Sie daran, [!DNL Marketo Measure] verarbeitet Ihre Daten bei der Bearbeitung der Zuordnungslogik neu, sodass Sie diese Regeln nicht öfter als alle 7 Tage ändern können.
 

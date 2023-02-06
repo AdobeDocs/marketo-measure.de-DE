@@ -1,11 +1,11 @@
 ---
 unique-page-id: 18874562
-description: PostLC-Touchpoints und Lead-Interaktion - Marketo-Messung - Produktdokumentation
+description: PostLC-Touchpoints und Lead-Interaktion - Marketo Measure - Produktdokumentation
 title: PostLC-Touchpoints und Lead-Interaktion
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Um die PostLC-Touchpoint-Einstellungen für Leads oder Kontakte anzupassen, folg
 
 **Leads**
 
-1. Melden Sie sich bei Ihrer [!DNL Marketo Measure] Konto unter [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} und navigieren Sie zu [!UICONTROL Einstellungen].
+1. Melden Sie sich bei Ihrer [!DNL Marketo Measure] Konto unter [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} und gehen Sie zu [!UICONTROL Einstellungen].
 
 1. Wählen Sie unter CRM die Option **[!UICONTROL Leads]**.
 
@@ -46,7 +46,7 @@ Um die PostLC-Touchpoint-Einstellungen für Leads oder Kontakte anzupassen, folg
 
 **Kontakte**
 
-1. Melden Sie sich bei Ihrer [!DNL Marketo Measure] Konto unter [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} und navigieren Sie zu [!UICONTROL Einstellungen].
+1. Melden Sie sich bei Ihrer [!DNL Marketo Measure] Konto unter [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} und gehen Sie zu [!UICONTROL Einstellungen].
 
 1. Wählen Sie unter CRM die Option **[!UICONTROL Kontakte]**.
 

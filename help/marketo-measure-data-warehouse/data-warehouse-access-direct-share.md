@@ -25,7 +25,7 @@ Zur [!DNL Marketo Measure] Um eine direkte Freigabe für Data Warehouse einzuric
 
 ## Snowflake-Konto-ID eingeben {#enter-snowflake-account-id}
 
-Öffnen Sie die **Einstellungen** in der Marketo Measurement-App und navigieren Sie zur **Data Warehouse** Seite. Im **Direkte Freigabe** eingeben. [Snowflake-Konto-ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in das bereitgestellte Feld ein und klicken Sie auf **Verbinden**.
+Öffnen Sie die **Einstellungen** in der Marketo Measure-App und navigieren Sie zur **Data Warehouse** Seite. Im **Direkte Freigabe** eingeben. [Snowflake-Konto-ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in das bereitgestellte Feld ein und klicken Sie auf **Verbinden**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 

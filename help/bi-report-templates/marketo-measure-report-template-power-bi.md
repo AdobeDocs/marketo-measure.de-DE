@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] Berichtsvorlage - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2571'
 ht-degree: 1%
 
 ---
@@ -13,19 +13,19 @@ ht-degree: 1%
 
 ## Erste Schritte {#getting-started}
 
-Sie können auf die Vorlage des Power BI-Berichts zugreifen [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}.
+Sie können auf die Vorlage des Power BI-Berichts zugreifen [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Adobe öffnen [!DNL Marketo Measure] Power BI-Datei der Berichtsvorlage.
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)
 
-Sie finden Ihre spezifischen Server-, Warehouse- und Schemadaten im [!DNL Marketo Measure] Benutzeroberfläche auf der [!DNL Data Warehouse] Informationsseite. Anweisungen zum Auffinden dieser Seite finden Sie im Abschnitt [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+Sie finden Ihre spezifischen Server-, Warehouse- und Schemadaten im [!DNL Marketo Measure] Benutzeroberfläche auf der [!DNL Data Warehouse] Informationsseite. Anweisungen zum Auffinden dieser Seite finden Sie im Abschnitt [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 Die Parameter QueryFilterStartDate und QueryFilterEndDate werden verwendet, um die Menge der importierten Daten zu begrenzen. Diese Parameter müssen im SQL-Format vorliegen, wie sie in den an [!DNL Snowflake]. Wenn Sie beispielsweise Daten auf die letzten zwei Jahre beschränken möchten, wäre QueryFilterStartDate dateadd (year,-2,current_date()). Diese Parameter werden mit den Datentypen der Datenzeit verglichen. Daher wird empfohlen, dateadd (day,1,current_date()) für QueryFilterEndDate zu verwenden, um alle Daten zur aktuellen Zeit zurückzugeben.
 
 ## Datenverbindung {#data-connection}
 
-Die beim Öffnen der Datei eingegebenen Parameter werden verwendet, um native Abfragen zu strukturieren, die Tabellen aus dem Data Warehouse importieren. Sie müssen weiterhin eine Datenverbindung zu Ihrem [!DNL Snowflake] -Instanz. Dazu benötigen Sie dieselben Server- und Warehouse-Namen wie Ihren Benutzernamen und Ihr Passwort. Details darüber, wo Sie Ihren Benutzernamen finden und Ihr Passwort zurücksetzen können, werden bei Bedarf dokumentiert. [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+Die beim Öffnen der Datei eingegebenen Parameter werden verwendet, um native Abfragen zu strukturieren, die Tabellen aus dem Data Warehouse importieren. Sie müssen weiterhin eine Datenverbindung zu Ihrem [!DNL Snowflake] -Instanz. Dazu benötigen Sie dieselben Server- und Warehouse-Namen wie Ihren Benutzernamen und Ihr Passwort. Details darüber, wo Sie Ihren Benutzernamen finden und Ihr Passwort zurücksetzen können, werden bei Bedarf dokumentiert. [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Datenimport {#data-import}
 
@@ -105,7 +105,7 @@ Da Segmentnamen anpassbar sind, haben sie allgemeine Spaltennamen im Snowflake D
 
 ### Konversion der Groß-/Kleinschreibung {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure] -Daten haben mehrere Tabellen, bei denen bei den Primärschlüsselwerten (ID) zwischen Groß- und Kleinschreibung unterschieden wird, nämlich bei Touchpoint und Campaign. Die Datenmaschine, die die Power BI-Modellierungsschicht steuert, unterscheidet nicht zwischen Groß- und Kleinschreibung, was zu &quot;doppelten&quot;ID-Werten führt. Um die Groß-/Kleinschreibung dieser Schlüsselwerte zu wahren, haben wir Umwandlungsschritte implementiert, die unsichtbare Zeichen an Kleinbuchstaben anhängen, wobei die Eindeutigkeit der ID bei der Auswertung in der Datenmaschinenschicht gewahrt bleibt. Weitere Informationen zum Problem und zu den detaillierten Schritten zur angewandten Methode finden Sie unter [here] (https://blog.crossjoin.co.uk/2019){target=&quot;_blank&quot;}. Diese ID-Werte, bei denen zwischen Groß- und Kleinschreibung unterschieden wird, werden als &quot;Join IDs&quot;bezeichnet und als Join-Schlüssel in der Beziehungsschicht verwendet. Die Join-IDs wurden aus der Berichterstellungsebene ausgeblendet, sodass die ursprünglichen ID-Werte für die Verwendung in Berichten sichtbar bleiben, da die unsichtbaren Zeichen die Funktionen zum Ausschneiden/Einfügen und Filtern beeinträchtigen können.
+[!DNL Marketo Measure] -Daten haben mehrere Tabellen, bei denen bei den Primärschlüsselwerten (ID) zwischen Groß- und Kleinschreibung unterschieden wird, nämlich bei Touchpoint und Campaign. Die Datenmaschine, die die Power BI-Modellierungsschicht steuert, unterscheidet nicht zwischen Groß- und Kleinschreibung, was zu &quot;doppelten&quot;ID-Werten führt. Um die Groß-/Kleinschreibung dieser Schlüsselwerte zu wahren, haben wir Umwandlungsschritte implementiert, die unsichtbare Zeichen an Kleinbuchstaben anhängen, wobei die Eindeutigkeit der ID bei der Auswertung in der Datenmaschinenschicht gewahrt bleibt. Weitere Informationen zum Problem und zu den detaillierten Schritten zur angewandten Methode finden Sie unter [here] (https://blog.crossjoin.co.uk/2019){target="_blank"}. Diese ID-Werte, bei denen zwischen Groß- und Kleinschreibung unterschieden wird, werden als &quot;Join IDs&quot;bezeichnet und als Join-Schlüssel in der Beziehungsschicht verwendet. Die Join-IDs wurden aus der Berichterstellungsebene ausgeblendet, sodass die ursprünglichen ID-Werte für die Verwendung in Berichten sichtbar bleiben, da die unsichtbaren Zeichen die Funktionen zum Ausschneiden/Einfügen und Filtern beeinträchtigen können.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 
@@ -113,7 +113,7 @@ Da Segmentnamen anpassbar sind, haben sie allgemeine Spaltennamen im Snowflake D
 
 ### Zeilen hinzugefügt {#rows-added}
 
-Um den Berechnungen im Modell Währungskonvertierungsfunktionen hinzuzufügen, haben wir eine Spalte für Unternehmensumrechnungssätze zu den Angebots- und Kostentabellen hinzugefügt. Der Wert in dieser Spalte wird auf Zeilenebene hinzugefügt und ausgewertet, indem sowohl für Datum als auch für Währungs-ID eine Verbindung zur Tabelle Konversionsrate hergestellt wird. Weitere Informationen dazu, wie die Währungsumrechnung in diesem Modell funktioniert, finden Sie unter [Währungsumrechnung](#currency-conversion) in dieser Dokumentation.
+Um den Berechnungen im Modell Währungskonvertierungsfunktionen hinzuzufügen, haben wir eine Spalte für Unternehmensumrechnungssätze zu den Angebots- und Kostentabellen hinzugefügt. Der Wert in dieser Spalte wird auf Zeilenebene hinzugefügt und ausgewertet, indem sowohl für Datum als auch für Währungs-ID ein Eintrag in die Tabelle Konversionsrate aufgenommen wird. Weitere Informationen dazu, wie die Währungsumrechnung in diesem Modell funktioniert, finden Sie unter [Währungsumrechnung](#currency-conversion) in dieser Dokumentation.
 
 ![](assets/marketo-measure-report-template-power-bi-10.png)
 
@@ -125,7 +125,7 @@ Die Tabelle Konversionsrate , die in [!DNL Snowflake] enthält einen Datumsberei
 
 Klicken Sie auf das folgende Bild, um die Vollversion zu erhalten.
 
-[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
 
 ### Beziehungen und Datenfluss {#relationships-and-data-flow}
 
@@ -178,7 +178,7 @@ Zum Power BI-Modell wurden Definitionen für Tabellen, benutzerdefinierte Spalte
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-So zeigen Sie Definitionen für Spalten an, die direkt von [!DNL Snowflake], siehe [Data Warehouse-Dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}
+So zeigen Sie Definitionen für Spalten an, die direkt von [!DNL Snowflake], siehe [Data Warehouse-Dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Diskrepanzen zwischen Vorlagen und Discover {#discrepancies-between-templates-and-discover}
 

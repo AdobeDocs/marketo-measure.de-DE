@@ -5,7 +5,7 @@ title: Hinzufügen [!DNL Marketo Measure] Skript
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vergewissern Sie sich, dass Sie [forderte alle geeigneten Domänen in der [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target=&quot;_blank&quot;} zusätzlich zur Bereitstellung des [!DNL Marketo Measure] JavaScript.
+>Vergewissern Sie sich, dass Sie [forderte alle geeigneten Domänen in der [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} zusätzlich zur Bereitstellung der [!DNL Marketo Measure] JavaScript.
 
 Erste Schritte mit [!DNL Marketo Measure], gibt es zwei Möglichkeiten, den [!DNL Marketo Measure] JavaScript auf Ihrer Website:
 
@@ -33,7 +33,7 @@ Hartkodierung des JavaScripts in der `<head>` Ihrer Seiten stellen sicher, dass 
 
 >[!TIP]
 >
->Erfahren Sie, wie Sie sicherstellen, dass Ihr Skript [DSGVO-konform](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target=&quot;_blank&quot;}.
+>Erfahren Sie, wie Sie sicherstellen, dass Ihr Skript [DSGVO-konform](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"}.
 
 ## Tag Management Systems {#tag-management-systems}
 
@@ -47,17 +47,17 @@ Hinzufügen [!DNL Marketo Measure] über eine Tag-Management-Lösung erstellen, 
 
 [!DNL Marketo Measure] empfiehlt, dass bei jeder Seitenansicht das -Tag ausgelöst wird. Außerdem ist es am besten, [!DNL Marketo Measure] die höchste Priorität in der Auslöserreihenfolge und stellen Sie sicher, dass keine synchronen Skripte vor der [!DNL Marketo Measure] -Tag, um die höchste Datenqualität sicherzustellen.
 
-Weitere Informationen können [hier finden](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target=&quot;_blank&quot;}.
+Weitere Informationen können [hier finden](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target="_blank"}.
 
 ## Zusätzliche Überlegungen {#additional-considerations}
 
-[!DNL Marketo Measure] JavaScript ist domänenbasiert, sodass automatisch alle Subdomains verarbeitet werden können, solange sich das JavaScript auf den Seiten befindet und die Stammdomäne mit der Domäne übereinstimmt, die zum Erstellen des Marketo Measurement-Kontos verwendet wurde.
+[!DNL Marketo Measure] JavaScript ist domänenbasiert, sodass automatisch alle Subdomänen verarbeitet werden können, solange sich das JavaScript auf den Seiten befindet und die Stammdomäne mit der Domäne übereinstimmt, die zum Erstellen des Marketo Measure-Kontos verwendet wurde.
 
 Wenn Sie jedoch separate oder internationale Domänen verwenden, sollten Sie sicherstellen, dass Ihre [!DNL Marketo Measure] Berater wissen es. Die Domäne(n) muss manuell zu Ihrem Konto im [!DNL Marketo Measure] so zu beenden, dass [!DNL Marketo Measure] erkennt, dass die Daten der zusätzlichen Domänen mit Ihrem Konto verknüpft werden. Senden Sie also bitte jede separate/internationale Domäne an Ihre [!DNL Marketo Measure] Berater.
 
 Wenn Sie Seiten von Drittanbietern verwenden, unterhalten Sie sich mit Ihrem [!DNL Marketo Measure] Berater. Im Allgemeinen möchten Sie wissen, ob Sie eine benutzerdefinierte Version von [!DNL Marketo Measure] JavaScript verwenden, um diese Seiten gegebenenfalls zu verfolgen. Ist dies nicht möglich, wird das Tracking über CRM-Campaign-Touchpoints mit Ihren [!DNL Marketo Measure] Berater.
 
-Verfügen Sie über Formulare, die NICHT nachverfolgt werden sollen? [!DNL Marketo Measure] da sie nicht unbedingt für die Attribution sinnvoll sind (z. B. Abmeldeformulare, Kundenanmeldungen usw.)? Wenn ja, sollten Sie den Ausschlusscode hinzufügen [in diesem Artikel](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target=&quot;_blank&quot;} für jedes Formular
+Verfügen Sie über Formulare, die NICHT nachverfolgt werden sollen? [!DNL Marketo Measure] da sie nicht unbedingt für die Attribution sinnvoll sind (z. B. Abmeldeformulare, Kundenanmeldungen usw.)? Wenn ja, sollten Sie den Ausschlusscode hinzufügen [in diesem Artikel](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} zu jedem Formular
 
 Haben Sie nicht sichere Seiten? In diesem Fall sollten Sie sie schützen, da die Navigation zwischen einer sicheren/nicht sicheren Seite die Tracking-Sitzung unterbricht.
 
@@ -72,7 +72,7 @@ Wenn eine [!DNL Web Application Firewall (WAF)] -Warnung während des JavaScript
 **Übermittlung mehrerer Formulare**
 
 * Problem: Wenn Sie mehrere verknüpfte Formulare als Teil einer Formularübermittlung haben, kann es sein, dass das erste Formular einen Touchpoint generiert, auch wenn das gesamte Formular nicht übermittelt wird.
-* Lösung: Sie müssen eines der Formulare erzwingen, den Benutzer zu melden. [!DNL Marketo Measure] auf der Grundlage zwischengespeicherter Daten und über Abbruchsverfahren. Im Allgemeinen [Benutzer-Code des Berichts](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target=&quot;_blank&quot;} kann dies lösen.
+* Lösung: Sie müssen eines der Formulare erzwingen, den Benutzer zu melden. [!DNL Marketo Measure] auf der Grundlage zwischengespeicherter Daten und über Abbruchsverfahren. Im Allgemeinen [Benutzer-Code des Berichts](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} kann das lösen.
 
 **Kontoanmeldung (keine Erstellung)**
 
@@ -106,7 +106,7 @@ Wenn eine [!DNL Web Application Firewall (WAF)] -Warnung während des JavaScript
 **Forms organisiert in `<div>` format**
 
 * Problem: [!DNL Marketo Measure] Es fällt JS schwer, Formulare zu erkennen, die in `<div>` formatieren, damit benutzerdefinierter Code benötigt werden kann.
-* Lösung: Diese [Berichtsbenutzervorlagen](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target=&quot;_blank&quot;} kann von Ihrem Web-Entwicklungsteam verwendet werden, um den erforderlichen Code hinzuzufügen.
+* Lösung: Diese [Berichtsbenutzervorlagen](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} kann von Ihrem Web-Entwicklungsteam verwendet werden, um den erforderlichen Code hinzuzufügen.
 
 **Chat**
 

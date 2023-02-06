@@ -5,14 +5,14 @@ title: Salesforce Activities-Zuordnung
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
 
 # Salesforce Activities-Zuordnung {#salesforce-activities-attribution}
 
-Die [!DNL Marketo Measure] Bei der Integration von Salesforce-Aktivitäten werden bestimmte Aufgaben- und Ereignisdatensätze in Ihr Attributionsmodell eingefügt. Beginnen Sie, Dinge wie Verkaufs-E-Mails oder Verkaufs-Telefonanrufe zu verfolgen, die keine gebührende Gutschrift erhielten. Um Ihre Aktivitätsregel zu konfigurieren, müssen Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. Gehen Sie von dort in den **[!UICONTROL Einstellungen]** und klicken Sie auf **[!UICONTROL Tätigkeiten]** Registerkarte.
+Die [!DNL Marketo Measure] Bei der Integration von Salesforce-Aktivitäten werden bestimmte Aufgaben- und Ereignisdatensätze in Ihr Attributionsmodell eingefügt. Beginnen Sie, Dinge wie Verkaufs-E-Mails oder Verkaufs-Telefonanrufe zu verfolgen, die keine gebührende Gutschrift erhielten. Um Ihre Aktivitätsregel zu konfigurieren, müssen Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Gehen Sie von dort in den **[!UICONTROL Einstellungen]** und klicken Sie auf **[!UICONTROL Tätigkeiten]** Registerkarte.
 
 Sie sind im Begriff, Ihr Sales-Team sehr glücklich zu machen! Lassen Sie uns Ihnen ein kurzes Tutorial zeigen.
 
@@ -61,7 +61,7 @@ Vergessen Sie nicht, verschiedene Regeln für Aufgaben oder Ereignisse festzuleg
 
 ![](assets/5.png)
 
-Sie werden diese neuen Touchpoints wahrscheinlich in ihre entsprechenden [Marketingkanal](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target=&quot;_blank&quot;}. Definieren Sie dazu den Kanal mit dem soeben erstellten neuen Kampagnen-Mapping. Vielleicht erstellen Sie eine neue Zeile für den BDR-Kanal, in der die Kampagne mit &quot;Ausgehend&quot;beginnt.
+Sie werden diese neuen Touchpoints wahrscheinlich in ihre entsprechenden [Marketingkanal](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. Definieren Sie dazu den Kanal mit dem soeben erstellten neuen Kampagnen-Mapping. Vielleicht erstellen Sie eine neue Zeile für den BDR-Kanal, in der die Kampagne mit &quot;Ausgehend&quot;beginnt.
 
 >[!TIP]
 >
@@ -84,7 +84,7 @@ Sie werden diese neuen Touchpoints wahrscheinlich in ihre entsprechenden [Market
 
 ![](assets/6.png)
 
-Und nicht zuletzt haben Sie die Möglichkeit, die Kosten für Ihre neuen Kanäle anzugeben. Unsere [Hochladen von Marketing-Ausgaben](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend)Mit {target=&quot;_blank&quot;} können Sie Ihre Ausgaben auf Kanal-, Unterkanal- oder Kampagnenebene eingeben. Mit dem neuen [!DNL Marketo Measure] Kampagnen können Sie diese zugehörigen Kosten pro Monat hinzufügen und dann den ROI für jede Kampagne sehen!
+Und nicht zuletzt haben Sie die Möglichkeit, die Kosten für Ihre neuen Kanäle anzugeben. Unsere [Hochladen von Marketing-Ausgaben](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} ermöglicht es Ihnen, Ihre Ausgaben auf Kanal-, Unterkanal- oder Kampagnenebene anzugeben. Mit dem neuen [!DNL Marketo Measure] Kampagnen können Sie diese zugehörigen Kosten pro Monat hinzufügen und dann den ROI für jede Kampagne sehen!
 
 ![](assets/7.png)
 

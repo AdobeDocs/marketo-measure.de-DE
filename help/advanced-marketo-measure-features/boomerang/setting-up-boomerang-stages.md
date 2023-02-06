@@ -5,14 +5,14 @@ title: Einrichten von Boomerang-Phasen
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # Einrichten von Boomerang-Phasen {#setting-up-boomerang-stages}
 
-Aktivieren [!UICONTROL Boomerang] Staging für Ihr Konto, müssen Sie ein Kontoadministrator sein. Sie kann auch aktiviert werden, indem Sie [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}. Nachdem die Funktion aktiviert wurde, befolgen Sie diese Anweisungen, um sie einzurichten.
+Aktivieren [!UICONTROL Boomerang] Staging für Ihr Konto, müssen Sie ein Kontoadministrator sein. Sie kann auch aktiviert werden, indem Sie [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Nachdem die Funktion aktiviert wurde, befolgen Sie diese Anweisungen, um sie einzurichten.
 
 ## Einrichten der Boomerang-Phase {#boomerang-stage-setup}
 

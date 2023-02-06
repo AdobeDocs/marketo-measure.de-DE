@@ -5,7 +5,7 @@ title: Integrierte Anzeigenplattformen
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ Die Tracking-Vorlage ist ein Tool, das Google bereitstellt, um die so genannten 
 [!DNL Marketo Measure] Suchen nach Tracking-Vorlagen in Ihren [!DNL AdWords] Konto:
 
 * *Option A*: Tracking-Vorlage gefunden. [!DNL Marketo Measure] fügt seine Parameter zur Vorlage hinzu.
-* *Option B*: Es wird eine Umleitung von Drittanbietern gefunden. Wenn eine Umleitung von Drittanbietern in der Tracking-Vorlage gefunden wird, [!DNL Marketo Measure] kann keine Maßnahmen ergreifen. Sie müssen die [!DNL Marketo Measure] Tags in das Drittanbietersystem. Ein Beispiel für eine Umleitung von Drittanbietern wäre ein Angebotsmanagement-Tool wie Kenshoo oder Marin. Erfahren Sie mehr darüber, wie [Angebotsmanagement-Tools beeinflussen [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* *Option B*: Es wird eine Umleitung von Drittanbietern gefunden. Wenn eine Umleitung von Drittanbietern in der Tracking-Vorlage gefunden wird, [!DNL Marketo Measure] kann keine Maßnahmen ergreifen. Sie müssen die [!DNL Marketo Measure] Tags in das Drittanbietersystem. Ein Beispiel für eine Umleitung von Drittanbietern wäre ein Angebotsmanagement-Tool wie Kenshoo oder Marin. Erfahren Sie mehr darüber, wie [Angebotsmanagement-Tools beeinflussen [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Option C*: Es wurde keine Tracking-Vorlage gefunden. [!DNL Marketo Measure] prüft alle Ihre Anzeigenziel-URLs auf die [!DNL Marketo Measure] Parameter. Basierend auf der Prüfung, wenn:
    * Parameter werden gefunden: das Setup abgeschlossen ist!
    * Parameter werden nicht gefunden: [!DNL Marketo Measure] hängt seine Parameter an das Ende der Anzeigenziel-URLs an. [!DNL Marketo Measure] fügt neue Anzeigen innerhalb von zwei Stunden nach ihrer Erstellung hinzu. Beachten Sie, dass die Parameter nicht zu einer Vorlage hinzugefügt werden.
 
-Erfahren Sie mehr über unsere [[!DNL AdWords] Funktion für automatisches Tagging](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target=&quot;_blank&quot;}.
+Erfahren Sie mehr über unsere [[!DNL AdWords] Funktion für automatisches Tagging](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## Aktivieren [!DNL Marketo Measure] Automatisches Tagging für Adwords {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -51,7 +51,7 @@ Vor der Aktivierung [!DNL Marketo Measure] automatisches Tagging, **Stellen Sie 
 
 Wenn Sie über eine Tracking-Vorlage verfügen, befolgen Sie die unten stehenden Anweisungen, um [!DNL Marketo Measure] Automatisches Tagging. Hinweis: [!DNL Marketo Measure] markiert auch automatisch alle ausgesetzten Anzeigen in Ihrem Konto.
 
-1. Melden Sie sich bei Ihrer [!DNL Marketo Measure] Konto unter [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+1. Melden Sie sich bei Ihrer [!DNL Marketo Measure] Konto unter [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 1. Navigieren Sie zu [!UICONTROL Mein Konto] > [!UICONTROL Einstellungen] > [!UICONTROL Integrationen] > [!UICONTROL Verbindungen].
 
@@ -67,7 +67,7 @@ Wenn Sie über eine Tracking-Vorlage verfügen, befolgen Sie die unten stehenden
 
 ## Einrichten einer Tracking-Vorlage in AdWords mit [!DNL Marketo Measure] Parameter {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-Beachten Sie, dass Sie Tracking-Vorlagen im [!UICONTROL Konto], [!UICONTROL Kampagne] oder Anzeigengruppenebene in AdWords. Wenn Sie Tracking-Vorlagen zur Suchbegriff-, Sitelink- oder Anzeigenebene hinzufügen, muss Ihre Anzeige den Review- und Genehmigungsprozess durchlaufen und riskieren, den Leistungsverlauf Ihrer Anzeigen neu zu starten. Weitere Informationen [Erstellen von Tracking-Vorlagen](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;}.
+Beachten Sie, dass Sie Tracking-Vorlagen im [!UICONTROL Konto], [!UICONTROL Kampagne] oder Anzeigengruppenebene in AdWords. Wenn Sie Tracking-Vorlagen zur Suchbegriff-, Sitelink- oder Anzeigenebene hinzufügen, muss Ihre Anzeige den Review- und Genehmigungsprozess durchlaufen und riskieren, den Leistungsverlauf Ihrer Anzeigen neu zu starten. Weitere Informationen [Erstellen von Tracking-Vorlagen](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Melden Sie sich bei Ihrer [!DNL Google AdWords] Konto.
 1. Gehen Sie zu [!UICONTROL Kampagnen] Ansicht über die Navigationsleiste auf der linken Seite
@@ -96,21 +96,21 @@ Die Erstellung von UTM-Tags kann zunächst schwierig erscheinen, es stehen jedoc
 
 **[!DNL Google URL]Builder**
 
-Google URL Builder ist ein Standardwerkzeug zum Erstellen korrekt formatierter URLs mit UTM-Tags. Geben Sie einfach die URL und den gewünschten Wert für jeden Parameter ein und klicken Sie auf &quot;[!UICONTROL URL generieren]&quot;. Dies ist ein ideales Tool zur Verwendung, wenn Sie nur über eine Handvoll von URLs verfügen, die mit Tags versehen werden sollen. Zugriff auf das Tool [here](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;}.
+Google URL Builder ist ein Standardwerkzeug zum Erstellen korrekt formatierter URLs mit UTM-Tags. Geben Sie einfach die URL und den gewünschten Wert für jeden Parameter ein und klicken Sie auf &quot;[!UICONTROL URL generieren]&quot;. Dies ist ein ideales Tool zur Verwendung, wenn Sie nur über eine Handvoll von URLs verfügen, die mit Tags versehen werden sollen. Zugriff auf das Tool [here](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
 
 **Von EpikOne generiertes Google-Arbeitsblatt**
 
-Diese Tabelle enthält eine Formel, mit der automatisch getaggte Ziel-URLs generiert werden. Dieses Tool eignet sich hervorragend, wenn eine große Anzahl von Links mit Tags versehen werden muss. Auf das Arbeitsblatt zugreifen [here](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target=&quot;_blank&quot;}.
+Diese Tabelle enthält eine Formel, mit der automatisch getaggte Ziel-URLs generiert werden. Dieses Tool eignet sich hervorragend, wenn eine große Anzahl von Links mit Tags versehen werden muss. Auf das Arbeitsblatt zugreifen [here](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
 
 **Rafflecopter-Link-Tagging-Tool**
 
 Die von Rafflecopter erstellte Tabelle ist eine modifizierte Version von [!DNL EpikOne's] Tabelle. Es enthält auch eine Formel, mit der Sie automatisch getaggte Ziel-Links generieren, die Sie verwenden können.
 
-Jedes dieser Tools verfügt über eine detaillierte Anleitung zur Verwendung und Anpassung an Ihre Anforderungen. Das Tool ist verfügbar [here](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;}.
+Jedes dieser Tools verfügt über eine detaillierte Anleitung zur Verwendung und Anpassung an Ihre Anforderungen. Das Tool ist verfügbar [here](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}.
 
 **Wirkung von Amazing UTM Builder**
 
-Dieses Tool ist eine Chrome-Erweiterung, mit der Sie schnell UTM-Tags generieren können. Suchen [here](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target=&quot;_blank&quot;}.
+Dieses Tool ist eine Chrome-Erweiterung, mit der Sie schnell UTM-Tags generieren können. Suchen [here](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target="_blank"}.
 
 ## Bing-Werbeanzeigen {#bing-ads}
 
@@ -136,17 +136,17 @@ Eine Tracking-Vorlage kann bei Bedarf verwendet werden, ist jedoch nicht erforde
 
 Automatisches Tagging sollte über aktiviert werden [!DNL Marketo Measure] sodass der benutzerdefinierte [!DNL Marketo Measure] -Parameter automatisch angehängt werden. Es besteht kein Risiko, dass mit Bing Ads vergangene Anzeigen-Performance-Verläufe verloren gehen.
 
-Besuchen Sie die [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls)Website {target=&quot;_blank&quot;} für weitere Informationen zum Hinzufügen von Tags auf ihrer Plattform.
+Besuchen Sie die [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls){target="_blank"} Website finden Sie weitere Informationen zum Hinzufügen von Tags auf ihrer Plattform.
 
 ## Facebook-Anzeigen {#facebook-ads}
 
-Die [!DNL Marketo Measure] Integration mit [!DNL Facebook] ermöglicht es, Anzeigeninformationen automatisch herunterzuladen und die URL mit ihren Parametern zu versehen. [!DNL Marketo Measure] ruft die Informationen zu Kampagne und Anzeigenset über unser automatisches Tagging ab. Das Anzeigenset füllt unser Feld Anzeigengruppenname . Weitere Informationen zum Einrichten von URL-Tags im [!DNL Facebook] Plattform, besuchen Sie die [!DNL Facebook] [Business](https://www.facebook.com/business/help/1016122818401732/?ref=u2u)Seite {target=&quot;_blank&quot;}.
+Die [!DNL Marketo Measure] Integration mit [!DNL Facebook] ermöglicht es, Anzeigeninformationen automatisch herunterzuladen und die URL mit ihren Parametern zu versehen. [!DNL Marketo Measure] ruft die Informationen zu Kampagne und Anzeigenset über unser automatisches Tagging ab. Das Anzeigenset füllt unser Feld Anzeigengruppenname . Weitere Informationen zum Einrichten von URL-Tags im [!DNL Facebook] Plattform, besuchen Sie die [!DNL Facebook] [Business](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} Seite.
 
 Vor der Aktivierung des automatischen Taggings mit [!DNL Facebook Ads]ist es wichtig, den vorherigen Leistungsverlauf als CSV-Datei zu exportieren. Wann [!DNL Marketo Measure] tags [!DNL Facebook Ads] mit dem Parameter _bf , [!DNL Facebook] liest die Anzeigen als brandneu und löscht den Leistungsverlauf. Daher ist es wichtig, einen Datensatz der vorherigen Leistung zu exportieren, wenn dies für Sie und Ihr Unternehmen von Nutzen ist.
 
 Bitte beachten Sie, dass Sie Ihre [!DNL Facebook] jederzeit dem [!DNL Marketo Measure] App verwenden und keine Daten verloren gehen - nur bei aktiviertem automatischem Tagging wird der Leistungsverlauf gelöscht.
 
-[Weitere Informationen finden Sie in diesem Artikel](https://www.facebook.com/business/help/393890194130036){target=&quot;_blank&quot;} aus Facebook für weitere Informationen zum Exportieren [!DNL Facebook] Anzeigenberichte.
+[Weitere Informationen finden Sie in diesem Artikel](https://www.facebook.com/business/help/393890194130036){target="_blank"} Informationen zum Exportieren aus Facebook [!DNL Facebook] Anzeigenberichte.
 
 ## linkedIn-gesponserte Inhalte {#linkedin-sponsored-content}
 

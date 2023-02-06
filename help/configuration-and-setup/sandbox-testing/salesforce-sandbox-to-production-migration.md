@@ -5,7 +5,7 @@ title: Salesforce-Sandbox zur Produktionsmigration
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ Wenn Sie sich für einen Test entschieden haben [!DNL Marketo Measure] in [!DNL 
 
 * Installieren Sie die beiden [!DNL Marketo Measure] Pakete in die Produktion mit &quot;[!UICONTROL Alle Benutzer]&quot;-Einstellung
 
-   * [Basispaket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;}
-   * [Dashboard-Erweiterungspaket](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}
+   * [Basispaket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [Dashboard-Erweiterungspaket](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * Weitere Informationen zum [!DNL Marketo Measure] Beziehung zu [!DNL Salesforce], sehen Sie sich [diesem Artikel](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * Ein bisschen [!DNL Salesforce] -Konfiguration erforderlich ist. Die spezifischen Aktionselemente werden im Folgenden unter [Schritt 4 unten](#salesforce-configuration)
@@ -51,7 +51,7 @@ Wenn Sie sich für einen Test entschieden haben [!DNL Marketo Measure] in [!DNL 
 
 [Berechtigungssätze](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Berichte freigeben](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target=&quot;_blank&quot;}
+[Berichte freigeben](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target="_blank"}
 
 [Ausblenden unnötiger Berichtstypen](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

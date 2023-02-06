@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874586
-description: Glossar der Marketo-Messfelder - Marketo-Maßnahme - Produktdokumentation
-title: Glossar der Marketo-Messfelder
+description: Glossar der Marketo Measure-Felder - Marketo Measure - Produktdokumentation
+title: Glossar der Marketo Measure-Felder
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
 workflow-type: tm+mt
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Glossar der Marketo-Messfelder {#glossary-of-marketo-measure-fields}
+# Glossar der Marketo Measure-Felder {#glossary-of-marketo-measure-fields}
 
-Dieser Artikel enthält ein Glossar aller Marketo-Messfelder, die Ihrem Salesforce aus dem Marketo Measure Base Package hinzugefügt werden. Sie finden außerdem Informationen darüber, auf welchem Objekt das Feld zu finden ist und wie jedes Feld mit Informationen gefüllt wird.
+Dieser Artikel enthält ein Glossar aller Marketo Measure-Felder, die Ihrer Salesforce aus dem Marketo Measure-Basispaket hinzugefügt werden. Sie finden außerdem Informationen darüber, auf welchem Objekt das Feld zu finden ist und wie jedes Feld mit Informationen gefüllt wird.
 
-Für eine Zuordnung von Objekt, auf das sich jedes Marketo-Messfeld bezieht, bitte [Hier klicken](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Für eine Zuordnung, auf die sich jedes Marketo Measure-Feld bezieht, wenden Sie sich an [Hier klicken](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ [K](#k) ・ [L](#l) ・ [M](#m) ・ N ・ [O](#o) ・ [P](#p) ・ Q ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y ・ Z
 
@@ -48,7 +48,7 @@ Wenn keines der oben genannten Felder leer ist.
 
 `3)` Wenn der Touchpoint aus einer Salesforce-Kampagne stammt, wird hier der Name der Salesforce-Kampagne angezeigt.
 
-`4)` Hiermit wird der Kampagnenname gefüllt, der für Touchpoints definiert ist, die aus Aktivitäten generiert wurden, wie er in Ihrem Marketo Measurement-Konto erstellt wurde.
+`4)` Hiermit wird der Kampagnenname gefüllt, der für Touchpoints definiert ist, die aus Aktivitäten generiert wurden, wie er in Ihrem Marketo Measure-Konto erstellt wurde.
 
 Wenn keines der oben genannten Felder leer ist.
 
@@ -126,9 +126,9 @@ In diesem Feld wird der Prozentsatz des Umsatzes angezeigt, der einem Touchpoint
 
 ## B {#b}
 
-**Marketo Measurement Opportunity Amount** | Salesforce-Chancen
+**Marketo Measure Opportunity Amount** | Salesforce-Chancen
 
-Wenn Sie ein benutzerdefiniertes Feld &quot;Betrag&quot;verwenden, um den Erlös aus Opportunity zu melden, kann Marketo Measurement diese benutzerdefinierten Felder nicht lesen. Der Marketo Measure Opportunity Amount ist ein ausgeblendetes Feld, das zum Erstellen eines Workflows verwendet wird, mit dem Marketo Measure benutzerdefinierte Amount -Felder für die Opportunity lesen kann.
+Wenn Sie ein benutzerdefiniertes Feld &quot;Betrag&quot;verwenden, um den Umsatz von Opportunity zu melden, kann Marketo Measure diese benutzerdefinierten Felder nicht lesen. Der Marketo Measure Opportunity Amount ist ein ausgeblendetes Feld, das zum Erstellen eines Workflows verwendet wird, mit dem Marketo Measure benutzerdefinierte Amount-Felder für die Opportunity lesen kann.
 
 **Browser** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -196,9 +196,9 @@ Dieses Feld zeigt in Dezimalform den Prozentsatz der Gutschrift an einen Touchpo
 
 ## D {#d}
 
-Datum gemeldet | Marketo Measure ABTest, Marketo Measure Event
+Datum gemeldet | Marketo Measure ABTest, Marketo Measure-Ereignis
 
-Marketo Measurement Event - das Datum, an dem ein Benutzer eine bestimmte Aktion auf Ihrer Website ausgeführt und ein Ereignis aktiviert hat
+Marketo Measure-Ereignis - das Datum, an dem ein Benutzer auf Ihrer Website eine bestimmte Aktion ausgeführt und ein Ereignis aktiviert hat
 
 Marketo Measure ABTest - das Datum, an dem ein Benutzer an einem A/B-Test auf Ihrer Website teilgenommen hat
 
@@ -206,11 +206,11 @@ Marketo Measure ABTest - das Datum, an dem ein Benutzer an einem A/B-Test auf Ih
 
 ## E {#e}
 
-**Ereignisname** | Marketo Measurement Event
+**Ereignisname** | Marketo Measure-Ereignis
 
 In diesem Feld wird der Name der Aktion angezeigt, die das Ereignis ausgelöst hat (d. h. Seitenansicht).
 
-**Ereigniswert** | Marketo Measurement Event
+**Ereigniswert** | Marketo Measure-Ereignis
 
 Beschreibung des Ereignisses (d. h. Homepage)
 
@@ -218,7 +218,7 @@ Beschreibung des Ereignisses (d. h. Homepage)
 
 In diesem Feld wird der Name des Experiments (d. h. die Testschaltfläche) angezeigt.
 
-**Experiment-ID** |Marketo Measurement AB Test
+**Experiment-ID** |Marketo Measure AB-Test
 
 Der eindeutige Identifikationscode für jedes Experiment
 
@@ -288,7 +288,7 @@ In diesem Feld wird die gekürzte Version der URL (keine UTM-Parameter) der erst
 
 In diesem Feld wird die gesamte URL (einschließlich UTM-Parameter) der ersten Webseite angezeigt, die während einer Websitzung besucht wurde.
 
-**Lead** | Käufer Touchpoint, Marketo Measurement Person
+**Lead** | Käufer Touchpoint, Marketo Measure Person
 
 Dieses Feld zeigt den Namen des Leads an, zu dem ein Touchpoint gehört.
 
@@ -298,7 +298,7 @@ Dieses Feld zeigt den Namen des Leads an, zu dem ein Touchpoint gehört.
 
 **Marketingkanal** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Dieses Feld zeigt die allgemeine Gruppe von Marketing-Aktivitäten oder Marketingkanälen an, zu denen der Touchpoint gehört (d. h. Paid Search, Direct, Social usw.). Touchpoints werden nach der Einrichtung Ihrer Kanäle in der Marketo Measurement App gruppiert. Weitere Informationen zu Marketingkanälen und zur Einrichtung Ihrer Kanäle finden Sie unter [Hier klicken](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Dieses Feld zeigt die allgemeine Gruppe von Marketing-Aktivitäten oder Marketingkanälen an, zu denen der Touchpoint gehört (d. h. Paid Search, Direct, Social usw.). Touchpoints werden nach der Einrichtung Ihrer Kanäle in der Marketo Measure App gruppiert. Weitere Informationen zu Marketingkanälen und zur Einrichtung Ihrer Kanäle finden Sie unter [Hier klicken](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **Marketingkanal - Pfad** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -316,7 +316,7 @@ Dieses Feld zeigt den Marketing-Kanal und den Unterkanal an, zu dem ein Touchpoi
 
 `4)` Dies wird mit dem Aktivitätstyp -Wert aus der verwandten Aktivität gefüllt, die den Touchpoint generiert hat.
 
-Wenn keine der oben genannten Optionen auftritt, wird bei Marketo Measurement automatisch ein Mittelwert festgelegt.
+Wenn keiner der oben genannten Werte auftritt, legt Marketo Measure automatisch einen Mittelwert fest.
 
 [Klicken Sie hier , um zum Seitenanfang zurückzukehren.](#top)
 
@@ -392,7 +392,7 @@ Wenn der Touchpoint aus einer gebührenpflichtigen oder kostenlosen Suche stammt
 
 **Segment** | Touchpoint der Käuferzuordnung
 
-In diesem Feld werden die Segmente angezeigt, zu denen der Touchpoint gehört. Dies hängt davon ab, wie Sie Ihre Segmentierungsregeln in der Marketo Measurement-App konfiguriert haben.
+In diesem Feld werden die Segmente angezeigt, zu denen der Touchpoint gehört. Dies hängt davon ab, wie Sie Ihre Segmentierungsregeln in der Marketo Measure-App konfiguriert haben.
 
 [Klicken Sie hier , um zum Seitenanfang zurückzukehren.](#top)
 

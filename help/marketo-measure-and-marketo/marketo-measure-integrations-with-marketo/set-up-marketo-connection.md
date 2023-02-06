@@ -38,7 +38,7 @@ So richten Sie Ihre Verbindung zu Marketo ein.
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. Wählen Sie im Marketo Engage Noch aus. **LaunchPoint** im Baum auf der linken Seite. Suchen Sie den benutzerdefinierten Dienst, mit dem Sie eine Verbindung mit Marketo Measurement herstellen möchten, und klicken Sie auf **Details anzeigen**.
+1. Wählen Sie im Marketo Engage Noch aus. **LaunchPoint** im Baum auf der linken Seite. Suchen Sie den benutzerdefinierten Dienst, mit dem Sie eine Verbindung mit Marketo Measure herstellen möchten, und klicken Sie auf **Details anzeigen**.
 
    ![](assets/set-up-marketo-connection-6.png)
 

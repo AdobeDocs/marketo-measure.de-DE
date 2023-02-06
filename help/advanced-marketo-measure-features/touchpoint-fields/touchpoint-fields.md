@@ -5,7 +5,7 @@ title: Touchpoint Felder
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1946'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Um ein berechnetes Feld zu erstellen, sollten Sie beachten, dass ein Benutzer dr
 
 Auszüge
 
-Der extraktionsoperator ruft den Wert aus einem Feld von einem anderen Speicherort ab, z. B.: Kampagnenfeld, Lead-Feld oder erweiterter Anwendungsfall, [Benutzerdefinierte Parameter aus der Landingpage extrahieren](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;}. Anschließend wird es in ein Touchpoint-Feld eingefügt (siehe [Zuordnung zu Beispiel](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;} #2).
+Der extraktionsoperator ruft den Wert aus einem Feld von einem anderen Speicherort ab, z. B.: Kampagnenfeld, Lead-Feld oder erweiterter Anwendungsfall, [Benutzerdefinierte Parameter aus der Landingpage extrahieren](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} Nr. 2).
 
 **Beispiel 1**
 
@@ -220,7 +220,7 @@ Es ist zusätzlicher Arbeitsaufwand erforderlich, um die neuen Felder im [!DNL M
 
 **Wie kann ich überprüfen, ob mein Extraktionsausdruck gültig ist und den richtigen Wert abrufen?**
 
-Es gibt ein Online-Tool ([https://regex101.com/](https://regex101.com/){target=&quot;_blank&quot;}), die Sie ausführen und den Ausdruck testen können. Der Ausdruck wird grün angezeigt, wenn er gültig ist, oder rot, wenn er ungültig ist. Außerdem ist das Erklärungsfeld oben rechts hilfreich und teilt Ihnen mit, was Sie extrahieren.
+Es gibt ein Online-Tool ([https://regex101.com/](https://regex101.com/){target="_blank"}), die Sie ausführen und den Ausdruck testen können. Der Ausdruck wird grün angezeigt, wenn er gültig ist, oder rot, wenn er ungültig ist. Außerdem ist das Erklärungsfeld oben rechts hilfreich und teilt Ihnen mit, was Sie extrahieren.
 
 ![](assets/twelve.png)
 

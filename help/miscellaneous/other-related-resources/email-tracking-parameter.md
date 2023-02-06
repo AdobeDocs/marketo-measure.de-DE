@@ -26,7 +26,7 @@ Wenn ein Besucher auf Ihre Site gelangt, [!DNL Marketo Measure] erwartet eine La
 
 Als Kunde erstellen Sie wie gewohnt eine E-Mail-Vorlage. Sobald es Zeit ist, die Landingpage für die Aktion hinzuzufügen, die Sie verfolgen möchten, müssen Sie entweder das Token, das Variablentag oder Makro bestimmen, das Ihre Marketing Automation-Plattform akzeptiert, um den Wert für jede Person dynamisch anzuzeigen.
 
-Marketo Measurement akzeptiert die folgenden Werte: E-Mail-Adresse, Salesforce-Lead-ID oder Salesforce-Kontakt-ID.
+Marketo Measure akzeptiert die folgenden Werte: E-Mail-Adresse, Salesforce-Lead-ID oder Salesforce-Kontakt-ID.
 
 ## Tag-Beispiele {#tag-examples}
 
