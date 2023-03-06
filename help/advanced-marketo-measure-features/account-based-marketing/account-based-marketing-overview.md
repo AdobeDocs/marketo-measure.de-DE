@@ -3,9 +3,9 @@ unique-page-id: 18874730
 description: Kontobasierte Marketing-Übersicht - [!DNL Marketo Measure] - Produktdokumentation
 title: Kontobasierte Marketingübersicht
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ Die Zuordnung von Lead-zu-Konto ist ein wesentlicher Bestandteil eines effektive
 * Lead-Firmenname zum Kontonamen
 * Lead-Unternehmen zur Konto-Website-Domäne
 * Abgleichen der Domain der E-Mail-Adresse des Leads mit dem Konto über die E-Mail-Adresse des Kontakts
+
+>[!NOTE]
+>
+>Jeder Lead wird versucht, in der oben genannten bevorzugten Reihenfolge der Methoden mit einem Konto abgeglichen zu werden. Sobald eine Übereinstimmung gefunden wurde, wird die AccountId sofort auf dem Lead festgelegt und nicht mit einer anderen Methode abgeglichen. Wenn der Lead bereits über eine gültige AccountId verfügt, wird der Lead übersprungen.
 
 ## Prädiktive Interaktionsbewertung {#predictive-engagement-score}
 
