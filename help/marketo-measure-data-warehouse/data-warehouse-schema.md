@@ -6,7 +6,7 @@ exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 source-git-commit: 6e2d438da273511c3465d02eef6813f64e7aec5d
 workflow-type: tm+mt
 source-wordcount: '22615'
-ht-degree: 6%
+ht-degree: 99%
 
 ---
 
@@ -16,19 +16,19 @@ Mit Data Warehouse können Sie beliebig viel verfolgen, Berichte zu Ihren Attrib
 
 >[!IMPORTANT]
 >
->Zeilen mit dem Wert _DELETED_DATE werden 15 Tage lang beibehalten und dann aus dem Snowflake entfernt. Snowflake-Zeitzonen befinden sich in UTC.
+>Zeilen mit dem Wert _DELETED_DATE werden 15 Tage lang beibehalten und dann aus Snowflake entfernt. Snowflake-Zeitzonen sind in UTC.
 
 >[!NOTE]
 >
->[Hier klicken](#sample-queries) um Beispielabfragen am Ende dieses Artikels zu sehen.
+>[Klicken Sie hier](#sample-queries), um Beispielabfragen am Ende dieses Artikels zu sehen.
 
 ## Diagramme zur Entitätsbeziehung {#entity-relationship-diagrams}
 
-Die _Data Warehouse-Datenmodell_ ERD zeigt an, wie Daten im Data Warehouse fließen und miteinander verknüpft werden sollen. Dieses Diagramm enthält nicht alle im Data Warehouse verfügbaren Tabellen, da einige davon Zuordnungstabellen, Ansichten anderer bereits vorhandener Tabellen oder veraltete Tabellen darstellen, die wir nicht mehr empfehlen. Die Tabellen und Spalten im Data Warehouse werden im Folgenden detailliert beschrieben. Viele dieser Tabellen enthalten denormalisierte Felder. Dieses Diagramm ist jedoch das empfohlene Datenmodell, das stattdessen Daten aus Dimensionstabellen nutzt.
+Die _Data Warehouse-Datenmodell_-ERD zeigt an, wie Daten im Data Warehouse fließen und miteinander verknüpft werden sollen. Dieses Diagramm enthält nicht alle im Data Warehouse verfügbaren Tabellen, da einige davon Zuordnungstabellen, Ansichten anderer bereits vorhandener Tabellen oder veraltete Tabellen darstellen, deren Verwendung wir nicht mehr empfehlen. Die Tabellen und Spalten im Data Warehouse werden im Folgenden detailliert beschrieben. Viele dieser Tabellen enthalten denormalisierte Felder. Dieses Diagramm ist jedoch das empfohlene Datenmodell, das stattdessen Daten aus Dimensionstabellen nutzt.
 
-Die zusätzliche _Ads Dimensional Data Model_ ERD zeigt, wie Tabellen für Anzeigen-spezifische Dimensionen am besten mit den Tabellen im Hauptdatenmodell verknüpft werden können. Obwohl Anzeigendimensionen auch in anderen Tabellen denormalisiert sind, stellt dies das empfohlene Modell für die Zusammenführung dieser Dimensionen dar.
+Die zusätzliche _Ads Dimensional Data Model_-ERD zeigt, wie Tabellen für Anzeigen-spezifische Dimensionen am besten mit den Tabellen im Hauptdatenmodell verknüpft werden können. Obwohl Anzeigendimensionen auch in anderen Tabellen denormalisiert sind, stellt dies das empfohlene Modell für die Zusammenführung dieser Dimensionen dar.
 
-_Klicken Sie auf ein Bild für die Vollbildversion._
+_Klicken Sie auf ein Bild für die Vollbildversion_
 
 <table style="table-layout:auto"> 
  <colgroup> 
@@ -38,7 +38,7 @@ _Klicken Sie auf ein Bild für die Vollbildversion._
  <tbody> 
   <tr> 
    <td><strong>Data Warehouse-Datenmodell</strong></td> 
-   <td><strong>Ads Dimensional Data Model</strong></td> 
+   <td><strong>Ads Dimensional-Datenmodell</strong></td> 
   </tr> 
   <tr> 
    <td> 
@@ -88,7 +88,7 @@ Aus dem Quellsystem importierte Konten.
     <tr>
       <td>NAME</td>
       <td>varchar</td>
-      <td>Der Kontoname aus dem Quellsystem.</td>
+      <td>Der Kontoname, aus dem Quellsystem.</td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
@@ -100,32 +100,32 @@ Aus dem Quellsystem importierte Konten.
     <tr>
       <td>ENGAGEMENT_RATING</td>
       <td>varchar</td>
-      <td>Eine Briefklasse (A, B, C, D, N/A), die aus der [!DNL Marketo Measure] Modell für maschinelles Lernen. Dies ist null, wenn ABM deaktiviert ist.</td>
+      <td>Eine Buchstabenbewertung (A, B, C, D, N/A), die aus dem [!DNL Marketo Measure]-Modell für maschinelles Lernen generiert wird. Dies ist null, wenn ABM deaktiviert ist.</td>
       <td>B</td>
     </tr>
     <tr>
       <td>ENGAGEMENT_SCORE</td>
       <td>number(38,19)</td>
-      <td>Ein numerisches Ergebnis, berechnet durch [!DNL Marketo Measure] Machine Learning zum Generieren der prädiktiven Interaktionsbewertung (Engagement_Rating). Dies ist null, wenn ABM deaktiviert ist.</td>
+      <td>Ein numerisches Ergebnis, berechnet durch das [!DNL Marketo Measure]-Machine Learning zum Generieren der prädiktiven Interaktionsbewertung (Engagement_Rating). Dies ist null, wenn ABM deaktiviert ist.</td>
       <td>0.1417350147058800000</td>
     </tr>
     <tr>
-      <td>DOMÄNE</td>
+      <td>DOMAIN</td>
       <td>varchar</td>
       <td>Die heruntergeparste Version der Website, die nur die Domäne speichert.</td>
       <td>adobe</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Gibt an, ob der Datensatz im Quellsystem gelöscht wird.</td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Benutzerdefinierte Eigenschaften, die [!DNL Marketo Measure] wurde aus dem Quellsystem im JSON-Format importiert.</td>
-      <td>{"Account_Type_c": "Security", "Foo":"Bar"}</td>
+      <td>Benutzerdefinierte Eigenschaften im JSON-Format, die [!DNL Marketo Measure] aus dem Quellsystem importiert hat.</td>
+      <td>{"Account_Type__c": "Security", "Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -142,7 +142,7 @@ Aus dem Quellsystem importierte Konten.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -182,13 +182,13 @@ Zuordnungstabelle zwischen bekannten Lead-/Kontakt-E-Mail-Adressen und Konten. D
     </tr>
     <tr>
       <td>
-        <p>E-MAIL</p>
+        <p>EMAIL</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>
-        <p>E-Mail-Adresse, die dem Konto zugeordnet wurde, entweder durch Kontaktbeziehungen oder durch das Mapping "Lead to Account".</p>
+        <p>E-Mail-Adresse, die dem Konto zugeordnet wurde, entweder durch Kontaktbeziehungen oder durch die Zuordnung "Lead to Account".</p>
       </td>
       <td>
         <p>person@adobe.com</p>
@@ -227,13 +227,13 @@ Zuordnungstabelle zwischen bekannten Lead-/Kontakt-E-Mail-Adressen und Konten. D
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Datensatz als gelöscht betrachtet wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -251,7 +251,7 @@ Zuordnungstabelle zwischen bekannten Lead-/Kontakt-E-Mail-Adressen und Konten. D
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -326,9 +326,9 @@ Aus einem Quellsystem oder verbundenen Anzeigenkonto importierte Aktivitäten.
     <tr>
       <td>ACTIVITY_TYPE_NAME</td>
       <td>varchar</td>
-      <td>Der Aktivitätsname aus dem Quellsystem.</td>
+      <td>Der Aktivitätsname, aus dem Quellsystem.</td>
       <td>
-        <p>Änderungsstatus im Fortschritt</p>
+        <p>Ändern des Status in der Progression</p>
       </td>
     </tr>
     <tr>
@@ -370,10 +370,10 @@ Aus einem Quellsystem oder verbundenen Anzeigenkonto importierte Aktivitäten.
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td>IS_DELETD</td>
-      <td>Boolesch</td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
       <td>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>AD_FORM_ID</td>
@@ -396,7 +396,7 @@ Aus einem Quellsystem oder verbundenen Anzeigenkonto importierte Aktivitäten.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -458,7 +458,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigen
         <p>varchar</p>
       </td>
       <td>
-        <p>ID für das Anzeigenkonto, aus dem die Anzeige importiert wurde.</p>
+        <p>ID für das Anzeigenkonto, von dem aus die Anzeige importiert wurde.</p>
       </td>
       <td>
         <p>fb.106851586409075</p>
@@ -472,7 +472,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigen
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Anzeigenkontos, aus dem die Anzeige importiert wurde.</p>
+        <p>Name des Anzeigenkontos, von dem aus die Anzeige importiert wurde.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Konto</p>
@@ -567,13 +567,13 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigen
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Anzeige im Quellsystem noch aktiv ist.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -581,13 +581,13 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigen
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Anzeige im Quellsystem gelöscht wurde.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -626,7 +626,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigen
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Anzeige aus dem Quellsystem.</p>
+        <p>Name der Anzeige, aus dem Quellsystem.</p>
       </td>
       <td>
         <p>Anzeige 2</p>
@@ -637,14 +637,14 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigen
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob die Anzeige aktualisiert werden muss [!DNL Marketo Measure] Tagging.</p>
+        <p>Gibt an, ob die Anzeige für [!DNL Marketo Measure]-Tagging aktualisiert werden muss.</p>
         <p>(Diagnostisches Feld, von interner Verarbeitung verwendet.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -768,7 +768,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigen
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -776,7 +776,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigen
 
 ### BIZ_ADVERTISERS {#biz-advertisers}
 
-Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
+Advertiser, die aus einem verbundenen Anzeigenkonto importiert wurden.
 
 <table>
   <tbody>
@@ -815,7 +815,7 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Die Advertiser-ID aus dem Quellsystem.</td>
+      <td>Die ID des Advertisers aus dem Quellsystem.</td>
       <td>9143143</td>
     </tr>
     <tr>
@@ -826,7 +826,7 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID für das Anzeigenkonto, aus dem die Anzeige importiert wurde.</p>
+        <p>ID für das Anzeigenkonto, von dem aus die Anzeige importiert wurde.</p>
       </td>
       <td>
         <p>fb.106851586409075</p>
@@ -840,7 +840,7 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Anzeigenkontos, aus dem die Anzeige importiert wurde.</p>
+        <p>Name des Anzeigenkontos, von dem aus die Anzeige importiert wurde.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Konto</p>
@@ -868,7 +868,7 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Advertisers, insbesondere für Doubleclick.</p>
+        <p>Name des Werbetreibenden, insbesondere für Doubleclick.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Marketing Analytics</p>
@@ -882,7 +882,7 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird erwartet, dass null ist, da es in keiner Anzeigenhierarchie über dem Advertiser keine Anzeigengruppe gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie über dem Advertiser eine Anzeigengruppe gibt.</p>
       </td>
       <td>
         <p>null</p>
@@ -896,7 +896,7 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird erwartet, dass null ist, da es in keiner Anzeigenhierarchie über dem Advertiser keine Anzeigengruppe gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie über dem Advertiser eine Anzeigengruppe gibt.</p>
       </td>
       <td>
         <p>null</p>
@@ -910,7 +910,7 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird erwartet, dass null ist, da es in keiner Anzeigen-Hierarchie über dem Advertiser keine Anzeigenkampagne gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie über dem Werbetreibenden eine Anzeigenkampagne gibt.</p>
       </td>
       <td>
         <p>null</p>
@@ -924,7 +924,7 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird erwartet, dass null ist, da es in keiner Anzeigen-Hierarchie über dem Advertiser keine Kampagne gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie über dem Advertiser eine Kampagne gibt.</p>
       </td>
       <td>
         <p>null</p>
@@ -935,13 +935,13 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Advertiser im Quellsystem noch aktiv ist.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -949,13 +949,13 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Advertiser im Quellsystem gelöscht wurde.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -1005,14 +1005,14 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob der Advertiser aktualisiert werden muss für [!DNL Marketo Measure] Tagging.</p>
+        <p>Gibt an, ob der Advertiser für das [!DNL Marketo Measure]-Tagging aktualisiert werden muss.</p>
         <p>(Diagnostisches Feld, von interner Verarbeitung verwendet.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -1036,7 +1036,7 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>Das Hauptobjekt oder die Entität für diese Tabelle. In diesem Fall "Advertiser".</p>
       </td>
       <td>
-        <p>Werbekunde</p>
+        <p>Advertiser</p>
       </td>
     </tr>
     <tr>
@@ -1082,7 +1082,7 @@ Werbetreibende, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -1129,7 +1129,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
       <td>
         <p>varchar</p>
       </td>
-      <td>Die Anzeigen-Konto-ID aus dem Quellsystem.</td>
+      <td>Die Anzeigenkonto-ID aus dem Quellsystem.</td>
       <td>
         <p>6601259029</p>
       </td>
@@ -1162,7 +1162,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird erwartet, dass null ist, da es keinen Advertiser über den Anzeigenkonten in einer Anzeigen-Hierarchie gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie oberhalb der Anzeigenkonten einen Advertiser gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -1174,7 +1174,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird erwartet, dass null ist, da es keinen Advertiser über den Anzeigenkonten in einer Anzeigen-Hierarchie gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie oberhalb der Anzeigenkonten einen Advertiser gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -1186,7 +1186,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird erwartet, dass null ist, da keine Anzeigengruppe über den Anzeigenkonten in einer Anzeigen-Hierarchie vorhanden ist.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie oberhalb der Anzeigenkonten eine Anzeigengruppe gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -1198,7 +1198,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird erwartet, dass null ist, da keine Anzeigengruppe über den Anzeigenkonten in einer Anzeigen-Hierarchie vorhanden ist.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie oberhalb der Anzeigenkonten eine Anzeigengruppe gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -1210,7 +1210,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird erwartet, dass null ist, da es in keiner Anzeigen-Hierarchie oberhalb der Anzeigenkonten keine Anzeigenkampagne gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie oberhalb der Anzeigenkonten eine Anzeigenkampagne gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -1222,7 +1222,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird erwartet, dass null ist, da es in keiner Anzeigen-Hierarchie oberhalb der Anzeigenkonten keine Anzeigenkampagne gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie oberhalb der Anzeigenkonten eine Anzeigenkampagne gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -1231,13 +1231,13 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob das Anzeigenkonto im Quellsystem noch aktiv ist.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -1245,13 +1245,13 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob das Anzeigenkonto im Quellsystem gelöscht wurde.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -1299,14 +1299,14 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob der Advertiser aktualisiert werden muss für [!DNL Marketo Measure] Tagging.</p>
+        <p>Gibt an, ob der Advertiser für das [!DNL Marketo Measure]-Tagging aktualisiert werden muss.</p>
         <p>(Diagnostisches Feld, von interner Verarbeitung verwendet.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -1373,14 +1373,14 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
     </tr>
     <tr>
       <td>
-        <p>QUELLE</p>
+        <p>SOURCE</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>Wird über die URL von utm_source analysiert.</td>
       <td>
-        <p>Sozial</p>
+        <p>Social</p>
       </td>
     </tr>
     <tr>
@@ -1406,7 +1406,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>Die Ausgabenmenge, die in den letzten 30 Tagen importiert wurde, gilt nur für AdWords.</p>
       </td>
       <td>
-        <p>17260.000000000000000000</p>
+        <p>17260,000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -1526,7 +1526,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -1586,7 +1586,7 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
         <p>varchar</p>
       </td>
       <td>
-        <p>ID für das Anzeigenkonto, aus dem die Kampagne importiert wurde.</p>
+        <p>ID für das Anzeigenkonto, von dem aus die Kampagne importiert wurde.</p>
       </td>
       <td>
         <p>aw.6601259029</p>
@@ -1600,7 +1600,7 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
         <p>varchar</p>
       </td>
       <td>
-        <p>Name für das Anzeigenkonto, aus dem die Kampagne importiert wurde.</p>
+        <p>Name für das Anzeigenkonto, von dem aus die Kampagne importiert wurde.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure]</p>
@@ -1628,7 +1628,7 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Werbetreibenden für die Kampagne, insbesondere für Doubleclick.</p>
+        <p>Name des Advertisers für die Kampagne, insbesondere für Doubleclick.</p>
       </td>
       <td>
         <p>Marketing Analytics</p>
@@ -1642,7 +1642,7 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird als null erwartet, da es in keiner Anzeigenhierarchie über der Kampagne keine Anzeigengruppe gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie über der Kampagne eine Anzeigengruppe gibt.</p>
       </td>
       <td>
         <p>null</p>
@@ -1656,7 +1656,7 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird als null erwartet, da es in keiner Anzeigenhierarchie über der Kampagne keine Anzeigengruppe gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie über der Kampagne eine Anzeigengruppe gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -1689,13 +1689,13 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Kampagne im Quellsystem noch aktiv ist.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -1703,13 +1703,13 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Kampagne im Quellsystem gelöscht wurde.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -1759,14 +1759,14 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob die Kampagne aktualisiert werden muss oder nicht [!DNL Marketo Measure] Tagging.</p>
+        <p>Gibt an, ob die Kampagne für das [!DNL Marketo Measure]-Tagging aktualisiert werden muss.</p>
         <p>(Diagnostisches Feld, von interner Verarbeitung verwendet.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -1818,7 +1818,7 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
         <p>Das tägliche Budget, das in der Anzeigenplattform für die Kampagne festgelegt ist.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -1894,7 +1894,7 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -1967,13 +1967,13 @@ Ad Forms wurde aus einem beliebigen verbundenen Anzeigenkonto importiert.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Der Status wurde aus dem Quellsystem gelöscht. Wird auf gelöscht gesetzt, wenn der Status Entwurf, Archiviert oder Abgebrochen lautet.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -2048,7 +2048,7 @@ Ad Forms wurde aus einem beliebigen verbundenen Anzeigenkonto importiert.
     </tr>
     <tr>
       <td>
-        <p>BESCHREIBUNG</p>
+        <p>DESCRIPTION</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2086,7 +2086,7 @@ Ad Forms wurde aus einem beliebigen verbundenen Anzeigenkonto importiert.
     </tr>
     <tr>
       <td>
-        <p>FRAGEN</p>
+        <p>QUESTIONS</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2107,7 +2107,7 @@ Ad Forms wurde aus einem beliebigen verbundenen Anzeigenkonto importiert.
         <p>Status des Anzeigenformulars.</p>
       </td>
       <td>
-        <p>Gesendet</p>
+        <p>gesendet</p>
       </td>
     </tr>
     <tr>
@@ -2125,7 +2125,7 @@ Ad Forms wurde aus einem beliebigen verbundenen Anzeigenkonto importiert.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
@@ -2191,7 +2191,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID für das Anzeigenkonto, aus dem die Anzeigengruppe importiert wurde.</p>
+        <p>ID für das Anzeigenkonto, von dem aus die Anzeigengruppe importiert wurde.</p>
       </td>
       <td>
         <p>aw.6601259029</p>
@@ -2205,7 +2205,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name für das Anzeigenkonto, aus dem die Anzeigengruppe importiert wurde.</p>
+        <p>Name für das Anzeigenkonto, von dem aus die Anzeigengruppe importiert wurde.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure]</p>
@@ -2219,7 +2219,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Es wird erwartet, dass null ist, da es in der Doubleclick-Anzeigenhierarchie keine Anzeigengruppe gibt.</p>
+        <p>Wird als null erwartet, da es in der Doubleclick-Anzeigen-Hierarchie keine Anzeigengruppe gibt.</p>
       </td>
       <td>
         <p>null</p>
@@ -2233,7 +2233,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Es wird erwartet, dass null ist, da es in der Doubleclick-Anzeigenhierarchie keine Anzeigengruppe gibt.</p>
+        <p>Wird als null erwartet, da es in der Doubleclick-Anzeigen-Hierarchie keine Anzeigengruppe gibt.</p>
       </td>
       <td>
         <p>null</p>
@@ -2300,13 +2300,13 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob das Anzeigenkonto im Quellsystem noch aktiv ist.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -2314,13 +2314,13 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob das Anzeigenkonto im Quellsystem gelöscht wurde.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -2370,14 +2370,14 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob der Advertiser aktualisiert werden muss für [!DNL Marketo Measure] Tagging.</p>
+        <p>Gibt an, ob der Advertiser für das [!DNL Marketo Measure]-Tagging aktualisiert werden muss.</p>
         <p>(Diagnostisches Feld, von interner Verarbeitung verwendet.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -2505,7 +2505,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -2588,7 +2588,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -2596,7 +2596,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
 
 ### BIZ_ATTRIBUTION_TOUCHPOINTS {#biz-attribution-touchpoints}
 
-<p>Touchpoints der Käuferzuordnung, alle Touchpoints, die einer Gelegenheit zugeordnet sind.</p>
+<p>Buyer Attribution Touchpoints, alle Touchpoints, die einer Opportunity zugeordnet sind.</p>
 <table>
   <tbody>
     <tr>
@@ -2625,7 +2625,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>
         <p>BAT2_0060Z00000lFHtOQAW_</p>
-        <p>0030Z00003K5bpKQAR_2017-06-20:01-05-20-619330.0b5c5678807c</p>
+        <p>0030Z00003K5bpKQAR_2017-06-20:01-05-20-6193330.0b5c5678807c</p>
       </td>
     </tr>
     <tr>
@@ -2671,7 +2671,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
     </tr>
     <tr>
-      <td>E-MAIL</td>
+      <td>EMAIL</td>
       <td>varchar</td>
       <td>E-Mail-Adresse, die mit dem BAT verknüpft ist.</td>
       <td>person@adobe.com</td>
@@ -2732,7 +2732,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Aktivitätstyp, Webbesuch, Webformular, Webchat, Telefonaufruf, [CRM]-Kampagne oder [CRM]-Aktivität. Im CRM als "Touchpoint-Typ"bezeichnet.</p>
+        <p>Der Aktivitätstyp, Webbesuch, Webformular, Webchat, Telefonaufruf, [CRM]-Kampagne oder [CRM]-Aktivität. Im CRM als "Touchpoint-Typ" bezeichnet.</p>
       </td>
       <td>
         <p>Webformular</p>
@@ -2740,13 +2740,13 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
     </tr>
     <tr>
       <td>
-        <p>KANAL</p>
+        <p>CHANNEL</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Kanal, in den der Touchpoint fällt, wie in den benutzerdefinierten Kanaldefinitionen innerhalb der Variablen [!DNL Marketo Measure] App. Im CRM als "Marketing-Kanal - Pfad"bezeichnet.</p>
+        <p>Der Kanal, in den der Touchpoint fällt, wie in den benutzerdefinierten Kanaldefinitionen innerhalb der Variablen [!DNL Marketo Measure] App. Im CRM als "Marketingkanal - Pfad" bezeichnet.</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -2760,7 +2760,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Segmentwert für die erste Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</p>
+        <p>Der Segmentwert für die erste Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td>
         <p>ABC</p>
@@ -2774,7 +2774,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Segmentwert für die zweite Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</p>
+        <p>Der Segmentwert für die zweite Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td>
         <p>Ja</p>
@@ -2788,7 +2788,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Segmentwert für die dritte Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</p>
+        <p>Der Segmentwert für die dritte Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td>
         <p>KMU</p>
@@ -2801,7 +2801,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 4. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 4. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td>
         <p>Neues Unternehmen</p>
       </td>
@@ -2813,7 +2813,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 5. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 5. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2823,7 +2823,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 6. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 6. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2833,7 +2833,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 7. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 7. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2843,7 +2843,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die achte Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 8. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2853,7 +2853,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 9. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 9. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2863,7 +2863,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 10. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 10. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2873,7 +2873,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 11. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen innerhalb der [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 11. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2883,7 +2883,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 12. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen innerhalb der [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 12. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2893,7 +2893,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 13. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen innerhalb der [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 13. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2903,7 +2903,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 14. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen innerhalb der [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 14. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2913,7 +2913,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 15. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen innerhalb der [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 15. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2980,7 +2980,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Im CRM als "Landingpage"bezeichnet.</p>
+        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Im CRM als "Landingpage" bezeichnet.</p>
       </td>
       <td>
         <p>http://www.adobe.com/blog/uncover- Truth-Behind-cost-per-lead</p>
@@ -2994,10 +2994,10 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Eine Raw-Landingpage enthält alle Abfrageparameter in der URL. Im CRM als "Landingpage - Roh"bezeichnet.</p>
+        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Eine Raw-Landingpage enthält alle Abfrageparameter in der URL. Im CRM als "Landingpage - Roh" bezeichnet.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/blog/uncover-truth -background-cost-per-lead?utm_content=27322869&amp;utm_ medium=social&amp;utm_source=linkedin</p>
+        <p>http://www.adobe.com/blog/uncover-truth -behind-cost-per-lead?utm_content=27322869&amp;utm_ medium=social&amp;utm_source=linkedin</p>
       </td>
     </tr>
     <tr>
@@ -3008,7 +3008,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Im CRM als "Referrer-Seite"bezeichnet.</p>
+        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Im CRM als "Referrer-Seite" bezeichnet.</p>
       </td>
       <td>
         <p>https://www.linkedin.com/</p>
@@ -3022,7 +3022,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Eine Raw-Referrer-Seite kann Abfrageparameter in der URL enthalten. Im CRM als "Referrer Page - Raw"bezeichnet.</p>
+        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Eine Raw-Referrer-Seite kann Abfrageparameter in der URL enthalten. Im CRM als "Referrer Page - Raw" bezeichnet.</p>
       </td>
       <td>
         <p>https://www.linkedin.com/</p>
@@ -3036,7 +3036,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Tabelle "Attribution_Touchpoints"angezeigt, sondern in der Tabelle "Form_Submissions". Im CRM als "Formular-URL"bezeichnet.</p>
+        <p>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Tabelle "Attribution_Touchpoints" angezeigt, sondern in der Tabelle "Form_Submissions". Im CRM als "Formular-URL" bezeichnet.</p>
       </td>
       <td>
         <p>http://info.adobe.com/intro-guide-b2b-marketing-attribution</p>
@@ -3050,7 +3050,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Tabelle "Attribution_Touchpoints"angezeigt, sondern in der Tabelle "Form_Submissions". Eine Formularrohseite kann Abfrageparameter in der URL enthalten. Im CRM als "Formular-URL - Roh"bezeichnet.</p>
+        <p>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Tabelle "Attribution_Touchpoints" angezeigt, sondern in der Tabelle "Form_Submissions". Eine Formularrohseite kann Abfrageparameter in der URL enthalten. Im CRM als "Formular-URL - Roh" bezeichnet.</p>
       </td>
       <td>
         <p>http://info.adobe.com/intro-guide-b2b-marketing-attribution</p>
@@ -3072,7 +3072,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
     </tr>
     <tr>
       <td>
-        <p>ORT</p>
+        <p>CITY</p>
       </td>
       <td>
         <p>varchar</p>
@@ -3092,7 +3092,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Von der JavaScript- und IP-Adresse aus die Region, in der sich der Benutzer während der Sitzung befand.</p>
+        <p>Von der JavaScript- und IP-Adresse aus die erkannte Region, in der sich der Benutzer während der Sitzung befand.</p>
       </td>
       <td>
         <p>Kalifornien</p>
@@ -3100,13 +3100,13 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
     </tr>
     <tr>
       <td>
-        <p>LAND</p>
+        <p>COUNTRY</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>
-        <p>Von der JavaScript- und IP-Adresse aus das Land, in dem sich der Benutzer während der Sitzung befand.</p>
+        <p>Von der JavaScript- und IP-Adresse aus das erkannte Land, in dem sich der Benutzer während der Sitzung befand.</p>
       </td>
       <td>
         <p>Vereinigte Staaten</p>
@@ -3120,10 +3120,10 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird verwendet, um das Medium zu definieren, das zum Touchpoint führte. Dies kann entweder aus der URL von utm_medium herausgeparst werden. Oder wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich um Werte wie "cpc"oder "display"handeln.</p>
+        <p>Wird verwendet, um das Medium zu definieren, das zum Touchpoint führte. Dies kann entweder aus der URL von utm_medium herausgeparst werden. Oder wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich auch um Werte wie "cpc" oder "display" handeln.</p>
       </td>
       <td>
-        <p>social</p>
+        <p>Social Media</p>
       </td>
     </tr>
     <tr>
@@ -3134,7 +3134,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird verwendet, um die Quelle zu definieren, die zum Touchpoint führte. Dies kann aus der URL utm_source analysiert werden, die im Allgemeinen als "CRM-Kampagne"festgelegt ist, wenn sie aus dem CRM synchronisiert wurde oder wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich um Werte wie "Google AdWords"oder "Facebook"handeln. Im CRM als "Touchpoint-Quelle"bezeichnet.</p>
+        <p>Wird verwendet, um die Quelle zu definieren, die zum Touchpoint führte. Dies kann aus der URL utm_source analysiert werden, die im Allgemeinen als "CRM-Kampagne" festgelegt ist, wenn sie aus dem CRM synchronisiert wurde. Wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich auch um Werte wie "Google AdWords" oder "Facebook" handeln. Im CRM als "Touchpoint-Quelle" bezeichnet.</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -3148,7 +3148,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Wert, den der Benutzer in den Browser eingegeben hat, um nach ihm zu suchen, und der schließlich auf der Website gelang. Abhängig vom gekauften Suchbegriff stimmt dies möglicherweise nicht mit den von der Paid Search-Plattform erworbenen Suchbegriffen überein.</p>
+        <p>Der Wert, den der Benutzer in den Browser eingegeben hat, um danach zu suchen, wodurch er schließlich auf die Website gelang. Abhängig vom gekauften Suchbegriff stimmt dies möglicherweise nicht mit den von der Paid Search-Plattform erworbenen Suchbegriffen überein.</p>
       </td>
       <td>
         <p>google [!DNL Marketo Measure]</p>
@@ -3162,7 +3162,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Anzeigenplattform [!DNL Marketo Measure] konnte von lösen, in der Regel von einem unserer Integrationspartner.</p>
+        <p>Anzeigenplattform, über die [!DNL Marketo Measure] auflösen konnte, in der Regel einer unserer Integrationspartner.</p>
       </td>
       <td>
         <p>Google</p>
@@ -3176,7 +3176,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Anzeigenkontos, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>ID des Anzeigenkontos, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>aw.6601259029</p>
@@ -3190,7 +3190,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Anzeigenkontos, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Name des Anzeigenkontos, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure]</p>
@@ -3204,7 +3204,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Advertisers aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -3218,7 +3218,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Werbetreibenden aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Marketing Analytics</p>
@@ -3232,7 +3232,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Site aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID der Site aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>1695651</p>
@@ -3246,7 +3246,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Site aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name der Site aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>Quora.com</p>
@@ -3260,7 +3260,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Platzierung aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>120839827</p>
@@ -3274,7 +3274,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Platzierung aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>Hindernis</p>
@@ -3288,7 +3288,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung der Kampagne aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Kennung der Kampagne aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>aw.6601259029.317738075</p>
@@ -3302,7 +3302,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Kampagne aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Name der Kampagne aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>Marketing-Zuordnung</p>
@@ -3316,7 +3316,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Anzeigengruppe aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für Google Adwords.</p>
+        <p>ID der Anzeigengruppe aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für Google Adwords.</p>
       </td>
       <td>
         <p>aw.6601259029.317738075.23105327435</p>
@@ -3330,7 +3330,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Anzeigengruppe aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für Google AdWords.</p>
+        <p>Name der Anzeigengruppe aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für Google AdWords.</p>
       </td>
       <td>
         <p>Marketing-Attribution - Allgemein</p>
@@ -3344,7 +3344,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Anzeige aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für doppelklicken Sie auf Kampagnen-Manager und Facebook (Anzeige).</p>
+        <p>ID der Anzeige aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für DoubleClick Campaign Manager und Facebook (Anzeige).</p>
       </td>
       <td>
         <p>dc.6114.8882972.25272734.492579576</p>
@@ -3358,7 +3358,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Anzeige aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für doppelklicken Sie auf Kampagnen-Manager und Facebook (Anzeige).</p>
+        <p>Name der Anzeige aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für DoubleClick Campaign Manager und Facebook (Anzeige).</p>
       </td>
       <td>
         <p>Budget-Webinar - Seitenleiste</p>
@@ -3372,7 +3372,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung des Kreativelements aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Kennung des Creative-Elements aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>aw.6601259029.317738075.23105327435.182716179597</p>
@@ -3386,7 +3386,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Kreativelements aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Name des Creative-Elements aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>B2B-Marketing-Attribution</p>
@@ -3400,7 +3400,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die erste Zeile des Kreativelements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die erste Zeile des Creative-Elements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>Anleitung für CMOs herunterladen</p>
@@ -3414,7 +3414,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die zweite Zeile des Kreativelements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die zweite Zeile des Creative-Elements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>Erfahren Sie, wie die Attribution den ROI misst, indem Marketingaktivitäten mit dem Umsatz verbunden werden.</p>
@@ -3428,7 +3428,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Landingpage, die von der Suchanzeige durchklickt und aus dem Anzeigenkonto abgerufen wird, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die Landingpage, auf die das Durchklicken von der Suchanzeige führt und die aus dem Anzeigenkonto abgerufen wird, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution</p>
@@ -3442,7 +3442,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Anzeigename der URL, der in der Suchanzeige angezeigt wird und aus dem Anzeigenkonto abgerufen wird, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Der Anzeigename der URL, der in der Suchanzeige angezeigt wird und aus dem Anzeigenkonto abgerufen wird, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>http://info.adobe.com/CMOs-Guide</p>
@@ -3456,7 +3456,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>ID des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>aw.6601259029.317738075.23105327435.4838421670</p>
@@ -3470,10 +3470,10 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche)</p>
+        <p>Name des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche)</p>
       </td>
       <td>
-        <p>"Marketing-Attribution"</p>
+        <p>"Marketing-Zuordnung"</p>
       </td>
     </tr>
     <tr>
@@ -3484,7 +3484,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Art der Übereinstimmung, die zwischen dem Suchbegriff und dem gekauften Suchbegriff gefunden wird.</p>
+        <p>Die Art der Übereinstimmung, die zwischen dem Suchbegriff und dem gekauften Keyword gefunden wird.</p>
       </td>
       <td>
         <p>Exakt</p>
@@ -3495,13 +3495,13 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_FIRST_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint als Erstkontakt der Opportunity-Journey behandelt wird.</p>
+        <p>Gibt an, ob dieser Touchpoint als Erstkontakt der Opportunity-Journey behandelt wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -3509,13 +3509,13 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_LEAD_CREATION_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint als Lead-Creative-Touch der Opportunity-Journey behandelt wird.</p>
+        <p>Gibt an, ob dieser Touchpoint als Touch zur Lead-Erstellung der Opportunity-Journey behandelt wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -3523,13 +3523,13 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_OPP_CREATION_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint als Opportunity-Creative-Touch der Opportunity-Journey behandelt wird.</p>
+        <p>Gibt an, ob dieser Touchpoint als Touch zur Opportunity-Erstellung der Opportunity-Journey behandelt wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -3537,13 +3537,13 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_CLOSED_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint als geschlossene Berührung des Opportunity-Journey behandelt wird.</p>
+        <p>Gibt an, ob dieser Touchpoint als geschlossene Berührung des Opportunity-Journey behandelt wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -3551,7 +3551,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>STAGES_TOUCHED</p>
       </td>
       <td>varchar</td>
-      <td>Dieses Feld wird nicht mehr unterstützt. Informationen zur Bühne finden Sie in den Tabellen Stage_Transitions .</td>
+      <td>Dieses Feld ist veraltet. Informationen zur Phase finden Sie in den Tabellen Stage_Transitions .</td>
       <td>null</td>
     </tr>
     <tr>
@@ -3559,13 +3559,13 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_FORM_SUBMISSION_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob dieser Touchpoint während der Sitzung ein Formular ausgefüllt hat.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -3573,13 +3573,13 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_IMPRESSION_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint als erster Impression des Opportunity-Journey behandelt wird</p>
+        <p>Gibt an, ob dieser Touchpoint als erster Impression des Opportunity-Journey behandelt wird</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -3590,10 +3590,10 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da es sich um einen Erstkontakt handelt (siehe Is_First_Touch).</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil es sich um einen Erstkontakt handelt (siehe Is_First_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -3604,10 +3604,10 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da es sich um einen Lead-Erstellungskontakt handelt (siehe Is_Lead_Creation_Touch).</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil es sich um einen Lead-Erstellungskontakt handelt (siehe Is_Lead_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -3618,10 +3618,10 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugewiesen wird, da er Teil eines u-förmigen Touchings ist (siehe Is_First_Touch und Is_Lead_Creation_Touch).</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugewiesen wird, weil er Teil eines U-förmigen Touchings ist (siehe Is_First_Touch und Is_Lead_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -3632,10 +3632,10 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da er Teil eines w-förmigen Touchings ist (siehe Is_First_Touch, Is_Lead_Creation_Touch und Is_Opp_Creation_Touch).</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil er Teil eines W-förmigen Touchings ist (siehe Is_First_Touch, Is_Lead_Creation_Touch und Is_Opp_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0153374234214425</p>
+        <p>0,0153374234214425</p>
       </td>
     </tr>
     <tr>
@@ -3646,10 +3646,10 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da er Teil eines vollständigen Pfadmodells ist (siehe Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil er Teil eines vollständigen Pfadmodells ist (siehe Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</p>
       </td>
       <td>
-        <p>0.0143061513081193</p>
+        <p>0,0143061513081193</p>
       </td>
     </tr>
     <tr>
@@ -3657,21 +3657,21 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>CUSTOM_MODEL_PERCENTAGE</p>
       </td>
       <td>number(22,19)</td>
-      <td>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da er Teil eines benutzerdefinierten Modells ist (siehe Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</td>
-      <td>0.0143061513081193</td>
+      <td>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil er Teil eines benutzerdefinierten Modells ist (siehe Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</td>
+      <td>0,0143061513081193</td>
     </tr>
     <tr>
       <td>
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint gelöscht wird.</p>
+        <p>Gibt an, ob dieser Touchpoint gelöscht wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -3787,7 +3787,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -3795,7 +3795,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
 
 ### BIZ_CAMPAIGN_MEMBERS {#biz-campaign-members}
 
-Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wenn die Kampagnensynchronisierung deaktiviert ist.
+Aus dem Quellsystem importierte Kampagnenmitglieder. Diese Tabelle ist leer, wenn die Kampagnensynchronisierung deaktiviert ist.
 
 <table>
   <tbody>
@@ -3821,7 +3821,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Kennung des Campaign-Mitglieds aus dem Quellsystem.</p>
+        <p>Die Kennung des Kampagnenmitglieds aus dem Quellsystem.</p>
       </td>
       <td>
         <p>00v0Z00001VVzdLQAT</p>
@@ -3835,7 +3835,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Das Datum der letzten Änderung des Campaign-Mitglieds aus dem Quellsystem.</p>
+        <p>Das Datum der letzten Änderung des Kampagnenmitglieds aus dem Quellsystem.</p>
       </td>
       <td>
         <p>2018-08-31 20:49:54.000</p>
@@ -3849,7 +3849,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Das Erstellungsdatum des Campaign-Mitglieds aus dem Quellsystem.</p>
+        <p>Das Erstellungsdatum des Kampagnenmitglieds aus dem Quellsystem.</p>
       </td>
       <td>
         <p>2018-08-31 20:49:54.000</p>
@@ -3877,7 +3877,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>ID für den Lead, an den das Campaign-Mitglied gebunden ist.</p>
+        <p>ID für den Lead, an den das Kampagnenmitglied gebunden ist.</p>
       </td>
       <td>
         <p>00Q0Z000013dw4GUAQ</p>
@@ -3891,7 +3891,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>E-Mail für den Lead, an den das Campaign-Mitglied gebunden ist.</p>
+        <p>E-Mail für den Lead, an den das Kampagnenmitglied gebunden ist.</p>
       </td>
       <td>
         <p>persona@adobe.com</p>
@@ -3905,7 +3905,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>ID für den Kontakt, an den das Campaign-Mitglied gebunden ist.</p>
+        <p>ID für den Kontakt, an den das Kampagnenmitglied gebunden ist.</p>
       </td>
       <td>
         <p>00331000032hMxRAAU</p>
@@ -3919,7 +3919,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>E-Mail für den Kontakt, an den das Campaign-Mitglied gebunden ist.</p>
+        <p>E-Mail für den Kontakt, an den das Kampagnenmitglied gebunden ist.</p>
       </td>
       <td>
         <p>persona@adobe.com</p>
@@ -3933,7 +3933,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>Status des Campaign-Mitglieds, in der Regel auf Gesendet oder Beantwortet oder ein anderer benutzerdefinierter Wert eingestellt. Dieser Status ist an den Campaign_Sync_Type gebunden, um zu bestimmen, für welche Campaign-Mitglieder Touchpoints erstellt werden sollen.</p>
+        <p>Status des Kampagnenmitglieds, in der Regel auf Gesendet oder Beantwortet oder einen anderen benutzerdefinierter Wert eingestellt. Dieser Status ist an den Campaign_Sync_Type gebunden, um zu bestimmen, für welche Kampagnenmitglieder Touchpoints erstellt werden sollen.</p>
       </td>
       <td>
         <p>Gesendet</p>
@@ -3944,13 +3944,13 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>HAS_RESPONDED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Teilt mit, ob das Kampagnenmitglied in der Statusauswahl als "Beantwortet"markiert wurde.</p>
+        <p>Teilt mit, ob das Kampagnenmitglied in der Statusauswahl als "Beantwortet" markiert wurde.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -3961,7 +3961,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Datum der ersten Antwort des Campaign-Mitglieds.</p>
+        <p>Datum der ersten Antwort des Kampagnenmitglieds.</p>
       </td>
       <td>
         <p>2018-08-30 07:00:00.000</p>
@@ -3975,7 +3975,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Kampagne, zu der das Campaign-Mitglied gehört.</p>
+        <p>Name der Kampagne, zu der das Kampagnenmitglied gehört.</p>
       </td>
       <td>
         <p>Schnelle CMO-Interviews</p>
@@ -3989,7 +3989,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der zugehörigen Kampagne, zu der das Campaign-Mitglied gehört.</p>
+        <p>ID der zugehörigen Kampagne, zu der das Kampagnenmitglied gehört.</p>
       </td>
       <td>
         <p>7010Z000001TcKlQAK</p>
@@ -4017,7 +4017,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>Bestimmt, für welche Campaign-Mitglieder Touchpoints erstellt werden. Mögliche Werte sind: Include_All, Include_Responded, Exclude_All.</p>
+        <p>Bestimmt, für welche Kampagnenmitglieder Touchpoints erstellt werden. Mögliche Werte sind: Include_All, Include_Responded, Exclude_All.</p>
       </td>
       <td>
         <p>Include_All</p>
@@ -4031,7 +4031,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>Audit-Feld: Gibt an, ob ein Käufer-Touchpoint für den Lead generiert wurde. Wenn kein Touchpoint erstellt wurde, wird der Grund, warum er sich nicht qualifiziert hat, angegeben.</p>
+        <p>Audit-Feld: Gibt an, ob ein Buyer Touchpoint für den Lead generiert wurde. Wenn kein Touchpoint erstellt wurde, wird der Grund angegeben, warum er sich nicht qualifiziert hat.</p>
       </td>
       <td>
         <p>Kein Touchpoint: Datum außerhalb des Modells</p>
@@ -4045,7 +4045,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>Audit-Feld: Gibt an, ob ein Käufer-Touchpoint für den Kontakt generiert wurde. Wenn kein Touchpoint erstellt wurde, wird der Grund, warum er sich nicht qualifiziert hat, angegeben.</p>
+        <p>Audit-Feld: Gibt an, ob ein Buyer Touchpoint für den Kontakt generiert wurde. Wenn kein Touchpoint erstellt wurde, wird der Grund angegeben, warum er sich nicht qualifiziert hat.</p>
       </td>
       <td>
         <p>Touchpoint erstellt</p>
@@ -4059,7 +4059,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>varchar</p>
       </td>
       <td>
-        <p>Feld "Verfolgung", in dem angegeben wird, ob ein Touchpoint der Käuferzuordnung für die Gelegenheit generiert wurde oder nicht. Wenn kein Touchpoint erstellt wurde, wird der Grund, warum er sich nicht qualifiziert hat, angegeben.</p>
+        <p>Audit-Feld: Gibt an, ob ein Buyer Attribution Touchpoint für die Opportunity generiert wurde oder nicht. Wenn kein Touchpoint erstellt wurde, wird der Grund angegeben, warum er sich nicht qualifiziert hat.</p>
       </td>
       <td>
         <p>Touchpoint erstellt</p>
@@ -4070,19 +4070,19 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Benutzerdefinierte Eigenschaften, die [!DNL Marketo Measure] wurde aus dem Quellsystem im JSON-Format importiert.</td>
+      <td>Benutzerdefinierte Eigenschaften im JSON-Format, die [!DNL Marketo Measure] aus dem Quellsystem importiert hat.</td>
       <td>{"Campaign_Type__c":"Dinners","Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -4100,7 +4100,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -4108,7 +4108,7 @@ Aus dem Quellsystem importierte Campaign-Mitglieder. Diese Tabelle ist leer, wen
 
 ### BIZ_CHANNELS {#biz-channels}
 
-Marketing-Kanäle, wie in der [!DNL Marketo Measure] Anwendung.
+Marketing-Kanäle, wie in der [!DNL Marketo Measure]-Anwendung erstellt.
 
 <table>
   <tbody>
@@ -4137,7 +4137,7 @@ Marketing-Kanäle, wie in der [!DNL Marketo Measure] Anwendung.
         <p>Eine eindeutige ID für den Kanal.</p>
       </td>
       <td>
-        <p>Organische Suche.Google</p>
+        <p>Organic Search.Google</p>
       </td>
     </tr>
     <tr>
@@ -4151,7 +4151,7 @@ Marketing-Kanäle, wie in der [!DNL Marketo Measure] Anwendung.
         <p>Name des Kanals.</p>
       </td>
       <td>
-        <p>Organische Suche.Google</p>
+        <p>Organic Search.Google</p>
       </td>
     </tr>
     <tr>
@@ -4183,7 +4183,7 @@ Marketing-Kanäle, wie in der [!DNL Marketo Measure] Anwendung.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Das Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Das Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -4245,7 +4245,7 @@ Aus dem Quellsystem importierte Kontakte.
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Datum der Erstellung des Kontaktdatensatzes aus dem Quellsystem.</p>
+        <p>Datum der Erstellung des Kontaktdatensatzes, aus dem Quellsystem.</p>
       </td>
       <td>
         <p>2018-09-05 05:17:51.000</p>
@@ -4253,7 +4253,7 @@ Aus dem Quellsystem importierte Kontakte.
     </tr>
     <tr>
       <td>
-        <p>E-MAIL</p>
+        <p>EMAIL</p>
       </td>
       <td>
         <p>varchar</p>
@@ -4267,7 +4267,7 @@ Aus dem Quellsystem importierte Kontakte.
     </tr>
     <tr>
       <td>
-        <p>KONTO</p>
+        <p>ACCOUNTID</p>
       </td>
       <td>
         <p>varchar</p>
@@ -4301,7 +4301,7 @@ Aus dem Quellsystem importierte Kontakte.
         <p>varchar</p>
       </td>
       <td>
-        <p>Aktuelle Phase des Kontakts, die als benutzerdefinierte Phase erkannt wird und in der Sie [!DNL Marketo Measure] Anwendung.</p>
+        <p>Aktuelle Phase des Kontakts, die als benutzerdefinierte Phase erkannt wird und in der [!DNL Marketo Measure]-Anwendung erstellt werden kann.</p>
       </td>
       <td>
         <p>Demo geplant</p>
@@ -4315,7 +4315,7 @@ Aus dem Quellsystem importierte Kontakte.
         <p>varchar</p>
       </td>
       <td>
-        <p>Alle vorherigen Phasen für den Kontakt, die als benutzerdefinierte Phasen erkannt werden, die in der [!DNL Marketo Measure] Anwendung.</p>
+        <p>Alle vorherigen Phasen für den Kontakt, die als benutzerdefinierte Phasen erkannt werden, die in der [!DNL Marketo Measure]-Anwendung erstellt werden können.</p>
       </td>
       <td>
         <p>Offen - Kontakt</p>
@@ -4329,7 +4329,7 @@ Aus dem Quellsystem importierte Kontakte.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Die [!DNL Marketo Measure] Algorithmus zur Abschätzung, ob ein Kontakt einer Gelegenheit hilft, basierend auf dem Alter und der Phase zu schließen</p>
+        <p>Der [!DNL Marketo Measure]-Algorithmus zur Einschätzung, ob ein Kontakt zum Abschluss einer Opportunity beiträgt, basiert auf dem Alter und der Phase</p>
       </td>
       <td>
         <p>.290034</p>
@@ -4343,7 +4343,7 @@ Aus dem Quellsystem importierte Kontakte.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die [!DNL Marketo Measure] Cookie-ID, die zum Ausfüllen von einem Integrationspartner verwendet wird, um ein Offline-Ereignis einer Websitzung zuzuordnen. Anforderung: Anrufverfolgung aktivieren: True</p>
+        <p>Die [!DNL Marketo Measure]-Cookie-ID, die zum Ausfüllen von einem Integrationspartner verwendet wird, um ein Offline-Ereignis einer Websitzung zuzuordnen. Anforderung: Anrufverfolgung aktivieren: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -4354,24 +4354,24 @@ Aus dem Quellsystem importierte Kontakte.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Datensatz im Quellsystem gelöscht wird.</p>
       </td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>IS_DUPLICATE</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Dient zum Deduplizieren von Datensätzen, wenn sowohl eine CRM- als auch eine Marketo-Integration eingerichtet sind. Bei Duplikaten wird der Marketo-Kontakt als "true"markiert.</td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>SOURCE_SYSTEM</td>
       <td>varchar</td>
       <td>Gibt an, ob der Datensatz aus einem CRM-System oder einer Marketo-Integration stammt.</td>
-      <td>CRM</td>
+      <td>Crm</td>
     </tr>
     <tr>
       <td>OTHER_SYSTEM_ID</td>
@@ -4382,7 +4382,7 @@ Aus dem Quellsystem importierte Kontakte.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Benutzerdefinierte Eigenschaften, die [!DNL Marketo Measure] wurde aus dem Quellsystem im JSON-Format importiert.</td>
+      <td>Benutzerdefinierte Eigenschaften im JSON-Format, die [!DNL Marketo Measure] aus dem Quellsystem importiert hat.</td>
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -4414,7 +4414,7 @@ Aus dem Quellsystem importierte Kontakte.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -4447,7 +4447,7 @@ Aus dem Quellsystem importierte Währungskonversionsraten.
     <tr>
       <td>SOURCE_ISO_CODE</td>
       <td>varchar</td>
-      <td>Währungs-ISO-Code aus dem Quellsystem.</td>
+      <td>Währungs-ISO-Code, aus dem Quellsystem.</td>
       <td>USD</td>
     </tr>
     <tr>
@@ -4466,13 +4466,13 @@ Aus dem Quellsystem importierte Währungskonversionsraten.
       <td>CONVERSION_RATE</td>
       <td>number(38,0)</td>
       <td>Wechselkurs, der zum Konvertieren der Währung in die Unternehmenskurve verwendet wird.</td>
-      <td>0.76728300</td>
+      <td>0,76728300</td>
     </tr>
     <tr>
       <td>IS_CURRENT</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Die Semantik dieses Felds wurde beschädigt. Nicht verwenden.</td>
-      <td>wahr</td>
+      <td>true</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
@@ -4488,9 +4488,9 @@ Aus dem Quellsystem importierte Währungskonversionsraten.
     </tr>
     <tr>
       <td>IS_DELETED</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -4507,7 +4507,7 @@ Aus dem Quellsystem importierte Währungskonversionsraten.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -4544,7 +4544,7 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
       <td>2018-09-06 00:00:00.000</td>
     </tr>
     <tr>
-      <td>QUELLE</td>
+      <td>SOURCE</td>
       <td>varchar</td>
       <td>Quelle der gemeldeten Kosten.</td>
       <td>[AdWords Anzeige]</td>
@@ -4556,13 +4556,13 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
       <td>1410000</td>
     </tr>
     <tr>
-      <td>Klicks</td>
+      <td>CLICKS</td>
       <td>number(38,0)</td>
       <td>Anzahl der für die Gruppe gemeldeten Klicks für den Tag.</td>
       <td>4</td>
     </tr>
     <tr>
-      <td>IMPRESSIONEN</td>
+      <td>IMPRESSIONS</td>
       <td>number(38,0)</td>
       <td>Anzahl der für die Gruppe gemeldeten Impressionen für den Tag.</td>
       <td>4187</td>
@@ -4582,38 +4582,38 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
     <tr>
       <td>CHANNEL_UNIQUE_ID</td>
       <td>varchar</td>
-      <td>ID für den Marketing-Kanal, erstellt von [!DNL Marketo Measure].</td>
+      <td>ID für den Marketingkanal, erstellt von [!DNL Marketo Measure].</td>
       <td>Display.Google</td>
     </tr>
     <tr>
       <td>CHANNEL_NAME</td>
       <td>varchar</td>
-      <td>Name für den Marketing-Kanal, der vom Kunden im [!DNL Marketo Measure] App.</td>
+      <td>Name für den Marketingkanal, der vom Kunden in der [!DNL Marketo Measure]-App erstellt wurde.</td>
       <td>Display.Google</td>
     </tr>
     <tr>
       <td>CHANNEL_IS_AGGREGATABLE_COST</td>
-      <td>Boolesch</td>
-      <td>Gibt an, ob die Zeile Kosten enthält, die nach Kanal summiert werden können. (d. h. um Kanalkosten zu erhalten, summieren Sie Zeilen, für die diese Spalte "true"ist.)</td>
-      <td>falsch</td>
+      <td>boolean</td>
+      <td>Gibt an, ob die Zeile Kosten enthält, die nach Kanal summiert werden können. (d. h. um die Kanalkosten zu erhalten, summieren Sie die Zeilen, für die diese Spalte "true" ist.)</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>ADVERTISER_UNIQUE_ID</td>
       <td>varchar</td>
-      <td>Kennung des Werbetreibenden, der aus der Anzeigenverbindung abgerufen wurde, insbesondere für Doubleclick-Verbindungen.</td>
+      <td>Kennung des Advertisers, der aus der Anzeigenverbindung abgerufen wurde, insbesondere für Doubleclick-Verbindungen.</td>
       <td>300181641</td>
     </tr>
     <tr>
       <td>ADVERTISER_NAME</td>
       <td>varchar</td>
-      <td>Name des Werbetreibenden, der aus der Anzeigenverbindung gezogen wird, insbesondere für Doubleclick-Verbindungen.</td>
+      <td>Name des Advertisers, der aus der Anzeigenverbindung gezogen wird, insbesondere für Doubleclick-Verbindungen.</td>
       <td>[!DNL Marketo Measure] Marketing Analytics</td>
     </tr>
     <tr>
       <td>ADVERTISER_IS_AGGREGATABLE_COST</td>
-      <td>Boolesch</td>
-      <td>Gibt an, ob die Zeile Kosten enthält, die von Advertiser zusammengefasst werden können. (d. h. um Advertiser-Kosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</td>
-      <td>falsch</td>
+      <td>boolean</td>
+      <td>Gibt an, ob die Zeile Kosten enthält, die vom Advertiser zusammengefasst werden können. (d. h. um die Kosten des Advertisers zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>
@@ -4648,13 +4648,13 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
         <p>ACCOUNT_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die nach Konto summiert werden können. (d. h. um Kontokosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die nach Konto summiert werden können. (d. h. um die Kontokosten zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -4690,13 +4690,13 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
         <p>CAMPAIGN_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die von Campaign zusammengefasst werden können. (d. h. um Kampagnenkosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die von Campaign zusammengefasst werden können. (d. h. um die Kampagnenkosten zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -4732,13 +4732,13 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
         <p>AD_GROUP_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die von Anzeigengruppen zusammengefasst werden können. (d. h. um Anzeigengruppenkosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die von Anzeigengruppen zusammengefasst werden können. (d. h. um die Anzeigengruppenkosten zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -4774,13 +4774,13 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
         <p>AD_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die nach Anzeige summiert werden können. (d. h. um Anzeigenkosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die nach Anzeige summiert werden können. (d. h. um die Anzeigenkosten zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -4816,13 +4816,13 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
         <p>CREATIVE_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die von Creative zusammengefasst werden können. (d. h. um kreative Kosten zu erhalten, summieren Sie Zeilen, für die diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die von Creative zusammengefasst werden können. (d. h. um die Creative-Kosten zu erhalten, summieren Sie die Zeilen, für die diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -4858,13 +4858,13 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
         <p>KEYWORD_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die nach Keyword summiert werden können. (d. h. um Suchbegriffkosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die nach Keyword summiert werden können. (d. h. um die Suchbegriffkosten zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -4900,13 +4900,13 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
         <p>PLACEMENT_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die nach Platzierung summiert werden können. (d. h. um Platzierungskosten zu erhalten, summieren Sie Zeilen, für die diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die nach Platzierung summiert werden können. (d. h. um die Platzierungskosten zu erhalten, summieren Sie die Zeilen, für die diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -4942,13 +4942,13 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
         <p>SITE_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die nach Site summiert werden können. (d. h. um Site-Kosten zu erhalten, summieren Sie Zeilen, für die diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die nach Site summiert werden können. (d. h. um die Site-Kosten zu erhalten, summieren Sie die Zeilen, für die diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -4956,13 +4956,13 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -5064,7 +5064,7 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5072,7 +5072,7 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
 
 ### BIZ_CREATIVES {#biz-creatives}
 
-Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
+Creatives, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
 
 <table>
   <tbody>
@@ -5136,7 +5136,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name für das Anzeigenkonto, aus dem das Kreativelement importiert wurde.</p>
+        <p>Name für das Anzeigenkonto, aus dem das Creative-Element importiert wurde.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure]</p>
@@ -5150,7 +5150,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung des Werbetreibenden für Kreative, insbesondere für Doubleclick.</p>
+        <p>Kennung des Advertisers für Creative, insbesondere für Doubleclick.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -5164,7 +5164,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Werbetreibenden für Kreative, insbesondere für Doubleclick.</p>
+        <p>Name des Advertisers für das Creative-Element, insbesondere für Doubleclick.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Marketing Analytics</p>
@@ -5178,7 +5178,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Anzeigengruppe für das Kreativ.</p>
+        <p>ID der Anzeigengruppe für Creative.</p>
       </td>
       <td>fb.106851586409075.6052044288804.6052044290004</td>
     </tr>
@@ -5190,7 +5190,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Anzeigengruppe für das Kreativ.</p>
+        <p>Name der Anzeigengruppe für Creative.</p>
       </td>
       <td>Anzeigenset für Anzeige B</td>
     </tr>
@@ -5202,7 +5202,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung der Kampagne für die Kreativelemente.</p>
+        <p>Kennung der Kampagne für Creative.</p>
       </td>
       <td>
         <p>ba.3284209.132855866</p>
@@ -5216,7 +5216,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Kampagne für die Kreativität.</p>
+        <p>Name der Kampagne für Creative.</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -5227,13 +5227,13 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob Creative im Quellsystem noch aktiv ist.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -5241,13 +5241,13 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Creative-Komponente im Quellsystem gelöscht wurde.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -5286,7 +5286,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Kreativen aus dem Quellsystem.</p>
+        <p>Name des Creative-Elements aus dem Quellsystem.</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -5297,14 +5297,14 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob die Kreativinhalte aktualisiert werden müssen [!DNL Marketo Measure] Tagging.</p>
+        <p>Gibt an, ob die Creative-Inhalte für [!DNL Marketo Measure]-Tagging aktualisiert werden müssen.</p>
         <p>(Diagnostisches Feld, von interner Verarbeitung verwendet.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -5325,7 +5325,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Das Hauptobjekt oder die Entität für diese Tabelle. In diesem Fall "Kreativ".</p>
+        <p>Das Hauptobjekt oder die Entität für diese Tabelle. In diesem Fall "Creative".</p>
       </td>
       <td>
         <p>Werbemittel</p>
@@ -5339,7 +5339,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Anzeigenanbieters für das Kreativelement.</p>
+        <p>Name des Anzeigenanbieters für Creative.</p>
       </td>
       <td>
         <p>BingAds</p>
@@ -5368,7 +5368,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die gekürzte und benutzerfreundliche URL, die auf der kreativen Seite angezeigt wird.</p>
+        <p>Die gekürzte und benutzerfreundliche URL, die auf Creative angezeigt wird.</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -5407,7 +5407,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>varchar</p>
       </td>
-      <td>Die gekürzte und benutzerfreundliche URL, die auf der kreativen Seite angezeigt wird. (Wird nur für LinkedIn Ads verwendet.)</td>
+      <td>Die gekürzte und benutzerfreundliche URL, die auf Creative angezeigt wird. (Wird nur für LinkedIn Ads verwendet.)</td>
       <td></td>
     </tr>
     <tr>
@@ -5418,7 +5418,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Typ von Kreativelementen, z. B. Text oder Anzeige</p>
+        <p>Der Typ von Creative-Element, z. B. Text oder Anzeige</p>
       </td>
       <td>
         <p>Text</p>
@@ -5429,13 +5429,13 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>IS_UPGRADED_URL</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Kreativschaffende aktualisierte URLs verwendet.</p>
+        <p>Gibt an, ob das Creative-Element aktualisierte URLs verwendet.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -5446,7 +5446,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die oberste Zeile (Überschrift) des Kreativelements</p>
+        <p>Die oberste Zeile (Überschrift) des Creative-Elements</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -5460,7 +5460,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Kopie aus der ersten Zeile des Kreativelements</p>
+        <p>Die Kopie aus der ersten Zeile des Creative-Elements</p>
       </td>
       <td>
         <p>Verbinden und lernen Sie mit umsatzorientierten B2B-Marketingexperten. Treten Sie der Community bei.</p>
@@ -5474,7 +5474,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Kopie aus der zweiten Zeile des Kreativelements</p>
+        <p>Die Kopie aus der zweiten Zeile des Creative-Elements</p>
       </td>
       <td>
         <p>Haben Sie Analytics verwendet? Hinterlassen Sie heute einen Review!</p>
@@ -5565,7 +5565,7 @@ Kreative, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5697,7 +5697,7 @@ Aus dem Quellsystem importierte Ereignisse. Diese Tabelle ist leer, wenn die Akt
         <p>varchar</p>
       </td>
       <td>
-        <p>Die [!DNL Marketo Measure] Cookie-ID, die zum Ausfüllen von einem Integrationspartner verwendet wird, um ein Offline-Ereignis einer Websitzung zuzuordnen. Anforderung: Anrufverfolgung aktivieren: True</p>
+        <p>Die [!DNL Marketo Measure]-Cookie-ID, die zum Ausfüllen von einem Integrationspartner verwendet wird, um ein Offline-Ereignis einer Websitzung zuzuordnen. Anforderung: Anrufverfolgung aktivieren: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -5711,7 +5711,7 @@ Aus dem Quellsystem importierte Ereignisse. Diese Tabelle ist leer, wenn die Akt
         <p>varchar</p>
       </td>
       <td>
-        <p>Aktivitätstyp Name aus dem Quellsystem.</p>
+        <p>Name des Aktivitätstyps aus dem Quellsystem.</p>
       </td>
       <td>
         <p>E-Mail</p>
@@ -5750,17 +5750,17 @@ Aus dem Quellsystem importierte Ereignisse. Diese Tabelle ist leer, wenn die Akt
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</td>
       <td>
-        <p>False</p>
+        <p>Falsch</p>
       </td>
     </tr>
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Benutzerdefinierte Eigenschaften, die [!DNL Marketo Measure] wurde aus dem Quellsystem im JSON-Format importiert.</td>
+      <td>Benutzerdefinierte Eigenschaften im JSON-Format, die [!DNL Marketo Measure] aus dem Quellsystem importiert hat.</td>
       <td>{"Contact_Type__c":"CMO","Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -5778,7 +5778,7 @@ Aus dem Quellsystem importierte Ereignisse. Diese Tabelle ist leer, wenn die Akt
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5826,7 +5826,7 @@ Aus dem Quellsystem importierte Aufgaben. Diese Tabelle wird gefüllt, wenn die 
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Datum der Erstellung der Aufgabe aus dem Quellsystem.</p>
+        <p>Datum der Erstellung der Aufgabe, aus dem Quellsystem.</p>
       </td>
       <td>
         <p>2018-08-27 18:30:25.000</p>
@@ -5840,7 +5840,7 @@ Aus dem Quellsystem importierte Aufgaben. Diese Tabelle wird gefüllt, wenn die 
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Datum der letzten Änderung der Aufgabe im Quellsystem.</p>
+        <p>Datum der letzten Änderung der Aufgabe, aus dem Quellsystem.</p>
       </td>
       <td>
         <p>2018-08-27 18:31:53.000</p>
@@ -5910,7 +5910,7 @@ Aus dem Quellsystem importierte Aufgaben. Diese Tabelle wird gefüllt, wenn die 
         <p>varchar</p>
       </td>
       <td>
-        <p>Die [!DNL Marketo Measure] Cookie-ID, die zum Ausfüllen von einem Integrationspartner verwendet wird, um ein Offline-Ereignis einer Websitzung zuzuordnen. Anforderung: Anrufverfolgung aktivieren: True</p>
+        <p>Die [!DNL Marketo Measure]-Cookie-ID, die zum Ausfüllen von einem Integrationspartner verwendet wird, um ein Offline-Ereignis einer Websitzung zuzuordnen. Anforderung: Anrufverfolgung aktivieren: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -5924,7 +5924,7 @@ Aus dem Quellsystem importierte Aufgaben. Diese Tabelle wird gefüllt, wenn die 
         <p>varchar</p>
       </td>
       <td>
-        <p>Aktivitätstyp Name aus dem Quellsystem.</p>
+        <p>Name des Aktivitätstyps aus dem Quellsystem.</p>
       </td>
       <td>
         <p>Anruf</p>
@@ -5949,17 +5949,17 @@ Aus dem Quellsystem importierte Aufgaben. Diese Tabelle wird gefüllt, wenn die 
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Benutzerdefinierte Eigenschaften, die [!DNL Marketo Measure] wurde aus dem Quellsystem im JSON-Format importiert.</td>
+      <td>Benutzerdefinierte Eigenschaften im JSON-Format, die [!DNL Marketo Measure] aus dem Quellsystem importiert hat.</td>
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -5977,7 +5977,7 @@ Aus dem Quellsystem importierte Aufgaben. Diese Tabelle wird gefüllt, wenn die 
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -6011,17 +6011,17 @@ Tabelle aller ISO-Währungen.
     </tr>
     <tr>
       <td>IS_CORPORATE</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Gibt an, ob die Währung die Unternehmenswährung ist.</td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
       <td>IS_ENABLED</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Gibt an, ob die Währung im Quellsystem aktiviert ist.</td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -6080,7 +6080,7 @@ Tabelle aller ISO-Währungen.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -6188,7 +6188,7 @@ AB-Tests aufgezeichnet. Diese Tabelle ist leer, wenn AB-Tests nicht aktiviert si
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Variantenkennung des Experiments, die von der AB-Testplattform abgerufen wurde.</p>
+        <p>Die Variantenkennung des Experiments, das von der AB-Testplattform abgerufen wurde.</p>
       </td>
       <td>456</td>
     </tr>
@@ -6200,7 +6200,7 @@ AB-Tests aufgezeichnet. Diese Tabelle ist leer, wenn AB-Tests nicht aktiviert si
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Variantenname des Experiments, der von der AB-Testplattform abgerufen wurde.</p>
+        <p>Der Variantenname des Experiments, das von der AB-Testplattform abgerufen wurde.</p>
       </td>
       <td>Blauer Test</td>
     </tr>
@@ -6212,7 +6212,7 @@ AB-Tests aufgezeichnet. Diese Tabelle ist leer, wenn AB-Tests nicht aktiviert si
         <p>varchar</p>
       </td>
       <td>
-        <p>Die ID des Benutzers, dem das Experiment bereitgestellt wurde, der von der AB-Testplattform abgerufen wurde.</p>
+        <p>Die ID des Benutzers, dem das Experiment bereitgestellt wurde, das von der AB-Testplattform abgerufen wurde.</p>
       </td>
       <td>584d64et</td>
     </tr>
@@ -6221,12 +6221,12 @@ AB-Tests aufgezeichnet. Diese Tabelle ist leer, wenn AB-Tests nicht aktiviert si
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Datensatz gelöscht, für Diagnose und Prüfung verwendet wurde.</p>
       </td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -6243,7 +6243,7 @@ AB-Tests aufgezeichnet. Diese Tabelle ist leer, wenn AB-Tests nicht aktiviert si
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -6251,7 +6251,7 @@ AB-Tests aufgezeichnet. Diese Tabelle ist leer, wenn AB-Tests nicht aktiviert si
 
 ### BIZ_CUSTOMER_EVENTS {#biz-customer-events}
 
-Web-Ereignisse, die mit benutzerdefinierten Ereignissen in JavaScript aufgezeichnet wurden. Diese Tabelle ist leer, wenn [!DNL Marketo Measure] Ereignisse sind nicht aktiviert.
+Web-Ereignisse, die mit benutzerdefinierten Ereignissen in JavaScript aufgezeichnet wurden. Diese Tabelle ist leer, wenn [!DNL Marketo Measure]-Ereignisse nicht aktiviert sind.
 
 <table>
   <tbody>
@@ -6323,7 +6323,7 @@ Web-Ereignisse, die mit benutzerdefinierten Ereignissen in JavaScript aufgezeich
     </tr>
     <tr>
       <td>
-        <p>SCHLÜSSEL</p>
+        <p>KEY</p>
       </td>
       <td>
         <p>varchar</p>
@@ -6335,7 +6335,7 @@ Web-Ereignisse, die mit benutzerdefinierten Ereignissen in JavaScript aufgezeich
     </tr>
     <tr>
       <td>
-        <p>WERT</p>
+        <p>VALUE</p>
       </td>
       <td>
         <p>varchar</p>
@@ -6343,19 +6343,19 @@ Web-Ereignisse, die mit benutzerdefinierten Ereignissen in JavaScript aufgezeich
       <td>
         <p>Der Wert, der dem Ereignis zugewiesen wurde, das vom benutzerdefinierten JavaScript ausgelöst wurde.</p>
       </td>
-      <td>75 % der angezeigten Nachrichten</td>
+      <td>75 % angezeigt</td>
     </tr>
     <tr>
       <td>
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Datensatz gelöscht, für Diagnose und Prüfung verwendet wurde.</p>
       </td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -6372,7 +6372,7 @@ Web-Ereignisse, die mit benutzerdefinierten Ereignissen in JavaScript aufgezeich
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -6380,7 +6380,7 @@ Web-Ereignisse, die mit benutzerdefinierten Ereignissen in JavaScript aufgezeich
 
 ### BIZ_CUSTOM_LANDING_PAGES {#biz-custom-landing-pages}
 
-Landingpages, die von einem beliebigen verbundenen Anzeigenkonto heruntergeladen wurden.
+Landing-Pages, die von einem beliebigen verbundenen Anzeigenkonto heruntergeladen wurden.
 
 <table>
   <tbody>
@@ -6515,7 +6515,7 @@ Landingpages, die von einem beliebigen verbundenen Anzeigenkonto heruntergeladen
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td></td>
       <td></td>
@@ -6525,7 +6525,7 @@ Landingpages, die von einem beliebigen verbundenen Anzeigenkonto heruntergeladen
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td></td>
       <td></td>
@@ -6567,7 +6567,7 @@ Landingpages, die von einem beliebigen verbundenen Anzeigenkonto heruntergeladen
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td></td>
       <td></td>
@@ -6657,7 +6657,7 @@ Landingpages, die von einem beliebigen verbundenen Anzeigenkonto heruntergeladen
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -6693,7 +6693,7 @@ Zuordnungstabelle für E-Mail-Adressen und Besucher-IDs.
     </tr>
     <tr>
       <td>
-        <p>E-MAIL</p>
+        <p>EMAIL</p>
       </td>
       <td>
         <p>varchar</p>
@@ -6752,20 +6752,20 @@ Zuordnungstabelle für E-Mail-Adressen und Besucher-IDs.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Datensatz als gelöscht gilt, für Diagnose und Prüfung verwendet wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
       <td>IS_IGNORE</td>
-      <td>Boolesch</td>
-      <td>Gibt an, ob die E-Mail- oder Besucher-ID als Rauschen oder Spam gilt, der für die interne Verarbeitung verwendet wird.</td>
-      <td>falsch</td>
+      <td>boolean</td>
+      <td>Gibt an, ob die E-Mail- oder Besucher-ID als Rauschen oder Spam gilt, wird für die interne Verarbeitung verwendet.</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -6782,7 +6782,7 @@ Zuordnungstabelle für E-Mail-Adressen und Besucher-IDs.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -6790,7 +6790,7 @@ Zuordnungstabelle für E-Mail-Adressen und Besucher-IDs.
 
 ### BIZ_FACTS {#biz-facts}
 
-Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularübermittlungen, Benutzer-Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT) und Kostendaten. Wird intern zur Unterstützung verwendet [!DNL Marketo Measure] Berichterstellung.
+Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlungen, Benutzer-Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT) und Kostendaten kombinieren. Wird intern zur Unterstützung verwendet [!DNL Marketo Measure] Berichterstellung.
 
 <table>
   <tbody>
@@ -6821,13 +6821,13 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
     <tr>
       <td>PAGE_VIEW_KEY</td>
       <td>number(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle "Seitenansichten"zu gehören.</td>
+      <td>Wird zum Verbinden mit der Tabelle "Seitenansichten" verwendet.</td>
       <td>-8044063242541720607</td>
     </tr>
     <tr>
       <td>SESSION_KEY</td>
       <td>number(38,0)</td>
-      <td>Wird für den Beitritt zur Sitzungstabelle verwendet.</td>
+      <td>Wird zum Verbinden mit der Sitzungstabelle verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
@@ -6851,7 +6851,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
     <tr>
       <td>IMPRESSION_KEY</td>
       <td>number(38,0)</td>
-      <td>Wird verwendet, um zur Impressionstabelle zu gelangen.</td>
+      <td>Wird zum Verbinden mit der Impressionstabelle verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
@@ -6875,7 +6875,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
     <tr>
       <td>AD_PROVIDER_KEY</td>
       <td>number(38,0)</td>
-      <td>Wird verwendet, um mit der Tabelle "Anzeigenanbieter"zu verbinden.</td>
+      <td>Wird zum Verbinden mit der Tabelle "Anzeigenanbieter“ verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
@@ -6886,7 +6886,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Wird zum Verbinden mit der Tabelle "Kanäle"verwendet.</p>
+        <p>Wird zum Verbinden mit der Tabelle "Kanäle“ verwendet.</p>
       </td>
       <td>
         <p>-1921844114032355934</p>
@@ -6900,7 +6900,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Wird verwendet, um der Tabelle "Werbekampagnen"beizutreten.</p>
+        <p>Wird zum Verbinden mit der Tabelle "Werbekampagnen“ verwendet.</p>
       </td>
       <td>
         <p>252687814634577606</p>
@@ -6914,7 +6914,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Wird verwendet, um zur Tabelle "Keywords"zu gehören.</p>
+        <p>Wird zum Verbinden mit der Tabelle "Keywords“ verwendet.</p>
       </td>
       <td>
         <p>8817975702393619368</p>
@@ -6928,7 +6928,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Wird verwendet, um zur Anzeigentabelle zu gelangen.</p>
+        <p>Wird zum Verbinden mit der Anzeigentabelle verwendet.</p>
       </td>
       <td>
         <p>8817975702393619368</p>
@@ -6942,7 +6942,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Wird verwendet, um der Tabelle "Anzeigengruppen"beizutreten.</p>
+        <p>Wird zum Verbinden mit der Tabelle "Anzeigengruppen“ verwendet.</p>
       </td>
       <td>
         <p>8817975702393619368</p>
@@ -6956,7 +6956,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Wird verwendet, um zur Creatives-Tabelle beizutreten.</p>
+        <p>Wird zum Verbinden mit der Creatives-Tabelle verwendet.</p>
       </td>
       <td>
         <p>-2333871387956621113</p>
@@ -6970,7 +6970,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Wird verwendet, um zur Sites-Tabelle beizutreten.</p>
+        <p>Wird zum Verbinden mit der Sites-Tabelle verwendet.</p>
       </td>
       <td>
         <p>8817975702393619368</p>
@@ -6984,7 +6984,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Wird verwendet, um zur Advertiser-Tabelle zu gehören.</p>
+        <p>Wird zum Verbinden mit der Tabelle "Advertiser" verwendet.</p>
       </td>
       <td>
         <p>8817975702393619368</p>
@@ -6998,7 +6998,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Wird verwendet, um zur Tabelle Anzeigenkonten zu gehören.</p>
+        <p>Wird zum Verbinden mit der Tabelle "Anzeigenkonten" verwendet.</p>
       </td>
       <td>
         <p>1825012532740770032</p>
@@ -7012,7 +7012,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Wird verwendet, um zur Tabelle "Platzierungen"zu gehören.</p>
+        <p>Wird zum Verbinden mit der Tabelle "Platzierungen" verwendet.</p>
       </td>
       <td>
         <p>8817975702393619368</p>
@@ -7020,108 +7020,108 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
     </tr>
     <tr>
       <td>CATEGORY_01_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_02_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_03_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>-2333871387956621113</td>
     </tr>
     <tr>
       <td>CATEGORY_04_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_05_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_06_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>-2333871387956621113</td>
     </tr>
     <tr>
       <td>CATEGORY_07_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_08_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_09_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>2333871387956621113</td>
     </tr>
     <tr>
       <td>CATEGORY_10_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_11_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_12_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>-2333871387956621113</td>
     </tr>
     <tr>
       <td>CATEGORY_13_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_14_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_15_KEY</td>
-      <td>nubmer(38,0)</td>
-      <td>Wird verwendet, um zur Tabelle Segmente zu gehören.</td>
+      <td>number(38,0)</td>
+      <td>Wird zum Verbinden mit der Tabelle "Segmente" verwendet.</td>
       <td>8817975702393619368</td>
     </tr>
     <tr>
-      <td>TYP</td>
+      <td>TYPE</td>
       <td>number(38,0)</td>
-      <td>Gibt den Faktentyp der Zeile an. 1 = Käufer Attribution Touchpoint 2 = Kosten 3 = Käufer Touchpoint 4 = Benutzer-Touchpoint 5 = Seitenansicht 6 = Sitzung 7 = Formular-Übermittlung 8 = Impression</td>
+      <td>Gibt den Faktentyp der Zeile an. 1 = Buyer Attribution Touchpoint 2 = Kosten 3 = Buyer Touchpoint 4 = Benutzer-Touchpoint 5 = Seitenansicht 6 = Sitzung 7 = Formular-Übermittlung 8 = Impression</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>DATUM</td>
+      <td>DATE</td>
       <td>Datum</td>
       <td>Datum, an dem das Ereignis eingetreten ist.</td>
       <td>2018-08-28</td>
     </tr>
     <tr>
-      <td>ZEITSTEMPEL</td>
+      <td>TIMESTAMP</td>
       <td>timestamp_ntz</td>
       <td>Datum und Uhrzeit des Eintretens des Ereignisses.</td>
       <td>2018-08-28 19:39:15.000</td>
@@ -7156,7 +7156,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
     </tr>
     <tr>
       <td>
-        <p>IMPRESSIONEN</p>
+        <p>IMPRESSIONS</p>
       </td>
       <td>
         <p>number(38,0)</p>
@@ -7170,7 +7170,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
     </tr>
     <tr>
       <td>
-        <p>Klicks</p>
+        <p>CLICKS</p>
       </td>
       <td>
         <p>number(38,0)</p>
@@ -7188,9 +7188,9 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da es sich um einen Erstkontakt handelt.</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil es sich um einen Erstkontakt handelt.</p>
       </td>
-      <td>0.0000000000000000000</td>
+      <td>0,0000000000000000000</td>
     </tr>
     <tr>
       <td>
@@ -7200,9 +7200,9 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da es sich um einen Lead-Erstellungskontakt handelt.</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil es sich um einen Lead-Erstellungskontakt handelt.</p>
       </td>
-      <td>100.0000000000000000000</td>
+      <td>100,0000000000000000000</td>
     </tr>
     <tr>
       <td>
@@ -7212,10 +7212,10 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet wird, da er Teil eines u-förmigen Touchpoints ist.</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet wird, weil er Teil eines U-förmigen Touchings ist.</p>
       </td>
       <td>
-        <p>100.0000000000000000000</p>
+        <p>100,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -7226,10 +7226,10 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet wird, da er Teil eines w-förmigen Touchings ist.</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet wird, weil er Teil eines W-förmigen Touchings ist.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -7240,10 +7240,10 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugewiesen wird, da er Teil eines vollständigen Pfadmodells ist.</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugewiesen wird, weil er Teil eines vollständigen Pfadmodells ist.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -7254,15 +7254,15 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugewiesen wird, da er Teil eines benutzerdefinierten Modells ist.</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugewiesen wird, weil er Teil eines benutzerdefinierten Modells ist.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
       <td>
-        <p>BETRAG</p>
+        <p>AMOUNT</p>
       </td>
       <td>
         <p>number(38,8)</p>
@@ -7271,7 +7271,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>Betrag der Möglichkeit aus dem Quellsystem.</p>
       </td>
       <td>
-        <p>42000.00000000</p>
+        <p>42000,00000000</p>
       </td>
     </tr>
     <tr>
@@ -7279,13 +7279,13 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_WON</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Gelegenheit auf eine Phase verschoben wurde, die als "Gewinner"klassifiziert ist.</p>
+        <p>Gibt an, ob die Opportunity auf eine Phase verschoben wurde, die als "Gewinner" klassifiziert ist.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -7293,13 +7293,13 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_OPP_CLOSED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Gelegenheit zu einer Phase verschoben wurde, die als geschlossen klassifiziert ist.</p>
+        <p>Gibt an, ob die Opportunity zu einer Phase verschoben wurde, die als geschlossen klassifiziert ist.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -7310,7 +7310,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>varchar</p>
       </td>
       <td>
-        <p>Opportunity ID aus dem Quellsystem.</p>
+        <p>Opportunity-ID aus dem Quellsystem.</p>
       </td>
       <td>
         <p>0060Z00000nFEfEQAW</p>
@@ -7324,7 +7324,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Datum der Erstellung der Opportunity über das Quellsystem.</p>
+        <p>Datum der Erstellung der Opportunity, aus dem Quellsystem.</p>
       </td>
       <td>
         <p>2018-08-31 15:45:47.000</p>
@@ -7338,7 +7338,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Schließen Sie das Datum für die Möglichkeit aus dem Quellsystem.</p>
+        <p>Abschlussdatum der Opportunity, aus dem Quellsystem.</p>
       </td>
       <td>
         <p>2018-12-31 07:00:00.000</p>
@@ -7352,7 +7352,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Datum der Erstellung des Kontaktdatensatzes aus dem Quellsystem.</p>
+        <p>Datum der Erstellung des Kontaktdatensatzes, aus dem Quellsystem.</p>
       </td>
       <td>2017-04-28 00:21:52.000</td>
     </tr>
@@ -7371,7 +7371,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
       </td>
     </tr>
     <tr>
-      <td>E-MAIL</td>
+      <td>EMAIL</td>
       <td>varchar</td>
       <td>E-Mail-Adresse für den Datensatz.</td>
       <td>personb@adobe.com</td>
@@ -7398,7 +7398,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>varchar</p>
       </td>
       <td>
-        <p>Lead-ID aus dem Quellsystem.</p>
+        <p>ID des Leads aus dem Quellsystem.</p>
       </td>
       <td>
         <p>00Q3100001GMPIsEAP</p>
@@ -7409,37 +7409,37 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_AGGREGATABLE_COST_AD</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die nach Anzeige summiert werden können. (d. h. um Anzeigenkosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die nach Anzeige summiert werden können. (d. h. um die Anzeigenkosten zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</p>
       </td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>
         <p>IS_AGGREGATABLE_COST_ADVERTISER</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die von Advertiser zusammengefasst werden können. (d. h. um Advertiser-Kosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die vom Advertiser zusammengefasst werden können. (d. h. um die Kosten des Advertisers zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</p>
       </td>
-      <td>wahr</td>
+      <td>true</td>
     </tr>
     <tr>
       <td>
         <p>IS_AGGREGATABLE_COST_AD_ACCOUNT</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die nach Konto summiert werden können. (d. h. um Kontokosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die nach Konto summiert werden können. (d. h. um die Kontokosten zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -7447,13 +7447,13 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_AGGREGATABLE_COST_AD_GROUP</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die von Anzeigengruppen zusammengefasst werden können. (d. h. um Anzeigengruppenkosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die von Anzeigengruppen zusammengefasst werden können. (d. h. um die Anzeigengruppenkosten zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -7461,13 +7461,13 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_AGGREGATABLE_COST_CAMPAIGN</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die von Campaign zusammengefasst werden können. (d. h. um Kampagnenkosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die von Campaign zusammengefasst werden können. (d. h. um die Kampagnenkosten zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -7475,25 +7475,25 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_AGGREGATABLE_COST_CHANNEL</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die nach Kanal summiert werden können. (d. h. um Kanalkosten zu erhalten, summieren Sie Zeilen, für die diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die nach Kanal summiert werden können. (d. h. um die Kanalkosten zu erhalten, summieren Sie die Zeilen, für die diese Spalte "true" ist.)</p>
       </td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>
         <p>IS_AGGREGATABLE_COST_CREATIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die von Creative zusammengefasst werden können. (d. h. um kreative Kosten zu erhalten, summieren Sie Zeilen, für die diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die von Creative zusammengefasst werden können. (d. h. um die Creative-Kosten zu erhalten, summieren Sie die Zeilen, für die diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -7501,13 +7501,13 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_AGGREGATABLE_COST_KEYWORD</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die nach Keyword summiert werden können. (d. h. um Suchbegriffkosten zu erhalten, summieren Sie Zeilen, bei denen diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die nach Keyword summiert werden können. (d. h. um die Suchbegriffkosten zu erhalten, summieren Sie die Zeilen, bei denen diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -7515,13 +7515,13 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_AGGREGATABLE_COST_PLACEMENT</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die nach Platzierung summiert werden können. (d. h. um Platzierungskosten zu erhalten, summieren Sie Zeilen, für die diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die nach Platzierung summiert werden können. (d. h. um die Platzierungskosten zu erhalten, summieren Sie die Zeilen, für die diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -7529,13 +7529,13 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_AGGREGATABLE_COST_SITE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile Kosten enthält, die nach Site summiert werden können. (d. h. um Site-Kosten zu erhalten, summieren Sie Zeilen, für die diese Spalte "true"ist.)</p>
+        <p>Gibt an, ob die Zeile Kosten enthält, die nach Site summiert werden können. (d. h. um die Site-Kosten zu erhalten, summieren Sie die Zeilen, für die diese Spalte "true" ist.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -7543,13 +7543,13 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob der Datensatz gelöscht wurde oder nicht, wird als Audit-Protokoll verwendet.</p>
+        <p>Gibt an, ob der Datensatz gelöscht wurde oder nicht, wird als Audit-Protokoll verwendet.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -7573,7 +7573,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -7708,7 +7708,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>URL, an die das Formular gesendet wurde, einschließlich aller Abfrageparameter.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDPdd dXh4Q0RmcnBJWXhwZTF1Z0RbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -7722,12 +7722,12 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>Die aufgezeichnete IP-Adresse zum Zeitpunkt der Übermittlung des Formulars.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174127184158</p>
       </td>
     </tr>
     <tr>
       <td>
-        <p>TYP</p>
+        <p>TYPE</p>
       </td>
       <td>
         <p>varchar</p>
@@ -7780,11 +7780,11 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_DUPLICATED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>Gibt an, ob der Datensatz als Duplikat betrachtet wird.</td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -7792,16 +7792,16 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
         <p>IS_PROCESSED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>Wird für die interne Verarbeitung verwendet.</td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
       <td>
-        <p>E-MAIL</p>
+        <p>EMAIL</p>
       </td>
       <td>
         <p>varchar</p>
@@ -7886,7 +7886,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -7894,7 +7894,7 @@ Vereinigungen kombinieren Impressionen, Seitenansichten, Besuche, Formularüberm
 
 ### BIZ_IMPRESSIONS {#biz-impressions}
 
-Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleClick-Verbindung und die Einstellung &quot;View Through&quot;auf True.
+Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleClick-Verbindung und die Einstellung von &quot;View Through&quot; auf True.
 
 <table>
   <tbody>
@@ -8008,7 +8008,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
       <td>
         <p>URL, an die die Impression gesendet wurde, einschließlich aller Abfrageparameter.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDPdd dXh4Q0RmcnBJWXhwZTF1Z0RbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -8020,11 +8020,11 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
       <td>
         <p>Die aufgezeichnete IP-Adresse zum Zeitpunkt der Impression.</p>
       </td>
-      <td>174.127.184.158</td>
+      <td>174127184158</td>
     </tr>
     <tr>
       <td>
-        <p>TYP</p>
+        <p>TYPE</p>
       </td>
       <td>
         <p>varchar</p>
@@ -8075,11 +8075,11 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>IS_DUPLICATED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>Gibt an, ob der Datensatz als Duplikat betrachtet wird.</td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -8087,11 +8087,11 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>IS_PROCESSED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>Wird für die interne Verarbeitung verwendet.</td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -8102,7 +8102,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Im CRM als "Referrer-Seite"bezeichnet.</p>
+        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Im CRM als "Referrer-Seite" bezeichnet.</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
@@ -8114,13 +8114,13 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Eine Raw-Referrer-Seite kann Abfrageparameter in der URL enthalten. Im CRM als "Referrer Page - Raw"bezeichnet.</p>
+        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Eine Raw-Referrer-Seite kann Abfrageparameter in der URL enthalten. Im CRM als "Referrer Page - Raw" bezeichnet.</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
     <tr>
       <td>
-        <p>ORT</p>
+        <p>CITY</p>
       </td>
       <td>
         <p>varchar</p>
@@ -8148,7 +8148,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
     </tr>
     <tr>
       <td>
-        <p>LAND</p>
+        <p>COUNTRY</p>
       </td>
       <td>
         <p>varchar</p>
@@ -8182,7 +8182,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Anzeigenplattform [!DNL Marketo Measure] konnte von lösen, in der Regel von einem unserer Integrationspartner.</p>
+        <p>Anzeigenplattform, über die [!DNL Marketo Measure] auflösen konnte, in der Regel einer unserer Integrationspartner.</p>
       </td>
       <td>Google</td>
     </tr>
@@ -8194,7 +8194,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Anzeigenkontos, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>ID des Anzeigenkontos, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>aw.6601259029</td>
     </tr>
@@ -8206,7 +8206,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Anzeigenkontos, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Name des Anzeigenkontos, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
@@ -8218,7 +8218,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Advertisers aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -8232,7 +8232,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Werbetreibenden aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>Marketing-Analyse für Marktmessungen</p>
@@ -8246,7 +8246,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Site aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID der Site aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>1695651</p>
@@ -8260,7 +8260,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Site aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name der Site aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>Quora.com</p>
@@ -8274,7 +8274,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Platzierung aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>120839827</p>
@@ -8288,7 +8288,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Platzierung aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>Hindernis</p>
@@ -8302,7 +8302,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung der Kampagne aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Kennung der Kampagne aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>aw.6601259029.317738075</td>
     </tr>
@@ -8314,7 +8314,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Kampagne aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Name der Kampagne aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>Marketing-Zuordnung</td>
     </tr>
@@ -8354,7 +8354,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Anzeige aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für doppelklicken Sie auf Kampagnen-Manager und Facebook (Anzeige).</p>
+        <p>ID der Anzeige aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für DoubleClick Campaign Manager und Facebook (Anzeige).</p>
       </td>
       <td>
         <p>68035923</p>
@@ -8368,7 +8368,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Anzeige aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für doppelklicken Sie auf Kampagnen-Manager und Facebook (Anzeige).</p>
+        <p>Name der Anzeige aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für DoubleClick Campaign Manager und Facebook (Anzeige).</p>
       </td>
       <td>
         <p>centurylink_banner_98121</p>
@@ -8382,7 +8382,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Kreativ gibt.</p>
+        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Creative-Element gibt.</p>
       </td>
       <td>
         <p>null</p>
@@ -8396,7 +8396,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Kreativ gibt.</p>
+        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Creative-Element gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -8408,7 +8408,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Kreativ gibt.</p>
+        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Creative-Element gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -8420,7 +8420,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Kreativ gibt.</p>
+        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Creative-Element gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -8432,7 +8432,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Kreativ gibt.</p>
+        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Creative-Element gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -8444,7 +8444,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Kreativ gibt.</p>
+        <p>Wird als null erwartet, da es in der Doppelklick-Hierarchie für Impressionen kein Creative-Element gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -8548,7 +8548,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Fremdschlüssel in der BIZ_FACTS-Ansicht.</p>
+        <p>Fremdschlüssel zur BIZ_FACTS-Ansicht.</p>
       </td>
       <td>
         <p>-2712935512233520000</p>
@@ -8637,7 +8637,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -8684,7 +8684,7 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
       <td>
         <p>varchar</p>
       </td>
-      <td>Die Schlüsselwort-ID aus dem Quellsystem.</td>
+      <td>Die Keyword-ID aus dem Quellsystem.</td>
       <td>
         <p>39464932147</p>
       </td>
@@ -8697,7 +8697,7 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID für das Anzeigenkonto, aus dem der Suchbegriff importiert wurde.</p>
+        <p>ID für das Anzeigenkonto, von dem aus der Suchbegriff importiert wurde.</p>
       </td>
       <td>fb.106851586409075</td>
     </tr>
@@ -8709,7 +8709,7 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Anzeigenkontos, aus dem der Suchbegriff importiert wurde.</p>
+        <p>Name des Anzeigenkontos, von dem aus der Suchbegriff importiert wurde.</p>
       </td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
@@ -8802,13 +8802,13 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Suchbegriff im Quellsystem noch aktiv ist.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -8816,13 +8816,13 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob das Schlüsselwort im Quellsystem gelöscht wurde.</p>
+        <p>Gibt an, ob das Keyword im Quellsystem gelöscht wurde.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -8870,14 +8870,14 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob der Suchbegriff aktualisiert werden muss für [!DNL Marketo Measure] Tagging.</p>
+        <p>Gibt an, ob der Suchbegriff für das [!DNL Marketo Measure]-Tagging aktualisiert werden muss.</p>
         <p>(Diagnostisches Feld, für die interne Verarbeitung verwendet.)</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -8903,7 +8903,7 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
         <p>Das Hauptobjekt oder die Entität für diese Tabelle. In diesem Fall "Keyword".</p>
       </td>
       <td>
-        <p>Schlüsselwort</p>
+        <p>Keyword</p>
       </td>
     </tr>
     <tr>
@@ -8960,11 +8960,11 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
         <p>IS_UPGRADED_URL</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>Diagnostisches Feld für interne Verarbeitung.</td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -8987,7 +8987,7 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Art der Übereinstimmung, die zwischen dem Suchbegriff und dem Suchbegriff gefunden wurde.</p>
+        <p>Die Art der Übereinstimmung, die zwischen dem Suchbegriff und dem Keyword gefunden wurde.</p>
       </td>
       <td>
         <p>Exakt</p>
@@ -9030,7 +9030,7 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
       <td>
         <p>varchar</p>
       </td>
-      <td>Die URL-Tracking-Vorlage [!DNL Marketo Measure] zum Suchbegriff hinzugefügt.</td>
+      <td>Die URL-Tracking-Vorlage, die [!DNL Marketo Measure] zum Suchbegriff hinzugefügt hat.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
       </td>
@@ -9062,7 +9062,7 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9070,7 +9070,7 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
 
 ### BIZ_LANDING_PAGES {#biz-landing-pages}
 
-Einstiegsseiten, die aus einem verbundenen Anzeigenkonto importiert wurden.
+Landing-Pages, die aus einem verbundenen Anzeigenkonto importiert wurden.
 
 <table>
   <tbody>
@@ -9197,7 +9197,7 @@ Einstiegsseiten, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td></td>
       <td></td>
@@ -9207,7 +9207,7 @@ Einstiegsseiten, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td></td>
       <td></td>
@@ -9249,7 +9249,7 @@ Einstiegsseiten, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td></td>
       <td></td>
@@ -9329,7 +9329,7 @@ Einstiegsseiten, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9363,7 +9363,7 @@ Aus dem Quellsystem importierte Leads.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Lead-ID aus dem Quellsystem.</p>
+        <p>Die ID des Leads aus dem Quellsystem.</p>
       </td>
       <td>
         <p>00Q0Z00001MZcj8UAD</p>
@@ -9397,7 +9397,7 @@ Aus dem Quellsystem importierte Leads.
     </tr>
     <tr>
       <td>
-        <p>E-MAIL</p>
+        <p>EMAIL</p>
       </td>
       <td>
         <p>varchar</p>
@@ -9423,7 +9423,7 @@ Aus dem Quellsystem importierte Leads.
     </tr>
     <tr>
       <td>
-        <p>UNTERNEHMEN</p>
+        <p>COMPANY</p>
       </td>
       <td>
         <p>varchar</p>
@@ -9454,13 +9454,13 @@ Aus dem Quellsystem importierte Leads.
         <p>IS_CONVERTED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Lead in einen Kontakt umgewandelt wurde.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -9471,7 +9471,7 @@ Aus dem Quellsystem importierte Leads.
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung der zugehörigen Chance nach der Konvertierung des Leads.</p>
+        <p>Kennung der zugehörigen Opportunity nach der Konvertierung des Leads.</p>
       </td>
       <td>
         <p>0013100001b44aGAAQ</p>
@@ -9507,7 +9507,7 @@ Aus dem Quellsystem importierte Leads.
     </tr>
     <tr>
       <td>
-        <p>KONTO</p>
+        <p>ACCOUNTID</p>
       </td>
       <td>
         <p>varchar</p>
@@ -9527,7 +9527,7 @@ Aus dem Quellsystem importierte Leads.
         <p>varchar</p>
       </td>
       <td>
-        <p>Aktuelle Phase des Leads, die als benutzerdefinierte Phase erkannt wird und in der [!DNL Marketo Measure] Anwendung.</p>
+        <p>Aktuelle Phase des Leads, die als benutzerdefinierte Phase erkannt wird und in der [!DNL Marketo Measure]-Anwendung erstellt werden kann.</p>
       </td>
       <td>
         <p>Demo geplant</p>
@@ -9541,7 +9541,7 @@ Aus dem Quellsystem importierte Leads.
         <p>varchar</p>
       </td>
       <td>
-        <p>Alle vorherigen Phasen für den Lead, die als benutzerdefinierte Phasen erkannt werden, die in der [!DNL Marketo Measure] Anwendung.</p>
+        <p>Alle vorherigen Phasen für den Lead, die als benutzerdefinierte Phasen erkannt werden, die in der [!DNL Marketo Measure]-Anwendung erstellt werden können.</p>
       </td>
       <td>
         <p>MQL</p>
@@ -9555,7 +9555,7 @@ Aus dem Quellsystem importierte Leads.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Die [!DNL Marketo Measure] Algorithmus zur Schätzung, ob ein Lead basierend auf Alter und Phase konvertiert.</p>
+        <p>Der [!DNL Marketo Measure]-Algorithmus zur Schätzung, ob ein Lead basierend auf Alter und Phase konvertiert.</p>
       </td>
       <td>
         <p>.290034</p>
@@ -9597,7 +9597,7 @@ Aus dem Quellsystem importierte Leads.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die [!DNL Marketo Measure] Cookie-ID, die zum Ausfüllen von einem Integrationspartner verwendet wird, um ein Offline-Ereignis einer Websitzung zuzuordnen. Anforderung: Anrufverfolgung aktivieren: True</p>
+        <p>Die [!DNL Marketo Measure]-Cookie-ID, die zum Ausfüllen von einem Integrationspartner verwendet wird, um ein Offline-Ereignis einer Websitzung zuzuordnen. Anforderung: Anrufverfolgung aktivieren: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -9608,13 +9608,13 @@ Aus dem Quellsystem importierte Leads.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Datensatz im Quellsystem gelöscht wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -9632,20 +9632,20 @@ Aus dem Quellsystem importierte Leads.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Benutzerdefinierte Eigenschaften, die [!DNL Marketo Measure] wurde aus dem Quellsystem im JSON-Format importiert.</td>
+      <td>Benutzerdefinierte Eigenschaften im JSON-Format, die [!DNL Marketo Measure] aus dem Quellsystem importiert hat.</td>
       <td>{"Lead_Type__c":"Sales Created", "Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>IS_DUPLICATE</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Dient zum Deduplizieren von Datensätzen, wenn sowohl eine CRM- als auch eine Marketo-Integration eingerichtet sind. Bei Duplikaten wird Marketo Lead als "true"markiert.</td>
-      <td>wahr</td>
+      <td>true</td>
     </tr>
     <tr>
       <td>SOURCE_SYSTEM</td>
       <td>varchar</td>
       <td>Gibt an, ob der Datensatz aus einem CRM-System oder einer Marketo-Integration stammt.</td>
-      <td>CRM</td>
+      <td>Crm</td>
     </tr>
     <tr>
       <td>OTHER_SYSTEM_ID</td>
@@ -9668,7 +9668,7 @@ Aus dem Quellsystem importierte Leads.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9676,7 +9676,7 @@ Aus dem Quellsystem importierte Leads.
 
 ### BIZ_LEAD_STAGE_TRANSITIONS {#biz-lead-stage-transitions}
 
-Staging-Transitionen für Leads oder Kontakte.
+Phasen-Transitionen für Leads oder Kontakte.
 
 <table>
   <tbody>
@@ -9710,13 +9710,13 @@ Staging-Transitionen für Leads oder Kontakte.
     </tr>
     <tr>
       <td>
-        <p>E-MAIL</p>
+        <p>EMAIL</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>
-        <p>Die bereitgestellte E-Mail-Adresse für den zugehörigen Lead/Kontakt.</p>
+        <p>Die angegebene E-Mail-Adresse für den zugehörigen Lead/Kontakt.</p>
       </td>
       <td>
         <p>persone@adobe.com</p>
@@ -9758,7 +9758,7 @@ Staging-Transitionen für Leads oder Kontakte.
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung für den mit der Transition verbundenen Käufer-Touchpoint.</p>
+        <p>Kennung für den mit der Transition verbundenen Buyer Touchpoint.</p>
       </td>
       <td>
         <p>TP2_Person_00Q3100001Fx6AlEAJ_2018-08-28:14-41-06-1674260.d00ceb09fbd3</p>
@@ -9794,7 +9794,7 @@ Staging-Transitionen für Leads oder Kontakte.
     </tr>
     <tr>
       <td>
-        <p>STUFE</p>
+        <p>STAGE</p>
       </td>
       <td>
         <p>varchar</p>
@@ -9814,7 +9814,7 @@ Staging-Transitionen für Leads oder Kontakte.
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Der numerische Rang der Bühne, wie er in der [!DNL Marketo Measure] Einstellungen für die Staging-Zuordnung.</p>
+        <p>Der numerische Rang des Stagings, entsprechend der Reihenfolge in den Einstellungen für die Phasen-Zuordnung in [!DNL Marketo Measure].</p>
       </td>
       <td>
         <p>5</p>
@@ -9828,7 +9828,7 @@ Staging-Transitionen für Leads oder Kontakte.
         <p>varchar(1)</p>
       </td>
       <td>
-        <p>Wird in der internen Verarbeitung für die Indizierung und Sortierung von Bomerang-Bühnen verwendet.</p>
+        <p>Wird in der internen Verarbeitung für die Indizierung und Sortierung von Boomerang-Phasen verwendet.</p>
       </td>
       <td>
         <p>1</p>
@@ -9841,7 +9841,7 @@ Staging-Transitionen für Leads oder Kontakte.
       <td>
         <p>varchar(1)</p>
       </td>
-      <td>Wird in der internen Verarbeitung für die Indizierung und Sortierung von Bomerang-Bühnen verwendet.</td>
+      <td>Wird in der internen Verarbeitung für die Indizierung und Sortierung von Boomerang-Phasen verwendet.</td>
       <td>
         <p>1</p>
       </td>
@@ -9851,13 +9851,13 @@ Staging-Transitionen für Leads oder Kontakte.
         <p>IS_PENDING</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Touchpoint als ausstehend und noch nicht geschlossen gilt. Dies wird nur für Kunden mit vollständigem Pfadattributionsmodell angezeigt.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -9865,13 +9865,13 @@ Staging-Transitionen für Leads oder Kontakte.
         <p>IS_NON_TRANSITIONAL</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile mit einer Meilensteinschritte-Transition verknüpft ist. Wenn es z. B. 3 Bühnen/Einträge (FT, LC, MQL) und 4 Touchpoints gibt, wird der 1 Touchpoint ohne Bühne als "nicht vorübergehend"betrachtet, sodass der Wert "true"entspricht.</p>
+        <p>Gibt an, ob die Zeile mit einer Meilensteinschritte-Transition verknüpft ist. Wenn es z. B. 3 Phasen/Einträge (FT, LC, MQL) und 4 Touchpoints gibt, wird der 1 Touchpoint ohne Phase als "nicht vorübergehend" betrachtet, sodass der Wert "true" entspricht.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -9882,7 +9882,7 @@ Staging-Transitionen für Leads oder Kontakte.
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Übergangsdatum für die vorherige Phase, entsprechend der Rangliste der Phase.</p>
+        <p>Übergangsdatum für die vorherige Phase, entsprechend der Rangliste der Phasen.</p>
       </td>
       <td>
         <p>2017-11-28 21:26:44.000</p>
@@ -9896,7 +9896,7 @@ Staging-Transitionen für Leads oder Kontakte.
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Übergangsdatum für die nächste Phase, entsprechend dem Rang der Stufe.</p>
+        <p>Übergangsdatum für die nächste Phase, entsprechend der Rangliste der Phasen.</p>
       </td>
       <td>
         <p>2017-12-11 22:39:17.000</p>
@@ -9921,13 +9921,13 @@ Staging-Transitionen für Leads oder Kontakte.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Übergangsdatensatz als gelöscht betrachtet wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -9945,7 +9945,7 @@ Staging-Transitionen für Leads oder Kontakte.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -10031,10 +10031,10 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Opportunity Name (Opportunity Name) aus dem Quellsystem.</p>
+        <p>Der Name der Opportunity aus dem Quellsystem.</p>
       </td>
       <td>
-        <p>Mareketo Measurement Renewal</p>
+        <p>Marketo Measurement Renewal</p>
       </td>
     </tr>
     <tr>
@@ -10042,13 +10042,13 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>IS_WON</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Gelegenheit zu einer als erfolgreich betrachteten Phase verschoben wurde.</p>
+        <p>Gibt an, ob die Opportunity zu einer als erfolgreich betrachteten Phase verschoben wurde.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -10056,13 +10056,13 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>IS_CLOSED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Gelegenheit zu einer Phase verschoben wurde, die als geschlossen gilt.</p>
+        <p>Gibt an, ob die Opportunity zu einer Phase verschoben wurde, die als geschlossen gilt.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -10073,7 +10073,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Voraussichtliches oder tatsächliches Schließdatum der Möglichkeit, vom Quellsystem aus.</p>
+        <p>Voraussichtliches oder tatsächliches Schließdatum der Opportunity, vom Quellsystem aus.</p>
       </td>
       <td>
         <p>2019-08-28 07:00:00.000</p>
@@ -10095,7 +10095,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
     </tr>
     <tr>
       <td>
-        <p>BETRAG</p>
+        <p>AMOUNT</p>
       </td>
       <td>
         <p>number(38,8)</p>
@@ -10104,7 +10104,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>Gesamtbetrag, der von der Möglichkeit erwartet oder geschlossen wird, vom Quellsystem.</p>
       </td>
       <td>
-        <p>8988.00000000</p>
+        <p>8988,00000000</p>
       </td>
     </tr>
     <tr>
@@ -10115,8 +10115,8 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die ID des zugehörigen Leads, das in diese Gelegenheit konvertiert wurde.</p>
-        <p>Beachten Sie, dass dieses Feld nicht festgelegt ist und für alle Kunden im Snowflake null zurückgibt.</p>
+        <p>Die ID des zugehörigen Leads, der in diese Opportunity konvertiert wurde.</p>
+        <p>Beachten Sie, dass dieses Feld nicht festgelegt ist und in Snowflake für alle Kunden null zurückgibt.</p>
       </td>
       <td>
         <p>null</p>
@@ -10130,8 +10130,8 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die E-Mail des zugehörigen Leads, der in diese Gelegenheit konvertiert wurde.</p>
-        <p>Beachten Sie, dass dieses Feld nicht festgelegt ist und für alle Kunden im Snowflake null zurückgibt.</p>
+        <p>Die E-Mail des zugehörigen Leads, der in diese Opportunity konvertiert wurde.</p>
+        <p>Beachten Sie, dass dieses Feld nicht festgelegt ist und in Snowflake für alle Kunden null zurückgibt.</p>
       </td>
       <td>
         <p>null</p>
@@ -10139,13 +10139,13 @@ Aus dem Quellsystem importierte Möglichkeiten.
     </tr>
     <tr>
       <td>
-        <p>Primär_CONTACT_ID</p>
+        <p>PRIMARY_CONTACT_ID</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>
-        <p>Wenn die Primäre Kontaktrolle verwendet wird, wird die ID des entsprechenden Kontakts als primäre Kontaktrolle aufgelistet.</p>
+        <p>Wenn die primäre Kontaktrolle verwendet wird, wird die ID des entsprechenden Kontakts als primäre Kontaktrolle aufgelistet.</p>
       </td>
       <td>
         <p>00331000038uGfhAAE</p>
@@ -10153,13 +10153,13 @@ Aus dem Quellsystem importierte Möglichkeiten.
     </tr>
     <tr>
       <td>
-        <p>Primär_CONTACT_EMAIL</p>
+        <p>PRIMARY_CONTACT_EMAIL</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>
-        <p>Wenn die Primäre Kontaktrolle verwendet wird, wird die E-Mail des entsprechenden Kontakts als primäre Kontaktrolle aufgelistet.</p>
+        <p>Wenn die primäre Kontaktrolle verwendet wird, wird die E-Mail des entsprechenden Kontakts als primäre Kontaktrolle aufgelistet.</p>
       </td>
       <td>
         <p>personb@adobe.com</p>
@@ -10173,10 +10173,10 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Die [!DNL Marketo Measure] -Algorithmus zur Schätzung, ob eine Chance basierend auf dem Alter und der Phase geschlossen wird.</p>
+        <p>Der [!DNL Marketo Measure]-Algorithmus zur Schätzung, ob eine Opportunity basierend auf dem Alter und der Phase abgeschlossen werden wird.</p>
       </td>
       <td>
-        <p>0.8225108385086060000</p>
+        <p>0,8225108385086060000</p>
       </td>
     </tr>
     <tr>
@@ -10187,7 +10187,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>varchar</p>
       </td>
       <td>
-        <p>Aktuelle Phase der Möglichkeit, wie im Abschnitt [!DNL Marketo Measure] Anwendung.</p>
+        <p>Aktuelle Phase der Opportunity, wie in der [!DNL Marketo Measure]-Anwendung definiert.</p>
       </td>
       <td>
         <p>DM Demo</p>
@@ -10201,7 +10201,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>varchar</p>
       </td>
       <td>
-        <p>Eine Zeichenfolge aller Phasen, die die Gelegenheit zuvor durchlaufen hat, wie in der [!DNL Marketo Measure] Anwendung.</p>
+        <p>Eine Zeichenfolge aller Phasen, die die Opportunity zuvor durchlaufen hat, wie in der [!DNL Marketo Measure]-Anwendung definiert.</p>
       </td>
       <td>
         <p>Qualifizierte Erkennung, geplante Demo</p>
@@ -10212,12 +10212,12 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Datensatz im Quellsystem gelöscht wird.</p>
       </td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>
@@ -10248,7 +10248,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Benutzerdefinierte Eigenschaften, die [!DNL Marketo Measure] wurde aus dem Quellsystem im JSON-Format importiert.</td>
+      <td>Benutzerdefinierte Eigenschaften im JSON-Format, die [!DNL Marketo Measure] aus dem Quellsystem importiert hat.</td>
       <td>{"Opportunity_Location__c":"Seattle", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -10266,7 +10266,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -10274,7 +10274,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
 
-Staging-Transitionen für Chancen.
+Phasen-Transitionen für Opportunitys.
 
 <table>
   <tbody>
@@ -10303,7 +10303,7 @@ Staging-Transitionen für Chancen.
         <p>Eine eindeutige ID für die Transition.</p>
       </td>
       <td>
-        <p>ST_0060Z00000nEgjlQAC_0030Z00003IjojKQAR_Demo Geplant-1_BAT2_0060Z00000nEgjlQAC_0030n Z00003IjojKQAR_2018-06-01:19-51-38-1685390.beec556e7757</p>
+        <p>ST_0060Z00000nEgjlQAC_0030Z00003IjojKQAR_Demo Scheduled-1_BAT2_0060Z00000nEgjlQAC_0030Z00003IjojKQAR_2018-06-01:19-51-38-1685390.beec556e7757</p>
       </td>
     </tr>
     <tr>
@@ -10314,7 +10314,7 @@ Staging-Transitionen für Chancen.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID für das Konto, das mit der Gelegenheit verknüpft ist.</p>
+        <p>ID für das Konto, das mit der Opportunity verknüpft ist.</p>
       </td>
       <td>
         <p>0013100001b44nTAAQ</p>
@@ -10328,7 +10328,7 @@ Staging-Transitionen für Chancen.
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung für die mit der Transition verknüpfte Chance.</p>
+        <p>Kennung für die mit der Transition verknüpfte Opportunity.</p>
       </td>
       <td>
         <p>0060Z00000nEgjlQAC</p>
@@ -10350,7 +10350,7 @@ Staging-Transitionen für Chancen.
     </tr>
     <tr>
       <td>
-        <p>E-MAIL</p>
+        <p>EMAIL</p>
       </td>
       <td>
         <p>varchar</p>
@@ -10370,7 +10370,7 @@ Staging-Transitionen für Chancen.
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung für den mit der Transition verbundenen Touchpoint der Käuferzuordnung.</p>
+        <p>Kennung für den mit der Transition verbundenen Buyer Attribution Touchpoint.</p>
       </td>
       <td>
         <p>BAT2_0060Z00000nEgjlQAC_0030Z00003IjojKQAR_2018-06-01:19-51-38-1685390.bef ec556e7757</p>
@@ -10392,7 +10392,7 @@ Staging-Transitionen für Chancen.
     </tr>
     <tr>
       <td>
-        <p>STUFE</p>
+        <p>STAGE</p>
       </td>
       <td>
         <p>varchar</p>
@@ -10426,7 +10426,7 @@ Staging-Transitionen für Chancen.
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Der numerische Rang der Bühne, wie er in der [!DNL Marketo Measure] Einstellungen für die Staging-Zuordnung.</p>
+        <p>Der numerische Rang der Phase, entsprechend der Reihenfolge in den Einstellungen für die Phasen-Zuordnung in [!DNL Marketo Measure].</p>
       </td>
       <td>
         <p>4</p>
@@ -10440,7 +10440,7 @@ Staging-Transitionen für Chancen.
         <p>varchar(1)</p>
       </td>
       <td>
-        <p>Wird in der internen Verarbeitung für die Indizierung und Sortierung von Bomerang-Bühnen verwendet.</p>
+        <p>Wird in der internen Verarbeitung für die Indizierung und Sortierung von Boomerang-Phasen verwendet.</p>
       </td>
       <td>1</td>
     </tr>
@@ -10452,7 +10452,7 @@ Staging-Transitionen für Chancen.
         <p>varchar(1)</p>
       </td>
       <td>
-        <p>Wird in der internen Verarbeitung für die Indizierung und Sortierung von Bomerang-Bühnen verwendet.</p>
+        <p>Wird in der internen Verarbeitung für die Indizierung und Sortierung von Boomerang-Phasen verwendet.</p>
       </td>
       <td>1</td>
     </tr>
@@ -10461,13 +10461,13 @@ Staging-Transitionen für Chancen.
         <p>IS_PENDING</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Touchpoint als ausstehend und noch nicht geschlossen gilt. Dies wird nur für Kunden mit vollständigem Pfadattributionsmodell angezeigt.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -10475,13 +10475,13 @@ Staging-Transitionen für Chancen.
         <p>IS_NON_TRANSITIONAL</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Zeile mit einer Meilensteinschritte-Transition verknüpft ist. Wenn es z. B. 3 Bühnen/Einträge (FT, LC, MQL) und 4 Touchpoints gibt, wird der 1 Touchpoint ohne Bühne als "nicht vorübergehend"betrachtet, sodass der Wert "true"entspricht.</p>
+        <p>Gibt an, ob die Zeile mit einer Meilensteinschritte-Transition verknüpft ist. Wenn es z. B. 3 Phasen/Einträge (FT, LC, MQL) und 4 Touchpoints gibt, wird der 1 Touchpoint ohne Phase als "nicht vorübergehend" betrachtet, sodass der Wert "true" entspricht.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -10492,7 +10492,7 @@ Staging-Transitionen für Chancen.
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Übergangsdatum für die vorherige Phase, entsprechend der Rangliste der Phase.</p>
+        <p>Übergangsdatum für die vorherige Phase, entsprechend der Rangliste der Phasen.</p>
       </td>
       <td>
         <p>2015-07-16 17:41:49.000</p>
@@ -10506,7 +10506,7 @@ Staging-Transitionen für Chancen.
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Übergangsdatum für die nächste Phase, entsprechend dem Rang der Stufe.</p>
+        <p>Übergangsdatum für die nächste Phase, entsprechend der Rangliste der Phasen.</p>
       </td>
       <td>
         <p>2018-08-27 19:40:52.000</p>
@@ -10531,13 +10531,13 @@ Staging-Transitionen für Chancen.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Übergangsdatensatz als gelöscht betrachtet wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -10555,7 +10555,7 @@ Staging-Transitionen für Chancen.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -10704,12 +10704,12 @@ Seitenansichten, die aus Webbesuchen erfasst wurden. Mehrere Seitenansichten kö
         <p>Die aufgezeichnete IP-Adresse zum Zeitpunkt der Übermittlung des Formulars.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174127184158</p>
       </td>
     </tr>
     <tr>
       <td>
-        <p>TYP</p>
+        <p>TYPE</p>
       </td>
       <td>
         <p>varchar</p>
@@ -10764,20 +10764,20 @@ Seitenansichten, die aus Webbesuchen erfasst wurden. Mehrere Seitenansichten kö
         <p>IS_DUPLICATED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>Gibt an, ob der Datensatz als Duplikat betrachtet wird.</td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>
         <p>IS_PROCESSED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>Wird für die interne Verarbeitung verwendet.</td>
-      <td>wahr</td>
+      <td>true</td>
     </tr>
     <tr>
       <td>
@@ -10818,12 +10818,12 @@ Seitenansichten, die aus Webbesuchen erfasst wurden. Mehrere Seitenansichten kö
         <p>Titel der Seite.</p>
       </td>
       <td>
-        <p>Das Handbuch der CMO zum Herunterladen der B2B-Marketing-Attribution</p>
+        <p>Der CMO-Leitfaden zur B2B-Marketing-Attribution</p>
       </td>
     </tr>
     <tr>
       <td>
-        <p>E-MAIL</p>
+        <p>EMAIL</p>
       </td>
       <td>
         <p>varchar</p>
@@ -10861,9 +10861,9 @@ Seitenansichten, die aus Webbesuchen erfasst wurden. Mehrere Seitenansichten kö
     </tr>
     <tr>
       <td>HAS_USER_CONSENT</td>
-      <td>Boolesch</td>
-      <td>Gibt an, ob der Benutzer dem Tracking zugestimmt hat. "False"bedeutet, dass die Seitenansicht erfasst wurde, da die Benutzerzustimmung nicht erforderlich ist. "True"bedeutet, dass die Seitenansicht erfasst wurde und der Benutzer seine Zustimmung zur Verfolgung gegeben hat.</td>
-      <td>wahr</td>
+      <td>boolean</td>
+      <td>Gibt an, ob der Benutzer dem Tracking zugestimmt hat. "False" bedeutet, dass die Seitenansicht erfasst wurde, da die Benutzerzustimmung nicht erforderlich ist. "True" bedeutet, dass die Seitenansicht erfasst wurde und der Benutzer seine Zustimmung zur Verfolgung gegeben hat.</td>
+      <td>true</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -10880,7 +10880,7 @@ Seitenansichten, die aus Webbesuchen erfasst wurden. Mehrere Seitenansichten kö
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -10888,7 +10888,7 @@ Seitenansichten, die aus Webbesuchen erfasst wurden. Mehrere Seitenansichten kö
 
 ### BIZ_PLACEMENTS {#biz-placements}
 
-Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigen-Konten heruntergeladen wurden - ein Objekt aus der Doubleclick-Integration.
+Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigenkonten heruntergeladen wurden - ein Objekt aus der Doubleclick-Integration.
 
 <table>
   <tbody>
@@ -10936,7 +10936,7 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigen-Ko
         <p>varchar</p>
       </td>
       <td>
-        <p>ID für das Anzeigenkonto, aus dem die Platzierung importiert wurde.</p>
+        <p>ID für das Anzeigenkonto, von dem aus die Platzierung importiert wurde.</p>
       </td>
       <td>fb. 106851586409075</td>
     </tr>
@@ -10948,7 +10948,7 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigen-Ko
         <p>varchar</p>
       </td>
       <td>
-        <p>Name für das Anzeigenkonto, aus dem die Platzierung importiert wurde.</p>
+        <p>Name für das Anzeigenkonto, von dem aus die Platzierung importiert wurde.</p>
       </td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
@@ -10984,7 +10984,7 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigen-Ko
         <p>varchar</p>
       </td>
       <td>
-        <p>Es wird erwartet, dass null ist, da keine Anzeigengruppe über der Platzierung in einer Anzeigen-Hierarchie vorhanden ist.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie oberhalb der Platzierung eine Anzeigengruppe gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -10996,7 +10996,7 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigen-Ko
         <p>varchar</p>
       </td>
       <td>
-        <p>Es wird erwartet, dass null ist, da keine Anzeigengruppe über der Platzierung in einer Anzeigen-Hierarchie vorhanden ist.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie oberhalb der Platzierung eine Anzeigengruppe gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -11029,24 +11029,24 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigen-Ko
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Platzierung im Quellsystem noch aktiv ist.</p>
       </td>
-      <td>wahr</td>
+      <td>true</td>
     </tr>
     <tr>
       <td>
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Platzierung im Quellsystem gelöscht wurde.</p>
       </td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>
@@ -11089,13 +11089,13 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigen-Ko
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob die Platzierung aktualisiert werden muss für [!DNL Marketo Measure] Tagging.</p>
+        <p>Gibt an, ob die Platzierung für das [!DNL Marketo Measure]-Tagging aktualisiert werden muss.</p>
         <p>(Diagnostisches Feld, von interner Verarbeitung verwendet.)</p>
       </td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>
@@ -11146,19 +11146,19 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigen-Ko
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Erstellungsdatum des Datensatzes durch das Snowflake</td>
+      <td>Erstellungsdatum des Datensatzes durch Snowflake</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Änderungsdatum des Snowflake</td>
+      <td>Änderungsdatum des Datensatzes durch Snowflake</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Löschdatum des Datensatzes durch das Snowflake, falls er gelöscht wurde</td>
+      <td>Löschdatum des Datensatzes durch Snowflake, falls er gelöscht wurde</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -11166,7 +11166,7 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigen-Ko
 
 ### BIZ_SEGMENTS {#biz-segments}
 
-Segmentwerte gemäß der Definition in [!DNL Marketo Measure] Anwendung.
+Segmentwerte gemäß der Definition in der [!DNL Marketo Measure]-Anwendung.
 
 <table>
   <tbody>
@@ -11241,7 +11241,7 @@ Segmentwerte gemäß der Definition in [!DNL Marketo Measure] Anwendung.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -11269,7 +11269,7 @@ Ordnet den Namen des benutzerdefinierten Segments dem Kategoriewert zu. (Dadurch
     </tr>
     <tr>
       <td>
-        <p>KATEGORIE</p>
+        <p>CATEGORY</p>
       </td>
       <td>
         <p>varchar</p>
@@ -11311,15 +11311,15 @@ Ordnet den Namen des benutzerdefinierten Segments dem Kategoriewert zu. (Dadurch
     </tr>
     <tr>
       <td>IS_ACTIVE</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Gibt an, ob die Kategorie verwendet wird.</td>
-      <td>wahr</td>
+      <td>true</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Gibt an, ob der Datensatz gelöscht wird.</td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -11336,7 +11336,7 @@ Ordnet den Namen des benutzerdefinierten Segments dem Kategoriewert zu. (Dadurch
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -11344,7 +11344,7 @@ Ordnet den Namen des benutzerdefinierten Segments dem Kategoriewert zu. (Dadurch
 
 ### BIZ_SESSIONS {#biz-sessions}
 
-Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten können aus einer Sitzung bestehen und eine einzelne Besucher-ID kann mehreren Sitzungen zugeordnet werden.
+Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten können aus einer Sitzung bestehen, und eine einzelne Besucher-ID kann mehreren Sitzungen zugeordnet werden.
 
 <table>
   <tbody>
@@ -11416,7 +11416,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
     </tr>
     <tr>
       <td>
-        <p>ÄNDERUNGSDATUM</p>
+        <p>MODIFIED DATE</p>
       </td>
       <td>
         <p>timestamp_ntz</p>
@@ -11430,13 +11430,13 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
     </tr>
     <tr>
       <td>IS_FIRST_SESSION</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Gibt an, ob dies die erste Sitzung für die Besucher-ID ist.</td>
-      <td>wahr</td>
+      <td>true</td>
     </tr>
     <tr>
       <td>
-        <p>KANAL</p>
+        <p>CHANNEL</p>
       </td>
       <td>
         <p>varchar</p>
@@ -11456,7 +11456,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Webseite.</p>
+        <p>Name der Web-Seite.</p>
       </td>
       <td>
         <p>Salesforce-Google Analytics | [!DNL Marketo Measure]</p>
@@ -11540,7 +11540,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Wert, den der Benutzer im Browser eingegeben hat, um nach der Website zu suchen, und der schließlich auf der Website landet.</p>
+        <p>Der Wert, den der Benutzer im Browser eingegeben hat, um danach zu suchen, wodurch er schließlich auf die Website gelang.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Google Salesforce</p>
@@ -11554,7 +11554,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird verwendet, um die Quelle zu definieren, die zu der Sitzung führte. Dies kann aus der URL von utm_source geparst oder auf einen Anzeigenanbieter festgelegt werden, wenn [!DNL Marketo Measure] kann eine Anzeige auflösen.</p>
+        <p>Wird verwendet, um die Quelle zu definieren, die zu der Sitzung führte. Dies kann aus der URL von utm_source geparst oder auf einen Anzeigenanbieter festgelegt werden, wenn [!DNL Marketo Measure] eine Anzeige auflösen kann.</p>
       </td>
       <td>
         <p>Google AdWords</p>
@@ -11565,13 +11565,13 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>HAS_FORM</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Sitzung ein Ausfüllen des Formulars enthielt,</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -11579,13 +11579,13 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>HAS_CHAT</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Sitzung einen Webchat enthielt.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -11593,13 +11593,13 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>HAS_EMAIL</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Sitzung eine E-Mail-Adresse enthielt.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -11607,18 +11607,18 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>HAS_CRM_ACTIVITY</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Sitzung aus einem CRM-Aktivitätsdatensatz stammt oder nicht.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
       <td>
-        <p>GERÄT</p>
+        <p>DEVICE</p>
       </td>
       <td>
         <p>varchar</p>
@@ -11638,7 +11638,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Anzeigenplattform [!DNL Marketo Measure] aufgelöst von, normalerweise einem unserer Integrationspartner.</p>
+        <p>Die Anzeigenplattform, über die [!DNL Marketo Measure] auflösen konnte, in der Regel einer unserer Integrationspartner.</p>
       </td>
       <td>
         <p>Google</p>
@@ -11652,7 +11652,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Anzeigenkontos, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>ID des Anzeigenkontos, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>aw.6601259029</p>
@@ -11666,7 +11666,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Anzeigenkontos, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Name des Anzeigenkontos, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure]</p>
@@ -11680,7 +11680,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Advertisers, aus dem die Anzeige aufgelöst wurde, insbesondere aus der Verbindung mit Doubleclick.</p>
+        <p>ID des Advertisers, von dem aus die Anzeige aufgelöst wurde, insbesondere aus der Verbindung mit Doubleclick.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -11694,7 +11694,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Werbetreibenden, aus dem die Anzeige aufgelöst wurde, insbesondere aus der Verbindung mit Doubleclick.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie oberhalb der Anzeigenkonten einen Advertiser gibt.</p>
       </td>
       <td>
         <p>Marketing Analytics</p>
@@ -11736,7 +11736,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Palzements, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID der Platzierung, von der aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>120839827</p>
@@ -11781,7 +11781,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>Name der Kampagne, aus der die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
-        <p>Webinar zur Planung Ihres Budgets</p>
+        <p>Webinar zur Planung eines Budgets</p>
       </td>
     </tr>
     <tr>
@@ -11820,7 +11820,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung der Anzeige aufgelöst von. Dies gilt für doppelklicken Sie auf Kampagnen-Manager und Facebook (Anzeige).</p>
+        <p>Kennung der Anzeige, von der aus aufgelöst wurde. Dies gilt für DoubleClick Campaign Manager und Facebook (Anzeige).</p>
       </td>
       <td>aw.6601259029.321586235.23182235435</td>
     </tr>
@@ -11832,7 +11832,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Anzeige aufgelöst von. Dies gilt für doppelklicken Sie auf Kampagnen-Manager und Facebook (Anzeige).</p>
+        <p>Name der Anzeige, von der aus aufgelöst wurde. Dies gilt für DoubleClick Campaign Manager und Facebook (Anzeige).</p>
       </td>
       <td>Winterangebot - Grün</td>
     </tr>
@@ -11844,7 +11844,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Kreativelements, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>ID des Creative-Elements, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>aw.6601259029.321586235.23182235435.83558988035</p>
@@ -11858,7 +11858,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Kreativelements, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Name des Creative-Elements, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>GA und Salesforce integrieren</p>
@@ -11872,10 +11872,10 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Die erste Zeile des Kreativelements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die erste Zeile des Creative-Elements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
-        <p>Salesforce und Analytics integrieren in</p>
+        <p>Integrieren von Salesforce und Analytics in</p>
       </td>
     </tr>
     <tr>
@@ -11886,10 +11886,10 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Die zweite Zeile des Kreativelements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die zweite Zeile des Creative-Elements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
-        <p>Für Umsatz optimieren. Erfahren Sie mehr.</p>
+        <p>Für Umsatz optimieren. Lernen Sie, wie.</p>
       </td>
     </tr>
     <tr>
@@ -11900,7 +11900,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Landingpage, die von der Suchanzeige durchklickt und aus dem Anzeigenkonto abgerufen wird, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die Landingpage, auf die das Durchklicken von der Suchanzeige führt und die aus dem Anzeigenkonto abgerufen wird, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>http://www.adobe.com/salesforce-google-analytics</p>
@@ -11914,7 +11914,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Anzeigename der URL, der in der Suchanzeige angezeigt wird und aus dem Anzeigenkonto abgerufen wird, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Der Anzeigename der URL, der in der Suchanzeige angezeigt wird und aus dem Anzeigenkonto abgerufen wird, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>adobe.com/Salesforce-for-GA</p>
@@ -11928,7 +11928,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung des Suchbegriffs, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Kennung des Suchbegriffs, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>aw.6601259029.321586235.23182235435.35934468937</p>
@@ -11942,7 +11942,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Suchbegriffs, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Name des Suchbegriffs, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>Google Analytics Salesforce</p>
@@ -11956,7 +11956,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Art der Übereinstimmung, die zwischen dem Suchbegriff und dem gekauften Suchbegriff gefunden wird.</p>
+        <p>Die Art der Übereinstimmung, die zwischen dem Suchbegriff und dem gekauften Keyword gefunden wird.</p>
       </td>
       <td>
         <p>Satz</p>
@@ -11964,7 +11964,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
     </tr>
     <tr>
       <td>
-        <p>KAMPAGNE</p>
+        <p>CAMPAIGN</p>
       </td>
       <td>
         <p>varchar</p>
@@ -11978,7 +11978,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
     </tr>
     <tr>
       <td>
-        <p>QUELLE</p>
+        <p>SOURCE</p>
       </td>
       <td>
         <p>varchar</p>
@@ -12001,7 +12001,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>Wird über die URL von utm_medium analysiert.</p>
       </td>
       <td>
-        <p>Sozial</p>
+        <p>Social</p>
       </td>
     </tr>
     <tr>
@@ -12020,7 +12020,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
     </tr>
     <tr>
       <td>
-        <p>Inhalt</p>
+        <p>CONTENT</p>
       </td>
       <td>
         <p>varchar</p>
@@ -12034,7 +12034,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
     </tr>
     <tr>
       <td>
-        <p>ORT</p>
+        <p>CITY</p>
       </td>
       <td>
         <p>varchar</p>
@@ -12058,7 +12058,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
     </tr>
     <tr>
       <td>
-        <p>LAND</p>
+        <p>COUNTRY</p>
       </td>
       <td>
         <p>varchar</p>
@@ -12093,7 +12093,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>Die aufgezeichnete IP-Adresse zum Zeitpunkt der Sitzung.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174127184158</p>
       </td>
     </tr>
     <tr>
@@ -12101,13 +12101,13 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Bestimmt, ob diese Sitzung mit einer anderen zusammengeführt wurde und gelöscht werden soll.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -12205,7 +12205,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -12261,7 +12261,7 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID für das Anzeigenkonto, aus dem die Site importiert wurde.</p>
+        <p>ID für das Anzeigenkonto, von dem aus die Site importiert wurde.</p>
       </td>
       <td>aw.3284209</td>
     </tr>
@@ -12273,7 +12273,7 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Anzeigenkontos, aus dem die Site importiert wurde.</p>
+        <p>Name des Anzeigenkontos, von dem aus die Site importiert wurde.</p>
       </td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
@@ -12313,7 +12313,7 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Es wird erwartet, dass null ist, da es keine Anzeigengruppe über Site in der Anzeigen-Hierarchie gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie oberhalb der Site eine Anzeigengruppe gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -12325,7 +12325,7 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Es wird erwartet, dass null ist, da es keine Anzeigengruppe über Site in der Anzeigen-Hierarchie gibt.</p>
+        <p>Wird als null erwartet, da es in keiner Anzeigen-Hierarchie oberhalb der Site eine Anzeigengruppe gibt.</p>
       </td>
       <td>null</td>
     </tr>
@@ -12360,24 +12360,24 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Site im Quellsystem noch aktiv ist.</p>
       </td>
-      <td>wahr</td>
+      <td>true</td>
     </tr>
     <tr>
       <td>
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob die Site im Quellsystem gelöscht wurde.</p>
       </td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>
@@ -12411,7 +12411,7 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Site aus dem Quellsystem.</p>
+        <p>Name der Site, aus dem Quellsystem.</p>
       </td>
       <td>Umsatz</td>
     </tr>
@@ -12420,13 +12420,13 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob die Site aktualisiert werden muss [!DNL Marketo Measure] Tagging.</p>
+        <p>Gibt an, ob die Site für das [!DNL Marketo Measure]-Tagging aktualisiert werden muss.</p>
         <p>(Diagnostisches Feld, für die interne Verarbeitung verwendet.)</p>
       </td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>
@@ -12491,7 +12491,7 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -12499,7 +12499,7 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
 
 ### BIZ_SITE_LINKS {#biz-site-links}
 
-Sites-Links von einem beliebigen verbundenen Anzeigen-Konto aus.
+Sites-Links von einem beliebigen verbundenen Anzeigenkonto aus.
 
 <table>
   <tbody>
@@ -12528,7 +12528,7 @@ Sites-Links von einem beliebigen verbundenen Anzeigen-Konto aus.
         <p>Eine eindeutige ID für den Site-Link</p>
       </td>
       <td>
-        <p>aw.6601259029.28507795.1654234342</p>
+        <p>aw.6601259029.285077795.1654234342</p>
       </td>
     </tr>
     <tr>
@@ -12551,7 +12551,7 @@ Sites-Links von einem beliebigen verbundenen Anzeigen-Konto aus.
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Kennung der verbundenen Anzeigen für den Site-Link</p>
+        <p>Die Kennung des verbundenen Anzeigenkontos für den Site-Link</p>
       </td>
       <td>
         <p>aw.6601259029</p>
@@ -12565,7 +12565,7 @@ Sites-Links von einem beliebigen verbundenen Anzeigen-Konto aus.
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Name der verbundenen Anzeigen berücksichtigt den Site-Link.</p>
+        <p>Der Name des verbundenen Anzeigenkontos für den Site-Link</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure]</p>
@@ -12609,7 +12609,7 @@ Sites-Links von einem beliebigen verbundenen Anzeigen-Konto aus.
       <td>
         <p>Die ID der Anzeigengruppe für den Site-Link</p>
       </td>
-      <td>aw.6601259029.208548635.1675016675</td>
+      <td>aw.6601259029.208548635.16750166675</td>
     </tr>
     <tr>
       <td>
@@ -12656,10 +12656,10 @@ Sites-Links von einem beliebigen verbundenen Anzeigen-Konto aus.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob der Site-Link im Anzeigen-Konto noch aktiv ist</p>
+        <p>Gibt an, ob der Site-Link im Anzeigenkonto noch aktiv ist</p>
       </td>
       <td>
         <p>TRUE</p>
@@ -12670,10 +12670,10 @@ Sites-Links von einem beliebigen verbundenen Anzeigen-Konto aus.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob der Site-Link im Anzeigen-Konto gelöscht wurde</p>
+        <p>Gibt an, ob der Site-Link im Anzeigenkonto gelöscht wurde</p>
       </td>
       <td>
         <p>FALSE</p>
@@ -12701,7 +12701,7 @@ Sites-Links von einem beliebigen verbundenen Anzeigen-Konto aus.
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Das Datum, an dem der Site-Link zum ersten Mal von [!DNL Marketo Measure]</p>
+        <p>Das Datum, an dem der Site-Link zum ersten Mal heruntergeladen wurde von [!DNL Marketo Measure]</p>
       </td>
       <td>
         <p>2018-08-02 06:36:50.000</p>
@@ -12724,10 +12724,10 @@ Sites-Links von einem beliebigen verbundenen Anzeigen-Konto aus.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob der Site-Link aktualisiert werden muss, um das Marketing Measurement-Tagging zu erhalten</p>
+        <p>Gibt an, ob der Site-Link aktualisiert werden muss, um das Marketo Measure-Tagging zu erhalten</p>
       </td>
       <td>
         <p>FALSE</p>
@@ -12818,19 +12818,19 @@ Sites-Links von einem beliebigen verbundenen Anzeigen-Konto aus.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Erstellungsdatum des Datensatzes durch das Snowflake</td>
+      <td>Erstellungsdatum des Datensatzes durch Snowflake</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Änderungsdatum des Snowflake</td>
+      <td>Änderungsdatum des Datensatzes durch Snowflake</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Löschdatum des Datensatzes durch das Snowflake, falls er gelöscht wurde</td>
+      <td>Löschdatum des Datensatzes durch Snowflake, falls er gelöscht wurde</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -12838,7 +12838,7 @@ Sites-Links von einem beliebigen verbundenen Anzeigen-Konto aus.
 
 ### BIZ_STAGE_DEFINITIONS {#biz-stage-definitions}
 
-Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
+Liste der Schritte, wie sie importiert oder in der [!DNL Marketo Measure]-Anwendung definiert wurden.
 
 <table>
   <tbody>
@@ -12864,7 +12864,7 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
         <p>varchar</p>
       </td>
       <td>
-        <p>Eine eindeutige ID für die Bühne.</p>
+        <p>Eine eindeutige ID für den Schritt.</p>
       </td>
       <td>
         <p>01J3100000QE753EAD</p>
@@ -12892,7 +12892,7 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Bühne.</p>
+        <p>Name des Schritts.</p>
       </td>
       <td>
         <p>Verbal</p>
@@ -12903,11 +12903,11 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
         <p>IS_INACTIVE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
-      <td>Gibt an, ob die Bühne als inaktiv betrachtet wird.</td>
+      <td>Gibt an, ob der Schritt als inaktiv betrachtet wird.</td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -12915,13 +12915,13 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
         <p>IS_IN_CUSTOM_MODEL</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Bühne für die Verfolgung im benutzerdefinierten Modell ausgewählt ist.</p>
+        <p>Gibt an, ob der Schritt für die Verfolgung im benutzerdefinierten Modell ausgewählt ist.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -12929,13 +12929,13 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
         <p>IS_BOOMERANG</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Bühne zum Tracking als Bomerang-Phase ausgewählt ist.</p>
+        <p>Gibt an, ob der Schritt zum Nachverfolgen als Boomerang-Schritt ausgewählt ist.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -12943,11 +12943,11 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
         <p>IS_TRANSITION_TRACKING</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
-      <td>Gibt an, ob die Bühne zur Verfolgung von Transitionen ausgewählt ist.</td>
+      <td>Gibt an, ob der Schritt zum Nachverfolgen von Transitionen ausgewählt ist.</td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -12958,7 +12958,7 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
         <p>varchar</p>
       </td>
       <td>
-        <p>Status der Bühne, wie im Abschnitt [!DNL Marketo Measure] App-Staging-Zuordnung.</p>
+        <p>Status des Schritts, wie in der Staging-Zuordnung der [!DNL Marketo Measure]-App definiert.</p>
       </td>
       <td>
         <p>Wurde geöffnet</p>
@@ -12969,13 +12969,13 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
         <p>IS_FROM_SALESFORCE</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Bühne aus einem externen Quellsystem importiert wird.</p>
+        <p>Gibt an, ob der Schritt aus einem externen Quellsystem importiert wird.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -12983,11 +12983,11 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
         <p>IS_DEFAULT</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
-      <td>Gibt an, ob die Bühne als Standard festgelegt ist.</td>
+      <td>Gibt an, ob der Schritt als Standard festgelegt ist.</td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -12998,7 +12998,7 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Der numerische Rang der Bühne, der zum Sortieren von Phasen in Übergangsreihenfolge verwendet wird.</p>
+        <p>Der numerische Rang des Schritts, wird zum Sortieren von Schritten in Übergangsreihenfolge verwendet.</p>
       </td>
       <td>
         <p>53</p>
@@ -13009,13 +13009,13 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Bühne gelöscht wurde.</p>
+        <p>Gibt an, ob der Schritt gelöscht wurde.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -13033,7 +13033,7 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -13041,7 +13041,7 @@ Liste der importierten oder in der [!DNL Marketo Measure] Anwendung.
 
 ### BIZ_TOUCHPOINTS {#biz-touchpoints}
 
-Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft sind. Diese Tabelle ist leer, wenn &quot;Lead-Touchpoints&quot;oder &quot;Kontakt-Touchpoints&quot;deaktiviert sind.
+Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft sind. Diese Tabelle ist leer, wenn &quot;Lead-Touchpoints&quot; oder &quot;Kontakt-Touchpoints&quot; deaktiviert sind.
 
 <table>
   <tbody>
@@ -13059,7 +13059,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Eine eindeutige ID für den Käufer-Touchpoint (BT).</p>
+        <p>Eine eindeutige ID für den Buyer Touchpoint (BT).</p>
       </td>
       <td>
         <p>TP2_Person_00Q0Z000013e2PYUAY_2018-08-27:20-04-40-565690.1ee8567c175a</p>
@@ -13081,7 +13081,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
     </tr>
     <tr>
       <td>
-        <p>E-MAIL</p>
+        <p>EMAIL</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13187,7 +13187,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Aktivitätstyp, Webbesuch, Webformular, Webchat, Telefonaufruf, [CRM]-Kampagne oder [CRM]-Aktivität. Im CRM als "Touchpoint-Typ"bezeichnet.</p>
+        <p>Der Aktivitätstyp, Webbesuch, Webformular, Webchat, Telefonaufruf, [CRM]-Kampagne oder [CRM]-Aktivität. Im CRM als "Touchpoint-Typ" bezeichnet.</p>
       </td>
       <td>
         <p>Webformular</p>
@@ -13195,13 +13195,13 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
     </tr>
     <tr>
       <td>
-        <p>KANAL</p>
+        <p>CHANNEL</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Kanal, in den der Touchpoint fällt, wie in den benutzerdefinierten Kanaldefinitionen innerhalb der Variablen [!DNL Marketo Measure] App. Im CRM als "Marketing-Kanal - Pfad"bezeichnet.</p>
+        <p>Der Kanal, in den der Touchpoint fällt, wie in den benutzerdefinierten Kanaldefinitionen innerhalb der Variablen [!DNL Marketo Measure] App. Im CRM als "Marketingkanal - Pfad" bezeichnet.</p>
       </td>
       <td>Social.LinkedIn</td>
     </tr>
@@ -13213,7 +13213,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Segmentwert für die erste Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</p>
+        <p>Der Segmentwert für die erste Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td>ABC</td>
     </tr>
@@ -13225,7 +13225,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Segmentwert für die zweite Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</p>
+        <p>Der Segmentwert für die zweite Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td>
         <p>Ja</p>
@@ -13239,7 +13239,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Segmentwert für die dritte Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</p>
+        <p>Der Segmentwert für die dritte Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td>
         <p>Andere</p>
@@ -13253,7 +13253,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Segmentwert für die 4. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</p>
+        <p>Der Segmentwert für die 4. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td>
         <p>Partner</p>
@@ -13267,7 +13267,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Segmentwert für die 5. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</p>
+        <p>Der Segmentwert für die 5. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td></td>
     </tr>
@@ -13279,7 +13279,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Segmentwert für die 6. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</p>
+        <p>Der Segmentwert für die 6. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td></td>
     </tr>
@@ -13290,7 +13290,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 7. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 7. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -13300,7 +13300,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die achte Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die achte Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -13310,7 +13310,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 9. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 9. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -13320,7 +13320,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 10. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 10. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -13330,7 +13330,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 11. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen innerhalb der [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 11. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -13340,7 +13340,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 12. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen innerhalb der [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 12. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -13350,7 +13350,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
       <td>
         <p>varchar</p>
       </td>
-      <td>Der Segmentwert für die 13. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen innerhalb der [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</td>
+      <td>Der Segmentwert für die 13. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -13361,7 +13361,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Segmentwert für die 14. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen innerhalb der [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</p>
+        <p>Der Segmentwert für die 14. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td></td>
     </tr>
@@ -13373,7 +13373,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Segmentwert für die 15. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen innerhalb der [!DNL Marketo Measure] App. Im CRM als "Segmente"bezeichnet.</p>
+        <p>Der Segmentwert für die 15. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td></td>
     </tr>
@@ -13437,7 +13437,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Im CRM als "Landingpage"bezeichnet.</p>
+        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Im CRM als "Landingpage" bezeichnet.</p>
       </td>
       <td>
         <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing</p>
@@ -13451,10 +13451,10 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Eine Raw-Landingpage enthält alle Abfrageparameter in der URL. Im CRM als "Landingpage - Roh"bezeichnet.</p>
+        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Eine Raw-Landingpage enthält alle Abfrageparameter in der URL. Im CRM als "Landingpage - Roh" bezeichnet.</p>
       </td>
       <td>
-        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -13465,7 +13465,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Im CRM als "Referrer-Seite"bezeichnet.</p>
+        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Im CRM als "Referrer-Seite" bezeichnet.</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
@@ -13477,7 +13477,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Eine Raw-Referrer-Seite kann Abfrageparameter in der URL enthalten. Im CRM als "Referrer Page - Raw"bezeichnet.</p>
+        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Eine Raw-Referrer-Seite kann Abfrageparameter in der URL enthalten. Im CRM als "Referrer Page - Raw" bezeichnet.</p>
       </td>
       <td>
         <p>https://www.linkedin.com/feed</p>
@@ -13491,7 +13491,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Touchpoints-Tabelle, sondern in der Tabelle "Form_Submissions"angezeigt. Im CRM als "Formular-URL"bezeichnet.</p>
+        <p>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Touchpoints-Tabelle, sondern in der Tabelle "Form_Submissions" angezeigt. Im CRM als "Formular-URL" bezeichnet.</p>
       </td>
       <td>
         <p>https://info.adobe.com/demo</p>
@@ -13500,7 +13500,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
     <tr>
       <td>FORM_PAGE_RAW</td>
       <td>varchar</td>
-      <td>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Touchpoints-Tabelle, sondern in der Tabelle "Form_Submissions"angezeigt. Eine Formularrohseite kann Abfrageparameter in der URL enthalten. Im CRM als "Formular-URL - Roh"bezeichnet.</td>
+      <td>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Touchpoints-Tabelle, sondern in der Tabelle "Form_Submissions" angezeigt. Eine Formularrohseite kann Abfrageparameter in der URL enthalten. Im CRM als "Formular-URL - Roh" bezeichnet.</td>
       <td>https://info.adobe.com/demo?hsCtaTracking=98adcc2f-afe2-40c4-9d79-40dcc41663ee%7C3cfaa909-39cb-4f5d-93eb-be05de6b0180</td>
     </tr>
     <tr>
@@ -13519,7 +13519,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
     </tr>
     <tr>
       <td>
-        <p>ORT</p>
+        <p>CITY</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13539,7 +13539,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Von der JavaScript- und IP-Adresse aus die Region, in der sich der Benutzer während der Sitzung befand.</p>
+        <p>Von der JavaScript- und IP-Adresse aus die erkannte Region, in der sich der Benutzer während der Sitzung befand.</p>
       </td>
       <td>
         <p>New York</p>
@@ -13547,13 +13547,13 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
     </tr>
     <tr>
       <td>
-        <p>LAND</p>
+        <p>COUNTRY</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>
-        <p>Von der JavaScript- und IP-Adresse aus das Land, in dem sich der Benutzer während der Sitzung befand.</p>
+        <p>Von der JavaScript- und IP-Adresse aus das erkannte Land, in dem sich der Benutzer während der Sitzung befand.</p>
       </td>
       <td>
         <p>Vereinigte Staaten</p>
@@ -13567,10 +13567,10 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird verwendet, um das Medium zu definieren, das zum Touchpoint führte. Dies kann entweder aus der URL von utm_medium herausgeparst werden. Oder wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich um Werte wie "cpc"oder "display"handeln.</p>
+        <p>Wird verwendet, um das Medium zu definieren, das zum Touchpoint führte. Dies kann entweder aus der URL von utm_medium herausgeparst werden. Oder wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich um Werte wie "cpc" oder "display" handeln.</p>
       </td>
       <td>
-        <p>Sozial</p>
+        <p>Social Media</p>
       </td>
     </tr>
     <tr>
@@ -13581,7 +13581,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird verwendet, um die Quelle zu definieren, die zum Touchpoint führte. Dies kann aus der URL utm_source analysiert werden, die im Allgemeinen als "CRM-Kampagne"festgelegt ist, wenn sie aus dem CRM synchronisiert wurde oder wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich um Werte wie "Google AdWords"oder "Facebook"handeln. Im CRM als "Touchpoint-Quelle"bezeichnet.</p>
+        <p>Wird verwendet, um die Quelle zu definieren, die zum Touchpoint führte. Dies kann aus der URL utm_source analysiert werden, die im Allgemeinen als "CRM-Kampagne" festgelegt ist, wenn sie aus dem CRM synchronisiert wurde. Wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich auch um Werte wie "Google AdWords" oder "Facebook" handeln. Im CRM als "Touchpoint-Quelle" bezeichnet.</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -13595,7 +13595,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Wert, den der Benutzer in den Browser eingegeben hat, um nach ihm zu suchen, und der schließlich auf der Website gelang. Abhängig vom gekauften Suchbegriff stimmt dies möglicherweise nicht mit den von der Paid Search-Plattform erworbenen Suchbegriffen überein.</p>
+        <p>Der Wert, den der Benutzer in den Browser eingegeben hat, um danach zu suchen, wodurch er schließlich auf die Website gelang. Abhängig vom gekauften Suchbegriff stimmt dies möglicherweise nicht mit den von der Paid Search-Plattform erworbenen Suchbegriffen überein.</p>
       </td>
       <td>
         <p>Markeot Measurement Attribution</p>
@@ -13609,7 +13609,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Anzeigenplattform [!DNL Marketo Measure] konnte von lösen, in der Regel von einem unserer Integrationspartner.</p>
+        <p>Anzeigenplattform, über die [!DNL Marketo Measure] auflösen konnte, in der Regel einer unserer Integrationspartner.</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -13623,7 +13623,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Anzeigenkontos, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>ID des Anzeigenkontos, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>li.502664737</p>
@@ -13637,7 +13637,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Anzeigenkontos, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Name des Anzeigenkontos, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>MM SC 2016_14605342_3/7-3/31/16</p>
@@ -13651,7 +13651,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Advertisers aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -13665,7 +13665,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Werbetreibenden aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>Marketo Marketing Analytics</p>
@@ -13679,7 +13679,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Site aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID der Site aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>1695651</p>
@@ -13693,7 +13693,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Site aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name der Site aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>Quora.com</p>
@@ -13707,7 +13707,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Platzierung aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>120839827</p>
@@ -13721,7 +13721,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Platzierung aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>Hindernis</p>
@@ -13735,7 +13735,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung der Kampagne aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Kennung der Kampagne aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>li.502664737.138949954</p>
@@ -13749,7 +13749,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Kampagne aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Name der Kampagne aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>SU - COM Accounts - Demand Skills</p>
@@ -13763,7 +13763,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Anzeigengruppe aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für Google Adwords.</p>
+        <p>ID der Anzeigengruppe aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für Google Adwords.</p>
       </td>
       <td>aw.6601259029.317738075.23105327435</td>
     </tr>
@@ -13775,7 +13775,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Anzeigengruppe aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für Google AdWords.</p>
+        <p>Name der Anzeigengruppe aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für Google AdWords.</p>
       </td>
       <td>Marketing-Attribution - Allgemein</td>
     </tr>
@@ -13787,7 +13787,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Anzeige aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für doppelklicken Sie auf Kampagnen-Manager und Facebook (Anzeige).</p>
+        <p>ID der Anzeige aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für DoubleClick Campaign Manager und Facebook (Anzeige).</p>
       </td>
       <td>dc.6114.8882972.25272734.492579576</td>
     </tr>
@@ -13799,7 +13799,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Anzeige aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für doppelklicken Sie auf Kampagnen-Manager und Facebook (Anzeige).</p>
+        <p>Name der Anzeige aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für DoubleClick Campaign Manager und Facebook (Anzeige).</p>
       </td>
       <td>Budget-Webinar - Seitenleiste</td>
     </tr>
@@ -13811,7 +13811,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung des Kreativelements aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Kennung des Creative-Elements aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>li.502664737.138949954.66452504</p>
@@ -13825,7 +13825,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Kreativelements aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Name des Creative-Elements aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>lisu03151846</p>
@@ -13839,10 +13839,10 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Die erste Zeile des Kreativelements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die erste Zeile des Creative-Elements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
-        <p>Lead-Generieren erfolgt</p>
+        <p>Lead-Generierung ist erfolgt</p>
       </td>
     </tr>
     <tr>
@@ -13853,7 +13853,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Die zweite Zeile des Kreativelements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die zweite Zeile des Creative-Elements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>Laden Sie die endgültige Anleitung zum Pipeline-Marketing herunter: https://lnkd.in/e9xYj5M</p>
@@ -13867,7 +13867,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Landingpage, die von der Suchanzeige durchklickt und aus dem Anzeigenkonto abgerufen wird, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die Landingpage, auf die das Durchklicken von der Suchanzeige führt und die aus dem Anzeigenkonto abgerufen wird, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>https://image-store.slidesharecdn.com/d29165c0-1e0b-4ffc-a494-d2c77e7cd4a6-large.jpeg</p>
@@ -13881,7 +13881,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Anzeigename der URL, der in der Suchanzeige angezeigt wird und aus dem Anzeigenkonto abgerufen wird, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Der Anzeigename der URL, der in der Suchanzeige angezeigt wird und aus dem Anzeigenkonto abgerufen wird, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>marektomeasure.com/guide</p>
@@ -13895,7 +13895,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>ID des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>__GAId__lisu03151846</p>
@@ -13909,7 +13909,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche)</p>
+        <p>Name des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche)</p>
       </td>
       <td>
         <p>lisu03151846</p>
@@ -13923,7 +13923,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Art der Übereinstimmung, die zwischen dem Suchbegriff und dem gekauften Suchbegriff gefunden wird.</p>
+        <p>Die Art der Übereinstimmung, die zwischen dem Suchbegriff und dem gekauften Keyword gefunden wird.</p>
       </td>
       <td>
         <p>Broad</p>
@@ -13934,13 +13934,13 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>IS_FIRST_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint als Erstkontakt der Opportunity-Journey behandelt wird.</p>
+        <p>Gibt an, ob dieser Touchpoint als Erstkontakt der Opportunity-Journey behandelt wird.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -13948,13 +13948,13 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>IS_LEAD_CREATION_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint als Lead-Creative-Touch der Opportunity-Journey behandelt wird.</p>
+        <p>Gibt an, ob dieser Touchpoint als Touch zur Lead-Erstellung der Opportunity-Journey behandelt wird.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -13962,13 +13962,13 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>IS_OPP_CREATION_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint als Opportunity-Creative-Touch der Opportunity-Journey behandelt wird.</p>
+        <p>Gibt an, ob dieser Touchpoint als Touch zur Opportunity-Erstellung der Opportunity-Journey behandelt wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -13976,19 +13976,19 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>IS_CLOSED_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint als geschlossene Berührung des Opportunity-Journey behandelt wird.</p>
+        <p>Gibt an, ob dieser Touchpoint als geschlossene Berührung des Opportunity-Journey behandelt wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
       <td>STAGES_TOUCHED</td>
       <td>varchar</td>
-      <td>Dieses Feld wird nicht mehr unterstützt. Informationen zur Bühne finden Sie in den Tabellen Stage_Transitions .</td>
+      <td>Dieses Feld ist veraltet. Informationen zur Phase finden Sie in den Tabellen Stage_Transitions .</td>
       <td>null</td>
     </tr>
     <tr>
@@ -13996,13 +13996,13 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>IS_FORM_SUBMISSION_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob dieser Touchpoint während der Sitzung ein Formular ausgefüllt hat.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -14010,13 +14010,13 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>IS_IMPRESSION_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint als erster Impression des Opportunity-Journey behandelt wird</p>
+        <p>Gibt an, ob dieser Touchpoint als erster Impression des Opportunity-Journey behandelt wird</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -14027,7 +14027,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da es sich um einen Erstkontakt handelt (siehe Is_First_Touch).</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil es sich um einen Erstkontakt handelt (siehe Is_First_Touch).</p>
       </td>
       <td>
         <p>100</p>
@@ -14041,7 +14041,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da es sich um einen Lead-Erstellungskontakt handelt (siehe Is_Lead_Creation_Touch).</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil es sich um einen Lead-Erstellungskontakt handelt (siehe Is_Lead_Creation_Touch).</p>
       </td>
       <td>
         <p>100</p>
@@ -14055,7 +14055,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugewiesen wird, da er Teil eines u-förmigen Touchings ist (siehe Is_First_Touch und Is_Lead_Creation_Touch).</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugewiesen wird, weil er Teil eines U-förmigen Touchings ist (siehe Is_First_Touch und Is_Lead_Creation_Touch).</p>
       </td>
       <td>
         <p>100</p>
@@ -14069,7 +14069,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da er Teil eines w-förmigen Touchings ist (siehe Is_First_Touch, Is_Lead_Creation_Touch und Is_Opp_Creation_Touch). Wird mit 0 erwartet, da dies ein BT ist.</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil er Teil eines W-förmigen Touchings ist (siehe Is_First_Touch, Is_Lead_Creation_Touch und Is_Opp_Creation_Touch). Wird als 0 erwartet, da dies ein BT ist.</p>
       </td>
       <td>
         <p>0</p>
@@ -14083,7 +14083,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da er Teil eines vollständigen Pfadmodells ist (siehe Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Wird mit 0 erwartet, da dies ein BT ist.</p>
+        <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil er Teil eines vollständigen Pfadmodells ist (siehe Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Wird als 0 erwartet, da dies ein BT ist.</p>
       </td>
       <td>
         <p>0</p>
@@ -14092,7 +14092,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
     <tr>
       <td>CUSTOM_MODEL_PERCENTAGE</td>
       <td>number(22,19)</td>
-      <td>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, da er Teil eines benutzerdefinierten Modells ist (siehe Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Wird mit 0 erwartet, da dies ein BT ist.</p>
+      <td>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil er Teil eines benutzerdefinierten Modells ist (siehe Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Wird als 0 erwartet, da dies ein BT ist.</p>
       </td>
       <td>0</td>
     </tr>
@@ -14101,13 +14101,13 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint gelöscht wird.</p>
+        <p>Gibt an, ob dieser Touchpoint gelöscht wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -14169,7 +14169,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
       <td></td>
     </tr>
     <tr>
-      <td>ADVERISER_ROW_KEY</td>
+      <td>ADVERTISER_ROW_KEY</td>
       <td>number(38,0)</td>
       <td></td>
       <td></td>
@@ -14231,7 +14231,7 @@ Touchpoints des Käufers, alle Touchpoints, die mit einem Lead oder Kontakt verk
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -14273,13 +14273,13 @@ Aggregation von URLs aus Landingpages, Referrer-Seiten und Seitenansichten.
     </tr>
     <tr>
       <td>
-        <p>SCHEMA</p>
+        <p>SCHEME</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>
-        <p>Die sichere Kommunikation der Webseite über das Netzwerk.</p>
+        <p>Die sichere Kommunikation der Web-Seite über das Netzwerk.</p>
       </td>
       <td>
         <p>https</p>
@@ -14287,7 +14287,7 @@ Aggregation von URLs aus Landingpages, Referrer-Seiten und Seitenansichten.
     </tr>
     <tr>
       <td>
-        <p>GAST</p>
+        <p>HOST</p>
       </td>
       <td>
         <p>varchar</p>
@@ -14315,7 +14315,7 @@ Aggregation von URLs aus Landingpages, Referrer-Seiten und Seitenansichten.
     </tr>
     <tr>
       <td>
-        <p>PFAD</p>
+        <p>PATH</p>
       </td>
       <td>
         <p>varchar</p>
@@ -14324,7 +14324,7 @@ Aggregation von URLs aus Landingpages, Referrer-Seiten und Seitenansichten.
         <p>Der Teil der URL, der auf einen bestimmten Ort auf dem Host verweist.</p>
       </td>
       <td>
-        <p>/blog/strategy-marketing-plangoals</p>
+        <p>/blog/strategic-marketing-plangoals</p>
       </td>
     </tr>
     <tr>
@@ -14356,7 +14356,7 @@ Aggregation von URLs aus Landingpages, Referrer-Seiten und Seitenansichten.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -14412,7 +14412,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
     </tr>
     <tr>
       <td>
-        <p>E-MAIL</p>
+        <p>EMAIL</p>
       </td>
       <td>
         <p>varchar</p>
@@ -14446,7 +14446,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>ID für das Campaign-Mitglied, das den Benutzer-Touchpoint erstellt hat.</p>
+        <p>ID für das Kampagnenmitglied, das den Benutzer-Touchpoint erstellt hat.</p>
       </td>
       <td>
         <p>00v0Z00001VTgv1QAD</p>
@@ -14480,7 +14480,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>TId für die Aufgabe, die den Benutzer-Touchpoint erstellt hat.</p>
+        <p>ID für die Aufgabe, die den Benutzer-Touchpoint erstellt hat.</p>
       </td>
       <td>
         <p>00T0Z00004Qbd1jUAB</p>
@@ -14500,9 +14500,9 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
     </tr>
     <tr>
       <td>IS_FIRST_KNOWN_TOUCH</td>
-      <td>Boolesch</td>
-      <td>Ob dieser Touchpoint als Erstkontakt der Opportunity-Journey behandelt wird.</td>
-      <td>falsch</td>
+      <td>boolean</td>
+      <td>Gibt an, ob dieser Touchpoint als Erstkontakt der Opportunity-Journey behandelt wird.</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>VISITOR_ID</td>
@@ -14532,7 +14532,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Aktivitätstyp, Webbesuch, Webformular, Webchat, Telefonaufruf, [CRM]-Kampagne oder [CRM]-Aktivität. Im CRM als "Touchpoint-Typ"bezeichnet.</p>
+        <p>Der Aktivitätstyp, Webbesuch, Webformular, Webchat, Telefonaufruf, [CRM]-Kampagne oder [CRM]-Aktivität. Im CRM als "Touchpoint-Typ" bezeichnet.</p>
       </td>
       <td>
         <p>Webformular</p>
@@ -14540,13 +14540,13 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
     </tr>
     <tr>
       <td>
-        <p>KANAL</p>
+        <p>CHANNEL</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Kanal, in den der Touchpoint fällt, wie in den benutzerdefinierten Kanaldefinitionen innerhalb der Variablen [!DNL Marketo Measure] App. Im CRM als "Marketing-Kanal - Pfad"bezeichnet.</p>
+        <p>Der Kanal, in den der Touchpoint fällt, wie in den benutzerdefinierten Kanaldefinitionen innerhalb der Variablen [!DNL Marketo Measure] App. Im CRM als "Marketingkanal - Pfad" bezeichnet.</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -14616,7 +14616,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Im CRM als "Landingpage"bezeichnet.</p>
+        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Im CRM als "Landingpage" bezeichnet.</p>
       </td>
       <td>
         <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing</p>
@@ -14630,7 +14630,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Eine Raw-Landingpage enthält alle Abfrageparameter in der URL. Im CRM als "Landingpage - Roh"bezeichnet.</p>
+        <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Eine Raw-Landingpage enthält alle Abfrageparameter in der URL. Im CRM als "Landingpage - Roh" bezeichnet.</p>
       </td>
       <td>
         <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
@@ -14644,7 +14644,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Im CRM als "Referrer-Seite"bezeichnet.</p>
+        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Im CRM als "Referrer-Seite" bezeichnet.</p>
       </td>
       <td>
         <p>https://www.google.com/</p>
@@ -14658,7 +14658,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Eine Raw-Referrer-Seite kann Abfrageparameter in der URL enthalten. Im CRM als "Referrer Page - Raw"bezeichnet.</p>
+        <p>In der Regel die externe Landingpage unmittelbar vor dem Besuch des Benutzers auf der Website. Eine Raw-Referrer-Seite kann Abfrageparameter in der URL enthalten. Im CRM als "Referrer Page - Raw" bezeichnet.</p>
       </td>
       <td>
         <p>https://www.google.com/</p>
@@ -14672,7 +14672,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Tabelle "Attribution_Touchpoints"angezeigt, sondern in der Tabelle "Form_Submissions". Im CRM als "Formular-URL"bezeichnet.</p>
+        <p>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Tabelle "Attribution_Touchpoints" angezeigt, sondern in der Tabelle "Form_Submissions". Im CRM als "Formular-URL" bezeichnet.</p>
       </td>
       <td>
         <p>http://info.adobe.com/adwords-for-lead-generation</p>
@@ -14686,10 +14686,10 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Tabelle "Attribution_Touchpoints"angezeigt, sondern in der Tabelle "Form_Submissions". Eine Formularrohseite kann Abfrageparameter in der URL enthalten. Im CRM als "Formular-URL - Roh"bezeichnet.</p>
+        <p>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Tabelle "Attribution_Touchpoints" angezeigt, sondern in der Tabelle "Form_Submissions". Eine Formularrohseite kann Abfrageparameter in der URL enthalten. Im CRM als "Formular-URL - Roh" bezeichnet.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm_campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -14708,7 +14708,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
     </tr>
     <tr>
       <td>
-        <p>ORT</p>
+        <p>CITY</p>
       </td>
       <td>
         <p>varchar</p>
@@ -14728,7 +14728,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Von der JavaScript- und IP-Adresse aus die Region, in der sich der Benutzer während der Sitzung befand.</p>
+        <p>Von der JavaScript- und IP-Adresse aus die erkannte Region, in der sich der Benutzer während der Sitzung befand.</p>
       </td>
       <td>
         <p>Kalifornien</p>
@@ -14736,13 +14736,13 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
     </tr>
     <tr>
       <td>
-        <p>LAND</p>
+        <p>COUNTRY</p>
       </td>
       <td>
         <p>varchar</p>
       </td>
       <td>
-        <p>Von der JavaScript- und IP-Adresse aus das Land, in dem sich der Benutzer während der Sitzung befand.</p>
+        <p>Von der JavaScript- und IP-Adresse aus das erkannte Land, in dem sich der Benutzer während der Sitzung befand.</p>
       </td>
       <td>
         <p>Vereinigte Staaten</p>
@@ -14756,7 +14756,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird verwendet, um das Medium zu definieren, das zum Touchpoint führte. Dies kann entweder aus der URL von utm_medium herausgeparst werden. Oder wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich um Werte wie "cpc"oder "display"handeln.</p>
+        <p>Wird verwendet, um das Medium zu definieren, das zum Touchpoint führte. Dies kann entweder aus der URL von utm_medium herausgeparst werden. Oder wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich auch um Werte wie "cpc" oder "display" handeln.</p>
       </td>
       <td>
         <p>bezahlt</p>
@@ -14770,7 +14770,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Wird verwendet, um die Quelle zu definieren, die zum Touchpoint führte. Dies kann aus der URL utm_source analysiert werden, die im Allgemeinen als "CRM-Kampagne"festgelegt ist, wenn sie aus dem CRM synchronisiert wurde oder wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich um Werte wie "Google AdWords"oder "Facebook"handeln. Im CRM als "Touchpoint-Quelle"bezeichnet.</p>
+        <p>Wird verwendet, um die Quelle zu definieren, die zum Touchpoint führte. Dies kann aus der URL utm_source analysiert werden, die im Allgemeinen als "CRM-Kampagne" festgelegt ist, wenn sie aus dem CRM synchronisiert wurde. Wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich auch um Werte wie "Google AdWords" oder "Facebook" handeln. Im CRM als "Touchpoint-Quelle" bezeichnet.</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -14784,7 +14784,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Wert, den der Benutzer in den Browser eingegeben hat, um nach ihm zu suchen, und der schließlich auf der Website gelang. Abhängig vom gekauften Suchbegriff stimmt dies möglicherweise nicht mit den von der Paid Search-Plattform erworbenen Suchbegriffen überein.</p>
+        <p>Der Wert, den der Benutzer in den Browser eingegeben hat, um danach zu suchen, wodurch er schließlich auf die Website gelang. Abhängig vom gekauften Suchbegriff stimmt dies möglicherweise nicht mit den von der Paid Search-Plattform erworbenen Suchbegriffen überein.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure]</p>
@@ -14798,7 +14798,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Anzeigenplattform [!DNL Marketo Measure] konnte von lösen, in der Regel von einem unserer Integrationspartner.</p>
+        <p>Anzeigenplattform, über die [!DNL Marketo Measure] auflösen konnte, in der Regel einer unserer Integrationspartner.</p>
       </td>
       <td>
         <p>Google</p>
@@ -14812,7 +14812,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Anzeigenkontos, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>ID des Anzeigenkontos, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>aw.6601259029</p>
@@ -14826,7 +14826,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Anzeigenkontos, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Name des Anzeigenkontos, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Konto</p>
@@ -14840,7 +14840,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des Advertisers aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -14854,7 +14854,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Werbetreibenden aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>Marketing Analytics</p>
@@ -14868,7 +14868,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Site aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID der Site aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>1695651</p>
@@ -14882,7 +14882,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Site aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name der Site aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>Quora.com</p>
@@ -14896,7 +14896,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Platzierung aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>120839827</p>
@@ -14910,7 +14910,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Platzierung aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
+        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
       </td>
       <td>
         <p>Hindernis</p>
@@ -14924,7 +14924,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung der Kampagne aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Kennung der Kampagne aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>aw.6601259029.208548635</p>
@@ -14938,7 +14938,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Kampagne aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde.</p>
+        <p>Name der Kampagne aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde.</p>
       </td>
       <td>
         <p>Marke</p>
@@ -14952,10 +14952,10 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Anzeigengruppe aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für Google Adwords.</p>
+        <p>ID der Anzeigengruppe aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für Google Adwords.</p>
       </td>
       <td>
-        <p>aw.6601259029.208548635.1675016675</p>
+        <p>aw.6601259029.208548635.16750166675</p>
       </td>
     </tr>
     <tr>
@@ -14966,7 +14966,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Anzeigengruppe aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt nur für Google AdWords.</p>
+        <p>Name der Anzeigengruppe aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für Google AdWords.</p>
       </td>
       <td>
         <p>Marke - Core</p>
@@ -14980,7 +14980,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>ID der Anzeige aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für doppelklicken Sie auf Kampagnen-Manager und Facebook (Anzeige).</p>
+        <p>ID der Anzeige aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für DoubleClick Campaign Manager und Facebook (Anzeige).</p>
       </td>
       <td>dc.6114.8882972.25272734.492579576</td>
     </tr>
@@ -14992,7 +14992,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Name der Anzeige aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für doppelklicken Sie auf Kampagnen-Manager und Facebook (Anzeige).</p>
+        <p>Name der Anzeige aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für DoubleClick Campaign Manager und Facebook (Anzeige).</p>
       </td>
       <td>Budget-Webinar - Seitenleiste</td>
     </tr>
@@ -15004,10 +15004,10 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Kennung des Kreativelements aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Kennung des Creative-Elements aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
-        <p>aw.6601259029.208548635.1675016675.195329631298</p>
+        <p>aw.6601259029.208548635.16750166675.195329631298</p>
       </td>
     </tr>
     <tr>
@@ -15018,7 +15018,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des Kreativelements aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Name des Creative-Elements aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Offizielle Site</p>
@@ -15032,7 +15032,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Die erste Zeile des Kreativelements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die erste Zeile des Creative-Elements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>Umsatzplanung und -zuordnung</p>
@@ -15046,10 +15046,10 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Die zweite Zeile des Kreativelements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die zweite Zeile des Creative-Elements aus der Suchanzeige, die aus dem Anzeigenkonto abgerufen wurde, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
-        <p>Erfahren Sie, warum mehr als 250 Unternehmen auswählen [!DNL Marketo Measure] für die Marketing-Attribution. Hol dir ein Demo!</p>
+        <p>Erfahren Sie, warum mehr als 250 Unternehmen [!DNL Marketo Measure] für die Marketing-Attribution auswählen. Holen Sie sich eine Demo!</p>
       </td>
     </tr>
     <tr>
@@ -15060,7 +15060,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Landingpage, die von der Suchanzeige durchklickt und aus dem Anzeigenkonto abgerufen wird, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Die Landingpage, auf die das Durchklicken von der Suchanzeige führt und die aus dem Anzeigenkonto abgerufen wird, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>http://info.adobe.com/demo</p>
@@ -15074,7 +15074,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Der Anzeigename der URL, der in der Suchanzeige angezeigt wird und aus dem Anzeigenkonto abgerufen wird, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>Der Anzeigename der URL, der in der Suchanzeige angezeigt wird und aus dem Anzeigenkonto abgerufen wird, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
         <p>adobe.com/demo</p>
@@ -15088,10 +15088,10 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>ID des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
+        <p>ID des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche).</p>
       </td>
       <td>
-        <p>aw.6601259029.208548635.1675016675.46267805426</p>
+        <p>aw.6601259029.208548635.16750166675.46267805426</p>
       </td>
     </tr>
     <tr>
@@ -15102,7 +15102,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Name des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, aus dem die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche)</p>
+        <p>Name des vom Paid Search-Kauf erworbenen Suchbegriffs, abgerufen aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt für Google AdWords und Bing Ads (Suche)</p>
       </td>
       <td>
         <p>[marketo]</p>
@@ -15116,7 +15116,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>varchar</p>
       </td>
       <td>
-        <p>Die Art der Übereinstimmung, die zwischen dem Suchbegriff und dem gekauften Suchbegriff gefunden wird.</p>
+        <p>Die Art der Übereinstimmung, die zwischen dem Suchbegriff und dem gekauften Keyword gefunden wird.</p>
       </td>
       <td>
         <p>Exakt</p>
@@ -15127,13 +15127,13 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>IS_FORM_SUBMISSION_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob dieser Touchpoint während der Sitzung ein Formular ausgefüllt hat.</p>
       </td>
       <td>
-        <p>wahr</p>
+        <p>true</p>
       </td>
     </tr>
     <tr>
@@ -15141,13 +15141,13 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>IS_IMPRESSION_TOUCH</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
-        <p>Ob dieser Touchpoint als erster Impression der Opportunity Journey behandelt wird.</p>
+        <p>Gibt an, ob dieser Touchpoint als erster Impression Touch der Opportunity Journey behandelt wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -15155,13 +15155,13 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>Boolesch</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Gibt an, ob der Touchpoint gelöscht wird.</p>
       </td>
       <td>
-        <p>falsch</p>
+        <p>false</p>
       </td>
     </tr>
     <tr>
@@ -15195,7 +15195,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
       <td></td>
     </tr>
     <tr>
-      <td>ADVERISER_ROW_KEY</td>
+      <td>ADVERTISER_ROW_KEY</td>
       <td>number(38,0)</td>
       <td></td>
       <td></td>
@@ -15257,7 +15257,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -15265,7 +15265,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
 
 ### BIZ_WEB_HOST_MAPPINGS {#biz-web-host-mappings}
 
-Zuordnungstabelle [!DNL Marketo Measure] Sitzungs-ID zur Adobe ECID und Munckin ID.
+Zuordnungstabelle der [!DNL Marketo Measure]-Sitzungs-ID zur Adobe ECID und Munckin ID.
 
 <table>
   <tbody>
@@ -15302,7 +15302,7 @@ Zuordnungstabelle [!DNL Marketo Measure] Sitzungs-ID zur Adobe ECID und Munckin 
       <td>
         <p>varchar</p>
       </td>
-      <td>Die [!DNL Marketo Measure] aufgezeichnete Cookie-ID.</td>
+      <td>Die von [!DNL Marketo Measure] aufgezeichnete Cookie-ID.</td>
       <td>0d643578c0c74753eff91abe668ed328</td>
     </tr>
     <tr>
@@ -15374,11 +15374,11 @@ Zuordnungstabelle [!DNL Marketo Measure] Sitzungs-ID zur Adobe ECID und Munckin 
       </td>
       <td>Die aufgezeichnete IP-Adresse.</td>
       <td>
-        <p>159.203.142.127</p>
+        <p>159203142127</p>
       </td>
     </tr>
     <tr>
-      <td>TYP</td>
+      <td>TYPE</td>
       <td>
         <p>varchar</p>
       </td>
@@ -15411,26 +15411,26 @@ Zuordnungstabelle [!DNL Marketo Measure] Sitzungs-ID zur Adobe ECID und Munckin 
     </tr>
     <tr>
       <td>IS_DUPLICATED</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Gibt an, ob der Datensatz als Duplikat betrachtet wird.</td>
-      <td>falsch</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>IS_PROCESSED</td>
-      <td>Boolesch</td>
+      <td>boolean</td>
       <td>Wird für die interne Verarbeitung verwendet.</td>
-      <td>wahr</td>
+      <td>true</td>
     </tr>
     <tr>
       <td>MAPPING_TYPE</td>
       <td>varchar</td>
-      <td>Der Typ der ID, die dem [!DNL Marketo Measure] Cookie-ID.</td>
+      <td>Der Typ der ID, die der [!DNL Marketo Measure]-Cookie-ID zugeordnet wird.</td>
       <td>Adobe_OrgId_Ecid</td>
     </tr>
     <tr>
       <td>MAPPING_ORD_ID</td>
       <td>varchar</td>
-      <td>Adobe IMS-Organisations-ID.</td>
+      <td>Adobe IMS Org ID.</td>
       <td>8CC867C25245ADC30A490D4C</td>
     </tr>
     <tr>
@@ -15454,7 +15454,7 @@ Zuordnungstabelle [!DNL Marketo Measure] Sitzungs-ID zur Adobe ECID und Munckin 
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -15462,7 +15462,7 @@ Zuordnungstabelle [!DNL Marketo Measure] Sitzungs-ID zur Adobe ECID und Munckin 
 
 ## Beispielabfragen {#sample-queries}
 
-**Wie viele Käufer-Touchpoints (BTs) waren im letzten Monat für jeden Kanal/Subkanal vorhanden?**
+**Wie viele Buyer Touchpoints (BTs) waren im letzten Monat für jeden Kanal/Subkanal vorhanden?**
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
@@ -15511,7 +15511,7 @@ select trim(split(ch.name,'.')[0])  as channel
 group by 1
 ```
 
-**Was ist die gesamte Journey für eine Person?  (Alle Touchpoints für eine E-Mail-Adresse anzeigen.)**
+**Was ist die gesamte Journey für eine Person? (Alle Touchpoints für eine E-Mail-Adresse anzeigen.)**
 
 ```
 select ut.touchpoint_date
@@ -15552,7 +15552,7 @@ group by 1,2
 order by 1
 ```
 
-**Zeigen Sie alle Buyer Attribution Touchpoints (BATs) und deren zugewiesenen Umsatz für eine einzige Möglichkeit an.**
+**Anzeigen aller Buyer Attribution Touchpoints (BATs) und deren zugewiesener Umsätze für eine einzige Opportunity.**
 
 >[!NOTE]
 >
