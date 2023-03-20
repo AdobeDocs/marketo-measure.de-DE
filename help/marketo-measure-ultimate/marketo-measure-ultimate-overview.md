@@ -1,12 +1,10 @@
 ---
 description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure] - Produktdokumentation'
 title: '[!DNL Marketo Measure] Ultimate - Übersicht'
-hide: true
-hidefromtoc: true
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 604db0227cc48e09743db317cc72488755586a48
+source-git-commit: 59d42e5065ec0db7143208743fd053f5e6c1af7b
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '695'
 ht-degree: 1%
 
 ---
@@ -28,29 +26,29 @@ ht-degree: 1%
 
 * Integration mit RTCDP (B2B oder B2P Edition), die eine integrierte B2B-Zuordnungslösung für RTCDP-Kunden als RTCDP-Kunden bietet und [!DNL Marketo Measure] Beide arbeiten aus zentralen Adobe Experience Platform-Daten (AEP).
 
-**Marketo Measure Tiers 1-3**
+**[!DNL Marketo Measure]Ebenen 1-3**
 
 ![](assets/marketo-measure-ultimate-overview-1.png)
 
-**Marketo Measure Ultimate**
+**[!DNL Marketo Measure Ultimate]**
 
 ![](assets/marketo-measure-ultimate-overview-2.png)
 
 ## Neue Funktionen in [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
-**KOPFZEILE - Import von B2B-Daten über AEP**
+**Importieren von B2B-Daten über AEP**
 
 Von Marketingexperten wird erwartet, dass sie ihre B2B-Daten (z. B. Konto, Chancen, Kontakt, Lead, Kampagne, Kampagnenmitglied, Aktivität) über AEP übermitteln. Die direkten CRM- und Marketo Engage-Verbindungen sind für Ultimate nicht mehr verfügbar. Marketingexperten werden weiterhin Ad Platform-Daten über direkte Verbindungen und Tracking-Webaktivitäten über [!DNL Marketo Measure] JavaScript.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
-**KOPFZEILE - Standardwährungseinstellung**
+**Standardwährungseinstellung**
 
-KURZE EINTRÄGE??
+[!DNL Marketo Measure Ultimate] setzt die Standardwährung auf USD, bis der Benutzer sie ändert. Durch das Festlegen einer neuen Standardwährung werden die Daten ohne erneute Verarbeitung aktualisiert. Solange die ausgewählte Währung als ISO-Zielcode vorhanden ist, müssen keine Konversionsraten übermittelt werden.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
-**KOPFZEILE - Marketo Measure Ultimate Sandbox**
+**[!DNL Marketo Measure Ultimate]Sandbox**
 
 [!DNL Marketo Measure Ultimate] -Instanz muss einer AEP-Sandbox zugeordnet sein, bevor die [!DNL Marketo Measure] Zieldatenflüsse in AEP.
 
@@ -64,7 +62,7 @@ Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Datenquell
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
-**KOPFZEILE - Staging-Zuordnung**
+**Kartierung der Stadien**
 
 Alle [!DNL Marketo Measure Ultimate] -Regeln sind datasetspezifisch. Die Regeln für die Staging-Zuordnung müssen für alle Datensätze und alle ausgewählten Phasen erstellt werden.
 
