@@ -1,16 +1,16 @@
 ---
 unique-page-id: 18874698
 description: Erstellen einer [!DNL Marketo Measure] Profil - [!DNL Marketo Measure] - Produktdokumentation
-title: Erstellen einer [!DNL Marketo Measure] Profil
+title: Erstellen eines [!DNL Marketo Measure] -Profils
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 20%
 
 ---
 
-# Erstellen einer [!DNL Marketo Measure] Profil {#creating-a-marketo-measure-profile}
+# Erstellen eines[!DNL Marketo Measure]-Profils {#creating-a-marketo-measure-profile}
 
 Erfahren Sie, wie Sie eine [!DNL Marketo Measure] Profil. Erstellen einer [!DNL Marketo Measure] -Profil stellt sicher, dass beim Senden von Daten an Ihr CRM-System keine Validierungsfehler auftreten.
 
@@ -25,8 +25,8 @@ Erfahren Sie, wie Sie eine [!DNL Marketo Measure] Profil. Erstellen einer [!DNL 
 
 1. Erstellen Sie eine dedizierte [!DNL Marketo Measure] user:
 
-   * Neu zuweisen [!DNL Marketo Measure] Profil für diesen Benutzer
-   * &quot;Marketing-Benutzer&quot;als Benutzerberechtigung aktivieren
+   * Weisen Sie das [!DNL Marketo Measure]-Profil diesem Benutzer neu zu
+   * Aktivieren Sie &quot;Marketing-Benutzer“ als Berechtigung auf Benutzerebene
 
 1. Schließen Sie dieses Profil aus allen Triggern, Workflows und Prozessen aus.
 1. Melden Sie sich bei Ihrer [!DNL Marketo Measure] Konto erstellen und die [!DNL Salesforce] Verbindung zum neuen Benutzer:
@@ -34,8 +34,8 @@ Erfahren Sie, wie Sie eine [!DNL Marketo Measure] Profil. Erstellen einer [!DNL 
    * Navigieren Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} und melden Sie sich mit den Salesforce-Anmeldeinformationen der neuen Benutzerproduktion an
    * Wählen Sie &quot;[!UICONTROL Einstellungen]&quot; innerhalb der &quot;[!UICONTROL Mein Konto]Dropdown
    * Wählen Sie &quot;[!UICONTROL Verbindungen]&quot; innerhalb der &quot;[!UICONTROL Integrationen]&quot; gruppieren
-   * Klicken Sie auf das Schlüsselsymbol rechts neben dem aktuellen verbundenen [!DNL Salesforce] und wählen Sie die Option Mit Produktion erneut autorisieren aus. Melden Sie sich dann mit den neuen Benutzeranmeldeinformationen erneut an, wenn Sie dazu aufgefordert werden
+   * Klicken Sie auf das Schlüsselsymbol rechts neben der aktuell verbundenen [!DNL Salesforce]-Verbindung und wählen Sie Mit Betreibung erneut autorisieren. Melden Sie sich dann mit den neuen Benutzeranmeldeinformationen erneut an, wenn Sie dazu aufgefordert werden
 
    Abgeschlossen!
 
-   Wenn Sie Fragen zur Erstellung eines dedizierten [!DNL Marketo Measure] Profil, wenden Sie sich an Ihren Kundenerfolgsmanager oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   Wenn Sie Fragen zur Erstellung eines dedizierten [!DNL Marketo Measure] Profil, wenden Sie sich bitte an das Adobe Account Team (Ihren Kundenbetreuer) oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

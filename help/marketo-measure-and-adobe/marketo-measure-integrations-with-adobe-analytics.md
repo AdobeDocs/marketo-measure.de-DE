@@ -2,14 +2,14 @@
 description: "[!DNL Marketo Measure] Integrationen mit Adobe Analytics - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Integrationen mit [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Integrationen mit Adobe Analytics {#marketo-measure-integrations-with-adobe-analytics}
+# [!DNL Marketo Measure]-Integrationen mit Adobe Analytics {#marketo-measure-integrations-with-adobe-analytics}
 
 Die Integration von B2B-Kundenattributen ermöglicht die gegenseitige Nutzung von [!DNL Marketo Measure] und Adobe Analytics ihre [!DNL Adobe Analytics] Benutzerprofile mit wertvollen Metadaten, die von der [!DNL Marketo Measure] Attribution-Engine und ihre Synchronisierungsfunktion mit CRMs ([!DNL Microsoft Dynamics] und [!DNL Salesforce]). Sie steht allen Kunden, die [!DNL Adobe Analytics] und [!DNL Marketo Measure].
 
@@ -31,7 +31,7 @@ Die Integration von B2B-Kundenattributen ermöglicht die gegenseitige Nutzung vo
 
 1. Klicken Sie auf **[!UICONTROL Einrichten einer neuen Kundenattributverbindung]** und befolgen Sie die Anweisungen zum Konfigurieren der Integration von Kundenattributen . Über die Benutzeroberfläche werden Sie zur Eingabe der Alias-ID und FTP-Verbindungsinformationen aufgefordert, die Sie beim Erstellen der Kundenattributquelle in Ihrer Core Services Console erhalten haben, sowie zur Auswahl der Kontoattribute, die Sie mit Ihrer [!DNL Adobe Analytics] -Konto.
 
-   Sie müssen auch Ihre Adobe IMS-Organisations-ID eingeben. Diese ID wird in der rechten unteren Ecke der Adobe Experience Cloud-Admin Console angezeigt. Weitere Hilfe bei der Suche nach dieser ID erhalten Sie von Ihrem Customer Success Manager.
+   Sie müssen auch Ihre Adobe IMS-Organisations-ID eingeben. Diese ID wird in der rechten unteren Ecke der Adobe Experience Cloud-Admin Console angezeigt. Weitere Hilfe bei der Suche nach dieser ID erhalten Sie vom Adobe Account Team (Ihrem Kundenbetreuer).
 
 1. Nachdem Sie die Verbindung in Ihrer [!DNL Marketo Measure] -Konto verwenden, müssen Sie zur Experience Cloud-Konsole zurückkehren, um [Prüfen des Schemas](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). Sie müssen sich keine Gedanken über den FTP-Datei-Upload machen. [!DNL Marketo Measure] hat diesen Teil für Sie automatisiert. Sie müssen lediglich zum Bildschirm &quot;Schema anzeigen/bearbeiten&quot;für die Kundenattributquelle navigieren, die Sie in Schritt 1 erstellt haben, und die Adobe darüber informieren, welche Datentypen für die einzelnen Attribute gelten, die [!DNL Marketo Measure] in Ihrem Namen hochgeladen hat. Sie können bei Bedarf auch neue Anzeigenamen für die hochgeladenen Attribute erstellen.
 

@@ -3,10 +3,10 @@ unique-page-id: 18874734
 description: Best Practices für die Zusammenführung von Leads - [!DNL Marketo Measure] - Produktdokumentation
 title: Best Practices für die Zusammenführung von Leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 4%
 
 ---
 
@@ -22,6 +22,6 @@ Wenn mehrere Datensätze mit [!DNL Marketo Measure] müssen Sie sicherstellen, d
 
 Dort sollten Sie die Leads und [!DNL Marketo Measure] Daten werden in den neuen Datensatz übertragen.
 
-Bei Fragen wenden Sie sich bitte an Ihren Customer Success Manager oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Sollten Sie Fragen haben, wenden Sie sich bitte an das Adobe Account Team (Ihren Kundenbetreuer) oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 ![](assets/1.jpg)

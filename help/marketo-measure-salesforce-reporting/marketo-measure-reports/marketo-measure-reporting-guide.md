@@ -2,10 +2,10 @@
 description: "[!DNL Marketo Measure] Reporting-Handbuch - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Reporting-Handbuch"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '6392'
-ht-degree: 1%
+source-wordcount: '6395'
+ht-degree: 2%
 
 ---
 
@@ -47,7 +47,7 @@ Auf der höchsten Ebene gibt es zwei Berichterstellungskategorien, die auf den b
 
 Support-Artikel: [Unterschiede zwischen Touchpoints der Käuferzuordnung und Touchpoints der Käuferzuordnung](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
-## Käufer-Touchpoint (BT) {#buyer-touchpoint-bt}
+## Buyer Touchpoint (BT) {#buyer-touchpoint-bt}
 
 Der Käufer-Touchpoint (BT) ist das Objekt, mit dem jede Marketing-Interaktion verfolgt wird, die jemand mit Ihren Marketing-Materialien hat. Jeder Kontakt (Lead/Kontakt/[!DNL Marketo Measure] Person) Journey würde durch ihre verbundenen BTs vertreten. In [!DNL Marketo Measure], besteht die Journey einer Person aus:
 
@@ -203,7 +203,7 @@ Für einen detaillierteren Einblick in die Daten, die im Bericht &quot;Neue Lead
 
 Die Granularität kann je nach Kanal variieren. Der empfohlene Ansatz wäre, sich zu fragen: &quot;Was ist mit &#39;channel X&#39;, den ich genauer verstehen möchte?&quot; Manager für gebührenpflichtige Suchvorgänge können auch an zusätzlichen Dimensionen wie folgenden interessiert sein:
 
-* Anzeigenkampagnenname
+* Name der Ad-Kampagne
 * Anzeigeninhalt
 * Anzeigengruppe
 
@@ -497,7 +497,7 @@ Der Hauptgrund für diesen Bericht besteht darin, dass die Käufer-Touchpoint-Da
 
 Beachten Sie die [!DNL Marketo Measure] Personen ermöglicht es uns, über alle Touchpoints in einem einzigen Bericht zu berichten. Dies ist der ideale Berichtstyp, der bei der Überprüfung Ihrer Daten verwendet werden sollte. Wir möchten sicherstellen, dass wir keine Touchpoints übersehen, die zeigen könnten, wo beispielsweise ein Problem in der Konfiguration Ihrer &quot;Marketing-Kanäle&quot;liegt (weitere Informationen zur Konfiguration Ihrer &quot;Marketing-Kanäle&quot;finden Sie in den unten verlinkten Support-Artikeln ).
 
-* [Benutzerdefinierte Online-Kanal-Einrichtung](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+* [Online-Einrichtung benutzerdefinierter Kanäle](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Offline-Einrichtung benutzerdefinierter Kanäle](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 
 Im Grunde spiegeln die Touchpoint-Daten wider, von welchen [!DNL Marketo Measure] und kann geprüft werden, um sicherzustellen, dass Ihre Konfiguration Eingaben basierend auf Folgendem abgleicht: UTM-Parameterwerte, verweisende Seiten oder Kampagnentypen. Wenn die Touchpoint-Daten nicht mit Ihrer Konfiguration übereinstimmen, muss höchstwahrscheinlich etwas angepasst werden. Über das Setup des Marketing-Kanals hinaus können Sie sich Touchpoint-Daten ansehen, um zu bestimmen, welche Touchpoints möglicherweise benötigt werden. [unterdrückt](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) oder [segmentiert](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). Es wird empfohlen, Ihre Touchpoint-Daten in einem[!DNL Marketo Measure] Personen und Kunden-Touchpoints-Bericht am Ende jedes Monats oder Quartals, sofern möglich. Dadurch wird sichergestellt, dass Ihre Attribution so präzise wie möglich ist. Der[!DNL Marketo Measure] 101 | Der vordefinierte Bericht Leads/Kontakte nach Kanal ist ein guter Ausgangspunkt. Schließen Sie die folgenden Felder ein, wenn sie noch nicht enthalten sind, um einige der wichtigsten Konfigurationselemente zu überprüfen:
@@ -557,7 +557,7 @@ Wenn Sie die Auswirkungen des Marketing auf geschlossene Angebote oder geschloss
 
 >[!NOTE]
 >
->Das benutzerdefinierte Attributionsmodell ist eine zusätzliche Funktion, die nicht allen Kunden zur Verfügung steht. Wenden Sie sich an Ihren Customer Success Manager, um mehr über das Hinzufügen dieser Funktion zu Ihrem Konto zu erfahren.
+>Das benutzerdefinierte Attributionsmodell ist eine zusätzliche Funktion, die nicht allen Kunden zur Verfügung steht. Wenden Sie sich an das Adobe Account Team (Ihren Kundenbetreuer), um mehr über das Hinzufügen dieser Funktion zu Ihrem Konto zu erfahren.
 
 Im Allgemeinen müssen Marketer wissen, &quot;woher kommen meine Chancen?&quot; Ähnlich wie bei Berichten auf Lead-Ebene wurde diese Frage historisch mit einem einzigen eindimensionalen Wert beantwortet (z. B. Primäre Kampagnenquelle). Wir wissen jedoch, dass viel mehr in die Entwicklung einer Chance geht als ein einzelner Kontaktpunkt aus einem einzigen Kontakt. Es gibt in der Regel mehrere Touchpoints aus verschiedenen Kanälen und von mehreren Interessengruppen, die eine Chance zur Erstellung beeinflussen. Mit [!DNL Marketo Measure]können wir alle Touchpoints aus einem Konto aufdecken, um am besten zu verstehen, woher eine Gelegenheit kam. Darüber hinaus können wir jedoch weiterhin jeden Touchpoint aufdecken, der nach der Erstellung der Opportunity aufgetreten ist und bis zu dem Zeitpunkt, an dem die Opportunity geschlossen ist. Dies ermöglicht es uns nicht nur, einen Multi-Touch-Ansatz zu verfolgen, um zu verstehen, woher eine Chance kam, sondern auch, was sie zur Schließung und letztendlich zur Darstellung geschlossener Erlöse beeinflusste. Dies gibt Einblicke in verschiedene Fragen, wie z. B. &quot;Welche Auswirkungen hat das Marketing auf die Beeinflussung von Deals zum Schließen?&quot;, &quot;Welches Marketing treibt den geschlossenen Umsatz voran?&quot; und schließlich &quot;Welche meiner Marketing-Maßnahmen erzielen den höchsten ROI?&quot;
 

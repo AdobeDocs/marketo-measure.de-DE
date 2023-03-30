@@ -1,18 +1,18 @@
 ---
 unique-page-id: 27656441
 description: Häufig gestellte Fragen zur Drift-Integration - [!DNL Marketo Measure] - Produktdokumentation
-title: Häufig gestellte Fragen zur Drillintegration
+title: Häufig gestellte Fragen zur Drift-Integration
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 0%
+source-wordcount: '376'
+ht-degree: 1%
 
 ---
 
-# Häufig gestellte Fragen zur Drillintegration {#drift-integration-faq}
+# Häufig gestellte Fragen zur Drift-Integration {#drift-integration-faq}
 
-Als Teil der [!DNL Marketo Measure] Integration mit Drift, haben wir einige der am häufigsten gestellten Fragen beschrieben. Wenden Sie sich bei unten nicht umrissenen Fragen an Ihren Customer Success Manager oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Als Teil der [!DNL Marketo Measure] Integration mit Drift, haben wir einige der am häufigsten gestellten Fragen beschrieben. Wenden Sie sich bei Fragen, die nachfolgend nicht erläutert werden, an das Kundenbetreuungsteam von Adobe (Ihren Kundenbetreuer) oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **Wie ist die Integration aktiviert?**
 
