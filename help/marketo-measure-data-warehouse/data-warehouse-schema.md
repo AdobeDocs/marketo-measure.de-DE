@@ -3,9 +3,9 @@ unique-page-id: 35586140
 description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: 6e2d438da273511c3465d02eef6813f64e7aec5d
+source-git-commit: d1f1a3d1d0dd3111b984fbe9d0a8e8d3ed9289d2
 workflow-type: tm+mt
-source-wordcount: '22615'
+source-wordcount: '22622'
 ht-degree: 99%
 
 ---
@@ -16,7 +16,9 @@ Mit Data Warehouse können Sie beliebig viel verfolgen, Berichte zu Ihren Attrib
 
 >[!IMPORTANT]
 >
->Zeilen mit dem Wert _DELETED_DATE werden 15 Tage lang beibehalten und dann aus Snowflake entfernt. Snowflake-Zeitzonen sind in UTC.
+>* Zeilen mit dem Wert _DELETED_DATE werden 7 Tage lang beibehalten und dann aus Snowflake entfernt.
+>* Die in Snowflake verwendeten Zeitzonen entsprechen der koordinierten Weltzeit (UTC).
+
 
 >[!NOTE]
 >
