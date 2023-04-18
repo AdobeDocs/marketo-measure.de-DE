@@ -3,10 +3,10 @@ unique-page-id: 18874554
 description: Touchpoint-Generierung und -Zuordnung - [!DNL Marketo Measure] - Produktdokumentation
 title: Erstellung und Zuordnung von Touchpoints
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 950dbfacf48cbb81acad9c40033c25a765287bee
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,10 @@ Damit Sie das Beste aus [!DNL Marketo Measure], sollten Sie [!DNL Marketo Measur
 Methoden zur Touchpoint-Generierung
 
 Der Prozess der Touchpoint-Generierung beantwortet die Frage &quot;Wie ist es? [!DNL Marketo Measure] Wird er wissen, dass dies geschehen ist?&quot; Je nach Funktionssatz und den Interaktionstypen, die Ihre potenziellen Kunden haben können, gibt es bis zu drei Möglichkeiten [!DNL Marketo Measure] kann eine Interaktion aufnehmen und einen Touchpoint erstellen, um sie darzustellen.
+
+>[!IMPORTANT]
+>
+>[!DNL Marketo Measure] Pro Sitzung wird nur ein Touchpoint generiert. Wenn mehr als ein Formular ausgefüllt wurde, wird nur das erste Ausfüllen des Formulars erfasst.
 
 | **Interaktionstyp** | **Beispiel** | **Touchpoint-Generierungsmethode** |
 |---|---|---|
