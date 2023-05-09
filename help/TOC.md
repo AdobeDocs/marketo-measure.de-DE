@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
-source-git-commit: 279d9a18dca59de9ad99113624f4c9b2bcea0d01
+source-git-commit: 5a27c4fc89925ae143affa2de14eca3b8a51bd11
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '776'
+ht-degree: 99%
 
 ---
 
@@ -224,3 +224,5 @@ ht-degree: 0%
       + [Datenschutzanfrage](miscellaneous/other-related-resources/privacy-requests.md)
       + [Entfernen der [!DNL Marketo Measure] -Tracking-Parameter aus der Landingpage-URL in Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Übergang zu [!DNL Marketo Measure] aus dem vollständigen Kreis](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
++ Versionshinweise {#release-notes}
+   + [Aktuelle Versionshinweise](release-notes/current.md)
