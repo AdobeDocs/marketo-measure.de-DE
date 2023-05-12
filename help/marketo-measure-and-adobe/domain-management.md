@@ -2,16 +2,16 @@
 description: Domänenverwaltung - [!DNL Marketo Measure] - Produktdokumentation
 title: Domänenverwaltung
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
 
 # Domänenverwaltung {#domain-management}
 
-Für IMS-fähige Mandanten, die ausgeführt werden [!DNL Marketo Measure] in der Unified Shell, [!DNL Marketo Measure] bietet eine Benutzeroberfläche, über die Benutzer ihre eigene Domain-Liste verwalten können. [!DNL Marketo Measure] -Benutzer müssen zunächst alle Domänen überprüfen, die sie im [Adobe Admin Console](https://adminconsole.adobe.com/). Sobald Domänen in der Admin Console überprüft wurden, können Benutzer verwalten, ob [!DNL Marketo Measure] verwendet diese Domänen zur Verfolgung des Website-Traffics.
+Für IMS-fähige Mandanten, die ausgeführt werden [!DNL Marketo Measure] in der Experience Cloud-Oberfläche, [!DNL Marketo Measure] bietet eine Benutzeroberfläche, über die Benutzer ihre eigene Domain-Liste verwalten können. [!DNL Marketo Measure] -Benutzer müssen zunächst alle Domänen überprüfen, die sie im [Adobe Admin Console](https://adminconsole.adobe.com/). Sobald Domänen in der Admin Console überprüft wurden, können Benutzer verwalten, ob [!DNL Marketo Measure] verwendet diese Domänen zur Verfolgung des Website-Traffics.
 
 ## Hinzufügen von Domänen in Admin Console {#adding-domains-in-admin-console}
 

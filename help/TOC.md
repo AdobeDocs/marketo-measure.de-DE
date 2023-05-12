@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
-source-git-commit: 5a27c4fc89925ae143affa2de14eca3b8a51bd11
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 99%
+source-wordcount: '778'
+ht-degree: 98%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 99%
    + [[!DNL Marketo Measure]-Integrationen mit Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure]-Integrationen mit Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
    + [Domänenverwaltung](marketo-measure-and-adobe/domain-management.md)
-   + [Unified Shell - Überblick](marketo-measure-and-adobe/unified-shell-overview.md)
+   + [Übersicht über die Adobe Experience Cloud-Benutzeroberfläche](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
 + [!DNL Marketo Measure] und Dynamics {#marketo-measure-and-dynamics}
    + Erste Schritte mit [!DNL Marketo Measure] und Dynamics {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure]-Dynamics-Schema](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)
