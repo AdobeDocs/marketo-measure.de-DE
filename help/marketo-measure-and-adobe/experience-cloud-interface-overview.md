@@ -2,16 +2,16 @@
 description: Adobe Experience Cloud-Benutzeroberfläche - [!DNL Marketo Measure] - Produktdokumentation
 title: Adobe Experience Cloud-Benutzeroberfläche
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
+source-git-commit: a14b977fc4c3d2f3eccd2c03bc8d96c2a71e6bc6
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
 
 # Adobe Experience Cloud-Benutzeroberfläche {#unified-shell-overview}
 
-Die Adobe Experience Cloud-Benutzeroberfläche passt das Erscheinungsbild der Adobe Experience Cloud-Anwendungen und -Dienste an. Aber es ist mehr als nur ein neues Design. Es handelt sich dabei um eine Einzelseitenanwendung, die das Benutzererlebnis in einer einzigen Instanz ermöglicht.
+Die Benutzeroberfläche von Adobe Experience Cloud passt das Erscheinungsbild von Adobe Experience Cloud-Anwendungen und -Diensten an. Aber es ist mehr als nur ein neues Design. Es handelt sich dabei um eine Einzelseitenanwendung, die das Benutzererlebnis in einer einzigen Instanz ermöglicht.
 
 ## Benutzerfluss {#user-flow}
 
