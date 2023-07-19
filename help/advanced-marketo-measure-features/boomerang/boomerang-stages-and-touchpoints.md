@@ -1,16 +1,20 @@
 ---
 unique-page-id: 18874558
 description: Bomerang-Phasen und Touchpoints - [!DNL Marketo Measure] - Produktdokumentation
-title: Bomerang-Phasen und Touchpoints
+title: Boomerang-Phasen und Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 0%
+source-wordcount: '729'
+ht-degree: 1%
 
 ---
 
-# Bomerang-Phasen und Touchpoints {#boomerang-stages-and-touchpoints}
+# Boomerang-Phasen und Touchpoints {#boomerang-stages-and-touchpoints}
+
+>[!AVAILABILITY]
+>
+>Die Boomerang-Funktion ist nur für Tier-3-Kunden aktiviert. Wenden Sie sich an das Adobe Account Team (Ihren Kundenbetreuer), um eine höhere Kontoebene anzufordern.
 
 [!DNL Marketo Measure] hat unsere Boomerang Stage Funktion veröffentlicht! Die Bomerang-Staging-Funktion wurde entwickelt, um die Journey des Kunden für [!DNL Marketo Measure] Kunden mit langen Verkaufszyklen. Mit dieser Funktion können Marketingexperten Touchpoints für alle Staging-Transitionen erstellen, die in der Opportunity-Journey auftreten, z. B. wenn ein Kontakt-MQLs, dann zu SAL wechselt und dann zur MQL-Bühne zurückkehrt. Bei Kontakten, die &quot;erneut in die MQL-Bühne eintreten&quot;oder &quot;MQLs erneut eintreten&quot;, wird die MQL als Bomerang-Bühne betrachtet. Die Funktion &quot;Boomerang-Bühne&quot;funktioniert neben [!DNL Marketo Measure] Benutzerdefinierte Phasen.
 

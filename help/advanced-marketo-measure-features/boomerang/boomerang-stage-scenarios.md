@@ -1,16 +1,20 @@
 ---
 unique-page-id: 18874692
 description: Bomerang-Staging-Szenarien - [!DNL Marketo Measure] - Produktdokumentation
-title: Boomerang-Staging-Szenarien
+title: Boomerang-Phasen-Szenarien
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1715'
 ht-degree: 0%
 
 ---
 
-# Boomerang-Staging-Szenarien {#boomerang-stage-scenarios}
+# Boomerang-Phasen-Szenarien {#boomerang-stage-scenarios}
+
+>[!AVAILABILITY]
+>
+>Die Boomerang-Funktion ist nur für Tier-3-Kunden aktiviert. Wenden Sie sich an das Adobe Account Team (Ihren Kundenbetreuer), um eine höhere Kontoebene anzufordern.
 
 Im Folgenden finden Sie einige Beispiele für Bomerang-Staging-Szenarien, um zu verstehen, wie [!DNL Marketo Measure] erstellt in jeder Situation Touchpoints.
 
