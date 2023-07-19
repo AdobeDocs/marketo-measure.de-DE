@@ -3,9 +3,9 @@ unique-page-id: 18874604
 description: Benutzerdefinierte Segmentierung - [!DNL Marketo Measure] - Produktdokumentation
 title: Benutzerdefinierte Segmentierung
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+source-git-commit: 7d037783805567370daa412629d58a5dee175722
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Mit der Funktion Benutzerdefinierte Segmentierung können Sie Touchpoints nach e
 
 >[!NOTE]
 >
->Mit der benutzerdefinierten Segmentierung können Sie Touchpoints nach Kategorien (Filtername) und Regeln (Filterwerte) filtern. Ebene 1 erhält ein Segment, die Ebenen 2 und höher zehn.
+>Mit der benutzerdefinierten Segmentierung können Sie Touchpoints nach Kategorien (Filtername) und Regeln (Filterwerte) filtern. Tier-1-Kunden erhalten ein Segment, die Ebenen 2 und höher zehn.
 
 **Wann ist die Funktion zur benutzerspezifischen Segmentierung hilfreich?**
 
