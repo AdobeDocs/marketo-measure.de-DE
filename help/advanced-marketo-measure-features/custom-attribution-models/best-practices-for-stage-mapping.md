@@ -1,15 +1,15 @@
 ---
 description: Best Practices für die Staging-Zuordnung - [!DNL Marketo Measure] - Produktdokumentation
-title: Best Practices für die Staging-Zuordnung
+title: Best Practices für die Phasenzuordnung
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: b8388c4f89734f55ec779ef23b75b34b07da6f58
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 0%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
-# Best Practices für die Staging-Zuordnung {#best-practices-for-stage-mapping}
+# Best Practices für die Phasenzuordnung {#best-practices-for-stage-mapping}
 
 ## Überblick {#overview}
 
@@ -33,6 +33,7 @@ Unabhängig davon, ob Sie Ihre Staging-Zuordnung zum ersten Mal bewerten oder Ih
 * Beachten Sie, dass der Abschnitt &quot;Opportunity stage&quot;in &quot;Lost&quot;, &quot;Open&quot;und &quot;Won&quot;unterteilt ist. überprüfen, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden
    * Das Vorhandensein einer Phase im falschen Abschnitt kann zu einer hochgradig falschen [!DNL Marketo Measure] Umsatz- oder Pipeline-Umsatzdaten
 * Vermeiden Sie die Verwendung doppelter Staging-Namen (unser System erkennt sie und entfernt sie automatisch).
+* Wenn Sie eine Regel festlegen möchten, die nach NULL-Werten sucht, lassen Sie das Textfeld &quot;Wert&quot;leer.
 
 ## Best Practices für Wartung {#best-practices-for-maintenance}
 
