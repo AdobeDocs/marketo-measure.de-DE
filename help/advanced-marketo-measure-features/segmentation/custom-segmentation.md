@@ -3,9 +3,9 @@ unique-page-id: 18874604
 description: Benutzerdefinierte Segmentierung - [!DNL Marketo Measure] - Produktdokumentation
 title: Benutzerdefinierte Segmentierung
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: 7d037783805567370daa412629d58a5dee175722
+source-git-commit: e3a2ef7a305fff4edb6b0f21861c1ef5516212b8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,7 @@ Segmente bieten die Möglichkeit, Daten im [!DNL Marketo Measure] ROI-Dashboard 
 
 **Warum benutzerdefinierte Segmentierung?**
 
-Mit der Funktion Benutzerdefinierte Segmentierung können Sie Touchpoints nach einer Kategorie und nach bis zu fünf Segmenten filtern. Je nachdem, auf welches Objekt Ihr ROI-Dash verweist (Lead oder Kontakt), können Sie Segmente basierend auf den Feldern erstellen, die im Lead-/Kontaktobjekt gefunden werden. Außerdem können Sie Segmente basierend auf Feldern erstellen, die im Opportunity-Objekt gefunden wurden.
-
->[!NOTE]
->
->Mit der benutzerdefinierten Segmentierung können Sie Touchpoints nach Kategorien (Filtername) und Regeln (Filterwerte) filtern. Tier-1-Kunden erhalten ein Segment, die Ebenen 2 und höher zehn.
+Mit der benutzerdefinierten Segmentierung können Sie Touchpoints nach Kategorien (Filtername) und Regeln (Filterwerte) filtern. Tier-1-Kunden erhalten ein Segment, die Ebenen 2 und höher zehn. Je nachdem, auf welches Objekt Ihr ROI-Dash verweist (Lead oder Kontakt), können Sie Segmente basierend auf den Feldern erstellen, die im Lead-/Kontaktobjekt gefunden werden. Außerdem können Sie Segmente basierend auf Feldern erstellen, die im Opportunity-Objekt gefunden wurden.
 
 **Wann ist die Funktion zur benutzerspezifischen Segmentierung hilfreich?**
 
