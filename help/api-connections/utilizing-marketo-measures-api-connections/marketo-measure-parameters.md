@@ -3,14 +3,14 @@ unique-page-id: 18874608
 description: "[!DNL Marketo Measure] Parameter - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Parameter"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Parameter {#marketo-measure-parameters}
+# [!DNL Marketo Measure]-Parameter {#marketo-measure-parameters}
 
 ## [!DNL Marketo Measure] Parameter - Erklärung {#marketo-measure-parameters-explained}
 
@@ -39,7 +39,7 @@ Beispiel einer URL mit [!DNL Marketo Measure] Parameter:
    * Mithilfe von Suchbegriffübereinstimmungstypen können Sie steuern, welche Suchvorgänge Trigger Ihrer Anzeige sind. Sie können beispielsweise eine breite Übereinstimmung verwenden, um Ihre Anzeige einer breiten Zielgruppe anzuzeigen, oder Sie können die genaue Übereinstimmung verwenden, um bestimmte Kundengruppen anzusprechen.
    * Die drei Übereinstimmungstypen sind: breit, unscharf und exakt.
 
->[!NOTE]
+>[!TIP]
 >
 >Weitere Informationen zu Übereinstimmungstypen finden Sie unter [Hier finden Sie einen relevanten AdWords-Artikel](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
@@ -49,6 +49,10 @@ Beispiel einer URL mit [!DNL Marketo Measure] Parameter:
 
 * `_bg={adgroupID}`
    * Stellt die ID der Anzeigengruppe dar, zu der die Anzeige gehört
+
+>[!NOTE]
+>
+>Umleitungs-URL-Parameter werden nicht unterstützt.
 
 ## Bing Ads-Parameter {#bing-ads-parameters}
 

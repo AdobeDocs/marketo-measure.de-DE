@@ -3,14 +3,14 @@ unique-page-id: 18874678
 description: Grundlagen [!DNL Marketo Measure] AdWords-Tagging - [!DNL Marketo Measure] - Produktdokumentation
 title: Grundlagen [!DNL Marketo Measure] AdWords-Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 0%
+source-wordcount: '608'
+ht-degree: 1%
 
 ---
 
-# Grundlagen [!DNL Marketo Measure] AdWords-Tagging {#understanding-marketo-measure-adwords-tagging}
+# Grundlagen[!DNL Marketo Measure]AdWords-Tagging {#understanding-marketo-measure-adwords-tagging}
 
 Damit Ihre Anzeigen auf einer sehr detaillierten Ebene verfolgt werden können, müssen die Anzeigenziel-URLs eindeutig sein. Um dies zu erreichen, [!DNL Marketo Measure] Beim automatischen Tagging werden den Anzeigenziel-URLs Ihrer [!DNL AdWords] Anzeigen. Sehen wir uns ein Beispiel unten an.
 
@@ -105,6 +105,10 @@ A: 6 Stunden
 **F: Wie lange kann der Import von Anzeigendaten dauern?**
 
 A: 4 Stunden
+
+**F: Können wir bei dynamischen Suchanzeigen die Kombination aus Überschrift, Beschreibung usw. in den bereitgestellten Kreativelementen verfolgen?**
+
+A: Wir können keine individuellen kreativen Details für dynamische Suchanzeigen abrufen, aber wenn das automatische Tagging aktiviert ist, können wir trotzdem die kreative ID abrufen und den Umsatz zuordnen.
 
 >[!NOTE]
 >
