@@ -4,7 +4,7 @@ description: Offline-Einrichtung des benutzerdefinierten Kanals - [!DNL Marketo 
 title: Offline-Einrichtung benutzerdefinierter Kanäle
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Alle vorhandenen Kampagnentypen müssen in Ihrer Kanalzuordnung enthalten sein u
 
 Nehmen Sie sich Zeit, um [!DNL Salesforce] um die Anzahl und Art Ihrer vorhandenen Datensatztypen zu bestimmen, die Sie einbeziehen möchten, und ob Sie zusätzliche Kampagnen basierend auf den oben genannten Informationen erstellen müssen. Sobald Sie alle erforderlichen Informationen ausgefüllt haben, können Sie sie hochladen.
 
-Weitere Informationen [Synchronisieren offline [!DNL Salesforce] Kampagnen mit [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md).
+Weitere Informationen [Synchronisieren offline [!DNL Salesforce] Kampagnen mit [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md).
 
 ## Umgang mit SFDC-Kampagnen für Online-Marketing-Maßnahmen {#handling-sfdc-campaigns-for-online-marketing-efforts}
 

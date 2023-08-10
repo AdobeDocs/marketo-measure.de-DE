@@ -3,7 +3,7 @@ description: Ausgabenverwaltungsmethoden - [!DNL Marketo Measure] - Produktdokum
 title: Ausgabenverwaltungsmethoden
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Alle [!DNL Marketo Measure] -Konto hat Zugriff auf eine Funktion namens [CRM-Kam
 
 Nach Aktivierung dieser Funktion werden Ausgaben automatisch von jeder CRM-Kampagne/-Programm abgerufen, die die folgenden Kriterien erfüllt
 
-i. [!DNL Marketo Measure] prüft zunächst, ob die Kampagne/das Programm Touchpoints erstellt, entweder aus einer übereinstimmenden [Kampagnensynchronisierungsregel](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) , der erstellt wurde, oder eine [Regel zur Programmsynchronisierung](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) , das erstellt wurde, oder [Käufer-Touchpoints-Wert aktivieren](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) ist &quot;Alle Campaign-Mitglieder einschließen&quot;oder &quot;Respondierte Kampagnenmitglieder einschließen&quot;.
+i. [!DNL Marketo Measure] prüft zunächst, ob die Kampagne/das Programm Touchpoints erstellt, entweder aus einer übereinstimmenden [Kampagnensynchronisierungsregel](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) , der erstellt wurde, oder eine [Regel zur Programmsynchronisierung](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) , das erstellt wurde, oder [Käufer-Touchpoints-Wert aktivieren](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) ist &quot;Alle Campaign-Mitglieder einschließen&quot;oder &quot;Respondierte Kampagnenmitglieder einschließen&quot;.
 
 ii. Ein Startdatum muss in der Kampagne/dem Programm angegeben werden.
 

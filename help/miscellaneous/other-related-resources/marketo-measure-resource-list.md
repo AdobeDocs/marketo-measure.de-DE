@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure] - Pr
 title: "[!DNL Marketo Measure] Ressourcenliste"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 7%
@@ -29,7 +29,7 @@ Hier finden Sie verschiedene Links zu relevanten Artikeln/Videos, die Ihnen bei 
 * [Offline-Kanal-Einrichtung](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [Was sind UTM-Parameter?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [Best Practices für UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [Synchronisieren von SFDC-Kampagnen mit Käufer-Touchpoints](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
+* [Synchronisieren von SFDC-Kampagnen mit Käufer-Touchpoints](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
 * [Hochladen der Marketing-Ausgaben](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Werbekonten erneut verbinden](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [Hinzufügen [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)

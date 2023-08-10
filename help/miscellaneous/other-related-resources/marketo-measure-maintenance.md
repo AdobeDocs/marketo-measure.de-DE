@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Wartung - [!DNL Marketo Measure] - Produktd
 title: "[!DNL Marketo Measure] Wartung"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 **Käufer-Touchpoints für neue Offline-Kampagnen synchronisieren (2x/Monat)**
 
-Wie Sie während des Onboarding gelernt haben, [!DNL Marketo Measure] Ruft Informationen zu Ihren Offline-Marketing-Maßnahmen ab, indem Sie sie mit den Kampagnen Ihres CRM-Systems synchronisieren. Wenn Ihr Unternehmen neue Kampagnen startet, stellen Sie sicher, dass Sie die Touchpoints des Käufers für jede Kampagne aktivieren. Checkout [diesem Artikel](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)für weitere Informationen.
+Wie Sie während des Onboarding gelernt haben, [!DNL Marketo Measure] Ruft Informationen zu Ihren Offline-Marketing-Maßnahmen ab, indem Sie sie mit den Kampagnen Ihres CRM-Systems synchronisieren. Wenn Ihr Unternehmen neue Kampagnen startet, stellen Sie sicher, dass Sie die Touchpoints des Käufers für jede Kampagne aktivieren. Checkout [diesem Artikel](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)für weitere Informationen.
 
 **Upload-Ausgaben für alle Kanäle (1x/Monat)**
 

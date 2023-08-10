@@ -4,7 +4,7 @@ description: Synchronisieren historischer Daten - [!DNL Marketo Measure] - Produ
 title: Synchronisieren historischer Daten
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 2%
@@ -91,7 +91,7 @@ Wenn die Daten an einem anderen Ort gespeichert sind (z. B. noch in der Marketin
 
 Daher können Sie das Datum für alle Benutzer in dieser Marketingliste, die für das Touchpoint-Datum verwendet werden, in der Masse festlegen. Um genauere historische Daten zu erhalten, erstellen Sie mehrere Marketing-Listen für dieselbe Kampagne, von denen jede über ein eigenes Touchpoint-Datum verfügt. Wenn die Kampagne eine kurze Zeitspanne hat, wäre es möglicherweise sinnvoll, für jeden Tag eine Marketingliste zu erstellen. Wenn die Kampagne eine längere Zeitspanne hat, kann es sinnvoll sein, wöchentlich eine Marketingliste zu erstellen.
 
-Weitere Informationen zur Synchronisierung von Marketinglisten finden Sie hier: [[!DNL Dynamics] Kampagnen und Marketinglisten](/help/marketo-measure-and-dynamics/dynamics-reporting/dynamics-campaigns-and-marketing-lists.md)
+Weitere Informationen zur Synchronisierung von Marketinglisten finden Sie hier: [[!DNL Dynamics] Kampagnen und Marketinglisten](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
 >
