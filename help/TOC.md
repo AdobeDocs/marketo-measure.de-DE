@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
-source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
+source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 98%
+source-wordcount: '780'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 98%
       + [[!DNL Marketo Measure] CRM-Paketlose Integration](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + [!DNL Marketo Measure] und Salesforce {#marketo-measure-and-salesforce}
       + [Installation und Einrichtung von [!DNL Marketo Measure] Salesforce-Paketen](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
-      + [[!DNL Salesforce] Package-Konsolidierung](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
+      + [[!DNL Salesforce] Paketkonsolidierung](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
       + [ [!DNL Marketo Measure] mit Salesforce verbinden](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Best Practices für [!DNL Marketo Measure] CRM-Package](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce-Objekte](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
@@ -80,12 +80,14 @@ ht-degree: 98%
       + [Best Practices für Offline-Kanäle](channel-tracking-and-setup/offline-channels/best-practices-for-offline-channels.md)
       + [Offline-Einrichtung benutzerdefinierter Kanäle](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [Synchronisierung benutzerspezifischer Kampagnen](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
-      + [Synchronisieren historischer Daten](channel-tracking-and-setup/offline-channels/syncing-historical-data.md)
-      + [[!UICONTROL Kampagnen und Kampagnenmitglieder]](channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
-      + [Kampagnensynchronisierungsdaten](channel-tracking-and-setup/offline-channels/campaign-sync-dates.md)
       + [Konfigurationen für mehrere Kampagnentypen](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-      + [Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce] -Kampagnen](channel-tracking-and-setup/offline-channels/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-      + [Synchronisieren von Offline-Kampagnen](channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
+         + Veraltete Prozesse {#deprecated-processes}
+            + [[!UICONTROL Kampagnen und Kampagnenmitglieder]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+            + [Kampagnensynchronisierungsdaten](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
+            + [Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce] -Kampagnen](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+            + [Dynamics-Kampagnen und Marketinglisten](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
+            + [Synchronisieren historischer Daten](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+            + [Synchronisieren von Offline-Kampagnen](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
 + API-Verbindungen {#api-connections}
    + Ausnutzen der API-Verbindungen von [!DNL Marketo Measure] {#utilizing-marketo-measures-api-connections}
       + [Integrierte Anzeigenplattformen](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
@@ -103,7 +105,7 @@ ht-degree: 98%
       + [Marketing-Ausgaben für Berichte](marketing-spend/spend-management/report-marketing-spend.md)
       + [Kosten für CRM-Kampagnen](marketing-spend/spend-management/crm-campaign-costs.md)
 + Erweiterte [!DNL Marketo Measure]-Funktionen {#advanced-marketo-measure-features}
-   + Benutzerdefinierten Attributionsmodelle{#custom-attribution-models}
+   + Benutzerdefinierten Attributionsmodelle {#custom-attribution-models}
       + [Benutzerdefiniertes Attributionsmodell und Einrichtung](advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
       + [Best Practices für benutzerdefiniertes Modell](advanced-marketo-measure-features/custom-attribution-models/best-practices-for-custom-model.md)
       + [Best Practices für die Phasenzuordnung](advanced-marketo-measure-features/custom-attribution-models/best-practices-for-stage-mapping.md)
@@ -164,7 +166,7 @@ ht-degree: 98%
    + [[!DNL Marketo Measure]-Integrationen mit Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure]-Integrationen mit Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
    + [Domänenverwaltung](marketo-measure-and-adobe/domain-management.md)
-   + [Übersicht über die Adobe Experience Cloud-Benutzeroberfläche](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
+   + [Adobe Experience Cloud-Benutzeroberfläche – Übersicht](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
 + [!DNL Marketo Measure] und Dynamics {#marketo-measure-and-dynamics}
    + Erste Schritte mit [!DNL Marketo Measure] und Dynamics {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure]-Dynamics-Schema](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)
@@ -174,7 +176,6 @@ ht-degree: 98%
       + [[!DNL Marketo Measure] und Dynamics-Taxonomie](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-and-dynamics-taxonomy.md)
    + Dynamics-Reporting {#dynamics-reporting}
       + [Lagerberichte und Dashboards in [!DNL Dynamics]](marketo-measure-and-dynamics/dynamics-reporting/stock-reports-and-dashboards-in-dynamics.md)
-      + [Dynamics-Kampagnen und Marketinglisten](marketo-measure-and-dynamics/dynamics-reporting/dynamics-campaigns-and-marketing-lists.md)
 + [!DNL Marketo Measure] und Marketo {#marketo-measure-and-marketo}
    + [!DNL Marketo Measure]-Integrationen mit Marketo {#marketo-measure-integrations-with-marketo}
       + [Einrichten der [!DNL Marketo] -Verbindung](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
