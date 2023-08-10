@@ -4,9 +4,9 @@ description: Synchronisieren von Offline-Kampagnen - [!DNL Marketo Measure] - Pr
 title: Synchronisieren von Offline-Kampagnen
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Synchronisieren von Offline-Kampagnen {#syncing-offline-campaigns}
 
 Es kann schwierig sein, Offline-Kampagnen genau zu verfolgen und zu verstehen, wie sie im Vergleich zu Ihren digitalen Marketing-Maßnahmen aussehen. [!DNL Marketo Measure] ermöglicht es Ihnen, Touchpoints zu Ihren Offline-Kampagnen in zu verfolgen und ihnen zuzuordnen. [!DNL Salesforce], auch in Situationen, in denen eine [!DNL Salesforce] Die Kampagne wird erst einige Wochen nach der Veranstaltung erstellt.
+
+>[!NOTE]
+>
+>Dieser Artikel behandelt einen veralteten Prozess. Wir empfehlen Benutzern, die [neuer, verbesserter In-App-Prozess](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Vor der Synchronisierung {#before-you-sync}
 

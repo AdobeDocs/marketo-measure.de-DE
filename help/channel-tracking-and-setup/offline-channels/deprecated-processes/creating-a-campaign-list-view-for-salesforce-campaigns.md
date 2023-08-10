@@ -4,9 +4,9 @@ description: Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce Campa
 title: Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce] -Kampagnen
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '440'
 ht-degree: 3%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 3%
 # Erstellen einer Kampagnenlisten-Ansicht für[!DNL Salesforce]-Kampagnen {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Erfahren Sie, wie Sie eine Listenansicht für die Kampagnen erstellen, die Sie mit Käufer-Touchpoints synchronisieren möchten.
+
+>[!NOTE]
+>
+>Dieser Artikel behandelt einen veralteten Prozess. Wir empfehlen Benutzern, die [neuer, verbesserter In-App-Prozess](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 Die Kampagnenlistenansicht, die erstellt werden kann, ermöglicht es Ihnen, einen &quot;go-to&quot;-Speicherort anzuzeigen und die Felder &quot;Typ&quot; und &quot;Käufer-Touchpoints aktivieren&quot;zu verwalten, um sicherzustellen, dass jede Ihrer [!DNL Salesforce] Kampagnen, die Ihre Offline-Marketing-Kanäle informieren, ordnungsgemäß eingerichtet sind.
 

@@ -4,9 +4,9 @@ description: Kampagnen und Kampagnenmitglieder - [!DNL Marketo Measure] - Produk
 title: Kampagnen und Kampagnenmitglieder
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1188'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # Kampagnen und Kampagnenmitglieder {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] Kampagnen dienen dazu, Listen von Leads und Kontakten zu verfolgen, die mit einem Marketingprogramm oder einer Aktivität verbunden sind. Hierbei handelte es sich in der Regel um Webinare, Registrierungen oder z. B. Messebesuche. Marketingexperten können auswählen, ob eine Kampagne einer Touchpoint-Journey gutgeschrieben werden soll oder nicht.
+
+>[!NOTE]
+>
+>Dieser Artikel behandelt einen veralteten Prozess. Wir empfehlen Benutzern, die [neuer, verbesserter In-App-Prozess](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Aktivieren von Touchpoints {#enabling-touchpoints}
 
