@@ -4,9 +4,9 @@ description: How [!DNL Marketo Measure] und [!DNL Salesforce] Interact - Marketo
 title: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1719'
 ht-degree: 36%
 
 ---
@@ -721,6 +721,20 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
   </tr> 
  </tbody> 
 </table>
+
+>[!NOTE]
+>
+>Um die Genauigkeit der Marketo Measure-Erfassung von Löschereignissen innerhalb Ihres Salesforce-Kontos sicherzustellen, sind replizierbare Berechtigungen für die folgenden Objekte erforderlich. Replizierbare Berechtigungen werden standardmäßig mit den folgenden Objekten bereitgestellt:
+>
+>* Konto
+>* Kampagne
+>* Kampagnenmitglied
+>* Kontakt
+>* Veranstaltung
+>* Lead
+>* Opportunity
+>* Aufgabe
+
 
 ## [!DNL Marketo Measure] Benutzerdefinierte Objekte in [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
