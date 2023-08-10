@@ -2,10 +2,11 @@
 description: Best Practices für Online-Kanäle - [!DNL Marketo Measure] - Produktdokumentation
 title: Best Practices für Online-Kanäle
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -15,11 +16,11 @@ ht-degree: 0%
 
 Richtig [!DNL Marketo Measure] Berichterstellung, müssen Ihre Marketing-Kanäle korrekt eingerichtet sein. Im Feld Marketing-Kanal wird die Gruppe der Marketing-Aktivitäten auf höchster Ebene angezeigt, zu der ein Touchpoint gehören kann (z. B. Paid Search, Direct, Social usw.).
 
-Die Einrichtung Ihrer Marketing-Kanäle umfasst zwei Aspekte: online und offline. Dieses Dokument konzentriert sich auf die [!DNL Marketo Measure] Best Practice-Empfehlungen für die Einrichtung und Verwaltung Ihrer Online-Kanäle.
+Die Einrichtung Ihrer Marketing-Kanäle hat zwei Aspekte: Online und Offline. Dieses Dokument konzentriert sich auf die [!DNL Marketo Measure] Best Practice-Empfehlungen für die Einrichtung und Verwaltung Ihrer Online-Kanäle.
 
-Online-Kanalregeln sind Richtlinien dafür, wie [!DNL Marketo Measure] ordnet Ihre digitalen Touchpoints zu, d. h. alle Touchpoints, die verfolgt und über die [!DNL Marketo Measure] JS auf Ihrer Site. Wenn diese Regeln nicht vollständig oder nicht korrekt angeordnet sind, können Touchpoints dem falschen Kanal zugeordnet werden, wodurch die Genauigkeit Ihrer Berichterstellung beeinträchtigt wird. Wenn Sie sicherstellen, dass Ihre Online-Kanal-Regeln korrekt und aktuell sind, garantieren Sie, dass Ihre digitalen Daten dem richtigen Kanal und den richtigen Unterkanälen in Ihren [!DNL Marketo Measure] Berichterstellung.
+Online-Kanalregeln sind Richtlinien dafür, wie [!DNL Marketo Measure] ordnet Ihre digitalen Touchpoints zu, d. h. alle Touchpoints, die verfolgt und über die [!DNL Marketo Measure] JS auf Ihrer Site. Wenn diese Regeln nicht vollständig oder nicht korrekt angeordnet sind, können Touchpoints dem falschen Kanal zugeordnet werden, wodurch die Genauigkeit Ihrer Berichterstellung beeinträchtigt wird. Wenn Sie sicherstellen, dass Ihre Online-Kanal-Regeln korrekt und aktuell sind, garantieren Sie, dass Ihre digitalen Daten dem richtigen Kanal und den richtigen Unterkanälen in Ihren [!DNL Marketo Measure] Berichterstellung
 
-## Best Practice {#best-practice}
+## Best Practices {#best-practice}
 
 Beachten Sie die folgenden Best Practices, unabhängig davon, ob Sie Ihre Regeln zum ersten Mal einrichten oder sie nur überprüfen, um sicherzustellen, dass sie korrekt sind.
 
@@ -35,20 +36,20 @@ Folgendes sollte beachtet werden:
    * [!DNL Marketo Measure] liest jede Regel (Zeile) und sucht nach der richtigen und ersten Anpassung. Der Touchpoint wird dann diesem Kanal/Unterkanal zugeordnet.
    * Sortieren Sie Ihr Blatt nicht in alphabetischer Reihenfolge, da dies die Logikregeln stört.
 * Beibehalten der mit Klammern versehenen Regeln, weder Bearbeiten noch Hinzufügen der mit Klammern versehenen Regeln (Beispiel); [Gebührenpflichtige AdWords-Suche] oder [Facebook Paid] )
-   * Diese sind vorkonfiguriert [!DNL Marketo Measure] Regeln, die eine Logik integriert haben, die mit der [!DNL Marketo Measure] Integrationen. Weisen Sie diesen Regeln die oberste Priorität für diesen Kanal/Unterkanalabschnitt zu, um sicherzustellen, dass [!DNL Marketo Measure] Integrationen können wie vorgesehen funktionieren.
-* Nach dem Hochladen der Datei können Sie keine der Regeln für sieben Tage ändern
+   * Diese sind vorkonfiguriert [!DNL Marketo Measure] Regeln, die eine Logik integriert haben, die mit der [!DNL Marketo Measure] Integrationen. Weisen Sie diesen Regeln die oberste Priorität für diesen Kanal/Unterkanalabschnitt zu, um sicherzustellen, dass [!DNL Marketo Measure] Integrationen können wie gewünscht funktionieren.
+* Nach dem Hochladen der Datei können Sie für sieben Tage keine der Regeln ändern
    * [!DNL Marketo Measure] nutzt diese Zeit, um die Touchpoints zu verarbeiten und zu aktualisieren. Überprüfen Sie daher vor dem Hochladen Ihre Regeln.
 
 ## Best Practice für die Wartung {#best-practice-for-maintenace}
 
 Nach dem Speichern und Verarbeiten arbeiten die Regeln des Online-Kanals kontinuierlich, um Ihre digitalen Touchpoints zu sammeln. Bestimmte Änderungen oder Szenarien führen jedoch dazu, dass Sie die Einrichtung Ihres Online-Kanals überprüfen möchten. [!DNL Marketo Measure] empfiehlt, dass Sie Ihre Online-Kanalregeln alle sechs Monate überprüfen. Dadurch wird sichergestellt, dass Ihre [!DNL Marketo Measure] -Daten sind mit Ihren internen Definitionen von Online-Kanälen/Subkanälen und Ihrer Verwendung von UTMs abgestimmt.
 
-Weitere Elemente, die Ihr Team möglicherweise für die Wartung des Online-Kanals Trigger haben könnten, sind ....
+Weitere Artikel, die Ihr Team möglicherweise für die Wartung des Online-Kanals Trigger haben könnten, sind ...
 
 * Neuer digitaler Kanal/Subkanal gestartet
 * UTM-Parameter werden aktualisiert oder geändert
 * Änderungen an Ihrer Kanalorganisation oder Ihren Namenskonventionen
-* Umsatz in Ihrem Marketing-Team
+* Wechsel in Ihrem Marketing-Team
 
 Wenn Ihr Team kürzlich einen der oben genannten Punkte erfahren hat [!DNL Marketo Measure] empfiehlt, dass Sie die Regeln Ihrer Online-Kanäle überprüfen und die entsprechenden Änderungen vornehmen.
 
@@ -58,4 +59,3 @@ Wenn Ihr Team kürzlich einen der oben genannten Punkte erfahren hat [!DNL Marke
 >* [UTM-Parameter](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 >* [Marketingkanal und Subkanal](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
 >* [Best Practices für UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-

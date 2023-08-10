@@ -3,7 +3,8 @@ unique-page-id: 42762762
 description: Einrichten der Marketo-Verbindung - [!DNL Marketo Measure] - Produktdokumentation
 title: Einrichten der Marketo-Verbindung
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
-source-git-commit: ff3ebd557ffe745e1297d053be1390093dc4033c
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -16,7 +17,7 @@ So richten Sie Ihre Verbindung zu Marketo ein.
 
 >[!PREREQUISITES]
 >
->[Benutzerrolle &quot;Nur API erstellen&quot;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) für [!DNL Marketo Measure]/Marketo Engage-Verbindung.
+>[Benutzerrolle &quot;Nur API erstellen&quot;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) für die [!DNL Marketo Measure]/Marketo Engage-Verbindung.
 
 1. In [!DNL Marketo Measure], klicken Sie auf die **[!UICONTROL Mein Konto]** und wählen Sie **[!UICONTROL Einstellungen]**.
 
@@ -26,7 +27,7 @@ So richten Sie Ihre Verbindung zu Marketo ein.
 
    ![](assets/set-up-marketo-connection-2.png)
 
-1. Klicken **[!UICONTROL Einrichten einer neuen CRM-Verbindung]**.
+1. Klicks **[!UICONTROL Einrichten einer neuen CRM-Verbindung]**.
 
    ![](assets/set-up-marketo-connection-3.png)
 
@@ -38,7 +39,7 @@ So richten Sie Ihre Verbindung zu Marketo ein.
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. Wählen Sie im Marketo Engage Noch aus. **LaunchPoint** im Baum auf der linken Seite. Suchen Sie den benutzerdefinierten Dienst, mit dem Sie eine Verbindung mit Marketo Measure herstellen möchten, und klicken Sie auf **Details anzeigen**.
+1. Wählen Sie im Marketo Engage Noch aus. **LaunchPoint** im Baum auf der linken Seite. Suchen Sie den benutzerdefinierten Dienst, den Sie mit Marketo Measure verbinden möchten, und klicken Sie auf **Details anzeigen**.
 
    ![](assets/set-up-marketo-connection-6.png)
 

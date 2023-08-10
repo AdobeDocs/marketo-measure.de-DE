@@ -3,7 +3,8 @@ unique-page-id: 37357059
 description: OAuth mit [!DNL Azure Active Directory] für Dynamics CRM - [!DNL Marketo Measure] - Produktdokumentation
 title: OAuth mit [!DNL Azure Active Directory] für Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Diese Einrichtung ist für neue [!DNL Marketo Measure] Kunden, die Dynamics CRM 
 
 ## Einrichten einer neuen Anwendung {#set-up-new-application}
 
-1. Bei Ihrer [Azure Portal](https://portal.azure.com/#home).
+1. Anmelden bei Ihrer [Azure Portal](https://portal.azure.com/#home).
 
 1. Wählen Sie Ihren Azure AD-Mandanten aus, indem Sie auf Ihr Konto oben rechts auf der Seite klicken, dann auf die Navigation Switch Directory klicken und dann den entsprechenden Mandanten auswählen (überspringen Sie diesen Schritt, wenn Sie nur einen Azure AD-Mandanten unter Ihrem Konto haben oder wenn Sie bereits den entsprechenden Azure AD-Mandanten ausgewählt haben).
 
@@ -32,11 +33,11 @@ Diese Einrichtung ist für neue [!DNL Marketo Measure] Kunden, die Dynamics CRM 
 
    ![](assets/setup-3.png)
 
-1. Klicken **[!UICONTROL App-Registrierungen]** im Menü links.
+1. Klicks **[!UICONTROL App-Registrierungen]** im Menü links.
 
    ![](assets/setup-4.png)
 
-1. Klicken **[!UICONTROL Neue Registrierung]** oben.
+1. Klicks **[!UICONTROL Neue Registrierung]** oben.
 
    ![](assets/setup-5.png)
 
@@ -49,7 +50,7 @@ Diese Einrichtung ist für neue [!DNL Marketo Measure] Kunden, die Dynamics CRM 
 
 1. Um Ihre Anwendung im Azure-Portal zu finden, klicken Sie auf **[!UICONTROL App-Registrierungen]** Klicken Sie auf **[!UICONTROL Alle Anwendungen]**. Öffnen Sie die neu erstellte Anwendung
 
-1. Klicken **[!UICONTROL Authentifizierung]** im Menü links.
+1. Klicks **[!UICONTROL Authentifizierung]** im Menü links.
 
    ![](assets/setup-9.png)
 
@@ -71,7 +72,7 @@ Diese Einrichtung ist für neue [!DNL Marketo Measure] Kunden, die Dynamics CRM 
 
    ![](assets/setup-13a.png)
 
-1. Klicken **[!UICONTROL Accept]**.
+1. Klicks **[!UICONTROL Accept]**.
 
    ![](assets/setup-13b.png)
 
@@ -95,14 +96,13 @@ Sobald die Registrierung der Anwendung abgeschlossen ist, kann ein Anwendungsben
 
    >[!NOTE]
    >
-   >* Die Benutzernameninformationen dürfen nicht mit einem Benutzer übereinstimmen, der in der Variablen [!DNL Azure Active Directory].
+   >* Die Benutzernameninformationen dürfen nicht mit einem Benutzer übereinstimmen, der im [!DNL Azure Active Directory].
    >
    >* Geben Sie im Feld Anwendungs-ID die Anwendungs-ID der App ein, die Sie zuvor in der Azure AD registriert haben.
 
-
 1. Wenn die Einrichtung korrekt ist, klicken Sie nach Auswahl von **[!UICONTROL Speichern]**, die **[!UICONTROL Anwendungs-ID-URI]** und **[!UICONTROL Azure AD Object Id]** -Felder werden automatisch mit den richtigen Werten ausgefüllt.
 
-1. Bevor Sie das Benutzerformular beenden, wählen Sie **[!UICONTROL Rollen verwalten]** und weisen Sie diesem Anwendungsbenutzer eine Sicherheitsrolle zu, damit der Anwendungsbenutzer auf die gewünschten Organisationsdaten zugreifen kann.
+1. Wählen Sie vor dem Beenden des Benutzerformulars **[!UICONTROL Rollen verwalten]** und weisen Sie diesem Anwendungsbenutzer eine Sicherheitsrolle zu, damit der Anwendungsbenutzer auf die gewünschten Organisationsdaten zugreifen kann.
 
 ## Verbinden Ihrer Dynamics-Instanz über OAuth {#connecting-your-dynamics-instance-via-oAuth}
 
@@ -110,7 +110,7 @@ Sobald die Registrierung der Anwendung abgeschlossen ist, kann ein Anwendungsben
 
 1. Wenn Sie nach OAuth-Anmeldeinformationen gefragt werden, geben Sie die Client-ID, das Client-Geheimnis und den Anwendungs-ID-URI ein, die im obigen Abschnitt eingerichtet wurden.
 
-a. Client-ID ist die ID aus Schritt 7 im obigen Abschnitt. Wenn Sie es nicht notiert haben, wird die Anwendungs-ID in den Einstellungen der App-Registrierung angezeigt.
+a. Die Client-ID ist die ID aus Schritt 7 im obigen Abschnitt. Wenn Sie es nicht notiert haben, wird die Anwendungs-ID in den Einstellungen der App-Registrierung angezeigt.
 
 b. Client Secret ist das Anwendungsgeheimnis, das im Azure Portal für Ihre Anwendung unter Zertifikate und Geheimnisse erstellt wurde.
 
@@ -118,7 +118,7 @@ b. Client Secret ist das Anwendungsgeheimnis, das im Azure Portal für Ihre Anwe
 
 c. Der Anwendungs-ID-URI ist die URL der Ziel-Web-API (gesicherte Ressource). Um die App-ID-URL zu finden, klicken Sie im Azure Portal auf [!DNL Azure Active Directory], klicken Sie auf Anwendungsregistrierungen , öffnen Sie die Seite Einstellungen der Anwendung und klicken Sie dann auf Eigenschaften . Es kann auch eine externe Ressource sein, wie `https://graph.microsoft.com`. Dies ist normalerweise die URL der Dynamics-Instanz.
 
-1. Nachdem Sie auf **[!UICONTROL Einsenden]**, werden Sie aufgefordert, sich mit [!DNL Azure Active Directory]. Wenn die Authentifizierung erfolgreich ist, wird Ihr Dynamics-Konto als Datenanbieter innerhalb von [!DNL Marketo Measure].
+1. Nachdem Sie auf **[!UICONTROL Einsenden]**, werden Sie aufgefordert, sich mit [!DNL Azure Active Directory]. Wenn die Authentifizierung erfolgreich ist, wird Ihr Dynamics-Konto als Datenanbieter in [!DNL Marketo Measure].
 
 ## Erneute Authentifizierung Ihres Dynamics-Kontos {#re-authenticating-your-dynamics-account}
 

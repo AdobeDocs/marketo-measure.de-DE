@@ -3,7 +3,8 @@ unique-page-id: 35586069
 description: Sicherstellen der Zustimmung für die DSGVO in Marketo Measure JS - Marketo Measure - Produktdokumentation
 title: Sicherstellen der Zustimmung zur DSGVO in Marketo Measure JS
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
-source-git-commit: c7d3bbce1f0c6a99409822c06c43961c93cd9458
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -16,9 +17,9 @@ Die Datenschutz-Grundverordnung (DSGVO) ist eine EU-Rechtsvorschrift, die am 25.
 
 ## Überblick {#overview}
 
-Ziel der DSGVO ist es, die Rechte der betroffenen Personen in der Europäischen Union (EU) und im Europäischen Wirtschaftsraum (EWR) hinsichtlich der Verwendung und des Schutzes ihrer personenbezogenen Daten zu stärken. &quot;Personenbezogene Daten&quot;sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Die DSGVO gilt für Organisationen innerhalb oder außerhalb der EU, die Waren oder Dienstleistungen für betroffene Personen in der EU und im EWR vermarkten und/oder deren Verhalten verfolgen. Wenn Sie mit Datensubjekten in Europa Geschäfte machen, die die Verarbeitung ihrer personenbezogenen Daten beinhalten, gilt diese Gesetzgebung für Sie. Bei Verstößen gegen die Verordnung werden erhebliche Strafen verhängt, wobei gegen die Verordnung hohe Geldbußen verhängt werden. die Höchststrafe für einen einzelnen Verstoß 20 Mio. € oder 4 % des weltweiten Jahresumsatzes beträgt, je nachdem, welcher Betrag höher ist.
+Ziel der DSGVO ist es, die Rechte der betroffenen Personen in der Europäischen Union (EU) und im Europäischen Wirtschaftsraum (EWR) hinsichtlich der Verwendung und des Schutzes ihrer personenbezogenen Daten zu stärken. &quot;Personenbezogene Daten&quot;sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Die DSGVO gilt für Organisationen innerhalb oder außerhalb der EU, die Waren oder Dienstleistungen für betroffene Personen in der EU und im EWR vermarkten und/oder deren Verhalten verfolgen. Wenn Sie mit Datensubjekten in Europa Geschäfte machen, die die Verarbeitung ihrer personenbezogenen Daten beinhalten, gilt diese Gesetzgebung für Sie. Bei Verstößen gegen die Verordnung werden erhebliche Geldbußen verhängt, wobei die Höchststrafe für einen einzigen Verstoß 20 Millionen Euro oder 4 % des weltweiten Jahresumsatzes beträgt, je nachdem, welcher Betrag höher ist.
 
-Standardmäßig [!DNL bizible.js] erfasst die Analysedaten von Benutzern, es sei denn, diese sind speziell so konfiguriert, dass auf die Zustimmung gewartet wird. Wann [!DNL bizible.js] so konfiguriert ist, dass auf die Zustimmung des Benutzers gewartet wird, werden erst Cookies erstellt oder Analysedaten gesendet, nachdem die Zustimmung eingeholt wurde.
+Standardmäßig ist [!DNL bizible.js] erfasst die Analysedaten von Benutzern, es sei denn, diese sind speziell so konfiguriert, dass auf die Zustimmung gewartet wird. Wann [!DNL bizible.js] so konfiguriert ist, dass auf die Zustimmung des Benutzers gewartet wird, werden erst Cookies erstellt oder Analysedaten gesendet, nachdem die Zustimmung eingeholt wurde.
 
 ## Warten auf Zustimmung {#how-to-wait-for-consent}
 
@@ -47,7 +48,7 @@ Option 2 - Standard ersetzen [!DNL bizible.js] Skript-Tag mit:
 
 Diese Funktion [!DNL bizible.js] nicht nachverfolgen, bis die Zustimmung eingeholt wurde, was mit der folgenden JS-API erfolgen kann:
 
-*Fenster[&quot;Bizible&quot;] = window[&quot;Bizible&quot;] || {_queue: [], Push: function (o, p) { this._queue.push({ type: o, Daten: p }); } };*
+*Fenster[&quot;Bizible&quot;] = window[&quot;Bizible&quot;] || {_queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); } };*
 
 *Bizible.Push(&#39;Consent&#39;, true);*
 

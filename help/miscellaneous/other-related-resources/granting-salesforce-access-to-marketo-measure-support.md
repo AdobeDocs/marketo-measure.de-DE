@@ -3,7 +3,8 @@ unique-page-id: 18874791
 description: Gewährung [!DNL Salesforce] Zugriff auf [!DNL Marketo Measure] Support - [!DNL Marketo Measure] - Produktdokumentation
 title: Gewährung [!DNL Salesforce] Zugriff auf Marketo Measure-Support
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -24,16 +25,16 @@ Je nach Organisation kann die [!UICONTROL Einrichtung] wird entweder oben rechts
 
    * Klicken Sie auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Meine personenbezogenen Daten]** > **[!UICONTROL Gewähren des Anmeldezugriffs]**.
 
-      ODER
+     ODER
 
    * Klicken Sie auf `<your name>` > **[!UICONTROL Meine Einstellungen]** > **[!UICONTROL Persönlich]** > **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
 
-1. Legen Sie das Zugriffsablaufdatum für fest. [!UICONTROL Marketo Measure-Support]. Zur technischen Fehlerbehebung wird empfohlen, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche.
-1. Klicken **[!UICONTROL Speichern]**.
+1. Legen Sie das Zugriffsablaufdatum für [!UICONTROL Marketo Measure-Support]. Zur technischen Fehlerbehebung wird empfohlen, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche.
+1. Klicks **[!UICONTROL Speichern]**.
 
 ## Gewähren des Anmeldezugriffs [!DNL Salesforce] Blitze {#granting-login-access-in-salesforce-lightning}
 
-1. Klicken Sie auf Ihren Avatar oben rechts im Bildschirm und wählen Sie **[!UICONTROL Einstellungen]**.
-1. Klicken **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
+1. Klicken Sie auf Ihren Avatar in der oberen rechten Bildschirmseite und wählen Sie **[!UICONTROL Einstellungen]**.
+1. Klicks **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
 1. Legen Sie das Zugriffsablaufdatum für fest.[!UICONTROL Marketo Measure-Support].&quot; Zur technischen Fehlerbehebung wird empfohlen, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche.
-1. Klicken **[!UICONTROL Speichern]**.
+1. Klicks **[!UICONTROL Speichern]**.

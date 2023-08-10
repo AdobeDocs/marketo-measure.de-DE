@@ -3,18 +3,19 @@ unique-page-id: 18874523
 description: "[!DNL Marketo Measure] Dynamics-Schema - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Dynamics Schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 46%
 
 ---
 
-# [!DNL Marketo Measure] Dynamics-Schema {#marketo-measure-dynamics-schema}
+# [!DNL Marketo Measure]-Dynamics-Schema {#marketo-measure-dynamics-schema}
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen angezeigt, die[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
 
 Unten finden Sie das erforderliche Dynamics-Schema, um mit [!DNL Marketo Measure]. Alle Entitäten und Felder werden zusammen mit dem erforderlichen Lese- und/oder Schreibzugriff aufgelistet.
 
@@ -109,7 +110,7 @@ Dieses Diagramm stellt eine allgemeine Visualisierung der Beziehungen zwischen d
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_count_Lead_Conversion_Touch</p></td> 
+   <td><p>bizible2_count_lead_Conversion_touch</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -382,7 +383,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_First_Touch</p></td> 
+   <td><p>bizible2_Attribution_Erstkontakt</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -448,7 +449,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Lead_Creation_Touch</p></td> 
+   <td><p>bizible2_count_lead_create_touch</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -622,7 +623,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Lead_Conversion_Touch</p></td> 
+   <td><p>bizible2_revenue_lead_Conversion_touch</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -799,7 +800,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] Veranstaltungen {#marketo-measure-events}
+## [!DNL Marketo Measure] Ereignisse {#marketo-measure-events}
 
 <table> 
  <tbody> 
@@ -1090,7 +1091,7 @@ Diese Liste enthält die Dynamics Standard-Entitäten, die [!DNL Marketo Measure
  </tbody> 
 </table>
 
-**Chance**
+**Opportunity**
 
 <table> 
  <tbody> 
@@ -1167,7 +1168,7 @@ Diese Liste enthält die Dynamics Standard-Entitäten, die [!DNL Marketo Measure
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_chance_amount_base</p></td> 
+   <td><p>bizible2_bizible_Opportunity_amount_Base</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1248,7 +1249,7 @@ Diese Liste enthält die Dynamics Standard-Entitäten, die [!DNL Marketo Measure
  </tbody> 
 </table>
 
-**Kampagnenantwort**
+**Antwort der Kampagne**
 
 <table> 
  <tbody> 

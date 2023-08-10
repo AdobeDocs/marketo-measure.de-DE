@@ -2,10 +2,11 @@
 description: Best Practices für die Aktivitätszuordnung - [!DNL Marketo Measure] - Produktdokumentation
 title: Best Practices für die Aktivitätszuordnung
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -17,9 +18,9 @@ Die [!DNL Marketo Measure] Mit der Funktion &quot;Aktivitätszuordnung&quot;kön
 
 Der häufigste Anwendungsfall für diese Funktion ist das Erstellen von Regeln, die Interaktionen mit Verkäufen in Ihre Touchpoint-Daten des Käufers aufnehmen. Mithilfe der Aktivitätszuordnung können Sie Ihre Verkaufs- und Marketingdaten in einer Journey ausrichten.
 
-Für viele [!DNL Salesforce] -Instanzen kann das Aktivitätsobjekt eine Vielzahl von Datensatztypen enthalten. Daher ist es wichtig, dass Ihre Aktivitätsregeln spezifisch und auf die Datensätze zugeschnitten sind, die Sie in Touchpoints übersetzen möchten. Die folgenden Best Practices helfen Ihnen dabei sicherzustellen, dass Sie über Ihre Aktivitätszuordnung sinnvolle und wertvolle Touchpoints erstellen.
+Für viele [!DNL Salesforce] -Instanzen kann das Aktivitätsobjekt eine Vielzahl von Datensatztypen enthalten. Daher ist es wichtig, dass Ihre Aktivitätsregeln spezifisch sind und auf die Datensätze zugeschnitten sind, die Sie in Touchpoints übersetzen möchten. Die folgenden Best Practices helfen Ihnen dabei sicherzustellen, dass Sie über Ihre Aktivitätszuordnung sinnvolle und wertvolle Touchpoints erstellen.
 
-## Best Practice {#best-practice}
+## Best Practices {#best-practice}
 
 Beachten Sie die folgenden Best Practices, unabhängig davon, ob Sie zum ersten Mal Aktivitätsregeln definieren oder nur zuvor eingerichtete Aktivitätsregeln überprüfen.
 
@@ -33,7 +34,7 @@ Beachten Sie die folgenden Best Practices, unabhängig davon, ob Sie zum ersten 
 
 * Verwenden Sie keine Formelfelder, um Ihre Regeln zu definieren
 * Erstellen von Regeln, die spezifisch und präzise sind
-   * Sie möchten, dass der Schwellenwert für die Erstellung eines Aktivitäts-Touchpoints mit dem Schwellenwert für das Ausfüllen eines Formulars oder die Mitgliedschaft in einer Kampagne übereinstimmt (oder vergleichbar ist), d. h. (Antworten auf ausgehende E-Mails oder abgeschlossene Telefonkonversationen)
+   * Sie möchten, dass die Schwelle für die Erstellung eines Aktivitäts-Touchpoints mit der eines Formulars oder einer Kampagnenmitgliedschaft übereinstimmt (Antworten auf ausgehende E-Mails oder abgeschlossene Telefonkonversationen).
 * Neue Regeln immer in validieren [!DNL Salesforce] vor dem Speichern und Verarbeiten
    * Durch das Replizieren Ihrer Aktivitätsregel(en) in einem Berichtstyp &quot;Aufgaben und Ereignisse&quot;erhalten Sie ein klares Verständnis dafür, wie viele Touchpoints aus dieser Regel erstellt werden.
 * Arbeiten mit Ihrem Sales Opt-Team
@@ -45,13 +46,12 @@ Durch die Überprüfung Ihrer Aktivitätszuordnungsregeln, die mindestens zweima
 
 Andere Gründe dafür könnten eine Überprüfung Ihrer Aktivitätsregeln Trigger haben...
 
-* Umsatz in Ihrem Marketing-Team
+* Wechsel in Ihrem Marketing-Team
 * Änderungen an Feldern, die zur Definition der Aktivitätsdatensätze verwendet werden
 * Änderungen oder Aktualisierungen an den Tools zur Verkaufsaktivierung
 
 >[!MORELIKETHIS]
 >
->* [Aktivitätszuordnung](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
+>* [-Aktivitätszuordnung](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
 >* [Häufig gestellte Fragen zur Zuordnung von Verkaufsaktivitäten](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
-
 

@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874664
 description: Durchbrüche - [!DNL Marketo Measure] - Produktdokumentation
-title: Durchbrüche
+title: Aufschlüsse
 exl-id: c9ce5a51-e8f9-40ff-aa10-6b059e4998d3
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '3849'
 ht-degree: 4%
 
 ---
 
-# Durchbrüche {#drill-throughs}
+# Aufschlüsse {#drill-throughs}
 
 Die [!DNL Marketo Measure Discover] Mit -Erlebnis können Kunden einen Drilldown in den Datensatz durchführen, für den sie am wichtigsten sind. Bei bestimmten Maßnahmen im [!DNL Marketo Measure Discover], können Kunden in eine Kachel klicken und weitere Informationen zu dieser Metrik erhalten.
 
@@ -22,29 +23,29 @@ Im Folgenden finden Sie eine Liste der Dashboards und Kacheln, die Drillthroughs
 
 **Umsatz**
 
-Definition: Gesamtumsatz pro Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtumsatz pro Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Umsatz (Diagramm)**
 
 Definition: Gesamtumsatz pro Monat über Balkendiagramme und Tabellen. Da es sich bei der übergeordneten Kachel bereits um ein Balkendiagramm handelt, wird im Drilldown zum Thema &quot;Details anzeigen&quot;nur ein einzelner Monat angezeigt.
 
-_Drilldown in: Gesamtumsatz pro Monat, aufgeschlüsselt nach Woche oder Datum._
+_Drilldown: Gesamtumsatz pro Monat, aufgeschlüsselt nach Woche oder Datum._
 
 **Ausgaben**
 
-Definition: Gesamtausgaben pro Monat über Balkendiagramm und Tabelle. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtausgaben pro Monat über Balkendiagramm und Tabelle Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Abschlüsse**
 
-Definition: Gesamtzahl der Angebote nach Monat über Balkendiagramm und Tabelle. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Angebote nach Monat über Balkendiagramm und Tabelle. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Pipeline-Umsatz**
 
-Definition: Gesamtumsatz der Pipeline nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamter Pipeline-Umsatz pro Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **ROI Zusammenfassung**
 
-Definition: Gesamtumsatz bzw. -ausgaben aus den einzelnen Kanälen nach Monat über Balkendiagramme und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
+Definition: Gesamtumsatz bzw. -ausgaben aus den einzelnen Kanälen pro Monat in Balkendiagrammen und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
 
 **Kosten pro Abschluss**
 
@@ -66,7 +67,7 @@ Definition: Gesamtumsatz der einzelnen Kampagnen nach Monat über Balkendiagramm
 
 **Zusammenfassung des Angebots**
 
-Definition: Gesamtausgabe- oder Transaktionsanzahl der einzelnen Kanäle nach Monat über Balkendiagramm und Tabelle. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
+Definition: Gesamtzahl der Ausgaben oder Geschäfte aus jedem Kanal nach Monat über Balkendiagramme und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
 
 ## Wachstum {#growth}
 
@@ -74,7 +75,7 @@ Definition: Gesamtausgabe- oder Transaktionsanzahl der einzelnen Kanäle nach Mo
 
 **Gesamtumsatz**
 
-Definition: Gesamtumsatz pro Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtumsatz pro Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Umsatz im Zeitverlauf**
 
@@ -84,7 +85,7 @@ _Gesamtumsatz pro Monat, aufgeschlüsselt nach Woche oder Datum._
 
 **Abschlüsse gesamt**
 
-Definition: Gesamtzahl der Angebote nach Monat über Balkendiagramm und Tabelle. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Angebote nach Monat über Balkendiagramm und Tabelle. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Angebote im Zeitverlauf**
 
@@ -94,11 +95,11 @@ _Gesamtzahl der Angebote nach Monat aufgeschlüsselt nach Woche oder Datum._
 
 **Pipeline-Umsatz gesamt**
 
-Definition: Gesamtumsatz der Pipeline nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamter Pipeline-Umsatz pro Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Pipeline-Umsatz im Zeitverlauf**
 
-Definition: Gesamtumsatz der Pipeline nach Monat über Balkendiagramme und Tabellen. Da die übergeordnete Kachel bereits ein Diagramm ist, wird im Drilldown-Verfahren zu Details anzeigen nur ein einzelner Monat angezeigt.
+Definition: Gesamter Pipeline-Umsatz pro Monat über Balkendiagramme und Tabellen. Da die übergeordnete Kachel bereits ein Diagramm ist, wird im Drilldown-Verfahren zu Details anzeigen nur ein einzelner Monat angezeigt.
 
 _Gesamtumsatz der Pipeline nach Monat aufgeschlüsselt nach Woche oder Datum._
 
@@ -106,7 +107,7 @@ _Gesamtumsatz der Pipeline nach Monat aufgeschlüsselt nach Woche oder Datum._
 
 **Leads gesamt**
 
-Definition: Gesamtzahl der Leads nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Leads nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Interessenten im Zeitverlauf**
 
@@ -116,21 +117,21 @@ _Gesamtzahl der Leads nach Monat aufgeschlüsselt nach Woche oder Datum._
 
 **Kontakte gesamt**
 
-Definition: Kontakte nach Monat über Balkendiagramm und Tabelle. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Anzahl Kontakte pro Monat über Balkendiagramm und Tabelle. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Kontakte im Zeitverlauf**
 
-Definition: Kontakte nach Monat über Balkendiagramm und Tabelle. Da die übergeordnete Kachel bereits ein Diagramm ist, wird im Drilldown-Verfahren zu Details anzeigen nur ein einzelner Monat angezeigt.
+Definition: Anzahl Kontakte pro Monat über Balkendiagramm und Tabelle. Da die übergeordnete Kachel bereits ein Diagramm ist, wird im Drilldown-Verfahren zu Details anzeigen nur ein einzelner Monat angezeigt.
 
 _Kontakte insgesamt nach Monat aufgeschlüsselt nach Woche oder Datum._
 
 **Opportunities gesamt**
 
-Definition: Gesamtgelegenheiten nach Monat über Balkendiagramm und Tabelle. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtgelegenheiten nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Chancen im Zeitverlauf**
 
-Definition: Gesamtgelegenheiten nach Monat über Balkendiagramm und Tabelle. Da die übergeordnete Kachel bereits ein Diagramm ist, wird im Drilldown-Verfahren zu Details anzeigen nur ein einzelner Monat angezeigt.
+Definition: Gesamtgelegenheiten nach Monat über Balkendiagramme und Tabellen. Da die übergeordnete Kachel bereits ein Diagramm ist, wird im Drilldown-Verfahren zu Details anzeigen nur ein einzelner Monat angezeigt.
 
 _Gesamtgelegenheiten nach Monat aufgeschlüsselt nach Woche oder Datum._
 
@@ -138,7 +139,7 @@ _Gesamtgelegenheiten nach Monat aufgeschlüsselt nach Woche oder Datum._
 
 **Eindeutige Besuche**
 
-Definition: Gesamtzahl der Seitenansichten nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Seitenansichten nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Unique Visits im Zeitverlauf**
 
@@ -146,7 +147,7 @@ Definition: Die Gesamtzahl der individuellen Besuche, die den Trend über einen 
 
 **Besuche**
 
-Definition: Gesamtzahl der Site-Besuche nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Site-Besuche nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Besuche im Zeitverlauf**
 
@@ -154,7 +155,7 @@ Definition: Die Gesamtzahl der verfolgten Site-Besuche, die den Trend über eine
 
 **Formulare**
 
-Definition: Gesamtzahl der Formularübermittlungen nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Formularübermittlungen nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Forms im Zeitverlauf**
 
@@ -166,17 +167,17 @@ Definition: Die Gesamtzahl der gesendeten Formulare, die den Trend über einen b
 
 **Ausgaben**
 
-Definition: Gesamtausgaben pro Monat über Balkendiagramm und Tabelle. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtausgaben pro Monat über Balkendiagramm und Tabelle Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Ausgaben (Diagramm)**
 
-Definition: Gesamtausgaben pro Monat über Balkendiagramm und Tabelle. Da die übergeordnete Kachel bereits ein Diagramm ist, wird im Drilldown-Verfahren zu Details anzeigen nur ein einzelner Monat angezeigt.
+Definition: Gesamtausgaben pro Monat über Balkendiagramm und Tabelle Da die übergeordnete Kachel bereits ein Diagramm ist, wird im Drilldown-Verfahren zu Details anzeigen nur ein einzelner Monat angezeigt.
 
-_Gesamtausgaben nach Monat aufgeschlüsselt nach Woche, Datum oder Uhrzeit. Zeit ist möglich, da [!DNL Marketo Measure] lädt die tatsächlichen Ausgaben minütlich aus unseren Werbeanzeigen-Verbindungen herunter._
+_Gesamtausgaben nach Monat aufgeschlüsselt nach Woche, Datum oder Uhrzeit. Zeit ist möglich, da [!DNL Marketo Measure] lädt die tatsächlichen Ausgaben minütlich aus unseren Werbeinformationen herunter._
 
 **Ausgaben nach Kanal**
 
-Definition: Gesamtausgaben pro Kanal nach Monat über Balkendiagramm und Tabelle. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
+Definition: Gesamtausgaben der einzelnen Kanäle pro Monat in Balkendiagrammen und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
 
 **Ausgaben nach Unterkanal**
 
@@ -184,7 +185,7 @@ Definition: Gesamtausgaben der einzelnen Unterkanäle pro Monat in Balkendiagram
 
 **Ausgaben nach Kampagne**
 
-Definition: Gesamtausgaben pro Kampagne nach Monat über Balkendiagramm und Tabelle. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
+Definition: Gesamtausgaben jeder Kampagne nach Monat über Balkendiagramme und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
 
 ## Sales Velocity {#sales-velocity}
 
@@ -192,7 +193,7 @@ Definition: Gesamtausgaben pro Kampagne nach Monat über Balkendiagramm und Tabe
 
 **Geschwindigkeit (Tage)**
 
-Definition: Die durchschnittliche Anzahl der Tage, in denen sich die Chancen in ihrem Verkaufszyklus befinden, vom ersten anonymen Kontakt bis zum Abschluss der Chancen.
+Definition: Die durchschnittliche Anzahl der Tage, in denen sich die Chancen in ihrem Verkaufszyklus befinden, vom ersten anonymen Kontakt bis zum Schließen der Gelegenheit.
 
 **Aktive Vertriebschancen**
 
@@ -200,19 +201,19 @@ Definition: Die Gesamtanzahl der Gelegenheiten, die sich aus einer offenen Chanc
 
 **Geschäftsumfang**
 
-Definition: Die durchschnittliche Menge einer geschlossenen Chance ohne Risiko.
+Definition: Der durchschnittliche Betrag einer geschlossenen Chance auf Gewinn.
 
 **Erfolgsquote**
 
-Definition: Die Gesamtzahl der geschlossenen Gewinnen dividiert durch die Gesamtzahl der geschlossenen verlorenen und geschlossenen Gewinnen-Chancen.
+Definition: Die Gesamtzahl der geschlossenen Gewinner-Chancen dividiert durch die Gesamtzahl der Geschlossenen verloren gegangenen und geschlossenen Gewinner-Chancen.
 
 **Opportunity Velocity nach Kanal**
 
-Definition: Die durchschnittliche Anzahl von Tagen, in denen sich Chancen in ihrem Zyklus pro Phase befinden, gruppiert nach Marketing-Kanal und zeigt die Zeit an, die zum Fortfahren zur nächsten Phase benötigt wird. Hier werden Meilensteine (FT, LC, OC) und benutzerdefinierte Bühnen angezeigt.
+Definition: Die durchschnittliche Anzahl von Tagen, in denen sich Chancen in ihrem Zyklus befinden, aufgeschlüsselt nach Marketing-Kanal und aufgeschlüsselt nach der Dauer, die zum Fortfahren zur nächsten Phase benötigt wird. Hier werden Meilensteine (FT, LC, OC) und benutzerdefinierte Bühnen angezeigt.
 
 **Lead-Geschwindigkeit nach Kanal**
 
-Definition: Die durchschnittliche Anzahl der Tage, in denen Leads in ihrem Zyklus liegen, pro Phase, bevor sie in einen Kontakt/Opportunity/Amount konvertiert werden. Diese Anzahl wird nach Marketing-Kanal gruppiert und zeigt die Zeit an, die zum Fortfahren mit der nächsten Phase benötigt wird. Hier werden Meilensteinschritte (FT, LC) und benutzerdefinierte Bühnen angezeigt.
+Definition: Die durchschnittliche Anzahl der Tage, in denen Leads in ihrem Zyklus liegen, bevor sie in einen Kontakt/Opportunity/Amount umgewandelt werden. Diese Zahl wird nach Marketing-Kanal gruppiert und zeigt die Zeit an, die es dauert, bis zur nächsten Phase übergegangen ist. Hier werden Meilensteinschritte (FT, LC) und benutzerdefinierte Bühnen angezeigt.
 
 ![](assets/8-1.png)
 
@@ -222,7 +223,7 @@ Definition: Die durchschnittliche Anzahl von Tagen, in denen sich Chancen in ihr
 
 **Durchschnittliche Lead-Geschwindigkeit**
 
-Definition: Die durchschnittliche Anzahl der Tage, in denen Leads in ihrem Zyklus sind, pro Phase, bevor sie in einen Kontakt/Opportunity/Amount konvertiert werden. Dies zeigt die Zeit an, die zum Fortfahren mit der nächsten Phase benötigt wird. Hier werden Meilensteinschritte (FT, LC) und benutzerdefinierte Bühnen angezeigt. Die hier angegebenen Zahlen spiegeln die Zeit pro Phase im Lead-Velocity-Diagramm nach Kanal-Diagramm wider.
+Definition: Die durchschnittliche Anzahl der Tage, in denen sich Leads in ihrem Zyklus befinden, pro Phase, bevor sie in einen Kontakt/Opportunity/Amount konvertiert werden. Dies zeigt die Zeit an, die benötigt wird, um zur nächsten Phase zu gelangen. Hier werden Meilensteinschritte (FT, LC) und benutzerdefinierte Bühnen angezeigt. Die hier angegebenen Zahlen spiegeln die Zeit pro Phase im Lead-Velocity-Diagramm nach Kanal-Diagramm wider.
 
 **Opportunity Velocity im Zeitverlauf**
 
@@ -230,19 +231,19 @@ Definition: Die durchschnittliche Anzahl von Tagen, in denen sich Chancen in ihr
 
 **Lead-Geschwindigkeit im Zeitverlauf**
 
-Definition: Die durchschnittliche Anzahl von Tagen, in denen Leads in ihrem Zyklus liegen, pro Phase mit einem Trend im Zeitverlauf.
+Definition: Die durchschnittliche Anzahl von Tagen, in denen sich Leads in ihrem Zyklus befinden, pro Phase mit einem Trend im Zeitverlauf.
 
-## Account-Based-Marketing {#account-based-marketing}
+## Kontobasiertes Marketing {#account-based-marketing}
 
 ![](assets/9-1.png)
 
 **Gesamtumsatz**
 
-Definition: Gesamtumsatz pro Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtumsatz pro Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Pipeline-Umsatz gesamt**
 
-Definition: Gesamtumsatz der Pipeline nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamter Pipeline-Umsatz pro Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Lead-Treffer**
 
@@ -254,7 +255,7 @@ Definition: Die Gesamtanzahl der Konten, die Touchpoints erhalten haben.
 
 **Angepasste Chancen**
 
-Definition: Eine Liste der Opportunity-IDs mit ihrer entsprechenden Konto-ID
+Definition: Eine Liste der Opportunity-IDs mit der zugehörigen Konto-ID
 
 **Touch-Kontakte**
 
@@ -262,7 +263,7 @@ Definition: Eine Liste der Kontakt-IDs mit der entsprechenden Konto-ID
 
 **Touchpoints im Zeitverlauf (Diagramm)**
 
-Definition: Eine Liste der Touchpoints aus dem ausgewählten Monat.
+Definition: Eine Liste von Touchpoints aus dem ausgewählten Monat.
 
 _Die Anzahl der Touchpoints, die berührt wurden, aufgeschlüsselt nach Woche, Datum oder Uhrzeit._
 
@@ -278,15 +279,15 @@ _Die Anzahl der geänderten Konten, aufgeschlüsselt nach Woche, Datum oder Uhrz
 
 **Eindeutige Besuche**
 
-Definition: Gesamtzahl der individuellen Site-Besuche nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der individuellen Site-Besuche pro Monat über Balkendiagramm und Tabelle. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Kosten pro individuellem Besuch**
 
-Definition: Gesamtausgaben dividiert durch die Gesamtzahl der individuellen Besuche. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtausgaben dividiert durch die Gesamtanzahl der individuellen Besuche. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Einzelbesuche nach Landingpage**
 
-Definition: Eine Liste der Landingpages, die auf der Anzahl der Unique Visitors aus den einzelnen URLs basieren.
+Definition: Eine Liste der Landingpages, die auf der Anzahl der Unique Visitors aus jeder URL basieren.
 
 **Eindeutige Besuche nach Quelle**
 
@@ -294,13 +295,13 @@ Definition: Ein Überblick über die Quellen Unique Visitors auf Ihrer Site.
 
 **Eindeutige Besuche im Zeitablauf**
 
-Definition: Die Gesamtzahl der verfolgten Unique Visits, die einen Trend über einen bestimmten Zeitraum anzeigen.
+Definition: Die Gesamtzahl der verfolgten eindeutigen Besuche, die einen Trend über einen bestimmten Zeitraum anzeigen.
 
 ![](assets/11-1.png)
 
 **Besuche**
 
-Definition: Gesamtzahl der Site-Besuche nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Site-Besuche nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Kosten pro Besuch**
 
@@ -308,7 +309,7 @@ Definition: Die Gesamtausgaben dividiert durch die Gesamtanzahl der Besuche.
 
 **Besuche nach Landingpage**
 
-Definition: Eine Liste der Landingpages basierend auf der Anzahl der Besuche jeder URL.
+Definition: Eine Liste von Landingpages basierend auf der Anzahl der Besuche jeder URL.
 
 **Besuche nach Quelle**
 
@@ -316,13 +317,13 @@ Definition: Quelle der Besucher Ihrer Site. Kann nach Kanal, Subkanal, Kampagne,
 
 **Besuche im Zeitablauf**
 
-Definition: Die Gesamtzahl der verfolgten Besuche, die den Trend über einen bestimmten Zeitraum anzeigen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Die Gesamtzahl der verfolgten Besuche, die den Trend über einen bestimmten Zeitraum anzeigen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 ![](assets/12-1.png)
 
 **Seitenansichten**
 
-Definition: Gesamtzahl der Seitenansichten nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Seitenansichten nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Kosten pro Seitenansicht**
 
@@ -334,7 +335,7 @@ Definition: Eine Liste der Seiten-URLs basierend auf der Anzahl der Seitenansich
 
 **Seitenansichten im Zeitverlauf**
 
-Definition: Gesamte Seitenansichten nach Monat über Balkendiagramme und Tabellen. Da die übergeordnete Kachel bereits ein Diagramm ist, wird im Drilldown-Verfahren zu Details anzeigen nur ein einzelner Monat angezeigt.
+Definition: Gesamtzahl der Seitenansichten nach Monat über Balkendiagramme und Tabellen. Da die übergeordnete Kachel bereits ein Diagramm ist, wird im Drilldown-Verfahren zu Details anzeigen nur ein einzelner Monat angezeigt.
 
 _Gesamte Seitenansichten nach Monat aufgeschlüsselt nach Woche, Datum oder Uhrzeit._
 
@@ -346,7 +347,7 @@ Definition: Die Gesamtzahl der verfolgten Formulare, die den Trend über einen b
 
 **Formulare**
 
-Definition: Gesamtzahl der Formularübermittlungen nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Formularübermittlungen nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Kosten pro Formular**
 
@@ -354,11 +355,11 @@ Definition: Die Gesamtausgaben dividiert durch die gesendeten Formulare insgesam
 
 **Formular-Sende nach Formular-URL**
 
-Definition: Eine Liste der Formular-URLs basierend auf der Zahl, die für jede URL gesendet wurde.
+Definition: Eine Liste von Formular-URLs basierend auf der Zahl, die für jede URL gesendet wurde.
 
 **Leads nach Landing Page**
 
-Definition: Eine Liste der Landingpages, die auf der Anzahl der von den einzelnen Landingpages generierten Leads basieren.
+Definition: Eine Liste von Landingpages, die auf der Anzahl der von den einzelnen Landingpages generierten Leads basieren.
 
 **Leads nach Formular-URL**
 
@@ -370,7 +371,7 @@ Definition: Eine Liste von Formular-URLs basierend auf der Anzahl der Leads, die
 
 **Umsatz**
 
-Definition: Gesamtumsatz pro Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtumsatz pro Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Umsatz (Diagramm)**
 
@@ -380,7 +381,7 @@ _Gesamtumsatz pro Monat, aufgeschlüsselt nach Woche oder Datum._
 
 **Ausgaben**
 
-Definition: Gesamtausgaben pro Monat über Balkendiagramm und Tabelle. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtausgaben pro Monat über Balkendiagramm und Tabelle Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **ROI**
 
@@ -388,15 +389,15 @@ Definition: Die berechnete Kapitalrendite aus dem Gesamtumsatz und den Gesamtaus
 
 **Abschlüsse**
 
-Definition: Gesamtzahl der Angebote nach Monat über Balkendiagramm und Tabelle. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Angebote nach Monat über Balkendiagramm und Tabelle. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Kosten pro Abschluss**
 
-Definition: Gesamtausgaben geteilt durch die Gesamtzahl der Angebote, wobei die durchschnittlichen Kosten angegeben werden, die für den Erwerb einer geschlossenen Chance erforderlich sind.
+Definition: Gesamtausgaben geteilt durch die Gesamtzahl der Angebote, wobei die durchschnittlichen Kosten angegeben werden, die zum Erwerb einer geschlossenen Chance erforderlich sind.
 
 **Pipeline-Umsatz**
 
-Definition: Gesamtumsatz der Pipeline nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamter Pipeline-Umsatz pro Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Geschäftsumfang**
 
@@ -418,11 +419,11 @@ Definition: Gesamtumsatz der einzelnen Kampagnen nach Monat über Balkendiagramm
 
 **ROI Zusammenfassung**
 
-Definition: Gesamtumsatz bzw. -ausgaben aus den einzelnen Kanälen nach Monat über Balkendiagramme und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
+Definition: Gesamtumsatz bzw. -ausgaben aus den einzelnen Kanälen pro Monat in Balkendiagrammen und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
 
 **Zusammenfassung des Angebots**
 
-Definition: Gesamtausgabe- oder Transaktionsanzahl der einzelnen Kanäle nach Monat über Balkendiagramm und Tabelle. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
+Definition: Gesamtzahl der Ausgaben oder Geschäfte aus jedem Kanal nach Monat über Balkendiagramme und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
 
 ## Content-Marketing {#content-marketing}
 
@@ -430,7 +431,7 @@ Definition: Gesamtausgabe- oder Transaktionsanzahl der einzelnen Kanäle nach Mo
 
 **Gesamtumsatz**
 
-Definition: Gesamtumsatz pro Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtumsatz pro Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Landing Pages nach Umsatz**
 
@@ -438,15 +439,15 @@ Definition: Gesamtumsatz aus jeder Landingpage über Balkendiagramme und Tabelle
 
 **Pipeline-Umsatz gesamt**
 
-Definition: Gesamtumsatz der Pipeline nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamter Pipeline-Umsatz pro Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Landing Pages nach Pipeline-Umsatz**
 
-Definition: Gesamtumsatz der Pipeline aus jeder Landingpage über Balkendiagramme und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
+Definition: Gesamter Pipeline-Umsatz von jeder Landingpage über Balkendiagramme und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
 
 **Opportunities gesamt**
 
-Definition: Gesamtzahl der Möglichkeiten nach Monat über Balkendiagramm und Tabelle. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Möglichkeiten pro Monat über Balkendiagramm und Tabelle Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Landing Pages nach Vertriebschancen-Anzahl**
 
@@ -456,15 +457,15 @@ Definition: Gesamtzahl der Möglichkeiten von jeder Landingpage über Balkendiag
 
 **Formulare gesamt**
 
-Definition: Gesamtzahl der Formulare nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtanzahl der Formulare pro Monat in Balkendiagrammen und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Top-Formular-URL nach Formularübermittlungen**
 
-Definition: Gesamtanzahl der Formulare aus jeder Formular-URL in Balkendiagrammen und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
+Definition: Gesamtanzahl der Formulare aus jeder Formular-URL in Form von Balkendiagrammen und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
 
 **Formular-URLs nach Kanal**
 
-Definition: Gesamtanzahl der von der Formular-URL gesendeten Formulare, aufgeschlüsselt nach Monat, in Balkendiagrammen und Tabellen. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
+Definition: Gesamtanzahl der Formulare, die von der Formular-URL monatlich über Balkendiagramme und Tabellen übermittelt wurden. Von dort aus ist es möglich, einen einzelnen Monat lang in diese Zeile zu bohren oder einen Monat nach Woche, Tag oder Uhrzeit zu unterteilen.
 
 ![](assets/18-1.png)
 
@@ -474,7 +475,7 @@ Definition: Die Gesamtzahl der Unique Site-Besuche, die über alle bekannten und
 
 **Top-Landing-Pages nach eindeutigen Besuchen**
 
-Definition: Eine Liste der Landingpages, die auf der Anzahl der individuellen Besuche auf jeder Landingpage basieren. Führen Sie einen Drilldown durch, um die individuellen Besuche pro Monat zur ausgewählten URL anzuzeigen.
+Definition: Eine Liste von Landingpages basierend auf der Anzahl der individuellen Besuche auf jeder Landingpage. Führen Sie einen Drilldown durch, um die individuellen Besuche pro Monat zur ausgewählten URL anzuzeigen.
 
 **Besuche**
 
@@ -486,7 +487,7 @@ Definition: Eine Liste der Landingpages, die auf der Anzahl der Erstbesuche auf 
 
 **Leads gesamt**
 
-Definition: Gesamtzahl der Leads nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Leads nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Landing Pages nach Lead-Anzahl**
 
@@ -498,7 +499,7 @@ Definition: Gesamtzahl der Leads von jeder Landingpage über Balkendiagramme und
 
 **Impressions**
 
-Definition: Gesamtzahl der Impressionen nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Impressionen nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **CPM**
 
@@ -506,7 +507,7 @@ Definition: Die Gesamtausgaben aus den bereitgestellten Impressionen dividiert d
 
 **Klicks**
 
-Definition: Gesamtzahl der Klicks pro Monat über Balkendiagramm und Tabelle. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Klicks pro Monat über Balkendiagramm und Tabelle Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **CPC**
 
@@ -518,21 +519,21 @@ Definition: Gesamtzahl der Leads basierend auf dem Attributionsmodell.
 
 **CPL**
 
-Definition: Die Gesamtausgaben aus den erstellten Leads dividiert durch die Gesamtklicks, wobei die CPL-Rate bereitgestellt wird.
+Definition: Die Gesamtausgaben aus den erstellten Leads dividiert durch die Gesamtklicks, unter Angabe der CPL-Rate.
 
 **Besuche**
 
-Definition: Gesamtzahl der Site-Besuche nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Site-Besuche nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 **Seitenansichten**
 
-Definition: Gesamtzahl der Seitenansichten nach Monat über Balkendiagramme und Tabellen. Dort können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
+Definition: Gesamtzahl der Seitenansichten nach Monat über Balkendiagramme und Tabellen. Von dort aus können Sie einen Drilldown in einen einzelnen Monat durchführen oder einen Monat nach Woche, Tag oder Uhrzeit aufteilen.
 
 ![](assets/20-1.png)
 
 **Kampagnenzusammenfassung**
 
-Definition: Liste der Kampagnen, die darauf basieren, wie viel Umsatz/Ausgaben/Angebote/Chancen den einzelnen Kampagnen zugeordnet wurden, sortiert nach der höchsten nach dem ausgewählten Attributionsmodell.
+Definition: Liste der Kampagnen, die darauf basieren, wie viel Umsatz/Ausgaben/Angebote/Chancen jeder Kampagne zugeordnet wurden, sortiert nach dem höchsten nach dem ausgewählten Attributionsmodell.
 
 **Anzeigenzusammenfassung**
 
@@ -540,7 +541,7 @@ Definition: Eine Liste von Anzeigen, die darauf basieren, wie viel Umsatz/Pipeli
 
 **Keyword-Zusammenfassung**
 
-Definition: Eine Liste von Suchbegriffen, die darauf basieren, wie viel Umsatz/Pipeline-Umsatz/Ausgaben/Angebote/Chancen jedem Suchbegriff zugeordnet wurden, basierend auf dem ausgewählten Attributionsmodell.
+Definition: Eine Liste von Suchbegriffen, die darauf basieren, wie viel Umsatz/Pipeline-Umsatz/Ausgaben/Angebote/Chancen den einzelnen Suchbegriffen basierend auf dem ausgewählten Attributionsmodell zugeordnet wurden.
 
 **Kampagnen nach ROI**
 
@@ -548,7 +549,7 @@ Definition: Eine Liste der Kampagnen, die auf dem berechneten ROI für jede Kamp
 
 **Anzeigen nach ROI**
 
-Definition: Eine Liste der Anzeigen, die auf dem berechneten ROI für jede Anzeige basieren, sortiert nach dem höchsten ROI. Führen Sie einen Drilldown durch, um den Umsatz oder die Ausgaben für die ausgewählte Anzeige nach Monat anzuzeigen.
+Definition: Eine Liste von Anzeigen, die auf dem berechneten ROI für jede Anzeige basieren, sortiert nach dem höchsten ROI. Führen Sie einen Drilldown durch, um den Umsatz oder die Ausgaben für die ausgewählte Anzeige nach Monat anzuzeigen.
 
 **Schlüsselwörter nach ROI**
 

@@ -3,7 +3,8 @@ unique-page-id: 18874604
 description: Benutzerdefinierte Segmentierung - [!DNL Marketo Measure] - Produktdokumentation
 title: Benutzerdefinierte Segmentierung
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: e3a2ef7a305fff4edb6b0f21861c1ef5516212b8
+feature: Segmentation
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Bevor Sie diese Funktion verwenden, sollten Sie herausfinden, nach welchen Touch
 Schritt 2: Anmelden und Suchen Sie die Funktion Segmente .
 
 * Navigieren Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} und sich anmelden
-* Unter dem [!UICONTROL Mein Konto] Registerkarte, wählen Sie [!UICONTROL Einstellungen]
+* Unter dem [!UICONTROL Mein Konto] Registerkarte auswählen [!UICONTROL Einstellungen]
 * Auswählen [!UICONTROL Segmente] aus den Optionen auf der Seitenleiste nach links, unter der [!UICONTROL Berichterstellung] Abschnitt
 
 Schritt 3: Grundlegendes zu den Komponenten.
@@ -44,11 +45,11 @@ Schritt 4: Hinzufügen von Filterregeln
 
 * Geben Sie zunächst den Kategorienamen ein. Geschäftstyp ist ein Beispiel. Klicken Sie auf das Häkchen, wenn Sie fertig sind. Sie müssen einen Kategorienamen eingeben, bevor Sie Segmente hinzufügen können
 * Klicken Sie auf das Pluszeichen, um ein Segment hinzuzufügen.
-* Geben Sie einen Segmentnamen ein. Sie könnten beispielsweise ein Segment für &quot;New Business&quot;, &quot;Partners&quot;, &quot;Renewal&quot;oder &quot;Upsell&quot;haben.
+* Geben Sie einen Segmentnamen ein. Sie könnten beispielsweise ein Segment für &quot;New Business&quot;, &quot;Partners&quot;, &quot;Renewal&quot;oder &quot;Upsell&quot;haben
 
 ![](assets/2.png)
 
-* Klicken Sie auf das Pluszeichen, um die Regeleingabefelder anzuzeigen. Die Optionen in der Feldauswahl beziehen Felder direkt aus Ihrem CRM-System
+* Klicken Sie auf das Pluszeichen, um die Regeleingabefelder anzuzeigen. Die Optionen in der Feldauswahl beziehen Felder direkt aus Ihrem CRM-System.
 
 ![](assets/3.png)
 
@@ -56,7 +57,7 @@ Schritt 4: Hinzufügen von Filterregeln
 >
 >Formelfelder können nicht in Ihren Regeln verwendet werden und werden nicht in der Auswahlliste angezeigt. Da Formeln im Hintergrund berechnet werden und einen Datensatz nicht ändern, [!DNL Marketo Measure] kann nicht erkennen, ob ein Datensatz zu einer Regel passt oder nicht.
 
-* Die Option Wert ist keine Dropdown-Liste und der Wert muss manuell eingegeben werden. Überprüfen Sie die Werte in Ihrer Salesforce-Organisation.
+* Die Option Wert ist keine Dropdown-Liste und der Wert muss manuell eingegeben werden. Überprüfen Sie unbedingt die Werte in Ihrer Salesforce-Organisation.
 * Wiederholen Sie diesen Vorgang für die Segmentregeln &quot;Chancen&quot;.
 * Die Kategorie &quot;Sonstige&quot;ist ein Standardsegment, das alle nicht definierten Touchpoints erfasst. Sie können den Namen des Standardsegments ändern
 * Klicken Sie auf das Papierkorbsymbol, um eine ganze Kategorie oder eine einzelne Regel innerhalb einer Kategorie zu löschen. Alternativ können Sie auf das Stiftsymbol klicken, um die Kategorie oder Regel zu bearbeiten

@@ -1,18 +1,19 @@
 ---
 unique-page-id: 34406495
 description: Kacheln für Marketing Ops - [!DNL Marketo Measure] - Produktdokumentation
-title: Kacheln für Marketing Ops
+title: Marketing Ops  Kacheln
 exl-id: e7978a79-6f6e-4bfd-9962-b35b7d46a9ac
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
-# Kacheln für Marketing Ops {#marketing-ops-tiles}
+# Marketing Ops  Kacheln {#marketing-ops-tiles}
 
-Marketing Ops ermöglicht Ihnen die Validierung und Diagnose von [!DNL Marketo Measure] Daten mit vollständiger Sichtbarkeit einzelner Kontaktpunkte pro Leads, Kontakte, Konten, Kampagnen und Chancen.
+Marketing Ops ermöglicht Ihnen die Validierung und Diagnose von [!DNL Marketo Measure] Daten mit vollständiger Sichtbarkeit einzelner Touchpoints pro Leads, Kontakte, Konten, Kampagnen und Chancen.
 
 <table> 
  <colgroup> 
@@ -62,7 +63,7 @@ Marketing Ops ermöglicht Ihnen die Validierung und Diagnose von [!DNL Marketo M
    <td><strong>X</strong></td> 
   </tr> 
   <tr> 
-   <td><p><strong>Chance</strong></p></td> 
+   <td><p><strong>Opportunity</strong></p></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
@@ -124,13 +125,13 @@ Marketing Ops ermöglicht Ihnen die Validierung und Diagnose von [!DNL Marketo M
  </tbody> 
 </table>
 
-## Kachel &quot;Konto&quot; {#account-tile}
+## Kachel Konto {#account-tile}
 
 ![](assets/one-1.png)
 
 Zeigt die folgenden Daten zu den angegebenen Konten an.
 
-**Konten müssen über Touchpoint-Daten verfügen (nur anwendbar, wenn ABM aktiviert ist)**
+**Konten müssen über Touchpoint-Daten verfügen (nur bei aktiviertem ABM)**
 
 -Konto-ID: Konto-ID in CRM
 
@@ -142,41 +143,41 @@ Zeigt die folgenden Daten zu den angegebenen Konten an.
 
 -Website: Wert im Feld Website im Konto
 
--Interaktionsbewertung: Prädiktive Interaktionsbewertung (PES), gefüllt durch [!DNL Marketo Measure]^1
+- Interaktionsbewertung: Prädiktive Interaktionsbewertung (PES), ausgefüllt von [!DNL Marketo Measure]^1
 
 -Möglichkeiten: Anzahl der mit dem Konto verbundenen Möglichkeiten
 
-* Drilldown: Siehe Details zu den damit verbundenen Möglichkeiten
+* Drilldown: Details zu den damit verbundenen Möglichkeiten finden Sie unter
 
--Ansprechpartner: Anzahl der auf diesem Konto aufgeführten Kontakte
+- Kontakte: Anzahl der auf diesem Konto aufgeführten Kontakte
 
-* Drilldown: Siehe Details für die zugehörigen Kontakte.
+* Drilldown: Details zu den zugehörigen Kontakten anzeigen
 
--Leads: Anzahl der Leads, die diesem Konto zugeordnet sind, durch die Kontozuordnung^1
+-Leads: Anzahl der Leads, die diesem Konto durch Lead-Zuordnung zugeordnet sind^1
 
-* Drilldown: Siehe Details zu den Leads, die dem Konto zugeordnet wurden.
+* Drilldown: Details zu den Leads anzeigen, die dem Konto zugeordnet wurden
 
 -Attributions-Touchpoints: Anzahl der Touchpoints der Käuferzuordnung für das Konto
 
-* Drilldown: Siehe Details zum Touchpoint der Käuferzuordnung (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subkanal, Marketing-Touchpoint-Typ, Attributionsmodell)
+* Drilldown: Siehe Details zu Touchpoints der Käuferzuordnung (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subchannel, Marketing Touch Type, Attributionsmodell)
 
 -Touchpoints: Anzahl der Touchpoints, die die Kontakte auf diesem Konto haben^2
 
-* Drilldown: Siehe Touchpoints in den Touchpoint-Details des Kontos (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subkanal, Marketing-Touchtyp).
+* Drilldown: Siehe Touchpoints in den Konto-Touchpoint-Details (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subchannel, Marketing Touch-Typ).
 
 >[!NOTE]
 >
 >Wenn Sie über ABM verfügen, werden Touchpoints angezeigt, die sich auf die Leads beziehen, die über die Zuordnung von Lead zu Konto zugeordnet wurden.
 
-## Opportunity-Kachel {#opportunity-tile}
+## Opportunity-Bereich {#opportunity-tile}
 
 ![](assets/two-1.png)
 
 Zeigt die folgenden Daten im Zusammenhang mit den angegebenen Möglichkeiten an.
 
--Opportunity ID: Chancen-ID in CRM
+-Opportunity ID: Opportunity ID in CRM
 
--Opportunity Name: Opportunity name in CRM
+-Opportunity Name (Angebotsname) in CRM
 
 -Kontoname: Kontoname, der der Gelegenheit zugeordnet ist
 
@@ -184,19 +185,19 @@ Zeigt die folgenden Daten im Zusammenhang mit den angegebenen Möglichkeiten an.
 
 Drilldown: Siehe Erstellungsdatum nach Stunde, Minute, Zeit .
 
--Datum schließen: Abschlussdatum der Chance im CRM
+-Datum schließen: Geschlossenes Datum der Möglichkeit im CRM
 
-Drilldown: Siehe Datum nach Stunde, Minute und Zeit schließen .
+Drilldown: Siehe Datum nach Stunde, Minute, Zeit schließen .
 
--Betrag: Die Gesamtanzahl der Möglichkeiten
+-Betrag: Der Gesamtbetrag der Chancen
 
--Ansprechpartner: Anzahl der Kontakte, die mit der Gelegenheit in Verbindung stehen
+- Kontakte: Anzahl der Kontakte, die mit der Möglichkeit in Verbindung stehen
 
-Drilldown: Siehe Details für die zugehörigen Kontakte.
+Drilldown: Details zu den zugehörigen Kontakten anzeigen
 
 -Attributions-Touchpoints: Anzahl der zugehörigen Touchpoints der Käuferzuordnung
 
-Drilldown: Siehe Details zum Touchpoint der Käuferzuordnung (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subkanal, Marketing-Touchpoint-Typ, Attributionsmodell)
+Drilldown: Siehe Details zu Touchpoints der Käuferzuordnung (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subchannel, Marketing Touch Type, Attributionsmodell)
 
 ## Kontaktbereich {#contacts-tile}
 
@@ -204,23 +205,23 @@ Drilldown: Siehe Details zum Touchpoint der Käuferzuordnung (ID, E-Mail, Touchp
 
 Zeigt die folgenden Daten zu den angegebenen Kontakten an.
 
--Kontakt-ID: Kontakt-ID in CRM
+-Kontakt-ID: Kontakt-ID im CRM
 
--Email: E-Mail-Adresse des Kontaktdatensatzes
+-E-Mail: E-Mail-Adresse des Kontaktdatensatzes
 
 -Erstellungsdatum: Erstellungsdatum des Kontakts im CRM
 
 * Drilldown: Siehe Erstellungsdatum nach Stunde, Minute, Zeit .
 
--Kontoname: Kontoname des Kontakts
+-Kontoname: Kontoname, der dem Kontakt zugeordnet ist
 
 -Attributions-Touchpoints: Anzahl der Touchpoints der Käuferzuordnung für den Kontakt
 
-* Drilldown: Siehe Details zum Touchpoint der Käuferzuordnung (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subkanal, Marketing-Touchpoint-Typ, Attributionsmodell)
+* Drilldown: Siehe Details zu Touchpoints der Käuferzuordnung (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subchannel, Marketing Touch Type, Attributionsmodell)
 
 -Touchpoints: Anzahl der Touchpoints des Käufers für den Kontakt
 
-* Drilldown: Siehe Kontakte zu den Touchpoint-Details des Kontos (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subchannel, Marketing Touch-Typ).
+* Drilldown: Siehe Kontakte zu den Touchpoint-Details des Kontos (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subkanal, Marketing-Touchtyp).
 
 ## Lead-Kachel {#leads-tile}
 
@@ -230,19 +231,19 @@ Zeigt die folgenden Daten zu den angegebenen Leads an.
 
 -Lead-ID: Lead-ID in CRM
 
--Email: E-Mail-Adresse des Lead-Datensatzes
+-E-Mail: Lead-Datensatz-E-Mail-Adresse
 
 -Erstellungsdatum: Zeitpunkt der Erstellung des Leads im CRM
 
 * Drilldown: Siehe Erstellungsdatum nach Stunde, Minute, Zeit .
 
--Unternehmen (Lead): Das Unternehmen, das im Datensatz im CRM aufgeführt ist, der vom Kunden ausgefüllt wird
+-Unternehmen (aus Lead): Das Unternehmen, das im Datensatz im CRM aufgeführt ist, der vom Kunden ausgefüllt wurde.
 
 -Kontoname: Der Kontoname [!DNL Marketo Measure] füllt basierend auf unserer &quot;Lead to Account Mapping&quot;
 
--Touchpoints: Die Anzahl der Touchpoints, die mit dem Lead (den Leads) verknüpft sind
+-Touchpoints: Die Anzahl der Touchpoints, die mit dem (den) Lead(s) verknüpft sind.
 
-* Drilldown: Siehe Kontakte zu den Touchpoint-Details des Kontos (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subchannel, Marketing Touch-Typ).
+* Drilldown: Siehe Kontakte zu den Touchpoint-Details des Kontos (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subkanal, Marketing-Touchtyp).
 
 ## Kampagnenkachel {#campaigns-tile}
 
@@ -252,16 +253,16 @@ Zeigt die folgenden Daten bezüglich der angegebenen Kampagne(n) an.
 
 -Kampagnen-ID: Kampagnen-ID in CRM
 
--Kampagnenname: Kampagnenname in CRM
+-Kampagnenname: Kampagnenname im CRM
 
--Kampagnenausgaben: Ausgaben [!DNL Marketo Measure] hat mit der Kampagne verknüpfte Datensätze aufgezeichnet
+- Kampagnenausgaben: Die Ausgaben [!DNL Marketo Measure] hat mit der Kampagne verknüpfte Datensätze aufgezeichnet
 
--Attributionsmodell: Dadurch wird die entsprechende Attribution basierend auf dem ausgewählten Modell angezeigt.
+-Attributionsmodell: Zeigt die entsprechende Attribution basierend auf dem ausgewählten Modell an
 
--Attributions-Touchpoints: Die Anzahl der mit der Kampagne(n) verknüpften Touchpoints der Käuferzuordnung
+-Attributions-Touchpoints: Die Anzahl der mit der Kampagne(n) verbundenen Touchpoints der Käuferzuordnung.
 
-* Drilldown: Siehe Details zum Touchpoint der Käuferzuordnung (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subkanal, Marketing-Touchpoint-Typ, Attributionsmodell)
+* Drilldown: Siehe Details zu Touchpoints der Käuferzuordnung (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subchannel, Marketing Touch Type, Attributionsmodell)
 
--Touchpoints: Die Anzahl der Touchpoints, die mit der Kampagne(n) verknüpft sind
+-Touchpoints: Die Anzahl der Touchpoints, die mit der/den Kampagne(n) verknüpft sind
 
-* Drilldown: Siehe Kontakte zu den Touchpoint-Details des Kontos (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subchannel, Marketing Touch-Typ).
+* Drilldown: Siehe Kontakte zu den Touchpoint-Details des Kontos (ID, E-Mail, Touchpoint-Datum, Kontoname, Kampagne, Kanal, Subkanal, Marketing-Touchtyp).

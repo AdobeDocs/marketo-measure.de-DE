@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874781
 description: Konfiguration der doppelten Klick-Kampagnen-Manager-Ansicht über Attribution - [!DNL Marketo Measure] - Produktdokumentation
-title: Konfiguration der Doppelklick-Kampagnen-Manager-Ansicht über Attribution
+title: Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Konfiguration der Doppelklick-Kampagnen-Manager-Ansicht über Attribution {#configuring-doubleclick-campaign-manager-view-through-attribution}
+# Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
 ## Anzeigen durch Attribution {#measuring-view-through-attribution}
 
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 Um genauere Einblicke aus der Ansicht über das Tracking mit Doubleclick Campaign Manager zu erhalten, muss unser Tracking-Pixel konfiguriert werden.
 
-Bitte [Hier klicken](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) Weitere Informationen zu [!DNL Marketo Measure] Durchsicht der Attributionsfunktionen.
+Bitte [Klicken Sie hier](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) Weitere Informationen zu [!DNL Marketo Measure] Durchsicht der Attributionsfunktionen.
 
 [!DNL Marketo Measure] wird als Huckepack-Tag betrachtet, da es sich um einen Drittanbieter-Aufruf über das DCM-Anzeigen-Tag handelt. Piggyback-Tags funktionieren nicht mit Bild-Tags, sondern nur mit iFrame- oder JavaScript-Tags. Nach Angaben des DCM-Supports hat sich dies in letzter Zeit nicht geändert und war immer der Fall. Standard-Tags werden seit dem 2. Oktober 2017 nicht mehr unterstützt, beeinträchtigen jedoch nicht die Fähigkeit von [!DNL Marketo Measure] , um die Impressionen zu verfolgen.
 
@@ -34,7 +35,7 @@ Sie fügen das Tag unter der Einstellung &quot;Advertiser&quot;in DoubleClick hi
 
 `https://cdn.bizibly.com/i?v=%eadv!&a=%eaid!&c=%ecid!&s=%esid!&p=%epid!&m=%m&n=%n`
 
-1. Vergewissern Sie sich nach dem Hinzufügen, dass die Trennzeichen wie folgt zugeordnet sind. Dies sollte automatisch erfolgen, sobald das Tag angewendet wird:
+1. Vergewissern Sie sich nach dem Hinzufügen, dass die Trennzeichen wie folgt zugeordnet sind. Dies sollte automatisch erfolgen, sobald das -Tag angewendet wird:
 
    v = %eadv! Advertiser-ID erweitern\
    a = %eaid! Anzeigen-ID erweitern\
@@ -54,9 +55,9 @@ A: Ja. Es handelt sich nicht um ein JavaScript-Tag, sondern um ein Bild-Tag.
 
 **F: Welche Berechtigungen benötigt der verbundene Benutzer?**
 
-A: datrafficking, dfareporting, userinfo.email
+A: dfatrafficking, dfareporting, userinfo.email
 
-**F: Wie lange kann das Importieren von Ausgabedaten dauern?**
+**F: Wie lange kann der Import von Ausgabedaten dauern?**
 
 A: Bis zu 6 Stunden
 

@@ -1,32 +1,33 @@
 ---
 unique-page-id: 18874672
 description: How [!DNL Marketo Measure] und [!DNL Salesforce] Interact - Marketo Measure - Produktdokumentation
-title: How [!DNL Marketo Measure] und [!DNL Salesforce] Interact
+title: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 36%
 
 ---
 
-# How [!DNL Marketo Measure] und [!DNL Salesforce] Interact {#how-marketo-measure-and-salesforce-interact}
+# Wie[!DNL Marketo Measure]und[!DNL Salesforce]interagieren {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen angezeigt, die[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
 
-Sehen wir uns die Beziehung zwischen [!DNL Marketo Measure] und Salesforce.
+Werfen wir einen allgemeinen Blick auf die Beziehung zwischen [!DNL Marketo Measure] und Salesforce.
 
 ## Salesforce und [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-Einmal [!DNL Marketo Measure] -Konto erstellt wird und [!DNL Salesforce] angeschlossen ist, [!DNL Marketo Measure] beginnt, Marketingdaten in die CRM-Instanz zu übertragen, solange die [!DNL Marketo Measure] das verwaltete Paket installiert ist und die [!DNL Marketo Measure] Salesforce-Benutzer haben Bearbeitungsberechtigungen.
+Einmal die [!DNL Marketo Measure] -Konto erstellt und [!DNL Salesforce] angeschlossen ist, [!DNL Marketo Measure] beginnt, Marketingdaten in die CRM-Instanz zu übertragen, solange die [!DNL Marketo Measure] das verwaltete Paket installiert ist und die [!DNL Marketo Measure] Salesforce-Benutzer haben Bearbeitungsberechtigungen.
 
 Wenn Sie die [!DNL Marketo Measure] Salesforce-Paket, [!DNL Marketo Measure] schreibt keine Daten in Ihre Salesforce-Instanz.
 
 ![](assets/1-3.png)
 
-Standardmäßig [!DNL Marketo Measure] exportiert jedes Mal 200 Datensätze pro API-Gutschrift, wenn ein Auftrag Daten an Ihr CRM sendet. Für die meisten Kunden bietet dies das optimale Gleichgewicht zwischen den API-Gutschriften, die von [!DNL Marketo Measure] und CPU-Ressourcenanforderungen im CRM-System. Bei Kunden mit komplexen CRM-Konfigurationen wie Workflows und Triggern kann eine kleinere Batch-Größe jedoch hilfreich sein, um die CRM-Leistung zu verbessern. Zu diesem Zweck [!DNL Marketo Measure] ermöglicht es Kunden, die Batch-Größe des CRM-Exports zu konfigurieren. Diese Einstellung ist auf der [!UICONTROL Einstellungen] > [!UICONTROL CRM] > [!UICONTROL Allgemein] in der [!DNL Marketo Measure] Webanwendung und Kunden können zwischen Batch-Größen von 200 (Standard), 100, 50 oder 25 wählen.
+Standardmäßig ist [!DNL Marketo Measure] exportiert jedes Mal 200 Datensätze pro API-Gutschrift, wenn ein Auftrag Daten an Ihr CRM sendet. Für die meisten Kunden bietet dies das optimale Gleichgewicht zwischen den API-Gutschriften, die von [!DNL Marketo Measure] und CPU-Ressourcenanforderungen im CRM-System. Bei Kunden mit komplexen CRM-Konfigurationen wie Workflows und Triggern kann eine kleinere Batch-Größe jedoch hilfreich sein, um die CRM-Leistung zu verbessern. Zu diesem Zweck [!DNL Marketo Measure] ermöglicht es Kunden, die Batch-Größe des CRM-Exports zu konfigurieren. Diese Einstellung ist auf der [!UICONTROL Einstellungen] > [!UICONTROL CRM] > [!UICONTROL Allgemein] in der [!DNL Marketo Measure] Webanwendung und Kunden können zwischen Batch-Größen von 200 (Standard), 100, 50 oder 25 wählen.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
@@ -125,7 +126,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT_c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -234,7 +235,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT_c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -337,7 +338,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT_c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -442,7 +443,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
  </tbody> 
 </table>
 
-**Chance**
+**Opportunity**
 
 <table> 
  <tbody> 
@@ -768,7 +769,7 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Type_c</p></td> 
+   <td><p>bizible2__Touchpoint_Type__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -798,7 +799,7 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Id__c</p></td> 
+   <td><p>bizible2__ad_campaign_id__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1088,7 +1089,7 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Type_c</p></td> 
+   <td><p>bizible2__Touchpoint_Type__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1118,7 +1119,7 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Id__c</p></td> 
+   <td><p>bizible2__ad_campaign_id__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 

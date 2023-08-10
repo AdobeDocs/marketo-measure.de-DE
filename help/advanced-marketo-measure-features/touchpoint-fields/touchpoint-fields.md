@@ -3,7 +3,8 @@ unique-page-id: 37355835
 description: Touchpoint-Felder - [!DNL Marketo Measure] - Produktdokumentation
 title: Touchpoint Felder
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1946'
 ht-degree: 0%
@@ -30,11 +31,11 @@ Aus dem [!DNL Marketo Measure] Navigieren Sie im Menü &quot;Einstellungen&quot;
 
 ## Verfahren {#how-to}
 
-Um ein berechnetes Feld zu erstellen, sollten Sie beachten, dass ein Benutzer drei verschiedene Aktionen ausführen kann: extrahiert, zugeordnet und verkettet. Diese werden auch als Operatoren zur Definition eines berechneten Felds bezeichnet.
+Um ein berechnetes Feld zu erstellen, sollten Sie beachten, dass ein Benutzer drei verschiedene Aktionen ausführen kann: Extrahieren, Zuordnen und Verketten von Feldern. Diese werden auch als Operatoren zur Definition eines berechneten Felds bezeichnet.
 
 Auszüge
 
-Der extraktionsoperator ruft den Wert aus einem Feld von einem anderen Speicherort ab, z. B.: Kampagnenfeld, Lead-Feld oder erweiterter Anwendungsfall, [Benutzerdefinierte Parameter aus der Landingpage extrahieren](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} Nr. 2).
+Der Operator &quot;extracts&quot;ruft den Wert aus einem Feld von einem anderen Speicherort ab, z. B. aus einem Kampagnenfeld, einem Lead-Feld oder einem erweiterten Anwendungsfall. [Benutzerdefinierte Parameter aus der Landingpage extrahieren](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} Nr. 2).
 
 **Beispiel 1**
 
@@ -42,7 +43,7 @@ Es gibt ein benutzerdefiniertes Feld im Kontakt, campaign_source__c, das der Kun
 
 Ziel: Verwenden Sie den Wert eines benutzerdefinierten Felds und platzieren Sie es auf das Touchpoint-Objekt, um die Berichterstellung zu vereinfachen.
 
-* Erstellen Sie ein berechnetes Feld und beschriften Sie es mit &quot;Kampagnenquelle&quot;.
+* Erstellen Sie ein berechnetes Feld und beschriften Sie es mit &quot;Kampagnenquelle&quot;
 * Definieren Sie die Regel, indem Sie mit der Suche nach dem Feld Contact.Campaign_Source__c beginnen.
 * Verwenden Sie den Operator &quot;extracts&quot;, da wir den Wert aus dem Parameter abrufen müssen
 * Um die vollständige Zeichenfolge aus dem Feld zu extrahieren, verwenden wir den Ausdruck &quot;(.&#42;)&quot;
@@ -144,16 +145,16 @@ Nachdem wir gelernt haben, wie wir Felder extrahieren und zuordnen können, lass
    * **(** markiert den Beginn der Extraktion
 
       * Beachten Sie, dass nur die ersten Ziffern die offene Klammer aufweisen, da wir nur die 4 extrahieren
+
    * **)** markiert das Ende der Extraktion
 
       * Beachten Sie, dass nur die ersten Ziffern die geschlossene Klammer aufweisen, da wir nur die 4 extrahieren.
+
    * **\d** sagt uns, dass wir eine &quot;Ziffer&quot;extrahieren
    * **{2}** ist die Anzahl der Zeichen, die wir extrahieren
 
-
-
-* Klicken [!UICONTROL Speichern]. Sie müssen Ihr neues Feld speichern, bevor es für die nächste Regel verwendet werden kann!
-* Als Nächstes möchten wir alle möglichen Werte für die ersten Ziffern den Anzeigenamen zuordnen
+* Klicks [!UICONTROL Speichern]. Sie müssen Ihr neues Feld speichern, bevor es für die nächste Regel verwendet werden kann!
+* Als Nächstes möchten wir alle möglichen Werte für die ersten Ziffern den Anzeigenamen zuordnen.
 * Erstellen Sie ein berechnetes Feld und beschriften Sie es mit &quot;Region_Name&quot;.
 * Definieren Sie die Regel, indem Sie mit der Suche nach Ihrem extrahierten Feld beginnen. In diesem Fall Touchpoint.Region
 * Verwenden Sie den Operator &quot;[!UICONTROL Zuordnung zu]&quot;, da wir für jede Zahl eine Zuordnung zu ihrem Wert erstellen möchten
@@ -163,7 +164,7 @@ Nachdem wir gelernt haben, wie wir Felder extrahieren und zuordnen können, lass
 
    * Um den 01 zu extrahieren, definieren Sie den Wert als &quot;BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\d{2}&quot;
    * Um den 09 zu extrahieren, definieren Sie den Wert als &quot;BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2}&quot;
-   * Um den 03 zu extrahieren, definieren Sie den Wert als &quot;BZ=\d{2}-\d{2}-\d{2}-{2}-**(\d{2})**-\d{2}&quot;
+   * Um den Wert 03 zu extrahieren, definieren Sie den Wert als &quot;BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}&quot;
    * Um den 10 zu extrahieren, definieren Sie den Wert als &quot;BZ=\d{2}-\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**&quot;
 
 ![](assets/seven.png)
@@ -218,7 +219,7 @@ Wie im Extract-Beispiel Nr. 4 müssen Sie mehrere Felder erstellen, um jeden Par
 
 Es ist zusätzlicher Arbeitsaufwand erforderlich, um die neuen Felder im [!DNL Marketo Measure] Data Warehouse. Derzeit werden Felder über Einstellungen und Konfigurationen offen gelegt, sodass Sie die Touchpoint-Felder beim Erstellen von Segmenten oder Erstellen von Touchpoint-Löschregeln verwenden können.
 
-**Wie kann ich überprüfen, ob mein Extraktionsausdruck gültig ist und den richtigen Wert abrufen?**
+**Wie kann ich überprüfen, ob mein Extraktionsausdruck gültig ist, und den richtigen Wert abrufen?**
 
 Es gibt ein Online-Tool ([https://regex101.com/](https://regex101.com/){target="_blank"}), die Sie ausführen und den Ausdruck testen können. Der Ausdruck wird grün angezeigt, wenn er gültig ist, oder rot, wenn er ungültig ist. Außerdem ist das Erklärungsfeld oben rechts hilfreich und teilt Ihnen mit, was Sie extrahieren.
 

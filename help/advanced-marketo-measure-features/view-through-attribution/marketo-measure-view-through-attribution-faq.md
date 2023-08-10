@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874652
-description: "[!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsicht der Attribution - [!DNL Marketo Measure] - Produktdokumentation"
-title: "[!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsicht der Attribution"
+description: "[!DNL Marketo Measure] FAQ zur Durchsicht der Attribution - [!DNL Marketo Measure] - Produktdokumentation"
+title: "[!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsichts-Attribution"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
-# [!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsicht der Attribution {#marketo-measure-view-through-attribution-faq}
+# [!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsichts-Attribution {#marketo-measure-view-through-attribution-faq}
 
 ## Was ist &quot;View Through Attribution&quot;? {#what-is-view-through-attribution}
 
@@ -54,8 +55,8 @@ Wir haben eine sorgfältige Analyse von Impressionsdaten und deren Einfluss auf 
   </tr> 
   <tr> 
    <td><strong>Impressions</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
    <td>10 %</td> 
    <td>10 %</td> 
    <td>10 %</td> 
@@ -63,8 +64,8 @@ Wir haben eine sorgfältige Analyse von Impressionsdaten und deren Einfluss auf 
   </tr> 
   <tr> 
    <td><strong>FT</strong></td> 
-   <td>100 Prozent</td> 
-   <td>0 %</td> 
+   <td>100%</td> 
+   <td>0%</td> 
    <td>35 %</td> 
    <td>26.6%</td> 
    <td>20 %</td> 
@@ -72,8 +73,8 @@ Wir haben eine sorgfältige Analyse von Impressionsdaten und deren Einfluss auf 
   </tr> 
   <tr> 
    <td><strong>LC</strong></td> 
-   <td>0 %</td> 
-   <td>100 Prozent</td> 
+   <td>0%</td> 
+   <td>100%</td> 
    <td>35 %</td> 
    <td>26.6%</td> 
    <td>20 %</td> 
@@ -81,26 +82,26 @@ Wir haben eine sorgfältige Analyse von Impressionsdaten und deren Einfluss auf 
   </tr> 
   <tr> 
    <td><strong>OC</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
+   <td>0%</td> 
    <td>26.6%</td> 
    <td>20 %</td> 
    <td>Benutzerdefiniert</td> 
   </tr> 
   <tr> 
    <td><strong>Geschlossen</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
+   <td>0%</td> 
+   <td>0%</td> 
    <td>20 %</td> 
    <td>Benutzerdefiniert</td> 
   </tr> 
   <tr> 
    <td><strong>Mitte</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
    <td>20 %</td> 
    <td>10 %</td> 
    <td>10 %</td> 

@@ -3,14 +3,15 @@ unique-page-id: 18874769
 description: "[!DNL Marketo Measure] Insights-Konfiguration - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Insights-Konfiguration"
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# [!DNL Marketo Measure] Insights-Konfiguration {#marketo-measure-insights-configuration}
+# Konfiguration von [!DNL Marketo Measure]-Insights {#marketo-measure-insights-configuration}
 
 Die [!DNL Marketo Measure] Die Insights-Canvas-App sollte dem Lead-Seiten-Layout hinzugefügt werden, erfordert jedoch eine zusätzliche Einrichtung im Abschnitt Connected Apps Ihrer [!DNL Salesforce] Einrichtung. Befolgen Sie diese Anweisungen, um sicherzustellen, dass die Canvas-App über die entsprechenden Berechtigungen verfügt.
 

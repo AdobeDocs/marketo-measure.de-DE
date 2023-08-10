@@ -2,10 +2,11 @@
 description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure] - Produktdokumentation'
 title: '[!DNL Marketo Measure] Ultimate - Übersicht'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 4a5e720a91e8b229ad2f2889dbf87f5c43767411
+feature: Integration, Tracking, Attribution
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 1%
    * Verbinden mehrerer CRM-Instanzen und/oder MAP-Instanzen mit einer Instanz [!DNL Marketo Measure] -Instanz.
    * Einbinden von Drittanbieter-Webinar-Registrierungs- und Beitragsdaten.
 
-* Transformieren Sie Ihre Daten mit großer Flexibilität durch Feldzuordnungs- und -umwandlungsfunktionen, um die richtige Datenform zu gewährleisten.
+* Transformieren Sie Ihre Daten mit großer Flexibilität durch Feldzuordnungs- und -Transformationsfunktionen, um die richtige Datenform zu gewährleisten.
 
 * Machen Sie Zuordnungseinblicke über das enthaltene Data Warehouse für externe Anwendungen verfügbar, um die Einblicke in Ihren Workflow zu integrieren. Detailliertere Ergebnisdaten und BI-basierte Berichte, einschließlich Snowflake-Data Warehouse, die Zugriff auf granulare Ergebnisdaten und die Möglichkeit bietet, jedes BI-Tool für Analysen und Berichte zu verwenden.
 
@@ -71,7 +72,7 @@ Es gibt sechs integrierte Phasen:
 * Lead-Verlust
 * Lead-Öffnung
 * Lead konvertiert
-* Chancen verloren
+* Verlust von Chancen
 * Opportunity Open
 * Opportunity Gewonnen
 
@@ -83,13 +84,13 @@ CRM-Bühnen werden nicht mehr automatisch in das Staging-Mapping einbezogen.
 Vier integrierte Phasen müssen Regeln zugeordnet werden (Zuordnungsregeln für die beiden anderen, Lead-Verlust und Lead-Konvertierung, sind optional):
 
 * Lead-Öffnung
-* Chancen verloren
+* Verlust von Chancen
 * Opportunity Open
 * Opportunity Gewonnen
 
 Regelbedingungen sind Datensatzspezifisch. Staging-Zuordnungsregeln müssen für alle Datensätze und alle Phasen erstellt werden, mit Ausnahme von &quot;Lead verloren&quot;und &quot;Lead konvertiert&quot;.
 
-Keine Auswahl für Trichter vs. Bomerang vs. benutzerdefiniertes Modell. Alle Bühnen werden für Trichter, Bumerang und benutzerdefiniertes Modell ausgewählt. Es gibt eine Grenze dafür, wie viele Phasen wir unterstützen: 15 benutzerdefinierte und 6 integrierte Phasen.
+Keine Auswahl für Trichter vs. Bomerang vs. benutzerdefiniertes Modell. Alle Bühnen werden für Trichter, Bumerang und benutzerdefiniertes Modell ausgewählt. Es gibt eine Grenze für die Anzahl der Phasen, die wir unterstützen: 15 benutzerdefinierte und 6 integrierte Phasen.
 
 ![](assets/marketo-measure-ultimate-overview-6.png)
 
@@ -110,4 +111,4 @@ Attributions-Touchpoints werden nicht in CRM geschrieben, da Ultimate über kein
 
 >[!MORELIKETHIS]
 >
->[Marketo Measure Ultimate Ziel](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
+>[Marketo Measure Ultimate-Ziel](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}

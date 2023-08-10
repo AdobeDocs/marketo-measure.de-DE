@@ -3,20 +3,21 @@ unique-page-id: 18874562
 description: PostLC-Touchpoints und Lead-Interaktion - Marketo Measure - Produktdokumentation
 title: PostLC-Touchpoints und Lead-Interaktion
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 # PostLC-Touchpoints und Lead-Interaktion {#postlc-touchpoints-and-lead-engagement}
 
-[!DNL Marketo Measure] Touchpoints nach der Lead-Erstellung (PostLC) stehen Kunden zur Verfügung, die Multi-Touch-Attributionsmodelle (W-Shape und höher) verwenden. Wenn ein Lead oder Kontakt zu Ihrer Website zurückkehrt und weiterhin Formulare ausfüllt, werden diese Formulare bei diesen Übermittlungen als PostLC-Touchpoints registriert. Mit diesen Touchpoints können Sie sehen, welche Inhalte Leads dazu bringen, lange nach der ersten Konversion weiterhin mit Ihrer Site zu interagieren. PostLC-Touchpoints teilen Attributionskredite mit allen zwischengeschalteten Touchpoints innerhalb einer Gelegenheit; Der Attributionszuschuss von 10 % wird zwischengeschalteten Touchpoints zugewiesen und gleichmäßig auf alle Touches verteilt.
+[!DNL Marketo Measure] Touchpoints nach der Lead-Erstellung (PostLC) stehen Kunden zur Verfügung, die Multi-Touch-Attributionsmodelle (W-Shape und höher) verwenden. Wenn ein Lead oder Kontakt zu Ihrer Website zurückkehrt und weiterhin Formulare ausfüllt, werden diese Formulare bei diesen Übermittlungen als PostLC-Touchpoints registriert. Mit diesen Touchpoints können Sie sehen, welche Inhalte Leads dazu bringen, lange nach der ersten Konversion weiterhin mit Ihrer Site zu interagieren. PostLC-Touchpoints teilen Attributionskredite mit allen zwischengeschalteten Touchpoints innerhalb einer Chance. Ein Zuordnungskredit von 10 % wird zwischengeschalteten Touchpoints zugewiesen und gleichmäßig auf alle Touches verteilt.
 
 ![](assets/1.png)
 
-Sie können die Anzahl der PostLC-Touchpoints anpassen, die in [!DNL SFDC]. In der Regel wird empfohlen, bis zu fünf PostLC-Touchpoints hochzuladen. jeder Touchpoint benötigt 1 KB [!DNL SFDC].
+Sie können die Anzahl der PostLC-Touchpoints anpassen, die in [!DNL SFDC]. In der Regel wird empfohlen, bis zu fünf PostLC-Touchpoints hochzuladen. Jeder Touchpoint nimmt 1 KB in [!DNL SFDC].
 
 >[!NOTE]
 >

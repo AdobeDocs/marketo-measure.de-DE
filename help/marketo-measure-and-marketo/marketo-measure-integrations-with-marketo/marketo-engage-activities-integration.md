@@ -1,9 +1,10 @@
 ---
 unique-page-id: 42762749
 description: "[!DNL Marketo Engage] Aktivitätenintegration - [!DNL Marketo Measure] - Produktdokumentation"
-title: "[!DNL Marketo Engage] Aktivitätsintegration"
+title: "[!DNL Marketo Engage] Aktivitätenintegration"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 0%
@@ -33,7 +34,7 @@ Im Rahmen der Gesamtübersicht [!DNL Marketo Measure] und [!DNL Marketo Engage] 
 
    Zunächst müssen Sie die Liste der Aktivitätstypen auswählen, für die Sie Regeln erstellen möchten. Es ist keine große Anzahl von Aktivitätstypen erforderlich. Wir empfehlen Ihnen jedoch auch, Ihre Touchpoints nicht zu überlasten und die Wichtigkeit wichtiger Meilensteine zu verwässern. Daher benötigen Sie möglicherweise nicht mehr als fünf Aktivitätstypen, um die relevanten Interaktionen zu verfolgen.
 
-1. Klicken Sie auf das Dropdown-Menü unter [!UICONTROL Aktivitätstypen auswählen] , um die verschiedenen Typen auszuwählen.
+1. Klicken Sie auf das Dropdownmenü unter [!UICONTROL Aktivitätstypen auswählen] , um die verschiedenen Typen auszuwählen.
 
    ![](assets/three-1.png)
 
@@ -73,7 +74,7 @@ Im Rahmen der Gesamtübersicht [!DNL Marketo Measure] und [!DNL Marketo Engage] 
 
    Viele Felder wurden automatisch zugeordnet und können nicht geändert werden, um mit unseren anderen Integrationen konsistent zu sein. Referenzieren Sie den Abschnitt Feldzuordnungen unten, um diese Werte zu finden. Bei einigen Aktivitätstypen enthält Marketo Attribute für eine Landingpage, Referrer-Seite oder einen Browser, die Sie optional einem Touchpoint-Feld zuordnen können. Im folgenden Beispiel haben wir einige zusätzliche Vorschläge gemacht, die entfernt werden können.
 
-1. Wählen Sie in der linken Spalte, die Sie zuordnen möchten, das Feld &quot;Buyer Touchpoint&quot;aus. Wählen Sie dann das Marketo-Attribut aus, das Sie im Feld &quot;Touchpoint für Käufer&quot;ausfüllen möchten. Beachten Sie, dass es sich hierbei um ein optionales, zusätzliches Mapping zusätzlich zu den entsprechenden [!DNL Marketo Measure] hat sich bereits bewährt.
+1. Wählen Sie in der linken Spalte, die Sie zuordnen möchten, das Feld &quot;Buyer Touchpoint&quot;aus. Wählen Sie dann das Marketo-Attribut aus, das Sie im Feld &quot;Touchpoint für Käufer&quot;ausfüllen möchten. Beachten Sie, dass es sich hierbei um ein optionales, zusätzliches Mapping zusätzlich zu den [!DNL Marketo Measure] hat sich bereits bewährt.
 
    Zugeordnete Felder:
 
@@ -131,7 +132,7 @@ Aus Opportunity entfernen (35)\
 Aktualisierungsmöglichkeit (36)\
 Lead löschen (37)\
 Warnhinweis senden (38)\
-E-Mail zum Vertrieb senden (39)\
+Sales Email senden (39)\
 E-Mail &quot;Verkauf öffnen&quot;(40)\
 Klicken Sie auf Sales Email (41)\
 Zu SFDC Campaign hinzufügen (42)\
@@ -167,7 +168,7 @@ Durch den Datenimport von Marketo-Programmen werden die Kosten automatisch aus d
 
 Als Ergebnis der [!DNL Marketo Measure] Integration mit Marketo, der [!DNL Marketo Measure] Die Cookie-ID wird jetzt auch mit der [!DNL Marketo Munchkin Id]. Dies hilft, die Lücke zu schließen, um den anonymen Erstkontakt einer Web-Sitzung zuzuordnen, anstatt sowohl FT- als auch LC-Touches einer Marketo-Aktivität zuzuordnen. Stellen Sie sich dieses Szenario vor:
 
-Mark klickt auf eine Facebook-Anzeige und landet auf waynecompanies.com, wo er mit Cookies [!DNL Marketo Measure] ID 123 und [!DNL Marketo Munchkin Id] 456. Es wird kein Formular ausgefüllt.
+Markieren Sie klickt auf eine Facebook-Anzeige und landet auf wayneenterprises.com , wo er Cookies erhält. [!DNL Marketo Measure] ID 123 und [!DNL Marketo Munchkin Id] 456. Es wird kein Formular ausgefüllt.
 
 Das Marketing-Team von Wayne Enterprises sendet eine E-Mail-Benachrichtigung an bestimmte Interessenten, darunter `mark@email.com`.
 
@@ -191,7 +192,7 @@ Die [!DNL Marketo Engage] Programmintegration ist eine einfache Möglichkeit, To
 
 **Warum ist der Name meines Touchpoint-Typs abgeschnitten?**
 
-Das Feld &quot;Touchpoint-Typ&quot;wurde im [!DNL Marketo Measure] Paket mit 16 Zeichen. Leider würde eine Änderung der Zeichenbeschränkung für das Feld bedeuten, dass das vorhandene Feld veraltet wird und ein neues erstellt wird. Der Wert des Touchpoint-Typs ist der Aktivitätstyp, der auch im Feld Medium festgelegt wird.
+Das Feld Touchpoint-Typ wurde im [!DNL Marketo Measure] Paket mit 16 Zeichen. Leider würde eine Änderung der Zeichenbeschränkung für das Feld bedeuten, dass das vorhandene Feld veraltet wird und ein neues erstellt wird. Der Wert des Touchpoint-Typs ist der Aktivitätstyp, der auch im Feld Medium festgelegt wird.
 
 **Warum wird mein benutzerdefinierter Aktivitätstyp nicht in der Liste der verfügbaren Aktivitäten angezeigt?**
 

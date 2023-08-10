@@ -3,7 +3,8 @@ unique-page-id: 27656741
 description: Einstellungen - [!DNL Marketo Measure] - Produktdokumentation
 title: Einstellungen
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Multi-Currency
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 1%
@@ -12,9 +13,9 @@ ht-degree: 1%
 
 # Einstellungen {#settings}
 
-Mit dieser Funktion sind zwei separate Funktionalitäten verbunden, die sich auf der Registerkarte Allgemeine Einstellungen des CRM befinden: Mehrere Währungen und erweiterte Währungen.
+Diese Funktion ist mit zwei separaten Feature-Bit verknüpft, die sich auf der Registerkarte Allgemeine Einstellungen des CRM-Systems befinden: Mehrere Währungen und erweiterte Währungen.
 
-**Mehrere Währungen**: Aktiviert, wenn der Kunde mehr als eine einzige Währung verwendet.
+**Mehrere Währungen**: Aktiviert, wenn der Kunde mehr als eine Währung verwendet.
 
 **Erweiterte Währungen**: Ein weiteres Bit, das aktiviert werden muss, wenn der Kunde die Salesforce-Funktion &quot;Erweiterte Währungsverwaltung&quot;verwendet, mit der der Benutzer einen zeitbasierten Bereich für Konversionsraten festlegen kann.
 

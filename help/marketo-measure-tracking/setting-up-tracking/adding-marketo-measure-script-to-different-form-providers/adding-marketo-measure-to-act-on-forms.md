@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874753
 description: Hinzufügen [!DNL Marketo Measure] zum Handeln in Forms - [!DNL Marketo Measure] - Produktdokumentation
-title: Hinzufügen [!DNL Marketo Measure] zum Handeln in Forms
+title: Hinzufügen von [!DNL Marketo Measure] zu Act-On-Formularen
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Hinzufügen [!DNL Marketo Measure] zum Handeln in Forms {#adding-marketo-measure-to-act-on-forms}
+# Hinzufügen von[!DNL Marketo Measure]zu Act-On-Formularen {#adding-marketo-measure-to-act-on-forms}
 
 ## Anweisungen {#directions}
 
@@ -23,6 +24,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Es gibt möglicherweise bereits andere Trackingcode-Snippets in diesem Bereich, z. B. eine [!DNL Google Analytics] Code. Achten Sie darauf, sie mithilfe eines Semikolons zu trennen `;` und ein einzelnes Leerzeichen wie folgt:
+>Es gibt möglicherweise bereits andere Trackingcode-Snippets in diesem Bereich, z. B. eine [!DNL Google Analytics] Code. Trennen Sie sie unbedingt mithilfe eines Semikolons. `;` und ein einzelnes Leerzeichen wie folgt:
 >
 >`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>**; **<script async="true" type="someothercode" src="someotherfile.js" ></script>`

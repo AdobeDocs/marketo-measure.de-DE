@@ -2,23 +2,24 @@
 description: Datenschutzanfragen - [!DNL Marketo Measure] - Produktdokumentation
 title: Datenschutzanfragen
 exl-id: 883e475f-9868-412a-b505-230556f38484
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: APIs, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Datenschutzanfragen {#privacy-requests}
 
-Dieses Dokument bietet einen Überblick über die Verwaltung von Datenschutzanfragen, die Sie an senden können [!DNL Marketo Measure] durch [!DNL Privacy Service] Benutzeroberfläche und **[!DNL Privacy Service]API**.
+Dieses Dokument bietet einen Überblick über die Verwaltung von Datenschutzanfragen, die Sie an senden können [!DNL Marketo Measure] durch die [!DNL Privacy Service] Benutzeroberfläche und **[!DNL Privacy Service]API**.
 
 Sie können einzelne Anfragen zum Zugriff auf und zum Löschen von Verbraucherdaten aus senden [!DNL Marketo Measure] auf zwei Arten:
 
-* Durch die [[!DNL Privacy Service] Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
-* Durch die **[!DNL Privacy Service]API**. Weitere Informationen finden Sie in der Dokumentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Durch die [[!DNL Privacy Service] Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=de){target="_blank"}.
+* Durch die **[!DNL Privacy Service]API**. Siehe die Dokumentation . [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-Die [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} unterstützt zwei Arten von Anforderungen: Datenzugriff und Datenlöschung.
+Die [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} unterstützt zwei Arten von Anfragen: Datenzugriff und Datenlöschung.
 
 Im Folgenden wird beschrieben, wie Sie Zugriffs- und Löschanfragen erstellen können.
 
@@ -45,7 +46,7 @@ So stellen Sie Anfragen zum Zugreifen auf und Löschen von Daten für [!DNL Mark
 
 &quot;Benutzer&quot;:
 
-* &quot;action&quot;: entweder [!UICONTROL access] oder löschen
+* &quot;action&quot;: Entweder [!UICONTROL access] oder löschen
 * &quot;userIDs&quot;:
    * &quot;namespace&quot;: email
    * &quot;type&quot;: standard

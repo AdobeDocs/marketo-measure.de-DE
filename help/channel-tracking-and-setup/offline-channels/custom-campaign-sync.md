@@ -3,16 +3,17 @@ unique-page-id: 18874588
 description: Benutzerdefinierte Kampagnensynchronisierung - [!DNL Marketo Measure] - Produktdokumentation
 title: Synchronisierung benutzerspezifischer Kampagnen
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Synchronisierung benutzerspezifischer Kampagnen {#custom-campaign-sync}
 
-Heute mit dem installierten [!DNL Marketo Measure] -Paket können Sie angeben, welche Kampagnen als zulässigen Touchpoint einbezogen werden sollen. Es gibt mehrere Hürden dafür, wie es zuvor existierte. Einmal [!DNL Marketo Measure] im CRM-System installiert ist, kann es einige Zeit dauern, bis die Validierung durch Ihr Sicherheitsteam erfolgt. Darüber hinaus ist die Verwendung einer einzelnen Auswahlliste im Campaign-Objekt nicht flexibel. Mit dieser neuen Funktion ist keine Paketinstallation erforderlich, um mit der Verwendung der Datensätze von Campaign und Campaign-Mitgliedern zu beginnen. Regeln können erstellt werden, um genau zu definieren, welche Datensätze erstellt werden können, um genau zu definieren, welche Datensätze zulässig sind.
+Heute mit dem installierten [!DNL Marketo Measure] -Paket können Sie angeben, welche Kampagnen als zulässigen Touchpoint einbezogen werden sollen. Es gibt mehrere Hürden dafür, wie es zuvor existierte. Einmal die [!DNL Marketo Measure] im CRM-System installiert ist, kann es einige Zeit dauern, bis die Validierung durch Ihr Sicherheitsteam erfolgt. Darüber hinaus ist die Verwendung einer einzelnen Auswahlliste im Campaign-Objekt nicht flexibel. Mit dieser neuen Funktion ist keine Paketinstallation erforderlich, um mit der Verwendung der Datensätze von Campaign und Campaign-Mitgliedern zu beginnen. Regeln können erstellt werden, um genau zu definieren, welche Datensätze erstellt werden können, um genau zu definieren, welche Datensätze zulässig sind.
 
 ## Anforderungen {#requirements}
 
@@ -26,7 +27,7 @@ Heute mit dem installierten [!DNL Marketo Measure] -Paket können Sie angeben, w
 
    ![](assets/1-1.png)
 
-1. Sie haben die Möglichkeit, eine Regel aus [!UICONTROL Kampagne] oder [!UICONTROL Kampagnenmitglied] -Felder. Füllen Sie den Rest der Regel mit dem Operator und Wert aus, den wir überprüfen sollen. Im folgenden Beispiel wird nach einer bestimmten Kampagne mit ihrem Namen gesucht.
+1. Sie können eine Regel aus [!UICONTROL Kampagne] oder [!UICONTROL Campaign-Mitglied] -Felder. Füllen Sie den Rest der Regel mit dem Operator und Wert aus, den wir überprüfen sollen. Im folgenden Beispiel wird nach einer bestimmten Kampagne mit ihrem Namen gesucht.
 
    ![](assets/2-1.png)
 

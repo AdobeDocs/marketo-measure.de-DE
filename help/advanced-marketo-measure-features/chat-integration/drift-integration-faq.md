@@ -3,10 +3,11 @@ unique-page-id: 27656441
 description: Häufig gestellte Fragen zur Drift-Integration - [!DNL Marketo Measure] - Produktdokumentation
 title: Häufig gestellte Fragen zur Drift-Integration
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +21,7 @@ Drilldown-Chat-Tracking für [!DNL Marketo Measure] ist standardmäßig aktivier
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" id="bizible-settings" data-chatEnabled="false"></script>`
 
-Für Benutzer, die [!DNL Google Tag Manager] , um die [!DNL Marketo Measure] Skript: Wenn Sie Ihre Drift Chats von der Touchpoint-Qualifizierung ausschließen möchten, müssen Sie Folgendes hinzufügen `<span>` direkt nach dem [!DNL Marketo Measure] Script:
+Für Benutzer, die [!DNL Google Tag Manager] , um die [!DNL Marketo Measure] Skript: Wenn Sie Ihre Drift Chats davon ausschließen möchten, Touchpoint-berechtigt zu sein, müssen Sie Folgendes hinzufügen `<span>` direkt nach dem [!DNL Marketo Measure] Script:
 
 `<span id="bizible-settings" data-chatEnabled="false"></span>`
 

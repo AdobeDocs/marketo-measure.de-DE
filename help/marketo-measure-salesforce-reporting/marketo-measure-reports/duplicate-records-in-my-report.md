@@ -1,20 +1,21 @@
 ---
 unique-page-id: 18874634
 description: Duplizieren von Datensätzen in meinem Bericht - [!DNL Marketo Measure] - Produktdokumentation
-title: Duplizieren von Datensätzen in meinem Bericht
+title: Doppelte Datensätze in meinem Bericht
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Duplizieren von Datensätzen in meinem Bericht {#duplicate-records-in-my-report}
+# Doppelte Datensätze in meinem Bericht {#duplicate-records-in-my-report}
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen angezeigt, die[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
 
 Während du in die [!DNL Marketo Measure] Berichte in [!DNL Salesforce]können Sie in Ihren Berichten &quot;doppelte&quot; Datensätze finden. Dieses Gefühl wird wahrscheinlich bei der Überprüfung auftreten [!DNL Marketo Measure] nativen Berichten.
 

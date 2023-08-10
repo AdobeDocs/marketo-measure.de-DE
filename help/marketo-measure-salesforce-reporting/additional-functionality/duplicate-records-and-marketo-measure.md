@@ -1,26 +1,27 @@
 ---
 unique-page-id: 18874572
 description: Datensätze duplizieren und [!DNL Marketo Measure] - [!DNL Marketo Measure] - Produktdokumentation
-title: Datensätze duplizieren und [!DNL Marketo Measure]
+title: Doppelte Datensätze und  [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Datensätze duplizieren und [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
+# Doppelte Datensätze und [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen angezeigt, die[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
 
 [!DNL Marketo Measure] nutzt die E-Mail-Adresse als eindeutige Kennung bei der Zuordnung von Daten zu einem verbundenen Lead oder Kontakt im CRM. Wann [!DNL Marketo Measure] findet mehrere Leads oder Kontakte mit derselben E-Mail-Adresse, wir werden die gleichen Daten auf allen Datensätzen aufdecken. Die Auswirkungen sind zu erwarten, wenn Sie über Leads oder Kontakte mit [!DNL Marketo Measure] und kann die Anzahl der Einzelanwender, die Touchpoints des Käufers haben, fälschlicherweise erhöhen.
 
 Wie sieht dies aus in [!DNL Marketo Measure] Reporting?
 
-_Beispielbericht: [!DNL Marketo Measure] Personen mit Touchpoints des Käufers._
+_Beispielbericht: [!DNL Marketo Measure] Personen mit Touchpoints für Käufer._
 
 ![](assets/1-1.png)
 

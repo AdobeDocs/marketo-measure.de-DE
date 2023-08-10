@@ -3,10 +3,11 @@ unique-page-id: 18874682
 description: Marketing-Kanäle und -Subkanäle - [!DNL Marketo Measure] - Produktdokumentation
 title: Marketing-Kanäle und -Subkanäle
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -18,27 +19,27 @@ So definieren Sie, in welchen Kanälen und Unterkanälen sich die [!DNL Marketo 
 
 ## Überblick {#overview}
 
-Marketing-Kanäle helfen Ihnen bei der Kategorisierung (oder &quot;Zusammenfassung&quot;) Ihrer Marketing-Aktivitäten, damit Berichte einfacher erstellt werden können. Dies geschieht sowohl in der [!DNL Marketo Measure] ROI-Dash sowie in Ihrem CRM. [!DNL Marketo Measure] verfügt über 12 vorkonfigurierte Kanäle (die Sie anpassen/umbenennen können, um die Konventionen Ihres Unternehmens anzupassen) sowie die Möglichkeit, benutzerdefinierte Kanäle weiter zu erstellen, um eine noch detailliertere Filterung zu ermöglichen.
+Marketing-Kanäle helfen Ihnen bei der Kategorisierung (oder &quot;Zusammenfassung&quot;) Ihrer Marketing-Aktivitäten, damit Berichte einfacher erstellt werden können. Dies geschieht sowohl in der [!DNL Marketo Measure] ROI-Dash sowie in Ihrem CRM-System. [!DNL Marketo Measure] verfügt über 12 vorkonfigurierte Kanäle (die Sie anpassen/umbenennen können, um die Konventionen Ihres Unternehmens anzupassen) sowie die Möglichkeit, benutzerdefinierte Kanäle weiter zu erstellen, um eine noch detailliertere Filterung zu ermöglichen.
 
 Jedes Mal, wenn Sie einen Besucher auf einer Ihrer Inhaltsseiten auf Ihrer Site erhalten (unabhängig davon, ob es sich bei diesem Inhalt um eine Webseite, einen Download in Whitepaper, eine Seiten-URL usw. handelt), wird dieser Lead anhand verschiedener in der URL enthaltener UTM-Parameter in einem Kanal/Subkanal &quot;zusammengefasst&quot;:
 
-* Mittel
+* Medium
 * Quelle
 * Kampagne
 * Landing Page
 * Verweisende Website
 
-Um anzupassen, in welchen &quot;Behälter&quot;Ihre Leads auf Grundlage ihrer UTM-Parameter fallen, können Sie Kanalregeln verwenden. Weitere Informationen zum Einrichten und Warten Ihrer Kanalregeln finden Sie unter [Hier klicken](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Um anzupassen, in welchen &quot;Behälter&quot;Ihre Leads auf Grundlage ihrer UTM-Parameter fallen, können Sie Kanalregeln verwenden. Weitere Informationen zum Einrichten und Warten Ihrer Kanalregeln finden Sie unter [Klicken Sie hier](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 Erfahren Sie, wie Sie Ihre [Online-Kanäle](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md) und [Offline-Kanäle](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)sowie den Unterschied zwischen ihnen.
 
 **Marketing-Kanal**
 
-Der Marketing-Kanal ist die umfassendste Classification-Ebene und kann eine Vielzahl von Subkanälen abdecken. Sie können dies als den &quot;Typ&quot;des Subkanals betrachten, aus dem Ihre Leads stammen. Beispiele für Marketing-Kanäle sind **Gebührenpflichtige Suche, Kostenlose Suche, Anzeige,** und **Paid Social**. Der Marketing-Kanal entspricht in der Regel dem Parameterwert utm_medium in Ihrer URL.
+Der Marketing-Kanal ist die umfassendste Classification-Ebene und kann eine Vielzahl von Subkanälen abdecken. Sie können dies als den &quot;Typ&quot;des Subkanals betrachten, aus dem Ihre Leads stammen. Beispiele für Marketing-Kanäle sind **Paid Search, Organic Search, Display,** und **Paid Social**. Der Marketing-Kanal entspricht in der Regel dem Parameterwert utm_medium in Ihrer URL.
 
 **Unterkanal**
 
-Subkanäle sind das zweite Puzzleteil beim Buckeln der eingehenden Leads. Subkanäle erzählen genau die Geschichte von _,_ wurde verwendet. Im gebührenpflichtigen Social-Marketing-Kanal können Sie beispielsweise Subkanäle für **AdWords**, **BingAds**, **Facebook**, usw. Der Subchannel entspricht in der Regel dem Parameterwert utm_source in Ihrer URL.
+Subkanäle sind das zweite Puzzleteil beim Buckeln der eingehenden Leads. Subkanäle erzählen genau die Geschichte von _,_ -Iteration Ihres Marketingkanals verwendet wurde. Beispielsweise können Sie im gebührenpflichtigen Social-Marketing-Kanal Subkanäle für **AdWord**, **BingAds**, **Facebook**, usw. Der Subchannel entspricht in der Regel dem Parameterwert utm_source in Ihrer URL.
 
 ## Anwendungsbeispiel {#use-case-example}
 

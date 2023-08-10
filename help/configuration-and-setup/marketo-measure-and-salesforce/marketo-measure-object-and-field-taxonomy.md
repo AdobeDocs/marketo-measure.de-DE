@@ -3,20 +3,21 @@ unique-page-id: 18874584
 description: "[!DNL Marketo Measure] Objekt- und Feldtaxonomie - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Objekt- und Feldtaxonomie"
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 # [!DNL Marketo Measure] Objekt- und Feldtaxonomie {#marketo-measure-object-and-field-taxonomy}
 
-Nachfolgend finden Sie ein Flussdiagramm, das angibt, wie [!DNL Marketo Measure] Benutzerdefinierte Objekte beziehen sich auf [!DNL Salesforce] Standardobjekte.
+Nachfolgend finden Sie ein Flussdiagramm, das angibt, wie [!DNL Marketo Measure] Benutzerdefinierte Objekte beziehen sich auf [!DNL Salesforce] Standardobjekte
 
 ![](assets/1-2.png)
 
-Für das Bild in voller Größe: [Hier klicken](assets/bizible-object-and-field-taxonomy-graph-full.png).
+Für das Bild in voller Größe: [Klicken Sie hier](assets/bizible-object-and-field-taxonomy-graph-full.png).
 
 Definitionen der [!DNL Marketo Measure] Felder, die sich in jedem Objekt befinden [finden Sie hier .](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
 
@@ -36,4 +37,4 @@ Es ist unser benutzerdefiniertes JavaScript, das wir verwenden, um Web-Informati
 
 **Was ist das Marketing-ROI-Dashboard?**
 
-Es handelt sich um ein Dashboard für benutzerdefinierte Marketing-Kanäle, das im [!DNL Marketo Measure] App. Sie können darauf zugreifen, indem Sie Ihre [!DNL Marketo Measure] Registerkarte in [!DNL Salesforce].
+Es handelt sich um ein Dashboard für benutzerdefinierte Marketing-Kanäle, das im [!DNL Marketo Measure] App. Der Zugriff darauf erfolgt über [!DNL Marketo Measure] Registerkarte in [!DNL Salesforce].

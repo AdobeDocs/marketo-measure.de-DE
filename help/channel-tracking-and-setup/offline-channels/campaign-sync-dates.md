@@ -3,10 +3,11 @@ unique-page-id: 18874684
 description: Kampagnensynchronisierungsdaten - [!DNL Marketo Measure] - Produktdokumentation
 title: Kampagnensynchronisierungsdaten
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -35,7 +36,7 @@ Manchmal kann es vorkommen, dass ein Marketing-Team die Hinzufügung von utm -Pa
 
 **Touchpoints der rückwirkenden Kampagnenmitgliedschaft**
 
-Wenn Sie neu sind [!DNL Marketo Measure] -Kunde, können Sie daran interessiert sein, einige der Marketing-Daten einzubringen, die Sie über SFDC-Kampagnen verfolgt haben. Wenn Sie jedoch Touchpoints für Ihre Online-SFDC-Kampagnen aktivieren würden, könnte es zu einer doppelten Zählung kommen, da [!DNL Marketo Measure] erstellt automatisch Touchpoints für Ihre Online-Marketing-Maßnahmen. Um eine doppelte Zählung der Daten zu vermeiden, können Sie mithilfe von Campaign Touchpoint-Enddaten eine Begrenzung für die Touchpoint-Daten festlegen, die von [!DNL Marketo Measure] zur SFDC-Kampagne. Wenn Sie beispielsweise rückwirkende Konversionen für eine Social-Kampagne hinzufügen möchten, die Sie in SFDC verfolgt haben, wissen Sie jedoch, dass Sie die [!DNL Marketo Measure] JavaScript (zur Erstellung von Online-Touchpoints) am 1. Juli können Sie die Social SFDC-Kampagne bearbeiten, um ein Touchpoint-Enddatum zu enthalten, das dem 1. Juli entspricht, und Käufer-Touchpoints für diese Kampagne aktivieren.
+Wenn Sie neu sind [!DNL Marketo Measure] -Kunde, können Sie daran interessiert sein, einige der Marketing-Daten einzubringen, die Sie über SFDC-Kampagnen verfolgt haben. Wenn Sie jedoch Touchpoints für Ihre Online-SFDC-Kampagnen aktivieren würden, könnte es zu einer doppelten Zählung kommen, da [!DNL Marketo Measure] erstellt automatisch Touchpoints für Ihre Online-Marketing-Maßnahmen. Um eine doppelte Zählung der Daten zu vermeiden, können Sie mithilfe von Campaign Touchpoint-Enddaten eine Begrenzung für die Touchpoint-Daten festlegen, die von [!DNL Marketo Measure] in der SFDC-Kampagne. Wenn Sie beispielsweise rückwirkende Konversionen für eine Social-Kampagne hinzufügen möchten, die Sie in SFDC verfolgt haben, wissen Sie jedoch, dass Sie die [!DNL Marketo Measure] JavaScript (zur Erstellung von Online-Touchpoints) am 1. Juli können Sie die Social SFDC-Kampagne bearbeiten, um ein Touchpoint-Enddatum zu enthalten, das dem 1. Juli entspricht, und Käufer-Touchpoints für diese Kampagne aktivieren.
 
 Es kann viele andere Anwendungsfälle für Touchpoint-Enddaten geben. Wenn Sie Hilfe bei der Ermittlung einer bestimmten Situation benötigen, wenden Sie sich bitte an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 

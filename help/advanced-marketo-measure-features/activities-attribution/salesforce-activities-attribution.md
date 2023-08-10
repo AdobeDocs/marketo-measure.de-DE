@@ -3,7 +3,8 @@ unique-page-id: 18874708
 description: Salesforce Activities-Zuordnung - [!DNL Marketo Measure] - Produktdokumentation
 title: Salesforce Activities-Zuordnung
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution, Salesforce
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 1%
@@ -47,13 +48,13 @@ Die Regeln dienen als Filter, um uns mitzuteilen, welche Datensätze für die Zu
 >
 >Formelfelder können nicht in Ihren Regeln verwendet werden und werden nicht in der Auswahlliste angezeigt. Da Formeln im Hintergrund berechnet werden und einen Datensatz nicht ändern, [!DNL Marketo Measure] kann nicht erkennen, ob ein Datensatz zu einer Regel passt oder nicht.
 >
->Stellen Sie sicher, dass die richtigen Werte für ID-Felder wie CrmEvent.CreatedById verwendet werden. [!DNL Salesforce IDs] sind 18 Zeichen lang (z. B. 0054H000007WmrfQAC).
+>Stellen Sie sicher, dass die richtigen Werte für ID-Felder wie CrmEvent.CreatedById verwendet werden. [!DNL Salesforce IDs] sind 18 Zeichen lang (z. B. 0054H00007WmrfQAC).
 
 Wählen Sie abschließend eines Ihrer Datums- oder Datums-/Uhrzeitfelder aus, das als Touchpoint-Datum des Käufers verwendet werden soll. Es können sowohl Standard- als auch benutzerdefinierte Felder ausgewählt werden.
 
 >[!TIP]
 >
->Mit der Paketinstallation [!DNL Marketo Measure] enthält ein benutzerdefiniertes Feld für das Touchpoint-Datum des Käufers im Aktivitätendatensatz. Wenn Sie ein dynamisches Datum verwenden möchten, z. B. das Datum, an dem sich ein Status ändert, können Sie einen CRM-Workflow verwenden, um das &quot;Touchpoint-Datum des Käufers&quot;festzulegen und in diesem Schritt hier das Touchpoint-Datum des Käufers auszuwählen.
+>Mit der Paketinstallation, [!DNL Marketo Measure] enthält ein benutzerdefiniertes Feld für das Touchpoint-Datum des Käufers im Aktivitätendatensatz. Wenn Sie ein dynamisches Datum verwenden möchten, z. B. das Datum, an dem sich ein Status ändert, können Sie einen CRM-Workflow verwenden, um das &quot;Touchpoint-Datum des Käufers&quot;festzulegen und in diesem Schritt hier das Touchpoint-Datum des Käufers auszuwählen.
 
 ![](assets/4.png)
 
@@ -65,7 +66,7 @@ Sie werden diese neuen Touchpoints wahrscheinlich in ihre entsprechenden [Market
 
 >[!TIP]
 >
->Verwenden Sie beim Hinzufügen einer Kanaldefinition Platzhalterwerte, um Operatoren leichter anzugeben, z. B.:
+>Verwenden Sie beim Hinzufügen einer Kanaldefinition Platzhalterwerte, um Operatoren wie die folgenden einfacher anzugeben:
 >
 >beginnt mit ( Outbound&#42; )
 >
@@ -75,7 +76,7 @@ Sie werden diese neuen Touchpoints wahrscheinlich in ihre entsprechenden [Market
 >
 >Keine Wildcard bedeutet im Grunde &quot;ist gleich&quot;. Daher sollten Sie sie nach Bedarf verwenden.
 
-| **Operator** | **Anwendungsfall** |
+| **Benutzerin oder Benutzer** | **Anwendungsfall** |
 |---|---|
 | ist gleich | Einzelwert - genaue Übereinstimmung |
 | enthält | Einzelwert - enthält Wert |

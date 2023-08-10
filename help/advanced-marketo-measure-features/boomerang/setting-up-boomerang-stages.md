@@ -3,10 +3,11 @@ unique-page-id: 18874767
 description: Einrichten von Boomerang-Phasen - [!DNL Marketo Measure] - Produktdokumentation
 title: Einrichten von Boomerang-Phasen
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+feature: Boomerang
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +29,7 @@ Aktivieren [!UICONTROL Boomerang] Staging für Ihr Konto, müssen Sie ein Kontoa
 
    ![](assets/2-2.png)
 
-1. Klicken **[!UICONTROL Speichern]**.
+1. Klicks **[!UICONTROL Speichern]**.
 
    >[!NOTE]
    >
@@ -52,7 +53,7 @@ Aktivieren [!UICONTROL Boomerang] Staging für Ihr Konto, müssen Sie ein Kontoa
 
    ![](assets/6-1.png)
 
-1. Legen Sie den Attributionsprozentsatz fest, den Sie den im benutzerdefinierten Modell enthaltenen Boomerang-Phasen zuweisen möchten. Stellen Sie sicher, dass die Gesamtzahl der Zuordnungen für alle Phasen 100 % ergibt. Klicken **[!UICONTROL Speichern und verarbeiten]**.
+1. Legen Sie den Attributionsprozentsatz fest, den Sie den im benutzerdefinierten Modell enthaltenen Boomerang-Phasen zuweisen möchten. Stellen Sie sicher, dass die Gesamtzahl der Zuordnungen für alle Phasen 100 % ergibt. Klicks **[!UICONTROL Speichern und verarbeiten]**.
 
    ![](assets/7-1.png)
 

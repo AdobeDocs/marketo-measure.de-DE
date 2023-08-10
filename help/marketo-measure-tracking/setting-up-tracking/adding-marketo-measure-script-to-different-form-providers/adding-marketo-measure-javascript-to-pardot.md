@@ -3,7 +3,8 @@ unique-page-id: 18874757
 description: Hinzufügen [!DNL Marketo Measure] JavaScript in [!DNL Pardot] - [!DNL Marketo Measure] - Produktdokumentation
 title: Hinzufügen [!DNL Marketo Measure] JavaScript in [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Hinzufügen [!DNL Marketo Measure] JavaScript in [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
-[!DNL Pardot] Formulare müssen innerhalb der Formularvorlage zusätzlich bearbeitet werden, bevor Skript auf der Site eingefügt wird, um [!DNL Marketo Measure] , um Formularübermittlungen zu erkennen. Das Verfahren ist einfach. Sie erfordert nur das Platzieren der [!DNL Marketo Measure] Tracking-Skript in [!DNL Pardot] Formularvorlage.
+[!DNL Pardot] Formulare müssen innerhalb der Formularvorlage zusätzlich bearbeitet werden, bevor Skript auf der Site eingefügt wird, um [!DNL Marketo Measure] , um Formularübermittlungen zu erkennen. Der Prozess ist einfach; er erfordert nur das Platzieren der [!DNL Marketo Measure] Tracking-Skript in [!DNL Pardot] Formularvorlage.
 
 ## Schrittweise Anleitungen {#step-by-step-instructions}
 

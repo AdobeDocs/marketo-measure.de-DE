@@ -3,7 +3,8 @@ unique-page-id: 42762310
 description: Synchronisieren historischer Daten - [!DNL Marketo Measure] - Produktdokumentation
 title: Synchronisieren historischer Daten
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 2%
@@ -18,9 +19,9 @@ ht-degree: 2%
 
 **Sind die Daten bereits in Kampagnen organisiert?**
 
-a. Die Daten müssen in Kampagnen organisiert sein, damit sie synchronisiert werden können [!DNL Marketo Measure] um Touchpoints zu generieren. Wenn sie derzeit nicht in Kampagnen organisiert ist, möchten Sie bewerten, ob es sich lohnt, die Zeit und die Ressourcen zu nutzen, die zur Segmentierung der Daten in die entsprechenden Kampagnen erforderlich sind.
+a. Die Daten müssen in Kampagnen unterteilt werden, damit sie synchronisiert werden können [!DNL Marketo Measure] um Touchpoints zu generieren. Wenn sie derzeit nicht in Kampagnen organisiert ist, möchten Sie bewerten, ob es sich lohnt, die Zeit und die Ressourcen zu nutzen, die zur Segmentierung der Daten in die entsprechenden Kampagnen erforderlich sind.
 
-b. Das Datum, an dem das Mitglied zur Kampagne hinzugefügt oder als &quot;beantwortet&quot;markiert wurde, wird für das Touchpoint-Datum verwendet, daher muss dies ebenfalls korrekt sein. [!DNL Marketo Measure] bietet Problemumgehungen sowohl in SFDC als auch in MSD, um die Daten zu aktualisieren. Dies kann jedoch je nach Volumen zeitaufwendig sein.
+b. Das Datum, an dem das Mitglied zur Kampagne hinzugefügt oder als beantwortet markiert wurde, wird für das Touchpoint-Datum verwendet, daher muss dies ebenfalls korrekt sein. [!DNL Marketo Measure] bietet Problemumgehungen sowohl in SFDC als auch in MSD, um die Daten zu aktualisieren. Dies kann jedoch je nach Volumen zeitaufwendig sein.
 
 **Ist die Menge an Daten, die in Kampagnen für alle Kanäle (Paid Search, Ereignisse, organische Inhalte usw.) zusammengefasst wird, ziemlich gleich?**
 
@@ -76,7 +77,7 @@ Verwenden Sie bei Bedarf die Schaltfläche &quot;Touchpoint-Datum-Massenaktualis
 
 [!DNL Marketo Measure] kann rückwirkend Touchpoints für in der Vergangenheit aufgetretene Interaktionen generieren, sofern diese in Kampagnen innerhalb von [!DNL Dynamics].
 
-Dies erfordert normalerweise die Arbeit im CRM, um historische Daten zu berücksichtigen. Die Handhabung unterscheidet sich auch bei Online-Bemühungen (verfolgt von JS) und Offline-Bemühungen (kann nicht von JS verfolgt werden).
+Dies erfordert in der Regel die Arbeit im CRM, um historische Daten zu berücksichtigen. Die Handhabung unterscheidet sich auch bei Online-Bemühungen (verfolgt von JS) und Offline-Bemühungen (kann nicht von JS verfolgt werden).
 
 Befolgen Sie die unten stehenden Anweisungen zum Organisieren von historischen Daten in [!DNL Dynamics] in einem Format, mit dem synchronisiert werden kann [!DNL Marketo Measure].
 
@@ -96,7 +97,7 @@ Weitere Informationen zur Synchronisierung von Marketinglisten finden Sie hier: 
 >
 >Wenn Sie aus irgendeinem Grund eine Kampagnen-Tracking-Online-Aktivität haben, die nach dem JavaScript-Live-Datum aktiv ist, stellen Sie sicher, dass Sie die[!UICONTROL Enddatum des Touchpoints]&quot; bis zum Datum, an dem das JS live geschaltet wurde. Dadurch soll verhindert werden, dass für dieselbe Interaktion doppelte Touchpoints vorhanden sind.
 
-Zu beachten: Auf diese Weise hinzugefügte Online-Daten sind von Natur aus weniger granular als Online-Daten. [!DNL Marketo Measure] verfolgt über JavaScript. Beispielsweise Felder wie: Formular-URL, Landingpage, verweisende Stelle usw. werden nicht ausgefüllt. Daher wird empfohlen, die Kampagnen nach Möglichkeit in jede Quelle zu unterteilen. Nachfolgend finden Sie ein Beispiel für eine ideale Zuordnung.
+Überlegungen: Auf diese Weise hinzugefügte Online-Daten sind von Natur aus weniger detailliert als Online-Daten. [!DNL Marketo Measure] verfolgt über JavaScript. Beispielsweise werden Felder wie Formular-URL, Landingpage, Referrer-Seite usw. nicht ausgefüllt. Daher wird empfohlen, die Kampagnen nach Möglichkeit in jede Quelle zu unterteilen. Nachfolgend finden Sie ein Beispiel für eine ideale Zuordnung.
 
 | Dynamics-Kampagnentyp | Kanal | Unterkanal |
 |---|---|---|
@@ -104,7 +105,7 @@ Zu beachten: Auf diese Weise hinzugefügte Online-Daten sind von Natur aus wenig
 | Paid Search - Bing | Bezahlte Suchergebnisse | Bing |
 | Paid Search - Yahoo | Bezahlte Suchergebnisse | Yahoo |
 
-Wenn Sie keine Möglichkeit haben, eine Quelle zu identifizieren, oder es sich nicht lohnt, die Zeit und Mühe aufzuwenden, können Sie einen Kampagnentyp verwenden, der einem Kanal zugeordnet ist, der z. B. &quot;Legacy Digital&quot;oder &quot;Historische Website&quot;heißt.
+Wenn Sie keine Möglichkeit haben, eine Quelle zu identifizieren, oder es sich nicht lohnt, die Zeit und Mühe aufzuwenden, können Sie einen Kampagnentyp verwenden, der einem Kanal zugeordnet ist, der z. B. &quot;Legacy Digital&quot; oder &quot;Historische Website&quot; heißt.
 
 **Offline:**
 
@@ -112,9 +113,9 @@ Um Touchpoints für Offline-Marketing-Maßnahmen aus der Vergangenheit zu haben,
 
 | Dynamics-Kampagnentyp | Kanal | Unterkanal |
 |---|---|---|
-| Veranstaltungen - gesponserte Konferenzen | Veranstaltungen | Gesponserte Konferenzen |
-| Ereignisse - Partnerereignisse | Veranstaltungen | Partnerereignisse |
-| Ereignisse - gehostete Ereignisse | Veranstaltungen | Gehostete Ereignisse |
+| Veranstaltungen - gesponserte Konferenzen | Ereignisse | Gesponserte Konferenzen |
+| Ereignisse - Partnerereignisse | Ereignisse | Partnerereignisse |
+| Ereignisse - gehostete Ereignisse | Ereignisse | Gehostete Ereignisse |
 | Webinar - Partner-Webinar | Webinar | Partner-Webinar |
 
 Wenn diese Daten nicht bereits in Kampagnen mit den richtigen Datumswerten organisiert sind, können Sie das Feld &quot;Touchpoint-Datum des Käufers&quot;verwenden, um das genaue Datum aus der Offline-Aktivität in der Vergangenheit widerzuspiegeln.

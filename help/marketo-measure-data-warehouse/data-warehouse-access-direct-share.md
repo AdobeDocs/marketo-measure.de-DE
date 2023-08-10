@@ -2,10 +2,11 @@
 description: Data Warehouse Access - Direct Share - Produktdokumentation
 title: Data Warehouse Access - Direct Share
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
-source-git-commit: 36ee02b2dfc2651987f72fc7f02fe629717f02a0
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -25,7 +26,7 @@ Zur [!DNL Marketo Measure] Um eine direkte Freigabe für Data Warehouse einzuric
 
 ## Snowflake-Konto-ID eingeben {#enter-snowflake-account-id}
 
-Öffnen Sie die **Einstellungen** in der Marketo Measure-App und navigieren Sie zur **Data Warehouse** Seite. Im **Direkte Freigabe** eingeben. [Snowflake-Konto-ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in das bereitgestellte Feld ein und klicken Sie auf **Verbinden**.
+Öffnen Sie die **Einstellungen** in der Marketo Measure-App und navigieren Sie zur **Data Warehouse** Seite. Im **Direkte Freigabe** eingeben. [Snowflake-Konto-ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in das Feld ein und klicken Sie auf **Verbinden**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 
@@ -37,7 +38,7 @@ Nachdem die Freigabe für die angegebene Konto-ID erstellt wurde, müssen Sie di
 >
 >Sie können einen beliebigen Datenbanknamen wählen. Sie können die Berechtigungen einer beliebigen Rolle zuweisen, sofern diese in Ihrer Snowflake-Instanz vorhanden ist.
 
-* Verwenden der Kontoadministratorrolle
+* Verwenden der Rolle &quot;Kontoadministrator&quot;
 
 ```
 USE ROLE ACCOUNTADMIN

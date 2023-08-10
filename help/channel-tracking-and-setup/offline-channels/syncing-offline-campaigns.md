@@ -3,7 +3,8 @@ unique-page-id: 18874600
 description: Synchronisieren von Offline-Kampagnen - [!DNL Marketo Measure] - Produktdokumentation
 title: Synchronisieren von Offline-Kampagnen
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Im Folgenden finden Sie einige Tipps für einen effizienten Synchronisierungspro
 * Wenn Sie Kampagnen einbeziehen möchten, die die Online-Aktivität vor der Installation verfolgt haben [!DNL Marketo Measure]stellen Sie sicher, dass Sie das Enddatum des Touchpoints als das Datum festlegen, an dem unser JavaScript auf Ihrer Site bereitgestellt wurde.
 * Es ist hilfreich, die [!DNL Marketo Measure] -App auf der Seite &quot;Offline-Kanäle&quot;geöffnet, damit die verschiedenen Kampagnentypen sowie der Marketing-Kanal, in den die Touchpoints zusammengefasst werden, leicht identifiziert werden können.
 
-* Überprüfen Sie alles, bevor Sie auf &quot;[!UICONTROL Speichern]&quot;!
+* Überprüfen Sie alles, bevor Sie auf &quot;[!UICONTROL Speichern]&quot;-Schaltfläche!
 
 ## Touchpoint-Datum für Massenaktualisierung {#bulk-update-touchpoint-date}
 
@@ -38,7 +39,7 @@ In diesem Fall würde das Upload-Datum um drei Wochen aufgestockt. Dieser Schrit
 
 Kurz gesagt, wenn Sie die [!UICONTROL Touchpoint-Datum für Massenaktualisierung] und ändern Sie das Touchpoint-Datum in das Datum des Ereignisses, [!DNL Marketo Measure] generiert Touchpoints für das tatsächliche Datum des Ereignisses, nicht für das Datum des Uploads.
 
-Sie können auch die Daten für alle Kampagnenmitglieder einer vorhandenen Kampagne aktualisieren. Stellen Sie dabei sicher, dass das Datum des Touchpoints das Datum der Interaktion des Mitglieds ist. Klicken Sie einfach auf das Touchpoint-Datum des Massen-Update-Käufers, filtern Sie die Liste der Kampagnenmitglieder nach Bedarf und geben Sie im Feld[!UICONTROL Datum auswählen]&quot; oberhalb der Liste der Kampagnenmitglieder, fügen Sie dasselbe Datum hinzu wie das Datum, an dem das Ereignis stattgefunden hat.
+Sie können auch die Daten für alle Kampagnenmitglieder einer vorhandenen Kampagne aktualisieren. Stellen Sie dabei sicher, dass das Datum des Touchpoints das Datum der Interaktion des Mitglieds ist. Klicken Sie einfach auf das Touchpoint-Datum des Massen-Update-Käufers, filtern Sie die Liste der Kampagnenmitglieder nach Bedarf und im[!UICONTROL Datum auswählen]&quot; oberhalb der Liste der Kampagnenmitglieder, fügen Sie das Datum hinzu, an dem das Ereignis stattgefunden hat.
 
 >[!CAUTION]
 >

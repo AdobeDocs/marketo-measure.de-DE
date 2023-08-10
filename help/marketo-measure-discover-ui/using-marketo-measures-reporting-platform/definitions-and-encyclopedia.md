@@ -3,7 +3,8 @@ unique-page-id: 18874662
 description: Definitionen und Enzyklopädie - [!DNL Marketo Measure] - Produktdokumentation
 title: Definitionen und Enzyklopädie
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '6083'
 ht-degree: 7%
@@ -12,7 +13,7 @@ ht-degree: 7%
 
 # Definitionen und Enzyklopädie {#definitions-and-encyclopedia}
 
-Im Folgenden finden Sie einen Überblick über die verschiedenen Pinnwände und Kacheln, die in der Discover-Plattform vorhanden sind, sowie über die Filter in diesen Pinnwänden. Im Screenshot jedes Board befinden sich mehrere Zahlenkacheln, deren Definitionen im folgenden Abschnitt des Board zu finden sind.
+Im Folgenden finden Sie einen Überblick über die verschiedenen Pinnwände und Kacheln in der Discover-Plattform sowie über die Filter in diesen Pinnwänden. Im Screenshot jedes Board befinden sich mehrere Zahlenkacheln, deren Definitionen im folgenden Abschnitt des Board zu finden sind.
 
 **[!DNL Marketo Measure]Pinnwände**
 
@@ -22,11 +23,11 @@ Wachstum
 
 Anzeigen-ROI
 
-Account-Based-Marketing
+Kontobasiertes Marketing
 
 Marketingausgaben
 
-Web-Traffic
+Webtraffic
 
 **Rollenbasierte Anzeigen**
 
@@ -36,7 +37,7 @@ Bezahlte Medien
 
 Content-Marketing
 
-Marketing-Opportunities
+Marketing Ops 
 
 **Verlauf**
 
@@ -218,7 +219,7 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 Führen Sie einen Drilldown durch, um die Daten aus einer kleineren Datumsdimension anzuzeigen.
 
-**Opportunities**
+**Gelegenheiten**
 
 `11.` Die Gesamtanzahl der Möglichkeiten, basierend auf dem Attributionsmodell. Wenn der Datumstyp &quot;Touchpoint-Datum&quot;ausgewählt ist, sind partielle Zählungen möglich, da es möglich ist, mithilfe dieses Datumstyps einige Touchpoints in einem Opportunity-Datensatz auszuschließen.
 
@@ -314,7 +315,7 @@ Kategorien
 
 `3.` Eine Liste von Suchbegriffen, die darauf basieren, wie viel Umsatz, Ausgaben und ROI den einzelnen Suchbegriffen zugeordnet wurden, sortiert nach dem höchsten Umsatz basierend auf dem ausgewählten Attributionsmodell.
 
-### Account-Based-Marketing {#account-based-marketing}
+### Kontobasiertes Marketing {#account-based-marketing}
 
 Account-basiertes Marketing bietet Unternehmen, die ABM verwenden, die Möglichkeit, ihre Bemühungen zu ihren Zielkonten zu verfolgen und zu sehen, wie viel Interaktion sie von ihrem Marketing aus gesehen haben.
 
@@ -348,7 +349,7 @@ Die durchschnittliche Anzahl der Touchpoints, die von jedem CRM-Konto generiert 
 
 **Lead-Treffer**
 
-Die Gesamtzahl der Leads, die mit der Variablen [!DNL Marketo Measure] Lead-to-Account-Funktion unter Verwendung von Algorithmen zum Abgleich von Website-, Unternehmens- und E-Mail-Domänen.
+Die Gesamtzahl der Leads, die mit der Variablen [!DNL Marketo Measure] Lead-to-Account-Funktion unter Verwendung von Algorithmen zur Website-, Unternehmens- und E-Mail-Domänenübereinstimmung.
 
 **Eingebundene Konten**
 
@@ -356,11 +357,11 @@ Die Gesamtanzahl der Konten, die Touchpoints erhalten haben. Wenn eine Zielkonto
 
 **Eingebundene Opportunities**
 
-Die Gesamtzahl der Gelegenheiten, die einen Touchpoint erhalten haben. Wenn eine Zielkontoliste verwendet wird, ist dies die Untergruppe der Möglichkeiten aus dieser Zielkontoliste.
+Die Gesamtanzahl der Gelegenheiten, die einen Touchpoint erhalten haben. Wenn eine Zielkontoliste verwendet wird, ist dies die Untergruppe der Möglichkeiten aus dieser Zielkontoliste.
 
 **Eingebundene Personen**
 
-Die Gesamtzahl der Kontakte (Leads und Kontakte nach E-Mail-Adressen), die Touchpoints erhalten haben. Wenn eine Zielkontoliste verwendet wird, ist dies die Teilmenge der Kontakte aus dieser Zielkontoliste.
+Die Gesamtzahl der Kontakte (Leads und Kontakte nach E-Mail-Adressen), die einen Touchpoint erhalten haben. Wenn eine Zielkontoliste verwendet wird, ist dies die Teilmenge der Kontakte aus dieser Zielkontoliste.
 
 **Touchpoints im Zeitablauf**
 
@@ -376,7 +377,7 @@ Nach Konto-ID und Kontoname: die Gesamtzahl der Touchpoints aus jedem Konto.
 
 **Touchpoints-Anzahl**
 
-Die Anzahl der Touchpoints, die jeder Dimension zugeordnet sind und bei denen die Dimension vom Filter Gruppieren nach geändert werden kann, z. B.: Keine/Kanal/Subkanal/Kampagne/Konto/Advertiser/Anzeige/Creative/Anzeigengruppe/Keyword/Platzierung/Site.
+Die Anzahl der Touchpoints, die jeder Dimension zugeordnet sind. Dabei kann die Dimension durch den Filter Gruppe nach geändert werden, z. B.: Keine/Kanal/Subkanal/Kampagne/Konto/Advertiser/Anzeige/Creative/Anzeigengruppe/Keyword/Platzierung/Site.
 
 ### Marketingausgaben {#marketing-spend}
 
@@ -432,13 +433,13 @@ Eine Liste der Kanäle, basierend darauf, wie viel für jeden Kanal gemeldet wur
 
 **Ausgaben nach Unterkanal**
 
-Eine Liste von Unterkanälen, die darauf basieren, wie viel für jeden Unterkanal gemeldet wurde, sortiert nach den höchsten Ausgaben.
+Eine Liste von Unterkanälen, basierend darauf, wie viel für jeden Unterkanal gemeldet wurde, sortiert nach den höchsten Ausgaben.
 
 **Ausgaben nach Kampagne**
 
-Eine Liste der Kampagnen, die darauf basieren, wie viel für die einzelnen Kampagnen gemeldet wurde, sortiert nach den höchsten Ausgaben. Die Kampagnen bestehen aus einer vollständigen Liste von Kampagnen, die utm_campaign -Werte aus Seitenansichten enthalten.
+Eine Liste der Kampagnen, die darauf basieren, wie viel für jede Kampagne gemeldet wurde, sortiert nach den höchsten Ausgaben. Die Kampagnen bestehen aus einer vollständigen Liste von Kampagnen, die utm_campaign -Werte aus Seitenansichten enthalten.
 
-### Web-Traffic {#web-traffic}
+### Webtraffic {#web-traffic}
 
 Mit der Ansicht &quot;Web Traffic&quot;können Marketing-Experten Aktivitäten auf ihrer Website verfolgen und den Traffic sowohl von bekannten als auch von anonymen Site-Besuchern messen.
 
@@ -524,11 +525,11 @@ Die Anzahl der Seitenbesuche und individuellen Besuche, die von jeder verweisend
 
 **Einzelbesuche nach Quelle**
 
-Zeigen Sie mithilfe des Dropdown-Menüs Gruppieren nach im Menü Filter die Quelle der Unique Visitors auf Ihrer Site an. Ändern Sie die Gruppe durch: Kanal, Subkanal, Kampagne, Konto, Anzeigengruppe, Anzeige, Advertiser, Kreativ, Keyword, Platzierung, Site.
+Zeigen Sie mithilfe des Dropdown-Menüs Gruppieren nach im Menü Filter die Quelle der Unique Visitors auf Ihrer Site an. Ändern Sie die Gruppe nach: Kanal, Subkanal, Kampagne, Konto, Anzeigengruppe, Anzeige, Advertiser, Kreativ, Suchbegriff, Platzierung, Site.
 
 **Besuche nach Quelle**
 
-Zeigen Sie mithilfe des Dropdown-Menüs Gruppieren nach im Menü Filter die Quelle der Besucher Ihrer Site an. Ändern Sie die Gruppe durch: Kanal, Subkanal, Kampagne, Konto, Anzeigengruppe, Anzeige, Advertiser, Kreativ, Keyword, Platzierung, Site.
+Zeigen Sie mithilfe des Dropdown-Menüs Gruppieren nach im Menü Filter die Quelle der Besucher Ihrer Site an. Ändern Sie die Gruppe nach: Kanal, Subkanal, Kampagne, Konto, Anzeigengruppe, Anzeige, Advertiser, Kreativ, Suchbegriff, Platzierung, Site.
 
 **Leads nach Landing Page**
 
@@ -668,7 +669,7 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 **Überblick**
 
-`5.` Mithilfe des Dropdown-Menüs Metrik im Menü Filter zeigt dieses Diagramm den Umsatz/Pipeline-Umsatz/die Ausgaben/Angebote/Gelegenheiten/Interessenten/Kontakte/Besuche/Unique Visits/Impressionen/Klicks/Formulare im Zeitverlauf an.
+`5.` Mithilfe des Dropdown-Menüs Metrik im Menü Filter zeigt dieses Diagramm den Umsatz / Pipeline-Umsatz / Ausgaben / Angebote / Gelegenheiten / Kontakte / Besuche / Unique Visits / Impressionen / Klicks / Formulare im Zeitverlauf an.
 
 **Impressions**
 
@@ -824,7 +825,7 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 `15.` Eine Liste der Seiten-URLs basierend auf der Anzahl der von jeder URL erstellten Leads, sortiert nach den Seiten mit den meisten Leads.
 
-### Marketing-Opportunities {#marketing-ops}
+### Marketing Ops  {#marketing-ops}
 
 Überprüfen und diagnostizieren [!DNL Marketo Measure] Daten mit vollständiger Sichtbarkeit in einzelne Touchpoints.
 
@@ -862,7 +863,7 @@ Lead Details
 
 Attribution Touchpoint-Details
 
-Touchpoints-Datum Details
+Touchpoint-Details ansehen
 
 ![](assets/definitions-and-encyclopedia-18.png)
 
@@ -872,7 +873,7 @@ Touchpoints-Datum Details
 
 Klicken Sie auf die aggregierten Zahlen, um im Drilldown-Verfahren nach grundlegenden Datendetails zu suchen.
 
-**Opportunities**
+**Gelegenheiten**
 
 `2.` Liste aller Möglichkeiten mit Attributions-Touchpoints. Die Informationen für jede Gelegenheit enthalten die Opportunitätsmenge, die Anzahl der Kontakte und die Anzahl der Attributions-Touchpoints.
 
@@ -898,17 +899,17 @@ Klicken Sie auf die aggregierten Zahlen, um im Drilldown-Verfahren nach grundleg
 
 **Häufig gestellte Fragen zu Marketing Ops**
 
-**F: Warum gibt es sowohl einen Filter &quot;Konto-ID&quot;als auch &quot;Kontoname&quot;?**
+**F: Warum gibt es sowohl einen Filter für die &#39;Konto-ID&#39; als auch für den &#39;Konto-Name&#39;?**
 
-A: Konto-IDs sind zwar eindeutig, Kontonamen müssen jedoch nicht sein. Sie hätten beispielsweise für jede Geschäftseinheit innerhalb eines Unternehmens mehrere verschiedene Konten erstellt. Auch wenn die Verwendung des Kontonamens intuitiver sein kann, um sicherzustellen, dass Sie nach einem bestimmten Konto filtern, sollten Sie die Konto-ID verwenden.
+A: Konto-IDs sind zwar eindeutig, Kontonamen müssen jedoch nicht sein. Sie hätten beispielsweise für jede Geschäftseinheit innerhalb eines Unternehmens mehrere verschiedene Konten erstellen können. Auch wenn die Verwendung des Kontonamens intuitiver sein kann, um sicherzustellen, dass Sie nach einem bestimmten Konto filtern, sollten Sie die Konto-ID verwenden.
 
-**F: Wenn ich nach Konto-ID filtere, werden dann alle Tabellen nach gefiltert?**
+**F: Wenn ich nach Konto-ID filtere, werden dann alle Tabellen gefiltert?**
 
 A: Ja, der Filter wird auf jede Kachel in der Pinnwand angewendet. Wenn Sie beispielsweise einen Kontofilter für &quot;Microsoft&quot;anwenden möchten, sehen Sie in der Kachel &quot;Chancen&quot;nur Chancen im Zusammenhang mit Microsoft.
 
 **F: Was ist die Spalte &quot;Interaktionsbewertung&quot;?**
 
-A: Die Interaktionsbewertung ruft aus der [!DNL Marketo Measure] Prädiktive Kontointeraktionsbewertung, verfügbar unter [!DNL Marketo Measure] Ebene 2. Wenn Sie dies nicht haben, wird dieses Feld als null angezeigt.
+A: Die Interaktionsbewertung ruft die [!DNL Marketo Measure] Prädiktive Kontointeraktionsbewertung, verfügbar unter [!DNL Marketo Measure] Ebene 2. Wenn Sie dies nicht haben, wird dieses Feld als null angezeigt.
 
 **F: Kann ich die Sortierung der Tabelle ändern?**
 
@@ -998,19 +999,19 @@ Lead oder Kontakte
 
 **Lead / Kontakt Momentaufnahme**
 
-`1.` Die Anzahl der Lead- oder Kontaktdatensätze, die sich in jeder Phase zum ausgewählten Datum befanden.
+`1.` Die Anzahl der Lead- oder Kontaktdatensätze, die sich in den einzelnen Phasen des ausgewählten Datums befanden.
 
 **Lead-/Kontaktaufnahme (Tabelle)**
 
-`2.` Die Anzahl der Lead- oder Kontaktdatensätze, die sich in jeder Phase zum ausgewählten Datum befanden.
+`2.` Die Anzahl der Lead- oder Kontaktdatensätze, die sich in den einzelnen Phasen des ausgewählten Datums befanden.
 
 **Opportunity Momentaufnahme**
 
-`3.` Die Anzahl der Opportunity-Einträge, die sich in jeder Phase zum ausgewählten Datum befanden.
+`3.` Die Anzahl der Opportunity-Einträge, die sich in den einzelnen Phasen des ausgewählten Datums befanden.
 
 **Opportunity Snapshot (Tabelle)**
 
-`4.` Die Anzahl der Opportunity-Einträge, die sich in jeder Phase zum ausgewählten Datum befanden.
+`4.` Die Anzahl der Opportunity-Einträge, die sich in den einzelnen Phasen des ausgewählten Datums befanden.
 
 ### Passport {#passport}
 
@@ -1058,9 +1059,9 @@ Attributionsmodell
 
 Ereignistyp
 
-Buyer Touchpoints-Position
+Position Buyer Touchpoint
 
-Buyer Attribution Touchpoint-Position
+Position Buyer Attribution Touchpoint
 
 Touchpoint-Datum
 
@@ -1070,7 +1071,7 @@ Marketing-Kontakttyp
 
 Kanal
 
-Mittel
+Medium
 
 Webquelle
 
@@ -1088,21 +1089,21 @@ Klicken Sie auf Ereignistyp , um im Drilldown-Verfahren Ereignisdetails anzuzeig
 
 **Häufig gestellte Fragen zum Interaktionspfad**
 
-**F: Wie kann ich die Journey einer Person anzeigen?**
+**F: Wie kann ich die Journey einer einzelnen Person anzeigen?**
 
-A: Setzen Sie den Filter mithilfe des Filters &quot;Lead-ID/E-Mail&quot;oder &quot;Kontakt-ID/E-Mail&quot;auf &quot;enthält&quot; [E-Mail-Adresse]&quot; und klicken Sie dann auf &quot;Ausführen&quot;.
+A: Setzen Sie den Filter mithilfe des Filters &quot;Lead-ID/E-Mail&quot;oder &quot;Kontakt-ID/E-Mail&quot; auf &quot;enthält&quot;. [Email-Adresse]&quot; und klicken Sie dann auf &quot;Ausführen&quot;.
 
-**F: Was beeinflusst der Filter &quot;Attributionsmodell&quot;?**
+**F: Welche Auswirkungen hat der Filter &quot;Attributionsmodell&quot;?**
 
 A: Der Filter für das Attributionsmodell wirkt sich auf die Spalte &quot;Zugeordneter Umsatz&quot;aus
 
-**F: Was ist der Filter &quot;Marketing-Touch-Typ&quot;?**
+**F: Was ist der Filter &quot;Marketing Touch Type&quot;?**
 
-A: Der &quot;Marketing-Touchtyp&quot;ist der Interaktionstyp, der Webbesuch, Webformular, Webchat, E-Mail, Anruf, Linkmeldung oder CRM beinhalten kann (d. h. die Kampagnenmitgliedschaft für Offline-Kanäle).
+A: Der &quot;Marketing-Touchtyp&quot;ist der Interaktionstyp, der Webbesuch, Webformular, Webchat, E-Mail, Anruf, Linknachricht oder CRM beinhalten kann (d. h. die Kampagnenmitgliedschaft für Offline-Kanäle).
 
-**F: Wie kann ich alle Websitzungen aus der Journey herausfiltern?**
+**F: Wie kann ich alle Websitzungen von der Journey herausfiltern?**
 
-A: Setzen Sie den Filter mithilfe des Filters &quot;Marketing-Touchtyp&quot;auf &quot;enthält keinen Webbesuch&quot;ODER &quot;enthält&quot; [alle Touchtypen außer Webbesuch]und klicken Sie dann auf &quot;Ausführen&quot;
+A: Setzen Sie den Filter mithilfe des Filters &quot;Marketing-Touchtype&quot;auf &quot;enthält keinen Webbesuch&quot;ODER &quot;enthält&quot;. [alle Touchtypen außer Webbesuch]und klicken Sie dann auf &quot;Ausführen&quot;
 
 **F: Kann ich die Daten exportieren?**
 

@@ -1,60 +1,61 @@
 ---
 unique-page-id: 18874732
-description: Best Practices zum Einrichten von UTM-Parametern - [!DNL Marketo Measure] - Produktdokumentation
+description: Best Practices zum Einrichten von UTM-Parametern – [!DNL Marketo Measure] – Produktdokumentation
 title: Best Practices zum Einrichten von UTM-Parametern
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: UTM Parameters
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # Best Practices zum Einrichten von UTM-Parametern {#best-practices-for-setting-up-utm-parameters}
 
-UTM-Parameter eignen sich hervorragend, um Ihre Marketing-Daten zu zerteilen und zu würzen. [!DNL Marketo Measure] verwendet und erfasst alle UTM-Parameter, um Felder in Salesforce und in der [!DNL Marketo Measure] App. Mit diesen Informationen erhalten Sie ein detailliertes Verständnis davon, woher Ihre Leads, Chancen und geschlossenen/gewachten Angebote kommen.
+UTM-Parameter eignen sich hervorragend, um die Slice-and-Dice-Technik auf Ihre Marketing-Daten anzuwenden. [!DNL Marketo Measure] verwendet und erfasst alle UTM-Parameter, um Felder in Salesforce und in der [!DNL Marketo Measure]-App aufzufüllen. Mit diesen Informationen erhalten Sie ein genaues Verständnis dafür, woher Ihre Leads, Opportunitys und abgeschlossenen/gewonnenen Deals stammen.
 
-Sie können die [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} , wenn Sie eine einfachere Möglichkeit wünschen, alle UTM-Links zu verfolgen.
+Sie können den [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=de){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} verwenden, wenn Sie sich eine einfachere Möglichkeit wünschen, um alle Ihre UTM-Links nachzuverfolgen.
 
-## Hohe Werte für jeden Parameter {#high-level-values-for-each-parameter}
+## Allgemeine Werte für jeden Parameter {#high-level-values-for-each-parameter}
 
-**utm_medium**: Dieses Feld wird dem Feld Medium zugeordnet. Verwenden Sie utm_medium, um den Kanal auf hoher Ebene zu kennzeichnen.
+**utm_medium**: Dieses Feld ist dem Feld „Medium“ zugeordnet. Verwenden Sie „utm_medium“, um den übergeordneten Kanal anzugeben.
 
-z. B. [!UICONTROL Social], CPC, E-Mail, Web, organisch
+Beispiel: [!UICONTROL Social], CPC, email, web, organic
 
-Verwenden Sie dieses Feld nicht, um den Unterkanal aufzurufen.
+Verwenden Sie dieses Feld nicht, um den Subkanal zu benennen.
 
-**utm_source**: Dieses Feld wird dem Feld &quot;Touchpoint-Quelle&quot;zugeordnet. Verwenden Sie utm_source , um den Unterkanal zu definieren, aus dem der Lead stammt.
+**utm_source**: Dieses Feld ist dem Feld „Touchpoint-Quelle“ zugeordnet. Verwenden Sie „utm_source“, um den Subkanal zu definieren, aus dem der Lead stammt.
 
-z. B. Facebook, Twitter, LinkedIn, Drip_email, Email_blast, Newsletter.
+Beispiel: Facebook, Twitter, LinkedIn, Drip_email, Email_blast, newsletter
 
-Halten Sie es einfach. Verwenden Sie diesen Parameter nicht, um den Anzeigentyp wie Retargeting, Sponsored usw. zu kennzeichnen. Fügen Sie kein utm_source = homepage, webdirect, website hinzu. [!DNL Marketo Measure] werden diese Informationen automatisch für Sie ausfüllen.
+Achten Sie auf Einfachheit. Verwenden Sie diesen Parameter nicht, um die Anzeigenart, z. B. „Retargeting“, „Gesponsert“ usw., anzugeben. Fügen Sie kein „utm_source = homepage, webdirect, website“ hinzu. [!DNL Marketo Measure] trägt diese Informationen automatisch für Sie ein.
 
-**utm_campaign**: Dieses Feld wird dem Anzeigenkampagnennamen zugeordnet. Verwenden Sie utm_campaign, um den Titel der Kampagne so zu kennzeichnen, wie er in der Anzeigenplattform vorhanden ist oder wie er intern referenziert wird.
+**utm_campaign**: Dieses Feld ist dem Anzeigenkampagnennamen zugeordnet. Verwenden Sie „utm_campaign“, um den Titel der Kampagne so wie auf der Anzeigenplattform oder intern referenziert anzugeben.
 
-Dies ist auch ein guter Parameter, um Geolocation, Netzwerk-Typ der Anzeige (Display v. search) usw. anzugeben.
+Dieser Parameter eignet sich auch hervorragend, um Geolokation, Anzeigennetzwerk-Typ (Display oder Suche) usw. anzugeben.
 
-Es wird empfohlen, Unterstriche anstelle von Leerzeichen zu verwenden und Interpunktion zu vermeiden. Dadurch wird die Wahrscheinlichkeit von Kodierungsfehlern durch Browser beim Lesen Ihrer Parameter verringert.
+Es wird empfohlen, Unterstriche anstelle von Leerzeichen zu verwenden und auf Interpunktion zu verzichten. Dadurch wird die Wahrscheinlichkeit von Codierungsfehlern durch Browser beim Lesen Ihrer Parameter verringert.
 
-z. B. AU_Idea_for_an_App_50k
+Beispiel: AU_Idee_zu_einer_App_50k
 
-**utm_content**: Diese Zuordnung erfolgt auf Anzeigeninhalt. Verwenden Sie den Anzeigentitel im Parameter utm_content . Wenn es sich um eine Bildanzeige handelt, verwenden Sie den Anzeigentitel und schließen Sie die Anzeigendimensionen ein.
+**utm_content**: Dieses Feld ist dem Anzeigeninhalt zugeordnet. Verwenden Sie den Anzeigentitel im Parameter „utm_content“. Wenn es sich um eine Bildanzeige handelt, verwenden Sie den Anzeigentitel und schließen Sie die Abmessungen der Anzeige ein.
 
-z. B. [Anzeigentitel] 200x400px
+Beispiel: [Anzeigentitel] 200x400px
 
-**utm_term**: Diese Zuordnung erfolgt über Suchbegrifftext. Verwenden Sie diesen Parameter, um den Suchbegriff im Zusammenhang mit der Auslösung der Anzeige zu kennzeichnen.
+**utm_term**: Dieses Feld ist dem Keyword-Text zugeordnet. Verwenden Sie diesen Parameter, um das Keyword im Zusammenhang mit der Auslösung der Anzeige anzugeben.
 
-Wenn es keinen Suchbegriff für die Anzeige gibt, lassen Sie diesen Parameter leer.
+Wenn es kein Keyword für die Anzeige gibt, lassen Sie diesen Parameter leer.
 
-z. B. iPhone App-Ideen
+Beispiel: iPhone App Ideas
 
-**Halten Sie es einfach und prägnant. Duplizieren Sie keine Bemühungen, Begriffe und Kanäle.**
+**Achten Sie auf Einfachheit und Prägnanz. Duplizieren Sie keine Maßnahmen, Begriffe und Kanäle.**
 
 Wir stellen uns die UTM-Hierarchie wie folgt vor:
 
-Mittel > [!UICONTROL Quelle] > [!UICONTROL Kampagne] > [!UICONTROL Inhalt/Begriff]
+Medium > [!UICONTROL Quelle] > [!UICONTROL Kampagne] > [!UICONTROL Inhalt/Begriff]
 
-z. B. Wenn eine [!UICONTROL display] Werbeanzeigen werden in Facebook platziert. Wir empfehlen Folgendes:
+Beispiel: Wenn eine [!UICONTROL Display]-Anzeige auf Facebook platziert wird, empfehlen wir Folgendes:
 
 fakewebsite.com/
 
@@ -66,6 +67,6 @@ fakewebsite.com/
 
 &amp;utm_content=content_of_campaign
 
-Beachten Sie, dass Begriffe/Kanäle nicht dupliziert werden und in diesem Fall utm_term nicht verwendet wird.
+Beachten Sie, dass Begriffe/Kanäle nicht dupliziert werden und in diesem Fall „utm_term“ nicht verwendet wird.
 
-Wenden Sie sich bei Fragen an das Adobe Account Team (Ihren Kundenbetreuer) oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Wenden Sie sich bei Fragen an das Adobe-Accountteam (Ihre Kundenbetreuung) oder den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

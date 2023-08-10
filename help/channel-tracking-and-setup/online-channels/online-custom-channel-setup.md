@@ -3,8 +3,9 @@ unique-page-id: 18874596
 description: Online-Einrichtung benutzerdefinierter Kanäle - [!DNL Marketo Measure] - Produktdokumentation
 title: Online-Einrichtung benutzerdefinierter Kanäle
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
-workflow-type: ht
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 100%
 

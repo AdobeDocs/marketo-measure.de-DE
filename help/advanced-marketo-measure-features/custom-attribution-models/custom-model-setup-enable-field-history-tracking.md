@@ -3,10 +3,11 @@ unique-page-id: 18874777
 description: Benutzerdefinierte Modelleinrichtung - Feldverlauf-Tracking aktivieren - [!DNL Marketo Measure] - Produktdokumentation
 title: Benutzerdefinierte Modelleinrichtung - Feldverlauf-Tracking aktivieren
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Models
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -34,4 +35,4 @@ Befolgen Sie die unten stehenden Anweisungen, um die Verfolgung des Feldverlaufs
 
    ![](assets/2.png)
 
-[!DNL Marketo Measure] kann einen Datensatz nur dann erneut importieren, wenn er sieht, dass der Datensatz vor kurzem geändert wurde. Formelfelder ändern einen Datensatz technisch nicht, wenn er sich ändert, da er die Berechnung im Hintergrund durchführt. Wir haben Probleme festgestellt, bei denen eine Regel übersprungen wird, weil [!DNL Marketo Measure] hat die Datensatzänderung nicht gesehen, daher wird empfohlen, **keine Formelfelder in Regeldefinitionen verwenden**. Die Lösung besteht darin, ein Textfeld zu erstellen und dieses Feld mit einem Workflow zu füllen, der jedes Mal, wenn der Datensatz bearbeitet wird oder den Kriterien entspricht, den richtigen Wert oder die richtige Berechnung enthält. Dies setzt voraus, dass alle Datensätze bearbeitet werden, damit der Workflow rückwirkend alte Datensätze bearbeiten kann.
+[!DNL Marketo Measure] kann einen Datensatz nur dann erneut importieren, wenn er feststellt, dass der Datensatz vor kurzem geändert wurde. Formelfelder ändern einen Datensatz technisch nicht, wenn er sich ändert, da er die Berechnung im Hintergrund durchführt. Wir haben Probleme festgestellt, bei denen eine Regel übersprungen wird, weil [!DNL Marketo Measure] hat die Datensatzänderung nicht gesehen, daher wird empfohlen, **keine Formelfelder in Regeldefinitionen verwenden**. Die Lösung besteht darin, ein Textfeld zu erstellen und dieses Feld mit einem Workflow zu füllen, der jedes Mal, wenn der Datensatz bearbeitet wird oder den Kriterien entspricht, den richtigen Wert oder die richtige Berechnung enthält. Dies setzt voraus, dass alle Datensätze bearbeitet werden, damit der Workflow rückwirkend alte Datensätze bearbeiten kann.

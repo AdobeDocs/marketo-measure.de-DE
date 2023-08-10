@@ -1,16 +1,17 @@
 ---
 unique-page-id: 42762600
 description: Momentaufnahme-Dashboard-Dokumentation - [!DNL Marketo Measure] - Produktdokumentation
-title: Momentaufnahme-Dashboard-Dokumentation
+title: Dokumentation zum Momentaufnahmen-Dashboard
 exl-id: 4dfc92d2-ccab-4726-a869-3ae32aa89a5f
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Momentaufnahme-Dashboard-Dokumentation {#snapshot-dashboard-documentation}
+# Dokumentation zum Momentaufnahmen-Dashboard {#snapshot-dashboard-documentation}
 
 Mit dem Snapshot-Dashboard können Sie den Status Ihres CRM jederzeit anzeigen, mit der Verteilung der Datensätze über Lead-/Kontakt- und Opportunity-Phasen.
 
@@ -20,30 +21,30 @@ Dieses Dashboard besteht aus zwei Kacheln:
 
 >[!NOTE]
 >
->In allen Discover-Dashboards kann nur ein Personenobjekt (Lead oder Kontakt) gemeldet werden. Dies wird in [!UICONTROL Einstellungen] > [!UICONTROL Berichterstellung] > [!UICONTROL Attributionseinstellungen] > [!UICONTROL Standard-Dashboard-Objekt].
+>In allen Discover-Dashboards kann nur ein Personenobjekt, entweder &quot;Lead&quot;oder &quot;Kontakt&quot;, gemeldet werden. Dies wird in [!UICONTROL Einstellungen] > [!UICONTROL Berichterstellung] > [!UICONTROL Attributionseinstellungen] > [!UICONTROL Standard-Dashboard-Objekt].
 
 * **Opportunity Snapshot:** Die Anzahl der Opportunity-Einträge in jeder Phase am ausgewählten Datum.
 
 Dieses Dashboard unterstützt die folgenden Filter (alle Filter gelten für beide Kacheln):
 
 * Momentaufnahmen-Datum: Wählen Sie das Datum der Momentaufnahme aus.
-* CRM-Konto-ID/-Name: die Datensätze nach CRM-Konto-IDs oder Namen filtern.
+* CRM-Konto-ID/-Name: Filtern Sie die Datensätze nach CRM-Konto-IDs oder Namen.
 
 >[!NOTE]
 >
 >Vorschläge zeigen nur Namen an.
 
-* Kanal: die Datensätze nach Kanälen filtern. Ein Datensatz ist mit einem Kanal verknüpft, wenn einer seiner Touchpoints mit dem Kanal verknüpft ist.
-* Subchannel: die Datensätze nach Unterkanälen filtern. Ein Datensatz ist mit einem Unterkanal verknüpft, wenn einer seiner Touchpoints mit dem Unterkanal verknüpft ist.
-* Kampagne: die Datensätze nach Kampagnen filtern. Ein Datensatz ist mit einer Kampagne verknüpft, wenn einer seiner Touchpoints mit der Kampagne verknüpft ist.
-* Kampagnenquelle: die Datensätze nach Kampagnenquellen zu filtern. Beispiel-Kampagnenquellen: [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], usw. Ein Datensatz wird mit einer Kampagnenquelle verknüpft, wenn einer seiner Touchpoints mit der Kampagnenquelle verknüpft ist.
-* Kontokennung/-name der Anzeige: die Datensätze nach Anzeigen-Konto-IDs oder Namen filtern. Ein Datensatz wird einem Anzeigenkonto zugeordnet, wenn einer seiner Touchpoints über die ausgewählten Anzeigenkonten einer Kampagne zugeordnet ist.
+* Kanal: Filtern Sie die Datensätze nach Kanälen. Ein Datensatz ist mit einem Kanal verknüpft, wenn einer seiner Touchpoints mit dem Kanal verknüpft ist.
+* Unterkanal: zum Filtern der Datensätze nach Unterkanälen. Ein Datensatz ist mit einem Unterkanal verknüpft, wenn einer seiner Touchpoints mit dem Unterkanal verknüpft ist.
+* Kampagne: Filtern Sie die Datensätze nach Kampagnen. Ein Datensatz ist mit einer Kampagne verknüpft, wenn einer seiner Touchpoints mit der Kampagne verknüpft ist.
+* Kampagnenquelle: Filtern Sie die Datensätze nach Kampagnenquellen. Beispiel-Kampagnenquellen: [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], usw. Ein Datensatz wird mit einer Kampagnenquelle verknüpft, wenn einer seiner Touchpoints mit der Kampagnenquelle verknüpft ist.
+* Konto-ID/-Name der Anzeige: Filtern Sie die Datensätze nach IDs oder Namen des Anzeigenkontos. Ein Datensatz wird einem Anzeigenkonto zugeordnet, wenn einer seiner Touchpoints über die ausgewählten Anzeigenkonten einer Kampagne zugeordnet ist.
 
 >[!NOTE]
 >
 >Vorschläge zeigen nur Namen an.
 
-* Segmentfilter: die Datensätze nach benutzerdefinierten Segmenten filtern. Ein Datensatz ist mit einem Segment verknüpft, wenn einer seiner Touchpoints mit dem Segment verknüpft ist.
+* Segmentfilter: Filtern Sie die Datensätze nach benutzerdefinierten Segmenten. Ein Datensatz ist mit einem Segment verknüpft, wenn einer seiner Touchpoints mit dem Segment verknüpft ist.
 
 In allen Filtern wird die Logik &quot;AND&quot;verwendet.
 

@@ -3,27 +3,28 @@ unique-page-id: 18874789
 description: "[!DNL Marketo Measure] Berechtigungssätze - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Berechtigungssätze"
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# [!DNL Marketo Measure] Berechtigungssätze {#marketo-measure-permission-sets}
+# [!DNL Marketo Measure]-Berechtigungssätze {#marketo-measure-permission-sets}
 
 Erfahren Sie, wie Sie auf zugreifen und zuweisen [!DNL Marketo Measure] Berechtigungssätze in Salesforce.
 
-## [!DNL Marketo Measure] Berechtigungssätze {#marketo-measure-permission-sets-1}
+## [!DNL Marketo Measure]-Berechtigungssätze {#marketo-measure-permission-sets-1}
 
-Drei Berechtigungssätze sind im [!DNL Marketo Measure] Salesforce-Paket. Diese Berechtigungssätze bieten Zugriff auf [!DNL Marketo Measure] für Administratoren, Marketingexperten und Standardbenutzer.
+Im [!DNL Marketo Measure] Salesforce-Paket. Diese Berechtigungssätze bieten Zugriff auf [!DNL Marketo Measure] für Administratoren, Marketingexperten und Standardbenutzer.
 
 So greifen Sie auf Berechtigungssätze in Salesforce zu und weisen sie zu:
 
-1. Klicken **[!UICONTROL Einrichtung]**.
+1. Klicks **[!UICONTROL Einrichtung]**.
 1. Klicken Sie am linken Rand auf **[!UICONTROL Benutzer]**, dann **[!UICONTROL Berechtigungssätze]**.
 1. Wählen Sie die [!DNL Marketo Measure] Berechtigungssatz, den Sie zuweisen möchten.
-1. Klicken **[!UICONTROL Zuweisungen verwalten]**, dann **[!UICONTROL Zuweisungen hinzufügen]**.
+1. Klicks **[!UICONTROL Zuweisungen verwalten]**, dann **[!UICONTROL Zuweisungen hinzufügen]**.
 1. Wählen Sie die Benutzer für den Berechtigungssatz aus und klicken Sie auf **[!UICONTROL Zuweisen]**.
 
    ![](assets/1-5.png)
@@ -42,7 +43,7 @@ So greifen Sie auf Berechtigungssätze in Salesforce zu und weisen sie zu:
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Standardbenutzer</strong></span></td> 
-   <td><span>Ermöglicht dem Benutzer das Lesen von Datensätzen aus [!DNL Marketo Measure] Objekte.</span></td> 
+   <td><span>Ermöglicht es einem Benutzer, Datensätze aus [!DNL Marketo Measure] Objekte.</span></td> 
   </tr> 
  </tbody> 
 </table>

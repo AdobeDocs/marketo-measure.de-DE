@@ -3,7 +3,8 @@ unique-page-id: 18874608
 description: "[!DNL Marketo Measure] Parameter - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Parameter"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
-source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
+feature: APIs, Integration, UTM Parameters
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 ## [!DNL Marketo Measure] Parameter - Erklärung {#marketo-measure-parameters-explained}
 
-Um weitere Einblicke aus der Verwendung von UTM zu gewinnen, [!DNL Marketo Measure] hängt benutzerdefinierte Parameter an Ihre Anzeigen in [!DNL Google] AdWords, Bing Ads und [!DNL Facebook] Anzeigen. [!DNL Marketo Measure] Integration mit diesen Plattformen zur Automatisierung des Einrichtungsprozesses. Wenn Sie die Verwendung des automatischen Tagging auswählen, [!DNL Marketo Measure] hängt seine Parameter automatisch an die URLs Ihrer Anzeigen an. [!DNL Marketo Measure] lädt Ihre Marketingkosten automatisch von den Plattformen herunter und lädt sie in die [!DNL Marketo Measure] App.
+Um weitere Einblicke aus der Verwendung von UTM zu gewinnen, [!DNL Marketo Measure] hängt benutzerdefinierte Parameter an Ihre Anzeigen in [!DNL Google] AdWords, Bing Ads und [!DNL Facebook] Anzeigen. [!DNL Marketo Measure] Integration mit diesen Plattformen zur Automatisierung des Einrichtungsprozesses. Wenn Sie sich für die Verwendung des automatischen Tagging entscheiden, [!DNL Marketo Measure] hängt seine Parameter automatisch an die URLs Ihrer Anzeigen an. [!DNL Marketo Measure] lädt Ihre Marketingkosten automatisch von den Plattformen herunter und lädt sie in die [!DNL Marketo Measure] App.
 
 Beispiel einer URL ohne Parameter:
 

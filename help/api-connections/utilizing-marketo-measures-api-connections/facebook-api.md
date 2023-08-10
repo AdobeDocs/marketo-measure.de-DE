@@ -3,10 +3,11 @@ unique-page-id: 18874680
 description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: APIs, Integration, UTM Parameters
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -30,7 +31,7 @@ Was die Einrichtung anbelangt, so müssen innerhalb der [!DNL Marketo Measure] A
 
    >[!NOTE]
    >
-   >Die Person, die die [!DNL Facebook Ads] -Konto muss ein Administrator innerhalb der [!DNL Facebook Ads] -Konto.
+   >Die Person, die [!DNL Facebook Ads] -Konto muss ein Administrator innerhalb der [!DNL Facebook Ads] -Konto.
 
 1. Einmal [!DNL Marketo Measure] mit Ihrem Facebook-Konto verbunden ist, klicken Sie auf das Stiftsymbol neben dem Konto.
 1. Verschieben Sie in dieser Ansicht das &quot;Auto-Tagging?&quot; auf &quot;Ja&quot;umschalten. Aktivieren Sie dann das Kontrollkästchen im [!UICONTROL Weitere Infos] -Abschnitt, um die Geschäftsbedingungen zu vereinbaren. Stellen Sie sicher, dass [!UICONTROL Automatisches Tagging] Umschalter ist weiterhin auf &quot;[!UICONTROL Ja]&quot;.
@@ -70,7 +71,7 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
    <td><p>[[!DNL Facebook] Kampagnen-ID]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Anzeigenkampagnenname </p></td> 
+   <td><p>Name der Ad-Kampagne </p></td> 
    <td><p>[[!DNL Facebook] Kampagnenname] oder [utm_campaign] , falls angegeben</p></td> 
   </tr> 
   <tr> 
@@ -86,7 +87,7 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
    <td><p>"[!DNL Facebook]", oder [utm_source] , falls angegeben</p></td> 
   </tr> 
   <tr> 
-   <td><p>Mittel</p></td> 
+   <td><p>Medium</p></td> 
    <td><p>"Social"oder [utm_medium] , falls angegeben</p></td> 
   </tr> 
   <tr> 
@@ -134,23 +135,23 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
 
 A: Karussell, Einzelbild. Derzeit nicht Video, Bildschirmpräsentation oder Sammlung.
 
-**F: Was ist der soziale Beweis?**
+**F: Was ist der soziale Schutz?**
 
-A: Der soziale Beweis ist eine sichtbare Interaktion, z. B. &quot;Gefällt mir&quot;-Klicks, Klicks, Kommentare und &quot;Teilen&quot;-Klicks.
+A: Der soziale Beweis ist eine sichtbare Interaktion wie &quot;Gefällt mir&quot;-Klicks, Klicks, Kommentare und &quot;Teilen&quot;-Klicks.
 
 **F: Was passiert, wenn [!DNL Marketo Measure] Tags der Anzeige?**
 
 A: [!DNL Facebook] erlaubt es nicht, Anzeigen so zu bearbeiten [!DNL Marketo Measure] muss das Kreativelement, das die Ziel-URL enthält, löschen und dann die Anzeige mit den neuen Parametern neu erstellen.
 
-**F: Warum [!DNL Marketo Measure] Alle aktualisieren [!DNL Facebook] Werbeanzeigen?**
+**F: Warum passiert [!DNL Marketo Measure] Alle aktualisieren [!DNL Facebook] Werbeanzeigen?**
 
 A: Die [!DNL Marketo Measure] -Prozess besteht darin, alle Anzeigen zu taggen, falls sie erneut aktiviert werden.
 
 **F: Welche Berechtigung benötigt der verbundene Benutzer?**
 
-A: ads_management, E-Mail
+A: ads_management, email
 
-**F: Wie lange kann das Importieren von Ausgabedaten dauern?**
+**F: Wie lange kann der Import von Ausgabedaten dauern?**
 
 A: 1 Stunde
 

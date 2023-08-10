@@ -1,54 +1,55 @@
 ---
-description: Best Practices zur Implementierung [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure] - Produktdokumentation
-title: Best Practices zur Implementierung [!DNL Marketo Measure] JavaScript
+description: Best Practices zur Implementierung von [!DNL Marketo Measure] JavaScript – [!DNL Marketo Measure] – Produktdokumentation
+title: Best Practices zur Implementierung von  [!DNL Marketo Measure] -JavaScript
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
-source-git-commit: cf144eb4bc9282ae6a260acd3735f24644292a19
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Best Practices zur Implementierung [!DNL Marketo Measure] JavaScript {#best-practices-for-implementing-marketo-measure-javascript}
+# Best Practices zur Implementierung von [!DNL Marketo Measure]-JavaScript {#best-practices-for-implementing-marketo-measure-javascript}
 
 ## Überblick {#overview}
 
-Die [!DNL Marketo Measure] JavaScript verfolgt die Interaktionen Ihrer Webbesucher mit dem digitalen Marketing und ist für die [!DNL Marketo Measure] Möglichkeit, Online-Touchpoint-Daten zu erstellen. Die [!DNL Marketo Measure] JavaScript, das ordnungsgemäß und umfassend auf Ihrer gesamten Site(s) bereitgestellt wird, stellt sicher, dass die erfassten Sitzungsdaten genaue Touchpoint-Daten erzeugen.
+[!DNL Marketo Measure]-JavaScript verfolgt die Digital-Marketing-Interaktionen Ihrer Web-Besuchenden nach und ist für die [!DNL Marketo Measure]-Funktionalität zum Erstellen von Online-Touchpoint-Daten von entscheidender Bedeutung. Durch eine ordnungsgemäße und umfassende [!DNL Marketo Measure]-JavaScript-Bereitstellung auf der gesamten Site wird sichergestellt, dass die erfassten Sitzungsdaten genaue Touchpoint-Daten erzeugen.
 
-Inkonsistenzen bei der Implementierung der [!DNL Marketo Measure] JavaScript führt zu Umbrüchen in den Sitzungsdaten, die zu Folgendem führen können:
+Inkonsistenzen bei der [!DNL Marketo Measure]-JavaScript-Bereitstellung führen zu Brüchen in den Sitzungsdaten und damit gegebenenfalls zu Folgendem:
 
-* Falsche Kanalzuordnung/Subkanalzuordnung
-* Verlust von Quelldaten
-* Hohe Höhe des fehlerhaften direkten Traffics
-* Inkonsistente Berichterstattung
+* einer falschen Kanal-/Subkanalattribution
+* Verlust von Berichtsdaten
+* einem hohen Maß an fehlerhaftem Direct-Traffic
+* inkonsistenten Berichten
 
-[!DNL Marketo Measure] JavaScript ist ein grundlegendes Element Ihrer [!DNL Marketo Measure] und der Schlüssel zu Ihrem Erfolg!
+[!DNL Marketo Measure]-JavaScript ist ein grundlegendes Element Ihres [!DNL Marketo Measure]-Kontos und der Schlüssel zu Ihrem Erfolg
 
-## Best Practice {#best-practice}
+## Best Practices {#best-practice}
 
-Bei der Implementierung und Verwaltung Ihrer [!DNL Marketo Measure] Beachten Sie JavaScript die folgenden Best Practices.
+Beachten Sie die folgenden Best Practices, wenn Sie [!DNL Marketo Measure]-JavaScript implementieren und verwalten.
 
-* Vergewissern Sie sich, dass alle Ihre Domänen in Ihrer [!DNL Marketo Measure] account
-   * Wenden Sie sich an den Support, wenn Sie Bedenken bezüglich Ihrer Domänen haben
-* Bereitstellen von JavaScript auf allen Seiten.
-   * Wenn Sie JavaScript nur auf bestimmten Seiten platzieren, treten in Ihren Sitzungsdaten Pausen auf, die zu falschen Werten führen [!DNL Marketo Measure] data
-* Fügen Sie für ein Formular auf Ihrer Site, aus dem Sie keine Touchpoints erstellen möchten, die [!DNL Marketo Measure] Ausschlussskript
-   * Dieses Ausschlussskript stellt sicher, dass die Variable [!DNL Marketo Measure] Sitzungsdaten werden nicht gestört und die Quelldaten bleiben vorhanden
-      * Beispiele für häufig zu unterdrückende Formulare sind:
+* Vergewissern Sie sich, dass alle Ihre Domains in Ihrem [!DNL Marketo Measure]-Konto aufgeführt sind
+   * Wenden Sie sich an den Support, wenn Sie Bedenken bezüglich Ihrer Domains haben
+* Stellen Sie JavaScript auf ALLEN Seiten bereit.
+   * Wenn Sie JavaScript nur auf bestimmten Seiten platzieren, treten in Ihren Sitzungsdaten Brüche auf, die zu falschen [!DNL Marketo Measure]-Daten führen
+* Fügen Sie für ein Formular auf Ihrer Site, aus dem Sie keine Touchpoints erstellen möchten, das [!DNL Marketo Measure]-Ausschlussskript hinzu
+   * Dieses Ausschlussskript stellt sicher, dass es in den [!DNL Marketo Measure]-Sitzungsdaten zu keinem Bruch kommt und die Quelldaten erhalten bleiben
+      * Beispiele für häufig auszuschließende Formulare:
          * Kundenanmeldungen
-         * Kennwortformulare vergessen
-         * Formulare abmelden
-         * Formulare für Karriere-Apps
-* Lesen Sie die Abschnitte &quot;Weitere Aspekte&quot;und &quot;Forms, um besondere Aufmerksamkeit zu schenken&quot;unter Hinzufügen von [!DNL Marketo Measure] Unten aufgeführte Skript-Ressource, um nach Szenarien zu suchen, die eine besondere Behandlung erfordern könnten
+         * „Passwort vergessen“-Formulare
+         * Abmeldeformulare
+         * Bewerbungsformulare
+* Lesen Sie die Abschnitte „Zusätzliche Überlegungen“ und „Formulare, auf die besonders zu achten ist“ in der unten aufgeführten Ressource „Hinzufügen von [!DNL Marketo Measure]-Skript“, um sich über Szenarien zu informieren, die gegebenenfalls einer besonderen Behandlung bedürfen
 
 ## Best Practice für die Wartung {#best-practice-for-maintenance}
 
-Während der Einrichtung der [!DNL Marketo Measure] JavaScript wird bei der ersten Implementierung behandelt. Änderungen an Ihrer Site oder dem Team, das sie verwaltet, können zu Störungen in [!DNL Marketo Measure] Tracking. Es wird empfohlen, die [!DNL Marketo Measure] JavaScript wird einmal jährlich korrekt und umfassend bereitgestellt. Wenn Ihr Unternehmen außerdem über eine Dokumentation zum Änderungsprotokoll für die Website verfügt, stellen Sie sicher, dass es einen Abschnitt gibt, der erklärt, dass [!DNL Marketo Measure] JavaScript sollte auf allen neuen Seiten beibehalten/hinzugefügt werden.
+Während [!DNL Marketo Measure]-JavaScript bei der Erstimplementierung eingerichtet wird, können Änderungen an Ihrer Site oder im Team, das sie verwaltet, zu Störungen beim [!DNL Marketo Measure]-Tracking führen. Wir empfehlen Ihnen, einmal im Jahr zu überprüfen, ob das [!DNL Marketo Measure]-JavaScript korrekt und umfassend eingesetzt wird. Wenn Ihr Unternehmen außerdem über ein Änderungsprotokoll für die Website verfügt, stellen Sie sicher, dass darin ein Abschnitt enthalten ist, der erklärt, dass [!DNL Marketo Measure]-JavaScript auf allen neuen Seiten beibehalten/hinzugefügt werden sollte.
 
-Andere Gründe dafür könnten Trigger für eine Überprüfung Ihres JavaScript-Setups sein...
+Andere mögliche Gründe für eine Überprüfung Ihres JavaScript-Setups:
 
-* Umsatz in Ihrem Marketing-Team
+* Wechsel in Ihrem Marketing-Team
 * Änderungen und Aktualisierungen der Site-Struktur
 * Site-Migrationen
 * Änderungen an Ihrer Domain
-* Acquisition von anderen Unternehmen und deren Webeigenschaften
+* Übernahme anderer Unternehmen und ihrer Web-Umgebungen

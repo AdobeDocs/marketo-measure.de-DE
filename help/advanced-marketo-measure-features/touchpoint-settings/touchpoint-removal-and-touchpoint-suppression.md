@@ -3,10 +3,11 @@ unique-page-id: 18874710
 description: Entfernen von Touchpoints und Unterdrückung von Touchpoints - [!DNL Marketo Measure] - Produktdokumentation
 title: Entfernen von Touchpoints und Unterdrückung von Touchpoints
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -66,11 +67,11 @@ Wenn du einen Fehler machst, mach dir keine Sorgen. Sie können auch einzelne Ze
 
 Speichern und verarbeiten Sie zum Abschluss Ihre Regeln. Wenn Sie viele Änderungen vornehmen, stellen Sie sicher, dass Sie Ihre Änderungen auf dem Weg speichern. [!DNL Marketo Measure] beginnt nicht mit dem Entfernen Ihrer Touchpoints, bis Sie auf die Schaltfläche **Speichern und verarbeiten** Schaltfläche.
 
-| **Operator** | **Anwendungsfall** |
+| **Benutzerin oder Benutzer** | **Anwendungsfall** |
 |---|---|
 | ist gleich | Einzelwert - genaue Übereinstimmung |
 | enthält | Einzelwert - enthält Wert |
 | Entspricht allen | Mehrere Werte - genaue Übereinstimmung |
 | Entspricht allen (enthält) | Mehrere Werte - &#42;value&#42;, &#42;Wert, &#42;value&#42; |
 
-Kunden, die Dynamics verwenden und Unterdrückungsregeln basierend auf Status und/oder Status einrichten möchten, benötigen beim Einrichten der Regel die folgende Formatierung: `[Object].Statecode` ist gleich/nicht gleich `[Status Value]`. Wenn beispielsweise der Status-Code in Dynamics &quot;1&quot;auf einem Kontakt liest und der Status &quot;Inaktiv&quot;lautet und Sie alle derartigen Kontakte unterdrücken möchten, wäre das folgende Format für Ihre Unterdrückungsregel nicht korrekt: Contact.StateCode ist gleich 1. Stattdessen sollten Sie das folgende Format verwenden - da Status und Status als Paar fungieren, [!DNL Marketo Measure] liest den Wert aus Status in unserer Abfrage: Contact.StateCode ist gleich Inaktiv.
+Kunden, die Dynamics verwenden und Unterdrückungsregeln basierend auf Status und/oder Status einrichten möchten, benötigen beim Einrichten der Regel die folgende Formatierung: `[Object].Statecode` ist gleich/nicht gleich `[Status Value]`. Wenn beispielsweise der Status-Code in Dynamics &quot;1&quot;auf einem Kontakt liest und der Status &quot;Inaktiv&quot;lautet und Sie alle derartigen Kontakte unterdrücken möchten, wäre das folgende Format für Ihre Unterdrückungsregel nicht korrekt: Contact.Statecode ist gleich 1. Stattdessen sollten Sie das folgende Format verwenden - da Status und Status als Paar fungieren, [!DNL Marketo Measure] liest den Wert aus Status in unserer Abfrage: Contact.Statecode ist gleich Inaktiv.

@@ -1,22 +1,23 @@
 ---
 unique-page-id: 18874779
 description: Benutzerdefiniertes Attributionsmodell und -einstellungen - [!DNL Marketo Measure] - Produktdokumentation
-title: Benutzerdefiniertes Attributionsmodell und -einrichtung
+title: Benutzerdefiniertes Attributionsmodell und Einrichtung
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution, Custom Models
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Benutzerdefiniertes Attributionsmodell und -einrichtung {#custom-attribution-model-and-setup}
+# Benutzerdefiniertes Attributionsmodell und Einrichtung {#custom-attribution-model-and-setup}
 
 Eine Übersicht über die [!DNL Marketo Measure] benutzerdefiniertes Attributionsmodell und dessen Einrichtung.
 
 ## Benutzerdefiniertes Attributionsmodell {#custom-attribution-model}
 
-Die [!DNL Marketo Measure] Mit dem benutzerdefinierten Attributionsmodell können Benutzer auswählen, welche Touchpoints oder benutzerdefinierten Bühnen in das Modell aufgenommen werden sollen. Benutzer können den Prozentsatz der Umsatzgutschriften steuern, die diesen Touchpoints und Bühnen zugeordnet werden, oder die Attributionsprozentwerte verwenden, die durch die [!DNL Marketo Measure] Modell für maschinelles Lernen.
+Die [!DNL Marketo Measure] Mit dem benutzerdefinierten Attributionsmodell können Benutzer auswählen, welche Touchpoints oder benutzerdefinierten Bühnen in das Modell aufgenommen werden sollen. Benutzer können den Prozentsatz der Umsatzgutschriften steuern, die diesen Touchpoints und Bühnen zugeordnet werden, oder die Attributionsprozentwerte verwenden, die durch die [!DNL Marketo Measure] Modell für maschinelles Lernen
 
 ## Einrichten Ihres benutzerdefinierten Attributionsmodells {#how-to-set-up-your-custom-attribution-model}
 
@@ -30,7 +31,7 @@ Die [!DNL Marketo Measure] Mit dem benutzerdefinierten Attributionsmodell könne
 
    >[!NOTE]
    >
-   >Sie können bis zu sechs benutzerdefinierte Phasen ausführen (ohne die Standardeinstellungen zu berücksichtigen: FT, LC, OC, Closed).
+   >Sie können bis zu sechs benutzerdefinierte Phasen ausführen (ohne die Standardeinstellungen: FT, LC, OC, Closed).
 
    ![](assets/1-1.png)
 
@@ -38,7 +39,7 @@ Die [!DNL Marketo Measure] Mit dem benutzerdefinierten Attributionsmodell könne
    >
    >_Alle_ Hier werden Leads/Kontakte und Opportunity-Phasen angezeigt, auch wenn die Bühne inaktiv ist oder nicht mehr in [!DNL Salesforce]. Wenn Sie diese Bühnen entfernen möchten, müssen Sie sie in [!DNL Salesforce].
 
-   Wenn Sie Ihre Bühnen ausgewählt haben, klicken Sie auf die Schaltfläche **[!UICONTROL Speichern und verarbeiten]** -Schaltfläche unten auf der Seite. Die Schritte werden jetzt im **[!UICONTROL Attributionseinstellungen]** und Sie können Attributionsprozentsätze zu jeder Phase zuweisen. Benutzerdefinierte Bühnen werden auch in der Marketing Performance Suite als Lead- oder Opportunity-Phase im Demand Waterfall angezeigt.
+   Wenn Sie Ihre Bühnen ausgewählt haben, klicken Sie auf das **[!UICONTROL Speichern und verarbeiten]** -Schaltfläche unten auf der Seite. Die Schritte werden jetzt im **[!UICONTROL Attributionseinstellungen]** und Sie können Attributionsprozentsätze zu jeder Phase zuweisen. Benutzerdefinierte Bühnen werden auch in der Marketing Performance Suite als Lead- oder Opportunity-Phase im Demand Waterfall angezeigt.
 
    Wenn es andere Phasen gibt, die Sie in das Modell einbeziehen möchten, die jedoch nicht im [!UICONTROL Lead-/Kontaktstatus] oder [!UICONTROL Opportunity Stage] können Sie eine eigene benutzerdefinierte Phase anhand von Feldern in Ihrem CRM-System definieren.
 
@@ -54,7 +55,7 @@ Wenn in Ihrem benutzerdefinierten Modell ein benutzerdefiniertes Feld verwendet 
 
 1. Bestimmen Sie die Attributionsprozentsätze für das benutzerdefinierte Modell.
 
-   Navigieren Sie zu **[!UICONTROL Attributionseinstellungen]** in [!DNL Marketo Measure] Apps; Die benutzerdefinierten Bühnen werden hier in der Attributionstabelle angezeigt. Die Attributionstabelle enthält alle [!DNL Marketo Measure] Attributionsmodelle und die Attributionsgewichtung der einzelnen Modelle. Die Attributionsprozentsätze der ersten fünf Modelle sind fest und können nicht geändert werden.
+   Navigieren Sie zu **[!UICONTROL Attributionseinstellungen]** in [!DNL Marketo Measure] Apps; die benutzerdefinierten Phasen werden hier in der Attributionstabelle angezeigt. Die Attributionstabelle enthält alle [!DNL Marketo Measure] Attributionsmodelle und die Attributionsgewichtung der einzelnen Modelle. Die Attributionsprozentsätze der ersten fünf Modelle sind fest und können nicht geändert werden.
 
    In der Spalte ganz rechts mit der Bezeichnung &quot;**[!UICONTROL Benutzerdefiniert]**,&quot;können Sie die Prozentgewichtung für jede Phase in Ihrem benutzerdefinierten Attributionsmodell festlegen. Geben Sie einfach die Werte für jede Phase unter der Spalte &quot;Benutzerdefiniert&quot;ein. Dann **[!UICONTROL Speichern und erneut verarbeiten]** nach Abschluss.
 

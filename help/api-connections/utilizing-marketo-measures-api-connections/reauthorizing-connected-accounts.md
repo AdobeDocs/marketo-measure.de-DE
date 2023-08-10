@@ -1,12 +1,13 @@
 ---
 unique-page-id: 18874690
-description: Erneutes Autorisieren von Connected Accounts - [!DNL Marketo Measure] - Produktdokumentation
+description: Neu autorisieren von Connected Accounts - [!DNL Marketo Measure] - Produktdokumentation
 title: Erneutes Autorisieren von Connected Accounts
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: APIs, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 

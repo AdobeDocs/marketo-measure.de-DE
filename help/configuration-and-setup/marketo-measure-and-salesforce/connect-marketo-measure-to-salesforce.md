@@ -3,7 +3,8 @@ unique-page-id: 18874580
 description: Verbinden von Marketo Measure mit Salesforce - [!DNL Marketo Measure] - Produktdokumentation
 title: Verbinden von Marketo Measure mit Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
-source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Dieser Artikel bietet einen Überblick darüber, wie Sie Ihre [!DNL Salesforce] 
 
 1. Navigieren Sie in der Menüleiste am oberen Bildschirmrand zu **[!UICONTROL Mein Konto]** und klicken Sie auf [!UICONTROL Einstellungen] -Option.
 
-1. Klicken Sie in der Spalte mit den Einstellungsoptionen auf der linken Seite auf [!UICONTROL Verbindungen] unter dem [!UICONTROL Integrationen] Abschnitt.
+1. Klicken Sie links in der Spalte mit den Einstellungsoptionen auf [!UICONTROL Verbindungen] unter dem [!UICONTROL Integrationen] Abschnitt.
 
    ![](assets/1.png)
 
@@ -40,6 +41,5 @@ Dieser Artikel bietet einen Überblick darüber, wie Sie Ihre [!DNL Salesforce] 
 >
 >* A [!DNL Marketo Measure] -Instanz kann mit einer SFDC-Sandbox-Instanz verbunden werden, um die Integration zu testen, bevor die Verbindung zu Ihrer SFDC-Produktionsinstanz gewechselt wird.
 >* Wenn Sie zuerst mit einer SFDC-Sandbox testen, empfehlen wir dringend, einen Test durchzuführen, der eine exakte Replikation Ihrer SFDC-Produktionsinstanz ist, und zwar in Bezug auf die Felder auf den Objekten &quot;Lead&quot;, &quot;Kontakt&quot;, &quot;Konto&quot;, &quot;Chancen&quot;, &quot;Kampagne&quot;und &quot;Case&quot;. Wenn Sie aktive APEX-Trigger in der Produktion haben, die bei Aktualisierungen der Lead-, Kontakt-, Konto-, Opportunity-, Campaign- und Case-Objekte ausgelöst werden, sollten Sie versuchen, diese in Ihrer Sandbox zu aktivieren.
->* Sobald Sie mit dem Testen fertig sind, aktualisieren Sie Ihre [!DNL Marketo Measure] -Konto auf Ihre Produktion zu verweisen [!DNL Salesforce] (anstelle von Sandbox [!DNL Salesforce]). Aufgrund der Art und Weise, wie die Integration erstellt wurde, einmal pro [!DNL Marketo Measure] -Konto mit Produktion verbunden ist [!DNL Salesforce], können Sie nicht &quot;rückwärts&quot;gehen und eine Verbindung zu einer Sandbox herstellen [!DNL Salesforce] org.
-
+>* Sobald Sie mit dem Testen fertig sind, aktualisieren Sie Ihre [!DNL Marketo Measure] -Konto auf Ihre Produktion zu verweisen [!DNL Salesforce] (anstelle von Sandbox [!DNL Salesforce]). Aufgrund der Art und Weise, wie die Integration erstellt wurde, einmal pro [!DNL Marketo Measure] -Konto mit Produktion verbunden ist [!DNL Salesforce], können Sie nicht rückwärts gehen und eine Verbindung zu einer Sandbox herstellen [!DNL Salesforce] org.
 

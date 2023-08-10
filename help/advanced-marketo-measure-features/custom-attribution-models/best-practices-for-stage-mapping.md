@@ -2,10 +2,11 @@
 description: Best Practices für die Staging-Zuordnung - [!DNL Marketo Measure] - Produktdokumentation
 title: Best Practices für die Phasenzuordnung
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
-source-git-commit: b8388c4f89734f55ec779ef23b75b34b07da6f58
+feature: Tracking, Custom Models
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -28,10 +29,10 @@ Unabhängig davon, ob Sie Ihre Staging-Zuordnung zum ersten Mal bewerten oder Ih
 * Stellen Sie beim Definieren einer benutzerdefinierten Phase sicher, dass das Verfolgen des Feldverlaufs für alle Felder aktiviert ist, die zum Definieren der Phase verwendet werden
 * Verwenden Sie kein Formelfeld, um eine benutzerdefinierte Phase zu definieren
    * Ein boolesches Feld ist die Best Practice-Empfehlung
-* Beachten Sie, dass der Abschnitt &quot;Lead- oder Kontaktphase&quot;in &quot;Verloren&quot;, &quot;Offen&quot;und &quot;Konvertiert&quot;unterteilt ist. überprüfen, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden
-   * Das Vorhandensein einer Phase im falschen Abschnitt kann zu einer hochgradig falschen [!DNL Marketo Measure] data
-* Beachten Sie, dass der Abschnitt &quot;Opportunity stage&quot;in &quot;Lost&quot;, &quot;Open&quot;und &quot;Won&quot;unterteilt ist. überprüfen, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden
-   * Das Vorhandensein einer Phase im falschen Abschnitt kann zu einer hochgradig falschen [!DNL Marketo Measure] Umsatz- oder Pipeline-Umsatzdaten
+* Beachten Sie, dass der Abschnitt Lead- oder Kontaktphase in Verloren, Offen und Konvertiert unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden.
+   * Das Vorhandensein einer Phase im falschen Abschnitt kann zu einer hochgradig falschen Einstellung führen [!DNL Marketo Measure] data
+* Beachten Sie, dass der Abschnitt &quot;Opportunity stage&quot;in Lost, Open und Won unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden.
+   * Das Vorhandensein einer Phase im falschen Abschnitt kann zu einer hochgradig falschen Einstellung führen [!DNL Marketo Measure] Umsatz- oder Pipeline-Umsatzdaten
 * Vermeiden Sie die Verwendung doppelter Staging-Namen (unser System erkennt sie und entfernt sie automatisch).
 * Wenn Sie eine Regel festlegen möchten, die nach NULL-Werten sucht, lassen Sie das Textfeld &quot;Wert&quot;leer.
 
@@ -41,7 +42,7 @@ Wenn Sie Ihre Staging-Zuordnung einmal jährlich überprüfen, stellen Sie siche
 
 Andere Gründe, die eine Überprüfung Ihrer Staging-Zuordnung Trigger haben könnten, sind ...
 
-* Umsatz in Ihrem Marketing-Team
+* Wechsel in Ihrem Marketing-Team
 * Alle Änderungen an Ihren CRM-Phasen
 * Aktualisierungen am Trichter Ihrer Organisation
 * Anzeigen falscher Umsatzdaten in Ihrer [!DNL Marketo Measure] Berichterstellung

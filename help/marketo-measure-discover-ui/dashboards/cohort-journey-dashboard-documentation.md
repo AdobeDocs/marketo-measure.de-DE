@@ -3,10 +3,11 @@ unique-page-id: 42762648
 description: Dokumentation zum Journey-Dashboard für Kohorten - [!DNL Marketo Measure] - Produktdokumentation
 title: Dokumentation zum Kohorten-Journey-Dashboard
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -16,13 +17,13 @@ Mit den Dashboards &quot;Kohortenauswirkungen&quot;und &quot;Trichter&quot;könn
 
 Der Hauptunterschied besteht darin, wie wir jede Entität aus der Kohortenphase zählen.
 
-* Kohortentrichter: Das Ergebnis jeder Phase ergibt sich direkt aus der vorherigen Phase.
+* Kohortentrichter: Das Ergebnis jeder Phase wird direkt aus der vorherigen Phase abgeleitet.
 
    * Es werden nur Datensätze gezählt, die nach der festgelegten Kohortenstartzeit durch die einzelnen Phasen des Trichters geraten sind.
 
 ![](assets/cohort-journey-dashboard-documentation-1.png)
 
-* Auswirkungen der Kohorte: Das Ergebnis jeder Phase ergibt sich aus der Kohorte und nicht aus der vorherigen Phase.
+* Kohortenauswirkungen: Das Ergebnis jeder Phase stammt aus der Kohortenphase, nicht aus der vorherigen Phase.
 
    * Alle Datensätze in jeder Phase werden so lange gezählt, wie sie nach der festgelegten Kohortenstartzeit erfolgten. Dieses Dashboard enthält natürlich mehr Datensätze als das Trichter-Dashboard, da wir uns ansehen, wie die Entitäten von der Kohortenphase aus beeinflusst wurden, nicht nur die Bewegung durch den Trichter.
 
@@ -30,23 +31,23 @@ Der Hauptunterschied besteht darin, wie wir jede Entität aus der Kohortenphase 
 
 Jedes Dashboard verfügt über zwei Kacheln:
 
-* Kohortenumsatz: Die gesamte Opportunität aus allen Gelegenheiten in der Journey-Kachel der Kohorte.
-* Kohorte-Journey: Der Fortschritt zu jeder Journey-Phase ab der Anfangs-Kohortenphase für einen ausgewählten Zeitraum.
+* Kohortenumsatz: Der gesamte Opportunitätsbetrag aus allen Gelegenheiten in der Phase der Angebote der Kohorten-Journey-Kachel.
+* Journey der Kohorte: Der Fortschritt von der Kohortenphase bis zu den einzelnen Journey-Phasen für einen ausgewählten Zeitraum.
 
 >[!NOTE]
 >
->In allen Discover-Dashboards kann nur ein Personenobjekt (Lead oder Kontakt) gemeldet werden. Dies wird in [!UICONTROL Einstellungen] > [!UICONTROL Berichterstellung] > [!UICONTROL Attributionseinstellungen] > [!UICONTROL Standard-Dashboard-Objekt].
+>In allen Discover-Dashboards kann nur ein Personenobjekt, entweder &quot;Lead&quot;oder &quot;Kontakt&quot;, gemeldet werden. Dies wird in [!UICONTROL Einstellungen] > [!UICONTROL Berichterstellung] > [!UICONTROL Attributionseinstellungen] > [!UICONTROL Standard-Dashboard-Objekt].
 
 Die Dashboards unterstützen die folgenden Filter:
 
-* Kohortenphase: Wählen Sie die Anfangs-Kohorte aus. Datensätze in allen folgenden Phasen werden aus den Datensätzen in der Kohortenphase entwickelt.
+* Kohortenphase: Wählen Sie die Kohortenphase für den Start aus. Datensätze in allen folgenden Phasen werden aus den Datensätzen in der Kohortenphase entwickelt.
 * Datumsbereich der Kohorte: Wählen Sie den Zeitraum für die ausgewählte Kohortenphase aus. Zusammen mit der Kohortenphase wird der Startdatensatz definiert.
-* Abschaltdatum: Wählen Sie das Datum aus, bis zu dem der Fortschritt des Datensatzes in allen folgenden Phasen erfolgen muss. Die Standardeinstellung ist heute. Beachten Sie, dass dies für alle anderen Phasen als die Kohortenphase gilt.
-* Kanal: die Datensätze nach Kanälen filtern. Ein Datensatz ist mit einem Kanal verknüpft, wenn einer seiner Touchpoints mit dem Kanal verknüpft ist.
-* Subchannel: die Datensätze nach Unterkanälen filtern. Ein Datensatz ist mit einem Unterkanal verknüpft, wenn einer seiner Touchpoints mit dem Unterkanal verknüpft ist.
-* Kampagne: die Datensätze nach Kampagnen filtern. Ein Datensatz ist mit einer Kampagne verknüpft, wenn einer seiner Touchpoints mit der Kampagne verknüpft ist.
-* Kampagnenquelle: die Datensätze nach Kampagnenquellen zu filtern. Beispiel-Kampagnenquellen: [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], usw. Ein Datensatz wird mit einer Kampagnenquelle verknüpft, wenn einer seiner Touchpoints mit der Kampagnenquelle verknüpft ist.
-* Segmentfilter: die Datensätze nach benutzerdefinierten Segmenten filtern. Ein Datensatz ist mit einem Segment verknüpft, wenn einer seiner Touchpoints mit dem Segment verknüpft ist.
+* Datum der Außerkraftsetzung: Wählen Sie das Datum aus, bis zu dem der Fortschritt des Datensatzes in allen folgenden Phasen erfolgen muss. Die Standardeinstellung ist heute. Beachten Sie, dass dies für alle anderen Phasen als die Kohortenphase gilt.
+* Kanal: Filtern Sie die Datensätze nach Kanälen. Ein Datensatz ist mit einem Kanal verknüpft, wenn einer seiner Touchpoints mit dem Kanal verknüpft ist.
+* Unterkanal: zum Filtern der Datensätze nach Unterkanälen. Ein Datensatz ist mit einem Unterkanal verknüpft, wenn einer seiner Touchpoints mit dem Unterkanal verknüpft ist.
+* Kampagne: Filtern Sie die Datensätze nach Kampagnen. Ein Datensatz ist mit einer Kampagne verknüpft, wenn einer seiner Touchpoints mit der Kampagne verknüpft ist.
+* Kampagnenquelle: Filtern Sie die Datensätze nach Kampagnenquellen. Beispiel-Kampagnenquellen: [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], usw. Ein Datensatz wird mit einer Kampagnenquelle verknüpft, wenn einer seiner Touchpoints mit der Kampagnenquelle verknüpft ist.
+* Segmentfilter: Filtern Sie die Datensätze nach benutzerdefinierten Segmenten. Ein Datensatz ist mit einem Segment verknüpft, wenn einer seiner Touchpoints mit dem Segment verknüpft ist.
 
 In allen Filtern wird die Logik &quot;AND&quot;verwendet.
 

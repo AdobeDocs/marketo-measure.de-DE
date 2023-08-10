@@ -1,19 +1,20 @@
 ---
 description: "[!UICONTROL Discover-Datendownload] Zugriffskontrolle - Marketo Measure - Produktdokumentation"
-title: "[!UICONTROL Discover-Datendownload] Zugriffskontrolle"
+title: '"[!UICONTROL Entdecken Sie die Zugriffskontrolle für den Daten-Download"]'
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
-source-git-commit: 3d2d250933d16e3e8ab14f4863a76559b4349dbf
+feature: Discover
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
-# [!UICONTROL Discover-Datendownload] Zugriffssteuerung {#discover-data-download-access-control}
+# [!UICONTROL Entdecken Sie die Zugriffskontrolle für den Daten-Download] {#discover-data-download-access-control}
 
 [!UICONTROL Discover-Datendownload] Kontrollmöglichkeiten [!DNL Marketo Measure] Administratoren können die Richtlinien für den Datendownload für die Discover-Dashboards auf der Grundlage der Benutzerrollen festlegen. Das Steuerelement erfasst alle Datendownload-Aktionen in Discover-Dashboards.
 
-1. Klicken **[!UICONTROL Datenzugriff]** under [!UICONTROL Sicherheit].
+1. Klicks **[!UICONTROL Datenzugriff]** under [!UICONTROL Sicherheit].
 
    ![](assets/discover-data-download-access-control-1.png)
 
@@ -27,7 +28,7 @@ ht-degree: 2%
      <td>Alle Benutzer können Daten herunterladen, einschließlich PDF- und CSV-Formaten.</td>
     </tr>
     <tr>
-     <td><strong>Nur Admin-Benutzer</strong></td>
+     <td><strong>Nur Administratoren</strong></td>
      <td>Nur Admin-Benutzer können Daten herunterladen, einschließlich PDF- und CSV-Formaten.</td>
     </tr>
     <tr>
@@ -36,7 +37,7 @@ ht-degree: 2%
     </tr>
    </table>
 
-1. Klicken **[!UICONTROL Speichern]** wann geschehen.
+1. Klicks **[!UICONTROL Speichern]** wann geschehen.
 
    ![](assets/discover-data-download-access-control-3.png)
 

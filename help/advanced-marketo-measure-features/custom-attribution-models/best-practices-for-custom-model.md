@@ -2,10 +2,11 @@
 description: Best Practices für benutzerdefiniertes Modell - [!DNL Marketo Measure] - Produktdokumentation
 title: Best Practices für benutzerdefiniertes Modell
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Models
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -15,23 +16,23 @@ ht-degree: 0%
 
 Zusätzlich zu den [!DNL Marketo Measure] Standardmäßige Attributionsmodelle, Tier-2-Kunden und höher haben Zugriff auf ein benutzerdefiniertes Attributionsmodell.
 
-Die [!DNL Marketo Measure] Mit dem benutzerdefinierten Attributionsmodell können Benutzer auswählen, welche Meilenstein-Touchpoint-Positionen und/oder benutzerdefinierten Bühnen in das Modell aufgenommen werden sollen. Darüber hinaus können Benutzer den Prozentsatz der Gutschriften steuern, die jeder Phase innerhalb des Modells zugeordnet werden (Benutzer können bis zu 6 zusätzliche benutzerdefinierte Phasen definieren), oder sie können die Attributionsprozentwerte verwenden, die durch die [!DNL Marketo Measure] Modell für maschinelles Lernen.
+Die [!DNL Marketo Measure] Mit dem benutzerdefinierten Attributionsmodell können Benutzer auswählen, welche Meilenstein-Touchpoint-Positionen und/oder benutzerdefinierten Bühnen in das Modell aufgenommen werden sollen. Darüber hinaus können Benutzer den Prozentsatz der Gutschriften steuern, die jeder Phase innerhalb des Modells zugeordnet werden (Benutzer können bis zu 6 zusätzliche benutzerdefinierte Phasen definieren), oder sie können die Attributionsprozentwerte verwenden, die durch die [!DNL Marketo Measure] Modell für maschinelles Lernen
 
 Es gibt zwei wichtige Aspekte Ihres benutzerdefinierten Attributionsmodells:
 
-**Benutzerdefinierte Phasen** ermöglicht es Benutzern, ihren Trichter im Zusammenhang mit ihrem Geschäft und ihren Prozessen zu definieren. Benutzerdefinierte Phasen sollten &quot;Meilensteine&quot;im gesamten Journey des Käufers darstellen, ähnlich wie die [!DNL Marketo Measure] Meilensteine (Erstkontakt, Lead-Erstellungs-Touch, Opportunity Creation Touch und Closed Won Touch) führen innerhalb der Aktienzuordnungsmodelle aus. Es ist wichtig, dass Ihre benutzerdefinierten Phasen in Ihrem Konto richtig definiert und zugeordnet werden, um sicherzustellen, dass [!DNL Marketo Measure] die Phasenübergänge ordnungsgemäß verfolgen. Dadurch soll ermittelt werden, welche Touchpoints mit jeder Phase verknüpft werden sollen, und eine entsprechende Zuordnung erfolgt. Die Zuordnung benutzerdefinierter Phasen ist im Wesentlichen eine Erweiterung der standardmäßigen &quot;Staging-Zuordnung&quot;und sollte denselben Verfahren entsprechen.
+**Benutzerdefinierte Phasen** ermöglicht es Benutzern, ihren Trichter in Bezug auf ihr Geschäft und ihre Prozesse zu definieren. Benutzerdefinierte Phasen sollten &quot;Meilensteine&quot;im gesamten Journey des Käufers darstellen, ähnlich wie die [!DNL Marketo Measure] Meilensteine (Erstkontakt, Lead-Erstellungs-Touch, Opportunity Creation Touch und Closed Won Touch) führen innerhalb der Aktienzuordnungsmodelle aus. Es ist wichtig, dass Ihre benutzerdefinierten Phasen in Ihrem Konto richtig definiert und zugeordnet werden, um sicherzustellen, dass [!DNL Marketo Measure] die Phasenübergänge ordnungsgemäß verfolgen. Dadurch soll ermittelt werden, welche Touchpoints mit jeder Phase verknüpft werden sollen, und eine entsprechende Zuordnung erfolgt. Die Zuordnung benutzerdefinierter Phasen ist im Wesentlichen eine Erweiterung der standardmäßigen &quot;Staging-Zuordnung&quot;und sollte denselben Verfahren entsprechen.
 
 >[!NOTE]
 >
 >Weitere Informationen finden Sie in der Ressource &quot;Best Practices für die Staging-Zuordnung&quot;
 
-**Benutzerdefinierte Attributionsmodellierung** wird definiert, sobald Sie Ihren benutzerdefinierten Staging-Trichter auswählen. Die Benutzer können dann steuern, wie viel Attribution-Guthaben den einzelnen benutzerdefinierten Phasen zugewiesen werden soll, sowie die [!DNL Marketo Measure] Meilensteine. Benutzer können jeder Phase nach Bedarf eine Gutschrift zuweisen oder auf die [!DNL Marketo Measure] Modell für maschinelles Lernen, das auf historischen Daten basiert und als &quot;Vorschlagsmodell&quot;fungiert.
+**Benutzerdefinierte Attributionsmodellierung** wird definiert, sobald Sie Ihren benutzerdefinierten Staging-Trichter ausgewählt haben. Die Benutzer können dann steuern, wie viel Attribution-Guthaben den einzelnen benutzerdefinierten Phasen zugewiesen werden soll, sowie die [!DNL Marketo Measure] Meilensteine. Benutzer können jeder Phase nach Bedarf eine Gutschrift zuweisen oder auf die [!DNL Marketo Measure] Modell für maschinelles Lernen, das auf historischen Daten basiert und als &quot;Vorschlagsmodell&quot;fungiert.
 
 Es ist wichtig, dass diese beiden Aspekte Ihres benutzerdefinierten Modells richtig und präzise definiert werden, um sicherzustellen, dass [!DNL Marketo Measure] erstellt ein genaues benutzerspezifisches Attributionsmodell.
 
-## Best Practice {#best-practice}
+## Best Practices {#best-practice}
 
-Unabhängig davon, ob Sie Ihr benutzerdefiniertes Modell zum ersten Mal einrichten oder frühere Versionen überprüfen, sollten Sie folgende Best Practices beachten.
+Unabhängig davon, ob Sie Ihr benutzerdefiniertes Modell zum ersten Mal einrichten oder frühere Versionen überprüfen, sollten Sie die folgenden Best Practices beachten.
 
 * Einfach starten
    * Identifizieren Sie die wichtigsten Schritte, die Sie Ihrem benutzerdefinierten Modell hinzufügen möchten, die für Ihre [!DNL Marketo Measure] Berichterstellung. In der Regel handelt es sich hierbei um Phasen, an denen Sie gemessen werden oder die Sie versuchen, Einblicke in
@@ -40,17 +41,17 @@ Unabhängig davon, ob Sie Ihr benutzerdefiniertes Modell zum ersten Mal einricht
    * Wenn Sie Schwierigkeiten haben, die Aufschlüsselung der prozentualen Attribution zu bestimmen, wird die [!DNL Marketo Measure] Das Modell für maschinelles Lernen kann Ihnen dabei helfen, fundierte Entscheidungen bei der Einstellung Ihres benutzerdefinierten Attributionsmodells zu treffen.
    * Beim Anzeigen des Modells für maschinelles Lernen spiegeln die Attributionsprozentsätze jeder Phase die potenziellen Auswirkungen Ihrer Marketing-Maßnahmen wider
       * Ein höherer Prozentsatz bedeutet, dass Marketing die Bewegung des Trichters zu diesem Zeitpunkt direkt beeinflussen kann
-      * Ein niedrigerer Attributionsprozentsatz bedeutet, dass Phasen für Ihr Team weniger wichtig sind
+      * Ein geringerer Attributionsprozentsatz bedeutet, dass Phasen für Ihr Team weniger wichtig sind
 * Sie müssen die wichtigsten Trichterphasen entweder auf der Lead- oder der Kontaktphase definieren, nicht auf beiden
    * Dies bedeutet, dass Sie sicherstellen müssen, dass alle Personen diese Phase auf dem relativen Objekt durchlaufen
-      * Beispiel: Wenn Sie die MQL-Bühne aus dem Lead-Objekt definieren, müssen alle Personen als Lead in Ihr System einsteigen und als MQL in ihrem Lead-Datensatz gekennzeichnet werden, damit [!DNL Marketo Measure] um genau widerzuspiegeln, welcher Kontakt mit dem Übergang des Leads zur Multivarianz-Analyse in Zusammenhang stand. Wenn dies nicht der Fall ist und einige Personen zu Kontakt gelangen, bevor sie zu einer MQL als Lead werden, [!DNL Marketo Measure] kann dies nicht genau in Ihren Touchpoint-Daten berücksichtigen, und wir müssen davon ausgehen, dass die Person bereits MQL&#39;d hat. [!DNL Marketo Measure] kann nicht für das Staging-Shopping verantwortlich sein. Daher werden wir feststellen, dass die Bühnen auch dann durchlaufen wurden, wenn sie dies nicht getan haben.
+      * Beispiel: Wenn Sie die MQL-Bühne aus dem Lead-Objekt definieren, müssen alle Personen als Lead in Ihr System einsteigen und als MQL in ihrem Lead-Datensatz gekennzeichnet werden, um [!DNL Marketo Measure] um genau widerzuspiegeln, welcher Kontakt mit dem Übergang des Leads zur Multivarianz-Analyse in Zusammenhang stand. Wenn dies nicht der Fall ist und einige Personen zu Kontakt gelangen, bevor sie zu einer MQL als Lead werden, [!DNL Marketo Measure] kann dies nicht genau in Ihren Touchpoint-Daten berücksichtigen, und wir müssen davon ausgehen, dass die Person bereits MQL&#39;d hat. [!DNL Marketo Measure] kann nicht für das Staging-Shopping verantwortlich sein. Daher werden wir feststellen, dass die Bühnen auch dann durchlaufen wurden, wenn sie dies nicht getan haben.
 * Stellen Sie sicher, dass die Verfolgung des Feldverlaufs für alle Felder aktiviert ist, die zum Definieren von benutzerdefinierten Bühnen verwendet werden, die Sie einbinden
 * Verwenden Sie keine Formelfelder, um eine benutzerdefinierte Phase zu definieren
    * Ein boolesches Feld ist eine Best Practice-Empfehlung
 * Integrieren Sie keine benutzerdefinierten Phasen in Ihr benutzerdefiniertes Modell, die mit einem [!DNL Marketo Measure] Milestone-Touchpoint-Position (FT, LC, OC, Closed Won/Lost)
    * Wenn Sie dies tun, treten diese Positionen immer gleichzeitig auf und können zu einer überhöhten Attribution von Teilen Ihres Trichters führen.
 * Arbeiten mit Ihrem Sales Opt-Team
-   * Wenn Sie das Team einbinden, das am nächsten mit Bühnen und deren Bedeutung arbeitet, stellen Sie sicher, dass Sie die richtigen Bühnen verwenden und dass diese korrekt definiert sind
+   * Wenn Sie das Team einbinden, das am nächsten mit Bühnen und deren Bedeutung arbeitet, stellen Sie sicher, dass Sie die richtigen Bühnen verwenden und dass diese korrekt definiert sind.
 
 ## Best Practice für die Wartung {#best-practice-for-maintenance}
 
@@ -60,7 +61,7 @@ Wenn Ihr benutzerdefiniertes Modell das Modell für maschinelles Lernen verwende
 
 Weitere Gründe dafür könnten eine Überprüfung Ihres benutzerdefinierten Modells Trigger sein...
 
-* Umsatz in Ihrem Marketing-Team
+* Wechsel in Ihrem Marketing-Team
 * Alle Änderungen an Ihren CRM-Phasen
 * Aktualisierungen des Unternehmenstrichter
 * Ungenaue Umsatzdaten in Ihrer [!DNL Marketo Measure] Berichterstellung beim Anwenden des benutzerdefinierten Modells
@@ -68,7 +69,6 @@ Weitere Gründe dafür könnten eine Überprüfung Ihres benutzerdefinierten Mod
 
 >[!MORELIKETHIS]
 >
->* [Benutzerdefiniertes Attributionsmodell und -einrichtung](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [Benutzerdefiniertes Attributionsmodell und Einrichtung](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 >* [Feldverlauf-Tracking für benutzerdefiniertes Modell aktivieren](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
 >* [Modell für maschinelles Lernen](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)
-

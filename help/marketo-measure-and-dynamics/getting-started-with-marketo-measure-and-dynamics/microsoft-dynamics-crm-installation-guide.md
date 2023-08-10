@@ -3,7 +3,8 @@ unique-page-id: 18874763
 description: "[!DNL Microsoft Dynamics] CRM-Installationsanleitung - Marketo Measure - Produktdokumentation"
 title: "[!DNL Microsoft Dynamics] CRM-Installationsanleitung"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
-source-git-commit: 7141c1f73754160707ddb0af203cadc89ef917d8
+feature: Installation, Microsoft Dynamics
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen angezeigt, die[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
 
 ## Unterstützte Versionen {#supported-versions}
 
@@ -62,19 +63,19 @@ Für [!DNL Marketo Measure] benutzerdefinierten Entitäten benötigen wir vollst
 
 ![](assets/4.png)
 
-Informationen zu Dynamics-Standardentitäten finden Sie im Abschnitt [!DNL Marketo Measure] Dynamics-Schemadokument. Auf hoher Ebene [!DNL Marketo Measure] müssen nur in bestimmten Entitäten gelesen werden, um die entsprechenden Daten zu sammeln und in benutzerdefinierte Felder zu schreiben, die mit der verwalteten Lösung installiert werden. Wir werden keine neuen Standarddatensätze erstellen und auch keine Standardfelder aktualisieren.
+Informationen zu Dynamics-Standardentitäten finden Sie im Abschnitt [!DNL Marketo Measure] Dynamics-Schema-Dokument. Auf hoher Ebene [!DNL Marketo Measure] müssen nur in bestimmten Entitäten gelesen werden, um die entsprechenden Daten zu sammeln und in benutzerdefinierte Felder zu schreiben, die mit der verwalteten Lösung installiert werden. Wir werden keine neuen Standarddatensätze erstellen und auch keine Standardfelder aktualisieren.
 
 ## Touchpoints in Seitenlayouts einschließen: {#include-touchpoints-on-page-layouts}
 
 1. Navigieren Sie für jede Entität zum Formular-Editor. Sie finden dies unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Anpassungen]** > **[!UICONTROL System anpassen]** > `[Entity]` > **[!UICONTROL Forms]**. Oder Sie finden es in den Einstellungen, während Sie einen Datensatz anzeigen.
 
-   * Die zu konfigurierenden Entitäten: Konto, Chancen, Kontakt, Lead und Kampagne.
+   * Die zu konfigurierenden Entitäten: Konto, Gelegenheit, Kontakt, Lead und Kampagne.
 
    * Um Kampagnen zu konfigurieren, müssen Sie die Option &quot;Kampagnensynchronisierung&quot;in **[!UICONTROL CRM]** > **[!UICONTROL Kampagnen]**.
 
    ![](assets/5.png)
 
-1. Seitenlayouts: Fügen Sie zunächst ein &quot;[!UICONTROL Eine Spalte]&quot; in dem Abschnitt, in dem die Touchpoints live geschaltet werden sollen. In dieser neuen Spalte benötigen wir ein Unterraster, das zu jedem Formular in Ihren Konto-, Opportunity-, Kontakt- und Lead-Entitäten hinzugefügt wird.
+1. Seitenlayouts: Fügen Sie zuerst eine &quot;[!UICONTROL Eine Spalte]&quot; in dem Abschnitt, in dem die Touchpoints live geschaltet werden sollen. In dieser neuen Spalte benötigen wir ein Unterraster, das zu jedem Formular in Ihren Konto-, Opportunity-, Kontakt- und Lead-Entitäten hinzugefügt wird.
 
    ![](assets/6.png)
 
@@ -117,7 +118,7 @@ Beim Zugriff auf die Adobe Admin Console sehen Sie Ihre [!DNL Marketo Measure] P
 
 ![](assets/microsoft-dynamics-crm-installation-guide-8a.png)
 
-Klicken Sie auf [!DNL Marketo Measure] Die Produktkarte zeigt Ihnen alle Ihre [!DNL Marketo Measure] Instanz(en). Standardmäßig wird jeder [!DNL Marketo Measure] Die Instanz hat ihr eigenes Profil mit dem Präfix &quot;[!DNL Marketo Measure]&quot;. Alle Administratoren oder Benutzer, die diesem oder einem anderen Profil in dieser Instanz hinzugefügt wurden, können sich bei anmelden. [!DNL Marketo Measure].
+Klicken Sie auf [!DNL Marketo Measure] Die Produktkarte zeigt Ihnen alle Ihre [!DNL Marketo Measure] Instanz(en). Standardmäßig wird jeder [!DNL Marketo Measure] Die Instanz hat ihr eigenes Profil mit dem Präfix &quot;[!DNL Marketo Measure]&quot;. Alle Administratoren oder Benutzer, die diesem oder einem anderen Profil in dieser Instanz hinzugefügt wurden, können sich bei anmelden [!DNL Marketo Measure].
 
 ![](assets/microsoft-dynamics-crm-installation-guide-8b.png)
 
@@ -127,18 +128,18 @@ So fügen Sie Benutzer hinzu, auf die [!DNL Marketo Measure], siehe Abschnitt [H
 
 ## Hinzufügen [!DNL Marketo Measure] Administratoren und [!DNL Marketo Measure] Benutzer {#adding-marketo-measure-admins-and-marketo-measure-users}
 
-Der nächste Schritt besteht darin, Zugriff auf die [!DNL Marketo Measure] Anwendung durch Hinzufügen von Benutzern. Dies kann im Verzeichnis &quot;admins&quot;und &quot;users&quot;der [!DNL Marketo Measure] Produktkarte.
+Der nächste Schritt besteht darin, Zugriff auf die [!DNL Marketo Measure] -Anwendung durch Hinzufügen von Benutzern. Dies kann im Admin- und Benutzerverzeichnis der [!DNL Marketo Measure] Produktkarte.
 
 | Benutzertyp | Beschreibung |
 |---|---|
-| Administratoren | Dies sind Administratoren und Power-User der [!DNL Marketo Measure] Anwendung mit vollständiger Fähigkeit zur Aktualisierung und Verwaltung [!DNL Marketo Measure]-spezifische Konfigurationsoptionen |
-| Benutzer | Dies sind Standardbenutzer von [!DNL Marketo Measure] Anwendung mit schreibgeschützten Berechtigungen innerhalb der [!DNL Marketo Measure] application |
+| Administratoren | Dies sind Administratoren und Power-User der [!DNL Marketo Measure] Anwendung mit voller Fähigkeit, [!DNL Marketo Measure]-spezifische Konfigurationsoptionen |
+| Benutzer | Dies sind Standardbenutzer von [!DNL Marketo Measure] Anwendung mit schreibgeschützten Berechtigungen innerhalb der [!DNL Marketo Measure] Applikation |
 
 Wenn Sie einen Benutzer zu seiner jeweiligen Gruppe hinzufügen, sehen Sie dessen [Identitätstyp aufgelistet](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html).
 
 >[!NOTE]
 >
->Um [!DNL Marketo Measure] Administrator (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}), muss ein Benutzer als Benutzer hinzugefügt werden _und_ einem beliebigen [!DNL Marketo Measure] Produktprofil innerhalb der [!DNL Marketo Measure] Produktkarte.
+>Um ein [!DNL Marketo Measure] Administrator (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}), muss ein Benutzer als Benutzer hinzugefügt werden _und_ einem beliebigen Administrator [!DNL Marketo Measure] Produktprofil innerhalb der [!DNL Marketo Measure] Produktkarte.
 
 **Anmelden bei[!DNL Marketo Measure]**
 
@@ -152,7 +153,7 @@ Nachdem Sie sich bei der [!DNL Marketo Measure] und als Benutzer in der Adobe Ad
 
 **CRM als Datenanbieter**
 
-1. In [!DNL Marketo Measure] klicken Sie auf das **[!UICONTROL Mein Konto]** und wählen Sie **[!UICONTROL Einstellungen]**.
+1. In der [!DNL Marketo Measure] klicken Sie auf das **[!UICONTROL Mein Konto]** und wählen Sie **[!UICONTROL Einstellungen]**.
 
    ![](assets/microsoft-dynamics-crm-installation-guide-16.png)
 
@@ -184,7 +185,7 @@ Nach der Verbindung werden die Details Ihrer Dynamics-Verbindung in der Liste de
 
 So verbinden Sie Ihre Anzeigenkonten mit [!DNL Marketo Measure], indem Sie [!UICONTROL Verbindungen] innerhalb der [!DNL Marketo Measure] Anwendung.
 
-1. Befolgen Sie die obigen Schritte 1 und 2 _CRM als Datenanbieter_ Abschnitt.
+1. Befolgen Sie die obigen Schritte 1 und 2. _CRM als Datenanbieter_ Abschnitt.
 
 1. Klicken Sie auf **[!UICONTROL Einrichten einer neuen CRM-Verbindung]** Schaltfläche.
 
@@ -202,7 +203,7 @@ Zur [!DNL Marketo Measure] zur Verfolgung Ihrer Web-Aktivitäten gibt es mehrere
 
    ![](assets/microsoft-dynamics-crm-installation-guide-23.png)
 
-1. Geben Sie Ihre Telefonnummer ein. Geben Sie für Website Ihre primäre Stammdomäne ein, die für [!DNL Marketo Measure] Tracking auf Ihrer Website. Klicken **[!UICONTROL Speichern]** wann geschehen.
+1. Geben Sie Ihre Telefonnummer ein. Geben Sie für Website Ihre primäre Stammdomäne ein, die für [!DNL Marketo Measure] Tracking auf Ihrer Website. Klicks **[!UICONTROL Speichern]** wann geschehen.
 
    ![](assets/microsoft-dynamics-crm-installation-guide-24.png)
 
@@ -214,7 +215,7 @@ Zur [!DNL Marketo Measure] zur Verfolgung Ihrer Web-Aktivitäten gibt es mehrere
 
    >[!NOTE]
    >
-   >Standardmäßig [!DNL Marketo Measure] exportiert jedes Mal 200 Datensätze pro API-Gutschrift, wenn ein Auftrag Daten an Ihr CRM sendet. Für die meisten Kunden bietet dies das optimale Gleichgewicht zwischen den API-Gutschriften, die von [!DNL Marketo Measure] und CPU-Ressourcenanforderungen im CRM-System. Bei Kunden mit komplexen CRM-Konfigurationen wie Workflows und Triggern kann eine kleinere Batch-Größe jedoch hilfreich sein, um die CRM-Leistung zu verbessern. Zu diesem Zweck [!DNL Marketo Measure] ermöglicht es Kunden, die Batch-Größe des CRM-Exports zu konfigurieren. Diese Einstellung ist auf der Seite Einstellungen > CRM > Allgemein in der Variablen [!DNL Marketo Measure] Webanwendung und Kunden können zwischen Batch-Größen von 200 (Standard), 100, 50 oder 25 wählen.
+   >Standardmäßig ist [!DNL Marketo Measure] exportiert jedes Mal 200 Datensätze pro API-Gutschrift, wenn ein Auftrag Daten an Ihr CRM sendet. Für die meisten Kunden bietet dies das optimale Gleichgewicht zwischen den API-Gutschriften, die von [!DNL Marketo Measure] und CPU-Ressourcenanforderungen im CRM-System. Bei Kunden mit komplexen CRM-Konfigurationen wie Workflows und Triggern kann eine kleinere Batch-Größe jedoch hilfreich sein, um die CRM-Leistung zu verbessern. Zu diesem Zweck [!DNL Marketo Measure] ermöglicht es Kunden, die Batch-Größe des CRM-Exports zu konfigurieren. Diese Einstellung ist auf der Seite Einstellungen > CRM > Allgemein in [!DNL Marketo Measure] Webanwendung und Kunden können zwischen Batch-Größen von 200 (Standard), 100, 50 oder 25 wählen.
    >
    >Beachten Sie bei der Änderung dieser Einstellung, dass kleinere Batch-Größen mehr API-Gutschriften aus Ihrem CRM-System verbrauchen. Es wird empfohlen, die Batch-Größe nur zu reduzieren, wenn in Ihrem CRM-System CPU-Timeouts oder eine hohe CPU-Last auftreten.
 

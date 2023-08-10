@@ -3,7 +3,8 @@ unique-page-id: 18874765
 description: Testen der Marketo Measure-Integration mit einer Salesforce-Sandbox - [!DNL Marketo Measure] - Produktdokumentation
 title: Testen der Marketo Measure-Integration mit einer Salesforce-Sandbox
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
-source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen angezeigt, die[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
 
 Eines der [!DNL Marketo Measure] Kernfunktionen sind die Fähigkeit, Ihre digitalen Marketingbemühungen durch Aktionen auf Ihrer Website zu verfolgen und diese Daten dann in Ihre Produktion zu übertragen. [!DNL Salesforce org] durch Leads und Kontakte. In der Regel werden jedoch keine eingehenden Leads von Ihrer Website innerhalb einer Sandbox-Integration erstellt, sodass der Fokus auf Daten von einer rein Offline-Perspektive aus liegt.
 
@@ -32,4 +33,4 @@ Im Folgenden finden Sie die beiden Quellen, auf die in beiden Testphasen verwies
 1. Nach der Erstellung der Kampagne laden Sie Leads als Campaign-Mitglieder hoch, indem Sie **[!UICONTROL Mitglieder verwalten]** > **[!UICONTROL Mitglieder hinzufügen]** > **[!UICONTROL Importieren von Dateien]**.
 1. Nachdem dies abgeschlossen ist, wählen Sie im Campaign-Seitenlayout &quot;Käufer-Touchpoints aktivieren&quot;, bei dem es sich um ein Picklist-Feld handelt. Wählen Sie den Wert aus: **[!UICONTROL Alle Campaign-Mitglieder einschließen]**.
 
-Danach wird eine Synchronisation zwischen [!DNL Marketo Measure] und [!DNL Salesforce] und wenden Touchpoints auf die Lead-Datensätze an. Es wird empfohlen, am nächsten Tag einen Bericht mit dem Namen zurückzuchecken: &quot;Buyer Touchpoint on Leads&quot;im [!UICONTROL Touchpoints-Berichte des Käufers] auf der Registerkarte Berichte . Wenn der Bericht einen Touchpoint für jeden Lead ausfüllt, ist dies ein Zeichen für Erfolg.
+Danach wird eine Synchronisation zwischen [!DNL Marketo Measure] und [!DNL Salesforce] und wenden Touchpoints auf die Lead-Datensätze an. Es wird empfohlen, am nächsten Tag einen Bericht mit dem Namen &quot;Buyer Touchpoint on Leads&quot;im [!UICONTROL Touchpoints-Berichte des Käufers] auf der Registerkarte Berichte . Wenn der Bericht einen Touchpoint für jeden Lead ausfüllt, ist dies ein Zeichen für Erfolg.

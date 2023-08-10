@@ -2,7 +2,8 @@
 description: "[!DNL Marketo Measure] Integrationen mit Adobe Analytics - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Integrationen mit [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Marketo Measure]-Integrationen mit Adobe Analytics {#marketo-measure-integrations-with-adobe-analytics}
 
-Die Integration von B2B-Kundenattributen ermöglicht die gegenseitige Nutzung von [!DNL Marketo Measure] und Adobe Analytics ihre [!DNL Adobe Analytics] Benutzerprofile mit wertvollen Metadaten, die von der [!DNL Marketo Measure] Attribution-Engine und ihre Synchronisierungsfunktion mit CRMs ([!DNL Microsoft Dynamics] und [!DNL Salesforce]). Sie steht allen Kunden, die [!DNL Adobe Analytics] und [!DNL Marketo Measure].
+Die Integration von B2B-Kundenattributen ermöglicht die gegenseitige Nutzung von [!DNL Marketo Measure] und Adobe Analytics ihre [!DNL Adobe Analytics] Benutzerprofile mit wertvollen Metadaten aus [!DNL Marketo Measure] Attribution-Engine und ihre Synchronisierungsfunktion mit CRMs ([!DNL Microsoft Dynamics] und [!DNL Salesforce]). Sie steht allen Kunden, die [!DNL Adobe Analytics] und [!DNL Marketo Measure].
 
 >[!PREREQUISITES]
 >
@@ -27,7 +28,7 @@ Die Integration von B2B-Kundenattributen ermöglicht die gegenseitige Nutzung vo
 
    * Der Hostname und die Anmeldeinformationen des FTP-Servers (Benutzername und Kennwort)
 
-1. Nachdem die Datenquelle &quot;Kundenattribute&quot;erstellt wurde, fahren Sie mit dem Konfigurationsprozess fort, indem Sie zur **[!UICONTROL Integrationen]** > **[!UICONTROL Verbindungen]** im Bildschirm [!DNL Marketo Measure] Admin-Menü.
+1. Nachdem die Datenquelle &quot;Kundenattribute&quot;erstellt wurde, fahren Sie mit dem Konfigurationsprozess fort, indem Sie zur **[!UICONTROL Integrationen]** > **[!UICONTROL Verbindungen]** im Bildschirm [!DNL Marketo Measure] Administratormenü.
 
 1. Klicken Sie auf **[!UICONTROL Einrichten einer neuen Kundenattributverbindung]** und befolgen Sie die Anweisungen zum Konfigurieren der Integration von Kundenattributen . Über die Benutzeroberfläche werden Sie zur Eingabe der Alias-ID und FTP-Verbindungsinformationen aufgefordert, die Sie beim Erstellen der Kundenattributquelle in Ihrer Core Services Console erhalten haben, sowie zur Auswahl der Kontoattribute, die Sie mit Ihrer [!DNL Adobe Analytics] -Konto.
 
@@ -35,7 +36,7 @@ Die Integration von B2B-Kundenattributen ermöglicht die gegenseitige Nutzung vo
 
 1. Nachdem Sie die Verbindung in Ihrer [!DNL Marketo Measure] -Konto verwenden, müssen Sie zur Experience Cloud-Konsole zurückkehren, um [Prüfen des Schemas](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). Sie müssen sich keine Gedanken über den FTP-Datei-Upload machen. [!DNL Marketo Measure] hat diesen Teil für Sie automatisiert. Sie müssen lediglich zum Bildschirm &quot;Schema anzeigen/bearbeiten&quot;für die Kundenattributquelle navigieren, die Sie in Schritt 1 erstellt haben, und die Adobe darüber informieren, welche Datentypen für die einzelnen Attribute gelten, die [!DNL Marketo Measure] in Ihrem Namen hochgeladen hat. Sie können bei Bedarf auch neue Anzeigenamen für die hochgeladenen Attribute erstellen.
 
-   Wenn Sie sich für die Synchronisierung von Attributen aus Ihrem CRM-Kontoobjekt entschieden haben, wird dringend empfohlen, neue Anzeigenamen für diese Attribute zu wählen, z. B. [!DNL Marketo Measure] füllt nur die Namen auf API-Ebene für diese Attribute, die normalerweise nicht berichterstellungsfreundlich sind.
+   Wenn Sie sich für die Synchronisierung von Attributen aus Ihrem CRM-Kontoobjekt entschieden haben, wird dringend empfohlen, neue Anzeigenamen zu wählen, wie [!DNL Marketo Measure] füllt nur die Namen auf API-Ebene für diese Attribute, die normalerweise nicht berichterstellungsfreundlich sind.
 
 1. Der letzte Schritt besteht darin, Attributanmeldungen für die Experience Cloud-Anwendungen zu konfigurieren, in denen Sie die Attribute verwenden möchten.  Sie können Abonnements für [!DNL Adobe Analytics] oder [!DNL Adobe Target].  Weitere Informationen dazu [finden Sie hier .](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html).
 
@@ -84,7 +85,7 @@ Beachten Sie, dass die über diese Integration angezeigten Attribute weiterhin m
 
 **Wie ändere ich den Satz von Attributen, die ich über diese Integration freigeben möchte?**
 
-Um ein Attribut freizugeben, das von [!DNL Marketo Measure] zu Ihrer Adobe IMS-Organisation über diese Integration, um in [!DNL Adobe Analytics]muss sie über eine in der Core Services Console konfigurierte Attributanmeldung angezeigt werden. Wenn Sie daher ein Attribut entfernen möchten, damit es nicht mehr in [!DNL Adobe Analytics], können Sie dies einfach durch Löschen des Attributabonnements erreichen.
+Um ein Attribut freizugeben, das von [!DNL Marketo Measure] zu Ihrer Adobe IMS-Organisation über diese Integration hinzufügen, um in [!DNL Adobe Analytics]muss sie über eine in der Core Services Console konfigurierte Attributanmeldung angezeigt werden. Wenn Sie daher ein Attribut entfernen möchten, damit es nicht mehr in [!DNL Adobe Analytics], können Sie dies einfach durch Löschen des Attributabonnements erreichen.
 
 Sie können auch die B2B-Kundenattributverbindung in [!DNL Marketo Measure] und erstellen Sie es mit dem Attribut neu, das Sie nicht mehr von der Verbindungskonfiguration ausschließen möchten. Um der Integration Attribute hinzuzufügen, müssen Sie die vorhandene Verbindung löschen und eine neue Verbindung mit den gewünschten Attributen erstellen, die der Konfiguration hinzugefügt werden.
 
@@ -92,6 +93,6 @@ In Anbetracht der obigen Ausführungen wird dringend empfohlen, bei der erstmali
 
 **Welche Anwendungsbeispiele gibt es für diese Integration?**
 
-1. Kontobasierte Traffic-Metriken: Mithilfe des Kontonamenattributs können Sie Segmente eines oder mehrerer Zielkonten in Adobe Analytics erstellen und die Traffic-Metriken der Site nur für die Untergruppe des Traffics analysieren, der von den Zielkonten stammt.
-1. Content Analytics: Verwenden Sie die Umsatzmetrik, um zu analysieren, welcher Site-Inhalt für Kunden, die Ihr Produkt oder Ihren Dienst letztendlich erwerben, oder für Kunden, die eine bestimmte Trichterphase von Interesse erreichen, am interessantesten ist.
-1. Live-Deal-Unterstützung: Fördern Sie Ihr Verkaufsteam mit umsetzbaren Einblicken, indem Sie das Site-Verhalten für Benutzer analysieren, die mit einer bestimmten Öffnung in Ihrem CRM-System verbunden sind.
+1. Kontobasierte Traffic-Metriken: Mithilfe des Kontonamenattributs können Sie Segmente eines oder mehrerer Zielkonten in Adobe Analytics erstellen und die Traffic-Metriken der Site nur für die Untergruppe des Traffics analysieren, der von Zielkonten stammt.
+1. Content Analytics: Verwenden Sie die Umsatzmetrik, um zu analysieren, welcher Site-Inhalt für Kunden, die Ihr Produkt oder Ihren Service letztendlich erwerben, oder für Kunden, die eine bestimmte Trichterphase von Interesse erreichen, am interessantesten ist.
+1. Live-Deal-Support: Ermöglichen Sie Ihrem Verkaufsteam umsetzbare Einblicke, indem Sie das Site-Verhalten für Benutzer analysieren, die mit einer bestimmten Opportunity in Ihrem CRM-System verbunden sind.

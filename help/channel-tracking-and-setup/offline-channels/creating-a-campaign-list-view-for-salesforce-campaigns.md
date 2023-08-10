@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874718
 description: Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce Campaigns] - [!DNL Marketo Measure] - Produktdokumentation
-title: Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce] Kampagnen
+title: Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce] -Kampagnen
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce] Kampagnen {#creating-a-campaign-list-view-for-salesforce-campaigns}
+# Erstellen einer Kampagnenlisten-Ansicht für[!DNL Salesforce]-Kampagnen {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Erfahren Sie, wie Sie eine Listenansicht für die Kampagnen erstellen, die Sie mit Käufer-Touchpoints synchronisieren möchten.
 
@@ -23,9 +24,9 @@ Die Kampagnenlistenansicht, die erstellt werden kann, ermöglicht es Ihnen, eine
    * **Typ** [GLEICH] &quot;Alle Kampagnentypen, die wir Ihren Offline-Kanälen zugeordnet haben&quot;. Siehe Implementierungsplan oder Registerkarte Offline-Kanäle in [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mein Konto -> Einstellungen -> Offline-Kanäle). Über das Lupensymbol können Sie die gewünschten Typen auswählen (die einem Offline-Marketingkanal zugeordnet sind).
 
       * Wählen Sie für jeden Filter maximal 3 Typen aus. In einem Filterfeld können maximal Zeichen verwendet werden. Beginnen Sie mit 3 Typen pro Filter und fügen Sie bei Bedarf zusätzliche Zeilen von &quot;Typ&quot;-Filtern hinzu.
+
    * **Erstellungsdatum** [GRÖSSER ODER GLEICH] Ihre [!DNL Marketo Measure] Startdatum. Ihr Startdatum finden Sie im ROI-Dashboard im Abschnitt [!DNL Marketo Measure] App. Wählen Sie einfach &quot;Seit Erstellungsdatum&quot;im Datumsbereich des Bindestrichs aus und es wird Ihr Startdatum angezeigt.
    * **&#42;Record Type&#42;** - Um Änderungen in der Listenansicht vorzunehmen, müssen Sie einen Filter für den Datensatztyp hinzufügen. Jeder zu bearbeitende Kampagnensatz muss denselben Datensatztyp aufweisen.
-
 
 1. Bearbeiten Sie die ausgewählten Felder, um sie in der Listenansicht anzuzeigen. Die vollständige Einrichtung der Listenansicht sollte wie im folgenden Beispiel aussehen:
 

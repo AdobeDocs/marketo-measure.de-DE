@@ -3,10 +3,11 @@ unique-page-id: 34406468
 description: Übersichtskacheln auf Pinnwänden - [!DNL Marketo Measure] - Produktdokumentation
 title: Übersichtskacheln
 exl-id: 35180928-6b75-4271-9bb5-7617bc2f9c74
-source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -220,8 +221,8 @@ Das Übersichtsmenü bietet einen umfassenden Überblick über Ihre Marketing-Pe
 
 Gesamtzahl der zugewiesenen Einnahmen aus geschlossenen Gewinner-Chancen basierend auf dem Attributionsmodell.
 
-- Details zu Möglichkeiten: Zeigt eine Aufschlüsselung der zugehörigen Opportunity IDs, des Erstellungsdatums, des Schließdatums, des ISO-Codes und der Umsatzzuordnung an.\
--Details anzeigen: Aufschlüsselung nach Monat.
+-Opportunity Details: Zeigt eine Aufschlüsselung der zugehörigen Opportunity-IDs, des Erstellungsdatums, des Schließdatums, des ISO-Codes und der Umsatzzuordnung an.\
+-Details anzeigen: Eine Aufschlüsselung nach Monat.
 
 ## Übersicht (Diagramm) Kachel {#overview-chart-tile}
 
@@ -229,7 +230,7 @@ Gesamtzahl der zugewiesenen Einnahmen aus geschlossenen Gewinner-Chancen basiere
 
 Das Diagramm zeigt den jedem Kanal zugewiesenen Umsatz im Zeitverlauf an.
 
-- Details zu Möglichkeiten: Zeigt eine Aufschlüsselung der zugehörigen Opportunity IDs, des Erstellungsdatums, des Schließdatums, des ISO-Codes und der Umsatzzuordnung an.\
+-Opportunity Details: Zeigt eine Aufschlüsselung der zugehörigen Opportunity-IDs, des Erstellungsdatums, des Schließdatums, des ISO-Codes und der Umsatzzuordnung an.\
 -Zeigt eine Aufschlüsselung der beitragenden Opp-IDs an:
 
 * Nach ROI-Woche
@@ -246,15 +247,15 @@ Die Gesamtausgaben aus API-Kosten und selbst gemeldeten Kosten für den angegebe
 
 >[!NOTE]
 >
->bei der Bohrung in weniger als einem Monat, [!DNL Marketo Measure] verwendet den Durchschnitt der Ausgaben für diesen Monat und ordnet diesen Durchschnittswert jedem Tag zu.
+>bei der Einbohren in weniger als einem Monat, [!DNL Marketo Measure] verwendet den Durchschnitt der Ausgaben für diesen Monat und ordnet diesen Durchschnittswert jedem Tag zu.
 
-- Ausgabedetails: Zeigt eine Aufschlüsselung der zugehörigen eindeutigen Kampagnen-ID, Kampagnenname, Kanal, Unterkanal, Datum, Ursprungswährung, Ausgabe an.  -Details anzeigen: Aufschlüsselung nach Monat.
+- Ausgabedetails: Zeigt eine Aufschlüsselung der zugehörigen eindeutigen Kampagnen-ID, Kampagnenname, Kanal, Unterkanal, Datum, Ursprungswährung, Ausgaben an.  -Details anzeigen: Eine Aufschlüsselung nach Monat.
 
 ## ROI-Kachel {#roi-tile}
 
 ![](assets/four.png)
 
-Der berechnete ROI (RoI) aus dem Gesamtumsatz (aus dem ausgewählten Attributionsmodell) und den Gesamtausgaben (Umsatzbereich ÷ Ausgabenkachel = ROI-Kachel).
+Der berechnete ROI (RoI) aus dem Gesamtumsatz (aus dem ausgewählten Attributionsmodell) und den Gesamtausgaben (Umsatzbereich ÷ Ausgabenkachel = ROI-Bereich).
 
 ## Kachel &quot;Angebote&quot; {#deals-tile}
 
@@ -266,7 +267,7 @@ Zeigt die Gesamtzahl der zugewiesenen Angebote an (Angebote zählen als Geschlos
 >
 >Wenn der Datumstyp &quot;Touchpoint-Datum&quot;ausgewählt ist, sind partielle Zählungen möglich, da es möglicherweise bestimmte Touchpoints gibt, die nicht in den Zeitraum fallen.
 
-- Details zu Möglichkeiten: Zeigt eine Aufschlüsselung der zugehörigen Opportunity-IDs, des Erstellungsdatums, des Schließdatums und der Attribution (Zählung) an.  -Details anzeigen: Aufschlüsselung nach Monat.
+- Opportunity Details: Zeigt eine Aufschlüsselung der zugehörigen Opportunity-IDs, des Erstellungsdatums, des Schließdatums und der Attribution (Zählung) an.  -Details anzeigen: Eine Aufschlüsselung nach Monat.
 
 ## Kosten pro Kachel {#cost-per-deal-tile}
 
@@ -274,7 +275,7 @@ Zeigt die Gesamtzahl der zugewiesenen Angebote an (Angebote zählen als Geschlos
 
 Durchschnittliche Kosten, die benötigt werden, um eine geschlossene Chance zu erhalten. Die Gesamtausgaben dividiert durch die Gesamtanzahl der Angebote (Ausgabenkachel ÷ Tile Angebote = Kosten pro Tile).
 
-## Pipeline-Umsatzbereich-Kachel {#pipeline-revenue-tile}
+## Pipelineumsatzbereich {#pipeline-revenue-tile}
 
 ![](assets/seven.png)
 
@@ -284,7 +285,7 @@ Gesamtpotenzial der zurechenbaren Einnahmen aus offenen Opportunities
 >
 >Der Umsatz wird für das angegebene Attributionsmodell übernommen.
 
-- Details zu Möglichkeiten: Zeigt eine Aufschlüsselung der zugehörigen Opportunity IDs, des Erstellungsdatums, des Schließdatums, des ISO-Codes und der Umsatzzuordnung an.  -Details anzeigen: Aufschlüsselung nach Monat.
+-Opportunity Details: Zeigt eine Aufschlüsselung der zugehörigen Opportunity-IDs, des Erstellungsdatums, des Schließdatums, des ISO-Codes und der Umsatzzuordnung an.  -Details anzeigen: Eine Aufschlüsselung nach Monat.
 
 ## Kachel &quot;Größe anpassen&quot; {#deal-size-tile}
 
@@ -322,6 +323,6 @@ Zeigt den ROI an, der der ausgewählten Metrik (Kanal, Unterkanal, Kampagne, Kon
 
 Zeigt den ROI an, der der ausgewählten Metrik (Kanal, Unterkanal, Kampagne, Konto, Adgroup, Anzeige, Advertiser, Kreativ, Keyword, Platzierung, Site) basierend auf dem ausgewählten Attributionsmodell zugeordnet wurde.
 
-- Details zu Möglichkeiten: Zeigt eine Aufschlüsselung der zugehörigen Opportunity-IDs, des Erstellungsdatums, des Schließdatums und der Attribution (Zählung) an.
+- Opportunity Details: Zeigt eine Aufschlüsselung der zugehörigen Opportunity-IDs, des Erstellungsdatums, des Schließdatums und der Attribution (Zählung) an.
 
--Details anzeigen: Aufschlüsselung nach Monat.
+-Details anzeigen: Eine Aufschlüsselung nach Monat.

@@ -3,10 +3,11 @@ unique-page-id: 18874793
 description: Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag - [!DNL Marketo Measure] - Produktdokumentation
 title: Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Custom Revenue Amount
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -17,7 +18,7 @@ Standardmäßig ziehen die Touchpoints der Käuferzuordnung den Opportunity-Betr
 * Betrag (SFDC-Standard)
 * [!DNL Marketo Measure] Opportunity Amount (Custom)
 
-Wenn Sie ein benutzerdefiniertes Feld &quot;Betrag&quot;für Ihre Möglichkeiten verwenden, müssen wir einen Workflow konfigurieren, um den Umsatz für den Touchpoint des Käufers zu berechnen. Dies erfordert fortgeschrittenere Kenntnisse [!DNL Salesforce], sodass möglicherweise Hilfe von Ihrem SFDC-Administrator benötigt wird.
+Wenn Sie ein benutzerdefiniertes Feld &quot;Betrag&quot;für Ihre Möglichkeiten verwenden, müssen wir einen Workflow konfigurieren, um den Umsatz für den Touchpoint des Käufers zu berechnen. Dies erfordert fortgeschrittenere Kenntnisse über [!DNL Salesforce], sodass möglicherweise Hilfe von Ihrem SFDC-Administrator benötigt wird.
 
 Zunächst benötigen wir die folgenden Informationen:
 
@@ -39,11 +40,11 @@ Von hier aus beginnen wir mit der Erstellung des Workflows.
 
    ![](assets/4.jpg)
 
-1. Fügen Sie eine Workflow-Aktion hinzu. Setzen Sie diese Auswahlliste auf &quot;[!UICONTROL Neue Feldaktualisierung].&quot;
+1. Hinzufügen einer Workflow-Aktion. Setzen Sie diese Auswahlliste auf &quot;[!UICONTROL Neue Feldaktualisierung].&quot;
 
    ![](assets/5.jpg)
 
-1. Hier geben Sie die Feldinformationen ein. Im Feld &quot;Name&quot; wird die Verwendung der folgenden Benennung empfohlen: &quot;[!DNL Marketo Measure] Opp Amount.&quot; Der &quot;eindeutige Name&quot;wird automatisch basierend auf dem Feld &quot;Name&quot;aufgefüllt. Wählen Sie in der Auswahlliste &quot;Zu aktualisierendes Feld&quot;die Option[!DNL Marketo Measure] Opportunity Amount.&quot; Nachdem Sie das Feld ausgewählt haben, wählen Sie das Feld &quot;Workflow-Regeln nach Feldänderung neu bewerten&quot;. Wählen Sie unter &quot;Geben Sie den neuen Feldwert an&quot;die Option &quot;Verwenden Sie eine Formel, um den neuen Wert festzulegen&quot;. Legen Sie in das leere Feld den API-Namen des benutzerdefinierten Felds Betrag ab. Klicken **[!UICONTROL Speichern]**.
+1. Hier geben Sie die Feldinformationen ein. Im Feld &quot;Name&quot;wird die Verwendung der folgenden Benennung empfohlen: &quot;[!DNL Marketo Measure] Opp Amount.&quot; Der &quot;eindeutige Name&quot;wird automatisch basierend auf dem Feld &quot;Name&quot;aufgefüllt. Wählen Sie in der Auswahlliste &quot;Zu aktualisierendes Feld&quot;die Option[!DNL Marketo Measure] Opportunity Amount.&quot; Nachdem Sie das Feld ausgewählt haben, wählen Sie das Feld &quot;Workflow-Regeln nach Feldänderung neu bewerten&quot;. Wählen Sie unter &quot;Geben Sie den neuen Feldwert an&quot;die Option &quot;Verwenden Sie eine Formel, um den neuen Wert festzulegen&quot;. Legen Sie in das leere Feld den API-Namen des benutzerdefinierten Felds Betrag ab. Klicks **[!UICONTROL Speichern]**.
 
    ![](assets/6.png)
 

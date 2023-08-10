@@ -1,9 +1,10 @@
 ---
 unique-page-id: 37356030
-description: Email Tracking Parameter - [!DNL Marketo Measure] - Produktdokumentation
+description: E-Mail-Tracking-Parameter - [!DNL Marketo Measure] - Produktdokumentation
 title: E-Mail-Verfolgungsparameter
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 3%
@@ -71,6 +72,6 @@ Marketo Measure akzeptiert die folgenden Werte: E-Mail-Adresse, Salesforce-Lead-
  </tbody> 
 </table>
 
-Und schließlich innerhalb [!DNL Marketo Measure]müssen Sie den Tracking-Parameter so angeben, dass [!DNL Marketo Measure] kann den E-Mail- oder ID-Wert suchen. Der Standardwert ist &quot;mailId&quot;, wie in den Beispielen oben und im Screenshot unten dargestellt. Geben Sie den Wert in Ihre Einstellungen unter [!DNL Marketo Measure]Klicken Sie auf **[!UICONTROL Speichern]**.
+Und schließlich innerhalb [!DNL Marketo Measure]müssen Sie den Tracking-Parameter so angeben, dass [!DNL Marketo Measure] kann den E-Mail- oder ID-Wert suchen. Der Standardwert ist &quot;mailId&quot;, wie in den Beispielen oben und im Screenshot unten dargestellt. Geben Sie den Wert in Ihre Einstellungen ein unter [!DNL Marketo Measure]Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ![](assets/one.png)

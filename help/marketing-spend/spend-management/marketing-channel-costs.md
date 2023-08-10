@@ -3,16 +3,17 @@ unique-page-id: 18874602
 description: Marketingkanal-Kosten - [!DNL Marketo Measure] - Produktdokumentation
 title: Marketingkanal-Kosten
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Channels, Spend Management
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # Marketingkanal-Kosten {#marketing-channel-costs}
 
-Einer der grundlegendsten Vorteile der Verwendung von [!DNL Marketo Measure] ist die Möglichkeit, Marketing-Maßnahmen direkt mit den Auswirkungen auf den Umsatz zu verbinden - mit so hoher Granularität wie gewünscht. Es ist möglich, die Kapitalrendite auf der Touchpoint-Ebene zu sehen. Um diesen Nutzen nutzen zu können, müssen die Kanalkosten einfach in die [!DNL Marketo Measure] App. ROI-Berichte werden automatisch erstellt und stehen im **Marketing-ROI-Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+Einer der wichtigsten Vorteile der Verwendung von [!DNL Marketo Measure] ist die Möglichkeit, Marketing-Maßnahmen direkt mit den Auswirkungen auf den Umsatz zu verbinden - mit so hoher Granularität wie gewünscht. Es ist möglich, die Kapitalrendite auf der Touchpoint-Ebene zu sehen. Um diesen Nutzen nutzen zu können, müssen die Kanalkosten einfach in die [!DNL Marketo Measure] App. ROI-Berichte werden automatisch erstellt und stehen im **Marketing-ROI-Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Klicken Sie hier , um direkt zu den Anweisungen zu navigieren.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
@@ -28,7 +29,7 @@ Kosten, die gemeldet und aus Direktwerbeverbindungen importiert werden, werden a
 
 Auf der detailliertesten Ebene können Kunden Ausgaben nach einzelnen Kampagnen eingeben, die innerhalb ihres jeweiligen Kanals gruppiert sind. Für CRM-Kampagnen: [!DNL Marketo Measure] hat die Kampagnen-ID in eine separate Spalte eingefügt, die Ihnen dabei hilft, Offline-Kampagnenausgaben aus Ihrem CRM-System in diese Tabelle zu übertragen. Durch das Hinzufügen von Ausgaben auf dieser Ebene können Kunden den Kampagnen-ROI anzeigen und die Leistung von Campaign optimieren.
 
-Die Summe aller Kampagnen muss nicht zu den Werten zusammenfassen, die im Subkanal oder Kanal eingegeben wurden. Sie darf jedoch nicht größer sein als die im Subkanal oder Kanal eingegebenen Werte. Wenn die Summe kleiner ist als der im Unterkanal oder Kanal eingegebene Wert, [!DNL Marketo Measure] fügt automatisch eine Zeile für &quot;Sonstige&quot;hinzu, um die Differenz abzudecken und Lücken zu füllen.
+Die Summe aller Kampagnen muss nicht zu den Werten zusammenfassen, die im Subkanal oder Kanal eingegeben wurden. Sie darf jedoch nicht größer sein als die Werte, die im Subkanal oder Kanal eingegeben wurden. Wenn die Summe kleiner ist als der im Unterkanal oder Kanal eingegebene Wert, [!DNL Marketo Measure] fügt automatisch eine Zeile für &quot;Sonstige&quot;hinzu, um die Differenz abzudecken und Lücken zu füllen.
 
 **Ausgaben nach Unterkanal**
 
@@ -46,7 +47,7 @@ Der standardmäßige Datumsbereich beginnt ab dem Startdatum mit [!DNL Marketo M
 
 **Filter**
 
-Um Ihre Ergebnisse in der Tabelle Marketing-Ausgaben einzugrenzen, wählen Sie oben einen Kanal aus, um andere Kanäle herauszufiltern. Dies ist hilfreich, wenn sich ein Team auf einen einzelnen Kanal konzentriert.
+Um Ihre Ergebnisse in der Tabelle Marketing-Ausgaben einzugrenzen, wählen Sie oben einen Kanal aus, um andere Kanäle herauszufiltern. Dies ist hilfreich, wenn Sie ein Team haben, das sich auf einen einzelnen Kanal konzentriert.
 
 **Suche**
 
@@ -78,13 +79,13 @@ Navigieren Sie zu **[!UICONTROL Mein Konto]** Menü, klicken Sie auf **[!UICONTR
 
 ![](assets/1.png)
 
-**Schritt 2: CSV zu aktuellen Kosten herunterladen**
+**Schritt 2: Herunterladen der CSV-Datei zu den aktuellen Kosten**
 
 Navigieren Sie rechts vom Bildschirm und klicken Sie auf **[!UICONTROL Aktuelle Kosten herunterladen].** Mit dieser Option können Sie eine Tabelle im CSV-Format herunterladen.
 
 ![](assets/2.png)
 
-**Schritt 3: Öffnen Sie die CSV-Datei und nehmen Sie Änderungen vor.**
+**Schritt 3: CSV-Datei öffnen und Änderungen vornehmen**
 
 Sie können die Datei importieren und öffnen, indem Sie Google Tabellen, Apple Numbers, Microsoft Excel oder Ihre Auswahl an Software verwenden. [!DNL Marketo Measure] empfiehlt die Verwendung von Google Tabellen.
 
@@ -92,7 +93,7 @@ Nehmen Sie nach dem Import des Blatts die gewünschten Änderungen vor, z. B. da
 
 Überprüfen Sie die Logikregeln in Ihrem Arbeitsblatt. Jede Zeile sollte einen Kanal und einen seiner Unterkanäle enthalten, die durch ein (.) Punkt am Ende. Die konsequente Verwendung dieses Formats ist wichtig.
 
-Um beispielsweise Facebook als Unterkanal und Social als Kanal anzugeben, sollte die Regel wie folgt geschrieben werden: &quot;Social.Facebook.&quot; Um ein Offline-Ereignis zu verfolgen, sollte die Kanalsyntax folgendermaßen aussehen: &quot;Events.Big Conference&quot;. Beispiele werden in der folgenden Abbildung gezeigt:
+Um beispielsweise Facebook als Unterkanal und Social als Kanal anzugeben, sollte die Regel wie folgt geschrieben werden: &quot;Social.Facebook&quot;. Um ein Offline-Ereignis zu verfolgen, sollte die Kanalsyntax folgendermaßen lauten: &quot;Events.Big Conference&quot;. Beispiele werden in der folgenden Abbildung gezeigt:
 
 ![](assets/3.png)
 
@@ -106,7 +107,7 @@ Bing Ads- und Google AdWords-Kosten müssen nicht eingegeben oder aktualisiert w
 
 **Schritt 4: Datei im CSV-Format speichern**
 
-Wenn Sie in Google Tabellen arbeiten, sollten Sie die Datei zuerst herunterladen. Schließen Sie keine monatlichen Daten aus oder löschen Sie sie, da dies beim Hochladen der CSV-Datei in Schwierigkeiten bereiten wird [!DNL Marketo Measure] später.
+Wenn Sie in Google Tabellen arbeiten, sollten Sie die Datei zuerst herunterladen. Schließen Sie keine monatlichen Daten aus oder löschen Sie sie, da dies beim Hochladen der CSV-Datei in Schwierigkeiten bereiten wird. [!DNL Marketo Measure] später.
 
 **Schritt 5: CSV-Datei hochladen**
 
@@ -114,13 +115,13 @@ Navigieren Sie zu **[!UICONTROL Kosten]** Abschnitt [!DNL Marketo Measure] App u
 
 ## FAQs {#faq}
 
-**Warum werden Zahlen in der CSV-Datei angezeigt?**
+**Warum werden Zahlen in der CSV angezeigt?**
 
 Wenn kein Wert auf einer höheren Ebene wie Kanal oder Subchannel eingegeben wird, [!DNL Marketo Measure] berechnet automatisch die untergeordneten Ebenen, die nach dem Hochladen der Datei angezeigt werden. Wenn die Summe der untergeordneten Elemente kleiner ist als der für das übergeordnete Element eingegebene Wert, [!DNL Marketo Measure] fügt eine Zeile &quot;Sonstige&quot;hinzu, um die Differenz in der Gesamtsumme anzuzeigen.
 
 **Wie werden die Kampagnen in der Liste bestimmt, die ich sehe?**
 
-Im Moment werden in unseren Ergebnissen Kampagnen aufgelistet, die wir gesehen haben, als einem Touchpoint gutgeschrieben. Wenn eine Kampagne eine Aktivität enthält, wird diese Kampagne basierend auf dem Touchpoint-Datum angezeigt, an dem sie stattgefunden hat.
+Im Moment werden in unseren Ergebnissen Kampagnen aufgelistet, die wir gesehen haben, dass sie einem Touchpoint gutgeschrieben wurden. Wenn eine Kampagne eine Aktivität enthält, wird diese Kampagne basierend auf dem Touchpoint-Datum angezeigt, an dem sie stattgefunden hat.
 
 **Es gibt zu viele Zeilen und Spalten, um durchs Bild zu gelangen - kann ich die Ansicht konsolidieren?**
 

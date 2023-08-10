@@ -3,16 +3,17 @@ unique-page-id: 18874676
 description: "[!DNL Marketo Measure] Erläuterung von Insights - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Insights Explain"
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Erläuterung von Insights {#marketo-measure-insights-explained}
+# Erläuterung von [!DNL Marketo Measure]-Insights {#marketo-measure-insights-explained}
 
-Erfahren Sie mehr über die [!DNL Marketo Measure] Insights-Ansicht in [!DNL Salesforce], einschließlich der Darstellung der verschiedenen Symbole und der Verwendung der Funktion. Diese Funktion ist besonders hilfreich, wenn Sie die ersten 20 Sitzungen eines Leads, Kontakts oder Kontos sehen möchten.
+Informationen zum [!DNL Marketo Measure] Insights-Ansicht in [!DNL Salesforce], einschließlich der Darstellung der verschiedenen Symbole und der Verwendung der Funktion. Diese Funktion ist besonders hilfreich, wenn Sie die ersten 20 Sitzungen eines Leads, Kontakts oder Kontos sehen möchten.
 
 Sobald jemand von der [!DNL Marketo Measure] Javascript und füllt ein Formular auf Ihrer Website aus, wird die Person Lead in Ihrem System werden und wir werden ihre digitalen Marketing-Daten an Ihre Salesforce (SFDC)-Organisation übertragen. In diesem Fall werden die Touchpoint-Daten im [!DNL Marketo Measure] Lead Insights-Bereich (eine Canvas-App) auf den Lead-/Kontakt-/Opportunity-/Kontoobjekten.
 

@@ -1,15 +1,16 @@
 ---
 description: '[!DNL Salesforce] Paketkonsolidierung - [!DNL Marketo Measure] - Produktdokumentation'
-title: '[!DNL Salesforce] Package-Konsolidierung'
+title: '[!DNL Salesforce] Paketkonsolidierung'
 exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
-source-git-commit: dd3795288b1d579b078a32c78c9f08fd67a5f0e1
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# [!DNL Salesforce] Package-Konsolidierung {#salesforce-package-consolidation}
+# [!DNL Salesforce] Paketkonsolidierung {#salesforce-package-consolidation}
 
 Wir freuen uns, die bevorstehenden Änderungen an den Marketo Measure Salesforce-Paketen bekannt geben zu können. Um das Benutzererlebnis zu verbessern und die Nutzung zu vereinfachen, konsolidieren wir alle vorhandenen Pakete zu einem einzigen, umfassenden Paket.
 
@@ -21,10 +22,10 @@ Als Folge dieser Konsolidierung werden die aktuellen Pakete V1, V2_EXT, V2_Secur
 
 Das neue konsolidierte V2-Paket umfasst alle Funktionen und Funktionen der vorherigen Pakete und bietet so ein verbessertes Benutzererlebnis. Dieses aktualisierte Paket ermöglicht ein effizienteres Tracking der Marketing- und Verkaufsleistung und ermöglicht tiefere Einblicke in das Kundenverhalten.
 
-Wir haben zwei neue Felder hinzugefügt, um Ihre Berichterstellungsfunktionen zu verbessern:
+Wir haben zwei neue Felder hinzugefügt, um Ihre Berichtsfunktionen zu erweitern:
 
-* form_name: Dieses Feld ist jetzt in BT-/BAT-Objekten verfügbar und ermöglicht Benutzern das Erstellen von Berichten anhand von Formularnamen.
-* user_touchpoint_id: Mit diesem Feld können Benutzer Berichte mit Touchpoint-Zählungen für Unique User erstellen.
+* form_name: Dieses Feld ist jetzt in BT-/BAT-Objekten verfügbar und ermöglicht Benutzenden das Erstellen von Berichten anhand von Formularnamen.
+* user_touchpoint_id: Mit diesem Feld können Berichte mit Touchpoint-Zählungen für eindeutige Benutzende erstellt werden.
 
 ## Unterstützung und Übergang {#support-and-transition}
 
@@ -38,7 +39,7 @@ Wir wissen, dass diese Änderung Anpassungen erfordern kann, und wir sind entsch
    * Alle Daten in den Feldern V2_EXT sind in Touchpoint-Feldern verfügbar. So können Sie Ihre Berichte ändern, um Daten aus den entsprechenden V2-Touchpoint-Feldern abzurufen, indem Sie einen Filter für die Touchpoint-Position hinzufügen.
    * Beispielbericht, in dem alle Leads mit Werbeinhalt FT abgerufen werden, die &quot;Outreach&quot;-Text enthalten.
       * V2_EXT-Abfrage:
-         * bizible2_ext__ad_content_FT__c enthält Outreach
+         * bizible2_ext_ad_content_FT_c enthält Outreach
 
 ![](assets/package-consolidation-1.png)
 

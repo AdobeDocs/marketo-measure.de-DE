@@ -1,15 +1,16 @@
 ---
 description: Übersicht über die Adobe Experience Cloud-Benutzeroberfläche [!DNL Marketo Measure] - Produktdokumentation
-title: Übersicht über die Adobe Experience Cloud-Benutzeroberfläche
+title: Adobe Experience Cloud-Benutzeroberfläche – Übersicht
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: dc6c66daebd10b95333d8c27c2326a95555c555b
+feature: Integration, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# Übersicht über die Adobe Experience Cloud-Benutzeroberfläche {#experience-cloud-interface-overview}
+# Adobe Experience Cloud-Benutzeroberfläche – Übersicht {#experience-cloud-interface-overview}
 
 Die Benutzeroberfläche von Adobe Experience Cloud passt das Erscheinungsbild von Adobe Experience Cloud-Anwendungen und -Diensten an. Aber es ist mehr als nur ein neues Design. Es handelt sich dabei um eine Einzelseitenanwendung, die das Benutzererlebnis in einer einzigen Instanz ermöglicht.
 
@@ -31,7 +32,7 @@ Neben dem aktualisierten Erscheinungsbild werden Sie die folgenden Funktionen be
 
 **Domänenverwaltung**
 
-[Verwalten Sie Ihre [!DNL Marketo Measure] Domänen](/help/marketo-measure-and-adobe/domain-management.md) ohne Hilfe [!DNL Marketo Measure].
+[Verwalten Sie Ihre [!DNL Marketo Measure] Domänen](/help/marketo-measure-and-adobe/domain-management.md) ohne Hilfe von [!DNL Marketo Measure].
 
 ![](assets/unified-shell-overview-5.png)
 

@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874775
 description: FAQ zum Modell für maschinelles Lernen - [!DNL Marketo Measure] - Produktdokumentation
-title: Häufig gestellte Fragen zum Modell für maschinelles Lernen
+title: Modell für maschinelles Lernen – FAQ
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Models
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Häufig gestellte Fragen zum Modell für maschinelles Lernen {#machine-learning-model-faq}
+# Modell für maschinelles Lernen – FAQ {#machine-learning-model-faq}
 
 Die [!DNL Marketo Measure] Das Modell für maschinelles Lernen verwendet Ihre Touchpoint-Daten, um zu berechnen, wie viel Zuordnungsgewichtung jeder Phase zugewiesen werden soll. Dies wird dadurch bestimmt, wie wichtig jede Etappe beim Abschluss von Fahrverträgen war.
 
@@ -20,11 +21,11 @@ Die Zuordnungsprozentsätze jeder Phase spiegeln die potenziellen Auswirkungen I
 
 Wie wird das Modell für maschinelles Lernen berechnet?
 
-[!DNL Marketo Measure] berechnet die Wichtigkeit jeder benutzerdefinierten Phase mithilfe der Touchpoint-Daten aus Ihrem Konto. Zur Bestimmung der Bedeutung jeder Phase werden folgende Kriterien verwendet:
+[!DNL Marketo Measure] berechnet die Wichtigkeit jeder benutzerdefinierten Phase mithilfe der Touchpoint-Daten aus Ihrem Konto. Die Kriterien, anhand derer die Bedeutung jeder Phase bestimmt wird, sind:
 
-* Modellgenauigkeit: Wenn wir ein prädiktives Modell mit den Touchpoint-Daten erstellen, um vorherzusagen, ob wir am Ende eine Transaktion erzielen werden, wie genau wird das Modell sein? Höhere Vorhersagegenauigkeit bedeutet, dass die Details dieser Phase eher mit der Frage korrelieren, ob ein Geschäft abgeschlossen wird
-* Konversionsrate: Wenn sich Leads oder Chancen in dieser Phase in einer hohen Rate in die nächste Phase verwandeln, hat dies gezeigt, dass die bisher erfolgten Marketingaktivitäten nicht sehr wichtig waren. Umgekehrt kann dies darauf hindeuten, dass die in dieser Phase aufgetretenen Marketingaktivitäten zur Konversion beitragen, wenn eine bestimmte Phase in eine niedrige Rate in die nächste Phase konvertiert wird.
-* Touchpoint-Eindeutigkeitsgewicht: Tritt eine Phase als eigenständige Transition auf, d. h. es wurden keine anderen Phasenübergänge gleichzeitig durchgeführt, kann diese Phase eine höhere Attributionsgewichtung erhalten. Umgekehrt könnte diese Phase eine niedrigere Attributionsgewichtung erhalten, wenn ein Touchpoint für eine Phase mit anderen Phasen geteilt wird (z. B. der Touchpoint die Schritte Erstkontakt, Lead-Konversion und Opportunity Conversion teilt).
+* Modellgenauigkeit: Wenn wir ein prädiktives Modell mit den Touchpoint-Daten erstellen, um vorherzusagen, ob wir irgendwann ein Geschäft gewinnen werden, wie genau wird das Modell sein? Höhere Vorhersagegenauigkeit bedeutet, dass die Details dieser Phase eher mit der Frage korrelieren, ob ein Geschäft abgeschlossen wird
+* Konversionsrate: Wenn sich Interessenten oder Chancen in dieser Phase in einer hohen Rate in die nächste Stufe umwandeln, hat dies den Eindruck, dass die in dieser Phase erfolgten Marketingaktivitäten nicht sehr wichtig waren. Umgekehrt kann dies darauf hindeuten, dass die in dieser Phase aufgetretenen Marketingaktivitäten zur Konversion beitragen, wenn eine bestimmte Phase in eine niedrige Rate in die nächste Phase konvertiert wird.
+* Eindeutige Touchpoint-Gewichtung: Wenn eine Phase als eigenständige Transition auftritt, d. h. keine anderen Phasenübergänge gleichzeitig aufgetreten sind, kann diese Phase eine höhere Attributionsgewichtung erhalten. Umgekehrt könnte diese Phase eine niedrigere Attributionsgewichtung erhalten, wenn ein Touchpoint für eine Phase mit anderen Phasen geteilt wird (z. B. der Touchpoint die Schritte Erstkontakt, Lead-Konversion und Opportunity Conversion teilt).
 
 Die endgültige Gewichtung für eine benutzerdefinierte Phase wird wie folgt berechnet:
 

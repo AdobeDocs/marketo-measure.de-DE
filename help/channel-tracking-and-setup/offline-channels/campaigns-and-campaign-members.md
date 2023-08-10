@@ -3,10 +3,11 @@ unique-page-id: 18874578
 description: Kampagnen und Kampagnenmitglieder - [!DNL Marketo Measure] - Produktdokumentation
 title: Kampagnen und Kampagnenmitglieder
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +33,7 @@ Bitte beachten Sie, dass den Mitgliedern der Kampagne eine E-Mail-Adresse zugeor
 
 ## Kampagnensynchronisierungsdaten {#campaign-sync-dates}
 
-Mit der Installation des Pakets [!DNL Marketo Measure] enthält außerdem zwei Datumsfelder für das Campaign-Objekt: Startdatum des Touchpoints und Enddatum des Touchpoints.
+Mit der Installation des Pakets [!DNL Marketo Measure] enthält außerdem zwei Datumsfelder für das Campaign-Objekt: Touchpoint-Startdatum und Touchpoint-Enddatum.
 
 Diese Daten zeigen [!DNL Marketo Measure] wann wir beginnen oder aufhören sollten, Campaign-Mitglieder aus der Kampagne in die Touchpoint-Journey aufzunehmen. Sie können entweder ein Datum, beides oder gar kein Datum festlegen.
 
@@ -85,7 +86,7 @@ Das Bulk Update Touchpoint Date ist im installierten [!DNL Marketo Measure] [!DN
 
 ![](assets/6.png)
 
-Wenn eine große Anzahl von Campaign-Mitgliederdatensätzen aktualisiert werden muss, können Sie die [!UICONTROL Touchpoint-Datum für Massenaktualisierung] Schaltfläche zur Massenbearbeitung.
+Wenn viele Datensätze von Campaign-Mitgliedern aktualisiert werden müssen, können Sie die Variable [!UICONTROL Touchpoint-Datum für Massenaktualisierung] Schaltfläche zur Massenbearbeitung.
 
 Wenn es eindeutige Anwendungsfälle gibt, die diese Schnittstelle nicht abdeckt, können Sie auch die [Datenlader](https://dataloader.io/){target="_blank"} , um die Datensätze zu exportieren, die Änderung vorzunehmen und die Datensätze erneut hochzuladen.
 
@@ -113,11 +114,11 @@ Informationen zu Kampagnenkosten [in diesem Artikel](/help/marketing-spend/spend
 
 Die [!DNL Marketo Measure] hält mit allen gelöschten Datensätzen in Salesforce auf, unabhängig davon, ob es sich um gelöschte Leads oder Konten handelt oder ob es sich um Möglichkeiten handelt, diese Datensätze in der API anzuzeigen und zu verfolgen, ob ein Eintrag als &quot;IsDeleted&quot;markiert ist. Leider hat Salesforce mit Campaign-Mitgliedern eine andere Möglichkeit eingeführt, diese Campaign-Mitglieder aus einer Kampagne zu löschen. Sie sind eigentlich nur als &quot;entfernt&quot;markiert und nicht als &quot;gelöscht&quot;. Das Problem besteht daher darin, dass Touchpoints noch in Salesforce lebten, die mit gelöschten Campaign-Mitgliedern in Verbindung standen.
 
-Um dieses Problem zu umgehen, [!DNL Marketo Measure] erstellt [!DNL Marketo Measure] Verlaufsobjekt und Trigger, die immer verfolgt werden, wenn Campaign-Mitglieder entfernt werden, und dann den entsprechenden Touchpoint löschen. **Sie benötigen [!DNL Marketo Measure] Marketing Analytics-Paket V6.15 oder höher** , um diese Funktion zu verwenden.
+Um dieses Problem zu umgehen, [!DNL Marketo Measure] erstellt wurde [!DNL Marketo Measure] Verlaufsobjekt und Trigger, die immer verfolgt werden, wenn Campaign-Mitglieder entfernt werden, und dann den entsprechenden Touchpoint löschen. **Sie benötigen [!DNL Marketo Measure] Marketing Analytics-Paket V6.15 oder höher** , um diese Funktion zu verwenden.
 
 >[!CAUTION]
 >
->Beachten Sie, dass dieser Trigger keine Kampagnenmitglieder verfolgt, die in der Vergangenheit entfernt wurden. Daher funktioniert dies nur in Zukunft. Wenn Sie die Touchpoints einer großen Anzahl von früheren Kampagnenmitgliedern entfernen müssen, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+>Beachten Sie, dass dieser Trigger keine Kampagnenmitglieder verfolgt, die in der Vergangenheit entfernt wurden. Daher funktioniert dies nur in Zukunft. Wenn Sie die Touchpoints einer großen Anzahl von Mitgliedern einer Kampagne entfernen müssen, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

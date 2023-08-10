@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874648
 description: Unterschied zwischen einer Google Analytics-Konversion und einem Käufer-Touchpoint - [!DNL Marketo Measure] - Produktdokumentation
-title: Unterschied zwischen einer Google Analytics-Konversion und einem Käufer-Touchpoint
+title: Unterschied zwischen einer Google Analytics-Konversion und einem Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Unterschied zwischen einer Google Analytics-Konversion und einem Käufer-Touchpoint {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
+# Unterschied zwischen einer Google Analytics-Konversion und einem Buyer Touchpoint {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
 Erfahren Sie mehr über [!DNL Google Analytics (GA)] Ziel ist und wie es sich von einem Käufer Touchpoint unterscheidet.
 

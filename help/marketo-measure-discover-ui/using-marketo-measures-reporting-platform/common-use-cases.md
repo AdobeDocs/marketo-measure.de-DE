@@ -3,7 +3,8 @@ unique-page-id: 18874658
 description: Häufige Anwendungsfälle - [!DNL Marketo Measure] - Produktdokumentation
 title: Häufige Anwendungsfälle
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 1%
@@ -24,7 +25,7 @@ Navigieren Sie zum Dashboard Übersicht von [!DNL Marketo Measure Discover]. Sta
 
 ## Abgeschlossener Umsatz {#closed-revenue}
 
-Finden Sie heraus, wie sich das Marketing insgesamt auf den Umsatz auswirkt? [!DNL Marketo Measure Discover] wird dies auf der Hauptkachel in den Dashboards &quot;Übersicht&quot;und &quot;CMO&quot;zeigen, wobei der Filter Metrik auf &quot;Umsatz&quot;und der Datumstyp auf &quot;Datum schließen&quot;eingestellt ist. Der Datumstyp kann auch in Touchpoint-Datum und Erstellungsdatum geändert werden (d. h. das Erstellungsdatum der Gelegenheit).
+Finden Sie heraus, wie sich das Marketing insgesamt auf den Umsatz auswirkt? [!DNL Marketo Measure Discover] wird dies auf der Hauptkachel in den Dashboards &quot;Übersicht&quot;und &quot;CMO&quot;zeigen, wobei der Filter Metrik auf &quot;Umsatz&quot;und der Datumstyp auf &quot;Datum schließen&quot;eingestellt ist. Der Datumstyp kann auch in &quot;Touchpoint-Datum&quot;und &quot;Erstellungsdatum&quot;geändert werden (d. h. das Erstellungsdatum der Gelegenheit).
 
 ## Erstellte Kontakte  {#contacts-created}
 
@@ -40,7 +41,7 @@ Um die Gesamtzahl der erstellten, nach einer Dimension gruppierten Leads anzuzei
 
 Um eine Gesamt-Lead-Zählung zu erhalten oder die Lead-Erstellung im Zeitverlauf anzuzeigen, navigieren Sie zum Dashboard Wachstum , passen Sie den Datumstyp an Erstellungsdatum an und wählen Sie den gewünschten Datumsbereich aus. Leads und Leads im Zeitverlauf sind die Lead-fokussierten Kacheln dieses Dashboards.
 
-Der Datentyp kann auch in Touchpoint-Datum geändert werden. Dadurch wird die Anzahl der Leads ab dem Datum angezeigt, an dem die Marketing-Interaktion stattgefunden hat.
+Der Datentyp kann auch in Touchpoint-Datum geändert werden. Daraufhin wird die Anzahl der Leads ab dem Datum der Marketinginteraktion angezeigt.
 
 ## Erstellte Chancen {#opportunities-created}
 
@@ -76,7 +77,7 @@ Um Gesamtausgaben und Aufschlüsselungen anzuzeigen, navigieren Sie zum Dashboar
 
 Sie können auch zum Dashboard Marketing-Ausgaben navigieren, wo in der Hauptkachel ein nach Marketingkanälen gruppiertes Ausgabendiagramm der letzten 12 Monate angezeigt wird.
 
-Ändern Sie den Filter Dimension , um die Gruppierung zu ändern in: Unterkanal, Kampagne, Advertiser, Anzeigengruppe, Suchbegriff, Platzierung oder Site.
+Ändern Sie den Filter Dimension , um die Gruppierung zu ändern in: Subchannel, Campaign, Advertiser, Anzeigengruppe, Keyword, Platzierung oder Site.
 
 >[!MORELIKETHIS]
 >

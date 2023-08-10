@@ -3,16 +3,17 @@ unique-page-id: 37356395
 description: "[!DNL Marketo Engage] Personenintegration - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Engage] Personenintegration"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # [!DNL Marketo Engage] Personenintegration {#marketo-engage-people-integration}
 
-Die Marketo-Personenintegration ermöglicht Folgendes: [!DNL Marketo Measure] , um mit dem Herunterladen von Personen aus Marketo zu beginnen und ihre verfolgten Sitzungen mit der jeweiligen Person zu verknüpfen und Touchpoints ihrer Interaktion zuzuordnen. Historisch gesehen [!DNL Marketo Measure] konnte einer Person nur Touchpoints aus dem CRM-System zuordnen. So können Marketingexperten ihre Marketing-Bemühungen schneller messen, anstatt auf eine Phase oder einen Trigger zu warten, um sie mit dem CRM zu synchronisieren.
+Die Marketo-Personenintegration ermöglicht [!DNL Marketo Measure] , um mit dem Herunterladen von Personen aus Marketo zu beginnen und ihre verfolgten Sitzungen mit der jeweiligen Person zu verknüpfen und Touchpoints ihrer Interaktion zuzuordnen. Historisch gesehen [!DNL Marketo Measure] konnte einer Person nur Touchpoints aus dem CRM-System zuordnen. So können Marketingexperten ihre Marketing-Bemühungen schneller messen, anstatt auf eine Phase oder einen Trigger zu warten, um sie mit dem CRM zu synchronisieren.
 
 ## Anforderungen {#requirements}
 
@@ -23,7 +24,7 @@ Die Marketo-Personenintegration ermöglicht Folgendes: [!DNL Marketo Measure] , 
 
 ## Funktionsweise {#how-it-works}
 
-Als aktueller Kunde [!DNL Marketo Measure] lädt bereits Personen aus Ihrem CRM-System herunter. Der Standardprozess besteht darin, dass [!DNL Marketo Measure] lädt die Personen herunter und ordnet die E-Mail-Adresse einer Websitzung zu, die wir über bizible.js verfolgt haben.
+Als aktueller Kunde [!DNL Marketo Measure] lädt bereits Personen aus Ihrem CRM herunter. Der Standardprozess besteht darin, dass [!DNL Marketo Measure] lädt die Personen herunter und ordnet die E-Mail-Adresse einer Websitzung zu, die wir über bizible.js verfolgt haben.
 
 Mit der Einführung des Herunterladens von Marketo-Mitarbeitern [!DNL Marketo Measure] ist nun in der Lage, Web-Sitzungen einem größeren Pool von Einzelanwendern zuzuordnen, also solchen, die nicht mit dem CRM synchronisiert wurden. Dies wird häufig durch interne Prozesse verursacht, die warten, bis die Benutzer einen bestimmten Status erreichen, bevor sie an das CRM-System gesendet werden.
 
@@ -70,7 +71,7 @@ Beim Reporting zu Leads (Personen) in [!DNL Marketo Measure Discover]angezeigt, 
    <td><p>createdAt</p></td> 
   </tr> 
   <tr> 
-   <td><p>E-MAIL</p></td> 
+   <td><p>EMAIL</p></td> 
    <td><p>E-Mail</p></td> 
   </tr> 
   <tr> 
@@ -78,7 +79,7 @@ Beim Reporting zu Leads (Personen) in [!DNL Marketo Measure Discover]angezeigt, 
    <td><p>website</p></td> 
   </tr> 
   <tr> 
-   <td><p>UNTERNEHMEN</p></td> 
+   <td><p>COMPANY</p></td> 
    <td><p>Unternehmen</p></td> 
   </tr> 
   <tr> 
@@ -114,7 +115,7 @@ Durch diese Integration werden die Datensätze tatsächlich in Ihrer aktuellen [
 
 **Kann ich nur meine Mitarbeiter von Marketo herunterladen und die CRM-Verbindung abbrechen?**
 
-Zu diesem Zeitpunkt nein. Wir werden diese Option zukünftig haben, aber wir müssen andere Phasen dieser Marketo-Integration aufbauen, damit wir die Programme, Möglichkeiten und Angebote von Marketo mit [!DNL Marketo Measure].
+Zu diesem Zeitpunkt nein. Wir werden diese Option in der Zukunft haben, aber wir müssen andere Phasen dieser Marketo-Integration aufbauen, damit wir die Programme, Möglichkeiten und Angebote von Marketo mit [!DNL Marketo Measure].
 
 **Importieren Sie ALLE meiner Marketo-Leute?**
 

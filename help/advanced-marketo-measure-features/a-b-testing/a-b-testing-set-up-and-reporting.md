@@ -3,10 +3,11 @@ unique-page-id: 18874773
 description: Einrichten und Reporting von A/B-Tests - [!DNL Marketo Measure] - Produktdokumentation
 title: Einrichten und Reporting von A/B-Tests
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: A/B Testing
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -23,7 +24,7 @@ Fügen Sie die [!DNL Marketo Measure] Abschnitte zu A/B-Tests zu Lead, Kontakt, 
 
    ![](assets/1.png)
 
-1. Klicken Sie auf [!UICONTROL Schraubenschlüssel] Schaltfläche. Entfernen Sie das Feld &quot;Kennung&quot; aus der Liste der ausgewählten Felder. Hinzufügen **[!UICONTROL Experiment]**, **[!UICONTROL Variante]** und **[!UICONTROL DateReport]** -Felder. Ändern Sie &quot;[!UICONTROL Sortieren nach]&quot; **[!UICONTROL Datum gemeldet]** und wählen Sie **[!UICONTROL Absteigend]** in der Dropdown-Liste.
+1. Klicken Sie auf [!UICONTROL Schraubenschlüssel] Schaltfläche. Entfernen Sie das Feld &quot;Kennung&quot; aus der Liste der ausgewählten Felder. Hinzufügen **[!UICONTROL Experiment]**, **[!UICONTROL Variante]**, und **[!UICONTROL DateReport]** -Felder. Ändern Sie &quot;[!UICONTROL Sortieren nach]&quot; **[!UICONTROL Datum gemeldet]** und wählen Sie **[!UICONTROL Absteigend]** in der Dropdown-Liste.
 
    ![](assets/2.png)
 

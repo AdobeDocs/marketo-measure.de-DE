@@ -1,20 +1,21 @@
 ---
 unique-page-id: 18874730
 description: Kontobasierte Marketing-Übersicht - [!DNL Marketo Measure] - Produktdokumentation
-title: Kontobasierte Marketingübersicht
+title: Kontobasiertes Marketing – Überblick
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
+feature: Account-based Marketing
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Kontobasierte Marketingübersicht {#account-based-marketing-overview}
+# Kontobasiertes Marketing – Überblick {#account-based-marketing-overview}
 
 Nachfolgend finden Sie eine kurze Übersicht über ABM, die Komponenten der [!DNL Marketo Measure] ABM-Funktion und wie Sie sie zu Ihrem [!DNL Salesforce] Seitenlayout. Weitere Informationen zu ABM finden Sie unter [diese Seite](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
-So navigieren Sie direkt zu den Anweisungen zum Einrichten von ABM in Ihrem [!DNL Salesforce] Instanz, bitte [Hier klicken](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
+So navigieren Sie direkt zu den Anweisungen zum Einrichten von ABM in Ihrem [!DNL Salesforce] Instanz, bitte [Klicken Sie hier](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## Was ist ABM? {#what-is-abm}
 
@@ -22,16 +23,16 @@ Account-basiertes Marketing, ABM, ist eine Marketingstrategie, bei der Sie Unter
 
 Damit unser Account-basiertes Marketing-Modell in Ihr CRM-System integriert werden kann, [!DNL Marketo Measure] muss die folgenden Kriterien erfüllen:
 
-* Ihr CRM-System benötigt mindestens 25 Konten, für die mindestens eine geschlossene Won-Chance besteht, sodass wir die Gemeinsamkeiten eines &quot;erfolgreichen&quot;Kontos/Ihrer Chancen für Ihr Unternehmen besser einschätzen können.
+* Ihr CRM-System benötigt mindestens 25 Konten, für die mindestens eine geschlossene Won-Chance besteht, sodass wir die Gemeinsamkeiten eines &quot;erfolgreichen&quot;Kontos/Ihrer Chancen für Ihr Unternehmen besser abschätzen können.
 * Auf der anderen Seite der Medaille benötigt Ihr CRM mindestens 25 Konten ohne Geschlossene Won-Chancen (alle Ops müssen entweder in der Kategorie &quot;Offen&quot;oder in der Kategorie &quot;Geschlossener Verlust&quot;aufgeführt sein - dies hilft uns, abzuschätzen, was in Ihrer Organisation zu einem Konto der niedrigeren Klasse führt.
 
 >[!NOTE]
 >
->Die oben genannten &quot;schlechten&quot;Konten müssen mindestens 12 Monate lang offen sein, ohne dass ein geschlossenes Won opp angehäuft wird; Dies ist unsere grundlegende Richtlinie, ob ein Opp für die Zwecke des Modells veraltet ist oder nicht.
+>Die oben genannten &quot;schlechten&quot;Konten müssen mindestens 12 Monate lang offen sein, ohne eine geschlossene Won-Opp zu akkumulieren. Das ist unsere Grundrichtlinie dafür, ob ein Opp für die Zwecke des Modells veraltet ist oder nicht.
 
 ## Zuordnung von Lead zu Konto {#lead-to-account-mapping}
 
-Die Zuordnung von Lead-zu-Konto ist ein wesentlicher Bestandteil eines effektiven ABM-Ansatzes. Mit der Zuordnung von Interessenten zu Konten werden Interessenten oder Leads in demselben Unternehmenskonto zusammengefasst, in dem sie mit Ihrer Marke interagieren. Auf diese Weise können Sie Einzelpersonen desselben Unternehmens auf konsistente Weise ansprechen und verkaufen. Es gibt keine zusätzlichen [!DNL Salesforce] -Konfiguration erforderlich, um diese Funktion nutzen zu können. Die [!DNL Marketo Measure] Führen Sie zur Kontozuordnung von fünf verschiedenen Übereinstimmungsmethoden:
+Die Zuordnung von Lead-zu-Konto ist ein wesentlicher Bestandteil eines effektiven ABM-Ansatzes. Mit der Zuordnung von Interessenten zu Konten werden Interessenten oder Leads in demselben Unternehmenskonto zusammengefasst, in dem sie mit Ihrer Marke interagieren. Auf diese Weise können Sie Einzelpersonen desselben Unternehmens auf konsistente Weise ansprechen und verkaufen. Es gibt keine zusätzlichen [!DNL Salesforce] -Konfiguration erforderlich, damit diese Funktion in Anspruch genommen werden kann. Die [!DNL Marketo Measure] Führen Sie zur Kontozuordnung von fünf verschiedenen Übereinstimmungsmethoden:
 
 * Lead-Website zur Konto-Website
 * Lead-E-Mail-Domäne zur Konto-Website-Domäne
@@ -79,10 +80,10 @@ Um mit der Verwendung des PES zu beginnen, müssen Sie einfach das Feld PES und 
 
    ![](assets/2.png)
 
-1. Navigieren Sie als Nächstes zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anpassen]** > **[!UICONTROL Leads]** > **[!UICONTROL Seitenlayout]** und wählen Sie die entsprechenden Seitenlayouts aus, die Sie bearbeiten möchten.
-1. Klicken **[!UICONTROL Felder]** und fügen Sie die [!UICONTROL Konto] -Feld, in dem Sie sehen, dass es auf der Seite passt.
+1. Navigieren Sie dann zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anpassen]** > **[!UICONTROL Leads]** > **[!UICONTROL Seitenlayout]** und wählen Sie die entsprechenden Seitenlayouts aus, die Sie bearbeiten möchten.
+1. Klicks **[!UICONTROL Felder]** und fügen Sie [!UICONTROL Konto] -Feld, in dem Sie sehen, dass es auf der Seite passt.
 
    ![](assets/3.png)
 
-Du bist ganz fertig!
+Das war’s schon!
 

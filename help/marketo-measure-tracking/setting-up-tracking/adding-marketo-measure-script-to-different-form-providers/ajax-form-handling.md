@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874745
-description: AJAX Formularverarbeitung - [!DNL Marketo Measure] - Produktdokumentation
-title: AJAX Formularverarbeitung
+description: AJAX-Formularverarbeitung - [!DNL Marketo Measure] - Produktdokumentation
+title: AJAX-Formularverarbeitung
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# AJAX Formularverarbeitung {#ajax-form-handling}
+# AJAX-Formularverarbeitung {#ajax-form-handling}
 
 So melden Sie Kundenkonversionen manuell in [!DNL Marketo Measure]haben wir eine sehr einfache API bereitgestellt, die Sie verwenden können. Diese beiden JavaScript-APIs sind automatisch auf Ihrer Site verfügbar, wenn Sie unseren Trackingcode darauf haben. Es ist nicht erforderlich, etwas Besonderes zu tun, um darauf zuzugreifen.
 

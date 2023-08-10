@@ -2,10 +2,11 @@
 description: Best Practices für die Verwendung eines benutzerdefinierten Umsatzbetrags - [!DNL Marketo Measure] - Produktdokumentation
 title: Best Practices für die Verwendung eines benutzerdefinierten Umsatzbetrags
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Revenue Amount
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -17,7 +18,7 @@ Die Kernfunktionen von [!DNL Marketo Measure] ist die Möglichkeit, Marketing-To
 
 Sofern während der Implementierung nichts anderes angegeben wird, wird Ihre [!DNL Marketo Measure] -Instanz auf den standardmäßigen Opportunity Amount (SFDC Default) für die Umsatzzuordnung verweist. Für viele [!DNL Marketo Measure] berücksichtigt, spiegelt dieses Feld nicht den genauen Umsatzbetrag für Chancen wider. In diesen Fällen [!DNL Marketo Measure] bietet die Möglichkeit, einen benutzerdefinierten Umsatzbetrag für [!DNL Marketo Measure] , um auf die Attributions-Touchpoints (BVT) zu verweisen und sie über sie zu verteilen.
 
-## Best Practice {#best-practice}
+## Best Practices {#best-practice}
 
 Beachten Sie beim Einrichten eines benutzerdefinierten Umsatzbetrags die folgenden Best Practices, um Ihre [!DNL Marketo Measure] Attributionsdaten sind genau und konsistent!
 
@@ -36,21 +37,20 @@ Durch die jährliche Überprüfung der Einrichtung Ihres Umsatzbetrags wird sich
 
 Wenn Sie einen benutzerdefinierten Umsatzbetrag verwenden, überprüfen Sie Ihre Umsatzeinstellungen wie folgt.
 
-* In [!DNL Marketo Measure] -Konto, navigieren Sie zum[!UICONTROL Chancen]&#39; unter CRM
+* In der [!DNL Marketo Measure] -Konto, navigieren Sie zum[!UICONTROL Chancen]&#39; unter CRM
 * Identifizieren Sie die [!UICONTROL Benutzerdefinierter Opportunity-Betrag] Feld, hier Ihre [!UICONTROL Benutzerdefinierte UmsatzAPI] -Feld sollte aufgelistet werden
 * Vergewissern Sie sich, dass das Feld weiterhin korrekt ist.
 * Außerdem sollten Sie [!DNL Salesforce] Admin bestätigen, dass der Workflow &quot;Benutzerspezifischer Umsatzbetrag&quot;in [!DNL Salesforce] wird noch ausgeführt
 
 Abgesehen von einer jährlichen Überprüfung können gewisse organisatorische Änderungen die Notwendigkeit einer Überprüfung der Einrichtung Ihres Umsatzbetrags signalisieren..
 
-* Umsatz in Ihrem Marketing-Team
+* Wechsel in Ihrem Marketing-Team
 * Änderungen am Feld &quot;Benutzerspezifischer Umsatz&quot;
 * Organisationsänderungen bei der Berichterstattung über den Umsatz
 
 >[!MORELIKETHIS]
 >
 >* [Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [Verwenden von Data Loader zum Aktualisieren des benutzerdefinierten Felds &quot;Betrag&quot;](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Aktualisieren mit Data LoaderBenutzerdefiniertes Zahlenfeld](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 >* [Übersicht über mehrere Währungen](/help/advanced-marketo-measure-features/multi-currency/overview.md)
 >* [Einstellungen für mehrere Währungen](/help/advanced-marketo-measure-features/multi-currency/settings.md)
-

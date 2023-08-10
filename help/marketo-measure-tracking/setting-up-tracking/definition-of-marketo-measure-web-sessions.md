@@ -1,68 +1,69 @@
 ---
 unique-page-id: 18874564
-description: Definition [!DNL Marketo Measure] Web-Sitzungen - [!DNL Marketo Measure] - Produktdokumentation
-title: Definition [!DNL Marketo Measure] Web-Sitzungen
+description: Definition von [!DNL Marketo Measure] -Web-Sitzungen – [!DNL Marketo Measure] – Produktdokumentation
+title: Definition von  [!DNL Marketo Measure] -Web-Sitzungen
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Definition [!DNL Marketo Measure] Web-Sitzungen {#definition-of-marketo-measure-web-sessions}
+# Definition von [!DNL Marketo Measure]-Web-Sitzungen {#definition-of-marketo-measure-web-sessions}
 
-Erfahren Sie mehr [!DNL Marketo Measure] definiert Websitzungen.
+Erfahren Sie, wie [!DNL Marketo Measure] Web-Sitzungen definiert.
 
-A **Websitzung** bezieht sich auf die Interaktionen einer Person mit Ihrer Website während eines bestimmten Zeitraums. Die Sitzung beginnt, wenn ein Benutzer auf Ihre Website gelangt.
+Eine **Web-Sitzung** bezieht sich auf die Interaktionen einer Person mit Ihrer Website während eines bestimmten Zeitraums. Die Sitzung beginnt, wenn eine Benutzerin oder ein Benutzer auf Ihre Website gelangt.
 
-Beispiel: Haley besucht adobe.com. Ihr Besuch auf der Site beginnt eine Sitzung. Wenn Haley die Site verlässt, indem er die Registerkarte/den Webbrowser schließt oder von der Site weg navigiert, endet die Sitzung.
+Beispiel: Hanna besucht adobe.com/de. Mit ihrem Besuch auf der Site beginnt eine Sitzung. Wenn Hanna die Site verlässt, indem sie die Registerkarte/den Web-Browser schließt oder von der Site weg navigiert, endet die Sitzung.
 
-Ein Benutzer kann nicht mehrere Sitzungen gleichzeitig öffnen. Wenn Haley geöffnet wird [!DNL adobe.com] in 10 verschiedenen Tabs wurde nur eine Sitzung im Zusammenhang mit ihrem Besuch auf der Website erstellt.
+Eine Benutzerin oder ein Benutzer kann nicht mehrere Sitzungen gleichzeitig öffnen. Wenn Hanna [!DNL adobe.com] auf 10 verschiedenen Registerkarten öffnet, wird nur eine Sitzung im Zusammenhang mit ihrem Besuch auf der Website erstellt.
 
-## Wie funktioniert [!DNL Marketo Measure] eine neue Sitzung definieren? {#how-does-marketo-measure-define-a-new-session}
+## Wie definiert [!DNL Marketo Measure] eine neue Sitzung? {#how-does-marketo-measure-define-a-new-session}
 
-Es gibt einige Dinge, die bestimmen, wann eine Sitzung endet und wann eine neue Sitzung beginnt. Die beiden Hauptwege [!DNL Marketo Measure] Sitzungen können enden:
+Wann eine Sitzung endet und eine neue Sitzung beginnt, wird durch verschiedene Aspekte bestimmt. Es gibt zwei Hauptmöglichkeiten, wie [!DNL Marketo Measure]-Sitzungen enden können:
 
-* **Zeitlicher Ablauf**
-* **Kanalbasierter Ablauf**
+* **zeitbasierter Ablauf**
+* **kanalbasierter Ablauf**
 
 ## Zeitbasierter Ablauf {#time-based-expiration}
 
 **Wie lange dauert eine Sitzung?**
 
-[!DNL Marketo Measure] Sitzungen enden nach einer Inaktivität von 30 Minuten auf der Website. Beispiel:
+[!DNL Marketo Measure]-Sitzungen enden nach 30 Minuten Inaktivität auf der Website. Beispiel:
 
-Wenn Haley adobe.com besucht, beginnt eine Sitzung. Sie erforscht die Website für einige Minuten und geht dann von ihrem Computer weg, lässt aber die Website offen. Nach 30 Minuten Inaktivität endet die Sitzung.
+Wenn Hanna adobe.com/de besucht, beginnt eine Sitzung. Sie erkundet die Website für einige Minuten und geht dann von ihrem Computer weg, lässt aber die Website geöffnet. Nach 30 Minuten Inaktivität endet die Sitzung.
 
-Zurzeit [!DNL Marketo Measure] betrachtet nur die Seitennavigation und die Formularübermittlung als Aktivität. Scrollen durch die Webseite oder Bewegen des Mauszeigers über ein Element auf der Seite wird nicht als Aktivität betrachtet. Wenn Haley also adobe.com besucht, um einen Blogpost zu lesen, und es eine Stunde dauert, bis sie liest, endet ihre Websitzung nach 30 Minuten, selbst wenn sie durch den Inhalt auf der Seite scrollt.
+Zurzeit betrachtet [!DNL Marketo Measure] nur die Seitennavigation und Formularübermittlung als Aktivität. Scrollen durch die Web-Seite oder Bewegen des Mauszeigers über ein Element auf der Seite gilt nicht als Aktivität. Wenn Hanna also adobe.com/de besucht, um einen Blogpost zu lesen, und sie dafür eine Stunde braucht, endet ihre Web-Sitzung nach 30 Minuten, selbst wenn sie weiterhin durch den Inhalt auf der Seite scrollt.
 
 ## Kanalbasierter Ablauf {#channel-based-expiration}
 
-[!DNL Marketo Measure] beginnt eine neue Sitzung, sobald ein Benutzer über einen anderen digitalen Marketingkanal oder eine externe Website auf Ihre Website gelangt. Unter anderem:
+[!DNL Marketo Measure] beginnt eine neue Sitzung, sobald eine Benutzerin oder ein Benutzer über einen anderen Digital-Marketing-Kanal oder eine externe Website auf Ihre Website gelangt. Dazu kann gehören:
 
-* Verweiswebsite
-* Social-Kanäle ([!DNL Facebook], [!DNL LinkedIn]usw.)
-* Gebührenpflichtige oder kostenlose Suchkanäle ([!DNL Google/Bing])
+* Eine Referral-Website
+* Social-Media-Kanäle ([!DNL Facebook], [!DNL LinkedIn] usw.)
+* Paid-Search-Kanäle oder organische Suchkanäle ([!DNL Google/Bing])
 
-**Verweisende Websites und Social-Kanäle**
+**Referral-Websites und Social-Media-Kanäle**
 
-Jedes Mal, wenn ein Besucher von einer verweisenden Website oder einem sozialen Kanal auf Ihre Website gelangt, beginnt eine neue Sitzung.
+Sobald eine Besucherin oder ein Besucher von einer Referral-Website oder einem Social-Media-Kanal auf Ihre Website gelangt, beginnt eine neue Sitzung.
 
-Haley ist auf LinkedIn, klickt auf einen [!DNL Marketo Measure] und wird zur Adobe-Website weitergeleitet. Dann beim Scrollen durch [!DNL Facebook], sieht Haley eine andere [!DNL Marketo Measure] Post. Wenn sie auf diesen Beitrag klickt und zur Adobe-Site weitergeleitet wird, führt dies zur ersten Websitzung, die sich auf [!DNL LinkedIn] zu beenden und eine neue Sitzung im Zusammenhang mit [!DNL Facebook] beginnt.
+Hanna ist auf LinkedIn, klickt dort auf einen [!DNL Marketo Measure]-Post und wird zur Adobe-Website weitergeleitet. Dann sieht sie beim Scrollen durch [!DNL Facebook] einen anderen [!DNL Marketo Measure]-Post. Wenn sie auf diesen Post klickt und zur Adobe-Site weitergeleitet wird, endet dadurch die erste Web-Sitzung in Zusammenhang mit [!DNL LinkedIn] und eine neue Sitzung im Zusammenhang mit [!DNL Facebook] beginnt.
 
-**Gebührenpflichtige oder kostenlose Suchkanäle**
+**Paid-Search-Kanäle oder organische Suchkanäle**
 
-Neue Sitzungen beginnen jedes Mal, wenn ein Benutzer über gebührenpflichtige oder kostenlose Suchkanäle auf Ihre Site gelangt. Wenn Haley über eine kostenlose Suche auf die Adobe-Website gelangt und Ihre Website dann über eine gebührenpflichtige Anzeige in Google sofort besucht, werden zwei separate Sitzungen erstellt.
+Neue Sitzungen beginnen jedes Mal, wenn eine Benutzerin oder ein Benutzer über Paid-Search-Kanäle oder organische Suchkanäle auf Ihre Site gelangt. Wenn Hanna über eine organische Suche auf der Adobe-Website landet und Ihre Website dann über eine bezahlte Anzeige (auch als „Paid Ad“ bezeichnet) in Google sofort besucht, werden zwei separate Sitzungen erstellt.
 
 **Web Direct Traffic**
 
-Wenn ein Besucher Ihre Website aufruft, indem er die URL Ihrer Website in die Adressleiste eingibt, beginnt nicht immer eine neue Sitzung.
+Wenn eine Besucherin oder ein Besucher Ihre Website durch Eingabe der zugehörigen URL in die Adressleiste aufruft, beginnt nicht immer eine neue Sitzung.
 
-Wenn die erste Websitzung von Haley aufgrund eines Besuchs von einer Site, einem sozialen Kanal oder einem gebührenpflichtigen/kostenlosen Suchkanal beginnt und sie dann die Site über einen Web-Direktzugriff besucht, würde dies nicht dazu führen, dass eine neue Sitzung beginnt.
+Wenn Hannas erste Web-Sitzung aufgrund eines Besuchs von einer Referral-Site, einem Social-Media-Kanal oder einem Paid-Search-Kanal/organischen Suchkanal beginnt und sie dann die Site per Web-Direktzugriff besucht, beginnt dadurch keine neue Sitzung.
 
-_Jedoch_, wenn die erste Websitzung von Haley von Web Direct stammt, und sie dann die Website über besucht _eine externe/Verweis-Site_, wird die erste Sitzung beendet und eine neue Sitzung im Zusammenhang mit der externen/Verweissite geöffnet.
+Wenn ihre erste Web-Sitzung _dagegen_, auf einen Web-Direktzugriff zurückzuführen ist und sie dann die Website über _eine externe/Referral-Site_ besucht, wird die erste Sitzung beendet und eine neue Sitzung im Zusammenhang mit der externen/Referral-Site geöffnet.
 
 ## Google Analytics-Sitzungen {#google-analytics-sessions}
 
-Es gibt einige Ähnlichkeiten zur [!DNL Marketo Measure] und Google Analytics definieren Sitzungen. Weitere Informationen dazu, wie Google Analytics Sitzungen definieren, finden Sie unter: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}
+Es gibt gewisse Ähnlichkeiten, wie Sitzungen von [!DNL Marketo Measure] und Google Analytics definiert werden. Weitere Informationen dazu, wie Google Analytics Sitzungen definiert, finden Sie unter [https://support.google.com/analytics/answer/2731565?hl=de](http://support.google.com/analytics/answer/2731565?hl=de){target="_blank"}.

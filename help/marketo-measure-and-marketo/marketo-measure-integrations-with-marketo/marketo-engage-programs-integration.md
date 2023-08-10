@@ -3,10 +3,11 @@ unique-page-id: 42762729
 description: "[!DNL Marketo Engage] Programmintegration - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Engage] Programmintegration"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1259'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -30,7 +31,7 @@ Alle Ebenen.
 
 **Regeln**
 
-1. Um mit der Einrichtung von Regeln für Marketo-Programme zu beginnen, navigieren Sie zu **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Programme]**. Klicken Sie auf **+** -Symbol, um mit der Erstellung Ihrer ersten Regel zu beginnen.
+1. Um mit der Einrichtung von Regeln für Marketo-Programme zu beginnen, navigieren Sie zu **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Programme]**. Klicken Sie auf **+** -Symbol, um Ihre erste Regel zu erstellen.
 
    ![](assets/one.png)
 
@@ -140,11 +141,11 @@ Durch den Datenimport von Marketo-Programmen werden die Kosten automatisch aus d
 
 Als Ergebnis der [!DNL Marketo Measure] Integration mit Marketo, der [!DNL Marketo Measure] Die Cookie-ID wird jetzt auch mit der [!DNL Marketo Munchkin Id]. Dies hilft, die Lücke zu schließen, um den anonymen Erstkontakt einer Web-Sitzung zuzuordnen, anstatt sowohl FT- als auch LC-Touches einer Marketo-Aktivität zuzuordnen. Stellen Sie sich dieses Szenario vor:
 
-Markieren Sie Klicks auf einen [!DNL Facebook] und landet auf waynecompanies.com, wo er mit [!DNL Marketo Measure] ID 123 und [!DNL Marketo Munchkin Id] 456. Es wird kein Formular ausgefüllt.
+Markieren Sie Klicks auf einen [!DNL Facebook] und landet auf wayneenterprises.com , wo er mit Cookies [!DNL Marketo Measure] ID 123 und [!DNL Marketo Munchkin Id] 456. Es wird kein Formular ausgefüllt.
 
 Das Marketing-Team von Wayne Enterprises sendet eine E-Mail-Benachrichtigung an bestimmte Interessenten, darunter `mark@email.com`.
 
-`mark@email.com` erhält die E-Mail und klickt durch und landet auf waynecompanies.com. Dies wird `mark@email.com's` zweiter Besuch bei `wayneenterprise.com` mit den gleichen Cookie-IDs, aber kein Formular ausgefüllt wurde, so [!DNL Marketo Measure], sind sie immer noch ein anonymer Besucher.
+`mark@email.com` empfängt die E-Mail und klickt durch und landet auf wayneenterprises.com. Dies wird `mark@email.com's` zweiter Besuch bei `wayneenterprise.com` mit den gleichen Cookie-IDs, aber kein Formular ausgefüllt wurde, so [!DNL Marketo Measure], sind sie immer noch ein anonymer Besucher.
 
 Das Marketingteam von Web-Unternehmen erstellt eine Marketo-Aktivitätsregel, um Touchpoints für den Aktivitätstyp &quot;Klick-E-Mail&quot;zu generieren.
 
@@ -172,7 +173,7 @@ Es hängt von Ihrer Regeldefinition ab, aber möglicherweise ja. Sie möchten Ih
 
 **Sind benutzerdefinierte Felder für die Programmmitgliedschaft von Marketo verfügbar, die definiert werden können?**
 
-Aufgrund technischer Einschränkungen können wir zurzeit keine benutzerdefinierten Felder für die Programmmitgliedschaft unterstützen. Sobald diese Felder über zusätzliche Marketo-APIs verfügbar sind, werden sie uns angezeigt und für Sie sichtbar.
+Aufgrund technischer Einschränkungen können wir vorerst keine benutzerdefinierten Felder für die Programmmitgliedschaft unterstützen. Sobald diese Felder über zusätzliche Marketo-APIs verfügbar sind, werden sie uns angezeigt und für Sie sichtbar.
 
 **Woher weiß ich, ob ich Programme oder Aktivitäten verwende?**
 

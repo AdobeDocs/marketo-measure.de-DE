@@ -3,16 +3,17 @@ unique-page-id: 30082018
 description: Verzögerte Cookie-Synchronisierung - [!DNL Marketo Measure] - Produktdokumentation
 title: Verzögerte Cookie-Synchronisierung
 exl-id: 394053ed-5642-48e4-b83c-c483a58ebbd7
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 # Verzögerte Cookie-Synchronisierung {#delayed-cookie-sync}
 
-Diese Änderung an der Standardeinstellung [!DNL Marketo Measure] JavaScript stellt Folgendes bereit [!DNL bizible.js] API-Unterstützung, sodass Sie die JS so konfigurieren können, dass die Benutzeraktivitäten der Besucher vorübergehend gespeichert werden, die Informationen jedoch nicht an die [!DNL Marketo Measure] -Server, bis der Benutzer seine Zustimmung dazu erteilt.
+Diese Änderung an der Standardeinstellung [!DNL Marketo Measure] JavaScript stellt Folgendes bereit: [!DNL bizible.js] API-Unterstützung, sodass Sie die JS so konfigurieren können, dass die Benutzeraktivitäten der Besucher vorübergehend gespeichert werden, die Informationen jedoch nicht an die [!DNL Marketo Measure] -Server, bis der Benutzer seine Zustimmung dazu erteilt.
 
 ## Anleitung {#how-to}
 
@@ -35,4 +36,4 @@ Alternativ können Kunden die Variable [!UICONTROL data-consent-button-id] nicht
 
 weil [!DNL bizible.js] speichert nicht gesendete Web-Aktivitäten vorübergehend in Erstanbieter-Cookies von Kunden und die Größe von Erstanbieter-Cookies ist begrenzt. Es können immer nur drei nicht gesendete Anfragen gespeichert werden.
 
-Wenn bereits drei ausstehende Anforderungen vorliegen, werden alle nachfolgenden Aktivitäten ignoriert. Dadurch wird die erste Seitenansicht beibehalten, die wertvolle Referrer-Informationen enthält.
+Wenn bereits drei ausstehende Anforderungen vorhanden sind, werden alle nachfolgenden Aktivitäten ignoriert. Dies dient der Beibehaltung der ersten Seitenansicht, die wertvolle Referrer-Informationen enthält.

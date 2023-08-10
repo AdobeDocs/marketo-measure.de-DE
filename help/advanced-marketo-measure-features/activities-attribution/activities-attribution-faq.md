@@ -1,12 +1,13 @@
 ---
 unique-page-id: 18874704
-description: Häufig gestellte Fragen zur Aktivitätszuordnung - [!DNL Marketo Measure] - Produktdokumentation
+description: FAQ zur Aktivitätszuordnung - [!DNL Marketo Measure] - Produktdokumentation
 title: Häufig gestellte Fragen zur Aktivitätszuordnung
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -28,7 +29,7 @@ Ja. Es gibt eine 1:1-Beziehung zwischen Ihren synchronisierten Aktivitäten und 
 
 **Woher weiß ich, welche Datensätze zur Erstellung von Touchpoints führen?**
 
-Es wird empfohlen, zunächst Ihre Filter mithilfe des Aktivitätsobjekts in Ihrem CRM-System einzurichten. Basierend auf den Filterregeln erhalten Sie eine gute Vorstellung davon, wie viele Datensätze unter diese Kriterien fallen. Anschließend können Sie sie nach Bedarf verfeinern. Dies ist nicht erforderlich, bietet aber eine hilfreiche Möglichkeit, um zu verstehen, wie viele Aktivitäts-Touchpoints erstellt werden, sobald die Aktivitätsregeln eingerichtet wurden.
+Es wird empfohlen, zunächst Ihre Filter mithilfe des Objekts Aktivität in Ihrem CRM einzurichten. Basierend auf den Filterregeln erhalten Sie eine gute Vorstellung davon, wie viele Datensätze unter diese Kriterien fallen. Anschließend können Sie sie nach Bedarf verfeinern. Dies ist nicht erforderlich, bietet aber eine hilfreiche Möglichkeit, um zu verstehen, wie viele Aktivitäts-Touchpoints erstellt werden, sobald die Aktivitätsregeln eingerichtet wurden.
 
 **Was ist das [!DNL Marketo Measure] Kampagnenname?**
 
@@ -41,16 +42,16 @@ Da diese Aktivitäten zu einem Touchpoint führen, [!DNL Marketo Measure] muss w
 | Lead/Kontakt | Alle Aktivitäten beziehen sich auf einen Lead oder Kontakt |
 | Kampagne | channel.subchannel [[!DNL Marketo Measure]] |
 | Touchpoint Quelle | CRM-Aktivität |
-| Mittel | Activity.Type |
+| Medium | Activity.Type |
 | Touchpoint-Typ | Activity.Type |
-| Anzeigenkampagnenname | [!DNL Marketo Measure] Kampagnenname |
+| Name der Ad-Kampagne | [!DNL Marketo Measure] Kampagnenname |
 | Anzeigeninhalt | Aktivitätsthema |
 | Anzeigen-ID | Externe Aktivitäts-ID |
 | Touchpoint-Datum | [custom - festgelegt in Apps] |
 
 **Was passiert, wenn ich für jeden Vertriebsmitarbeiter eine andere Regel erstellen muss? Muss ich verschiedene [!DNL Marketo Measure] Kampagnen für jede?**
 
-Nein, nicht. Wir haben das Konzept &quot;Dynamische Kampagnennamen&quot;eingeführt. Dadurch können Sie die [!DNL Marketo Measure] Kampagnenname mit einem &quot;Ersatzparameter&quot;, der auf ein Feld aus dem Aktivitätsobjekt verweist. Wenn Sie beispielsweise eine [!DNL Marketo Measure] Kampagnenname mit dem Titel &quot;Ausgehender Aufruf&quot;, aber Sie möchten, dass der Vertriebsmitarbeiter am Ende steht, nehmen Sie den CRM-Feldnamen und rufen Sie die [!DNL Marketo Measure] Kampagnenname &quot;Ausgehender Aufruf {AssignedTo}&quot;oder &quot;Ausgehender Aufruf {CreatedBy}&quot;.
+Nein, nicht. Wir haben das Konzept &quot;Dynamische Kampagnennamen&quot;eingeführt. Auf diese Weise können Sie die [!DNL Marketo Measure] Kampagnenname mit einem &quot;Ersatzparameter&quot;, der auf ein Feld aus dem Aktivitätsobjekt verweist. Wenn Sie beispielsweise eine [!DNL Marketo Measure] Kampagnenname mit dem Titel &quot;Ausgehender Aufruf&quot;, aber Sie möchten, dass der Vertriebsmitarbeiter am Ende steht, nehmen Sie den CRM-Feldnamen und rufen Sie die [!DNL Marketo Measure] Kampagnenname &quot;Ausgehender Aufruf&quot; {AssignedTo}&quot; oder &quot;Ausgehender Aufruf {CreatedBy}.&quot;
 
 **Wie richte ich Aktivitäten im [!DNL Marketo Measure] App?**
 
@@ -58,13 +59,13 @@ Anweisungen zum Konfigurieren von Aktivitäten im [!UICONTROL Marketo] Die Kennu
 
 **Was bedeuten die unterschiedlichen Operatoren?**
 
-* ist gleich: exakte Übereinstimmung mit dem Wert (auch: social)
+* ist gleich: exakte Übereinstimmung mit dem Wert (auch: Social)
 * enthält: Der Text befindet sich in der Mitte (auch: &#42;social&#42;)
-* beginnt mit: Der Wert beginnt mit dem Text (auch: social&#42;)
+* beginnt mit: Der Wert beginnt mit dem Text (auch: social)&#42;)
 * endet mit: Der Wert endet mit dem Text (auch: &#42;social)
 * entspricht beliebig: Es können mehrere Werte hinzugefügt werden, die durch Kommas getrennt sind. Wenn [!UICONTROL beginnt mit], [!UICONTROL endet mit], oder Operatoren enthält, müssen angewendet werden, verwenden Sie den Platzhalter (&#42;)
-* größer als: verwendet für numerische Felder oder Datums-/Uhrzeitfelder
-* kleiner als: verwendet für numerische Felder oder Datums-/Uhrzeitfelder
+* größer als: wird für numerische Felder oder Datums-/Uhrzeitfelder verwendet
+* less than: wird für numerische Felder oder Datums-/Uhrzeitfelder verwendet
 
 **Welchen Kanal werden diese Aktivitäten nutzen?**
 

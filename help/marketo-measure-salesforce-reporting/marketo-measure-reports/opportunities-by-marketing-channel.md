@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874628
 description: Möglichkeiten nach Marketing-Kanal - [!DNL Marketo Measure] - Produktdokumentation
-title: Möglichkeiten nach Marketingkanal
+title: Opportunitys nach Marketingkanal
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Channels, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Möglichkeiten nach Marketingkanal {#opportunities-by-marketing-channel}
+# Opportunitys nach Marketingkanal {#opportunities-by-marketing-channel}
 
-Dieser Bericht zeigt die Anzahl der von Ihren Marketingkanälen generierten Möglichkeiten an. es umfasst alle Ihre Möglichkeiten. Sie können diesen Bericht jedoch filtern, um bestimmte Arten von Möglichkeiten zu analysieren.
+Dieser Bericht überdeckt die Anzahl der Möglichkeiten, die Ihre Marketingkanäle bieten. Er enthält alle Ihre Möglichkeiten. Sie können diesen Bericht jedoch filtern, um bestimmte Arten von Möglichkeiten zu analysieren.
 
 1. Klicken Sie auf **[!UICONTROL Berichte]** Registerkarte in Salesforce und wählen Sie **[!UICONTROL Neuer Bericht]**.
 

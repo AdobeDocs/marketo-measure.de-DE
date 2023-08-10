@@ -3,10 +3,11 @@ unique-page-id: 18874610
 description: Dynamics-Kampagnen und Marketinglisten - [!DNL Marketo Measure] - Produktdokumentation
 title: Dynamics-Kampagnen und Marketinglisten
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen angezeigt, die[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
 
 ## Kampagnen {#campaigns}
 
-Dynamics-Kampagnen eignen sich gut zum Verfolgen von Offline-Marketingaktivitäten und deren Einbeziehung in die kanalübergreifende Journey. Kampagnen müssen sich auf Leads oder Kontakte beziehen und können entweder über Kampagnenantworten oder Marketinglisten in die Kampagne aggregiert werden.
+Dynamics-Kampagnen eignen sich gut zum Verfolgen von Offline-Marketingaktivitäten und deren Einbeziehung in die Omni-Channel-Journey. Kampagnen müssen sich auf Leads oder Kontakte beziehen und können entweder über Kampagnenantworten oder Marketinglisten in die Kampagne aggregiert werden.
 
 ## Kampagnenantworten {#campaign-responses}
 
@@ -62,7 +63,7 @@ Marketinglisten bieten eine weitere Möglichkeit, Leads oder Kontakte in eine Ma
 
 ![](assets/6.png)
 
-Der obige Screenshot ist eine Marketingliste für Leads. Marketinglisten sind Kampagnen zugeordnet und können mehreren Kampagnen zugeordnet werden. Es sei denn, Sie erstellen nur eine Marketingliste für eine Kampagne, [!DNL Marketo Measure] empfiehlt Kunden nicht, zur Verfolgung ihrer Kampagnen Marketinglisten zu verwenden. Es ist unwahrscheinlich, dass dieselbe genaue Liste von Leads/Kontakten für Touchpoints in mehreren Kampagnen geeignet ist.
+Der obige Screenshot ist eine Marketingliste für Leads. Marketinglisten sind mit Kampagnen verknüpft und können mehreren Kampagnen zugeordnet werden. Es sei denn, Sie erstellen nur eine Marketingliste für eine Kampagne, [!DNL Marketo Measure] empfiehlt Kunden nicht, zur Verfolgung ihrer Kampagnen Marketinglisten zu verwenden. Es ist unwahrscheinlich, dass dieselbe genaue Liste von Leads/Kontakten für Touchpoints in mehreren Kampagnen geeignet ist.
 
 ## Aktivieren von Touchpoints {#enable-touchpoints-1}
 

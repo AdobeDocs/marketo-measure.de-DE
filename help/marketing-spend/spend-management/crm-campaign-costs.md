@@ -3,10 +3,11 @@ unique-page-id: 18874688
 description: CRM-Kampagnenkosten - [!DNL Marketo Measure] - Produktdokumentation
 title: Kosten für CRM-Kampagnen
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Spend Management
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1228'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,7 +25,7 @@ Diese Funktion ist für alle [!DNL Salesforce] und Dynamics-Kunden.
 
 **[!DNL Salesforce]**: ActualCost, StartDate, EndDate
 
-**[!DNL Microsoft Dynamics]**: totalactualcost, tatsächlicheStart, tatsächlicheEnd
+**[!DNL Microsoft Dynamics]**: totalactualcost, actualstart, tatsächliche
 
 Wenn in einem der 3 Felder ein Wert fehlt, [!DNL Marketo Measure] nicht die Kosten importieren. Korrigieren Sie dies, indem Sie den Campaign-Datensatz im CRM aktualisieren. Wichtig ist auch, dass wir die Kosten nicht importieren, wenn sie explizit auf 0 USD gesetzt sind, da [!DNL Salesforce] behandelt leer und $0 gleich.
 
@@ -40,13 +41,13 @@ Juli 2018: ($18.000/109) x 31 = 5.119,27 $
 
 August 2018: ($18.000/109) x 31 = 5.119,27 $
 
-September 2018: ($18.000/109) x 30 = 4.954,13 USD
+Sep 2018: ($18.000/109) x 30 = $4.954.13
 
-Oktober 2018: ($18.000/109) x 17 = $2.807.34
+Okt. 2018: ($18.000/109) x 17 = $2.807.34
 
 ## Historische Ausgaben in Berichten {#historical-reported-spend}
 
-Keine Sorge! Wenn Sie Ausgaben für Kampagnen eingegeben haben, die wir in der Vergangenheit verfolgt und einer CRM-Kampagne zugeordnet haben, werden keine der eingegebenen Kosten überschrieben. Wenn dieselbe Kampagne im CRM geändert wird, wird sie dennoch ignoriert und den Änderungen, die Sie zuvor im CSV-Upload vorgenommen haben, Priorität eingeräumt.
+Mach dir keine Sorgen! Wenn Sie Ausgaben für Kampagnen eingegeben haben, die wir in der Vergangenheit verfolgt und einer CRM-Kampagne zugeordnet haben, werden keine der eingegebenen Kosten überschrieben. Wenn dieselbe Kampagne im CRM geändert wird, wird sie dennoch ignoriert und den Änderungen, die Sie zuvor im CSV-Upload vorgenommen haben, Priorität eingeräumt.
 
 Wenn Sie es vorziehen würden, die Kosten der CRM-Kampagne fortzuführen, können Sie den Wert in der CSV-Datei auf 0 USD ändern, wodurch der Eintrag annulliert wird. Wenn wir dann das nächste Mal unsere Aufträge zum Importieren der Kosten ausführen, werden wir nach allen Datensätzen suchen, die zuvor bearbeitet wurden, und diese abrufen.
 
@@ -62,7 +63,7 @@ Wenn Sie Marketo-Programme als Kampagnen in das CRM-System integrieren, sollten 
 
 ## Bearbeiten der Kosten {#editing-the-costs}
 
-Nachdem eine Kampagne aus dem CRM importiert wurde, wird sie einem API Ads Provider ähnlich behandelt und nicht in der CSV angezeigt, um Kostenänderungen vorzunehmen.
+Nachdem eine Kampagne aus dem CRM importiert wurde, wird sie einem API-Anzeigenanbieter ähnlich behandelt und nicht in der CSV angezeigt, um Kostenänderungen vorzunehmen.
 
 Änderungen an Kosten oder Verteilung müssen im CRM vorgenommen werden, damit wir auf einen einzigen Punkt der Wahrheit verweisen können.
 
@@ -90,7 +91,7 @@ Da wir uns auf das CRM als einzige &quot;Source of Truth&quot; verlassen, müsse
 
 **In welchem Szenario würde eine Kampagne in der Tabelle Marketing-Ausgaben angezeigt und dann nicht mehr angezeigt?**
 
-Wir werden weiterhin verlangen, dass alle drei Schlüsselfelder einen Wert haben: Startdatum, Enddatum und Kosten. Unser Standardverhalten ist, dass wir nur Kampagnen mit einem Wert von mehr als 0 USD importieren. Im Idealfall würden wir Kampagnen importieren, bei denen explizit 0 USD vorhanden ist, und nicht leere Kampagnen importieren. Die Salesforce-API importiert sie jedoch unabhängig vom Wert als 0 USD. Wenn sich der Wert &quot;Käufer-Touchpoint aktivieren&quot;von &quot;Alle einschließen&quot;oder &quot;Antwort einschließen&quot;in &quot;Alle ausschließen&quot;ändert, werden die Kampagne und die Kosten aus der Tabelle Marketing-Ausgaben entfernt.
+Es wird weiterhin erforderlich sein, dass alle drei Schlüsselfelder einen Wert aufweisen: Startdatum, Enddatum und Kosten. Unser Standardverhalten ist, dass wir nur Kampagnen mit einem Wert von mehr als 0 USD importieren. Im Idealfall würden wir Kampagnen importieren, bei denen explizit 0 USD vorhanden ist, und nicht leere Kampagnen importieren. Die Salesforce-API importiert sie jedoch unabhängig vom Wert als 0 USD. Wenn sich der Wert &quot;Käufer-Touchpoint aktivieren&quot;von &quot;Alle einschließen&quot;oder &quot;Antwort einschließen&quot;in &quot;Alle ausschließen&quot;ändert, werden die Kampagne und die Kosten aus der Tabelle Marketing-Ausgaben entfernt.
 
 **Welche Kosten wären vorrangig, wenn eine Zeile bereits aus dem CRM-System heruntergeladen wurde und ich eine andere Zeile in die CSV-Datei mit derselben Kampagnen-ID eingegeben habe?**
 
@@ -98,4 +99,4 @@ Obwohl Sie die Datei möglicherweise erfolgreich hochladen können, [!DNL Market
 
 **Wie würden Sie vorschlagen, dass wir Kosten aus unseren im CRM-System eingerichteten digitalen Kampagnen übernehmen?**
 
-weil [!DNL Marketo Measure] JavaScript verfolgt bereits Web-Aktivitäten von Ihrer Site aus. Wir empfehlen, keine Kampagnen zu synchronisieren, die Campaign-Mitglieder über Webformulare oder andere Site-Aktivitäten verfolgen, da dies die Touches verdoppeln wird. Daher können Sie die Option CSV-Upload in Marketing Spend weiterhin verwenden, um diese Online-/Digitalkosten zu verfolgen, wenn wir noch nicht mit dieser Plattform integriert sind (d. h. Twitter, Adroll).
+weil unsere [!DNL Marketo Measure] JavaScript verfolgt bereits Web-Aktivitäten von Ihrer Site aus. Wir empfehlen, keine Kampagnen zu synchronisieren, die Campaign-Mitglieder über Webformulare oder andere Site-Aktivitäten verfolgen, da dies die Touches verdoppeln wird. Daher können Sie die Option CSV-Upload in Marketing Spend weiterhin verwenden, um diese Online-/Digitalkosten zu verfolgen, wenn wir noch nicht mit dieser Plattform integriert sind (d. h. Twitter, Adroll).

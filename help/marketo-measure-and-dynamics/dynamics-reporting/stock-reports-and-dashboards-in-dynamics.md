@@ -3,7 +3,8 @@ unique-page-id: 18874612
 description: Lagerberichte und Dashboards in Dynamics - [!DNL Marketo Measure] - Produktdokumentation
 title: Lagerberichte und Dashboards in Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 3%
@@ -14,7 +15,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen angezeigt, die[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
 
 Die [!DNL Marketo Measure] Managed Solution enthält eine Reihe von Stock-Dashboards und -Berichten, die Ihren grundlegenden Anforderungen bei der Anzeige von [!DNL Marketo Measure] Daten in Dynamics. Nachfolgend finden Sie die vollständige Liste und einige häufige Anwendungsfälle.
 
@@ -90,7 +91,7 @@ Die [!DNL Marketo Measure] Managed Solution enthält eine Reihe von Stock-Dashbo
  </colgroup> 
  <tbody> 
   <tr> 
-   <td><strong>Berichtname</strong></td> 
+   <td><strong>Berichtsname</strong></td> 
    <td><strong>Anwendungsfall</strong></td> 
    <td><strong>Abrechnungsgruppe</strong></td> 
   </tr> 

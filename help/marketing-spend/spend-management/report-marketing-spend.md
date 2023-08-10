@@ -3,10 +3,11 @@ unique-page-id: 27656737
 description: Marketing-Ausgaben für Berichte - [!DNL Marketo Measure] - Produktdokumentation
 title: Marketing-Ausgaben für Berichte
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Reporting, Spend Management
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,7 +25,7 @@ Wenn ein Benutzer die Kostendatei herunterlädt, enthält die Datei auch eine ne
 
 ## Kosten von Anzeigenintegrationen {#costs-from-ad-integrations}
 
-Wann [!DNL Marketo Measure] Importiert die Kosten von verbundenen Plattformen wie AdWords, Bing, Facebook oder Doubleclick. Wir verwenden auch die gemeldete Währung. Die Währung wird neben Kanal, Unterkanal und Kampagne angezeigt, wenn sie in der Tabelle Marketing-Ausgaben angezeigt wird.
+Wann [!DNL Marketo Measure] Importiert die Kosten von verbundenen Plattformen wie AdWords, Bing, Facebook oder Doubleclick. Wir verwenden auch die gemeldete Währung. Die Währung wird zusammen mit Kanal, Unterkanal und Kampagne angezeigt, wenn sie in der Tabelle Marketing-Ausgaben angezeigt wird.
 
 Wenn die Währung des Anzeigen-Providers nicht mit einer Währung übereinstimmt, die aus dem CRM abgerufen wird, wird möglicherweise der Fehler &quot;Gemischte Währungen&quot;unter [!DNL Marketo Measure Discover] weil wir keine Umrechnung dieser Währung vornehmen konnten. Um dies zu beheben, muss Ihr CRM-Administrator eine Konversion für die unbekannte Währung hinzufügen.
 

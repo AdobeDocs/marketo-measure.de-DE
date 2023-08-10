@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874755
 description: Hinzufügen [!DNL Marketo Measure] nach [!DNL Marketo] Landing Pages - [!DNL Marketo Measure] - Produktdokumentation
-title: Hinzufügen [!DNL Marketo Measure] zu Marketo-Landingpages
+title: Hinzufügen von [!DNL Marketo Measure] zu Marketo-Landing-Pages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
-source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Hinzufügen [!DNL Marketo Measure] zu Marketo-Landingpages {#adding-marketo-measure-to-marketo-landing-pages}
+# Hinzufügen von[!DNL Marketo Measure]zu Marketo-Landing-Pages {#adding-marketo-measure-to-marketo-landing-pages}
 
 Erfahren Sie, wie Sie Tracking zu [!DNL Marketo Engage] Landingpages, da sie eine zusätzliche Bearbeitung erfordern. [!DNL Marketo Measure] JavaScript muss sowohl auf der Landingpage als auch auf der [!DNL Marketo Engage] Formular selbst. Dazu müssen Sie die [!DNL Marketo Measure] JavaScript in [!DNL Marketo Engage] wie in den folgenden Anweisungen erläutert.
 
@@ -22,20 +23,20 @@ Erfahren Sie, wie Sie Tracking zu [!DNL Marketo Engage] Landingpages, da sie ein
 
 1. Melden Sie sich bei Ihrer [!DNL Marketo Engage] -Konto.
 1. Wählen Sie Ihre Landingpage aus und klicken Sie auf **[!UICONTROL Entwurf bearbeiten]**.
-1. Ziehen Sie in das HTML-Element.
+1. Ziehen Sie das Element HTML in den Arbeitsbereich.
 1. Geben Sie die [!DNL Marketo Measure] JavaScript in die [!UICONTROL head] Abschnitt:
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
 Beispiel für einen Screenshot unten
 
-1. Klicken **[!UICONTROL Speichern]**.
+1. Klicks **[!UICONTROL Speichern]**.
 
    ![](assets/adding-bizible-to-marketo-landing-pages-1.png)
 
 ## Weitere Hinweise {#additional-notes}
 
-* Möglicherweise sind bereits andere Trackingcode-Snippets vorhanden, z. B. eine [!DNL Google Analytics] Code. Es gibt kein Problem damit. Stellen Sie sicher, dass Sie sie mit einem Semikolon trennen `;` und ein einzelnes Leerzeichen. Ein Beispiel dafür, wie dies aussehen würde, ist:
+* Möglicherweise sind bereits andere Trackingcode-Snippets vorhanden, z. B. [!DNL Google Analytics] Code. Es gibt kein Problem damit. Stellen Sie sicher, dass Sie sie mit einem Semikolon trennen `;` und ein einzelnes Leerzeichen. Ein Beispiel dafür, wie dies aussehen würde:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`
 

@@ -3,7 +3,8 @@ unique-page-id: 18874759
 description: Hinzufügen [!DNL Marketo Measure] nach [!DNL Hubspot] - [!DNL Marketo Measure] - Produktdokumentation
 title: Hinzufügen [!DNL Marketo Measure] nach [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 1%
@@ -22,11 +23,11 @@ Hubspot unterscheidet sich etwas von anderen Marketing-Automatisierungssystemen 
 
 ## Erste Schritte {#getting-started}
 
-Sobald Sie sich bei Ihrem [!DNL Hubspot] -Konto, führen Sie diese Schritte aus.
+Sobald Sie sich bei Ihrem [!DNL Hubspot] -Konto verwenden, führen Sie die folgenden Schritte aus.
 
 1. Navigieren Sie zu Inhalt .
 
-1. Klicken **[!UICONTROL Inhaltseinstellungen]**.
+1. Klicks **[!UICONTROL Inhaltseinstellungen]**.
 
 1. Within [!UICONTROL Inhaltseinstellungen]klicken Sie auf die HTML &quot;Site-Kopfzeile&quot;(siehe Abbildung unten).
 

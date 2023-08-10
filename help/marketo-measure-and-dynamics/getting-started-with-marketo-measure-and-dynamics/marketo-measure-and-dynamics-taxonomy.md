@@ -1,16 +1,17 @@
 ---
 description: "[!DNL Marketo Measure] und Dynamics Taxonomie - [!DNL Marketo Measure] - Produktdokumentation"
-title: "[!DNL Marketo Measure] und Dynamics Taxonomie"
+title: "[!DNL Marketo Measure] und Dynamics-Taxonomie"
 exl-id: 5d211710-3937-4d86-a570-8115e62b934f
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
 # [!DNL Marketo Measure] und Dynamics-Taxonomie {#marketo-measure-and-dynamics-taxonomy}
 
-Nachfolgend finden Sie ein Flussdiagramm, das angibt, wie die Variable [!DNL Marketo Measure] Benutzerdefinierte Objekte beziehen sich auf Dynamics Standard-Objekte.<p>
+Unten finden Sie ein Flussdiagramm, das angibt, wie die Variable [!DNL Marketo Measure] Benutzerdefinierte Objekte beziehen sich auf Dynamics Standard-Objekte.<p>
 
 ![](assets/bizible-and-dynamics-taxonomy-1.png)

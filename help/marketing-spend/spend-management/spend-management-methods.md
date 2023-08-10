@@ -2,10 +2,11 @@
 description: Ausgabenverwaltungsmethoden - [!DNL Marketo Measure] - Produktdokumentation
 title: Ausgabenverwaltungsmethoden
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Spend Management
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,7 +18,7 @@ Es gibt drei Möglichkeiten, Ausgabedaten in [!DNL Marketo Measure]. Jede Method
 
 **1) API-Connected Accounts**
 
-Jedes Anzeigenkonto, mit dem Sie verbunden sind [!DNL Marketo Measure] über eine API werden die Ausgaben automatisch in [!DNL Marketo Measure] für ROI-Berichte. Gehen Sie zu Ihrem [!DNL Marketo Measure] App und wählen Sie die [!UICONTROL Verbindungen] Registerkarte unter [!UICONTROL Integrationen] Abschnitt. Weitere Informationen zum Einrichten Ihrer API-Verbindungen finden Sie in der [Integrierte Anzeigenplattformen](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) Artikel.
+Jedes Anzeigenkonto, mit dem Sie verbunden sind [!DNL Marketo Measure] über eine API automatisch in [!DNL Marketo Measure] für ROI-Berichte. Gehen Sie zu Ihrem [!DNL Marketo Measure] App und wählen Sie die [!UICONTROL Verbindungen] Registerkarte unter [!UICONTROL Integrationen] Abschnitt. Weitere Informationen zum Einrichten Ihrer API-Verbindungen finden Sie in der [Integrierte Anzeigenplattformen](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) Artikel.
 
 **2) CRM-Kampagnenkostensynchronisierung**
 
@@ -31,7 +32,7 @@ i. [!DNL Marketo Measure] prüft zunächst, ob die Kampagne/das Programm Touchpo
 
 ii. Ein Startdatum muss in der Kampagne/dem Programm angegeben werden.
 
-iii. Ein Enddatum muss auch in der Kampagne/dem Programm angegeben werden
+iii. Ein Enddatum muss auch in der Kampagne/dem Programm angegeben werden.
 
 iv. Schließlich müssen die tatsächlichen Kosten (für Kampagnen in SFDC) oder die Periodentaugen (für Programme in Marketo) angegeben werden.
 

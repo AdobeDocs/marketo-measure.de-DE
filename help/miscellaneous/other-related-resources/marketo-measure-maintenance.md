@@ -3,10 +3,11 @@ unique-page-id: 18874556
 description: "[!DNL Marketo Measure] Wartung - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Wartung"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -51,4 +52,4 @@ Wenn Sie eine benutzerdefinierte [!UICONTROL Lead], [!UICONTROL Kontakt]oder [!U
 
 Wenn Sie für die [!DNL Marketo Measure] Benutzerdefiniertes Modell, Sie verfügen auch über Daten aus unserem Machine Learning Model (MLM) in [!UICONTROL Einstellungen] > [!UICONTROL Attributionseinstellungen]. Das MLM berechnet die Wichtigkeit jeder Phase mithilfe von Touchpoint-Daten aus Ihrem Konto und kann Ihnen bei der Entscheidung helfen, die Attributionsgewichtung in Ihrem benutzerdefinierten Modell zuzuweisen. Es wird empfohlen, das MLM einmal pro Quartal mit Ihrem benutzerdefinierten Modell zu vergleichen und die Auswirkungen möglicher Änderungen an Ihrem benutzerdefinierten Modell mit Ihrem SM zu besprechen.
 
-Weitere Informationen zum [!DNL Marketo Measure] Modell für maschinelles Lernen, Auschecken [diesem Artikel](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+Weitere Informationen zum [!DNL Marketo Measure] Modell für maschinelles Lernen, Checkout [diesem Artikel](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).

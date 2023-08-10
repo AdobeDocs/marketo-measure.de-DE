@@ -3,7 +3,8 @@ unique-page-id: 18874660
 description: FAQs - [!DNL Marketo Measure] - Produktdokumentation
 title: FAQs
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Diese Metriken finden Sie nur auf der Paid Media-Pinnwand.
 
 Eines der Merkmale des Wachstumsboards ist, dass Sie die Trenddiagramme nicht nach Dimensionen wie Kanal oder Kampagne gruppieren können. Diese Daten stehen nicht auf Seitenansichtsebene zur Verfügung, da Seitenansichten nicht immer eine Quelle wie Kanal oder Kampagne haben, da sie mitten in Webbesuchen stattfinden. Verwenden Sie Paid Media oder Web Traffic, um Daten zu Seitenansichten anzuzeigen.
 
-**Wenn ich die Gruppierung ändere, entsprechen die Summen nicht immer dem gleichen Betrag. Warum ist das so?**
+**Wenn ich die Gruppierung ändere, entsprechen die Summen nicht immer dem gleichen Betrag. Warum ist das?**
 
 Werte gibt es nicht für jede einzelne Datenhierarchie, da die Hierarchie nicht immer ein klarer Schnittfluss ist. Unabhängig davon, ob die Kosten selbst gemeldet oder von einem Anzeigen-Provider importiert werden, können die Gesamtkosten für Kanal 1 1 10.000 USD betragen, aber nach einzelner Kampagne wurden nur insgesamt 5.500 USD gemeldet. Wenn sich die Gruppierung zwischen Kanal und Kampagne ändert, variieren die Summen.
 

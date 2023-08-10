@@ -3,10 +3,11 @@ unique-page-id: 18874678
 description: Grundlagen [!DNL Marketo Measure] AdWords-Tagging - [!DNL Marketo Measure] - Produktdokumentation
 title: Grundlagen [!DNL Marketo Measure] AdWords-Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
-source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
+feature: APIs, Integration, UTM Parameters
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +28,7 @@ Dieselbe URL liefert jedoch granulare Daten aufgrund der [!DNL Marketo Measure] 
 **Wenn [!DNL Marketo Measure] findet eine Tracking-Vorlage:**
 
 * [!DNL Marketo Measure] fügt seine Parameter zur Tracking-Vorlage hinzu.
-* Wenn eine Umleitung von Drittanbietern in einer Tracking-Vorlage wie Kenshoo oder Marin gefunden wird, [!DNL Marketo Measure] wird keine Maßnahmen ergreifen. Stattdessen müssen Sie [add [!DNL Marketo Measure] Parameter für das Tool eines Drittanbieters in Ihrem Konto](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
+* Wenn eine Umleitung von Drittanbietern in einer Tracking-Vorlage wie Kenshoo oder Marin gefunden wird, [!DNL Marketo Measure] wird keine Maßnahmen ergreifen. Sie müssen stattdessen [add [!DNL Marketo Measure] Parameter für das Tool eines Drittanbieters in Ihrem Konto](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 Wenn jedoch keine Tracking-Vorlage gefunden wird, [!DNL Marketo Measure] wird:
 
@@ -58,19 +59,19 @@ Es gibt zwei Tracking-Vorlagen [!DNL Marketo Measure] empfiehlt die Verwendung v
 
 1. Melden Sie sich bei Ihrer [!DNL Google AdWords] Konto.
 
-1. Klicken **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Einstellungen]** im sich öffnenden Fenster.
+1. Klicks **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Einstellungen]** im sich öffnenden Fenster.
 
    ![](assets/1.png)
 
-1. Klicken **[!UICONTROL Kontoeinstellungen]** oben und dann **[!UICONTROL Tracking-Vorlage]**. Geben Sie die [!DNL Marketo Measure] Tracking-Vorlage.
+1. Klicks **[!UICONTROL Kontoeinstellungen]** oben und dann **[!UICONTROL Tracking-Vorlage]**. Geben Sie die [!DNL Marketo Measure] Tracking-Vorlage.
 
    ![](assets/2-1.png)
 
-1. Klicken **[!UICONTROL Speichern]**.
+1. Klicks **[!UICONTROL Speichern]**.
 
 ## Einrichten einer Tracking-Vorlage auf Kampagnenebene {#setting-up-a-tracking-template-at-the-campaign-level}
 
-1. Klicken **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Kampagnen]** im sich öffnenden Fenster.
+1. Klicks **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Kampagnen]** im sich öffnenden Fenster.
 
    ![](assets/3.png)
 
@@ -82,11 +83,11 @@ Es gibt zwei Tracking-Vorlagen [!DNL Marketo Measure] empfiehlt die Verwendung v
 
 ## Einrichten einer Tracking-Vorlage auf Anzeigengruppenebene: {#setting-up-a-tracking-template-at-the-ad-group-level}
 
-1. Klicken **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Anzeigengruppen]** im sich öffnenden Fenster.
+1. Klicks **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Anzeigengruppen]** im sich öffnenden Fenster.
 
    ![](assets/5-1.png)
 
-1. Wählen Sie alle zutreffenden Anzeigengruppen aus oder klicken Sie auf &quot;Alle auswählen&quot;. **[!UICONTROL Bearbeiten]** und klicken Sie anschließend auf **[!UICONTROL Ändern von Tracking-Vorlagen]**.
+1. Wählen Sie alle zutreffenden Anzeigengruppen aus oder klicken Sie auf Alle auswählen . **[!UICONTROL Bearbeiten]** und klicken Sie anschließend auf **[!UICONTROL Ändern von Tracking-Vorlagen]**.
 
 1. Geben Sie die [!DNL Marketo Measure] Tracking-Vorlage und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -98,7 +99,7 @@ Es gibt zwei Tracking-Vorlagen [!DNL Marketo Measure] empfiehlt die Verwendung v
 
 A: userinfo.email
 
-**F: Wie lange kann das Importieren von Ausgabedaten dauern?**
+**F: Wie lange kann der Import von Ausgabedaten dauern?**
 
 A: 6 Stunden
 
@@ -114,4 +115,4 @@ A: Wir können keine individuellen kreativen Details für dynamische Suchanzeige
 >
 >Sobald die Änderungen vorgenommen wurden, sind Sie fertig. Sie können gerne Kontakt mit [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} , wenn während der Einrichtung Fragen auftreten.
 
-[Hier klicken](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} Anweisungen von Google zum Erstellen von Tracking-Vorlagen auf Kontoebene.
+[Hier klicken](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} für Anweisungen von Google zum Erstellen von Tracking-Vorlagen auf Kontoebene.

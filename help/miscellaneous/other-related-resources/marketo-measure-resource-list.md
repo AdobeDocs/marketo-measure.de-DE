@@ -1,12 +1,13 @@
 ---
 unique-page-id: 37356962
 description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure] - Produktdokumentation"
-title: "[!DNL Marketo Measure] Resource List"
+title: "[!DNL Marketo Measure] Ressourcenliste"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Fundamentals
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -60,7 +61,7 @@ Behandelte Themen:
 * Was ist Attribution?
 * Was ist [!DNL Marketo Measure]
 * [!DNL Marketo Measure] Daten
-* Kontaktpunkte
+* Touchpoints
 * Attributionsmodelle
 
 **[[!DNL Marketo Measure] Berichterstattung in SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45 Minuten)**

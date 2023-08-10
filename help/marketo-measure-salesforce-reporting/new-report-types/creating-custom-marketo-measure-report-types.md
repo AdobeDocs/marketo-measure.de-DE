@@ -1,22 +1,23 @@
 ---
 unique-page-id: 18874539
 description: Benutzerdefiniert erstellen [!DNL Marketo Measure] Berichtstypen - [!DNL Marketo Measure] - Produktdokumentation
-title: Benutzerdefiniert erstellen [!DNL Marketo Measure] Berichtstypen
+title: Erstellen benutzerdefinierter  [!DNL Marketo Measure] Berichtstypen
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Benutzerdefiniert erstellen [!DNL Marketo Measure] Berichtstypen {#creating-custom-marketo-measure-report-types}
+# Erstellen benutzerdefinierter [!DNL Marketo Measure]Berichtstypen {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen angezeigt, die[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
 
-Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce] Berichtstypen. Es wird empfohlen, drei verschiedene Berichtstypen zu erstellen: Leads mit Käufer-Touchpoints (benutzerdefiniert), [!DNL Marketo Measure] Person mit Käufer-Touchpoints (benutzerdefiniert), Chancen mit Käufer-Attribution-Touchpoint (benutzerdefiniert).
+Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce] Berichtstypen. Es gibt drei verschiedene Berichtstypen, die wir empfehlen zu erstellen: Leads mit Käufer-Touchpoints (benutzerdefiniert), [!DNL Marketo Measure] Person mit Käufer-Touchpoints (benutzerdefiniert), Chancen mit Käufer-Attribution-Touchpoint (benutzerdefiniert).
 
 ## Leads mit Käufer-Touchpoints (benutzerdefiniert) {#leads-with-buyer-touchpoints-custom}
 
@@ -29,7 +30,7 @@ Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce
    * [!UICONTROL Berichtstyp Fokus] > [!UICONTROL [!UICONTROL Primäres Objekt]]: Lead
    * Identifizierung > [!UICONTROL Berichtstyp-Bezeichnung]: Leads mit Käufer-Touchpoints (benutzerdefiniert)
    * [!UICONTROL Store in Category]: Andere Berichte
-   * [!UICONTROL Implementierung] > [!UICONTROL Bereitstellungsstatus]: Bereitgestellt
+   * [!UICONTROL Implementierung] > [!UICONTROL Bereitstellungsstatus]: bereitgestellt
 
    ![](assets/2.png)
 
@@ -52,7 +53,7 @@ Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce
    * [!UICONTROL Berichtstyp Fokus] > [!UICONTROL Primäres Objekt]: [!DNL Marketo Measure] Personen
    * [!UICONTROL Bezeichnung] > [!UICONTROL Berichtstyp-Bezeichnung]: [!DNL Marketo Measure] Person mit Käufer-Touchpoints (benutzerdefiniert)
    * [!UICONTROL Store in Category]: Andere Berichte
-   * [!UICONTROL Implementierung] > [!UICONTROL Bereitstellungsstatus]: Bereitgestellt
+   * [!UICONTROL Implementierung] > [!UICONTROL Bereitstellungsstatus]: bereitgestellt
 
    ![](assets/5.png)
 
@@ -75,7 +76,7 @@ Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce
    * [!UICONTROL Berichtstyp Fokus] > [!UICONTROL Primäres Objekt]: Chancen
    * [!UICONTROL Bezeichnung] > [!UICONTROL Berichtstyp-Bezeichnung]: Möglichkeiten mit dem Touchpoint der Käuferzuordnung (benutzerdefiniert)
    * [!UICONTROL Store in Category]: Andere Berichte
-   * [!UICONTROL Implementierung] > [!UICONTROL Bereitstellungsstatus]: Bereitgestellt
+   * [!UICONTROL Implementierung] > [!UICONTROL Bereitstellungsstatus]: bereitgestellt
 
    ![](assets/8.png)
 
@@ -89,7 +90,7 @@ Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce
 
 ## Hinzufügen benutzerdefinierter Felder zu benutzerdefinierten Berichtstypen {#adding-custom-fields-to-custom-report-types}
 
-1. Nach der Erstellung der Berichte gelangen Sie zu einer Übersicht über den Berichtstyp. Klicken **[!UICONTROL Layout bearbeiten]**.
+1. Nach der Erstellung der Berichte gelangen Sie zu einer Übersicht über den Berichtstyp. Klicks **[!UICONTROL Layout bearbeiten]**.
 
    ![](assets/10.png)
 

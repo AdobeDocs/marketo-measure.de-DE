@@ -3,7 +3,8 @@ unique-page-id: 27656745
 description: Häufig gestellte Fragen (mehrere Währungen) - [!DNL Marketo Measure] - Produktdokumentation
 title: Häufig gestellte Fragen (mehrere Währungen)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Multi-Currency
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 **Woher weiß ich, welches Feature-Bit aktiviert werden soll?**
 
-Beachten Sie, dass es für diese Funktion zwei verschiedene Feature Bit gibt. Beide befinden sich im Tab Allgemein des CRM-Abschnitts unter Einstellungen: Mehrere Währungen und erweiterte Währungen. Mehrere Währungen sollten aktiviert werden, wenn der Kunde mehr als eine Währung verwendet, während die zusätzliche Funktion und die erweiterten Währungen aktiviert werden können, wenn der Kunde [!DNL Salesforce]Funktion &quot;Erweiterte Währungsverwaltung&quot;, bei der der Benutzer einen zeitbasierten Bereich für Konversionsraten festlegen kann.
+Beachten Sie, dass es für diese Funktion zwei verschiedene Feature Bit gibt. Beide befinden sich im Tab Allgemein des CRM-Abschnitts unter Einstellungen: Mehrere Währungen und Erweiterte Währungen. Mehrere Währungen sollten aktiviert werden, wenn der Kunde mehr als eine Währung verwendet, während die zusätzliche Funktion und die erweiterten Währungen aktiviert werden können, wenn der Kunde [!DNL Salesforce]Funktion &quot;Erweiterte Währungsverwaltung&quot;, bei der der Benutzer einen zeitbasierten Bereich für Konversionsraten festlegen kann.
 
 Leider wissen wir nicht, wann ein Kunde zwischen &quot;Einfach&quot;und &quot;Erweitert&quot;wechselt, wenn Advanced bereits aktiviert ist. Aus diesem Grund muss der Kunde die Einstellung Erweiterte Währungen manuell an seine CRM-Einstellung anpassen. Dies sollte für den Kunden sichtbar sein, wenn die Konversionen falsch sind. Das bedeutet, dass wir nicht wussten, welcher Konversionsgrad angewendet werden sollte.
 
@@ -46,7 +47,7 @@ Wenn der Kunde nicht über die Funktion für mehrere Währungen verfügt, wird s
 
 Für [!DNL Dynamics] und [!DNL Salesforce] Kunden, die nur die grundlegende (nicht erweiterte) Währungsverwaltung verwenden, sollten die Umsätze von Touchpoints korrekt konvertiert werden, sodass CRM-Berichte erwartungsgemäß funktionieren.
 
-Leider gibt es einige Nuancen, wie dies für Benutzer von [!DNL Salesforce] Fortgeschrittenes Währungsmanagement aufgrund einer seit langem bestehenden Beschränkung von [!DNL Salesforce]. Die kurze Antwort auf &quot;Was tun wir in diesem Fall&quot; ist, dass wir Umsätze mithilfe der Pauschalsätze umrechnen, die im Tab &quot;Währungen verwalten&quot; (d. h. nicht erweiterte) definiert sind. Mit anderen Worten, wir ignorieren die veralteten Wechselkurse ganz und gar, obwohl der Kunde die alten Wechselkurse definiert hat.
+Leider gibt es einige Nuancen, wie dies für Benutzer von [!DNL Salesforce] Fortgeschrittenes Währungsmanagement aufgrund einer seit langem bestehenden Beschränkung von [!DNL Salesforce]. Die kurze Antwort auf &quot;Was tun wir in diesem Fall&quot; ist, dass wir Umsätze mithilfe der Pauschalsätze umrechnen, die im Tab &quot;Währungen verwalten&quot; (d. h. nicht erweiterter Standard) definiert sind. Mit anderen Worten, wir ignorieren die veralteten Wechselkurse ganz und gar, obwohl der Kunde die alten Wechselkurse definiert hat.
 
 Für den interessierten Leser hier ist der Grund, warum es so funktioniert. Unsere Touchpoints verwenden Formelfelder zur Berechnung des Umsatzes (abgeleitet aus dem zugehörigen Opportunity-Betrag). [!DNL Salesforce] unterstützt nativ die Währungsumrechnung für diese Formelberechnungen, jedoch nur für ihren grundlegenden Charakter der Währungsunterstützung. Es ist unmöglich für uns, ein Formelfeld zu definieren, das auf die alten Wechselkurse verweist. [!DNL Salesforce] unterstützt diese Funktion einfach nicht, sodass wir keine Möglichkeit haben, in unseren Umsatzberechnungen auf die veralteten Zinssätze zu verweisen, obwohl diese veralteten Sätze in [!DNL Salesforce] (Es klingt verrückt, aber so funktioniert es.)
 
