@@ -4,7 +4,7 @@ title: Dashboard "Umsatzübersicht"
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
+source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -20,8 +20,8 @@ Fragen, die die Pinnwand beantwortet:
 * Welcher Prozentsatz unseres Umsatzes ist auf unsere Marketing-Maßnahmen zurückzuführen?
 * Welchen prozentualen Anteil unserer &quot;Closed Won&quot;-Angebote haben wir durch unsere Marketingbemühungen beeinflusst?
 
-<table>
-<tbody> 
+<table style="table-layout:auto"> 
+<tbody>
   <tr> 
    <th>Komponente</th> 
    <th>Beschreibung</th>
@@ -58,13 +58,13 @@ Fragen, die die Pinnwand beantwortet:
   <tr>
     <td>Diagramm zum Umsatz und zu den zugewiesenen Umsätzen</td>
     <td>Dieses nebeneinander liegende Balkendiagramm für Zeitreihen bietet einen umfassenden Überblick über Ihre Attributionsabdeckung, indem der Gesamtumsatz im Vergleich zum zugewiesenen Umsatz gegenübergestellt wird.
-    <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
+    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
     <td>Diagramm zur Attribution</td>
     <td>Dieses Tortendiagramm bietet einen klaren visuellen Vergleich zwischen dem zugewiesenen Umsatz und dem nicht zugewiesenen Umsatz. Der Kuchen deckt den Gesamtumsatz ab.
     <br/>
-    <img src="assets/revenue-overview-dashboard-2.png"></td>
+    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
   </tr>
 </tbody>
 </table>
