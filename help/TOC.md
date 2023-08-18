@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
-source-git-commit: e4852d6240a64b4a1a5c979a7528485623c68eb0
+source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 99%
+source-wordcount: '796'
+ht-degree: 97%
 
 ---
 
@@ -150,9 +150,15 @@ ht-degree: 99%
       + [Häufig gestellte Fragen (mehrere Währungen)](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
 + [!DNL Marketo Measure] Benutzeroberfläche von Discover {#marketo-measure-discover-ui}
    + Dashboards {#dashboards}
-      + [Dokumentation zum Kohorten-Journey-Dashboard](marketo-measure-discover-ui/dashboards/cohort-journey-dashboard-documentation.md)
-      + [Dokumentation zum Passport-Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard-documentation.md)
-      + [Dokumentation zum Momentaufnahmen-Dashboard](marketo-measure-discover-ui/dashboards/snapshot-dashboard-documentation.md)
+      + [Dashboard-Grundlagen](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [Dashboard &quot;Umsatzübersicht&quot;](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Dashboard &quot;Zugewiesener Umsatz&quot;](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [ROI-Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Passport-Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+   + Legacy-Dashboards {#legacy-dashboards}
+      + [Dokumentation zum Kohorten-Journey-Dashboard](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
+      + [Dokumentation zum Passport-Dashboard](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
+      + [Dokumentation zum Momentaufnahmen-Dashboard](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
    + Verwenden der Reporting-Plattform von [!DNL Marketo Measure] {#using-marketo-measures-reporting-platform}
       + [Häufige Anwendungsfälle](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
       + [Definitionen und Enzyklopädie](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
