@@ -1,10 +1,8 @@
 ---
 description: ROI-Dashboard - [!DNL Marketo Measure] - Produkt
 title: ROI-Dashboard
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 18%
@@ -26,8 +24,8 @@ Fragen, die die Pinnwand beantwortet:
  <tr> 
    <th>Komponente</th> 
    <th>Beschreibung</th>
+   <th>Datumstyp</th>
    <th>Durchsuchen von Feldern</th>
-   <th>Datentyp</th>
    <th>Filter</th>
   </tr>
   <tr>

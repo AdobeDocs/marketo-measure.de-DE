@@ -1,10 +1,8 @@
 ---
 description: Dashboard "Umsatzübersicht"- [!DNL Marketo Measure] - Produkt
 title: Dashboard "Umsatzübersicht"
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -26,7 +24,7 @@ Fragen, die die Pinnwand beantwortet:
    <th>Komponente</th> 
    <th>Beschreibung</th>
    <th>Durchsuchen von Feldern</th>
-   <th>Datentyp</th>
+   <th>Datumstyp</th>
    <th>Filter</th>
   </tr>
   <tr>
