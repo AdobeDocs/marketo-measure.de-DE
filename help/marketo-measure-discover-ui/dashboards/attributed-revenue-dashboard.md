@@ -2,10 +2,10 @@
 description: Dashboard "Zugewiesener Umsatz"- [!DNL Marketo Measure] - Produkt
 title: Dashboard "Zugewiesener Umsatz"
 feature: Reporting
-source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
+source-git-commit: 436e30c2a4138d780232d6ba9e64456d6277ac9b
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 15%
+source-wordcount: '183'
+ht-degree: 14%
 
 ---
 
@@ -66,3 +66,7 @@ Wie hoch ist der Gesamtbetrag unseres zugeordneten Umsatzes und die Anzahl unser
   </tr>
 </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Dashboard-Grundlagen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
