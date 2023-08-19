@@ -2,10 +2,10 @@
 description: Passport-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Passport-Dashboard
 feature: Reporting
-source-git-commit: 436e30c2a4138d780232d6ba9e64456d6277ac9b
+source-git-commit: 73f7d14f94b236b5e078a4c8ff7a1e81d13779ee
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 8%
+source-wordcount: '290'
+ht-degree: 12%
 
 ---
 
@@ -37,7 +37,15 @@ Fragen, die die Pinnwand beantwortet:
 <li>Sowohl das Start- als auch das Enddatum sind inklusive.</li>
 <br/><img src="assets/passport-dashboard-1.png" width="600"></td>
     <td rowspan="2">Übergangsdatum</td>
-    <td></td>
+    <td><li>Opportunity-ID</li>
+<li>Opportunity-Name</li>
+<li>Erstellungsdatum</li>
+<li>Geschlossenes Datum</li>
+<li>Ist geschlossen (J/N)</li>
+<li>Is Won (Y/N)</li>
+<li>Aktuelles Stadium</li>
+<li>Übertragung eingehend Datum</li>
+<li>Übertragung ausgehend Datum</li></td>
     <td rowspan="2"><li>Datum</li>
 <li>Kanal</li>
 <li>Unterkanal</li>
