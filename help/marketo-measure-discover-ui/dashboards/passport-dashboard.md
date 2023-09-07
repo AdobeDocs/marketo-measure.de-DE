@@ -4,10 +4,10 @@ title: Passport-Dashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 12%
+source-wordcount: '321'
+ht-degree: 1%
 
 ---
 
@@ -15,61 +15,47 @@ ht-degree: 12%
 
 Das Passport-Dashboard bietet Marketing-Experten eine dynamische Ansicht von Leads, Kontakten und Möglichkeiten, während sie innerhalb eines bestimmten Zeitraums verschiedene Phasen durchlaufen. Durch Filterung nach einem bestimmten Datum können Benutzer auch eine Momentaufnahme der Datensätze für diesen Tag abrufen.
 
-Fragen, die die Pinnwand beantwortet:
+>[!NOTE]
+>
+>Dieses Dashboard befindet sich derzeit in der Betaversion. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, sobald wir die optimale Funktionalität vollständig übernommen und sichergestellt haben.
+
+**Fragen, die die Pinnwand beantwortet:**
 
 * Wie viele Leads, Kontakte oder Möglichkeiten gab es an einem beliebigen Tag in jeder Phase ohne Terminalfenster?
 * Wie viele verschiedene Leads oder Kontakte sind während eines bestimmten Zeitraums durch die einzelnen Phasen der Transition fortgeschritten?
    * _Beispiel_: Wäre Lead A am 1.1.2023 in Phase 1 gewesen und bis zum 31.3.2023 auf Stufe 5 erweitert worden, würde die Passport-Analyse Q1 2023 Lead A in den Stufen 1 bis 5 zählen.
-* Wie viele einmalige Möglichkeiten während eines bestimmten Zeitraums durch die einzelnen Übergangsphasen geleitet wurden?
+* Wie viele einmalige Gelegenheiten haben während eines bestimmten Zeitraums durch die einzelnen Übergangsphasen hinweg gegeben?
 
-<table style="table-layout:auto"> 
-<tbody>
-<tr> 
-   <th>Komponente</th> 
-   <th>Beschreibung</th>
-   <th>Datumstyp</th>
-   <th>Durchsuchen von Feldern</th>
-   <th>Filter</th>
-  </tr>
-  <tr>
-    <td>Gelegenheiten</td>
-    <td><li>Jede Phase zeigt die Anzahl der Möglichkeiten für BVT-Merkblätter, die innerhalb eines bestimmten Zeitraums durch sie vergangen sind.</li>
-<ul style="padding-left: 30px;"><li>Wenn eine Gelegenheit innerhalb dieses Zeitraums mehrere Phasen durchläuft, werden sie in jeder Phase gezählt, in der sie bestanden hat.</li></ul>
-<li>Terminalphasen wie "Geschlossene Gewinne"und "Geschlossene Verluste"sind ausgeschlossen.</li>
-<li>Sowohl das Start- als auch das Enddatum sind inklusive.</li>
-<br/><img src="assets/passport-dashboard-1.png" width="600"></td>
-    <td rowspan="2">Übergangsdatum</td>
-    <td><li>Opportunity-ID</li>
-<li>Opportunity-Name</li>
-<li>Erstellungsdatum</li>
-<li>Geschlossenes Datum</li>
-<li>Ist geschlossen (J/N)</li>
-<li>Is Won (Y/N)</li>
-<li>Aktuelles Stadium</li>
-<li>Übertragung eingehend Datum</li>
-<li>Übertragung ausgehend Datum</li></td>
-    <td rowspan="2"><li>Datum</li>
-<li>Kanal</li>
-<li>Unterkanal</li>
-<li>Kampagne</li>
-<li>Segmente</li></td>
-  </tr>
-  <tr>
-    <td>Leads/Kontakte</td>
-    <td><li>Jede Phase zeigt die Anzahl der Leads oder Kontakte mit BTs an, die innerhalb eines bestimmten Zeitraums durch sie geleitet wurden.</li>
-<ul style="padding-left: 30px;"><li>Ob "Lead"oder "Kontakt"angezeigt werden soll, hängt von der in den Einstellungen &gt; Attributionseinstellungen &gt; Standard-Dashboard-Objekt festgelegten Voreinstellung ab.</li></ul>
-<li>Terminalphasen wie "Geschlossene Gewinne"und "Geschlossene Verluste"sind ausgeschlossen.</li>
-<li>Sowohl das Start- als auch das Enddatum sind inklusive.</li>
-<br/><img src="assets/passport-dashboard-2.png" width="600"></td>
-    <td><li>Lead-/Kontaktkennung</li>
-<li>Lead-/Kontakt-E-Mail</li>
-<li>Erstellungsdatum</li>
-<li>Aktuelles Stadium</li>
-<li>Übertragung eingehend Datum</li>
-<li>Übertragung ausgehend Datum</li></td>
-  </tr>
-</tbody>
-</table>
+## Dashboard-Komponenten {#dashboard-components}
+
+### Möglichkeiten in der Phase nach Staging-Namen {#opportunities-in-stage-by-stage-name}
+
+* Jede Phase zeigt die Anzahl der Möglichkeiten mit Touchpoints, die innerhalb eines bestimmten Zeitraums durch sie geleitet wurden.
+   * Wenn eine Gelegenheit innerhalb dieses Zeitraums mehrere Phasen durchläuft, wird sie in jeder Phase gezählt, in der sie vergeht.
+* Terminalphasen wie &quot;Geschlossene Gewinne&quot;und &quot;Geschlossene Verluste&quot;sind ausgeschlossen.
+* Sowohl das Start- als auch das Enddatum sind inklusive.
+
+![](assets/passport-dashboard-1.png)
+
+### Kontakte in der Phase nach Staging-Name {#contacts-in-stage-by-stage-name}
+
+* Jede Phase zeigt die Anzahl der Leads oder Kontakte mit Touchpoints, die innerhalb eines bestimmten Zeitraums durch sie geleitet wurden.
+   * Ob &quot;Lead&quot;oder &quot;Kontakt&quot;angezeigt werden soll, hängt von der in den Einstellungen > Attributionseinstellungen > Standard-Dashboard-Objekt festgelegten Voreinstellung ab.
+   * Wenn ein Lead oder Kontakt innerhalb dieses Zeitraums mehrere Phasen durchläuft, wird er in jeder Phase gezählt, in der er durchläuft.
+* Terminalphasen wie &quot;Geschlossene Gewinne&quot;und &quot;Geschlossene Verluste&quot;sind ausgeschlossen.
+* Sowohl das Start- als auch das Enddatum sind inklusive.
+
+![](assets/passport-dashboard-2.png)
+
+## Filterbereich {#filter-pane}
+
+Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
+
+* Datum (basierend auf dem Übergangsdatum)
+* Attributionsmodell
+* Kanal, Subkanal
+* Kampagne
+* Segmente
 
 >[!MORELIKETHIS]
 >

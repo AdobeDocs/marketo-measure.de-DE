@@ -4,10 +4,10 @@ title: ROI-Dashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 18%
+source-wordcount: '754'
+ht-degree: 2%
 
 ---
 
@@ -15,210 +15,133 @@ ht-degree: 18%
 
 Das ROI-Dashboard bietet Marketing-Experten einen detaillierten Überblick über die Investitionsrenditen über Kanäle, Unterkanäle und Kampagnen hinweg. Sie schlüsselt Kosten- und Umsatzmuster sorgfältig auf und zeigt gleichzeitig Metriken wie Kosten-pro-Interessent-, Deal- und Opportunities auf, um ein umfassendes Verständnis der Marketing-Attribution zu gewährleisten.
 
-Fragen, die die Pinnwand beantwortet:
+>[!NOTE]
+>
+>Dieses Dashboard befindet sich derzeit in der Betaversion. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, sobald wir die optimale Funktionalität vollständig übernommen und sichergestellt haben.
+
+**Fragen, die die Pinnwand beantwortet:**
 
 * Wie hoch waren die ROI-Werte für jeden Kanal, jeden Unterkanal und jede Kampagne?
 * Wie wurden die Kosten und Einnahmen auf die einzelnen Kanäle, Unterkanäle und Kampagnen verteilt?
 * Was waren die Kosten pro Lead, Kosten pro Deal und Kosten pro Opportunity?
 
-<table style="table-layout:auto"> 
-<tbody>
- <tr> 
-   <th>Komponente</th> 
-   <th>Beschreibung</th>
-   <th>Datumstyp</th>
-   <th>Durchsuchen von Feldern</th>
-   <th>Filter</th>
-  </tr>
-  <tr>
-    <td>Kostenkachel</td>
-    <td>Gesamtkosten</td>
-    <td>Datum der Kostenanrechnung</td>
-    <td><li>Kampagnen-ID</li>
-<li>Kampagnenname</li>
-<li>Kanal</li>
-<li>Unterkanal</li>
-<li>Datum</li>
-<li>Ausgaben</li></td>
-    <td rowspan="15"><li>Datum</li>
-<li>Attributionsmodell (Einstellung)</li>
-<li>Kanal</li>
-<li>Unterkanal</li>
-<li>Kampagne</li></td>
-  </tr>
-  <tr>
-    <td>Zugewiesene Umsatzkachel</td>
-    <td>Gesamter zugewiesener Umsatz</td>
-    <td>Abschlussdatum</td>
-    <td><li>Opportunity-ID</li>
-<li>Opportunity-Name</li>
-<li>Opportunity-Erstellungsdatum</li>
-<li>Opportunity Closed Date</li>
-<li>Ist geschlossen (J/N)</li>
-<li>Is Won (Y/N)</li>
-<li>Attributionsmodell</li>
-<li>Attributierter Umsatz</li>
-<li>Erzielter Umsatz</li></td>
-  </tr>
-  <tr>
-    <td>Einfache ROI-Kachel</td>
-    <td>Legacy-ROI: Umsatz dividiert durch Kosten in einem bestimmten Zeitraum. 
-    <li>Kosten: Kosten, die im gefilterten Datumszeitraum anfallen.</li>
-    <li>Umsatz: Umsatz aus "geschlossenen Gewinnen"-Chancen in diesem Zeitraum.</li></td>
-    <td>Abschlussdatum</td>
-    <td>n.z</td>
-  </tr>
-  <tr>
-    <td>Realisierte ROI-Kachel</td>
-    <td>Realized ROI: Stellt die greifbaren Ergebnisse von Touchpoints dar, die von Kampagnen innerhalb eines bestimmten Zeitraums generiert wurden.
-    <li>Kosten: Kosten, die im gefilterten Datumszeitraum anfallen.</li>
-    <li>Umsatz: Erzielter Umsatz aus allen "geschlossenen Gewinnen"-Angeboten, insbesondere jenen, die innerhalb des festgelegten Zeitrahmens von Touchpoints beeinflusst werden.</li>
-    <br/><img src="assets/roi-dashboard-1.png" width="600"></td>
-    <td>Datum der Kostenanrechnung</td>
-    <td>n.z</td>
-  </tr>
-  <tr>
-    <td>Neuer Lead-Bereich gesamt</td>
-    <td>Gesamtzahl neuer Leads (Gesamtanzahl), die innerhalb eines bestimmten Zeitraums generiert wurden, einschließlich sowohl berührter als auch unberührter Leads.</td>
-    <td>Erstellungsdatum</td>
-    <td rowspan="2">
-    <li>Lead-ID</li>
-    <li>Lead-E-Mail</li>
-    <li>LC-Datum</li></td>
-  </tr>
-  <tr>
-    <td>Kosten pro neuer Leadbereich</td>
-    <td>Gesamtzahl der neuen Leads (Gesamtanzahl) dividiert durch Kosten.</td>
-    <td>Erstellungsdatum</td>
-  </tr>
-  <tr>
-    <td>Kachel "Neue Möglichkeiten"gesamt</td>
-    <td>Gesamtzahl neuer Möglichkeiten (Gesamtanzahl), die innerhalb eines bestimmten Zeitraums generiert wurden, einschließlich sowohl berührter als auch unberührter Leads.</td>
-    <td>Erstellungsdatum</td>
-    <td rowspan="2">
-    <li>Opportunity-ID</li>
-    <li>Opportunity-Name</li>
-    <li>Opportunity-Erstellungsdatum</li>
-    <li>Opportunity Closed Date</li>
-    <li>Ist geschlossen (J/N)</li>
-    <li>Is Won (Y/N)</li>
-    <li>Aktuelles Stadium</li></td>
-  </tr>
-  <tr>
-    <td>Kachel "Kosten pro neuer Chance"</td>
-    <td>Gesamtzahl der neuen Möglichkeiten (Gesamtanzahl) dividiert durch Kosten.</td>
-    <td>Erstellungsdatum</td>
-  </tr>
-  <tr>
-    <td>Kachel "Angebote insgesamt"</td>
-    <td>Gesamtzahl der innerhalb eines bestimmten Zeitraums abgeschlossenen Angebote, einschließlich der Angebote ohne zugehörige Touchpoints.</td>
-    <td>Abschlussdatum</td>
-    <td><li>Opportunity-ID</li>
-<li>Opportunity-Name</li>
-<li>Opportunity-Erstellungsdatum</li>
-<li>Opportunity Closed Date</li>
-<li>Ist geschlossen (J/N)</li>
-<li>Is Won (Y/N)</li>
-<li>Aktuelles Stadium</li>
-<li>Währung</li>
-<li>Attributionsmodell</li>
-<li>Attributierter Umsatz</li>
-<li>Erzielter Umsatz</li></td>
-  </tr>
-  <tr>
-    <td>Kosten und Umsatz nach Kanaldiagramm</td>
-    <td>Balkendiagramm, das sowohl Kosten als auch Umsatz anzeigt und eine vergleichende Sicht auf deren Größenordnung in Bezug auf verschiedene Kanäle, Unterkanäle und Kampagnen bietet.
-    <br/><img src="assets/roi-dashboard-2.png" width="600"></td>
-    <td>Abschlussdatum</td>
-    <td>Kosten:
-<br/>
-<li>Kampagnen-ID</li>
-<li>Kampagnenname</li>
-<li>Kanal</li>
-<li>Unterkanal</li>
-<li>Datum der Kostenanrechnung</li>
-<li>Währung</li>
-<li>Ausgaben</li>
-<p>
-Umsatz:
-<br/>
-<li>Opportunity-ID</li>
-<li>Opportunity-Name</li>
-<li>Opportunity-Erstellungsdatum</li>
-<li>Opportunity Closed Date</li>
-<li>Ist geschlossen (J/N)</li>
-<li>Is Won (Y/N)</li>
-<li>Attributierter Umsatz</li>
-<li>Attributionsmodell</li>
-<li>Attributierter Umsatz</li>
-<li>Erzielter Umsatz</li></td>
-  </tr>
-  <tr>
-    <td>Realisierter und einfacher ROI im Zeitverlauf</td>
-    <td>Zeitreihenliniendiagramm, das den Vergleich zwischen realisiertem und einfachem ROI anzeigt und deren Fortschritt im Zeitverlauf verfolgt.
-    <br/><img src="assets/roi-dashboard-3.png" width="600"></td>
-    <td>Einfacher ROI: Kosten für Datum und Datum der Beendigung
-    <p>Realisierter ROI: Kosten für Datum und Touchpoint-Datum</td>
-    <td>n.z</td>
-  </tr>
-  <tr>
-    <td>Zeitverlaufsdiagramm</td>
-    <td>Gestapeltes Balkendiagramm mit vierteljährlichen/monatlichen Gesamtkosten, segmentiert nach einzelnen Kanälen für eine detaillierte Aufschlüsselung.
-    <br/><img src="assets/roi-dashboard-4.png" width="600"></td>
-    <td>Datum der Kostenanrechnung</td>
-    <td rowspan="2"><li>Kampagnen-ID</li>
-<li>Kampagnenname</li>
-<li>Kanal</li>
-<li>Unterkanal</li>
-<li>Datum der Kostenanrechnung</li>
-<li>Währung</li>
-<li>Ausgaben</li></td>
-  </tr>
-  <tr>
-    <td>Kosten nach Kanaldiagramm</td>
-    <td>Balkendiagramm mit nach Kanälen segmentierten Marketingausgaben.
-    <br/><img src="assets/roi-dashboard-5.png" width="600"></td>
-    <td>Datum der Kostenanrechnung</td>
-  </tr>
-  <tr>
-    <td>ROI-Zusammenfassungstabelle</td>
-    <td>Tabelle mit zurechenbaren Einnahmen, Kosten und ROI, segmentiert nach einzelnen Kanälen, für eine detaillierte Aufschlüsselung.
-<p>
-<b>Spalten:</b>
-<p>
-<li>Kanal/Subkanal/Kampagne</li>
-<li>Kosten</li>
-<li>Attributierter Umsatz</li>
-<li>Einfacher ROI</li>
-<li>Realisierter ROI</li>
-<li>Nicht realisierte Pipeline</li>
-<ul style="padding-left: 30px;"><li>Pipeline von Touchpoints (Open Opportunities), die Kampagnen in einem bestimmten Zeitraum zugeordnet sind</li></ul></td>
-    <td>Einfacher ROI: Kosten für Datum und Datum der Beendigung
-    <p>Realisierter ROI: Kosten für Datum und Touchpoint-Datum</td>
-    <td>n.z</td>
-  </tr>
-  <tr>
-    <td>Tabelle der Marketing-Ausgaben</td>
-    <td>Tabelle mit den Kosten, neuen Leads, Chancen und Angeboten, die nach einzelnen Kanälen segmentiert sind, für eine detaillierte Aufschlüsselung.
-<p>
-<b>Spalten:</b>
-<p>
-<li>Kanal/Subkanal/Kampagne</li>
-<li>Kosten</li>
-<li>Neue Leads</li>
-<li>Kosten pro neuem Lead</li>
-<li>Neue Chancen</li>
-<li>Kosten pro neuer Chance</li>
-<li>Geschlossene Angebote</li>
-<li>Kosten pro abgeschlossenem Geschäft</li></td>
-    <td><li>Kosten: Entstehungsdatum der Kosten</li>
-<li>Neue Leads: Erstellungsdatum</li>
-<li>Neue Möglichkeiten: Erstellungsdatum</li>
-<li>Geschlossene Angebote: Geschlossenes Datum</li></td>
-    <td>n.z</td>
-  </tr>
-</tbody>
-</table>
+## Dashboard-Komponenten {#dashboard-components}
+
+### KPI-Kacheln {#kpi-tiles}
+
+* **Kosten**: Gesamtkosten aus verbundenen Datenquellen und manuell hochgeladene Kosten.
+* **Zugewiesener Umsatz**: Der Gesamtumsatzbeitrag aus Chancen mit Touchpoints, der innerhalb des gefilterten Datumszeitraums geschlossen wurde, basierend auf dem ausgewählten Attributionsmodell.
+* **Realisierte zugewiesene Umsätze**: Der Gesamtumsatzbeitrag aus Chancen mit Touchpoints innerhalb des gefilterten Datumszeitraums, basierend auf dem ausgewählten Attributionsmodell, unabhängig vom Zeitpunkt ihrer Schließung.
+* **Gesamtzahl neuer Leads**: Gesamtzahl der neu generierten Leads, einschließlich berührter und unberührter Leads.
+* **Kosten pro neuem Lead**: Die durchschnittlichen Kosten pro neuer Lead, abgeleitet aus den Gesamtkosten dividiert durch die Gesamtzahl neuer Leads.
+* **Neue Möglichkeiten insgesamt**: Gesamtzahl der neu generierten Chancen, einschließlich sowohl berührter als auch unberührter Chancen.
+* **Kosten pro neuer Chance**: Die durchschnittlichen Kosten pro neuer Chance, abgeleitet aus den Gesamtkosten dividiert durch die Gesamtzahl der neuen Chancen.
+* **Angebote insgesamt**: Die Anzahl der &quot;geschlossenen Gewinnen&quot;-Chancen, einschließlich Chancen ohne Touchpoints.
+* **Einfacher ROI**: Zugewiesener Umsatz dividiert durch Kosten im gefilterten Datumszeitraum.
+* **Realisierter ROI**: Zugewiesener Umsatz dividiert durch Kosten im gefilterten Datumszeitraum.
+
+![](assets/roi-dashboard-1.png)
+
+### Kosten und Umsatz nach Kanaldiagramm {#cost-and-revenue-by-channel-graph}
+
+Balkendiagramm zur Darstellung von Kosten und Umsatz, das eine vergleichende Sicht auf die Größenordnung der Balken in Bezug auf verschiedene Kanäle, Unterkanäle und Kampagnen bietet.
+
+* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Subchannel und Campaign zu kategorisieren.
+* Bewegen Sie den Mauszeiger über die einzelnen Balken, um die einfachen und realisierten ROIs anzuzeigen.
+
+**Fragen zu den Grafikantworten:**
+
+* Wie hoch waren die ROI-Werte für jeden Kanal, jeden Unterkanal und jede Kampagne?
+* Gibt es Ausreißer-Kanäle oder Subkanäle mit ungewöhnlich hohen oder niedrigen Kosten im Verhältnis zum Umsatz?
+
+![](assets/roi-dashboard-2.png)
+
+### Realisierter und einfacher ROI im Zeitverlauf {#realized-vs-simple-roi-over-time}
+
+Zeitreihenliniendiagramm, das den Vergleich zwischen realisiertem und einfachem ROI anzeigt und deren Fortschritt im Zeitverlauf verfolgt.
+
+* Bewegen Sie den Mauszeiger über einen Abschnitt im Diagramm, um die einfachen und realisierten ROIs anzuzeigen.
+
+**Fragen zu den Grafikantworten:**
+
+* Wie unterscheidet sich der realisierte ROI von dem einfachen ROI über bestimmte Zeiträume?
+* Wie steht der Trend des realisierten ROI zu signifikanten Marketing-Ereignissen im selben Zeitraum?
+
+![](assets/roi-dashboard-3.png)
+
+### Zeitverlaufsdiagramm {#cost-over-time-graph}
+
+Gestapeltes Balkendiagramm mit Gesamtkosten, segmentiert nach verknüpften Kanälen für jeden Monat/Quartal/Jahr.
+
+* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
+* Bewegen Sie den Mauszeiger über ein Balkensegment oder den Abstand zwischen Balken, um detaillierte Informationen anzuzeigen.
+
+**Fragen zu den Grafikantworten:**
+
+* Wie vergleichen sich die Gesamtkosten aller Kanäle von einem Quartal/Monat zum nächsten?
+* Wie haben sich die Kosten für einen bestimmten Kanal im Laufe der Zeit entwickelt?
+
+![](assets/roi-dashboard-4.png)
+
+### Kosten nach Kanaldiagramm {#cost-by-channel-graph}
+
+Balkendiagramm mit den nach Kanal/Subkanal/Kampagne segmentierten Marketingausgaben.
+
+* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Kanal/Subkanal/Kampagne zu kategorisieren.
+
+**Fragen zu den Grafikantworten:**
+
+* Welche Unterkanäle oder Kampagnen innerhalb eines primären Kanals weisen die höchste Zuordnung auf?
+* Welche Marketing-Wege (Kanal, Unterkanal oder Kampagne) scheinen im Vergleich zu anderen unterfinanziert?
+
+![](assets/roi-dashboard-5.png)
+
+### ROI-Zusammenfassungstabelle {#roi-summary-table}
+
+Tabelle mit zurechenbaren Einnahmen, Kosten und ROI, segmentiert nach einzelnen Kanälen, für eine detaillierte Aufschlüsselung.
+
+* Klicken Sie auf das &quot;+&quot;-Symbol neben jedem Kanal, um die Aufschlüsselung nach Subkanal und Kampagne anzuzeigen.
+
+**Spalten:**
+
+* Kanal/Subkanal/Kampagne
+* Kosten
+* Attributierter Umsatz
+* Realisierte zugewiesene Umsätze
+* Einfacher ROI
+* Realisierter ROI
+* Nicht realisierter zugewiesener Pipeline-Umsatz: Pipeline-Umsatz in Verbindung mit Touchpoints (Open Opportunities), die innerhalb des gefilterten Datumszeitraums erstellt wurden.
+
+### Tabelle der Marketing-Ausgaben {#marketing-spend-table}
+
+Tabelle mit Kosten, neuen Leads, Chancen und Angeboten, die nach einzelnen Kanälen segmentiert sind, für eine detaillierte Aufschlüsselung.
+
+* Klicken Sie auf das &quot;+&quot;-Symbol neben jedem Kanal, um die Aufschlüsselung nach Subkanal und Kampagne anzuzeigen.
+
+**Spalten:**
+
+* Kanal/Subkanal/Kampagne
+* Kosten
+* Neue Leads
+* Kosten pro neuem Lead
+* Neue Chancen
+* Kosten pro neuer Chance
+* Abschlüsse
+* Kosten pro Abschluss
+
+## Filterbereich {#filter-pane}
+
+Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
+
+* Datum
+   * Basierend auf:
+      * Erstellungsdatum: News Leads, neue Chancen
+      * Anschaffungskosten Datum: Kosten
+      * Abschlussdatum: zugeordneter Umsatz (einfacher ROI), Geschäfte
+      * Touchpoint-Datum: Touchpoints aus realisiertem, zugeordneten Umsatz (realisierter ROI)
+* Attributionsmodell
+* Kanal, Subkanal
+* Kampagne
 
 >[!MORELIKETHIS]
 >
