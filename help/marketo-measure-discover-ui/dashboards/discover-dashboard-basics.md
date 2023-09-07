@@ -4,9 +4,9 @@ title: Dashboard-Grundlagen
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
+source-git-commit: db435a669ca9a24a0661191bef9e14a8f8c78eb6
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -30,23 +30,23 @@ Jedes Dashboard verfügt über eine Reihe von Filtern, die von den folgenden Ste
    <th>Beschreibung</th>
   </tr> 
   <tr> 
-   <td>Schaltfläche "Umschalten"filtern</td>
+   <td><b>Schaltfläche "Umschalten"filtern</b></td>
    <td>Schalten Sie den Filterbereich ein oder aus.
    <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Schaltfläche "Zurücksetzen"</td>
-   <td>Kehren Sie Filter zu den Standardeinstellungen zurück.
+   <td><b>Suchleiste</b></td>
+   <td>Verwenden Sie die Suche oben im Filterbereich, um nach einem bestimmten Filter zu suchen. Jeder Filter verfügt auch über eine eigene Suchleiste.
    <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Schaltfläche Anwenden</td>
-   <td>Klicken Sie auf , um Ihre Filteränderungen im Dashboard zu bestätigen und zu implementieren.
+   <td><b>Schaltfläche "Filter löschen"</b></td>
+   <td>Um einen Filter zu löschen, klicken Sie auf das Löschsymbol oben rechts in jedem Filter.
    <p><img src="assets/discover-dashboard-basics-3.png"></td>
   </tr>
   <tr> 
-   <td>Segmentschaltfläche</td>
-   <td>Klicken Sie in Dashboards mit Segmentfiltern unten im Filterbereich auf die Schaltfläche Segment , um zu Segmenten zu wechseln.
+   <td><b>Schaltfläche Anwenden</b></td>
+   <td>Klicken Sie auf , um Ihre Filteränderungen im Dashboard zu bestätigen und zu implementieren.
    <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
