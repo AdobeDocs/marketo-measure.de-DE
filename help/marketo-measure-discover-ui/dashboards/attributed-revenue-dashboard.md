@@ -4,70 +4,79 @@ title: Dashboard "Zugewiesener Umsatz"
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 14%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
 # Dashboard &quot;Zugewiesener Umsatz&quot; {#attributed-revenue-dashboard}
 
-Das Dashboard &quot;Zugewiesener Umsatz&quot;bietet eine fokussierte Sicht auf den Umsatz, der direkt mit Ihren Marketingbemühungen verbunden ist. Informieren Sie sich ausführlich darüber, wie Ihre Marketingstrategien bei der Abdichtung von Geschäften hilfreich waren.
+Das Dashboard &quot;Zugewiesener Umsatz&quot;bietet eine fokussierte Sicht auf den Umsatz, der direkt mit Ihren Marketingbemühungen verbunden ist. Erfahren Sie, wie Ihre Marketingstrategien bei der Abdichtung von Geschäften hilfreich waren.
 
-Fragen, die die Pinnwand beantwortet:
+>[!NOTE]
+>
+>Dieses Dashboard befindet sich derzeit in der Betaversion. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, sobald wir die optimale Funktionalität vollständig übernommen und sichergestellt haben.
 
-Welche Kanäle, Unterkanäle oder Kampagnen weisen den höchsten Umsatz auf?
-Wie hoch ist der Gesamtbetrag unseres zugeordneten Umsatzes und die Anzahl unserer zugewiesenen geschlossenen Geschäfte?
+**Fragen, die die Pinnwand beantwortet:**
 
-<table style="table-layout:auto"> 
-<tbody>
-  <tr> 
-   <th>Komponente</th> 
-   <th>Beschreibung</th>
-   <th>Durchsuchen von Feldern</th>
-   <th>Datumstyp</th>
-   <th>Filter</th>
-  </tr>
-  <tr>
-    <td>Zugewiesene Umsatzkachel</td>
-    <td>Gesamtzurechenbarer Umsatz aus "Geschlossenen Gewinnen"mit aufgezeichneten Touchpoints.</td>
-    <td rowspan="6"><li>Opportunity-ID</li>
-<li>Opportunity-Name</li>
-<li>Opportunity-Erstellungsdatum</li>
-<li>Opportunity Closed Date</li>
-<li>Ist geschlossen (J/N)</li>
-<li>Is Won (Y/N)</li>
-<li>Aktuelles Stadium</li>
-<li>Attributionsmodell</li>
-<li>Attributierter Umsatz</li>
-<li>Erzielter Umsatz</li></td>
-    <td rowspan="6">Abschlussdatum</td>
-    <td rowspan="6"><li>Datum</li>
-<li>Attributionsmodell</li>
-<li>Kanal</li>
-<li>Unterkanal</li>
-<li>Kampagne</li>
-<li>Segmente</li></td>
-  </tr>
-  <tr>
-    <td>Kachel "Zuweisbare Angebote"</td>
-    <td>Gesamtzahl der "geschlossenen Gewinnen"-Angebote aus zurechenbaren Chancen.</td>
-  </tr>
-  <tr>
-    <td>Zugewiesener Umsatz nach Kanal im Zeitverlauf</td>
-    <td>Gestapeltes Balkendiagramm mit dem Gesamtumsatz, segmentiert nach zugehörigen Kanälen, für jedes Quartal/jeden Monat.
-    <br/><img src="assets/attributed-revenue-dashboard-1.png" width="600"></td>
-  </tr>
-  <tr>
-    <td>Zugewiesene Umsatztabelle</td>
-    <td>Gesegmenter Gesamtumsatz, segmentiert nach Kanal, Subkanal und Kampagne, in Tabellen- und Baum-Formaten dargestellt.
-    <br/><img src="assets/attributed-revenue-dashboard-2.png" width="600">
-    <br/><img src="assets/attributed-revenue-dashboard-3.png" width="600"></td>
-  </tr>
-  </tr>
-</tbody>
-</table>
+* Welche Kanäle, Unterkanäle oder Kampagnen weisen den höchsten Umsatz auf?
+* Wie hoch ist der Gesamtbetrag unseres zugeordneten Umsatzes und die Anzahl unserer zugewiesenen geschlossenen Geschäfte?
+
+## Dashboard-Komponenten {#dashboard-components}
+
+### KPI-Kacheln {#kpi-tiles}
+
+* **Zugewiesener Umsatz**: Der Gesamtumsatzbeitrag aus Chancen mit Touchpoints, der innerhalb des gefilterten Datumszeitraums geschlossen wurde, basierend auf dem ausgewählten Attributionsmodell.
+* **Zugewiesene Angebote**: Die Anzahl der &quot;geschlossenen Gewinner&quot;-Chancen mit Touchpoints.
+
+### Zugewiesener Umsatz nach Kanal im Zeitdiagramm {#attributed-revenue-by-channel-over-time-chart}
+
+Gestapeltes Balkendiagramm mit dem nach Kanal segmentierten Gesamtumsatz für jeden Monat/Quartal/Jahr.
+
+* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
+* Bewegen Sie den Mauszeiger über ein Balkensegment oder den Abstand zwischen Balken, um detaillierte Informationen anzuzeigen.
+
+**Fragen zu den Grafikantworten:**
+
+* Welche Kanäle generierten den am häufigsten zugeordneten Umsatz pro Quartal?
+* Wie hoch war die Aufteilung des zugeordneten Umsatzes nach Kanal im letzten Monat?
+
+![](assets/attributed-revenue-dashboard-1.png)
+
+### Zugewiesene Umsatztabelle {#attributed-revenue-table}
+
+Gesegmenter Gesamtumsatz, segmentiert nach Kanal, Subkanal und Kampagne, in Tabellen- und Baum-Formaten dargestellt. Klicken Sie auf die Schaltfläche oben rechts, um zwischen Ansichten zu wechseln.
+
+**Fragen, die die Pinnwand beantwortet:**
+
+* Wie variiert die zugeschriebene Umsatzverteilung zwischen verschiedenen Unterkanälen innerhalb eines Kanals?
+* Welche Kampagnen unter einem bestimmten Unterkanal erzielen den am meisten zugeordneten Umsatz?
+
+**Tabellenansicht**
+
+* Die tabellarische Ansicht bietet klare und organisierte Einblicke in die Verteilung des zugeordneten Umsatzes. Benutzer können Leistungsmuster schnell erkennen und wirkungsvolle Marketing-Strategien bestimmen, indem sie Daten in Kanäle, Unterkanäle und Kampagnen kategorisieren.
+* Klicken Sie auf das &quot;+&quot;-Symbol neben jedem Kanal, um die Aufschlüsselung nach Subkanal und Kampagne anzuzeigen.
+
+![](assets/attributed-revenue-dashboard-2.png)
+
+**Baumansicht**
+
+* Die Baumansicht ermöglicht eine interaktivere und detailliertere Datenexploration, sodass Marketing-Experten Trends, Anomalien oder Leistungsmerkmale in ihren Marketing-Maßnahmen identifizieren können.
+* Klicken Sie auf einen Zweig, um tiefer in die nachfolgende Hierarchieebene zu gelangen.
+
+![](assets/attributed-revenue-dashboard-3.png)
+
+## Filterbereich {#filter-pane}
+
+Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
+
+* Datum (basierend auf dem geschlossenen Datum)
+* Attributionsmodell
+* Kanal, Subkanal
+* Kampagne
+* Segmente
 
 >[!MORELIKETHIS]
 >
