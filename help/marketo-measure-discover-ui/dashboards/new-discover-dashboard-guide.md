@@ -4,9 +4,9 @@ title: Neues Discover Dashboard-Handbuch
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
+source-git-commit: b75d9c7dae8886646d2df9613634c260d2d7b281
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1069'
 ht-degree: 9%
 
 ---
@@ -503,6 +503,4 @@ Neue Funktionen finden Sie im Abschnitt [Dashboard-Grundlagen](/help/marketo-mea
 
 ## Feedback {#feedback}
 
-Da wir uns ständig bemühen, Ihr Erlebnis zu verbessern, würden wir Ihr Feedback zu diesem neuesten Update sehr schätzen. Ihre Gedanken beeinflussen zukünftige Verfeinerungen direkt und stellen sicher, dass unsere Plattform immer auf Ihre Bedürfnisse abgestimmt ist.
-
-Geben Sie Anweisungen dazu, wie sie ihr Feedback teilen können (z. B. In-App-Feedback-Formular, E-Mail usw.)
+Da wir uns ständig bemühen, Ihr Erlebnis zu verbessern, würden wir Ihr Feedback zu diesem neuesten Update sehr schätzen. Ihre Gedanken beeinflussen zukünftige Verfeinerungen direkt und stellen sicher, dass unsere Plattform immer auf Ihre Bedürfnisse abgestimmt ist. Achten Sie auf ein Feedback-Formular in Marketo Measure.
