@@ -4,10 +4,10 @@ title: Dashboard "Umsatzübersicht"
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: 09748b8ba76a89b2d955c8384ae926bb995c2171
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 8%
+source-wordcount: '313'
+ht-degree: 0%
 
 ---
 
@@ -15,59 +15,54 @@ ht-degree: 8%
 
 Das Dashboard &quot;Umsatzübersicht&quot;bietet Einblicke in den Gesamtumsatz aus Ihrem CRM-System, wodurch die Rolle Ihrer Marketing-Strategien deutlich wird. Es bietet einen Überblick darüber, wie Marketing Ihren Gesamtumsatz beeinflusst und zum erfolgreichen Abschluss von Geschäften beiträgt.
 
-Fragen, die die Pinnwand beantwortet:
+>[!NOTE]
+>
+>Dieses Dashboard befindet sich derzeit in der Betaversion. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, sobald wir die optimale Funktionalität vollständig übernommen und sichergestellt haben.
 
-* Welcher Prozentsatz unseres Umsatzes ist auf unsere Marketing-Maßnahmen zurückzuführen?
-* Welchen prozentualen Anteil unserer &quot;Closed Won&quot;-Angebote haben wir durch unsere Marketingbemühungen beeinflusst?
+**Fragen, die die Pinnwand beantwortet:**
 
-<table style="table-layout:auto"> 
-<tbody>
-  <tr> 
-   <th>Komponente</th> 
-   <th>Beschreibung</th>
-   <th>Durchsuchen von Feldern</th>
-   <th>Datumstyp</th>
-   <th>Filter</th>
-  </tr>
-  <tr>
-    <td>Gesamtumsatz</td>
-    <td>Gesamtumsatz aus dem CRM einschließlich zurechenbarer Umsätze.</td>
-    <td rowspan="6"><li>Opportunity-ID</li>
-<li>Opportunity-Name</li>
-<li>Opportunity-Erstellungsdatum</li>
-<li>Opportunity Closed Date</li>
-<li>Ist geschlossen (J/N)</li>
-<li>Is Won (Y/N)</li>
-<li>Aktuelles Stadium</li>
-<li>Umsatz</li></td>
-    <td rowspan="6">Abschlussdatum</td>
-    <td rowspan="6">Datum</td>
-  </tr>
-  <tr>
-    <td>Kachel "Angebote insgesamt"</td>
-    <td>Gesamtzahl der Angebote, die im CRM als "Geschlossene Gewinne"gekennzeichnet wurden.</td>
-  </tr>
-  <tr>
-    <td>Zugewiesene Umsatzkachel</td>
-    <td>Gesamtzurechenbarer Umsatz aus "Geschlossenen Gewinnen"mit aufgezeichneten Touchpoints.</td>
-  </tr>
-  <tr>
-    <td>Kachel "Zuweisbare Angebote"</td>
-    <td>Gesamtzahl der "geschlossenen Gewinnen"-Angebote aus zurechenbaren Chancen.</td>
-  </tr>
-  <tr>
-    <td>Diagramm zum Umsatz und zu den zugewiesenen Umsätzen</td>
-    <td>Dieses nebeneinander liegende Balkendiagramm für Zeitreihen bietet einen umfassenden Überblick über Ihre Attributionsabdeckung, indem der Gesamtumsatz im Vergleich zum zugewiesenen Umsatz gegenübergestellt wird.
-    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
-  </tr>
-  <tr>
-    <td>Diagramm zur Attribution</td>
-    <td>Dieses Tortendiagramm bietet einen klaren visuellen Vergleich zwischen dem zugewiesenen Umsatz und dem nicht zugewiesenen Umsatz. Der Kuchen deckt den Gesamtumsatz ab.
-    <br/>
-    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
-  </tr>
-</tbody>
-</table>
+* Wie viel Prozent unseres Umsatzes ist auf unsere Marketingbemühungen zurückzuführen?
+* Welche % unserer &quot;Closed Won&quot;-Angebote wurden durch unsere Marketingbemühungen beeinflusst?
+
+## Dashboard-Komponenten {#dashboard-components}
+
+### KPI-Kacheln {#kpi-tiles}
+
+* Gesamtumsatz: Der Gesamtumsatz aus &quot;geschlossenen Gewinnen&quot;-Chancen, einschließlich Chancen ohne Touchpoints.
+* Angebote insgesamt: Die Anzahl der &quot;geschlossenen Gewinnen&quot;-Chancen, einschließlich Chancen ohne Touchpoints.
+* Zugewiesener Umsatz: Der Gesamtumsatz aus &quot;Geschlossenen Gewinnen&quot;Chancen mit Touchpoints.
+* Zugewiesene Angebote: Die Anzahl der &quot;geschlossenen Gewinner&quot;-Chancen mit Touchpoints.
+
+### Diagramm zum Umsatz und zu den zugewiesenen Umsätzen {#revenue-and-attributed-revenue-chart}
+
+Dieses nebeneinander liegende Balkendiagramm für Zeitreihen steht im Gegensatz zum Gesamtumsatz mit dem zugewiesenen Umsatz, wodurch Ihre Marketing-Auswirkungen auf den Gesamtumsatz klar visualisiert werden.
+
+* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Quartal und Jahr zu kategorisieren.
+* Bewegen Sie den Mauszeiger über einen Bereich des Balkendiagramms, um dessen detaillierte Informationen anzuzeigen.
+
+**Fragen zu den Grafikantworten:**
+
+* Wie viel Prozent unseres Umsatzes vom August 2022 können auf unsere Marketinginitiativen zurückgeführt werden?
+* Wie hoch ist der zugeordnete Umsatz im 3. Quartal des letzten Jahres im Vergleich zum 4. Quartal?
+
+![](assets/revenue-overview-dashboard-1.png)
+
+### Diagramm zur Attribution {#attribution-coverage-chart}
+
+Dieses Tortendiagramm visualisiert Ihre Attributionsabdeckung deutlich, indem es den Gesamtumsatz in zugewiesene und nicht zugewiesene Umsätze segmentiert und so den genauen Prozentsatz des Umsatzes ermittelt, der von Ihren Marketing-Maßnahmen beeinflusst wird.
+
+**Fragen zu den Grafikantworten:**
+
+* Wie hoch war der prozentuale Anteil des Umsatzes, der auf unsere Marketingbemühungen im letzten Jahr zurückgeführt wurde?
+
+![](assets/revenue-overview-dashboard-2.png)
+
+## Filterbereich {#filter-pane}
+
+Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
+
+* Attributionsmodell
+* Datum (basierend auf dem geschlossenen Datum)
 
 >[!MORELIKETHIS]
 >
