@@ -4,16 +4,20 @@ title: Dashboard-Grundlagen
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
 
 # Dashboard-Grundlagen {#discover-dashboard-basics}
 
-Dieser Artikel führt Sie durch die grundlegenden Funktionen der neu gestalteten Benutzeroberfläche, sodass Sie mühelos auf Ihre Daten zugreifen und sie interpretieren können. Lernen Sie die Dynamik des Filterbereichs kennen und lernen Sie die Komplexität unserer erweiterten Berichterstellungsfunktionen kennen, wie z. B. die Drillfunktionen, die Querfilterung und QuickInfos.
+Dieser Artikel führt Sie durch die grundlegenden Funktionen der neu gestalteten Benutzeroberfläche, sodass Sie mühelos auf Ihre Daten zugreifen und sie interpretieren können. Lernen Sie die Dynamik des Filterbereichs kennen und lernen Sie die Komplexität unserer erweiterten Berichterstellungsfunktionen kennen, wie z. B. Drillfunktionen, Querfilterung und QuickInfos.
+
+>[!NOTE]
+>
+>Dieses Dashboard befindet sich derzeit in der Betaversion. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, sobald wir die optimale Funktionalität vollständig übernommen und sichergestellt haben.
 
 ## Filterbereich {#filter-pane}
 
@@ -23,26 +27,36 @@ Jedes Dashboard verfügt über eine Reihe von Filtern, die von den folgenden Ste
  <tbody> 
   <tr> 
    <th>Name</th> 
-   <th>Symbol</th>
    <th>Beschreibung</th>
   </tr> 
   <tr> 
-   <td>Hamburger-Schaltfläche</td> 
-   <td><img src="assets/discover-dashboard-basics-1.png"></td>
-   <td>Schalten Sie den Filterbereich ein oder aus.</td>
+   <td>Schaltfläche "Umschalten"filtern</td>
+   <td>Schalten Sie den Filterbereich ein oder aus.
+   <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Zurücksetzen</td> 
-   <td><img src="assets/discover-dashboard-basics-2.png"></td>
-   <td>Kehren Sie Filter zu den Standardeinstellungen zurück.</td>
+   <td>Schaltfläche "Zurücksetzen"</td>
+   <td>Kehren Sie Filter zu den Standardeinstellungen zurück.
+   <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Visuelle Filter</td> 
-   <td><img src="assets/discover-dashboard-basics-3.png"></td>
-   <td>Bewegen Sie den Mauszeiger über die obere rechte Ecke einer Visualisierung und klicken Sie auf die Schaltfläche , um die aktiven Filter anzuzeigen.</td>
+   <td>Schaltfläche Anwenden</td>
+   <td>Klicken Sie auf , um Ihre Filteränderungen im Dashboard zu bestätigen und zu implementieren.
+   <p><img src="assets/discover-dashboard-basics-3.png"></td>
+  </tr>
+  <tr> 
+   <td>Segmentschaltfläche</td>
+   <td>Klicken Sie in Dashboards mit Segmentfiltern unten im Filterbereich auf die Schaltfläche Segment , um zu Segmenten zu wechseln.
+   <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
 </table>
+
+## Visuelle Filter {#filters-on-visual}
+
+Bewegen Sie den Mauszeiger über die obere rechte Ecke einer Visualisierung, um eine schreibgeschützte Liste der angewendeten Filter anzuzeigen.
+
+![](assets/discover-dashboard-basics-3b.png)
 
 ## Berichtsfunktionen {#report-capabilities}
 
@@ -70,21 +84,24 @@ Verwenden Sie das abspaltbare Symbol, um Ihrer aktuellen Ansicht eine zusätzlic
 
 ### Durchfahren {#drill-through}
 
-* Um die Daten hinter der Visualisierung zu untersuchen, klicken Sie mit der rechten Maustaste auf das visuelle Element und wählen Sie die Option &quot;Drillthrough&quot;.
+Um die Daten hinter der Visualisierung zu untersuchen, klicken Sie mit der rechten Maustaste auf das visuelle Element und wählen Sie die Option &quot;Drillthrough&quot;.
 
-![](assets/discover-dashboard-basics-9.png)
+![](assets/discover-dashboard-basics-9.gif)
 
-* Um die zugrunde liegenden Daten zu exportieren, bewegen Sie den Mauszeiger über die rechte obere Ecke der Durchlaufseite, klicken Sie auf die Schaltfläche &quot;Mehr Optionen&quot;und wählen Sie &quot;Daten exportieren&quot;.
+### Daten exportieren {#export-data}
 
-![](assets/discover-dashboard-basics-10.png)
+Um die zugrunde liegenden Daten aus einer Visualisierung zu exportieren, bewegen Sie den Mauszeiger über die obere rechte Ecke. Klicken Sie auf die Schaltfläche &quot;Mehr Optionen&quot;, wählen Sie &quot;Daten exportieren&quot;, wählen Sie Ihr bevorzugtes Format aus und klicken Sie dann auf &quot;Exportieren&quot;.
+![](assets/discover-dashboard-basics-10.gif)
 
-* Um eine bestimmte Visualisierung oder Kachel heranzoomen, halten Sie den Mauszeiger über die obere rechte Ecke und wählen Sie die Schaltfläche &quot;Fokus&quot;aus.
+### Fokusmodus {#focus-mode}
 
-![](assets/discover-dashboard-basics-11.png)
+Um eine bestimmte Visualisierung oder Kachel heranzoomen, halten Sie den Mauszeiger über die obere rechte Ecke und wählen Sie die Schaltfläche &quot;Fokus&quot;aus.
+
+![](assets/discover-dashboard-basics-11.gif)
 
 ### Cross-Filter {#cross-filtering}
 
-Standardmäßig werden bei Auswahl eines Werts oder einer Achsenbeschriftung in einer Visualisierung andere Visualisierungen auf der Berichtsseite gefiltert, sodass nur die relevanten gefilterten Daten angezeigt werden.
+Wenn Sie einen Wert oder eine Achsenbeschriftung in einer Visualisierung auswählen, werden andere Visualisierungen auf der Berichtseite gefiltert, sodass nur die relevanten gefilterten Daten angezeigt werden.
 
 ![](assets/discover-dashboard-basics-12.gif)
 
