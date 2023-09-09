@@ -4,7 +4,7 @@ title: Dashboard "Umsatzübersicht"
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -28,10 +28,10 @@ Das Dashboard &quot;Umsatzübersicht&quot;bietet Einblicke in den Gesamtumsatz a
 
 ### KPI-Kacheln {#kpi-tiles}
 
-* Gesamtumsatz: Der Gesamtumsatz aus &quot;geschlossenen Gewinnen&quot;-Chancen, einschließlich Chancen ohne Touchpoints.
-* Angebote insgesamt: Die Anzahl der &quot;geschlossenen Gewinnen&quot;-Chancen, einschließlich Chancen ohne Touchpoints.
-* Zugewiesener Umsatz: Der Gesamtumsatz aus &quot;Geschlossenen Gewinnen&quot;Chancen mit Touchpoints.
-* Zugewiesene Angebote: Die Anzahl der &quot;geschlossenen Gewinner&quot;-Chancen mit Touchpoints.
+* **Gesamtumsatz**: Der Gesamtumsatz aus &quot;geschlossenen Gewinnen&quot;-Chancen, einschließlich Chancen ohne Touchpoints.
+* **Angebote insgesamt**: Die Anzahl der &quot;geschlossenen Gewinnen&quot;-Chancen, einschließlich Chancen ohne Touchpoints.
+* **Zugewiesener Umsatz**: Der Gesamtumsatz aus &quot;Geschlossenen Gewinnen&quot;Chancen mit Touchpoints.
+* **Zugewiesene Angebote**: Die Anzahl der &quot;geschlossenen Gewinner&quot;-Chancen mit Touchpoints.
 
 ### Diagramm zum Umsatz und zu den zugewiesenen Umsätzen {#revenue-and-attributed-revenue-chart}
 

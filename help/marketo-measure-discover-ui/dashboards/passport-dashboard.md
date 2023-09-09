@@ -4,9 +4,9 @@ title: Passport-Dashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Das Passport-Dashboard bietet Marketing-Experten eine dynamische Ansicht von Lea
 
 ![](assets/passport-dashboard-1.png)
 
-### Kontakte in der Phase nach Staging-Name {#contacts-in-stage-by-stage-name}
+### Leads oder Kontakte in der Staging-Umgebung nach Staging-Name {#leads-or-contacts-in-stage-by-stage-name}
 
 * Jede Phase zeigt die Anzahl der Leads oder Kontakte mit Touchpoints, die innerhalb eines bestimmten Zeitraums durch sie geleitet wurden.
    * Ob &quot;Lead&quot;oder &quot;Kontakt&quot;angezeigt werden soll, hängt von der in den Einstellungen > Attributionseinstellungen > Standard-Dashboard-Objekt festgelegten Voreinstellung ab.
