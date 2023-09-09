@@ -4,9 +4,9 @@ title: Dashboard "Zugewiesener Umsatz"
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Das Dashboard &quot;Zugewiesener Umsatz&quot;bietet eine fokussierte Sicht auf d
 
 ### KPI-Kacheln {#kpi-tiles}
 
-* **Zugewiesener Umsatz**: Der Gesamtumsatzbeitrag aus Chancen mit Touchpoints, der innerhalb des gefilterten Datumszeitraums geschlossen wurde, basierend auf dem ausgewählten Attributionsmodell.
+* **Zugewiesener Umsatz**: Der Gesamtumsatzbeitrag aus Chancen mit Touchpoints, basierend auf dem ausgewählten Attributionsmodell.
 * **Zugewiesene Angebote**: Die Anzahl der &quot;geschlossenen Gewinner&quot;-Chancen mit Touchpoints.
 
 ### Zugewiesener Umsatz nach Kanal im Zeitdiagramm {#attributed-revenue-by-channel-over-time-chart}

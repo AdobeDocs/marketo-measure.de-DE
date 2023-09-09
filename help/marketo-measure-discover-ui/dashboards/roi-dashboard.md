@@ -4,9 +4,9 @@ title: ROI-Dashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '754'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Das ROI-Dashboard bietet Marketing-Experten einen detaillierten Überblick über
 ### KPI-Kacheln {#kpi-tiles}
 
 * **Kosten**: Gesamtkosten aus verbundenen Datenquellen und manuell hochgeladene Kosten.
-* **Zugewiesener Umsatz**: Der Gesamtumsatz aus &quot;Geschlossenen Gewinnen&quot;Chancen mit Touchpoints.
+* **Zugewiesener Umsatz**: Der Gesamtumsatzbeitrag aus Chancen mit Touchpoints, die innerhalb des gefilterten Datumszeitraums geschlossen wurden, basierend auf dem ausgewählten Attributionsmodell.
 * **Realisierte zugewiesene Umsätze**: Der Gesamtumsatzbeitrag aus Chancen mit Touchpoints innerhalb des gefilterten Datumszeitraums, basierend auf dem ausgewählten Attributionsmodell, unabhängig vom Zeitpunkt ihrer Schließung.
 * **Gesamtzahl neuer Leads**: Gesamtzahl der neu generierten Leads, einschließlich berührter und unberührter Leads.
 * **Kosten pro neuem Lead**: Die durchschnittlichen Kosten pro neuer Lead, abgeleitet aus den Gesamtkosten dividiert durch die Gesamtzahl neuer Leads.
