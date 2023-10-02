@@ -1,10 +1,8 @@
 ---
 description: ROI-Dashboard - [!DNL Marketo Measure] - Produkt
 title: ROI-Dashboard
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
+source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 2%
@@ -19,7 +17,7 @@ Das ROI-Dashboard bietet Marketing-Experten einen detaillierten Überblick über
 >
 >Dieses Dashboard befindet sich derzeit in der Betaversion. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, sobald wir die optimale Funktionalität vollständig übernommen und sichergestellt haben.
 
-**Fragen, die die Pinnwand beantwortet:**
+**Fragen, die die Pinnwand beantwortet**
 
 * Wie hoch waren die ROI-Werte für jeden Kanal, jeden Unterkanal und jede Kampagne?
 * Wie wurden die Kosten und Einnahmen auf die einzelnen Kanäle, Unterkanäle und Kampagnen verteilt?
@@ -49,7 +47,7 @@ Balkendiagramm zur Darstellung von Kosten und Umsatz, das eine vergleichende Sic
 * Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Subchannel und Campaign zu kategorisieren.
 * Bewegen Sie den Mauszeiger über die einzelnen Balken, um die einfachen und realisierten ROIs anzuzeigen.
 
-**Fragen zu den Grafikantworten:**
+**Fragen zu den Grafikantworten**
 
 * Wie hoch waren die ROI-Werte für jeden Kanal, jeden Unterkanal und jede Kampagne?
 * Gibt es Ausreißer-Kanäle oder Subkanäle mit ungewöhnlich hohen oder niedrigen Kosten im Verhältnis zum Umsatz?
@@ -62,7 +60,7 @@ Zeitreihenliniendiagramm, das den Vergleich zwischen realisiertem und einfachem 
 
 * Bewegen Sie den Mauszeiger über einen Abschnitt im Diagramm, um die einfachen und realisierten ROIs anzuzeigen.
 
-**Fragen zu den Grafikantworten:**
+**Fragen zu den Grafikantworten**
 
 * Wie unterscheidet sich der realisierte ROI von dem einfachen ROI über bestimmte Zeiträume?
 * Wie steht der Trend des realisierten ROI zu signifikanten Marketing-Ereignissen im selben Zeitraum?
@@ -76,7 +74,7 @@ Gestapeltes Balkendiagramm mit Gesamtkosten, segmentiert nach verknüpften Kanä
 * Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
 * Bewegen Sie den Mauszeiger über ein Balkensegment oder den Abstand zwischen Balken, um detaillierte Informationen anzuzeigen.
 
-**Fragen zu den Grafikantworten:**
+**Fragen zu den Grafikantworten**
 
 * Wie vergleichen sich die Gesamtkosten aller Kanäle von einem Quartal/Monat zum nächsten?
 * Wie haben sich die Kosten für einen bestimmten Kanal im Laufe der Zeit entwickelt?
@@ -89,7 +87,7 @@ Balkendiagramm mit den nach Kanal/Subkanal/Kampagne segmentierten Marketingausga
 
 * Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Kanal/Subkanal/Kampagne zu kategorisieren.
 
-**Fragen zu den Grafikantworten:**
+**Fragen zu den Grafikantworten**
 
 * Welche Unterkanäle oder Kampagnen innerhalb eines primären Kanals weisen die höchste Zuordnung auf?
 * Welche Marketing-Wege (Kanal, Unterkanal oder Kampagne) scheinen im Vergleich zu anderen unterfinanziert?
@@ -102,7 +100,7 @@ Tabelle mit zurechenbaren Einnahmen, Kosten und ROI, segmentiert nach einzelnen 
 
 * Klicken Sie auf das &quot;+&quot;-Symbol neben jedem Kanal, um die Aufschlüsselung nach Subkanal und Kampagne anzuzeigen.
 
-**Spalten:**
+**Spalten**
 
 * Kanal/Subkanal/Kampagne
 * Kosten
@@ -118,7 +116,7 @@ Tabelle mit Kosten, neuen Leads, Chancen und Angeboten, die nach einzelnen Kanä
 
 * Klicken Sie auf das &quot;+&quot;-Symbol neben jedem Kanal, um die Aufschlüsselung nach Subkanal und Kampagne anzuzeigen.
 
-**Spalten:**
+**Spalten**
 
 * Kanal/Subkanal/Kampagne
 * Kosten
