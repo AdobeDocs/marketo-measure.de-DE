@@ -1,12 +1,12 @@
 ---
 description: Aktuelle Versionshinweise – [!DNL Marketo Measure] – Produktdokumentation
 title: Aktuelle Versionshinweise
-exl-id: 64b8fce8-af7d-4991-b01e-3fcf375d14e7
+exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 22f8cedf401a28444026d7b63384ce3cbabe0305
+source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 44%
+ht-degree: 47%
 
 ---
 
@@ -24,10 +24,10 @@ Allen Benutzern von Marketo Measure werden unsere neu gestalteten In-App-Dashboa
 
 Die Einführung der neuen vordefinierten Dashboards in Schüben ist für den Beginn der ersten Oktober-Woche und deren Abschluss vor Jahresende geplant. Diese neuen Dashboards werden automatisch in Ihren Instanzen angezeigt, zusammen mit produktinternen Informationen und Links zur Dokumentation.
 
-* [Neues Discover Dashboard-Handbuch](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
-* [Dashboard-Grundlagen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
-* [Dashboard &quot;Umsatzübersicht&quot;](/help/marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md){target="_blank"}
-* [Dashboard &quot;Zugewiesener Umsatz&quot;](/help/marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md){target="_blank"}
+* [Neues Handbuch zum Entdecken von Dashboards](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
+* [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+* [Dashboard „Umsatzübersicht“](/help/marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md){target="_blank"}
+* [Dashboard „Zugewiesener Umsatz“](/help/marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md){target="_blank"}
 * [ROI-Dashboard](/help/marketo-measure-discover-ui/dashboards/roi-dashboard.md){target="_blank"}
 * [Passport-Dashboard](/help/marketo-measure-discover-ui/dashboards/passport-dashboard.md){target="_blank"}
 
