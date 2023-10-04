@@ -1,33 +1,33 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure] - Produktdokumentation'
-title: '[!DNL Marketo Measure] Ultimate - Übersicht'
+description: „[!DNL Marketo Measure] Ultimate – Übersicht – Produktdokumentation zu  [!DNL Marketo Measure] “
+title: „[!DNL Marketo Measure] Ultimate – Übersicht“
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
 source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# [!DNL Marketo Measure] Ultimate - Übersicht {#marketo-measure-ultimate-overview}
+# [!DNL Marketo Measure] Ultimate – Übersicht {#marketo-measure-ultimate-overview}
 
-[!DNL Marketo Measure] (ehemals Bizible) gibt Marketing-Experten Einblicke, welche Marketing-Maßnahmen bei der Steigerung des Umsatzes und der Maximierung der Kapitalrendite für ihr Unternehmen am effektivsten sind. [!DNL Marketo Measure] ist eine Marketing-Attributionslösung, die automatisch verfolgt und Berichte zur Kanalleistung erstellt, Einblicke in die Kanäle bietet, die die Kundeninteraktion am meisten fördern, und es Ihnen ermöglicht, Ihre Marketing-Ausgaben entsprechend zu optimieren.
+[!DNL Marketo Measure] (ehemals Bizible) gibt Marketing-Fachleuten Einblicke, welche Marketing-Maßnahmen zur Steigerung des Umsatzes und Maximierung des ROI für ihr Unternehmen am effektivsten sind. [!DNL Marketo Measure] ist eine Marketing-Attributionslösung, die die Kanalleistung automatisch verfolgt und in Berichten aufzeigt, welche Kanäle die Kundeninteraktion am meisten fördern. Sie bietet Ihnen außerdem die Möglichkeit, Ihre Marketing-Ausgaben entsprechend zu optimieren.
 
 [!DNL Marketo Measure Ultimate] enthält die zusätzlichen Funktionen:
 
-* Erfassen Sie Daten aus nahezu jeder Datenquelle sowie aus mehreren Datenquellen desselben Typs, um alle Ihre Daten für die Attribution einzubringen.
-   * Verwendung mit nahezu jedem CRM, nicht nur Salesforce und Dynamics.
-   * Verbinden mehrerer CRM-Instanzen und/oder MAP-Instanzen mit einer Instanz [!DNL Marketo Measure] -Instanz.
-   * Einbinden von Drittanbieter-Webinar-Registrierungs- und Beitragsdaten.
+* Es können Daten aus nahezu jeder Datenquelle sowie aus mehreren Datenquellen desselben Typs aufgenommen werden, um alle Ihre Daten für die Attribution einzubringen.
+   * Die Lösung kann mit nahezu jedem CRM verwendet werden, nicht nur Salesforce und Dynamics.
+   * Es können mehrere CRM-Instanzen und/oder MAP-Instanzen mit einer Instanz von [!DNL Marketo Measure] verbunden werden.
+   * Es können Drittanbieterdaten zu Webinar-Registrierung und -Teilnahme einbegracht werden.
 
-* Transformieren Sie Ihre Daten mit großer Flexibilität durch Feldzuordnungs- und -Transformationsfunktionen, um die richtige Datenform zu gewährleisten.
+* Ihre Daten können mit großer Flexibilität durch die Feldzuordnungs- und Transformationsfunktionen transformiert werden, um zu gewährleisten, dass die Daten die richtige Form haben.
 
-* Machen Sie Zuordnungseinblicke über das enthaltene Data Warehouse für externe Anwendungen verfügbar, um die Einblicke in Ihren Workflow zu integrieren. Detailliertere Ergebnisdaten und BI-basierte Berichte, einschließlich Snowflake-Data Warehouse, die Zugriff auf granulare Ergebnisdaten und die Möglichkeit bietet, jedes BI-Tool für Analysen und Berichte zu verwenden.
+* Zuordnungseinblicke können über das enthaltene Data Warehouse für externe Anwendungen verfügbar gemacht werden, um die Einblicke in Ihren Workflow zu integrieren. Detailliertere Ergebnisdaten und BI-basiertes Reporting, einschließlich Snowflake Data Warehouse, was Zugriff auf granulare Ergebnisdaten und die Möglichkeit bietet, jedes BI-Tool für Analysen und Berichte zu verwenden.
 
-* Integration mit RTCDP (B2B oder B2P Edition), die eine integrierte B2B-Zuordnungslösung für RTCDP-Kunden als RTCDP-Kunden bietet und [!DNL Marketo Measure] Beide arbeiten aus zentralen Adobe Experience Platform-Daten (AEP).
+* Integration mit RTCDP (B2B oder B2P Edition), die eine integrierte B2B-Zuordnungslösung für RTCDP-Kundinnen und -Kunden bietet, da RTCDP und [!DNL Marketo Measure] beide mit zentralisierten Daten von Adobe Experience Platform (AEP) arbeiten.
 
-**[!DNL Marketo Measure]Ebenen 1-3**
+**[!DNL Marketo Measure]– Ebenen 1–3**
 
 ![](assets/marketo-measure-ultimate-overview-1.png)
 
@@ -39,62 +39,62 @@ ht-degree: 2%
 
 **Importieren von B2B-Daten über AEP**
 
-Von Marketingexperten wird erwartet, dass sie ihre B2B-Daten (z. B. Konto, Chancen, Kontakt, Lead, Kampagne, Kampagnenmitglied, Aktivität) über AEP übermitteln. Die direkten CRM- und Marketo Engage-Verbindungen sind für Ultimate nicht mehr verfügbar. Marketingexperten werden weiterhin Ad Platform-Daten über direkte Verbindungen und Tracking-Webaktivitäten über [!DNL Marketo Measure] JavaScript.
+Von Marketing-Fachleuten wird erwartet, dass sie ihre B2B-Daten (z. B. Konto, Opportunity, Kontakt, Lead, Kampagne, Kampagnenmitglied, Aktivität) in AEP einbringen. Die direkten Verbindungen von CRM und Marketo Engage sind für Ultimate nicht mehr verfügbar. Marketing-Fachleute werden weiterhin Daten von Anzeigenplattformen über direkte Verbindungen einbringen und Web-Aktivitäten über [!DNL Marketo Measure]-JavaScript nachverfolgen.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
-**Standardwährungseinstellung**
+**Standardmäßige Währungseinstellung**
 
-[!DNL Marketo Measure Ultimate] setzt die Standardwährung auf USD, bis der Benutzer sie ändert. Durch das Festlegen einer neuen Standardwährung werden die Daten ohne erneute Verarbeitung aktualisiert. Solange die ausgewählte Währung als ISO-Zielcode vorhanden ist, müssen keine Konversionsraten übermittelt werden.
+[!DNL Marketo Measure Ultimate] setzt die Standardwährung auf USD, bis die Benutzerin bzw. der Benutzer sie ändert. Durch das Festlegen einer neuen Standardwährung werden die Daten ohne erneute Verarbeitung aktualisiert. Solange die ausgewählte Währung als ISO-Ziel-Code vorhanden ist, müssen keine Wechselkurse eingegeben werden.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
-**[!DNL Marketo Measure Ultimate]Sandbox**
+**[!DNL Marketo Measure Ultimate]-Sandbox**
 
-[!DNL Marketo Measure Ultimate] -Instanz muss einer AEP-Sandbox zugeordnet sein, bevor die [!DNL Marketo Measure] Zieldatenflüsse in AEP.
+Die Instanz von [!DNL Marketo Measure Ultimate] muss einer AEP-Sandbox zugeordnet sein, bevor die Zieldatenflüsse von [!DNL Marketo Measure] in AEP erstellt werden.
 
 >[!NOTE]
 >
->A [!DNL Marketo Measure Ultimate] Die Produktionsinstanz muss einer AEP-Produktions-Sandbox, einer [!DNL Marketo Measure Ultimate] -Entwicklerinstanz einer AEP-Entwickler-Sandbox zugeordnet werden.
+>Eine Produktionsinstanz von [!DNL Marketo Measure Ultimate] muss einer AEP-Produktions-Sandbox zugeordnet werden, und eine Entwicklerinstanz von [!DNL Marketo Measure Ultimate] muss einer AEP-Entwickler-Sandbox zugeordnet werden.
 
-Sobald die Auswahl der Sandbox-Zuordnung gespeichert wurde, können Sie sie derzeit nicht mehr in der Anwendung ändern. Um es zu ändern, wenden Sie sich bitte an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Sobald die Auswahl der Sandbox-Zuordnung gespeichert wurde, können Sie sie derzeit nicht mehr in der Anwendung ändern. Um sie zu ändern, wenden Sie sich bitte an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Datenquelle können nur in einen Datensatz übertragen werden. Jeder Datensatz kann nur in einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss zur Laufzeit.
+Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Datenquelle können in nur einen Datensatz eingehen. Jeder Datensatz kann in nur einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss in der Laufzeit.
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
-**Kartierung der Stadien**
+**Schrittzuordnung**
 
-Alle [!DNL Marketo Measure Ultimate] -Regeln sind datasetspezifisch. Die Regeln für die Staging-Zuordnung müssen für alle Datensätze und alle ausgewählten Phasen erstellt werden.
+Alle Regeln von [!DNL Marketo Measure Ultimate] sind datensatzspezifisch. Die Regeln für die Schrittzuordnung müssen für alle Datensätze und alle ausgewählten Schritte erstellt werden.
 
-Es gibt sechs integrierte Phasen:
+Es gibt sechs integrierte Schritte:
 
-* Lead-Verlust
-* Lead-Öffnung
-* Lead konvertiert
-* Verlust von Chancen
-* Opportunity Open
-* Opportunity Gewonnen
+* Lead – Verloren
+* Lead – Offen
+* Lead – Konvertiert
+* Opportunity – Verloren
+* Opportunity – Offen
+* Opportunity – Gewonnen
 
-Die Abschnitte &quot;Lost&quot;, &quot;Won&quot;und &quot;Converted&quot;erlauben keine benutzerdefinierten Bühnen. Quelldaten können jedoch den integrierten Phasen &quot;Lost/Won/Converted&quot;zugeordnet werden, indem die Zuordnungsregel aktualisiert wird.
+Die Abschnitte „Verloren“, „Gewonnen“ und „Konvertiert“ lassen keine benutzerdefinierten Schritte zu. Quelldaten können jedoch den integrierten Schritten Verloren/Gewonnen/Konvertiert zugeordnet werden, indem die Zuordnungsregel aktualisiert wird.
 
-Benutzerdefinierte Bühnen können nur für offene Abschnitte definiert werden.
-CRM-Bühnen werden nicht mehr automatisch in das Staging-Mapping einbezogen.
+Benutzerdefinierte Schritte können nur für die Abschnitte „Offen“ definiert werden.
+CRM-Schritte werden nicht mehr automatisch in die Schrittzuordnung einbezogen.
 
-Vier integrierte Phasen müssen Regeln zugeordnet werden (Zuordnungsregeln für die beiden anderen, Lead-Verlust und Lead-Konvertierung, sind optional):
+Es müssen vier integrierten Schritten Regeln zugeordnet werden (Zuordnungsregeln für die beiden anderen Schritte, „Lead – Verloren“ und „Lead – Offen“ sind optional):
 
-* Lead-Öffnung
-* Verlust von Chancen
-* Opportunity Open
-* Opportunity Gewonnen
+* Lead – Offen
+* Opportunity – Verloren
+* Opportunity – Offen
+* Opportunity – Gewonnen
 
-Regelbedingungen sind Datensatzspezifisch. Staging-Zuordnungsregeln müssen für alle Datensätze und alle Phasen erstellt werden, mit Ausnahme von &quot;Lead verloren&quot;und &quot;Lead konvertiert&quot;.
+Regelbedingungen sind datensatzspezifisch. Schrittzuordnungsregeln müssen für alle Datensätze und alle Schritte erstellt werden, mit Ausnahme von „Lead – Verloren“ und „Lead – Konvertiert“.
 
-Keine Auswahl für Trichter vs. Bomerang vs. benutzerdefiniertes Modell. Alle Bühnen werden für Trichter, Bumerang und benutzerdefiniertes Modell ausgewählt. Es gibt eine Grenze für die Anzahl der Phasen, die wir unterstützen: 15 benutzerdefinierte und 6 integrierte Phasen.
+Keine Auswahl für die Modelle „Trichter“, „Bumerang“ oder „Benutzerdefiniert“. Für die Modelle „Trichter“, „Bumerang“ oder „Benutzerdefiniert“ werden alle Schritte ausgewählt. Es gibt eine Obergrenze für die Anzahl der Schritte, die wir unterstützen: 15 benutzerdefinierte plus 6 integrierte Schritte.
 
 ![](assets/marketo-measure-ultimate-overview-6.png)
 
-Touchpoint-Regeln für Campaign-Mitglieder und Touchpoint-Regeln für Aktivitäten sind datasetspezifisch.
+Touchpoint-Regeln für Kampagnenmitglieder und Touchpoint-Regeln für Aktivitäten sind datensatzspezifisch.
 
 ![](assets/marketo-measure-ultimate-overview-7.png)
 
@@ -102,13 +102,13 @@ Touchpoint-Regeln für Campaign-Mitglieder und Touchpoint-Regeln für Aktivität
 
 Attributions-Touchpoints werden nicht in CRM geschrieben, da Ultimate über keine direkte CRM-Verbindung verfügt.
 
-[!DNL Marketo Measure] ABM ML-Dienste (Lead-to-Account Matching und Predictive Engagement Score) sind nicht verfügbar für [!DNL Marketo Measure Ultimate]. Sie finden diese Dienste kostenlos in der RT-CDP B2B Edition.
+ML-Dienste von [!DNL Marketo Measure] ABM (Lead-zu-Konto-Übereinstimmung und prädiktive Interaktionsbewertung) sind für [!DNL Marketo Measure Ultimate] nicht verfügbar. Sie finden diese Dienste kostenlos in der RT-CDP B2B Edition.
 
 ## Einschränkungen {#limitations}
 
-* Für Datenumwandlungsregeln stehen derzeit nur begrenzte Felder zur Verfügung.
-* Für bestehende Tier 1/2/3-Benutzer gibt es keinen Migrationspfad. Erfordert eine neue Implementierung, aber wir helfen Ihnen dabei, die getrackten Web-Aktivitätsdaten von der vorhandenen Instanz zu migrieren.
+* Für Datenumwandlungsregeln steht derzeit nur eine begrenzte Anzahl von Feldern zur Verfügung.
+* Für bestehende Benutzerinnen und Benutzer der Ebenen 1–3 gibt es keinen Migrationspfad. Es ist eine neue Implementierung erforderlich, aber wir helfen Ihnen dabei, die Daten von nachverfolgten Web-Aktivitäten aus der vorhandenen Instanz zu migrieren.
 
 >[!MORELIKETHIS]
 >
->[Marketo Measure Ultimate-Ziel](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
+>[Ziel von Marketo Measure Ultimate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=de){target="_blank"}
