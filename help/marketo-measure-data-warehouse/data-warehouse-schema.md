@@ -5,9 +5,9 @@ title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '22610'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Mit Data Warehouse können Sie beliebig viel verfolgen, Berichte zu Ihren Attrib
 >[!IMPORTANT]
 >
 >* Zeilen mit dem Wert _DELETED_DATE werden 7 Tage lang beibehalten und dann aus Snowflake entfernt.
->* Die in Snowflake verwendeten Zeitzonen entsprechen der koordinierten Weltzeit (UTC).
+>* Die Zeitzonen, die in Snowflake verwendet werden, entsprechen der koordinierten Weltzeit (UTC).
 
 >[!NOTE]
 >
@@ -4331,10 +4331,10 @@ Aus dem Quellsystem importierte Kontakte.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Diese Funktion wird nicht mehr unterstützt. Verwenden Sie diese Spalte nicht.</p>
+        <p>Diese Funktion ist veraltet. Bitte verwenden Sie diese Spalte nicht.</p>
       </td>
       <td>
-        <p>n.z</p>
+        <p>Nicht zutreffend</p>
       </td>
     </tr>
     <tr>
@@ -9557,10 +9557,10 @@ Aus dem Quellsystem importierte Leads.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Diese Funktion wird nicht mehr unterstützt. Verwenden Sie diese Spalte nicht.</p>
+        <p>Diese Funktion ist veraltet. Bitte verwenden Sie diese Spalte nicht.</p>
       </td>
       <td>
-        <p>n.z</p>
+        <p>Nicht zutreffend</p>
       </td>
     </tr>
     <tr>
@@ -10175,10 +10175,10 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Diese Funktion wird nicht mehr unterstützt. Verwenden Sie diese Spalte nicht.</p>
+        <p>Diese Funktion ist veraltet. Bitte verwenden Sie diese Spalte nicht.</p>
       </td>
       <td>
-        <p>n.z</p>
+        <p>Nicht zutreffend</p>
       </td>
     </tr>
     <tr>
@@ -15558,7 +15558,7 @@ order by 1
 
 >[!NOTE]
 >
->Diese Abfrage gibt den zugeordneten Umsatz für das w-Form-Modell zurück. Ändern Sie das Modell, indem Sie das Feld in der Berechnung des zugeordneten Umsatzes aktualisieren.
+>Diese Abfrage gibt den zugeordneten Umsatz für das W-Form-Modell zurück. Ändern Sie das Modell, indem Sie das Feld in der Berechnung des zugeordneten Umsatzes aktualisieren.
 
 ```
 select bat.id
