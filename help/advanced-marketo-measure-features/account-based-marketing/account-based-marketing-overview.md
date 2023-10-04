@@ -1,87 +1,87 @@
 ---
 unique-page-id: 18874730
-description: Kontobasierte Marketing-Übersicht - [!DNL Marketo Measure] - Produktdokumentation
+description: Kontobasiertes Marketing – Überblick – Produktdokumentation zu  [!DNL Marketo Measure]
 title: Kontobasiertes Marketing – Überblick
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
 source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Kontobasiertes Marketing – Überblick {#account-based-marketing-overview}
 
-Nachfolgend finden Sie eine kurze Übersicht über ABM, die Komponenten der [!DNL Marketo Measure] ABM-Funktion und wie Sie sie zu Ihrem [!DNL Salesforce] Seitenlayout. Weitere Informationen zu ABM finden Sie unter [diese Seite](https://www.marketo.com/account-based-marketing/){target="_blank"}.
+Nachfolgend finden Sie einen kurzen Überblick über ABM und die Komponenten der ABM-Funktion von [!DNL Marketo Measure], und Sie erfahren, wie Sie sie zu Ihrem Seiten-Layout von [!DNL Salesforce] hinzufügen. Weitere Informationen zu ABM finden Sie auf [dieser Seite](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
-So navigieren Sie direkt zu den Anweisungen zum Einrichten von ABM in Ihrem [!DNL Salesforce] Instanz, bitte [Klicken Sie hier](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
+Um direkt zu den Anweisungen zum Einrichten von ABM in Ihrer Instanz von [!DNL Salesforce] zu gelangen, [klicken Sie hier](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## Was ist ABM? {#what-is-abm}
 
-Account-basiertes Marketing, ABM, ist eine Marketingstrategie, bei der Sie Unternehmen und Konten als Ganzes ansprechen und verkaufen, nicht nur als Einzelpersonen. [!DNL Marketo Measure] hilft Marketing- und Verkaufsteams bei der Ausführung erfolgreicher ABM-Strategien mit der Zuordnungsfunktion &quot;Lead-zu-Konto&quot;und der Prädiktiven Interaktionsbewertung.
+Kontobasiertes Marketing (account-based marketing, ABM), ist eine Marketing-Strategie, bei der Sie Unternehmen und Konten als Ganzes ansprechen und an sie verkaufen, nicht nur an Einzelpersonen. [!DNL Marketo Measure] hilft Marketing- und Vertriebs-Teams bei der Ausführung erfolgreicher ABM-Strategien mit der Zuordnungsfunktion „Lead-zu-Konto“ und einer prädiktiven Interaktionsbewertung.
 
-Damit unser Account-basiertes Marketing-Modell in Ihr CRM-System integriert werden kann, [!DNL Marketo Measure] muss die folgenden Kriterien erfüllen:
+Damit unser ABM-Modell in Ihr CRM-System integriert werden kann, muss [!DNL Marketo Measure] die folgenden Kriterien erfüllen:
 
-* Ihr CRM-System benötigt mindestens 25 Konten, für die mindestens eine geschlossene Won-Chance besteht, sodass wir die Gemeinsamkeiten eines &quot;erfolgreichen&quot;Kontos/Ihrer Chancen für Ihr Unternehmen besser abschätzen können.
-* Auf der anderen Seite der Medaille benötigt Ihr CRM mindestens 25 Konten ohne Geschlossene Won-Chancen (alle Ops müssen entweder in der Kategorie &quot;Offen&quot;oder in der Kategorie &quot;Geschlossener Verlust&quot;aufgeführt sein - dies hilft uns, abzuschätzen, was in Ihrer Organisation zu einem Konto der niedrigeren Klasse führt.
+* Ihr CRM-System benötigt mindestens 25 Konten, für die mindestens eine geschlossene, gewonnene Opportunity vorhanden ist, damit wir die Gemeinsamkeiten von „erfolgreichen“ Konten/Opportunitys für Ihr Unternehmen einschätzen können.
+* Auf der anderen Seite muss Ihr CRM mindestens 25 Konten ohne geschlossene, gewonnene Opportunity haben (alle anderen Opportunitys müssen entweder in der Kategorie „Offen“ oder in der Kategorie „Geschlossen, verloren“ sein). Dies hilft uns einzuschätzen, was Konten von geringerer Qualität in Ihrem Unternehmen ausmacht.
 
 >[!NOTE]
 >
->Die oben genannten &quot;schlechten&quot;Konten müssen mindestens 12 Monate lang offen sein, ohne eine geschlossene Won-Opp zu akkumulieren. Das ist unsere Grundrichtlinie dafür, ob ein Opp für die Zwecke des Modells veraltet ist oder nicht.
+>Die oben genannten „schlechten“ Konten müssen mindestens 12 Monate lang offen sein, ohne dass sich eine geschlossene, gewonnene Opportunity angesammelt hat. Dies ist für die Zwecke des Modells unsere Grundrichtlinie dafür, ob eine Opportunity veraltet ist oder nicht.
 
-## Zuordnung von Lead zu Konto {#lead-to-account-mapping}
+## Lead-zu-Konto-Zuordnung {#lead-to-account-mapping}
 
-Die Zuordnung von Lead-zu-Konto ist ein wesentlicher Bestandteil eines effektiven ABM-Ansatzes. Mit der Zuordnung von Interessenten zu Konten werden Interessenten oder Leads in demselben Unternehmenskonto zusammengefasst, in dem sie mit Ihrer Marke interagieren. Auf diese Weise können Sie Einzelpersonen desselben Unternehmens auf konsistente Weise ansprechen und verkaufen. Es gibt keine zusätzlichen [!DNL Salesforce] -Konfiguration erforderlich, damit diese Funktion in Anspruch genommen werden kann. Die [!DNL Marketo Measure] Führen Sie zur Kontozuordnung von fünf verschiedenen Übereinstimmungsmethoden:
+Die Lead-zu-Konto-Zuordnung ist ein wesentlicher Bestandteil eines effektiven ABM-Ansatzes. Mit der Lead-zu-Konto-Zuordnung werden interessierte Personen (oder Leads), die mit Ihrer Marke interagieren, in demselben Unternehmenskonto zusammengefasst. Auf diese Weise können Sie Einzelpersonen desselben Unternehmens auf konsistente Weise ansprechen und an diese verkaufen. Es sind keine zusätzlichen Konfigurationen für [!DNL Salesforce] erforderlich, damit diese Funktion in Anspruch genommen werden kann. Dies sind die fünf Übereinstimmungsmethoden für die Lead-zu-Konto-Zuordnung von [!DNL Marketo Measure]:
 
-* Lead-Website zur Konto-Website
-* Lead-E-Mail-Domäne zur Konto-Website-Domäne
-* Lead-Firmenname zum Kontonamen
-* Lead-Unternehmen zur Konto-Website-Domäne
+* Lead-Website zu Konto-Website
+* Lead-E-Mail-Domain zu Konto-Website-Domain
+* Lead-Firmenname zu Kontoname
+* Lead-Firma zu Konto-Website-Domain
 * Abgleichen der Domain der E-Mail-Adresse des Leads mit dem Konto über die E-Mail-Adresse des Kontakts
 
 >[!NOTE]
 >
->Jeder Lead wird versucht, in der oben genannten bevorzugten Reihenfolge der Methoden mit einem Konto abgeglichen zu werden. Sobald eine Übereinstimmung gefunden wurde, wird die AccountId sofort auf dem Lead festgelegt und nicht mit einer anderen Methode abgeglichen. Wenn der Lead bereits über eine gültige AccountId verfügt, wird der Lead übersprungen.
+>Für jeden Lead wird in der oben genannten, bevorzugten Reihenfolge der Methoden versucht, ihn mit einem Konto abzugleichen. Sobald eine Übereinstimmung gefunden wurde, wird die Konto-ID sofort auf den Lead festgelegt und nicht mehr mit einer anderen Methode abgeglichen. Wenn der Lead bereits über eine gültige Konto-ID verfügt, wird der Lead übersprungen.
 
 ## Prädiktive Interaktionsbewertung {#predictive-engagement-score}
 
-Die [!DNL Marketo Measure] Die prädiktive Interaktionsbewertung (PES) ist ein dynamischer Wert, der veranschaulicht, wie stark ein bestimmtes Konto mit Ihren Marketing-Maßnahmen interagiert. Diese Punktzahl ist hilfreich, um Konten zielgerichtet zu segmentieren. Es ist ein wertvolles Instrument zur Identifizierung von Konten, um effektiver und effizienter zu agieren.
+Die prädiktive Interaktionsbewertung (Predictive Engagement Score, PES) von [!DNL Marketo Measure] ist ein dynamischer Wert, der veranschaulicht, wie stark ein bestimmtes Konto mit Ihren Marketing-Maßnahmen interagiert. Diese Bewertung ist hilfreich, um Konten zielgerichtet ansprechen zu können. Sie ist ein wertvolles Instrument zur Identifizierung von Konten, um effektiver und effizienter zu agieren.
 
-Es gibt viele Komponenten, die in den Algorithmus eingehen, der die SPE berechnet. Neuigkeit und Alter haben großen Einfluss auf die Bewertungsänderungen sowie auf die letzte Touchpoint-Aktivität oder Seitenansichten. Das Hinzufügen neuer Kontakte zu einem Konto wirkt sich auch auf PES aus. Nachfolgend finden Sie eine Liste einiger PES-Eingaben:
+Es gibt viele Komponenten, die in den Algorithmus eingehen, mit dem die PES berechnet wird. Neuigkeit und Alter haben großen Einfluss auf die Bewertungsänderungen, neben der letzten Touchpoint-Aktivität oder Seitenansichten. Das Hinzufügen neuer Kontakte zu einem Konto wirkt sich ebenfalls auf den PES aus. Nachfolgend finden Sie eine Liste einiger PES-Eingaben:
 
-* Gesamtzahl der Seitenansichten aus dem Konto
+* Gesamtzahl der Seitenansichten von dem Konto aus
 * Durchschnittliche Anzahl der Seitenansichten
-* Durchschnittliche Anzahl von Personen auf dem Konto
+* Durchschnittliche Anzahl der Personen in dem Konto
 * Alter der letzten Seitenansicht
 * Durchschnittliches Alter der Seitenansichten
-* Anzahl der Personen auf dem Konto
-* Spezifische wichtige Seiten und falls in den letzten 30/60/90 Tagen ein Besuch stattgefunden hat
-* Wenn das Konto einen geschlossenen verlorenen/geweckten Deal aufweist
-* Wie wahrscheinlich wird es geschlossen verloren/gewonnen
+* Anzahl der Personen in dem Konto
+* Spezifische, wichtige Seiten, und ob dort in den letzten 30/60/90 Tagen ein Besuch stattgefunden hat
+* Ob das Konto ein geschlossenes verlorenes/gewonnenes Geschäft aufweist
+* Wie wahrscheinlich ein Geschäft als verloren/gewonnen geschlossen wird
 
 >[!NOTE]
 >
->Sie können bei einigen Konten eine Bewertung von &quot;K/A&quot;oder &quot;-&quot;(das Bindestrich-Symbol) in Ihrer Prädiktiven Interaktionsbewertung feststellen.
+>Sie werden bei einigen Konten die Bewertung „Nicht zutreffend“ oder „-“ (Bindestrich) in Ihrer prädiktiven Interaktionsbewertung sehen.
 
-_Eine Klasse von &quot;K/A&quot; bedeutet einfach, dass wir noch nicht über ausreichende Daten zu diesem Konto verfügen, damit unser Modell eine wahre Klasse generieren kann - mit mehr Daten, wird schließlich eine Bewertung gegeben._
-_Der Wert &quot;-&quot; (das Bindezeichen) bedeutet, dass dieses Konto aufgrund von Zeitbeschränkungen, gelegentlich fehlenden Prozessen usw. noch nicht von unserem ABM-Prozess verarbeitet werden muss. Wenn Sie der Meinung sind, dass ein Konto eine Bewertung haben sollte, die auf ähnlichen Konten oder Zeitrahmen basiert, wenden Sie sich bitte an und lassen Sie [!DNL Marketo Measure] kennen._
+_Die Bewertung „Nicht zutreffend“ bedeutet einfach, dass wir noch nicht über ausreichende Daten zu diesem Konto verfügen, damit unser Modell eine echte Bewertung generieren kann – wenn mehr Daten verfügbar werden, wird schließlich eine Bewertung gegeben._
+_Die Bewertung „-“ (Bindestrich) bedeutet, dass dieses Konto aufgrund von Zeitbeschränkungen, gelegentlich fehlenden Prozessen usw. noch nicht von unserem ABM-Prozess verarbeitet wurde. Wenn Sie auf der Grundlage anderer ähnlicher Konten oder Zeiträume der Meinung sind, dass ein solches Konto eine Bewertung haben sollte, teilen Sie dies bitte [!DNL Marketo Measure] mit._
 
-## Einrichten des ABM-Seitenlayouts in [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
+## Einrichten des ABM-Seiten-Layouts in [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 
-Um mit der Verwendung des PES zu beginnen, müssen Sie einfach das Feld PES und die zugehörige Liste zu den entsprechenden Seitenlayouts in [!DNL Salesforce].
+Um mit der Verwendung der PES zu beginnen, müssen Sie einfach das Feld „PES“ und die zugehörige Liste zu den entsprechenden Seiten-Layouts in [!DNL Salesforce] hinzufügen.
 
-1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anpassen]** > **[!UICONTROL Konten]** > **[!UICONTROL Seitenlayout]**. Wählen Sie dann das Seitenlayout aus, das Sie bearbeiten möchten.
-1. Navigieren Sie zu [!UICONTROL Felder] und verschieben Sie das Feld &quot;Prädiktive Interaktionsbewertung&quot;in Ihren Abschnitt &quot;Kontoinformationen&quot;.
+1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Anpassen]** > **[!UICONTROL Konten]** > **[!UICONTROL Seiten-Layout]**. Wählen Sie dann das Seiten-Layout aus, das Sie bearbeiten möchten.
+1. Navigieren Sie zu [!UICONTROL Felder] und verschieben Sie das Feld „Prädiktive Interaktionsbewertung“ in den Abschnitt „Kontoinformationen“.
 
    ![](assets/1.png)
 
-1. Navigieren Sie schließlich zu [!UICONTROL Verwandte Listen] und verschieben Sie die &quot;Leads&quot;-Liste in Ihr Seitenlayout.
+1. Navigieren Sie schließlich zu [!UICONTROL Zugehörige Listen] und verschieben Sie die zugehörige Liste für die Leads in Ihr Seiten-Layout.
 
    ![](assets/2.png)
 
-1. Navigieren Sie dann zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anpassen]** > **[!UICONTROL Leads]** > **[!UICONTROL Seitenlayout]** und wählen Sie die entsprechenden Seitenlayouts aus, die Sie bearbeiten möchten.
-1. Klicks **[!UICONTROL Felder]** und fügen Sie [!UICONTROL Konto] -Feld, in dem Sie sehen, dass es auf der Seite passt.
+1. Navigieren Sie dann zu **[!UICONTROL Setup]** > **[!UICONTROL Anpassen]** > **[!UICONTROL Leads]** > **[!UICONTROL Seiten-Layout]** und wählen Sie die entsprechenden Seiten-Layouts aus, die Sie bearbeiten möchten.
+1. Klicken Sie auf **[!UICONTROL Felder]** und fügen Sie das Feld [!UICONTROL Konto] dort hinzu, wo Sie es auf der Seite haben möchten.
 
    ![](assets/3.png)
 
