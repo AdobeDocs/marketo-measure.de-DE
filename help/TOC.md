@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
 source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,12 +80,12 @@ ht-degree: 97%
       + [Best Practices für Offline-Kanäle](channel-tracking-and-setup/offline-channels/best-practices-for-offline-channels.md)
       + [Offline-Einrichtung benutzerdefinierter Kanäle](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [Synchronisierung benutzerspezifischer Kampagnen](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
-      + [Konfigurationen für mehrere Kampagnentypen](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
+      + [Konfigurationen für mehrere Kampagneneintragstypen](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
       + Veraltete Prozesse {#deprecated-processes}
          + [[!UICONTROL Kampagnen und Kampagnenmitglieder]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
          + [Kampagnensynchronisierungsdaten](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
          + [Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce] -Kampagnen](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-         + [Dynamics-Kampagnen und Marketinglisten](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
+         + [Dynamics-Kampagnen und Marketing-Listen](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
          + [Synchronisieren historischer Daten](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
          + [Synchronisieren von Offline-Kampagnen](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
 + API-Verbindungen {#api-connections}
@@ -150,13 +150,13 @@ ht-degree: 97%
       + [Häufig gestellte Fragen (mehrere Währungen)](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
 + [!DNL Marketo Measure] Benutzeroberfläche von Discover {#marketo-measure-discover-ui}
    + Dashboards {#dashboards}
-      + [Dashboard-Grundlagen](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
-      + [Neues Discover Dashboard-Handbuch](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [Dashboard &quot;Umsatzübersicht&quot;](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [Dashboard &quot;Zugewiesener Umsatz&quot;](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Entdecken Sie die Grundlagen von Dashboards](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [Neues Handbuch zum Entdecken von Dashboards](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
+      + [Dashboard „Umsatzübersicht“](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Dashboard „Zugewiesener Umsatz“](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [ROI-Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Passport-Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-   + Legacy-Dashboards {#legacy-dashboards}
+   + Veraltete Dashboards {#legacy-dashboards}
       + [Dokumentation zum Kohorten-Journey-Dashboard](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Dokumentation zum Passport-Dashboard](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
       + [Dokumentation zum Momentaufnahmen-Dashboard](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
