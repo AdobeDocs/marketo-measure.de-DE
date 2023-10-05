@@ -1,15 +1,16 @@
 ---
 description: Dashboard "Zugewiesener Umsatz"- [!DNL Marketo Measure] - Produkt
-title: Dashboard "Zugewiesener Umsatz"
+title: Dashboard „Zugewiesener Umsatz“
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 1%
+source-wordcount: '388'
+ht-degree: 3%
 
 ---
 
-# Dashboard &quot;Zugewiesener Umsatz&quot; {#attributed-revenue-dashboard}
+# Dashboard „Zugewiesener Umsatz“ {#attributed-revenue-dashboard}
 
 Das Dashboard &quot;Zugewiesener Umsatz&quot;bietet eine fokussierte Sicht auf den Umsatz, der direkt mit Ihren Marketingbemühungen verbunden ist. Erfahren Sie, wie Ihre Marketingstrategien bei der Abdichtung von Geschäften hilfreich waren.
 
@@ -78,4 +79,6 @@ Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
 >[!MORELIKETHIS]
 >
->[Dashboard-Grundlagen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Dashboard-Richtlinie zur Datenanzeige](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+

@@ -1,15 +1,16 @@
 ---
 description: Neues Discover Dashboard-Handbuch - [!DNL Marketo Measure] - Produkt
-title: Neues Discover Dashboard-Handbuch
+title: Neues Handbuch zum Entdecken von Dashboards
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 9%
+source-wordcount: '1076'
+ht-degree: 10%
 
 ---
 
-# Neues Discover Dashboard-Handbuch {#new-discover-dashboard-guide}
+# Neues Handbuch zum Entdecken von Dashboards {#new-discover-dashboard-guide}
 
 Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. Unser Hauptziel ist es, Ihnen ein optimiertes und intuitiveres Erlebnis zu bieten. Mit saubereren Visualisierungen und einfacherer Navigation behält diese Umgestaltung nicht nur die meisten vorhandenen Metriken bei, sondern bietet auch neue Einblicke. Tauchen Sie ein und entdecken Sie mehr Klarheit und Mehrwert.
 
@@ -502,3 +503,9 @@ Neue Funktionen finden Sie im Abschnitt [Dashboard-Grundlagen](/help/marketo-mea
 ## Feedback {#feedback}
 
 Da wir uns ständig bemühen, Ihr Erlebnis zu verbessern, würden wir Ihr Feedback zu diesem neuesten Update sehr schätzen. Ihre Gedanken beeinflussen zukünftige Verfeinerungen direkt und stellen sicher, dass unsere Plattform immer auf Ihre Bedürfnisse abgestimmt ist. Achten Sie auf ein Feedback-Formular in Marketo Measure.
+
+>[!MORELIKETHIS]
+>
+>* [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Dashboard-Richtlinie zur Datenanzeige](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+

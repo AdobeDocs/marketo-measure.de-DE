@@ -1,15 +1,16 @@
 ---
 description: Dashboard "Umsatzübersicht"- [!DNL Marketo Measure] - Produkt
-title: Dashboard "Umsatzübersicht"
+title: Dashboard „Umsatzübersicht“
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '315'
+ht-degree: 2%
 
 ---
 
-# Dashboard &quot;Umsatzübersicht&quot; {#revenue-overview-dashboard}
+# Dashboard „Umsatzübersicht“ {#revenue-overview-dashboard}
 
 Das Dashboard &quot;Umsatzübersicht&quot;bietet Einblicke in den Gesamtumsatz aus Ihrem CRM-System, wodurch die Rolle Ihrer Marketing-Strategien deutlich wird. Es bietet einen Überblick darüber, wie Marketing Ihren Gesamtumsatz beeinflusst und zum erfolgreichen Abschluss von Geschäften beiträgt.
 
@@ -59,9 +60,9 @@ Dieses Tortendiagramm visualisiert Ihre Attributionsabdeckung deutlich, indem es
 
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
-* Attributionsmodell
 * Datum (basierend auf dem geschlossenen Datum)
 
 >[!MORELIKETHIS]
 >
->[Dashboard-Grundlagen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Dashboard-Richtlinie zur Datenanzeige](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
