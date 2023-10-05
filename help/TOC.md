@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
-source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
-workflow-type: ht
-source-wordcount: '800'
-ht-degree: 100%
+source-git-commit: d65b850e3210ff35b0dedb8e20f4ec91fdfed965
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 99%
 
 ---
 
@@ -156,19 +156,20 @@ ht-degree: 100%
       + [Dashboard „Zugewiesener Umsatz“](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [ROI-Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Passport-Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Dashboard-Richtlinie zur Datenanzeige](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
    + Veraltete Dashboards {#legacy-dashboards}
       + [Dokumentation zum Kohorten-Journey-Dashboard](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Dokumentation zum Passport-Dashboard](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
       + [Dokumentation zum Momentaufnahmen-Dashboard](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
-   + Verwenden der Reporting-Plattform von [!DNL Marketo Measure] {#using-marketo-measures-reporting-platform}
-      + [Häufige Anwendungsfälle](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
-      + [Definitionen und Enzyklopädie](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
-      + [Aufschlüsse](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/drill-throughs.md)
-      + [Filter](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/filters.md)
-      + [FAQs](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/faq.md)
-      + [Interaktionsverlauf](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/engagement-path.md)
-      + [Marketing Ops  Kacheln](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
-      + [Übersichtskacheln](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/overview-board-tiles.md)
+      + Verwenden der Reporting-Plattform von [!DNL Marketo Measure] {#using-marketo-measures-reporting-platform}
+         + [Häufige Anwendungsfälle](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/common-use-cases.md)
+         + [Definitionen und Enzyklopädie](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
+         + [Aufschlüsse](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/drill-throughs.md)
+         + [Filter](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/filters.md)
+         + [FAQs](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/faq.md)
+         + [Interaktionsverlauf](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/engagement-path.md)
+         + [Marketing Ops  Kacheln](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
+         + [Übersichtskacheln](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/overview-board-tiles.md)
 + [!DNL Marketo Measure] und Adobe {#marketo-measure-and-adobe}
    + [[!DNL Marketo Measure]-Integrationen mit Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure]-Integrationen mit Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
