@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874672
-description: How [!DNL Marketo Measure] und [!DNL Salesforce] Interact - Marketo Measure - Produktdokumentation
+description: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren – Marketo Measure – Produktdokumentation
 title: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1719'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -15,27 +15,27 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in unserer Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
-Werfen wir einen allgemeinen Blick auf die Beziehung zwischen [!DNL Marketo Measure] und Salesforce.
+Schauen wir uns einmal die Beziehung zwischen [!DNL Marketo Measure] und Salesforce an.
 
 ## Salesforce und [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-Einmal die [!DNL Marketo Measure] -Konto erstellt und [!DNL Salesforce] angeschlossen ist, [!DNL Marketo Measure] beginnt, Marketingdaten in die CRM-Instanz zu übertragen, solange die [!DNL Marketo Measure] das verwaltete Paket installiert ist und die [!DNL Marketo Measure] Salesforce-Benutzer haben Bearbeitungsberechtigungen.
+Nachdem das [!DNL Marketo Measure]-Konto erstellt und [!DNL Salesforce] verknüpft ist, verschiebt [!DNL Marketo Measure] solange Marketing-Daten in die CRM-Instanz, wie das von [!DNL Marketo Measure] verwaltete Paket installiert ist und die Benutzerin bzw. der Benutzer von [!DNL Marketo Measure] Salesforce über eine Änderungsberechtigung verfügt. 
 
-Wenn Sie die [!DNL Marketo Measure] Salesforce-Paket, [!DNL Marketo Measure] schreibt keine Daten in Ihre Salesforce-Instanz.
+Bei der Installation des [!DNL Marketo Measure] Salesforce-Pakets schreibt [!DNL Marketo Measure] keine Daten in Ihre Salesforce-Instanz.
 
 ![](assets/1-3.png)
 
-Standardmäßig ist [!DNL Marketo Measure] exportiert jedes Mal 200 Datensätze pro API-Gutschrift, wenn ein Auftrag Daten an Ihr CRM sendet. Für die meisten Kunden bietet dies das optimale Gleichgewicht zwischen den API-Gutschriften, die von [!DNL Marketo Measure] und CPU-Ressourcenanforderungen im CRM-System. Bei Kunden mit komplexen CRM-Konfigurationen wie Workflows und Triggern kann eine kleinere Batch-Größe jedoch hilfreich sein, um die CRM-Leistung zu verbessern. Zu diesem Zweck [!DNL Marketo Measure] ermöglicht es Kunden, die Batch-Größe des CRM-Exports zu konfigurieren. Diese Einstellung ist auf der [!UICONTROL Einstellungen] > [!UICONTROL CRM] > [!UICONTROL Allgemein] in der [!DNL Marketo Measure] Webanwendung und Kunden können zwischen Batch-Größen von 200 (Standard), 100, 50 oder 25 wählen.
+Standardmäßig exportiert [!DNL Marketo Measure] jedes Mal 200 Einträge pro API-Credit, wenn ein Vorgang Daten an Ihr CRM sendet. Den meisten Kunden bietet dies das optimale Gleichgewicht zwischen den von [!DNL Marketo Measure] verbrauchten API-Credits und den Anforderungen der CPU-Ressourcen im CRM-System. Bei Kundinnen und Kunden mit komplexen CRM-Konfigurationen, wie Workflows und Triggern, kann eine kleinere Batch-Größe die CRM-Leistung möglicherweise jedoch verbessern. Dazu können Kundinnen und Kunden mit [!DNL Marketo Measure] die Batch-Größe für den CRM-Export konfigurieren. Diese Einstellung ist auf der Seite [!UICONTROL Einstellungen] > [!UICONTROL CRM] > [!UICONTROL Allgemein] in der [!DNL Marketo Measure] Web-Anwendung verfügbar. Dort können die Kundinnen und Kunden zwischen Batch-Größen von 200 (Standard), 100, 50 oder 25 wählen.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-Beachten Sie bei der Änderung dieser Einstellung, dass kleinere Batch-Größen mehr API-Gutschriften aus Ihrem CRM-System verbrauchen. Es wird empfohlen, die Batch-Größe nur zu reduzieren, wenn in Ihrem CRM-System CPU-Timeouts oder eine hohe CPU-Last auftreten.
+Beachten Sie bei der Änderung dieser Einstellung, dass kleinere Batch-Größen mehr API-Credits aus Ihrem CRM-System verbrauchen. Es wird empfohlen, die Batch-Größe nur zu reduzieren, wenn in Ihrem CRM-System CPU-Timeouts oder eine hohe CPU-Last auftreten.
 
 ## Salesforce Standard-Objekte und Zugriff {#salesforce-standard-objects-and-access}
 
-Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure] interagiert mit diesen Objekten sowie mit den benutzerdefinierten Feldern, die wir diesen Objekten hinzufügen, sobald die Verbindung hergestellt ist, und dem [!DNL Marketo Measure] installiert ist. Vorkonfiguriert, [!DNL Marketo Measure] wird NICHT in einen Standard geschrieben [!DNL Salesforce] Objektfelder.
+Mit dieser Aktion werden die [!DNL Salesforce]-Standardobjekte, mit denen [!DNL Marketo Measure] interagiert, sowie die benutzerdefinierten Felder aufgerufen, die wir zu diesen Objekten hinzufügen, sobald die Verknüpfung erfolgt und das [!DNL Marketo Measure]-Paket installiert ist. Das vorkonfigurierte [!DNL Marketo Measure] wird NICHT in ein Standard-Objektfeld in [!DNL Salesforce] geschrieben.
 
 **Lead**
 
@@ -126,13 +126,13 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_campaign_name_LC__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -150,7 +150,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -235,13 +235,13 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_campaign_name_LC__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -259,7 +259,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -338,13 +338,13 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_campaign_name_LC__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -362,7 +362,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -496,7 +496,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Enddatum</p></td> 
+   <td><p>CloseDate</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -514,7 +514,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__bizible_Opportunity_Amount_c</p></td> 
+   <td><p>bizible2__Bizible_Opportunity_Amount__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -654,7 +654,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ErstesAntwortdatum</p></td> 
+   <td><p>FirstRespondedDate</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -672,7 +672,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LeadId</p></td> 
+   <td><p>LeadID</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -684,25 +684,25 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>KampagnenID</p></td> 
+   <td><p>CampaignId</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__bizible_Touchpoint_Date_c</p></td> 
+   <td><p>bizible2__Bizible_Touchpoint_Date__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Date_c</p></td> 
+   <td><p>bizible2__Touchpoint_Status_Date__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Contact_c</p></td> 
+   <td><p>bizible2__Touchpoint_Status_Contact__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -714,7 +714,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Opportunity_c</p></td> 
+   <td><p>bizible2__Touchpoint_Status_Opportunity__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -724,7 +724,7 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
 
 >[!NOTE]
 >
->Um die Genauigkeit der Marketo Measure-Erfassung von Löschereignissen innerhalb Ihres Salesforce-Kontos sicherzustellen, sind replizierbare Berechtigungen für die folgenden Objekte erforderlich. Replizierbare Berechtigungen werden standardmäßig mit den folgenden Objekten bereitgestellt:
+>Um die Genauigkeit der Erfassung von Löschereignissen durch Marketo Measure innerhalb Ihres Salesforce-Kontos sicherzustellen, sind replizierbare Berechtigungen für die folgenden Objekte erforderlich. Replizierbare Berechtigungen werden standardmäßig mit den folgenden Objekten bereitgestellt:
 >
 >* Konto
 >* Kampagne
@@ -736,13 +736,13 @@ Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure]
 >* Aufgabe
 
 
-## [!DNL Marketo Measure] Benutzerdefinierte Objekte in [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
+## Benutzerdefinierte [!DNL Marketo Measure]-Objekte in [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-Neben der Erstellung benutzerdefinierter Felder für die Standardobjekte des SFDC wird bei jedem [!DNL Marketo Measure] installiert ist, werden mehrere benutzerdefinierte Objekte erstellt. Nachfolgend finden Sie eine Liste dieser benutzerdefinierten Objekte sowie eine Tabelle mit den Feldern, die [!DNL Marketo Measure] wird schreiben.
+Neben der Erstellung von benutzerdefinierten Feldern in den Standardobjekten von SFDC werden nach der Installation des [!DNL Marketo Measure]-Pakets eine Reihe von benutzerdefinierten Objekten erstellt. Es folgt eine Liste dieser benutzerdefinierten Objekte zusammen mit einer Tabelle, in der die Felder angegeben sind, in die [!DNL Marketo Measure] schreiben wird.
 
-**Käufer Touchpoint**
+**Buyer Touchpoint**
 
-Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes Objekt zur Kapselung der Marketing-Interaktionen für Kontakte, Leads und Fälle.
+Der Buyer Touchpoint ist ein benutzerdefiniertes [!DNL Marketo Measure]-Objekt, mit dem die Marketing-Interaktionen für Kontakte, Leads und Fälle eingeschlossen werden können.
 
 <table> 
  <tbody> 
@@ -753,7 +753,7 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__bizible_Person_c</p></td> 
+   <td><p>bizible2__Bizible_Person__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -771,13 +771,13 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_c</p></td> 
+   <td><p>bizible2__Marketing_Channel__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_Path_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_Path__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -795,31 +795,31 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_content_c</p></td> 
+   <td><p>bizible2__Ad_Content__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_group_id__c</p></td> 
+   <td><p>bizible2__Ad_Group_Id__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_group_name__c</p></td> 
+   <td><p>bizible2__Ad_Group_Name__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_campaign_id__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Id__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_campaign_name__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -855,7 +855,7 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__form_URL_Raw__c</p></td> 
+   <td><p>bizible2__Form_URL_Raw__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -873,19 +873,19 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__geo_city__c</p></td> 
+   <td><p>bizible2__Geo_City__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__geo_Country__c</p></td> 
+   <td><p>bizible2__Geo_Country__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__geo_Region__c</p></td> 
+   <td><p>bizible2__Geo_Region__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -909,7 +909,7 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__keyword_Text__c</p></td> 
+   <td><p>bizible2__Keyword_Text__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -921,43 +921,43 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__landing_page_Raw__c</p></td> 
+   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__medium_c</p></td> 
+   <td><p>bizible2__Medium__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__referrer_Page__c</p></td> 
+   <td><p>bizible2__Referrer_Page__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__referrer_Page_Raw__c</p></td> 
+   <td><p>bizible2__Referrer_Page_Raw__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__search_Phrase__c</p></td> 
+   <td><p>bizible2__Search_Phrase__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -969,25 +969,25 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__count_First_Touch__c</p></td> 
+   <td><p>bizible2__Count_First_Touch__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_Lead_Creation_Touch_c</p></td> 
+   <td><p>bizible2__Count_Lead_Creation_Touch__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_U_Shaped_c</p></td> 
+   <td><p>bizible2__Count_U_Shaped__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_destination_URL__c</p></td> 
+   <td><p>bizible2__Ad_Destination_URL__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -999,7 +999,7 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact_c</p></td> 
+   <td><p>bizible2__Contact__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1007,9 +1007,9 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] Benutzerdefiniertes O
  </tbody> 
 </table>
 
-**[!DNL Marketo Measure]Person**
+**[!DNL Marketo Measure]-Person**
 
-Die [!DNL Marketo Measure] Person ist eine [!DNL Marketo Measure] Benutzerdefiniertes Objekt, das sowohl mit dem Lead- als auch dem Kontakt- und dem Groß-/Kleinschreibung-Objekt verknüpft ist.
+Die [!DNL Marketo Measure]-Person ist ein benutzerdefiniertes [!DNL Marketo Measure]-Objekt, das sowohl mit dem Lead- sowie mit dem Kontakt- und dem Fall-Objekt verknüpft ist.
 
 <table> 
  <tbody> 
@@ -1038,7 +1038,7 @@ Die [!DNL Marketo Measure] Person ist eine [!DNL Marketo Measure] Benutzerdefini
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact_c</p></td> 
+   <td><p>bizible2__Contact__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -1046,11 +1046,11 @@ Die [!DNL Marketo Measure] Person ist eine [!DNL Marketo Measure] Benutzerdefini
  </tbody> 
 </table>
 
-## Touchpoint der Käuferzuordnung {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefiniertes Objekt, um den Einfluss des Marketing auf Chancen einzuschließen.
+Der Buyer Attribution Touchpoint ist ein benutzerdefiniertes [!DNL Marketo Measure]-Objekt, mit dem der Einfluss des Marketings auf Opportunitys eingeschlossen werden kann.
 
-**Touchpoint der Käuferzuordnung**
+**Buyer Attribution Touchpoint**
 
 <table> 
  <tbody> 
@@ -1073,13 +1073,13 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact_c</p></td> 
+   <td><p>bizible2__Contact__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Opportunity_c</p></td> 
+   <td><p>bizible2__Opportunity__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1091,13 +1091,13 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_c</p></td> 
+   <td><p>bizible2__Marketing_Channel__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_Path_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_Path__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1115,31 +1115,31 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_content_c</p></td> 
+   <td><p>bizible2__Ad_Content__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_group_id__c</p></td> 
+   <td><p>bizible2__Ad_Group_Id__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_group_name__c</p></td> 
+   <td><p>bizible2__Ad_Group_Name__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_campaign_id__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Id__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_campaign_name__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1175,7 +1175,7 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__form_URL_Raw__c</p></td> 
+   <td><p>bizible2__Form_URL_Raw__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1193,19 +1193,19 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__geo_city__c</p></td> 
+   <td><p>bizible2__Geo_City__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__geo_Country__c</p></td> 
+   <td><p>bizible2__Geo_Country__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__geo_Region__c</p></td> 
+   <td><p>bizible2__Geo_Region__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1229,7 +1229,7 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__keyword_Text__c</p></td> 
+   <td><p>bizible2__Keyword_Text__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1241,43 +1241,43 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__landing_page_Raw__c</p></td> 
+   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__medium_c</p></td> 
+   <td><p>bizible2__Medium__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__referrer_Page__c</p></td> 
+   <td><p>bizible2__Referrer_Page__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__referrer_Page_Raw__c</p></td> 
+   <td><p>bizible2__Referrer_Page_Raw__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__search_Phrase__c</p></td> 
+   <td><p>bizible2__Search_Phrase__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1289,25 +1289,25 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_First_Touch_c</p></td> 
+   <td><p>bizible2__Attribution_First_Touch__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_Lead_Conversion_Touch_c</p></td> 
+   <td><p>bizible2__Attribution_Lead_Conversion_Touch__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_U_Shaped_c</p></td> 
+   <td><p>bizible2__Attribution_U_Shaped__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_W_Shaped_c</p></td> 
+   <td><p>bizible2__Attribution_W_Shaped__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1325,43 +1325,43 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__count_First_Touch__c</p></td> 
+   <td><p>bizible2__Count_First_Touch__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_Lead_Creation_Touch_c</p></td> 
+   <td><p>bizible2__Count_Lead_Creation_Touch__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_U_Shaped_c</p></td> 
+   <td><p>bizible2__Count_U_Shaped__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_W_Shaped_c</p></td> 
+   <td><p>bizible2__Count_W_Shaped__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__count_Custom_Model__c</p></td> 
+   <td><p>bizible2__Count_Custom_Model__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__count_Custom_Model_2__c</p></td> 
+   <td><p>bizible2__Count_Custom_Model_2__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__ad_destination_URL__c</p></td> 
+   <td><p>bizible2__Ad_Destination_URL__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1373,19 +1373,19 @@ Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] Benutzerdefin
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_Lead_Creation_Touch_c</p></td> 
+   <td><p>bizible2__Revenue_Lead_Creation_Touch__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_U_Shaped_c</p></td> 
+   <td><p>bizible2__Revenue_U_Shaped__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_W_Shaped_c</p></td> 
+   <td><p>bizible2__Revenue_W_Shaped__c</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
