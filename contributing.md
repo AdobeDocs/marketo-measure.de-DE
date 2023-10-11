@@ -1,42 +1,45 @@
 ---
 source-git-commit: ea1e867b7169bac473d8e9754cbb97a0fdcb57fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
-# Beitragen
+# Mitwirken
 
-Danke, dass du dich entschieden hast, beizutragen!
+Vielen Dank, dass Sie an unserem Projekt mitwirken möchten.
 
-Im Folgenden finden Sie eine Reihe von Richtlinien, die bei der Mitarbeit an diesem Projekt befolgt werden müssen.
+Im Folgenden sind Leitlinien aufgeführt, die Mitwirkende an diesem Projekt befolgen müssen.
 
 ## Verhaltenskodex
 
-Dieses Projekt unterliegt dem [Verhaltenskodex](code-of-conduct.md) von Adobe. Durch Ihre Teilnahme wird von Ihnen erwartet, diesen Verhaltenskodex einzuhalten. Bitte melden Sie inakzeptables Verhalten an
-[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Dieses Projekt unterliegt dem [Verhaltenskodex](code-of-conduct.md) von Adobe. Durch Ihre Teilnahme wird von Ihnen erwartet, 
+diesen Verhaltenskodex einzuhalten. Bitte melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Haben Sie eine Frage?
+## Sie haben eine Frage?
 
-Melden Sie zunächst ein Problem. Die vorhandenen Projektverantwortlichen arbeiten daran, einen Konsens über die Projektausrichtung zu erzielen und Problemlösungen innerhalb von Problem-Threads zu erarbeiten (falls zutreffend).
+Beginnen Sie, indem Sie eine Anfrage einreichen. Die derzeitigen Committer dieses Projekts sind bestrebt, einen Konsens über die Projektausrichtung zu erzielen und Lösungen innerhalb von Anfragen-Threads zu erarbeiten (falls erforderlich).
 
 ## Lizenzvereinbarung für Mitwirkende
 
-Für alle Drittanbieter-Beiträge zu diesem Projekt muss eine unterzeichnete Lizenzvereinbarung für Mitwirkende (Contributor License Agreement, CLA) vorliegen. Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu veröffentlichen. [Unterschreiben Sie unsere CLA](https://opensource.adobe.com/cla.html). Sie müssen nur einmal eine Adobe-CLA übermitteln. Wenn Sie also bereits eine übermittelt haben, können Sie loslegen!
+Die Teilnahme Dritter an diesem Projekt setzt die Unterzeichnung einer Lizenzvereinbarung für Mitwirkende (Contributor License Agreement, CLA) voraus. Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge 
+im Rahmen des Projekts zu veröffentlichen. [Unterzeichnen Sie hier unser CLA](https://opensource.adobe.com/cla.html). Sie müssen das Adobe CLA nur einmal unterzeichnen und übermitteln. Wenn Sie eine solche also bereits übermittelt haben, sind Sie startklar.
 
-## Codeüberprüfungen
+## Code-Prüfungen
 
-Alle Einsendungen sollten in Form von Pull-Anfragen erfolgen und müssen von Projektverantwortlichen geprüft werden. Weitere Informationen zum Senden von Pull-Anfragen finden Sie in der [Dokumentation zu Pull Requests von GitHub](https://help.github.com/de/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
+Alle Einsendungen sollten in Form von Pull-Anfragen erfolgen und müssen von Projektverantwortlichen 
+geprüft werden. Weitere Informationen zum Senden von Pull-Anfragen finden Sie in 
+der [GitHub-Dokumentation zu Pull-Anfragen](https://help.github.com/de/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## Vom Mitarbeiter zum Verantwortlichen
+## Vom „Contributor“ zum „Committer“
 
-Wir lieben Beiträge von unserer Community! Wenn Sie einen Schritt weiter gehen möchten als Mitwirkende und Verantwortlicher mit vollem Schreibzugriff und Mitsprache im Projekt werden möchten, müssen Sie zum Projekt eingeladen werden. Die vorhandenen Verantwortlichen verwenden einen internen Nominierungsprozess, der einen verzögerten Konsens erreichen muss (Schweigen bedeutet Zustimmung), bevor Einladungen veröffentlicht werden. Wenn Sie glauben, dass Sie qualifiziert sind und stärker involviert sein möchten, können Sie sich gerne an bestehende Committer wenden, um darüber zu sprechen.
+Wir freuen uns über jeden Beitrag aus unserer Community. Wenn Sie einen Schritt weiter gehen möchten und vom Mitwirkenden (auch „Contributor“ genannt) zum Committer mit vollem Schreibzugriff und Mitsprache im Projekt werden möchten, müssen Sie zum Projekt eingeladen werden. Die bestehenden Committer wenden einen internen Nominierungsprozess nach einem „Lazy Consensus“-Modell (Schweigen bedeutet Zustimmung) an, bevor Einladungen ausgesprochen werden. Wenn Sie Ihrer Ansicht nach qualifiziert sind und stärker involviert sein möchten, können Sie sich diesbezüglich jederzeit an bestehende Committer wenden.
 
 ## Sicherheitsprobleme
 
-Sicherheitsprobleme sollten nicht über diesen Problem-Tracker gemeldet werden. Stattdessen [ein Problem bei unseren Sicherheitsexperten einreichen](https://helpx.adobe.com/security/alertus.html)
+Sicherheitsprobleme sollten nicht über den Anfragen-Tracker gemeldet werden. [Melden Sie ein solches Problem stattdessen unseren Sicherheitsexperten.](https://helpx.adobe.com/de/security/alertus.html)
