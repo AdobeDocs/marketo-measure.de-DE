@@ -1,80 +1,80 @@
 ---
 unique-page-id: 18874582
-description: "[!DNL Marketo Measure] Salesforce-Objekte - [!DNL Marketo Measure] - Produktdokumentation"
-title: "[!DNL Marketo Measure] Salesforce-Objekte"
+description: „[!DNL Marketo Measure]-Salesforce-Objekte - [!DNL Marketo Measure] - Produktdokumentation“
+title: „[!DNL Marketo Measure]-Salesforce-Objekte“
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# [!DNL Marketo Measure] Salesforce-Objekte {#marketo-measure-salesforce-objects}
+# [!DNL Marketo Measure]-Salesforce-Objekte {#marketo-measure-salesforce-objects}
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in unserer Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
-Wann [!DNL Marketo Measure] installiert in [!DNL Salesforce] (SFDC), mehrere benutzerdefinierte [!DNL Marketo Measure] Objekte werden hinzugefügt. In diesem Artikel werden mehrere dieser benutzerdefinierten [!DNL Marketo Measure] Objekte. Einige Objekte, die [!DNL Marketo Measure] fügt [!DNL Salesforce] sind:
+Bei der Installation von [!DNL Marketo Measure] in [!DNL Salesforce] (SFDC) werden mehrere benutzerdefinierte [!DNL Marketo Measure]-Objekte hinzugefügt. In diesem Artikel werden mehrere dieser benutzerdefinierten [!DNL Marketo Measure]-Objekte erläutert. Einige Objekte, die von [!DNL Marketo Measure] zu [!DNL Salesforce] hinzugefügt werden:
 
-* [Käufer Touchpoint](#touchpoint)
-* [Touchpoint der Käuferzuordnung](#attribution)
-* [[!DNL Marketo Measure] Person](#person)
-* [[!DNL Marketo Measure] A/B-Tests](#ab)
-* [[!DNL Marketo Measure] Ereignisse](#events)
+* [Buyer Touchpoint](#touchpoint)
+* [Buyer Attribution Touchpoint](#attribution)
+* [[!DNL Marketo Measure]-Person](#person)
+* [[!DNL Marketo Measure]-A/B-Tests](#ab)
+* [[!DNL Marketo Measure]-Ereignisse](#events)
 
-Touchpoints, die von den Dingen erfasst werden, die Sie verfolgen möchten, schreiben in die benutzerdefinierten Objekte, die durch die Installation der [!DNL Bizible Salesforce] Paket.
+Touchpoints, die von den Dingen erfasst werden, die Sie verfolgen möchten, schreiben in die benutzerdefinierten Objekte, die bei der Installation des [!DNL Bizible Salesforce]-Pakets erstellt wurden.
 
-[!DNL Marketo Measure] Objekte beziehen sich auf bestimmte Standardwerte [!DNL Salesforce] Objekte. Auf diese Weise können Sie Berichte zu [!DNL Marketo Measure] und [!DNL Salesforce] Objekte zusammen. Die nachstehende Tabelle zeigt, welche [!DNL Salesforce] Objekt [!DNL Marketo Measure] Objekt bezieht sich auf .
+[!DNL Marketo Measure]-Objekte beziehen sich auf bestimmte [!DNL Salesforce]-Standardobjekte. Auf diese Weise können Sie gemeinsame Berichte zu [!DNL Marketo Measure]- und [!DNL Salesforce]-Objekten erstellen. Folgende Tabelle zeigt, auf welches [!DNL Salesforce]-Objekt sich das [!DNL Marketo Measure]-Objekt bezieht.
 
 ![](assets/1-1.png)
 
-## Käufer Touchpoint {#buyer-touchpoint}
+## Buyer Touchpoint {#buyer-touchpoint}
 
-Die [!UICONTROL Käufer Touchpoint] (BT) Object erzählt die Marketing-Geschichte einer Person. Es enthält alle Daten zu den Marketing-Touchpoints, die von Leads und Kontakten generiert wurden. Der BT zeigt Ihnen Informationen an, wie z. B., aus welchem Marketingkanal der Touchpoint stammte oder welche Ad Campaign diesen speziellen Lead/Kontakt zu Ihrer Website brachte.
+Das [!UICONTROL Buyer Touchpoint](BT)-Objekt erzählt die Marketing-Geschichte einer Person. Es enthält alle Daten zu den von Leads und Kontakten generierten Marketing-Touchpoints. Der BT zeigt Ihnen Informationen an, wie z. B., aus welchem Marketing-Kanal der Touchpoint stammt oder über welche Anzeigenkampagnen dieser spezielle Lead/Kontakt zu Ihrer Website gelangt ist.
 
-Das BT-Objekt wird auf den Seiten &quot;Leads&quot;und &quot;Kontakte&quot;als **Verwandte Liste** (siehe Abbildung unten).
+Das BT-Objekt wird auf den Seiten „Leads“ und „Kontakte“ als **zugehörige Liste** angezeigt (siehe Abbildung unten).
 
 ![](assets/2-1.png)
 
-Die Liste &quot;BT Related&quot;zeigt alle Touchpoints an, die zum Lead oder Kontakt gehören. In der Liste sind benutzerdefinierte [!DNL Marketo Measure] Felder, die weitere Details zu den einzelnen Touchpoints bereitstellen. Wenn Sie auf die Touchpoint-ID des Käufers klicken, gelangen Sie zur Seite &quot;Touchpoint-Detail des Käufers&quot;, auf der Sie weitere Details zum Touchpoint erhalten, wie z. B. die erste Webseite, die der Lead/Kontakt während der Websitzung besucht hat (**Landingpage**).
+Die BT-bezogene Liste zeigt alle Touchpoints an, die zu dem Lead oder Kontakt gehören. Die Liste enthält benutzerdefinierte [!DNL Marketo Measure]-Felder mit weiteren Details zu den einzelnen Touchpoints. Wenn Sie auf die Buyer Touchpoint-ID klicken, gelangen Sie zur Seite „Buyer Touchpoint-Details“, auf der Sie weitere Details zum Touchpoint erhalten, wie z. B. die erste Web-Seite, die der Lead/Kontakt während der Web-Sitzung besucht hat (**Landingpage**).
 
-## Touchpoint der Käuferzuordnung {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-Die [!UICONTROL Touchpoint der Käuferzuordnung] Object erzählt die Geschichte der Marketing-Interaktionen Ihrer Kontakte im Zusammenhang mit einer Gelegenheit. Sie zeigt die *Attribution* Daten zu den Marketing-Touchpoints. Mit diesem Objekt können Sie sehen, wie viel Umsatzgutschrift jedem Marketing-Touchpoint zugeordnet wird. Der Typ des von Ihnen verwendeten Attributionsmodells bestimmt den Prozentsatz des Umsatzes, der Touchpoints zugeordnet wird.
+Das [!UICONTROL Buyer Attribution Touchpoint]-Objekt liefert Informationen zu den Marketing-Interaktionen Ihrer Kontakte im Zusammenhang mit einer Opportunity. Es zeigt die *Attributions*-Daten zu den Marketing-Touchpoints an. Mit diesem Objekt können Sie erkennen, wie viel Umsatz-Credits jedem Marketing-Touchpoint zugeordnet sind. Der Typ des von Ihnen verwendeten Attributionsmodells bestimmt den Prozentsatz des den Touchpoints zugeordneten Umsatzes.
 
-Touchpoints der Käuferzuordnung (BAT) werden erst erstellt, nachdem eine Chance erstellt wurde, die sich auf Kontakte bezieht, die über Touchpoint-Daten (Buyer Touchpoint, BT) verfügen. BVT werden nicht ohne Gelegenheit erstellt. Sobald die Option erstellt wurde, verwendet das BAT-Objekt die [!DNL Salesforce] *Betrag* -Feld auf der Gelegenheit, um zu verstehen, wie viel Umsatz den Touchpoints zugeordnet werden soll.
+Buyer Attribution Touchpoints (BAT) werden erst erstellt, nachdem eine Gelegenheit für Kontakte erstellt wurde, die über Buyer Touchpoint(BT)-Daten verfügen. BATs werden nicht ohne eine Opportunity erstellt. Sobald die Opportunity erstellt wurde, verwendet das BAT-Objekt das [!DNL Salesforce]-Feld *Betrag* für die Opportunity, um zu ermitteln, wie viel Umsatz den Touchpoints zugeordnet werden soll.
 
-A **Workflow** muss erstellt werden, wenn Sie eine [Feld für benutzerspezifischen Betrag](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) , um den Umsatz für das Opportunity-Objekt anzuzeigen. [!DNL Marketo Measure] kann die in benutzerdefinierten Feldern des Typs &quot;Betrag&quot;angezeigten Informationen nicht lesen und ist daher nicht in der Lage, Umsatzzuordnungsdaten für die Touchpoints zu füllen. Dieser Workflow verwendet **[!DNL Marketo Measure]Opportunity Amount** Feld, eines der [!DNL Marketo Measure] benutzerdefinierte Felder, um den Umsatzwert aus dem benutzerdefinierten Feld &quot;Betrag&quot;dem Feld &quot;Opportunity Amount&quot;zuzuordnen.
+Es muss ein **Workflow** erstellt werden, wenn Sie ein [benutzerdefiniertes Betragsfeld](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) nutzen, um den Umsatz für das Opportunity-Objekt anzuzeigen. [!DNL Marketo Measure] kann die in benutzerdefinierten Feldern des Typs „Betrag“ angezeigten Informationen nicht lesen und Umsatzzuordnungsdaten nicht für die Touchpoints eingeben. Dieser Workflow verwendet das **[!DNL Marketo Measure]-Feld „Anzahl Opportunitys“**, eines der benutzerdefinierten [!DNL Marketo Measure]-Felder, um den Umsatzwert aus dem benutzerdefinierten Feld „Betrag“ dem Feld „Anzahl Opportunitys“ zuzuordnen.
 
 ![](assets/3-1.png)
 
-Das BAT-Objekt wird auf der [!UICONTROL Chancen], [!UICONTROL Kontakt], und [!UICONTROL Konto] Objekt als zugehörige Liste. Diese Liste zeigt alle Touchpoints mit den Attributionsdaten an, die zu einer Gelegenheit gehören. Durch Klicken auf die Touchpoint-ID der Käuferzuordnung gelangen Sie zur Seite &quot;Touchpoint-Detail der Käuferzuordnung&quot;. Hier können Sie spezifischere Attributionsdaten und Informationen darüber sehen, woher der Touchpoint stammt (ähnlich dem vom Käufer-Touchpoint-Objekt bereitgestellten Objekt).
+Das BAT-Objekt wird in den Objekten [!UICONTROL Opportunity], [!UICONTROL Kontakt] und [!UICONTROL Konto] als zugehörige Liste angezeigt. Diese Liste zeigt alle Touchpoints mit den Attributionsdaten an, die zu einer Opportunity gehören. Durch Klicken auf die Buyer Attribution Touchpoint-ID gelangen Sie zur Seite „Buyer Attribution Touchpoint-Details“. Hier werden spezifischere Attributionsdaten und Informationen darüber angezeigt, woher der Touchpoint stammt (ähnlich wie das vom Buyer Touchpoint-Objekt bereitgestellte Objekt).
 
-## [!DNL Marketo Measure] Person {#marketo-measure-person}
+## [!DNL Marketo Measure]-Person {#marketo-measure-person}
 
-Die [!DNL Marketo Measure] Personen-Objekt verknüpft die Lead- und Kontaktobjekte miteinander. Standardmäßig bietet Salesforce nicht die Möglichkeit, Berichte mit dem Lead- und Kontaktobjekt im selben Bericht zu erstellen. Durch Relation zum Lead- und Kontaktobjekt wird die [!DNL Marketo Measure] Mit Person können Sie über beide Objekte im selben Bericht Berichte erstellen. Dies ist besonders hilfreich, wenn ein Lead in einen Kontakt umgewandelt wurde. Auf [!DNL Marketo Measure] Personendatensatz: Sie sehen eine Suche nach dem entsprechenden Lead- und/oder Kontaktdatensatz, eine zugehörige Liste der mit der Person verbundenen Touchpoints und die Personen-ID (die immer die E-Mail-Adresse des Leads/Kontakts ist). Seit [!DNL Marketo Measure] Person bezieht sich auf das Lead- und Kontaktobjekt. Es wird nie eine [!DNL Marketo Measure] Personendatensatz, der mit einem Touchpoint der Käuferzuordnung verknüpft ist. Nachfolgend finden Sie ein Beispiel für eine [!DNL Marketo Measure] Personendatensatz in Salesforce:
+Das Objekt „[!DNL Marketo Measure]-Person“ verknüpft die Lead- und Kontaktobjekte miteinander. Standardmäßig bietet Salesforce nicht die Möglichkeit, Berichte mit dem Lead- und Kontaktobjekt im selben Bericht zu erstellen. Durch Verknüpfung mit dem Lead- und Kontaktobjekt ermöglicht Ihnen die [!DNL Marketo Measure]-Person, einen Bericht für beide Objekte im selben Bericht zu erstellen. Dies ist besonders hilfreich, wenn ein Lead in einen Kontakt konvertiert wurde. In einem [!DNL Marketo Measure]-Personeneintrag finden Sie eine Übersicht über den entsprechenden Lead- und/oder Kontakteintrag, eine zugehörige Liste der mit der Person verknüpften Touchpoints und die Personen-ID (immer die E-Mail-Adresse des Leads/Kontakts). Da die [!DNL Marketo Measure]-Person mit dem Lead- und Kontaktobjekt verbunden ist, gibt es niemals einen [!DNL Marketo Measure]-Personeneintrag, der mit einem Buyer Attribution Touchpoint verknüpft ist. Nachfolgend finden Sie ein Beispiel für einen [!DNL Marketo Measure]-Personeneintrag in Salesforce:
 
 ![](assets/4.png)
 
-## [!DNL Marketo Measure] A/B-Test {#marketo-measure-a-b-test}
+## [!DNL Marketo Measure]-A/B-Test {#marketo-measure-a-b-test}
 
-Wenn Sie A/B-Tests durchlaufen [!DNL Optimizely] oder VWO (Visual Web Optimizer) können Sie diese Konten mit Ihren [!DNL Marketo Measure] -Konto, um A/B-Testdaten in Salesforce anzuzeigen. Die [!DNL Marketo Measure] Mit dem A/B-Test-Objekt können Sie im Wesentlichen A/B-Testdaten aus &quot;Optimizely/VWO&quot;abrufen und die Daten mit Leads und Kontakten verknüpfen.
+Bei der Durchführung von A/B-Tests mit [!DNL Optimizely] oder VWO (Visual Web Optimizer) können Sie diese Konten mit Ihrem [!DNL Marketo Measure]-Konto verknüpfen, um die A/B-Testdaten in Salesforce anzuzeigen. Mit dem [!DNL Marketo Measure]-A/B-Testobjekt können Sie A/B-Testdaten aus Optimizely/VW0 abrufen und mit Leads und Kontakten verknüpfen.
 
 ![](assets/5.png)
 
-Die [!DNL Marketo Measure] A/B-Test-Objekt wird als zugehörige Liste unter [!UICONTROL Leads], [!UICONTROL Kontakte] und [!UICONTROL Chancen] Seiten. Die Liste überdeckt alle Experimente und Varianten, die Sie durch &quot;Optimizely&quot;oder &quot;VWO&quot;ausführen, und ermöglicht Ihnen, die Experimente/Varianten zu sehen, da sie sich auf bestimmte Leads und Kontakte beziehen.
+Das [!DNL Marketo Measure]-A/B-Test-Objekt wird als zugehörige Liste auf den Seiten [!UICONTROL Leads], [!UICONTROL Kontakte] und [!UICONTROL Opportunitys] angezeigt. Die Liste enthält alle Experimente und Varianten, die Sie über Optimizely bzw. VWO ausführen, und ermöglicht Ihnen zu sehen, wie sich Experimente/Varianten auf bestimmte Leads und Kontakte beziehen.
 
-## [!DNL Marketo Measure] Ereignisse {#marketo-measure-events}
+## [!DNL Marketo Measure]-Ereignisse {#marketo-measure-events}
 
-Die [!DNL Marketo Measure] Mit dem Ereignisobjekt können Sie bestimmte Ereignisse auf Ihrer Website verfolgen. Um bestimmte Ereignisse auf Ihrer Website zu verfolgen, muss Ihren Seiten zusätzlich zum [!DNL Marketo Measure] JavaScript. Die erfassten Informationen werden im [!DNL Marketo Measure] Objektbezogene Liste, die im [!UICONTROL Leads], [!UICONTROL Kontakte] und [!UICONTROL Chancen] Seiten. Die [!DNL Marketo Measure] Ereignisobjekt *nicht* Verknüpfung zu Attributionsdaten herzustellen. Mit diesem Objekt soll ermittelt werden, ob Personen bestimmte Aktionen auf Ihrer Website ausführen.
+Mit dem Objekt „[!DNL Marketo Measure]-Ereignisse“ können Sie bestimmte Ereignisse auf Ihrer Website nachverfolgen. Um bestimmte Ereignisse auf Ihrer Website zu verfolgen, muss zusätzlich zu [!DNL Marketo Measure] Javascript ein benutzerdefinierter Code zu Ihren Seiten hinzugefügt werden. Die erfassten Informationen werden in der zugehörigen Liste des [!DNL Marketo Measure]-Objekts auf den Seiten [!UICONTROL Leads], [!UICONTROL Kontakte] und [!UICONTROL Opportunitys] angezeigt. Das [!DNL Marketo Measure]-Ereignisobjekt ist *nicht* mit Attributionsdaten verknüpft. Mit diesem Objekt soll ermittelt werden, ob Personen bestimmte Aktionen auf Ihrer Website ausführen.
 
-## [!DNL Marketo Measure] Felder {#marketo-measure-fields}
+## [!DNL Marketo Measure]-Felder {#marketo-measure-fields}
 
-Von der [!DNL Marketo Measure] JavaScript wird in die benutzerdefinierte [!DNL Marketo Measure] Felder in unserem [!DNL Marketo Measure] Objekte. Bestimmte Felder sind nur bei bestimmten Objekten vorhanden. Für ein Glossar aller [!DNL Marketo Measure] Felder, bitte [Klicken Sie hier](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). Für eine Visualisierung, bei der [!DNL Marketo Measure] Objekt für jedes [!DNL Marketo Measure] Feld bezieht sich auf [Klicken Sie hier](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Die vom [!DNL Marketo Measure]-Javascript erfassten Daten werden in die benutzerdefinierten [!DNL Marketo Measure]-Felder in unseren [!DNL Marketo Measure]-Objekten verschoben. Bestimmte Felder sind nur bei bestimmten Objekten vorhanden. Für ein Glossar aller [!DNL Marketo Measure]-Felder [klicken Sie hier](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). Um anzuzeigen, auf welches [!DNL Marketo Measure]-Objekt sich jedes [!DNL Marketo Measure]-Feld bezieht, [klicken Sie hier](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
-## [!DNL Marketo Measure] Berichte und Dashboards {#marketo-measure-reports-and-dashboards}
+## [!DNL Marketo Measure]-Berichte und -Dashboards {#marketo-measure-reports-and-dashboards}
 
-Die [!DNL Marketo Measure] Berichte und Dashboards, die zu Ihren [!DNL Salesforce] bietet vordefinierte Berichterstellungs- und Datenvisualisierungsfunktionen. Diese sind grundlegend [!DNL Marketo Measure] Berichte, mit denen Sie Kontaktpunktdaten schnell organisieren, analysieren und verstehen können.
+Die [!DNL Marketo Measure]-Berichte und -Dashboards, die zu Ihrem [!DNL Salesforce] hinzugefügt wurden, bieten vorkonfigurierte Berichterstellungs- und Datenvisualisierungsfunktionen. Dies sind grundlegende [!DNL Marketo Measure]-Berichte, mit denen Sie Touchpoint-Daten schnell organisieren, analysieren und verstehen können.
