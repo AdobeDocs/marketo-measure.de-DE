@@ -4,9 +4,9 @@ title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktione
 
 <p>
 
-**Dashboard-Neugestaltung**
+**Entdecken Sie das umgestaltete Dashboard**
 
-Allen Benutzern von Marketo Measure werden unsere neu gestalteten In-App-Dashboards angezeigt, die eine verbesserte Benutzerfreundlichkeit mit einem Mehrwert kombinieren. Wir führen auch neue Metriken ein, wie &quot;Realized ROI&quot;, die die typische Verzögerung zwischen Marketing-Investitionen und Käufen in B2B-Go-Märkten berücksichtigen.
+Allen Benutzenden von Marketo Measure werden unsere neu gestalteten In-App-Dashboards angezeigt, die eine verbesserte Benutzerfreundlichkeit mit einem Mehrwert kombinieren. Wir führen auch neue Metriken ein, wie „Erzielter ROI“, die die typische Verzögerung zwischen Marketing-Investitionen und Käufen in B2B-Go-to-Märkten berücksichtigen.
 
-Die Einführung der neuen vordefinierten Dashboards in Schüben ist für den Beginn der ersten Oktober-Woche und deren Abschluss vor Jahresende geplant. Diese neuen Dashboards werden automatisch in Ihren Instanzen angezeigt, zusammen mit produktinternen Informationen und Links zur Dokumentation.
+Die Einführung der neuen vordefinierten Dashboards erfolgt schrittweise ab der erste Oktoberwoche und wird vor Jahresende abgeschlossen sein. Diese neuen Dashboards werden automatisch in Ihren Instanzen angezeigt, zusammen mit produktinternen Informationen und Links zur Dokumentation.
 
 * [Neues Handbuch zum Entdecken von Dashboards](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
 * [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
@@ -35,19 +35,19 @@ Die Einführung der neuen vordefinierten Dashboards in Schüben ist für den Beg
 >
 >Während die aktuellen Dashboards Mitte Januar 2024 eingestellt werden, können Sie bis dahin beide Versionen verwenden, um einen reibungslosen Übergang zu gewährleisten.
 
-### Veraltete {#deprecations}
+### Abschaffungen {#deprecations}
 
 <p>
 
-* **Feld &quot;custom_properties&quot;**
+* **Feld „custom_properties“**
 
-In unserem Data Warehouse dient das Feld &quot;custom_properties&quot;als Speicher für zusätzliche Datenpunkte, die nicht von unserem festen Schema abgedeckt werden. Im JSON-Format gespeichert, ist die Nutzung dieses Felds begrenzt und seine Integration mit SQL-Abfragen kann kompliziert sein und die Leistung beeinträchtigen. Angesichts dieser Faktoren haben wir beschlossen, dieses Feld abzuschaffen. Diese Änderung betrifft hauptsächlich die Datenverarbeitungsschicht in unserem Azure-Tabellenspeicher und die in unser Data Warehouse exportierten Daten.
+In unserem Data Warehouse dient das Feld „custom_properties“ als Speicher für zusätzliche Datenpunkte, die nicht von unserem festen Schema abgedeckt werden. Aufgrund seines JSON-Formats kann dieses Feld nur eingeschränkt genutzt werden und lässt sich nur schwer in SQL-Anfragen integrieren, was die Leistung beeinträchtigt. Angesichts dieser Faktoren haben wir beschlossen, dieses Feld abzuschaffen. Diese Änderung betrifft hauptsächlich die Datenverarbeitungsschicht in unserem Azure-Tabellenspeicher und die in unser Data Warehouse exportierten Daten.
 
-* **Dynamics Package-Zuordnung**
+* **Zugehöriges Dynamics-Paket**
 
-   * Um mit Dynamics verbunden zu bleiben, installieren Sie unsere neueste Paketversion v6.12. Alte Versionen `(<v6.12)` wird nicht mehr unterstützt. Diese Aktualisierung optimiert die Erstellung historischer Datensätze, um die Speicherbelegung zu reduzieren.
+   * Um mit Dynamics verbunden zu bleiben, müssen Sie das neueste Paket (v6.12) installieren. Ältere Versionen `(<v6.12)` werden nicht länger unterstützt. Diese Aktualisierung optimiert die Erstellung historischer Einträge, um die Speicherbelegung zu reduzieren.
 
-   * Die veraltete Methode von OAuth mit einem RefreshToken wird nicht mehr unterstützt. Siehe [diesem Handbuch](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} für die Aktualisierung Ihrer Anmeldedaten, um die Best Practices von Microsoft für die Verwendung von ClientSecret einzuhalten.
+   * Die veraltete OAuth-Methode mit einem Aktualisierungs-Token wird nicht mehr unterstützt. In [dieser Anleitung](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} finden Sie Informationen zur Aktualisierung Ihrer Anmeldeinformationen entsprechend der Best Practices von Microsoft zur Verwendung von ClientSecret.
 
 ### Und als Nächstes? {#q4-whats-coming}
 
@@ -55,7 +55,7 @@ In unserem Data Warehouse dient das Feld &quot;custom_properties&quot;als Speich
 
 **Benutzerdefinierte In-App-Berichterstellung**
 
-Marketo Measure-Kunden können erstmals ihre eigenen Berichte direkt in der App erstellen und speichern. Dies erfolgt im Anschluss an die Veröffentlichung der vordefinierten Dashboards Anfang 2024.
+Marketo Measure-Kundinnen und -Kunden können erstmals ihre eigenen Berichte direkt in der App erstellen und speichern. Dies erfolgt im Anschluss an die Veröffentlichung der vordefinierten Dashboards Anfang 2024.
 
 <br>
 
