@@ -33,7 +33,7 @@ Touchpoints, die von den Dingen erfasst werden, die Sie verfolgen möchten, schr
 
 ## Buyer Touchpoint {#buyer-touchpoint}
 
-Das [!UICONTROL Buyer Touchpoint](BT)-Objekt erzählt die Marketing-Geschichte einer Person. Es enthält alle Daten zu den von Leads und Kontakten generierten Marketing-Touchpoints. Der BT zeigt Ihnen Informationen an, wie z. B., aus welchem Marketing-Kanal der Touchpoint stammt oder über welche Anzeigenkampagnen dieser spezielle Lead/Kontakt zu Ihrer Website gelangt ist.
+Das [!UICONTROL Buyer Touchpoint] (BT)-Objekt erzählt die Marketing-Geschichte einer Person. Es enthält alle Daten zu den von Leads und Kontakten generierten Marketing-Touchpoints. Der BT zeigt Ihnen Informationen an, wie z. B., aus welchem Marketing-Kanal der Touchpoint stammt oder über welche Anzeigenkampagnen dieser spezielle Lead/Kontakt zu Ihrer Website gelangt ist.
 
 Das BT-Objekt wird auf den Seiten „Leads“ und „Kontakte“ als **zugehörige Liste** angezeigt (siehe Abbildung unten).
 
