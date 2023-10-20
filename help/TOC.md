@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
 source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
 
