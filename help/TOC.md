@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
-source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
+source-git-commit: 2d2fe74998abd853f6592c5e65edfe2ce39d7ce6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 100%
+source-wordcount: '803'
+ht-degree: 99%
 
 ---
 
@@ -128,6 +128,7 @@ ht-degree: 100%
    + Benutzerspezifischer Umsatzbetrag {#custom-revenue-amount}
       + [Best Practices für die Verwendung eines benutzerdefinierten Umsatzbetrags](advanced-marketo-measure-features/custom-revenue-amount/best-practices-for-utilizing-a-custom-revenue-amount.md)
       + [Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag](advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+      + [Test Doc](advanced-marketo-measure-features/custom-revenue-amount/doc.md)
       + [Aktualisieren mit Data Loader [!DNL Marketo Measure] Benutzerdefiniertes Zahlenfeld](advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
    + Durchsichts-Attribution {#view-through-attribution}
       + [[!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsichts-Attribution](advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md)
