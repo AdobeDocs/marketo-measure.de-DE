@@ -4,9 +4,9 @@ description: LinkedIn-Integration - [!DNL Marketo Measure] - Produktdokumentatio
 title: LinkedIn-Integration
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2653'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Lead Gen Forms: Durch die Integration mit der Lead Gen Forms von LinkedIn erhäl
 
 ## Verfügbarkeit {#availability}
 
-Verfügbar für alle Kunden.
+Für alle Benutzer verfügbar.
 
 ## Anforderungen {#requirements}
 
@@ -127,6 +127,12 @@ Creative D : Share 234
 
 ## Funktionsweise: Lead Gen Forms {#how-it-works-lead-gen-forms}
 
+**[!DNL LinkedIn's]Unique Auto-Tagging-Anforderungen**
+
+[!DNL Marketo Measure] kann Ihnen dabei helfen, [!DNL LinkedIn] Kampagnenleistung durch automatisches Tagging Ihrer Landingpages.
+
+[!DNL Marketo Measure] sucht nach Kreativen mit einer eindeutigen LinkedIn-Freigabe und fügt eine `?_bl={creativeId}` -Parameter an das Ende des Parameters an.
+
 **Der Prozess**
 
 bis [!DNL LinkedIn's] Ad Form API und Ad Form Response API können wir Daten zur Formularübermittlung für ein Anzeigenkonto erfassen und die E-Mail-Adresse mit einem Lead aus dem CRM oder Marketo verknüpfen.
@@ -162,95 +168,99 @@ Einmal [!DNL Marketo Measure] Ihre Landingpage erfolgreich mit dem LinkedIn-Krea
  </colgroup> 
  <tbody> 
   <tr> 
-   <th>Touchpoint-Feld</th> 
+   <th style="width:30%">Touchpoint-Feld</th> 
    <th>Beispielwert</th> 
   </tr> 
   <tr> 
-   <td><p>Anzeigen-ID </p></td> 
-   <td><p>84186224 </p></td> 
+   <td>Anzeigen-ID</td>
+   <td>84186224</td>
   </tr> 
   <tr> 
-   <td><p>Anzeigeninhalt </p></td> 
-   <td><p>copy-1-image-2-man 95 % der #B2B-Marketer halten die Strategie zur Nachfrageerstellung für erfolgreich. Weitere Informationen: [!DNL https]://lnkd.in/jgdi50vKrgv</p></td> 
+   <td>Anzeigeninhalt</td>
+   <td>copy-1-image-2-man 95 % der #B2B-Marketer halten die Strategie zur Nachfrageerstellung für erfolgreich. Weitere Informationen: [!DNL https]://lnkd.in/jgdi50vKrgv</td>
   </tr> 
   <tr> 
-   <td><p>Anzeigengruppen-ID </p></td> 
-   <td><p>(leer) </p></td> 
+   <td>Anzeigengruppen-ID</td>
+   <td>(leer)</td>
   </tr> 
   <tr> 
-   <td><p>Werbegruppenname </p></td> 
-   <td><p>(leer) </p></td> 
+   <td>Werbegruppenname</td>
+   <td>(leer)</td>
   </tr> 
   <tr> 
-   <td><p>Anzeigen-Kampagnen-ID </p></td> 
-   <td><p>138949954 </p></td> 
+   <td>Anzeigen-Kampagnen-ID</td>
+   <td>138949954</td>
   </tr> 
   <tr> 
-   <td><p>Name der Ad-Kampagne </p></td> 
-   <td><p>SU - COM Accounts - Demand Skills </p></td> 
+   <td>Name der Anzeigenkampagne</td>
+   <td>SU - COM Accounts - Demand Skills</td>
   </tr> 
   <tr> 
-   <td><p>Anzeigenziel-URL </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>Anzeigenziel-URL <b>*</b></td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>Formular/URL </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>Formular/URL</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>Formular-URL - Roh </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>Formular-URL - Roh</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>Schlüsselwort-ID </p></td> 
-   <td><p>(leer) </p></td> 
+   <td>Schlüsselwort-ID</td> 
+   <td>(leer)</td> 
   </tr> 
   <tr> 
-   <td><p>Suchbegriffübereinstimmungstyp </p></td> 
-   <td><p>(leer) </p></td> 
+   <td>Suchbegriffübereinstimmungstyp</td> 
+   <td>(leer)</td> 
   </tr> 
   <tr> 
-   <td><p>Landing Page </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders </p></td> 
+   <td>Landingpage</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
   </tr> 
   <tr> 
-   <td><p>Landingpage - Roh </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>Landingpage - Roh</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>Marketing-Kanal </p></td> 
-   <td><p>Paid Social </p></td> 
+   <td>Marketing-Kanal</td> 
+   <td>Paid Social</td> 
   </tr> 
   <tr> 
-   <td><p>Marketingkanal - Pfad </p></td> 
-   <td><p>Paid Social.LinkedIn </p></td> 
+   <td>Marketingkanal - Pfad</td> 
+   <td>Paid Social.LinkedIn</td> 
   </tr> 
   <tr> 
-   <td><p>Medium </p></td> 
-   <td><p>"cpc"oder "Lead-Gen-Formular"</p></td> 
+   <td>Medium</td> 
+   <td>"cpc"oder "Lead-Gen-Formular"</td> 
   </tr> 
   <tr> 
-   <td><p>Referrer-Seite </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Referrer-Seite</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Referrer Page - Roh </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Referrer Page - Roh</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Suchbegriff </p></td> 
-   <td><p>(leer) </p></td> 
+   <td>Suchbegriff</td> 
+   <td>(leer)</td> 
   </tr> 
   <tr> 
-   <td><p>Touchpoint-Typ </p></td> 
-   <td><p>Webformular </p></td> 
+   <td>Touchpoint-Typ</td> 
+   <td>Webformular</td>
   </tr> 
   <tr> 
-   <td><p>Touchpoint Quelle </p></td> 
-   <td><p>LinkedIn </p></td> 
+   <td>Touchpoint-Quelle</td>
+   <td>LinkedIn</td>
   </tr> 
  </tbody> 
 </table>
+
+**&#42;** _Das Feld &quot;Anzeigenziel-URL&quot;wird nur für gesponserte Inhalte ausgefüllt. Für Lead Gen Forms sind keine Daten vorhanden._
+
+<br>
 
 ## Kosten {#costs}
 
