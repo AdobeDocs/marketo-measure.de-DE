@@ -4,8 +4,8 @@ description: Generierung und Zuordnung von Touchpoints – Produktdokumentation 
 title: Generierung und Zuordnung von Touchpoints
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
-workflow-type: ht
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Der Prozess der Touchpoint-Zuordnung beantwortet die Frage: „Wenn dieser Touch
 >[!MORELIKETHIS]
 >
 >* [Zuordnen von Online-Touchpoints zu  [!DNL Marketo Measure] Kanälen/Unterkanälen](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [Synchronisieren von CRM-Kampagnen in SFDC](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+>* [Synchronisieren von CRM-Kampagnen in SFDC](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 >* [Synchronisieren von CRM-Kampagnen innerhalb von  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 >* [Zuordnen von CRM-Kampagnen zu  [!DNL Marketo Measure] Kanälen/Unterkanälen](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Erstellen von Touchpoints aus Verkaufsaktivitäten](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)

@@ -4,7 +4,7 @@ description: Offline-Einrichtung des benutzerdefinierten Kanals - [!DNL Marketo 
 title: Offline-Einrichtung benutzerdefinierter Kanäle
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Hier können Sie die Kanal-/Subkanal-Zuordnung im [!DNL Marketo Measure] App. Da
 
 ## Beispiel für die Kanalzuordnung {#channel-mapping-example}
 
-Angenommen, Sie nehmen an zwei [!DNL Salesforce] Konferenzen pro Jahr. Jede Konferenz ist jedoch sehr unterschiedlich und hat eine eigene Zielgruppe. Sie möchten wissen, welche von beiden mehr Wert bringt. In der [!DNL Salesforce] -Umgebung verwenden, können Sie der Januar-Veranstaltung den Kampagnentyp &quot;Konferenz&quot;geben, Ihren Kanal nennen.[!DNL Salesforce],&quot; und Ihrem Unterkanal &quot;Konferenz im Januar&quot;.
+Nehmen wir beispielsweise an, Sie nehmen an zwei [!DNL Salesforce] Konferenzen pro Jahr. Jede Konferenz ist jedoch sehr unterschiedlich und hat eine eigene Zielgruppe. Sie möchten wissen, welche von beiden mehr Wert bringt. In der [!DNL Salesforce] -Umgebung verwenden, können Sie der Januar-Veranstaltung den Kampagnentyp &quot;Konferenz&quot;geben, Ihren Kanal nennen.[!DNL Salesforce],&quot; und Ihrem Unterkanal &quot;Konferenz im Januar&quot;.
 
 Jetzt wollen Sie dasselbe für die Juni-Konferenz tun. Da es sich hier auch um eine Konferenz handelt, kann der gleiche Kampagnentyp, in diesem Fall &quot;Konferenz&quot;, verwendet werden. Der Kanal ist identisch. [!DNL Salesforce]und der Unterkanal für diese zweite Konferenz ist &quot;Juni-Konferenz&quot;. Das ist aus organisatorischer Sicht sinnvoll. Es ist jedoch sehr verwirrend für die [!DNL Marketo Measure] Logik zum Lesen und Anwenden dieser Regeln, da beide Kampagnen denselben Kampagnentyp aufweisen. [!DNL Marketo Measure] -Skript kann keine Daten von einem Typ zu zwei verschiedenen Unterkanälen zuordnen. Das bedeutet, dass Sie für jeden Unterkanal einen neuen Kampagnentyp erstellen müssen, die Unterkanäle jedoch denselben Kanal haben können.
 
@@ -59,7 +59,7 @@ Alle vorhandenen Kampagnentypen müssen in Ihrer Kanalzuordnung enthalten sein u
 
 Nehmen Sie sich Zeit, um [!DNL Salesforce] um die Anzahl und Art Ihrer vorhandenen Datensatztypen zu bestimmen, die Sie einbeziehen möchten, und ob Sie zusätzliche Kampagnen basierend auf den oben genannten Informationen erstellen müssen. Sobald Sie alle erforderlichen Informationen ausgefüllt haben, können Sie sie hochladen.
 
-Weitere Informationen [Synchronisieren offline [!DNL Salesforce] Kampagnen mit [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md).
+Weitere Informationen [Synchronisieren offline [!DNL Salesforce] Kampagnen mit [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
 
 ## Umgang mit SFDC-Kampagnen für Online-Marketing-Maßnahmen {#handling-sfdc-campaigns-for-online-marketing-efforts}
 

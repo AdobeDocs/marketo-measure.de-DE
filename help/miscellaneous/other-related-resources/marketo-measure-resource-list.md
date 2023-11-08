@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure] - Pr
 title: "[!DNL Marketo Measure] Ressourcenliste"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -25,11 +25,11 @@ Hier finden Sie verschiedene Links zu relevanten Artikeln/Videos, die Ihnen bei 
 **Konfiguration**
 
 * [Einrichten von Marketing-Kanälen, Best Practice](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
-* [Online-Kanal-Einrichtung](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+* [Einrichtung des Online-Kanals](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Offline-Kanal-Einrichtung](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [Was sind UTM-Parameter?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [Best Practices für UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [Synchronisieren von SFDC-Kampagnen mit Käufer-Touchpoints](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+* [Synchronisieren von SFDC-Kampagnen mit Käufer-Touchpoints](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [Hochladen der Marketing-Ausgaben](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Werbekonten erneut verbinden](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [Hinzufügen [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
@@ -54,7 +54,7 @@ Hier sind einige Videos, die Ihnen helfen, die Geschwindigkeit zu erhöhen:
 
 **[[!DNL Marketo Measure] 101](https://universityonline.marketo.com/courses/bizible-101/) (~30 Minuten)**
 
-Diese Kursreihe ist eine allgemeine Einführung in die Grundkonzepte, die Sie Übergeordnet kennen müssen [!DNL Marketo Measure]. Es bietet eine Einführung in das Konzept der Attribution, was [!DNL Marketo Measure] als Instrument und den allgemeinen Rahmen, auf dem [!DNL Marketo Measure] funktioniert.
+Diese Kursreihe ist eine allgemeine Einführung in die Grundkonzepte, die Sie für Ihren Master kennen müssen [!DNL Marketo Measure]. Es bietet eine Einführung in das Konzept der Attribution, was [!DNL Marketo Measure] als Instrument und den allgemeinen Rahmen, auf dem [!DNL Marketo Measure] funktioniert.
 
 Behandelte Themen:
 
@@ -83,7 +83,7 @@ In diesem Kurs werden verschiedene Möglichkeiten zur Anpassung beschrieben [!DN
 
 Behandelte Themen:
 
-* Online-Kanal-Einrichtung
+* Einrichtung des Online-Kanals
 * Erstellen und Bearbeiten von Online-Kanalregeln
 * Zuordnung [!DNL Salesforce] Kampagnen für Kanäle
 * Felder für Kampagne und Kampagnenmitglieder

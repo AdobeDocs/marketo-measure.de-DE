@@ -4,10 +4,10 @@ description: Testen der Marketo Measure-Integration mit einer Salesforce-Sandbox
 title: Testen der Marketo Measure-Integration mit einer Salesforce-Sandbox
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in unserer Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
 Eines der [!DNL Marketo Measure] Kernfunktionen sind die Fähigkeit, Ihre digitalen Marketingbemühungen durch Aktionen auf Ihrer Website zu verfolgen und diese Daten dann in Ihre Produktion zu übertragen. [!DNL Salesforce org] durch Leads und Kontakte. In der Regel werden jedoch keine eingehenden Leads von Ihrer Website innerhalb einer Sandbox-Integration erstellt, sodass der Fokus auf Daten von einer rein Offline-Perspektive aus liegt.
 
-Im Folgenden finden Sie die beiden Quellen, auf die in beiden Testphasen verwiesen wird. [Schritte 1-4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) und [Schritte 5-6](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md). Wir empfehlen, diese Dokumente zu überprüfen, da sie in einigen Bereichen detaillierter sind.
+Im Folgenden finden Sie die beiden Quellen, auf die in beiden Testphasen verwiesen wird. [Schritte 1-4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) und [Schritte 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). Wir empfehlen, diese Dokumente zu überprüfen, da sie in einigen Bereichen detaillierter sind.
 
 1. Sie müssen einige Leads in einer CSV-Datei erstellen, damit Sie sie in eine Kampagne hochladen können. Dies lässt sich erreichen, indem Sie einige Leads über einen Bericht in Ihrer Produktions-Salesforce exportieren. Andernfalls können Sie Leads in einer Excel-Datei manuell erstellen und dann als CSV-Datei für den Import speichern. Man braucht nur etwa 20 Datensätze. Die Datei muss die folgenden Spalten enthalten:
 

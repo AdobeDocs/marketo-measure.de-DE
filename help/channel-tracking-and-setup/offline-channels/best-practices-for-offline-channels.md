@@ -3,10 +3,10 @@ description: Best Practices für Offline-Kanäle - [!DNL Marketo Measure] - Prod
 title: Best Practices für Offline-Kanäle
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ Der Wert &quot;Marketing-Kanal&quot;für diese Touchpoints basiert auf dem Feld 
 Beachten Sie die folgenden Best Practices, unabhängig davon, ob Sie Ihre Offline-Kanäle zum ersten Mal zuordnen oder sie nur überprüfen, um sicherzustellen, dass sie korrekt sind.
 
 * Erstellen eines absichtlichen Frameworks für Ihre Offline-Kanäle
-   * Nehmen Sie sich Zeit, um über die Organisation Ihrer Marketing-Kampagnen nachzudenken und darüber, wie sie in die [!DNL Marketo Measure] Framework. Bestimmen Sie, welche Kanäle und Unterkanäle in Ihren Offline-Kanälen angezeigt werden sollen und welche CRM-Kampagnentypen diese Kanäle voneinander unterscheiden.
+   * Nehmen Sie sich Zeit, um über die Organisation Ihrer Marketing-Kampagnen nachzudenken und darüber, wie sie in das Framework von [!DNL Marketo Measure] passen. Bestimmen Sie, welche Kanäle und Unterkanäle in Ihren Offline-Kanälen angezeigt werden sollen und welche CRM-Kampagnentypen diese Kanäle voneinander unterscheiden.
 * Arbeiten Sie zunächst an der Nutzung Ihrer aktuellen CRM-Kampagnenwerte &quot;Typ&quot;.
    * Offline-Kanäle werden durch den &#39;Typ&#39; der CRM-Kampagne definiert. Es kann jedoch erforderlich sein, den &#39;Typ&#39; der benutzerdefinierten CRM-Kampagne zu erstellen, um die idealen Offline-Kanal- und Subkanalwerte aufzunehmen. Ideale benutzerdefinierte CRM-Kampagnentyp-Werte sollten die unten dargestellte Namenskonvention aufweisen:
       * KANAL - SUBKANAL
@@ -72,9 +72,9 @@ Wenn Ihr Team vor kurzem einen der oben genannten Punkte erfahren hat, [!DNL Mar
 >
 >* [Offline-Kanal-Einrichtung](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Benutzerdefinierte Kampagnensynchronisierung - App-Synchronisierung](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Synchronisieren von Offline-Kampagnen - CRM-Synchronisierung](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
->* [Offline-Campaign- und Campaign-Mitglieder - CRM-Synchronisierung](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
->* [Kampagnensynchronisierungsdaten - CRM-Synchronisierung](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
->* [Konfigurationen für mehrere Kampagnentypen](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Erstellen einer Kampagnenlisten-Ansicht](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Synchronisieren historischer Daten](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+>* [Synchronisieren von Offline-Kampagnen - CRM-Synchronisierung](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+>* [Offline-Campaign- und Campaign-Mitglieder - CRM-Synchronisierung](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+>* [Kampagnensynchronisierungsdaten - CRM-Synchronisierung](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+>* [Konfigurationen für mehrere Kampagneneintragstypen](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
+>* [Erstellen einer Kampagnenlisten-Ansicht](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [Synchronisieren historischer Daten](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
