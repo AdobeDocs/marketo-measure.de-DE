@@ -3,10 +3,10 @@ description: "[!DNL Marketo Measure] Installation und Einrichtung von Salesforce
 title: "Installation und Einrichtung von [!DNL Marketo Measure] [!DNL Salesforce] -Paketen"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: ht
-source-wordcount: '543'
-ht-degree: 100%
+source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 99%
 
 ---
 
@@ -48,16 +48,6 @@ Nachdem Sie die Installation abgeschlossen haben, können Sie bei Bedarf Ihre [[
 >
 >Lesen Sie über für [!DNL Marketo Measure] erstellten Berechtigungssätze und darüber, [wie sie verwendet werden](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
-## Installieren des [!DNL Marketo Measure]-Dashboard-Pakets {#install-marketo-measure-dashboard-package}
-
-Die [!UICONTROL Dashboard]-Erweiterungspaket enthält drei vordefinierte Dashboards. Wir empfehlen die Installation [!UICONTROL innerhalb] der Betreibung für alle Benutzer.
-
-1. Installieren Sie das Paket aus dem [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
-
-1. Wählen Sie **[!UICONTROL Für alle Benutzer installieren]**.
-
-   ![](assets/marketo-measure-salesforce-package-installation-and-set-up-3.png)
-
 ## Erstellen eines [!DNL Marketo Measure]-Profils und Benutzers {#creating-a-marketo-measure-profile-and-user}
 
 [!DNL Marketo Measure] sendet und empfängt Daten über einen verbundenen [!DNL Salesforce]-Benutzer in der [!DNL Marketo Measure]-App.
@@ -98,3 +88,7 @@ Schritt 4: Melden Sie sich bei Ihrem [!DNL Marketo Measure]-Konto an und autoris
 1. Wählen Sie **[!UICONTROL Verbindungen]** in der Gruppierung **[!UICONTROL Integrationen]**.
 
 1. Klicken Sie auf das Schlüsselsymbol rechts neben der aktuell verbundenen [!DNL Salesforce]-Verbindung und wählen Sie **Mit Betreibung erneut autorisieren**. Melden Sie sich mit den neuen Anmeldeinformationen erneut an (wenn Sie dazu aufgefordert werden).
+
+>[!MORELIKETHIS]
+>
+>[Einrichten von Adobe Admin Console](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
