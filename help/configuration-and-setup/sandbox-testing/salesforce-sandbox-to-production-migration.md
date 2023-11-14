@@ -4,10 +4,10 @@ description: Salesforce-Sandbox zur Produktionsmigration [!DNL Marketo Measure] 
 title: Salesforce-Sandbox zur Betreibungsmigration
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 8%
+source-wordcount: '331'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,6 @@ Wenn Sie ausgewählt haben, [!DNL Marketo Measure] in einer [!DNL Salesforce] Sa
 * Installieren Sie die beiden [!DNL Marketo Measure] Pakete in die Produktion mit &quot;[!UICONTROL Alle Benutzer]&quot;-Einstellung
 
    * [Basispaket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
-   * [Dashboard-Erweiterungspaket](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * Weitere Informationen zum [!DNL Marketo Measure] Beziehung zu [!DNL Salesforce], sehen Sie sich [diesem Artikel](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * Ein bisschen [!DNL Salesforce] -Konfiguration erforderlich ist. Die spezifischen Aktionselemente werden im Folgenden beschrieben unter [Schritt 4 unten](#salesforce-configuration)
