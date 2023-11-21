@@ -4,7 +4,7 @@ title: '''[!DNL Marketo Measure] Endgültige Datenintegrationsanforderung'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: 3725ef14f90269ebdada1d81692f3b7283e6ec6e
+source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 22%
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 ## Entitätsobjekt {#entity-object}
 
-<table>
+<table style="table-layout:auto">
   <tr>
     <th>XDM-Klasse</th>
     <th>XDM-Feldergruppe</th>
@@ -1051,7 +1051,7 @@ ht-degree: 22%
 
 ## Unterstützter ExperienceEvent-Typ {#experienceevent-type-supported}
 
-<table>
+<table style="table-layout:auto">
   <tr>
     <th>Ereignistyp</th>
     <th>XDM-Ereignistyp</th>
