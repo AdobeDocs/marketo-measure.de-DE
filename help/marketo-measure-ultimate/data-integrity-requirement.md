@@ -1,19 +1,20 @@
 ---
-description: '[!DNL Marketo Measure] Endgültige Datenintegrationsanforderung - [!DNL Marketo Measure] - Produktdokumentation'
-title: '''[!DNL Marketo Measure] Endgültige Datenintegrationsanforderung'
+description: „[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung - [!DNL Marketo Measure] - Produktdokumentation“
+title: „[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
-workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 22%
+exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
+source-git-commit: 4d4dd1817547dc9fff0dd1f1b5e8bb88f5809120
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
-# [!DNL Marketo Measure] Endgültige Datenintegrationsanforderung {#marketo-measure-ultimate-data-integrity-requirement}
+# [!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] validiert die eingehenden AEP-Datensätze, um sicherzustellen, dass die Daten für die Attribution ausreichend und kohärent sind. Wenn die Datenintegrität nicht erfüllt wird, wird der Datensatz von der [!DNL Marketo Measure] System. In diesem Dokument werden die Anforderungen an die Datenintegrität beschrieben, Beispiele für Abfragen zur Datenüberprüfung bereitgestellt und eine Lösung für erforderliche Felder mit einem Nullwert empfohlen.
+[!DNL Marketo Measure] validiert die eingehenden AEP-Datensätze, um sicherzustellen, dass die Daten für die Attribution ausreichend und kohärent sind. Wenn die Datenintegritätsanforderung nicht erfüllt ist, wird der Datensatz vom [!DNL Marketo Measure]-System abgelehnt. In diesem Dokument werden die Datenintegritätsanforderung beschrieben, Beispiele für Abfragen zur Dateninspektion bereitgestellt und eine Lösung für erforderliche Felder mit einem Nullwert empfohlen.
 
 ## Entitätsobjekt {#entity-object}
 
@@ -38,7 +39,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 123@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -46,7 +47,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Beispiel: - 123</td>
+      <td>Zum Beispiel: 123</td>
     </tr>
     <tr>
       <td></td>
@@ -54,7 +55,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -62,7 +63,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -82,7 +83,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>XDM-Geschäftskontodetails</td>
+      <td>XDM-Geschäftskonto – Details</td>
       <td>accountName</td>
       <td>Zeichenfolge</td>
       <td>Name</td>
@@ -93,13 +94,13 @@ ht-degree: 22%
       <td colspan="7"><strong>Kampagne</strong> (Kampagne für Salesforce, Programm für Marketo)</td>
     </tr>
     <tr>
-      <td rowspan="8">XDM Business Campaign</td>
+      <td rowspan="8">XDM-Geschäftskampagne</td>
       <td></td>
       <td>campaignKey.sourceKey</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 55555@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -107,7 +108,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Beispiel: - 55555</td>
+      <td>Zum Beispiel: 55555</td>
     </tr>
     <tr>
       <td></td>
@@ -115,7 +116,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -123,7 +124,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -159,7 +160,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td rowspan="5">XDM-Geschäftskampagnendetails</td>
+      <td rowspan="5">XDM-Geschäftskampagne – Details</td>
       <td>channelName</td>
       <td>Zeichenfolge</td>
       <td>ChannelName</td>
@@ -172,15 +173,15 @@ ht-degree: 22%
       <td>Datum-Uhrzeit</td>
       <td>Startdatum</td>
       <td>Nein</td>
-      <td>Kampagnenkosten</td>
+      <td>Für Kampagnenkosten</td>
     </tr>
     <tr>
       <td></td>
       <td>campaignEndDate</td>
       <td>Datum-Uhrzeit</td>
-      <td>EndDatum</td>
+      <td>EndDate</td>
       <td>Nein</td>
-      <td>Kampagnenkosten</td>
+      <td>Für Kampagnenkosten</td>
     </tr>
     <tr>
       <td></td>
@@ -188,7 +189,7 @@ ht-degree: 22%
       <td>number</td>
       <td>Kosten</td>
       <td>Nein</td>
-      <td>Kampagnenkosten</td>
+      <td>Für Kampagnenkosten</td>
     </tr>
     <tr>
       <td></td>
@@ -199,19 +200,19 @@ ht-degree: 22%
       </td>
       <td>CurrencyIsoCode</td>
       <td>Nein</td>
-      <td>Kampagnenkosten</td>
+      <td>Für Kampagnenkosten</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Campaign-Mitglied</strong> (Campaign Member for Salesforce, Program Memberships for Marketo)</td>
+      <td colspan="7"><strong>Kampagnenmitglied</strong> (Kampagnenmitglied für Salesforce, Programmmitgliedschaften for Marketo)</td>
     </tr>
     <tr>
-      <td rowspan="14">XDM Business Campaign-Mitglieder</td>
+      <td rowspan="14">XDM-Geschäftskampagne – Mitglieder</td>
       <td></td>
       <td>campaignMemberKey.sourceKey</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 987654321@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 987654321@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -219,7 +220,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Beispiel: - 987654321</td>
+      <td>Zum Beispiel: 987654321</td>
     </tr>
     <tr>
       <td></td>
@@ -227,7 +228,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -235,7 +236,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -259,7 +260,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 333@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -268,7 +269,7 @@ ht-degree: 22%
       <td>Lead-ID oder Kontakt-ID</td>
       <td>Ja</td>
       <td>
-        <p>Beispiel: - 333, je nach der Datenquellentabelle ist dies entweder die Lead-ID oder die Kontakt-ID.</p>
+        <p>Zum Beispiel: 333, je nach der Datenquellentabelle ist dies entweder die Lead-ID oder die Kontakt-ID.</p>
         <p>Fremdschlüssel für Lead oder Kontakt</p>
       </td>
     </tr>
@@ -278,7 +279,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -286,7 +287,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -294,7 +295,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 55555@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -303,8 +304,8 @@ ht-degree: 22%
       <td>Kampagnen-ID</td>
       <td>Ja</td>
       <td>
-        <p>z. B. - 55555</p>
-        <p>Fremdschlüssel in Campaign</p>
+        <p>Zum Beispiel: 55555.</p>
+        <p>Fremdschlüssel für Kampagne</p>
       </td>
     </tr>
     <tr>
@@ -313,7 +314,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -321,16 +322,16 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td rowspan="4">XDM Business Campaign-Mitgliederdetails</td>
+      <td rowspan="4">XDM-Geschäftskampagne – Mitgliederdetails</td>
       <td>b2b.personType</td>
       <td>Zeichenfolge</td>
-      <td>"Lead"oder "Kontakt"</td>
+      <td>„Lead“ oder „Kontakt“</td>
       <td>Ja</td>
-      <td>Abhängig von der Datenquellentabelle sollte dies auf "Lead"oder "Kontakt"gesetzt werden. Wir empfehlen, für die meisten Anwendungsfälle "Kontakt"festzulegen.</td>
+      <td>Abhängig von der Datenquellentabelle sollte dies auf „Lead“ oder „Kontakt“ gesetzt werden. Wir empfehlen für die meisten Anwendungsfälle, dies auf „Kontakt“ festzulegen</td>
     </tr>
     <tr>
       <td></td>
@@ -361,12 +362,12 @@ ht-degree: 22%
     </tr>
     <tr>
       <td>XDM-Profil für Einzelpersonen</td>
-      <td rowspan="11">XDM-Geschäftspersonendetails</td>
+      <td rowspan="11">XDM-Geschäftsperson – Details</td>
       <td>b2b.personKey.sourceKey</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 333@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -374,7 +375,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Beispiel: - 333, je nach Datenquellentabelle ist dies entweder Lead-ID oder Kontakt-ID</td>
+      <td>Zum Beispiel: 333, je nach Datenquellentabelle ist dies entweder Lead-ID oder Kontakt-ID</td>
     </tr>
     <tr>
       <td></td>
@@ -382,7 +383,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -390,7 +391,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -408,8 +409,8 @@ ht-degree: 22%
       <td>b2b.personStatus</td>
       <td>Zeichenfolge</td>
       <td>Status</td>
-      <td>Ja nur für Lead-personType</td>
-      <td>Nur erforderlich, wenn b2b.personType "Lead" ist</td>
+      <td>Ja nur für personType „Lead“</td>
+      <td>Nur erforderlich, wenn der b2b.personType „Lead“ ist</td>
     </tr>
     <tr>
       <td></td>
@@ -432,16 +433,16 @@ ht-degree: 22%
       <td>b2b.isConverted</td>
       <td>boolean</td>
       <td>IsConverted</td>
-      <td>Ja nur für Lead-personType</td>
-      <td>Nur erforderlich, wenn b2b.personType "Lead" ist</td>
+      <td>Ja nur für personType „Lead“</td>
+      <td>Nur erforderlich, wenn der b2b.personType „Lead“ ist</td>
     </tr>
     <tr>
       <td></td>
       <td>b2b.personType</td>
       <td>Zeichenfolge</td>
-      <td>"Lead"oder "Kontakt"</td>
+      <td>„Lead“ oder „Kontakt“</td>
       <td>Ja</td>
-      <td>Abhängig von der Datenquellentabelle sollte dies auf "Lead"oder "Kontakt"gesetzt werden. Wir empfehlen, für die meisten Anwendungsfälle "Kontakt"festzulegen.</td>
+      <td>Abhängig von der Datenquellentabelle sollte dies auf „Lead“ oder „Kontakt“ gesetzt werden. Wir empfehlen für die meisten Anwendungsfälle, dies auf „Kontakt“ festzulegen</td>
     </tr>
     <tr>
       <td></td>
@@ -453,15 +454,15 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td rowspan="4">XDM-Geschäftspersonenkomponenten</td>
+      <td rowspan="4">XDM-Geschäftsperson – Komponenten</td>
       <td>personComponents.sourceAccountKey.sourceKey</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Nein</td>
       <td>
-        <p>Beispiel: - 123@999-abc-888.Marketo.</p>
-        <p>Der Satz von sourceAccountKey -Feldern ist nur für wahre Kontaktdatensätze "erforderlich", definiert als mit Konto verknüpfte Personendatensätze. Fehlt dies, wird der Datensatz nicht zurückgewiesen, aber die Attributionsergebnisse sind deaktiviert.</p>
-        <p>personComponents ist ein Array, Marketo Measure verwendet jedoch nur das erste Element personComponents[0]</p>
+        <p>Zum Beispiel: 123@999-abc-888.Marketo.</p>
+        <p>Der Satz von sourceAccountKey-Feldern ist nur für wahre Kontaktdatensätze „erforderlich“, definiert als Personeneinträge, die mit „Konto“ verknüpft sind. Wenn er fehlt, wird der Datensatz nicht zurückgewiesen, aber die Attributionsergebnisse sind deaktiviert.</p>
+        <p>personComponents ist ein Array, Marketo Measure verwendet jedoch nur das erste Element „personComponents[0]“</p>
       </td>
     </tr>
     <tr>
@@ -471,8 +472,8 @@ ht-degree: 22%
       <td>Konto-ID</td>
       <td>Nein</td>
       <td>
-        <p>Beispiel: - 123.</p>
-        <p>Fremdschlüssel in Rechnung</p>
+        <p>Zum Beispiel: 123.</p>
+        <p>Fremdschlüssel für Konto</p>
       </td>
     </tr>
     <tr>
@@ -481,7 +482,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Nein</td>
-      <td>z. B. - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -489,43 +490,43 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Nein</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Chancen</strong> (Chancen für Salesforce, Chancen für Marketo)</td>
+      <td colspan="7"><strong>Opportunity</strong> (Opportunity für Salesforce, Opportunities für Marketo)</td>
     </tr>
     <tr>
-      <td rowspan="13">XDM-Geschäftschancen</td>
+      <td rowspan="13">XDM-Geschäfts-Opportunity</td>
       <td></td>
-      <td>opportunityKey.sourceKey</td>
+      <td>OpportunityKey.sourceKey</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 77777@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 77777@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceID</td>
+      <td>OpportunityKey.sourceID</td>
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>z. B. - 77777</td>
+      <td>Zum Beispiel: 77777</td>
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceInstanceID</td>
+      <td>OpportunityKey.sourceInstanceID</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceType</td>
+      <td>OpportunityKey.sourceType</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -549,7 +550,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 123@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -558,8 +559,8 @@ ht-degree: 22%
       <td>Konto-ID</td>
       <td>Ja</td>
       <td>
-        <p>Beispiel: - 123.</p>
-        <p>Fremdschlüssel in Rechnung</p>
+        <p>Zum Beispiel: 123.</p>
+        <p>Fremdschlüssel für Konto</p>
       </td>
     </tr>
     <tr>
@@ -568,7 +569,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -576,11 +577,11 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td>OpportunityName</td>
+      <td>opportunityName</td>
       <td>Zeichenfolge</td>
       <td>Name</td>
       <td>Ja</td>
@@ -588,7 +589,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>OpportunityStage</td>
+      <td>opportunityStage</td>
       <td>Zeichenfolge</td>
       <td>Phase</td>
       <td>Ja</td>
@@ -596,7 +597,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>OpportunityType</td>
+      <td>opportunityType</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Nein</td>
@@ -604,8 +605,8 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td rowspan="5">XDM-Geschäftsangebotsdetails</td>
-      <td>isWon</td>
+      <td rowspan="5">XDM-Geschäfts-Opportunity – Details</td>
+      <td>IsWon</td>
       <td>boolean</td>
       <td>IsWon</td>
       <td>Ja</td>
@@ -613,7 +614,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>isClosed</td>
+      <td>IsClosed</td>
       <td>boolean</td>
       <td>IsClosed</td>
       <td>Ja</td>
@@ -621,7 +622,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>estimatedCloseDate</td>
+      <td>ExpectedCloseDate</td>
       <td>Datum</td>
       <td>CloseDate</td>
       <td>Ja</td>
@@ -629,7 +630,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>opportunityAmount.amount</td>
+      <td>OpportunityAmount.amount</td>
       <td>number</td>
       <td>Betrag</td>
       <td>Ja</td>
@@ -637,7 +638,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>opportunityAmount.currencyCode</td>
+      <td>OpportunityAmount.currencyCode</td>
       <td>
         <p>Zeichenfolge</p>
         <p>^[A-Z]{3}$</p>
@@ -647,16 +648,16 @@ ht-degree: 22%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Kontaktrolle für Chancen (nur erforderlich, wenn die Kontaktrolle "Chancen"als Käufergruppe für die Attribution verwendet werden soll)</strong></td>
+      <td colspan="7"><strong>Die Rolle „Opportunity-Kontakt“ (nur erforderlich, wenn die Rolle „Opportunity-Kontakt“ als die kaufende Gruppe für die Attribution verwendet werden soll)</strong></td>
     </tr>
     <tr>
-      <td rowspan="16">XDM Business Opportunity-Personenbeziehung</td>
+      <td rowspan="16">XDM-Geschäfts-Opportunity – Personenbeziehung</td>
       <td></td>
       <td>personKey.sourceKey</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 333@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -665,7 +666,7 @@ ht-degree: 22%
       <td>Kontakt-ID</td>
       <td>Ja</td>
       <td>
-        <p>z. B. - 333.</p>
+        <p>Zum Beispiel: 333.</p>
         <p>Fremdschlüssel für Kontakt</p>
       </td>
     </tr>
@@ -675,7 +676,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -683,7 +684,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -695,38 +696,38 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceKey</td>
+      <td>OpportunityKey.sourceKey</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 77777@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 77777@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceID</td>
+      <td>OpportunityKey.sourceID</td>
       <td>Zeichenfolge</td>
       <td>Opportunity-ID</td>
       <td>Ja</td>
       <td>
-        <p>z. B. - 77777.</p>
-        <p>Fremdschlüssel für Chancen</p>
+        <p>Zum Beispiel: 77777.</p>
+        <p>Fremdschlüssel für Opportunity</p>
       </td>
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceInstanceID</td>
+      <td>OpportunityKey.sourceInstanceID</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceType</td>
+      <td>OpportunityKey.sourceType</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -734,15 +735,15 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 222222@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 222222@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td>opportunityPersonKey.sourceID</td>
+      <td>OpportunityPersonKey.sourceID</td>
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>z. B. - 22222</td>
+      <td>Zum Beispiel: 222222</td>
     </tr>
     <tr>
       <td></td>
@@ -750,7 +751,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -758,7 +759,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -785,16 +786,16 @@ ht-degree: 22%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Konversionsrate (nur bei Verwendung mehrerer Währungen erforderlich; nur ein Konversionsrate-Datensatz kann für Marketo Measure aktiviert werden)</strong></td>
+      <td colspan="7"><strong>Konversionsrate (nur bei Verwendung mehrerer Währungen erforderlich; für Marketo Measure kann nur ein Konversionsratendatensatz aktiviert werden)</strong></td>
     </tr>
     <tr>
-      <td rowspan="7">Konvertierung</td>
+      <td rowspan="7">Konversion</td>
       <td></td>
       <td>extSourceSystemAudit.externalKey.sourceKey</td>
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 8888@0x012345.Salesforce</td>
+      <td>Zum Beispiel: 8888@0x012345.Salesforce</td>
     </tr>
     <tr>
       <td></td>
@@ -802,7 +803,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>z. B. - 8888</td>
+      <td>Zum Beispiel: 8888</td>
     </tr>
     <tr>
       <td></td>
@@ -810,7 +811,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: 0x012345</td>
+      <td>Zum Beispiel: 0x012345</td>
     </tr>
     <tr>
       <td></td>
@@ -818,7 +819,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - Salesforce</td>
+      <td>Zum Beispiel: Salesforce</td>
     </tr>
     <tr>
       <td></td>
@@ -838,7 +839,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>isDeleted</td>
+      <td>IsDeleted</td>
       <td>boolean</td>
       <td></td>
       <td>Ja</td>
@@ -846,7 +847,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td rowspan="5">Währungskonversionsratendetails</td>
+      <td rowspan="5">Währungskonversionsrate – Details</td>
       <td>conversionRate</td>
       <td>number</td>
       <td>ConversionRate</td>
@@ -863,7 +864,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>startDate</td>
+      <td>startdate</td>
       <td>Datum</td>
       <td>Startdatum</td>
       <td>Ja</td>
@@ -875,7 +876,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td>ISOCode</td>
       <td>Ja</td>
-      <td>z. B. EUR</td>
+      <td>Zum Beispiel: EUR</td>
     </tr>
     <tr>
       <td></td>
@@ -923,7 +924,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>timestamp</td>
+      <td>Zeitstempel</td>
       <td>Datum-Uhrzeit</td>
       <td>Aktivitätsdatum</td>
       <td>Ja</td>
@@ -936,7 +937,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>z. B. - 333@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -946,7 +947,7 @@ ht-degree: 22%
       <td>Lead-ID oder Kontakt-ID</td>
       <td>Ja</td>
       <td>
-        <p>Beispiel: - 333, je nach der Datenquellentabelle ist dies entweder die Lead-ID oder die Kontakt-ID.</p>
+        <p>Zum Beispiel: 333, je nach der Datenquellentabelle ist dies entweder die Lead-ID oder die Kontakt-ID.</p>
         <p>Fremdschlüssel für Lead oder Kontakt</p>
       </td>
     </tr>
@@ -957,7 +958,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -966,7 +967,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -975,7 +976,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja nur für den Typ leadOperation.addToCampaign</td>
-      <td>z. B. - 55555@999-abc-888.Marketo</td>
+      <td>Zum Beispiel: 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -985,8 +986,8 @@ ht-degree: 22%
       <td>Kampagnen-ID</td>
       <td>Ja nur für den Typ leadOperation.addToCampaign</td>
       <td>
-        <p>z. B. - 55555</p>
-        <p>Fremdschlüssel in Campaign</p>
+        <p>Zum Beispiel: 55555.</p>
+        <p>Fremdschlüssel für Kampagne</p>
       </td>
     </tr>
     <tr>
@@ -996,7 +997,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja nur für den Typ leadOperation.addToCampaign</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -1005,7 +1006,7 @@ ht-degree: 22%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja nur für den Typ leadOperation.addToCampaign</td>
-      <td>Beispiel: Marketo</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -1013,8 +1014,8 @@ ht-degree: 22%
       <td>leadOperation.campaignProgression.campaignKey.sourceKey</td>
       <td>Zeichenfolge</td>
       <td></td>
-      <td>Ja nur für den LeadOperation.campaignProgressionstyp</td>
-      <td>z. B. - 55555@999-abc-888.Marketo</td>
+      <td>Ja nur für den Typ leadOperation.campaignProgression</td>
+      <td>Zum Beispiel: 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -1022,10 +1023,10 @@ ht-degree: 22%
       <td>leadOperation.campaignProgression.campaignKey.sourceId</td>
       <td>Zeichenfolge</td>
       <td>Kampagnen-ID</td>
-      <td>Ja nur für den LeadOperation.campaignProgressionstyp</td>
+      <td>Ja nur für den Typ leadOperation.campaignProgression</td>
       <td>
-        <p>z. B. - 55555</p>
-        <p>Fremdschlüssel in Campaign</p>
+        <p>Zum Beispiel: 55555.</p>
+        <p>Fremdschlüssel für Kampagne</p>
       </td>
     </tr>
     <tr>
@@ -1034,8 +1035,8 @@ ht-degree: 22%
       <td>leadOperation.campaignProgression.campaignKey.sourceInstanceId</td>
       <td>Zeichenfolge</td>
       <td></td>
-      <td>Ja nur für den LeadOperation.campaignProgressionstyp</td>
-      <td>Beispiel: - 999-abc-888</td>
+      <td>Ja nur für den Typ leadOperation.campaignProgression</td>
+      <td>Zum Beispiel: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -1043,13 +1044,13 @@ ht-degree: 22%
       <td>leadOperation.campaignProgression.campaignKey.sourceType</td>
       <td>Zeichenfolge</td>
       <td></td>
-      <td>Ja nur für den LeadOperation.campaignProgressionstyp</td>
-      <td>Beispiel: Marketo</td>
+      <td>Ja nur für den Typ leadOperation.campaignProgression</td>
+      <td>Zum Beispiel: Marketo</td>
     </tr>
   </tbody>
 </table>
 
-## Unterstützter ExperienceEvent-Typ {#experienceevent-type-supported}
+## Typ ExperienceEvent wird unterstützt {#experienceevent-type-supported}
 
 <table style="table-layout:auto">
   <tr>
@@ -1061,64 +1062,64 @@ ht-degree: 22%
     <tr>
       <td>Neuer Lead</td>
       <td>leadOperation.newLead</td>
-      <td>Verwenden Sie , um die Erstellung und Details eines neuen Marketing-Leads aufzuzeichnen.</td>
+      <td>Wird verwendet, um die Erstellung und die Details eines neuen Marketing-Leads aufzuzeichnen</td>
     </tr>
     <tr>
       <td>Lead konvertieren</td>
       <td>leadOperation.convertLead</td>
-      <td>Verwendung, wenn ein Marketing-Lead in einen für den Vertrieb qualifizierten Kontakt umgewandelt wird, der einem Vertriebsbenutzer zugewiesen ist</td>
+      <td>Wird verwendet, wenn ein Marketing-Lead in einen für den Vertrieb qualifizierten Kontakt umgewandelt wird, der einer Vertriebs-Benutzerin bzw einem -Benutzer zugewiesen ist</td>
     </tr>
     <tr>
       <td>Interessanter Moment</td>
       <td>leadOperation.interestingMoment</td>
-      <td>Verwendung zur Verfolgung von Aktivitäten mit hohem Wert durch potenzielle Kunden</td>
+      <td>Wird verwendet, um hochwertige Aktivitäten von potenziellen Kundinnen und Kunden nachzuverfolgen</td>
     </tr>
     <tr>
       <td>Formular ausfüllen</td>
       <td>web.formFilledOut</td>
-      <td>Verwenden Sie , um Details zu erfassen, wenn eine Person ein Formular auf einer Webseite ausfüllt</td>
+      <td>Wird verwendet, um Details zu erfassen, wenn eine Person ein Formular auf einer Web-Seite ausfüllt</td>
     </tr>
     <tr>
       <td>E-Mail abbestellen</td>
       <td>directMarketing.emailUnsubscribed</td>
-      <td>Verwenden Sie , um Details zu erfassen, wenn sich eine Person von einer E-Mail abmeldet.</td>
+      <td>Wird verwendet, um Details zu erfassen, wenn sich eine Person von einer E-Mail abmeldet</td>
     </tr>
     <tr>
       <td>E-Mail öffnen</td>
       <td>directMarketing.emailOpened</td>
-      <td>Verwenden Sie zum Erfassen von Details, wenn eine Person eine Marketing-E-Mail öffnet</td>
+      <td>Wird verwendet zum Erfassen von Details, wenn eine Person eine Marketing-E-Mail öffnet</td>
     </tr>
     <tr>
-      <td>Klicken Sie auf die E-Mail</td>
+      <td>Klicken auf E-Mail</td>
       <td>directMarketing.emailClicked</td>
-      <td>Verwenden Sie zum Erfassen von Details, wenn eine Person auf einen Link in einer Marketing-E-Mail klickt</td>
+      <td>Wird verwendet zum Erfassen von Details, wenn eine Person auf einen Link in einer Marketing-E-Mail klickt</td>
     </tr>
     <tr>
       <td>Status in Entwicklung ändern</td>
       <td>leadOperation.statusInCampaignProgressionChanged</td>
-      <td>Mit können Sie Details erfassen, wenn sich der Status eines Leads in einer Kampagne ändert</td>
+      <td>Wird verwendet, um Details zu erfassen, wenn sich der Status eines Leads in einer Kampagne ändert</td>
     </tr>
     <tr>
-      <td>Hinzufügen zum Interaktionsprogramm (Hinzufügen zur Krankenversicherung)</td>
+      <td>Zum Interaktionsprogramm hinzufügen (Zur Pflege hinzufügen)</td>
       <td>leadOperation.addToCampaign</td>
-      <td>Verwenden Sie , um eine Person zur jeweiligen Kampagne hinzuzufügen.</td>
+      <td>Wird verwendet, um eine Person zur jeweiligen Kampagne hinzuzufügen.</td>
     </tr>
   </tbody>
 </table>
 
-Verwenden Sie den Ereignistyp &quot;Interessanter Moment&quot;für Ereignistypen, die in der obigen Tabelle nicht unterstützt werden. Fügen Sie ein benutzerdefiniertes Feld hinzu, um den Untertyp &quot;Interessanter Moment&quot;anzugeben.
+Der Ereignistyp „Interessanter Moment“ wird für Ereignistypen verwendet, die in der obigen Tabelle nicht unterstützt werden. Fügen Sie ein benutzerdefiniertes Feld hinzu, um den Untertyp „Interessanter Moment“ anzugeben.
 
-## Abfragebeispiele für die Datenprüfung {#query-examples-for-data-inspection}
+## Abfragebeispiele für die Dateninspektion {#query-examples-for-data-inspection}
 
-Im Folgenden finden Sie eine Liste von Beispielen für Abfragen zum Prüfen erfasster Datensätze im AEP Data Lake. Um sie für Ihre Datensätze zu verwenden, ersetzen Sie den Tabellennamen in den unten stehenden Abfragebeispielen durch Ihren tatsächlichen Datensatz-Tabellennamen.
+Im Folgenden finden Sie eine Liste von Abfragebeispielen für die Inspektion von Datensätzen, die in den AEP Data Lake aufgenommen wurden. Um sie für Ihre Datensätze zu verwenden, ersetzen Sie den Tabellennamen in den unten stehenden Abfragebeispielen durch Ihren tatsächlichen Datensatztabellennamen.
 
 Wir gehen davon aus, dass alle Zahlen 0 sind.
 
-Für das Feld &quot;personType&quot;erwarten wir, dass es nur &quot;Lead&quot;- oder &quot;Kontakt&quot;-Werte gibt und kein Nullwert vorhanden ist.
+Für das Feld „personType“ erwarten wir, dass nur die Werte „Lead“ oder „Kontakt“ vorhanden sind und keine Nullwerte.
 
-Für alle &quot;Kontakt&quot;-Personenaufzeichnungen erwarten wir, dass es einen Fremdschlüssel für das Konto gibt.
+Für Personeneinträge des Typs „Kontakt“ erwarten wir, dass es einen Konto-Fremdschlüssel gibt.
 
-Für &quot;Lead&quot;-Personendatensätze ist kein Fremdschlüssel für das Konto vorhanden und nicht erforderlich. Wenn Sie &quot;Lead&quot;-Personenaufzeichnungen als &quot;Kontakt&quot;-Personenaufzeichnungen aufnehmen möchten (was empfohlen wird), ist kein Fremdschlüssel für Konten für diese Personenaufzeichnungen erforderlich.
+Für Personeneinträge des Typs „Lead“ existiert kein Konto-Fremdschlüssel und es ist nicht keiner erforderlich. Wenn Sie Personeneinträge des Typs „Lead“ als Personeneinträge des Typs „Kontakt“ aufnehmen möchten (was empfohlen wird), ist kein Konto-Fremdschlüssel für diese Personeneinträge erforderlich.
 
 ### XDM-Geschäftskonto {#xdm-business-account}
 
@@ -1138,7 +1139,7 @@ union all
 select 'last updated date', count(*) from salesforce_account where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-### XDM Business Campaign {#xdm-business-campaign}
+### XDM-Geschäftskampagne {#xdm-business-campaign}
 
 ```
 select 'campaign source id', count(*) from salesforce_campaign where campaignKey.sourceId is null
@@ -1156,7 +1157,7 @@ union all
 select 'last updated date', count(*) from salesforce_campaign where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-### XDM Business Campaign-Mitglied {#xdm-business-campaign-member}
+### XDM-Geschäftskampagne – Mitglied {#xdm-business-campaign-member}
 
 ```
 select 'campaign member source id', count(*) from salesforce_campaign_member where campaignMemberKey.sourceId is null
@@ -1194,7 +1195,7 @@ union all
 select 'last updated date', count(*) from salesforce_campaign_member where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-### XDM Business Person {#xdm-business-person}
+### XDM-Geschäftsperson {#xdm-business-person}
 
 ```
 select 'person source id', count(*) from marketo_person where b2b.personKey.sourceId is null
@@ -1248,7 +1249,7 @@ union all
 select 'last updated date', count(*) from salesforce_contact where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-### XDM-Geschäftschancen {#xdm-business-opportunity}
+### XDM-Geschäfts-Opportunity {#xdm-business-opportunity}
 
 ```
 select 'opportunity source id', count(*) from salesforce_opportunity where opportunityKey.sourceId is null
@@ -1336,7 +1337,7 @@ union all
 select 'person source key', count(*) from salesforce_task where personKey.sourceKey is null;
 ```
 
-### Konvertierung {#conversion}
+### Konversion {#conversion}
 
 ```
 select 'conversion rate', count(*) from currency_conversion_rate where conversionRate is null
@@ -1362,13 +1363,12 @@ union all
 select 'last updated date', count(*) from salesforce_contact where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-## Empfohlene Lösung für erforderliche Felder mit NULL-Wert {#recommended-solution-for-required-fields-with-a-null-value}
+## Empfohlene Lösung für erforderliche Felder mit Nullwert {#recommended-solution-for-required-fields-with-a-null-value}
 
 Es wird empfohlen, ein berechnetes Feld in der Feldzuordnung zu verwenden, um das Feld standardmäßig auf einen Wert ungleich null zu setzen. Im Folgenden finden Sie zwei Beispiele:
 
-* Wenn OpportunityName einiger Opportunity-Datensätze null ist, erstellen und verwenden Sie das folgende berechnete Feld in der Feldzuordnung
+* Wenn opportunityName für einige Opportunity-Datensätze null ist, erstellen und verwenden Sie das folgende berechnete Feld in der Feldzuordnung
    * `iif(name != null && name != "", name, "Unknown")`
 
-* Wenn die leadOperation.campaignProgression.campaignID einiger Erlebnisereignisdatensätze null ist, erstellen und verwenden Sie das folgende berechnete Feld in der Feldzuordnung
+* Wenn die leadOperation.campaignProgression.campaignID einiger Erlebnisereigniseinträge null ist, erstellen und verwenden Sie das folgende berechnete Feld in der Feldzuordnung
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
-
