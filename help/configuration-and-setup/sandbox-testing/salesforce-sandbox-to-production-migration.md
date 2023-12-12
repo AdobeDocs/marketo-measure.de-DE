@@ -4,10 +4,10 @@ description: Salesforce-Sandbox zur Produktionsmigration [!DNL Marketo Measure] 
 title: Salesforce-Sandbox zur Betreibungsmigration
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: ad658a513b01dc7a51299abcb7313ff1877e49f3
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 6%
+source-wordcount: '322'
+ht-degree: 4%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 Wenn Sie ausgewählt haben, [!DNL Marketo Measure] in einer [!DNL Salesforce] Sandbox-Umgebung verwenden, befolgen Sie diese Anweisungen, um zur Produktion zu migrieren, sobald Sie bereit sind. Bei den folgenden Anweisungen wird davon ausgegangen, dass Sie die [!DNL Marketo Measure] in Ihre Sandbox-Organisation verpacken, die erforderlichen Tests durchführen und bereit sind, Push-Benachrichtigungen durchzuführen [!DNL Marketo Measure] in die Produktion.
 
-## Schritt 1: Installieren [!DNL Marketo Measure] Pakete in Ihrer Produktion [!DNL Salesforce] Instanz {#install-marketo-measure-packages-into-your-production-salesforce-instance}
+## Schritt 1: Installieren Sie die [!DNL Marketo Measure] Package in Ihrer Produktion [!DNL Salesforce] Instanz
 
-* Installieren Sie die beiden [!DNL Marketo Measure] Pakete in die Produktion mit &quot;[!UICONTROL Alle Benutzer]&quot;-Einstellung
+* Installieren Sie die [!DNL Marketo Measure] -Paket in die Produktion mit &quot;[!UICONTROL Alle Benutzer]&quot;-Einstellung
 
    * [Basispaket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
@@ -49,7 +49,7 @@ Wenn Sie ausgewählt haben, [!DNL Marketo Measure] in einer [!DNL Salesforce] Sa
 
 [Seiten-Layouts](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md)
 
-[-Berechtigungssätze](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+[Berechtigungssätze](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
 [Berichte freigeben](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target="_blank"}
 
