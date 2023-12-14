@@ -3,10 +3,10 @@ description: Aktuelle Versionshinweise – [!DNL Marketo Measure] – Produktdok
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
+source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 61%
 
 ---
 
@@ -17,6 +17,69 @@ Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktione
 ## Q4-Version {#q4-release}
 
 <p>
+
+**Web-Traffic-Dashboard**
+
+Die neu entworfene [Web-Traffic-Dashboard](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} ist jetzt für alle Kunden verfügbar. Dieses Dashboard bietet einen vollständigen Überblick über die Besucherinteraktionen Ihrer Website. Sie können Metriken wie Unique Visitors-Zählungen pro URL, Gesamtbesuche, Seitenansichten und Formularübermittlungen von bestimmten Formular-URLs oder Landingpages analysieren. Sie können auch die monatlichen Traffic-Trends verfolgen und leistungsstarke gebührenpflichtige Medien identifizieren, was Ihnen dabei hilft, Ihre Strategien für eine optimale Umsatzgenerierung zu verfeinern.
+
+Die neuen vordefinierten Dashboards sollen in Schüben eingeführt werden und vor Jahresende abgeschlossen werden.
+
+>[!NOTE]
+>
+>Während die aktuellen Dashboards Mitte Januar 2024 eingestellt werden, können Sie bis dahin beide Versionen verwenden, um einen reibungslosen Übergang zu gewährleisten.
+
+**Entfernen von IP-Adressdaten**
+
+Wir entfernen IP-Adressdaten aus unserem langfristigen Speicher, um die Einhaltung der Datenschutzbestimmungen sicherzustellen. Derzeit enthalten die folgenden Snowflake-Tabellen und -Ansichten IP-Adressen. Wir planen, diese Daten zu entfernen und neue Geolocation-Informationen hinzuzufügen:
+
+<table style="width:400px">
+<thead>
+  <tr>
+    <th style="width:50%">Tabellen</th>
+    <th>Ansichten</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>CUSTOMER_AB_TESTS</td>
+    <td>BIZ_CUSTOMER_AB_TESTS</td>
+  </tr>
+  <tr>
+    <td>CUSTOMER_EVENTS</td>
+    <td>BIZ_CUSTOMER_EVENTS</td>
+  </tr>
+  <tr>
+    <td>FORM_SUBMITS</td>
+    <td>BIZ_FORM_SUBMITS</td>
+  </tr>
+  <tr>
+    <td>IMPRESSIONS</td>
+    <td>BIZ_IMPRESSIONS</td>
+  </tr>
+  <tr>
+    <td>PAGE_VIEWS</td>
+    <td>BIZ_PAGE_VIEWS</td>
+  </tr>
+  <tr>
+    <td>SITZUNGEN</td>
+    <td>BIZ_SESSIONS</td>
+  </tr>
+  <tr>
+    <td>WEB_HOST_MAPPINGS</td>
+    <td>BIZ_WEB_HOST_MAPPINGS</td>
+  </tr>
+</tbody>
+</table>
+
+* Ab jetzt werden wir Ländercode, Stadt- und Regionscode anstelle von Landesname, Stadt- und Regionsname herunterladen.
+* Bei der Verarbeitung aller historischen Web-Aktivitäten kann es zu Inkonsistenzen bei standortübergreifenden Informationen kommen. Diese Inkonsistenzen können das Vorhandensein von IP-Adressen ohne Geolocation-Details, aktualisierte Geolocation-Informationen ohne IP-Adressen oder eine Mischung aus Land- oder Regionennamen und -Codes umfassen.
+* _**Dieser Zeitraum mit gemischten Daten wird voraussichtlich vom 01/04/2023 bis zum 29.02.2023 eintreten.**_
+
+**Seitentitel-Daten in URL-Tabelle**
+
+Die URL-Tabelle im [Data Warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} enthält jetzt neben den Webdatentabellen ein Feld für den Seitentitel.
+
+Beachten Sie, dass der Seitentitel in der URL-Tabelle möglicherweise nicht immer mit dem Seitentitel in anderen Web-Tabellen übereinstimmt. Die URL-Tabelle hat den neuesten Seitentitel. Wenn der Titel für die URL geändert wurde, nachdem die Web-Aktivität stattgefunden hat, stimmt er nicht mit dem in der URL-Tabelle vorhandenen Wert überein.
 
 **Entdecken Sie das umgestaltete Dashboard**
 
@@ -39,15 +102,54 @@ Die Einführung der neuen vordefinierten Dashboards erfolgt schrittweise ab der 
 
 <p>
 
-* **Feld „custom_properties“**
+* **Salesforce-Feldveraltungen**
 
-In unserem Data Warehouse dient das Feld „custom_properties“ als Speicher für zusätzliche Datenpunkte, die nicht von unserem festen Schema abgedeckt werden. Aufgrund seines JSON-Formats kann dieses Feld nur eingeschränkt genutzt werden und lässt sich nur schwer in SQL-Anfragen integrieren, was die Leistung beeinträchtigt. Angesichts dieser Faktoren haben wir beschlossen, dieses Feld abzuschaffen. Diese Änderung betrifft hauptsächlich die Datenverarbeitungsschicht in unserem Azure-Tabellenspeicher und die in unser Data Warehouse exportierten Daten.
+Wir werden unsere Exportaufträge an Lead-/Kontaktobjekte schrittweise auslaufen lassen, um unsere Integration zu vereinfachen und den Export in Salesforce-Standardobjekte zu vermeiden. Die unten aufgeführten denormalisierten Felder werden ebenfalls nicht mehr unterstützt, da Kunden dieselben Daten von ihren Touchpoint-Objekten erhalten können. _**Der Zeitplan für die Einstellung ist Juni 2024.**_
+
+<table style="width:300px">
+<tbody>
+  <tr>
+    <td>bizible2__Ad_Campaign_Name_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Ad_Campaign_Name_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Landing_Page_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Landing_Page_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Touchpoint_Date_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Touchpoint_Date_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Touchpoint_Source_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Touchpoint_Source_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Marketing_Channel_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Marketing_Channel_LC__c</td>
+  </tr>
+</tbody>
+</table>
 
 * **Zugehöriges Dynamics-Paket**
 
    * Um mit Dynamics verbunden zu bleiben, müssen Sie das neueste Paket (v6.12) installieren. Ältere Versionen `(<v6.12)` werden nicht länger unterstützt. Diese Aktualisierung optimiert die Erstellung historischer Einträge, um die Speicherbelegung zu reduzieren.
 
    * Die veraltete OAuth-Methode mit einem Aktualisierungs-Token wird nicht mehr unterstützt. In [dieser Anleitung](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} finden Sie Informationen zur Aktualisierung Ihrer Anmeldeinformationen entsprechend der Best Practices von Microsoft zur Verwendung von ClientSecret.
+
+* **Feld „custom_properties“**
+
+In unserem Data Warehouse dient das Feld „custom_properties“ als Speicher für zusätzliche Datenpunkte, die nicht von unserem festen Schema abgedeckt werden. Aufgrund seines JSON-Formats kann dieses Feld nur eingeschränkt genutzt werden und lässt sich nur schwer in SQL-Anfragen integrieren, was die Leistung beeinträchtigt. Angesichts dieser Faktoren haben wir beschlossen, dieses Feld abzuschaffen. Diese Änderung betrifft hauptsächlich die Datenverarbeitungsschicht in unserem Azure-Tabellenspeicher und die in unser Data Warehouse exportierten Daten.
 
 ### Und als Nächstes? {#q4-whats-coming}
 
