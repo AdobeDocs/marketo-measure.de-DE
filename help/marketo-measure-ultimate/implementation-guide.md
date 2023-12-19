@@ -4,10 +4,10 @@ title: '''[!DNL Marketo Measure] Ultimate Implementation Guide"'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
+source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 5%
+source-wordcount: '978'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 EINTRÄGLICHER SATZ
 
-Hauptunterschiede bei der Verwendung von Ultimate im Vergleich zu Standardebenen {#main-differences-when-using-ultimate-over-standard-tiers}
+## Hauptunterschiede bei der Verwendung von Ultimate im Vergleich zu Standardebenen {#main-differences-when-using-ultimate-over-standard-tiers}
 
 Import von B2B-Daten über AEP: Von Marketingexperten wird erwartet, dass sie ihre B2B-Daten (z. B. Konto, Gelegenheit, Kontakt, Lead, Kampagne, Kampagnenmitglied, Aktivität) über AEP importieren. Es können Daten aus nahezu jeder Datenquelle sowie aus mehreren Datenquellen desselben Typs aufgenommen werden, um alle Ihre Daten für die Attribution einzubringen.
 
@@ -36,42 +36,42 @@ Weitere Informationen [Marketo Measure Ultimate](/help/marketo-measure-ultimate/
 
 ## Schemas und Datensätze {#schemas-and-datasets}
 
->[!TIP]
+>[!NOTE]
 >
 >Checkout [Erstellen von Bausteinen eines Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) für eine Übersicht über Schemas, Klassen und Feldergruppen.
 
-XDM-Schema = Klasse + Schemafeldgruppe*
+**XDM-Schema = Klasse + Schemafeldgruppe&#42;**
 
 * Die erforderlichen Felder können nicht geändert werden. Kunden können bei Bedarf benutzerdefinierte Felder erstellen und hinzufügen.
 * Beispiel für einen hierarchiebasierten Feldnamen: accountOrganisation.annualRevenue.amount
 
 &#42; _Ein Schema umfasst eine Klasse und keine oder mehr Schemafeldgruppen. Dies bedeutet, dass Sie ein Datensatzschema ohne die Verwendung von Feldergruppen erstellen können._
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-ExL: Datensatzübersicht: Alle erfolgreich in AEP erfassten Daten werden im Data Lake als Datensätze persistiert. Ein Datensatz ist ein Speicher- und Verwaltungskonstrukt für eine Sammlung von Daten, normalerweise eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält.
+[Datensätze - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): Alle erfolgreich in AEP erfassten Daten werden im Data Lake als Datensätze persistiert. Ein Datensatz ist ein Speicher- und Verwaltungskonstrukt für eine Sammlung von Daten, normalerweise eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält.
 
 ## Erstellen eines Schemas {#creating-a-schema}
 
-Wir empfehlen Kunden, ein Dienstprogramm zur automatischen Generierung zu verwenden, um 10 standardmäßige B2B-Schemas zu erstellen.
+Es wird empfohlen, ein Dienstprogramm zur automatischen Erzeugung zu verwenden, um 10 standardmäßige B2B-Schemas zu erstellen.
 
-Die Schritte zum Herunterladen und Einrichten des Dienstprogramms finden Sie im Abschnitt &quot;Einrichten von B2B-Namespaces und des Dienstprogramm zur automatischen Schemaerstellung&quot;in ExL: B2B-Namespaces und -Schemas
+* Schritte zum Herunterladen und Einrichten des Dienstprogramms [finden Sie hier .](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
 
-Für Kunden mit CDP-Berechtigung: Erstellen Sie Schemas, indem Sie zur Seite Quellen navigieren.
+Für diejenigen mit einer _**Berechtigung CDP**_: Erstellen Sie Schemata, indem Sie zur Seite Quellen navigieren.
 
-Wählen Sie aus einer Quelle Daten hinzufügen > Vorlagen verwenden aus.
+* Wählen Sie aus einer Quelle Daten hinzufügen > Vorlagen verwenden aus.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-Wählen Sie ein Konto und alle B2B-Vorlagen aus, um 10 standardmäßige B2B-Schemata zu erstellen.
+* Wählen Sie ein Konto und alle B2B-Vorlagen aus, um 10 standardmäßige B2B-Schemata zu erstellen.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## Datenflüsse {#dataflows}
 
-ExL: Übersicht über Datenflüsse
+[Datenflüsse - Überblick](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
 
-Schritte zum Erstellen eines Datenflusses:
+**Schritte zum Erstellen eines Datenflusses:**
 
 1. Wählen Sie eine Quelle.
 1. Wählen Sie ein vorhandenes Konto aus oder erstellen Sie ein Konto.
@@ -91,23 +91,30 @@ Schritte zum Erstellen eines Datenflusses:
    >* Sie können einen Datenfluss bearbeiten, die Daten werden jedoch nicht aufgestockt, wenn eine Zuordnung geändert wird.
    >* Wenn ein erforderliches Feld NULL ist, wird der gesamte Fluss zurückgewiesen.
 
-ExL: Marketo Measure Ultimate Data Integrity Requirement
+   >[!NOTE]
+   >
+   >[Marketo Measure Ultimate Data Integrity-Anforderung](help/marketo-measure-ultimate/data-integrity-requirement.md)
 
 1. Legen Sie eine Datenlade-Kadenz fest.
 1. Überprüfen und abschließen.
 1. Aktivieren Sie die Seite &quot;Kontostatus&quot;unter UI-Einstellungen für Datenflug-Status messen .
 
-Überwachung: Quellen > Datenflüsse Seite zum Überprüfen des Status von Datenflüssen Zum Anzeigen der Aktivitätsdetails eines Datensatzes klicken Sie einfach auf den Datensatz Um Datenflaumfehler anzuzeigen, wählen Sie einen Datenfluss aus, wählen Sie einen Datenfluss aus und klicken Sie auf &quot;Fehlerdiagnose-Vorschau&quot;.
+**Überwachung:**
+
+Quellen > Datenflüsse Seite zum Überprüfen des Status von Datenflüssen
+
+* Um die Aktivitätsdetails eines Datensatzes anzuzeigen, klicken Sie einfach auf den Datensatz.
+* Um Datenflussfehler anzuzeigen, wählen Sie einen Datenfluss aus, wählen Sie einen Datenfluss aus und klicken Sie auf &quot;Fehlerdiagnose-Vorschau&quot;.
 
 ## Datenkontrolle {#data-inspection}
 
-ExL: Marketo Measure Ultimate Data Integrity Requirement Dieses Dokument enthält erforderliche Felder für jedes XDM sowie Inspektionsabfragen. Es wird in ExL veröffentlicht.
+ExL: Marketo Measure Ultimate Data Integrity Requirement Dieses Dokument enthält erforderliche Felder für jedes XDM sowie Inspektionsabfragen. Es wird in ExL veröffentlicht. - ES IST BEREITS OBEN GETAGGT - POST ES ERNEUT??
 
 Option 1: Um Abfragen direkt über die Benutzeroberfläche auszuführen, rufen Sie die Registerkarte Abfragen unter Data Management auf.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Option 2: Herunterladen und Verwenden von PSQL (schneller und zuverlässiger) ExL: Anbinden von PSQL an Query Service
+Option 2: [Herunterladen und Verwenden von PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (schneller und zuverlässiger)
 
 ## Datensatz für Marketo Measure aktivieren {#activate-dataset-for-marketo-measure}
 
@@ -118,35 +125,46 @@ Bevor Sie beginnen, gehen Sie zum Abschnitt &quot;Experience Platform > Sandbox-
 >Dieser Wert kann nach Auswahl nicht mehr geändert werden.
 
 1. Gehen Sie in AEP zu &quot;Ziele > Marketo Measure-Seite&quot;, um Datensätze zu exportieren.
-
 1. Konfigurieren Sie das Ziel.
-
 1. Datensatz aktivieren.
-
 1. Aktivieren Sie die Seite &quot;Kontostatus&quot;unter UI-Einstellungen für Datenflug-Status messen .
 
-Zu beachten: Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Quelle können nur in einen Datensatz übertragen werden. Jeder Datensatz kann in nur einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss zur Laufzeit.
-Löschen Sie das gesamte Ziel in AEP, um Daten in Measurement zu löschen. Durch die Deaktivierung werden nur neue Datenexporte gestoppt und alte Daten beibehalten.
-Die Konfiguration der Messung wird größtenteils gleich aussehen, aber einige Teile wie die Staging-Zuordnung sehen anders aus.
-Es dauert einige Stunden, bis ein neuer Datenfluss einen Fluss generiert, und dann treten sie in regelmäßigen stündlichen Intervallen auf.
+>[!NOTE]
+>
+>* Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Quelle können nur in einen Datensatz übertragen werden. Jeder Datensatz kann in nur einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss in der Laufzeit.
+>* Löschen Sie das gesamte Ziel in AEP, um Daten in Measurement zu löschen. Durch die Deaktivierung werden nur neue Datenexporte gestoppt und alte Daten beibehalten.
+>* Die Konfiguration der Messung wird größtenteils gleich aussehen, aber einige Teile wie die Staging-Zuordnung sehen anders aus.
+>* Es dauert einige Stunden, bis ein neuer Datenfluss einen Fluss generiert, und dann treten sie in regelmäßigen stündlichen Intervallen auf.
 
-In Maßnahme muss die Standardwährung im Abschnitt &quot;Währung&quot;festgelegt werden. Wenn Kunden mehrere Währungen verwenden, muss das Schema der Währungsumrechnung in AEP eingetragen sein, damit wir es lesen und für Konversionen verwenden können.
+In Maßnahme muss die Standardwährung im Abschnitt &quot;Währung&quot;festgelegt werden.
 
-Staging-Zuordnung Wir importieren nicht automatisch Phasen aus Kundendaten, daher müssen alle Phasen manuell zugeordnet werden.
+* Wenn Sie mehrere Währungen verwenden, muss das Schema der Währungsumrechnung in AEP eingetragen sein, damit wir es lesen und für Konversionen verwenden können.
 
-Benutzer können Bühnen aus verschiedenen Quellen zuordnen.
+**Staging-Zuordnung:**
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+Wir importieren nicht automatisch Phasen aus Benutzerdaten, daher müssen alle Phasen manuell zugeordnet werden.
+
+* Benutzer können Bühnen aus verschiedenen Quellen zuordnen.
+
+![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 Wenn die Bühnen nicht zugeordnet sind, funktioniert das System nicht, da die Daten nicht weitergegeben werden können.
-Regeln für Kampagnenmitglieder müssen einen Datensatz auswählen und Regeln für jeden festlegen.
 
-Regeln für Erlebnisereignisse müssen einen Datensatz auswählen und Aktivitätstypen auswählen.
-Benutzerdefinierte Aktivitäten werden noch nicht unterstützt.
-Wenn der Kunde über Aktivitäten verfügt, die nicht zu den verfügbaren Optionen passen, empfehlen wir, diese als &quot;interessante Momente&quot;zu kategorisieren und benutzerdefinierte Felder zu verwenden, um sie zu unterscheiden.
+**Kampagnenmitgliedsregeln:**
 
-Offline-Kanäle Wir führen keine dataset-spezifischen Kanalzuordnungsregeln durch, daher wäre dies global.
-Wir müssen schließlich sowohl den CRM-Kampagnentyp als auch den Kanal abgleichen. Zunächst können wir jedoch den Kanalnamen beiden Feldern als Problemumgehung zuordnen.
-Kanalregeln: Aufstockte Daten enthalten keine Daten zur Staging-Transition.
+Sie müssen einen Datensatz auswählen und Regeln für jeden festlegen.
+
+**Erlebnisereignisregeln:**
+
+Sie müssen einen Datensatz auswählen und Aktivitätstypen auswählen.
+
+* Benutzerdefinierte Aktivitäten werden noch nicht unterstützt.
+* Wenn der Kunde über Aktivitäten verfügt, die nicht zu den verfügbaren Optionen passen, empfehlen wir, diese als &quot;interessante Momente&quot;zu kategorisieren und benutzerdefinierte Felder zu verwenden, um sie zu unterscheiden.
+
+**Offline-Kanäle:**
+
+* Wir führen keine dataset-spezifischen Kanalzuordnungsregeln durch, daher wäre dies global.
+* Wir müssen schließlich sowohl den CRM-Kampagnentyp als auch den Kanal abgleichen. Zunächst können wir jedoch den Kanalnamen beiden Feldern als Problemumgehung zuordnen.
+* **Kanalregeln: Aufstockte Daten enthalten keine Daten zur Staging-Transition.**
 
 Die Einstellungen für Touchpoint und Segment bleiben unverändert.
