@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
-source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 99%
 
 ---
 
@@ -152,13 +152,16 @@ ht-degree: 100%
    + Dashboards {#dashboards}
       + [Entdecken Sie die Grundlagen von Dashboards](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Neues Handbuch zum Entdecken von Dashboards](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [Dashboard „Umsatzübersicht“](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [Dashboard „Zugewiesener Umsatz“](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-        [Interaktions-Dashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [ROI-Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [Passport-Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [Webtraffic-Dashboard](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
       + [Dashboard-Richtlinie zur Datentransparenz](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Dashboard „Zugewiesener Umsatz“](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Interaktions-Dashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Lead-Velocity-Dashboard](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Opportunity Velocity-Dashboard](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Passport-Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Dashboard „Umsatzübersicht“](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [ROI-Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Webtraffic-Dashboard](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+
    + Veraltete Dashboards {#legacy-dashboards}
       + [Dokumentation zum Kohorten-Journey-Dashboard](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Dokumentation zum Passport-Dashboard](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
