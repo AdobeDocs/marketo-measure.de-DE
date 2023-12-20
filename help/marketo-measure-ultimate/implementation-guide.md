@@ -1,19 +1,17 @@
 ---
 description: '[!DNL Marketo Measure] Ultimate-Implementierungshandbuch - [!DNL Marketo Measure] - Produktdokumentation'
 title: '''[!DNL Marketo Measure] Ultimate Implementation Guide"'
-hide: true
-hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
+source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '966'
 ht-degree: 6%
 
 ---
 
 # [!DNL Marketo Measure] Ultimate-Implementierungshandbuch {#marketo-measure-ultimate-implementation-guide}
 
-EINTRÄGLICHER SATZ
+Dieser Artikel dient als Implementierungshandbuch für Marketo Measure Ultimate und bietet klare Schritte und Einblicke, um eine erfolgreiche Integration und Nutzung sicherzustellen.
 
 ## Hauptunterschiede bei der Verwendung von Ultimate im Vergleich zu Standardebenen {#main-differences-when-using-ultimate-over-standard-tiers}
 
@@ -84,7 +82,7 @@ Für diejenigen mit einer _**Berechtigung CDP**_: Erstellen Sie Schemata, indem 
    >* Wenn Sie einen Schematyp einem anderen identischen Typ zuordnen, erfolgt dies automatisch.
    >* Sie können die Zuordnung auch aus einem anderen Fluss im System importieren.
    >* Sie können ein Quellfeld mehreren Zielfeldern zuordnen, aber nicht das Gegenteil.
-   >* Sie können berechnete Felder erstellen (z. B. Zuordnungsfunktionen für die Datenvorbereitung).
+   >* Sie können berechnete Felder erstellen ([Zuordnungsfunktionen für Datenvorbereitung](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Quellen > Datenflüsse Seite zum Überprüfen des Status von Datenflüssen
 * Um Datenflussfehler anzuzeigen, wählen Sie einen Datenfluss aus, wählen Sie einen Datenfluss aus und klicken Sie auf &quot;Fehlerdiagnose-Vorschau&quot;.
 
 ## Datenkontrolle {#data-inspection}
-
-ExL: Marketo Measure Ultimate Data Integrity Requirement Dieses Dokument enthält erforderliche Felder für jedes XDM sowie Inspektionsabfragen. Es wird in ExL veröffentlicht. - ES IST BEREITS OBEN GETAGGT - POST ES ERNEUT??
 
 Option 1: Um Abfragen direkt über die Benutzeroberfläche auszuführen, rufen Sie die Registerkarte Abfragen unter Data Management auf.
 
