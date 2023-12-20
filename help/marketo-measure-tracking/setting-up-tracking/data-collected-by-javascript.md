@@ -2,7 +2,7 @@
 description: Von JavaScript erfasste Daten - [!DNL Marketo Measure] - Produktdokumentation
 title: Von JavaScript erfasste Daten
 feature: Tracking
-source-git-commit: 2be08b96fb9f6d027e80751db64f16a7f2893764
+source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 8%
@@ -49,25 +49,25 @@ Marketo Measure erfasst die folgenden allgemeinen Daten für alle Anforderungsty
     <td>Abfrageparameter</td>
     <td>_biz_u</td>
     <td>Zeichenfolge</td>
-    <td>Bizible-Cookie-ID</td>
+    <td>Bizible-Cookie-ID.</td>
   </tr>
   <tr>
     <td>Abfrageparameter</td>
     <td>_biz_l</td>
     <td>Zeichenfolge</td>
-    <td>Aktuelle Seiten-URL</td>
+    <td>Aktuelle Seiten-URL.</td>
   </tr>
   <tr>
     <td>Abfrageparameter</td>
     <td>_biz_t</td>
     <td>long</td>
-    <td>Aktivitätszeitstempel</td>
+    <td>Zeitstempel der Aktivität.</td>
   </tr>
   <tr>
     <td>Abfrageparameter</td>
     <td>_biz_i</td>
     <td>Zeichenfolge</td>
-    <td>Aktueller Seitentitel</td>
+    <td>Aktueller Seitentitel.</td>
   </tr>
 </tbody>
 </table>
@@ -104,7 +104,7 @@ Zusätzlich zu den oben genannten allgemeinen Daten hängt bizible.js auch zusä
     <td></td>
     <td>_biz_c</td>
     <td>Zeichenfolge</td>
-    <td>Optionaler Parameter. Wenn dieser Parameter vorhanden ist, zeigt er an, dass der Mandant bizible.js so konfiguriert, dass vor dem Tracking auf die Zustimmung der Benutzer gewartet wird, und dass bizible.js die Zustimmung des Benutzers erhalten hat, verfolgt zu werden.</td>
+    <td>Optionaler Parameter. Wenn dieser Parameter vorhanden ist, zeigt er an, dass der Mandant bizible.js so konfiguriert, dass vor dem Tracking auf die Zustimmung des Benutzers gewartet wird, und dass bizible.js die Zustimmung des Benutzers erhalten hat, verfolgt zu werden.</td>
   </tr>
   <tr>
     <td>Formularübermittlungen</td>
