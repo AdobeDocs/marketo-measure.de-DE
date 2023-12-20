@@ -4,7 +4,7 @@ title: Übersicht über Integrationsberechtigungen
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
+source-git-commit: 1c3cd5ac9999550003765a9e1ed8d538224fe8a9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 4%
@@ -33,24 +33,24 @@ In diesem Handbuch werden die erforderlichen Berechtigungen für die nahtlose In
     <td>B2B-Systemdaten    
 </td>
     <td>Marketo Measure verfolgt Folgendes:
-    <br>
+    <p>
     <li>Konto</li>
-<li>Kampagne</li>
-<li>CampaignMember</li>
-<li>Kontakt</li>
-<li>CurrencyConversionRange</li>
-<li>CurrencyStatus</li>
-<li>Ereignisse</li>
-<li>FieldHistory (Lead, Kontakt und Chancen)</li>
-<li>Lead</li>
-<li>Opportunity</li>
-<li>OpportunityContactRole</li>
-<li>OpportunityHistory</li>
-<li>Aufgaben</li>
-<br>
+    <li>Kampagne</li>
+    <li>CampaignMember</li>
+    <li>Kontakt</li>
+    <li>CurrencyConversionRange</li>
+    <li>CurrencyStatus</li>
+    <li>Ereignisse</li>
+    <li>FieldHistory (Lead, Kontakt und Chancen)</li>
+    <li>Lead</li>
+    <li>Opportunity</li>
+    <li>OpportunityContactRole</li>
+    <li>OpportunityHistory</li>
+    <li>Aufgaben</li>
+<p>
 Die erstellten Touchpoints und andere Daten werden in benutzerdefinierte bizible Felder in Konto, Kampagne, CampaignMember, Case, Contact, Lead und Opportunity geschrieben.</td>
-    <td><b>Salesforce-Benutzerberechtigungen (erforderlich)</b>
-    <br>
+    <td><b>Salesforce Connected User Permissions (erforderlich)</b>
+    <p>
     <b>Marketo Measure-Administratorberechtigungssatz für dedizierte Benutzer:</b> Erlauben Sie dem SFDC-Administrator, CRUD-Vorgänge auf Marketo durchzuführen, um Objekte zu messen.
     <br>
     <b>Berechtigungssatz für konvertierte Leads anzeigen und bearbeiten:</b> Dadurch kann Marketo Measure Leads dekorieren, nachdem sie in Kontakte konvertiert wurden.
