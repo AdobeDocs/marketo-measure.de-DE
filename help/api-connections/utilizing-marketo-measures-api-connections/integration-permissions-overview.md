@@ -4,7 +4,7 @@ title: Übersicht über Integrationsberechtigungen
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
+source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 4%
@@ -18,13 +18,13 @@ In diesem Handbuch werden die erforderlichen Berechtigungen für die nahtlose In
 <table>
 <thead>
   <tr>
-    <th>Integration</th>
-    <th>Datentyp
+    <th style="width:10%">Integration</th>
+    <th style="width:20%">Datentyp
     <li>Web-Interaktionsdaten</li>
     <li>B2B-Systemdaten</li>
     <li>Anzeigenplattformdaten</li></th>
-    <th>Was wir verfolgen</th>
-    <th>Berechtigungsanforderungen</th>
+    <th style="width:30%">Was wir verfolgen</th>
+    <th style="width:40%">Berechtigungsanforderungen</th>
   </tr>
 </thead>
 <tbody>
