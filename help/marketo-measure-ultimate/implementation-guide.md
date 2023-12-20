@@ -4,7 +4,7 @@ title: '''[!DNL Marketo Measure] Ultimate Implementation Guide"'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
+source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 6%
@@ -32,13 +32,13 @@ Ultimate-Benutzer erhalten AEP. Wenn sie bereits über AEP verfügen, werden wir
 
 * Die bereitgestellte AEP-Version umfasst alle Quell-Connectoren, Schemadaten-Modellierung, Datensätze, Ad-hoc-Abfragedienste und ein Ziel nur für Marketo Measure.
 
-Weitere Informationen [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md).
+Weitere Informationen [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
 ## Schemas und Datensätze {#schemas-and-datasets}
 
 >[!NOTE]
 >
->Checkout [Erstellen von Bausteinen eines Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) für eine Übersicht über Schemas, Klassen und Feldergruppen.
+>Checkout [Erstellen von Bausteinen eines Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} für eine Übersicht über Schemas, Klassen und Feldergruppen.
 
 **XDM-Schema = Klasse + Schemafeldgruppe&#42;**
 
@@ -49,13 +49,13 @@ Weitere Informationen [Marketo Measure Ultimate](/help/marketo-measure-ultimate/
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[Datensätze - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): Alle erfolgreich in AEP erfassten Daten werden im Data Lake als Datensätze persistiert. Ein Datensatz ist ein Speicher- und Verwaltungskonstrukt für eine Sammlung von Daten, normalerweise eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält.
+[Datensätze - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}: Alle erfolgreich in AEP erfassten Daten werden im Data Lake als Datensätze persistiert. Ein Datensatz ist ein Speicher- und Verwaltungskonstrukt für eine Sammlung von Daten, normalerweise eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält.
 
 ## Erstellen eines Schemas {#creating-a-schema}
 
 Es wird empfohlen, ein Dienstprogramm zur automatischen Erzeugung zu verwenden, um 10 standardmäßige B2B-Schemas zu erstellen.
 
-* Schritte zum Herunterladen und Einrichten des Dienstprogramms [finden Sie hier .](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
+* Schritte zum Herunterladen und Einrichten des Dienstprogramms [finden Sie hier .](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
 Für diejenigen mit einer _**Berechtigung CDP**_: Erstellen Sie Schemata, indem Sie zur Seite Quellen navigieren.
 
@@ -69,7 +69,7 @@ Für diejenigen mit einer _**Berechtigung CDP**_: Erstellen Sie Schemata, indem 
 
 ## Datenflüsse {#dataflows}
 
-[Datenflüsse - Überblick](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
+[Datenflüsse - Überblick](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
 **Schritte zum Erstellen eines Datenflusses:**
 
@@ -93,7 +93,7 @@ Für diejenigen mit einer _**Berechtigung CDP**_: Erstellen Sie Schemata, indem 
 
    >[!NOTE]
    >
-   >[Marketo Measure Ultimate Data Integrity-Anforderung](help/marketo-measure-ultimate/data-integrity-requirement.md)
+   >[Marketo Measure Ultimate Data Integrity-Anforderung](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
 1. Legen Sie eine Datenlade-Kadenz fest.
 1. Überprüfen und abschließen.
@@ -114,7 +114,7 @@ Option 1: Um Abfragen direkt über die Benutzeroberfläche auszuführen, rufen S
 
 ![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Option 2: [Herunterladen und Verwenden von PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (schneller und zuverlässiger)
+Option 2: [Herunterladen und Verwenden von PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (schneller und zuverlässiger).
 
 ## Datensatz für Marketo Measure aktivieren {#activate-dataset-for-marketo-measure}
 
