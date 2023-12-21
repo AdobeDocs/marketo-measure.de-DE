@@ -4,9 +4,9 @@ title: Übersicht über Integrationsberechtigungen
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 1c3cd5ac9999550003765a9e1ed8d538224fe8a9
+source-git-commit: d7ded9075f7f5831314d59294327f1e4928baf8a
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '636'
 ht-degree: 4%
 
 ---
@@ -68,55 +68,118 @@ Die erstellten Touchpoints und andere Daten werden in benutzerdefinierte bizible
     </td>
   </tr>
   <tr>
-    <td></td>
+    <td>Dynamics</td>
+    <td>B2B-Systemdaten</td>
+    <td>Marketo Measure verfolgt Folgendes:
+    <p>
+    <li>Konto
+<li>ActivityParty
+<li>ActivityPointer
+<li>Kampagne
+<li>CampaignItem (CampaignList in unserem System)
+<li>CampaignResponse (CampaignMember in unserem System)
+<li>Kontakt
+<li>Lead
+<li>List (MarketingList in unserem System)
+<li>ListMember (MarketingListMember in unserem System)
+<li>Opportunity
+<li>Organisation
+<li>TransactionCurrency (CurrencyConversionRange und CurrencyStatus in unserem System)
+<li>Termin, CampaignActivity, E-Mail, Fax, IncidentResolution, Brief, PhoneCall, RecurringAppointingMaster, ServiceAppointing, Task
+<li>bizible2_bizible_abtest
+<li>bizible2_bizible_attribution_touchpoint
+<li>bizible2_bizible_event
+<li>bizible2_bizible_history
+<li>bizible2_bizible_touchpoint
+<p>
+Die erstellten Touchpoints und andere Daten werden in benutzerdefinierte bizible Felder in Konto, Kampagne, CampaignResponse, Kontakt, Lead, Liste, Chancen und PhoneCall geschrieben.</td>
+    <td><b>Marketo Measure-Benutzerberechtigungen</b>
+<p>
+Es wird empfohlen, in Dynamics einen dedizierten Marketo Measure-Benutzer zu erstellen, über den Daten exportiert und importiert werden können, um Probleme mit anderen Benutzern in Ihrem CRM-System zu vermeiden. Notieren Sie sich den Benutzernamen und das Kennwort sowie die Endpunkt-URL, da diese bei der Erstellung des Marketo Measure-Kontos verwendet wird.
+<p>
+<b>Sicherheitsrollen</b>
+<p>
+Wenn Ihr Unternehmen Dynamics-Sicherheitsrollen verwendet, stellen Sie sicher, dass der verbundene Benutzer oder der dedizierte Marketo Measure-Benutzer über ausreichende Lese-/Schreibberechtigungen für die erforderlichen Entitäten verfügt.
+<br>
+Sicherheitsrollen finden Sie hier: Einstellungen &gt; Sicherheit &gt; Sicherheitsrollen .
+<br>
+Für benutzerdefinierte Marketo Measure-Entitäten benötigen wir vollständige Berechtigungen für alle unsere Entitäten.
+<p>
+<b>Feldberechtigungen in Dynamics Standard</b>
+<br>
+<a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics-Schema</a>
+<p>
+<b>Benutzerdefinierte Feldberechtigungen in Dynamics</b>
+<br>
+Wir benötigen LESE-Zugriff für jedes Feld in der Lead- oder Kontaktentität, das der Kunde für benutzerdefinierte Regeln für die Unterdrücken/Entfernen von Touchpoint-Einstellungen verwenden möchte.
+<br>
+Wir benötigen LESE-Zugriff für jedes Feld in der Lead- oder Opportunity-Entität, das der Kunde für Segmentregeln oder Staging-Mapping verwenden möchte.
+<br>
+Wir benötigen LESE-Zugriff für jedes Feld in den Kampagnen-, CampaignResponse- und List-Entitäten, die der Kunde für die Synchronisierung von Campaign-/MarketingList-Mitgliedern verwenden möchte.
+</td>
+  </tr>
+  <tr>
+    <td>Facebook</td>
+    <td>Anzeigenplattformdaten</td>
+    <td>Die Integration mit Facebook erfolgt in:
+<p>
+<li>Importieren von Kundenanzeigendaten</li>
+<li>Importieren von Kundenwerbungskosten</li>
+<li>Aktualisieren der Anzeigen des Kunden durch Anhängen von URL-Parametern</li>
+<p>
+Marketo Measure verfolgt Konten, Kampagnen, Anzeigengruppen, Anzeigen, Filter-IDs und URLs.</td>
+    <td><li>Die Berechtigung ads_management ist erforderlich, um Kampagnen zu erstellen, Anzeigen zu verwalten oder Anzeigenmetriken abzurufen.</li>
+<li>Die E-Mail-Berechtigung ist erforderlich, damit sich Benutzer in ihrer Facebook-E-Mail anmelden können.</li>
+<p>
+<b>Bereiche</b>
+<p>
+<a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
+<br>
+<li>Programmgesteuerte Erstellung von Kampagnen, Verwaltung von Anzeigen und Abrufen von Metriken.</li>
+<li>Erstellen Sie Tools für das Anzeigen-Management, die innovative Lösungen und einen differenzierten Nutzen für Advertiser bieten.</li>
+<p>
+<a href="https://developers.facebook.com/docs/permissions/reference/email">email</a>
+<br>
+<li>Kommunikation mit Personen und deren Anmeldung bei der App mit der mit ihrem Facebook-Profil verknüpften E-Mail-Adresse.</li></td>
+  </tr>
+  <tr>
+    <td>LinkedIn</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>DoubleClick</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>AdWords</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>Bing</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
+    <td>Marketo Engage</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
+    <td>Adobe Analytics</td>
     <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bizible JavaScript</td>
     <td></td>
     <td></td>
     <td></td>
