@@ -4,9 +4,9 @@ title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktione
 
 <p>
 
-**Web-Traffic-Dashboard**
+**Webtraffic-Dashboard**
 
-Die neu entworfene [Web-Traffic-Dashboard](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} ist jetzt für alle Kunden verfügbar. Dieses Dashboard bietet einen vollständigen Überblick über die Besucherinteraktionen Ihrer Website. Sie können Metriken wie Unique Visitors-Zählungen pro URL, Gesamtbesuche, Seitenansichten und Formularübermittlungen von bestimmten Formular-URLs oder Landingpages analysieren. Sie können auch die monatlichen Traffic-Trends verfolgen und leistungsstarke gebührenpflichtige Medien identifizieren, was Ihnen dabei hilft, Ihre Strategien für eine optimale Umsatzgenerierung zu verfeinern.
+Das neu gestaltete [Webtraffic-Dashboard](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} ist jetzt für alle Kundinnen und Kunden verfügbar. Dieses Dashboard bietet einen vollständigen Überblick über die Besucherinteraktionen Ihrer Website. Sie können Metriken wie Unique Visitors-Zählungen pro URL, Gesamtbesuche, Seitenansichten und Formularübermittlungen von bestimmten Formular-URLs oder Landing Pages analysieren. Sie können auch die monatlichen Traffic-Trends verfolgen und leistungsstarke bezahlte Medien identifizieren, was Ihnen dabei hilft, Ihre Strategien für eine optimale Umsatzgenerierung zu präzisieren.
 
-Die neuen vordefinierten Dashboards sollen in Schüben eingeführt werden und vor Jahresende abgeschlossen werden.
+Die Einführung der neuen vordefinierten Dashboards erfolgt in Wellen und wird vor Jahresende abgeschlossen sein.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Die neuen vordefinierten Dashboards sollen in Schüben eingeführt werden und vo
 
 **Entfernen von IP-Adressdaten**
 
-Wir entfernen IP-Adressdaten aus unserem langfristigen Speicher, um die Einhaltung der Datenschutzbestimmungen sicherzustellen. Derzeit enthalten die folgenden Snowflake-Tabellen und -Ansichten IP-Adressen. Wir planen, diese Daten zu entfernen und neue Geolocation-Informationen hinzuzufügen:
+Wir entfernen IP-Adressdaten aus unserem langfristigen Speicher, um die Einhaltung von Datenschutzbestimmungen sicherzustellen. Derzeit enthalten die folgenden Snowflake-Tabellen und -Ansichten IP-Adressen. Wir planen, diese Daten zu entfernen und neue Geolokationsinformationen hinzuzufügen:
 
 <table style="width:400px">
 <thead>
@@ -61,7 +61,7 @@ Wir entfernen IP-Adressdaten aus unserem langfristigen Speicher, um die Einhaltu
     <td>BIZ_PAGE_VIEWS</td>
   </tr>
   <tr>
-    <td>SITZUNGEN</td>
+    <td>SESSIONS</td>
     <td>BIZ_SESSIONS</td>
   </tr>
   <tr>
@@ -71,13 +71,13 @@ Wir entfernen IP-Adressdaten aus unserem langfristigen Speicher, um die Einhaltu
 </tbody>
 </table>
 
-* Ab jetzt werden wir Ländercode, Stadt- und Regionscode anstelle von Landesname, Stadt- und Regionsname herunterladen.
-* Bei der Verarbeitung aller historischen Web-Aktivitäten kann es zu Inkonsistenzen bei standortübergreifenden Informationen kommen. Diese Inkonsistenzen können das Vorhandensein von IP-Adressen ohne Geolocation-Details, aktualisierte Geolocation-Informationen ohne IP-Adressen oder eine Mischung aus Land- oder Regionennamen und -Codes umfassen.
-* _**Dieser Zeitraum mit gemischten Daten wird voraussichtlich vom 01/04/2023 bis zum 29.02.2023 eintreten.**_
+* Ab jetzt werden wir Landes-Code, Stadt-Code und Regions-Code anstelle von Landesname, Stadtname und Regionsname herunterladen.
+* Bei der Verarbeitung aller historischen Web-Aktivitäten kann es zu Inkonsistenzen bei Standortinformationen über verschiedene Einträge hinweg kommen. Diese Inkonsistenzen können das Vorhandensein von IP-Adressen ohne Geolokationsinformationen, aktualisierte Geolokationsinformationen ohne IP-Adressen oder eine Mischung aus Länder- oder Regionennamen und -Codes umfassen.
+* _**Dieser Zeitraum mit gemischten Daten wird voraussichtlich vom 04.01.2023 bis zum 28.02.2023 eintreten.**_
 
 **Seitentitel-Daten in URL-Tabelle**
 
-Die URL-Tabelle im [Data Warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} enthält jetzt neben den Webdatentabellen ein Feld für den Seitentitel.
+Die URL-Tabelle im [Data Warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} enthält jetzt neben den Web-Daten-Tabellen ein Feld für den Seitentitel.
 
 Beachten Sie, dass der Seitentitel in der URL-Tabelle möglicherweise nicht immer mit dem Seitentitel in anderen Web-Tabellen übereinstimmt. Die URL-Tabelle hat den neuesten Seitentitel. Wenn der Titel für die URL geändert wurde, nachdem die Web-Aktivität stattgefunden hat, stimmt er nicht mit dem in der URL-Tabelle vorhandenen Wert überein.
 
@@ -102,9 +102,9 @@ Die Einführung der neuen vordefinierten Dashboards erfolgt schrittweise ab der 
 
 <p>
 
-* **Salesforce-Feldveraltungen**
+* **Einstellung von Salesforce-Feldern**
 
-Wir werden unsere Exportaufträge an Lead-/Kontaktobjekte schrittweise auslaufen lassen, um unsere Integration zu vereinfachen und den Export in Salesforce-Standardobjekte zu vermeiden. Die unten aufgeführten denormalisierten Felder werden ebenfalls nicht mehr unterstützt, da Kunden dieselben Daten von ihren Touchpoint-Objekten erhalten können. _**Der Zeitplan für die Einstellung ist Juni 2024.**_
+Wir werden unsere Exportaufträge an Lead-/Kontaktobjekte schrittweise auslaufen lassen, um unsere Integration zu vereinfachen und den Export in Salesforce-Standardobjekte zu vermeiden. Die unten aufgeführten denormalisierten Felder werden ebenfalls nicht mehr unterstützt, da Kundinnen und Kunden dieselben Daten von ihren Touchpoint-Objekten erhalten können. _**Der Zeitplan für die Einstellung ist Juni 2024.**_
 
 <table style="width:300px">
 <tbody>
