@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
 source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 98%
 + API-Verbindungen {#api-connections}
    + Ausnutzen der API-Verbindungen von [!DNL Marketo Measure] {#utilizing-marketo-measures-api-connections}
       + [Integrierte Anzeigenplattformen](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
-      + [Übersicht über Integrationsberechtigungen](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
+      + [Überblick über Integrationsberechtigungen](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [Best Practices für API-Verbindungen](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
       + [Auswirkungen der Bid-Management-Tools auf [!DNL Marketo Measure]](api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
       + [[!DNL Marketo Measure]-Parameter](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
@@ -154,11 +154,11 @@ ht-degree: 98%
    + Dashboards {#dashboards}
       + [Entdecken Sie die Grundlagen von Dashboards](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Neues Handbuch zum Entdecken von Dashboards](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [Dashboard-Richtlinie zur Datentransparenz](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Richtlinie zur Dashboard-Datentransparenz](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
       + [Dashboard „Zugewiesener Umsatz“](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [Interaktions-Dashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [Lead-Velocity-Dashboard](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
-      + [Opportunity Velocity-Dashboard](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Dashboard „Lead-Geschwindigkeit“](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Dashboard „Opportunity-Geschwindigkeit“](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
       + [Passport-Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
       + [Dashboard „Umsatzübersicht“](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [ROI-Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
