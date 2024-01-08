@@ -1,17 +1,17 @@
 ---
-description: Von JavaScript erfasste Daten - [!DNL Marketo Measure] - Produktdokumentation
+description: Von JavaScript erfasste Daten –  [!DNL Marketo Measure]  – Produktdokumentation
 title: Von JavaScript erfasste Daten
 feature: Tracking
 source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 # Von JavaScript erfasste Daten {#data-collected-by-javascript}
 
-Erfahren Sie mehr über die von Marketo Measure JavaScript bei der Bereitstellung erfassten Daten.
+Erfahren Sie mehr über die Daten, die von Marketo Measure JavaScript bei der Bereitstellung erfasst werden.
 
 **Beispielanfrage:**
 
@@ -21,7 +21,7 @@ https://cdn.bizible.com/m/ipv?_biz_r=https%3A%2F%2Fwww.google.com%2F&_biz_h=-180
 
 <br>
 
-Marketo Measure erfasst die folgenden allgemeinen Daten für alle Anforderungstypen:
+Marketo Measure erfasst die folgenden allgemeinen Daten für alle Anfragetypen:
 
 <table>
 <thead>
@@ -34,28 +34,28 @@ Marketo Measure erfasst die folgenden allgemeinen Daten für alle Anforderungsty
 </thead>
 <tbody>
   <tr>
-    <td>Anforderungs-Header</td>
+    <td>Anfragen-Header</td>
     <td>IP-Adresse</td>
-    <td>Zeichenfolge</td>
-    <td>Der Standort des Benutzers wird durch die GeoIP-Suche ermittelt. Diese Daten sind temporär und nicht dauerhaft gespeichert.</td>
+    <td>string</td>
+    <td>Der Standort des Benutzers oder der Benutzerin wird durch eine GeoIP-Suche ermittelt. Diese Daten sind temporär und nicht dauerhaft gespeichert.</td>
   </tr>
   <tr>
-    <td>Anforderungs-Header</td>
-    <td>Benutzeragenten-Zeichenfolge</td>
-    <td>Zeichenfolge</td>
-    <td>Bestimmt, welches Gerät der Benutzer verwendet.</td>
+    <td>Anfragen-Header</td>
+    <td>User-Agent-Zeichenfolge:</td>
+    <td>string</td>
+    <td>Bestimmt, welches Gerät die Person verwendet.</td>
   </tr>
   <tr>
     <td>Abfrageparameter</td>
     <td>_biz_u</td>
-    <td>Zeichenfolge</td>
-    <td>Bizible-Cookie-ID.</td>
+    <td>string</td>
+    <td>Bizible Cookie-ID.</td>
   </tr>
   <tr>
     <td>Abfrageparameter</td>
     <td>_biz_l</td>
-    <td>Zeichenfolge</td>
-    <td>Aktuelle Seiten-URL.</td>
+    <td>string</td>
+    <td>URL der aktuellen Seite.</td>
   </tr>
   <tr>
     <td>Abfrageparameter</td>
@@ -66,18 +66,18 @@ Marketo Measure erfasst die folgenden allgemeinen Daten für alle Anforderungsty
   <tr>
     <td>Abfrageparameter</td>
     <td>_biz_i</td>
-    <td>Zeichenfolge</td>
+    <td>string</td>
     <td>Aktueller Seitentitel.</td>
   </tr>
 </tbody>
 </table>
 
-Zusätzlich zu den oben genannten allgemeinen Daten hängt bizible.js auch zusätzliche Daten an, die von den unten spezifizierten Anfragetypen abhängen:
+Zusätzlich zu den oben genannten allgemeinen Daten hängt bizible.js auch zusätzliche Daten an, abhängig von den unten spezifizierten Anfragetypen:
 
 <table>
 <thead>
   <tr>
-    <th>Anforderungstyp</th>
+    <th>Anfragetyp</th>
     <th>Anfragepfad</th>
     <th>Zusätzlicher Abfrageparameter</th>
     <th>Datentyp</th>
@@ -89,43 +89,43 @@ Zusätzlich zu den oben genannten allgemeinen Daten hängt bizible.js auch zusä
     <td>Seitenansicht</td>
     <td>/ipv</td>
     <td>_biz_r</td>
-    <td>Zeichenfolge</td>
-    <td>URL der Referrer-Seite</td>
+    <td>string</td>
+    <td>URL der Referrer-Seite.</td>
   </tr>
   <tr>
     <td></td>
     <td></td>
     <td>_biz_h</td>
-    <td>Zeichenfolge</td>
+    <td>string</td>
     <td>Die Bildschirmauflösung des Hash-Clients.</td>
   </tr>
   <tr>
     <td></td>
     <td></td>
     <td>_biz_c</td>
-    <td>Zeichenfolge</td>
-    <td>Optionaler Parameter. Wenn dieser Parameter vorhanden ist, zeigt er an, dass der Mandant bizible.js so konfiguriert, dass vor dem Tracking auf die Zustimmung des Benutzers gewartet wird, und dass bizible.js die Zustimmung des Benutzers erhalten hat, verfolgt zu werden.</td>
+    <td>string</td>
+    <td>Optionaler Parameter. Wenn dieser Parameter vorhanden ist, zeigt er an, dass der Mandant bizible.js so konfiguriert, dass vor dem Tracking auf das Einverständnis der Person gewartet wird, und dass bizible.js ihr Einverständnis für das Tracking erhalten hat.</td>
   </tr>
   <tr>
-    <td>Formularübermittlungen</td>
-    <td>/form</td>
+    <td>Formularabsendungen</td>
+    <td>/frm</td>
     <td>eMail</td>
-    <td>Zeichenfolge</td>
-    <td>Einfache Text-E-Mail-Adresse.</td>
+    <td>string</td>
+    <td>E-Mail-Adresse in einfachem Text.</td>
   </tr>
   <tr>
     <td>Benutzer-ID-Zuordnung</td>
     <td>/u</td>
     <td>mapType</td>
     <td>enum</td>
-    <td>Welche Art von Benutzer-ID-Mapping bizible.js erkannt hat (Marketo Munchkin-ID und Adobe ECID)</td>
+    <td>Welche Art von Benutzer-ID-Zuordnung bizible.js erkannt hat (Marketo Munchkin-ID und Adobe ECID)</td>
   </tr>
   <tr>
     <td></td>
     <td></td>
     <td>mapValue</td>
-    <td>Zeichenfolge</td>
-    <td>Der tatsächliche Drittanbieter-Cookie-ID-Wert der oben genannten Integration.</td>
+    <td>string</td>
+    <td>Der tatsächliche Cookie-ID-Wert des Drittanbieters der oben genannten Integration.</td>
   </tr>
 </tbody>
 </table>
