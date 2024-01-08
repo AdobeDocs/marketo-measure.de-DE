@@ -5,9 +5,9 @@ title: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -528,7 +528,7 @@ Mit dieser Aktion werden die [!DNL Salesforce]-Standardobjekte, mit denen [!DNL 
  </tbody> 
 </table>
 
-**Kontaktrolle für Chancen**
+**Opportunity – Kontaktrolle**
 
 <table> 
  <tbody> 
@@ -582,7 +582,7 @@ Mit dieser Aktion werden die [!DNL Salesforce]-Standardobjekte, mit denen [!DNL 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Rolle</td> 
+   <td>Role</td> 
    <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
