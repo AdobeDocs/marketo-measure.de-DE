@@ -2,7 +2,7 @@
 description: Interaktions-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Interaktions-Dashboard
 feature: Reporting
-source-git-commit: 96a10a202e72f43c45041a4cb37a244d1722db17
+source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Fragen zu den Antworten des Dashboards:
 * Touchpoints für Personen: Die Gesamtzahl der Personen mit Touchpoints.
 * Touchpoints pro Person: Durchschnittliche Anzahl der Touchpoints pro Person, die berührt wurden.
 
-## Touchpoints und Personen, die im Zeitverlauf berührt werden {#touchpoints-and-people-touched-over-time}
+### Touchpoints und Personen, die im Zeitverlauf berührt werden {#touchpoints-and-people-touched-over-time}
 
 Das Balkendiagramm der Zeitreihen zeigt die Anzahl der Touchpoints, Touchpoints für Personen und Touchpoints pro Person für jeden Monat, jedes Quartal und jedes Jahr.
 
@@ -46,7 +46,7 @@ Fragen zu den Grafikantworten:
 
 ![](assets/engagement-dashboard-1.png)
 
-## Touchpoints/Personen, die nach Kanal kontaktiert wurden {#touchpoints-people-touched-by-channel}
+### Touchpoints/Personen, die nach Kanal kontaktiert wurden {#touchpoints-people-touched-by-channel}
 
 Balkendiagramm mit Touchpoints oder Touch-Personen, segmentiert nach Kanal/Subkanal/Kampagne.
 
