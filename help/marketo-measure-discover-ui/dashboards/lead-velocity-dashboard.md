@@ -1,10 +1,8 @@
 ---
 description: Lead-Velocity-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Dashboard „Lead-Geschwindigkeit“
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f0e6ba1166e86eeb50812914afb4116f0e0eb372
+source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 3%
@@ -47,7 +45,7 @@ Fragen zu den Grafikantworten:
 
 ![](assets/lead-velocity-dashboard-2.png)
 
-## Lead-/Kontaktgeschwindigkeit nach Kanal {#lead-contact-velocity-by-channel}
+### Lead-/Kontaktgeschwindigkeit nach Kanal {#lead-contact-velocity-by-channel}
 
 Das Balkendiagramm zeigt die durchschnittliche Dauer in Tagen an, für die Leads/Kontakte in den einzelnen Trichterphasen nach Kanal segmentiert bleiben.
 
