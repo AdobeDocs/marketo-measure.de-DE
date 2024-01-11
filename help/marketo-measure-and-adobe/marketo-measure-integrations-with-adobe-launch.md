@@ -3,10 +3,10 @@ description: '[!DNL Marketo Measure] Integrationen mit Adobe Launch - [!DNL Mark
 title: '[!DNL Marketo Measure] Integrationen mit Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 1b583dac72aadff5d7c2352a064e2ff842b91891
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '299'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Wenn Sie Adobe Launch installiert und konfiguriert haben, wird die [!DNL Marketo
 >Unter den folgenden Links erfahren Sie mehr über Adobe Launch und seine Erweiterungen:
 >
 >* [[!DNL Marketo Measure] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target="_blank"}
->* [Übersicht über Adobe Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
+>* [Adobe Launch-Übersicht](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
 >* [Übersicht über die Adobe Launch-Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target="_blank"}
 
 1. Erstellen Sie eine Eigenschaft anhand der Schritte [in diesem Artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}.
@@ -44,15 +44,15 @@ Wenn Sie Adobe Launch installiert und konfiguriert haben, wird die [!DNL Marketo
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-4.png)
 
-1. Geben Sie im Feld Bizible AccountId die URL Ihrer Website ein.
+1. Geben Sie im Feld Bizible AccountId die URL Ihrer Website ein (z. B. `adobe.com`).
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-5.png)
 
    >[!NOTE]
    >
-   >Dieses Feld ist nicht die &quot;Konto-ID&quot;in der Tabelle Business_Prod.Business. Alle Webaktivitäten aus der angegebenen URL werden der [!DNL Marketo Measure] Mandanten.
+   >Dieses Feld ist nicht die &quot;Konto-ID&quot;in der Tabelle Business_Prod.Business. Alle Web-Aktivitäten von der angegebenen URL (z. B. `adobe.com`) wird der [!DNL Marketo Measure] Mandanten.
 
-1. Klicks **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-6.png)
 
@@ -76,6 +76,6 @@ Wenn Sie Adobe Launch installiert und konfiguriert haben, wird die [!DNL Marketo
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-11.png)
 
-1. Klicks **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-12.png)
