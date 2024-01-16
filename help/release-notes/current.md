@@ -3,10 +3,10 @@ description: Aktuelle Versionshinweise – [!DNL Marketo Measure] – Produktdok
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
-workflow-type: ht
+source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
+workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Die Einführung der neuen vordefinierten Dashboards erfolgt in Wellen und wird v
 
 >[!NOTE]
 >
->Während die aktuellen Dashboards Mitte Januar 2024 eingestellt werden, können Sie bis dahin beide Versionen verwenden, um einen reibungslosen Übergang zu gewährleisten.
+>Die aktuellen Dashboards werden zwar im März 2024 eingestellt, Sie können aber bis dahin beide Versionen verwenden, um einen reibungslosen Übergang zu gewährleisten.
 
 **Entfernen von IP-Adressdaten**
 
@@ -96,7 +96,7 @@ Die Einführung der neuen vordefinierten Dashboards erfolgt schrittweise ab der 
 
 >[!NOTE]
 >
->Während die aktuellen Dashboards Mitte Januar 2024 eingestellt werden, können Sie bis dahin beide Versionen verwenden, um einen reibungslosen Übergang zu gewährleisten.
+>Die aktuellen Dashboards werden zwar im März 2024 eingestellt, Sie können aber bis dahin beide Versionen verwenden, um einen reibungslosen Übergang zu gewährleisten.
 
 ### Abschaffungen {#deprecations}
 
