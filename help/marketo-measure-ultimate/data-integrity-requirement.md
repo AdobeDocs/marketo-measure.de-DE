@@ -3,7 +3,7 @@ description: „[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung - [
 title: „[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: e1c401ae41b5aeedf0c3c8b75a82f680a0dcbefb
+source-git-commit: b5277eef02d22b1f8cc10c184f232adb2ad7ac06
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%
@@ -407,7 +407,7 @@ ht-degree: 100%
       <td>b2b.personStatus</td>
       <td>Zeichenfolge</td>
       <td>Status</td>
-      <td><font color="red">Ja nur für personType „Lead“</font></td>
+      <td><b><i>Ja nur für personType „Lead“</i></b></td>
       <td>Nur erforderlich, wenn der b2b.personType „Lead“ ist</td>
     </tr>
     <tr>
@@ -431,7 +431,7 @@ ht-degree: 100%
       <td>b2b.isConverted</td>
       <td>boolean</td>
       <td>IsConverted</td>
-      <td><font color="red">Ja nur für personType „Lead“</font></td>
+      <td><b><i>Ja nur für personType „Lead“</i></b></td>
       <td>Nur erforderlich, wenn der b2b.personType „Lead“ ist</td>
     </tr>
     <tr>
