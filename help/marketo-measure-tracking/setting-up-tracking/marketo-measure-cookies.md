@@ -4,16 +4,20 @@ description: „[!DNL Marketo Measure]-Cookies – [!DNL Marketo Measure] – Pr
 title: „[!DNL Marketo Measure]-Cookies“
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: 327daa56fe1b346d067f2e0fb39006b91e6849ee
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 74%
 
 ---
 
 # Marketo Measure-Cookies {#marketo-measure-cookies}
 
 Erfahren Sie mehr über die verschiedenen [!DNL Marketo Measure]-Cookies, die auf Ihre Site geladen werden, wenn Sie [!DNL Marketo Measure]-JavaScript auf Ihren Landingpages anwenden. Diese Informationen können während der Implementierung für das Web-Entwicklungs-Team nützlich sein.
+
+>[!IMPORTANT]
+>
+>Aus Datenschutzgründen befinden sich Drittanbieter-Cookies auf dem Weg. Die angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 durch Google Chrome stellt das Ende dieser Tracking-Form dar. Daher stellt Adobe Marketo Measure-Funktionen, die auf Drittanbieter-Cookies basieren, ein. Dies betrifft insbesondere das domänenübergreifende Tracking und die Durchsichtszuordnung, die das Impressions-Cookie Google/DoubleClick verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google wird für die beiden oben genannten Funktionen vom 1.6.2024 erwartet. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kunden weiterhin zur Verfügung.
 
 <table>
 <thead>
