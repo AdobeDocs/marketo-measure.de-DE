@@ -4,9 +4,9 @@ description: Benutzerdefinierte Segmentierung - [!DNL Marketo Measure] - Produkt
 title: Benutzerdefinierte Segmentierung
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,11 @@ Schritt 4: Hinzufügen von Filterregeln
 Wenn keine Regeln für Leads/Kontakte und Chancen eingerichtet sind, sehen Sie nur einen Teil Ihrer Daten. Wenn Sie also nicht die Angebotsregeln einrichten, sehen Sie nur Lead-/Kontaktdaten ohne die damit verbundenen Möglichkeiten. Dasselbe gilt, wenn Sie keine Regeln für Leads/Kontakte einrichten - Sie sehen nur Chancen ohne die zugehörigen Leads/Kontakte.
 
 Wenn Sie fertig sind, klicken Sie auf [!UICONTROL Speichern] Überprüfen Sie zunächst alles, und klicken Sie dann auf [!UICONTROL Speichern und verarbeiten]. Denken Sie daran, dass Sie Ihre Einstellungen sieben Tage lang nicht bearbeiten können, wenn Sie speichern und verarbeiten, wie [!DNL Marketo Measure] Formatiert Ihre Daten während dieser Zeit neu.
+
+Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr Standard-Dashboard-Objekt auf &quot;Kontakt&quot;festgelegt haben, verwenden Sie die folgenden beiden für &quot;Lead&quot;spezifischen Felder ([Mehr dazu hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+
+* b2b.personStatus
+* b2b.isConverted
 
 **Wie speichere ich die generierten Berichte?**
 

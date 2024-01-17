@@ -3,10 +3,10 @@ description: Best Practices für die Segmentierung – [!DNL Marketo Measure] �
 title: Best Practices für die Segmentierung
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '419'
-ht-degree: 100%
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,9 @@ Beachten Sie die folgenden Best Practices, unabhängig davon, ob die Segmentieru
 * Richten Sie den Segmentnamen an die Nomenklatur Ihres Unternehmens aus, d. h. Kategorie = Filtername, Segment = Filterwert.
 * Verwenden Sie keine Formelfelder in Ihren Regeln
 * Erstellen Sie die Segmentierung möglichst für Lead/Kontakt und für Opportunity, um eine Verwendung über den gesamten Trichter hinweg sicherzustellen
+   * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr Standard-Dashboard-Objekt auf &quot;Kontakt&quot;festgelegt haben, verwenden Sie die folgenden beiden für &quot;Lead&quot;spezifischen Felder ([Mehr dazu hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+      * b2b.personStatus
+      * b2b.isConverted
    * Nicht jede Segmentkategorie wird über den gesamten Trichter ausgerichtet
       * Die Segmentkategorie „Opportunity-Typ“ bezieht sich beispielsweise nicht auf Leads. Bei einem Segment, das mit „Region“ verknüpft ist, handelt es sich jedoch wahrscheinlich um eine Kategorie, die im gesamten Trichter definiert werden kann
 * Denken Sie darüber nach, wie Sie Ihre Daten derzeit darstellen möchten – ob im CRM-System oder in einem BI-Tool – und erwägen Sie eine entsprechende Segmenterstellung in [!DNL Marketo Measure], sodass dieselben Berichte in Discover verfügbar sind
