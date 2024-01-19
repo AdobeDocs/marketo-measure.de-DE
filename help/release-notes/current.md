@@ -4,9 +4,9 @@ title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Die Einführung der neuen vordefinierten Dashboards erfolgt in Wellen und wird v
 
 >[!NOTE]
 >
->Die aktuellen Dashboards werden zwar im März 2024 eingestellt, Sie können aber bis dahin beide Versionen verwenden, um einen reibungslosen Übergang zu gewährleisten.
+>Während die aktuellen Dashboards bis März 2024 eingestellt werden, können Sie bis dahin beide Versionen verwenden, um einen reibungslosen Übergang zu gewährleisten.
 
 **Entfernen von IP-Adressdaten**
 
@@ -96,9 +96,9 @@ Die Einführung der neuen vordefinierten Dashboards erfolgt schrittweise ab der 
 
 >[!NOTE]
 >
->Die aktuellen Dashboards werden zwar im März 2024 eingestellt, Sie können aber bis dahin beide Versionen verwenden, um einen reibungslosen Übergang zu gewährleisten.
+>Während die aktuellen Dashboards bis März 2024 eingestellt werden, können Sie bis dahin beide Versionen verwenden, um einen reibungslosen Übergang zu gewährleisten.
 
-### Abschaffungen {#deprecations}
+### Einstellungen {#deprecations}
 
 <p>
 
@@ -184,7 +184,7 @@ Alle Salesforce-API-Versionen von Apex-Klassen, einschließlich der Klasse UserA
 
 * **Installation des neuen Pakets**
 
-Den Link zur Installation des neuen konsolidierten Pakets [ finden Sie hier](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1P000000VY6Z){target="_blank"}
+Den Link zur Installation des neuen konsolidierten Pakets [finden Sie hier](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1P000000VY6Z){target="_blank"}
 
 ### Und als Nächstes? {#q2-whats-coming}
 
