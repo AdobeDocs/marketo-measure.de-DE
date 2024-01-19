@@ -4,10 +4,10 @@ description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
-workflow-type: ht
-source-wordcount: '20697'
-ht-degree: 100%
+source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
+workflow-type: tm+mt
+source-wordcount: '20757'
+ht-degree: 99%
 
 ---
 
@@ -147,8 +147,23 @@ Aus dem Quellsystem importierte Konten.
       <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>*</b> INDUSTRIE</td>
+      <td>varchar</td>
+      <td>Primäres Geschäft des Kontos.</td>
+      <td>Einzelhandel, Telekommunikation</td>
+    </tr>
+    <tr>
+      <td><b>*</b> LAND</td>
+      <td>varchar</td>
+      <td>Länderanteil der Kontoadresse.</td>
+      <td>USA, Kanada</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Nur verfügbar in Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
 
@@ -169,74 +184,34 @@ Zuordnungstabelle zwischen bekannten Lead-/Kontakt-E-Mail-Adressen und Konten. D
       <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13 000</td>
     </tr>
     <tr>
-      <td>
-        <p>ACCOUNT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Kontokennung des Quellsystems.</p>
-      </td>
-      <td>
-        <p>0013100001phrBAAAY</p>
-      </td>
+      <td>ACCOUNT_ID</td>
+      <td>varchar</td>
+      <td>Kontokennung des Quellsystems.</td>
+      <td>0013100001phrBAAAY</td>
     </tr>
     <tr>
-      <td>
-        <p>EMAIL</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>E-Mail-Adresse, die dem Konto zugeordnet wurde, entweder durch Kontaktbeziehungen oder durch die Zuordnung "Lead to Account".</p>
-      </td>
-      <td>
-        <p>person@adobe.com</p>
-      </td>
+      <td>EMAIL</td>
+      <td>varchar</td>
+      <td>E-Mail-Adresse, die dem Konto zugeordnet wurde, entweder durch Kontaktbeziehungen oder durch die Zuordnung "Lead to Account".</td>
+      <td>person@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Das Datum der letzten Änderung des Kontos aus dem Quellsystem.</p>
-      </td>
-      <td>
-        <p>2018-08-31 23:53:39.000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Das Datum der letzten Änderung des Kontos aus dem Quellsystem.</td>
+      <td>2018-08-31 23:53:39.000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Das Erstellungsdatum des Kontos aus dem Quellsystem.</p>
-      </td>
-      <td>
-        <p>2018-08-18 22:01:32.000</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Das Erstellungsdatum des Kontos aus dem Quellsystem.</td>
+      <td>2018-08-18 22:01:32.000</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Gibt an, ob der Datensatz als gelöscht betrachtet wird.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
+      <td>Gibt an, ob der Datensatz als gelöscht betrachtet wird.</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -272,58 +247,29 @@ Aus einem Quellsystem oder verbundenen Anzeigenkonto importierte Aktivitäten.
     <th><strong>Beispieldaten</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Die Aktivitäts-ID aus dem Quellsystem.</p>
-      </td>
-      <td>
-        <p>1678625515</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>Die Aktivitäts-ID aus dem Quellsystem.</td>
+      <td>1678625515</td>
     </tr>
     <tr>
-      <td>
-        <p>LEAD_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>LEAD_ID</td>
+      <td>varchar</td>
       <td>ID für den mit der Aktivität verknüpften Lead.</td>
-      <td>
-        <p>15530482</p>
-      </td>
+      <td>15530482</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
+      <td>ID für den mit der Aktivität verknüpften Kontakt.
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ID für den mit der Aktivität verknüpften Kontakt.</p>
-      </td>
-      <td>
-        <p>13792552</p>
-      </td>
+      <td>13792552</td>
     </tr>
     <tr>
-      <td>
-        <p>ACTIVITY_TYPE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ID für den Aktivitätstyp aus dem Quellsystem.</p>
-      </td>
-      <td>
-        <p>104</p>
-      </td>
+      <td>ACTIVITY_TYPE_ID</td>
+      <td>varchar</td>
+      <td>ID für den Aktivitätstyp aus dem Quellsystem.</td>
+      <td>104</td>
     </tr>
     <tr>
       <td>ACTIVITY_TYPE_NAME</td>
@@ -4388,18 +4334,10 @@ Aus dem Quellsystem importierte Kontakte.
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Fremdschlüssel zur Biz_Facts-Ansicht.</p>
-      </td>
-      <td>
-        <p>3263982503087870000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>number(38,0)</td>
+      <td>Fremdschlüssel zur Biz_Facts-Ansicht.</td>
+      <td>3263982503087870000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -4419,8 +4357,17 @@ Aus dem Quellsystem importierte Kontakte.
       <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>*</b> JOB_TITLE</td>
+      <td>varchar</td>
+      <td>Vorgangstitel des Kontakts.</td>
+      <td>Geschäftsführer, Vizepräsident</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Nur verfügbar in Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
 
@@ -10271,8 +10218,17 @@ Aus dem Quellsystem importierte Möglichkeiten.
       <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>*</b> OPPORTUNITY_TYPE</td>
+      <td>varchar</td>
+      <td>Art der Möglichkeit, wie z. B. New Business, Renewal usw.</td>
+      <td>Verlängerung, Aussicht</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Nur verfügbar in Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
 
