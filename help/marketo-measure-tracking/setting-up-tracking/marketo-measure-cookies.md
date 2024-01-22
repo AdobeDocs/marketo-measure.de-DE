@@ -5,9 +5,9 @@ title: „[!DNL Marketo Measure]-Cookies“
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
 source-git-commit: 327daa56fe1b346d067f2e0fb39006b91e6849ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Erfahren Sie mehr über die verschiedenen [!DNL Marketo Measure]-Cookies, die au
 
 >[!IMPORTANT]
 >
->Aus Datenschutzgründen befinden sich Drittanbieter-Cookies auf dem Weg. Die angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 durch Google Chrome stellt das Ende dieser Tracking-Form dar. Daher stellt Adobe Marketo Measure-Funktionen, die auf Drittanbieter-Cookies basieren, ein. Dies betrifft insbesondere das domänenübergreifende Tracking und die Durchsichtszuordnung, die das Impressions-Cookie Google/DoubleClick verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google wird für die beiden oben genannten Funktionen vom 1.6.2024 erwartet. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kunden weiterhin zur Verfügung.
+>Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe die Marketo Measure-Funktionen, die auf Drittanbieter-Cookies basieren, ein. Dies betrifft insbesondere das Domain-übergreifende Tracking und die Viewthrough-Attribution, die das Impressions-Cookie von Google/DoubleClick verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kundinnen und -Kunden weiterhin zur Verfügung.
 
 <table>
 <thead>
