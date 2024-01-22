@@ -3,9 +3,9 @@ description: „[!DNL Marketo Measure] Implementierungshandbuch für Ultimate �
 title: „[!DNL Marketo Measure] Implementierungshandbuch für Ultimate“
 feature: Integration, Tracking, Attribution
 source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -146,7 +146,7 @@ Wir importieren nicht automatisch Phasen aus Benutzerdaten, daher müssen alle P
 
 Wenn die Phasen nicht zugeordnet sind, funktioniert das System nicht, da die Daten nicht weitergegeben werden können.
 
-Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr Standard-Dashboard-Objekt auf &quot;Kontakt&quot;festgelegt haben, verwenden Sie die folgenden beiden für &quot;Lead&quot;spezifischen Felder ([Mehr dazu hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Wenn Sie Kundin oder Kunde von Marketo Measure Ultimate sind und Ihr Standard-Dashboard-Objekt auf „Kontakt“ festgelegt haben, verwenden Sie folgende beiden Lead-Felder nicht ([mehr dazu erfahren Sie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted
