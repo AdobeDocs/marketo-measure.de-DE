@@ -4,10 +4,10 @@ description: Marketo Measure-Attributionsmodelle - Marketo Measure - Produktdoku
 title: Marketo Measure-Attributionsmodelle
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '734'
-ht-degree: 100%
+source-git-commit: aa12df4d0c77cdc677f78bcab19497806927ec2b
+workflow-type: tm+mt
+source-wordcount: '764'
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,7 @@ Diese Modelle sind unterschiedlich komplex. First Touch und Lead Creation sind u
 
 ![](assets/1-1.png)
 
-In den **Single-Touch-Modellen** werden die Attributionsgutschriften nur einem Meilenstein-Touchpoint zugeordnet, weswegen der Name &quot;Single Touch&quot; lautet.
+Im **Single-Touch-Modelle**, wird die Attribution nur einem Meilenstein-Touchpoint zugeordnet - daher der Name &quot;Single Touch&quot;.
 In den **Multi-Touch-Modellen** wird der Großteil der Attributionsgutschriften zwei oder mehr Meilenstein-Touchpoints zugewiesen. Das verbleibenden Guthaben wird Touchpoints zugeordnet, die zwischen den Meilensteinkontaktpunkten auftreten.
 
 In den nächsten Abschnitten werden die einzelnen Attributionsmodelle und die Zuweisung von Attributionsgutschriften behandelt.
@@ -42,7 +42,7 @@ In den nächsten Abschnitten werden die einzelnen Attributionsmodelle und die Zu
 
 Das Erstkontakt-Modell konzentriert sich nur auf die allererste Interaktion, die ein Lead mit Ihrem Unternehmen hat. Dieses Modell ordnet 100 % der Attributionsgutschriften dem ersten Mal zu, dass der Lead von Ihrem Unternehmen in Kenntnis gesetzt wurde – der Erstkontakt (First Touch, FT).
 
-Nehmen wir an, Kate besucht www.adobe.com zum ersten Mal über eine Adwords-Anzeige und sieht sich ein Whitepaper an. Der Adwords-Kanal würde 100 % des Attributionsguthabens von dieser Opportunity erhalten.
+Say Kate-Besuche `www.adobe.com` zum ersten Mal über eine Adwords-Anzeige und zeigt ein Whitepaper an. Der Adwords-Kanal würde 100 % des Attributionsguthabens von dieser Opportunity erhalten.
 
 ![](assets/2.png)
 
@@ -50,7 +50,7 @@ Nehmen wir an, Kate besucht www.adobe.com zum ersten Mal über eine Adwords-Anze
 
 Das Lead-Erstellungsmodell ordnet dem LC-Touchpoint 100 % des Attributionsguthabens zu, wenn ein Interessent seine Kontaktinformationen angibt und zum Lead wird.
 
-Austin besucht nach Kates erstem Besuch auf www.adobe.com über Adwords die Website über einen LinkedIn-Beitrag. Austin füllt ein Formular aus und wird zum Lead. In diesem Modell würde Linkedin 100 % des Attributionsguthabens erhalten.
+Fortsetzung aus dem vorherigen Beispiel, nach Kates erstem Besuch in `www.adobe.com` über Adwords besucht Austin die Website über einen LinkedIn-Beitrag. Austin füllt ein Formular aus und wird zum Lead. In diesem Modell würde Linkedin 100 % des Attributionsguthabens erhalten.
 
 ![](assets/3.png)
 
@@ -62,7 +62,7 @@ Multi-Touch-Modelle werden für längere, kompliziertere Verkaufszyklen verwende
 
 Das U-förmige Modell konzentriert sich sowohl auf die FT- als auch auf LC-Touchpoints. In diesem Modell erhalten FT- und LC-Touchpoint jeweils 50 % der Umsatzgutschrift.
 
-Kates erster Besuch bei www.adobe.com über eine AdWords-Website würde 50 % des Attributionsguthabens erhalten. Die restlichen 50 % würden dem Linkedin-Beitrag zugeordnet, der Austin dazu brachte, ein Formular auszufüllen und zu einem Lead zu werden.
+Kates erster Besuch bei `www.adobe.com` über ein Adwords angezeigt werden und 50 % des Attributionskredits erhalten würden. Die restlichen 50 % würden dem Linkedin-Beitrag zugeordnet, der Austin dazu brachte, ein Formular auszufüllen und zu einem Lead zu werden.
 
 ![](assets/4.png)
 
@@ -86,4 +86,4 @@ Nach der Schaffung dieser Opportunity entscheiden sich Kate, Austin und Hillary,
 
 **Benutzerdefiniertes Attributionsmodell**
 
-Marketo Measure bietet außerdem ein benutzerdefiniertes Attribution-Modell, mit dem Benutzer auswählen können, welche Touchpoints oder benutzerdefinierten Stufen in ihr Modell aufgenommen werden sollen. Darüber hinaus können Benutzer den Prozentsatz der Attributionszuweisung steuern, der diesen Touchpoints und Stufen zugeordnet ist.
+Marketo Measure bietet außerdem ein benutzerdefiniertes Attribution-Modell, mit dem Benutzer auswählen können, welche Touchpoints oder benutzerdefinierten Stufen in ihr Modell aufgenommen werden sollen. Darüber hinaus können Benutzer den Prozentsatz der Attributionszuweisung steuern, der diesen Touchpoints und Bühnen zugeordnet ist. Wenn eine Chance keine dedizierten mittleren Touches aufweist, wird der Prozentsatz gleichmäßig auf andere Positionen verteilt.
