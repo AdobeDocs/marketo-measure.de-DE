@@ -3,7 +3,7 @@ description: Aktuelle Versionshinweise – [!DNL Marketo Measure] – Produktdok
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
+source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 88%
@@ -102,7 +102,7 @@ Die Einführung der neuen vordefinierten Dashboards erfolgt schrittweise ab der 
 
 <p>
 
-#### Salesforce-Feldveraltungen {#salesforce-field-deprecations}
+#### Salesforce-Feldveraltungen
 
 Wir werden unsere Exportaufträge an Lead-/Kontaktobjekte schrittweise auslaufen lassen, um unsere Integration zu vereinfachen und den Export in Salesforce-Standardobjekte zu vermeiden. Die unten aufgeführten denormalisierten Felder werden ebenfalls nicht mehr unterstützt, da Kundinnen und Kunden dieselben Daten von ihren Touchpoint-Objekten erhalten können. _**Der Zeitplan für die Einstellung ist Juni 2024.**_
 
@@ -175,13 +175,13 @@ Die Felder, die dieselben Informationen für die Touchpoint- und Attributions-To
 
 <p>
 
-* **Zugehöriges Dynamics-Paket**
+#### Dynamics Package-Zuordnung
 
-   * Um mit Dynamics verbunden zu bleiben, müssen Sie das neueste Paket (v6.12) installieren. Ältere Versionen `(<v6.12)` werden nicht länger unterstützt. Diese Aktualisierung optimiert die Erstellung historischer Einträge, um die Speicherbelegung zu reduzieren.
+* Um mit Dynamics verbunden zu bleiben, müssen Sie das neueste Paket (v6.12) installieren. Ältere Versionen `(<v6.12)` werden nicht länger unterstützt. Diese Aktualisierung optimiert die Erstellung historischer Einträge, um die Speicherbelegung zu reduzieren.
 
-   * Die veraltete OAuth-Methode mit einem Aktualisierungs-Token wird nicht mehr unterstützt. In [dieser Anleitung](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} finden Sie Informationen zur Aktualisierung Ihrer Anmeldeinformationen entsprechend der Best Practices von Microsoft zur Verwendung von ClientSecret.
+* Die veraltete OAuth-Methode mit einem Aktualisierungs-Token wird nicht mehr unterstützt. In [dieser Anleitung](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} finden Sie Informationen zur Aktualisierung Ihrer Anmeldeinformationen entsprechend der Best Practices von Microsoft zur Verwendung von ClientSecret.
 
-* **Feld „custom_properties“**
+#### Feld &quot;custom_properties&quot;
 
 In unserem Data Warehouse dient das Feld „custom_properties“ als Speicher für zusätzliche Datenpunkte, die nicht von unserem festen Schema abgedeckt werden. Aufgrund seines JSON-Formats kann dieses Feld nur eingeschränkt genutzt werden und lässt sich nur schwer in SQL-Anfragen integrieren, was die Leistung beeinträchtigt. Angesichts dieser Faktoren haben wir beschlossen, dieses Feld abzuschaffen. Diese Änderung betrifft hauptsächlich die Datenverarbeitungsschicht in unserem Azure-Tabellenspeicher und die in unser Data Warehouse exportierten Daten.
 
