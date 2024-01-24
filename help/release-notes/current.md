@@ -3,10 +3,10 @@ description: Aktuelle Versionshinweise – [!DNL Marketo Measure] – Produktdok
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
-workflow-type: ht
-source-wordcount: '926'
-ht-degree: 100%
+source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
@@ -106,7 +106,7 @@ Die Einführung der neuen vordefinierten Dashboards erfolgt schrittweise ab der 
 
 Wir werden unsere Exportaufträge an Lead-/Kontaktobjekte schrittweise auslaufen lassen, um unsere Integration zu vereinfachen und den Export in Salesforce-Standardobjekte zu vermeiden. Die unten aufgeführten denormalisierten Felder werden ebenfalls nicht mehr unterstützt, da Kundinnen und Kunden dieselben Daten von ihren Touchpoint-Objekten erhalten können. _**Der Zeitplan für die Einstellung ist Juni 2024.**_
 
-<table style="width:300px">
+<table style="width:350px">
 <tbody>
   <tr>
     <td>bizible2__Ad_Campaign_Name_FT__c</td>
@@ -140,6 +140,40 @@ Wir werden unsere Exportaufträge an Lead-/Kontaktobjekte schrittweise auslaufen
   </tr>
 </tbody>
 </table>
+
+Die Felder, die dieselben Informationen für die Touchpoint- und Attributions-Touchpoint-Objekte enthalten, sind:
+
+* bizible2__Ad_Campaign_Name__c
+* bizible2__Landing_Page__c
+* bizible2__Marketing_Channel__c
+* bizible2__Touchpoint_Date__c
+* bizible2__Touchpoint_Source__c
+
+**Erforderliche Aktionen**
+
+* Erstellen Sie neue Berichtstypen für Leads und Kontakte mit oder ohne Touchpoints.
+
+![](assets/release-notes-2023-1.png)
+
+* Erstellen Sie Berichte, die die Funktionalität eines vorhandenen Berichts erfassen, der die entfernten Felder verwendet. Im Rahmen dieses Prozesses sollten Sie die Felder im Bericht wie unten beschrieben ändern:
+
+   * Lead-/Kontakt-FT/LC-Felder entfernen:
+
+![](assets/release-notes-2023-2.png)
+
+* Touchpoint-Felder hinzufügen:
+
+![](assets/release-notes-2023-3.png)
+
+* Der Filter Touchpoint-Position und alle Filter, die die Felder FT/LC verwenden, einschließlich des Datumsfelds, sollten wie folgt aktualisiert werden:
+
+![](assets/release-notes-2023-4.png)
+
+![](assets/release-notes-2023-5.png)
+
+* Löschen Sie alle bereits vorhandenen Berichte, in denen die entfernten Felder verwendet wurden, aus dem Lead-/Kontaktobjekt, um nicht mehr auf diese Felder zu verweisen.
+
+<p>
 
 * **Zugehöriges Dynamics-Paket**
 
