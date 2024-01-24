@@ -4,10 +4,10 @@ title: Überblick über Integrationsberechtigungen
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 3d4ee7c71ed241c8e3885b4db57168f753dcdf65
+source-git-commit: 95bdfe7c95111b6c6430e2de2b5eef050183fb0b
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 3%
+source-wordcount: '1286'
+ht-degree: 2%
 
 ---
 
@@ -166,38 +166,74 @@ Marketo Measure verfolgt Konten, Kampagnen, Anzeigengruppen, Anzeigen, Filter-ID
   </tr>
   <tr>
     <td>DoubleClick</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Anzeigenplattformdaten</td>
+    <td>Marketo Measure verfolgt Konten, Advertiser, Kampagnen, (benutzerdefinierte) Landingpages, Anzeigen, Kreative, Platzierungen und Sites.</td>
+    <td><li>Die primäre E-Mail-Adresse des Google-Kontos ist erforderlich.</li>
+<li>Für den Zugriff auf das Campaign Manager 360-Konto erforderliche Campaign Manager-Berechtigungen</li>
+<ul>
+<li>Anzeigen und Verwalten von DoubleClick-Advertiser-Berichten</li>
+<li>Anzeigen und Verwalten von Display-Anzeigenkampagnen für DoubleClick Campaign-Manager</li>
+<p>
+    <b>Bereiche</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: Siehe Ihre primäre Google-Konto-E-Mail-Adresse
+    <p>
+     <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a>: Anzeigen und Verwalten von DoubleClick for Advertisers-Berichten
+    <p>
+     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>: Zeigen Sie die Display-Anzeigenkampagnen (DCM) Ihres DoubleClick Campaign Managers an und verwalten Sie sie.</td>
   </tr>
   <tr>
     <td>AdWords</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Anzeigenplattformdaten</td>
+    <td>Die Integration mit AdWords erfolgt in:
+<p>
+<li>Importieren von Kundenanzeigendaten</li>
+<li>Importieren von Kundenwerbungskosten</li>
+<li>Aktualisieren der Anzeigen des Kunden durch Anhängen von URL-Parametern/Aktualisieren von URL-Tracking-Vorlagen</li>
+<p>
+Marketo Measure verfolgt Kampagnen, Anzeigengruppen, Kreative, Site-Links und Suchbegriffe.</td>
+    <td><li>Die primäre E-Mail-Adresse des Google-Kontos ist erforderlich.</li>
+<p>
+    <b>Bereiche</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: Siehe Ihre primäre Google-Konto-E-Mail-Adresse</td>
   </tr>
   <tr>
     <td>Bing</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Anzeigenplattformdaten</td>
+    <td>Marketo Measure verfolgt Konten, Kampagnen, Anzeigengruppen, Kreative und Suchbegriffe.</td>
+    <td><li>Der Benutzer muss über sein Microsoft-Konto "Offline-Zugriff"gewähren (das Marketo Measure Zugriff auf die UserInfo des Endbenutzers gewährt, auch wenn er nicht angemeldet ist). Siehe <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoft-Seite</a> wie dies zu tun ist.</li>
+<p>
+    <b>Bereiche</b>
+    <br>
+    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>: Beibehalten des Zugriffs auf die Daten, die Sie ihm Zugriff auf die Berechtigung gewährt haben.</td>
   </tr>
   <tr>
     <td>Marketo Engage</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>B2B-Systemdaten</td>
+    <td>Durch die Marketo-Integration kann Marketo Measure Marketo-Aktivitäten, Personen, Programme und Programmmitgliedschaften erfassen. Darüber hinaus verfolgt Marketo Measure Marketo-Cookies (Munchkin-IDs), um Marketo-Web-Aktivitäten mit Lead-Touchpoints von Marketo Measure zu verknüpfen. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">wie hier beschrieben</a>:
+    <p>
+    <i>Aufgrund der Marketo Measure-Integration mit Marketo wird jetzt auch die Marketo Measure-Cookie-ID zugeordnet und mit der Marketo Munchkin-ID synchronisiert. Dies hilft, die Lücke zu schließen, um den anonymen Erstkontakt einer Web-Sitzung zuzuordnen, anstatt sowohl FT- als auch LC-Touches einer Marketo-Aktivität zuzuordnen.</i>
+    </td>
+    <td>Der Kunde muss einen dedizierten Marketo Engage-API-Benutzer erstellen und die Anmeldeinformationen an Marketo Measure übermitteln. Es ist keine zusätzliche Berechtigungskonfiguration erforderlich. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md#configuring-the-integration">Weitere Infos</a>.</td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>B2B-Systemdaten</td>
+    <td>Die Integration von B2B-Kundenattributen ermöglicht es den Anwendern von Marketo Measure und Adobe Analytics, ihre Adobe Analytics-Benutzerprofile mit wertvollen Metadaten anzureichern, die von der Marketo Measure-Attributionsmodul abgeleitet wurden, sowie über die Synchronisierungsfunktion mit CRMs (Microsoft Dynamics und Salesforce). <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Weitere Infos</a>.</td>
+    <td>Der Kunde muss Marketo Measure die Anmeldedaten für Alias-ID und FTP-Server an einem Speicherort bereitstellen, an den Daten in seine Analytics-Instanz hochgeladen werden.
+    <p>
+    Beachten Sie die folgenden Informationen, da Sie sie für einige der späteren Schritte im Prozess benötigen:
+    <p>
+    <li>Die Alias-ID, bei der es sich um einen beliebigen Wert handeln kann, den Sie benötigen. Wir empfehlen "marketomeasure_id"</li>
+    <li>Der Hostname und die Anmeldeinformationen des FTP-Servers (Benutzername und Kennwort)</li>
+    <p>
+    <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md#configuring-the-integration">Weitere Informationen</a></td>
   </tr>
   <tr>
     <td>Bizible JavaScript</td>
     <td></td>
-    <td></td>
+    <td><a href="/help/marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md">Welche Daten werden von bizible.js erfasst?</a>.</td>
     <td></td>
   </tr>
 </tbody>
