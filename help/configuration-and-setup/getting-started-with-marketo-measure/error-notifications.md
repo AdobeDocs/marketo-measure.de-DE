@@ -4,7 +4,7 @@ title: Fehlerbenachrichtigungen
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
+source-git-commit: b4fadc6519761975736ce7a0e4f99a30c589c9af
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -18,10 +18,10 @@ Im Folgenden finden Sie eine Liste von Fehlern, die Sie über In-App-Benachricht
 <table>
   <tbody>
     <tr>
-      <th>Fehlercode</th>
-      <th>Benachrichtigungsbeispiel</th>
-      <th>Beschreibung</th>
-      <th>Schritte zur Fehlerbehebung</th>
+      <th style="width:31%">Fehlercode</th>
+      <th style="width:23%">Benachrichtigungsbeispiel</th>
+      <th style="width:23%">Beschreibung</th>
+      <th style="width:23%">Schritte zur Fehlerbehebung</th>
     </tr>
     <tr>
       <td>API_DISABLED</td>
