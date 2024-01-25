@@ -4,7 +4,7 @@ title: Fehlerbenachrichtigungen
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 656c84090c93adb55a661869061e9e0771ede03d
+source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Im Folgenden finden Sie eine Liste von Fehlern, die Sie über In-App-Benachricht
           </ul>
           <p>Sie können die CRM-Gutschriften, die Marketo Measure verwendet, auch wie folgt anpassen:</p>
           <ul>
-            <li>Navigieren Sie zu Einstellungen &gt; CRM &gt; Allgemein .</li>
+            <li>Navigieren Sie zu <b>Einstellungen</b> &gt; <b>CRM</b> &gt; <b>Allgemein</b></li>
             <li>Tägliche CRM-API-Beschränkung aktualisieren<br/>
               <ul>
-                <li><b>Hinweis</b>: Der Standardwert ist 100.000.</li>
+                <li><b>Hinweis: Der Standardwert ist 100.000</b></li>
               </ul>
             </li>
           </ul>
