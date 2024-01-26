@@ -4,9 +4,9 @@ description: Häufig gestellte Fragen (mehrere Währungen) - [!DNL Marketo Measu
 title: Häufig gestellte Fragen (mehrere Währungen)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,7 @@ Für den interessierten Leser hier ist der Grund, warum es so funktioniert. Unse
 **Wenn mein Kunde einen Workflow zum Ausfüllen eines konvertierten Felds verwendet hat, wie sollte er dieses Feld dann verwenden?**
 
 Da unser Angebot nun die Konversionen für den Kunden verarbeitet, empfehlen wir, die Workflows und das benutzerdefinierte Feld zu entfernen und den Rohdatenwert zu importieren.
+
+>[!MORELIKETHIS]
+>
+>[Fehlerbenachrichtigungen](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
