@@ -5,9 +5,9 @@ title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20757'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -148,15 +148,15 @@ Aus dem Quellsystem importierte Konten.
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>*</b> INDUSTRIE</td>
+      <td><b>∗</b> BRANCHE</td>
       <td>varchar</td>
-      <td>Primäres Geschäft des Kontos.</td>
+      <td>Hauptgeschäft des Kontos.</td>
       <td>Einzelhandel, Telekommunikation</td>
     </tr>
     <tr>
-      <td><b>*</b> LAND</td>
+      <td><b>∗</b> LAND</td>
       <td>varchar</td>
-      <td>Länderanteil der Kontoadresse.</td>
+      <td>Länderbereich der Kontoadresse.</td>
       <td>USA, Kanada</td>
     </tr>
   </tbody>
@@ -4360,8 +4360,8 @@ Aus dem Quellsystem importierte Kontakte.
     <tr>
       <td><b>*</b> JOB_TITLE</td>
       <td>varchar</td>
-      <td>Vorgangstitel des Kontakts.</td>
-      <td>Geschäftsführer, Vizepräsident</td>
+      <td>Aufgabenbereich des Kontakts.</td>
+      <td>CEO, Vizepräsidentin bzw. Vizepräsident</td>
     </tr>
   </tbody>
 </table>
@@ -10221,8 +10221,8 @@ Aus dem Quellsystem importierte Möglichkeiten.
     <tr>
       <td><b>*</b> OPPORTUNITY_TYPE</td>
       <td>varchar</td>
-      <td>Art der Möglichkeit, wie z. B. New Business, Renewal usw.</td>
-      <td>Verlängerung, Aussicht</td>
+      <td>Art der Möglichkeit, wie z. B. Neues Geschäft, Verlängerung usw.</td>
+      <td>Verlängerung, potenzielle Kundin oder potenzieller Kunde</td>
     </tr>
   </tbody>
 </table>
