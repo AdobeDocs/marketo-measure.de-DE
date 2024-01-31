@@ -3,8 +3,8 @@ description: „[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung - [
 title: „[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: b5277eef02d22b1f8cc10c184f232adb2ad7ac06
-workflow-type: ht
+source-git-commit: 23890f24412e234f9ab7c08b684b6064eac5d0ed
+workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%
 
@@ -1366,7 +1366,7 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 Es wird empfohlen, ein berechnetes Feld in der Feldzuordnung zu verwenden, um das Feld standardmäßig auf einen Wert ungleich null zu setzen. Im Folgenden finden Sie zwei Beispiele:
 
 * Wenn opportunityName für einige Opportunity-Datensätze null ist, erstellen und verwenden Sie das folgende berechnete Feld in der Feldzuordnung
-   * `iif(name != null && name != "", name, "Unknown")`
+   * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * Wenn die leadOperation.campaignProgression.campaignID einiger Erlebnisereigniseinträge null ist, erstellen und verwenden Sie das folgende berechnete Feld in der Feldzuordnung
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
