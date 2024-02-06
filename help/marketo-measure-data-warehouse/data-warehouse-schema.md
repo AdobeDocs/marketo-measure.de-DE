@@ -4,10 +4,10 @@ description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
-workflow-type: ht
-source-wordcount: '20757'
-ht-degree: 100%
+source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+workflow-type: tm+mt
+source-wordcount: '20781'
+ht-degree: 99%
 
 ---
 
@@ -6740,6 +6740,10 @@ Zuordnungstabelle für E-Mail-Adressen und Besucher-IDs.
 ### BIZ_FACTS {#biz-facts}
 
 Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlungen, Benutzer-Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT) und Kostendaten kombinieren. Wird intern zur Unterstützung verwendet [!DNL Marketo Measure] Berichterstellung.
+
+>[!IMPORTANT]
+>
+>Marketo Measure wird diese Tabelle Mitte 2024 nicht mehr unterstützen. Wenn Sie es auf Ihrer Seite erstellen möchten, führen Sie [diese SQL-Abfrage](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
