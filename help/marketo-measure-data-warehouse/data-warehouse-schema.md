@@ -4,9 +4,9 @@ description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
 workflow-type: tm+mt
-source-wordcount: '20781'
+source-wordcount: '20777'
 ht-degree: 99%
 
 ---
@@ -8120,9 +8120,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>Der Name des Internet Service Providers, der von Kunden mit erweitertem Geo IP-Tracking verwendet wird.</p>
-      </td>
+      <td>Wird als null erwartet, da das Feld veraltet ist.</td>
       <td>
         <p>AT&amp;T U-verse</p>
       </td>
@@ -12037,9 +12035,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>Der Internetdienstanbieter des Nutzers</p>
-      </td>
+      <td>Wird als null erwartet, da das Feld veraltet ist.</td>
       <td>
         <p>AT&amp;T U-verse</p>
       </td>
