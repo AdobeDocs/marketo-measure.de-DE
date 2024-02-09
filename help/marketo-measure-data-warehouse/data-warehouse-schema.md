@@ -4,9 +4,9 @@ description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
+source-git-commit: 999758c34b0264b8dac06fd0675e26b312fa58d6
 workflow-type: tm+mt
-source-wordcount: '20777'
+source-wordcount: '20775'
 ht-degree: 99%
 
 ---
@@ -729,18 +729,10 @@ Advertiser, die aus einem verbundenen Anzeigenkonto importiert wurden.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -1043,18 +1035,10 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -1487,18 +1471,10 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -2092,18 +2068,10 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -2466,18 +2434,10 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -2548,18 +2508,10 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -3748,18 +3700,10 @@ Aus dem Quellsystem importierte Kampagnenmitglieder. Diese Tabelle ist leer, wen
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -4061,18 +4005,10 @@ Marketing-Kanäle, wie in der [!DNL Marketo Measure]-Anwendung erstellt.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -4144,18 +4080,10 @@ Aus dem Quellsystem importierte Kontakte.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -5026,18 +4954,10 @@ Creatives, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -5527,18 +5447,10 @@ Aus dem Quellsystem importierte Ereignisse. Diese Tabelle ist leer, wenn die Akt
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -5740,18 +5652,10 @@ Aus dem Quellsystem importierte Aufgaben. Diese Tabelle wird gefüllt, wenn die 
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -6042,15 +5946,9 @@ AB-Tests aufgezeichnet. Diese Tabelle ist leer, wenn AB-Tests nicht aktiviert si
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
       <th>Beispieldaten</th>
     </tr>
     <tr>
@@ -6205,15 +6103,9 @@ Web-Ereignisse, die mit benutzerdefinierten Ereignissen in JavaScript aufgezeich
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
       <th>Beispieldaten</th>
     </tr>
     <tr>
@@ -6334,15 +6226,9 @@ Landing-Pages, die von einem beliebigen verbundenen Anzeigenkonto heruntergelade
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
       <th>Beispieldaten</th>
     </tr>
     <tr>
@@ -6619,18 +6505,10 @@ Zuordnungstabelle für E-Mail-Adressen und Besucher-IDs.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -7540,17 +7418,11 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
   <tbody>
     <tr>
       <th>
-        <p>Spalte</p>
+        Spalte
       </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -7852,18 +7724,10 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -8121,9 +7985,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
         <p>varchar</p>
       </td>
       <td>Wird als null erwartet, da das Feld veraltet ist.</td>
-      <td>
-        <p>AT&amp;T U-verse</p>
-      </td>
+      <td>NULL</td>
     </tr>
     <tr>
       <td>
@@ -8601,18 +8463,10 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -9026,15 +8880,9 @@ Landing-Pages, die aus einem verbundenen Anzeigenkonto importiert wurden.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
       <th>Beispieldaten</th>
     </tr>
     <tr>
@@ -9293,18 +9141,10 @@ Aus dem Quellsystem importierte Leads.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -9632,18 +9472,10 @@ Phasen-Transitionen für Leads oder Kontakte.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -9909,18 +9741,10 @@ Aus dem Quellsystem importierte Möglichkeiten.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -10239,18 +10063,10 @@ Phasen-Transitionen für Opportunitys.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -10528,18 +10344,10 @@ Seitenansichten, die aus Webbesuchen erfasst wurden. Mehrere Seitenansichten kö
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -10853,15 +10661,9 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigenkon
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
       <th>Beispieldaten</th>
     </tr>
     <tr>
@@ -11131,18 +10933,10 @@ Segmentwerte gemäß der Definition in der [!DNL Marketo Measure]-Anwendung.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -11214,18 +11008,10 @@ Ordnet den Namen des benutzerdefinierten Segments dem Kategoriewert zu. (Dadurch
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -11309,18 +11095,10 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -12037,7 +11815,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
       </td>
       <td>Wird als null erwartet, da das Feld veraltet ist.</td>
       <td>
-        <p>AT&amp;T U-verse</p>
+        <p>NULL</p>
       </td>
     </tr>
     <tr>
@@ -12176,18 +11954,10 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -12462,18 +12232,10 @@ Sites-Links von einem beliebigen verbundenen Anzeigenkonto aus.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -12801,18 +12563,10 @@ Liste der Schritte, wie sie importiert oder in der [!DNL Marketo Measure]-Anwend
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -14277,18 +14031,10 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
@@ -15178,18 +14924,10 @@ Zuordnungstabelle der [!DNL Marketo Measure]-Sitzungs-ID zur Adobe ECID und Munc
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Spalte</p>
-      </th>
-      <th>
-        <p>Datentyp</p>
-      </th>
-      <th>
-        <p>Beschreibung</p>
-      </th>
-      <th>
-        <p>Beispieldaten</p>
-      </th>
+      <th>Spalte</th>
+      <th>Datentyp</th>
+      <th>Beschreibung</th>
+      <th>Beispieldaten</th>
     </tr>
     <tr>
       <td>
