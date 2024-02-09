@@ -4,7 +4,7 @@ description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 999758c34b0264b8dac06fd0675e26b312fa58d6
+source-git-commit: b7675bb771c41f6d0e0b2718e64a152c78e405af
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 99%
@@ -5414,9 +5414,7 @@ Creatives, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
       <td>
         <p>number(38,0)</p>
       </td>
-      <td>
-        <p>Fremdschlüssel zur Biz_Facts-Ansicht.</p>
-      </td>
+      <td>Fremdschlüssel zur Biz_Facts-Ansicht.</td>
       <td>6008900572523230000</td>
     </tr>
     <tr>
