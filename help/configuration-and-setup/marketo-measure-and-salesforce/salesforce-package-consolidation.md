@@ -1,12 +1,12 @@
 ---
 description: '[!DNL Salesforce] Paketkonsolidierung - [!DNL Marketo Measure] - Produktdokumentation'
-title: '[!DNL Salesforce] Paketkonsolidierung'
-exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+title: '[!DNL Salesforce] Package-Konsolidierung'
+exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 12%
+source-wordcount: '473'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Das neue konsolidierte V2-Paket umfasst alle Funktionen und Funktionen der vorhe
 Wir haben zwei neue Felder hinzugefügt, um Ihre Berichtsfunktionen zu erweitern:
 
 * form_name: Dieses Feld ist jetzt in BT-/BAT-Objekten verfügbar und ermöglicht Benutzenden das Erstellen von Berichten anhand von Formularnamen.
-* user_touchpoint_id: Mit diesem Feld können Berichte mit Touchpoint-Zählungen für eindeutige Benutzende erstellt werden.
+* user_touchpoint_id: Dieses Feld ermöglicht Benutzern das Erstellen von Berichten mit Touchpoint-Zählungen für Unique Users (`bizible2__User_Touchpoint_V2__c` Salesforce).
 
 ## Unterstützung und Übergang {#support-and-transition}
 
