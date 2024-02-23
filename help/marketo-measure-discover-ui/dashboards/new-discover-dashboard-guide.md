@@ -3,10 +3,10 @@ description: Neues Discover Dashboard-Handbuch - [!DNL Marketo Measure] - Produk
 title: Neues Handbuch zum Entdecken von Dashboards
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
 source-wordcount: '1076'
-ht-degree: 10%
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>Überblick</td>
       <td><ul><li><strong>Umsatz</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
-          <li><strong>Überblick</strong>:<ul>              <li>Dashboard "Zugewiesener Umsatz": Zuweisung des Umsatzes nach Kanal im Zeitdiagramm</li>
+          <li><strong>Übersicht</strong>:<ul>              <li>Dashboard "Zugewiesener Umsatz": Zuweisung des Umsatzes nach Kanal im Zeitdiagramm</li>
             <li>ROI-Dashboard: Zeitverlaufsdiagramm</li></ul></li><li><strong>Ausgeben</strong>: ROI-Dashboard</li>
           <li><strong>Angebote</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
@@ -39,14 +39,12 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
           <li>
             <strong>Pipeline-Umsatz:</strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Durchschnittliche Angebotsgröße: </strong>Veraltet (siehe unten)</li>
-        </ul>
+            <strong>Durchschnittliche Angebotsgröße: </strong>Veraltet (siehe unten)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Wachstum</td>
-      <td>
-        <ul>
+      <td><ul>
           <li>
             <strong>Umsatz und Umsatz im Zeitverlauf</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
@@ -94,7 +92,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       </td>
     </tr>
     <tr>
-      <td>Kontobasiertes Marketing</td>
+      <td>Account-Based-Marketing</td>
       <td>
         <ul>
           <li>
@@ -123,7 +121,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       </td>
     </tr>
     <tr>
-      <td>Marketingausgaben</td>
+      <td>Marketing-Ausgaben</td>
       <td>
         <ul>
           <li>
@@ -162,19 +160,19 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
           <li>
             <strong>Leads nach Formular-URL:</strong>Web-Traffic-Dashboard</li>
           <li>
-            <strong>Kosten pro eindeutigem Besuch</strong>
+            <strong>Kosten pro individuellem Besuch</strong>
           </li>
           <li>
             <strong>Kosten pro Besuch</strong>
           </li>
           <li>
-            <strong>Umsatz pro eindeutigem Besuch</strong>
+            <strong>Umsatz pro individuellem Besuch</strong>
           </li>
           <li>
             <strong>Umsatz pro Besuch</strong>
           </li>
           <li>
-            <strong>Leads nach Landing Page</strong>
+            <strong>Leads nach Landingpage</strong>
           </li>
         </ul>
       </td>
@@ -186,7 +184,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
           <li>
             <strong>Umsatz</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Überblick</strong>:<ul>
+            <strong>Übersicht</strong>:<ul>
               <li>Dashboard "Zugewiesener Umsatz": Zuweisung des Umsatzes nach Kanal im Zeitdiagramm</li>
               <li>ROI-Dashboard: Zeitverlaufsdiagramm</li>
             </ul>
@@ -362,7 +360,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Pipeline-Umsatz im Zeitablauf</strong>
+          <strong>Pipeline-Umsatz im Zeitverlauf</strong>
         </p>
       </td>
     </tr>
@@ -376,7 +374,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Durchschnittlicher Abschlussumfang</strong>
+          <strong>Durchschnittliche Größe des Angebots</strong>
         </p>
       </td>
       <td rowspan="3">Wir haben uns dafür entschieden, diese CRM-Datenpunkte nicht in unseren Dashboards zu duplizieren, um Attributionseinblicke hervorzuheben.</td>
@@ -384,7 +382,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Offene Opportunities</strong>
+          <strong>Offene Möglichkeiten</strong>
           <strong>
             <br/>
           </strong>
@@ -394,14 +392,14 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Erfolgsquote</strong>
+          <strong>Win-Rate</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Abschlüsse im Zeitablauf</strong>
+          <strong>Angebote im Zeitverlauf</strong>
         </p>
       </td>
       <td rowspan="4">Diese Metriken werden bereits in den KPI-Kacheln bereitgestellt. Wir haben ihre Zeitreihenansicht aus unserem Dashboard ausgeschlossen, um Redundanz zu vermeiden und Klarheit zu erhalten.
@@ -409,17 +407,17 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     </tr>
     <tr>
       <td>
-        <strong>Kontakte im Zeitablauf</strong>
+        <strong>Kontakte im Zeitverlauf</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Opportunities im Zeitablauf</strong>
+        <strong>Chancen im Zeitverlauf</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Leads im Zeitablauf</strong>
+        <strong>Leads im Zeitverlauf</strong>
       </td>
     </tr>
     <tr>
@@ -436,7 +434,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Kosten pro eindeutigem Besuch</strong>
+          <strong>Kosten pro individuellem Besuch</strong>
         </p>
       </td>
       <td rowspan="7">
@@ -461,21 +459,21 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Leads nach Landing Page</strong>
+          <strong>Leads nach Landingpage</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Landing Pages nach Umsatz</strong>
+          <strong>Einstiegsseiten nach Umsatz</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Landing Pages nach Vertriebschancen-Anzahl</strong>
+          <strong>Einstiegsseiten nach Anzahl der Möglichkeiten</strong>
         </p>
       </td>
     </tr>

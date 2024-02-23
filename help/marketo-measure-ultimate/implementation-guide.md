@@ -2,10 +2,10 @@
 description: „[!DNL Marketo Measure] Implementierungshandbuch für Ultimate –  [!DNL Marketo Measure]  – Produktdokumentation“
 title: „[!DNL Marketo Measure] Implementierungshandbuch für Ultimate“
 feature: Integration, Tracking, Attribution
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
-workflow-type: ht
-source-wordcount: '997'
-ht-degree: 100%
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+workflow-type: tm+mt
+source-wordcount: '1014'
+ht-degree: 98%
 
 ---
 
@@ -66,6 +66,10 @@ Für diejenigen mit einer _**CDP-Berechtigung**_: Erstellen Sie Schemata, indem 
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## Datenflüsse {#dataflows}
+
+>[!IMPORTANT]
+>
+>Beim Hinzufügen eines neuen Datensatzes wird empfohlen, einen neuen Fluss zu erstellen, anstatt einen vorhandenen zu verwenden.
 
 [Datenflüsse – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=de){target="_blank"}
 

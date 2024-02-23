@@ -2,9 +2,9 @@
 description: Interaktions-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Interaktions-Dashboard
 feature: Reporting
-source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
@@ -59,3 +59,11 @@ Fragen zu den Grafikantworten:
 * Wie unterscheidet sich die Anzahl der Touchpoints von Personen, die innerhalb eines bestimmten Kanals/Subkanals/einer bestimmten Kampagne auf einen Kontakt geklickt haben?
 
 ![](assets/engagement-dashboard-2.png)
+
+## Filterbereich {#filter-pane}
+
+Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
+
+* Datum (basierend auf dem Touchpoint-Datum)
+* Kanal, Subkanal
+* Kampagne
