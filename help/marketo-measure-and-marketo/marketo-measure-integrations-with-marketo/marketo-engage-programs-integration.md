@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] Programmintegration - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Engage] Programmintegration - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Programmintegration"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 2%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 

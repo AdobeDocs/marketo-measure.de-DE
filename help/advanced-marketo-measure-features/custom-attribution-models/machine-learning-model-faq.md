@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874775
-description: FAQ zum Modell für maschinelles Lernen - [!DNL Marketo Measure] - Produktdokumentation
+description: FAQ zum Modell für maschinelles Lernen - [!DNL Marketo Measure]
 title: Modell für maschinelles Lernen – FAQ
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '688'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Die Zuweisung von 10 % Zuordnungsguthaben zu &quot;Middle Touches&quot;ist eine 
 
 Wann sollte ich meine Attributionsverteilung ändern?
 
-Wenden Sie sich an Ihren Kundenbetreuer, um zu besprechen, welche Auswirkungen die Änderung Ihrer Attributionsprozentsätze hat und welche Phasen in Ihr benutzerdefiniertes Modell aufgenommen werden sollen. Jeder [!DNL Salesforce] und der Verkaufsprozess einzigartig ist, und wir möchten sicherstellen, dass Ihr benutzerdefiniertes Modell korrekt modelliert wird.
+Wenden Sie sich an Ihren Kundenbetreuer, um die Auswirkungen der Änderung Ihrer Attributionsprozentsätze und die Schritte zu besprechen, die in Ihr benutzerdefiniertes Modell aufgenommen werden sollen. Jeder [!DNL Salesforce] und der Verkaufsprozess einzigartig ist, und wir möchten sicherstellen, dass Ihr benutzerdefiniertes Modell korrekt modelliert wird.
 
 Dennoch haben wir einige allgemeine Trends für unsere Kunden ermittelt:
 
@@ -55,4 +55,4 @@ Ein Trend, den wir bemerkt haben, ist, dass es nicht immer von Vorteil ist, mehr
 
 Wir haben auch festgestellt, dass es eine hohe Konversionsrate von Lead-Erstellung zu Marketing-Qualifizierten Bühnen gibt. Daher könnte die Stufe Marketing-Qualifiziert eine niedrigere Prozentattributionsgewichtung erhalten. Je nach Ihrem Geschäfts- und Verkaufszyklus kann es von Vorteil sein, diese Phase aus dem benutzerdefinierten Modell zu entfernen.
 
-Beachten Sie Folgendes: Wenn Sie Marketingaktivitäten über einen bestimmten Übergang in der Phase verfolgen möchten, aber nicht möchten, dass diese Phase eine Attribution-Gutschrift erhält, können Sie diese Phase in Ihr Modell aufnehmen und dieser Phase eine 0-%-Attribution zuweisen.
+Denken Sie daran, wenn Sie Marketingaktivitäten über eine bestimmte Phasenübergang verfolgen möchten, aber nicht möchten, dass diese Phase eine Zuordnungsgutschrift erhält, können Sie diese Phase in Ihr Modell aufnehmen und dieser Phase eine Zuordnungsgutschrift von 0 % zuweisen.

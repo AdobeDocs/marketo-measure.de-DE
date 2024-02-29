@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874648
-description: Unterschied zwischen einer Google Analytics-Konversion und einem Käufer-Touchpoint - [!DNL Marketo Measure] - Produktdokumentation
+description: Unterschied zwischen einer Google Analytics-Konversion und einem Käufer-Touchpoint - [!DNL Marketo Measure]
 title: Unterschied zwischen einer Google Analytics-Konversion und einem Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Erfahren Sie mehr über [!DNL Google Analytics (GA)] Ziel ist und wie es sich von einem Käufer Touchpoint unterscheidet.
 
-**Wie lauten die Konversionen der Google Analytics?**
+**Was sind Google Analytics?**
 
 [!UICONTROL Google Analytics] Konversionen werden vollständig dadurch bestimmt, wie ein Marketing-Experte oder Web-Entwickler die &quot;Zielabschlüsse&quot;auf einer bestimmten Website kodiert. Ziele, so Google, könnten als &quot;Kauf tätigen (für eine E-Commerce-Site), ein Spiellevel (für eine mobile Gaming-App) abschließen oder ein Kontaktformular (für eine Marketing- oder Lead-Generierungssite) senden&quot;. Meistens sehen Marketer Ziele/Konversionen als Personen, die ein Informationsformular ausfüllen.
 
@@ -80,4 +80,4 @@ Die Touchpoints des Käufers verhalten sich jedoch sehr unterschiedlich.
 * Der Benutzer lädt die Dankeseite mehrmals neu.
 * Der Benutzer verwendet alle Tools zum Blockieren von Anzeigen.
 
-Wie Sie sehen, gibt es grundlegende Unterschiede zwischen GA und [!DNL Marketo Measure] eine Konversion berücksichtigen. Daher ist es sehr wahrscheinlich, dass die Anzahl der Konvertierungen und die Anzahl der Formular-Touchpoints variieren.
+Wie Sie sehen, gibt es grundlegende Unterschiede zwischen GA und [!DNL Marketo Measure] eine Konversion berücksichtigen. Daher wird es sehr wahrscheinlich sein, dass die Anzahl der Konvertierungen und die Anzahl der Formular-Touchpoints variieren.

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Dynamics-Schema - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Dynamics-Schema - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Dynamics Schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 46%
+source-wordcount: '1076'
+ht-degree: 65%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber trotzdem &quot;Bizible&quot;in Ihrem CRM. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
 Unten finden Sie das erforderliche Dynamics-Schema, um mit [!DNL Marketo Measure]. Alle Entitäten und Felder werden zusammen mit dem erforderlichen Lese- und/oder Schreibzugriff aufgelistet.
 
@@ -27,7 +27,7 @@ Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] benutzerdefinierte En
 
 Dieses Diagramm stellt eine allgemeine Visualisierung der Beziehungen zwischen den Dynamics Stock-Entitäten und dem Käufer-Touchpoint dar.
 
-## Käufer Touchpoint {#buyer-touchpoint}
+## Buyer Touchpoint {#buyer-touchpoint}
 
 <table> 
  <tbody> 
@@ -304,7 +304,7 @@ Dieses Diagramm stellt eine allgemeine Visualisierung der Beziehungen zwischen d
  </tbody> 
 </table>
 
-## Touchpoint der Käuferzuordnung {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
 Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] benutzerspezifische Entität verwenden, um den Einfluss des Marketing auf Chancen einzuschließen.
 
@@ -715,7 +715,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] AB Tests {#marketo-measure-ab-tests}
+## [!DNL Marketo Measure] AB-Tests {#marketo-measure-ab-tests}
 
 <table> 
  <tbody> 
@@ -800,7 +800,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] Ereignisse {#marketo-measure-events}
+## [!DNL Marketo Measure]-Ereignisse {#marketo-measure-events}
 
 <table> 
  <tbody> 
@@ -867,7 +867,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] Verlauf {#marketo-measure-history}
+## [!DNL Marketo Measure] Geschichte {#marketo-measure-history}
 
 <table> 
  <tbody> 

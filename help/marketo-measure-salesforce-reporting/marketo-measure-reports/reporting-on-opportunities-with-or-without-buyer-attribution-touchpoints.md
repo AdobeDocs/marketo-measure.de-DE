@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874618
-description: Reporting zu Chancen mit oder ohne Touchpoints der Käuferzuordnung - [!DNL Marketo Measure] - Produktdokumentation
+description: Reporting zu Chancen mit oder ohne Touchpoints der Käuferzuordnung - [!DNL Marketo Measure]
 title: Reporting zu Chancen mit oder ohne Buyer Attribution Touchpoints
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 9%
+source-wordcount: '174'
+ht-degree: 20%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber trotzdem &quot;Bizible&quot;in Ihrem CRM. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
 Erstellen Sie einen neuen Berichtstyp, um alle Möglichkeiten mit oder ohne Touchpoints der Käuferzuordnung einzuschließen.
 

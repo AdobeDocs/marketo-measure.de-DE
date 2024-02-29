@@ -1,12 +1,12 @@
 ---
-description: „[!DNL Marketo Measure]-Berichtsvorlage – Power BI – [!DNL Marketo Measure] – Produktdokumentation“
+description: "[!DNL Marketo Measure] Berichtsvorlage - Power BI - [!DNL Marketo Measure]"
 title: „[!DNL Marketo Measure]-Berichtsvorlage – Power BI“
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '2571'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '2540'
+ht-degree: 83%
 
 ---
 
@@ -22,19 +22,19 @@ Auf die Vorlage des Power BI-Berichts können Sie [hier](https://github.com/adob
 
 Sie finden Ihre spezifischen Server-, Warehouse- und Schemadaten in der [!DNL Marketo Measure]-Benutzeroberfläche auf der [!DNL Data Warehouse]-Informationsseite. Anweisungen zum Auffinden dieser Seite finden Sie [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
-Die Parameter „QueryFilterStartDate“ und „QueryFilterEndDate“ werden verwendet, um die Menge der importierten Daten zu begrenzen. Diese Parameter müssen in demselben SQL-Format vorliegen wie in den an [!DNL Snowflake] gesendeten Abfragen. Wenn Sie beispielsweise Daten auf die letzten zwei Jahre beschränken möchten, würde „QueryFilterStartDate“ auf „dateadd (year,-2,current_date())“ lauten. Diese Parameter werden mit den datetime-Datentypen verglichen. Daher wird empfohlen, „dateadd (day,1,current_date())“ für „QueryFilterEndDate“ zu verwenden, um alle Daten zur aktuellen Zeit zurückzugeben.
+Die Parameter „QueryFilterStartDate“ und „QueryFilterEndDate“ werden verwendet, um die Menge der importierten Daten zu begrenzen. Diese Parameter müssen in demselben SQL-Format vorliegen wie in den an [!DNL Snowflake] gesendeten Abfragen. Wenn Sie beispielsweise Daten auf die letzten zwei Jahre beschränken möchten, lautet das QueryFilterStartDate `dateadd` (year,-2,current_date()). Diese Parameter werden mit den Datums-/Uhrzeitdatentypen verglichen. Daher wird die Verwendung von `dateadd` (day,1,current_date()) für QueryFilterEndDate, um alle Daten zur aktuellen Zeit zurückzugeben.
 
 ## Datenverbindung {#data-connection}
 
-Mit den beim Öffnen der Datei eingegebenen Parametern werden native Abfragen strukturiert, mit denen Tabellen aus dem Data Warehouse importiert werden. Sie müssen weiterhin eine Datenverbindung zu Ihrer [!DNL Snowflake]-Instanz einrichten. Dazu benötigen Sie dieselben Server- und Warehouse-Namen sowie Ihren Benutzernamen und Ihr Passwort. Details darüber, wo Sie Ihren Benutzernamen finden und Ihr Passwort gegebenenfalls zurücksetzen können, finden Sie [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+Mit den beim Öffnen der Datei eingegebenen Parametern werden native Abfragen strukturiert, mit denen Tabellen aus dem Data Warehouse importiert werden. Sie müssen weiterhin eine Datenverbindung zu Ihrem [!DNL Snowflake] -Instanz. Dazu benötigen Sie dieselben Server- und Warehouse-Namen wie Ihren Benutzernamen und Ihr Passwort. Details darüber, wo Sie Ihren Benutzernamen finden und Ihr Passwort gegebenenfalls zurücksetzen können, finden Sie [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Datenimport {#data-import}
 
-Um die Berichtsleistung zu verbessern und die Umwandlungsfunktionen in Power Query zu nutzen, haben wir uns entschieden, diese Vorlage mithilfe der Importspeichermethode einzurichten.
+Um die Berichtsleistung zu verbessern und die Transformationsfunktionen in Power Query zu nutzen, richten Sie diese Vorlage mithilfe der Importspeichermethode ein.
 
 ### Abfrageparameter {#query-parameters}
 
-Um die in das Modell importierten Daten zu begrenzen, wird jede Tabelle mithilfe einer nativen Abfrage als Quelle eingerichtet. Native Abfragen erfordern eine Validierung. Sie müssen für jede Abfrage auf „Ausführen“ klicken. Dieser Schritt ist nur erforderlich, wenn die Abfragen zum ersten Mal ausgeführt werden oder sich die Parameter ändern.
+Um die in das Modell importierten Daten zu begrenzen, wird jede Tabelle mithilfe einer nativen Abfrage als Quelle eingerichtet. Native Abfragen erfordern eine Validierung, da für jede Abfrage auf Ausführen geklickt werden muss. Dieser Schritt ist nur erforderlich, wenn die Abfragen zum ersten Mal ausgeführt werden oder sich die Parameter ändern.
 
 ![](assets/marketo-measure-report-template-power-bi-2.png)
 
@@ -42,7 +42,7 @@ Alle Abfragen filtern gelöschte Zeilen heraus, und die [!UICONTROL Faktentabell
 
 >[!NOTE]
 >
->Da die Datumsfilter auf das Änderungsdatum einer Zeile angewendet werden, sollten Sie beim Reporting für Daten, die außerhalb des eingeschränkten Datumsbereichs liegen, Vorsicht walten lassen. Nehmen wir zum Beispiel an, der geänderte Datumsbereich ist auf die letzten beiden Jahre beschränkt. Dies kann ein Ereignis mit einem Ereignisdatum von vor drei Jahren umfassen, das jedoch kürzlich geändert wurde. Das Reporting zu Ereignissen aus dem Vorjahr wird jedoch zu unvollständigen Ergebnissen führen, da nicht alle Zeilen innerhalb des Zeitrahmens von zwei Jahren geändert wurden.
+>Da die Datumsfilter auf das Änderungsdatum einer Zeile angewendet werden, sollten Sie beim Reporting für Daten, die außerhalb des eingeschränkten Datumsbereichs liegen, Vorsicht walten lassen. Nehmen wir zum Beispiel an, der geänderte Datumsbereich ist auf die letzten beiden Jahre beschränkt. Dies kann ein Ereignis mit einem Ereignisdatum von vor drei Jahren umfassen, das jedoch kürzlich geändert wurde. Die Berichterstellung zu Ereignissen aus dem Zeitraum vor drei Jahren liefert jedoch unvollständige Ergebnisse, da nicht alle Zeilen innerhalb des Zeitraums von zwei Jahren geändert wurden.
 
 ![](assets/marketo-measure-report-template-power-bi-3.png)
 
@@ -80,11 +80,11 @@ Einige Umwandlungen wurden auf die Daten in Power Query angewendet. Um die spezi
 
 ### Spalten entfernt {#removed-columns}
 
-Um das Datenmodell zu vereinfachen und unnötige Daten zu entfernen, wurde die Anzahl der aus der ursprünglichen [!DNL Snowflake]-Tabelle nach Power BI importierten Spalten verringert. Zu den entfernten Spalten gehören unnötige Fremdschlüssel, denormalisierte Dimensionsdaten, die besser über Beziehungen zu anderen Tabellen im Modell genutzt werden können, Audit-Spalten und für die interne [!DNL Marketo Measure]-Verarbeitung verwendete Spalten. Sie können Spalten entsprechend Ihren geschäftlichen Anforderungen hinzufügen oder entfernen. Navigieren Sie in einer beliebigen Tabelle zum Schritt „Andere Spalten entfernt“ nach dem Schritt „Quelle“, klicken Sie auf das Zahnradsymbol und aktualisieren Sie die ausgewählten Spalten in der Liste.
+Um das Datenmodell zu vereinfachen und unnötige Daten zu entfernen, wurde die Anzahl der aus der ursprünglichen [!DNL Snowflake]-Tabelle nach Power BI importierten Spalten verringert. Zu den entfernten Spalten gehören unnötige Fremdschlüssel, denormalisierte Dimensionsdaten, die besser über Beziehungen zu anderen Tabellen im Modell angewendet werden, Prüfspalten und Felder, die für interne [!DNL Marketo Measure] Verarbeitung. Sie können Spalten entsprechend Ihren geschäftlichen Anforderungen hinzufügen oder entfernen. Navigieren Sie in einer beliebigen Tabelle zum Schritt „Andere Spalten entfernt“ nach dem Schritt „Quelle“, klicken Sie auf das Zahnradsymbol und aktualisieren Sie die ausgewählten Spalten in der Liste.
 
 >[!NOTE]
 >
->* Gehen Sie beim Hinzufügen zusätzlicher Fremdschlüsselwerte vorsichtig vor. Power BI wird häufig so eingestellt, dass Beziehungen im Modell automatisch erkannt werden. Das Hinzufügen von Fremdschlüsselwerten kann dabei zu unerwünschten Links zwischen Tabellen und/oder zur Deaktivierung vorhandener Beziehungen führen.
+>* Gehen Sie beim Hinzufügen zusätzlicher Fremdschlüsselwerte vorsichtig vor. Power BI wird häufig so eingestellt, dass Beziehungen im Modell automatisch erkannt werden. Das Hinzufügen von Fremdschlüsselwerten kann zu unerwünschten Verknüpfungen zwischen Tabellen und/oder zur Deaktivierung vorhandener Beziehungen führen.
 >
 >* Die meisten Tabellen im [!DNL Marketo Measure] Data Warehouse enthalten denormalisierte Dimensionsdaten. Das Modell wurde in Power BI so weit wie möglich normalisiert und bereinigt, um die Leistung und Datengenauigkeit zu verbessern. Gehen Sie beim Einschließen zusätzlicher denormalisierter Felder in Faktentabellen vorsichtig vor. Dies kann nämlich zu einer fehlerhaften tabellenübergreifenden Dimensionsfilterung und ungenauen Berichten führen.
 
@@ -103,10 +103,10 @@ Segmentnamen sind anpassbar. Sie weisen daher im Snowflake Data Warehouse allgem
 
 ![](assets/marketo-measure-report-template-power-bi-7.png)
 
-### ID-Umwandlung mit Unterscheidung zwischen Groß-/Kleinschreibung {#case-sensitive-id-conversion}
+### Konversion von Groß-/Kleinschreibung {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure]-Daten haben mehrere Tabellen, bei denen bei den Primärschlüssel(ID)-Werten zwischen Groß- und Kleinschreibung unterschieden wird, und zwar bei „Touchpoint“ und „Kampagne“. Die Daten-Engine, die die Power BI-Modellierungsebene steuert, unterscheidet nicht zwischen Groß- und Kleinschreibung, was zu „doppelten“ ID-Werten führt. Um die Groß-/Kleinschreibung dieser Schlüsselwerte zu erhalten, wurden Umwandlungsschritte implementiert, die unsichtbare Zeichen an Kleinbuchstaben anhängen, wobei die Eindeutigkeit der ID bei der Auswertung auf Daten-Engine-Ebene gewahrt bleibt. Weitere Informationen zu diesem Problem und zu den detaillierten Schritten für die angewendete Methode finden Sie [hier] (https://blog.crossjoin.co.uk/2019
-/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Diese ID-Werte, bei denen zwischen Groß- und Kleinschreibung unterschieden wird, werden als „Join-IDs“ (Verküpfungs-IDs) bezeichnet und als Joinkeys (Verknüpfungsschlüssel) auf Beziehungsebene verwendet. Die Join-IDs wurden in der Berichtsebene ausgeblendet, sodass die ursprünglichen ID-Werte für Berichte sichtbar bleiben, da die unsichtbaren Zeichen die Funktionen zum Ausschneiden/Einfügen und 
+[!DNL Marketo Measure] -Daten verfügen über mehrere Tabellen, bei denen bei den Primärschlüsselwerten (ID) zwischen Groß- und Kleinschreibung unterschieden wird (Touchpoint und Campaign). Die Daten-Engine, die die Power BI-Modellierungsebene steuert, unterscheidet nicht zwischen Groß- und Kleinschreibung, was zu „doppelten“ ID-Werten führt. Um die Groß-/Kleinschreibung dieser Schlüsselwerte zu erhalten, wurden Umwandlungsschritte implementiert, die unsichtbare Zeichen an Kleinbuchstaben anhängen, wobei die Eindeutigkeit der ID bei der Auswertung auf Daten-Engine-Ebene gewahrt bleibt. Weitere Informationen zu diesem Problem und zu den detaillierten Schritten für die angewendete Methode finden Sie [hier] (https://blog.crossjoin.co.uk/2019
+/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Diese ID-Werte, bei denen die Groß-/Kleinschreibung beachtet wird, werden als &quot;Join IDs&quot;bezeichnet und als Join-Schlüssel in der Beziehungsschicht verwendet. Die Join-IDs wurden in der Berichtsebene ausgeblendet, sodass die ursprünglichen ID-Werte für Berichte sichtbar bleiben, da die unsichtbaren Zeichen die Funktionen zum Ausschneiden/Einfügen und 
 Filtern beeinträchtigen können.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
@@ -119,7 +119,7 @@ Um den Berechnungen im Modell Funktionen zur Währungsumrechnung hinzuzufügen, 
 
 ![](assets/marketo-measure-report-template-power-bi-10.png)
 
-Die in [!DNL Snowflake] gespeicherte Tabelle „Umrechnungskurs“ enthält einen Datumsbereich für jede Umrechnung. Power BI erlaubt keine Verknüpfungskriterien für eine Berechnung (d. h. zwischen einem Datumsbereich). Für eine Verknüpfung an einem Datum wurden der Tabelle Schritte für den Umrechnungskurs hinzugefügt, um die Zeilen so zu erweitern, dass im Datumsbereich für die Umrechnung für jedes Datum eine Zeile vorhanden ist.
+Die in [!DNL Snowflake] gespeicherte Tabelle „Umrechnungskurs“ enthält einen Datumsbereich für jede Umrechnung. Power BI erlaubt keine Zusammenführungskriterien für eine Berechnung (also zwischen einem Datumsbereich). Für eine Verknüpfung an einem Datum wurden der Tabelle Schritte für den Umrechnungskurs hinzugefügt, um die Zeilen so zu erweitern, dass im Datumsbereich für die Umrechnung für jedes Datum eine Zeile vorhanden ist.
 
 ![](assets/marketo-measure-report-template-power-bi-11.png)
 
@@ -166,7 +166,7 @@ Die in der Tabelle „Umrechnungskurs“ angegebenen Kurse stellen den Wert dar,
 
 Da Umrechnungskurse nicht statisch sein müssen und sich in bestimmten Datumsbereichen ändern können, müssen alle Währungsumrechnungen auf Zeilenebene durchgeführt werden. Umrechnungskurse beziehen sich, wie bereits erwähnt, nicht auf einen bestimmten Datumsbereich, sodass die Lookup-Berechnung innerhalb des DAX der Kennzahl durchgeführt werden muss, damit die Beziehung sowohl für den Währungs-Code als auch für das Datum definiert werden kann.
 
-In den Kennzahlen für die Währungsumrechnung in diesem Modell wird der Wert 1,0 für den Kurs eingesetzt, wenn kein Umrechnungskurs identifiziert werden kann. Es wurden separate Kennzahlen erstellt, um den Währungswert für die Kennzahl anzuzeigen und einen Warnhinweis auszugeben, wenn eine Berechnung mehr als einen Währungswert enthält (d. h., wenn ein Wert nicht in die ausgewählte Währung umgerechnet werden konnte). 
+In den Kennzahlen für die Währungsumrechnung in diesem Modell wird der Wert 1,0 für den Kurs eingesetzt, wenn kein Umrechnungskurs identifiziert werden kann. Es wurden separate Kennzahlen erstellt, um den Währungswert für die Kennzahl anzuzeigen, und eine Warnung, wenn eine Berechnung mehr als einen Währungswert enthält (d. h., ein Wert konnte nicht in die ausgewählte Währung konvertiert werden).
 
 ![](assets/marketo-measure-report-template-power-bi-13.png)
 
@@ -180,7 +180,7 @@ Zum Power BI-Modell wurden Definitionen für Tabellen, benutzerdefinierte Spalte
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-Informationen zum Anzeigen von Definitionen für Spalten, die direkt aus [!DNL Snowflake] stammen, finden Sie in der [Data-Warehouse-Dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
+So zeigen Sie Definitionen für Spalten an, die direkt von [!DNL Snowflake], siehe [Data Warehouse-Dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Diskrepanzen zwischen Vorlagen- und Discover-Modell {#discrepancies-between-templates-and-discover}
 
@@ -190,7 +190,7 @@ Lead-Touchpoints und Attributions-Touchpoints übernehmen Dimensionsdaten vom ur
 
 ### Kosten {#cost}
 
-Kostenberichte in den Vorlagen sind nur auf Kampagnen- und Kanalebene verfügbar. Discover bietet jedoch Berichte mit geringerer Granularität für bestimmte Anzeigenanbieter (z. B. zu Kreativinhalten, Keywords, Anzeigengruppen usw.). Weitere Informationen zum Modellieren der Kostendaten in den Vorlagen finden Sie im Abschnitt „Datenmodell“ in dieser Dokumentation. Wenn der Dimensionsfilter in [!UICONTROL Discover] auf Kanal oder Kampagne eingestellt ist, sollten die Kosten auf Kanal-, Subkanal- und Kampagnenebene zwischen Discover und Berichtsvorlagen stimmig sein.
+Kostenberichte in den Vorlagen sind nur auf Kampagnen- und Kanalebene verfügbar. Discover bietet jedoch Berichte mit geringerer Granularität für einige Anzeigenanbieter (d. h. für kreative Inhalte, Suchbegriffe, Anzeigengruppen usw.). Weitere Informationen zur Modellierung der Kostendaten in den Vorlagen finden Sie im Abschnitt Datenmodell dieser Dokumentation. Wenn der Dimensionsfilter in [!UICONTROL Discover] auf Kanal oder Kampagne eingestellt ist, sollten die Kosten auf Kanal-, Subkanal- und Kampagnenebene zwischen Discover und Berichtsvorlagen stimmig sein.
 
 ### ROI {#roi}
 
@@ -202,13 +202,13 @@ Diese Metriken werden, wie in den Berichtsvorlagen dargestellt, in Discover nich
 
 ### Webtraffic {#web-traffic}
 
-Das Datenmodell der Berichtsvorlage normalisiert die Dimensionsdaten von Kanal, Subkanal und Kampagne über die Beziehung zwischen Sitzung und Touchpoint. Dies unterscheidet sich vom Discover-Datenmodell, bei dem diese Dimensionen für die Sitzung denormalisiert werden. Aufgrund dieser Unterscheidung sollten die Gesamtzahlen für Besuche und Besuchende zwischen Discover und der Berichtsvorlage übereinstimmen. Wenn diese Zahlen jedoch nach Dimension angezeigt oder gefiltert werden, wird diese Übereinstimmung nicht erwartet. Dies liegt daran, dass die Dimensionsdaten in der Vorlage nur für Web-Ereignisse verfügbar sind, die zu einem Touchpoint geführt haben (d. h. nicht anonyme Ereignisse). Weitere Informationen finden Sie im Abschnitt [Datenmodell](#data-model) in dieser Dokumentation.
+Das Datenmodell der Berichtsvorlage normalisiert die Dimensionsdaten von Kanal, Subkanal und Kampagne über die Beziehung zwischen Sitzung und Touchpoint. Dies unterscheidet sich vom Discover-Datenmodell, bei dem diese Dimensionen für die Sitzung denormalisiert werden. Aufgrund dieser Unterscheidung sollten die Gesamtzahlen für Besuche und Besuchende zwischen Discover und der Berichtsvorlage übereinstimmen. Wenn diese Zahlen jedoch nach Dimension angezeigt oder gefiltert werden, wird diese Übereinstimmung nicht erwartet. Dies liegt daran, dass die Dimensionsdaten in der Vorlage nur für Web-Ereignisse verfügbar sind, die zu einem Touchpoint geführt haben (d. h. nicht anonyme Ereignisse). Weitere Informationen finden Sie unter [Datenmodell](#data-model) Abschnitt dieser Dokumentation.
 
 Es kann kleine Diskrepanzen bei der Gesamtzahl der Site-Formulare zwischen [!DNL Discover] und der Vorlage geben. Dies liegt daran, dass das Datenmodell in der Berichtsvorlage über eine Beziehung zur Sitzung und dann zum Touchpoint Dimensionsdaten für das Site-Formular erhält. Es einigen Fälle weisen Site-Formulardaten keine korrelierte Sitzung auf.
 
 ### Leads und Konten {#leads-and-accounts}
 
-Die Dimensionsberichte für die betroffenen Konten können zwischen Discover und der Vorlage geringfügig voneinander abweichen. Dies ist erneut auf die Dimensionsmodellierung auf Basis der Beziehung zwischen Touchpoint und Lead- bzw. Attributions-Touchpoint zurückzuführen. Weitere Informationen dazu finden Sie im Abschnitt „Attributierter Umsatz“.
+Die Dimensionsberichte für die betroffenen Konten können zwischen Discover und der Vorlage geringfügig voneinander abweichen. Dies ist erneut auf die Dimensionsmodellierung auf Basis der Beziehung zwischen Touchpoint und Lead- bzw. Attributions-Touchpoint zurückzuführen. Weitere Informationen finden Sie in den Details, die im Abschnitt &quot;Zugewiesener Umsatz&quot;beschrieben sind.
 
 Alle Lead-Zahlen in Discover sind attributierte Lead-Zahlen, und in der Berichtsvorlage weist die Metrik Lead-Touchpoints auf. Daher ist für diese Kennzahl kein direkter Vergleich zwischen den beiden Berichten möglich.
 

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762600
-description: Momentaufnahme-Dashboard-Dokumentation - [!DNL Marketo Measure] - Produktdokumentation
+description: Momentaufnahme-Dashboard-Dokumentation - [!DNL Marketo Measure]
 title: Dokumentation zum Momentaufnahmen-Dashboard
 exl-id: 4dfc92d2-ccab-4726-a869-3ae32aa89a5f
 feature: Reporting
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 2%
+source-wordcount: '414'
+ht-degree: 1%
 
 ---
 
@@ -52,7 +52,7 @@ In allen Filtern wird die Logik &quot;AND&quot;verwendet.
 >
 >Wenn sich ein Datensatz am ausgewählten Datum in der Phase ändert, wird der Datensatz für die - und -Phasen sowie alle Durchlaufphasen gezählt.
 
-## Lead / Kontakt Momentaufnahme {#lead-contact-snapshot}
+## Lead-/Kontaktaufnahme {#lead-contact-snapshot}
 
 ![](assets/one.png)
 

@@ -1,23 +1,23 @@
 ---
 unique-page-id: 18874572
-description: Datensätze duplizieren und [!DNL Marketo Measure] - [!DNL Marketo Measure] - Produktdokumentation
+description: Datensätze duplizieren und [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Doppelte Datensätze und  [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 2%
+source-wordcount: '288'
+ht-degree: 6%
 
 ---
 
-# Doppelte Datensätze und [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
+# Datensätze duplizieren und [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber trotzdem &quot;Bizible&quot;in Ihrem CRM. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
-[!DNL Marketo Measure] nutzt die E-Mail-Adresse als eindeutige Kennung bei der Zuordnung von Daten zu einem verbundenen Lead oder Kontakt im CRM. Wann [!DNL Marketo Measure] findet mehrere Leads oder Kontakte mit derselben E-Mail-Adresse, wir werden die gleichen Daten auf allen Datensätzen aufdecken. Die Auswirkungen sind zu erwarten, wenn Sie über Leads oder Kontakte mit [!DNL Marketo Measure] und kann die Anzahl der Einzelanwender, die Touchpoints des Käufers haben, fälschlicherweise erhöhen.
+[!DNL Marketo Measure] verwendet die E-Mail-Adresse als eindeutige Kennung bei der Zuordnung von Daten zu einem zugehörigen Lead oder Kontakt im CRM. Wann [!DNL Marketo Measure] findet mehrere Leads oder Kontakte mit derselben E-Mail-Adresse, wir werden die gleichen Daten auf allen Datensätzen aufdecken. Die Auswirkungen sind zu erwarten, wenn Sie über Leads oder Kontakte mit [!DNL Marketo Measure] und kann die Anzahl der Einzelanwender, die Touchpoints des Käufers haben, fälschlicherweise erhöhen.
 
 Wie sieht dies aus in [!DNL Marketo Measure] Reporting?
 

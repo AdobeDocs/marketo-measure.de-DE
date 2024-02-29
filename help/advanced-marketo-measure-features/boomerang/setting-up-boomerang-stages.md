@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874767
-description: Einrichten von Boomerang-Phasen - [!DNL Marketo Measure] - Produktdokumentation
+description: Einrichten von Boomerang-Phasen - [!DNL Marketo Measure]
 title: Einrichten von Boomerang-Phasen
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 4%
+source-wordcount: '319'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Aktivieren [!UICONTROL Boomerang] Staging für Ihr Konto, müssen Sie ein Kontoa
 
 ## Einrichten der Boomerang-Phase {#boomerang-stage-setup}
 
-1. Navigieren Sie zu [!UICONTROL Staging-Zuordnung]. Unter der Spalte mit dem Titel[!UICONTROL Boomerang],&quot; wählen Sie die Kästchen neben den Bühnen aus, die Sie verfolgen möchten.
+1. Navigieren Sie zu [!UICONTROL Staging-Zuordnung]. In der Spalte mit dem Titel[!UICONTROL Boomerang],&quot; wählen Sie die Kästchen neben den Bühnen aus, die Sie verfolgen möchten.
 
    ![](assets/1-2.png)
 
@@ -29,11 +29,11 @@ Aktivieren [!UICONTROL Boomerang] Staging für Ihr Konto, müssen Sie ein Kontoa
 
    ![](assets/2-2.png)
 
-1. Klicks **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    >[!NOTE]
    >
-   >Bitte warten Sie 24-48 Stunden, bis Ihre Daten entsprechend diesen Änderungen erneut verarbeitet werden.
+   >Die erneute Verarbeitung Ihrer Daten entsprechend diesen Änderungen dauert 24 bis 48 Stunden.
 
 ## Bumerang-Staging-Einrichtung mit benutzerdefinierter Modellzuordnung {#boomerang-stage-setup-with-custom-model-attribution}
 
@@ -53,10 +53,10 @@ Aktivieren [!UICONTROL Boomerang] Staging für Ihr Konto, müssen Sie ein Kontoa
 
    ![](assets/6-1.png)
 
-1. Legen Sie den Attributionsprozentsatz fest, den Sie den im benutzerdefinierten Modell enthaltenen Boomerang-Phasen zuweisen möchten. Stellen Sie sicher, dass die Gesamtzahl der Zuordnungen für alle Phasen 100 % ergibt. Klicks **[!UICONTROL Speichern und verarbeiten]**.
+1. Legen Sie den Attributionsprozentsatz fest, den Sie den im benutzerdefinierten Modell enthaltenen Boomerang-Phasen zuweisen möchten. Stellen Sie sicher, dass die Gesamtzuordnung für alle Phasen 100 % ergibt. Klicks **[!UICONTROL Speichern und verarbeiten]**.
 
    ![](assets/7-1.png)
 
    >[!NOTE]
    >
-   >Bitte warten Sie 24-48 Stunden, bis Ihre Daten entsprechend diesen Änderungen erneut verarbeitet werden.
+   >Die erneute Verarbeitung Ihrer Daten entsprechend diesen Änderungen dauert 24 bis 48 Stunden.

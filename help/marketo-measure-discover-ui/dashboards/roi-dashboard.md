@@ -3,10 +3,10 @@ description: ROI-Dashboard - [!DNL Marketo Measure] - Produkt
 title: ROI-Dashboard
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -45,7 +45,7 @@ Das ROI-Dashboard bietet Marketing-Experten einen detaillierten Überblick über
 
 Balkendiagramm zur Darstellung von Kosten und Umsatz, das eine vergleichende Sicht auf die Größenordnung der Balken in Bezug auf verschiedene Kanäle, Unterkanäle und Kampagnen bietet.
 
-* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Subchannel und Campaign zu kategorisieren.
+* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Subchannel und Campaign zu kategorisieren.
 * Bewegen Sie den Mauszeiger über die einzelnen Balken, um die einfachen und realisierten ROIs anzuzeigen.
 
 **Fragen zu den Grafikantworten**
@@ -72,7 +72,7 @@ Zeitreihenliniendiagramm, das den Vergleich zwischen realisiertem und einfachem 
 
 Gestapeltes Balkendiagramm mit Gesamtkosten, segmentiert nach verknüpften Kanälen für jeden Monat/Quartal/Jahr.
 
-* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
+* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
 * Bewegen Sie den Mauszeiger über ein Balkensegment oder den Abstand zwischen Balken, um detaillierte Informationen anzuzeigen.
 
 **Fragen zu den Grafikantworten**
@@ -86,7 +86,7 @@ Gestapeltes Balkendiagramm mit Gesamtkosten, segmentiert nach verknüpften Kanä
 
 Balkendiagramm mit den nach Kanal/Subkanal/Kampagne segmentierten Marketingausgaben.
 
-* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Kanal/Subkanal/Kampagne zu kategorisieren.
+* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Kanal/Subkanal/Kampagne zu kategorisieren.
 
 **Fragen zu den Grafikantworten**
 

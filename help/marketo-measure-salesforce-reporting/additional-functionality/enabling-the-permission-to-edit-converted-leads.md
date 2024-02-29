@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874700
-description: Aktivierung der Berechtigung zum Bearbeiten konvertierter Leads - [!DNL Marketo Measure] - Produktdokumentation
+description: Aktivierung der Berechtigung zum Bearbeiten konvertierter Leads - [!DNL Marketo Measure]
 title: Aktivierung der Berechtigung zum Bearbeiten konvertierter Leads
 exl-id: 00f59d98-272e-47e8-bc20-9d805b1826be
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 9%
 
 ---

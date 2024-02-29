@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874755
-description: Hinzufügen [!DNL Marketo Measure] nach [!DNL Marketo] Landing Pages - [!DNL Marketo Measure] - Produktdokumentation
+description: Hinzufügen [!DNL Marketo Measure] nach [!DNL Marketo] Landing Pages - [!DNL Marketo Measure]
 title: Hinzufügen von [!DNL Marketo Measure] zu Marketo-Landing-Pages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 4%
+source-wordcount: '217'
+ht-degree: 3%
 
 ---
 
-# Hinzufügen von[!DNL Marketo Measure]zu Marketo-Landing-Pages {#adding-marketo-measure-to-marketo-landing-pages}
+# Hinzufügen [!DNL Marketo Measure] zu Marketo-Landingpages {#adding-marketo-measure-to-marketo-landing-pages}
 
 Erfahren Sie, wie Sie Tracking zu [!DNL Marketo Engage] Landingpages, da sie eine zusätzliche Bearbeitung erfordern. [!DNL Marketo Measure] JavaScript muss sowohl auf der Landingpage als auch auf der [!DNL Marketo Engage] Formular selbst. Dazu müssen Sie die [!DNL Marketo Measure] JavaScript in [!DNL Marketo Engage] wie in den folgenden Anweisungen erläutert.
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Tracking zu [!DNL Marketo Engage] Landingpages, da sie ein
 
 Beispiel für einen Screenshot unten
 
-1. Klicks **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/adding-bizible-to-marketo-landing-pages-1.png)
 

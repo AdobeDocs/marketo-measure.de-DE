@@ -1,12 +1,12 @@
 ---
-description: „[!DNL Marketo Measure]-Berichtsvorlage – Tableau – [!DNL Marketo Measure] – Produktdokumentation“
+description: "[!DNL Marketo Measure] Berichtsvorlage - Tableau - [!DNL Marketo Measure]"
 title: „[!DNL Marketo Measure]-Berichtsvorlage – Tableau“
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '2323'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '2303'
+ht-degree: 87%
 
 ---
 
@@ -18,13 +18,13 @@ Auf die [!DNL Tableau]-Berichtsvorlage können Sie [hier](https://github.com/ado
 
 Öffnen Sie die Tableau-Arbeitsmappen-Datei der [!DNL Adobe Marketo Measure]-Berichtsvorlage.
 
-Sie müssen die vorhandenen Verbindungsdaten gemäß Ihren spezifischen Snowflake-Verbindungsinformationen aktualisieren. Klicken Sie dazu auf die Schaltfläche [!UICONTROL Verbindung bearbeiten] und folgen Sie den im Abschnitt [[!UICONTROL Datenverbindung]](#data-connection) dieser Dokumentation beschriebenen Schritte.
+Sie müssen die vorhandenen Verbindungsdaten auf Ihre spezifischen Snowflake-Verbindungsinformationen aktualisieren. Klicken Sie dazu auf die Schaltfläche [!UICONTROL Verbindung bearbeiten] und folgen Sie den im Abschnitt [[!UICONTROL Datenverbindung]](#data-connection) dieser Dokumentation beschriebenen Schritte.
 
 ![](assets/marketo-measure-report-template-tableau-1.png)
 
 ## Datenverbindung {#data-connection}
 
-Sie müssen eine Datenverbindung zu Ihrer Snowflake-Instanz einrichten. Dazu benötigen Sie den Server-Namen sowie Ihren Benutzernamen und Ihr Passwort. Details darüber, wo Sie diese Informationen finden und Ihr Passwort gegebenenfalls zurücksetzen können, finden Sie [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+Sie müssen eine Datenverbindung zu Ihrer Snowflake-Instanz einrichten. Dazu benötigen Sie den Servernamen sowie Ihren Benutzernamen und Ihr Passwort. Details darüber, wo Sie diese Informationen finden und Ihr Passwort gegebenenfalls zurücksetzen können, finden Sie [hier](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -47,7 +47,7 @@ Sie müssen auch einen ersten SQL-Befehl eingeben. Dadurch wird die Verwendung b
     and sn._deleted_date is null
 ```
 
-Dies ist jedoch in folgender Hinsicht falsch: Wenn eine Sitzung gelöscht wurde, der entsprechende Touchpoint aber nicht, werden die Touchpoint-Daten aus dem Datensatz entfernt. Die Touchpoint-Daten sollen jedoch im Datensatz vorhanden sein, da der Touchpoint nicht gelöscht wurde. Durch das Hinzufügen einer benutzerdefinierten SQL-Abfrage wird sichergestellt, dass die Filterkriterien auf Tabellenebene angewendet werden. Hieraus ergibt sich folgende Abfrage.
+Dies ist jedoch in folgender Hinsicht falsch: Wenn eine Sitzung gelöscht wurde, der entsprechende Touchpoint aber nicht, werden die Touchpoint-Daten aus dem Datensatz entfernt. Die Touchpoint-Daten sollen jedoch im Datensatz vorhanden sein, da der Touchpoint nicht gelöscht wurde. Durch das Hinzufügen von benutzerdefiniertem SQL wird sichergestellt, dass die Filterkriterien auf Tabellenebene angewendet werden, was zur folgenden Abfrage führt.
 
 **Filter über eine benutzerdefinierte SQL-Abfrage angewendet**
 
@@ -62,7 +62,7 @@ Dies ist jedoch in folgender Hinsicht falsch: Wenn eine Sitzung gelöscht wurde,
 
 ## Datenumwandlungen {#data-transformations}
 
-Einige Umwandlungen wurden ausgehend vom ursprünglichen Zustand in Snowflake auf die Daten in [!DNL Tableau] angewendet. Die meisten dieser Umwandlungen werden in den benutzerdefinierten SQL-Abfragen angewendet, die die Tabellen im [!DNL Tableau]-Modell generieren. Klicken Sie mit der rechten Maustaste auf den Tabellennamen und wählen Sie „Benutzerdefinierte SQL-Abfrage bearbeiten“ aus, um die benutzerdefinierte SQL-Abfrage anzuzeigen, die zum Generieren einer Tabelle verwendet wird. Einige der spezifischen Umwandlungen sind nachfolgend beschrieben.
+Einige Umwandlungen wurden ausgehend vom ursprünglichen Zustand in Snowflake auf die Daten in [!DNL Tableau] angewendet. Die meisten dieser Umwandlungen werden in den benutzerdefinierten SQL-Abfragen angewendet, die die Tabellen im [!DNL Tableau]-Modell generieren. Klicken Sie mit der rechten Maustaste auf den Tabellennamen und wählen Sie &quot;Benutzerdefinierte SQL-Abfrage bearbeiten&quot;, um die benutzerdefinierte SQL-Abfrage anzuzeigen, die zum Generieren einer Tabelle verwendet wird. Einige der spezifischen Umwandlungen sind nachfolgend beschrieben.
 
 ![](assets/marketo-measure-report-template-tableau-4.png)
 
@@ -70,7 +70,7 @@ Einige Umwandlungen wurden ausgehend vom ursprünglichen Zustand in Snowflake au
 
 ### Spalten entfernt {#removed-columns}
 
-Um das Datenmodell zu vereinfachen und unnötige Daten zu entfernen, wurde die Anzahl der aus der ursprünglichen Snowflake-Tabelle nach Tableau importierten Spalten verringert. Zu den entfernten Spalten gehören unnötige Fremdschlüssel, denormalisierte Dimensionsdaten, die besser über Beziehungen zu anderen Tabellen im Modell genutzt werden können, Audit-Spalten und für die interne [!DNL Marketo Measure]-Verarbeitung verwendete Spalten. Sie können Spalten entsprechend Ihren geschäftlichen Anforderungen hinzufügen oder entfernen, indem Sie die Liste der importierten Spalten im Abschnitt „Select“ der benutzerdefinierten SQL-Abfrage bearbeiten.
+Um das Datenmodell zu vereinfachen und unnötige Daten zu entfernen, wurde die Anzahl der aus der ursprünglichen Snowflake-Tabelle nach Tableau importierten Spalten verringert. Die entfernten Spalten umfassen unnötige Fremdschlüssel, denormalisierte Dimensionsdaten, die besser über Beziehungen zu anderen Tabellen im Modell verwendet werden, Prüfspalten und Felder, die für interne [!DNL Marketo Measure] Verarbeitung. Sie können Spalten entsprechend Ihren geschäftlichen Anforderungen hinzufügen oder entfernen, indem Sie die Liste der importierten Spalten im Abschnitt „Select“ der benutzerdefinierten SQL-Abfrage bearbeiten.
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Lead-Touchpoints und Attributions-Touchpoints werden in diesem Modell zu einer e
 
 Übergänge in der Opportunity-Phase und Übergänge in der Lead-Phase werden in diesem Modell zu einer Tabelle kombiniert, und zwar mit einem Link zur Tabelle der [!UICONTROL Lead- und Attributions]-Touchpoints. Die Spalte „Übergangstyp“ wurde hinzugefügt, um festzulegen, ob es sich bei einer Zeile um einen Übergang der Opportunity- oder Lead-Phase handelt.
 
-Sowohl Kosten- als auch Touchpoint-Daten haben dieselben Kanal- und Kampagnendimensionen. Tableau hat jedoch nur eine eingeschränkte Fähigkeit, gemeinsame Dimensionen zwischen Faktentabellen zu modellieren. Aufgrund der Beschränkung auf nur eine gemeinsame Dimensionstabelle wurden Kanal- und Kampagnendaten zu einer Tabelle kombiniert. Sie werden mit einem sogenannten Crossjoin (Kreuzprodukt) der beiden Dimensionen zu einer Tabelle in Tableau kombiniert: Kanal und Kampagne. Die eindeutige ID wird durch Verkettung der Kanal- und Kampagnen-IDs erstellt. Derselbe Wert dieser ID wird sowohl den Touchpoint- als auch den Kostentabellen hinzugefügt, um eine Beziehung zu dieser kombinierten Dimensionstabelle zu erstellen.
+Sowohl Kosten- als auch Touchpoint-Daten haben dieselben Kanal- und Kampagnendimensionen. Tableau ist jedoch in seiner Fähigkeit eingeschränkt, gemeinsame Dimensionen zwischen Faktentabellen zu modellieren. Da wir auf nur eine gemeinsame Dimensionstabelle beschränkt sind, wurden Kanal- und Kampagnendaten in einer Tabelle zusammengefasst. Sie werden mit einem sogenannten Crossjoin (Kreuzprodukt) der beiden Dimensionen zu einer Tabelle in Tableau kombiniert: Kanal und Kampagne. Die eindeutige ID wird durch Verkettung der Kanal- und Kampagnen-IDs erstellt. Derselbe Wert dieser ID wird sowohl den Touchpoint- als auch den Kostentabellen hinzugefügt, um eine Beziehung zu dieser kombinierten Dimensionstabelle zu erstellen.
 
 ![](assets/marketo-measure-report-template-tableau-12.png)
 
@@ -143,7 +143,7 @@ Die in der Tabelle „Umrechnungskurs“ angegebenen Kurse stellen den Wert dar,
 
 ![](assets/marketo-measure-report-template-tableau-13.png)
 
-In den Kennzahlen für die Währungsumrechnung in diesem Modell wird der Wert 1,0 für den Kurs eingesetzt, wenn kein Umrechnungskurs identifiziert werden kann. Es wurden separate Kennzahlen erstellt, um den Währungswert für die Kennzahl anzuzeigen und einen Warnhinweis auszugeben, wenn eine Berechnung mehr als einen Währungswert enthält (d. h. wenn ein Wert nicht in die ausgewählte Währung umgerechnet werden konnte). Diese Kennzahlen, Kostenwährung und Umsatzwährung, sind in allen visuellen Darstellungen, in denen Kosten- oder Umsatzdaten angezeigt werden, als QuickInfos enthalten.
+In den Kennzahlen für die Währungsumrechnung in diesem Modell wird der Wert 1,0 für den Kurs eingesetzt, wenn kein Umrechnungskurs identifiziert werden kann. Es wurden separate Kennzahlen erstellt, um den Währungswert für die Kennzahl anzuzeigen, und eine Warnung, wenn eine Berechnung mehr als einen Währungswert enthält (d. h., ein Wert konnte nicht in die ausgewählte Währung konvertiert werden). Diese Kennzahlen, Kostenwährung und Umsatzwährung, sind in allen visuellen Darstellungen, in denen Kosten- oder Umsatzdaten angezeigt werden, als QuickInfos enthalten.
 
 ![](assets/marketo-measure-report-template-tableau-14.png)
 
@@ -153,7 +153,7 @@ Zum [!DNL Tableau model] wurden Definitionen für Parameter, benutzerdefinierte 
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-Informationen zum Anzeigen von Definitionen für Spalten, die direkt aus [!DNL Snowflake] stammen, finden Sie in der [Data-Warehouse-Dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
+So zeigen Sie Definitionen für Spalten an, die direkt von [!DNL Snowflake], siehe [Data Warehouse-Dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Diskrepanzen zwischen Vorlagen- und Discover-Modell {#discrepancies-between-templates-and-discover}
 
@@ -167,7 +167,7 @@ Lead-Touchpoints und Attributions-Touchpoints übernehmen Dimensionsdaten vom ur
 
 ### Kosten {#cost}
 
-Kostenberichte in den Vorlagen sind nur auf Kampagnen- und Kanalebene verfügbar. Discover bietet jedoch Berichte mit geringerer Granularität für bestimmte Anzeigenanbieter (z. B. zu Kreativinhalten, Keywords, Anzeigengruppen usw.). Weitere Informationen zum Modellieren der Kostendaten in den Vorlagen finden Sie im Abschnitt [!UICONTROL Datenmodell] in dieser Dokumentation. Wenn der Dimensionsfilter in [!UICONTROL Discover] auf Kanal oder Kampagne eingestellt ist, sollten die Kosten auf Kanal-, Subkanal- und Kampagnenebene zwischen Discover und Berichtsvorlagen stimmig sein.
+Kostenberichte in den Vorlagen sind nur auf Kampagnen- und Kanalebene verfügbar. Discover bietet jedoch Berichte mit geringerer Granularität für bestimmte Anzeigenanbieter (z. B. zu Kreativinhalten, Keywords, Anzeigengruppen usw.). Weitere Informationen zur Modellierung der Kostendaten in den Vorlagen finden Sie unter [!UICONTROL Datenmodell] Abschnitt dieser Dokumentation. Wenn der Dimensionsfilter in [!UICONTROL Discover] auf Kanal oder Kampagne eingestellt ist, sollten die Kosten auf Kanal-, Subkanal- und Kampagnenebene zwischen Discover und Berichtsvorlagen stimmig sein.
 
 ### ROI {#roi}
 
@@ -179,13 +179,13 @@ Diese Metriken werden, wie in den Berichtsvorlagen dargestellt, in Discover nich
 
 ### Webtraffic {#web-traffic}
 
-Das Datenmodell der Berichtsvorlage normalisiert die Dimensionsdaten von Kanal, Subkanal und Kampagne über die Beziehung zwischen Sitzung und Touchpoint. Dies unterscheidet sich vom Discover-Datenmodell, bei dem diese Dimensionen für die Sitzung denormalisiert werden. Aufgrund dieser Unterscheidung sollten die Gesamtzahlen für Besuche und Besuchende zwischen Discover und der Berichtsvorlage übereinstimmen. Wenn diese Zahlen jedoch nach Dimension angezeigt oder gefiltert werden, wird diese Übereinstimmung nicht erwartet. Dies liegt daran, dass die Dimensionsdaten in der Vorlage nur für Web-Ereignisse verfügbar sind, die zu einem Touchpoint geführt haben (d. h. nicht anonyme Ereignisse). Weitere Informationen finden Sie im Abschnitt [Datenmodell](#data-model) in dieser Dokumentation.
+Das Datenmodell der Berichtsvorlage normalisiert die Dimensionsdaten von Kanal, Subkanal und Kampagne über die Beziehung zwischen Sitzung und Touchpoint. Dies unterscheidet sich vom Discover-Datenmodell, bei dem diese Dimensionen für die Sitzung denormalisiert werden. Aufgrund dieser Unterscheidung sollten die Gesamtzahlen für Besuche und Besuchende zwischen Discover und der Berichtsvorlage übereinstimmen. Wenn diese Zahlen jedoch nach Dimension angezeigt oder gefiltert werden, wird diese Übereinstimmung nicht erwartet. Dies liegt daran, dass die Dimensionsdaten in der Vorlage nur für Web-Ereignisse verfügbar sind, die zu einem Touchpoint führten (d. h. nicht anonyme Ereignisse). Weitere Informationen finden Sie unter [Datenmodell](#data-model) Abschnitt dieser Dokumentation.
 
 Es kann kleine Diskrepanzen bei der Gesamtzahl der Site-Formulare zwischen [!DNL Discover] und der Vorlage geben. Dies liegt daran, dass das Datenmodell in der Berichtsvorlage über eine Beziehung zur Sitzung und dann zum Touchpoint Dimensionsdaten für das Site-Formular erhält. Es einigen Fälle weisen Site-Formulardaten keine korrelierte Sitzung auf.
 
 ### Leads und Konten {#leads-and-accounts}
 
-Die Dimensionsberichte für die betroffenen Konten können zwischen [!DNL Discover] und der Vorlage geringfügig voneinander abweichen. Dies ist erneut auf die Dimensionsmodellierung auf Basis der Beziehung zwischen Touchpoint und Lead- bzw. Attributions-Touchpoint zurückzuführen. Weitere Informationen dazu finden Sie im Abschnitt „Attributierter Umsatz“.
+Die Dimensionsberichte für die betroffenen Konten können zwischen [!DNL Discover] und der Vorlage geringfügig voneinander abweichen. Dies ist erneut auf die Dimensionsmodellierung auf Basis der Beziehung zwischen Touchpoint und Lead- bzw. Attributions-Touchpoint zurückzuführen. Weitere Informationen finden Sie in den Details, die im Abschnitt &quot;Zugewiesener Umsatz&quot;beschrieben sind.
 
 Alle Lead-Zahlen in [!UICONTROL Discover] sind attributierte Lead-Zahlen, und in der Berichtsvorlage weist die Metrik [!UICONTROL Lead]-Touchpoints auf. Daher ist für diese Kennzahl kein direkter Vergleich zwischen den beiden Berichten möglich.
 

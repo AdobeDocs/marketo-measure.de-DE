@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874736
-description: Entfernen [!DNL Marketo Measure] Tracking-Parameter aus der Landingpage-URL in Google Analytics - [!DNL Marketo Measure] - Produktdokumentation
+description: Entfernen [!DNL Marketo Measure] Tracking-Parameter aus der Landingpage-URL in Google Analytics - [!DNL Marketo Measure]
 title: Entfernen der [!DNL Marketo Measure] -Tracking-Parameter aus der Landingpage-URL in Google Analytics
 exl-id: ec81ba4a-bb10-49fd-b62e-5a1bc9e1a023
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 18%
+source-wordcount: '115'
+ht-degree: 9%
 
 ---
 
-# Entfernen der[!DNL Marketo Measure]-Tracking-Parameter aus der Landingpage-URL in Google Analytics {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
+# Entfernen [!DNL Marketo Measure] Tracking-Parameter aus der Landingpage-URL in Google Analytics {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
 
 Manchmal beim Anzeigen von Landingpages in [!DNL Google Analytics], sollten Sie Tracking-Parameter aus den URLs entfernen. Andernfalls werden sie in einzelne Zeilen aufgeteilt.
 

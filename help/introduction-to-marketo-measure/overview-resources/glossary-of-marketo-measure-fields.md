@@ -4,10 +4,10 @@ description: Glossar der Marketo Measure-Felder - Marketo Measure - Produktdokum
 title: Glossar der Marketo Measure-Felder
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '3211'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '3213'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Dieser Artikel enthält ein Glossar aller Marketo Measure-Felder, die Ihrem Salesforce aus dem Marketo Measure-Basispaket hinzugefügt werden. Sie finden außerdem Informationen darüber, auf welchem Objekt das Feld zu finden ist und wie jedes Feld mit Informationen gefüllt wird.
 
-Für eine Zuordnung, auf welches Objekt sich jedes Marketo Measure-Feld bezieht, [klicken Sie hier](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Für eine Zuordnung, auf die sich jedes Marketo Measure-Feld bezieht, [Klicken Sie hier](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ [K](#k) ・ [L](#l) ・ [M](#m) ・ N ・ [O](#o) ・ [P](#p) ・ Q ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y ・ Z
 
@@ -299,7 +299,7 @@ Dieses Feld zeigt den Namen des Leads an, zu dem ein Touchpoint gehört.
 
 **Marketingkanal** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Dieses Feld zeigt die allgemeine Gruppe von Marketing-Aktivitäten oder Marketingkanälen an, zu denen der Touchpoint gehört (d. h. Paid Search, Direkt, Social Media usw.). Touchpoints werden nach der Einrichtung Ihrer Kanäle in der Marketo Measure App gruppiert. Weitere Informationen zu Marketingkanälen und zur Einrichtung Ihrer Kanäle finden Sie unter [Hier klicken](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Dieses Feld zeigt die allgemeine Gruppe von Marketing-Aktivitäten oder Marketingkanälen an, zu denen der Touchpoint gehört (d. h. Paid Search, Direkt, Social Media usw.). Touchpoints werden nach der Einrichtung Ihrer Kanäle in der Marketo Measure App gruppiert. Weitere Informationen zu Marketing-Kanälen und zur Einrichtung Ihrer Kanäle finden Sie unter [Klicken Sie hier](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **Marketingkanal - Pfad** | Buyer Touchpoint, Buyer Attribution Touchpoint
 

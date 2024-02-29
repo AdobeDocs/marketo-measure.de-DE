@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874662
-description: Definitionen und Enzyklopädie - [!DNL Marketo Measure] - Produktdokumentation
+description: Definitionen und Enzyklopädie - [!DNL Marketo Measure]
 title: Definitionen und Enzyklopädie
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '6083'
-ht-degree: 7%
+source-wordcount: '6137'
+ht-degree: 2%
 
 ---
 
@@ -23,13 +23,13 @@ Wachstum
 
 Anzeigen-ROI
 
-Kontobasiertes Marketing
+Account-Based-Marketing
 
-Marketingausgaben
+Marketing-Ausgaben
 
 Webtraffic
 
-**Rollenbasierte Anzeigen**
+**Rollenbasierte Ansichten**
 
 CMO
 
@@ -39,7 +39,7 @@ Content-Marketing
 
 Marketing Ops 
 
-**Verlauf**
+**Journey**
 
 Velocity
 
@@ -83,11 +83,11 @@ Kategorien
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Überblick**
+**Übersicht**
 
 `2.` Mithilfe des Dropdown-Menüs Metrik im Menü Filter zeigt dieses Diagramm den Umsatz/Pipeline-Umsatz/die Ausgaben/Angebote/Chancen/Leads/Kontakte, die den einzelnen Kanälen zugeordnet sind, im Zeitverlauf angezeigt.
 
-**Ausgaben**
+**Ausgeben**
 
 `3.` Der Gesamtbetrag der aufgezeichneten Ausgaben sowohl aus API-Kosten als auch aus selbst gemeldeten Kosten, die auf der höchsten Kanalebene aggregiert wurden.
 
@@ -95,19 +95,19 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 **ROI**
 
-`4.` Verwenden der Drop-down-Liste der Dimensionen im Menü Filter. Zeigt wie viel ROI den einzelnen Kanälen / Unterkanälen / Kampagnen / Konten / Werbegruppen / Werbung / Werbekunden / Kreativen / Schlüsselwörtern / Platzierungen / Seiten auf der Basis des Attributionsmodells im gesamten Datumsbereich zugeordnet wurde.
+`4.` Über das Dropdown-Menü &quot;Dimensionen&quot;im Menü &quot;Filter&quot;wird angezeigt, wie viel ROI den einzelnen Kanälen/Unterkanälen/Kampagnen/Konten/AdGroup/Anzeigen/Advertisern/Kreativ/Keyword/Platzierung/Site basierend auf dem Attributionsmodell während des gesamten ausgewählten Datumsbereichs zugeordnet wurde.
 
-**ROI Zusammenfassung**
+**ROI-Zusammenfassung**
 
 Über das Dropdown-Menü &quot;Dimensionen&quot;im Menü &quot;Filter&quot;wird angezeigt, wie viel Umsatz, Ausgaben und ROI den einzelnen Kanälen/Unterkanälen/Kampagnen/Konten/AdGroup/Anzeigen/Advertiser/Creative/Keyword/Platzierung/Site zugewiesen wurde, basierend auf dem Attributionsmodell während des gesamten ausgewählten Datumsbereichs.
 
-**Abschlüsse**
+**Angebote**
 
 `5.` Die Gesamtzahl der geschlossenen Gewinner-Chancen basierend auf der Anzahl der Attributionsmodelle. Wenn der Datumstyp &quot;Touchpoint-Datum&quot;ausgewählt ist, sind partielle Zählungen möglich, da es möglich ist, mithilfe dieses Datumstyps einige Touchpoints innerhalb einer Gelegenheit auszuschließen.
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Kosten pro Abschluss**
+**Kosten pro Geschäft**
 
 `6.` Die Gesamtausgaben geteilt durch die Gesamtzahl der Angebote, die einen durchschnittlichen Preis bieten, den es braucht, um eine geschlossene Chance zu erhalten.
 
@@ -117,15 +117,15 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Geschäftsumfang**
+**Geschenkgröße**
 
 `8.` Die durchschnittliche Menge einer geschlossenen Chance ohne Risiko.
 
-**Kanal-Zusammenfassung**
+**Kanalzusammenfassung**
 
 `9`. Mithilfe des Dropdown-Menüs Metrik im Menü Filter ist dies eine Liste von Kanälen, die darauf basieren, wie viel Umsatz/Pipeline-Umsatz/Ausgaben/Angebote/Leads/Kontakte den einzelnen Kanälen zugeordnet wurde, sortiert nach dem höchsten nach dem ausgewählten Attributionsmodell.
 
-**Unterkanal-Zusammenfassung**
+**Subkanal-Zusammenfassung**
 
 `10.` Mithilfe des Dropdown-Menüs Metrik im Menü Filter ist dies eine Liste von Unterkanälen, die darauf basieren, wie viel Umsatz/Pipeline-Umsatz/Ausgaben/Angebote/Leads/Kontakte den einzelnen Unterkanälen zugeordnet wurde, sortiert nach dem höchsten nach dem ausgewählten Attributionsmodell.
 
@@ -171,7 +171,7 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 Führen Sie einen Drilldown durch, um die Daten aus einer kleineren Datumsdimension anzuzeigen.
 
-**Abschlüsse**
+**Angebote**
 
 `3.` Die Gesamtzahl der geschlossenen Gewinner-Chancen basierend auf der Anzahl der Attributionsmodelle.
 
@@ -219,7 +219,7 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 Führen Sie einen Drilldown durch, um die Daten aus einer kleineren Datumsdimension anzuzeigen.
 
-**Opportunies**
+**Chancen**
 
 `11.` Die Gesamtanzahl der Möglichkeiten, basierend auf dem Attributionsmodell. Wenn der Datumstyp &quot;Touchpoint-Datum&quot;ausgewählt ist, sind partielle Zählungen möglich, da es möglich ist, mithilfe dieses Datumstyps einige Touchpoints in einem Opportunity-Datensatz auszuschließen.
 
@@ -247,7 +247,7 @@ Führen Sie einen Drilldown durch, um die Daten aus einer kleineren Datumsdimens
 
 (Dieser wird leer angezeigt, wenn diese Funktion deaktiviert ist.)
 
-**Eindeutige Besuche**
+**Unique Visits**
 
 `15.` Die Gesamtzahl der Unique Site-Besuche, die über alle bekannten und anonymen Besucher hinweg verfolgt wurden.
 
@@ -263,7 +263,7 @@ Führen Sie einen Drilldown durch, um die Daten aus einer kleineren Datumsdimens
 
 (Dieser wird leer angezeigt, wenn diese Funktion deaktiviert ist.)
 
-**Formulare**
+**Forms**
 
 `17.` Die Gesamtanzahl der Formulare, die für alle bekannten und anonymen Besucher gesendet wurden.
 
@@ -303,19 +303,19 @@ Kategorien
 
 ![](assets/definitions-and-encyclopedia-5.png)
 
-**ROI-Zusammenfassung der Kampagnen**
+**Kampagnen-ROI-Zusammenfassung**
 
 `1.` Eine Liste der Kampagnen, die darauf basieren, wie viel Umsatz, Ausgaben und ROI jeder Kampagne zugeordnet wurden, sortiert nach dem höchsten Umsatz basierend auf dem ausgewählten Attributionsmodell.
 
-**Kreativ-ROI-Zusammenfassung**
+**Creative ROI-Zusammenfassung**
 
 `2.` Eine Liste der kreativen Inhalte, die darauf basieren, wie viel Umsatz, Ausgaben und ROI den einzelnen Kreativelementen zugeordnet wurden, sortiert nach dem höchsten Umsatz basierend auf dem ausgewählten Attributionsmodell.
 
-**Zusammenfassung Schlüsselwort-ROI**
+**Keyword-ROI-Zusammenfassung**
 
 `3.` Eine Liste von Suchbegriffen, die darauf basieren, wie viel Umsatz, Ausgaben und ROI den einzelnen Suchbegriffen zugeordnet wurden, sortiert nach dem höchsten Umsatz basierend auf dem ausgewählten Attributionsmodell.
 
-### Kontobasiertes Marketing {#account-based-marketing}
+### Account-Based-Marketing {#account-based-marketing}
 
 Account-basiertes Marketing bietet Unternehmen, die ABM verwenden, die Möglichkeit, ihre Bemühungen zu ihren Zielkonten zu verfolgen und zu sehen, wie viel Interaktion sie von ihrem Marketing aus gesehen haben.
 
@@ -347,23 +347,23 @@ Der gesamte potenzielle Umsatz aus einer offenen Chance, d. h., er ist nicht ges
 
 Die durchschnittliche Anzahl der Touchpoints, die von jedem CRM-Konto generiert wurden, nach Konto-ID.
 
-**Lead-Treffer**
+**Abgegebene Leads**
 
 Die Gesamtzahl der Leads, die mit der Variablen [!DNL Marketo Measure] Lead-to-Account-Funktion unter Verwendung von Algorithmen zur Website-, Unternehmens- und E-Mail-Domänenübereinstimmung.
 
-**Eingebundene Konten**
+**Engagierte Konten**
 
 Die Gesamtanzahl der Konten, die Touchpoints erhalten haben. Wenn eine Zielkontoliste verwendet wird, ist dies die Untergruppe der Konten aus dieser Zielkontoliste.
 
-**Eingebundene Opportunities**
+**Engagierte Chancen**
 
 Die Gesamtanzahl der Gelegenheiten, die einen Touchpoint erhalten haben. Wenn eine Zielkontoliste verwendet wird, ist dies die Untergruppe der Möglichkeiten aus dieser Zielkontoliste.
 
-**Eingebundene Personen**
+**Teilnehmer/innen**
 
 Die Gesamtzahl der Kontakte (Leads und Kontakte nach E-Mail-Adressen), die einen Touchpoint erhalten haben. Wenn eine Zielkontoliste verwendet wird, ist dies die Teilmenge der Kontakte aus dieser Zielkontoliste.
 
-**Touchpoints im Zeitablauf**
+**Touchpoints im Zeitverlauf**
 
 Die Gesamtzahl der Touchpoints, die im angegebenen Zeitraum aufgezeichnet wurden. Wenn eine Zielkontoliste verwendet wird, ist dies die Untergruppe der Konten aus dieser Zielkontoliste.
 
@@ -371,15 +371,15 @@ Die Gesamtzahl der Touchpoints, die im angegebenen Zeitraum aufgezeichnet wurden
 
 Die Gesamtzahl der Konten, die im angegebenen Zeitraum einen Touchpoint pro Monat erhalten haben, mit der Option, die Ergebnisse nach Kanal, Subkanal, Kampagne, Konto, Anzeigengruppe, Anzeige, Advertiser, Kreativ, Keyword, Platzierung oder Site zu gruppieren. Wenn eine Zielkontoliste verwendet wird, ist dies die Untergruppe der Konten aus dieser Zielkontoliste.
 
-**Konten nach Anzahl der Touchpoints**
+**Konten nach Touchpoint-Anzahl**
 
 Nach Konto-ID und Kontoname: die Gesamtzahl der Touchpoints aus jedem Konto.
 
-**Touchpoints-Anzahl**
+**Touchpoint-Anzahl**
 
 Die Anzahl der Touchpoints, die jeder Dimension zugeordnet sind. Dabei kann die Dimension durch den Filter Gruppe nach geändert werden, z. B.: Keine/Kanal/Subkanal/Kampagne/Konto/Advertiser/Anzeige/Creative/Anzeigengruppe/Keyword/Platzierung/Site.
 
-### Marketingausgaben {#marketing-spend}
+### Marketing-Ausgaben {#marketing-spend}
 
 Marketing-Ausgaben zeigen Marketingexperten, wie viel sie über einen bestimmten Zeitraum ausgegeben haben, damit sie Ausgaben nach Monat und Kanal verfolgen können.
 
@@ -407,7 +407,7 @@ Der Gesamtumsatzbetrag aus geschlossenen Gewinner-Chancen, basierend auf dem Att
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Ausgaben**
+**Ausgeben**
 
 Der Gesamtbetrag der aufgezeichneten Ausgaben sowohl aus API-Kosten als auch aus selbst gemeldeten Kosten, die auf der höchsten Kanalebene aggregiert wurden.
 
@@ -415,7 +415,7 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 **ROI**
 
-Die berechnete ROI (Rentabilität) des Gesamtumsatzes (gemäß dem ausgewählten Attributionsmodell) und der Gesamtausgaben.
+Der berechnete ROI (ROI) aus dem Gesamtumsatz (aus dem ausgewählten Attributionsmodell) und den Gesamtausgaben.
 
 **Ausgaben (Diagramm)**
 
@@ -471,7 +471,7 @@ Kampagne ist gleich __
 
 ![](assets/definitions-and-encyclopedia-11.png)
 
-**Eindeutige Besuche**
+**Unique Visits**
 
 Die Gesamtzahl der Unique Site-Besuche, die über alle bekannten und anonymen Besucher hinweg verfolgt wurden.
 
@@ -505,21 +505,21 @@ Die Gesamtzahl der Seitenansichten, die über alle bekannten und anonymen Besuch
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Formulare**
+**Forms**
 
 Die Gesamtanzahl der Formulare, die für alle bekannten und anonymen Besucher gesendet wurden.
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Überblick**
+**Übersicht**
 
 Mithilfe des Dropdown-Menüs Metrik im Menü Filter zeigt dieses Diagramm den Umsatz/Pipeline-Umsatz/die Ausgaben/Angebote/Angebote/Interessenten/Kontakte/Klicks/Impressionen/Besuche/Unique Visits/Seitenansichten/Formulare, die jeder Dimension zugeordnet sind, im Zeitverlauf angezeigt. Dimensionen können von &quot;Keine&quot;in &quot;Kanal/Subkanal/Kampagne/Konto/Advertiser/Anzeige/Kreativ/Anzeigengruppe/Keyword/Platzierung/Site&quot;geändert werden.
 
-**Zusammenfassung Datennutzung**
+**Web-Traffic-Zusammenfassung**
 
 Sehen Sie sich nach URL die Anzahl der Seitenansichten, Besuche, individuellen Besuche und Formularübermittlungen an, die den einzelnen Besuchen gutgeschrieben wurden.
 
-**Referrer Zusammenfassung**
+**Referrer-Zusammenfassung**
 
 Die Anzahl der Seitenbesuche und individuellen Besuche, die von jeder verweisenden URL stammen.
 
@@ -531,7 +531,7 @@ Zeigen Sie mithilfe des Dropdown-Menüs Gruppieren nach im Menü Filter die Quel
 
 Zeigen Sie mithilfe des Dropdown-Menüs Gruppieren nach im Menü Filter die Quelle der Besucher Ihrer Site an. Ändern Sie die Gruppe nach: Kanal, Subkanal, Kampagne, Konto, Anzeigengruppe, Anzeige, Advertiser, Kreativ, Suchbegriff, Platzierung, Site.
 
-**Leads nach Landing Page**
+**Leads nach Landingpage**
 
 Eine Liste der Landingpages, die auf der Anzahl der von jeder Landingpage generierten Leads basieren, sortiert nach der meisten Leads.
 
@@ -571,11 +571,11 @@ Kategorien
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Überblick**
+**Übersicht**
 
 `2.` Mithilfe des Dropdown-Menüs Metrik im Menü Filter zeigt dieses Diagramm den Umsatz/Pipeline-Umsatz/die Ausgaben/Angebote/Chancen/Leads/Kontakte, die den einzelnen Kanälen zugeordnet sind, im Zeitverlauf angezeigt.
 
-**Ausgaben**
+**Ausgeben**
 
 `3.` Der Gesamtbetrag der aufgezeichneten Ausgaben sowohl aus API-Kosten als auch aus selbst gemeldeten Kosten, die auf der höchsten Kanalebene aggregiert wurden.
 
@@ -583,15 +583,15 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 **ROI**
 
-`4.` Die berechnete ROI (Rentabilität) des Gesamtumsatzes (gemäß dem ausgewählten Attributionsmodell) und der Gesamtausgaben.
+`4.` Der berechnete ROI (ROI) aus dem Gesamtumsatz (aus dem ausgewählten Attributionsmodell) und den Gesamtausgaben.
 
-**Abschlüsse**
+**Angebote**
 
 `5.` Die Gesamtzahl der geschlossenen Gewinner-Chancen basierend auf der Anzahl der Attributionsmodelle. Wenn der Datumstyp &quot;Touchpoint-Datum&quot;ausgewählt ist, sind partielle Zählungen möglich, da es möglich ist, mithilfe dieses Datumstyps einige Touchpoints innerhalb einer Gelegenheit auszuschließen.
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Kosten pro Abschluss**
+**Kosten pro Geschäft**
 
 `6.` Die Gesamtausgaben geteilt durch die Gesamtzahl der Angebote, die einen durchschnittlichen Preis bieten, den es braucht, um eine geschlossene Chance zu erhalten.
 
@@ -601,15 +601,15 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Geschäftsumfang**
+**Geschenkgröße**
 
 `8.` Die durchschnittliche Menge einer geschlossenen Chance ohne Risiko.
 
-**Kanal-Zusammenfassung**
+**Kanalzusammenfassung**
 
 `9.` Mithilfe des Dropdown-Menüs Metrik im Menü Filter ist dies eine Liste von Kanälen, die darauf basieren, wie viel Umsatz/Pipeline-Umsatz/Ausgaben/Angebote/Leads/Kontakte den einzelnen Kanälen zugeordnet wurde, sortiert nach dem höchsten nach dem ausgewählten Attributionsmodell.
 
-**Unterkanal-Zusammenfassung**
+**Subkanal-Zusammenfassung**
 
 `10.` Mithilfe des Dropdown-Menüs Metrik im Menü Filter ist dies eine Liste von Unterkanälen, die darauf basieren, wie viel Umsatz/Pipeline-Umsatz/Ausgaben/Angebote/Leads/Kontakte den einzelnen Unterkanälen zugeordnet wurde, sortiert nach dem höchsten nach dem ausgewählten Attributionsmodell.
 
@@ -651,7 +651,7 @@ Kategorien
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Ausgaben**
+**Ausgeben**
 
 `2.` Der Gesamtbetrag der aufgezeichneten Ausgaben sowohl aus API-Kosten als auch aus selbst gemeldeten Kosten, die auf der höchsten Kanalebene aggregiert wurden.
 
@@ -659,7 +659,7 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 **ROI**
 
-`3.` Die berechnete ROI (Rentabilität) des Gesamtumsatzes (gemäß dem ausgewählten Attributionsmodell) und der Gesamtausgaben.
+`3.` Der berechnete ROI (ROI) aus dem Gesamtumsatz (aus dem ausgewählten Attributionsmodell) und den Gesamtausgaben.
 
 **Pipeline-Umsatz**
 
@@ -667,11 +667,11 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Überblick**
+**Übersicht**
 
 `5.` Mithilfe des Dropdown-Menüs Metrik im Menü Filter zeigt dieses Diagramm den Umsatz / Pipeline-Umsatz / Ausgaben / Angebote / Gelegenheiten / Kontakte / Besuche / Unique Visits / Impressionen / Klicks / Formulare im Zeitverlauf an.
 
-**Impressions**
+**Impressionen**
 
 `6.` Die Gesamtzahl der von allen verbundenen Anzeigen-Konten bereitgestellten Impressionen.
 
@@ -695,7 +695,7 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 `10.` Die Gesamtzahl der im CRM erstellten Leads.
 
-**Kosten pro Lead**
+**Kosten pro Interessent**
 
 `11.` Die Gesamtausgaben aus den erstellten Leads dividiert durch die Gesamtklicks, wobei die CPL-Rate bereitgestellt wird.
 
@@ -705,21 +705,21 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Eindeutige Besuche**
+**Unique Visits**
 
 `13.` Die Gesamtzahl der Unique Site-Besuche, die über alle bekannten und anonymen Besucher hinweg verfolgt wurden.
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Zusammenfassung Datennutzung**
+**Web-Traffic-Zusammenfassung**
 
 Wechseln Sie mithilfe der Dimensionsauswahl im Menü &quot;Filter&quot;zwischen Kanal, Unterkanal, Kampagne, Konto, Anzeigengruppe, Anzeige, Advertiser, Creative, Keyword, Platzierung, Site und sehen Sie sich die Anzahl der Seitenansichten, Besuche, individuellen Besuche und Formularübermittlungen an, die den einzelnen Kanälen gutgeschrieben wurden.
 
-**Zusammenfassung Lead-Pipeline**
+**Zusammenfassung der Lead-Pipeline**
 
 Wechseln Sie mithilfe der Dimensionsauswahl im Menü &quot;Filter&quot;zwischen Kanal, Unterkanal, Kampagne, Konto, Anzeigengruppe, Anzeige, Advertiser, Kreativ, Keyword, Platzierung, Site und sehen Sie sich die Anzahl der Leads oder Kontakte an, die den einzelnen zugeordnet sind, basierend auf dem ausgewählten Attributionsmodell.
 
-**Zusammenfassung Opportunity-Pipeline**
+**Opportunity Pipeline Summary**
 
 Wechseln Sie mithilfe der Dimensionsauswahl im Menü &quot;Filter&quot;zwischen Kanal, Unterkanal, Kampagne, Konto, Anzeigengruppe, Anzeige, Advertiser, Creative, Keyword, Platzierung, Site und zeigen Sie die Anzahl der den einzelnen Kanälen zugewiesenen Möglichkeiten, Angebote, Pipeline-Umsatz, Ausgaben, ROI und Umsatz anhand des ausgewählten Attributionsmodells an.
 
@@ -757,31 +757,31 @@ Kategorien
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Landing Pages nach Umsatz**
+**Einstiegsseiten nach Umsatz**
 
 `2.` Eine Liste von Landingpages, die darauf basieren, wie viel Umsatz jeder Landingpage zugeordnet wurde, sortiert nach dem höchsten Umsatz basierend auf dem ausgewählten Attributionsmodell.
 
-**Pipeline-Umsatz gesamt**
+**Pipeline-Gesamtumsatz**
 
 `3.` Der gesamte potenzielle Umsatz aus einer offenen Chance ausschließlich aus digitalen Quellen, d. h., er ist nicht geschlossen verloren oder geschlossen. Der Umsatz basiert auf dem ausgewählten Attributionsmodell.
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Landing Pages nach Pipeline-Umsatz**
+**Einstiegsseiten nach Pipeline-Umsatz**
 
 `4.` Eine Liste von Landingpages, die darauf basieren, wie viel Pipeline-Umsatz den einzelnen Landingpages zugeordnet wurde, sortiert nach dem am meisten Pipeline-Umsatz basierend auf dem ausgewählten Attributionsmodell.
 
-**Opportunities gesamt**
+**Chancen insgesamt**
 
 `5.` Die Gesamtanzahl der nur aus digitalen Quellen verfügbaren Möglichkeiten, basierend auf dem Attributionsmodell.
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Landing Pages nach Vertriebschancen-Anzahl**
+**Einstiegsseiten nach Anzahl der Möglichkeiten**
 
 `6.` Eine Liste von Landingpages, die darauf basieren, wie viele Möglichkeiten jeder Landingpage zugewiesen wurden, sortiert nach der höchsten Anzahl von Möglichkeiten basierend auf dem ausgewählten Attributionsmodell.
 
-**Formulare**
+**Forms**
 
 `7.` Die Gesamtanzahl der Formulare, die auf allen verfolgten Seiten gesendet wurden.
 
@@ -795,13 +795,13 @@ Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten 
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Eindeutige Besuche**
+**Unique Visits**
 
 `10.` Die Gesamtzahl der Unique Site-Besuche, die über alle bekannten und anonymen Besucher hinweg verfolgt wurden.
 
 Führen Sie einen Drilldown durch, um die Unique Site-Besuche anzuzeigen, die pro Monat verfolgt wurden.
 
-**Top-Landing-Pages nach eindeutigen Besuchen**
+**Top-Einstiegsseiten nach individuellen Besuchen**
 
 `11.` Eine Liste der Landingpages, die auf der Anzahl der individuellen Besuche auf jeder Landingpage basieren, sortiert nach Seiten mit der größten Anzahl individueller Besuche.
 
@@ -811,7 +811,7 @@ Führen Sie einen Drilldown durch, um die individuellen Besuche pro Monat zur au
 
 `12.` Die Gesamtzahl der Site-Besuche, die über alle bekannten und anonymen Besucher hinweg verfolgt wurden.
 
-**Top-Landing-Pages nach Besuchen**
+**Top-Einstiegsseiten nach Besuchen**
 
 `13.` Eine Liste der Landingpages, die auf der Anzahl der Erstbesuche auf jeder Landingpage basieren, sortiert nach den Seiten mit der größten Anzahl an Besuchen.
 
@@ -821,7 +821,7 @@ Führen Sie einen Drilldown durch, um die individuellen Besuche pro Monat zur au
 
 Klicken Sie auf Details anzeigen und führen Sie einen Drilldown für die Daten durch, indem Sie sie als Visualisierung und Tabelle anzeigen.
 
-**Landing Pages nach Lead-Anzahl**
+**Einstiegsseiten nach Anzahl der Leads**
 
 `15.` Eine Liste der Seiten-URLs basierend auf der Anzahl der von jeder URL erstellten Leads, sortiert nach den Seiten mit den meisten Leads.
 
@@ -873,7 +873,7 @@ Touchpoint-Details ansehen
 
 Klicken Sie auf die aggregierten Zahlen, um im Drilldown-Verfahren nach grundlegenden Datendetails zu suchen.
 
-**Opportunies**
+**Chancen**
 
 `2.` Liste aller Möglichkeiten mit Attributions-Touchpoints. Die Informationen für jede Gelegenheit enthalten die Opportunitätsmenge, die Anzahl der Kontakte und die Anzahl der Attributions-Touchpoints.
 
@@ -949,15 +949,15 @@ Subchannel ist gleich __
 
 `1.` Die durchschnittliche Anzahl der Tage, in denen sich Chancen in ihrem Verkaufszyklus befinden, vom ersten anonymen Kontakt bis zum Schließen der Chancen.
 
-**Aktive Vertriebschancen**
+**Aktive Möglichkeiten**
 
 `2.` Die Gesamtanzahl der Gelegenheiten, die sich aus einer offenen Chance ergeben, d. h. nicht &quot;Geschlossen verloren&quot;oder &quot;Geschlossene Woche&quot;.
 
-**Durchschnittlicher Abschlussumfang**
+**Durchschnittliche Größe des Angebots**
 
 `3.` Die durchschnittliche Menge einer geschlossenen Chance ohne Risiko.
 
-**Erfolgsquote**
+**Win-Rate**
 
 `4.` Die Gesamtanzahl der geschlossenen Gewinnen dividiert durch die Gesamtanzahl der geschlossenen verlorenen und geschlossenen Gewinnerangebote, die den Prozentsatz der Gewinnquote anzeigt.
 
@@ -997,7 +997,7 @@ Lead oder Kontakte
 
 ![](assets/definitions-and-encyclopedia-21.png)
 
-**Lead / Kontakt Momentaufnahme**
+**Lead-/Kontaktaufnahme**
 
 `1.` Die Anzahl der Lead- oder Kontaktdatensätze, die sich in den einzelnen Phasen des ausgewählten Datums befanden.
 
@@ -1005,7 +1005,7 @@ Lead oder Kontakte
 
 `2.` Die Anzahl der Lead- oder Kontaktdatensätze, die sich in den einzelnen Phasen des ausgewählten Datums befanden.
 
-**Opportunity Momentaufnahme**
+**Opportunity Snapshot**
 
 `3.` Die Anzahl der Opportunity-Einträge, die sich in den einzelnen Phasen des ausgewählten Datums befanden.
 
@@ -1039,7 +1039,7 @@ Kategorien
 
 `1.` &amp; `2.` Jede Phase zeigt die Anzahl der Datensätze in den einzelnen Lead-Status- oder Kontaktstufen sowie die Gesamtzahl der Datensätze, die durch jede Phase weitergeleitet wurden.
 
-**Opportunity Pass**
+**Opportunity Passport**
 
 `3.` Jede Phase zeigt die Anzahl der Datensätze in jeder Opportunity-Phase und die Gesamtzahl der Datensätze, die durch jede Phase weitergeleitet wurden.
 
@@ -1081,7 +1081,7 @@ Attributierter Umsatz
 
 ![](assets/definitions-and-encyclopedia-23.png)
 
-**Journey der Ereignisse**
+**Journey von Ereignissen**
 
 Liste aller Ereignisse mit zugehörigen Touchpoint-Details und dem zugeordneten Umsatz.
 

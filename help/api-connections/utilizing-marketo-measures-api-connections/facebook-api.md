@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874680
-description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Facebook] API - [!DNL Marketo Measure]"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 4%
+source-wordcount: '480'
+ht-degree: 2%
 
 ---
 
@@ -64,14 +64,14 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
  <tbody> 
   <tr> 
    <th><p><strong>Touchpoint-Feld</strong></p></th> 
-   <th><p><strong>Wert </strong></p></th> 
+   <th><p><strong>Wert</strong></p></th> 
   </tr> 
   <tr> 
    <td><p>Anzeigen-Kampagnen-ID</p></td> 
    <td><p>[[!DNL Facebook] Kampagnen-ID]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Name der Ad-Kampagne </p></td> 
+   <td><p>Name der Anzeigenkampagne </p></td> 
    <td><p>[[!DNL Facebook] Kampagnenname] oder [utm_campaign] , falls angegeben</p></td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
    <td><p>[[!DNL Facebook] Anzeigensetname]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Touchpoint Quelle</p></td> 
+   <td><p>Touchpoint-Quelle</p></td> 
    <td><p>"[!DNL Facebook]", oder [utm_source] , falls angegeben</p></td> 
   </tr> 
   <tr> 
@@ -99,7 +99,7 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
    <td><p>[utm_content] , falls angegeben</p></td> 
   </tr> 
   <tr> 
-   <td><p>Schlüsselworttext oder Schlüsselwortname (Data Warehouse)</p></td> 
+   <td><p>Schlüsselworttext oder Keyword_Name (Data Warehouse)</p></td> 
    <td><p>[utm_term] , falls angegeben</p></td> 
   </tr> 
   <tr> 
@@ -107,7 +107,7 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
    <td><p>[[!DNL Facebook] Anzeigen-ID]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Anzeigenname (Data Warehouse)</p></td> 
+   <td><p>Ad_Name (Data Warehouse)</p></td> 
    <td><p>[[!DNL Facebook] Anzeigenname]</p></td> 
   </tr> 
   <tr> 
@@ -120,7 +120,7 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
   </tr> 
   <tr> 
    <td><p>Account_Unique_ID (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Konto #]</p></td> 
+   <td><p>[[!DNL Facebook] Kundennummer]</p></td> 
   </tr> 
   <tr> 
    <td><p>Account_Name (Data Warehouse)</p></td> 

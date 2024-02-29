@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874791
-description: Gewährung [!DNL Salesforce] Zugriff auf [!DNL Marketo Measure] Support - [!DNL Marketo Measure] - Produktdokumentation
+description: Gewährung [!DNL Salesforce] Zugriff auf [!DNL Marketo Measure] Support - [!DNL Marketo Measure]
 title: Gewährung [!DNL Salesforce] Zugriff auf Marketo Measure-Support
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 2%
 
 ---
 
@@ -30,11 +30,11 @@ Je nach Organisation kann die [!UICONTROL Einrichtung] wird entweder oben rechts
    * Klicken Sie auf `<your name>` > **[!UICONTROL Meine Einstellungen]** > **[!UICONTROL Persönlich]** > **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
 
 1. Legen Sie das Zugriffsablaufdatum für [!UICONTROL Marketo Measure-Support]. Zur technischen Fehlerbehebung wird empfohlen, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche.
-1. Klicks **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Gewähren des Anmeldezugriffs [!DNL Salesforce] Blitze {#granting-login-access-in-salesforce-lightning}
 
 1. Klicken Sie auf Ihren Avatar in der oberen rechten Bildschirmseite und wählen Sie **[!UICONTROL Einstellungen]**.
 1. Klicks **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
 1. Legen Sie das Zugriffsablaufdatum für fest.[!UICONTROL Marketo Measure-Support].&quot; Zur technischen Fehlerbehebung wird empfohlen, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche.
-1. Klicks **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.

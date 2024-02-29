@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874743
-description: 'Verbinden [!DNL Marketo Measure] zum Aufheben des Bounce-Skript-Managers : [!DNL Marketo Measure] - Produktdokumentation'
+description: 'Verbinden [!DNL Marketo Measure] zum Aufheben des Bounce-Skript-Managers : [!DNL Marketo Measure]'
 title: Verbinden von [!DNL Marketo Measure] zum Aufheben von Bounces in Script Manager
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 8%
+source-wordcount: '122'
+ht-degree: 5%
 
 ---
 
-# Verbinden von[!DNL Marketo Measure]zum Aufheben von Bounces in Script Manager {#connecting-marketo-measure-to-unbounce-script-manager}
+# Verbinden [!DNL Marketo Measure] zum Aufheben des Bounce-Skriptmanagers {#connecting-marketo-measure-to-unbounce-script-manager}
 
 [!DNL Marketo Measure] direkt mit Unbounce integriert wird, sodass Sie die digitale Marketingquelle Ihrer Landingpage-Konversionen direkt in verfolgen können. [!DNL Salesforce]. Fügen Sie einfach die [!DNL Marketo Measure] Skript zu Ihrem Unbounce Script Manager hinzufügen. So geht es.
 
@@ -22,6 +22,6 @@ ht-degree: 8%
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-1. Klicks **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Die [!DNL Marketo Measure] Die -Integration funktioniert auf Unbounce-Landingpages, solange sie auf Ihrer Domäne (z. B. landing.mysite.com) gehostet werden und nicht auf Seiten, die die Domäne unbounce.com verwenden.

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874658
-description: Häufige Anwendungsfälle - [!DNL Marketo Measure] - Produktdokumentation
+description: Häufige Anwendungsfälle - [!DNL Marketo Measure]
 title: Häufige Anwendungsfälle
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Finden Sie heraus, wie sich das Marketing insgesamt auf den Umsatz auswirkt? [!D
 
 ## Erstellte Kontakte  {#contacts-created}
 
-Um die Gesamtzahl der erstellten, nach einer Dimension gruppierten Kontakte anzuzeigen, navigieren Sie zum Dashboard Übersicht oder CMO von Discover, öffnen Sie die Filter über den Kacheln, passen Sie den Filter Metrik auf Kontakte an und verschieben Sie dann den Datumstyp auf Erstellungsdatum. Abgeschlossen!
+Um die Gesamtzahl der erstellten, nach einer Dimension gruppierten Kontakte anzuzeigen, navigieren Sie zum Dashboard Übersicht oder CMO von Discover, öffnen Sie die Filter über den Kacheln, passen Sie den Filter Metrik auf Kontakte an und verschieben Sie dann den Datumstyp auf Erstellungsdatum. Fertig!
 
 Um eine Gesamtanzahl von Kontakten oder die Gesamtzahl der Kontakte im Zeitverlauf zu erhalten, navigieren Sie zum Dashboard für Wachstum, passen Sie den Datumstyp an Erstellungsdatum an und wählen Sie den gewünschten Zeitraum aus. Kontakte und Kontakte im Zeitverlauf sind auf Kontakte fokussierte Kacheln in diesem Dashboard.
 

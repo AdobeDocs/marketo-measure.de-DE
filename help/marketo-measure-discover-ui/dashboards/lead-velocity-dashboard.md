@@ -2,7 +2,7 @@
 description: Lead-Velocity-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Dashboard „Lead-Geschwindigkeit“
 feature: Reporting
-source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Wie unterscheidet sich die in der Phase &quot;Erstkontakt&quot;verbrachte Zeit v
 
 Das Liniendiagramm der Zeitreihen zeigt die durchschnittliche Zeit in Tagen an, die Leads/Kontakte in den einzelnen Verkaufszeiträumen verbringen.
 
-* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
+* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
 * Bewegen Sie den Mauszeiger über eine Zeile, um detaillierte Informationen anzuzeigen.
 
 Fragen zu den Grafikantworten:

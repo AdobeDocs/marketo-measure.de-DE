@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874634
-description: Duplizieren von Datensätzen in meinem Bericht - [!DNL Marketo Measure] - Produktdokumentation
+description: Duplizieren von Datensätzen in meinem Bericht - [!DNL Marketo Measure]
 title: Doppelte Datensätze in meinem Bericht
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 3%
+source-wordcount: '267'
+ht-degree: 10%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
 Während du in die [!DNL Marketo Measure] Berichte in [!DNL Salesforce]können Sie in Ihren Berichten &quot;doppelte&quot; Datensätze finden. Dieses Gefühl wird wahrscheinlich bei der Überprüfung auftreten [!DNL Marketo Measure] nativen Berichten.
 
-Bei der Berichterstellung mit dem Touchpoint-Objekt des Käufers oder dem Touchpoint der Käuferzuordnung ist es wichtig zu verstehen, dass Sie nicht mehr über die Anzahl der Leads, Kontakte oder Gelegenheiten berichten, sondern über die Anzahl der Touchpoints der Käuferzuordnung oder der Touchpoints der Käuferzuordnung, die mit diesen Standardobjekten (Leads, Kontakte, Chancen) verknüpft sind.
+Bei der Berichterstellung mit dem Touchpoint-Objekt des Käufers oder dem Touchpoint der Käuferzuordnung ist es wichtig zu verstehen, dass Sie nicht mehr über die Anzahl der Leads, Kontakte oder Chancen berichten, sondern vielmehr über die Anzahl der Touchpoints der Käuferzuordnung oder der mit diesen Standardobjekten (Leads, Kontakte, Chancen) verbundenen Touchpoints der Käuferzuordnung.
 
 Nehmen wir als Beispiel den folgenden Bericht:
 

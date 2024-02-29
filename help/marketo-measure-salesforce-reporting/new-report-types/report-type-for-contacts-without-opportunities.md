@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874616
-description: Berichtstyp für Kontakte ohne Möglichkeiten - [!DNL Marketo Measure] - Produktdokumentation
+description: Berichtstyp für Kontakte ohne Möglichkeiten - [!DNL Marketo Measure]
 title: Berichtstyp für Kontakte ohne Opportunitys
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 7%
+source-wordcount: '164'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
 Um Berichte zu Kontakten mit Käufer-Touchpoints zu erstellen, die nicht mit einer Gelegenheit verbunden sind, müssen Sie einen benutzerdefinierten Berichtstyp erstellen.
 

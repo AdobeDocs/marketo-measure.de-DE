@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874564
-description: Definition von [!DNL Marketo Measure] -Web-Sitzungen – [!DNL Marketo Measure] – Produktdokumentation
+description: Definition [!DNL Marketo Measure] Web-Sitzungen - [!DNL Marketo Measure]
 title: Definition von  [!DNL Marketo Measure] -Web-Sitzungen
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '579'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 97%
 
 ---
 
@@ -66,4 +66,4 @@ Wenn ihre erste Web-Sitzung _dagegen_, auf einen Web-Direktzugriff zurückzufüh
 
 ## Google Analytics-Sitzungen {#google-analytics-sessions}
 
-Es gibt gewisse Ähnlichkeiten, wie Sitzungen von [!DNL Marketo Measure] und Google Analytics definiert werden. Weitere Informationen dazu, wie Google Analytics Sitzungen definiert, finden Sie unter [https://support.google.com/analytics/answer/2731565?hl=de](http://support.google.com/analytics/answer/2731565?hl=de){target="_blank"}.
+Es gibt gewisse Ähnlichkeiten, wie Sitzungen von [!DNL Marketo Measure] und Google Analytics definiert werden. Weitere Informationen zur Definition von Sitzungen durch Google Analytics finden Sie unter: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=de){target="_blank"}

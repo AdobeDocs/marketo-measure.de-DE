@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874578
-description: Kampagnen und Kampagnenmitglieder - [!DNL Marketo Measure] - Produktdokumentation
-title: Kampagnen und Kampagnenmitglieder
+description: Kampagnen und Kampagnenmitglieder - [!DNL Marketo Measure]
+title: Kampagnen und Campaign-Mitglieder
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 1%
+source-wordcount: '1164'
+ht-degree: 0%
 
 ---
 
-# Kampagnen und Kampagnenmitglieder {#campaigns-and-campaign-members}
+# Kampagnen und Campaign-Mitglieder {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] Kampagnen dienen dazu, Listen von Leads und Kontakten zu verfolgen, die mit einem Marketingprogramm oder einer Aktivität verbunden sind. Hierbei handelte es sich in der Regel um Webinare, Registrierungen oder z. B. Messebesuche. Marketingexperten können auswählen, ob eine Kampagne einer Touchpoint-Journey gutgeschrieben werden soll oder nicht.
 
@@ -33,7 +33,7 @@ Die in der Auswahlliste verfügbaren Optionen sind:
 * Nur &quot;Respondierte&quot; Kampagnenmitglieder einschließen - Nur Leads oder Kontakte mit dem Status &quot;Beantwortet&quot; der Kampagne erhalten einen Touchpoint, der mit dieser Kampagne verknüpft ist.
 * Alle Campaign-Mitglieder ausschließen - Keiner der Leads oder Kontakte erhält einen Touchpoint, der mit dieser Kampagne verknüpft ist.
 
-Bitte beachten Sie, dass den Mitgliedern der Kampagne eine E-Mail-Adresse zugeordnet sein muss, damit sie [!DNL Marketo Measure] um einen Touchpoint zu erstellen. Ohne E-Mail-Adresse [!DNL Marketo Measure] weist dem Kampagnenmitglied keinen Touchpoint zu.
+Beachten Sie, dass den Mitgliedern der Kampagne eine E-Mail-Adresse zugeordnet sein muss, damit sie [!DNL Marketo Measure] um einen Touchpoint zu erstellen. Ohne E-Mail-Adresse [!DNL Marketo Measure] weist dem Kampagnenmitglied keinen Touchpoint zu.
 
 ## Kampagnensynchronisierungsdaten {#campaign-sync-dates}
 
@@ -47,7 +47,7 @@ Das Startdatum kann verwendet werden, wenn eine vorhandene Kampagne zum Tracking
 
 ## Anwendungsbeispiel für das Enddatum von Touchpoints {#use-case-for-touchpoint-end-date}
 
-Wenn die [!DNL Marketo Measure]verwendet haben, haben Sie eine Marketing Automation-Plattform verwendet, die die digitalen Interaktionen von Leads verfolgt hat (IE-Formularübermittlungen), und diese Leads dann in eine [!DNL Saleforce] Campaign können Sie das Feld Enddatum für Touchpoint nutzen. Sie würden das Touchpoint-Enddatum als Startdatum festlegen mit [!DNL Marketo Measure] und die Option &quot;Touchpoints des Käufers&quot;aktivieren, wird jede digitale Interaktion dieser Leads als Touchpoint erstellt. Der Grund, aus dem Sie das Touchpoint-Enddatum als Startdatum festlegen, mit dem [!DNL Marketo Measure] ist, weil wir diese digitalen Interaktionen künftig über unser JavaScript verfolgen werden.
+Wenn die [!DNL Marketo Measure]verwendet haben, haben Sie eine Marketing Automation-Plattform verwendet, die die digitalen Interaktionen von Leads verfolgt hat (IE-Formularübermittlungen), und diese Leads dann in eine [!DNL Saleforce] Campaign können Sie das Feld Enddatum des Touchpoints verwenden. Sie würden das Touchpoint-Enddatum als Startdatum festlegen mit [!DNL Marketo Measure] und die Option &quot;Touchpoints des Käufers&quot;aktivieren, wird jede digitale Interaktion dieser Leads als Touchpoint erstellt. Der Grund, aus dem Sie das Touchpoint-Enddatum als Startdatum festlegen, ist mit [!DNL Marketo Measure] ist, weil wir diese digitalen Interaktionen künftig über unser JavaScript verfolgen werden.
 
 ![](assets/3.png)
 

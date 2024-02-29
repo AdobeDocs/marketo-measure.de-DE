@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Salesforce] Paketkonsolidierung - [!DNL Marketo Measure] - Produktdokumentation'
+description: '[!DNL Salesforce] Paketkonsolidierung - [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] Package-Konsolidierung'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 7%
+source-wordcount: '433'
+ht-degree: 5%
 
 ---
 
 # [!DNL Salesforce] Paketkonsolidierung {#salesforce-package-consolidation}
 
-Wir freuen uns, die bevorstehenden Änderungen an den Marketo Measure Salesforce-Paketen bekannt geben zu können. Um das Benutzererlebnis zu verbessern und die Nutzung zu vereinfachen, konsolidieren wir alle vorhandenen Pakete zu einem einzigen, umfassenden Paket.
+Um das Benutzererlebnis zu verbessern und die Nutzung zu vereinfachen, werden bestehende Pakete in ein einzelnes, umfassendes Paket kompiliert.
 
 ## Package-Beschaffung {#package-retirement}
 
@@ -22,19 +22,19 @@ Als Folge dieser Konsolidierung werden die aktuellen Pakete V1, V2_EXT, V2_Secur
 
 Das neue konsolidierte V2-Paket umfasst alle Funktionen und Funktionen der vorherigen Pakete und bietet so ein verbessertes Benutzererlebnis. Dieses aktualisierte Paket ermöglicht ein effizienteres Tracking der Marketing- und Verkaufsleistung und ermöglicht tiefere Einblicke in das Kundenverhalten.
 
-Wir haben zwei neue Felder hinzugefügt, um Ihre Berichtsfunktionen zu erweitern:
+Es gibt zwei neue Felder, um Ihre Berichterstellungsfunktionen zu verbessern:
 
 * form_name: Dieses Feld ist jetzt in BT-/BAT-Objekten verfügbar und ermöglicht Benutzenden das Erstellen von Berichten anhand von Formularnamen.
 * user_touchpoint_id: Dieses Feld ermöglicht Benutzern das Erstellen von Berichten mit Touchpoint-Zählungen für Unique Users (`bizible2__User_Touchpoint_V2__c` Salesforce).
 
 ## Unterstützung und Übergang {#support-and-transition}
 
-Wir wissen, dass diese Änderung Anpassungen erfordern kann, und wir sind entschlossen, Sie während des gesamten Prozesses zu unterstützen. Unsere [Supportteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} ist jederzeit verfügbar, um alle Fragen zu beantworten und einen reibungslosen Übergang zum neuen konsolidierten Paket zu gewährleisten.
+Die [Supportteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} ist verfügbar, um alle Fragen zu beantworten und einen reibungslosen Übergang zum neuen konsolidierten Paket zu gewährleisten.
 
 ## Erforderliche Aktionen {#retired-actions}
 
 * Wenn Sie das V2-Paket bereits installiert haben, müssen Sie es auf die neue konsolidierte Version aktualisieren.
-* Wenn Sie über Berichte oder Dashboards aus einem beliebigen Reporting-Paket verfügen, können Sie diese ohne erforderliche Änderungen einfach neu erstellen, da alle verwendeten Felder im konsolidierten Paket vorhanden sind.
+* Wenn Sie über Berichte oder Dashboards aus einem beliebigen Reporting-Paket verfügen, können Sie diese ohne erforderliche Änderungen einfach neu erstellen, da alle Felder im konsolidierten Paket vorhanden sind.
 * Wenn Sie Berichte mit Feldern im V2_EXT-Paket haben, können Sie sie im konsolidierten Paket mithilfe der folgenden Schritte neu erstellen:
    * Alle Daten in den Feldern V2_EXT sind in Touchpoint-Feldern verfügbar. So können Sie Ihre Berichte ändern, um Daten aus den entsprechenden V2-Touchpoint-Feldern abzurufen, indem Sie einen Filter für die Touchpoint-Position hinzufügen.
    * Beispielbericht, in dem alle Leads mit Werbeinhalt FT abgerufen werden, die &quot;Outreach&quot;-Text enthalten.
@@ -65,4 +65,4 @@ Ja. Das konsolidierte Paket enthält dieselben Felder in V1 mit weiteren Aufschl
 
 **Können Berichte, die V2_EXT-Felder verwenden, im konsolidierten Paket neu erstellt werden?**
 
-Ja. Führen Sie die Schritte im Abschnitt [Erforderliche Aktionen](#retired-actions) Abschnitt weiter oben.
+Ja. Führen Sie die Schritte im Abschnitt [Erforderliche Aktionen](#retired-actions) Abschnitt.

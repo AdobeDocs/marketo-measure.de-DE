@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874761
-description: Single Sign-On - [!DNL Marketo Measure] - Produktdokumentation
+description: Single Sign-On - [!DNL Marketo Measure]
 title: Single Sign-On
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 3%
+source-wordcount: '1286'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ SAML (Security Assertion Markup Language) für SSO (Single Sign-on) ermöglicht 
 
 >[!CAUTION]
 >
->In diesem Artikel werden Single Sign-On (SSO) und die erweiterte CRM-Benutzerverwaltung vorgestellt. Wenn Ihr Konto bereitgestellt wurde **nach dem 10.9.2020** Beachten Sie diesen Artikel, da SSO und Identity Management im [Adobe Admin Console für Ihre [!DNL Marketo Measure] Integration](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md).
+>In diesem Artikel werden Single Sign-On (SSO) und die erweiterte CRM-Benutzerverwaltung vorgestellt. Wenn Ihr Konto bereitgestellt wurde **nach dem 10.9.2020**, da SSO und Identity Management innerhalb der [Adobe Admin Console für Ihre [!DNL Marketo Measure] Integration](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md).
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ SAML (Security Assertion Markup Language) für SSO (Single Sign-on) ermöglicht 
 
 ## Erste Schritte {#getting-started}
 
-Navigieren Sie zu Einstellungen > Sicherheit > Authentifizierung in der [!DNL Marketo Measure] Anwendung. Wechseln Sie dann den Anmeldetyp in Benutzerdefinierte SSO, um die Konfigurationsoptionen anzuzeigen. Änderungen werden erst wirksam, wenn Sie Ihre Authentifizierung testen und auf **[!UICONTROL Speichern]** -Schaltfläche unten auf der Seite.
+Navigieren Sie zu Einstellungen > Sicherheit > Authentifizierung in der [!DNL Marketo Measure] Anwendung. Wechseln Sie dann den Anmeldetyp zu Benutzerdefiniertes SSO , um die Konfigurationsoptionen anzuzeigen. Änderungen werden erst wirksam, wenn Sie Ihre Authentifizierung testen und auf **[!UICONTROL Speichern]** -Schaltfläche unten auf der Seite.
 
 ![](assets/single-sign-on-1.png)
 
@@ -41,11 +41,11 @@ Richten Sie die [!DNL Marketo Measure] Anwendung in Ihrem Identitätsanbieter. W
 
     a. Wenn Sie nach der Single Sign-On-URL, der Empfänger-URL oder der Ziel-URL, der SAML Assertion Customer Service (ACS)-URL gefragt werden, verwenden Sie [https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest](https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest)
     
-    b. Wenn Sie nach der Zielgruppen-Einschränkungen-URL oder der anwendungsdefinierten eindeutigen Kennung gefragt werden, verwenden Sie [https://BizibleLPM](https://biziblelpm/)
+    b. Wenn Sie zur URL der Zielgruppenbeschränkung oder zur anwendungsdefinierten eindeutigen Kennung aufgefordert werden, verwenden Sie [https://BizibleLPM](https://biziblelpm/)
 
-Wechseln Sie in der [!DNL Marketo Measure] Anwendung
+Wechseln Sie zur benutzerdefinierten einmaligen Anmeldung im [!DNL Marketo Measure] Anwendung
 
-    a. Nachdem die Abrechnungsgruppe für Ihr Konto aktiviert wurde, können Sie jetzt zu [!UICONTROL Einstellungen] >>[!UICONTROL Sicherheit] >> [!UICONTROL Authentifizierung]
+    a. Sobald die Abrechnungsgruppe für Ihr Konto aktiviert wurde, können Sie jetzt zu [!UICONTROL Einstellungen] >>[!UICONTROL Sicherheit] >> [!UICONTROL Authentifizierung]
     
     b. Standardmäßig ist Ihr Anmeldetyp auf &quot;CRM-Benutzer&quot;eingestellt.
     
@@ -53,11 +53,11 @@ Wechseln Sie in der [!DNL Marketo Measure] Anwendung
 
 Füllen Sie die Verbindungseinstellungen für Ihre Identity Provider-Konfiguration aus.
 
-    a. Ihr Identitäts-Provider gibt möglicherweise ein IdP-Metadaten-XML-Dokument aus, das die erforderlichen Konfigurationsfelder abruft. Laden Sie entweder den Inhalt des XML-Dokuments oder füllen Sie die drei folgenden Felder mit den Daten aus, die während des Identity Provider-Konfigurationsprozesses generiert wurden. **Sie müssen nicht beides durchführen.**
+    a. Ihr Identitäts-Provider kann ein IdP-Metadaten-XML-Dokument bereitstellen, das die erforderlichen Konfigurationsfelder abruft. Laden Sie entweder den Inhalt des XML-Dokuments oder füllen Sie die drei unten stehenden Felder aus der Ausgabe aus, die Sie während des Identity Provider-Konfigurationsprozesses erhalten haben. **Sie müssen beide Schritte nicht ausführen.**
     
     i. IdP-URL: Die URL, die [!DNL Marketo Measure] muss auf verweisen, um Ihre Benutzer bei der [!DNL Marketo Measure] Anwendung. Manchmal als &quot;Umleitungs-URL&quot;bezeichnet.
-    ii. IdP-Aussteller: Eine eindeutige Kennung des Identitätsanbieters. Manchmal als &quot;externer Schlüssel&quot;bezeichnet.
-    iii. IdP-Zertifikat: Ein öffentlicher Schlüssel, der Folgendes ermöglicht: [!DNL Marketo Measure] um die Signatur aller Identity Provider-Antworten zu überprüfen und zu validieren.
+    ii. IdP-Herausgeber: Eine eindeutige Kennung des Identitäts-Providers. Manchmal als &quot;externer Schlüssel&quot;bezeichnet.
+    iii. IdP-Zertifikat: ein öffentlicher Schlüssel, der Folgendes ermöglicht: [!DNL Marketo Measure] um die Signatur aller Identity Provider-Antworten zu überprüfen und zu validieren.
 
 Legen Sie die Gültigkeit des Tokens für Ihre Benutzer in Minuten fest.
 
@@ -67,8 +67,8 @@ Richten Sie Ihre Benutzerattributeinstellungen ein und ordnen Sie sie dem jeweil
 
     a. durch Eingabe der SAML-Attribute, [!DNL Marketo Measure] können Ihre Benutzer anhand der weitergeleiteten Informationen erkennen.
     
-    i. E-Mail-Attribut: Geben Sie den Attributnamen an, den Ihr Identitätsanbieter für die E-Mail-Adresse des Benutzers verwendet.
-    ii. Vorname-Attribut: Geben Sie den Attributnamen an, den Ihr Identitätsanbieter für den Vornamen des Benutzers verwendet.
+    i. E-Mail-Attribut: Geben Sie den Attributnamen an, den Ihr Identitäts-Provider für die E-Mail-Adresse des Benutzers verwendet.
+    ii. Vorname Attribut: Geben Sie den Attributnamen an, den Ihr Identitätsanbieter für den Vornamen des Benutzers verwendet.
     iii. Nachname-Attribut: Geben Sie den Attributnamen an, den Ihr Identitätsanbieter für den Nachnamen des Benutzers verwendet.
     
     b. Hinweis: Wenn Sie Ihre SAML-Konfiguration jetzt testen, analysieren wir die Attribute E-Mail, Vorname und Nachname , die Sie für diesen Abschnitt verwenden können.
@@ -77,12 +77,12 @@ Richten Sie Ihre Benutzerattributeinstellungen ein und ordnen Sie sie dem jeweil
 
 Richten Sie Ihre Benutzerrolleneinstellungen ein und ordnen Sie sie den entsprechenden Rollen oder Gruppen zu, die von Ihrem IdP klassifiziert wurden.
 
-    a. Kunden haben die Möglichkeit, [!DNL Marketo Measure] Benutzerrollen basierend auf Gruppen, die in ihrem Identitätsanbieter definiert sind. durch Eingabe Ihrer SAML-Attribute, [!DNL Marketo Measure] kann die Rollen und Gruppen Ihres Benutzers [!DNL Marketo Measure] Benutzerberechtigungen. Wir empfehlen dringend, diese Rollen einzurichten, damit Ihre [!DNL Marketo Measure] -Administrator verfügt über ausreichende Berechtigungen, um Ihr Konto zu aktualisieren.
+    a. Kunden können [!DNL Marketo Measure] Benutzerrollen basierend auf Gruppen, die in ihrem Identitätsanbieter definiert sind. durch Eingabe Ihrer SAML-Attribute, [!DNL Marketo Measure] kann die Rollen und Gruppen Ihres Benutzers [!DNL Marketo Measure] Benutzerberechtigungen. Wir empfehlen dringend, diese Rollen einzurichten, damit Ihre [!DNL Marketo Measure] -Administrator verfügt über ausreichende Berechtigungen, um Ihr Konto zu aktualisieren.
     
     b. Wenn keine Rollen oder Gruppen zugeordnet sind, besteht die Standardeinstellung darin, dass alle Mitarbeiter im Identitätsanbieter über Standardbenutzerzugriff verfügen.
     
     i. [!DNL Marketo Measure] Standardbenutzer: Geben Sie den Rollen- oder Gruppenwert (von Ihrem SSO-Anbieter) für Benutzer an, die schreibgeschützten Zugriff auf die [!DNL Marketo Measure] Anwendung.
-    ii. [!DNL Marketo Measure] Konto-Admin-Benutzer: Geben Sie den Rollen- oder Gruppenwert (von Ihrem SSO-Anbieter) für Benutzer an, die über Administratorzugriff auf die [!DNL Marketo Measure] Anwendung. Das bedeutet, dass die Rolle Zugriff auf Konfigurationsänderungen und Einstellungen hat, die sich auf Ihr Konto beziehen.
+    ii. [!DNL Marketo Measure] Kontoadministratorbenutzer: Geben Sie den Rollen- oder Gruppenwert (von Ihrem SSO-Anbieter) für Benutzer an, die Administratorzugriff auf die [!DNL Marketo Measure] Anwendung. Das bedeutet, dass die Rolle Zugriff auf Konfigurationsänderungen und Einstellungen hat, die sich auf Ihr Konto beziehen.
     iii. Sie müssen in Ihrem IdP über ein Attribut mit dem genauen Namen &quot;Gruppen&quot;verfügen, das die Werte enthält, die Sie in den Attributen &quot;Bizible Standard User&quot;oder &quot;Bizible Account Admin User&quot;eingegeben haben.
     
     c. Wenn einer Rolle mehrere Rollen oder Gruppen zugeordnet werden sollen, geben Sie jeden durch ein Komma getrennten Wert ein.
@@ -93,7 +93,7 @@ Testen der Single Sign-On-Konfiguration
 
     a. Bevor Sie auf Speichern klicken können, müssen Sie auf die [!UICONTROL SAML-Authentifizierung testen] -Schaltfläche, um zu überprüfen, ob Ihre Einstellungen ordnungsgemäß konfiguriert wurden.
     
-    b. Wenn der Fehler &quot;fehlgeschlagen&quot;angezeigt wird, folgen Sie der Nachricht und versuchen Sie es erneut.
+    b. Wenn der Fehler &quot;fehlgeschlagen&quot; angezeigt wird, folgen Sie der Nachricht und versuchen Sie es erneut.
 
 ![](assets/single-sign-on-4.png)
 
@@ -107,7 +107,7 @@ Probier es aus!
 
     a. Verwenden Sie Ihre neue benutzerdefinierte Anmelde-URL und versuchen Sie, sich wieder bei der [!DNL Marketo Measure] Anwendung mit Ihren Identity Provider-Anmeldeinformationen.
     
-    b. Das Format sieht dann wie &quot;https://apps.adobe.com/business/[accountName]&quot; aus.
+    b. Das Format sieht wie folgt aus: &quot;https://apps.adobe.com/business/[accountName]&quot;
     
     c. Herzlichen Glückwunsch! Sie haben Single Sign-On erfolgreich in der [!DNL Marketo Measure] Bewerbung für Ihr Konto!
 
@@ -124,7 +124,7 @@ Standardmäßig können alle Konten auf die [!DNL Marketo Measure] Anwendung unt
 Wenn keine Rollen oder Gruppen zugeordnet sind, besteht die Standardeinstellung darin, dass alle aktiven Lizenzen in Ihrem CRM-System über Standardbenutzerzugriff verfügen.
 
 * [!DNL Marketo Measure] Standardbenutzer: Geben Sie den Rollen- oder Gruppenwert für Benutzer an, die schreibgeschützten Zugriff auf die [!DNL Marketo Measure] Anwendung.
-* [!DNL Marketo Measure] Konto-Admin-Benutzer: Geben Sie den Rollen- oder Gruppenwert für Benutzer an, die Administratorzugriff auf die [!DNL Marketo Measure] Anwendung. Das bedeutet, dass die Rolle Zugriff auf Konfigurationsänderungen und Einstellungen hat, die sich auf Ihr Konto beziehen.
+* [!DNL Marketo Measure] Kontoadministratorbenutzer: Geben Sie den Rollen- oder Gruppenwert für Benutzer an, die Administratorzugriff auf die [!DNL Marketo Measure] Anwendung. Das bedeutet, dass die Rolle Zugriff auf Konfigurationsänderungen und Einstellungen hat, die sich auf Ihr Konto beziehen.
 
 Wenn einer Rolle mehrere Rollen oder Gruppen zugeordnet werden sollen, geben Sie jeden Wert durch ein Komma getrennt ein.
 

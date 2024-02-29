@@ -3,9 +3,9 @@ description: Dashboard "Umsatzübersicht"- [!DNL Marketo Measure] - Produkt
 title: Dashboard „Umsatzübersicht“
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Das Dashboard &quot;Umsatzübersicht&quot;bietet Einblicke in den Gesamtumsatz a
 
 Dieses nebeneinander liegende Balkendiagramm für Zeitreihen steht im Gegensatz zum Gesamtumsatz mit dem zugewiesenen Umsatz, wodurch Ihre Marketing-Auswirkungen auf den Gesamtumsatz klar visualisiert werden.
 
-* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Quartal und Jahr zu kategorisieren.
+* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Quartal und Jahr zu kategorisieren.
 * Bewegen Sie den Mauszeiger über einen Bereich des Balkendiagramms, um dessen detaillierte Informationen anzuzeigen.
 
 **Fragen zu den Grafikantworten:**

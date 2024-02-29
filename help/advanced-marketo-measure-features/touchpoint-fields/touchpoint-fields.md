@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37355835
-description: Touchpoint-Felder - [!DNL Marketo Measure] - Produktdokumentation
+description: Touchpoint-Felder - [!DNL Marketo Measure]
 title: Touchpoint Felder
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---

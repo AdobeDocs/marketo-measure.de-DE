@@ -4,10 +4,10 @@ description: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren – M
 title: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '1266'
+ht-degree: 89%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in unserer Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber trotzdem &quot;Bizible&quot;in Ihrem CRM. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
 Schauen wir uns einmal die Beziehung zwischen [!DNL Marketo Measure] und Salesforce an.
 
 ## Salesforce und [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-Nachdem das [!DNL Marketo Measure]-Konto erstellt und [!DNL Salesforce] verknüpft ist, verschiebt [!DNL Marketo Measure] solange Marketing-Daten in die CRM-Instanz, wie das von [!DNL Marketo Measure] verwaltete Paket installiert ist und die Benutzerin bzw. der Benutzer von [!DNL Marketo Measure] Salesforce über eine Änderungsberechtigung verfügt. 
+Einmal die [!DNL Marketo Measure] -Konto erstellt und [!DNL Salesforce] angeschlossen ist, [!DNL Marketo Measure] beginnt, Marketingdaten in die CRM-Instanz zu übertragen, solange die [!DNL Marketo Measure] das verwaltete Paket installiert ist und die [!DNL Marketo Measure] Salesforce-Benutzer haben Bearbeitungsberechtigungen.
 
-Bei der Installation des [!DNL Marketo Measure] Salesforce-Pakets schreibt [!DNL Marketo Measure] keine Daten in Ihre Salesforce-Instanz.
+Wenn Sie die [!DNL Marketo Measure] Salesforce-Paket, [!DNL Marketo Measure] schreibt keine Daten in Ihre Salesforce-Instanz.
 
 ![](assets/1-3.png)
 
@@ -31,11 +31,11 @@ Standardmäßig exportiert [!DNL Marketo Measure] jedes Mal 200 Einträge pro AP
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-Beachten Sie bei der Änderung dieser Einstellung, dass kleinere Batch-Größen mehr API-Credits aus Ihrem CRM-System verbrauchen. Es wird empfohlen, die Batch-Größe nur zu reduzieren, wenn in Ihrem CRM-System CPU-Timeouts oder eine hohe CPU-Last auftreten.
+Beachten Sie bei der Änderung dieser Einstellung, dass kleinere Batch-Größen mehr API-Gutschriften aus Ihrem CRM-System verbrauchen. Es wird empfohlen, die Batch-Größe nur zu reduzieren, wenn in Ihrem CRM-System CPU-Timeouts oder eine hohe CPU-Last auftreten.
 
 ## Salesforce Standard-Objekte und Zugriff {#salesforce-standard-objects-and-access}
 
-Mit dieser Aktion werden die [!DNL Salesforce]-Standardobjekte, mit denen [!DNL Marketo Measure] interagiert, sowie die benutzerdefinierten Felder aufgerufen, die wir zu diesen Objekten hinzufügen, sobald die Verknüpfung erfolgt und das [!DNL Marketo Measure]-Paket installiert ist. Das vorkonfigurierte [!DNL Marketo Measure] wird NICHT in ein Standard-Objektfeld in [!DNL Salesforce] geschrieben.
+Dadurch werden die [!DNL Salesforce] Standardobjekte, die [!DNL Marketo Measure] interagiert mit und den benutzerdefinierten Feldern, die wir diesen Objekten hinzufügen, sobald die Verbindung hergestellt ist und die [!DNL Marketo Measure] installiert ist. Das vorkonfigurierte [!DNL Marketo Measure] wird NICHT in ein Standard-Objektfeld in [!DNL Salesforce] geschrieben.
 
 **Lead**
 
@@ -806,7 +806,7 @@ Mit dieser Aktion werden die [!DNL Salesforce]-Standardobjekte, mit denen [!DNL 
 
 ## Benutzerdefinierte [!DNL Marketo Measure]-Objekte in [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-Neben der Erstellung von benutzerdefinierten Feldern in den Standardobjekten von SFDC werden nach der Installation des [!DNL Marketo Measure]-Pakets eine Reihe von benutzerdefinierten Objekten erstellt. Es folgt eine Liste dieser benutzerdefinierten Objekte zusammen mit einer Tabelle, in der die Felder angegeben sind, in die [!DNL Marketo Measure] schreiben wird.
+Neben der Erstellung benutzerdefinierter Felder für die Standardobjekte des SFDC wird bei jedem [!DNL Marketo Measure] installiert ist, werden mehrere benutzerdefinierte Objekte erstellt. Es folgt eine Liste dieser benutzerdefinierten Objekte zusammen mit einer Tabelle, in der die Felder angegeben sind, in die [!DNL Marketo Measure] schreiben wird.
 
 **Buyer Touchpoint**
 

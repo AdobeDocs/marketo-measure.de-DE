@@ -2,7 +2,7 @@
 description: Opportunity Velocity-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Dashboard „Opportunity-Geschwindigkeit“
 feature: Reporting
-source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 4%
@@ -43,7 +43,7 @@ Fragen zu den Grafikantworten:
 
 Das Liniendiagramm der Zeitreihen zeigt die durchschnittliche Zeit (in Tagen), die in den einzelnen Verkaufsphasen verbracht wird, über den festgelegten Zeitraum hinweg.
 
-* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
+* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
 * Bewegen Sie den Mauszeiger über eine Zeile, um detaillierte Informationen anzuzeigen.
 
 Fragen zu den Grafikantworten:

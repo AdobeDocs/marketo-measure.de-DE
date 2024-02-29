@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874539
-description: Benutzerdefiniert erstellen [!DNL Marketo Measure] Berichtstypen - [!DNL Marketo Measure] - Produktdokumentation
+description: Benutzerdefiniert erstellen [!DNL Marketo Measure] Berichtstypen - [!DNL Marketo Measure]
 title: Erstellen benutzerdefinierter  [!DNL Marketo Measure] Berichtstypen
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 2%
+source-wordcount: '372'
+ht-degree: 5%
 
 ---
 
-# Erstellen benutzerdefinierter [!DNL Marketo Measure]Berichtstypen {#creating-custom-marketo-measure-report-types}
+# Benutzerdefiniert erstellen [!DNL Marketo Measure] Berichtstypen {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
 Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce] Berichtstypen. Es gibt drei verschiedene Berichtstypen, die wir empfehlen zu erstellen: Leads mit Käufer-Touchpoints (benutzerdefiniert), [!DNL Marketo Measure] Person mit Käufer-Touchpoints (benutzerdefiniert), Chancen mit Käufer-Attribution-Touchpoint (benutzerdefiniert).
 

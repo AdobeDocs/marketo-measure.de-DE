@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874781
-description: Konfiguration der doppelten Klick-Kampagnen-Manager-Ansicht über Attribution - [!DNL Marketo Measure] - Produktdokumentation
+description: Konfiguration der doppelten Klick-Kampagnen-Manager-Ansicht über Attribution - [!DNL Marketo Measure]
 title: Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 So erhalten Sie genauere Einblicke aus der Ansicht durch das Tracking mit [!DNL Doubleclick Campaign Manager], muss unser Tracking-Pixel konfiguriert werden.
 
-Bitte [Klicken Sie hier](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) Weitere Informationen zu [!DNL Marketo Measure] Durchsicht der Attributionsfunktionen.
+Weitere Informationen zum [!DNL Marketo Measure] Durchsicht der Attributionsfunktionen, siehe [Häufig gestellte Fragen zur Marketo Measure-Ansicht durch Attribution](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
 [!DNL Marketo Measure] wird als Huckepack-Tag betrachtet, da es sich um einen Drittanbieter-Aufruf über das DCM-Anzeigen-Tag handelt. Piggyback-Tags funktionieren nicht mit Bild-Tags, sondern nur mit iFrame- oder JavaScript-Tags. Nach Angaben des DCM-Supports hat sich dies in letzter Zeit nicht geändert und war immer der Fall. Standard-Tags werden seit dem 2. Oktober 2017 nicht mehr unterstützt, beeinträchtigen jedoch nicht die Fähigkeit von [!DNL Marketo Measure] , um die Impressionen zu verfolgen.
 
@@ -29,7 +29,7 @@ Wenn Sie eine Hierarchie der übergeordneten Elemente und untergeordneten Elemen
 
 ## Hinzufügen des Bild-Tags {#how-to-add-the-image-tag}
 
-Sie fügen das Tag hinzu in [!DNL Doubleclick] unter der Einstellung &quot;Advertiser&quot;und Sie möchten ein Impressionsereignis-Tag erstellen.
+Fügen Sie das Tag unter der Advertiser-Einstellung in DoubleClick hinzu und erstellen Sie ein Impressionsereignis-Tag.
 
 1. Fügen Sie den folgenden Code als 1x1-Bildpixel hinzu.
 

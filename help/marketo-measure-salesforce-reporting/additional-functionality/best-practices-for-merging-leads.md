@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874734
-description: Best Practices für die Zusammenführung von Leads - [!DNL Marketo Measure] - Produktdokumentation
+description: Best Practices für die Zusammenführung von Leads - [!DNL Marketo Measure]
 title: Best Practices für die Zusammenführung von Leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 7%
+source-wordcount: '190'
+ht-degree: 5%
 
 ---
 
@@ -17,12 +17,12 @@ Wenn es um das Zusammenführen von Leads in [!DNL Salesforce]ist es immer am bes
 
 Für Ihre Referenz finden Sie hier eine Aufschlüsselung der [Zusammenführen von Leads](https://help.salesforce.com/HTViewHelpDoc?id=leads_merge.htm&amp;language=en_US) von [!DNL Salesforce] Support.
 
-Wo [!DNL Marketo Measure] kommt in, wenn es Zeit ist, Felder auszuwählen, die in den zusammengeführten Datensatz gefüllt werden. Überprüfen Sie nach Auswahl des Übergeordneten Datensatzes, ob das [!DNL Marketo Measure] -Felder für die Übertragung auf den neuen Datensatz ausgewählt werden.
+Wo [!DNL Marketo Measure] kommt in, wenn es Zeit ist, Felder auszuwählen, die in den zusammengeführten Datensatz gefüllt werden. Überprüfen Sie nach Auswahl des Masterdatensatzes, ob das [!DNL Marketo Measure] -Felder für die Übertragung auf den neuen Datensatz ausgewählt werden.
 
-Wenn mehrere Datensätze mit [!DNL Marketo Measure] müssen Sie sicherstellen, dass der Übergeordnete Datensatz die ausgewählten Felder für den Lead enthält, der zuerst erstellt wurde. Zusätzliche [!DNL Marketo Measure] -Daten werden im Abschnitt &quot;Insights&quot;angezeigt. Stellen Sie außerdem sicher, dass die E-Mail-Adresse des getrackten Leads die E-Mail-Adresse ist, die beibehalten wird, da sie es uns ermöglicht, diesen Lead mit neuen Attributionsdaten weiter zu aktualisieren.
+Wenn mehrere Datensätze mit [!DNL Marketo Measure] müssen Sie sicherstellen, dass der Masterdatensatz über die ausgewählten Felder für den Lead verfügt, der zuerst erstellt wurde. Zusätzliche [!DNL Marketo Measure] -Daten werden im Abschnitt &quot;Insights&quot;angezeigt. Stellen Sie außerdem sicher, dass die E-Mail-Adresse des getrackten Leads die E-Mail-Adresse ist, die beibehalten wird, da sie es uns ermöglicht, diesen Lead mit neuen Attributionsdaten weiter zu aktualisieren.
 
 Von dort aus sollten Sie die Leads und [!DNL Marketo Measure] Daten werden in den neuen Datensatz übertragen.
 
-Sollten Sie Fragen haben, wenden Sie sich bitte an das Adobe Account Team (Ihren Kundenbetreuer) oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Wenden Sie sich bei Fragen an das Adobe Account Team (Ihren Kundenbetreuer) oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 ![](assets/1.jpg)

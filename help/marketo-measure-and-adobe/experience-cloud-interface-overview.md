@@ -1,12 +1,12 @@
 ---
-description: Übersicht über die Adobe Experience Cloud-Benutzeroberfläche [!DNL Marketo Measure] - Produktdokumentation
+description: Übersicht über die Adobe Experience Cloud-Benutzeroberfläche [!DNL Marketo Measure]
 title: Adobe Experience Cloud-Benutzeroberfläche – Übersicht
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 6%
+source-wordcount: '277'
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ Wenn du _not_ bereits bei einem Adobe Experience Cloud-Produkt angemeldet sind, 
 
 ## Neue Funktionen {#new-features}
 
-Neben dem aktualisierten Erscheinungsbild werden Sie die folgenden Funktionen bemerken:
+Beachten Sie neben dem aktualisierten Erscheinungsbild die folgenden Funktionen:
 
 **Domänenverwaltung**
 
@@ -50,15 +50,15 @@ Diejenigen mit Zugriff auf mehrere Adobe-Produkte können einfach zwischen ihnen
 
 **Benachrichtigungen und Mitteilungen**
 
-Produktspezifische Benachrichtigungen und allgemeine Produktankündigungen direkt in der Adobe anzeigen und damit interagieren.
+Zeigen Sie Produktspezifische Benachrichtigungen und allgemeine Produktankündigungen direkt in der Anwendung an und interagieren Sie damit.
 
 ![](assets/unified-shell-overview-8.png)
 
 ![](assets/unified-shell-overview-9.png)
 
-**Adobe Settings**
+**Adobe-Einstellungen**
 
-Klicken Sie auf Ihr Profilsymbol, um Ihre Spracheinstellungen oder andere Voreinstellungen für die gesamte Adobe zu ändern. Sie können auch [!DNL Marketo Measure]-spezifische Änderungen durch Klicken auf **Meine Einstellungen**.
+Um Ihre Spracheinstellungen oder andere Adobe-weite Voreinstellungen zu ändern, klicken Sie auf Ihr Profilsymbol. Sie können auch [!DNL Marketo Measure]-spezifische Änderungen durch Klicken auf **Meine Einstellungen**.
 
 ![](assets/unified-shell-overview-10.png)
 
@@ -70,8 +70,8 @@ Lesezeichen werden umgeleitet. Wenn Sie beispielsweise zu https://apps.marketo-m
 
 **Ich kann mich nicht bei [!DNL Marketo Measure] über die Experience Cloud-Oberfläche. Was könnte das Problem sein?**
 
-Wenn Sie sich bei Adobe Experience Cloud anmelden können, die Seite jedoch wie folgt anzeigen, kann sich das Problem auf der Seite [!DNL Marketo Measure] side:
+Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine Seite wie die folgende angezeigt wird, kann sich das Problem auf der Seite [!DNL Marketo Measure] side:
 
 ![](assets/unified-shell-overview-11.png)
 
-Wenn Sie den oben genannten Fehler erhalten, wenden Sie sich bitte an [Support kontaktieren](https://nation.marketo.com/t5/support/ct-p/Support) Hilfe.
+Wenn Sie den obigen Fehler erhalten, [Support kontaktieren](https://nation.marketo.com/t5/support/ct-p/Support) Hilfe.

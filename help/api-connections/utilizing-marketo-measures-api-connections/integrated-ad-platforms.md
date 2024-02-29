@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874594
-description: Integrierte Anzeigenplattformen - [!DNL Marketo Measure] - Produktdokumentation
+description: Integrierte Anzeigenplattformen - [!DNL Marketo Measure]
 title: Integrierte Anzeigenplattformen
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 1%
+source-wordcount: '1661'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ Weitere Informationen zu [[!DNL AdWords] Funktion für automatisches Tagging](/h
 
 Vor [!DNL Marketo Measure] automatisches Tagging, **Stellen Sie sicher, dass in Ihrem Adwords -Konto auf Konto-, Kampagnen- oder Anzeigengruppenebene eine Tracking-Vorlage aktiviert ist. Dies ist für jedes Adwords -Konto erforderlich, das [!DNL Marketo Measure] automatisches Tagging aktiviert ist.** Durch die Aktivierung einer Tracking-Vorlage wird jeder Verlust von Daten zum Anzeigenleistungsverlauf verhindert. Beachten Sie, dass die Aktivierung von Tracking-Vorlagen auf Keyword-, Sitelink- oder Anzeigenebene dazu führt, dass die Anzeige den Review- und Genehmigungsprozess durchläuft und möglicherweise den Leistungsverlauf Ihrer Anzeigen neu startet. Wenn überhaupt keine Tracking-Vorlage aktiviert ist, [!DNL Marketo Measure] anhängen. [!DNL Marketo Measure] Tracking-Parameter direkt zur &quot;endgültigen URL&quot;der Anzeige hinzufügen, was auch zum Verlust von Daten zum Anzeigenverlauf führen kann.
 
-Wenn Sie über eine Tracking-Vorlage verfügen, befolgen Sie die unten stehenden Anweisungen, um [!DNL Marketo Measure] Automatisches Tagging. Hinweis: [!DNL Marketo Measure] markiert auch automatisch alle ausgesetzten Anzeigen in Ihrem Konto.
+Nachdem Sie eine Tracking-Vorlage eingerichtet haben, folgen Sie den unten stehenden Anweisungen, um die [!DNL Marketo Measure] Automatisches Tagging. Hinweis: [!DNL Marketo Measure] markiert auch automatisch alle ausgesetzten Anzeigen in Ihrem Konto.
 
 1. Anmelden bei [!DNL Marketo Measure] Konto unter [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
@@ -145,9 +145,9 @@ Die [!DNL Marketo Measure] Integration mit [!DNL Facebook] ermöglicht es, Anzei
 
 Vor der Aktivierung des automatischen Taggings mit [!DNL Facebook Ads]ist es wichtig, den vorherigen Leistungsverlauf als CSV-Datei zu exportieren. Wann [!DNL Marketo Measure] tags [!DNL Facebook Ads] mit dem Parameter _bf , [!DNL Facebook] liest die Anzeigen als brandneu und löscht den Leistungsverlauf. Daher ist es wichtig, einen Datensatz der vorherigen Leistung zu exportieren, wenn dies für Sie und Ihr Unternehmen von Nutzen ist.
 
-Bitte beachten Sie, dass Sie Ihre [!DNL Facebook] jederzeit dem [!DNL Marketo Measure] App verwenden und keine Daten verloren gehen - nur bei aktiviertem automatischem Tagging wird der Leistungsverlauf gelöscht.
+Beachten Sie, dass Sie Ihre [!DNL Facebook] jederzeit dem [!DNL Marketo Measure] App verwenden und keine Daten verloren gehen - nur bei aktiviertem automatischem Tagging wird der Leistungsverlauf gelöscht.
 
-[Bitte lesen Sie diesen Artikel](https://www.facebook.com/business/help/393890194130036){target="_blank"} Informationen zum Exportieren aus Facebook [!DNL Facebook] Anzeigenberichte.
+Siehe [diesem Artikel](https://www.facebook.com/business/help/393890194130036){target="_blank"} Informationen zum Exportieren aus Facebook [!DNL Facebook] Anzeigenberichte.
 
 ## LinkedIn-gesponserte Inhalte {#linkedin-sponsored-content}
 

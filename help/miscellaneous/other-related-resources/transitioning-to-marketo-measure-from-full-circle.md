@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874535
-description: Übergang zu [!DNL Marketo Measure] aus dem vollständigen Kreis - [!DNL Marketo Measure] - Produktdokumentation
+description: Übergang zu [!DNL Marketo Measure] aus dem vollständigen Kreis - [!DNL Marketo Measure]
 title: Übergang zu [!DNL Marketo Measure] aus dem vollständigen Kreis
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 1%
+source-wordcount: '642'
+ht-degree: 0%
 
 ---
 
-# Übergang zu[!DNL Marketo Measure]aus dem vollständigen Kreis {#transitioning-to-marketo-measure-from-full-circle}
+# Übergang zu [!DNL Marketo Measure] aus dem vollständigen Kreis {#transitioning-to-marketo-measure-from-full-circle}
 
 Umstieg vom vollständigen Kreis auf [!DNL Marketo Measure]? Du bist nicht allein. Hier sind die wichtigsten Überlegungen, die Sie beachten sollten, und die Lektionen, die wir von anderen Kunden gelernt haben, die den Wechsel vorgenommen haben.
 
@@ -24,7 +24,7 @@ Allgemein gesagt, wie [!DNL Marketo Measure] erstellt Touchpoint-Datensätze fü
 * Ausfüllen des Formulars auf Ihrer Site(s): [!DNL Marketo Measure] JavaScript
 * Seitenansichten Ihrer Site(s): Erstellt von [!DNL Marketo Measure] JavaScript nur dann verwenden, wenn diese Seitenansicht einen bestimmten CRM-Meilenstein (z. B. Lead- oder Opportunity-Erstellung) verursacht hat
 * Offline-Interaktionen wie Konferenzen oder Messen: Mitgliedschaft in CRM-Kampagnen
-* Digitale Interaktionen, die überall im Internet stattfinden, wo Ihre Site nicht vorkommt (z. B. ein Webinar, das auf einer Drittanbieter-Website gehostet wird, die einen Listen-Upload generiert): CRM-Kampagnenmitgliedschaft
+* Digitale Interaktionen, die überall im Internet stattfinden, wo nicht Ihre Site ist (z. B. ein Webinar, das auf einer Drittanbieter-Website gehostet wird, die einen Listen-Upload generiert): CRM-Kampagnenmitgliedschaft
 * Interaktionen mit Ihrem Sales-Team: CRM-Aktivitätsdatensätze
 
 Wenn Sie sich mit der Verwaltung Ihrer CRM-Kampagnen auskennen und bestehende Prozesse beibehalten möchten, ist das in Ordnung. Es tut nicht weh [!DNL Marketo Measure] um weiterhin alle Interaktionen in CRM-Kampagnen zu verfolgen. Sie können eine Logik entwerfen, die nur Touchpoints aus einer gewünschten Untergruppe von Kampagnen erstellt, um eine Touchpoint-Duplizierung zu vermeiden.
@@ -33,7 +33,7 @@ Wenn Sie sich mit der Verwaltung Ihrer CRM-Kampagnen auskennen und bestehende Pr
 
 Bei den meisten &quot;Full Circle&quot;-Setups sehen Sie jede einzelne Interaktion, die eine Person mit Ihren Marketing- oder Verkaufsbemühungen hat. Seitenansichten, wiederholte Seitenbesuche, Mitgliedschaft in doppelten und doppelten Kampagnen - Vollständiger Kreis deckt all diese Kampagnen auf. Wenn Sie eine Seite 300-mal anzeigen, erstellt Full Circle 300 doppelte Kampagnen und gibt Ihnen eine Mitgliedschaft in jeder dieser Kampagnen. [!DNL Marketo Measure] nicht, und das war eine bewusste Designentscheidung von unserer Seite.
 
-[!DNL Marketo Measure] soll Ihnen eine Attributionsgeschichte vermitteln, die aussagekräftige Interaktionen offenbart und die Gewichtung entsprechend auf die wirkungsvollsten Touchpoints verteilt. Beispiel: die [!DNL Marketo Measure] -Framework zeigt keine Seitenansichten (ohne Formularelemente) als routinemäßige Touchpoints an. Eine eigenständige Seitenansicht wirkt sich wahrscheinlich nicht darauf aus, eine Einkaufs-Journey vorwärts zu treiben. Wir erstellen jedoch einen Touchpoint, wenn es sich um die neueste Interaktion vor einem festgelegten CRM-Meilenstein (z. B. Lead- oder Opportunity Creation) handelt. Wir wollen Ihnen nicht alles zeigen. Wir möchten Ihnen das Wichtige aus der Sicht der Attribution zeigen.
+[!DNL Marketo Measure] soll Ihnen eine Attributionsgeschichte vermitteln, die aussagekräftige Interaktionen offenbart und die Gewichtung entsprechend auf die wirkungsvollsten Touchpoints verteilt. Beispiel: die [!DNL Marketo Measure] -Framework zeigt keine Seitenansichten (ohne Formularelemente) als routinemäßige Touchpoints an. Eine eigenständige Seitenansicht wirkt sich wahrscheinlich nicht auf die Weiterentwicklung einer Einkaufs-Journey aus. Wir erstellen jedoch einen Touchpoint, wenn dies die letzte Interaktion vor einem bestimmten CRM-Meilenstein ist (z. B. Lead- oder Opportunity Creation). Wir wollen Ihnen nicht alles zeigen. Wir möchten Ihnen das Wichtige aus der Sicht der Attribution zeigen.
 
 Arbeiten mit [!DNL Marketo Measure] rep verwenden, um angemessene Erwartungen darüber zu setzen, welche Daten Ihrem Team nicht mehr zur Verfügung stehen.
 

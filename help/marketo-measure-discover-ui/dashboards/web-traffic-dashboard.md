@@ -3,7 +3,7 @@ description: Web-Traffic-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Webtraffic-Dashboard
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 6%
@@ -102,7 +102,7 @@ Tabelle, die die Gesamtbesuche und Unique Visitors nach Referrern anzeigt.
 
 Balkendiagramm mit Besuchen oder Unique Visitors, segmentiert nach Kanal/Subkanal/Kampagne.
 
-* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Subchannel und Campaign zu kategorisieren.
+* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Subchannel und Campaign zu kategorisieren.
 * Bewegen Sie den Mauszeiger über die einzelnen Balken, um die Besuche oder Unique Visitors anzuzeigen.
 
 Fragen zu den Grafikantworten:

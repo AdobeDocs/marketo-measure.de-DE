@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874779
-description: Benutzerdefiniertes Attributionsmodell und -einstellungen - [!DNL Marketo Measure] - Produktdokumentation
+description: Benutzerdefiniertes Attributionsmodell und -einstellungen - [!DNL Marketo Measure]
 title: Benutzerdefiniertes Attributionsmodell und Einrichtung
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '845'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Die [!DNL Marketo Measure] Mit dem benutzerdefinierten Attributionsmodell könne
 
    Anmelden bei [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Navigieren Sie zu [!UICONTROL Mein Konto] > [!UICONTROL Einstellungen] > und wählen Sie im Abschnitt CRM die Option **[!UICONTROL Staging-Zuordnung]**.
 
-   Hier müssen Sie auswählen, welche Leads/Kontakte und Opportunity-Phasen eingeschlossen werden sollen, indem Sie die **[!UICONTROL In Modell einschließen]** ankreuzen.
+   Wählen Sie als Nächstes aus, welche Leads/Kontakte und Opportunity-Phasen eingeschlossen werden sollen, indem Sie die **[!UICONTROL In Modell einschließen]** ankreuzen.
 
    >[!NOTE]
    >
@@ -37,13 +37,13 @@ Die [!DNL Marketo Measure] Mit dem benutzerdefinierten Attributionsmodell könne
 
    >[!NOTE]
    >
-   >_Alle_ Hier werden Leads/Kontakte und Opportunity-Phasen angezeigt, auch wenn die Bühne inaktiv ist oder nicht mehr in [!DNL Salesforce]. Wenn Sie diese Bühnen entfernen möchten, müssen Sie sie in [!DNL Salesforce].
+   >_Alle_ Hier werden Leads/Kontakte und Opportunity-Phasen angezeigt, auch wenn die Bühne inaktiv ist oder nicht mehr in [!DNL Salesforce]. Wenn Sie diese Schritte entfernen möchten, müssen Sie sie in [!DNL Salesforce].
 
    Wenn Sie Ihre Bühnen ausgewählt haben, klicken Sie auf das **[!UICONTROL Speichern und verarbeiten]** -Schaltfläche unten auf der Seite. Die Schritte werden jetzt im **[!UICONTROL Attributionseinstellungen]** und Sie können Attributionsprozentsätze zu jeder Phase zuweisen. Benutzerdefinierte Bühnen werden auch in der Marketing Performance Suite als Lead- oder Opportunity-Phase im Demand Waterfall angezeigt.
 
    Wenn es andere Phasen gibt, die Sie in das Modell einbeziehen möchten, die jedoch nicht im [!UICONTROL Lead-/Kontaktstatus] oder [!UICONTROL Opportunity Stage] können Sie eine eigene benutzerdefinierte Phase anhand von Feldern in Ihrem CRM-System definieren.
 
-   Im folgenden Beispiel wird eine benutzerdefinierte MQL-Phase mithilfe eines Datumsfelds definiert. In der Regel wird lediglich festgelegt, dass das Feld MQL-Datum, wenn es nicht leer ist, als MQL betrachtet werden und in das benutzerdefinierte Modell aufgenommen werden sollte. Beachten Sie, dass es auch wichtig ist, die benutzerdefinierten Bühnen nach deren Erstellung zu sortieren, damit sie dem Fortschritt Ihres Verkaufszyklus folgen.
+   Im folgenden Beispiel wird eine benutzerdefinierte MQL-Phase mithilfe eines Datumsfelds definiert. In der Regel wird lediglich festgelegt, dass das Feld MQL-Datum, wenn es nicht leer ist, als MQL betrachtet werden und in das benutzerdefinierte Modell aufgenommen werden sollte. Es ist auch wichtig, die benutzerdefinierten Phasen nach deren Erstellung zu sortieren, damit sie dem Fortschritt Ihres Verkaufszyklus folgen.
 
    ![](assets/2-1.png)
 
@@ -51,7 +51,7 @@ Die [!DNL Marketo Measure] Mit dem benutzerdefinierten Attributionsmodell könne
    >
    >Vergessen Sie nicht, die Verlaufsverfolgung für benutzerdefinierte Felder zu aktivieren.
 
-Wenn in Ihrem benutzerdefinierten Modell ein benutzerdefiniertes Feld verwendet wird, MUSS das Feldverlauf-Tracking im CRM aktiviert werden. Anweisungen zum Aktivieren des Verlaufs von Feldern finden Sie unter [Bitte klicken Sie hier](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
+Wenn in Ihrem benutzerdefinierten Modell ein benutzerdefiniertes Feld verwendet wird, MUSS das Feldverlauf-Tracking im CRM aktiviert werden. Anweisungen zur Aktivierung der Verfolgung von Feldversionen finden Sie unter [Benutzerdefinierte Modelleinrichtung: Feldverlauf-Tracking aktivieren](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
 
 1. Bestimmen Sie die Attributionsprozentsätze für das benutzerdefinierte Modell.
 
@@ -59,7 +59,7 @@ Wenn in Ihrem benutzerdefinierten Modell ein benutzerdefiniertes Feld verwendet 
 
    In der Spalte ganz rechts mit der Bezeichnung &quot;**[!UICONTROL Benutzerdefiniert]**,&quot;können Sie die Prozentgewichtung für jede Phase in Ihrem benutzerdefinierten Attributionsmodell festlegen. Geben Sie einfach die Werte für jede Phase unter der Spalte &quot;Benutzerdefiniert&quot;ein. Dann **[!UICONTROL Speichern und erneut verarbeiten]** nach Abschluss.
 
-   Links neben der Spalte &quot;Benutzerdefiniert&quot;befindet sich die **[!DNL Marketo Measure]Modell für maschinelles Lernen**. Das Modell für maschinelles Lernen berechnet die Zuordnungsgewichtung anhand der relativen Bedeutung für den Gewinn eines Deals, je nachdem, was in jeder benutzerdefinierten Phase passiert ist. Weitere Informationen zum Modell für maschinelles Lernen finden Sie unter [Bitte klicken Sie hier](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+   Links neben dem _Benutzerdefiniert_ Spalte ist **[!DNL Marketo Measure]Modell für maschinelles Lernen**. Das Modell für maschinelles Lernen berechnet die Zuordnungsgewichtung anhand der relativen Bedeutung für den Gewinn eines Deals, je nachdem, was in jeder benutzerdefinierten Phase passiert ist. Weitere Informationen zum Modell für maschinelles Lernen finden Sie unter [Häufig gestellte Fragen zum Modell für maschinelles Lernen](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 

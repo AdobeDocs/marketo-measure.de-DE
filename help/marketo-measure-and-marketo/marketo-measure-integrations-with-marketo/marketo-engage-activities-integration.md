@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] Aktivitätenintegration - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Engage] Aktivitätenintegration - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Aktivitätenintegration"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Im Rahmen der Gesamtübersicht [!DNL Marketo Measure] und [!DNL Marketo Engage] 
    * Ort
    * Land
    * Region
-   * Landing Page
+   * Landingpage
    * Referrer-Seite
    * Formularseite
    * Formulardatum
@@ -154,7 +154,7 @@ Dialogfeld &quot;Inhalt freigeben&quot;(400) Interagiertes Dokument (158) Dokume
 
 ## Kanalzuordnung {#channel-mapping}
 
-Für alle Regeln eines Aktivitätstyps mit einer Programm-ID wird der Marketo-Programmkanal vom Programm bestimmt. Wir verwenden den Programmkanal , um Ihre benutzerdefinierten Offline-Kanäle zuzuordnen. Daher müssen Sie sicherstellen, dass Ihre Kanäle richtig konfiguriert sind. [wie hier angegeben](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
+Für alle Regeln eines Aktivitätstyps mit einer Programm-ID wird der Marketo-Programmkanal vom Programm bestimmt. Wir verwenden den Programmkanal , um Ihre benutzerdefinierten Offline-Kanäle zuzuordnen. Daher müssen Sie sicherstellen, dass Ihre Kanäle ordnungsgemäß konfiguriert sind. [wie hier angegeben](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
 
 Und bei allen Regeln eines Aktivitätstyps ohne Programm-IDs bestand der erste Schritt darin, einen Kampagnennamen zu erstellen. Verwenden Sie diesen Kampagnennamen, um Ihre benutzerdefinierten Online-Kanäle einzurichten. [hier](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: a5648e73c470f61720741a5dd828e00fa532c4d5
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 82%
 
 ---
 # Artikel beisteuern
@@ -28,10 +28,10 @@ Kleinere Korrekturen oder Klarstellungen zur Dokumentation und zu Code-Beispiele
 
 ### Größere Änderungen oder neue Artikel von Community-Mitgliedern
 
-Wenn Sie als Mitglied der Adobe-Community einen neuen Artikel verfassen oder größere Änderungen vorschlagen möchten, verwenden Sie bitte die Registerkarte „Issues“ im Git-Repository, um ein Problem zu melden und einen Gedankenaustausch mit dem Dokumentations-Team zu starten. Sobald Sie sich auf einen Plan geeinigt haben, können Sie gemeinsam mit einem Mitarbeiter in den öffentlichen und privaten Repositorys den neuen Content erstellen.
+Wenn Sie Mitglied der Adobe-Community sind und einen neuen Artikel erstellen oder umfangreiche Änderungen einreichen möchten, verwenden Sie die Registerkarte Probleme im Git-Repository, um ein Problem zu melden und eine Konversation mit dem Dokumentationsteam zu beginnen. Sobald Sie sich auf einen Plan geeinigt haben, müssen Sie mit einem Mitarbeiter zusammenarbeiten, um diesen neuen Inhalt durch eine Kombination aus Arbeit in den öffentlichen und privaten Repositorys einzubringen.
 
 <!--
-If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
+If you submit a pull request with significant changes to documentation and code examples, you will see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
 ### Größere Änderungen von Adobe-Mitarbeitern

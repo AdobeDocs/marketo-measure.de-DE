@@ -3,9 +3,9 @@ description: Data Warehouse Access - Reader Account - Produktdokumentation
 title: Data Warehouse Access - Reader-Konto
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---

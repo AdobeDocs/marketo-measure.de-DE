@@ -1,8 +1,8 @@
 ---
-source-git-commit: ea1e867b7169bac473d8e9754cbb97a0fdcb57fd
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 98%
 
 ---
 # Mitwirken
@@ -14,7 +14,8 @@ Im Folgenden sind Leitlinien aufgeführt, die Mitwirkende an diesem Projekt befo
 ## Verhaltenskodex
 
 Dieses Projekt unterliegt dem [Verhaltenskodex](code-of-conduct.md) von Adobe. Durch Ihre Teilnahme wird von Ihnen erwartet, 
-diesen Verhaltenskodex einzuhalten. Bitte melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+diesen Verhaltenskodex einzuhalten. Melden Sie inakzeptables Verhalten an
+[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Sie haben eine Frage?
 
@@ -32,7 +33,7 @@ geprüft werden. Weitere Informationen zum Senden von Pull-Anfragen finden Sie i
 der [GitHub-Dokumentation zu Pull-Anfragen](https://help.github.com/de/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
 <!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
+Lastly, follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 

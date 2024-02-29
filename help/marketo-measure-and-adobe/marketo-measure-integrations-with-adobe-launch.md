@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] Integrationen mit Adobe Launch - [!DNL Marketo Measure] - Produktdokumentation'
+description: '[!DNL Marketo Measure] Integrationen mit Adobe Launch - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Integrationen mit Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 1b583dac72aadff5d7c2352a064e2ff842b91891
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '295'
 ht-degree: 2%
 
 ---
 
 # [!DNL Marketo Measure]-Integrationen mit Adobe Launch {#marketo-measure-integrations-with-adobe-launch}
 
-Die Adobe Launch-Erweiterung ist für bestehende [!DNL Marketo Measure] Benutzer, die bereits Adobe Launch auf ihrer Website nutzen. Die Erweiterung dient als Tag-Management-Lösung, mit der Sie Skripte basierend auf bestimmten Ereignissen und Bedingungen auf Ihren Seiten konfigurieren und dynamisch laden können.
+Die Adobe Launch-Erweiterung ist für bestehende [!DNL Marketo Measure] Benutzer, die bereits Adobe Launch auf ihrer Website verwenden. Die Erweiterung dient als Tag-Management-Lösung, mit der Sie Skripte basierend auf bestimmten Ereignissen und Bedingungen auf Ihren Seiten konfigurieren und dynamisch laden können.
 
 Wenn Sie Adobe Launch installiert und konfiguriert haben, wird die [!DNL Marketo Measure] -Erweiterung lädt das Skript bizible.js auf den Seiten, auf denen das Adobe Launch-Skript vorhanden ist. Dadurch können Marketingexperten bizible.js über die Adobe Launch-Konfiguration hinzufügen, anstatt die Webseite explizit zu ändern und das Skript-Tag bizible.js hinzuzufügen.
 
@@ -22,13 +22,13 @@ Wenn Sie Adobe Launch installiert und konfiguriert haben, wird die [!DNL Marketo
 >
 >Unter den folgenden Links erfahren Sie mehr über Adobe Launch und seine Erweiterungen:
 >
->* [[!DNL Marketo Measure] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target="_blank"}
->* [Adobe Launch-Übersicht](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
->* [Übersicht über die Adobe Launch-Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target="_blank"}
+>* [[!DNL Marketo Measure] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+>* [Adobe Launch-Übersicht](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
+>* [Übersicht über die Adobe Launch-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. Erstellen Sie eine Eigenschaft anhand der Schritte [in diesem Artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}.
+1. Erstellen Sie eine Eigenschaft anhand der Schritte [in diesem Artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
-1. Klicken Sie auf die soeben erstellte Eigenschaft.
+1. Klicken Sie auf die von Ihnen erstellte Eigenschaft.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-1.png)
 
@@ -50,7 +50,7 @@ Wenn Sie Adobe Launch installiert und konfiguriert haben, wird die [!DNL Marketo
 
    >[!NOTE]
    >
-   >Dieses Feld ist nicht die &quot;Konto-ID&quot;in der Tabelle Business_Prod.Business. Alle Web-Aktivitäten von der angegebenen URL (z. B. `adobe.com`) wird der [!DNL Marketo Measure] Mandanten.
+   >Dieses Feld ist nicht die &quot;Konto-ID&quot;in der Tabelle Business_Prod.Business. Alle Webaktivitäten über die angegebene URL (z. B. `adobe.com`) wird der [!DNL Marketo Measure] Mandanten.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

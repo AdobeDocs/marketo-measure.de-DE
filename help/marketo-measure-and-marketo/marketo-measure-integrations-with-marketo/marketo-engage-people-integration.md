@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage] Personenintegration - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Engage] Personenintegration - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Personenintegration"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 3%
+source-wordcount: '867'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Die Marketo-Personenintegration ermöglicht [!DNL Marketo Measure] , um mit dem 
 * Marketo-Produktionsinstanz
 * Produktion [!DNL Salesforce] oder [!DNL Microsoft Dynamics] instance
 * Entrichtete [!DNL Marketo Measure] Abonnement
-* SOLR aktiviert (bitte wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/Support/ct-p/Support) aktivieren).
+* SOLR aktiviert (Kontakt [Marketo-Support](https://nation.marketo.com/t5/Support/ct-p/Support) aktivieren).
 
 ## Funktionsweise {#how-it-works}
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874604
-description: Benutzerdefinierte Segmentierung - [!DNL Marketo Measure] - Produktdokumentation
+description: Benutzerdefinierte Segmentierung - [!DNL Marketo Measure]
 title: Benutzerdefinierte Segmentierung
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '741'
 ht-degree: 4%
 
 ---
@@ -61,7 +61,7 @@ Schritt 4: Hinzufügen von Filterregeln
 * Wiederholen Sie diesen Vorgang für die Segmentregeln &quot;Chancen&quot;.
 * Die Kategorie &quot;Sonstige&quot;ist ein Standardsegment, das alle nicht definierten Touchpoints erfasst. Sie können den Namen des Standardsegments ändern
 * Klicken Sie auf das Papierkorbsymbol, um eine ganze Kategorie oder eine einzelne Regel innerhalb einer Kategorie zu löschen. Alternativ können Sie auf das Stiftsymbol klicken, um die Kategorie oder Regel zu bearbeiten
-* Sie werden feststellen, dass Sie ein &quot;[!UICONTROL Speichern]&quot; und eine Schaltfläche &quot;Speichern und verarbeiten&quot;. Verwenden Sie die Schaltfläche Speichern , um Ihre Arbeit und Änderungen im Laufe der Zeit zu speichern. Verwenden Sie die Schaltfläche Speichern und verarbeiten NUR, wenn Sie Folgendes sichergestellt haben:
+* Beachten Sie, dass Sie eine &quot;[!UICONTROL Speichern]&quot; und eine Schaltfläche &quot;Speichern und verarbeiten&quot;. Verwenden Sie die Schaltfläche Speichern , um Ihre Arbeit und Änderungen im Laufe der Zeit zu speichern. Verwenden Sie die Schaltfläche Speichern und verarbeiten NUR, wenn Sie Folgendes sichergestellt haben:
 
    * Ihre Zuordnung ist korrekt
    * Sie haben alle Segmente hinzugefügt, die Sie innerhalb einer Kategorie verfolgen möchten

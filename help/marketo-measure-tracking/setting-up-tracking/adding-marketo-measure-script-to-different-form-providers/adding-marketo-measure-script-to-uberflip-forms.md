@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874749
-description: Hinzufügen [!DNL Marketo Measure] Skript für [!DNL Uberflip] FORMS - [!DNL Marketo Measure] - Produktdokumentation
-title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes für Forms [!DNL Uberflip]
+description: Hinzufügen [!DNL Marketo Measure] Skript für [!DNL Uberflip] FORMS - [!DNL Marketo Measure]
+title: Hinzufügen [!DNL Marketo Measure] Skript für [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 3%
+source-wordcount: '221'
+ht-degree: 0%
 
 ---
 
-# Hinzufügen eines[!DNL Marketo Measure]-Skriptes für Forms[!DNL Uberflip] {#adding-marketo-measure-script-to-uberflip-forms}
+# Hinzufügen [!DNL Marketo Measure] Skript für [!DNL Uberflip] Forms {#adding-marketo-measure-script-to-uberflip-forms}
 
 Wenn Sie derzeit [!DNL Uberflip] Um Ihre Inhalte zu verwalten, müssen Sie diese erforderlichen Schritte ausführen, um sicherzustellen, dass [!DNL Marketo Measure] verfolgt diese Formularübermittlungen. Ihr Erfolgsmanager unter [!DNL Uberflip] sollte Ihnen auch dabei helfen können.
 

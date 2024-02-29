@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874598
-description: Offline-Einrichtung des benutzerdefinierten Kanals - [!DNL Marketo Measure] - Produktdokumentation
+description: Offline-Einrichtung des benutzerdefinierten Kanals - [!DNL Marketo Measure]
 title: Offline-Einrichtung benutzerdefinierter Kanäle
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Die Tabelle enthält drei Spalten:
 
 [!DNL Marketo Measure] Die Offline-Kanal-Logik wird durch das Campaign-Objekt bestimmt, insbesondere durch die [!DNL Salesforce] Kampagnentyp. Jede Offline-Anstrengung muss über eine [!DNL Salesforce] Kampagnentyp, z. B. Dinner oder Händler, weil [!DNL Marketo Measure] verlässt sich auf dieses Feld, um zu verstehen, welchem Kanal und SubChannel er zugeordnet werden soll.
 
-Die SFDC-Kampagnentypen werden auf der Registerkarte Offline-Kanal angezeigt, die unter [!DNL Salesforce] Kampagnentyp. Bitte beachten Sie, dass [!DNL Marketo Measure] kann nur SFDC-Kampagnentypen für Kampagnen importieren, denen Käuferkontaktpunkte zugeordnet sind.
+Die SFDC-Kampagnentypen werden auf der Registerkarte Offline-Kanal angezeigt, die unter [!DNL Salesforce] Kampagnentyp. Beachten Sie Folgendes: [!DNL Marketo Measure] kann nur SFDC-Kampagnentypen für Kampagnen importieren, denen Käuferkontaktpunkte zugeordnet sind.
 
 ![](assets/2-2.png)
 
@@ -77,7 +77,7 @@ Nachdem Sie die Tabelle mit Ihren benutzerdefinierten Regeln bearbeitet und aktu
 
 >[!TIP]
 >
->Möchten Sie _when_ a [!DNL Salesforce] Kampagnentyp wird nach [!DNL Marketo Measure] Kanalzuordnung? Gehen Sie einfach zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Felder]** > **[!UICONTROL Typ]**. Sie können dann sehen, welche Werte in der Auswahlliste enthalten sind und welche inaktiv sind. Inaktive Typen werden nicht als auswählbarer Typ in unserem &quot;[!UICONTROL Offline-Kanäle]&quot;. Bitte beachten Sie, dass dieser Vorgang einige Minuten bis zu 48 Stunden dauern kann.
+>Möchten Sie _when_ a [!DNL Salesforce] Kampagnentyp wird nach [!DNL Marketo Measure] Kanalzuordnung? Gehen Sie einfach zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Felder]** > **[!UICONTROL Typ]**. Sie können dann sehen, welche Werte in der Auswahlliste enthalten sind und welche inaktiv sind. Inaktive Typen werden nicht als auswählbarer Typ in unserem &quot;[!UICONTROL Offline-Kanäle]&quot;. Beachten Sie, dass dieser Vorgang einige Minuten bis zu 48 Stunden dauern kann.
 
 Klicks **[!UICONTROL Speichern]** wenn Sie fertig sind und [!DNL Marketo Measure] lädt die Änderungen hoch und verarbeitet die Daten erneut.
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874759
-description: Hinzufügen [!DNL Marketo Measure] nach [!DNL Hubspot] - [!DNL Marketo Measure] - Produktdokumentation
+description: Hinzufügen [!DNL Marketo Measure] nach [!DNL Hubspot] - [!DNL Marketo Measure]
 title: Hinzufügen [!DNL Marketo Measure] nach [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,6 @@ Sobald Sie sich bei Ihrem [!DNL Hubspot] -Konto verwenden, führen Sie die folge
 
 >[!TIP]
 >
->In diesem Bereich gibt es möglicherweise bereits andere Trackingcode-Snippets, z. B. einen Google Analytics-Code. Achten Sie darauf, sie durch ein Semikolon zu trennen `;` und ein einzelnes Leerzeichen wie folgt:
+>In diesem Bereich gibt es möglicherweise bereits andere Trackingcode-Snippets, z. B. Google Analytics-Code. Achten Sie darauf, sie durch ein Semikolon zu trennen `;` und ein einzelnes Leerzeichen wie folgt:
 >
 >`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`

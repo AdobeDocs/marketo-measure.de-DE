@@ -1,12 +1,12 @@
 ---
-description: „[!DNL Marketo Measure] Ultimate – Übersicht – Produktdokumentation zu  [!DNL Marketo Measure] “
+description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure]'
 title: „[!DNL Marketo Measure] Ultimate – Übersicht“
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ Die Instanz von [!DNL Marketo Measure Ultimate] muss einer AEP-Sandbox zugeordne
 >
 >Eine Produktionsinstanz von [!DNL Marketo Measure Ultimate] muss einer AEP-Produktions-Sandbox zugeordnet werden, und eine Entwicklerinstanz von [!DNL Marketo Measure Ultimate] muss einer AEP-Entwickler-Sandbox zugeordnet werden.
 
-Sobald die Auswahl der Sandbox-Zuordnung gespeichert wurde, können Sie sie derzeit nicht mehr in der Anwendung ändern. Um sie zu ändern, wenden Sie sich bitte an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Sobald die Auswahl der Sandbox-Zuordnung gespeichert wurde, können Sie sie derzeit nicht mehr in der Anwendung ändern. Um sie zu ändern, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Datenquelle können in nur einen Datensatz eingehen. Jeder Datensatz kann in nur einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss in der Laufzeit.
 

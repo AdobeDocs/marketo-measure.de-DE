@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874720
-description: Auswirkungen der Angebotsmanagement-Tools [!DNL Marketo Measure] - [!DNL Marketo Measure] - Produktdokumentation
+description: Auswirkungen der Angebotsmanagement-Tools [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Auswirkungen der Bid-Management-Tools auf [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 3%
+source-wordcount: '265'
+ht-degree: 1%
 
 ---
 
-# Auswirkungen der Bid-Management-Tools auf [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
+# Auswirkungen der Angebotsmanagement-Tools [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 
 Erfahren Sie, wie sich Angebotsverwaltungsplattformen auf die [!DNL Marketo Measure] Möglichkeit zur Verfolgung von AdWords und BingAds sowie zur Einrichtung von Tracking-Vorlagen mit unseren Parametern, um sicherzustellen, dass alles korrekt verfolgt wird.
 

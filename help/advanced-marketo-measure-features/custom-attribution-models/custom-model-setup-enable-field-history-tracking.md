@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874777
-description: Benutzerdefinierte Modelleinrichtung - Feldverlauf-Tracking aktivieren - [!DNL Marketo Measure] - Produktdokumentation
+description: Benutzerdefinierte Modelleinrichtung - Feldverlauf-Tracking aktivieren - [!DNL Marketo Measure]
 title: Benutzerdefinierte Modelleinrichtung - Feldverlauf-Tracking aktivieren
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Wenn Sie sich dafür entscheiden, ein benutzerdefiniertes Feld als Phase in Ihr 
 
 Wenn nur [!UICONTROL Lead-Status] oder Opportunity Stages im benutzerdefinierten Modell verwendet werden, ist es nicht erforderlich, die Verfolgung des Feldverlaufs zu aktivieren, da sie automatisch als Phasenübergang verfolgt wird.
 
-Befolgen Sie die unten stehenden Anweisungen, um die Verfolgung des Feldverlaufs zu aktivieren.
+Gehen Sie wie folgt vor, um die Verfolgung des Feldverlaufs zu aktivieren.
 
 ## Feldverlauf-Tracking aktivieren {#enable-field-history-tracking}
 

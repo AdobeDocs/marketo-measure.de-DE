@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874678
-description: Grundlagen [!DNL Marketo Measure] AdWords-Tagging - [!DNL Marketo Measure] - Produktdokumentation
+description: Grundlagen [!DNL Marketo Measure] AdWords-Tagging - [!DNL Marketo Measure]
 title: Grundlagen [!DNL Marketo Measure] AdWords-Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 2%
+source-wordcount: '591'
+ht-degree: 1%
 
 ---
 
-# Grundlagen[!DNL Marketo Measure]AdWords-Tagging {#understanding-marketo-measure-adwords-tagging}
+# Grundlagen [!DNL Marketo Measure] AdWords-Tagging {#understanding-marketo-measure-adwords-tagging}
 
 Damit Ihre Anzeigen auf einer sehr detaillierten Ebene verfolgt werden können, müssen die Anzeigenziel-URLs eindeutig sein. Um dies zu erreichen, [!DNL Marketo Measure] Beim automatischen Tagging werden den Anzeigenziel-URLs Ihrer [!DNL AdWords] Anzeigen. Sehen wir uns ein Beispiel unten an.
 
@@ -67,7 +67,7 @@ Es gibt zwei Tracking-Vorlagen [!DNL Marketo Measure] empfiehlt die Verwendung v
 
    ![](assets/2-1.png)
 
-1. Klicks **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Einrichten einer Tracking-Vorlage auf Kampagnenebene {#setting-up-a-tracking-template-at-the-campaign-level}
 

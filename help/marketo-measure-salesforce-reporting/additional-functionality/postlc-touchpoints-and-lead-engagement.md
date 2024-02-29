@@ -4,9 +4,9 @@ description: PostLC-Touchpoints und Lead-Interaktion - Marketo Measure - Produkt
 title: PostLC-Touchpoints und Lead-Interaktion
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---

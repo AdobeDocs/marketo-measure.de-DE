@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874602
-description: Marketingkanal-Kosten - [!DNL Marketo Measure] - Produktdokumentation
+description: Marketingkanal-Kosten - [!DNL Marketo Measure]
 title: Marketingkanal-Kosten
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 2%
+source-wordcount: '1305'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Kosten, die gemeldet und aus Direktwerbeverbindungen importiert werden, werden a
 
 **Ausgaben nach Kampagne**
 
-Auf der detailliertesten Ebene können Kunden Ausgaben nach einzelnen Kampagnen eingeben, die innerhalb ihres jeweiligen Kanals gruppiert sind. Für CRM-Kampagnen: [!DNL Marketo Measure] hat die Kampagnen-ID in eine separate Spalte eingefügt, die Ihnen dabei hilft, Offline-Kampagnenausgaben aus Ihrem CRM-System in diese Tabelle zu übertragen. Durch das Hinzufügen von Ausgaben auf dieser Ebene können Kunden den Kampagnen-ROI anzeigen und die Leistung von Campaign optimieren.
+Auf der detailliertesten Ebene können Kunden Ausgaben nach einzelnen Kampagnen eingeben, die innerhalb ihres jeweiligen Kanals gruppiert sind. Für CRM-Kampagnen: [!DNL Marketo Measure] hat die Kampagnen-ID in eine separate Spalte gezogen, die Ihnen dabei hilft, Offline-Kampagnenausgaben aus Ihrem CRM-System in diese Tabelle zu übertragen. Durch das Hinzufügen von Ausgaben auf dieser Ebene können Kunden den Kampagnen-ROI anzeigen und die Leistung von Campaign optimieren.
 
 Die Summe aller Kampagnen muss nicht zu den Werten zusammenfassen, die im Subkanal oder Kanal eingegeben wurden. Sie darf jedoch nicht größer sein als die Werte, die im Subkanal oder Kanal eingegeben wurden. Wenn die Summe kleiner ist als der im Unterkanal oder Kanal eingegebene Wert, [!DNL Marketo Measure] fügt automatisch eine Zeile für &quot;Sonstige&quot;hinzu, um die Differenz abzudecken und Lücken zu füllen.
 
@@ -61,7 +61,7 @@ Die heruntergeladene CSV-Datei ruft die Ergebnisse vom aktuellen Bildschirm ab, 
 
 Unabhängig davon, welche Ansicht im Browser angezeigt wird, können Sie eine beliebige CSV-Datei hochladen, wenn es sich um eine gefilterte Ansicht oder eine Standardansicht mit allen Daten und Kanälen handelt.
 
-Der häufigste Fehler ist das Format der Datumsspalten, das auftritt, wenn das Datumsformat geändert wird. Dies kann absichtlich beim Wechsel zwischen Excel und/oder Google Tabellen auftreten. Bitte beachten Sie, dass das Datum MM-YY sein sollte, also Sep-12 und nicht Sept-12, oder Mai-12 und nicht 05-12.
+Der häufigste Fehler ist das Format der Datumsspalten, das auftritt, wenn das Datumsformat geändert wird. Dies kann absichtlich beim Wechsel zwischen Excel und/oder Google Tabellen auftreten. Denken Sie daran, dass das Datum MM-YY sein sollte, also Sep-12 und nicht Sept-12, oder Mai-12 und nicht 05-12.
 
 ## Vorbereitung {#before-you-begin}
 
@@ -129,4 +129,4 @@ Mit der Fähigkeit, den Datumsbereich zu ändern, den Kanal zu filtern oder nach
 
 **Warum kann ich keine Datei hochladen?**
 
-Wir haben verschiedene Berechtigungssätze innerhalb der [!DNL Marketo Measure] App. Um eine Datei hochladen zu können, müssen Sie &quot;AccountAdmin&quot;sein. Um dies zu umgehen, bitten Sie Ihren AccountAdmin um Zugriff oder bitten Sie Ihren AccountAdmin, die Datei in Ihrem Namen hochzuladen. Eine Liste der Benutzer und ihrer Rollen finden Sie unter **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontobenutzer anzeigen/hinzufügen]**.
+Wir haben verschiedene Berechtigungssätze innerhalb der [!DNL Marketo Measure] App. Um eine Datei hochladen zu können, müssen Sie &quot;AccountAdmin&quot;sein. Um dies zu umgehen, bitten Sie Ihren AccountAdmin um Zugriff oder lassen Sie Ihre AccountAdmin die Datei in Ihren Namen hochladen. Eine Liste der Benutzer und ihrer Rollen finden Sie unter **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontobenutzer anzeigen/hinzufügen]**.

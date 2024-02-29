@@ -1,11 +1,11 @@
 ---
-description: „[!DNL Marketo Measure] Implementierungshandbuch für Ultimate –  [!DNL Marketo Measure]  – Produktdokumentation“
+description: '[!DNL Marketo Measure] Ultimate-Implementierungshandbuch - [!DNL Marketo Measure]'
 title: „[!DNL Marketo Measure] Implementierungshandbuch für Ultimate“
 feature: Integration, Tracking, Attribution
-source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 98%
+source-wordcount: '1013'
+ht-degree: 96%
 
 ---
 
@@ -90,7 +90,7 @@ Für diejenigen mit einer _**CDP-Berechtigung**_: Erstellen Sie Schemata, indem 
 
    >[!CAUTION]
    >
-   >* Sie können einen Datenfluss zwar bearbeiten, die Daten werden jedoch nicht wieder aufgefüllt, wenn eine Zuordnung geändert wird.
+   >* Sie können einen Datenfluss bearbeiten, aber die Daten werden nicht aufgestockt, wenn eine Zuordnung geändert wird.
    >* Wenn ein erforderliches Feld NULL ist, wird der gesamte Fluss abgelehnt.
 
    >[!NOTE]

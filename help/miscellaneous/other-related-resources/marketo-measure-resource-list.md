@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356962
-description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure] - Produktdokumentation"
-title: "[!DNL Marketo Measure] Ressourcenliste"
+description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] Resource List"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 10%
+source-wordcount: '307'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ Hier finden Sie verschiedene Links zu relevanten Artikeln/Videos, die Ihnen bei 
 **Konfiguration**
 
 * [Einrichten von Marketing-Kanälen, Best Practice](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
-* [Einrichtung des Online-Kanals](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+* [Online-Kanal-Einrichtung](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Offline-Kanal-Einrichtung](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [Was sind UTM-Parameter?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [Best Practices für UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
@@ -83,7 +83,7 @@ In diesem Kurs werden verschiedene Möglichkeiten zur Anpassung beschrieben [!DN
 
 Behandelte Themen:
 
-* Einrichtung des Online-Kanals
+* Online-Kanal-Einrichtung
 * Erstellen und Bearbeiten von Online-Kanalregeln
 * Zuordnung [!DNL Salesforce] Kampagnen für Kanäle
 * Felder für Kampagne und Kampagnenmitglieder

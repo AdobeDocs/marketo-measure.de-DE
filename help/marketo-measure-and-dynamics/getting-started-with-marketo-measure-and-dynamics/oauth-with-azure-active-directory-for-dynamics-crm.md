@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37357059
-description: OAuth mit [!DNL Azure Active Directory] für Dynamics CRM - [!DNL Marketo Measure] - Produktdokumentation
+description: OAuth mit [!DNL Azure Active Directory] für Dynamics CRM - [!DNL Marketo Measure]
 title: OAuth mit [!DNL Azure Active Directory] für Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Diese Einrichtung ist für neue [!DNL Marketo Measure] Kunden, die Dynamics CRM 
 1. Befolgen Sie die Anweisungen und erstellen Sie eine neue Anwendung. Es spielt keine Rolle, ob es sich um eine Web-Anwendung oder eine öffentliche Client-Anwendung (mobile und Desktop) handelt. Wenn Sie jedoch spezifische Beispiele für Web-Anwendungen oder öffentliche Client-Anwendungen wünschen, besuchen Sie unsere [quickstart](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-overview).\
    a. Name ist der App-Name und beschreibt Ihre Anwendung für Endbenutzer.\
    b. Wählen Sie unter &quot;Unterstützte Kontotypen&quot;Konten in einem beliebigen Organisationsverzeichnis und persönlichen Microsoft-Konten aus.\
-   c. Geben Sie den Umleitungs-URI an. Bei Webanwendungen ist dies die Basis-URL Ihrer App, an der sich Benutzer anmelden können. Beispiel, `http://localhost:12345`. Bei öffentlichen Clients (Mobilgeräte und Desktop) verwendet Azure AD sie, um Token-Antworten zurückzugeben. Geben Sie einen anwendungsspezifischen Wert ein. Beispiel, `http://MyFirstAADApp`.
+   c. Geben Sie den Umleitungs-URI an. Bei Webanwendungen ist dies die Basis-URL Ihrer App, an der sich Benutzer anmelden können. Beispiel: `http://localhost:12345`. Bei öffentlichen Clients (Mobilgeräte und Desktop) verwendet Azure AD sie, um Token-Antworten zurückzugeben. Geben Sie einen anwendungsspezifischen Wert ein. Beispiel: `http://MyFirstAADApp`.
 
 1. Nachdem Sie die Registrierung abgeschlossen haben, weist Azure AD Ihrer Anwendung eine eindeutige Client-Kennung (die Anwendungs-ID) zu. Sie benötigen diesen Wert im nächsten Abschnitt. Kopieren Sie ihn daher von der Anwendungsseite.
 
@@ -126,7 +126,7 @@ c. Der Anwendungs-ID-URI ist die URL der Ziel-Web-API (gesicherte Ressource). Um
 
 1. Klicken Sie auf das Schlüsselsymbol im Abschnitt CRM neben der Dynamics-Verbindung.
 
-1. Nachdem der Schlüssel angeklickt wurde, wird ein Popup-Fenster angezeigt, in dem Sie aufgefordert werden, die Client-ID, das Client-Geheimnis und den Anwendungs-ID-URI einzugeben, die dem Anmeldungs-Fluss ähneln.
+1. Nachdem der Schlüssel angeklickt wurde, wird ein Popup-Fenster angezeigt, in dem Sie aufgefordert werden, die Client-ID, das Client-Geheimnis und den Anwendungs-ID-URI einzugeben, die dem Anmeldungsfluss ähnelt.
 
    ![](assets/re-authenticating-3.png)
 

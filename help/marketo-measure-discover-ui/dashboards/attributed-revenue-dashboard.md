@@ -3,7 +3,7 @@ description: Dashboard "Zugewiesener Umsatz"- [!DNL Marketo Measure] - Produkt
 title: Dashboard „Zugewiesener Umsatz“
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Das Dashboard &quot;Zugewiesener Umsatz&quot;bietet eine fokussierte Sicht auf d
 
 Gestapeltes Balkendiagramm mit dem nach Kanal segmentierten Gesamtumsatz für jeden Monat/Quartal/Jahr.
 
-* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
+* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
 * Bewegen Sie den Mauszeiger über ein Balkensegment oder den Abstand zwischen Balken, um detaillierte Informationen anzuzeigen.
 
 **Fragen zu den Grafikantworten:**

@@ -2,7 +2,7 @@
 description: Interaktions-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Interaktions-Dashboard
 feature: Reporting
-source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Fragen zu den Antworten des Dashboards:
 
 Das Balkendiagramm der Zeitreihen zeigt die Anzahl der Touchpoints, Touchpoints für Personen und Touchpoints pro Person für jeden Monat, jedes Quartal und jedes Jahr.
 
-* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
+* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
 * Bewegen Sie den Mauszeiger über eine Leiste oder Zeile, um detaillierte Informationen anzuzeigen.
 
 Fragen zu den Grafikantworten:
@@ -50,7 +50,7 @@ Fragen zu den Grafikantworten:
 
 Balkendiagramm mit Touchpoints oder Touch-Personen, segmentiert nach Kanal/Subkanal/Kampagne.
 
-* Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Subchannel und Campaign zu kategorisieren.
+* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Subchannel und Campaign zu kategorisieren.
 * Bewegen Sie den Mauszeiger über die einzelnen Balken, um die Touchpoints oder Personen anzuzeigen, die berührt wurden.
 
 Fragen zu den Grafikantworten:

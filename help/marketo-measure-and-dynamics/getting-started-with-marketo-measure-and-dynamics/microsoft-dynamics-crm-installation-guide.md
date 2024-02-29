@@ -4,10 +4,10 @@ description: "[!DNL Microsoft Dynamics] CRM-Installationsanleitung - Marketo Mea
 title: "[!DNL Microsoft Dynamics] CRM-Installationsanleitung"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 14%
+source-wordcount: '975'
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in unserer Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber trotzdem &quot;Bizible&quot;in Ihrem CRM. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
 ## Unterstützte Versionen {#supported-versions}
 
@@ -94,11 +94,11 @@ Informationen zu Dynamics-Standardentitäten finden Sie im Abschnitt [!DNL Marke
 
 **Umsatz**
 
-[!DNL Marketo Measure] verweist standardmäßig auf das Standardfeld &quot;Tatsächlicher Umsatz&quot;. Wenn Sie dies nicht verwenden, erläutern Sie bitte, wie Sie Ihren Lösungstechniker oder Success Manager über den Umsatz informieren, da ein benutzerdefinierter Workflow erforderlich ist.
+[!DNL Marketo Measure] verweist standardmäßig auf das Standardfeld &quot;Tatsächlicher Umsatz&quot;. Wenn Sie diese Option nicht verwenden, erläutern Sie, wie Sie Ihren Lösungstechniker oder Erfolgsmanager über den Umsatz in Berichten informieren, da ein benutzerdefinierter Workflow erforderlich ist.
 
 **Datum schließen**
 
-[!DNL Marketo Measure] verweist standardmäßig auf das Feld &quot;Datum der tatsächlichen Schließung&quot;. Wenn Sie dies nicht verwenden oder auch das Feld Geschätztes Schließdatum verwenden, erläutern Sie Ihren Prozess bitte Ihrem Solutions Engineer oder Success Manager. Möglicherweise müssen beide Felder in einem benutzerdefinierten Workflow berücksichtigt werden.
+[!DNL Marketo Measure] verweist standardmäßig auf das Feld &quot;Datum der tatsächlichen Schließung&quot;. Wenn Sie dies nicht verwenden oder auch das Feld Geschätztes Schließdatum verwenden, erläutern Sie Ihren Prozess Ihrem Lösungstechniker oder Erfolgsmanager. Möglicherweise müssen beide Felder in einem benutzerdefinierten Workflow berücksichtigt werden.
 
 ## Konfigurieren von Verbindungen und Datenanbietern {#configuring-your-connections-and-data-providers}
 
@@ -170,7 +170,7 @@ Zur [!DNL Marketo Measure] zur Verfolgung Ihrer Web-Aktivitäten gibt es mehrere
    >
    >Standardmäßig exportiert [!DNL Marketo Measure] jedes Mal 200 Einträge pro API-Credit, wenn ein Vorgang Daten an Ihr CRM sendet. Den meisten Kunden bietet dies das optimale Gleichgewicht zwischen den von [!DNL Marketo Measure] verbrauchten API-Credits und den Anforderungen der CPU-Ressourcen im CRM-System. Bei Kundinnen und Kunden mit komplexen CRM-Konfigurationen, wie Workflows und Triggern, kann eine kleinere Batch-Größe die CRM-Leistung möglicherweise jedoch verbessern. Dazu können Kundinnen und Kunden mit [!DNL Marketo Measure] die Batch-Größe für den CRM-Export konfigurieren. Diese Einstellung ist auf der Seite Einstellungen > CRM > Allgemein in [!DNL Marketo Measure] Webanwendung und Kunden können zwischen Batch-Größen von 200 (Standard), 100, 50 oder 25 wählen.
    >
-   >Beachten Sie bei der Änderung dieser Einstellung, dass kleinere Batch-Größen mehr API-Credits aus Ihrem CRM-System verbrauchen. Es wird empfohlen, die Batch-Größe nur zu reduzieren, wenn in Ihrem CRM-System CPU-Timeouts oder eine hohe CPU-Last auftreten.
+   >Beachten Sie bei der Änderung dieser Einstellung, dass kleinere Batch-Größen mehr API-Gutschriften aus Ihrem CRM-System verbrauchen. Es wird empfohlen, die Batch-Größe nur zu reduzieren, wenn in Ihrem CRM-System CPU-Timeouts oder eine hohe CPU-Last auftreten.
 
    >[!NOTE]
    >

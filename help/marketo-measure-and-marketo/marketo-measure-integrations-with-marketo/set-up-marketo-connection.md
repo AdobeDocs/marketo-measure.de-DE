@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762762
-description: Einrichten der Marketo-Verbindung - [!DNL Marketo Measure] - Produktdokumentation
+description: Einrichten der Marketo-Verbindung - [!DNL Marketo Measure]
 title: Einrichten der Marketo-Verbindung
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '193'
+ht-degree: 1%
 
 ---
 
@@ -35,11 +35,11 @@ So richten Sie Ihre Verbindung zu Marketo ein.
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. Melden Sie sich in einer neuen Registerkarte bei Ihrem Marketo Engage-Konto an. Navigieren Sie zu **Admin** > **Web-Services**. Scrollen Sie nach unten zur REST-API. Markieren und speichern Sie den Endpunkt und die ID-Dienst-URL. Du wirst sie ein wenig brauchen.
+1. Melden Sie sich in einer neuen Registerkarte bei Ihrem Marketo Engage-Konto an. Navigieren Sie zu **Admin** > **Web-Services**. Scrollen Sie nach unten zur REST-API. Markieren und speichern Sie den Endpunkt und die ID-Dienst-URL. Sie werden sie ein wenig brauchen.
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. Wählen Sie im Marketo Engage Noch aus. **LaunchPoint** im Baum auf der linken Seite. Suchen Sie den benutzerdefinierten Dienst, den Sie mit Marketo Measure verbinden möchten, und klicken Sie auf **Details anzeigen**.
+1. Wählen Sie noch im Marketo Engage aus. **LaunchPoint** im Baum auf der linken Seite. Suchen Sie den benutzerdefinierten Dienst, den Sie mit Marketo Measure verbinden möchten, und klicken Sie auf **Details anzeigen**.
 
    ![](assets/set-up-marketo-connection-6.png)
 

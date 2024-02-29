@@ -4,10 +4,10 @@ description: Marketo Measure Framework - Marketo Measure - Produktdokumentation
 title: Marketo Measure-Framework
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Das Marketo Measure-JavaScript verfolgt alle Online-Marketing-Interaktionen, auc
 
 >[!NOTE]
 >
->Anweisungen zum Hinzufügen des Marketo Measure-JS finden Sie [hier](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
+>Anweisungen zum Hinzufügen des Marketo Measure-JS finden Sie unter [Klicken Sie hier](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
 Das JS von Marketo Measure erfasst Daten von Webbesuchen (einschließlich anonymer Webbesuche), allgemeiner Traffic-/Seitennavigation, Inhaltsdownloads und Formularübermittlungen. Diese Daten werden in Ihr CRM-System übertragen und jede Marketing-Interaktion wird als Touchpoint angezeigt.
 

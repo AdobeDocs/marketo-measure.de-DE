@@ -4,9 +4,9 @@ description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: f77c4471887c18b177dedab5b4c41f3a64010539
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '21115'
+source-wordcount: '21110'
 ht-degree: 98%
 
 ---
@@ -26,7 +26,7 @@ Mit Data Warehouse können Sie beliebig viel verfolgen, Berichte zu Ihren Attrib
 
 ## Diagramme zur Entitätsbeziehung {#entity-relationship-diagrams}
 
-Die _Data Warehouse-Datenmodell_-ERD zeigt an, wie Daten im Data Warehouse fließen und miteinander verknüpft werden sollen. Dieses Diagramm enthält nicht alle im Data Warehouse verfügbaren Tabellen, da einige davon Zuordnungstabellen, Ansichten anderer bereits vorhandener Tabellen oder veraltete Tabellen darstellen, deren Verwendung wir nicht mehr empfehlen. Die Tabellen und Spalten im Data Warehouse werden im Folgenden detailliert beschrieben. Viele dieser Tabellen enthalten denormalisierte Felder. Dieses Diagramm ist jedoch das empfohlene Datenmodell, das stattdessen Daten aus Dimensionstabellen nutzt.
+Die _Data Warehouse-Datenmodell_-ERD zeigt an, wie Daten im Data Warehouse fließen und miteinander verknüpft werden sollen. Dieses Diagramm enthält nicht alle im Data Warehouse verfügbaren Tabellen, da einige davon Zuordnungstabellen, Ansichten anderer bereits vorhandener Tabellen oder veraltete Tabellen darstellen, deren Verwendung wir nicht mehr empfehlen. Siehe die detaillierten Beschreibungen der Tabellen und Spalten im Data Warehouse unten. Viele dieser Tabellen enthalten denormalisierte Felder. Dieses Diagramm ist jedoch das empfohlene Datenmodell, das stattdessen Daten aus Dimensionstabellen nutzt.
 
 Die zusätzliche _Ads Dimensional Data Model_-ERD zeigt, wie Tabellen für Anzeigen-spezifische Dimensionen am besten mit den Tabellen im Hauptdatenmodell verknüpft werden können. Obwohl Anzeigendimensionen auch in anderen Tabellen denormalisiert sind, stellt dies das empfohlene Modell für die Zusammenführung dieser Dimensionen dar.
 
@@ -3632,7 +3632,7 @@ Aus dem Quellsystem importierte Kontakte.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Diese Funktion ist veraltet. Bitte verwenden Sie diese Spalte nicht.</p>
+        <p>Diese Funktion ist veraltet. Verwenden Sie diese Spalte nicht.</p>
       </td>
       <td>
         <p>Nicht zutreffend</p>
@@ -8245,7 +8245,7 @@ Aus dem Quellsystem importierte Leads.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Diese Funktion ist veraltet. Bitte verwenden Sie diese Spalte nicht.</p>
+        <p>Diese Funktion ist veraltet. Verwenden Sie diese Spalte nicht.</p>
       </td>
       <td>
         <p>Nicht zutreffend</p>
@@ -8785,7 +8785,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Diese Funktion ist veraltet. Bitte verwenden Sie diese Spalte nicht.</p>
+        <p>Diese Funktion ist veraltet. Verwenden Sie diese Spalte nicht.</p>
       </td>
       <td>
         <p>Nicht zutreffend</p>

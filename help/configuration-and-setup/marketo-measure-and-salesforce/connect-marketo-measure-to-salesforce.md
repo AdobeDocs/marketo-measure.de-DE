@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874580
-description: Verbinden von Marketo Measure mit Salesforce - [!DNL Marketo Measure] - Produktdokumentation
+description: Verbinden von Marketo Measure mit Salesforce - [!DNL Marketo Measure]
 title: Verbinden von Marketo Measure mit Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Dieser Artikel bietet einen Überblick darüber, wie Sie Ihre [!DNL Salesforce] 
 
    ![](assets/connect-marketo-measure-to-salesforce-2.png)
 
-1. Es wird ein Popup-Fenster mit der Aufforderung angezeigt, die CRM-Verbindung auszuwählen. Klicken Sie auf **[!UICONTROL Verbinden]** Schaltfläche neben [!DNL Salesforce] Logo.
+1. Es wird ein Popup-Fenster angezeigt, in dem Sie aufgefordert werden, die CRM-Verbindung auszuwählen. Klicks **[!UICONTROL Verbinden]** neben dem [!DNL Salesforce] Logo.
 
    ![](assets/connect-marketo-measure-to-salesforce-3.png)
 
-1. Daraufhin wird ein abschließendes Popup-Fenster angezeigt, in dem Sie nach Ihrer [!DNL Salesforce] Anmeldeinformationen, Sandbox oder Produktion. Geben Sie Ihre Informationen ein und klicken Sie auf **[!UICONTROL Autorisieren]** , um das Konto mit [!DNL Marketo Measure].
+1. Es wird ein abschließendes Popup-Fenster angezeigt, in dem Sie nach Ihrer [!DNL Salesforce] Anmeldeinformationen, Sandbox oder Produktion. Geben Sie Ihre Informationen ein und klicken Sie auf **[!UICONTROL Autorisieren]** , um das Konto mit [!DNL Marketo Measure].
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Dieser Artikel bietet einen Überblick darüber, wie Sie Ihre [!DNL Salesforce] 
 
 ## Nutzung von API-Anmeldeinformationen {#api-credits-usage}
 
-Marketo Measure verwendet eine CRM-Integrationsaufgabe, um über einen integrierten Benutzer mit der Salesforce eines Kunden zu kommunizieren. Alle Datenaustauschvorgänge über diesen Benutzer nutzen Salesforce API-Gutschriften. Sie haben die Möglichkeit, einem Integrationsbenutzer ein Kreditkontingent zuzuweisen, das zur Regulierung übermäßiger API-Aufrufe dient. Dieses Kontingent bzw. diese Begrenzung wird alle 24 Stunden zurückgesetzt.
+Marketo Measure verwendet eine CRM-Integrationsaufgabe, um über einen integrierten Benutzer mit der Salesforce eines Kunden zu kommunizieren. Alle Datenaustauschvorgänge über diesen Benutzer verwenden Salesforce-API-Gutschriften. Sie haben die Möglichkeit, einem Integrationsbenutzer ein Kreditkontingent zuzuweisen, das zur Regulierung übermäßiger API-Aufrufe dient. Dieses Kontingent bzw. diese Begrenzung wird alle 24 Stunden zurückgesetzt.
 
 Der Zugriff auf diese Beschränkung erfolgt in Marketo Measure über: **Mein Konto** > **Einstellungen** > **CRM** > **Allgemein** > **Tägliche CRM-API-Beschränkung** und kann sie für Ihre Mandanten konfigurieren.
 
@@ -55,7 +55,7 @@ Der Zugriff auf diese Beschränkung erfolgt in Marketo Measure über: **Mein Kon
 
 1. Navigieren Sie zu **Mein Konto** > **Einstellungen**.
 
-1. Klicken Sie unter CRM auf **Allgemein**. Du wirst die **Tägliche CRM-API-Beschränkung** -Option.
+1. Klicken Sie unter CRM auf **Allgemein**. Sie sehen die **Tägliche CRM-API-Beschränkung** -Option.
 
 1. Klicken Sie auf das Sperrsymbol, um es zu bearbeiten.
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874558
-description: Bomerang-Phasen und Touchpoints - [!DNL Marketo Measure] - Produktdokumentation
+description: Bomerang-Phasen und Touchpoints - [!DNL Marketo Measure]
 title: Boomerang-Phasen und Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '721'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 >
 >Die Boomerang-Funktion ist nur für Tier-3-Kunden aktiviert. Wenden Sie sich an das Adobe Account Team (Ihren Kundenbetreuer), um eine höhere Kontoebene anzufordern.
 
-[!DNL Marketo Measure] hat unsere Boomerang Stage Funktion veröffentlicht! Die Bomerang-Staging-Funktion wurde entwickelt, um die Journey des Kunden für [!DNL Marketo Measure] Kunden mit langen Verkaufszyklen. Mit dieser Funktion können Marketingexperten Touchpoints für alle Staging-Transitionen erstellen, die in der Opportunity-Journey auftreten, z. B. wenn ein Kontakt-MQLs, dann zu SAL wechselt und dann zur MQL-Bühne zurückkehrt. Bei Kontakten, die &quot;erneut in die MQL-Bühne eintreten&quot;oder &quot;MQLs erneut eintreten&quot;, wird die MQL als Bomerang-Bühne betrachtet. Die Funktion &quot;Boomerang-Bühne&quot;funktioniert neben [!DNL Marketo Measure] Benutzerdefinierte Phasen.
+[!DNL Marketo Measure] hat die Funktion Boomerang Stage veröffentlicht! Die Bomerang-Staging-Funktion wurde entwickelt, um die Journey des Kunden für [!DNL Marketo Measure] Kunden mit langen Verkaufszyklen. Mit dieser Funktion können Marketingexperten Touchpoints für alle Staging-Transitionen erstellen, die in der Journey &quot;Chancen&quot;auftreten, z. B. wenn ein Kontakt-MQLs erstellt, dann zu SAL wechselt und dann zur MQL-Bühne zurückkehrt. Wenn Kontakte &quot;in die MQL-Bühne zurückkehren&quot;oder &quot;MQLs erneut aufrufen&quot;, gilt die MQL als Bomerang-Bühne. Die Funktion &quot;Boomerang-Bühne&quot;funktioniert neben [!DNL Marketo Measure] Benutzerdefinierte Phasen.
 
 ## Funktion {#what-this-feature-does}
 
@@ -36,7 +36,7 @@ Ohne Boomerang-Bühnen (das &quot;before&quot;) sehen Sie nur die neueste MQL od
 
 ![](assets/1.png)
 
-Bei Boomerang-Phasen und Touchpoints werden Touchpoints angezeigt, die für jede Schritttransition auftreten. Die Namenskonvention für diese Bomerang-Touchpoints lautet wie folgt:
+Bei Bomerang-Phasen und Touchpoints werden Touchpoints angezeigt, die für jede Phasenübergang auftreten. Die Namenskonvention für diese Bomerang-Touchpoints lautet:
 
 **[Staging-Name]-00.**
 
@@ -46,21 +46,21 @@ Im folgenden Beispiel wird dies [!DNL Marketo Measure] -Konto hat MQL und SQL in
 
 **MQL-01** ist die erste MQL-Schritttransition.
 
-Der numerische Wert in der Touchpoint-Position gibt die Reihenfolge an, in der die Phasenübergänge stattgefunden haben. Der letzte Bomerang-Touchpoint wird wie folgt gestempelt:
+Der numerische Wert in der Touchpoint-Position gibt die Reihenfolge an, in der die Phasenübergänge aufgetreten sind. Der letzte Bomerang-Touchpoint wird wie folgt gestempelt:
 
 MQL-02 **(Letzte)**
 
 ## Änderung vorhandener Daten durch Bomerang-Phasen {#how-boomerang-stages-change-your-existing-data}
 
-Boomerang-Phasen wirken sich darauf aus:
+Auswirkungen von Boomerang-Phasen:
 
 **Zuordnung nach Kanal**
 
-* Seit [!DNL Boomerang Stages] mehr Touchpoints erstellen, wird sich dadurch die Verteilung der Attribution auf die Touchpoints ändern, die derzeit in Ihren Daten vorhanden sind. Dies kann dazu führen, dass sich die Umsatzwerte zwischen den Marketing-Kanälen ändern. Berücksichtigen Sie dies vor der Implementierung von [!DNL Boomerang stages]oder wenden Sie sich für weitere Informationen an Ihren Kundenbetreuer.
+* Seit [!DNL Boomerang Stages] erstellt mehr Touchpoints, wodurch sich die Verteilung der Attribution auf die Touchpoints ändert, die derzeit in Ihren Daten vorhanden sind. Dies kann dazu führen, dass sich die Umsatzwerte zwischen den Marketing-Kanälen verlagern. Berücksichtigen Sie dies vor der Implementierung [!DNL Boomerang stages]oder wenden Sie sich für weitere Informationen an Ihren Kundenbetreuer.
 
 **Alle Berichte mit &quot;gleich&quot; [Touchpoint-Position]&quot;**
 
-* In Boomerang-Bühnen werden neue Touchpoint-Positionen zu Ihren Daten eingeführt. [!DNL Marketo Measure] ändert das Format der Touchpoint-Position, um das Vorkommen der Bühne einzuschließen, z. B. &quot;MQL-01&quot;oder &quot;MQL-05 (Letzter)&quot;. Mithilfe dieses Beispiels wirken sich Boomerang Stages auf alle Berichte aus, die &quot;Touchpoint-Position ist gleich MQL&quot;verwenden. Um diese Berichte anzupassen, sollte der Filter stattdessen den Operator &quot;enthält&quot;verwenden.
+* In Boomerang-Bühnen werden neue Touchpoint-Positionen zu Ihren Daten eingeführt. [!DNL Marketo Measure] ändert das Format der Touchpoint-Position, um das Vorkommen der Bühne einzuschließen, z. B. &quot;MQL-01&quot;oder &quot;MQL-05 (Letzter)&quot;. Unter Verwendung dieses Beispiels wirken sich Boomerang Stages auf alle Berichte aus, die &quot;Touchpoint-Position ist gleich MQL&quot;verwenden. Um diese Berichte anzupassen, sollte der Filter stattdessen den Operator &quot;enthält&quot;verwenden.
 
 ## FAQs {#faq}
 
@@ -70,18 +70,18 @@ Sie können bis zu 15 Etappen auswählen.
 
 **F: Wie viele &quot;boomerang&quot; Touchpoints kann ich pro Bühne haben?**
 
-Sie können bis zu 10 Bomerang-Touchpoints pro Bühne auswählen.
+Sie können bis zu zehn Bomerang-Touchpoints pro Phase auswählen.
 
-**F: Warum sind wir nur auf 10 Bumerangs pro Staging beschränkt?**
+**F: Warum gibt es eine Grenze von zehn Bomerangs pro Stufe?**
 
 [!DNL Marketo Measure] muss die Anzahl der Phasen begrenzen, damit die Verarbeitungszeiten unter Kontrolle bleiben. Wenn Sie sich dafür entscheiden, alle 15 Bomerang-Phasen in Ihr Attributionsmodell und 10 Bomerang-Touchpoints pro Phase einzubeziehen, könnten Sie über mehr als 150 Touchpoints pro Lead-/Kontaktdatensatz verfügen.
 
 **F: Ich habe Data Warehouse. Erhalte ich alle Daten oder gilt die Boomerang Stages-Obergrenze auch für mich?**
 
-Die Obergrenze gilt für Data Warehousen und CRMs aufgrund der Verarbeitungsbeschränkungen, die [!DNL Marketo Measure] verfügt. Für die Data Warehouse gilt außerdem die Beschränkung von 10 Touchpoints pro Phase.
+Die Obergrenze gilt für Data Warehouse und CRMs, da die Verarbeitungsbeschränkungen, die [!DNL Marketo Measure] verfügt. Data Warehouse sieht auch die Grenze von zehn Touchpoints pro Phase.
 
 **F: Welchen Nutzen hat die Verwendung von Boomerang Stages mit benutzerdefinierter Modellierung?**
 
-Verwenden [!UICONTROL Boomerang] In Phasen mit benutzerdefinierter Modellierung können Sie die Attributionsgewichtung zu [!UICONTROL Boomerang] Touchpoints, die diesen Phasen eine Umsatzgutschrift zuweisen.
+Verwenden [!UICONTROL Boomerang] Mit Phasen mit benutzerdefinierter Modellierung können Sie die Attributionsgewichtung zu [!UICONTROL Boomerang] Touchpoints, die diesen Phasen Umsatzgutschriften zuweisen.
 
-Ohne benutzerdefinierte Modellierung, [!DNL Marketo Measure] erstellt Touchpoints für jede Bomerang- und Staging-Transition, weist diesen Touchpoints jedoch keine Zuordnungsgutschriften zu. Die einzigen Bomerang-Touchpoints, die Attributionszuschüsse erhalten, sind Touchpoints der Formularübermittlung. Ohne benutzerdefiniertes Modell [!DNL Boomerang] Touchpoints werden als identisch mit einem &quot;mittleren Touch&quot;betrachtet und erhalten dementsprechend eine Attribution.
+Ohne benutzerdefinierte Modellierung, [!DNL Marketo Measure] erstellt Touchpoints für jeden Bomerang und jede Staging-Transition, weist diesen Touchpoints jedoch keine Zuordnungsgutschriften zu. Die einzigen Bomerang-Touchpoints, die Attributionsgutschriften erhalten, stammen aus Übermittlungs-Touchpoints. Ohne benutzerdefiniertes Modell [!DNL Boomerang] Touchpoints werden als identisch mit einem &quot;mittleren Touch&quot;betrachtet und erhalten dementsprechend eine Attribution.

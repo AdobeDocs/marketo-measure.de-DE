@@ -1,17 +1,17 @@
 ---
-description: Fehlerbenachrichtigungen - [!DNL Marketo Measure] - Produktdokumentation
+description: Fehlerbenachrichtigungen - [!DNL Marketo Measure]
 title: Fehlerbenachrichtigungen
 feature: Fundamentals
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
-workflow-type: ht
-source-wordcount: '612'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
 # Fehlerbenachrichtigungen {#error-notifications}
 
-Im Folgenden finden Sie eine Liste von Fehlern, die Sie über In-App-Benachrichtigungen oder per E-Mail erhalten können. Sollten Sie einen dieser Fehler erhalten, führen Sie die entsprechenden Schritte zur Fehlerbehebung aus. Falls das Problem durch diese Schritte nicht gelöst werden kann, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support).
+Im Folgenden finden Sie eine Liste von Fehlern, die Sie über In-App-Benachrichtigungen oder per E-Mail erhalten können. Wenn Sie eines davon erhalten, führen Sie die entsprechenden Schritte zur Fehlerbehebung aus. Falls das Problem durch diese Schritte nicht gelöst werden kann, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support).
 
 <table>
   <tbody>
@@ -54,7 +54,7 @@ Im Folgenden finden Sie eine Liste von Fehlern, die Sie über In-App-Benachricht
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Fehler beim AdobeAnalytics-Export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Fehler: Upload nicht erlaubt. Bitte bestätigen Sie das Datenquellenschema vor dem Hochladen. Datenquellen-ID:1234</td>
+      <td>Fehler beim AdobeAnalytics-Export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Fehler: Upload nicht erlaubt. Validieren Sie das Datenquellenschema vor dem Hochladen. Datenquellen-ID:1234</td>
       <td>Die Adobe Analytics-Integration ist nicht korrekt konfiguriert.</td>
       <td>Lesen Sie die folgenden Hilfeartikel, um eine korrekte Konfiguration sicherzustellen:
         <ul>
@@ -139,7 +139,7 @@ Im Folgenden finden Sie eine Liste von Fehlern, die Sie über In-App-Benachricht
     </tr>
     <tr>
       <td>UNSUPPORTED_CRM_PACKAGE_VERSION</td>
-      <td>Fehler beim CRM-Import: UNSUPPORTED_CRM_PACKAGE_VERSION : Bitte das CRM-Paket aktualisieren</td>
+      <td>Fehler beim CRM-Import: UNSUPPORTED_CRM_PACKAGE_VERSION : Aktualisieren Sie Ihr CRM-Paket</td>
       <td>Das aktuell erkannte Paket wird nicht mehr unterstützt.</td>
       <td>Aktualisieren Sie Ihr Paket auf die neueste Version:
         <ul>

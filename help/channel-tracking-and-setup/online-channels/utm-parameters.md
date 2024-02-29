@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874606
-description: UTM-Parameter - [!DNL Marketo Measure] - Produktdokumentation
+description: UTM-Parameter - [!DNL Marketo Measure]
 title: UTM-Parameter
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '946'
-ht-degree: 100%
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+workflow-type: tm+mt
+source-wordcount: '926'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Das Tagging von URLs ist eine einfache und effektive Möglichkeit, Daten zu Ihren digitalen Marketing-Maßnahmen zu erfassen. Es geht dabei um den Prozess des Hinzufügens von Parametern am Ende von URLs, die Daten erfassen und aufzeichnen. Die am häufigsten verwendeten Parameter sind Urchin Tracking Modules (UTMs), die von Google unterstützt werden. Es stehen fünf wichtige UTMs-Parameter zur Verfügung: Medium, Quelle, Kampagne, Inhalt und Begriff. Diese werden im nächsten Abschnitt ausführlicher erläutert.
 
-UTM-Parameter können manuell zu URLs hinzugefügt oder durch automatisches Tagging mit bestimmten Plattformen wie z. B. AdWords angehängt werden. Das automatische Tagging automatisiert das Anhängen von Parametern an URLs. Es gibt auch die Option [URL-Builder](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"}, um das Tagging von URLs manuell zu beschleunigen. Mit einem URL-Builder müssen Sie einfach die Werte für die einzelnen Parameter angeben, und der Builder formatiert die URL für Sie.
+UTM-Parameter können manuell zu URLs hinzugefügt oder durch automatisches Tagging mit bestimmten Plattformen wie AdWords angehängt werden. Das automatische Tagging automatisiert das Anhängen von Parametern an URLs. Es gibt auch die Option [URL-Builder](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"}, um das Tagging von URLs manuell zu beschleunigen. Mit einem URL-Builder geben Sie einfach die Werte an, die für jeden Parameter verwendet werden sollen, und der Builder formatiert die URL für Sie.
 
 ## Was sind UTM-Parameter? {#what-are-utm-parameters}
 
@@ -27,13 +27,13 @@ Sehen wir uns nun eine URL mit UTMs an:
 
 `http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
-Wie Sie sehen können, enthält der zweite Link viel mehr Text. UTM-Parameter folgen immer der Domain der obersten Ebene (.com in diesem Beispiel) und beginnen mit einem Fragezeichen. Danach spielt die Reihenfolge der Parameter keine Rolle, es wird jedoch empfohlen, eine konsistente Benennungskonvention einzuhalten. Um jedes UTM zu trennen, müssen zwischen den einzelnen Parametern kaufmännische Und-Zeichen (&amp;) gesetzt werden. Nun können wir detaillierter darauf eingehen, was jeder Parameter darstellt.
+Der zweite Link enthält mehr Text. UTM-Parameter folgen immer der Domain der obersten Ebene (.com in diesem Beispiel) und beginnen mit einem Fragezeichen. Danach spielt die Reihenfolge der Parameter keine Rolle, es wird jedoch empfohlen, eine konsistente Benennungskonvention einzuhalten. Um die einzelnen UTMs zu trennen, müssen zwischen den einzelnen Parametern kaufmännische Und-Zeichen gesetzt werden. Nun können wir detaillierter darauf eingehen, was jeder Parameter darstellt.
 
 Informationen zu [Best Practices beim Einrichten von UTM-Parametern](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md).
 
 **utm_medium**
 
-* Medium gibt an, mit welchen Mitteln Sie Ihr Unternehmen vermarkten.
+* Medium identifiziert die Fahrzeuge, die Sie zum Inverkehrbringen Ihres Unternehmens verwenden.
 * Es beantwortet die Frage: &quot;Wie kommen sie zu dir?&quot;
 * Es gibt den Kanal der höchsten Ebene an.
 * Social Media, E-Mails, organische Suche und gebührenpflichtige Suche sind Beispiele für potenzielle Medium-Werte.
@@ -48,7 +48,7 @@ Informationen zu [Best Practices beim Einrichten von UTM-Parametern](/help/chann
    * In diesem Beispiel ist [!DNL Facebook] der Quellwert. Weitere Beispiele sind Twitter und Instagram. Wenn andererseits das UTM-Medium [!DNL Paid Search] ist, könnte die UTM-Quelle AdWords oder BingAds sein.
 
 * Dieser Parameter wird dem [!DNL Marketo Measure]-Feld &quot;Touchpoint-Quelle“ in SFDC zugeordnet.
-* _[!DNL Marketo Measure]Best Practice:_ Dieser Parameter verfolgt die Quelle Ihres Traffics, sodass es nicht zur Angabe des Anzeigentyps geeignet ist, z. B. Retargeting, Sponsored usw. Er eignet sich am besten zur Verfolgung des Unterkanals auf höherer Ebene. Denken Sie daran, Sie beantworten die Frage &quot;Woher kommt mein Traffic?&quot; Sie suchen den Referrer. In diesem Beispiel ist die UTM-Quelle der Ort, an dem sich Ihre Anzeige befindet (nicht die tatsächliche Webseite, da diese automatisch außerhalb der Tags nachverfolgt wird). Wenn Sie eine Drip-E-Mail-Kampagne verfolgen, ist die Quelle drip email.
+* _[!DNL Marketo Measure]Best Practice:_ Dieser Parameter verfolgt die Quelle Ihres Traffics. Daher ist es nicht sinnvoll, ihn zur Angabe des Anzeigentyps zu verwenden, z. B. Retargeting, Sponsored usw. Sie eignet sich am besten zur Verfolgung des übergeordneten Unterkanals. Denken Sie daran, Sie beantworten die Frage &quot;Woher kommt mein Traffic?&quot; Sie suchen den Referrer. In diesem Beispiel ist die UTM-Quelle der Ort, an dem sich Ihre Anzeige befindet (nicht die tatsächliche Webseite, da diese automatisch außerhalb der Tags nachverfolgt wird). Wenn Sie eine Drip-E-Mail-Kampagne verfolgen, ist die Quelle drip email.
 
 **utm_campaign**
 

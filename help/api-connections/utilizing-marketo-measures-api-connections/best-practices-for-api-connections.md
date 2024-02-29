@@ -1,11 +1,11 @@
 ---
-description: Best Practices für API-Verbindungen - [!DNL Marketo Measure] - Produktdokumentation
+description: Best Practices für API-Verbindungen - [!DNL Marketo Measure]
 title: Best Practices für API-Verbindungen
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '736'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Unabhängig von der Werbeplattform, die Sie verbinden, sollten Sie die folgenden
 * Alle möglichen Werbekonten anschließen, um die Ausgabenberichterstellung so weit wie möglich zu automatisieren
 * Wenn verfügbar, implementieren Sie immer eine Tracking-Vorlage. Die Vorlage stellt sicher, dass, selbst wenn die Verbindung des Anzeigenkontos getrennt wird, [!DNL Marketo Measure] kann weiterhin detaillierte Anzeigendetails abrufen
 
-So optimieren Sie jede [!DNL Marketo Measure] API verwenden, beachten Sie bitte die folgenden Best Practices.
+So optimieren Sie jede [!DNL Marketo Measure] API, befolgen Sie die folgenden Best Practices.
 
 **[!DNL Facebook]**: Verbindung mit automatischem Tagging
 
@@ -89,7 +89,7 @@ Wenn Ihr Team eines der oben genannten Szenarien durchlaufen hat, überprüfen S
 >[!MORELIKETHIS]
 >
 >* [Integrierte Anzeigenplattformen (APIs)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
->* [Auswirkungen der Bid-Management-Tools auf [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [Auswirkungen der Angebotsmanagement-Tools [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
 >* [[!DNL Marketo Measure] API-Parameter - Erklärung](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
 >* [Übersicht über die facebook API](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
 >* [[!DNL LinkedIn] Integrationsübersicht](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)

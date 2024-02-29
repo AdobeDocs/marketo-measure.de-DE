@@ -1,18 +1,18 @@
 ---
-description: Aktuelle Versionshinweise – [!DNL Marketo Measure] – Produktdokumentation
+description: Aktuelle Versionshinweise - [!DNL Marketo Measure]
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
-workflow-type: ht
-source-wordcount: '1044'
-ht-degree: 100%
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+workflow-type: tm+mt
+source-wordcount: '1041'
+ht-degree: 94%
 
 ---
 
 # Versionshinweise 2023 {#release-notes-2023}
 
-Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktionen unserer Versionen aus dem Jahr 2023.
+Unten finden Sie alle neuen und aktualisierten Funktionen für unsere Versionen 2023.
 
 ## Q4-Version {#q4-release}
 
@@ -157,7 +157,7 @@ Folgende Felder enthalten die dieselben Informationen für die Touchpoint- und A
 
 * Erstellen Sie Berichte, die die Funktionalität eines vorhandenen Berichts erfassen, der die entfernten Felder verwendet. Im Rahmen dieses Prozesses sollten Sie die Felder im Bericht wie folgt ändern:
 
-   * Lead-/Kontakt-FT/LC-Felder entfernen:
+* Lead-/Kontakt-FT/LC-Felder entfernen:
 
 ![](assets/release-notes-2023-2.png)
 
@@ -179,7 +179,7 @@ Folgende Felder enthalten die dieselben Informationen für die Touchpoint- und A
 
 * Um mit Dynamics verbunden zu bleiben, müssen Sie das neueste Paket (v6.12) installieren. Ältere Versionen `(<v6.12)` werden nicht länger unterstützt. Diese Aktualisierung optimiert die Erstellung historischer Einträge, um die Speicherbelegung zu reduzieren.
 
-* Die veraltete OAuth-Methode mit einem Aktualisierungs-Token wird nicht mehr unterstützt. In [dieser Anleitung](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} finden Sie Informationen zur Aktualisierung Ihrer Anmeldeinformationen entsprechend der Best Practices von Microsoft zur Verwendung von ClientSecret.
+* Die veraltete OAuth-Methode mit einem Aktualisierungs-Token wird nicht mehr unterstützt. Siehe Abschnitt [diesem Handbuch](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} für die Aktualisierung Ihrer Anmeldedaten, um die Best Practices von Microsoft für die Verwendung von ClientSecret einzuhalten.
 
 #### Feld „custom_properties“
 

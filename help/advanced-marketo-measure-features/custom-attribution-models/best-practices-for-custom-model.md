@@ -1,12 +1,12 @@
 ---
-description: Best Practices für benutzerdefiniertes Modell - [!DNL Marketo Measure] - Produktdokumentation
+description: Best Practices für benutzerdefiniertes Modell - [!DNL Marketo Measure]
 title: Best Practices für benutzerdefiniertes Modell
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -69,6 +69,6 @@ Weitere Gründe dafür könnten eine Überprüfung Ihres benutzerdefinierten Mod
 
 >[!MORELIKETHIS]
 >
->* [Benutzerdefiniertes Attributionsmodell und Einrichtung](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [Benutzerdefiniertes Attributionsmodell und -einrichtung](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 >* [Feldverlauf-Tracking für benutzerdefiniertes Modell aktivieren](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
 >* [Modell für maschinelles Lernen](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)

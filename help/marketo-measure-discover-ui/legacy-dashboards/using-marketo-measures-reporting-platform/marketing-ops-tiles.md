@@ -1,17 +1,17 @@
 ---
 unique-page-id: 34406495
-description: Kacheln für Marketing Ops - [!DNL Marketo Measure] - Produktdokumentation
-title: Marketing Ops  Kacheln
+description: Kacheln für Marketing Ops - [!DNL Marketo Measure]
+title: Kacheln für Marketing Ops
 exl-id: e7978a79-6f6e-4bfd-9962-b35b7d46a9ac
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 11%
+source-wordcount: '766'
+ht-degree: 4%
 
 ---
 
-# Marketing Ops  Kacheln {#marketing-ops-tiles}
+# Kacheln für Marketing Ops {#marketing-ops-tiles}
 
 Marketing Ops ermöglicht Ihnen die Validierung und Diagnose von [!DNL Marketo Measure] Daten mit vollständiger Sichtbarkeit einzelner Touchpoints pro Leads, Kontakte, Konten, Kampagnen und Chancen.
 

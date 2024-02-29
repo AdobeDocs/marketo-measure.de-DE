@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874688
-description: CRM-Kampagnenkosten - [!DNL Marketo Measure] - Produktdokumentation
+description: CRM-Kampagnenkosten - [!DNL Marketo Measure]
 title: Kosten für CRM-Kampagnen
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 1%
+source-wordcount: '1253'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ Nachdem eine Kampagne aus dem CRM importiert wurde, wird sie einem API-Anzeigena
 
 **Ich habe das Start- und Enddatum sowie die Kosten ausgefüllt, aber warum werden meine Kosten immer noch nicht angezeigt? [!DNL Marketo Measure]?**
 
-Vergewissern Sie sich, dass entweder der Wert &quot;Käufer-Touchpoint aktivieren&quot;auf &quot;Alle Campaign-Mitglieder einschließen&quot;oder zumindest auf &quot;Respondierte Kampagnenmitglieder einschließen&quot;gesetzt ist oder dass Sie eine benutzerdefinierte Kampagnensynchronisierungsregel erstellt haben, die diese Kampagne enthält. Wenn Sie dies bestätigt haben und die Kampagne immer noch nicht sehen, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} damit wir überprüfen können, ob Ihre Kampagnen ordnungsgemäß importiert werden.
+Vergewissern Sie sich, dass entweder der Wert &quot;Käufer-Touchpoint aktivieren&quot;auf &quot;Alle Kampagnenmitglieder einschließen&quot;oder zumindest auf &quot;Respondierte Kampagnenmitglieder einschließen&quot;gesetzt ist oder dass Sie eine benutzerdefinierte Kampagnensynchronisierungsregel erstellt haben, die diese Kampagne enthält. Wenn Sie dies bestätigt haben und die Kampagne trotzdem nicht sehen, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} damit wir überprüfen können, ob Ihre Kampagnen ordnungsgemäß importiert werden.
 
 **Ich muss die Verteilung meiner Kampagne ändern, damit ich sie in bestimmten Monaten schwerer wiegen kann. Wie mache ich das?**
 

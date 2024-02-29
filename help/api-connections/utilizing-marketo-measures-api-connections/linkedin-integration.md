@@ -1,13 +1,13 @@
 ---
 unique-page-id: 35586080
-description: LinkedIn-Integration - [!DNL Marketo Measure] - Produktdokumentation
+description: LinkedIn-Integration - [!DNL Marketo Measure]
 title: LinkedIn-Integration
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
 source-wordcount: '2653'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -96,7 +96,7 @@ Vorwärts, [!DNL Marketo Measure] empfiehlt, keine [!DNL LinkedIn] Teilt und bew
 
 Der Grund für den zusätzlichen Schritt besteht darin, dass LinkedIn zulässt, dass Ziel-URLs eine gekürzte URL sind (bit.ly, goog.le usw.), was bedeutet, dass [!DNL Marketo Measure] sieht die lange, aufgelöste URL nicht und [!DNL Marketo Measure] muss Tracking-Parameter zu einer aufgelösten URL hinzufügen. Um dieses Problem zu umgehen, [!DNL Marketo Measure] sucht nach gekürzten URLs, bevor eine Anzeige neu erstellt wird, erweitert die URL und erstellt dann die neue Anzeige mit der aufgelösten URL und allen zugehörigen Parametern, sodass [!DNL Marketo Measure] , um Tags hinzuzufügen. Durch die Erstellung einer neuen Anzeige wird der Anzeigenverlauf (Impressionen, Klicks, Teilen-Klicks) gelöscht. Daher ist die Berechtigung zum Taggen gekürzter URLs erforderlich.
 
-Wenn Sie die URLs erheblich gekürzt haben, kann es sich auf Ihre Kreativen auswirken. Wir empfehlen, keine verkürzten URLs mehr zu verwenden, damit [!DNL Marketo Measure] Sie können die Landingpages taggen, ohne neue Anzeigen erstellen und den Anzeigenverlauf löschen zu müssen.
+Wenn Sie häufig gekürzte URLs verwenden, kann dies schwerwiegende Auswirkungen auf Ihre kreativen Inhalte haben. Wir empfehlen, keine verkürzten URLs mehr zu verwenden, damit [!DNL Marketo Measure] Sie können die Landingpages taggen, ohne neue Anzeigen erstellen und den Anzeigenverlauf löschen zu müssen.
 
 **Der Prozess**
 
@@ -159,7 +159,7 @@ Vor [!DNL Marketo Measure] und die LinkedIn Lead Gen Forms-Integration bestand, 
 
 ## Touchpoint-Details ansehen {#touchpoint-details}
 
-Einmal [!DNL Marketo Measure] Ihre Landingpage erfolgreich mit dem LinkedIn-Kreativ gekennzeichnet hat, können Sie die aufgelösten Anzeigendaten auf dem Touchpoint anzeigen. Hier finden Sie die Zuordnung von Datenwerten, die Sie erwarten sollten:
+Nachher [!DNL Marketo Measure] Ihre Landingpage erfolgreich mit dem LinkedIn-Kreativ gekennzeichnet hat, können Sie die aufgelösten Anzeigendaten auf dem Touchpoint anzeigen. Hier finden Sie die Zuordnung von Datenwerten, die Sie erwarten sollten:
 
 <table> 
  <colgroup> 
@@ -322,13 +322,13 @@ Beide. Die [!DNL Marketo Measure] -Integration ermöglicht es uns, die Ziel-URL 
 
 ![](assets/five.png)
 
-**Ich habe meine [!DNL LinkedIn ads] -Konto. Warum nicht [!DNL Marketo Measure] Verknüpfungen taggen?**
+**Ich habe meine [!DNL LinkedIn ads] -Konto. Warum nicht? [!DNL Marketo Measure] Verknüpfungen taggen?**
 
 Der verbundene [!DNL LinkedIn] Der Benutzer muss über einen ordnungsgemäßen Bearbeitungszugriff verfügen, d. h. er muss ein Kundenbetreuer, Campaign Manager oder Creative Manager sein.
 
 **Woher weiß ich, ob mein Kreativ kopiert wird? Kann ich sehen, ob meine Kreativen dieselbe Freigabe verwenden?**
 
-Die Freigabe-ID wird nicht in einer [!DNL LinkedIn] -Bericht erstellen, sodass es keine klare und naheliegende Möglichkeit gibt, nach Creative-to-Share-Zuordnungen zu suchen. Wenn Sie vermuten, dass es sich bei einem Kreativelement um eine Kopie handeln könnte, können Sie die Werbeanzeige in Ihrem [!DNL LinkedIn] Kampagnenverantwortlicher: Dadurch wird die Anzeige in einem neuen Tab geöffnet und Sie finden die Freigabe-ID in der URL.
+Die Freigabe-ID wird nicht in einer [!DNL LinkedIn] -Bericht erstellen, sodass es keine klare und naheliegende Möglichkeit gibt, nach Zuordnungen zu kreativen Zielgruppen zu suchen. Wenn Sie vermuten, dass es sich bei einem Kreativelement um eine Kopie handeln könnte, können Sie die Werbeanzeige in Ihrem [!DNL LinkedIn] Kampagnen-Manager - öffnet die Anzeige in einem neuen Tab und Sie finden die Freigabe-ID in der URL.
 
 ![](assets/six.png)
 

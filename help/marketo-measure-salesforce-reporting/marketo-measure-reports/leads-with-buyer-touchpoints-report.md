@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874614
-description: Leads mit dem Bericht "Touchpoints für Käufer"- [!DNL Marketo Measure] - Produktdokumentation
-title: Leads mit Buyer Touchpoints Bericht
+description: Leads mit dem Bericht "Touchpoints für Käufer"- [!DNL Marketo Measure]
+title: Leads mit dem Bericht "Kunden-Touchpoints"
 exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
 feature: Touchpoints, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 5%
+source-wordcount: '196'
+ht-degree: 8%
 
 ---
 
-# Leads mit Buyer Touchpoints Bericht {#leads-with-buyer-touchpoints-report}
+# Leads mit dem Bericht &quot;Kunden-Touchpoints&quot; {#leads-with-buyer-touchpoints-report}
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
 Standardmäßig stehen Ihnen viele Berichterstellungsfunktionen zur Verfügung, wenn es um Folgendes geht: [!DNL Marketo Measure], es gibt jedoch einige zusätzliche Berichtstypen, die wir empfehlen zu erstellen. Erfahren Sie unten, wie Sie mit dem Berichtstyp &quot;Touchpoints für Käufer&quot;eine inklusive Leads erstellen.
 

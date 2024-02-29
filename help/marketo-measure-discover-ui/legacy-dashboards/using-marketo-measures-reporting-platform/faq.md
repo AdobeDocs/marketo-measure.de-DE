@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874660
-description: FAQs - [!DNL Marketo Measure] - Produktdokumentation
+description: FAQs - [!DNL Marketo Measure]
 title: FAQs
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Eines der Merkmale des Wachstumsboards ist, dass Sie die Trenddiagramme nicht na
 
 **Wenn ich die Gruppierung ändere, entsprechen die Summen nicht immer dem gleichen Betrag. Warum ist das?**
 
-Werte gibt es nicht für jede einzelne Datenhierarchie, da die Hierarchie nicht immer ein klarer Schnittfluss ist. Unabhängig davon, ob die Kosten selbst gemeldet oder von einem Anzeigen-Provider importiert werden, können die Gesamtkosten für Kanal 1 1 10.000 USD betragen, aber nach einzelner Kampagne wurden nur insgesamt 5.500 USD gemeldet. Wenn sich die Gruppierung zwischen Kanal und Kampagne ändert, variieren die Summen.
+Werte gibt es nicht für jede einzelne Datenhierarchie, da es sich bei der Hierarchie nicht immer um einen klaren Schnittfluss handelt. Unabhängig davon, ob die Kosten selbst gemeldet oder von einem Anzeigen-Provider importiert werden, können die Gesamtkosten für Kanal 1 1 10.000 USD betragen, aber nach einzelner Kampagne wurden nur insgesamt 5.500 USD gemeldet. Wenn sich die Gruppierung zwischen Kanal und Kampagne ändert, variieren die Summen.
 
 **Was ist &quot;stimmt mit einem Benutzerattribut überein&quot;in den Filteroperatoren?**
 
-Benutzerattribute werden auf Benutzer wie Unternehmens-ID, Vorname oder Nachname angewendet. Da unsere Benutzer Sie sind (unsere Kunden) und nicht Ihre Kunden, können Benutzerattribute in der [!DNL Marketo Measure Discover] Erlebnis. Sie können diese Option ignorieren. Wir arbeiten an einem besseren benutzerdefinierten Filtererlebnis, das Filter entfernt, die nicht für unsere Kunden gelten.
+Benutzerattribute werden auf Benutzer wie Unternehmens-ID, Vorname oder Nachname angewendet. Da unsere Benutzer Sie sind (unsere Kunden) und nicht Ihre Kunden, können Benutzerattribute in der [!DNL Marketo Measure Discover] Erlebnis. Wir arbeiten an einem besseren benutzerdefinierten Filtererlebnis, das Filter entfernt, die nicht für unsere Kunden gelten.
 
 **Wie kommt es, dass einige Standarddatumsbereiche den ersten des folgenden Monats durchlaufen?**
 
@@ -49,7 +49,7 @@ Touchpoints des Käufers, die Leads und Kontakten zugeordnet sind, werden bis zu
 
 **Warum sind meine Kacheln &quot;Besuche&quot;, &quot;Unique Visits&quot;und &quot;Forms&quot;auf dem Wachstumsboard leer?**
 
-Wenn diese Kacheln in Ihrer Ansicht zufällig 0 oder leer sind, bedeutet dies, dass die Kacheln nicht für Ihr Konto bereitgestellt werden. Wenden Sie sich an Ihren Success Manager, wenn Sie Fragen dazu haben.
+Wenn diese Kacheln in Ihrer Ansicht zufällig 0 oder leer sind, bedeutet dies, dass die Kacheln nicht für Ihr Konto bereitgestellt werden. Wenden Sie sich an Ihren Success Manager, wenn Fragen dazu vorliegen.
 
 **Was bedeutet bei Leads im Zeitverlauf und Kontakten im Zeitverlauf die Anzahl?**
 
@@ -97,7 +97,7 @@ Discover verwendet Tools von Drittanbietern und unterstützt derzeit den GB18030
 
 **Warum wird beim Laden von Discover der Fehler 401 mit der Meldung &quot;Sie sind nicht authentifiziert, um diese Seite anzuzeigen&quot;angezeigt?**
 
-[!DNL Marketo Measure Discover] erfordert die ordnungsgemäße Anzeige von Drittanbieter-Cookies. Um Discover zu verwenden, aktivieren Sie bitte Drittanbieter-Cookies in Ihrem Browser und aktualisieren Sie die Seite.
+[!DNL Marketo Measure Discover] erfordert die ordnungsgemäße Anzeige von Drittanbieter-Cookies. Um Discover zu verwenden, aktivieren Sie Drittanbieter-Cookies in Ihrem Browser und aktualisieren Sie die Seite.
 
 >[!NOTE]
 >

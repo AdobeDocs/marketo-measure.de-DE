@@ -1,13 +1,13 @@
 ---
 unique-page-id: 35586105
-description: Interaktionspfad - [!DNL Marketo Measure] - Produktdokumentation
+description: Interaktionspfad - [!DNL Marketo Measure]
 title: Interaktionsverlauf
 exl-id: 104d803f-9f40-4ab6-872d-6432f8c087e9
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 9%
+source-wordcount: '873'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Interaktionspfad ermöglicht es Ihnen, eine vollständige Ansicht der Interaktio
 
 * Wenn die Interaktion von einer mit einer API verbundenen Plattform erfolgt, zeigt die Webquelle den Namen der Anzeigenplattform an
 * Wenn der Touchpoint aus einer organischen Suche stammt, zeigt dieses Feld den Namen der Suchmaschine an
-* Wenn weder #1 noch #2 zutreffen und der Wert von utm_source in der URL der Landingpage für den Touchpoint vorhanden ist, wird dieser Wert hier angezeigt
+* Wenn nicht #1 oder #2 und der Wert utm_source in der URL der Landingpage für den Touchpoint vorhanden ist, wird dieser Wert hier angezeigt
 * Wenn nicht #1 oder #2 und kein utm_source -Wert vorhanden ist, wird hier die Stammdomäne der verweisenden URL angezeigt.
 * Wenn keine der oben genannten Optionen angezeigt wird, wird Web Direct oder Web
 

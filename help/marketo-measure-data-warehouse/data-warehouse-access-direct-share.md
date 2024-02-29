@@ -3,10 +3,10 @@ description: Data Warehouse Access - Direct Share - Produktdokumentation
 title: Data Warehouse Access - Direct Share
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 3%
+source-wordcount: '284'
+ht-degree: 4%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 3%
 
 Zur [!DNL Marketo Measure] Um eine direkte Freigabe für Data Warehouse einzurichten, müssen Sie die folgenden Anforderungen erfüllen.
 
-* Sie verfügen über eine eigene Snowflake-Instanz.
-* Ihre Snowflake-Instanz befindet sich in der Region Azure East US 2 Snowflake.
+* Sie haben Ihre eigene Snowflake-Instanz.
+* Ihre Snowflake-Instanz befindet sich in der Azure East US 2 Snowflake Region.
 * Sie [!DNL Marketo Measure] mit Ihrer Snowflake-Konto-ID.
 
 ## Einschränkungen {#limitations}
 
-[!DNL Marketo Measure] Snowflake Direct Share kann nur mit Konten in Azure East US 2 eingerichtet werden, da das Snowflake Direct Share derzeit eingeschränkt ist. Wenn Sie möchten, dass Ihre Daten in anderen Snowflake-Regionen zur Verfügung gestellt werden, empfehlen wir, eine Kopie der Daten in einem Snowflake-Konto in Azure East US 2 zu erstellen und die [Snowflake-Datenbankreplikation](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} -Funktion verwenden, um Ihre Daten in die Region/das Konto Ihres Snowflake zu kopieren.
+[!DNL Marketo Measure] Snowflake Direct Share kann nur mit Konten in Azure East US 2 eingerichtet werden, da die Snowflake Direct Share-Beschränkungen gelten. Wenn Sie möchten, dass Ihre Daten in anderen Snowflake-Regionen zur Verfügung gestellt werden, empfehlen wir, eine Kopie der Daten in einem Snowflake-Konto in Azure East US 2 zu erstellen und die [Snowflake-Datenbankreplikation](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} -Funktion, um Ihre Daten in die Region/das Konto Ihrer Snowflake zu kopieren.
 
 ## Snowflake-Konto-ID eingeben {#enter-snowflake-account-id}
 

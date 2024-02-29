@@ -1,16 +1,16 @@
 ---
-description: Erläuterung der Touchpoint-Positionen und der Erzeugung zwischen BT und BVT - [!DNL Marketo Measure] - Produktdokumentation
+description: Erläuterung der Touchpoint-Positionen und der Erzeugung zwischen BT und BVT - [!DNL Marketo Measure]
 title: Erläuterung der Touchpoint-Positionen und der Generierung über BTs und [!DNL BATs] hinweg
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 4%
+source-wordcount: '770'
+ht-degree: 3%
 
 ---
 
-# Erläuterung der Touchpoint-Positionen und der Generierung über BTs und[!DNL BATs] hinweg  {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
+# Erläuterung der Touchpoint-Positionen und der Generierung über BTs hinweg und [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
 **Erzeugung von Touchpoint-Positionen und Fluss durch die Journey der Käufer**
 

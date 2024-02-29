@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874656
-description: Filter - [!DNL Marketo Measure] - Produktdokumentation
+description: Filter - [!DNL Marketo Measure]
 title: Filter
 exl-id: 249266c8-9ff5-4895-979c-4f377423d031
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -55,7 +55,7 @@ _Verwendet in: Übersicht, Wachstum, Marketing-Ausgaben, Anzeigen-ROI, Web-Traff
 
 Filtern Sie die Pinnwand nach einem oder mehreren Kanälen. Benutzer bieten dem Filter zusätzliche Flexibilität, z. B. die Operatoren &quot;enthält&quot;oder &quot;beginnt mit&quot;. Nach der Eingabe eines Kanals stammen die im Subkanal- und Kampagnenfilter angezeigten Werte aus dem angewendeten Subkanalfilter.
 
-**Kohorten-Stadium**
+**Kohortenphase**
 
 _Verwendet in: Kohortentrichter_
 
@@ -67,13 +67,13 @@ _Verwendet in: Übersicht, Wachstum, Marketing-Ausgaben, Anzeigen-ROI, Account-b
 
 Wählen Sie einen Datumsbereich aus, um die Daten in den Pinnwänden zu filtern, indem Sie flexible Datumsoperatoren verwenden, z. B. &quot;liegt im Bereich&quot;, &quot;ist im Jahr&quot;oder &quot;ist vor&quot;. Die Ausnahme ist Snapshot, bei dem Sie ein einzelnes Datum auswählen, um eine Momentaufnahme der Daten anzuzeigen.
 
-**Datumstyp**
+**Datum Typ**
 
 _Verwendet in: Übersicht, Wachstum, Marketing-Ausgaben, Anzeigen-ROI, Account-basiertes Marketing, Web-Traffic, CMO, Paid Media, Content Marketing, Passport_
 
 Wählen Sie den Datumstyp aus, der mit dem Datumsfilter verknüpft werden soll. Der standardmäßige Datumstyp variiert je nach Pinnwand. Touchpoint-Datum bezieht sich auf das Datum, an dem die Marketing-Aktivität stattgefunden hat, das Erstellungsdatum das Datum, an dem der Lead oder Kontakt oder die Gelegenheit im CRM erstellt wurde, und das Datum des Schließen ist das Datum, an dem die Gelegenheit geschlossen wurde.
 
-**Abmessung**
+**Dimension**
 
 _Verwendet in: Paid Media_
 
@@ -123,7 +123,7 @@ _Verwendet in: Content Marketing_
 
 Informieren Sie sich über die Leistung einer einzelnen Landingpage oder vielleicht von Landingpages, die ein bestimmtes Wort wie &quot;Blog&quot;enthalten.
 
-**Metrisch**
+**Metrik**
 
 _Verwendet in: Übersicht, Web-Traffic, CMO, Paid Media, Content Marketing_
 
@@ -135,7 +135,7 @@ Auf den Übersichts- und CMO-Pinnwänden finden Sie eine gekürzte Liste von Wer
 * Ausgaben
 * Abschlüsse
 * Pipeline-Umsatz
-* Opportunies
+* Opportunitys
 * Kontakte
 * Leads
 
@@ -145,7 +145,7 @@ In den Pinnwänden für Web-Traffic, gebührenpflichtige Medien und Content Mark
 * Ausgaben
 * Abschlüsse
 * Pipeline-Umsatz
-* Opportunies
+* Opportunitys
 * Kontakte
 * Leads
 * Klicks
@@ -155,7 +155,7 @@ In den Pinnwänden für Web-Traffic, gebührenpflichtige Medien und Content Mark
 * Seitenansichten
 * Formulare
 
-**Phase**
+**Staging**
 
 _Verwendet in: Velocity_
 
@@ -173,7 +173,7 @@ _Wird verwendet in: Web Traffic_
 
 Informieren Sie sich über den Traffic einer einzelnen URL oder möglicherweise über URLs, die ein bestimmtes Wort wie &quot;Produkt&quot;enthalten.
 
-**Gewonnen**
+**Won**
 
 _Verwendet in: Velocity_
 

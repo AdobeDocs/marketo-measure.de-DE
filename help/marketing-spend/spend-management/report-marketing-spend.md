@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656737
-description: Marketing-Ausgaben für Berichte - [!DNL Marketo Measure] - Produktdokumentation
+description: Marketing-Ausgaben für Berichte - [!DNL Marketo Measure]
 title: Marketing-Ausgaben für Berichte
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Die Tabelle Marketingausgaben enthält jetzt eine neue Spalte, in der die Währung für die einzelnen Zeilen Kanal, Unterkanal und Kampagne angezeigt wird. Diese neue Spalte wird für alle Kunden angezeigt, auch wenn nicht mehrere Währungen aktiviert sind.
 
-Die Tabelle enthält nun eine Mischung verschiedener Währungen. Wenn Sie eine Summe aller Kanäle, Subkanäle oder Kampagnen in einer Währung erhalten möchten, lesen Sie bitte das Dashboard Marketing-Ausgaben .
+Die Tabelle enthält nun eine Mischung verschiedener Währungen. Informationen zum Abrufen einer Summe aller Kanäle, Subkanäle oder Kampagnen in einer Währung finden Sie im Dashboard Marketingausgaben .
 
 ## Upload-Kosten {#upload-costs}
 

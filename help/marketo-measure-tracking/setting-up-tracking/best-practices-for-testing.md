@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874722
-description: Best Practices für Tests - [!DNL Marketo Measure] - Produktdokumentation
+description: Best Practices für Tests - [!DNL Marketo Measure]
 title: Best Practices für Tests
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 33%
+source-wordcount: '181'
+ht-degree: 16%
 
 ---
 
@@ -33,4 +33,4 @@ Sie sollten alle verschiedenen Formulartypen testen, um die [!DNL Marketo Measur
 
 >[!NOTE]
 >
->Sie können einen [!DNL Marketo Measure][!DNL Marketo Measure]-Stock-Bericht wie Leads mit Touchpoints verwenden oder sich das Lead-/Kontakt-Seiten-Layout ansehen, wenn Sie Ihre Seiten-Layouts mit [!DNL Marketo Measure]-Details aktualisieren. Dies könnte einige Zeit in Anspruch nehmen, bis die Daten verarbeitet werden.
+>Sie können eine [!DNL Marketo Measure] Bestandsbericht, z. B. Leads mit [!DNL Marketo Measure] Touchpoints oder das Layout der Seite &quot;Lead/Kontakt&quot;anzeigen, wenn Sie Ihre Seitenlayouts mit [!DNL Marketo Measure] Details. Dies könnte einige Zeit in Anspruch nehmen, bis die Daten verarbeitet werden.

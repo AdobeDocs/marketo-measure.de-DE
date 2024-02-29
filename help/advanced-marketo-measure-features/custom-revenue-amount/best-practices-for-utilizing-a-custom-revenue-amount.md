@@ -1,12 +1,12 @@
 ---
-description: Best Practices für die Verwendung eines benutzerdefinierten Umsatzbetrags - [!DNL Marketo Measure] - Produktdokumentation
+description: Best Practices für die Verwendung eines benutzerdefinierten Umsatzbetrags - [!DNL Marketo Measure]
 title: Best Practices für die Verwendung eines benutzerdefinierten Umsatzbetrags
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 10%
+source-wordcount: '429'
+ht-degree: 7%
 
 ---
 
@@ -51,6 +51,6 @@ Abgesehen von einer jährlichen Überprüfung können gewisse organisatorische �
 >[!MORELIKETHIS]
 >
 >* [Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [Aktualisieren mit Data LoaderBenutzerdefiniertes Zahlenfeld](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Verwenden von Data Loader zum Aktualisieren des benutzerdefinierten Felds &quot;Betrag&quot;](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 >* [Übersicht über mehrere Währungen](/help/advanced-marketo-measure-features/multi-currency/overview.md)
 >* [Einstellungen für mehrere Währungen](/help/advanced-marketo-measure-features/multi-currency/settings.md)

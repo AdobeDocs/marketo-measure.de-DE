@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762310
-description: Synchronisieren historischer Daten - [!DNL Marketo Measure] - Produktdokumentation
+description: Synchronisieren historischer Daten - [!DNL Marketo Measure]
 title: Synchronisieren historischer Daten
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1511'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Es ist wichtig, ein ausgewogenes Bild der Attribution zu haben, um eine genaue u
 
 **Welche Granularität erwarten Sie?**
 
-Im Grunde kennen Sie nur den Kanal-, Unterkanal- und Kampagnennamen.
+Sie kennen im Wesentlichen nur den Kanal-, Unterkanal- und Kampagnennamen.
 
 **Welche Berichtsziele verfolgen Sie in Zukunft?**
 
@@ -69,13 +69,13 @@ Auf diese Weise hinzugefügte Online-Daten sind von Natur aus weniger granular a
 
 Möglicherweise ist es nicht möglich oder sinnvoll, die Anzahl der SFDC-Kampagnentypen festzulegen, um eine granulare Kanalzuordnung zu unterstützen. Daher können Sie einfach auf die Kanalebene zurückgreifen und untergeordnete Kanäle ignorieren. Wenn auch die Kanalebene nicht bekannt ist, können Sie einen Proxy-Kanal wie &quot;Historische Digitale Daten&quot;einrichten, damit Sie zumindest wissen, dass es sich um einen Online-Kontakt handelt.
 
-Wenn Sie das Kontaktpunktdatum, das für diese historischen Online-Bemühungen gepusht wird, in großem Umfang bearbeiten müssen, verwenden Sie bitte die [!DNL Marketo Measure] custom &quot;[!UICONTROL Touchpoint-Datum für Massenaktualisierung]&quot;(Dies ist als benutzerdefiniertes Feld im Campaign-Objekt in SFDC verfügbar). Wenn die Kampagne eine kurze Zeitspanne hat, wäre es möglicherweise sinnvoll, das Touchpoint-Datum in einem täglichen Tagesintervall gebündelt zu bearbeiten. Es kann jedoch sinnvoll sein, eine wöchentliche Massenaktualisierung vorzunehmen, wenn die Kampagne eine längere Zeitspanne hat. Wenn Sie die Funktion &quot;Touchpoint-Datum-Massenaktualisierung&quot;nutzen, aktualisieren Sie die Kampagnensynchronisierungsregel, um das &quot;Touchpoint-Datum des Käufers&quot;im Datumsfeld zu verwenden. Beachten Sie, dass dazu möglicherweise kreative Elemente mit Ihren Kampagnensynchronisierungsregeln verwendet werden müssen, wenn dies nur für eine Kampagne oder zwei und nicht alle gilt.
+Wenn Sie das Touchpoint-Datum, das für diese historischen Online-Bemühungen gepusht wird, in großem Umfang bearbeiten müssen, verwenden Sie die [!DNL Marketo Measure] custom &quot;[!UICONTROL Touchpoint-Datum für Massenaktualisierung]&quot;(Dies ist als benutzerdefiniertes Feld im Campaign-Objekt in SFDC verfügbar). Wenn die Kampagne eine kurze Zeitspanne hat, wäre es möglicherweise sinnvoll, das Touchpoint-Datum in einem täglichen Tagesintervall gebündelt zu bearbeiten. Es kann jedoch sinnvoll sein, eine wöchentliche Massenaktualisierung vorzunehmen, wenn die Kampagne eine längere Zeitspanne hat. Wenn Sie die Funktion &quot;Touchpoint-Datum-Massenaktualisierung&quot;verwenden, aktualisieren Sie die Kampagnensynchronisierungsregel, um das &quot;Touchpoint-Datum des Käufers&quot;im Datumsfeld zu verwenden. Beachten Sie, dass dazu möglicherweise kreative Elemente mit Ihren Kampagnensynchronisierungsregeln verwendet werden müssen, wenn dies nur für eine Kampagne oder zwei und nicht alle gilt.
 
 **Offline:**
 
-Historische Daten zu Offline-Marketing-Maßnahmen (die nicht über JavaScript verfolgt werden können) müssen ebenfalls in SFDC-Kampagnen organisiert werden. SFDC-Kampagnen sind der richtige Weg [!DNL Marketo Measure] verfolgt Offline-Bemühungen, unabhängig davon, ob es sich bei der Aktivität um eine &quot;historische&quot;oder eine &quot;aktuelle/Post-Aktivität&quot;handelt.[!DNL Marketo Measure] Implementierung&quot;folgen Sie demselben Kanal-Mapping, das Sie im ursprünglichen Offline-Kanal-Konfigurationstraining ausgewählt haben.
+Historische Daten zu Offline-Marketing-Maßnahmen (die nicht über JavaScript verfolgt werden können) müssen ebenfalls in SFDC-Kampagnen organisiert werden. SFDC-Kampagnen sind der richtige Weg [!DNL Marketo Measure] verfolgt Offline-Bemühungen, unabhängig davon, ob es sich bei der Aktivität um eine &quot;historische&quot;oder eine &quot;aktuelle/Post-Aktivität&quot;handelt.[!DNL Marketo Measure] -Implementierung&quot;folgen, folgen Sie demselben Kanal-Mapping, das Sie im ursprünglichen Offline-Kanal-Konfigurationstraining ausgewählt haben.
 
-Verwenden Sie bei Bedarf die Schaltfläche &quot;Touchpoint-Datum-Massenaktualisierung&quot;, um das Touchpoint-Datum für Kampagnenmitglieder in großem Umfang zu bearbeiten. Wenn Sie beispielsweise nach dem Eintreten des Ereignisses SFDC-Kampagnen erstellen, sollten Sie die Massenbearbeitung für das richtige Datum durchführen. Wenn Sie die Funktion &quot;Touchpoint-Datum-Massenaktualisierung&quot;nutzen, aktualisieren Sie die Kampagnensynchronisierungsregel, um das &quot;Touchpoint-Datum des Käufers&quot;im Datumsfeld zu verwenden. Beachten Sie, dass dazu möglicherweise kreative Elemente mit Ihren Kampagnensynchronisierungsregeln verwendet werden müssen, wenn dies nur für eine Kampagne oder zwei und nicht alle gilt.
+Verwenden Sie bei Bedarf die Schaltfläche &quot;Touchpoint-Datum-Massenaktualisierung&quot;, um das Touchpoint-Datum für Kampagnenmitglieder in großem Umfang zu bearbeiten. Wenn Sie beispielsweise nach dem Eintreten des Ereignisses SFDC-Kampagnen erstellen, sollten Sie die Massenbearbeitung für das richtige Datum durchführen. Wenn Sie die Funktion &quot;Touchpoint-Datum-Massenaktualisierung&quot;verwenden, aktualisieren Sie die Kampagnensynchronisierungsregel, um das &quot;Touchpoint-Datum des Käufers&quot;im Datumsfeld zu verwenden. Beachten Sie, dass dazu möglicherweise kreative Elemente mit Ihren Kampagnensynchronisierungsregeln verwendet werden müssen, wenn dies nur für eine Kampagne oder zwei und nicht alle gilt.
 
 ## Synchronisieren historischer Kampagnen in [!DNL Dynamics] {#syncing-historic-campaigns-in-dynamics}
 
@@ -117,9 +117,9 @@ Um Touchpoints für Offline-Marketing-Maßnahmen aus der Vergangenheit zu haben,
 
 | Dynamics-Kampagnentyp | Kanal | Unterkanal |
 |---|---|---|
-| Veranstaltungen - gesponserte Konferenzen | -Ereignisse | Gesponserte Konferenzen |
-| Ereignisse - Partnerereignisse | -Ereignisse | Partnerereignisse |
-| Ereignisse - gehostete Ereignisse | -Ereignisse | Gehostete Ereignisse |
+| Veranstaltungen - gesponserte Konferenzen | Ereignisse | Gesponserte Konferenzen |
+| Ereignisse - Partnerereignisse | Ereignisse | Partnerereignisse |
+| Ereignisse - gehostete Ereignisse | Ereignisse | Gehostete Ereignisse |
 | Webinar - Partner-Webinar | Webinar | Partner-Webinar |
 
 Wenn diese Daten nicht bereits in Kampagnen mit den richtigen Datumswerten organisiert sind, können Sie das Feld &quot;Touchpoint-Datum des Käufers&quot;verwenden, um das genaue Datum aus der Offline-Aktivität in der Vergangenheit widerzuspiegeln.

@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] Felder in Standard [!DNL Salesforce] Objekte - [!DNL Marketo Measure] - Produktdokumentation"
-title: "[!DNL Marketo Measure] Felder in Standard- [!DNL Salesforce] -Objekten"
+description: "[!DNL Marketo Measure] Felder in Standard [!DNL Salesforce] Objekte - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] Felder in Standard [!DNL Salesforce] Objekte"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 1%
+source-wordcount: '1292'
+ht-degree: 2%
 
 ---
 
-# [!DNL Marketo Measure] Felder in Standard-[!DNL Salesforce]-Objekten {#marketo-measure-fields-on-standard-salesforce-objects}
+# [!DNL Marketo Measure] Felder in Standard [!DNL Salesforce] Objekte {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in unserer Dokumentation, sehen aber immer noch &quot;Bizible&quot; in Ihrem CRM. Wir arbeiten daran, diese Aktualisierung durchzuführen, und das Rebranding wird sich in Kürze in Ihrem CRM widerspiegeln.
+>Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber trotzdem &quot;Bizible&quot;in Ihrem CRM. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
 Erfahren Sie mehr über die verschiedenen [!DNL Marketo Measure] Felder, die zu [!DNL Salesforce] Standardobjekte
 
@@ -137,7 +137,7 @@ Dies wird für unser Mapping Lead-zu-Konto für unsere ABM-Funktion verwendet. D
 
 ## Opportunity {#opportunity}
 
-[!DNL Marketo Measure] Opportunity Amount: Dieses Feld wird in dem Szenario verwendet, in dem ein benutzerdefiniertes Zahlenfeld für die Opportunity genutzt wird. Dieser benutzerdefinierte Feldwert wird [!DNL Marketo Measure] Opportunity Amount using a workflow, and then read this field for our Revenue attribution fields on the Buyer Attribution Touchpoint object.
+[!DNL Marketo Measure] Opportunity Amount: Dieses Feld wird in dem Szenario verwendet, in dem ein benutzerdefiniertes Zahlenfeld für die Option verwendet wird. Wir ordnen diesen benutzerdefinierten Feldwert zu [!DNL Marketo Measure] Opportunity Amount using a workflow, and then read this field for our Revenue attribution fields on the Buyer Attribution Touchpoint object.
 
 ## Aktivität {#activity}
 
