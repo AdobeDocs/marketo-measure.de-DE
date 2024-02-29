@@ -4,7 +4,7 @@ description: Einstellungen - [!DNL Marketo Measure] - Produktdokumentation
 title: Einstellungen
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Einstellungen {#settings}
 
-Diese Funktion ist mit zwei separaten Feature-Bit verknüpft, die sich auf der Registerkarte Allgemeine Einstellungen des CRM-Systems befinden: Mehrere Währungen und erweiterte Währungen.
+Diese Funktion ist mit zwei verschiedenen Funktionen verknüpft, die sich im CRM-System [!UICONTROL Allgemeine Einstellungen] Registerkarte: Mehrere Währungen und erweiterte Währungen.
 
 **Mehrere Währungen**: Aktiviert, wenn der Kunde mehr als eine Währung verwendet.
 

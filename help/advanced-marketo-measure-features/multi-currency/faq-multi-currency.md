@@ -4,7 +4,7 @@ description: Häufig gestellte Fragen (mehrere Währungen) - [!DNL Marketo Measu
 title: Häufig gestellte Fragen (mehrere Währungen)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 **Woher weiß ich, welches Feature-Bit aktiviert werden soll?**
 
-Beachten Sie, dass es für diese Funktion zwei verschiedene Feature Bit gibt. Beide befinden sich im Tab Allgemein des CRM-Abschnitts unter Einstellungen: Mehrere Währungen und Erweiterte Währungen. Mehrere Währungen sollten aktiviert werden, wenn der Kunde mehr als eine Währung verwendet, während die zusätzliche Funktion und die erweiterten Währungen aktiviert werden können, wenn der Kunde [!DNL Salesforce]Funktion &quot;Erweiterte Währungsverwaltung&quot;, bei der der Benutzer einen zeitbasierten Bereich für Konversionsraten festlegen kann.
+Beachten Sie, dass es für diese Funktion zwei verschiedene Feature Bit gibt. Beide befinden sich im [!UICONTROL Allgemein] im Bereich CRM unter Einstellungen: Mehrere Währungen und erweiterte Währungen. Mehrere Währungen sollten aktiviert werden, wenn der Kunde mehr als eine Währung verwendet, während die zusätzliche Funktion und die erweiterten Währungen aktiviert werden können, wenn der Kunde [!DNL Salesforce]Funktion &quot;Erweiterte Währungsverwaltung&quot;, bei der der Benutzer einen zeitbasierten Bereich für Konversionsraten festlegen kann.
 
 Leider wissen wir nicht, wann ein Kunde zwischen &quot;Einfach&quot;und &quot;Erweitert&quot;wechselt, wenn Advanced bereits aktiviert ist. Aus diesem Grund muss der Kunde die Einstellung Erweiterte Währungen manuell an seine CRM-Einstellung anpassen. Dies sollte für den Kunden sichtbar sein, wenn die Konversionen falsch sind. Das bedeutet, dass wir nicht wussten, welcher Konversionsgrad angewendet werden sollte.
 

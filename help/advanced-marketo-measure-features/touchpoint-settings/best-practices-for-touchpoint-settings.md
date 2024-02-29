@@ -3,9 +3,9 @@ description: Best Practices für Touchpoint-Einstellungen - [!DNL Marketo Measur
 title: Best Practices für Touchpoint-Einstellungen
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '658'
 ht-degree: 6%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 6%
 
 ## Überblick {#overview}
 
-Im Abschnitt &quot;Touchpoint-Einstellungen&quot;Ihrer [!DNL Marketo Measure] Mit der -App können Sie Regeln festlegen, die Touchpoints unterdrücken oder aus Ihrem [!DNL Marketo Measure] Daten und verwandten Systemen. Diese Regeln können Ihnen dabei helfen, bestimmte Datensätze zu isolieren, die nicht in Ihren Kunden-Touchpoint-Daten dargestellt werden müssen oder die Sie nicht ohne Störung des Trackings und der Datenerfassung Attributionszuschüsse erhalten möchten.
+Die [!UICONTROL Touchpoint-Einstellungen] -Abschnitt Ihres [!DNL Marketo Measure] Mit der -App können Sie Regeln festlegen, die Touchpoints unterdrücken oder aus Ihrem [!DNL Marketo Measure] Daten und verwandten Systemen. Diese Regeln können Ihnen dabei helfen, bestimmte Datensätze zu isolieren, die nicht in Ihren Kunden-Touchpoint-Daten dargestellt werden müssen oder die Sie nicht ohne Störung des Trackings und der Datenerfassung Attributionszuschüsse erhalten möchten.
 
 **Touchpoint-Entfernung** bedeutet [!DNL Marketo Measure] löscht (d. h. entfernt) alle Touchpoints aus Ihrem CRM-System, die den Regelkriterien entsprechen. Die Daten können in der Variablen [!DNL Marketo Measure] ROI-Dashboard (Discover), jedoch nicht im CRM angezeigt. Wird häufig verwendet, um Stress bei Ihren Datenspeicherbeschränkungen in Ihrem CRM-System zu verringern.
 
 **Touchpoint-Unterdrückung** ähnelt der Entfernung von Touchpoints, die Daten können jedoch NICHT im ROI-Dashboard gemeldet werden. Auf unterdrückte Touchpoints kann im CRM oder Discover nicht zugegriffen werden. Durch die Unterdrückung wird sichergestellt, dass Ihre CRM-Daten und Ihre Discover-Daten übereinstimmen. Wird häufig verwendet, um festzulegen, welche Touchpoint-Daten Sie Attributionsgutschriften erhalten möchten.
 
-In der [!DNL Marketo Measure] App, wird der Abschnitt &quot;Touchpoint-Einstellungen&quot;in vier wichtige Abschnitte unterteilt. Jeder Abschnitt unterdrückt oder entfernt einen anderen Datensatz. Verwenden Sie den unten stehenden Schlüssel, um sicherzustellen, dass Ihre Regeln die gewünschten Touchpoints unterdrücken oder entfernen.
+In der [!DNL Marketo Measure] App, die [!UICONTROL Touchpoint-Einstellungen] wird in vier Schlüsselabschnitte unterteilt. Jeder Abschnitt unterdrückt oder entfernt einen anderen Datensatz. Verwenden Sie den unten stehenden Schlüssel, um sicherzustellen, dass Ihre Regeln die gewünschten Touchpoints unterdrücken oder entfernen.
 
 * Entfernen Sie Buyer Touchpoints aus dem CRM
    * Verwenden Sie diesen Abschnitt, wenn Sie eine Regel erstellen möchten, die **Touchpoint-Daten des Käufers** (die Touchpoints, die mit der Person verknüpft sind, nicht die Gelegenheit) aus Ihrem **CRM**
@@ -43,14 +43,14 @@ Beachten Sie die folgenden Best Practices, unabhängig davon, ob Sie zum ersten 
 
 ## Best Practice für die Wartung {#best-practice-for-maintenance}
 
-Die Überprüfung Ihrer Touchpoint-Einstellungen ist wichtig, da sie Ihre Daten drastisch ändern können, wenn sie nicht richtig definiert sind. Als Best Practice empfehlen wir, Ihre Touchpoint-Einstellungen mindestens zweimal jährlich zu überprüfen. Dies ist eine einfache visuelle Überprüfung der Regeln, die im Abschnitt &quot;Touchpoint-Einstellungen&quot;Ihres [!DNL Marketo Measure] App. Diese Überprüfung gibt Ihnen die Gewissheit, dass Ihre Touchpoint-Einstellungen aktuell sind und dass alle Änderungen entsprechend vorgenommen werden können.
+Überprüfen Sie Ihre [!UICONTROL Touchpoint-Einstellungen] ist wichtig, da sie Ihre Daten drastisch ändern können, wenn sie nicht richtig definiert sind. Als Best Practice empfehlen wir, Ihre Touchpoint-Einstellungen mindestens zweimal jährlich zu überprüfen. Dies ist eine einfache visuelle Überprüfung der Regeln, die im Abschnitt &quot;Touchpoint-Einstellungen&quot;Ihres [!DNL Marketo Measure] App. Diese Überprüfung gibt Ihnen die Gewissheit, dass Ihre Touchpoint-Einstellungen aktuell sind und dass alle Änderungen entsprechend vorgenommen werden können.
 
-Die Gründe für die Überprüfung Ihrer Touchpoint-Einstellungen sind ...
+Gründe für die Überprüfung Ihrer [!UICONTROL Touchpoint] Zu den Einstellungen gehören ...
 
 * Wechsel in Ihrem Marketing-Team
 * Wesentliche Aktualisierungen der Website-Struktur
 * Identifizierung von Touchpoint-Daten, die nicht mehr nützlich sind
-   * Jedes Mal, wenn Sie auf Touchpoint-Daten treffen, von denen Sie denken, dass sie keine Zuordnungsgutschriften erhalten sollten, sind Touchpoint-Unterdrückungsregeln die Funktion, Ihre Daten so sauber und präzise wie möglich zu gewährleisten.
+   * Jedes Mal, wenn Sie auf Touchpoint-Daten treffen, von denen Sie denken, dass sie keine Attribution erhalten sollten, [!DNL touchpoint suppression] -Regeln dienen dazu, sicherzustellen, dass Ihre Daten so sauber und genau wie möglich sind.
 * Änderungen an den Feldern, mit denen Sie Unterdrückungs- oder Löschregeln definieren
 
 >[!MORELIKETHIS]
@@ -58,3 +58,4 @@ Die Gründe für die Überprüfung Ihrer Touchpoint-Einstellungen sind ...
 >* [Entfernung und Unterdrückung von Touchpoints - Übersicht](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
 >* [Warum Touchpoints nie gelöscht werden sollten](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
 >* [Käufer-Touchpoints (BT) vs. Buyer Attribution Touchpoints (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+

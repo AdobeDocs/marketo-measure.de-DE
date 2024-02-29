@@ -3,10 +3,10 @@ description: Best Practices für die Segmentierung – [!DNL Marketo Measure] �
 title: Best Practices für die Segmentierung
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 93%
+source-wordcount: '451'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ Die Segmentierung ist für die Nutzung Ihres [!DNL Marketo Measure]-Kontos von e
 
 Bei der Push-Übertragung nach [!DNL Salesforce] werden Segmentwerte in das Feld „Segment“ geschrieben, die sich in einem beliebigen Buyer-Touchpoint-Berichtstyp befinden können. Dies ermöglicht einheitliche Berichte über beide Plattformen hinweg. Das Segment findet sich auch in den „Touchpoint-Details“ eines beliebigen Touchpoints.
 
-Bei der Push-Übertragung nach Discover werden Segmente auf allen Pinnwänden als verfügbare Filter im Dropdown-Menü „Filter“ angezeigt.
+Wenn an [!UICONTROL Discover], werden Segmente als verfügbare Filter im Dropdown-Menü Filter angezeigt, das sich auf allen Pinnwänden befindet.
 
 ## Best Practices {#best-practice}
 
@@ -30,7 +30,7 @@ Beachten Sie die folgenden Best Practices, unabhängig davon, ob die Segmentieru
 * Richten Sie den Segmentnamen an die Nomenklatur Ihres Unternehmens aus, d. h. Kategorie = Filtername, Segment = Filterwert.
 * Verwenden Sie keine Formelfelder in Ihren Regeln
 * Erstellen Sie die Segmentierung möglichst für Lead/Kontakt und für Opportunity, um eine Verwendung über den gesamten Trichter hinweg sicherzustellen
-   * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr Standard-Dashboard-Objekt auf &quot;Kontakt&quot;festgelegt haben, verwenden Sie die folgenden beiden für &quot;Lead&quot;spezifischen Felder ([Mehr dazu hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr Standard-Dashboard-Objekt auf &quot;Kontakt&quot;festgelegt haben, verwenden Sie nicht die folgenden beiden für &quot;Lead&quot;([Mehr dazu hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
    * Nicht jede Segmentkategorie wird über den gesamten Trichter ausgerichtet

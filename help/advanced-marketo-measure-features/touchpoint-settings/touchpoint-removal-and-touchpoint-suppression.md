@@ -4,9 +4,9 @@ description: Entfernen von Touchpoints und Unterdrückung von Touchpoints - [!DN
 title: Entfernen von Touchpoints und Unterdrückung von Touchpoints
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Wählen Sie aus einer Liste von Operatoren aus, die sich auf den nächsten Satz 
 
 >[!TIP]
 >
->Lassen Sie das Feld Wert leer, um einen leeren oder NULL-Wert in einem Feld zu berücksichtigen. Dabei werden Szenarien berücksichtigt, z. B. die Auswertung mit einem Touchpoint ohne Formular-URL.
+>Um einen leeren oder NULL-Wert in einem Feld zu berücksichtigen, lassen Sie einfach die [!UICONTROL Wert] leer. Dabei werden Szenarien berücksichtigt, z. B. die Auswertung mit einem Touchpoint ohne Formular-URL.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Oder fügen Sie neue Anweisungen außerhalb der Gruppe hinzu, um die &quot;OR&qu
 
 ![](assets/2.png)
 
-`3)` Wenn Ihre Regeln komplex werden und Sie Gruppen neu erstellen und kleine Änderungen an jeder Anweisung vornehmen müssen, verwenden Sie die Option Klonen , um die Dinge zu vereinfachen.
+`3)` Wenn Ihre Regeln komplex werden und Sie Gruppen neu erstellen und kleine Änderungen an jeder Anweisung vornehmen müssen, verwenden Sie die [!UICONTROL Klonen] -Option, um die Dinge zu vereinfachen.
 
 ![](assets/3.png)
 
@@ -65,12 +65,12 @@ Wenn du einen Fehler machst, mach dir keine Sorgen. Sie können auch einzelne Ze
 
 ![](assets/5.png)
 
-Speichern und verarbeiten Sie zum Abschluss Ihre Regeln. Wenn Sie viele Änderungen vornehmen, stellen Sie sicher, dass Sie Ihre Änderungen auf dem Weg speichern. [!DNL Marketo Measure] beginnt nicht mit dem Entfernen Ihrer Touchpoints, bis Sie auf die Schaltfläche **Speichern und verarbeiten** Schaltfläche.
+bis zum Ende: [!UICONTROL Speichern und verarbeiten] Ihre Regeln. Wenn Sie viele Änderungen vornehmen, stellen Sie sicher, dass Sie Ihre Änderungen auf dem Weg speichern. [!DNL Marketo Measure] beginnt nicht mit dem Entfernen Ihrer Touchpoints, bis Sie auf die Schaltfläche **Speichern und verarbeiten** Schaltfläche.
 
-| **Benutzerin oder Benutzer** | **Anwendungsfall** |
+| **Operator** | **Anwendungsfall** |
 |---|---|
 | ist gleich | Einzelwert - genaue Übereinstimmung |
-| enthält | Einzelwert - enthält Wert |
+| Enthält | Einzelwert - enthält Wert |
 | Entspricht allen | Mehrere Werte - genaue Übereinstimmung |
 | Entspricht allen (enthält) | Mehrere Werte - &#42;value&#42;, &#42;Wert, &#42;value&#42; |
 

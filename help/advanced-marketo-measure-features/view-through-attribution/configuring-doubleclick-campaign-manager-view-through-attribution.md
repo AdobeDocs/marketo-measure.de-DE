@@ -4,9 +4,9 @@ description: Konfiguration der doppelten Klick-Kampagnen-Manager-Ansicht über A
 title: Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '318'
 ht-degree: 4%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Wenn Sie die [!DNL Marketo Measure] und der DoubleClick Campaign Manager-Integration benötigen wir eine [API-Verbindung](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) so können wir Details der Kampagnen und kreativen Inhalte herunterladen, um die Anzeigen zu lösen.
+>Wenn Sie die [!DNL Marketo Measure] und [!DNL DoubleClick Campaign Manager] Integration, benötigen wir eine [API-Verbindung](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) so können wir Details der Kampagnen und kreativen Inhalte herunterladen, um die Anzeigen zu lösen.
 
-Um genauere Einblicke aus der Ansicht über das Tracking mit Doubleclick Campaign Manager zu erhalten, muss unser Tracking-Pixel konfiguriert werden.
+So erhalten Sie genauere Einblicke aus der Ansicht durch das Tracking mit [!DNL Doubleclick Campaign Manager], muss unser Tracking-Pixel konfiguriert werden.
 
 Bitte [Klicken Sie hier](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) Weitere Informationen zu [!DNL Marketo Measure] Durchsicht der Attributionsfunktionen.
 
@@ -29,7 +29,7 @@ Wenn Sie eine Hierarchie der übergeordneten Elemente und untergeordneten Elemen
 
 ## Hinzufügen des Bild-Tags {#how-to-add-the-image-tag}
 
-Sie fügen das Tag unter der Einstellung &quot;Advertiser&quot;in DoubleClick hinzu und erstellen ein Impressionsereignis-Tag.
+Sie fügen das Tag hinzu in [!DNL Doubleclick] unter der Einstellung &quot;Advertiser&quot;und Sie möchten ein Impressionsereignis-Tag erstellen.
 
 1. Fügen Sie den folgenden Code als 1x1-Bildpixel hinzu.
 
@@ -37,7 +37,7 @@ Sie fügen das Tag unter der Einstellung &quot;Advertiser&quot;in DoubleClick hi
 
 1. Vergewissern Sie sich nach dem Hinzufügen, dass die Trennzeichen wie folgt zugeordnet sind. Dies sollte automatisch erfolgen, sobald das -Tag angewendet wird:
 
-   v = %eadv! Advertiser-ID erweitern\
+   v = %eadv! [!DNL Expand] Advertiser-ID\
    a = %eaid! Anzeigen-ID erweitern\
    c = %ecid! Creative-ID erweitern\
    s = %esid! Erweitern der Site-ID\

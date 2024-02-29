@@ -4,9 +4,9 @@ description: Touchpoint-Felder - [!DNL Marketo Measure] - Produktdokumentation
 title: Touchpoint Felder
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1956'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Um ein berechnetes Feld zu erstellen, sollten Sie beachten, dass ein Benutzer dr
 
 Auszüge
 
-Der Operator &quot;extracts&quot;ruft den Wert aus einem Feld von einem anderen Speicherort ab, z. B. aus einem Kampagnenfeld, einem Lead-Feld oder einem erweiterten Anwendungsfall. [Benutzerdefinierte Parameter aus der Landingpage extrahieren](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} Nr. 2).
+Die [!UICONTROL extrakte] -Operator ruft den Wert aus einem Feld von einem anderen Speicherort ab, z. B. einem Kampagnenfeld, einem Lead-Feld oder einem erweiterten Anwendungsfall. [Benutzerdefinierte Parameter aus der Landingpage extrahieren](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} Nr. 2).
 
 **Beispiel 1**
 
@@ -123,7 +123,7 @@ Da Ihre Landingpages komplizierter werden und Sie mehrere Tracking-Parameter hab
 
 **Ordnet**
 
-Die Zuordnung zum -Operator erstellt eine Tabelle mit Werten, die übersetzt oder in einen anderen Wert zusammengefasst werden müssen. Normalerweise hat dies die Form eines Schlüsselwerts, bei dem ein Code einen benutzerfreundlichen Namen darstellt und diesem Anzeigenamen zugeordnet werden muss.
+Die [!UICONTROL Zuordnung zu] erstellt eine Tabelle mit Werten, die übersetzt oder in einen anderen Wert zusammengefasst werden müssen. Normalerweise hat dies die Form eines Schlüsselwerts, bei dem ein Code einen benutzerfreundlichen Namen darstellt und diesem Anzeigenamen zugeordnet werden muss.
 
 **Beispiel 1**
 
@@ -145,18 +145,18 @@ Nachdem wir gelernt haben, wie wir Felder extrahieren und zuordnen können, lass
    * **(** markiert den Beginn der Extraktion
 
       * Beachten Sie, dass nur die ersten Ziffern die offene Klammer aufweisen, da wir nur die 4 extrahieren
-
    * **)** markiert das Ende der Extraktion
 
       * Beachten Sie, dass nur die ersten Ziffern die geschlossene Klammer aufweisen, da wir nur die 4 extrahieren.
-
    * **\d** sagt uns, dass wir eine &quot;Ziffer&quot;extrahieren
    * **{2}** ist die Anzahl der Zeichen, die wir extrahieren
 
-* Klicks [!UICONTROL Speichern]. Sie müssen Ihr neues Feld speichern, bevor es für die nächste Regel verwendet werden kann!
+
+
+* Klicken Sie auf [!UICONTROL Speichern]. Sie müssen Ihr neues Feld speichern, bevor es für die nächste Regel verwendet werden kann!
 * Als Nächstes möchten wir alle möglichen Werte für die ersten Ziffern den Anzeigenamen zuordnen.
 * Erstellen Sie ein berechnetes Feld und beschriften Sie es mit &quot;Region_Name&quot;.
-* Definieren Sie die Regel, indem Sie mit der Suche nach Ihrem extrahierten Feld beginnen. In diesem Fall Touchpoint.Region
+* Definieren Sie die Regel, indem Sie mit der Suche nach Ihrem extrahierten Feld beginnen. In diesem Fall [!DNL Touchpoint.Region]
 * Verwenden Sie den Operator &quot;[!UICONTROL Zuordnung zu]&quot;, da wir für jede Zahl eine Zuordnung zu ihrem Wert erstellen möchten
 * Sie erhalten eine Tabelle, in der Sie die einzelnen Zuordnungen auflisten können. Am Ende sieht es ungefähr so aus:
 * Basierend auf der Zuordnung und der obigen URL lautet der &quot;Region_Value&quot; für einen Touchpoint mit dieser Landingpage &quot;EMEA&quot;.
@@ -171,7 +171,7 @@ Nachdem wir gelernt haben, wie wir Felder extrahieren und zuordnen können, lass
 
 **Konkatenate**
 
-Der Operator Verkettet kombiniert Werte aus mehreren Feldern zu einem Feld. Dies ist nützlich, um einen benutzerdefinierten Wert zu erstellen, der Daten über verschiedene Felder hinweg abruft, um
+Die [!UICONTROL Verketten] -Operator kombiniert Werte aus mehreren Feldern in einem Feld. Dies ist nützlich, um einen benutzerdefinierten Wert zu erstellen, der Daten über verschiedene Felder hinweg abruft, um
 
 **Beispiel 1**
 
@@ -221,7 +221,7 @@ Es ist zusätzlicher Arbeitsaufwand erforderlich, um die neuen Felder im [!DNL M
 
 **Wie kann ich überprüfen, ob mein Extraktionsausdruck gültig ist, und den richtigen Wert abrufen?**
 
-Es gibt ein Online-Tool ([https://regex101.com/](https://regex101.com/){target="_blank"}), die Sie ausführen und den Ausdruck testen können. Der Ausdruck wird grün angezeigt, wenn er gültig ist, oder rot, wenn er ungültig ist. Außerdem ist das Erklärungsfeld oben rechts hilfreich und teilt Ihnen mit, was Sie extrahieren.
+Es gibt ein Online-Tool ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}), die Sie ausführen und den Ausdruck testen können. Der Ausdruck wird grün angezeigt, wenn er gültig ist, oder rot, wenn er ungültig ist. Außerdem wird die [!UICONTROL Erläuterung] oben rechts ist hilfreich und teilt Ihnen mit, was Sie extrahieren.
 
 ![](assets/twelve.png)
 
