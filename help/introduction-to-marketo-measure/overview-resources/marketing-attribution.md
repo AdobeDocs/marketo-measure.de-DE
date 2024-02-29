@@ -4,10 +4,10 @@ description: Marketing Attribution - Marketo Measure - Produktdokumentation
 title: Marketing-Zuordnung
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+source-git-commit: 204340c77a173c3e8fd87b65ed47a1a0dbc35880
+workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Marketo Measure gibt Marketing-Experten einen Einblick, welche Marketing-Maßnah
 
 **Marketing-Attribution** ist der Prozess der Zuweisung von Umsatzgutschriften an einen Marketing-Touchpoint. Dies geschieht, indem die gesamte Journey eines potenziellen Kunden verfolgt wird, angefangen bei der ersten Interaktion mit Ihrem Unternehmen bis zum Abschluss des Deals. Der durch das Geschäft generierte Umsatz wird den Marketing-Touchpoints zugeordnet, die den Verkauf angetrieben haben. Die Höhe der einem Touchpoint gewährten Umsatzgutschriften hängt davon ab, inwieweit dieser Touchpoint die Kaufentscheidung des Kunden beeinflusst hat.
 
-**Touchpoints** Beziehen Sie in Ihre Online- oder Offline-Marketing-Maßnahmen die Interaktionen ein Interessent/Lead. Es gibt vier **essentielle **Touchpoints** die in der Marketing-Attribution berücksichtigt werden. Sie spiegeln die verschiedenen Phasen in der Journey des Kunden wider. Diese wichtigen Touchpoints, auch als **Meilenstein-Touchpoints** bezeichnet, sind: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won Deal (CW).
+**Touchpoints** Beziehen Sie in Ihre Online- oder Offline-Marketing-Maßnahmen die Interaktionen ein Interessent/Lead. Es gibt vier **wichtige Touchpoints** die in der Marketing-Attribution berücksichtigt werden. Sie spiegeln die verschiedenen Phasen in der Journey des Kunden wider. Diese wichtigen Touchpoints, auch als **Meilenstein-Touchpoints** bezeichnet, sind: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won Deal (CW).
 
 ![](assets/1.png)
 
