@@ -2,9 +2,9 @@
 description: Interaktions-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Interaktions-Dashboard
 feature: Reporting
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Fragen zu den Antworten des Dashboards:
 
 * Wie viele Leute waren verlobt? Wie hoch ist die durchschnittliche Touchanzahl pro engagierter Person?
 * Wie unterscheidet sich die Anzahl der Touchpoints von Personen, die innerhalb eines bestimmten Kanals/Subkanals/einer bestimmten Kampagne auf einen Kontakt geklickt haben?
-* Wie viele Touchpoints gab es von einem bestimmten Kanal oder Subkanälen? Wie hat sich das im Laufe der Zeit verändert?
+* Wie viele Touchpoints gab es in einem bestimmten Kanal oder Subkanal? Wie hat sich das im Laufe der Zeit verändert?
 
 >[!NOTE]
 >

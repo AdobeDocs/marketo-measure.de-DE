@@ -4,22 +4,22 @@ description: AJAX-Formularverarbeitung - [!DNL Marketo Measure]
 title: AJAX-Formularverarbeitung
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '313'
 ht-degree: 1%
 
 ---
 
 # AJAX-Formularverarbeitung {#ajax-form-handling}
 
-So melden Sie Kundenkonversionen manuell in [!DNL Marketo Measure]haben wir eine sehr einfache API bereitgestellt, die Sie verwenden können. Diese beiden JavaScript-APIs sind automatisch auf Ihrer Site verfügbar, wenn Sie unseren Trackingcode darauf haben. Es ist nicht erforderlich, etwas Besonderes zu tun, um darauf zuzugreifen.
+So melden Sie Kundenkonversionen manuell in [!DNL Marketo Measure], gibt es eine einfache API, die Sie verwenden können. Diese beiden JavaScript-APIs sind automatisch auf Ihrer Site verfügbar, wenn Sie Trackingcode darauf haben. Es ist nicht erforderlich, etwas Besonderes zu tun, um darauf zuzugreifen.
 
 ## Szenario 1: HTML-Formular mit AJAX Senden {#scenario-html-form-with-an-ajax-submit}
 
 Wenn Sie Formulare mit AJAX (oder einem anderen Mechanismus) verwenden, um Konvertierungsdaten vom Client an unsere Server zu senden, [!DNL Marketo Measure] möglicherweise die Kundenkonversion über keinen der von uns überwachten Standardpfade kennen. In diesem Szenario können wir eine einfache API verwenden (siehe unten).
 
-Wenn Sie Ihre eigenen Formularübermittlungen bearbeiten, können Sie explizit [!DNL Marketo Measure] aus dem Javascript. [!DNL Marketo Measure] erfasst alle relevanten Informationen aus dem Formular und veröffentlicht sie asynchron auf unseren Servern.
+Wenn Sie Ihre eigenen Formularübermittlungen bearbeiten, können Sie explizit [!DNL Marketo Measure] aus dem JavaScript. [!DNL Marketo Measure] erfasst alle relevanten Informationen aus dem Formular und veröffentlicht sie asynchron auf unseren Servern.
 
 **Nachfolgend finden Sie ein Codebeispiel, das JQuery verwendet (vorausgesetzt, die ID im Formular lautet &quot;formId&quot;):**
 
@@ -62,7 +62,7 @@ In diesem Code wird die [!UICONTROL email] -Feld erforderlich ist. [!DNL Marketo
 
 ## Szenario 3 - Bericht zu Benutzerinformationen von der Dankeseite {#scenario-report-user-information-from-the-thank-you-page}
 
-In einigen Fällen ist es bequemer, die Lead-Informationen an [!DNL Marketo Measure] von der Dankeseite aus, nachdem das Formular gesendet wurde. Die einfachste Möglichkeit, diese Informationen zu melden, besteht darin, der Seite ein ausgeblendetes Element hinzuzufügen, das Informationen aus der Formularübermittlung enthält, und [!DNL Bizible.js] liest diese Informationen, wenn die Dankeseite geladen wurde.
+Manchmal ist es einfacher, die Lead-Informationen an zu melden. [!DNL Marketo Measure] von der Dankeseite aus, nachdem das Formular gesendet wurde. Die einfachste Möglichkeit, diese Informationen zu melden, besteht darin, der Seite ein ausgeblendetes Element hinzuzufügen, das Informationen aus der Formularübermittlung enthält, und [!DNL Bizible.js] liest diese Informationen, wenn die Seite &quot;Vielen Dank!&quot;geladen wurde.
 
 **Beispiel:**
 

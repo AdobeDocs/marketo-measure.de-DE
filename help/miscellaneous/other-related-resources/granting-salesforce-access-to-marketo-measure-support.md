@@ -4,9 +4,9 @@ description: Gewährung [!DNL Salesforce] Zugriff auf [!DNL Marketo Measure] Sup
 title: Gewährung [!DNL Salesforce] Zugriff auf Marketo Measure-Support
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
@@ -19,15 +19,15 @@ Die Gewährung des Anmeldezugriffs unterscheidet sich geringfügig in Abhängigk
 
 ## Gewähren des Anmeldezugriffs in Salesforce Classic {#granting-login-access-in-salesforce-classic}
 
-Je nach Organisation kann die [!UICONTROL Einrichtung] wird entweder oben rechts auf der Seite neben Ihrem Namen angezeigt oder als Dropdown-Option angezeigt, wenn Sie auf Ihren Namen klicken.
+Je nach Organisation kann die [!UICONTROL Einrichtung] befindet sich entweder oben rechts auf der Seite neben Ihrem Namen oder wird als Dropdown-Option angezeigt, wenn Sie auf Ihren Namen klicken.
 
 1. So greifen Sie auf die **Gewähren des Anmeldezugriffs** Seite in [!DNL Salesforce Classic] Benutzeroberfläche:
 
-   * Klicken Sie auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Meine personenbezogenen Daten]** > **[!UICONTROL Gewähren des Anmeldezugriffs]**.
+   * Klicks **[!UICONTROL Einrichtung]** > **[!UICONTROL Meine personenbezogenen Daten]** > **[!UICONTROL Gewähren des Anmeldezugriffs]**.
 
      ODER
 
-   * Klicken Sie auf `<your name>` > **[!UICONTROL Meine Einstellungen]** > **[!UICONTROL Persönlich]** > **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
+   * Klicks `<your name>` > **[!UICONTROL Meine Einstellungen]** > **[!UICONTROL Persönlich]** > **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
 
 1. Legen Sie das Zugriffsablaufdatum für [!UICONTROL Marketo Measure-Support]. Zur technischen Fehlerbehebung wird empfohlen, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

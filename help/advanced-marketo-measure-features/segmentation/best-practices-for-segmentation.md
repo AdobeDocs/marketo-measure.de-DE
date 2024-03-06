@@ -3,10 +3,10 @@ description: Best Practices für die Segmentierung - [!DNL Marketo Measure]
 title: Best Practices für die Segmentierung
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 87%
+source-wordcount: '450'
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ Wenn an [!UICONTROL Discover], werden Segmente als verfügbare Filter im Dropdow
 
 ## Best Practices {#best-practice}
 
-Beachten Sie die folgenden Best Practices, unabhängig davon, ob die Segmentierung zum ersten Mal definiert oder nur die zuvor eingerichtete Segmentierung überprüft wird.
+Beachten Sie die folgenden Best Practices, unabhängig davon, ob Sie die Segmentierung zum ersten Mal definieren oder nur die zuvor eingerichtete Segmentierung überprüfen.
 
 * Achten Sie auf Einfachheit. 
 * Richten Sie den Segmentnamen an die Nomenklatur Ihres Unternehmens aus, d. h. Kategorie = Filtername, Segment = Filterwert.

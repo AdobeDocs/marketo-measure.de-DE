@@ -4,16 +4,16 @@ description: "[!DNL Marketo Engage] Aktivitätenintegration - [!DNL Marketo Meas
 title: "[!DNL Marketo Engage] Aktivitätenintegration"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Engage] Aktivitätsintegration {#marketo-engage-activities-integration}
 
-Im Rahmen der Gesamtübersicht [!DNL Marketo Measure] und [!DNL Marketo Engage] Bei der Integration spielt diese Anstrengung, Marketo-Aktivitäten zu nutzen, eine große Rolle. Über Marketo-Aktivitäten verfolgt das System Ereignisse wie &quot;Klick-E-Mail&quot;, &quot;Bewertung ändern&quot;oder &quot;Status ändern&quot;in der Progression - diese Aktivitätstypen können heruntergestuft und definiert werden, um eine Teilmenge auszuwählen, die für Touchpoints geeignet ist. Sobald Touchpoints für diese Aktivitäten erstellt wurden, werden sie in der Interaktions-Journey verfolgt und zusammen mit Ihren anderen Marketingkanälen wie Paid Search oder Partner Marketing gemessen.
+Im Rahmen der Gesamtübersicht [!DNL Marketo Measure] und [!DNL Marketo Engage] Bei der Integration spielt diese Anstrengung, Marketo-Aktivitäten zu nutzen, eine große Rolle. Durch Marketo-Aktivitäten verfolgt das System Ereignisse wie `Click Email`, `Change Score` oder `Change Status in Progression` - diese Aktivitätstypen können heruntergestuft und definiert werden, um eine Teilmenge auszuwählen, die für Touchpoints geeignet ist. Sobald Touchpoints für diese Aktivitäten erstellt wurden, werden sie in der Interaktions-Journey verfolgt und zusammen mit Ihren anderen Marketingkanälen wie Paid Search oder Partner Marketing gemessen.
 
 ## Anforderungen {#requirements}
 
@@ -32,17 +32,17 @@ Im Rahmen der Gesamtübersicht [!DNL Marketo Measure] und [!DNL Marketo Engage] 
 
    ![](assets/two-1.png)
 
-   Zunächst müssen Sie die Liste der Aktivitätstypen auswählen, für die Sie Regeln erstellen möchten. Es ist keine große Anzahl von Aktivitätstypen erforderlich. Wir empfehlen Ihnen jedoch auch, Ihre Touchpoints nicht zu überlasten und die Wichtigkeit wichtiger Meilensteine zu verwässern. Daher benötigen Sie möglicherweise nicht mehr als fünf Aktivitätstypen, um die relevanten Interaktionen zu verfolgen.
+   Zunächst müssen Sie die Liste der Aktivitätstypen auswählen, für die Sie Regeln erstellen möchten. Es ist keine große Anzahl von Aktivitätstypen erforderlich. Es wird jedoch empfohlen, die Touchpoints nicht zu überlasten und die Wichtigkeit wichtiger Meilensteine zu verwässern. Daher benötigen Sie möglicherweise nicht mehr als fünf Aktivitätstypen, um die relevanten Interaktionen zu verfolgen.
 
 1. Klicken Sie auf das Dropdownmenü unter [!UICONTROL Aktivitätstypen auswählen] , um die verschiedenen Typen auszuwählen.
 
    ![](assets/three-1.png)
 
-1. Sobald alle gewünschten Aktivitäten ausgewählt sind, werden sie auch in Ihrer [!UICONTROL Liste der ausgewählten Aktivitäten] sowie unter [!UICONTROL Regeln definieren].
+1. Wenn alle gewünschten Aktivitäten ausgewählt sind, werden sie in Ihrer [!UICONTROL Liste der ausgewählten Aktivitäten] und [!UICONTROL Regeln definieren].
 
    ![](assets/four-1.png)
 
-1. Für jeden Aktivitätstyp müssen Sie eine oder mehrere Regeln definieren, die bestimmen, welche Datensätze für Touchpoints zulässig sind. In unserem Beispiel wird eine Regel für den Aktivitätstyp &quot;Ergebnis ändern&quot;hinzugefügt, sodass das System einen Touchpoint erstellt, wenn eine Marketo-Person einen Wert von 90 oder höher erreicht.
+1. Für jeden Aktivitätstyp müssen Sie eine oder mehrere Regeln definieren, die bestimmen, welche Datensätze für Touchpoints zulässig sind. In diesem Beispiel wird eine Regel für den Aktivitätstyp &quot;Bewertung ändern&quot;hinzugefügt, sodass das System einen Touchpoint erstellt, wenn eine Marketo-Person einen Wert von 90 oder höher erreicht.
 
 1. Je nach Aktivitätstyp müssen Sie zunächst eventuell einen [!DNL Marketo Measure] Kampagnenname, der später für die Kanalzuordnung verwendet werden kann. [!DNL Marketo Measure] Kampagnennamen können über mehrere Regeln hinweg wiederverwendet werden. Dies hilft, breitere Namen zu haben, die in einer Kanalregel verwendet werden können. Nicht alle Aktivitätstypen enthalten ein Marketo-Programm. Daher ist für diesen ersten Schritt ein Name erforderlich.
 
@@ -50,7 +50,7 @@ Im Rahmen der Gesamtübersicht [!DNL Marketo Measure] und [!DNL Marketo Engage] 
 
    ![](assets/five-1.png)
 
-1. In unserem Beispiel &quot;Punktzahl ändern&quot;müssen wir keinen Kampagnennamen eingeben, da wir diese Informationen aus dem Marketo-Programm abrufen können. Jetzt können Sie den Regelausdruck erstellen. In unserem Beispiel möchten wir das Feld &quot;[!UICONTROL Neuer Wert]&quot; mit einem Operator für &quot;[!UICONTROL größer als]&quot; mit einem Wert von 90.
+1. Im Beispiel &quot;Punktzahl ändern&quot;muss ein Kampagnenname eingegeben werden, da diese Informationen aus dem Marketo-Programm abgerufen werden. Erstellen Sie nun den Regelausdruck. Wählen Sie im folgenden Beispiel das Feld &quot;[!UICONTROL Neuer Wert]&quot; mit einem Operator für &quot;[!UICONTROL größer als]&quot; mit einem Wert von 90.
 
    Sie können die Regeln erweitern und zusätzliche Filter oder Kriterien hinzufügen, indem Sie &quot;und&quot;- oder &quot;Oder&quot;-Anweisungen hinzufügen, um die Ergebnisse einzugrenzen.
 
@@ -58,7 +58,7 @@ Im Rahmen der Gesamtübersicht [!DNL Marketo Measure] und [!DNL Marketo Engage] 
 
    ![](assets/seven-1.png)
 
-1. Wählen Sie abschließend aus, was wir als Touchpoint-Datum verwenden sollten. Alle verfügbaren Datums- oder Datums-/Uhrzeitfelder werden hier aus Marketo angezeigt. Wenn Sie keine benutzerdefinierten Datumsfelder haben, sehen Sie &quot;[!UICONTROL Aktivitätsdatum].&quot;
+1. Wählen Sie abschließend aus, was als Touchpoint-Datum verwendet werden soll. Alle verfügbaren Datums- oder Datums-/Uhrzeitfelder werden hier aus Marketo angezeigt. Wenn Sie keine benutzerdefinierten Datumsfelder haben, sehen Sie &quot;[!UICONTROL Aktivitätsdatum].&quot;
 
    ![](assets/eight-1.png)
 
@@ -94,7 +94,7 @@ Im Rahmen der Gesamtübersicht [!DNL Marketo Measure] und [!DNL Marketo Engage] 
 
 ## Aktivitätstypen {#activity-types}
 
-Bei einigen Aktivitätstypen erhalten Sie die Programm-ID und den Programmnamen. Daher ist es einfach, diese der Kampagnen-ID und dem Kampagnennamen auf dem Touchpoint des Käufers zuzuordnen. Für andere gibt es keine Programmverknüpfung. Daher müssen Sie bei der Definition der Regeln einen [!DNL Marketo Measure] Kampagnenname. Nachfolgend sind die Listen der einzelnen Kategorien aufgeführt:
+Einige Aktivitätstypen liefern uns die Programm-ID und den Programmnamen. Daher ist es einfach, diese der Kampagnen-ID und dem Kampagnennamen auf dem Touchpoint des Käufers zuzuordnen. Für andere gibt es keine Programmverknüpfung. Daher müssen Sie bei der Definition der Regeln einen [!DNL Marketo Measure] Kampagnenname. Nachfolgend sind die Listen der einzelnen Kategorien aufgeführt:
 
 **Aktivitätstypen mit Programm-ID**
 
@@ -154,7 +154,7 @@ Dialogfeld &quot;Inhalt freigeben&quot;(400) Interagiertes Dokument (158) Dokume
 
 ## Kanalzuordnung {#channel-mapping}
 
-Für alle Regeln eines Aktivitätstyps mit einer Programm-ID wird der Marketo-Programmkanal vom Programm bestimmt. Wir verwenden den Programmkanal , um Ihre benutzerdefinierten Offline-Kanäle zuzuordnen. Daher müssen Sie sicherstellen, dass Ihre Kanäle ordnungsgemäß konfiguriert sind. [wie hier angegeben](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
+Für alle Regeln eines Aktivitätstyps mit einer Programm-ID wird der Marketo-Programmkanal vom Programm bestimmt. Wir verwenden den Programmkanal , um Ihre benutzerdefinierten Offline-Kanäle zuzuordnen. Stellen Sie daher sicher, dass Ihre Kanäle ordnungsgemäß konfiguriert sind. [wie hier angegeben](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
 
 Und bei allen Regeln eines Aktivitätstyps ohne Programm-IDs bestand der erste Schritt darin, einen Kampagnennamen zu erstellen. Verwenden Sie diesen Kampagnennamen, um Ihre benutzerdefinierten Online-Kanäle einzurichten. [hier](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
@@ -168,7 +168,7 @@ Durch den Datenimport von Marketo-Programmen werden die Kosten automatisch aus d
 
 Als Ergebnis der [!DNL Marketo Measure] Integration mit Marketo, der [!DNL Marketo Measure] Die Cookie-ID wird jetzt auch mit der [!DNL Marketo Munchkin Id]. Dies hilft, die Lücke zu schließen, um den anonymen Erstkontakt einer Web-Sitzung zuzuordnen, anstatt sowohl FT- als auch LC-Touches einer Marketo-Aktivität zuzuordnen. Stellen Sie sich dieses Szenario vor:
 
-Markieren Sie klickt auf eine Facebook-Anzeige und landet auf wayneenterprises.com , wo er Cookies erhält. [!DNL Marketo Measure] ID 123 und [!DNL Marketo Munchkin Id] 456. Es wird kein Formular ausgefüllt.
+Mark klickt auf eine Facebook-Anzeige und landet auf wayneenterprises.com , wo er ein Cookie mit [!DNL Marketo Measure] ID 123 und [!DNL Marketo Munchkin Id] 456. Es wird kein Formular ausgefüllt.
 
 Das Marketing-Team von Wayne Enterprises sendet eine E-Mail-Benachrichtigung an bestimmte Interessenten, darunter `mark@email.com`.
 
@@ -188,11 +188,11 @@ Mit dieser Verbesserung des Cookie-Mappings würde der FT zurück gehen und der 
 
 **Woher weiß ich, ob ich eine Marketo-Programmregel oder eine Marketo-Aktivitätsregel erstellen soll?**
 
-Die [!DNL Marketo Engage] Programmintegration ist eine einfache Möglichkeit, Touchpoints zu generieren, je nachdem, ob eine Person Programmmitglied ist oder nicht. Wenn Sie eine Regel definieren möchten, die darauf basiert, wann eine Person zu einem bestimmten Programmstatus wechselt, wird die [!DNL Marketo Engage] Die Aktivitätenintegration ist das gewünschte Setup, insbesondere der Aktivitätstyp &quot;Status in Progression ändern&quot;, sodass Ihr Touchpoint-Datum dem vom System generierten Aktivitätsdatum zugeordnet werden kann.
+Die [!DNL Marketo Engage] Programmintegration ist eine einfache Möglichkeit, Touchpoints zu generieren, je nachdem, ob eine Person Programmmitglied eines Programms ist. Wenn Sie eine Regel definieren möchten, die darauf basiert, wann eine Person zu einem bestimmten Programmstatus wechselt, wird die [!DNL Marketo Engage] Die Aktivitätenintegration ist das gewünschte Setup, insbesondere der Aktivitätstyp &quot;Status in Progression ändern&quot;, sodass Ihr Touchpoint-Datum dem vom System generierten Aktivitätsdatum zugeordnet werden kann.
 
 **Warum ist der Name meines Touchpoint-Typs abgeschnitten?**
 
-Das Feld Touchpoint-Typ wurde im [!DNL Marketo Measure] Paket mit 16 Zeichen. Leider würde eine Änderung der Zeichenbeschränkung für das Feld bedeuten, dass das vorhandene Feld veraltet wird und ein neues erstellt wird. Der Wert des Touchpoint-Typs ist der Aktivitätstyp, der auch im Feld Medium festgelegt wird.
+Das Feld Touchpoint-Typ wurde im [!DNL Marketo Measure] Paket mit 16 Zeichen. Leider würde eine Änderung der Zeichenbeschränkung für das Feld erfordern, das vorhandene Feld zu verwerfen und ein Feld zu erstellen. Der Wert des Touchpoint-Typs ist der Aktivitätstyp, der auch im Feld Medium festgelegt wird.
 
 **Warum wird mein benutzerdefinierter Aktivitätstyp nicht in der Liste der verfügbaren Aktivitäten angezeigt?**
 
@@ -200,7 +200,7 @@ Es werden nur die benutzerdefinierten Aktivitätstypen &quot;Genehmigt&quot;und 
 
 **Wie kann ich ermitteln, für welche Aktivitätstypen ich einen Touchpoint generieren möchte?**
 
-Obwohl die Anzahl der Aktivitätstypen, die Sie erstellen können, nicht begrenzt ist, empfehlen wir im Allgemeinen maximal 5 Aktivitätstypen. Es braucht Zeit, um zu ermitteln, welche Marketing-Aktivitäten relevant genug sind, um Teil der Touchpoint-Journey zu sein. Beispielsweise ist &quot;E-Mail abmelden&quot;möglicherweise kein wichtiger Touchpoint, der verfolgt werden kann, aber &quot;E-Mail anklicken&quot;mit zusätzlichen Filtern kann gut sein. Dies variiert je nach Organisation und Team. Wir empfehlen Ihnen daher, mit Ihren Teams zusammenzuarbeiten, um hier den besten Ansatz zu finden.
+Obwohl die Anzahl der Aktivitätstypen, die Sie erstellen können, nicht begrenzt ist, empfehlen wir im Allgemeinen maximal fünf Aktivitätstypen. Es braucht Zeit, um zu ermitteln, welche Marketing-Aktivitäten relevant genug sind, um Teil der Touchpoint-Journey zu sein. Beispielsweise ist &quot;E-Mail abmelden&quot;möglicherweise kein wichtiger Touchpoint, der verfolgt werden kann, aber &quot;E-Mail anklicken&quot;mit zusätzlichen Filtern kann gut sein. Dies variiert je nach Organisation und Team. Daher empfehlen wir Ihnen, mit Ihrem Team zusammenzuarbeiten, um hier den besten Ansatz zu finden.
 
 **Warum ist mein Browsername abgeschnitten?**
 

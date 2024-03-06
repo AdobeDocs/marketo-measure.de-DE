@@ -3,9 +3,9 @@ description: Übersicht über die Adobe Experience Cloud-Benutzeroberfläche [!D
 title: Adobe Experience Cloud-Benutzeroberfläche – Übersicht
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Wenn Sie bereits bei einem Adobe Experience Cloud-Produkt angemeldet sind, klick
 >
 >Ihr Dropdownmenü kann je nachdem, für welche Adobe Experience Cloud-Produkte Sie angemeldet sind, anders aussehen.
 
-Wenn du _not_ bereits bei einem Adobe Experience Cloud-Produkt angemeldet sind, melden Sie sich direkt bei [!DNL Marketo Measure] hier: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
+Wenn Sie _not_ bereits bei einem Adobe Experience Cloud-Produkt angemeldet sind, melden Sie sich direkt bei [!DNL Marketo Measure] hier: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
 
 ## Neue Funktionen {#new-features}
 

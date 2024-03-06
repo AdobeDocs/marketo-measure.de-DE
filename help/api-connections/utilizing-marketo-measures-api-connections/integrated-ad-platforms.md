@@ -4,7 +4,7 @@ description: Integrierte Anzeigenplattformen - [!DNL Marketo Measure]
 title: Integrierte Anzeigenplattformen
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '1661'
 ht-degree: 0%
@@ -97,7 +97,7 @@ Die Erstellung von UTM-Tags kann zunächst schwierig erscheinen, es stehen jedoc
 
 **[!DNL Google URL]Builder**
 
-Google URL Builder ist ein Standardwerkzeug zum Erstellen korrekt formatierter URLs mit UTM-Tags. Geben Sie einfach die URL und den gewünschten Wert für jeden Parameter ein und klicken Sie auf &quot;[!UICONTROL URL generieren]&quot;. Dies ist ein ideales Tool zur Verwendung, wenn Sie nur über eine Handvoll von URLs verfügen, die mit Tags versehen werden sollen. Zugriff auf das Tool [here](https://support.google.com/analytics/answer/1033867?hl=de){target="_blank"}.
+Google URL Builder ist ein Standardwerkzeug zum Erstellen korrekt formatierter URLs mit UTM-Tags. Geben Sie die URL und den gewünschten Wert für jeden Parameter ein und klicken Sie auf &quot;[!UICONTROL URL generieren]&quot;. Dies ist ein ideales Tool zur Verwendung, wenn Sie nur über eine Handvoll von URLs verfügen, die mit Tags versehen werden sollen. Zugriff auf das Tool [here](https://support.google.com/analytics/answer/1033867?hl=de){target="_blank"}.
 
 **Von EpikOne generiertes Google-Arbeitsblatt**
 

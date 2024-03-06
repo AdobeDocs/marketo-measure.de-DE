@@ -4,9 +4,9 @@ description: Grundlagen [!DNL Marketo Measure] AdWords-Tagging - [!DNL Marketo M
 title: Grundlagen [!DNL Marketo Measure] AdWords-Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '592'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Dieselbe URL liefert jedoch granulare Daten aufgrund der [!DNL Marketo Measure] 
 Wenn jedoch keine Tracking-Vorlage gefunden wird, [!DNL Marketo Measure] wird:
 
 * Durchsuchen Sie alle Anzeigen-Ziel-URLs nach unserer [!DNL Marketo Measure] Parameter.
-* Wenn du gefunden hast, kannst du gehen.
+* Wenn du gefunden hast, kannst du gut gehen.
 * Wenn nicht gefunden, [!DNL Marketo Measure] hängt seine Parameter an das Ende der Anzeigenziel-URLs an. Für neue Anzeigen: [!DNL Marketo Measure] hängt seine Parameter innerhalb von zwei Stunden nach der Erstellung an die Anzeigenziel-URL an.
 * Vor der Aktivierung des automatischen Taggings muss eine Tracking-Vorlage vorhanden sein, damit [!DNL Marketo Measure] kann an ihn angehängt werden und ein Zurücksetzen des Anzeigenverlaufs verhindern.
 

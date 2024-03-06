@@ -3,9 +3,9 @@ description: Data Warehouse Access - Direct Share - Produktdokumentation
 title: Data Warehouse Access - Direct Share
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '277'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 ## Anforderungen {#requirements}
 
-Zur [!DNL Marketo Measure] Um eine direkte Freigabe für Data Warehouse einzurichten, müssen Sie die folgenden Anforderungen erfüllen.
+Für [!DNL Marketo Measure] Um eine direkte Freigabe für Data Warehouse einzurichten, müssen Sie die folgenden Anforderungen erfüllen.
 
 * Sie haben Ihre eigene Snowflake-Instanz.
 * Ihre Snowflake-Instanz befindet sich in der Azure East US 2 Snowflake Region.
@@ -44,7 +44,7 @@ Nachdem die Freigabe für die angegebene Konto-ID erstellt wurde, müssen Sie di
 USE ROLE ACCOUNTADMIN
 ```
 
-* Verfügbare Aktien anzeigen (dabei wird der Name der gewährten Aktie angezeigt)
+* Anzeigen der verfügbaren Aktien (zeigt den Namen der gewährten Aktie an)
 
 ```
 SHOW SHARES

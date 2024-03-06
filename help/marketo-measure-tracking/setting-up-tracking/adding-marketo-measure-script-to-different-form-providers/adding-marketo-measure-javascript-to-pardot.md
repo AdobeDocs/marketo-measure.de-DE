@@ -4,16 +4,16 @@ description: Hinzufügen [!DNL Marketo Measure] JavaScript in [!DNL Pardot] - [!
 title: Hinzufügen [!DNL Marketo Measure] JavaScript in [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen [!DNL Marketo Measure] JavaScript in [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
-[!DNL Pardot] Formulare müssen innerhalb der Formularvorlage zusätzlich bearbeitet werden, bevor Skript auf der Site eingefügt wird, um [!DNL Marketo Measure] , um Formularübermittlungen zu erkennen. Der Prozess ist einfach; er erfordert nur das Platzieren der [!DNL Marketo Measure] Tracking-Skript in [!DNL Pardot] Formularvorlage.
+[!DNL Pardot] Formulare müssen innerhalb der Formularvorlage zusätzlich verarbeitet werden, bevor Skript auf der Site eingefügt werden kann für [!DNL Marketo Measure] , um Formularübermittlungen zu erkennen. Der Prozess ist einfach; er erfordert nur das Platzieren der [!DNL Marketo Measure] Tracking-Skript in [!DNL Pardot] Formularvorlage.
 
 ## Schrittweise Anleitungen {#step-by-step-instructions}
 
@@ -21,7 +21,7 @@ Sobald Sie sich bei Ihrem [!DNL Pardot] Gehen Sie wie folgt vor.
 
 1. Navigieren Sie zu **[!UICONTROL Marketing]**.
 
-1. Klicken Sie auf **[!UICONTROL Landing Pages]**.
+1. Klicks **[!UICONTROL Landing Pages]**.
 
 1. Auswählen **[!UICONTROL Layout-Vorlage]**.
 
@@ -53,10 +53,10 @@ Wenn die Variable [!DNL Pardot] IFrame hat das folgende HTML-Tag:
 
 `<base href="http://go.pardot.com">`
 
-_und_ Der IFrame selbst befindet sich auf einer sicheren Seite (HTTPS) anstelle einer nicht sicheren Seite (HTTP), wenn wir versuchen, unser Skript auf die [!DNL Pardot] IFrame wird der Browser versuchen, eine HTTP-Version unseres Skripts auf einer HTTPS-Seite zu laden, die fehlschlägt und uns an der Verfolgung hindert. Die Lösung besteht darin, das Skript auf der [!DNL Pardot] IFrame zum Laden der sicheren Version unseres Skripts:
+_und_ Der IFrame selbst ist beim Laden des Skripts in der [!DNL Pardot] IFrame, der Browser versucht, eine HTTP-Version des Skripts auf einer HTTPS-Seite zu laden, die fehlschlägt, wodurch das Tracking unterbrochen wird. Die Lösung besteht darin, das Skript auf der [!DNL Pardot] IFrame zum Laden der sicheren Version des Skripts:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-Außerdem gibt es möglicherweise bereits andere Trackingcode-Snippets in diesem Bereich, z. B. eine [!DNL Google Analytics] Code. Achten Sie darauf, sie durch ein Semikolon zu trennen `;` und ein einzelnes Leerzeichen, wie in diesem Beispiel gezeigt:
+Es gibt möglicherweise bereits andere Trackingcode-Snippets in diesem Bereich, z. B. eine [!DNL Google Analytics] Code. Achten Sie darauf, sie durch ein Semikolon zu trennen `;` und ein einzelnes Leerzeichen, wie in diesem Beispiel gezeigt:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="othercode_example" src="otherfile_example.js" ></script>`

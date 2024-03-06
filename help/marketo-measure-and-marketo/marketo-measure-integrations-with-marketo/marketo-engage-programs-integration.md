@@ -4,9 +4,9 @@ description: "[!DNL Marketo Engage] Programmintegration - [!DNL Marketo Measure]
 title: "[!DNL Marketo Engage] Programmintegration"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1261'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ In der Liste der Marketo-Programmkanäle möchten Sie die Werte der [!DNL Market
 
 1. Oben haben Sie die Möglichkeit, Ihren CRM-Kampagnentypen zuzuordnen, und unten sehen Sie die Optionen für Ihre Marketo-Programmkanäle.
 
-1. Wählen Sie zunächst den Kanal aus, der dem Wert zugeordnet werden soll, und wählen Sie dann optional den Unterkanal aus. Nachdem Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]** unten.
+1. Wählen Sie zunächst den Kanal aus, der dem Wert zugeordnet werden soll, und wählen Sie dann optional den Unterkanal aus. Klicken Sie abschließend auf **[!UICONTROL Speichern]** unten.
 
    ![](assets/eleven.png)
 

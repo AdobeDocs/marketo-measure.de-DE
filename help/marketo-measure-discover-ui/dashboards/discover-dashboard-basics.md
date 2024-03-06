@@ -1,15 +1,16 @@
 ---
 description: Dashboard-Grundlagen - [!DNL Marketo Measure] - Produkt
-title: Dashboard-Grundlagen
+title: Entdecken Sie die Grundlagen von Dashboards
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 2%
 
 ---
 
-# Dashboard-Grundlagen {#discover-dashboard-basics}
+# Entdecken Sie die Grundlagen von Dashboards {#discover-dashboard-basics}
 
 Dieser Artikel führt Sie durch die grundlegenden Funktionen der neu gestalteten Benutzeroberfläche, sodass Sie mühelos auf Ihre Daten zugreifen und sie interpretieren können. Lernen Sie die Dynamik des Filterbereichs kennen und lernen Sie die Komplexität unserer erweiterten Berichterstellungsfunktionen kennen, wie z. B. Drillfunktionen, Querfilterung und QuickInfos.
 
@@ -105,6 +106,6 @@ Wenn Sie einen Wert oder eine Achsenbeschriftung in einer Visualisierung auswäh
 
 ### Schnellinfo {#tooltips}
 
-QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie einfach den Mauszeiger über ein visuelles Element und es wird ein Pop-up mit einer kontextuellen QuickInfo angezeigt, die Einblicke oder Erklärungen zu diesem Datenpunkt liefert.
+QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles Element und es wird ein Pop-up mit einer kontextuellen QuickInfo angezeigt, die Einblicke oder Erklärungen zu diesem Datenpunkt liefert.
 
 ![](assets/discover-dashboard-basics-13.gif)

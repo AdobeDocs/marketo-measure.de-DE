@@ -4,10 +4,10 @@ description: "[!DNL Microsoft Dynamics] CRM-Installationsanleitung - Marketo Mea
 title: "[!DNL Microsoft Dynamics] CRM-Installationsanleitung"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 11%
+source-wordcount: '954'
+ht-degree: 9%
 
 ---
 
@@ -47,7 +47,7 @@ Für Verbindung und Authentifizierung [!DNL Marketo Measure] unterstützt die fo
 
 ## Erstellen einer [!DNL Marketo Measure] Benutzer {#creating-a-marketo-measure-user}
 
-Es wird empfohlen, in Dynamics einen dedizierten Marketo Measure-Benutzer als &quot;Anwendungsbenutzer&quot;zu erstellen, damit wir Daten exportieren und importieren können, um Probleme mit anderen Benutzern in Ihrem CRM-System zu vermeiden. Notieren Sie sich den Benutzernamen und das Kennwort sowie die Endpunkt-URL, die beim Erstellen der [!DNL Marketo Measure] -Konto.
+Es wird empfohlen, in Dynamics einen dedizierten Marketo Measure-Benutzer als &quot;Anwendungsbenutzer&quot;zu erstellen, um Daten über zu exportieren und zu importieren, um Probleme mit anderen Benutzern in Ihrem CRM zu vermeiden. Notieren Sie sich den Benutzernamen und das Kennwort sowie die Endpunkt-URL, die beim Erstellen der [!DNL Marketo Measure] -Konto.
 
 ## Sicherheitsrollen {#security-roles}
 
@@ -59,11 +59,11 @@ Für [!DNL Marketo Measure] benutzerdefinierten Entitäten benötigen wir vollst
 
 >[!NOTE]
 >
->Benutzer, die Chancen schließen werden, benötigen auch die vollständigen Berechtigungen.
+>Benutzer, die Chancen schließen, benötigen auch die vollständige Berechtigung.
 
 ![](assets/4.png)
 
-Informationen zu Dynamics-Standardentitäten finden Sie im Abschnitt [!DNL Marketo Measure] Dynamics-Schema-Dokument. Auf hoher Ebene [!DNL Marketo Measure] müssen nur in bestimmten Entitäten gelesen werden, um die entsprechenden Daten zu sammeln und in benutzerdefinierte Felder zu schreiben, die mit der verwalteten Lösung installiert werden. Wir werden keine neuen Standarddatensätze erstellen und auch keine Standardfelder aktualisieren.
+Informationen zu Dynamics-Standardentitäten finden Sie im Abschnitt [!DNL Marketo Measure] Dynamics-Schema-Dokument. Auf hoher Ebene [!DNL Marketo Measure] liest in bestimmten Entitäten, um die entsprechenden Daten zu erfassen und in benutzerdefinierte Felder zu schreiben, die mit der verwalteten Lösung installiert werden. Standarddatensätze werden nicht erstellt und Standardfelder werden nicht aktualisiert.
 
 ## Touchpoints in Seitenlayouts einschließen: {#include-touchpoints-on-page-layouts}
 
@@ -75,13 +75,13 @@ Informationen zu Dynamics-Standardentitäten finden Sie im Abschnitt [!DNL Marke
 
    ![](assets/5.png)
 
-1. Seitenlayouts: Fügen Sie zuerst eine &quot;[!UICONTROL Eine Spalte]&quot; in dem Abschnitt, in dem die Touchpoints live geschaltet werden sollen. In dieser neuen Spalte benötigen wir ein Unterraster, das zu jedem Formular in Ihren Konto-, Opportunity-, Kontakt- und Lead-Entitäten hinzugefügt wird.
+1. Seitenlayouts: Fügen Sie zuerst eine &quot;[!UICONTROL Eine Spalte]&quot; in dem Abschnitt, in dem die Touchpoints live geschaltet werden sollen. In dieser neuen Spalte benötigen wir ein Teilraster, das zu jedem Formular in Ihren Konto-, Opportunity-, Kontakt- und Lead-Entitäten hinzugefügt wird.
 
    ![](assets/6.png)
 
    ![](assets/7.png)
 
-1. Wählen Sie das Objekt (Touchpoints der Käuferzuordnung oder Touchpoints der Käufer) aus, das im Unterraster dargestellt werden soll, was von der Objektbeziehung abhängt. Ändern Sie optional die anzuzeigenden Spalten, indem Sie auf die Schaltfläche Bearbeiten klicken. Die verwaltete Lösung hat ein Standardlayout festgelegt.
+1. Wählen Sie das Objekt (Touchpoints der Käuferzuordnung oder Touchpoints der Käufer) aus, das im Unterraster dargestellt werden soll, was von der Objektbeziehung abhängt. Ändern Sie optional die angezeigten Spalten, indem Sie auf die Schaltfläche Bearbeiten klicken. Das Standardlayout wird von der verwalteten Lösung festgelegt.
 
    Touchpoint-Subgrid für die Käuferzuordnung - Konten, Chancen und Kontakt\
    Käufer-Touchpoint-Subgrid - Leads und Kontakte
@@ -98,7 +98,7 @@ Informationen zu Dynamics-Standardentitäten finden Sie im Abschnitt [!DNL Marke
 
 **Datum schließen**
 
-[!DNL Marketo Measure] verweist standardmäßig auf das Feld &quot;Datum der tatsächlichen Schließung&quot;. Wenn Sie dies nicht verwenden oder auch das Feld Geschätztes Schließdatum verwenden, erläutern Sie Ihren Prozess Ihrem Lösungstechniker oder Erfolgsmanager. Möglicherweise müssen beide Felder in einem benutzerdefinierten Workflow berücksichtigt werden.
+[!DNL Marketo Measure] verweist standardmäßig auf das Feld &quot;Datum der tatsächlichen Schließung&quot;. Wenn Sie dies nicht verwenden oder auch das Feld Geschätztes Schließdatum verwenden, erläutern Sie Ihren Prozess Ihrem Lösungstechniker oder Erfolgsmanager. Möglicherweise ist ein benutzerdefinierter Workflow erforderlich, um beide Felder zu berücksichtigen.
 
 ## Konfigurieren von Verbindungen und Datenanbietern {#configuring-your-connections-and-data-providers}
 
@@ -150,7 +150,7 @@ So verbinden Sie Ihre Anzeigenkonten mit [!DNL Marketo Measure], indem Sie [!UIC
 
 **[!DNL Marketo Measure]JavaScript**
 
-Zur [!DNL Marketo Measure] zur Verfolgung Ihrer Web-Aktivitäten gibt es mehrere Schritte für die Einrichtung.
+Für [!DNL Marketo Measure] zur Verfolgung Ihrer Web-Aktivitäten gibt es mehrere Schritte für die Einrichtung.
 
 1. Klicken Sie auf **[!UICONTROL Mein Konto]** und wählen Sie **[!UICONTROL Kontokonfiguration]**.
 
@@ -174,7 +174,7 @@ Zur [!DNL Marketo Measure] zur Verfolgung Ihrer Web-Aktivitäten gibt es mehrere
 
    >[!NOTE]
    >
-   >Wenn Sie Marketo Measure deaktivieren und Daten nach Dynamics exportieren, werden keine vorhandenen Daten entfernt. Hilfe zum Entfernen vorhandener Daten erhalten Sie beim Dynamics-Support.
+   >Wenn Sie den Marketo Measure-Export von Daten in Dynamics deaktivieren, werden keine vorhandenen Daten entfernt. Hilfe zum Entfernen vorhandener Daten erhalten Sie beim Dynamics-Support.
 
    >[!MORELIKETHIS]
    >

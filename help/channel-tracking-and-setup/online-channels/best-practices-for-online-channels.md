@@ -3,10 +3,10 @@ description: Best Practices für Online-Kanäle - [!DNL Marketo Measure]
 title: Best Practices für Online-Kanäle
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 67%
+source-wordcount: '611'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +22,7 @@ Online-Kanalregeln sind Richtlinien dafür, wie [!DNL Marketo Measure] ordnet Ih
 
 ## Best Practices {#best-practice}
 
-Beachten Sie die folgenden Best Practices, um sicherzustellen, dass die Regeln korrekt sind, unabhängig davon, ob Sie Ihre Regeln zum ersten Mal einrichten oder sie nur überprüfen.
+Beachten Sie die folgenden Best Practices, unabhängig davon, ob Sie Ihre Regeln zum ersten Mal einrichten oder sie nur überprüfen, um sicherzustellen, dass sie korrekt sind.
 
 Nehmen Sie sich Zeit, um über die Organisation Ihrer Marketing-Kampagnen nachzudenken und darüber, wie sie in das Framework von [!DNL Marketo Measure] passen. Bestimmen Sie, welche Kanäle und Subkanäle in Ihren Online-Kanälen dargestellt werden sollen und welche Kampagnen, UTM-Parameter oder verweisenden Websites diese Kanäle voneinander unterscheiden.
 

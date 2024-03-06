@@ -4,24 +4,24 @@ description: "[!DNL Marketo Measure] Wartung - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Wartung"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: fca2db86611d16f4e74467405521a89dd5d825ab
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Measure] Wartung {#marketo-measure-maintenance}
 
-[!DNL Marketo Measure] Ruft täglich fast alles aus Ihrem CRM ab, aber es gibt einige Wartungsaufgaben, die Sie regelmäßig planen sollten, um die [!DNL Marketo Measure] Zusammendrücken und Ausgeben möglichst genauer Informationen.
+[!DNL Marketo Measure] Ruft täglich fast alles aus Ihrem CRM-System ab, aber es gibt einige Wartungsaufgaben, die Sie regelmäßig planen sollten, um die [!DNL Marketo Measure] Zusammendrücken und Ausgeben möglichst genauer Informationen.
 
 **Käufer-Touchpoints für neue Offline-Kampagnen synchronisieren (2x/Monat)**
 
-Wie Sie während des Onboarding gelernt haben, [!DNL Marketo Measure] Ruft Informationen zu Ihren Offline-Marketing-Maßnahmen ab, indem Sie sie mit den Kampagnen Ihres CRM-Systems synchronisieren. Wenn Ihr Unternehmen neue Kampagnen startet, stellen Sie sicher, dass Sie die Touchpoints des Käufers für jede Kampagne aktivieren. Checkout [diesem Artikel](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)für weitere Informationen.
+Wie Sie während des Onboarding gelernt haben, [!DNL Marketo Measure] Ruft Informationen zu Ihren Offline-Marketing-Maßnahmen ab, indem Sie sie mit den Kampagnen Ihres CRM-Systems synchronisieren. Wenn Ihr Unternehmen neue Kampagnen startet, stellen Sie sicher, dass Sie die Touchpoints des Käufers für jede Kampagne aktivieren.
 
 **Upload-Ausgaben für alle Kanäle (1x/Monat)**
 
-So nutzen Sie die umfassenden Umsatz- und ROI-Reporting-Funktionen für[!DNL Marketo Measure], müssen Sie [!DNL Marketo Measure] wie viel Sie für die einzelnen Marketing-Kanäle und Unterkanäle ausgeben. Es wird empfohlen, den Eigentümer jedes Kanals/jeden Unterkanals zu bestimmen und die Ausgaben dieser Benutzer monatlich an einen einzigen Anbieter zu melden, der für das Hochladen neuer Kosteninformationen zuständig ist.
+So nutzen Sie die umfassenden Umsatz- und ROI-Reporting-Funktionen für[!DNL Marketo Measure]müssen Sie [!DNL Marketo Measure] wie viel Sie für jeden Ihrer Marketing-Kanäle und Unterkanäle ausgeben. Benennen Sie den Eigentümer jedes Kanals/jeden Unterkanals und lassen Sie diese die Ausgaben an eine einzige Person melden, die für das Hochladen neuer Kosteninformationen monatlich verantwortlich ist.
 
 Aktualisieren Sie Ihren Speicher, um Informationen zum Hochladen von Kosteninformationen durch Lesen von zu erhalten. [diesem Artikel](/help/marketing-spend/spend-management/marketing-channel-costs.md).
 
@@ -33,7 +33,7 @@ Marketo Measure verfolgt alle Seiten und Subdomänen, auf denen unser JavaScript
 
 Beim Onboarding richten Sie ein benutzerdefiniertes Kanal-Mapping für Ihre Online- und Offline-Marketing-Maßnahmen ein. Wenn sich Ihre Marketing-Strategie und Ihre Verwendung von Marketo Measure weiterentwickeln, sollten Sie diese Zuordnungslogik im Auge behalten, um sicherzustellen, dass alle Touchpoints angemessen kategorisiert werden.
 
-Denken Sie daran, [!DNL Marketo Measure] verarbeitet Ihre Daten bei der Bearbeitung der Zuordnungslogik neu, sodass Sie diese Regeln nicht öfter als alle 7 Tage ändern können.
+Denken Sie daran, [!DNL Marketo Measure] verarbeitet Ihre Daten bei der Bearbeitung der Zuordnungslogik neu, sodass Sie diese Regeln nicht öfter als alle sieben Tage ändern können.
 
 Referenz [diesem Artikel](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md) für die Online-Einrichtung, [diesem Artikel](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md) für die Offline-Einrichtung und diese Liste von Best Practices, die von unseren Kunden kuratiert werden:
 
@@ -42,7 +42,7 @@ Referenz [diesem Artikel](/help/channel-tracking-and-setup/online-channels/onlin
 
 **Einstellungen zur Touchpoint-Unterdrückung bewerten (1x/Quartal)**
 
-Wenn Sie viele Touchpoints sehen, die Sie bevorzugen, werden Sie nicht in Ihrer Attributionsgeschichte berücksichtigt (von einer [!DNL Login] oder [!DNL Unsubscribe forms], einer Karriereseite oder einer internen App), können Sie Ihre vorhandenen Einstellungen für die Touchpoint-Unterdrückung bewerten. Suchen Sie einmal im Quartal alle Gruppen von Touchpoints, die unnötiges Rauschen verursachen, und aktualisieren Sie Ihre Unterdrückungslogik entsprechend. [Hier ist ein hilfreicher Artikel](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)  mit der Anleitung.
+Wenn Sie viele Touchpoints sehen, die Sie bevorzugen, werden Sie nicht in Ihrer Attributionsgeschichte berücksichtigt (aus einer [!DNL Login] oder [!DNL Unsubscribe forms], einer Karriereseite oder einer internen App), können Sie Ihre vorhandenen Einstellungen für die Touchpoint-Unterdrückung bewerten. Suchen Sie einmal im Quartal alle Gruppen von Touchpoints, die unnötiges Rauschen verursachen, und aktualisieren Sie Ihre Unterdrückungslogik entsprechend. [Hier ist ein hilfreicher Artikel](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)  mit der Anleitung.
 
 **Überprüfen Sie die benutzerdefinierte Staging-Zuordnung auf Genauigkeit (1x/Quartal) (falls zutreffend).**
 

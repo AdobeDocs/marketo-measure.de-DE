@@ -4,10 +4,10 @@ description: Unterschied zwischen einer Google Analytics-Konversion und einem K�
 title: Unterschied zwischen einer Google Analytics-Konversion und einem Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 4%
+source-wordcount: '495'
+ht-degree: 5%
 
 ---
 
@@ -17,9 +17,9 @@ Erfahren Sie mehr über [!DNL Google Analytics (GA)] Ziel ist und wie es sich vo
 
 **Was sind Google Analytics?**
 
-[!UICONTROL Google Analytics] Konversionen werden vollständig dadurch bestimmt, wie ein Marketing-Experte oder Web-Entwickler die &quot;Zielabschlüsse&quot;auf einer bestimmten Website kodiert. Ziele, so Google, könnten als &quot;Kauf tätigen (für eine E-Commerce-Site), ein Spiellevel (für eine mobile Gaming-App) abschließen oder ein Kontaktformular (für eine Marketing- oder Lead-Generierungssite) senden&quot;. Meistens sehen Marketer Ziele/Konversionen als Personen, die ein Informationsformular ausfüllen.
+[!UICONTROL Google Analytics] Konversionen werden dadurch bestimmt, wie ein Marketingexperte oder Web-Entwickler die &quot;Ziel&quot;-Vervollständigung auf einer bestimmten Website kodiert. Ziele könnten laut Google als &quot;Kauf tätigen (für eine E-Commerce-Site), Spiellevel abschließen (für eine mobile Gaming-App) oder ein Kontaktformular (für eine Marketing- oder Lead-Generierungssite) senden&quot;betrachtet werden. Meistens sehen Marketer Ziele/Konversionen als Personen, die ein Informationsformular ausfüllen.
 
-Ziele können jedoch nicht codiert werden, um sehr spezifische Verhaltensweisen zu verwalten. Stattdessen können Webentwickler Zieltypen konfigurieren. Im Folgenden finden Sie einige dieser Beispiele:
+Ziele können jedoch nicht für die Verwaltung bestimmter Verhaltensweisen kodiert werden. Stattdessen können Webentwickler Zieltypen konfigurieren. Im Folgenden finden Sie einige dieser Beispiele:
 
 <table> 
  <colgroup> 
@@ -58,9 +58,9 @@ Ziele können jedoch nicht codiert werden, um sehr spezifische Verhaltensweisen 
 
 Die meisten Marketing-Experten konfigurieren ihre Konversionen als &quot;Zielziele&quot;, d. h., sie erstellen normalerweise eine Dankeseite nach einem Formular, um zu berücksichtigen, dass es sich um eine formale Konversion handelt.
 
-Das bedeutet, dass Google die Dankeseitenansichten als Konversion betrachtet. Aus Sicht der Google Analytics ist dies eine Erkenntnis, mit der die meisten Marketer einverstanden sind.
+Das bedeutet, dass Google Dankesseiten als Konversion betrachtet. Aus Sicht der Google Analytics ist dies eine Erkenntnis, mit der die meisten Marketer einverstanden sind.
 
-Die Touchpoints des Käufers verhalten sich jedoch sehr unterschiedlich.
+Die Touchpoints des Käufers verhalten sich jedoch anders.
 
 **Worin unterscheiden sich die Touchpoints des Käufers?**
 
@@ -72,7 +72,7 @@ Die Touchpoints des Käufers verhalten sich jedoch sehr unterschiedlich.
 * Die [!DNL Marketo Measure] JS ist auf den Webseiten vorhanden, die das Formular enthalten.
 * Ein Formular wird innerhalb einer 30-minütigen Sitzung eingereicht.
 
-[!DNL Marketo Measure] ignoriert die Ziel-Google Analytics-Konvertierungen, wenn:
+[!DNL Marketo Measure] Ignoriert Destination Google Analytics-Konversionen, wenn:
 
 * Ein Bot sendet Formulare auf einer Website (diese Bots machen sie normalerweise nicht in das CRM-System eines Kunden).
 * Ein Benutzer sendet nach der ersten Formularübermittlung weitere Formulare. [!DNL Marketo Measure] sendet nur die erste Konversion von dieser Sitzung.
@@ -80,4 +80,4 @@ Die Touchpoints des Käufers verhalten sich jedoch sehr unterschiedlich.
 * Der Benutzer lädt die Dankeseite mehrmals neu.
 * Der Benutzer verwendet alle Tools zum Blockieren von Anzeigen.
 
-Wie Sie sehen, gibt es grundlegende Unterschiede zwischen GA und [!DNL Marketo Measure] eine Konversion berücksichtigen. Daher wird es sehr wahrscheinlich sein, dass die Anzahl der Konvertierungen und die Anzahl der Formular-Touchpoints variieren.
+Wie Sie sehen, gibt es grundlegende Unterschiede zwischen GA und [!DNL Marketo Measure] eine Konversion berücksichtigen. Daher ist es wahrscheinlich, dass die Anzahl der Konvertierungen und die Anzahl der Formular-Touchpoints unterschiedlich sind.

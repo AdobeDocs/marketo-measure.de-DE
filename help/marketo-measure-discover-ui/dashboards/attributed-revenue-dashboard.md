@@ -3,9 +3,9 @@ description: Dashboard "Zugewiesener Umsatz"- [!DNL Marketo Measure] - Produkt
 title: Dashboard „Zugewiesener Umsatz“
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '384'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ Das Dashboard &quot;Zugewiesener Umsatz&quot;bietet eine fokussierte Sicht auf d
 
 >[!NOTE]
 >
->Dieses Dashboard befindet sich derzeit in der Betaversion. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, sobald wir die optimale Funktionalität vollständig übernommen und sichergestellt haben.
+>Dieses Dashboard befindet sich in der Beta-Phase. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, nachdem wir die optimale Funktionalität vollständig überarbeitet und sichergestellt haben.
 
 **Fragen, die die Pinnwand beantwortet:**
 
@@ -63,7 +63,7 @@ Gesegmenter Gesamtumsatz, segmentiert nach Kanal, Subkanal und Kampagne, in Tabe
 **Baumansicht**
 
 * Die Baumansicht ermöglicht eine interaktivere und detailliertere Datenexploration, sodass Marketing-Experten Trends, Anomalien oder Leistungsmerkmale in ihren Marketing-Maßnahmen identifizieren können.
-* Klicken Sie auf einen Zweig, um tiefer in die nachfolgende Hierarchieebene zu gelangen.
+* Klicken Sie auf eine Verzweigung, um tiefer in die nachfolgende Hierarchieebene zu gelangen.
 
 ![](assets/attributed-revenue-dashboard-3.png)
 

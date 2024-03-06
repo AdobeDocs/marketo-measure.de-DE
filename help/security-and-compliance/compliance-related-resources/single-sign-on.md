@@ -3,16 +3,16 @@ unique-page-id: 18874761
 description: Single Sign-On - [!DNL Marketo Measure]
 title: Single Sign-On
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
 
 # Single Sign-On {#single-sign-on}
 
-SAML (Security Assertion Markup Language) für SSO (Single Sign-on) ermöglicht Benutzern die Authentifizierung über den Identitäts-Provider eines Unternehmens bei der Anmeldung bei der [!DNL Marketo Measure] App. SSO ermöglicht es einem Benutzer, sich nur einmal zu authentifizieren, ohne separate Apps zu authentifizieren. SAML ist für Unternehmenskunden erforderlich, da nicht alle Benutzer über eine [!DNL Salesforce] oder [!DNL Google] -Konto in ihrer Organisation. Um eine Skalierung vorzunehmen, [!DNL Marketo Measure] hat eine SAML-Lösung entwickelt, die Identitätsanbieter des Unternehmens unterstützen kann.
+SAML (Security Assertion Markup Language) für SSO (Single Sign-on) ermöglicht Benutzern die Authentifizierung über den Identitäts-Provider eines Unternehmens bei der Anmeldung beim [!DNL Marketo Measure] App. SSO ermöglicht es einem Benutzer, sich einmal zu authentifizieren, ohne separate Apps authentifizieren zu müssen. SAML ist für Unternehmenskunden erforderlich, da nicht alle Benutzer über eine [!DNL Salesforce] oder [!DNL Google] -Konto in ihrer Organisation. Skalierung, [!DNL Marketo Measure] hat eine SAML-Lösung entwickelt, die Identitätsanbieter des Unternehmens unterstützen kann.
 
 >[!CAUTION]
 >
@@ -35,7 +35,7 @@ Navigieren Sie zu Einstellungen > Sicherheit > Authentifizierung in der [!DNL Ma
 
 ## Prozess {#process}
 
-[!DNL Marketo Measure] Single Sign-On erfordert die Konfiguration Ihrer Authentifizierungseinstellungen in einer Reihe von Schritten, die wichtig sind, damit Sie nicht riskieren, aus Ihrer [!DNL Marketo Measure] -Konto.
+[!DNL Marketo Measure] Single Sign-On erfordert die Konfiguration Ihrer Authentifizierungseinstellungen in einer Reihe von Schritten, damit Sie nicht riskieren, Ihre [!DNL Marketo Measure] -Konto.
 
 Richten Sie die [!DNL Marketo Measure] Anwendung in Ihrem Identitätsanbieter. Weitere Informationen finden Sie in der unten aufgeführten externen Dokumentation.
 
@@ -144,7 +144,7 @@ Für [!DNL Dynamics] Rollen verwenden Sie den Namen jeder Sicherheitsrolle. Alle
 
 **Google-Benutzer**
 
-Sobald die benutzerdefinierte einmalige Anmeldung eingerichtet wurde, wird die [!UICONTROL Benutzer] wird aktualisiert, sodass nur externe Benutzer angezeigt werden, die mit Google-Anmeldungen hinzugefügt wurden. Da alle Benutzer mit Zugriff über die SSO-Konfiguration definiert sind, sind hier weitere externe Benutzer aufgeführt.
+Sobald die benutzerdefinierte einmalige Anmeldung eingerichtet wurde, wird die [!UICONTROL Benutzer] -Seite wird aktualisiert und zeigt nur externe Benutzer an, die mit Google-Anmeldungen hinzugefügt wurden. Da alle Benutzer mit Zugriff über die SSO-Konfiguration definiert sind, sind hier weitere externe Benutzer aufgeführt.
 
 ![](assets/9.png)
 
@@ -152,7 +152,7 @@ Nur gültig [!DNL Google] -Konten können hinzugefügt werden und müssen eine B
 
 ## Externe Links {#external-links}
 
-* [Okta](http://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
-* [Ping-Identität](http://docs.pingidentity.com/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
-* [OneLogin](http://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
-* [Active Directory](http://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [Okta](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
+* [Ping-Identität](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
+* [OneLogin](https://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
+* [Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)

@@ -4,7 +4,7 @@ description: Benutzerdefiniertes Attributionsmodell und -einstellungen - [!DNL M
 title: Benutzerdefiniertes Attributionsmodell und Einrichtung
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Wenn in Ihrem benutzerdefinierten Modell ein benutzerdefiniertes Feld verwendet 
 
    Navigieren Sie zu **[!UICONTROL Attributionseinstellungen]** in [!DNL Marketo Measure] Apps; die benutzerdefinierten Phasen werden hier in der Attributionstabelle angezeigt. Die Attributionstabelle enthält alle [!DNL Marketo Measure] Attributionsmodelle und die Attributionsgewichtung der einzelnen Modelle. Die Attributionsprozentsätze der ersten fünf Modelle sind fest und können nicht geändert werden.
 
-   In der Spalte ganz rechts mit der Bezeichnung &quot;**[!UICONTROL Benutzerdefiniert]**,&quot;können Sie die Prozentgewichtung für jede Phase in Ihrem benutzerdefinierten Attributionsmodell festlegen. Geben Sie einfach die Werte für jede Phase unter der Spalte &quot;Benutzerdefiniert&quot;ein. Dann **[!UICONTROL Speichern und erneut verarbeiten]** nach Abschluss.
+   In der Spalte ganz rechts mit der Bezeichnung &quot;**[!UICONTROL Benutzerdefiniert]**,&quot;können Sie die Prozentgewichtung für jede Phase in Ihrem benutzerdefinierten Attributionsmodell festlegen. Geben Sie die Werte für jede Phase unter der Spalte &quot;Benutzerdefiniert&quot;ein und klicken Sie auf **[!UICONTROL Speichern und erneut verarbeiten]** wenn abgeschlossen.
 
    Links neben dem _Benutzerdefiniert_ Spalte ist **[!DNL Marketo Measure]Modell für maschinelles Lernen**. Das Modell für maschinelles Lernen berechnet die Zuordnungsgewichtung anhand der relativen Bedeutung für den Gewinn eines Deals, je nachdem, was in jeder benutzerdefinierten Phase passiert ist. Weitere Informationen zum Modell für maschinelles Lernen finden Sie unter [Häufig gestellte Fragen zum Modell für maschinelles Lernen](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 

@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] 101 Berichte - Überblick - [!DNL Marketo M
 title: "[!DNL Marketo Measure] 101 Berichte - Überblick"
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '926'
 ht-degree: 3%
 
 ---
@@ -55,4 +55,4 @@ Es wird als Best Practice erachtet, die _[!DNL Marketo Measure]101.._&quot; als 
 
 Der Ordner &quot;Touchpoint-Berichte für Käufer&quot;soll Ihnen bei den ersten Schritten mit Ihrem [!DNL Marketo Measure] Berichterstellung verwenden, müssen Sie diese Berichte für ausführbare Berichte anpassen, damit sie auf Ihre Berichterstattungsanforderungen zugeschnitten sind. müssen Sie die erforderlichen Filter hinzufügen, um sicherzustellen, dass die Datensätze im Bericht (und die zugehörigen Touchpoints) mit Ihrem Berichterstellungsziel übereinstimmen.
 
-Sobald Sie mit dem &quot;_[!DNL Marketo Measure]101.._&quot;, können Sie sie aus benutzerspezifischen Berichtstypen neu erstellen, um benutzerspezifischere Berichtsanforderungen zu erfüllen. Erstellen der [[!DNL Marketo Measure] Benutzerspezifische Berichtstypen](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) können Sie benutzerdefinierte Felder abrufen, die Sie in anderen CRM-Berichten häufig verwenden. Dies hilft Ihnen, [!DNL Marketo Measure] Reporting auf die nächste Ebene!
+Wenn Sie mit dem _[!DNL Marketo Measure]101.._&quot;, können Sie sie aus benutzerspezifischen Berichtstypen neu erstellen, um benutzerspezifischere Berichtsanforderungen zu erfüllen. Erstellen der [[!DNL Marketo Measure] Benutzerspezifische Berichtstypen](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) können Sie benutzerdefinierte Felder abrufen, die Sie in anderen CRM-Berichten häufig verwenden. Dies hilft Ihnen, [!DNL Marketo Measure] Reporting auf die nächste Ebene!

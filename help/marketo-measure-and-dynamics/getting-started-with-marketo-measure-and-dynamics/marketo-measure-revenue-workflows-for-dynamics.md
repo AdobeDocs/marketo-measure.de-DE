@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Umsatz-Workflows für Dynamics - [!DNL Mark
 title: "[!DNL Marketo Measure] Umsatz-Workflows für Dynamics"
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -35,25 +35,25 @@ Betrag-Workflow-Anweisungen:
 
 Dieser Workflow läuft bei jeder Änderung des geschätzten Umsatzes auf offenen Stellen und aktualisiert die [!DNL Marketo Measure] Feld &quot;Opportunity Amount&quot;und Ihr benutzerdefiniertes Feld, um dem Feld &quot;Estimated Revenue&quot;zu entsprechen. Der Workflow sollte auf &quot;Echtzeit&quot;eingestellt sein, kann aber auch &quot;On-Demand&quot;ausgeführt werden, um offene Chancen zu aktualisieren.
 
-Geben Sie Ihre [!DNL Marketo Measure] Kontaktpunkt mit dem Namen des Felds für die benutzerdefinierte Opportunity. Sie werden die [!DNL Marketo Measure] App-Opportunity-Einstellungen , um den Namen des Felds für das benutzerdefinierte Opportunity-Angebot einzuschließen. Dies gibt Discover an, welches Feld für die Berichterstellung verwendet werden soll.
+Geben Sie Ihre [!DNL Marketo Measure] Kontaktpunkt mit dem Namen des Felds für die benutzerdefinierte Opportunity. Sie aktualisieren die [!DNL Marketo Measure] App-Opportunity-Einstellungen , um den Namen des Felds für das benutzerdefinierte Opportunity-Angebot einzuschließen. Dadurch wird Discover informiert, welches Feld für die Berichterstellung verwendet werden soll.
 
 **WORKFLOW Nr. 2**: Gelegenheit - Aktualisieren [!DNL Marketo Measure] Feld für Opportunity-Betrag und benutzerdefiniertes Feld = tatsächlicher Umsatz
 
-Dieser Workflow wird in Echtzeit ausgeführt. Sie wird ausgelöst, wenn ein Benutzer eine Gelegenheit schließt, und aktualisiert die [!DNL Marketo Measure] Feld &quot;Opportunity Amount&quot;und Ihr benutzerdefiniertes Feld mit dem tatsächlichen Umsatz, der dem Formular Opportunity Close hinzugefügt wurde, bevor die Opportunity als geschlossen abgeschaltet wird.
+Dieser Workflow wird initiiert, wenn ein Benutzer eine Gelegenheit schließt, und aktualisiert die [!DNL Marketo Measure] Feld &quot;Opportunity Amount&quot;und Ihr benutzerdefiniertes Feld mit dem tatsächlichen Umsatz, der dem Formular Opportunity Close hinzugefügt wurde, bevor die Opportunity als geschlossen abgeschaltet wird.
 
 ## Teil 2: Geschätztes Abschlussdatum im Vergleich zum tatsächlichen Abschlussdatum {#part-estimated-close-date-vs-actual-close-date}
 
-Standardmäßig sind die Pipeline-Umsatzdaten nicht im Dashboard verfügbar, da Dynamics standardmäßig über zwei Felder für das Schließdatum des Lagers verfügt: Geschätztes Schließdatum und tatsächliches Schließdatum. [!DNL Marketo Measure] kann nur auf ein Schließdatumsfeld im Dashboard verweisen. Wir verweisen derzeit auf das tatsächliche Schließdatum.
+Standardmäßig sind die Pipeline-Umsatzdaten nicht im Dashboard verfügbar, da Dynamics standardmäßig über zwei Felder für das Schließdatum des Lagers verfügt: Geschätztes Schließdatum und tatsächliches Schließdatum. [!DNL Marketo Measure] kann nur auf ein Schließen-Datumsfeld im Dashboard verweisen und es verweist auf das tatsächliche Schließen-Datum.
 
-Wenn im Feld &quot;Tatsächliches Datum für Schließen&quot;keine Daten zu den Öffnungsmöglichkeiten vorhanden sind, werden im Dashboard keine Daten zu den Öffnungsmöglichkeiten angezeigt. Allerdings ist ein Workflow erforderlich, der auf der Opportunitätsphase basiert, um beide Datumsfelder zu unterstützen.
+Wenn im Feld &quot;Tatsächliches Datum für Schließen&quot;keine Daten zu den Öffnungsmöglichkeiten vorhanden sind, enthält das Dashboard keine Daten zu den Öffnungsmöglichkeiten. Allerdings ist ein Workflow erforderlich, der auf der Opportunitätsphase basiert, um beide Datumsfelder zu unterstützen.
 
-1. Erstellen Sie ein benutzerdefiniertes Feld für das Schließen des Datums für das Opportunity-Objekt (d. h. [!DNL Marketo Measure] Benutzerdefiniertes Datum für Schließen).
-1. Erstellen Sie einen Workflow, um die [!DNL Marketo Measure] Benutzerdefiniertes Schließen-Datum mit dem Datum des Geschätzten Schließen-Datums oder des tatsächlichen Schließen-Datums, je nachdem, ob die Gelegenheit geöffnet oder geschlossen ist (der Workflow sollte für die Ausführung in Echtzeit gespeichert werden, muss jedoch mindestens einmal ausgeführt werden, um alle aktuellen offenen Optionen zu aktualisieren.)
+1. Erstellen Sie ein benutzerdefiniertes Feld für das Schließen des Datums für das Opportunity-Objekt ([!DNL Marketo Measure] Benutzerdefiniertes Datum für Schließen).
+1. Erstellen Sie einen Workflow, um die [!DNL Marketo Measure] Benutzerdefiniertes Schließen-Datum mit dem Datum aus dem Geschätzten Schließen-Datum oder dem tatsächlichen Schließen-Datum, je nachdem, ob die Gelegenheit geöffnet oder geschlossen ist (der Workflow sollte für die Ausführung in Echtzeit gespeichert werden, muss jedoch mindestens einmal &quot;On-Demand&quot;ausgeführt werden, um alle aktuellen offenen Optionen zu aktualisieren).
 1. Testen Sie den Workflow und überprüfen Sie, ob er funktioniert.
 1. Kunde, der den API-Namen für das benutzerspezifische Datum für Schließen angibt [!DNL Marketo Measure].
 1. [!DNL Marketo Measure] , um die [!DNL Marketo Measure] App-Einstellungen, um auf die [!DNL Marketo Measure] Benutzerdefiniertes Datum für Schließen im Dashboard.
 
-   Nach Abschluss der oben genannten Schritte müssen wir Workflows ausführen, um sowohl die benutzerspezifische [!DNL Marketo Measure] Feld &quot;Opt-in-Betrag&quot;und [!DNL Marketo Measure] Benutzerdefiniertes Feld für das Schließen des Datums zu Ihren historischen Möglichkeiten, um die richtigen Daten widerzuspiegeln. Dadurch ändern sich wahrscheinlich die geänderten Ein-/Von-Felder, sodass Sie mit Ihrem Team prüfen möchten, ob dies Probleme verursacht.
+   Führen Sie nach Abschluss der oben genannten Schritte die Workflows aus, um sowohl die benutzerspezifische [!DNL Marketo Measure] Feld &quot;Opt-in-Betrag&quot;und [!DNL Marketo Measure] Benutzerdefiniertes Feld für das Schließen des Datums zu Ihren historischen Möglichkeiten, um die richtigen Daten widerzuspiegeln. Dadurch ändern sich wahrscheinlich die geänderten Ein-/Von-Felder. Stellen Sie daher sicher, dass Ihr Team weiß, ob dies Probleme verursacht.
 
 So aktualisieren Sie die geschlossenen Möglichkeiten ...
 
@@ -68,7 +68,7 @@ So aktualisieren Sie die geschlossenen Möglichkeiten ...
 
 >[!NOTE]
 >
->Die in diesem Dokument beschriebenen Workflows sind nur eine Möglichkeit, die Felder zu aktualisieren, sodass [!DNL Marketo Measure] kann die korrekten Daten in Discover anzeigen. Wenn Sie eine andere Möglichkeit haben, die gleiche Aufgabe zu erledigen, können Sie sich dafür entscheiden. Grundsätzlich benötigen wir eine Art Workflow(e), der Folgendes ermöglicht:
+>Die in diesem Dokument beschriebenen Workflows sind nur eine Möglichkeit, die Felder zu aktualisieren, sodass [!DNL Marketo Measure] kann die korrekten Daten in Discover anzeigen. Wenn Sie eine andere Möglichkeit haben, die gleiche Aufgabe zu erledigen, können Sie sich dafür entscheiden. Grundsätzlich benötigen wir einen Workflow, der Folgendes ermöglicht:
 >
 > * Wenn Opp = Öffnen, aktualisieren Sie das benutzerdefinierte Feld für das Schließen des Datums, das benutzerdefinierte Feld für den Opt-in-Betrag und [!DNL Marketo Measure] opp amount -Feld auf Geschätztes Abschlussdatum bzw. geschätzten Umsatz.
 > * Wenn &quot;Opp = Closed Won&quot;ist, aktualisieren Sie das benutzerdefinierte Feld für das Schließen des Datums, das benutzerdefinierte Feld für den Opt-Wert und [!DNL Marketo Measure] opp amount -Feld auf den Wert &quot;Tatsächliches Schließdatum&quot;bzw. &quot;Tatsächlicher Umsatz&quot;.

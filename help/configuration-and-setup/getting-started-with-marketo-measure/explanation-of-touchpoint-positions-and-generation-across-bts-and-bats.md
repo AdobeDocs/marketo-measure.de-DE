@@ -3,9 +3,9 @@ description: Erläuterung der Touchpoint-Positionen und der Erzeugung zwischen B
 title: Erläuterung der Touchpoint-Positionen und der Generierung über BTs und [!DNL BATs] hinweg
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '764'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Das Verständnis der Touchpoint-Positionen des Käufers und deren Auslösung ist für eine erfolgreiche Berichterstellung mit [!DNL Marketo Measure] Daten. Sie möchten ein klares Verständnis davon haben, was Ihre Interessenten getan haben, als sie sich durch die Journey des Käufers bewegt haben, und was dies wiederum in den Touchpoint-Daten aussehen wird. Für weiteren Kontext zu diesem Thema empfehlen wir, die [[!UICONTROL Touchpoint-Generierung und -Zuordnung]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) Artikel.
 
-[!DNL Marketo Measure] hat eine Vielzahl von Touchpoint-Position, die durch verschiedene Schritte im Journey des Käufers ausgelöst werden. Bei der Berichterstellung für [!DNL Marketo Measure] Daten gibt es zwei Gruppen von Touchpoint-Daten: Käufer-Touchpoints (BTs) und Buyer Attribution Touchpoints (BATs). Diese Datensätze weisen möglicherweise etwas unterschiedliche Positionen auf, da sie sich auf verschiedene Objekte beziehen. Für weiteren Kontext zu diesem Thema empfehlen wir, die [Unterschiede zwischen Käufer-Touchpoints (BTs) und Buyer Attribution Touchpoints (BATs)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) Artikel.
+[!DNL Marketo Measure] verfügt über eine Vielzahl von Touchpoint-Positionen, die durch verschiedene Schritte im Journey des Käufers ausgelöst werden. Bei der Berichterstellung für [!DNL Marketo Measure] Daten gibt es zwei Gruppen von Touchpoint-Daten: Käufer-Touchpoints (BTs) und Buyer Attribution Touchpoints (BATs). Diese Datensätze weisen möglicherweise etwas unterschiedliche Positionen auf, da sie sich auf verschiedene Objekte beziehen. Für weiteren Kontext zu diesem Thema empfehlen wir, die [Unterschiede zwischen Käufer-Touchpoints (BTs) und Buyer Attribution Touchpoints (BATs)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) Artikel.
 
 **Käufer-Touchpoints (BTs)**: Dies sind die Touchpoints, die einer Person und ihrer Journey zugeordnet sind und für diese Person eindeutig sein werden. Die folgenden vordefinierten Berichte werden aus den Touchpoint-Daten des Käufers erstellt.
 
@@ -37,17 +37,17 @@ Im Folgenden werden die Touchpoint-Positionen des Käufers beschrieben, die besc
   <tr>
    <td>First Touch (FT)</td> 
    <td>Web-Besuch</td> 
-   <td>Die allererste Marketing-Interaktion, die ein Kontakt mit Ihrer Marke hat</td> 
+   <td>Die erste Marketing-Interaktion, die ein Kontakt mit Ihrer Marke hat</td> 
   </tr>
   <tr>
    <td>Lead Creation (LC)</td> 
    <td>Formular ausfüllen <strong>ODER</strong> Einbindung von Kampagnen/Programmen</td> 
-   <td>Das erste Ausfüllen des Formulars, das eine Person hat (in der Regel eine Formularübermittlung, kann aber auch eine Kampagne/ein Programm einschließen)</td> 
+   <td>Das erste Formular, das eine Person ausfüllt, hat (in der Regel eine Formularübermittlung, kann aber auch eine Kampagne/ein Programm enthalten)</td> 
   </tr>
   <tr>
    <td>Post LC</td> 
    <td>Formular ausfüllen <strong>ODER</strong> Einbindung von Kampagnen/Programmen</td> 
-   <td>Jedes Formular, das eine Person nach ihrer LC (oder einer nachfolgenden Einbindung in Campaign/Programm) ausfüllt</td> 
+   <td>Jedes Formular, das eine Person nach ihrer LC (oder einer nachfolgenden Einbindung in Kampagne/Programm) ausfüllt</td> 
   </tr>
  </tbody>
 </table>
@@ -67,12 +67,12 @@ Im Folgenden werden die Touchpoint-Positionen des Käufers beschrieben, die besc
   <tr>
    <td>First Touch (FT)</td> 
    <td>Web-Besuch</td> 
-   <td>Die allererste Marketing-Interaktion, die ein Kontakt mit Ihrer Marke hatte</td> 
+   <td>Die erste Marketing-Interaktion, die ein Kontakt mit Ihrer Marke hatte</td> 
   </tr>
   <tr>
    <td>Lead Creation (LC)</td> 
    <td>Formular ausfüllen <strong>ODER</strong> Einbindung von Kampagnen/Programmen</td> 
-   <td>Das allererste Ausfüllen eines Formulars, das ein Kontakt hatte (normalerweise eine Formularübermittlung, aber auch eine Kampagnen-/Programmeinbindung)</td> 
+   <td>Das erste Ausfüllen eines Formulars, das ein Kontakt hatte (normalerweise eine Formularübermittlung, aber auch eine Kampagnen-/Programmeinbindung sein kann)</td> 
   </tr>
   <tr>
    <td>Opportunity Creation</td> 
@@ -92,7 +92,7 @@ Im Folgenden werden die Touchpoint-Positionen des Käufers beschrieben, die besc
  </tbody>
 </table>
 
-[!DNL Marketo Measure] verfügt über diese beiden Datensätze von Touchpoint-Daten, um ein klares Verständnis des Journey einer Person sowie der Möglichkeiten zu schaffen. Diese beiden Touchpoint-Datensätze geben Ihnen eine klare Zuordnung von den Vorgängen vom Trichteranfang zum Trichterende.
+[!DNL Marketo Measure] verfügt über diese beiden Datensätze von Touchpoint-Daten, um ein klares Verständnis der Journey und Möglichkeiten einer Person zu schaffen. Diese beiden Touchpoint-Datensätze geben Ihnen eine klare Zuordnung von den Vorgängen vom Trichteranfang zum Trichterende.
 
 Das folgende Beispiel zeigt den Datenfluss von Käufer-Touchpoints (BTs) zu Buyer Attribution Touchpoints (BATs). In diesem Beispiel gehören Person A und Person B zu derselben Gelegenheit, die über ein Erstellungsdatum vom 7.3.2020 und ein Endergebnis vom 5.6.2020 verfügt.
 

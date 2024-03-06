@@ -3,10 +3,10 @@ description: Neues Discover Dashboard-Handbuch - [!DNL Marketo Measure] - Produk
 title: Neues Handbuch zum Entdecken von Dashboards
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 4%
+source-wordcount: '1076'
+ht-degree: 3%
 
 ---
 
@@ -427,7 +427,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
         </p>
       </td>
       <td>
-        <p>Diese Dimensionen sind plattformspezifisch und bieten keine ganzheitliche Sicht auf den Web-Traffic. Wir empfehlen Benutzern, die Kanal-/Subkanal-/Kampagnendaten in Marketo Measure zu untersuchen und dann spezifische Plattformtools für Einblicke auf Keyword-/Kreativelebene zu nutzen, um Genauigkeit und Kontext zu wahren.
+        <p>Diese Dimensionen sind plattformspezifisch und bieten keine ganzheitliche Sicht auf den Web-Traffic. Es wird empfohlen, dass Benutzer Kanal-/Subkanal-/Kampagnendaten in Marketo Measure untersuchen und dann spezifische Plattformtools für Einblicke auf Keyword-/Kreativelebene nutzen, um Genauigkeit und Kontext zu wahren.
         </p>
       </td>
     </tr>

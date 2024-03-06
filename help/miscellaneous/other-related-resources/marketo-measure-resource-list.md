@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Resource List"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '304'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Hier finden Sie verschiedene Links zu relevanten Artikeln/Videos, die Ihnen bei 
 
 **Berichterstellung**
 
-* [Erstellen benutzerdefinierter Berichtstypen mit [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (wenn Sie Berichte zu benutzerdefinierten Feldern &quot;Lead/Kontakt/Chancen&quot;erstellen müssen)
+* [Erstellen benutzerdefinierter Berichtstypen mit [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (wenn Sie Berichte zu benutzerdefinierten Feldern für Lead/Kontakt/Chancen erstellen müssen)
 * [Glossar [!DNL Marketo Measure] fields](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 **Fehlerbehebung**
@@ -47,12 +47,12 @@ Hier finden Sie verschiedene Links zu relevanten Artikeln/Videos, die Ihnen bei 
 
 ## Videos {#videos}
 
-Hier sind einige Videos, die Ihnen helfen, die Geschwindigkeit zu erhöhen:
+Im Folgenden finden Sie ein paar Videos, die Ihnen helfen, mit der Geschwindigkeit fertig zu werden:
 
-* [[!DNL Marketo Measure] Einführung](https://embed.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4) (22 Minuten)
-* [[!DNL Marketo Measure] Berichterstattung in SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45 Minuten)
+* [[!DNL Marketo Measure] Einführung](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 Minuten)
+* [[!DNL Marketo Measure] Berichterstattung in SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 Minuten)
 
-**[[!DNL Marketo Measure] 101](https://universityonline.marketo.com/courses/bizible-101/) (~30 Minuten)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30 Minuten)**
 
 Diese Kursreihe ist eine allgemeine Einführung in die Grundkonzepte, die Sie für Ihren Master kennen müssen [!DNL Marketo Measure]. Es bietet eine Einführung in das Konzept der Attribution, was [!DNL Marketo Measure] als Instrument und den allgemeinen Rahmen, auf dem [!DNL Marketo Measure] funktioniert.
 
@@ -64,7 +64,7 @@ Behandelte Themen:
 * Touchpoints
 * Attributionsmodelle
 
-**[[!DNL Marketo Measure] Berichterstattung in SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45 Minuten)**
+**[[!DNL Marketo Measure] Berichterstattung in SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 Minuten)**
 
 Diese Kursreihe soll als Einführung in die [!DNL Marketo Measure] Lagerberichte, die in Salesforce installiert wurden. Diese Berichte bilden die Grundlage für die meisten Berichte, mit denen Sie [!DNL Marketo Measure] Daten.
 
@@ -77,7 +77,7 @@ Behandelte Themen:
 * Bericht &quot;Chancen nach ID&quot;
 * Chancen nach Kanalbericht
 
-**[Kanalverwaltung](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/)**
+**[Kanalverwaltung](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
 
 In diesem Kurs werden verschiedene Möglichkeiten zur Anpassung beschrieben [!DNL Marketo Measure], was das Online- und Offline-Tracking angeht. Dieser Kurs ist fortgeschrittener und kann für alle Benutzer nicht relevant sein.
 
@@ -89,4 +89,4 @@ Behandelte Themen:
 * Felder für Kampagne und Kampagnenmitglieder
 * Offline-Kanalverwaltung
 
-Hier sind alle [Anfängervideos zu E-Learning](https://universityonline.marketo.com/#/library/bySubject/new-to-bizible/trails?_k=d1454j).
+Hier sind alle [Anfängervideos zu E-Learning](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html).

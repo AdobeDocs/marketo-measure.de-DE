@@ -3,10 +3,10 @@ description: Best Practices für die Staging-Zuordnung - [!DNL Marketo Measure]
 title: Best Practices für die Phasenzuordnung
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 10%
+source-wordcount: '479'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Eine zusätzliche Funktion, die in diesem Abschnitt verwaltet wird, sind Trichte
 
 ## Bewährte Methoden {#best-practices}
 
-Unabhängig davon, ob Sie Ihre Staging-Zuordnung zum ersten Mal bewerten oder Ihre Trichterreihenfolge lediglich überprüfen, sollten Sie die folgenden Best Practices beachten.
+Unabhängig davon, ob Sie Ihre Staging-Zuordnung zum ersten Mal bewerten oder Ihre Trichterreihenfolge überprüfen, sollten Sie die folgenden Best Practices beachten.
 
 * Ordnung ist alles!
    * Überlegungen [!DNL Marketo Measure] ruft aktive und inaktive Phasen aus Ihrem CRM ab, bestätigen Sie, dass alle Phasen, die für Lead/Kontakt oder Chancen verwendet werden können, gruppiert und entsprechend geordnet sind.
@@ -31,7 +31,7 @@ Unabhängig davon, ob Sie Ihre Staging-Zuordnung zum ersten Mal bewerten oder Ih
    * Ein boolesches Feld ist die Best Practice-Empfehlung
 * Beachten Sie, dass der Abschnitt Lead- oder Kontaktphase in Verloren, Offen und Konvertiert unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden.
    * Das Vorhandensein einer Phase im falschen Abschnitt kann zu einer hochgradig falschen Einstellung führen [!DNL Marketo Measure] data
-   * Wenn Sie Kundin oder Kunde von Marketo Measure Ultimate sind und Ihr Standard-Dashboard-Objekt auf „Kontakt“ festgelegt haben, verwenden Sie folgende beiden Lead-Felder nicht ([mehr dazu erfahren Sie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr Standard-Dashboard-Objekt auf &quot;Kontakt&quot;festgelegt haben, verwenden Sie nicht die folgenden beiden für &quot;Lead&quot;([Weitere Informationen](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Beachten Sie, dass der Abschnitt &quot;Opportunity stage&quot;in Lost, Open und Won unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden.

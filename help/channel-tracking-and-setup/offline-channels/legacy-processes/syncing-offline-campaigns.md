@@ -4,9 +4,9 @@ description: Synchronisieren von Offline-Kampagnen - [!DNL Marketo Measure]
 title: Synchronisieren von Offline-Kampagnen
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ In diesem Fall würde das Upload-Datum um drei Wochen aufgestockt. Dieser Schrit
 
 Kurz gesagt, wenn Sie die [!UICONTROL Touchpoint-Datum für Massenaktualisierung] und ändern Sie das Touchpoint-Datum in das Datum des Ereignisses, [!DNL Marketo Measure] generiert Touchpoints für das tatsächliche Datum des Ereignisses, nicht für das Datum des Uploads.
 
-Sie können auch die Daten für alle Kampagnenmitglieder einer vorhandenen Kampagne aktualisieren. Stellen Sie dabei sicher, dass das Datum des Touchpoints das Datum der Interaktion des Mitglieds ist. Klicken Sie einfach auf das Touchpoint-Datum des Massen-Update-Käufers, filtern Sie die Liste der Kampagnenmitglieder nach Bedarf und geben Sie im Feld[!UICONTROL Datum auswählen]&quot; oberhalb der Liste der Kampagnenmitglieder, fügen Sie das Datum hinzu, an dem das Ereignis stattgefunden hat.
+Sie können auch die Daten für alle Kampagnenmitglieder einer vorhandenen Kampagne aktualisieren. Stellen Sie dabei sicher, dass das Datum des Touchpoints das Datum der Interaktion des Mitglieds ist. Klicken Sie auf das Touchpoint-Datum für das Massen-Update des Käufers, filtern Sie die Liste der Kampagnenmitglieder nach Bedarf und im[!UICONTROL Datum auswählen]&quot; oberhalb der Liste der Kampagnenmitglieder, fügen Sie das Datum hinzu, an dem das Ereignis stattgefunden hat.
 
 >[!CAUTION]
 >

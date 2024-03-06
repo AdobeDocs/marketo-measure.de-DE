@@ -4,9 +4,9 @@ description: Lagerberichte und Dashboards in Dynamics - [!DNL Marketo Measure]
 title: Lagerberichte und Dashboards in Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '911'
 ht-degree: 5%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 5%
 >
 >Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber trotzdem &quot;Bizible&quot;in Ihrem CRM. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
 
-Die [!DNL Marketo Measure] Managed Solution enthält eine Reihe von Stock-Dashboards und -Berichten, die Ihren grundlegenden Anforderungen bei der Anzeige von [!DNL Marketo Measure] Daten in Dynamics. Nachfolgend finden Sie die vollständige Liste und einige häufige Anwendungsfälle.
+Die [!DNL Marketo Measure] Managed Solution enthält mehrere Lager-Dashboards und Berichte, die Ihren grundlegenden Anforderungen bei der Anzeige gerecht werden [!DNL Marketo Measure] Daten in Dynamics. Nachfolgend finden Sie die vollständige Liste und einige häufige Anwendungsfälle.
 
-## Dashboards (9 insgesamt) {#dashboards-total}
+## Dashboards (insgesamt neun) {#dashboards-total}
 
 <table> 
  <colgroup> 
@@ -152,12 +152,12 @@ Die [!DNL Marketo Measure] Managed Solution enthält eine Reihe von Stock-Dashbo
   </tr> 
   <tr> 
    <td>Leads nach AdWords Name (FT)</td> 
-   <td>Messen Sie, wie viele Leads einen Erstkontakt von den einzelnen AdWords-Kampagnen hatten.</td> 
+   <td>Messen Sie, wie viele Leads einen Erstkontakt von jeder AdWords-Kampagne hatten.</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
    <td>Leads nach AdWords Name (LC)</td> 
-   <td>Messen Sie, wie viele Leads mit einem Touch zur Lead-Erstellung von jeder AdWords-Kampagne generiert wurden.</td> 
+   <td>Messen Sie, wie viele Leads von jeder AdWords-Kampagne mit einem Touch zur Lead-Erstellung generiert wurden.</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 

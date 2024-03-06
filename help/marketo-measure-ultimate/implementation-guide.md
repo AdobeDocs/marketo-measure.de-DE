@@ -2,10 +2,10 @@
 description: '[!DNL Marketo Measure] Ultimate-Implementierungshandbuch - [!DNL Marketo Measure]'
 title: „[!DNL Marketo Measure] Implementierungshandbuch für Ultimate“
 feature: Integration, Tracking, Attribution
-source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 96%
+source-wordcount: '997'
+ht-degree: 64%
 
 ---
 
@@ -15,7 +15,7 @@ Dieser Artikel dient als Implementierungshandbuch für Marketo Measure Ultimate 
 
 ## Hauptunterschiede bei der Verwendung von Ultimate im Vergleich zu Standard Tiers {#main-differences-when-using-ultimate-over-standard-tiers}
 
-Importieren von B2B-Daten über AEP: Von Marketing-Fachleuten wird erwartet, dass sie ihre B2B-Daten (z. B. Konto, Opportunity, Kontakt, Lead, Kampagne, Kampagnenmitglied, Aktivität) über AEP einbringen. Es können Daten aus nahezu jeder Datenquelle sowie aus mehreren Datenquellen desselben Typs aufgenommen werden, um alle Ihre Daten für die Attribution einzubringen.
+B2B-Daten über AEP importieren: Marketingexperten müssen ihre B2B-Daten (z. B. Konto, Chancen, Kontakt, Lead, Kampagne, Kampagnenmitglied, Aktivität) über AEP importieren. Erfassen Sie Daten aus nahezu jeder Datenquelle und mehreren Datenquellen desselben Typs, um alle Ihre Daten für die Attribution einzubringen.
 
 * Die Lösung kann mit nahezu jedem CRM verwendet werden, nicht nur Salesforce und Dynamics.
 * Es können mehrere CRM-Instanzen und/oder MAP-Instanzen mit einer Instanz von Marketo Measure verbunden werden.
@@ -24,9 +24,9 @@ Importieren von B2B-Daten über AEP: Von Marketing-Fachleuten wird erwartet, das
 Die direkten Verbindungen von CRM und Marketo Engage sind für Ultimate nicht mehr verfügbar.
 
 * Ultimate pusht keine Daten an das CRM-System zurück. Kundinnen und Kunden können Daten aus Data Warehouse verwenden.
-* Marketing-Fachleute werden weiterhin Daten von Anzeigenplattformen über direkte Verbindungen einbringen und Web-Aktivitäten über Marketo Measure-JavaScript nachverfolgen.
+* Marketingexperten bringen weiterhin Ad Platform-Daten über direkte Verbindungen und Tracking von Web-Aktivitäten über Marketo Measure-JavaScript.
 
-Ultimate-Benutzenden wird AEP bereitgestellt. Wenn sie bereits über AEP verfügen, werden wir keine neue Instanz erneut bereitstellen.
+Endbenutzer werden mit AEP bereitgestellt. Wenn sie bereits über AEP verfügen, werden wir keine neue Instanz bereitstellen.
 
 * Die bereitgestellte AEP-Version umfasst alle Quell-Connectoren, Schemadaten-Modellierung, Datensätze, Ad-hoc-Abfragedienste und ein Ziel nur für Marketo Measure.
 
@@ -51,7 +51,7 @@ Erfahren Sie mehr über [Marketo Measure Ultimate](/help/marketo-measure-ultimat
 
 ## Erstellen eines Schemas {#creating-a-schema}
 
-Wir empfehlen, ein Hilfsprogramm zur automatischen Erzeugung zu verwenden, um 10 standardmäßige B2B-Schemata zu erstellen.
+Es wird empfohlen, zehn standardmäßige B2B-Schemas mit einem Dienstprogramm zur automatischen Erzeugung zu erstellen.
 
 * Weitere Informationen wie Schritte zum Herunterladen und Einrichten des Hilfsprogramms [finden Sie hier](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=de#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
@@ -61,7 +61,7 @@ Für diejenigen mit einer _**CDP-Berechtigung**_: Erstellen Sie Schemata, indem 
 
 ![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-* Wählen Sie ein Konto und alle B2B-Vorlagen aus, um 10 standardmäßige B2B-Schemata zu erstellen.
+* Wählen Sie ein Konto und alle B2B-Vorlagen aus, um zehn B2B-Standardschemata zu erstellen.
 
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
@@ -69,7 +69,7 @@ Für diejenigen mit einer _**CDP-Berechtigung**_: Erstellen Sie Schemata, indem 
 
 >[!IMPORTANT]
 >
->Beim Hinzufügen eines neuen Datensatzes wird empfohlen, einen neuen Fluss zu erstellen, anstatt einen vorhandenen zu verwenden.
+>Beim Hinzufügen eines neuen Datensatzes wird empfohlen, einen Fluss zu erstellen, anstatt einen vorhandenen zu verwenden.
 
 [Datenflüsse – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=de){target="_blank"}
 
@@ -78,7 +78,7 @@ Für diejenigen mit einer _**CDP-Berechtigung**_: Erstellen Sie Schemata, indem 
 1. Wählen Sie eine Quelle aus.
 1. Wählen Sie ein vorhandenes Konto aus oder erstellen Sie ein Konto.
 1. Wählen Sie einen Datentyp aus der Liste der verfügbaren Typen aus, die aus der Quelle importiert werden sollen.
-1. Wählen Sie einen vorhandenen Datensatz aus oder erstellen Sie einen neuen Datensatz.
+1. Wählen Sie einen vorhandenen Datensatz aus oder erstellen Sie einen Datensatz.
 1. Ordnen Sie die Felder aus der Quelle dem Schema zu.
 
    >[!NOTE]
@@ -91,7 +91,7 @@ Für diejenigen mit einer _**CDP-Berechtigung**_: Erstellen Sie Schemata, indem 
    >[!CAUTION]
    >
    >* Sie können einen Datenfluss bearbeiten, aber die Daten werden nicht aufgestockt, wenn eine Zuordnung geändert wird.
-   >* Wenn ein erforderliches Feld NULL ist, wird der gesamte Fluss abgelehnt.
+   >* Wenn ein erforderliches Feld NULL ist, wird der gesamte Fluss zurückgewiesen.
 
    >[!NOTE]
    >
@@ -99,7 +99,7 @@ Für diejenigen mit einer _**CDP-Berechtigung**_: Erstellen Sie Schemata, indem 
 
 1. Legen Sie eine Kadenz für das Laden von Daten fest.
 1. Überprüfen Sie und schließen Sie ab.
-1. Überprüfen Sie auf der Seite „Kontostatus“ unter Measure-UI-Einstellungen den Datenflussstatus.
+1. Überprüfen Sie die Seite &quot;Kontostatus&quot;in den Einstellungen der Benutzeroberfläche zum Messen des Datenflusses.
 
 **Monitoring:**
 
@@ -131,12 +131,12 @@ Bevor Sie beginnen, gehen Sie zum Abschnitt „Experience Platform“ > „Sandb
 
 >[!NOTE]
 >
->* Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Quelle können in nur einen Datensatz eingehen. Jeder Datensatz kann in nur einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss in der Laufzeit.
->* Löschen Sie das gesamte Ziel in AEP, um Daten in Measure zu löschen. Durch die Deaktivierung werden nur neue Datenexporte gestoppt und alte Daten werden beibehalten.
+>* Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Quelle können nur in einen Datensatz übertragen werden. Jeder Datensatz kann in nur einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss zur Laufzeit.
+>* Löschen Sie das gesamte Ziel in AEP, um Daten in Measure zu löschen. Durch Deaktivieren werden neue Datenexporte gestoppt und alte Daten beibehalten.
 >* Die Measure-Konfiguration sieht größtenteils gleich aus, aber einige Teile wie die Phasenzuordnung sehen anders aus.
 >* Es dauert einige Stunden, bis ein neuer Datenfluss eine Flussausführung generiert, und dann treten sie in regelmäßigen, stündlichen Intervallen auf.
 
-In Measure muss die Standardwährung im Abschnitt „Währung“ festgelegt werden.
+In Maßnahme muss die Standardwährung im Abschnitt &quot;Währung&quot;festgelegt werden.
 
 * Wenn Sie mehrere Währungen verwenden, muss das Schema der Währungsumrechnung in AEP eingetragen sein, damit wir es lesen und für Umrechnungen verwenden können.
 
@@ -150,26 +150,26 @@ Wir importieren nicht automatisch Phasen aus Benutzerdaten, daher müssen alle P
 
 Wenn die Phasen nicht zugeordnet sind, funktioniert das System nicht, da die Daten nicht weitergegeben werden können.
 
-Wenn Sie Kundin oder Kunde von Marketo Measure Ultimate sind und Ihr Standard-Dashboard-Objekt auf „Kontakt“ festgelegt haben, verwenden Sie folgende beiden Lead-Felder nicht ([mehr dazu erfahren Sie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr Standard-Dashboard-Objekt auf &quot;Kontakt&quot;festgelegt haben, verwenden Sie nicht die folgenden beiden für &quot;Lead&quot;([Mehr dazu hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted
 
 **Regeln für Kampagnenmitglieder:**
 
-Sie müssen einen Datensatz auswählen und Regeln für jeden festlegen.
+Wählen Sie einen Datensatz aus und legen Sie Regeln für jeden fest.
 
 **Regeln für Erlebnisereignisse:**
 
-Sie müssen einen Datensatz auswählen und Aktivitätstypen auswählen.
+Wählen Sie einen Datensatz aus und wählen Sie Aktivitätstypen.
 
 * Benutzerdefinierte Aktivitäten werden noch nicht unterstützt.
 * Bei Kundenaktivitäten, die nicht zu den verfügbaren Optionen passen, empfehlen wir, diese als „interessante Momente“ zu kategorisieren und benutzerdefinierte Felder zu verwenden, um sie zu unterscheiden.
 
 **Offline-Kanäle:**
 
-* Wir verwenden keine datensatzspezifischen Kanalzuordnungsregeln, daher wären sie global.
-* Wir müssen letztlich sowohl den CRM-Kampagnentyp als auch den Kanal abgleichen, aber im Moment können wir den Kanalnamen beiden Feldern zuordnen, um das Problem zu umgehen.
+* Wir führen keine dataset-spezifischen Kanalzuordnungsregeln durch, daher wäre dies global.
+* Wir müssen schließlich sowohl den CRM-Kampagnentyp als auch den Kanal abgleichen. Zunächst können wir jedoch den Kanalnamen beiden Feldern als Problemumgehung zuordnen.
 * **Kanalregeln: Wieder aufgefüllte Daten enthalten keine Daten zum Phasenübergang.**
 
 Die Einstellungen für Touchpoint und Segment bleiben unverändert.

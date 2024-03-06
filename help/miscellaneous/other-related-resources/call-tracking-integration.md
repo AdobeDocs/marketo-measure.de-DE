@@ -4,9 +4,9 @@ description: Integration von Aufruftracking - [!DNL Marketo Measure]
 title: Anrufverfolgungsintegration
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '693'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Unsere Integration mit [!DNL CallTrackingMetrics] soll eine Websitzung mit einem
 
 ## Anrufverfolgung - Erläuterung {#call-tracking-explained}
 
-&quot;Call Tracking&quot;(Anrufverfolgung) ist im Allgemeinen ein Produkt von Unternehmen wie [!DNL CallTrackingMetrics], [!DNL DiaglogTech], [!DNL Invoca]oder [!DNL CallRail], um einige zu nennen. Den Benutzern werden anhand der verschiedenen Marketingkanäle oder Kampagnen, aus denen sie stammen, eindeutige Telefonnummern angezeigt. So können Marketing-Experten die Leistung dieser Kanäle oder Kampagnen erkennen.
+&quot;Call Tracking&quot;(Anrufverfolgung) ist im Allgemeinen ein Produkt von Unternehmen wie [!DNL CallTrackingMetrics], [!DNL DiaglogTech], [!DNL Invoca]oder [!DNL CallRail], um einige zu nennen. Den Benutzern werden anhand der verschiedenen Marketing-Kanäle oder Kampagnen, aus denen sie stammen, eindeutige Telefonnummern angezeigt. So können Marketing-Experten die Leistung dieser Kanäle oder Kampagnen erkennen.
 
 ![](assets/1.png)
 
@@ -31,9 +31,9 @@ Mit der Integration können Sie sehen, dass die Websitzung tatsächlich an einen
 
 ## Funktionsweise {#how-it-works}
 
-CallTrackingMetrics muss ein wenig Entwicklungsarbeit leisten, damit dies funktioniert. Mit dem JavaScript, das sie auf Ihrer Site platzieren, können CallTrackingMetrics die _biz_uid aus dem [!DNL Marketo Measure] Cookie. Diese &quot;[!DNL BizibleId]&quot; wird dann von CallTrackingMetrics gespeichert.
+CallTrackingMetrics muss einige Entwicklungsarbeiten am Ende durchführen, damit dies funktioniert. Mit dem JavaScript, das sie auf Ihrer Site platzieren, können CallTrackingMetrics die _biz_uid aus dem [!DNL Marketo Measure] Cookie. Diese &quot;[!DNL BizibleId]&quot; wird dann von CallTrackingMetrics gespeichert.
 
-Wenn ein Besucher Ihre Site aufruft und einen Telefonanruf tätigt, ist es Aufgabe von CallTrackingMetrics, diese Daten per Push in [!DNL Salesforce]  In der Regel wird ein [!DNL Salesforce Task] erstellt wird, die Daten wie Telefonnummer, Betreff, Typ und jetzt die [!DNL BizibleId]
+Wenn ein Besucher Ihre Site aufruft und einen Telefonanruf tätigt, ist es Aufgabe von CallTrackingMetrics, diese Daten per Push in [!DNL Salesforce].  In der Regel wird ein [!DNL Salesforce Task] erstellt wird, die Daten wie Telefonnummer, Betreff, Typ und jetzt die [!DNL BizibleId]
 
 Die [!DNL BizibleId] ist ein Feld, das mit Version 6.7 (und höher) von [!DNL Marketo Measure] Marketing Attribution-Paket.
 
@@ -45,7 +45,7 @@ Wann [!DNL Marketo Measure] findet einen Task-Datensatz mit einer bekannten [!DN
 
 ## Touchpoint {#the-touchpoint}
 
-Wann [!DNL Marketo Measure] die Aufgabe importieren/herunterladen können, verarbeiten wir diese Details zusammen mit der Websitzung. In den meisten Fällen kann sie mit einer verweisenden Stelle oder Anzeige zusammengeführt werden. Im folgenden Beispiel fand ein Besucher das Unternehmen über eine gebührenpflichtige Google-Anzeige und führte einen Telefonanruf durch.
+Wann [!DNL Marketo Measure] die Aufgabe importieren/herunterladen können, verarbeiten wir diese Details zusammen mit der Websitzung. Normalerweise kann es mit einer verweisenden Stelle oder Anzeige zusammengeführt werden. Im folgenden Beispiel fand ein Besucher das Unternehmen über eine gebührenpflichtige Google-Anzeige und führte einen Telefonanruf durch.
 
 Die [!UICONTROL Touchpoint] Der Typ &quot;Aufruf&quot;wird aus der Aufgabe abgerufen, aus dem Screenshot oben, der bei der Erstellung der Aufgabe auch von CallTrackingMetrics aufgefüllt wird.
 
@@ -69,9 +69,9 @@ Sowohl der Touchpoint-Typ als auch das Medium enthalten die Daten, die aus dem T
 
 **Warum ist dieser Anruf nicht an eine Websitzung gebunden?**
 
-Überprüfen Sie zunächst die Aufgabe, um sicherzustellen, dass eine [!DNL BizibleId] aufgefüllt wurde. Wenn kein Wert vorhanden ist, können wir keinen Touchpoint erstellen. Dies muss mit CallTrackingMetrics eskaliert werden.
+Überprüfen Sie zunächst die Aufgabe, um sicherzustellen, dass eine [!DNL BizibleId] aufgefüllt wurde. Wenn kein Wert vorhanden ist, können wir keinen Touchpoint dafür erstellen. Dies muss mit CallTrackingMetrics eskaliert werden.
 
-Wenn ein Wert vorhanden ist, beachten Sie, dass wir nur alle Websitzungen als 30 Minuten betrachten. Wenn um 23:17 Uhr auf eine Google-Anzeige geklickt wurde (Start der Sitzung auf der Website), der Anruf jedoch erst um 13:05 Uhr erfolgte, werden die Web-Sitzung und der Telefonanruf nicht zusammengeführt. Stattdessen [!DNL Marketo Measure] erstellt eine separate [!DNL Salesforce Task] Touchpoint zur Verfolgung des Telefonanrufs, jedoch keine Daten zur Websitzung.
+Wenn ein Wert vorhanden ist, beachten Sie, dass wir nur alle Websitzungen als 30 Minuten betrachten. Wenn um 23:17 Uhr (Start der Sitzung auf der Website) auf eine Google-Anzeige geklickt wurde, der Anruf jedoch erst um 13:05 Uhr erfolgte, werden die Web-Sitzung und der Telefonanruf nicht zusammengeführt. Stattdessen [!DNL Marketo Measure] erstellt eine separate [!DNL Salesforce Task] Touchpoint zur Verfolgung des Telefonanrufs, jedoch keine Daten zur Websitzung.
 
 ![](assets/6.png)
 

@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Cookies - [!DNL Marketo Measure]"
 title: „[!DNL Marketo Measure]-Cookies“
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '393'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +17,7 @@ Erfahren Sie mehr über die verschiedenen [!DNL Marketo Measure]-Cookies, die au
 
 >[!IMPORTANT]
 >
->Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe die Marketo Measure-Funktionen, die auf Drittanbieter-Cookies basieren, ein. Dies betrifft insbesondere das Domain-übergreifende Tracking und die Viewthrough-Attribution, die das Impressions-Cookie von Google/DoubleClick verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kundinnen und -Kunden weiterhin zur Verfügung.
+>Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe Marketo Measure-Funktionen, die auf Drittanbieter-Cookies basieren, ein. Dies betrifft insbesondere das domänenübergreifende Tracking und die Durchsichtszuordnung, die das Impressions-Cookie Google/DoubleClick verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kunden weiterhin zur Verfügung.
 
 <table>
 <thead>
@@ -97,7 +97,7 @@ Erfahren Sie mehr über die verschiedenen [!DNL Marketo Measure]-Cookies, die au
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Drittanbieter, Domain=.<a href="http://bizible.com/">bizible.com</a></td>
+    <td>Drittanbieter, Domain=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
     <td>Universelle Benutzer-ID zur Domain-übergreifenden Identifizierung einer Benutzerin oder eines Benutzers.</td>
     <td>1 Jahr</td>
     <td>Ja</td>
@@ -116,6 +116,6 @@ Erfahren Sie mehr über die verschiedenen [!DNL Marketo Measure]-Cookies, die au
 </tbody>
 </table>
 
-Wenn während des JavaScript-Setups eine Web Application Firewall(WAF)-Warnung ausgelöst wird, können Benutzende diese WAF-Regel deaktivieren oder die Cookies auf die Zulassungsliste setzen, wie im folgenden Beispiel gezeigt:
+Wenn während des JavaScript-Setups eine WAF-Warnung (Web Application Firewall) ausgelöst wird, können Benutzer diese WAF-Regel deaktivieren oder die Cookies wie unten gezeigt von Zulassungslisten  werden:
 
 ![](assets/marketo-measure-cookies-1.png)

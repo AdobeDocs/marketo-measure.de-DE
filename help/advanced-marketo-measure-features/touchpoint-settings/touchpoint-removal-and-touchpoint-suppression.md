@@ -4,9 +4,9 @@ description: Entfernen von Touchpoints und Unterdrückung von Touchpoints - [!DN
 title: Entfernen von Touchpoints und Unterdrückung von Touchpoints
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,8 @@ Wenn du einen Fehler machst, mach dir keine Sorgen. Sie können auch einzelne Ze
 
 ![](assets/5.png)
 
-bis zum Ende: [!UICONTROL Speichern und verarbeiten] Ihre Regeln. Wenn Sie viele Änderungen vornehmen, stellen Sie sicher, dass Sie Ihre Änderungen auf dem Weg speichern. [!DNL Marketo Measure] beginnt nicht mit dem Entfernen Ihrer Touchpoints, bis Sie auf die Schaltfläche **Speichern und verarbeiten** Schaltfläche.
+bis zum Ende: [!UICONTROL Speichern und verarbeiten] Ihre Regeln. Wenn Sie viele Änderungen vornehmen, stellen Sie sicher, dass Sie Ihre Änderungen auf dem Weg speichern. [!DNL Marketo Measure] entfernt Ihre Touchpoints erst dann, wenn Sie auf
+[!UICONTROL **Speichern und verarbeiten**].
 
 | **Operator** | **Anwendungsfall** |
 |---|---|

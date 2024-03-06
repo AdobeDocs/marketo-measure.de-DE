@@ -4,9 +4,9 @@ description: Definitionen und Enzyklopädie - [!DNL Marketo Measure]
 title: Definitionen und Enzyklopädie
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '6137'
+source-wordcount: '6136'
 ht-degree: 2%
 
 ---
@@ -901,7 +901,7 @@ Klicken Sie auf die aggregierten Zahlen, um im Drilldown-Verfahren nach grundleg
 
 **F: Warum gibt es sowohl einen Filter für die &#39;Konto-ID&#39; als auch für den &#39;Konto-Name&#39;?**
 
-A: Konto-IDs sind zwar eindeutig, Kontonamen müssen jedoch nicht sein. Sie hätten beispielsweise für jede Geschäftseinheit innerhalb eines Unternehmens mehrere verschiedene Konten erstellen können. Auch wenn die Verwendung des Kontonamens intuitiver sein kann, um sicherzustellen, dass Sie nach einem bestimmten Konto filtern, sollten Sie die Konto-ID verwenden.
+A: Konto-IDs sind zwar eindeutig, Kontonamen müssen jedoch nicht sein. Sie hätten beispielsweise für jede Geschäftseinheit innerhalb eines Unternehmens mehrere verschiedene Konten erstellen können. Auch wenn die Verwendung des Kontonamens intuitiver sein kann, um sicherzustellen, dass Sie für ein bestimmtes Konto filtern, sollten Sie die Konto-ID verwenden.
 
 **F: Wenn ich nach Konto-ID filtere, werden dann alle Tabellen gefiltert?**
 

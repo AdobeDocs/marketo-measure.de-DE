@@ -4,20 +4,20 @@ description: Marketingkanal-Kosten - [!DNL Marketo Measure]
 title: Marketingkanal-Kosten
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1289'
 ht-degree: 0%
 
 ---
 
 # Marketingkanal-Kosten {#marketing-channel-costs}
 
-Einer der wichtigsten Vorteile der Verwendung von [!DNL Marketo Measure] ist die Möglichkeit, Marketing-Maßnahmen direkt mit den Auswirkungen auf den Umsatz zu verbinden - mit so hoher Granularität wie gewünscht. Es ist möglich, die Kapitalrendite auf der Touchpoint-Ebene zu sehen. Um diesen Nutzen nutzen zu können, müssen die Kanalkosten einfach in die [!DNL Marketo Measure] App. ROI-Berichte werden automatisch erstellt und stehen im **Marketing-ROI-Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+Einer der wichtigsten Vorteile der Verwendung von [!DNL Marketo Measure] ist die Möglichkeit, Marketing-Maßnahmen direkt mit den Auswirkungen auf den Umsatz zu verbinden - mit so hoher Granularität wie gewünscht. Es ist möglich, die Kapitalrendite auf der Touchpoint-Ebene zu sehen. Um diesen Nutzen nutzen zu können, müssen die Kanalkosten in die [!DNL Marketo Measure] App. ROI-Berichte werden automatisch erstellt und stehen im **Marketing-ROI-Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Klicken Sie hier , um direkt zu den Anweisungen zu navigieren.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
-Die [!DNL Marketo Measure] Mit der Marketing-Ausgabefunktion können Kunden ihre Ausgaben über alle Kanäle, Subkanäle und Kampagnen hochladen. Je mehr Daten von Kunden hinzugefügt werden, desto mehr ROI-Berichte können wir im Dashboard &quot;Umsatzzuordnung&quot;aufrufen.
+Die [!DNL Marketo Measure] Mit der Marketing-Ausgabefunktion können Kunden ihre Ausgaben über alle Kanäle, Subkanäle und Kampagnen hochladen. Je mehr Daten von Kunden hinzugefügt werden, desto mehr ROI-Berichte werden im Dashboard &quot;Umsatzzuordnung&quot;angezeigt.
 
 Kosten, die gemeldet und aus Direktwerbeverbindungen importiert werden, werden automatisch auf der detailliertesten Ebene erfasst und müssen nicht hochgeladen werden. Dazu gehören unsere aktuellen Integrationen mit Google AdWords, Bing Ads, Doubleclick und Facebook.
 
@@ -27,7 +27,7 @@ Kosten, die gemeldet und aus Direktwerbeverbindungen importiert werden, werden a
 
 **Ausgaben nach Kampagne**
 
-Auf der detailliertesten Ebene können Kunden Ausgaben nach einzelnen Kampagnen eingeben, die innerhalb ihres jeweiligen Kanals gruppiert sind. Für CRM-Kampagnen: [!DNL Marketo Measure] hat die Kampagnen-ID in eine separate Spalte gezogen, die Ihnen dabei hilft, Offline-Kampagnenausgaben aus Ihrem CRM-System in diese Tabelle zu übertragen. Durch das Hinzufügen von Ausgaben auf dieser Ebene können Kunden den Kampagnen-ROI anzeigen und die Leistung von Campaign optimieren.
+Auf der detailliertesten Ebene können Kunden Ausgaben nach einzelnen Kampagnen eingeben, die innerhalb ihres jeweiligen Kanals gruppiert sind. Für CRM-Kampagnen: [!DNL Marketo Measure] hat die Kampagnen-ID in eine separate Spalte eingefügt, die Ihnen dabei hilft, Offline-Kampagnenausgaben aus Ihrem CRM-System dieser Tabelle zuzuordnen. Durch das Hinzufügen von Ausgaben auf dieser Ebene können Kunden den Kampagnen-ROI anzeigen und die Leistung von Campaign optimieren.
 
 Die Summe aller Kampagnen muss nicht zu den Werten zusammenfassen, die im Subkanal oder Kanal eingegeben wurden. Sie darf jedoch nicht größer sein als die Werte, die im Subkanal oder Kanal eingegeben wurden. Wenn die Summe kleiner ist als der im Unterkanal oder Kanal eingegebene Wert, [!DNL Marketo Measure] fügt automatisch eine Zeile für &quot;Sonstige&quot;hinzu, um die Differenz abzudecken und Lücken zu füllen.
 
@@ -43,7 +43,7 @@ Auf der höchsten Ebene können Kunden Ausgaben nach Kanal eingeben. Durch das H
 
 **Datumsauswahl**
 
-Der standardmäßige Datumsbereich beginnt ab dem Startdatum mit [!DNL Marketo Measure] bis zum aktuellen Monat. Um sicherzustellen, dass die Kosten korrekt bleiben, können Sie keine Kosten für zukünftige Monate eingeben, Sie können aber die Kosten für die Monate vor Ihrer Partnerschaft mit [!DNL Marketo Measure].
+Der standardmäßige Datumsbereich beginnt ab dem Startdatum mit [!DNL Marketo Measure] bis zum aktuellen Monat. Um sicherzustellen, dass die Kosten korrekt bleiben, können Sie keine Kosten für zukünftige Monate angeben, sondern Kosten für Monate vor Ihrer Partnerschaft eingeben [!DNL Marketo Measure].
 
 **Filter**
 
@@ -55,19 +55,19 @@ Verwenden Sie das Suchfeld, um übereinstimmenden Text aus Kanälen, Unterkanäl
 
 **Aktuelle Kosten herunterladen**
 
-Die heruntergeladene CSV-Datei ruft die Ergebnisse vom aktuellen Bildschirm ab, d. h. alle Daten, Filter oder Suchvorgänge, die angewendet werden, werden unverändert heruntergeladen.
+Die heruntergeladene CSV-Datei ruft die Ergebnisse von Ihrem aktuellen Bildschirm ab, d. h. alle Daten, Filter oder Suchvorgänge, die angewendet werden, werden unverändert heruntergeladen.
 
 **CSV hochladen**
 
 Unabhängig davon, welche Ansicht im Browser angezeigt wird, können Sie eine beliebige CSV-Datei hochladen, wenn es sich um eine gefilterte Ansicht oder eine Standardansicht mit allen Daten und Kanälen handelt.
 
-Der häufigste Fehler ist das Format der Datumsspalten, das auftritt, wenn das Datumsformat geändert wird. Dies kann absichtlich beim Wechsel zwischen Excel und/oder Google Tabellen auftreten. Denken Sie daran, dass das Datum MM-YY sein sollte, also Sep-12 und nicht Sept-12, oder Mai-12 und nicht 05-12.
+Der häufigste Fehler ist das Format der Datumsspalten, das auftritt, wenn das Datumsformat geändert wird und der Wechsel zwischen Excel und/oder Google Tabellen mit Absicht erfolgen kann. Denken Sie daran, dass das Datum MM-YY sein sollte, also Sep-12 und nicht Sept-12, oder Mai-12 und nicht 05-12.
 
 ## Vorbereitung {#before-you-begin}
 
 [!DNL Marketo Measure] verfügt über 13 Standardkanäle, die verwendet oder erweitert werden können. Zusätzlich können bis zu 40 Online- und Offline-Kanäle erstellt werden, um Ihre einzigartige Marketingstruktur zu berücksichtigen. Daraus können insgesamt 200 Unterkanäle erstellt werden, um diese Online- und Offline-Kanäle ebenfalls zu unterstützen.
 
-[!DNL Marketo Measure] lädt die Marketingkanalkosten automatisch von Plattformen herunter, mit denen eine API-Integration besteht, z. B. Bing Ads und Google AdWords. Kosten für Plattformen, die nicht in [!DNL Marketo Measure] müssen manuell hochgeladen werden. Die Marketingkanäle sollten eingerichtet werden, bevor die Kostendaten hochgeladen werden.
+[!DNL Marketo Measure] lädt die Marketingkanalkosten automatisch von Plattformen herunter, mit denen eine API-Integration besteht, z. B. Bing Ads und Google AdWords. Kosten für Plattformen, die nicht in [!DNL Marketo Measure] manuell hochgeladen werden. Die Marketingkanäle sollten eingerichtet werden, bevor die Kostendaten hochgeladen werden.
 
 ## Hochladen von Marketingkosten {#uploading-marketing-costs}
 
@@ -75,7 +75,7 @@ Sobald Marketing-Kanäle und -Regeln eingerichtet oder aktualisiert wurden, kön
 
 **Schritt 1: Navigieren Sie zur Seite Marketing-Ausgaben im [!DNL Marketo Measure] App.**
 
-Navigieren Sie zu **[!UICONTROL Mein Konto]** Menü, klicken Sie auf **[!UICONTROL Einstellungen]** und navigieren Sie dann zum **[!UICONTROL Marketing-Ausgaben]** Option auf der linken Seitenleiste unter **[!UICONTROL Berichterstellung]** Abschnitt.
+Navigieren Sie zu **[!UICONTROL Mein Konto]** Menü, klicken **[!UICONTROL Einstellungen]** und navigieren Sie dann zum **[!UICONTROL Marketing-Ausgaben]** Option auf der linken Seitenleiste unter **[!UICONTROL Berichterstellung]** Abschnitt.
 
 ![](assets/1.png)
 
@@ -107,7 +107,7 @@ Bing Ads- und Google AdWords-Kosten müssen nicht eingegeben oder aktualisiert w
 
 **Schritt 4: Datei im CSV-Format speichern**
 
-Wenn Sie in Google Tabellen arbeiten, sollten Sie die Datei zuerst herunterladen. Schließen Sie keine monatlichen Daten aus oder löschen Sie sie, da dies beim Hochladen der CSV-Datei in Schwierigkeiten bereiten wird. [!DNL Marketo Measure] später.
+Wenn Sie in Google Tabellen arbeiten, sollten Sie die Datei zuerst herunterladen. Schließen Sie keine monatlichen Daten aus oder löschen Sie sie, da dies beim Hochladen der CSV-Datei in Schwierigkeiten bereitet [!DNL Marketo Measure] später.
 
 **Schritt 5: CSV-Datei hochladen**
 
@@ -121,7 +121,7 @@ Wenn kein Wert auf einer höheren Ebene wie Kanal oder Subchannel eingegeben wir
 
 **Wie werden die Kampagnen in der Liste bestimmt, die ich sehe?**
 
-Im Moment werden in unseren Ergebnissen Kampagnen aufgelistet, die wir gesehen haben, dass sie einem Touchpoint gutgeschrieben wurden. Wenn eine Kampagne eine Aktivität enthält, wird diese Kampagne basierend auf dem Touchpoint-Datum angezeigt, an dem sie stattgefunden hat.
+Im Moment werden in unseren Ergebnissen Kampagnen aufgelistet, die wir gesehen haben, dass sie einem Touchpoint gutgeschrieben wurden. Wenn eine Kampagne eine Aktivität enthielt, zeigen wir, dass die Kampagne auf dem Touchpoint-Datum basiert, an dem sie aufgetreten ist.
 
 **Es gibt zu viele Zeilen und Spalten, um durchs Bild zu gelangen - kann ich die Ansicht konsolidieren?**
 
@@ -129,4 +129,4 @@ Mit der Fähigkeit, den Datumsbereich zu ändern, den Kanal zu filtern oder nach
 
 **Warum kann ich keine Datei hochladen?**
 
-Wir haben verschiedene Berechtigungssätze innerhalb der [!DNL Marketo Measure] App. Um eine Datei hochladen zu können, müssen Sie &quot;AccountAdmin&quot;sein. Um dies zu umgehen, bitten Sie Ihren AccountAdmin um Zugriff oder lassen Sie Ihre AccountAdmin die Datei in Ihren Namen hochladen. Eine Liste der Benutzer und ihrer Rollen finden Sie unter **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontobenutzer anzeigen/hinzufügen]**.
+Wir haben verschiedene Berechtigungssätze innerhalb der [!DNL Marketo Measure] App. Um eine Datei hochzuladen, müssen Sie ein &quot;AccountAdmin&quot;sein. Um dies zu umgehen, bitten Sie Ihren AccountAdmin um Zugriff oder lassen Sie Ihre AccountAdmin die Datei in Ihren Namen hochladen. Eine Liste der Benutzer und ihrer Rollen finden Sie unter **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontobenutzer anzeigen/hinzufügen]**.

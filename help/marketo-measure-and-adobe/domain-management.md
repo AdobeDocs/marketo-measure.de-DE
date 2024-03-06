@@ -3,9 +3,9 @@ description: Domänenverwaltung - [!DNL Marketo Measure]
 title: Domänenverwaltung
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Nachdem eine Domäne in der Admin Console hinzugefügt wurde, [!DNL Marketo Meas
 
 ![](assets/domain-management-2.png)
 
-Im **[!UICONTROL Integration]** > **[!UICONTROL Domänen]** angezeigt, werden dem Benutzer alle Domänen, die er in der Admin Console registriert hat, sowie ihr Status angezeigt. Jede Domäne kann aktiviert oder deaktiviert werden. Wenn eine Domäne aktiviert ist, [!DNL Marketo Measure] tracking erfasst sämtlichen Traffic, der in dieser Domäne angezeigt wird. Wenn eine Domäne deaktiviert ist, [!DNL Marketo Measure] ignoriert jeglichen Traffic, der von dieser Domäne stammt, und erstellt keine Touchpoints oder anderen Daten. [!DNL Marketo Measure] bestätigt die Deaktivierung einer Domain und warnt vor den Auswirkungen:
+Im **[!UICONTROL Integration]** > **[!UICONTROL Domänen]** angezeigt, werden dem Benutzer alle Domänen, die er in der Admin Console registriert hat, sowie ihr Status angezeigt. Jede Domäne kann aktiviert oder deaktiviert werden. Wenn eine Domäne aktiviert ist, [!DNL Marketo Measure] tracking erfasst sämtlichen Traffic, der in dieser Domäne angezeigt wird. Wenn eine Domäne deaktiviert ist, [!DNL Marketo Measure] ignoriert jeglichen Traffic, der von dieser Domäne stammt, und erstellt keine Touchpoints oder anderen Daten. [!DNL Marketo Measure] bestätigt die Deaktivierung einer Domäne und warnt vor etwaigen Auswirkungen:
 
 ![](assets/domain-management-3.png)
 
@@ -55,7 +55,7 @@ Wenn Sie den Mauszeiger über ein einzelnes Statuselement bewegen, wird eine Qui
 
 **Was passiert, wenn eine Domäne in der Admin Console entfernt wird?**
 
-Wenn eine Domäne in der Admin Console entfernt wird, [!DNL Marketo Measure] markiert die Domäne als gelöscht. [!DNL Marketo Measure] wird das Traffic-Tracking in dieser Domäne sofort beenden, jedoch keine zuvor erfassten Daten entfernen.
+Wenn eine Domäne in der Admin Console entfernt wird, [!DNL Marketo Measure] markiert die Domäne als gelöscht. [!DNL Marketo Measure] stoppt sofort das Traffic-Tracking in dieser Domäne, entfernt jedoch keine zuvor erfassten Daten.
 
 **Warum kann ich eine Domäne nicht aktivieren?**
 

@@ -4,9 +4,9 @@ description: Offline-Einrichtung des benutzerdefinierten Kanals - [!DNL Marketo 
 title: Offline-Einrichtung benutzerdefinierter Kanäle
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Nachdem Sie die Tabelle mit Ihren benutzerdefinierten Regeln bearbeitet und aktu
 
 >[!TIP]
 >
->Möchten Sie _when_ a [!DNL Salesforce] Kampagnentyp wird nach [!DNL Marketo Measure] Kanalzuordnung? Gehen Sie einfach zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Felder]** > **[!UICONTROL Typ]**. Sie können dann sehen, welche Werte in der Auswahlliste enthalten sind und welche inaktiv sind. Inaktive Typen werden nicht als auswählbarer Typ in unserem &quot;[!UICONTROL Offline-Kanäle]&quot;. Beachten Sie, dass dieser Vorgang einige Minuten bis zu 48 Stunden dauern kann.
+>Möchten Sie _when_ a [!DNL Salesforce] Kampagnentyp wird nach [!DNL Marketo Measure] Kanalzuordnung? Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Felder]** > **[!UICONTROL Typ]**. Sie können dann sehen, welche Werte in der Auswahlliste enthalten sind und welche inaktiv sind. Inaktive Typen werden nicht als auswählbarer Typ in unserem &quot;[!UICONTROL Offline-Kanäle]&quot;. Beachten Sie, dass dieser Vorgang einige Minuten bis zu 48 Stunden dauern kann.
 
 Klicks **[!UICONTROL Speichern]** wenn Sie fertig sind und [!DNL Marketo Measure] lädt die Änderungen hoch und verarbeitet die Daten erneut.
 

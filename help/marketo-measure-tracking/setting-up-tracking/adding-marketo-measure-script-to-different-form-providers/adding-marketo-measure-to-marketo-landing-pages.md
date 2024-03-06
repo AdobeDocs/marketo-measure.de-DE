@@ -4,9 +4,9 @@ description: Hinzufügen [!DNL Marketo Measure] nach [!DNL Marketo] Landing Page
 title: Hinzufügen von [!DNL Marketo Measure] zu Marketo-Landing-Pages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '213'
 ht-degree: 3%
 
 ---
@@ -36,10 +36,10 @@ Beispiel für einen Screenshot unten
 
 ## Weitere Hinweise {#additional-notes}
 
-* Möglicherweise sind bereits andere Trackingcode-Snippets vorhanden, z. B. [!DNL Google Analytics] Code. Es gibt kein Problem damit. Stellen Sie sicher, dass Sie sie mit einem Semikolon trennen `;` und ein einzelnes Leerzeichen. Ein Beispiel dafür, wie dies aussehen würde:
+* Möglicherweise sind bereits andere Trackingcode-Snippets vorhanden, z. B. [!DNL Google Analytics] Code. Es gibt kein Problem damit. Trennen Sie sie unbedingt durch ein Semikolon `;` und ein einzelnes Leerzeichen. Ein Beispiel dafür, wie dies aussehen würde:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`
 
 * Wahrscheinlich werden mehrere Landingpage-Vorlagen verwendet. Stellen Sie sicher, dass Sie den Code zu allen Vorlagen hinzufügen, die Formulare enthalten.
 
-* Manchmal müssen Sie bei der Bearbeitung der Vorlage für Landingpages die Seiten erneut validieren, von denen die Landingpage verwendet wird. In diesem Artikel wird [wie eine Massengenehmigung erteilt wird](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.
+* Wenn Sie die Vorlage für Landingpages bearbeiten, müssen Sie manchmal die Seiten erneut validieren, von denen die Landingpage verwendet wird. In diesem Artikel wird [wie eine Massengenehmigung erteilt wird](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

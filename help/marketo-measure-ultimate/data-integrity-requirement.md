@@ -3,16 +3,16 @@ description: '[!DNL Marketo Measure] Endgültige Datenintegrationsanforderung - 
 title: „[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
 # [!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] validiert die eingehenden AEP-Datensätze, um sicherzustellen, dass die Daten für die Attribution ausreichend und kohärent sind. Wenn die Datenintegritätsanforderung nicht erfüllt ist, wird der Datensatz vom [!DNL Marketo Measure]-System abgelehnt. In diesem Dokument werden die Datenintegritätsanforderung beschrieben, Beispiele für Abfragen zur Dateninspektion bereitgestellt und eine Lösung für erforderliche Felder mit einem Nullwert empfohlen.
+[!DNL Marketo Measure] validiert die eingehenden AEP-Datensätze, um sicherzustellen, dass die Daten für die Attribution ausreichend und kohärent sind. Wenn die Datenintegrität nicht erfüllt wird, wird der Datensatz von der [!DNL Marketo Measure] System. In diesem Dokument werden die Datenintegritätsanforderung beschrieben, Beispiele für Abfragen zur Dateninspektion bereitgestellt und eine Lösung für erforderliche Felder mit einem Nullwert empfohlen.
 
 ## Entitätsobjekt {#entity-object}
 
@@ -37,7 +37,7 @@ ht-degree: 99%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 123@999-abc-888.Marketo</td>
+      <td>Beispiel: 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -365,7 +365,7 @@ ht-degree: 99%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 333@999-abc-888.Marketo</td>
+      <td>Beispiel: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -373,7 +373,7 @@ ht-degree: 99%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Zum Beispiel: 333, je nach Datenquellentabelle ist dies entweder Lead-ID oder Kontakt-ID</td>
+      <td>Zum Beispiel - 333, je nach der Datenquellentabelle ist dies entweder Lead-ID oder Kontakt-ID</td>
     </tr>
     <tr>
       <td></td>
@@ -1105,7 +1105,7 @@ ht-degree: 99%
   </tbody>
 </table>
 
-Der Ereignistyp „Interessanter Moment“ wird für Ereignistypen verwendet, die in der obigen Tabelle nicht unterstützt werden. Fügen Sie ein benutzerdefiniertes Feld hinzu, um den Untertyp „Interessanter Moment“ anzugeben.
+Der Ereignistyp „Interessanter Moment“ wird für Ereignistypen verwendet, die in der obigen Tabelle nicht unterstützt werden. Fügen Sie ein benutzerdefiniertes Feld hinzu, um den Untertyp &quot;Interessanter Moment&quot;anzugeben.
 
 ## Abfragebeispiele für die Dateninspektion {#query-examples-for-data-inspection}
 

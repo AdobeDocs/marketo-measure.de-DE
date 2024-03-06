@@ -4,9 +4,9 @@ description: Salesforce Activities-Zuordnung - [!DNL Marketo Measure]
 title: Salesforce Activities-Zuordnung
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Die [!DNL Marketo Measure] Bei der Integration von Salesforce-Aktivitäten werde
 
 ![](assets/1.png)
 
-Zunächst führen wir ein neues Konzept ein, das als [!DNL Marketo Measure] Kampagne. Für jede von Ihnen definierte Regel werden Sie die Datensätze in einem [!DNL Marketo Measure] Kampagne, die Sie benennen können. Fügen Sie nach Bedarf mehrere Kampagnen hinzu. Stellen Sie sich vor, Sie würden die Effektivität einer Outbound-Verkaufskampagne neben einer Paid Media-Kampagne messen!
+Zunächst führen wir ein neues Konzept ein, das als [!DNL Marketo Measure] Kampagne. Für jede von Ihnen definierte Regel werden die Datensätze in einem [!DNL Marketo Measure] Kampagne, die Sie benennen können. Fügen Sie nach Bedarf mehrere Kampagnen hinzu. Stellen Sie sich vor, Sie würden die Effektivität einer Outbound-Verkaufskampagne neben einer Paid Media-Kampagne messen!
 
-Sie werden das [!DNL Marketo Measure] Kampagnenname , um uns mitzuteilen, welchem Kanal er zugeordnet werden soll. Wenn Sie noch an ausgehende Verkäufe denken, sollten möglicherweise alle ausgehenden Verkaufskampagnen in einem BDR-Kanal platziert werden.
+Sie werden das [!DNL Marketo Measure] Kampagnenname , um uns mitzuteilen, welchem Kanal er zugeordnet werden soll. Wenn Sie noch an ausgehende Verkäufe denken, sollten möglicherweise alle ausgehenden Vertriebskampagnen in einem BDR-Kanal platziert werden.
 
 Machen Sie sich mit dieser Hierarchie vertraut:
 

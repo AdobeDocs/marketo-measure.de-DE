@@ -3,9 +3,9 @@ description: Best Practices für benutzerdefiniertes Modell - [!DNL Marketo Meas
 title: Best Practices für benutzerdefiniertes Modell
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ Es ist wichtig, dass diese beiden Aspekte Ihres benutzerdefinierten Modells rich
 
 ## Best Practices {#best-practice}
 
-Unabhängig davon, ob Sie Ihr benutzerdefiniertes Modell zum ersten Mal einrichten oder frühere Versionen überprüfen, sollten Sie die folgenden Best Practices beachten.
+Unabhängig davon, ob Sie Ihr benutzerdefiniertes Modell zum ersten Mal einrichten oder frühere Versionen überprüfen, sollten Sie folgende Best Practices beachten.
 
 * Einfach starten
    * Identifizieren Sie die wichtigsten Schritte, die Sie Ihrem benutzerdefinierten Modell hinzufügen möchten, die für Ihre [!DNL Marketo Measure] Berichterstellung. In der Regel handelt es sich hierbei um Phasen, an denen Sie gemessen werden oder die Sie versuchen, Einblicke in
@@ -49,9 +49,9 @@ Unabhängig davon, ob Sie Ihr benutzerdefiniertes Modell zum ersten Mal einricht
 * Verwenden Sie keine Formelfelder, um eine benutzerdefinierte Phase zu definieren
    * Ein boolesches Feld ist eine Best Practice-Empfehlung
 * Integrieren Sie keine benutzerdefinierten Phasen in Ihr benutzerdefiniertes Modell, die mit einem [!DNL Marketo Measure] Milestone-Touchpoint-Position (FT, LC, OC, Closed Won/Lost)
-   * Wenn Sie dies tun, treten diese Positionen immer gleichzeitig auf und können zu einer überhöhten Attribution von Teilen Ihres Trichters führen.
+   * Wenn Sie dies tun, treten diese Positionen immer gleichzeitig auf und können zu einer überhöhten Attribution zu Teilen Ihres Trichters führen.
 * Arbeiten mit Ihrem Sales Opt-Team
-   * Wenn Sie das Team einbinden, das am nächsten mit Bühnen und deren Bedeutung arbeitet, stellen Sie sicher, dass Sie die richtigen Bühnen verwenden und dass diese korrekt definiert sind.
+   * Wenn Sie das Team einbinden, das am nächsten mit Bühnen und deren Bedeutung arbeitet, stellen Sie sicher, dass Sie die richtigen Bühnen verwenden und dass diese ordnungsgemäß definiert sind.
 
 ## Best Practice für die Wartung {#best-practice-for-maintenance}
 

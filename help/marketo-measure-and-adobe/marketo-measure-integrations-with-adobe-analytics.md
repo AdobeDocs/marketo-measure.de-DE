@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Integrationen mit Adobe Analytics - [!DNL M
 title: "[!DNL Marketo Measure] Integrationen mit [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '922'
 ht-degree: 1%
 
 ---
@@ -30,19 +30,19 @@ Die Integration von B2B-Kundenattributen ermöglicht die gegenseitige Nutzung vo
 
 1. Nachdem die Datenquelle &quot;Kundenattribute&quot;erstellt wurde, fahren Sie mit dem Konfigurationsprozess fort, indem Sie zur **[!UICONTROL Integrationen]** > **[!UICONTROL Verbindungen]** im Bildschirm [!DNL Marketo Measure] Administratormenü.
 
-1. Klicken Sie auf **[!UICONTROL Einrichten einer neuen Kundenattributverbindung]** und befolgen Sie die Anweisungen zum Konfigurieren der Integration von Kundenattributen . Die Benutzeroberfläche fordert Sie zur Eingabe der Alias-ID und FTP-Verbindungsinformationen auf, die Sie beim Erstellen der Kundenattributquelle in Ihrer Core Services Console erhalten haben, sowie zur Auswahl des Satzes der Kontoattribute, die Sie mit Ihrer [!DNL Adobe Analytics] -Konto.
+1. Klicken Sie auf **[!UICONTROL Einrichten einer neuen Kundenattributverbindung]** und befolgen Sie die Anweisungen zum Konfigurieren der Integration von Kundenattributen . In der Benutzeroberfläche werden Sie zur Eingabe der Alias-ID und FTP-Verbindungsinformationen aufgefordert, die Sie beim Erstellen der Kundenattributquelle in Ihrer Core Services Console erhalten haben. Wählen Sie den Satz von Kontoattributen aus, die Sie mit Ihrer [!DNL Adobe Analytics] -Konto.
 
-   Sie müssen auch Ihre Adobe IMS-Organisations-ID eingeben. Diese ID wird in der rechten unteren Ecke der Adobe Experience Cloud-Admin Console angezeigt. Weitere Informationen zum Auffinden dieser ID erhalten Sie vom Adobe Account Team (Ihrem Kundenbetreuer).
+   Geben Sie Ihre Adobe IMS-Organisations-ID ein. Diese ID wird in der rechten unteren Ecke der Adobe Experience Cloud-Admin Console angezeigt. Weitere Informationen zum Auffinden dieser ID erhalten Sie vom Adobe Account Team (Ihrem Kundenbetreuer).
 
-1. Nachdem Sie die Verbindung in Ihrer [!DNL Marketo Measure] -Konto, müssen Sie zurück zu Ihrer Experience Cloud-Konsole wechseln, um [Prüfen des Schemas](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Sie müssen sich keine Gedanken über den FTP-Datei-Upload machen. [!DNL Marketo Measure] hat diesen Teil für Sie automatisiert. Sie müssen lediglich zum Bildschirm &quot;Schema anzeigen/bearbeiten&quot;für die Kundenattributquelle navigieren, die Sie in Schritt 1 erstellt haben, und der Adobe mitteilen, welche Datentypen für die einzelnen Attribute gelten, die [!DNL Marketo Measure] in Ihrem Namen hochgeladen hat. Sie können bei Bedarf auch neue Anzeigenamen für die hochgeladenen Attribute erstellen.
+1. Nachdem Sie die Verbindung in Ihrem [!DNL Marketo Measure] -Konto, müssen Sie zurück zu Ihrer Experience Cloud-Konsole wechseln, um [Prüfen des Schemas](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Sie müssen sich keine Gedanken über den FTP-Datei-Upload machen. [!DNL Marketo Measure] hat diesen Teil für Sie automatisiert. Navigieren Sie zum Bildschirm &quot;Schema anzeigen/bearbeiten&quot;für die Kundenattributquelle, die Sie in Schritt 1 erstellt haben, und teilen Sie Adobe mit, welche Datentypen für die einzelnen Attribute gelten, die [!DNL Marketo Measure] in Ihrem Namen hochgeladen hat. Sie können bei Bedarf auch neue Anzeigenamen für die hochgeladenen Attribute erstellen.
 
    Wenn Sie sich für die Synchronisierung von Attributen aus Ihrem CRM-Kontoobjekt entschieden haben, wird dringend empfohlen, neue Anzeigenamen zu wählen, wie [!DNL Marketo Measure] füllt nur die Namen auf API-Ebene für diese Attribute, die normalerweise nicht berichterstellungsfreundlich sind.
 
-1. Der letzte Schritt besteht darin, Attributanmeldungen für die Experience Cloud-Anwendungen zu konfigurieren, in denen Sie die Attribute verwenden möchten. Sie können Abonnements für [!DNL Adobe Analytics] oder [!DNL Adobe Target].  Weitere Informationen dazu [finden Sie hier .](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html).
+1. Der letzte Schritt besteht darin, Attributanmeldungen für die Experience Cloud-Anwendungen zu konfigurieren, in denen Sie die Attribute verwenden möchten. Sie können Abonnements für [!DNL Adobe Analytics] oder [!DNL Adobe Target].  Weitere Informationen dazu [finden Sie hier .](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
 
 ## Attributbeschreibungen {#attribute-descriptions}
 
-Wenn Sie eine neue B2B-Kundenattributverbindung erstellen, [!DNL Marketo Measure] erstellt automatisch einen Standardsatz von B2B-Kundenattributen für Sie. Diese Attribute werden in der folgenden Tabelle beschrieben.
+Wenn Sie eine B2B-Kundenattributverbindung erstellen, [!DNL Marketo Measure] erstellt automatisch einen Standardsatz von B2B-Kundenattributen für Sie. Diese Attribute werden in der folgenden Tabelle beschrieben.
 
 Zusätzlich zu den unten aufgeführten Attributen können Sie auch alle Attribute hochladen, die mit dem Kontoobjekt in Ihrem CRM-System verbunden sind. Wenn mehr als ein Konto an den jeweiligen Benutzer gebunden ist, [!DNL Marketo Measure] füllt alle übereinstimmenden Kontoattributwerte in einer durch Semikolon getrennten Liste.
 
@@ -79,7 +79,7 @@ Zusätzlich zu den unten aufgeführten Attributen können Sie auch alle Attribut
 
 **Ein Hinweis zu Attributbeschränkungen**
 
-Die über diese Integration angezeigten Attribute werden weiterhin mit Ihren vertraglichen Attributbeschränkungen in [!DNL Adobe Analytics] und [!DNL Adobe Target]. Nur Attribute, die über ein Attributabonnement angezeigt werden (Schritt 5 in [Konfigurieren der Integration](#configuring-the-integration)) für die abonnierte Anwendung auf Ihre Beschränkung angerechnet.
+Die über diese Integration angezeigten Attribute werden mit Ihren vertraglichen Attributbeschränkungen in [!DNL Adobe Analytics] und [!DNL Adobe Target]. Nur Attribute, die über ein Attributabonnement angezeigt werden (Schritt 5 in [Konfigurieren der Integration](#configuring-the-integration)) gegen Ihre Beschränkung für die abonnierte Anwendung.
 
 ## Häufig gestellte Fragen {#faqs}
 

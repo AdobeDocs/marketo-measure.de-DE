@@ -3,10 +3,10 @@ description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure]'
 title: „[!DNL Marketo Measure] Ultimate – Übersicht“
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 98%
+source-wordcount: '677'
+ht-degree: 74%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 [!DNL Marketo Measure Ultimate] enthält die zusätzlichen Funktionen:
 
-* Es können Daten aus nahezu jeder Datenquelle sowie aus mehreren Datenquellen desselben Typs aufgenommen werden, um alle Ihre Daten für die Attribution einzubringen.
+* Erfassen Sie Daten aus nahezu jeder Datenquelle und mehreren Datenquellen desselben Typs, um alle Ihre Daten für die Attribution einzubringen.
    * Die Lösung kann mit nahezu jedem CRM verwendet werden, nicht nur Salesforce und Dynamics.
    * Es können mehrere CRM-Instanzen und/oder MAP-Instanzen mit einer Instanz von [!DNL Marketo Measure] verbunden werden.
    * Es können Drittanbieterdaten zu Webinar-Registrierung und -Teilnahme einbegracht werden.
@@ -39,13 +39,13 @@ ht-degree: 98%
 
 **Importieren von B2B-Daten über AEP**
 
-Von Marketing-Fachleuten wird erwartet, dass sie ihre B2B-Daten (z. B. Konto, Opportunity, Kontakt, Lead, Kampagne, Kampagnenmitglied, Aktivität) in AEP einbringen. Die direkten Verbindungen von CRM und Marketo Engage sind für Ultimate nicht mehr verfügbar. Marketing-Fachleute werden weiterhin Daten von Anzeigenplattformen über direkte Verbindungen einbringen und Web-Aktivitäten über [!DNL Marketo Measure]-JavaScript nachverfolgen.
+Von Marketingexperten wird erwartet, dass sie ihre B2B-Daten (z. B. Konto, Chancen, Kontakt, Lead, Kampagne, Kampagnenmitglied, Aktivität) über AEP übermitteln. Die direkten Verbindungen von CRM und Marketo Engage sind für Ultimate nicht mehr verfügbar. Marketingexperten bringen weiterhin Ad Platform-Daten über direkte Verbindungen und das Tracking von Webaktivitäten über [!DNL Marketo Measure] JavaScript.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
 **Standardmäßige Währungseinstellung**
 
-[!DNL Marketo Measure Ultimate] setzt die Standardwährung auf USD, bis die Benutzerin bzw. der Benutzer sie ändert. Durch das Festlegen einer neuen Standardwährung werden die Daten ohne erneute Verarbeitung aktualisiert. Solange die ausgewählte Währung als ISO-Ziel-Code vorhanden ist, müssen keine Wechselkurse eingegeben werden.
+[!DNL Marketo Measure Ultimate] setzt die Standardwährung auf USD, bis der Benutzer sie ändert. Durch das Festlegen einer neuen Standardwährung werden die Daten ohne erneute Verarbeitung aktualisiert. Solange die ausgewählte Währung als ISO-Ziel-Code vorhanden ist, müssen keine Wechselkurse eingegeben werden.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
@@ -55,11 +55,11 @@ Die Instanz von [!DNL Marketo Measure Ultimate] muss einer AEP-Sandbox zugeordne
 
 >[!NOTE]
 >
->Eine Produktionsinstanz von [!DNL Marketo Measure Ultimate] muss einer AEP-Produktions-Sandbox zugeordnet werden, und eine Entwicklerinstanz von [!DNL Marketo Measure Ultimate] muss einer AEP-Entwickler-Sandbox zugeordnet werden.
+>A [!DNL Marketo Measure Ultimate] Die Produktionsinstanz muss einer AEP-Produktions-Sandbox, einer [!DNL Marketo Measure Ultimate] Entwicklerinstanz muss einer AEP-Entwickler-Sandbox zugeordnet sein.
 
-Sobald die Auswahl der Sandbox-Zuordnung gespeichert wurde, können Sie sie derzeit nicht mehr in der Anwendung ändern. Um sie zu ändern, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Nachdem die Auswahl der Sandbox-Zuordnung gespeichert wurde, können Sie sie in der Anwendung nicht mehr ändern. Um sie zu ändern, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Datenquelle können in nur einen Datensatz eingehen. Jeder Datensatz kann in nur einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss in der Laufzeit.
+Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Datenquelle können nur in einen Datensatz übertragen werden. Jeder Datensatz kann in nur einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss zur Laufzeit.
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
@@ -106,8 +106,8 @@ ML-Dienste von [!DNL Marketo Measure] ABM (Lead-zu-Konto-Übereinstimmung und pr
 
 ## Einschränkungen {#limitations}
 
-* Für Datenumwandlungsregeln steht derzeit nur eine begrenzte Anzahl von Feldern zur Verfügung.
-* Für bestehende Benutzerinnen und Benutzer der Ebenen 1–3 gibt es keinen Migrationspfad. Es ist eine neue Implementierung erforderlich, aber wir helfen Ihnen dabei, die Daten von nachverfolgten Web-Aktivitäten aus der vorhandenen Instanz zu migrieren.
+* Für Datenumwandlungsregeln stehen begrenzte Felder zur Verfügung.
+* Für bestehende Benutzerinnen und Benutzer der Ebenen 1–3 gibt es keinen Migrationspfad. Erfordert eine neue Implementierung, aber wir helfen Ihnen dabei, die getrackten Web-Aktivitätsdaten von der vorhandenen Instanz zu migrieren.
 
 >[!MORELIKETHIS]
 >

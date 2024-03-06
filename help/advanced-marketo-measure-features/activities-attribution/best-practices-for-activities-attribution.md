@@ -3,9 +3,9 @@ description: Best Practices für die Aktivitätszuordnung - [!DNL Marketo Measur
 title: Best Practices für die Aktivitätszuordnung
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ Die [!DNL Marketo Measure] Mit der Funktion &quot;Aktivitätszuordnung&quot;kön
 
 Der häufigste Anwendungsfall für diese Funktion ist das Erstellen von Regeln, die Interaktionen mit Verkäufen in Ihre Touchpoint-Daten des Käufers aufnehmen. Mithilfe der Aktivitätszuordnung können Sie Ihre Verkaufs- und Marketingdaten in einer Journey ausrichten.
 
-Für viele [!DNL Salesforce] -Instanzen kann das Aktivitätsobjekt verschiedene Datensatztypen unterbringen. Daher ist es wichtig, dass Ihre Aktivitätsregeln spezifisch und auf die Datensätze zugeschnitten sind, die Sie in Touchpoints übersetzen möchten. Die folgenden Best Practices helfen Ihnen dabei sicherzustellen, dass Sie über Ihre Aktivitätszuordnung sinnvolle und wertvolle Touchpoints erstellen.
+Für viele [!DNL Salesforce] -Instanzen kann das Aktivitätsobjekt verschiedene Datensatztypen unterbringen. Daher ist es wichtig, dass Ihre Aktivitätsregeln spezifisch sind und auf die Datensätze zugeschnitten sind, die Sie in Touchpoints übersetzen möchten. Die folgenden Best Practices helfen Ihnen dabei sicherzustellen, dass Sie über Ihre Aktivitätszuordnung sinnvolle und wertvolle Touchpoints erstellen.
 
 ## Best Practices {#best-practice}
 

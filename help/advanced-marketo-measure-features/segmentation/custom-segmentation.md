@@ -4,10 +4,10 @@ description: Benutzerdefinierte Segmentierung - [!DNL Marketo Measure]
 title: Benutzerdefinierte Segmentierung
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 4%
+source-wordcount: '740'
+ht-degree: 0%
 
 ---
 
@@ -71,9 +71,9 @@ Schritt 4: Hinzufügen von Filterregeln
 
 Wenn keine Regeln für Leads/Kontakte und Chancen eingerichtet sind, sehen Sie nur einen Teil Ihrer Daten. Wenn Sie also nicht die Angebotsregeln einrichten, sehen Sie nur Lead-/Kontaktdaten ohne die damit verbundenen Möglichkeiten. Dasselbe gilt, wenn Sie keine Regeln für Leads/Kontakte einrichten - Sie sehen nur Chancen ohne die zugehörigen Leads/Kontakte.
 
-Wenn Sie fertig sind, klicken Sie auf [!UICONTROL Speichern] Überprüfen Sie zunächst alles, und klicken Sie dann auf [!UICONTROL Speichern und verarbeiten]. Denken Sie daran, dass Sie Ihre Einstellungen sieben Tage lang nicht bearbeiten können, wenn Sie speichern und verarbeiten, wie [!DNL Marketo Measure] Formatiert Ihre Daten während dieser Zeit neu.
+Klicken Sie abschließend auf [!UICONTROL Speichern] Überprüfen Sie zunächst alles, und klicken Sie dann auf [!UICONTROL Speichern und verarbeiten]. Beachten Sie, dass Sie Ihre Einstellungen sieben Tage nach dem Speichern und Verarbeiten nicht bearbeiten können, da [!DNL Marketo Measure] Formatiert Ihre Daten während dieser Zeit neu.
 
-Wenn Sie Kundin oder Kunde von Marketo Measure Ultimate sind und Ihr Standard-Dashboard-Objekt auf „Kontakt“ festgelegt haben, verwenden Sie folgende beiden Lead-Felder nicht ([mehr dazu erfahren Sie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr Standard-Dashboard-Objekt auf &quot;Kontakt&quot;festgelegt haben, verwenden Sie nicht die folgenden beiden für &quot;Lead&quot;([Weitere Informationen](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

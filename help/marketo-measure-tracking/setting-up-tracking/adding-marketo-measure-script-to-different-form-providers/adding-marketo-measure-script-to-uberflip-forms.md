@@ -4,9 +4,9 @@ description: Hinzufügen [!DNL Marketo Measure] Skript für [!DNL Uberflip] FORM
 title: Hinzufügen [!DNL Marketo Measure] Skript für [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Wenn Sie derzeit [!DNL Uberflip] Um Ihre Inhalte zu verwalten, müssen Sie diese
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
-   Sie fügen diese Präambel zu beiden [!DNL Hubs.onLoad] und [!DNL Hubs.onPageChange] AJAX JavaScript-Ereignis-Hooks nach unten. (Hinweis: In diesen Ereignis-Hooks können auch andere Codes enthalten sein. Stellen Sie sicher, dass Sie auch die Präambel einschließen.)
+   Fügen Sie diese Präambel sowohl zum [!DNL Hubs.onLoad] und [!DNL Hubs.onPageChange] AJAX JavaScript-Ereignis-Hooks nach unten. (Hinweis: Auch in diesen Ereignis-Hooks kann anderer Code enthalten sein. Stellen Sie sicher, dass Sie auch die Präambel einschließen.)
 
    `Hubs.onLoad = function () {`
 
@@ -37,7 +37,7 @@ Wenn Sie derzeit [!DNL Uberflip] Um Ihre Inhalte zu verwalten, müssen Sie diese
 
    `}`
 
-1. Erstellen und definieren Sie eine Funktion, die Daten bei einer Formular-CTA-Übermittlung an Bizible pusst. Das geht in die [!UICONTROL Benutzerspezifischer Code > Javascript] Abschnitt. (Hinweis: Für diese Funktion ist nur der ctaData-Parameter erforderlich, den Uberflip bereitstellt. Sie können jedoch die anderen Parameter ctaId und ctaName einfügen, falls der Benutzer seinen Code anpassen möchte, um diese Daten ebenfalls weiterzugeben.)
+1. Erstellen und definieren Sie eine Funktion, die Daten bei einer Formular-CTA-Übermittlung an Bizible übergibt. Das geht in die [!UICONTROL Benutzerspezifischer Code > JavaScript] Abschnitt. (Hinweis: Für diese Funktion ist nur der ctaData-Parameter erforderlich, den Uberflip bereitstellt. Sie können jedoch die anderen Parameter ctaId und ctaName einfügen, falls der Benutzer seinen Code anpassen möchte, um diese Daten ebenfalls weiterzugeben.)
 
    `function bizibleFormCode(ctaId, ctaData, ctaName) {`
    `var email = ctaData["email"];`
@@ -48,7 +48,7 @@ Wenn Sie derzeit [!DNL Uberflip] Um Ihre Inhalte zu verwalten, müssen Sie diese
 
    `}`
 
-1. Stellen Sie beim Senden eines Formular-CTA sicher, dass Ihre [!DNL Marketo Measure] -Funktion unten ausgeführt. Dies geschieht innerhalb der [!UICONTROL Benutzerspezifischer Code > JS] Abschnitt. (Hinweis: Möglicherweise enthält der Javascript-Ereignis-Erweiterungspunkt &quot;Hubs.onCtaFormSubmitSuccess&quot;anderen Code. Stellen Sie sicher, dass Sie auch diesen Funktionsaufruf einbeziehen.)
+1. Stellen Sie beim Senden eines Formular-CTA sicher, dass Ihre [!DNL Marketo Measure] -Funktion unten ausgeführt. Dies geschieht innerhalb der [!UICONTROL Benutzerspezifischer Code > JS] Abschnitt. (Hinweis: Möglicherweise enthält der JavaScript-Ereignis-Hook &quot;Hub.onCtaFormSubmitSuccess&quot;anderen Code. Stellen Sie sicher, dass Sie auch diesen Funktionsaufruf einbeziehen.)
 
    `Hubs.onCtaFormSubmitSuccess = function (ctaId, ctaData, ctaName) {`
    `bizibleFormCode(ctaId, ctaData, ctaName);`\

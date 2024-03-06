@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] FAQ zur Durchsicht der Attribution - [!DNL 
 title: "[!DNL Marketo Measure] Überblick über die Attribution - FAQ"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 13%
@@ -19,7 +19,7 @@ Die [!DNL Marketo Measure] [!UICONTROL Durchsicht Attribution] -Funktion bietet 
 
 ## Warum ist [!UICONTROL Durchsicht Attribution] Wichtig? {#why-is-view-through-attribution-important}
 
-In der Vergangenheit war es für Marketingexperten schwierig, die Neuausrichtung von Targeting oder Impression-Werbung in der Attributionsanalyse zu berücksichtigen. Potenzielle Kunden können von Zeit zu Zeit erneut Targeting-Anzeigen ausgesetzt werden, es ist jedoch unwahrscheinlich, dass sie tatsächlich auf eine dieser Anzeigen klicken und ein Formular innerhalb derselben Sitzung ausfüllen. Unsere Lösung &quot;Durch Attribution anzeigen&quot;bietet jetzt die Möglichkeit nachzuverfolgen, ob jemand einer Impressions-Anzeige ausgesetzt war oder nicht. Dieser Touchpoint wird an den einzelnen Datensatz angehängt und so lange ausgeführt, bis der Interessent zum Kunden wird. Mit diesen Informationen erhält der Marketing-Experte jetzt bessere Einblicke in die Leistung seiner Retargeting-Werbung.
+In der Vergangenheit war es für Marketingexperten schwierig, die Neuausrichtung von Targeting oder Impression-Werbung in der Attributionsanalyse zu berücksichtigen. Potenzielle Kunden können von Zeit zu Zeit erneut Targeting-Anzeigen erhalten, es ist jedoch unwahrscheinlich, dass sie tatsächlich auf eine dieser Anzeigen klicken und ein Formular innerhalb derselben Sitzung ausfüllen. Unsere Lösung &quot;Durch Attribution anzeigen&quot;bietet jetzt die Möglichkeit nachzuverfolgen, ob jemand einer Impressions-Anzeige ausgesetzt war oder nicht. Dieser Touchpoint wird an den einzelnen Datensatz angehängt und so lange ausgeführt, bis der Interessent zum Kunden wird. Mit diesen Informationen erhält der Marketing-Experte jetzt bessere Einblicke in die Leistung seiner Retargeting-Werbung.
 
 ## Was ist an der Einrichtung dieses Systems beteiligt? {#what-is-involved-in-setting-this-up}
 

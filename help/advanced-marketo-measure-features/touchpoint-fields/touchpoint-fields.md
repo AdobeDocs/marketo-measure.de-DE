@@ -4,9 +4,9 @@ description: Touchpoint-Felder - [!DNL Marketo Measure]
 title: Touchpoint Felder
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Historisch gesehen, wenn Kunden mit [!DNL Marketo Measure] Wenn wir keine direkt
 
 ## Aktivieren der Funktion {#enabling-the-feature}
 
-Aus dem [!DNL Marketo Measure] Navigieren Sie im Menü &quot;Einstellungen&quot;zur Seite &quot;Touchpoint-Felder&quot;. Dort können Sie die Funktion aktivieren, indem Sie **Ja** under **Berechnete Felder aktivieren**. Sobald dies aktiviert ist, können Sie Touchpoint-Felder erstellen.
+Aus dem [!DNL Marketo Measure] Navigieren Sie im Menü &quot;Einstellungen&quot;zur Seite &quot;Touchpoint-Felder&quot;. Dort können Sie die Funktion aktivieren, indem Sie **Ja** under **Berechnete Felder aktivieren**. Nachdem die Funktion aktiviert wurde, können Sie Touchpoint-Felder erstellen.
 
 ![](assets/one.png)
 

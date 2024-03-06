@@ -2,16 +2,16 @@
 description: Fehlerbenachrichtigungen - [!DNL Marketo Measure]
 title: Fehlerbenachrichtigungen
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '609'
+ht-degree: 83%
 
 ---
 
 # Fehlerbenachrichtigungen {#error-notifications}
 
-Im Folgenden finden Sie eine Liste von Fehlern, die Sie über In-App-Benachrichtigungen oder per E-Mail erhalten können. Wenn Sie eines davon erhalten, führen Sie die entsprechenden Schritte zur Fehlerbehebung aus. Falls das Problem durch diese Schritte nicht gelöst werden kann, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support).
+Im Folgenden finden Sie eine Liste von Fehlern, die Sie möglicherweise per In-App-Benachrichtigung oder E-Mail erhalten. Wenn Sie eines davon erhalten, führen Sie die entsprechenden Schritte zur Fehlerbehebung aus. Falls das Problem durch diese Schritte nicht gelöst werden kann, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support).
 
 <table>
   <tbody>
@@ -25,7 +25,7 @@ Im Folgenden finden Sie eine Liste von Fehlern, die Sie über In-App-Benachricht
       <td>API_DISABLED</td>
       <td>Fehler beim CRM-Import : API_DISABLED : API-Aufrufe wurden für diese Benutzerin bzw. diesen Benutzer deaktiviert</td>
       <td>Die API-Berechtigung wurde für die Marketo Measure-Benutzerin bzw. den -Benutzer deaktiviert.</td>
-      <td>Weitere Informationen finden Sie in der Salesforce-Dokumentation zum Thema <a href="https://help.salesforce.com/s/articleView?id=sf.branded_apps_commun_api_permset.htm&amp;type=5">Aktivieren des API-Zugriffs</a>.</td>
+      <td>Weitere Informationen finden Sie in der Salesforce-Dokumentation zum Thema <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">Aktivieren des API-Zugriffs</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -54,7 +54,7 @@ Im Folgenden finden Sie eine Liste von Fehlern, die Sie über In-App-Benachricht
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Fehler beim AdobeAnalytics-Export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Fehler: Upload nicht erlaubt. Validieren Sie das Datenquellenschema vor dem Hochladen. Datenquellen-ID:1234</td>
+      <td>Fehler beim Adobe Analytics-Export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Fehler: Upload nicht erlaubt. Validieren Sie das Datenquellenschema vor dem Hochladen. Datenquellen-ID:1234</td>
       <td>Die Adobe Analytics-Integration ist nicht korrekt konfiguriert.</td>
       <td>Lesen Sie die folgenden Hilfeartikel, um eine korrekte Konfiguration sicherzustellen:
         <ul>
@@ -73,7 +73,7 @@ Im Folgenden finden Sie eine Liste von Fehlern, die Sie über In-App-Benachricht
       <p>
       Fehler beim Anzeigenimport: INVALID_CURRENCY_ISO_CODE : Die Währung XXX für das Konto für 1234 wird von Marketo Measure nicht unterstützt.</td>
       <td>Es wurde eine nicht unterstützte Währung gefunden.</td>
-      <td>Im in der Benachrichtigung angegebenen Quellsystem (Anzeige, CRM, Marketo) muss sichergestellt sein, dass die dem Eintrag zugeordnete Währung eine unterstützte und gültige Währung ist. Unterstützte Währungen werden von ISO-Währungsstandards abgeleitet.</td>
+      <td>Im in der Benachrichtigung angegebenen Quellsystem (Anzeige, CRM, Marketo) stellt sicher, dass die dem Datensatz zugeordnete Währung eine unterstützte und gültige Währung aufweist. Unterstützte Währungen werden von ISO-Währungsstandards abgeleitet.</td>
     </tr>
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
@@ -127,7 +127,7 @@ Im Folgenden finden Sie eine Liste von Fehlern, die Sie über In-App-Benachricht
           Fehler beim CRM-Import: NULL_EMPTY_CURRENCY_ISO_CODE: ISO-Währungs-Code ist NULL oder leer, wenn MultiCurrency für RecordId 1234 aktiviert ist
       </td>
       <td>Die Währung muss ein unterstützter ISO-Währungs-Code sein.</td>
-      <td>Im in der Benachrichtigung angegebenen Quellsystem (Anzeige, CRM, Marketo) muss sichergestellt sein, dass die dem Eintrag zugeordnete Währung eine unterstützte und gültige Währung ist. Unterstützte Währungen werden von ISO-Währungsstandards abgeleitet.</td>
+      <td>Im in der Benachrichtigung angegebenen Quellsystem (Anzeige, CRM, Marketo) stellt sicher, dass die dem Datensatz zugeordnete Währung eine unterstützte und gültige Währung aufweist. Unterstützte Währungen werden von ISO-Währungsstandards abgeleitet.</td>
     </tr>
     <tr>
       <td>OPERATION_TOO_LARGE</td>

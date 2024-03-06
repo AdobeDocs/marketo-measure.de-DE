@@ -4,10 +4,10 @@ description: Marketing Attribution - Marketo Measure - Produktdokumentation
 title: Marketing-Zuordnung
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-source-git-commit: 204340c77a173c3e8fd87b65ed47a1a0dbc35880
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 97%
+source-wordcount: '462'
+ht-degree: 76%
 
 ---
 
@@ -19,9 +19,9 @@ Marketo Measure gibt Marketing-Experten einen Einblick, welche Marketing-Maßnah
 
 ## Marketing-Zuordnung {#marketing-attribution-1}
 
-**Marketing-Attribution** ist der Prozess der Zuweisung von Umsatzgutschriften an einen Marketing-Touchpoint. Dies geschieht, indem die gesamte Journey eines potenziellen Kunden verfolgt wird, angefangen bei der ersten Interaktion mit Ihrem Unternehmen bis zum Abschluss des Deals. Der durch das Geschäft generierte Umsatz wird den Marketing-Touchpoints zugeordnet, die den Verkauf angetrieben haben. Die Höhe der einem Touchpoint gewährten Umsatzgutschriften hängt davon ab, inwieweit dieser Touchpoint die Kaufentscheidung des Kunden beeinflusst hat.
+**Marketing-Attribution** ist der Prozess der Zuweisung von Umsatzgutschriften an einen Marketing-Touchpoint. Dies geschieht, indem die gesamte Journey eines Interessenten verfolgt wird, angefangen bei seiner ersten Interaktion mit Ihrem Unternehmen bis zum Abschluss des Deals. Der durch das Geschäft generierte Umsatz wird den Marketing-Touchpoints zugeordnet, die den Verkauf angetrieben haben. Die Höhe der einem Touchpoint zugewiesenen Umsatzkredite hängt davon ab, wie stark dieser Touchpoint die Kaufentscheidung des Kunden beeinflusst hat.
 
-**Touchpoints** Beziehen Sie in Ihre Online- oder Offline-Marketing-Maßnahmen die Interaktionen ein Interessent/Lead. Es gibt vier **wichtige Touchpoints** die in der Marketing-Attribution berücksichtigt werden. Sie spiegeln die verschiedenen Phasen in der Journey des Kunden wider. Diese wichtigen Touchpoints, auch als **Meilenstein-Touchpoints** bezeichnet, sind: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won Deal (CW).
+**Touchpoints** Beziehen Sie in Ihre Online- oder Offline-Marketing-Maßnahmen die Interaktionen ein Interessent/Lead. Es gibt vier **wichtige Touchpoints** die in der Marketing-Attribution berücksichtigt werden. Sie spiegeln die verschiedenen Phasen auf der Journey des Kunden wider. Diese wichtigen Touchpoints, auch als **Meilenstein-Touchpoints** bezeichnet, sind: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won Deal (CW).
 
 ![](assets/1.png)
 
@@ -40,11 +40,11 @@ Diese Meilensteinbkontakte bilden die Grundlage für die **Attributionsmodelle**
 
 ## Warum Attribution wichtig ist {#why-attribution-is-important}
 
-Marketing-Teams melden normalerweise Interaktionen, Aktivitäten und andere Softmetriken. Daher ist es für Marketing-Experten oft eine Herausforderung zu zeigen, wie viel Umsatz sie effektiv für die Organisation generiert haben. Die Marketing-Attribution löst dieses Problem, indem Marketing-Maßnahmen direkt an den Umsatz gebunden werden. Dadurch erhalten Marketingexperten die harten Metriken, die sie benötigen, um:
+Marketing-Teams melden normalerweise Interaktionen, Aktivitäten und andere Softmetriken. Daher ist es für Marketing-Experten oft eine Herausforderung zu zeigen, wie viel Umsatz sie effektiv für die Organisation generiert haben. Die Marketing-Attribution löst dieses Problem, indem Marketing-Maßnahmen direkt an den Umsatz gebunden werden. Dadurch erhalten Marketingexperten die harten Metriken, die sie benötigen:
 
 * Zu bestimmen, welche Kampagnen und Kanäle eine gute Leistung erbringen und welche am rentabelsten sind.
 * Marketing-Fonds den leistungsstärksten Kanälen zuzuweisen
 * Zu Ermitteln, welche Marketing-Kanäle am meisten für die Konversion von Leads in Kunden verantwortlich sind.
 * Prognosen zu Marketing-Zielen in Bezug auf den Umsatz
 
-Darüber hinaus wird durch die Marketing-Attribution die Fehlabstimmung zwischen Verkaufs- und Marketingteams behoben. Da Vertriebsteams über Umsatz und Pipeline berichten und Marketing-Teams hauptsächlich auf Softmetriken angewiesen sind, können Marketing-Experten nicht herausfinden, welche ihrer Bemühungen am einflussreichsten bei der Verkaufsförderung waren. Durch die Verknüpfung von Marketing-Maßnahmen mit Umsatz können beide Teams dieselbe Sprache sprechen, und Marketing-Fachleute können demonstrieren, wie ihre Bemühungen dazu beigetragen haben, Kunden zu werden.
+Die Marketing-Attribution behebt auch die Fehlabstimmung zwischen Verkaufs- und Marketingteams. Da Vertriebsteams über Umsatz und Pipeline berichten und Marketing-Teams hauptsächlich auf Softmetriken angewiesen sind, können Marketing-Experten nicht herausfinden, welche ihrer Bemühungen am einflussreichsten bei der Verkaufsförderung waren. Durch die Verknüpfung von Marketing-Maßnahmen mit Umsatz können beide Teams dieselbe Sprache sprechen, und Marketing-Fachleute können demonstrieren, wie ihre Bemühungen dazu beigetragen haben, Kunden zu werden.

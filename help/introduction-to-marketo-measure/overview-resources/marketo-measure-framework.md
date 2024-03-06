@@ -4,10 +4,10 @@ description: Marketo Measure Framework - Marketo Measure - Produktdokumentation
 title: Marketo Measure-Framework
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 96%
+source-wordcount: '388'
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Erfahren Sie mehr über die vier Hauptkomponenten des Marketo Measure-Frameworks. Marketo Measure verlässt sich bei der Verfolgung, Organisation und Speicherung von Daten sowie bei der Bereitstellung von Berichtsfunktionen auf diese Anwendungen. Die vier Komponenten des Marketo Measure-Frameworks sind:
 
-* JavaScript von Marketo Measure
+* Marketo Measure-JavaScript
 * CRM-Integrationen
 * Anwendungen/Systeme von Drittanbietern
 * Marketo Measure-Anwendung
@@ -30,7 +30,7 @@ Das Marketo Measure-JavaScript verfolgt alle Online-Marketing-Interaktionen, auc
 >
 >Anweisungen zum Hinzufügen des Marketo Measure-JS finden Sie unter [Klicken Sie hier](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
-Das JS von Marketo Measure erfasst Daten von Webbesuchen (einschließlich anonymer Webbesuche), allgemeiner Traffic-/Seitennavigation, Inhaltsdownloads und Formularübermittlungen. Diese Daten werden in Ihr CRM-System übertragen und jede Marketing-Interaktion wird als Touchpoint angezeigt.
+Marketo Measure JS erfasst Daten von Webbesuchen (einschließlich anonymer Webbesuche), allgemeiner Traffic-/Seitennavigation, Inhaltsdownloads und Formularübermittlungen. Diese Daten werden in Ihr CRM-System übertragen und jede Marketing-Interaktion wird als Touchpoint angezeigt.
 
 ## CRM-Integrationen {#crm-integrations}
 
@@ -58,7 +58,7 @@ Hier können Sie die allgemeinen Informationen Ihres Unternehmens aktualisieren 
 
 **Einstellungen**
 
-In diesem Menüpunkt können Sie Ihre Zuordnungs- und Kanalzuordnungseinstellungen konfigurieren, Integrationen mit CRMs und Drittanbieteranwendungen verwalten, Marketo Measure-Kontobenutzer anzeigen/hinzufügen und Rechnungsinformationen aktualisieren.
+In diesem Menüpunkt können Sie Ihre Attributions- und Kanalzuordnungseinstellungen konfigurieren, Integrationen mit CRMs und Drittanbieteranwendungen verwalten, Marketo Measure-Kontobenutzer anzeigen/hinzufügen und Rechnungsinformationen aktualisieren.
 
 **Marketing-ROI-Dashboard**
 

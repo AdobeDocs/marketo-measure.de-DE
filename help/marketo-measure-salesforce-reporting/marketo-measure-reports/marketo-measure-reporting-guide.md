@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Reporting-Handbuch - [!DNL Marketo Measure]
 title: "[!DNL Marketo Measure] Reporting-Handbuch"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '6431'
+source-wordcount: '6437'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Vor dem Erstellen einer [!DNL Marketo Measure] -Bericht, ist es äußerst wichti
 
 **Ziele festlegen**: &quot;Die erste Frage lautet: &quot;Warum messen wir?&quot; Lori Wizdo of [Forrester Research](https://go.forrester.com/) Sie wurde in einer [Marketo-Webinar](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/). Ihr zufolge &quot;messen wir, um eine Entscheidung oder den Wert des Marketings zu beweisen oder zu validieren oder besser zu werden (Prozessverbesserung)&quot;. Wir würden hinzufügen, dass die Erkenntnisse aus einer guten Messung auch einen Beitrag und eine Anleitung zum Marketing-Planungsprozess liefern.
 
-Bevor Sie also anfangen, ist es wichtig, klar über Ihre Ziele, die Fragen, die Sie zu beantworten versuchen, oder die Probleme, die Sie zu lösen versuchen, zu sein. Welche Geschichte willst du erzählen? Welche Entscheidungen werden sich daraus ergeben? Allzu oft sind diese Grundlagen schlecht durchdacht, was zu Frustration für alle Beteiligten führt.&quot;
+Bevor Sie also anfangen, ist es wichtig, dass Sie Ihre Ziele klar erkennen, die Fragen, die Sie zu beantworten versuchen, oder die Probleme, die Sie zu lösen versuchen. Welche Geschichte willst du erzählen? Welche Entscheidungen werden sich daraus ergeben? Allzu oft sind diese Grundlagen schlecht durchdacht, was zu Frustration für alle Beteiligten führt.&quot;
 
 **Berichtsdesign**: &quot;Als Nächstes müssen Sie den Bericht entwerfen und die spezifischen Dimensionen, Metriken und Datensätze bestimmen, die er enthalten wird. Eine gängige Erfahrung besteht darin, einem Business-Anwender genau das zu bieten, was er verlangt, nur damit er immer noch das Gefühl hat, dass seine Bedürfnisse nicht erfüllt werden. Dies liegt daran, dass der Einblick, den ein Business-Anwender tatsächlich sucht, nicht immer in dem von ihm angeforderten Bericht enthalten ist. Ein guter Analytiker (oder eine MOPS-Person mit einem Analysten, der aktiv ist) wird Fragen zur Klärung stellen, gemeinsame Definitionen festlegen (&quot;so, was meinen Sie wirklich mit Lead?&quot;) und sogar eine Visualisierung des Abschlussberichts entwerfen, um sicherzustellen, dass eine Anpassung erfolgt. Erst dann erstellen Sie den Bericht in dem Wissen, dass Sie über eine Reihe von Anforderungen verfügen.&quot;
 
@@ -44,7 +44,7 @@ Auf der höchsten Ebene gibt es zwei Berichterstellungskategorien, die auf den b
 
 >[!NOTE]
 >
->BVT werden aus BTs erstellt. Im Wesentlichen beginnt das Tracking auf individueller Ebene über die BTs. Sobald eine Gelegenheit für ein Konto erstellt wurde, werden alle BTs aus Kontakten unter demselben Konto referenziert und können BATs erstellen, die sich auf die Gelegenheit beziehen. Daher sollten Sie je nachdem, welche Fragen Sie beantworten möchten, eine der beiden verwenden: Fragen zu &quot;Personen&quot;-Metriken (BT-Berichte) oder Fragen zu &quot;Chancen&quot;-Metriken (BAT-Berichte).
+>BVT werden aus BTs erstellt. Im Wesentlichen beginnt das Tracking auf individueller Ebene über die BTs. Sobald eine Gelegenheit für ein Konto erstellt wurde, werden alle BTs aus Kontakten unter demselben Konto referenziert und können BATs erstellen, die sich auf die Gelegenheit beziehen. Daher sollten Sie je nachdem, welche Fragen Sie beantworten möchten, eine der beiden verwenden: Fragen zu &quot;Personen&quot;-Metriken (BT-Berichte) oder Fragen im Zusammenhang mit &quot;Chancen&quot;-Metriken (BAT-Berichte).
 
 Support-Artikel: [Unterschiede zwischen Touchpoints der Käuferzuordnung und Touchpoints der Käuferzuordnung](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
@@ -445,7 +445,7 @@ Dieser Bericht wäre mit einem inhaltsbasierten Bericht auf Lead-Ebene identisch
 
 >[!TIP]
 >
->Sie können diesen Bericht verwenden, um Einblicke in die Gesamtinteraktion einer Marketing-Dimension vom Touchpoint-Objekt des Käufers zu erhalten, nicht nur in die im Beispiel dargestellten Inhalts-Downloads. Stattdessen kann der Bericht nach Dimensionen wie &quot;Marketing-Kanal&quot;oder &quot;Anzeigenkampagnenname&quot;gruppiert oder gefiltert werden, um die Gesamtinteraktion sowohl von Leads als auch von Kontakten in Ihrer Datenbank besser zu verstehen. Ändern Sie einfach die Filter oder Gruppierungen im Bericht in anderen Dimensionen, die durch andere Felder des Touchpoint-Objekts dargestellt werden, auf null.
+>Sie können diesen Bericht verwenden, um Einblicke in die Gesamtinteraktion einer Marketing-Dimension vom Touchpoint-Objekt des Käufers zu erhalten, nicht nur in die im Beispiel dargestellten Inhalts-Downloads. Stattdessen kann der Bericht nach Dimensionen wie &quot;Marketing-Kanal&quot;oder &quot;Anzeigenkampagnenname&quot;gruppiert oder gefiltert werden, um die Gesamtinteraktion sowohl von Leads als auch von Kontakten in Ihrer Datenbank besser zu verstehen. Ändern Sie die Filter oder Gruppierungen im Bericht in andere Dimensionen, die von anderen Feldern des Touchpoint-Objekts dargestellt werden, in Null.
 
 **3,2 [!DNL Marketo Measure] Personen, die sich für ein Ereignis registriert haben (nur CRM)**
 
@@ -715,7 +715,7 @@ Die [!DNL Marketo Measure] Discover-Dashboards bestehen aus Touchpoints-Daten de
 
 >[!TIP]
 >
->Eines der wichtigsten Elemente bei der Berichterstellung in Discover ist, welcher Datentyp gefiltert werden soll. Der Datumstyp bestimmt, welcher Datensatz [!DNL Marketo Measure] verwendet in den verschiedenen Kacheln.
+>Eines der wichtigsten Elemente bei der Berichterstellung in Discover ist, welcher Datentyp Sie zum Filtern verwenden. Der Datumstyp bestimmt, welcher Datensatz [!DNL Marketo Measure] verwendet in den verschiedenen Kacheln.
 
 * **Touchpoint-Datum**: Zeigt die zugehörigen Daten an, die im angegebenen Zeitrahmen ein &quot;Touchpoint-Datum&quot;hatten.
 * **Erstellungsdatum**: Zeigt die zugehörigen Daten an, die im angegebenen Zeitrahmen ein &quot;Erstellungsdatum&quot;hatten.

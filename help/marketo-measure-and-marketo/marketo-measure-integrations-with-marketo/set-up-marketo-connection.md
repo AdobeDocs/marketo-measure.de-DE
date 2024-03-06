@@ -4,9 +4,9 @@ description: Einrichten der Marketo-Verbindung - [!DNL Marketo Measure]
 title: Einrichten der Marketo-Verbindung
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '190'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,11 @@ So richten Sie Ihre Verbindung zu Marketo ein.
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. Melden Sie sich in einer neuen Registerkarte bei Ihrem Marketo Engage-Konto an. Navigieren Sie zu **Admin** > **Web-Services**. Scrollen Sie nach unten zur REST-API. Markieren und speichern Sie den Endpunkt und die ID-Dienst-URL. Sie werden sie ein wenig brauchen.
+1. Melden Sie sich in einer neuen Registerkarte bei Ihrem Marketo Engage-Konto an. Navigieren Sie zu **Admin** > **Web-Services**. Scrollen Sie nach unten zur REST-API. Markieren und speichern Sie den Endpunkt und die ID-Dienst-URL. Sie benötigen sie in den folgenden Schritten.
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. Wählen Sie noch im Marketo Engage aus. **LaunchPoint** im Baum auf der linken Seite. Suchen Sie den benutzerdefinierten Dienst, den Sie mit Marketo Measure verbinden möchten, und klicken Sie auf **Details anzeigen**.
+1. Wählen Sie noch im Marketo Engage aus. **LaunchPoint** im Baum auf der linken Seite. Suchen Sie den benutzerdefinierten Dienst, mit dem Sie eine Verbindung mit Marketo Measure herstellen möchten, und klicken Sie auf **Details anzeigen**.
 
    ![](assets/set-up-marketo-connection-6.png)
 
@@ -47,14 +47,14 @@ So richten Sie Ihre Verbindung zu Marketo ein.
 
    ![](assets/set-up-marketo-connection-7.png)
 
-1. Zurück in [!DNL Marketo Measure], füllen Sie die Felder mit den soeben erfassten Daten aus.
+1. Zurück in [!DNL Marketo Measure], füllen Sie die Felder mit den erfassten Daten aus.
 
    ![](assets/set-up-marketo-connection-8.png)
 
-1. Klicken Sie nach Eingabe der Werte auf **[!UICONTROL Authentifizieren]**. Ihr Marketo Engage-Konto wird dann mit [!DNL Marketo Measure].
+1. Klicken Sie nach Eingabe der Werte auf **[!UICONTROL Authentifizieren]**. Ihr Marketo Engage-Konto ist mit [!DNL Marketo Measure].
 
    ![](assets/set-up-marketo-connection-9.png)
 
    >[!NOTE]
    >
-   >[!DNL Marketo Measure] ruft in Ihrem Namen die Marketo-API auf, ohne die Marketo-API-Beschränkungen zu verbrauchen. Daher müssen Sie sich keine Gedanken über die Obergrenze und die Zuordnung von Krediten zu anderen Integrationen machen.
+   >[!DNL Marketo Measure] führt Aufrufe an die Marketo-API in Ihrem Namen durch, ohne die Marketo-API-Beschränkungen zu nutzen. Daher müssen Sie sich keine Gedanken über die Obergrenze und die Zuordnung von Krediten zu anderen Integrationen machen.
