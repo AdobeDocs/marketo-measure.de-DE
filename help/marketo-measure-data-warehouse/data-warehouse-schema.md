@@ -7,7 +7,7 @@ feature: Data Warehouse
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '21110'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -3045,7 +3045,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
 
 ### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
 
-Aus der Attribution AI-Integration generierte Daten. Diese Felder werden nur für Kunden von Marketo Measure Ultimate ausgefüllt.
+Aus der Integration der Attributions-KI generierte Daten. Diese Felder werden nur für Kundinnen und Kunden von Marketo Measure Ultimate ausgefüllt.
 
 <table>
 <thead>
@@ -3060,26 +3060,26 @@ Aus der Attribution AI-Integration generierte Daten. Diese Felder werden nur fü
   <tr>
     <td>CONVERSION_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>Datum der Konversion</td>
+    <td>Datum der Konversion.</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>CONVERSION_NAME</td>
     <td>varchar</td>
-    <td>Name des Konversionsereignisses (wie vom Kunden in der Benutzeroberflächeneinstellung angegeben)</td>
+    <td>Name des Konversionsereignisses (wie von der Kundin bzw. dem Kunden in der Benutzeroberflächeneinstellung angegeben)</td>
     <td> </td>
   </tr>
   <tr>
     <td>CONVERSION_ID</td>
     <td>varchar</td>
-    <td>ID für das Konversionsereignis (dies ist der ursprüngliche eindeutige ID-Wert, der mit dem Ereignisdatensatz im Quelldatensatz gesendet wird)</td>
+    <td>ID für das Konversionsereignis (dies ist der ursprüngliche, eindeutige ID-Wert, der mit dem Ereignisdatensatz im Quelldatensatz gesendet wurde)</td>
     <td>0013100001b44aGAAQ</td>
   </tr>
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
     <td>ursprüngliche MM-Ereignis-ID für das Konversionsereignis 
-    <br>Zuordnung zu einem Benutzer-Touchpoint oder einer Staging-Transition</td>
+<br>einem Benutzer-Touchpoint oder einer Staging-Transition zugeordnet</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3097,21 +3097,21 @@ Aus der Attribution AI-Integration generierte Daten. Diese Felder werden nur fü
   <tr>
     <td>CONVERSION_LEAD_ID</td>
     <td>varchar</td>
-    <td>ursprüngliche MM-Lead-ID für das Konversionsereignis <br>meistens null sein</td>
+    <td>ursprüngliche MM-Lead-ID für das Konversionsereignis, <br>ist meistens null</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
-    <td>ursprüngliche MM-Kontaktkennung für das Konversionsereignis
-    <br>meistens null sein</td>
+    <td>ursprüngliche MM-Kontakt-ID für das Konversionsereignis
+<br>ist meistens null</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
     <td>CONVERSION_EVENT_TYPE</td>
     <td>varchar</td>
-    <td>Typ des Konversionsereignisses (b2b = Lead-Konversion, b2c = Opportunity-Konversion)</td>
-    <td>b2b</td>
+    <td>Typ des Konversionsereignisses (B2B = Lead-Konversion, B2C = Opportunity-Konversion)</td>
+    <td>B2B</td>
   </tr>
   <tr>
     <td>SCORE_DATE</td>
@@ -3134,19 +3134,19 @@ Aus der Attribution AI-Integration generierte Daten. Diese Felder werden nur fü
   <tr>
     <td>TOUCHPOINT_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>Touchpoint- oder Staging-Übergangsdatum</td>
+    <td>das Touchpoint- oder Staging-Übergangsdatum</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_EVENT_ID</td>
     <td>varchar</td>
-    <td>ID für das Ereignis, das den Touchpoint generiert hat</td>
+    <td>ID für das Ereignis, mit dem der Touchpoint erstellt wurde</td>
     <td>00U3100000VLUnEEAX</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_OPPORTUNITY_ID</td>
     <td>varchar</td>
-    <td>ID für die mit dem Touchpoint verbundene Gelegenheit</td>
+    <td>ID für die mit dem Touchpoint verknüpfte Opportunity</td>
     <td>0060Z00000lFHtOQAW</td>
   </tr>
   <tr>
@@ -3164,37 +3164,37 @@ Aus der Attribution AI-Integration generierte Daten. Diese Felder werden nur fü
   <tr>
     <td>TOUCHPOINT_CONTACT_ID</td>
     <td>varchar</td>
-    <td>ID für den Kontakt, der mit dem Touchpoint verknüpft ist</td>
+    <td>ID für den mit dem Touchpoint verknüpften Kontakt</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
     <td>COUNT_TO_CONVERSION</td>
     <td>number(38,0)</td>
-    <td>den Rang oder den ordinalen Wert des Touchpoints in der Kette, der zum Konversionsereignis führt</td>
+    <td>der Rang oder der ordinale Wert des Touchpoints in der Kette, der zum Konversionsereignis führt</td>
     <td>10000</td>
   </tr>
   <tr>
     <td>AAI_SOURCE_ID</td>
     <td>varchar</td>
-    <td>Fremdschlüssel in der Attributionai-Quelltabelle</td>
+    <td>Fremdschlüssel zur Attributions-KI-Quelltabelle</td>
     <td> </td>
   </tr>
   <tr>
     <td>_CREATED_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>Datum der Erstellung des Datensatzes in Snowflake</td>
+    <td>Datum, an dem der Eintrag in Snowflake erstellt wurde</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>_MODIFIED_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>Datum der letzten Änderung des Datensatzes im Snowflake</td>
+    <td>Datum, an dem der Eintrag zuletzt in Snowflake geändert wurde</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>_DELETED_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>Datum der Löschung des Datensatzes in der Snowflake</td>
+    <td>Datum, an dem der Eintrag in Snowflake gelöscht wurde</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
 </tbody>

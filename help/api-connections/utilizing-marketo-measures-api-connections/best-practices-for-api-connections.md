@@ -6,7 +6,7 @@ feature: APIs, Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 2%
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ## Überblick {#overview}
 
-[!DNL Marketo Measure] bietet API-Verbindungen mit [!DNL Google AdWords], [!DNL Microsoft Bing Ads], [!DNL Facebook Ads]und LinkedIn. Diese API-Verbindungen ermöglichen [!DNL Marketo Measure] , um eine Vielzahl von Daten aus Ihren Anzeigenplattformen abzurufen, auf die dann in Ihren Kunden-Touchpoint-Daten berichtet werden kann. Eine wichtige Funktion dieser API-Verbindungen ist die Möglichkeit, Ausgabedaten automatisch abzurufen, wodurch Sie und Ihr Team Zeit und Mühe sparen, um Daten manuell für die ROI-Berichterstellung hochzuladen. Das Einrichten dieser API-Verbindungen ist für [!DNL Marketo Measure] um diese Kanäle zu verfolgen, sie bieten jedoch wertvolle detaillierte Details, die Ihre Berichterstellung verbessern.
+[!DNL Marketo Measure] ermöglicht API-Verbindungen mit [!DNL Google AdWords], [!DNL Microsoft Bing Ads], [!DNL Facebook Ads] und LinkedIn. Diese API-Verbindungen ermöglichen es [!DNL Marketo Measure], eine Vielzahl von Daten aus Ihren Werbeanzeigenplattformen abzurufen, zu denen dann in Ihren Buyer Touchpoint-Daten berichtet werden kann. Eine Schlüsselfunktion dieser API-Verbindungen ist die Möglichkeit, Ausgabedaten automatisch abzurufen, wodurch Sie und Ihr Team Zeit und Mühe sparen, Daten manuell für die ROI-Berichterstellung hochzuladen. Für [!DNL Marketo Measure] ist das Einrichten dieser API-Verbindungen für das Nachverfolgen von Kanälen nicht erforderlich, sie bieten jedoch wertvolle detaillierte Informationen, die Ihre Berichterstellung verbessern.
 
 Die [!DNL Marketo Measure] API-Verbindungen sind ein unschätzbarer Aspekt Ihres Kontos. Unsere Best Practices-Empfehlungen helfen Ihnen und Ihrem Team dabei, unsere Verbindungen umfassend zu nutzen.
 
@@ -22,76 +22,76 @@ Die [!DNL Marketo Measure] API-Verbindungen sind ein unschätzbarer Aspekt Ihres
 
 Unabhängig von der Werbeplattform, die Sie verbinden, sollten Sie die folgenden Richtlinien beachten!
 
-* Verwenden Sie einen Administrator für die Verbindung
+* Verwenden Sie Admins für die Verbindung
 * Sie können mehrere Werbekonten für eine Plattform verbinden.
-* Alle möglichen Werbekonten anschließen, um die Ausgabenberichterstellung so weit wie möglich zu automatisieren
-* Wenn verfügbar, implementieren Sie immer eine Tracking-Vorlage. Die Vorlage stellt sicher, dass, selbst wenn die Verbindung des Anzeigenkontos getrennt wird, [!DNL Marketo Measure] kann weiterhin detaillierte Anzeigendetails abrufen
+* Sie sollten alle möglichen Werbekonten anschließen, um die Ausgabenberichterstellung so weit wie möglich zu automatisieren.
+* Wenn verfügbar, implementieren Sie immer eine Tracking-Vorlage. Die Vorlage stellt sicher, dass selbst dann, wenn die Verbindung des Werbekontos getrennt wird, [!DNL Marketo Measure] weiterhin detaillierte Werbeanzeigendetails abrufen kann
 
 So optimieren Sie jede [!DNL Marketo Measure] API, befolgen Sie die folgenden Best Practices.
 
 **[!DNL Facebook]**: Verbindung mit automatischem Tagging
 
-Exportieren Sie vor der Aktivierung des automatischen Tagging Ihren Anzeigenverlauf in eine CSV-Datei. Durch die Aktivierung der automatischen Tagging-Funktion werden der Konversionsverlauf und der Social-Testversand aller Anzeigen zurückgesetzt, die mit [!DNL Marketo Measure].
+Exportieren Sie vor der Aktivierung des automatischen Taggings Ihren Werbeanzeigenverlauf in eine CSV-Datei. Durch die Aktivierung der automatischen Tagging-Funktion werden der Konversionsverlauf und der Social Proof aller Werbeanzeigen zurückgesetzt, die mit Tags für [!DNL Marketo Measure] versehen sind.
 
-Durch Befolgung unserer Best-Practice-Empfehlung wird die Variable [!DNL Marketo Measure] [!DNL Facebook] Die API kann:
+Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure] [!DNL Facebook]-API in der Lage sein:
 
-* Alle automatisch taggen [!DNL Facebook] Anzeigen mit den erforderlichen [!DNL Marketo Measure] parameter `_bf ={creative}`
-* Informationen zu Anzeigenkosten für alle aktiven Benutzer herunterladen [!DNL Facebook] Anzeigen
+* Alle Werbeanzeigen für [!DNL Facebook] automatisch mit den erforderlichen [!DNL Marketo Measure]-Parametern zu taggen `_bf ={creative}`
+* Informationen zu Werbeanzeigenkosten für alle aktiven [!DNL Facebook]-Werbeanzeigen herunterzuladen
 
 >[!NOTE]
 >
->Es gibt keine Tracking-Vorlage für [!DNL Facebook]verwendet die API den automatisch mit Tags versehenen Parameter (_bf), um die Anzeigendetails zu erfassen.
+>Es gibt keine Tracking-Vorlage für [!DNL Facebook]. Die API basiert auf dem automatisch mit Tags versehenen Parameter (_bf), um die Werbeanzeigendetails zu erfassen.
 
-**AdWord**: Implementieren Sie eine Tracking-Vorlage auf Kontoebene und aktivieren Sie das automatische Tagging
+**AdWords**: Implementieren Sie eine Tracking-Vorlage auf Kontoebene und aktivieren Sie das automatische Tagging
 
-[!DNL Marketo Measure] empfiehlt die Verwendung einer Tracking-Vorlage auf Kontoebene, Kampagnenebene oder Anzeigengruppenebene, da sie das Hinzufügen und Abziehen von Parametern für alle Anzeigen ermöglicht, ohne dass das Risiko von Unterbrechungen oder Löschungen des Anzeigenverlaufs besteht.
+[!DNL Marketo Measure] empfiehlt, eine Tracking-Vorlage auf Konto-, Kampagnen- oder Werbeanzeigengruppen-Ebene zu verwenden, damit die Parameter aller Werbeanzeigen hinzugefügt oder entfernt werden können, ohne Risiko einer Unterbrechung oder Löschung des Werbeverlaufs.
 
-Durch Befolgung unserer Best-Practice-Empfehlung wird die Variable [!DNL Marketo Measure] Die AdWords-API kann:
+Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]-AdWords-API in der Lage sein:
 
-* Taggen Sie alle AdWords-Anzeigen automatisch mit dem [!DNL Marketo Measure] Parameter von `_bk={keyword}, _bt={creative}, _bm={matchtype}, _bn={network}, _bg={adgroupID}`
-* Informationen zu Anzeigenkosten für alle aktiven AdWords-Anzeigen herunterladen
+* Alle AdWords-Werbeanzeigen automatisch mit den [!DNL Marketo Measure]-Parametern von `_bk={keyword}, _bt={creative}, _bm={matchtype}, _bn={network}, _bg={adgroupID}` zu taggen
+* Informationen zu Werbeanzeigenkosten für alle aktiven AdWords-Werbeanzeigen herunterzuladen
 
 **Bing**: Implementieren Sie eine Tracking-Vorlage auf Kontoebene und aktivieren Sie das automatische Tagging
 
-Es besteht kein Risiko, den Anzeigenverlauf bei der Einrichtung Ihrer [!DNL Bing] API-Verbindung, im Gegensatz zu einigen unserer anderen API-Verbindungen.
+Es besteht kein Risiko, den Werbeanzeigenverlauf bei der Einrichtung Ihrer [!DNL Bing]-API-Verbindung zu verlieren, im Gegensatz zu einigen unserer anderen API-Verbindungen.
 
-Durch Befolgung unserer Best-Practice-Empfehlung wird die Variable [!DNL Marketo Measure] Die Bing-API kann:
-* Automatisches Tagging aller Bing Ads mit den folgenden Parametern von `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`
-* Informationen zu Anzeigenkosten für alle aktiven Bing-Anzeigen herunterladen
+Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]-Bing-API in der Lage sein:
+* Alle Bing-Werbeanzeigen mit den folgenden Parametern von `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}` automatisch zu taggen
+* Informationen zu Werbeanzeigenkosten für alle aktiven Bing-Werbeanzeigen herunterzuladen
 
 **LinkedIn**: Verbindung mit automatischem Tagging
 
-Durch die Aktivierung der automatischen Tagging-Funktion wird eine Freigabe neu erstellt und in einem neuen Kreativ platziert. Das alte Kreativ wird archiviert.
+Durch die Aktivierung der automatischen Tagging-Funktion wird eine Freigabe neu erstellt und in einem neuen Werbemittel platziert. Das alte Werbemittel wird archiviert.
 
-Durch Befolgung unserer Best-Practice-Empfehlung wird die Variable [!DNL Marketo Measure] Die linkedIn-API kann:
+Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]-LinkedIn-API in der Lage sein:
 
-* Automatisches Taggen aller LinkedIn-Anzeigen, die vom Typ &quot;Sponsored Content&quot;gesponsert werden, mit den erforderlichen [!DNL Marketo Measure] Parameter _bl={creativeId}. Dieser Parameter ruft die Kreativ-ID ab, die Folgendes ermöglicht: [!DNL Marketo Measure] , um die Kampagne und kreative Informationen zu lösen.
-* Informationen zu Anzeigenkosten für alle aktiven und unterstützten [!DNL LinkedIn] Anzeigen
+* Automatisches Taggen aller LinkedIn-Werbeanzeigen, die gesponsorte Inhalte sind, mit dem erforderlichen [!DNL Marketo Measure]-Parameter _bl={creativeId}. Dieser Parameter ruft die Werbemittel-ID ab, damit [!DNL Marketo Measure] die Kampagnen- und Kreativinformationen auflösen kann.
+* Herunterladen von Informationen zu Werbeanzeigenkosten für alle aktiven und unterstützten [!DNL LinkedIn]-Werbeanzeigen
 
 >[!NOTE]
 >
->Es gibt keine Tracking-Vorlage für [!DNL LinkedIn]verwendet die API den automatisch mit Tags versehenen Parameter (_bl), um alle möglichen Anzeigendetails zu erfassen.
+>Es gibt keine Tracking-Vorlage für [!DNL LinkedIn], sondern die API verwendet den automatisch mit Tags versehenen Parameter (_bl), um alle möglichen Werbeanzeigendetails zu erfassen.
 
-## Best Practice für die Wartung {#best-practice-for-maintenance}
+## Best Practices für die Wartung {#best-practice-for-maintenance}
 
-Wenn Sie unsere Best Practices befolgen, werden Sie dennoch davor geschützt, Daten zu verlieren, wenn die Verbindung getrennt ist. Wir empfehlen Ihnen jedoch dennoch, Ihre Verbindung regelmäßig und monatlich nach Möglichkeit zu überprüfen. Dies ist eine einfache visuelle Überprüfung der [!UICONTROL Verbindungen] im Abschnitt [!DNL Marketo Measure] App verwenden, um sicherzustellen, dass keine roten Schlüsselsymbole vorhanden sind, wodurch ein nicht verbundenes Konto signalisiert wird.
+Wenn Sie unsere Best Practices befolgen, werden Sie davor geschützt, Daten zu verlieren, wenn die Verbindung getrennt ist. Wir empfehlen Ihnen jedoch dennoch, Ihre Verbindung regelmäßig (im Idealfall monatlich) zu überprüfen. Dabei handelt es sich um eine einfache visuelle Überprüfung des Abschnitts [!UICONTROL Verbindungen] in der [!DNL Marketo Measure]-App, um sicherzustellen, dass keine roten Schlüsselsymbole vorhanden sind. Diese weisen auf ein nicht verbundenes Konto hin.
 
-Wenn ein mit der API verbundenes Konto getrennt wird, [!DNL Marketo Measure] kann keine Ausgabedaten in abrufen oder neue Anzeigen taggen. Deshalb empfehlen wir immer, nach Möglichkeit eine Tracking-Vorlage zu implementieren. Die Vorlage stellt sicher, dass, selbst wenn die Verbindung des Anzeigenkontos getrennt wird, [!DNL Marketo Measure] weiterhin in der Lage ist, die Anzeigen zu taggen und detaillierte Anzeigendetails abzurufen. Nach der erneuten Verbindung füllen die Ausgabedaten wieder aus und die Unterbrechung der gebührenpflichtigen Kanalberichte ist minimal.
+Wenn ein mit der API verbundenes Konto getrennt wird, kann [!DNL Marketo Measure] keine Ausgabedaten abrufen oder neue Werbeanzeigen taggen. Deshalb empfehlen wir immer, nach Möglichkeit eine Tracking-Vorlage zu implementieren. Die Vorlage stellt sicher, dass selbst dann, wenn die Verbindung des Werbekontos getrennt wird, [!DNL Marketo Measure] weiterhin Werbeanzeigen taggen und detaillierte Werbeanzeigendetails abrufen kann. Nach der erneuten Verbindung werden die Ausgabedaten wieder ausgefüllt und die Unterbrechung der Berichterstellung für Paid-Kanäle ist minimal.
 
-Die Gründe für die Trennung und Neuautorisierung sind...
+Die Gründe für die Trennung und Neuautorisierung können sein ...
 
-* Passwortänderung für das Personenkonto, mit dem die Verbindung hergestellt wurde
+* Passwortänderung für das verbundene Konto
 * Diese Person ist nicht mehr in der Firma
-* Aktualisierungen der APIs
+* Aktualisierungen an den APIs
 
 Wenn Ihr Team eines der oben genannten Szenarien durchlaufen hat, überprüfen Sie Ihre API-Verbindungen im Abschnitt [!DNL Marketo Measure] App verwenden, um sicherzustellen, dass sie nicht erneut autorisiert werden müssen.
 
 >[!MORELIKETHIS]
 >
 >* [Integrierte Anzeigenplattformen (APIs)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
->* [Auswirkungen der Angebotsmanagement-Tools [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
->* [[!DNL Marketo Measure] API-Parameter - Erklärung](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
->* [Übersicht über die facebook API](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
+>* [Wie sich Bid-Management-Tools auswirken [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [[!DNL Marketo Measure] API-Parameter – Erklärung](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
+>* [Übersicht über die Facebook-API](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
 >* [[!DNL LinkedIn] Integrationsübersicht](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
 >* [Übersicht über die AdWords-Integration](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
->* [Erneutes Autorisieren von Connected API-Konten](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
+>* [Erneutes Autorisieren von verbundenen API-Accounts](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
