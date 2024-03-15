@@ -4,7 +4,7 @@ description: Kampagnen und Kampagnenmitglieder - [!DNL Marketo Measure]
 title: Kampagnen und Campaign-Mitglieder
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -112,7 +112,7 @@ Sobald Ihr Datum und Ihre Uhrzeit festgelegt sind, klicken Sie auf die **[!UICON
 
 ## Kampagnenkosten {#campaign-costs}
 
-Informationen zu Kampagnenkosten [in diesem Artikel](/help/marketing-spend/spend-management/crm-campaign-costs.md).
+Informationen zu Kampagnenkosten [in diesem Artikel](/help/marketing-spend/spend-management/crm-campaign-costs.md){target="_blank"}.
 
 ## Entfernen von Kampagnenmitgliedern {#campaign-member-removal}
 
@@ -126,6 +126,6 @@ Um dieses Problem zu umgehen, [!DNL Marketo Measure] erstellt wurde [!DNL Market
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universität: Kampagnenobjektfelder](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
+>[[!DNL Marketo Measure] Tutorials: Kampagnenobjektfelder](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure] Universität: Zuordnen von Offline-Kanälen](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>[[!DNL Marketo Measure] Tutorials: Zuordnen von Offline-Kanälen](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

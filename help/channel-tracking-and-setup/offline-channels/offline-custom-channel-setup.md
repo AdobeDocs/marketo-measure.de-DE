@@ -4,7 +4,7 @@ description: Offline-Einrichtung des benutzerdefinierten Kanals - [!DNL Marketo 
 title: Offline-Einrichtung benutzerdefinierter Kanäle
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 1%
@@ -83,8 +83,8 @@ Klicks **[!UICONTROL Speichern]** wenn Sie fertig sind und [!DNL Marketo Measure
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure] Universität: Zuordnen von Offline-Kanälen](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>* [[!DNL Marketo Measure] Tutorials: Zuordnen von Offline-Kanälen](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Universität: Synchronisieren von Offline-Kampagnen](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
+>* [[!DNL Marketo Measure] Tutorials: Synchronisieren von Offline-Kampagnen](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
->* [Integration von Marketo Engage-Programmen](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)
+>* [Integration von Marketo Engage-Programmen](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
