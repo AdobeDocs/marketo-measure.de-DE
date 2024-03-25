@@ -3,7 +3,7 @@ description: Domänenverwaltung - [!DNL Marketo Measure]
 title: Domänenverwaltung
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 4c68fa08797c252a89ba097c723fb8afee82451f
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 1%
@@ -20,7 +20,7 @@ IMS-Benutzer mit Zugriff auf Adobe Admin Console können eigene Domänen hinzuf�
 
 ![](assets/domain-management-1.png)
 
-Anweisungen zum Hinzufügen von Domänen finden Sie im Abschnitt [Dokumentation zur Admin Console](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains). Nachdem eine Domäne hinzugefügt wurde, muss sie [mit einem Verzeichnis verknüpft ist](https://helpx.adobe.com/enterprise/using/set-up-identity.html#link-domains-to-directories).
+Anweisungen zum Hinzufügen von Domänen finden Sie im Abschnitt [Dokumentation zur Admin Console](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Nachdem eine Domäne hinzugefügt wurde, muss sie [mit einem Verzeichnis verknüpft ist](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## Verwalten von Domänen in [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
