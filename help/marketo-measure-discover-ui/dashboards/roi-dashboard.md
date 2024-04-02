@@ -3,20 +3,16 @@ description: ROI-Dashboard - [!DNL Marketo Measure] - Produkt
 title: ROI-Dashboard
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 2%
+source-wordcount: '725'
+ht-degree: 3%
 
 ---
 
 # ROI-Dashboard {#roi-dashboard}
 
 Das ROI-Dashboard bietet Marketing-Experten einen detaillierten Überblick über die Investitionsrenditen über Kanäle, Unterkanäle und Kampagnen hinweg. Sie schlüsselt Kosten- und Umsatzmuster sorgfältig auf und zeigt gleichzeitig Metriken wie Kosten-pro-Interessent-, Deal- und Opportunities auf, um ein umfassendes Verständnis der Marketing-Attribution zu gewährleisten.
-
->[!NOTE]
->
->Dieses Dashboard befindet sich derzeit in der Betaversion. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, sobald wir die optimale Funktionalität vollständig übernommen und sichergestellt haben.
 
 **Fragen, die die Pinnwand beantwortet**
 
@@ -121,7 +117,7 @@ Tabelle mit Kosten, neuen Leads, Chancen und Angeboten, die nach einzelnen Kanä
 
 * Kanal/Subkanal/Kampagne
 * Kosten
-* Neue Leads
+* New Leads
 * Kosten pro neuem Lead
 * Neue Chancen
 * Kosten pro neuer Chance

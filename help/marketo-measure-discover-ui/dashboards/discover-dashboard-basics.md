@@ -3,9 +3,9 @@ description: Dashboard-Grundlagen - [!DNL Marketo Measure] - Produkt
 title: Entdecken Sie die Grundlagen von Dashboards
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '386'
 ht-degree: 2%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 2%
 # Entdecken Sie die Grundlagen von Dashboards {#discover-dashboard-basics}
 
 Dieser Artikel führt Sie durch die grundlegenden Funktionen der neu gestalteten Benutzeroberfläche, sodass Sie mühelos auf Ihre Daten zugreifen und sie interpretieren können. Lernen Sie die Dynamik des Filterbereichs kennen und lernen Sie die Komplexität unserer erweiterten Berichterstellungsfunktionen kennen, wie z. B. Drillfunktionen, Querfilterung und QuickInfos.
-
->[!NOTE]
->
->Dieses Dashboard befindet sich derzeit in der Betaversion. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, sobald wir die optimale Funktionalität vollständig übernommen und sichergestellt haben.
 
 ## Filterbereich {#filter-pane}
 

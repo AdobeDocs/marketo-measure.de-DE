@@ -3,20 +3,16 @@ description: Dashboard "Umsatzübersicht"- [!DNL Marketo Measure] - Produkt
 title: Dashboard „Umsatzübersicht“
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 2%
+source-wordcount: '283'
+ht-degree: 3%
 
 ---
 
 # Dashboard „Umsatzübersicht“ {#revenue-overview-dashboard}
 
 Das Dashboard &quot;Umsatzübersicht&quot;bietet Einblicke in den Gesamtumsatz aus Ihrem CRM-System, wodurch die Rolle Ihrer Marketing-Strategien deutlich wird. Es bietet einen Überblick darüber, wie Marketing Ihren Gesamtumsatz beeinflusst und zum erfolgreichen Abschluss von Geschäften beiträgt.
-
->[!NOTE]
->
->Dieses Dashboard befindet sich derzeit in der Betaversion. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, sobald wir die optimale Funktionalität vollständig übernommen und sichergestellt haben.
 
 **Fragen, die die Pinnwand beantwortet:**
 
