@@ -3,10 +3,10 @@ description: Aktuelle Versionshinweise - [!DNL Marketo Measure]
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 00a362a2e143749e1a132672b847eb06dcab6b9c
+source-git-commit: 4a3b8a1df9d8a675d977b08693b9d7facb64bc02
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 2%
+source-wordcount: '424'
+ht-degree: 1%
 
 ---
 
@@ -41,3 +41,7 @@ Sofortige Sichtbarkeit: Die Einführung von Pulsbenachrichtigungen ermöglicht e
 _Unterstützung des Übergangs_
 
 Um Ihnen bei der Anpassung an diese Änderung zu helfen, [Wir haben eine Dokumentation erstellt.](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} mit klaren Fehlerbeschreibungen und umfassenden Schritten zur Fehlerbehebung.
+
+**Für die LinkedIn-Integration erforderliche Aktion**
+
+LinkedIn hat kürzlich eine aktualisierte Version der Lead Sync-API veröffentlicht. Bitte authentifizieren Sie die LinkedIn-Verbindung in Ihrer Marketo Measure-Instanz bis zum 20. Mai erneut, um Unterbrechungen zu vermeiden.
