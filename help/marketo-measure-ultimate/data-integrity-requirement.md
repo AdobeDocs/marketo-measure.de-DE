@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] Endgültige Datenintegrationsanforderung - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Ultimative Datenintegritätsanforderungen - [!DNL Marketo Measure]'
 title: „[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
 # [!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] validiert die eingehenden AEP-Datensätze, um sicherzustellen, dass die Daten für die Attribution ausreichend und kohärent sind. Wenn die Datenintegrität nicht erfüllt wird, wird der Datensatz von der [!DNL Marketo Measure] System. In diesem Dokument werden die Datenintegritätsanforderung beschrieben, Beispiele für Abfragen zur Dateninspektion bereitgestellt und eine Lösung für erforderliche Felder mit einem Nullwert empfohlen.
+[!DNL Marketo Measure] validiert die eingehenden AEP-Datensätze, um sicherzustellen, dass die Daten ausreichend und kohärent für die Attribution sind. Wenn die Datenintegritätsanforderung nicht erfüllt wird, wird der Datensatz vom zurückgewiesen. [!DNL Marketo Measure] System. Dieser Artikel beschreibt die Datenintegritätsanforderung, liefert Abfragebeispiele für die Datenprüfung und empfiehlt eine Lösung für erforderliche Felder mit einem Nullwert.
 
 ## Entitätsobjekt {#entity-object}
 
@@ -373,7 +373,7 @@ ht-degree: 95%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Zum Beispiel - 333, je nach der Datenquellentabelle ist dies entweder Lead-ID oder Kontakt-ID</td>
+      <td>Beispiel: 333 Je nach Datenquellentabelle ist dies entweder Lead-ID oder Kontakt-ID</td>
     </tr>
     <tr>
       <td></td>
@@ -1105,7 +1105,7 @@ ht-degree: 95%
   </tbody>
 </table>
 
-Der Ereignistyp „Interessanter Moment“ wird für Ereignistypen verwendet, die in der obigen Tabelle nicht unterstützt werden. Fügen Sie ein benutzerdefiniertes Feld hinzu, um den Untertyp &quot;Interessanter Moment&quot;anzugeben.
+Der Ereignistyp „Interessanter Moment“ wird für Ereignistypen verwendet, die in der obigen Tabelle nicht unterstützt werden. Fügen Sie ein benutzerdefiniertes Feld hinzu, um den Untertyp „Interessanter Moment“ anzugeben.
 
 ## Abfragebeispiele für die Dateninspektion {#query-examples-for-data-inspection}
 
