@@ -1,69 +1,69 @@
 ---
 unique-page-id: 18874773
-description: Einrichten und Reporting von A/B-Tests - [!DNL Marketo Measure]
+description: Einrichten und Reporting von A/B-Tests – [!DNL Marketo Measure]
 title: Einrichten und Reporting von A/B-Tests
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # Einrichten und Reporting von A/B-Tests {#a-b-testing-set-up-and-reporting}
 
-Die [!DNL Marketo Measure] Mit der A/B-Test-Integration können Sie die Auswirkungen Ihrer [Optimizely](https://www.optimizely.com/){target="_blank"} und VWO-Site-Experimente. Dieser Artikel enthält Anweisungen zum Hinzufügen von [!DNL Marketo Measure] Abschnitte A/B-Tests zum Lead, [!UICONTROL Kontakt], Groß-/Kleinschreibung und [!UICONTROL Chancen] Seitenlayouts. Ebenfalls behandelt werden allgemeine Berichtspraktiken und Empfehlungen zur Ausführung [!DNL Marketo Measure] A/B-Berichtstypen.
+Mit der A/B-Test-Integration in [!DNL Marketo Measure] können Sie die Auswirkungen Ihrer [Optimizely](https://www.optimizely.com/de){target="_blank"}- und VWO-Site-Experimente auf den Umsatz verfolgen. Dieser Artikel enthält Anweisungen, wie Sie in [!DNL Marketo Measure] A/B-Test-Abschnitte zu den Seiten-Layouts Lead, [!UICONTROL Kontakt], Fall und [!UICONTROL Opportunity] hinzufügen können. Außerdem werden allgemeine Berichtspraktiken und Empfehlungen für die Ausführung von A/B-Berichtstypen in [!DNL Marketo Measure] behandelt.
 
 ## Einrichten {#set-up}
 
-Fügen Sie die [!DNL Marketo Measure] Abschnitte zu A/B-Tests zu Lead, Kontakt, Fall und Chancen. [!DNL Marketo Measure] Mit der A/B-Test-Integration können Sie die Auswirkungen Ihrer [Optimizely](https://www.optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} Site-Experimente.
+Fügen Sie die A/B-Test-Abschnitte in [!DNL Marketo Measure] für Lead, Kontakt, Fall und Opportunity hinzu. Die Integration von A/B-Tests in [!DNL Marketo Measure] ermöglicht es Ihnen, die Auswirkungen Ihrer [Optimizely](https://www.optimizely.com/de){target="_blank"} and [VWO](https://vwo.com/de){target="_blank"}-Site-Experimente auf den Umsatz zu verfolgen.
 
-1. Überprüfen der Verwendung des Pakets [!DNL Marketo Measure] v3.9 oder höher. Gehen Sie dazu wie folgt vor: [!UICONTROL Salesforce] >[!UICONTROL Einrichten] > [!UICONTROL Installierte Packages].
-1. Bearbeiten Sie das Layout der Lead-Seite und fügen Sie die **[!DNL Marketo Measure]A/B-Tests** Zugehörige Liste der Seiten.
+1. Stellen Sie sicher, dass Sie das Paket [!DNL Marketo Measure] v3.9 oder höher verwenden. Gehen Sie dazu zu [!UICONTROL Salesforce] >[!UICONTROL Einrichten] > [!UICONTROL Installierte Pakete].
+1. Bearbeiten Sie das Seiten-Layout der Hauptseite und fügen Sie die zugehörige Liste der **[!DNL Marketo Measure]-A/B-Tests** zu der Seite hinzu.
 
    ![](assets/1.png)
 
-1. Klicken Sie auf [!UICONTROL Schraubenschlüssel] Schaltfläche. Entfernen Sie das Feld &quot;Kennung&quot; aus der Liste der ausgewählten Felder. Hinzufügen **[!UICONTROL Experiment]**, **[!UICONTROL Variante]**, und **[!UICONTROL DateReport]** -Felder. Ändern Sie &quot;[!UICONTROL Sortieren nach]&quot; **[!UICONTROL Datum gemeldet]** und wählen Sie **[!UICONTROL Absteigend]** in der Dropdown-Liste.
+1. Klicken Sie auf die Schaltfläche mit dem [!UICONTROL Schraubenschlüssel]. Entfernen Sie das Standardfeld „Id“ aus der Liste der ausgewählten Felder. Fügen Sie die Felder **[!UICONTROL Experiment]**, **[!UICONTROL Variation]**, und **[!UICONTROL DateReported]** hinzu. Ändern Sie „[!UICONTROL Sortieren nach]“ in **[!UICONTROL Berichtsdatum]** und wählen Sie **[!UICONTROL Absteigend]** in der Dropdown-Liste.
 
    ![](assets/2.png)
 
-1. under [!UICONTROL Schaltflächen], deaktivieren **[!UICONTROL Neu]**.
+1. Deaktivieren Sie unter [!UICONTROL Schaltflächen] die Option **[!UICONTROL Neu]**.
 
    ![](assets/3.png)
 
-1. Wenden Sie sich an [!DNL Marketo Measure] rep oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} , um die Funktion zu aktivieren.
+1. Kontaktieren Sie Ihre [!DNL Marketo Measure]-Kundenbetreuung oder den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}, um die Funktion zu aktivieren.
 
 ## Berichterstellung {#reporting}
 
-Kunden haben Zugriff auf verschiedene [!DNL Marketo Measure] A/B-Berichtstypen, mit denen Sie über A/B-Tests in Bezug auf Leads, Kontakte und Chancen berichten können:
+Kundinnen und Kunden verfügen über einige [!DNL Marketo Measure]-A/B-Berichtstypen, mit denen Sie über A/B-Tests in Bezug auf Leads, Kontakte und Opportunitys berichten können:
 
-* [!DNL Marketo Measure] A/BTests
-* [!DNL Marketo Measure] A/BTests mit Kontakt
-* [!DNL Marketo Measure] A/BTests mit Lead
-* [!DNL Marketo Measure] A/BTests mit Chancen
+* [!DNL Marketo Measure]-A/B-Tests
+* [!DNL Marketo Measure]-A/B-Tests mit Kontakt
+* [!DNL Marketo Measure]-A/B-Tests mit Lead
+* [!DNL Marketo Measure]-A/B-Tests mit Opportunitys
 
 ![](assets/4.png)
 
-A/B-Berichtstypen werden verwendet, um zu melden, für welche Lead oder Kontakt oder Gelegenheit ein A/B-Test durchgeführt wurde. Diese Berichte zeigen Ihnen auch den Umsatz, der mit einer Opportunity verbunden ist, die einem A/B-Test ausgesetzt war.
+A/B-Berichtstypen werden verwendet, um zu melden, für welchen Lead oder Kontakt oder welche Opportunity ein A/B-Test durchgeführt wurde. Diese Berichte zeigen Ihnen auch den Umsatz, der mit einer Opportunity verbunden ist, die einem A/B-Test ausgesetzt war.
 
-Beachten Sie, dass &quot;Optimizely/VWO&quot;eine Inhaltsvarianten-Plattform und kein Marketing-Kanal ist. Daher [!DNL Marketo Measure] A/B-Berichtstypen werden anders verwendet als Käufer-Touchpoint-Berichte. Mit den Touchpoint-Berichtstypen für Käufer können Sie nachvollziehen, welcher Marketing-Kanal (Paid Advertising, Web-Direktwerbung, Social) einen Lead oder Kontakt zu einer bestimmten Seite geführt hat. Allerdings [!DNL Marketo Measure] A/B-Berichtstypen können nicht verwendet werden, um Berichte darüber zu erstellen, wie eine Variante einen Lead oder eine Gelegenheit beeinflusst hat. Da es sich bei einer A/B-Test-Variante nicht um einen Kanal handelt, werden Details zur Variante nicht im Touchpoint des Käufers angezeigt.
+Beachten Sie, dass Optimizely/VWO eine Inhaltsvarianten-Plattform und kein Marketing-Kanal ist. Daher werden diese [!DNL Marketo Measure]-A/B-Berichtstypen anders verwendet als Buyer-Touchpoint-Berichte. Mit den Buyer-Touchpoint-Berichtstypen können Sie nachvollziehen, welcher Marketing-Kanal (bezahlte Werbung, Web-Direkt, Social) einen Lead oder Kontakt zu einer bestimmten Seite geführt hat. Die [!DNL Marketo Measure]-A/B-Berichtstypen können jedoch nicht verwendet werden, um darüber zu berichten, wie eine Variation einen Lead oder eine Opportunity beeinflusst hat. Da es sich bei einer A/B-Test-Variante nicht um einen Kanal handelt, werden Details zur Variante nicht im Buyer Touchpoint angezeigt.
 
-Im Folgenden finden Sie einige empfohlene Felder, die für die Berichterstellung zu A/B-Tests verwendet werden sollten, um Klarheit und Einblicke zu verbessern:
+Im Folgenden finden Sie einige empfohlene Felder, die für die Berichterstellung zu A/B-Tests verwendet werden sollten, um Klarheit und Erkenntnisse zu verbessern:
 
-* Lead konvertiert
+* Konvertierter Lead
 * Experiment
 * Experimentkennung
-* Variante
+* Variation
 * Variations-ID
-* Datum gemeldet
+* Gemeldetes Datum
 
-## [!DNL Salesforce] Beispielberichte {#salesforce-example-reports}
+## [!DNL Salesforce]-Beispielberichte {#salesforce-example-reports}
 
-**[!DNL Marketo Measure]A/B-Test mit Lead**
+**[!DNL Marketo Measure]-A/B-Test mit Lead**
 
 ![](assets/5.png)
 
-**[!DNL Marketo Measure]A/B-Test mit Opportunity**
+**[!DNL Marketo Measure]-A/B-Test mit Opportunity**
 
 ![](assets/6.png)

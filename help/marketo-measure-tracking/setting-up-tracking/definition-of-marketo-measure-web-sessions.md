@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874564
-description: Definition [!DNL Marketo Measure] Web-Sitzungen - [!DNL Marketo Measure]
+description: Definition von  [!DNL Marketo Measure] -Web-Sitzungen – [!DNL Marketo Measure]
 title: Definition von  [!DNL Marketo Measure] -Web-Sitzungen
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Eine **Web-Sitzung** bezieht sich auf die Interaktionen einer Person mit Ihrer W
 
 Beispiel: Hanna besucht adobe.com/de. Mit ihrem Besuch auf der Site beginnt eine Sitzung. Wenn Hanna die Site verlässt, indem sie die Registerkarte/den Web-Browser schließt oder von der Site weg navigiert, endet die Sitzung.
 
-Eine Benutzerin oder ein Benutzer kann nicht mehrere Sitzungen gleichzeitig öffnen. Wenn Haley geöffnet wird [!DNL adobe.com] in zehn verschiedenen Tabs wurde nur eine Sitzung im Zusammenhang mit ihrem Besuch auf der Website erstellt.
+Eine Benutzerin oder ein Benutzer kann nicht mehrere Sitzungen gleichzeitig öffnen. Wenn Hanna [!DNL adobe.com] auf zehn verschiedenen Registerkarten öffnet, wird nur eine Sitzung im Zusammenhang mit ihrem Besuch auf der Website erstellt.
 
 ## Wie definiert [!DNL Marketo Measure] eine neue Sitzung? {#how-does-marketo-measure-define-a-new-session}
 
@@ -40,21 +40,21 @@ Zurzeit betrachtet [!DNL Marketo Measure] nur die Seitennavigation und Formular�
 
 ## Kanalbasierter Ablauf {#channel-based-expiration}
 
-[!DNL Marketo Measure] beginnt eine neue Sitzung, sobald ein Benutzer über einen anderen digitalen Marketingkanal oder eine externe Website auf Ihre Website gelangt. Dazu kann gehören:
+[!DNL Marketo Measure] beginnt eine neue Sitzung, sobald jemand über einen anderen Digital-Marketing-Kanal oder eine externe Website auf Ihre Website gelangt. Dazu kann gehören:
 
 * Eine Referral-Website
-* Social-Kanäle ([!DNL Facebook], [!DNL LinkedIn]usw.)
+* Social-Media-Kanäle ([!DNL Facebook], [!DNL LinkedIn] usw.)
 * Paid-Search-Kanäle oder organische Suchkanäle ([!DNL Google/Bing])
 
 **Referral-Websites und Social-Media-Kanäle**
 
-Jedes Mal, wenn ein Besucher von einer verweisenden Website oder einem sozialen Kanal auf Ihre Website gelangt, beginnt eine neue Sitzung.
+Sobald eine Besucherin oder ein Besucher von einer Referral-Website oder einem Social-Media-Kanal auf Ihre Website gelangt, beginnt eine neue Sitzung.
 
-Angenommen, Haley ist auf LinkedIn, klickt auf einen [!DNL Marketo Measure] und wird auf die Adobe-Website umgeleitet. Dann sieht sie beim Scrollen durch [!DNL Facebook] einen anderen [!DNL Marketo Measure]-Post. Wenn sie auf diesen Beitrag klickt und auf die Adobe-Site umgeleitet wird, führt dies zur ersten Websitzung, die sich auf [!DNL LinkedIn] zu beenden und eine neue Sitzung im Zusammenhang mit [!DNL Facebook] beginnt.
+Hanna ist auf LinkedIn, klickt dort auf einen [!DNL Marketo Measure]-Post und wird zur Adobe-Website weitergeleitet. Dann sieht sie beim Scrollen durch [!DNL Facebook] einen anderen [!DNL Marketo Measure]-Post. Wenn sie auf diesen Post klickt und zur Adobe-Site weitergeleitet wird, endet dadurch die erste Web-Sitzung in Zusammenhang mit [!DNL LinkedIn] und eine neue Sitzung im Zusammenhang mit [!DNL Facebook] beginnt.
 
 **Paid-Search-Kanäle oder organische Suchkanäle**
 
-Neue Sitzungen beginnen jedes Mal, wenn ein Benutzer über gebührenpflichtige oder kostenlose Suchkanäle auf Ihre Site gelangt. Wenn Haley über eine kostenlose Suche auf die Adobe-Website gelangt und Ihre Website dann über eine gebührenpflichtige Anzeige in Google sofort besucht, werden zwei separate Sitzungen erstellt.
+Neue Sitzungen beginnen jedes Mal, wenn eine Benutzerin oder ein Benutzer über Paid-Search-Kanäle oder organische Suchkanäle auf Ihre Site gelangt. Wenn Hanna über eine organische Suche auf der Adobe-Website landet und Ihre Website dann über eine bezahlte Anzeige (auch als „Paid Ad“ bezeichnet) in Google sofort besucht, werden zwei separate Sitzungen erstellt.
 
 **Web Direct Traffic**
 
@@ -62,8 +62,8 @@ Wenn eine Besucherin oder ein Besucher Ihre Website durch Eingabe der zugehörig
 
 Wenn Hannas erste Web-Sitzung aufgrund eines Besuchs von einer Referral-Site, einem Social-Media-Kanal oder einem Paid-Search-Kanal/organischen Suchkanal beginnt und sie dann die Site per Web-Direktzugriff besucht, beginnt dadurch keine neue Sitzung.
 
-_Jedoch_, wenn die erste Websitzung von Haley von Web Direct stammt, und sie dann die Website über besucht _eine externe/Verweis-Site_, wird die erste Sitzung beendet und eine neue Sitzung im Zusammenhang mit der externen/Verweissite geöffnet.
+_Wenn jedoch_ ihre erste Web-Sitzung auf einen Web-Direktzugriff zurückzuführen ist und sie dann die Website über _eine externe/Referral-Site_ besucht, wird die erste Sitzung beendet und eine neue Sitzung im Zusammenhang mit der externen/Referral-Site geöffnet.
 
 ## Google Analytics-Sitzungen {#google-analytics-sessions}
 
-Es gibt gewisse Ähnlichkeiten, wie Sitzungen von [!DNL Marketo Measure] und Google Analytics definiert werden. Weitere Informationen zur Definition von Sitzungen durch Google Analytics finden Sie unter: [https://support.google.com/analytics/answer/2731565?hl=en](https://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}
+Es gibt gewisse Ähnlichkeiten, wie Sitzungen von [!DNL Marketo Measure] und Google Analytics definiert werden. Weitere Informationen dazu, wie Google Analytics Sitzungen definiert, finden Sie unter [https://support.google.com/analytics/answer/2731565?hl=de](https://support.google.com/analytics/answer/2731565?hl=de){target="_blank"}.

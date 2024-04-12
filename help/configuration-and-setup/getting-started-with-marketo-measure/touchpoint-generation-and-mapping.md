@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874554
-description: Touchpoint-Generierung und -Zuordnung - [!DNL Marketo Measure]
+description: Generierung und Zuordnung von Touchpoints – [!DNL Marketo Measure]
 title: Generierung und Zuordnung von Touchpoints
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Attributions-Storys von [!DNL Marketo Measure] hängen von zwei Prozessen ab:
 * Touchpoint-Generierung, die Touchpoints erstellt, welche die Interaktionen einer Person mit Ihren Marketing- und Verkaufsanstrengungen darstellen
 * Touchpoint-Zuordnung, durch die Touchpoints dem passenden Kanal und Unterkanal zugeschrieben werden
 
-Damit Sie das Beste aus [!DNL Marketo Measure], sollten Sie [!DNL Marketo Measure] rep , um beide Prozesse an die Anforderungen Ihres Unternehmens anzupassen.
+Damit Sie [!DNL Marketo Measure] bestmöglich nutzen können, sollten Sie mit Ihrer [!DNL Marketo Measure]-Kontaktperson sprechen, um beide Prozesse an die Anforderungen Ihres Unternehmens anzupassen.
 
 Methoden zur Touchpoint-Generierung
 
@@ -31,7 +31,7 @@ Der Prozess der Touchpoint-Generierung beantwortet die Frage „Wie weiß [!DNL 
 | **Interaktionstyp** | **Beispiel** | **Methode der Touchpoint-Generierung** |
 |---|---|---|
 | Online auf Ihren Sites | Formularausfüllung | JavaScript von [!DNL Marketo Measure]  |
-| Offline; Online nicht auf Ihren Sites | Messen; Content-Syndikations-Partner stellt eine Liste von Leads bereit, die mit Ihrem Inhalt interagiert haben | CRM-Kampagnenzugehörigkeit, synchronisiert mit [!DNL Marketo Measure], entweder durch Festlegen des Kampagnensynchronisierungstyps direkt in der Kampagne oder durch Festlegen von Regeln auf der Kampagnenseite in [!DNL Marketo Measure] |
+| Offline oder Online auf anderen Sites | Handelsmessen; Partner für Content Syndication stellen eine Liste von Leads bereit, die mit Ihren Inhalten interagiert haben | CRM-Kampagnenzugehörigkeit, synchronisiert mit [!DNL Marketo Measure], entweder durch Festlegen des Kampagnensynchronisierungstyps direkt in der Kampagne oder durch Festlegen von Regeln auf der Kampagnenseite in [!DNL Marketo Measure] |
 | Verkaufsaktivität | Ausgehender Aufruf von SDR | CRM-Aktivitätseintrag (Aufgabe oder Ereignis), synchronisiert mit [!DNL Marketo Measure] durch die Logik auf der Seite [!UICONTROL Aktivitäten] in [!DNL Marketo Measure] |
 
 Methoden der Touchpoint-Zuordnung
@@ -41,7 +41,7 @@ Der Prozess der Touchpoint-Zuordnung beantwortet die Frage: „Wenn dieser Touch
 | **Interaktionstyp** | **Generierungsmethode** | **Zuordnungsmethode** |
 |---|---|---|
 | Online auf Ihren Sites | JavaScript von [!DNL Marketo Measure]  | Über die Seite [!DNL Online Channels] in [!DNL Marketo Measure], indem UTM-Werte und die Landingpage referenziert werden und auf Verweisseiteninformationen verwiesen wird |
-| Offline; Online, nicht auf Ihren Sites | Synchronisierung der CRM-Kampagnenzugehörigkeit | Über die Seite [!UICONTROL Offline-Kanäle] in [!DNL Marketo Measure], durch Verweis auf den Kampagnentyp |
+| Offline oder Online auf anderen Sites | Synchronisierung der CRM-Kampagnenzugehörigkeit | Über die Seite [!UICONTROL Offline-Kanäle] in [!DNL Marketo Measure], durch Verweis auf den Kampagnentyp |
 | Verkaufsaktivität | Synchronisierung von CRM-Aktivitäten | Über die Seite [!UICONTROL Online-Kanäle] in [!DNL Marketo Measure], indem auf den Kampagnennamen verwiesen wird, der auf der Seite [!UICONTROL Aktivitäten] zugewiesen ist |
 
 >[!MORELIKETHIS]

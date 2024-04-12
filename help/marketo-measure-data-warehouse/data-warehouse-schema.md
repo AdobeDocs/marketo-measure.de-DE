@@ -5,9 +5,9 @@ title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '21110'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Mit Data Warehouse können Sie beliebig viel verfolgen, Berichte zu Ihren Attrib
 
 ## Diagramme zur Entitätsbeziehung {#entity-relationship-diagrams}
 
-Die _Data Warehouse-Datenmodell_-ERD zeigt an, wie Daten im Data Warehouse fließen und miteinander verknüpft werden sollen. Dieses Diagramm enthält nicht alle im Data Warehouse verfügbaren Tabellen, da einige davon Zuordnungstabellen, Ansichten anderer bereits vorhandener Tabellen oder veraltete Tabellen darstellen, deren Verwendung wir nicht mehr empfehlen. Siehe die detaillierten Beschreibungen der Tabellen und Spalten im Data Warehouse unten. Viele dieser Tabellen enthalten denormalisierte Felder. Dieses Diagramm ist jedoch das empfohlene Datenmodell, das stattdessen Daten aus Dimensionstabellen nutzt.
+Die _Data Warehouse-Datenmodell_-ERD zeigt an, wie Daten im Data Warehouse fließen und miteinander verknüpft werden sollen. Dieses Diagramm enthält nicht alle im Data Warehouse verfügbaren Tabellen, da einige davon Zuordnungstabellen, Ansichten anderer bereits vorhandener Tabellen oder veraltete Tabellen darstellen, deren Verwendung wir nicht mehr empfehlen. Die Tabellen und Spalten im Data Warehouse werden im Folgenden detailliert beschrieben. Viele dieser Tabellen enthalten denormalisierte Felder. Dieses Diagramm ist jedoch das empfohlene Datenmodell, das stattdessen Daten aus Dimensionstabellen nutzt.
 
 Die zusätzliche _Ads Dimensional Data Model_-ERD zeigt, wie Tabellen für Anzeigen-spezifische Dimensionen am besten mit den Tabellen im Hauptdatenmodell verknüpft werden können. Obwohl Anzeigendimensionen auch in anderen Tabellen denormalisiert sind, stellt dies das empfohlene Modell für die Zusammenführung dieser Dimensionen dar.
 
@@ -5802,7 +5802,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
 
 >[!IMPORTANT]
 >
->Marketo Measure wird diese Tabelle Mitte 2024 einstellen. Wenn Sie es auf Ihrer Seite erstellen möchten, führen Sie [diese SQL-Abfrage](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure wird diese Tabelle Mitte 2024 einstellen. Wenn Sie sie selbst erstellen möchten, führen Sie [diese SQL-Abfrage](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql) aus.
 
 <table>
   <tbody>

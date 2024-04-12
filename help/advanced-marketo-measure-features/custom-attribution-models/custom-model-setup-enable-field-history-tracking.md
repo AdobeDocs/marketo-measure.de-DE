@@ -1,33 +1,33 @@
 ---
 unique-page-id: 18874777
-description: Benutzerdefinierte Modelleinrichtung - Feldverlauf-Tracking aktivieren - [!DNL Marketo Measure]
-title: Benutzerdefinierte Modelleinrichtung - Feldverlauf-Tracking aktivieren
+description: 'Benutzerdefinierte Modelleinrichtung: Aktivieren des Feldverlauf-Trackings – [!DNL Marketo Measure]'
+title: 'Benutzerdefinierte Modelleinrichtung: Aktivieren des Feldverlauf-Trackings'
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Benutzerdefinierte Modelleinrichtung: Feldverlauf-Tracking aktivieren {#custom-model-setup-enable-field-history-tracking}
+# Benutzerdefinierte Modelleinrichtung: Aktivieren des Feldverlauf-Trackings {#custom-model-setup-enable-field-history-tracking}
 
-## Warum und wann die Verfolgung des Feldverlaufs aktiviert wird {#why-and-when-to-enable-field-history-tracking}
+## Warum und wann das Feldverlauf-Tracking aktiviert werden sollte {#why-and-when-to-enable-field-history-tracking}
 
-Wenn Sie sich dafür entscheiden, ein benutzerdefiniertes Feld als Phase in Ihr benutzerdefiniertes Attributionsmodell einzuschließen, verfolgen Sie den Feldverlauf **muss aktiviert sein** für dieses Feld. Durch die Aktivierung des Trackings des Feldverlaufs können Sie [!DNL Salesforce] , um jedes Mal zu verfolgen, wenn das benutzerdefinierte Feld bearbeitet wird, indem Sie einen Datensatz in der Tabelle Verlauf verfolgen erstellen. [!DNL Marketo Measure] kann diese Tabelle herunterladen und diese Informationen verwenden, um die Zeit und den Tag zu messen, an dem eine &quot;Transition&quot;aufgetreten ist. Ohne Feldverlauf-Tracking [!DNL Marketo Measure] kann Änderungen in Bezug auf dieses Feld nicht verfolgen.
+Wenn Sie sich entscheiden, ein benutzerdefiniertes Feld als Phase in Ihr benutzerdefiniertes Attributionsmodell aufzunehmen, **muss das Feldverlauf-Tracking für dieses Feld aktiviert sein**. Wenn Sie das Feldverlauf-Tracking aktivieren, wird [!DNL Salesforce] jedes Mal, wenn das benutzerdefinierte Feld bearbeitet wird, ein Eintrag in der Tabelle für das Feldverlauf-Tracking erstellt. [!DNL Marketo Measure] kann diese Tabelle herunterladen und diese Informationen verwenden, um die Zeit und den Tag zu messen, an dem ein „Übergang“ stattgefunden hat. Ohne Feldverlauf-Tracking ist [!DNL Marketo Measure] nicht in der Lage, Änderungen in Bezug auf dieses Feld zu verfolgen.
 
-Wenn nur [!UICONTROL Lead-Status] oder Opportunity Stages im benutzerdefinierten Modell verwendet werden, ist es nicht erforderlich, die Verfolgung des Feldverlaufs zu aktivieren, da sie automatisch als Phasenübergang verfolgt wird.
+Wenn im benutzerdefinierten Modell nur [!UICONTROL Lead-Status] oder Opportunity-Phasen verwendet werden, brauchen Sie das Feldverlauf-Tracking nicht zu aktivieren, da es automatisch als Phasenübergang verfolgt wird.
 
-Gehen Sie wie folgt vor, um die Verfolgung des Feldverlaufs zu aktivieren.
+Um das Feldverlauf-Tracking zu aktivieren, folgen Sie den folgenden Anweisungen.
 
-## Feldverlauf-Tracking aktivieren {#enable-field-history-tracking}
+## Aktivieren des Feldverlauf-Trackings {#enable-field-history-tracking}
 
 >[!NOTE]
 >
->Sie müssen Systemadministrator sein, um diese Änderungen an den Feldern im Objekt &quot;Lead/Kontakt/Chancen&quot;vornehmen zu können.
+>Sie müssen Systemadmin sein, um diese Änderungen an den Feldern des Objekts „Lead/Kontakt/Opportunity“ vornehmen zu können.
 
-1. Gehen Sie zum Objekt, in dem sich das benutzerdefinierte Feld befindet, und klicken Sie auf die Schaltfläche **[!UICONTROL Verlaufsverfolgung festlegen]** Schaltfläche.
+1. Gehen Sie zu dem Objekt, in dem sich das benutzerdefinierte Feld befindet, und klicken Sie auf die Schaltfläche **[!UICONTROL Verlaufs-Tracking festlegen]**.
 
    ![](assets/1.png)
 
@@ -35,4 +35,4 @@ Gehen Sie wie folgt vor, um die Verfolgung des Feldverlaufs zu aktivieren.
 
    ![](assets/2.png)
 
-[!DNL Marketo Measure] kann einen Datensatz nur dann erneut importieren, wenn er feststellt, dass der Datensatz vor kurzem geändert wurde. Formelfelder ändern einen Datensatz technisch nicht, wenn er sich ändert, da er die Berechnung im Hintergrund durchführt. Wir haben Probleme festgestellt, bei denen eine Regel übersprungen wird, weil [!DNL Marketo Measure] hat die Datensatzänderung nicht gesehen, daher wird empfohlen, **keine Formelfelder in Regeldefinitionen verwenden**. Die Lösung besteht darin, ein Textfeld zu erstellen und dieses Feld mit einem Workflow zu füllen, der jedes Mal, wenn der Datensatz bearbeitet wird oder den Kriterien entspricht, den richtigen Wert oder die richtige Berechnung enthält. Dies setzt voraus, dass alle Datensätze bearbeitet werden, damit der Workflow rückwirkend alte Datensätze bearbeiten kann.
+[!DNL Marketo Measure] kann einen Eintrag nur dann erneut importieren, wenn feststellt wird, dass der Eintrag vor kurzem geändert wurde. Formelfelder verändern technisch gesehen einen Eintrag nicht, wenn er sich ändert, da die Berechnung im Hintergrund erfolgt. Wir haben Probleme festgestellt, bei denen eine Regel übersprungen wurde, weil [!DNL Marketo Measure] die Änderung des Eintrags nicht gesehen hat. Daher wird empfohlen, **keine Formelfelder in Regeldefinitionen zu verwenden**. Die Lösung besteht darin, ein Textfeld zu erstellen und dieses Feld mit einem Workflow zu füllen, der jedes Mal, wenn der Eintrag bearbeitet wird oder den Kriterien entspricht, den richtigen Wert oder die richtige Berechnung enthält. Dies setzt voraus, dass alle Einträge bearbeitet werden, damit der Workflow rückwirkend mit alten Einträgen arbeiten kann.

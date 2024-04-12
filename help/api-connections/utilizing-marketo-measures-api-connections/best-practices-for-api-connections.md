@@ -1,12 +1,12 @@
 ---
-description: Best Practices für API-Verbindungen - [!DNL Marketo Measure]
+description: Best Practices für API-Verbindungen – [!DNL Marketo Measure]
 title: Best Practices für API-Verbindungen
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ Die [!DNL Marketo Measure] API-Verbindungen sind ein unschätzbarer Aspekt Ihres
 
 ## Best Practices {#best-practice}
 
-Unabhängig von der Werbeplattform, die Sie verbinden, sollten Sie die folgenden Richtlinien beachten!
+Unabhängig von der Werbeplattform, die Sie verbinden, sollten Sie die folgenden Richtlinien beachten.
 
 * Verwenden Sie Admins für die Verbindung
 * Sie können mehrere Werbekonten für eine Plattform verbinden.
 * Sie sollten alle möglichen Werbekonten anschließen, um die Ausgabenberichterstellung so weit wie möglich zu automatisieren.
 * Wenn verfügbar, implementieren Sie immer eine Tracking-Vorlage. Die Vorlage stellt sicher, dass selbst dann, wenn die Verbindung des Werbekontos getrennt wird, [!DNL Marketo Measure] weiterhin detaillierte Werbeanzeigendetails abrufen kann
 
-So optimieren Sie jede [!DNL Marketo Measure] API, befolgen Sie die folgenden Best Practices.
+Um jede [!DNL Marketo Measure]-API zu optimieren, beachten Sie die folgenden Best Practices.
 
 **[!DNL Facebook]**: Verbindung mit automatischem Tagging
 
@@ -84,7 +84,7 @@ Die Gründe für die Trennung und Neuautorisierung können sein ...
 * Diese Person ist nicht mehr in der Firma
 * Aktualisierungen an den APIs
 
-Wenn Ihr Team eines der oben genannten Szenarien durchlaufen hat, überprüfen Sie Ihre API-Verbindungen im Abschnitt [!DNL Marketo Measure] App verwenden, um sicherzustellen, dass sie nicht erneut autorisiert werden müssen.
+Wenn Ihr Team eines der oben genannten Szenarien durchlaufen hat, überprüfen Sie Ihre API-Verbindungen in der [!DNL Marketo Measure]-Anwendung, um sicherzustellen, dass sie nicht erneut autorisiert werden müssen.
 
 >[!MORELIKETHIS]
 >

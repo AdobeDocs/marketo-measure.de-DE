@@ -1,12 +1,12 @@
 ---
-description: Best Practices zur Implementierung [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure]
+description: Best Practices zur Implementierung von  [!DNL Marketo Measure] -JavaScript – [!DNL Marketo Measure]
 title: Best Practices zur Implementierung von  [!DNL Marketo Measure] -JavaScript
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Beachten Sie die folgenden Best Practices, wenn Sie [!DNL Marketo Measure]-JavaS
          * Bewerbungsformulare
 * Lesen Sie die Abschnitte „Zusätzliche Überlegungen“ und „Formulare, auf die besonders zu achten ist“ in der unten aufgeführten Ressource „Hinzufügen von [!DNL Marketo Measure]-Skript“, um sich über Szenarien zu informieren, die gegebenenfalls einer besonderen Behandlung bedürfen
 
-## Best Practice für die Wartung {#best-practice-for-maintenance}
+## Best Practices für die Wartung {#best-practice-for-maintenance}
 
 Während [!DNL Marketo Measure]-JavaScript bei der Erstimplementierung eingerichtet wird, können Änderungen an Ihrer Site oder im Team, das sie verwaltet, zu Störungen beim [!DNL Marketo Measure]-Tracking führen. Wir empfehlen Ihnen, einmal im Jahr zu überprüfen, ob das [!DNL Marketo Measure]-JavaScript korrekt und umfassend eingesetzt wird. Wenn Ihr Unternehmen außerdem über ein Änderungsprotokoll für die Website verfügt, stellen Sie sicher, dass darin ein Abschnitt enthalten ist, der erklärt, dass [!DNL Marketo Measure]-JavaScript auf allen neuen Seiten beibehalten/hinzugefügt werden sollte.
 

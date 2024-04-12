@@ -1,18 +1,18 @@
 ---
-description: "[!DNL Marketo Measure] Installation und Einrichtung von Salesforce-Paketen - [!DNL Marketo Measure]"
+description: „[!DNL Marketo Measure]Installation und Einrichtung von Salesforce-Paketen – [!DNL Marketo Measure]“
 title: "Installation und Einrichtung von [!DNL Marketo Measure] [!DNL Salesforce] -Paketen"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '504'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
 # Installation und Einrichtung von [!DNL Marketo Measure] Salesforce-Paketen {#marketo-measure-salesforce-package-installation-and-set-up}
 
-Vor der Installation [!DNL Marketo Measure] [!DNL Salesforce] Basispaket: Sie müssen bestimmen, ob Sie es zuerst in einem [!DNL Salesforce] Sandbox , bevor Sie zu Ihrer Salesforce-Produktionsinstanz wechseln.
+Vor der Installation des [!DNL Marketo Measure]-[!DNL Salesforce]-Basispakets müssen Sie ermitteln, ob Sie es zuerst in einer [!DNL Salesforce]-Sandbox installieren, bevor Sie zu Ihrer Salesforce-Produktionsinstanz wechseln.
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ Das [!DNL Marketo Measure]-Basispaket enthält:
 * Benutzerdefinierte [!DNL Marketo Measure]-Felder
 * 25 [!DNL Stock]-Berichte
 
-[!DNL Marketo Measure] kann Standard-Objekte, -Felder und -Datensätze von [!DNL Salesforce] lesen, jedoch wird [!DNL Marketo Measure] niemals Daten aktualisieren oder an sie übertragen. Alle von der [!DNL Marketo Measure] JavaScript wird im [!DNL Marketo Measure] Benutzerdefinierte Objekte und Felder.
+[!DNL Marketo Measure] kann Standard-Objekte, -Felder und -Datensätze von [!DNL Salesforce] lesen, jedoch wird [!DNL Marketo Measure] niemals Daten aktualisieren oder an sie übertragen. Alle von [!DNL Marketo Measure] JavaScript erfassten Daten werden in den benutzerdefinierten Objekten und Feldern von [!DNL Marketo Measure] angezeigt.
 
 Gehen Sie wie folgt vor, um das [!DNL Marketo Measure Salesforce]-Basispaket zu installieren.
 
-1. Navigieren Sie mithilfe eines Inkognito-Browsers zum [Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} und melden Sie sich an.
+1. Navigieren Sie mithilfe eines Inkognito-Browsers zu [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} und melden Sie sich an.
 
 1. Installieren Sie das [!DNL Marketo Measure]-Paket in einer Sandbox oder in der Betreibung.
 
@@ -46,13 +46,13 @@ Nachdem Sie die Installation abgeschlossen haben, können Sie bei Bedarf Ihre [[
 
 >[!NOTE]
 >
->Lesen Sie über [!DNL Marketo Measure] Erstellte Berechtigungssätze und [wie sie verwendet werden](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
+>Lesen Sie über die erstellten [!DNL Marketo Measure]-Berechtigungssätze und [wie sie verwendet werden](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
 ## Erstellen eines [!DNL Marketo Measure]-Profils und Benutzers {#creating-a-marketo-measure-profile-and-user}
 
 [!DNL Marketo Measure] sendet und empfängt Daten über einen verbundenen [!DNL Salesforce]-Benutzer in der [!DNL Marketo Measure]-App.
 
-So senden Sie Touchpoint-Daten an Ihre [!DNL Salesforce] -Instanz muss der verbundene Benutzer Zugriff auf [!DNL Marketo Measure] benutzerspezifische Objekte (z. B. Touchpoint der Käuferzuordnung und Touchpoint der Käuferzuordnung) sowie standardmäßige [!DNL Salesforce] Objekte wie Leads und Kontakte.
+Um Touchpoint-Daten an Ihre [!DNL Salesforce]-Instanz zu übertragen, müssen die verbundenen Benutzenden Zugriff auf benutzerspezifische [!DNL Marketo Measure]-Objekte (z. B. Buyer Touchpoint und Buyer Attribution Touchpoint) sowie standardmäßige [!DNL Salesforce]-Objekte wie Leads und Kontakte haben.
 
 Erstellen Sie ein [!DNL Marketo Measure]-Profil, um sicherzustellen, dass beim Übertragen von Daten an Salesforce keine Überprüfungsfehler auftreten.
 
@@ -63,7 +63,7 @@ Schritt 1: Erstellen eines spezifischen [!DNL Marketo Measure]-Profils
 * &quot;[!DNL Marketo Measure]-Administratorberechtigungssatz&quot;
    * Der verwaltete Berechtigungssatz bietet einem SFDC-Administrator die Möglichkeit, Datensätze von [!DNL Marketo Measure]-Objekten zu erstellen, zu lesen, zu schreiben und zu löschen.
 * &quot;Berechtigungssatz für konvertierte Leads anzeigen und bearbeiten&quot;
-   * Dies ermöglicht [!DNL Marketo Measure], Leads zu dekorieren, nachdem sie in Kontakte umgewandelt wurden. Wenn dieser Berechtigungssatz nicht aktiviert ist, kann es zu erheblichen Datenverfolgungslücken kommen.
+   * Dies ermöglicht [!DNL Marketo Measure], Leads zu dekorieren, nachdem sie in Kontakte umgewandelt wurden. Wenn dieser Berechtigungssatz nicht aktiviert ist, kann es zu erheblichen Lücken beim Daten-Tracking kommen.
 
 >[!NOTE]
 >
@@ -75,11 +75,11 @@ Schritt 2: Erstellen Sie einen dedizierten [!DNL Marketo Measure]-Benutzer, dami
 
 1. Aktivieren Sie &quot;Marketing-Benutzer“ als Berechtigung auf Benutzerebene.
 
-* Das Kontrollkästchen [!UICONTROL Marketing-Benutzer] ermöglicht es dem Benutzer, Kampagnen zu erstellen und die Assistenten zum Importieren von Kampagnen zu verwenden. Wenn diese Option nicht ausgewählt ist, kann der Benutzer nur Kampagnen und erweiterte Kampagneneinstellungen anzeigen, den Kampagnenverlauf für einen einzelnen Lead oder Kontakt bearbeiten und Kampagnenberichte ausführen. [!DNL Marketo Measure] muss in der Lage sein, das Kampagnenobjekt zu lesen und zu schreiben.
+* Das Kontrollkästchen [!UICONTROL Marketing-Benutzer] ermöglicht es dem Benutzer, Kampagnen zu erstellen und die Assistenten zum Importieren von Kampagnen zu verwenden. Wenn diese Option nicht ausgewählt ist, können die Benutzenden nur Kampagnen und erweiterte Kampagneneinstellungen anzeigen, den Kampagnenverlauf für einen einzelnen Lead oder Kontakt bearbeiten und Kampagnenberichte ausführen. [!DNL Marketo Measure] muss in der Lage sein, das Kampagnenobjekt zu lesen und hineinzuschreiben.
 
-Schritt 3: Dieses Profil aus allen Triggern, Workflows und Prozessen ausschließen
+Schritt 3: Schließen Sie dieses Profil aus allen Triggern, Workflows und Prozessen aus
 
-Schritt 4: Anmelden bei Ihrer [!DNL Marketo Measure] Konto erstellen und die [!DNL Salesforce] Verbindung zum neuen Benutzer
+Schritt 4: Melden Sie sich bei Ihrem [!DNL Marketo Measure]-Konto an und autorisieren Sie die [!DNL Salesforce]-Verbindung mit der neuen Benutzerin bzw. dem neuen Benutzer erneut
 
 1. Gehen Sie zu apps.bizible.com und melden Sie sich mit den [!DNL Salesforce]-Anmeldedaten des neuen Benutzers für die Betreibung an.
 
@@ -87,7 +87,7 @@ Schritt 4: Anmelden bei Ihrer [!DNL Marketo Measure] Konto erstellen und die [!D
 
 1. Wählen Sie **[!UICONTROL Verbindungen]** in der Gruppierung **[!UICONTROL Integrationen]**.
 
-1. Klicken Sie auf das Schlüsselsymbol rechts neben dem aktuellen verbundenen [!DNL Salesforce] Verbindung herstellen und auswählen, **Mit Produktion neu autorisieren**. Melden Sie sich mit den neuen Anmeldeinformationen erneut an (wenn Sie dazu aufgefordert werden).
+1. Klicken Sie auf das Schlüsselsymbol rechts neben der aktuell verbundenen [!DNL Salesforce]-Verbindung und wählen Sie **Erneut mit Produktion autorisieren**. Melden Sie sich mit den neuen Anmeldeinformationen erneut an (wenn Sie dazu aufgefordert werden).
 
 >[!MORELIKETHIS]
 >
