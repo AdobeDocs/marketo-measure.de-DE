@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] FAQ zur Durchsicht der Attribution - [!DNL 
 title: "[!DNL Marketo Measure] Überblick über die Attribution - FAQ"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 13%
+source-wordcount: '492'
+ht-degree: 30%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 13%
 ## Was ist &quot;View Through Attribution&quot;? {#what-is-view-through-attribution}
 
 Die [!DNL Marketo Measure] [!UICONTROL Durchsicht Attribution] -Funktion bietet die Möglichkeit, Anzeigenimpressionen in das Attributionsmodell aufzunehmen.
+
+>[!IMPORTANT]
+>
+>Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe die Marketo Measure-Funktionen, die auf Drittanbieter-Cookies basieren, ein. Dies betrifft insbesondere das Domain-übergreifende Tracking und die Viewthrough-Attribution, die das Impressions-Cookie von Google/DoubleClick verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kundinnen und -Kunden weiterhin zur Verfügung.
 
 ## Warum ist [!UICONTROL Durchsicht Attribution] Wichtig? {#why-is-view-through-attribution-important}
 
@@ -99,7 +103,7 @@ Wir haben eine sorgfältige Analyse von Impressionsdaten und deren Einfluss auf 
    <td>Benutzerdefiniert</td> 
   </tr> 
   <tr> 
-   <td><strong>Mitte</strong></td> 
+   <td><strong>Zweiter Vorname</strong></td> 
    <td>0 %</td> 
    <td>0 %</td> 
    <td>20 %</td> 

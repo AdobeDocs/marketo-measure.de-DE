@@ -4,16 +4,20 @@ description: Konfiguration der doppelten Klick-Kampagnen-Manager-Ansicht über A
 title: Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 4%
+source-wordcount: '417'
+ht-degree: 27%
 
 ---
 
 # Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
 ## Anzeigen durch Attribution {#measuring-view-through-attribution}
+
+>[!IMPORTANT]
+>
+>Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe die Marketo Measure-Funktionen, die auf Drittanbieter-Cookies basieren, ein. Dies betrifft insbesondere das Domain-übergreifende Tracking und die Viewthrough-Attribution, die das Impressions-Cookie von Google/DoubleClick verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kundinnen und -Kunden weiterhin zur Verfügung.
 
 >[!NOTE]
 >

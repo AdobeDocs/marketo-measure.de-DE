@@ -4,9 +4,9 @@ description: Integrierte Anzeigenplattformen - [!DNL Marketo Measure]
 title: Integrierte Anzeigenplattformen
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1675'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,13 @@ Dieses Tool ist eine Chrome-Erweiterung, mit der Sie schnell UTM-Tags generieren
 ## Bing-Werbeanzeigen {#bing-ads}
 
 Bing Ads ist eine integrierte Plattform, mit der Sie automatisches Tagging für URLs aktivieren oder ein Tool von Drittanbietern wie [!DNL Marketo Measure], um Anzeigen zu taggen. [!DNL Bing Ads] ist auch auf UTM-Parameter angewiesen.
+
+Unsere Integration unterstützt die folgenden Anzeigentypen:
+
+* Textwerbung
+* Mobile Ad
+* Erweiterte Textanzeige
+
 
 Die Funktion zum automatischen Tagging von Bing Ads fügt die folgenden UTM-Parameter hinzu:
 
