@@ -5,9 +5,9 @@ title: Kampagnen und Kampagnenmitglieder
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
 source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,6 +126,6 @@ Um dieses Problem zu umgehen, hat [!DNL Marketo Measure] ein [!DNL Marketo Measu
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: Kampagnenobjektfelder](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Kampagnenobjektfelder](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure] Tutorials: Zuordnen von Offline-Kanälen](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Zuordnen von Offline-Kanälen](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

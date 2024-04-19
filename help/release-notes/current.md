@@ -4,15 +4,15 @@ title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 6aaf6fd26f19e9382cc559e54558e1c5d84cfd6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise 2024 {#release-notes-2024}
 
-Nachfolgend finden Sie alle neuen und aktualisierten Funktionen für unsere Versionen 2024.
+Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktionen unserer Versionen aus dem Jahr 2024.
 
 ## Q2-Version {#q2-release}
 
@@ -20,31 +20,31 @@ Nachfolgend finden Sie alle neuen und aktualisierten Funktionen für unsere Vers
 
 **Einstellung von Marketo Measure-Funktionen als Reaktion auf die Einstellung von Drittanbieter-Cookies**
 
-Als Reaktion auf die wachsenden Datenschutzbedenken werden Drittanbieter-Cookies schrittweise eingestellt, wobei der Termin für Google Chrome vom 3. Quartal 2024 anzeigt, dass sie beendet werden. Marketo Measure stellt bestimmte Funktionen ein, die von Drittanbieter-Cookies abhängig sind, insbesondere domänenübergreifendes Tracking und Durchsichtszuordnung, die auf dem Impressions-Cookie Google/DoubleClick basieren. Diese Änderung hat keine Auswirkungen auf andere Marketo Measure-Funktionen oder die Verwendung von Erstanbieter-Cookies. Nach dem Zeitplan von Google werden diese Funktionen voraussichtlich ab dem 1. Juni eingestellt, doch stehen die vor diesem Datum erfassten Daten für Kunden weiterhin zur Verfügung.
+Als Reaktion auf wachsende Datenschutzbedenken werden Drittanbieter-Cookies schrittweise eingestellt. Die endgültige Einstellung erfolgt bis zur Frist von Google Chrome für das dritte Quartal 2024. Marketo Measure stellt bestimmte Funktionen ein, die von Drittanbieter-Cookies abhängig sind, insbesondere Domain-übergreifendes Tracking und Durchsichtszuordnung, was auf dem Impressions-Cookie „Google/DoubleClick“ basiert. Diese Änderung hat keine Auswirkungen auf andere Marketo Measure-Funktionen oder die Verwendung von Erstanbieter-Cookies. Nach dem Zeitplan von Google werden diese Funktionen voraussichtlich bis zum 1. Juni eingestellt, Die Daten, die vor diesem Datum erfasst werden, werden Kundinnen und Kunden allerdings weiterhin zur Verfügung stehen.
 
-* [Anpassen an die Einstellung von Drittanbieter-Cookies in Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
-* [Cookies in Marketo Measure](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
+* [Anpassung an die Einstellung von Drittanbieter-Cookies in Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
+* [Marketo Measure-Cookies](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
 
-**Schrittweise Einführung unseres erweiterten Umgang mit Fehlern**
+**Einführung in Phasen unserer erweiterten Fehlerhandhabung**
 
-Wir führen eine schrittweise Einführung in die verbesserte Fehlerbehebung für Exportaufträge ein, beginnend mit sofortigen In-App-Pulsbenachrichtigungen für Berechtigungsfehler und der Umstellung am 25. April auf einen neuen Ansatz, bei dem Exportaufträge zum Fehlerzeitpunkt ausgesetzt werden. Diese Änderung zielt darauf ab, die Datenintegrität und -sichtbarkeit zu verbessern und sicherzustellen, dass unsere Benutzer reibungslosere und zuverlässigere Datenverwaltungsprozesse nutzen können. Um einen reibungslosen Übergang und eine minimale Unterbrechung Ihrer Vorgänge sicherzustellen, implementieren wir diese Änderungen in zwei Phasen:
+Wir führen phasenweise die verbesserte Fehlerhandhabung für Exportvorgänge ein, beginnend mit sofortigen In-App-Pulsbenachrichtigungen für Berechtigungsfehler, und am 25. April stellen wir auf einen neuen Ansatz um, bei dem Exportvorgänge an der Fehlerstelle pausiert werden. Diese Änderung zielt darauf ab, die Datenintegrität und -sichtbarkeit zu verbessern und sicherzustellen, dass unsere Benutzerinnen und Benutzer reibungslosere und zuverlässigere Datenverwaltungsprozesse nutzen können. Um einen reibungslosen Übergang und eine minimale Unterbrechung Ihrer Vorgänge sicherzustellen, implementieren wir diese Änderungen in zwei Phasen:
 
-* Sofortige Verfügbarkeit von Pulse-Benachrichtigungen: Sie erhalten In-App-Pulsbenachrichtigungen, um bei Exportvorgängen Berechtigungsfehler zu erhalten. Dies unterbricht Ihre Exporte nicht, hilft Ihnen jedoch, mehr über die Fehler zu erfahren, ohne Ihre aktuellen Aufträge zu beeinträchtigen.
-* Implementierung von Job Pausing am 25. April: Ab dem 25. April wird der Auftrag angehalten, um sicherzustellen, dass keine Daten übersprungen werden, wenn unser System während eines Exportvorgangs auf einen Berechtigungsfehler stößt. Sie werden über alle Probleme benachrichtigt. Sobald die Berechtigungen korrigiert wurden, wird der Exportauftrag nahtlos an der Stelle fortgesetzt, an der er abgebrochen wurde.
+* Sofortige Verfügbarkeit von Pulsbenachrichtigungen: Sie erhalten In-App-Pulsbenachrichtigungen zu Berechtigungsfehlern bei Exportvorgängen. Dies unterbricht Ihre Exporte nicht und hilft Ihnen, mehr über die Fehler zu erfahren, ohne Ihre aktuellen Vorgänge zu beeinträchtigen.
+* Implementierung der Vorgangspausierung am 25. April: Ab dem 25. April wird im Fall, dass unser System während eines Exportvorgangs auf einen Berechtigungsfehler stößt, der Vorgang angehalten, um sicherzustellen, dass keine Daten übersprungen werden. Sie werden über alle Probleme benachrichtigt. Sobald die Berechtigungen korrigiert sind, wird der Exportvorgang nahtlos an der Stelle fortgesetzt, an der er angehalten wurde.
 
 _Warum das wichtig ist_
 
-Verbesserte Datenintegrität und künftige Testing Ihrer Integration: Wir stoppen den Vorgang beim ersten Anzeichen von Problemen, um Datenverlust zu vermeiden und Genauigkeit zu gewährleisten. Dies ermöglicht eine schnelle Problembehebung, die Verbesserung der Datenexportqualität und der Systemzuverlässigkeit.
+Verbesserte Datenintegrität und Zukunftssicherheit für Ihre Integration: Wir stoppen den Vorgang beim ersten Anzeichen von Problemen, um Datenverlust zu vermeiden und Genauigkeit zu gewährleisten. Dies ermöglicht eine schnelle Problembehebung, was die Qualität des Datenexports und die Systemzuverlässigkeit verbessert.
 
 Sofortige Sichtbarkeit: Die Einführung von Pulsbenachrichtigungen ermöglicht eine umgehende Reaktion auf Berechtigungsfehler, wodurch mögliche Auswirkungen auf Vorgänge verhindert werden.
 
 _Unterstützung des Übergangs_
 
-Um Ihnen bei der Anpassung an diese Änderung zu helfen, [Wir haben eine Dokumentation erstellt.](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} mit klaren Fehlerbeschreibungen und umfassenden Schritten zur Fehlerbehebung.
+Um Ihnen bei der Anpassung an diese Änderung zu helfen, [haben wir eine Dokumentation erstellt](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}, die klare Fehlerbeschreibungen und umfassende Schritten zur Fehlerbehebung bietet.
 
 <br>
 
-**Für die LinkedIn-Integration erforderliche Aktion**
+**Erforderliches Handeln für die LinkedIn-Integration**
 
-LinkedIn hat kürzlich eine aktualisierte Version der Lead Sync-API veröffentlicht. Bitte authentifizieren Sie die LinkedIn-Verbindung in Ihrer Marketo Measure-Instanz bis zum 20. Mai erneut, um Unterbrechungen zu vermeiden.
+LinkedIn hat kürzlich eine aktualisierte Version seiner Lead Sync-API veröffentlicht. Bitte authentifizieren Sie die LinkedIn-Verbindung in Ihrer Marketo Measure-Instanz bis zum 20. Mai erneut, um Unterbrechungen zu vermeiden.
 
