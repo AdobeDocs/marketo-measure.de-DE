@@ -3,10 +3,10 @@ description: Aktuelle Versionshinweise – [!DNL Marketo Measure]
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 6aaf6fd26f19e9382cc559e54558e1c5d84cfd6d
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 71%
 
 ---
 
@@ -27,10 +27,10 @@ Als Reaktion auf wachsende Datenschutzbedenken werden Drittanbieter-Cookies schr
 
 **Einführung in Phasen unserer erweiterten Fehlerhandhabung**
 
-Wir führen phasenweise die verbesserte Fehlerhandhabung für Exportvorgänge ein, beginnend mit sofortigen In-App-Pulsbenachrichtigungen für Berechtigungsfehler, und am 25. April stellen wir auf einen neuen Ansatz um, bei dem Exportvorgänge an der Fehlerstelle pausiert werden. Diese Änderung zielt darauf ab, die Datenintegrität und -sichtbarkeit zu verbessern und sicherzustellen, dass unsere Benutzerinnen und Benutzer reibungslosere und zuverlässigere Datenverwaltungsprozesse nutzen können. Um einen reibungslosen Übergang und eine minimale Unterbrechung Ihrer Vorgänge sicherzustellen, implementieren wir diese Änderungen in zwei Phasen:
+Wir führen eine schrittweise Einführung in die verbesserte Fehlerbehebung für Exportvorgänge ein, beginnend mit sofortigen In-App-Pulsbenachrichtigungen für Berechtigungsfehler und der Umstellung auf einen neuen Ansatz, bei dem Exportvorgänge zum Zeitpunkt des Fehlers angehalten werden. Diese Änderung zielt darauf ab, die Datenintegrität und -sichtbarkeit zu verbessern und sicherzustellen, dass unsere Benutzerinnen und Benutzer reibungslosere und zuverlässigere Datenverwaltungsprozesse nutzen können. Um einen reibungslosen Übergang und eine minimale Unterbrechung Ihrer Vorgänge sicherzustellen, implementieren wir diese Änderungen in zwei Phasen:
 
 * Sofortige Verfügbarkeit von Pulsbenachrichtigungen: Sie erhalten In-App-Pulsbenachrichtigungen zu Berechtigungsfehlern bei Exportvorgängen. Dies unterbricht Ihre Exporte nicht und hilft Ihnen, mehr über die Fehler zu erfahren, ohne Ihre aktuellen Vorgänge zu beeinträchtigen.
-* Implementierung der Vorgangspausierung am 25. April: Ab dem 25. April wird im Fall, dass unser System während eines Exportvorgangs auf einen Berechtigungsfehler stößt, der Vorgang angehalten, um sicherzustellen, dass keine Daten übersprungen werden. Sie werden über alle Probleme benachrichtigt. Sobald die Berechtigungen korrigiert sind, wird der Exportvorgang nahtlos an der Stelle fortgesetzt, an der er angehalten wurde.
+* Implementierung der Einstellung von Aufträgen am 25. April: **POSTPONED** - Nach Prüfung des Feedbacks von Marketo Measure-Benutzern haben wir beschlossen, die Implementierung der Aussetzung von Exportvorgängen an einem Fehlerpunkt zu verschieben, der ursprünglich für den 25. April geplant war. Wir erkennen an, dass die Einstellung von Arbeitsplätzen möglicherweise nicht der effektivste Ansatz ist. Wir sind entschlossen, eine bessere Lösung zu finden, die die Datenintegrität aufrecht erhält und Störungen minimiert. Wir werden daran festhalten, Änderungen an unserem aktuellen System vorzunehmen, bis wir eine Lösung sicherstellen können, die besser auf die Bedürfnisse unserer Benutzer abgestimmt ist.
 
 _Warum das wichtig ist_
 
