@@ -3,7 +3,7 @@ description: Dashboard "Zugewiesener Umsatz"- [!DNL Marketo Measure] - Produkt
 title: Dashboard „Zugewiesener Umsatz“
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: 01ed0bfa424a1fb5eb68983b1a54c4c5eddc163a
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 3%
@@ -18,7 +18,7 @@ Das Dashboard &quot;Zugewiesener Umsatz&quot;bietet eine fokussierte Sicht auf d
 >
 >Dieses Dashboard befindet sich in der Beta-Phase. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, nachdem wir die optimale Funktionalität vollständig überarbeitet und sichergestellt haben.
 
-**Fragen, die die Pinnwand beantwortet:**
+**Fragen, die die Pinnwand beantwortet**:
 
 * Welche Kanäle, Unterkanäle oder Kampagnen weisen den höchsten Umsatz auf?
 * Wie hoch ist der Gesamtbetrag unseres zugeordneten Umsatzes und die Anzahl unserer zugewiesenen geschlossenen Geschäfte?
@@ -37,7 +37,7 @@ Gestapeltes Balkendiagramm mit dem nach Kanal segmentierten Gesamtumsatz für je
 * Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
 * Bewegen Sie den Mauszeiger über ein Balkensegment oder den Abstand zwischen Balken, um detaillierte Informationen anzuzeigen.
 
-**Fragen zu den Grafikantworten:**
+**Fragen zu den Grafikantworten**:
 
 * Welche Kanäle generierten den am häufigsten zugeordneten Umsatz pro Quartal?
 * Wie hoch war die Aufteilung des zugeordneten Umsatzes nach Kanal im letzten Monat?
@@ -48,7 +48,7 @@ Gestapeltes Balkendiagramm mit dem nach Kanal segmentierten Gesamtumsatz für je
 
 Gesegmenter Gesamtumsatz, segmentiert nach Kanal, Subkanal und Kampagne, in Tabellen- und Baum-Formaten dargestellt. Klicken Sie auf die Schaltfläche oben rechts, um zwischen Ansichten zu wechseln.
 
-**Fragen, die die Pinnwand beantwortet:**
+**Fragen, die die Pinnwand beantwortet**:
 
 * Wie variiert die zugeschriebene Umsatzverteilung zwischen verschiedenen Unterkanälen innerhalb eines Kanals?
 * Welche Kampagnen unter einem bestimmten Unterkanal erzielen den am meisten zugeordneten Umsatz?
