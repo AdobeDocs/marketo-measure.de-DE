@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
 source-git-commit: 5759615376954806d6f0682378ce4bbc786bc43a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '805'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 99%
       + [Entdecken Sie die Grundlagen von Dashboards](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Neues Handbuch zum Entdecken von Dashboards](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [Richtlinie zur Dashboard-Datentransparenz](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
-      + [Dashboard &quot;Zugewiesene Möglichkeiten&quot;](marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)
+      + [Dashboard „Zugewiesene Opportunity“](marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)
       + [Dashboard „Zugewiesener Umsatz“](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [Interaktions-Dashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
       + [Dashboard „Lead-Geschwindigkeit“](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
