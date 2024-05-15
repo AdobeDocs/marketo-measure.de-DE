@@ -4,9 +4,9 @@ description: Benutzerdefinierte Segmentierung - [!DNL Marketo Measure]
 title: Benutzerdefinierte Segmentierung
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: e1ad563aac12ceb6bea6c28621ebd1cb7ec0a923
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Mit der benutzerdefinierten Segmentierung können Sie Touchpoints nach Kategorie
 Benutzerdefinierte Segmentierung kann verwendet werden, um Daten für einen bestimmten Datensatztyp anzuzeigen. Nachdem Sie die Filterlogik zugeordnet haben, sollten Sie in der [!DNL Marketo Measure] Die Demand Waterfall-Ansicht des Dashboards - dieselben Daten, die Sie in Ihrem CRM-System sehen würden.
 
 **Wie richte ich es ein?**
+
+>[!NOTE]
+>
+>Beim Aktualisieren von Segmentregeln werden historische Daten erneut verarbeitet.
 
 Schritt 1: Bestimmen Sie, welche Informationen Sie sehen möchten.
 
