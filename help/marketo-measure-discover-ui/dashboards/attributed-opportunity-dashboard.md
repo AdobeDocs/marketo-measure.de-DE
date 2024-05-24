@@ -1,18 +1,16 @@
 ---
 description: Dashboard "Zugewiesene Möglichkeiten"- [!DNL Marketo Measure] - Produkt
-title: Dashboard "Zugewiesene Möglichkeiten"
-hide: true
-hidefromtoc: true
+title: Dashboard „Zugewiesene Opportunity“
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-source-git-commit: 01ed0bfa424a1fb5eb68983b1a54c4c5eddc163a
+source-git-commit: 40c9a92582d0177474bd6390be58726844e1714a
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Dashboard &quot;Zugewiesene Möglichkeiten&quot; {#attributed-opportunity-dashboard}
+# Dashboard „Zugewiesene Opportunity“ {#attributed-opportunity-dashboard}
 
 Das Dashboard &quot;Zugewiesene Chancen&quot;bietet einen umfassenden Überblick darüber, wie Marketing-Maßnahmen sowohl zu neuen als auch ausgereiften Pipeline-Chancen beitragen. Erfahren Sie mehr über die Details aller offenen und geschlossenen Möglichkeiten, die Ihren Strategien zugeordnet werden können, mit der Flexibilität, nach Opportunitätsstufe zu filtern und den gesamten Einfluss des Marketing über geschlossene Geschäfte hinaus zu unterstreichen.
 
