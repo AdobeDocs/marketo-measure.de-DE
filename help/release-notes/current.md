@@ -3,10 +3,10 @@ description: Aktuelle Versionshinweise – [!DNL Marketo Measure]
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
+source-git-commit: 88edec8ec5d015fb4152b9e822cb1bfa68ed85c2
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 61%
+source-wordcount: '788'
+ht-degree: 57%
 
 ---
 
@@ -20,7 +20,7 @@ Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktione
 
 **Erinnerung: Einstellung der Salesforce-Felder - 14. Juni**
 
-Wie bereits im vergangenen Jahr angekündigt, werden wir unsere Exportaufträge an Lead-/Kontaktobjekte auslaufen lassen, um unsere Integration zu vereinfachen und die Notwendigkeit zu beseitigen, in Salesforce-Standardobjekte zu exportieren. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden Schritte ausführen [hier dokumentiert](/help/release-notes/previous-releases/2023.md#deprecations). Wir werden auch die Dokumentation zum Erstellen von Workflows teilen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
+Wie bereits im vergangenen Jahr angekündigt, werden wir unsere Exportaufträge an Lead-/Kontaktobjekte auslaufen lassen, um unsere Integration zu vereinfachen und die Notwendigkeit zu beseitigen, in Salesforce-Standardobjekte zu exportieren. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden Schritte ausführen [hier dokumentiert](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Wir werden auch die Dokumentation zum Erstellen von Workflows teilen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
 
 Diese Änderung bringt zwei wesentliche Vorteile:
 
@@ -29,7 +29,7 @@ Diese Änderung bringt zwei wesentliche Vorteile:
 
 **Dashboard &quot;Zugewiesene Möglichkeiten&quot;**
 
-Wir freuen uns, die neue [Dashboard &quot;Zugewiesene Möglichkeiten&quot;](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md), mit dem Sie einen umfassenden Überblick darüber erhalten, wie Ihre Marketingbemühungen sowohl zu neuen als auch ausgereiften Pipeline-Chancen beitragen. Dieses Dashboard bietet Ihnen die Möglichkeit, Details zu allen offenen und geschlossenen Möglichkeiten, die Ihren Strategien zugeordnet werden können, mit der Flexibilität, nach Opportunity zu filtern. Es bietet Einblicke, welche Kanäle, Unterkanäle oder Kampagnen in Bezug auf die zugewiesene Opportunitätsmenge am besten platziert werden, und zeigt die insgesamt zugewiesene Opportunity-Menge zusammen mit der Anzahl der zugewiesenen offenen und geschlossenen Gelegenheiten an.
+Wir freuen uns, die neue [Dashboard &quot;Zugewiesene Möglichkeiten&quot;](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, mit dem Sie einen umfassenden Überblick darüber erhalten, wie Ihre Marketingbemühungen sowohl zu neuen als auch ausgereiften Pipeline-Chancen beitragen. Dieses Dashboard bietet Ihnen die Möglichkeit, Details zu allen offenen und geschlossenen Möglichkeiten, die Ihren Strategien zugeordnet werden können, mit der Flexibilität, nach Opportunity zu filtern. Es bietet Einblicke, welche Kanäle, Unterkanäle oder Kampagnen in Bezug auf die zugewiesene Opportunitätsmenge am besten platziert werden, und zeigt die insgesamt zugewiesene Opportunity-Menge zusammen mit der Anzahl der zugewiesenen offenen und geschlossenen Gelegenheiten an.
 
 **Marketo Engage-Cookie-Synchronisation für Marketo Measure Ultimate**
 
@@ -37,6 +37,14 @@ Marketo Engage-Cookie-Synchronisation ist jetzt für Marketo Measure Ultimate ve
 
 1. Bearbeiten Sie auf der Seite &quot;AEP-Schemas&quot;das Schema &quot;B2B-Person&quot;und fügen Sie die Feldergruppe &quot;Marketo Engage-Persönlichkeitsdetails&quot;hinzu.
 1. Mappen Sie bei der Aufnahme der Daten in MMU das Feld Cookie-ID aus der Feldergruppe dem Feld Cookies aus Marketo Engage.
+
+**Boomerang-Phasen für Tier 2- und 3-Kunden aktiviert**
+
+Die Boomerang Stage-Funktion steht ab dem 7. Juni 2024 allen Tier 2- und 3-Kunden zur Verfügung. Weitere Informationen zu dieser Funktion finden Sie in der folgenden Dokumentation.
+
+* [Bomerang-Phasen und Touchpoints](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [Einrichten von Boomerang-Phasen](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [Boomerang-Staging-Szenarien](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 <p>
 
