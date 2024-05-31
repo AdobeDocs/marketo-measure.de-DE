@@ -3,16 +3,42 @@ description: Aktuelle Versionshinweise – [!DNL Marketo Measure]
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 61%
 
 ---
 
 # Versionshinweise 2024 {#release-notes-2024}
 
 Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktionen unserer Versionen aus dem Jahr 2024.
+
+## Version Q3 {#q3-release}
+
+<p>
+
+**Erinnerung: Einstellung der Salesforce-Felder - 14. Juni**
+
+Wie bereits im vergangenen Jahr angekündigt, werden wir unsere Exportaufträge an Lead-/Kontaktobjekte auslaufen lassen, um unsere Integration zu vereinfachen und die Notwendigkeit zu beseitigen, in Salesforce-Standardobjekte zu exportieren. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden Schritte ausführen [hier dokumentiert](/help/release-notes/previous-releases/2023.md#deprecations). Wir werden auch die Dokumentation zum Erstellen von Workflows teilen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
+
+Diese Änderung bringt zwei wesentliche Vorteile:
+
+* **Geringere Salesforce-API-Kosten**: Kunden können damit rechnen, dass sie ihre Salesforce-API-Kosten um etwa 10 % senken.
+* **Optimierte Integration**: Die höchste Anzahl von Fehlern in unseren Exportvorgängen hängt mit diesen Prozessen zusammen. Durch deren Entfernung wird unsere Integration erheblich optimiert.
+
+**Dashboard &quot;Zugewiesene Möglichkeiten&quot;**
+
+Wir freuen uns, die neue [Dashboard &quot;Zugewiesene Möglichkeiten&quot;](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md), mit dem Sie einen umfassenden Überblick darüber erhalten, wie Ihre Marketingbemühungen sowohl zu neuen als auch ausgereiften Pipeline-Chancen beitragen. Dieses Dashboard bietet Ihnen die Möglichkeit, Details zu allen offenen und geschlossenen Möglichkeiten, die Ihren Strategien zugeordnet werden können, mit der Flexibilität, nach Opportunity zu filtern. Es bietet Einblicke, welche Kanäle, Unterkanäle oder Kampagnen in Bezug auf die zugewiesene Opportunitätsmenge am besten platziert werden, und zeigt die insgesamt zugewiesene Opportunity-Menge zusammen mit der Anzahl der zugewiesenen offenen und geschlossenen Gelegenheiten an.
+
+**Marketo Engage-Cookie-Synchronisation für Marketo Measure Ultimate**
+
+Marketo Engage-Cookie-Synchronisation ist jetzt für Marketo Measure Ultimate verfügbar. So verwenden Sie diese Funktion:
+
+1. Bearbeiten Sie auf der Seite &quot;AEP-Schemas&quot;das Schema &quot;B2B-Person&quot;und fügen Sie die Feldergruppe &quot;Marketo Engage-Persönlichkeitsdetails&quot;hinzu.
+1. Mappen Sie bei der Aufnahme der Daten in MMU das Feld Cookie-ID aus der Feldergruppe dem Feld Cookies aus Marketo Engage.
+
+<p>
 
 ## Q2-Version {#q2-release}
 
