@@ -3,9 +3,9 @@ description: Aktuelle Versionshinweise – [!DNL Marketo Measure]
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 88edec8ec5d015fb4152b9e822cb1bfa68ed85c2
+source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '792'
 ht-degree: 57%
 
 ---
@@ -38,9 +38,9 @@ Marketo Engage-Cookie-Synchronisation ist jetzt für Marketo Measure Ultimate ve
 1. Bearbeiten Sie auf der Seite &quot;AEP-Schemas&quot;das Schema &quot;B2B-Person&quot;und fügen Sie die Feldergruppe &quot;Marketo Engage-Persönlichkeitsdetails&quot;hinzu.
 1. Mappen Sie bei der Aufnahme der Daten in MMU das Feld Cookie-ID aus der Feldergruppe dem Feld Cookies aus Marketo Engage.
 
-**Boomerang-Phasen für Tier 2- und 3-Kunden aktiviert**
+**Boomerang-Phasen für Tier-2-Kunden aktiviert**
 
-Die Boomerang Stage-Funktion steht ab dem 7. Juni 2024 allen Tier 2- und 3-Kunden zur Verfügung. Weitere Informationen zu dieser Funktion finden Sie in der folgenden Dokumentation.
+Zuvor nur für Tier-3-Kunden verfügbar, ist die Boomerang Stage-Funktion ab dem 7. Juni 2024 auch für alle Tier-2-Kunden verfügbar. Weitere Informationen zu dieser Funktion finden Sie in der folgenden Dokumentation.
 
 * [Bomerang-Phasen und Touchpoints](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [Einrichten von Boomerang-Phasen](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
