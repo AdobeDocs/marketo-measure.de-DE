@@ -7,7 +7,7 @@ feature: Account-based Marketing
 source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
 workflow-type: tm+mt
 source-wordcount: '822'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -38,16 +38,16 @@ Die Lead-zu-Konto-Zuordnung ist ein wesentlicher Bestandteil eines effektiven AB
 * Lead-E-Mail-Domain zu Konto-Website-Domain
 * Lead-Firmenname zu Kontoname
 * Lead-Firma zu Konto-Website-Domain
-* Lead-Website zur E-Mail-Domain von Kontokontakten
-* Lead-E-Mail-Domäne für die E-Mail-Domäne von Kontokontakten
-* Lead-Website zur E-Mail-Domäne der Kontoführer
-* Lead-E-Mail-Domäne für die E-Mail-Domäne der Kontoführer
+* Lead-Website zu E-Mail-Domain von Kontokontakten
+* Lead-E-Mail-Domain zu E-Mail-Domain von Kontokontakten
+* Lead-Website zu E-Mail-Domain von Konto-Leads
+* Lead-E-Mail-Domain zu E-Mail-Domain von Konto-Leads
 
-Die Leads/Kontakte der Konten werden durch ihre E-Mail-/Website-Domänen validiert und mit der Domain oder Subdomäne der Lead-E-Mail/Website abgeglichen. Das Konto mit den meisten Übereinstimmungen wird verwendet.
+Die Leads/Kontakte der Konten werden durch ihre E-Mail/Website-Domains validiert und mit der Domain oder Subdomain der Lead-E-Mail/Website abgeglichen. Das Konto mit den meisten Übereinstimmungen wird verwendet.
 
 >[!NOTE]
 >
->Für jeden Lead wird versucht, ihn in der bevorzugten Reihenfolge der oben genannten Methoden einem Konto zuzuordnen. Sobald eine Übereinstimmung gefunden wurde, wird die AccountId sofort auf dem Lead festgelegt und nicht mit einer anderen Methode abgeglichen.
+>Für jeden Lead wird versucht, ihn in der bevorzugten Reihenfolge der oben genannten Methoden einem Konto zuzuordnen. Sobald eine Übereinstimmung gefunden wurde, wird die Konto-ID sofort auf den Lead festgelegt und nicht mehr mit einer anderen Methode abgeglichen. 
 
 ## Prädiktive Interaktionsbewertung {#predictive-engagement-score}
 
