@@ -4,9 +4,9 @@ title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 97a82ae0649ae5b1349d025a7a7cf433bc64bc7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -14,37 +14,37 @@ ht-degree: 57%
 
 Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktionen unserer Versionen aus dem Jahr 2024.
 
-## Version Q3 {#q3-release}
+## Q3-Version {#q3-release}
 
 <p>
 
-**Erinnerung: Einstellung der Salesforce-Felder - 14. Juni**
+**Erinnerung: Einstellung von Salesforce-Feldern – 14. Juni**
 
-Wie bereits im vergangenen Jahr angekündigt, werden wir unsere Exportaufträge an Lead-/Kontaktobjekte auslaufen lassen, um unsere Integration zu vereinfachen und die Notwendigkeit zu beseitigen, in Salesforce-Standardobjekte zu exportieren. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden Schritte ausführen [hier dokumentiert](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Wir werden auch die Dokumentation zum Erstellen von Workflows teilen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
+Wie letztes Jahr angekündigt, werden wir unsere Exportaufträge an Lead-/Kontaktobjekte schrittweise auslaufen lassen, um unsere Integration zu vereinfachen und den Export in Salesforce-Standardobjekte zu vermeiden. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden [hier dokumentierten](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"} Schritte ausführen. Wir werden auch die Dokumentation zum Erstellen von Workflows teilen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
 
 Diese Änderung bringt zwei wesentliche Vorteile:
 
-* **Geringere Salesforce-API-Kosten**: Kunden können damit rechnen, dass sie ihre Salesforce-API-Kosten um etwa 10 % senken.
-* **Optimierte Integration**: Die höchste Anzahl von Fehlern in unseren Exportvorgängen hängt mit diesen Prozessen zusammen. Durch deren Entfernung wird unsere Integration erheblich optimiert.
+* **Geringere Salesforce-API-Kosten**: Kundinnen und Kunden können damit rechnen, dass ihre Salesforce-API-Kosten um etwa 10 % sinken.
+* **Optimierte Integration**: Die meisten Fehler in unseren Exportaufträgen hängen mit diesen Prozessen zusammen. Durch deren Entfernung wird unsere Integration erheblich optimiert.
 
-**Dashboard &quot;Zugewiesene Möglichkeiten&quot;**
+**Dashboard „Zugewiesene Opportunity“**
 
-Wir freuen uns, die neue [Dashboard &quot;Zugewiesene Möglichkeiten&quot;](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, mit dem Sie einen umfassenden Überblick darüber erhalten, wie Ihre Marketingbemühungen sowohl zu neuen als auch ausgereiften Pipeline-Chancen beitragen. Dieses Dashboard bietet Ihnen die Möglichkeit, Details zu allen offenen und geschlossenen Möglichkeiten, die Ihren Strategien zugeordnet werden können, mit der Flexibilität, nach Opportunity zu filtern. Es bietet Einblicke, welche Kanäle, Unterkanäle oder Kampagnen in Bezug auf die zugewiesene Opportunitätsmenge am besten platziert werden, und zeigt die insgesamt zugewiesene Opportunity-Menge zusammen mit der Anzahl der zugewiesenen offenen und geschlossenen Gelegenheiten an.
+Wir freuen uns, das neue [Dashboard „Zugewiesene Opportunity“](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"} einzuführen, mit dem Sie einen umfassenden Überblick darüber erhalten, wie Ihre Marketing-Maßnahmen sowohl zu neuen als auch ausgereiften Pipeline-Opportunitys beitragen. Mit diesem Dashboard können Sie die Details jeder offenen und abgeschlossenen Opportunity, die Ihren Strategien zuzuordnen ist, einsehen und flexibel nach dem Schritt der Opportunity filtern. Es bietet Erkenntnisse, welche Kanäle, Unterkanäle oder Kampagnen in Bezug auf die zugewiesene Opportunity-Anzahl am besten platziert werden, und zeigt die insgesamt zugewiesene Opportunity-Anzahl zusammen mit der Anzahl der zugewiesenen offenen und geschlossenen Opportunitys an.
 
-**Marketo Engage-Cookie-Synchronisation für Marketo Measure Ultimate**
+**Synchronisation der Marketo Engage-Cookies für Marketo Measure Ultimate**
 
-Marketo Engage-Cookie-Synchronisation ist jetzt für Marketo Measure Ultimate verfügbar. So verwenden Sie diese Funktion:
+Die Synchronisation der Marketo Engage-Cookies ist jetzt für Marketo Measure Ultimate verfügbar. So verwenden Sie diese Funktion:
 
-1. Bearbeiten Sie auf der Seite &quot;AEP-Schemas&quot;das Schema &quot;B2B-Person&quot;und fügen Sie die Feldergruppe &quot;Marketo Engage-Persönlichkeitsdetails&quot;hinzu.
-1. Mappen Sie bei der Aufnahme der Daten in MMU das Feld Cookie-ID aus der Feldergruppe dem Feld Cookies aus Marketo Engage.
+1. Bearbeiten Sie auf der Seite „AEP-Schemata“ das Schema „B2B-Person“ und fügen Sie die Feldergruppe „Marketo Engage-Personendetails“ hinzu.
+1. Wenn Sie die Daten in MMU einlesen, ordnen Sie das Feld „Cookie-ID“ aus der Feldgruppe dem Feld „Cookies“ aus Marketo Engage zu.
 
-**Boomerang-Phasen für Tier-2-Kunden aktiviert**
+**Boomerang-Phasen für Kundschaft der Stufe 2 aktiviert**
 
-Zuvor nur für Tier-3-Kunden verfügbar, ist die Boomerang-Staging-Funktion ab dem 13. Juni 2024 auch für alle Tier-2-Kunden verfügbar. Weitere Informationen zu dieser Funktion finden Sie in der folgenden Dokumentation.
+Die bisher nur für Kundschaft der Stufe 3 verfügbare Funktion „Boomerang-Phasen“ steht ab dem 13. Juni 2024 auch für Kundschaft der Stufe 2 zur Verfügung. Weitere Informationen zu dieser Funktion finden Sie in der folgenden Dokumentation.
 
-* [Bomerang-Phasen und Touchpoints](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [Boomerang-Phasen und Touchpoints](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [Einrichten von Boomerang-Phasen](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
-* [Boomerang-Staging-Szenarien](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
+* [Szenarien zu Boomerang-Phasen](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 <p>
 
