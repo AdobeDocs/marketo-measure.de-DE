@@ -4,8 +4,8 @@ description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+workflow-type: tm+mt
 source-wordcount: '21110'
 ht-degree: 100%
 
@@ -33,24 +33,14 @@ Die zusätzliche _Ads Dimensional Data Model_-ERD zeigt, wie Tabellen für Anzei
 _Klicken Sie auf ein Bild für die Vollbildversion_
 
 <table style="table-layout:auto"> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
  <tbody> 
   <tr> 
-   <td><strong>Data Warehouse-Datenmodell</strong></td> 
-   <td><strong>Ads Dimensional-Datenmodell</strong></td> 
+   <th>Data Warehouse-Datenmodell</th> 
+   <th>Ads Dimensional-Datenmodell</th> 
   </tr> 
   <tr> 
-   <td> 
-    <div> 
-     <p><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></p> 
-    </div></td>
-   <td> 
-    <div> 
-     <p><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></p>
-    </div></td> 
+   <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td> 
   </tr> 
  </tbody> 
 </table>

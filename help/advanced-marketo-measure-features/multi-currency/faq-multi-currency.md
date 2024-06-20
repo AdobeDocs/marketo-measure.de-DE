@@ -4,9 +4,9 @@ description: Häufig gestellte Fragen (mehrere Währungen) - [!DNL Marketo Measu
 title: Häufig gestellte Fragen (mehrere Währungen)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Beachten Sie, dass es für diese Funktion zwei verschiedene Feature Bit gibt. Beide befinden sich im [!UICONTROL Allgemein] im Bereich CRM unter Einstellungen: Mehrere Währungen und erweiterte Währungen. Mehrere Währungen sollten aktiviert werden, wenn der Kunde mehr als eine Währung verwendet, während die zusätzliche Funktion und die erweiterten Währungen aktiviert werden können, wenn der Kunde [!DNL Salesforce]Funktion &quot;Erweiterte Währungsverwaltung&quot;, bei der der Benutzer einen zeitbasierten Bereich für Konversionsraten festlegen kann.
 
-Leider wissen wir nicht, wann ein Kunde zwischen &quot;Einfach&quot;und &quot;Erweitert&quot;wechselt, wenn Advanced bereits aktiviert ist. Aus diesem Grund muss der Kunde die Einstellung Erweiterte Währungen manuell an seine CRM-Einstellung anpassen. Dies sollte für den Kunden sichtbar sein, wenn die Konversionen falsch sind. Das bedeutet, dass wir nicht wussten, welcher Konversionsgrad angewendet werden sollte.
+Marketo Measure ruft die Währungseinstellung automatisch aus dem CRM-System des Kunden ab. In Marketo Measure ist keine manuelle Konfiguration erforderlich, die dem CRM-System entspricht. Die Währungseinstellung finden Sie auf der Seite &quot;Allgemein&quot;unter &quot;CRM&quot;.
 
 **Warum gibt mir mein Werbekonto eine Warnmeldung aus?**
 

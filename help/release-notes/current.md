@@ -3,10 +3,10 @@ description: Aktuelle Versionshinweise – [!DNL Marketo Measure]
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 97a82ae0649ae5b1349d025a7a7cf433bc64bc7e
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+workflow-type: tm+mt
+source-wordcount: '793'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktione
 
 **Erinnerung: Einstellung von Salesforce-Feldern – 14. Juni**
 
-Wie letztes Jahr angekündigt, werden wir unsere Exportaufträge an Lead-/Kontaktobjekte schrittweise auslaufen lassen, um unsere Integration zu vereinfachen und den Export in Salesforce-Standardobjekte zu vermeiden. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden [hier dokumentierten](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"} Schritte ausführen. Wir werden auch die Dokumentation zum Erstellen von Workflows teilen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
+Wie im vergangenen Jahr angekündigt, werden wir [Auslaufen unserer Exportvorgänge auf Lead-/Kontaktobjekte](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} um unsere Integration zu vereinfachen und die Notwendigkeit zu beseitigen, in Salesforce-Standardobjekte zu exportieren. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden [hier dokumentierten](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"} Schritte ausführen. Wir werden auch die Dokumentation zum Erstellen von Workflows teilen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
 
 Diese Änderung bringt zwei wesentliche Vorteile:
 
