@@ -4,10 +4,10 @@ description: „[!DNL Marketo Measure]-Felder in Standard-Objekten von [!DNL Sal
 title: „[!DNL Marketo Measure]-Felder in Standard-Objekten von [!DNL Salesforce] “
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
-source-wordcount: '1292'
-ht-degree: 100%
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 97%
 
 ---
 
@@ -22,30 +22,6 @@ Lernen Sie die verschiedenen [!DNL Marketo Measure]-Felder kennen, die zu [!DNL 
 ## Konto {#account}
 
 Prädiktive Interaktionsbewertung: Dieses Feld wird in Verbindung mit unserer ABM-Funktion verwendet, um einen Wert für die Interaktion des Kontos zu ermitteln. Dabei werden viele Faktoren berücksichtigt, z. B. die Häufigkeit der Seitenaufrufe, wie viele Kontakte mit dem Konto verbunden sind, ob es ein geschlossenes Konto gibt, usw.
-
-## Fall {#case}
-
-Wir fügen dem Fallobjekt Felder hinzu, die sich auf die Meilensteine „Erstkontakt“ und „Lead-Erstellung“ beziehen. Dies ist für Kundinnen und Kunden, die das Fallobjekt anstelle des Lead- oder Kontaktobjekts verwenden, und dient auch als weitere Möglichkeit, die Daten anzuzeigen, falls eine Kundin oder ein Kunde nicht möchte, dass wir Touchpoint-Einträge erstellen.
-
-Touchpoint-Quelle (FT): Dies ist die Quelle der Erstkontakt-Interaktion.
-
-Touchpoint-Quelle (LC): Dies ist die Quelle der Interaktion bei der Lead-Erstellung.
-
-Marketing-Kanal (FT): Dies ist der Marketing-Kanal der Erstkontakt-Interaktion.
-
-Marketing-Kanal (LC): Dies ist der Marketing-Kanal für die Interaktion bei der Lead-Erstellung.
-
-Name der Werbekampagne (FT): Dies ist die UTM-Kampagne, die Werbekampagne aus den Werbenetzwerken oder die [!DNL Salesforce]-Kampagne der Erstkontakt-Interaktion.
-
-Name der Werbekampagne (LC): Dies ist die UTM-Kampagne, die Werbekampagne aus den Werbenetzwerken oder die [!DNL Salesforce]-Kampagne der Interaktion bei der [!UICONTROL Lead-Erstellung].
-
-Landingpage (FT): Dies ist die Landingpage der Erstkontakt-Interaktion.
-
-Landingpage (LC): Dies ist die Landingpage der Interaktion bei der [!UICONTROL Lead-Erstellung].
-
-Touchpoint-Datum (FT): Dies ist das Datum der Erstkontakt-Interaktion.
-
-Touchpoint-Datum (LC): Dies ist das Datum der Interaktion bei der Lead-Erstellung.
 
 ## Kampagne {#campaign}
 
@@ -79,57 +55,9 @@ Buyer-Touchpoint-Datum: Dies steht im Zusammenhang mit der Schaltfläche [!UICON
 
 OnCampaignMemberDelete: Standardmäßig wird [!DNL Salesforce] nicht angezeigt, wenn Kampagnenmitglieder gelöscht werden, was zu Problemen beim genauen Attributions-Reporting führen kann. Wenn ein Kampagnenmitglied gelöscht wird, wird dies ausgelöst, um [!DNL Marketo Measure] zu informieren, damit Touchpoints entfernt werden, die mit diesem nicht mehr existierenden Kampagnenmitglied verbunden sind.
 
-## Kontakt {#contact}
-
-Wir fügen dem Kontaktobjekt Felder für die Meilensteine „Erstkontakt“ und „Lead-Erstellung“ hinzu. Dies ist für Kundinnen und Kunden vorgesehen, die die Attribution lieber direkt in Felder übertragen möchten, anstatt Touchpoint-Einträge zu erstellen. Die meisten unserer Kundinnen und Kunden entscheiden sich für die Touchpoint-Einträge, verwenden diese Felder aber auch innerhalb ihrer Automatisierungsplattform.
-
-Touchpoint-Quelle (FT): Dies ist die Quelle der Erstkontakt-Interaktion.
-
-Touchpoint-Quelle (LC): Dies ist die Quelle der Interaktion bei der Lead-Erstellung.
-
-Marketing-Kanal (FT): Dies ist der Marketing-Kanal der Erstkontakt-Interaktion.
-
-Marketing-Kanal (LC): Dies ist der Marketing-Kanal für die Interaktion bei der Lead-Erstellung.
-
-Name der Werbekampagne (FT): Dies ist die UTM-Kampagne, die Werbekampagne aus den Werbenetzwerken oder die [!DNL Salesforce]-Kampagne der Erstkontakt-Interaktion.
-
-Name der Werbekampagne (LC): Dies ist die UTM-Kampagne, die Werbekampagne aus den Werbenetzwerken oder die [!DNL Salesforce]-Kampagne der Interaktion bei der [!UICONTROL Lead-Erstellung].
-
-Landingpage (FT): Dies ist die Landingpage der Erstkontakt-Interaktion.
-
-Landingpage (LC): Dies ist die Landingpage der Interaktion bei der [!UICONTROL Lead-Erstellung].
-
-Touchpoint-Datum (FT): Dies ist das Datum der Erstkontakt-Interaktion.
-
-Touchpoint-Datum (LC): Dies ist das Datum der Interaktion bei der Lead-Erstellung.
-
-BizibleID: Dies wird in Verbindung mit unserer Aktivitäten-Attribution und der Calltrackingmetrics-Integration für die Kontaktzuordnung zum Touchpoint verwendet.
-
 ## Lead {#lead}
 
-Wir fügen dem Lead-Objekt Felder hinzu, die sich auf die Meilensteine „Erstkontakt“ und „Lead-Erstellung“ beziehen. Dies ist für Kundinnen und Kunden vorgesehen, die die Attribution lieber direkt in Felder übertragen möchten, anstatt Touchpoint-Einträge zu erstellen. Die meisten unserer Kundinnen und Kunden entscheiden sich für die Touchpoint-Einträge, verwenden diese Felder aber auch innerhalb ihrer Automatisierungsplattform.
-
-Touchpoint-Quelle (FT): Dies ist die Quelle der Erstkontakt-Interaktion.
-
-Touchpoint-Quelle (LC): Dies ist die Quelle der Interaktion bei der Lead-Erstellung.
-
-Marketing-Kanal (FT): Dies ist der Marketing-Kanal der Erstkontakt-Interaktion.
-
-Marketing-Kanal (LC): Dies ist der Marketing-Kanal für die Interaktion bei der Lead-Erstellung.
-
-Name der Werbekampagne (FT): Dies ist die UTM-Kampagne, die Werbekampagne aus den Werbenetzwerken oder die [!DNL Salesforce]-Kampagne der Erstkontakt-Interaktion.
-
-Name der Werbekampagne (LC): Dies ist die UTM-Kampagne, die Werbekampagne aus den Werbenetzwerken oder die [!DNL Salesforce]-Kampagne der Interaktion bei der Lead-Erstellung.
-
-Landingpage (FT): Dies ist die Landingpage der Erstkontakt-Interaktion.
-
-Landingpage (LC): Dies ist die Landingpage für die Interaktion bei der Lead-Erstellung.
-
-Touchpoint-Datum (FT): Dies ist das Datum der Erstkontakt-Interaktion.
-
-Touchpoint-Datum (LC): Dies ist das Datum der Interaktion bei der Lead-Erstellung.
-
-BizibleID: Dies wird in Verbindung mit unserer Aktivitäten-Attribution und Calltrackingmetrics-Integration für die Lead-Zuordnung zum Touchpoint verwendet.
+Das Feld Bizible-Konto wird für unser Lead-zu-Konto-Mapping für unsere ABM-Funktion verwendet. Dieses Feld wird ausgefüllt, um die Nachschlagebeziehung zwischen den beiden Objekten zu erstellen.
 
 ## Konto {#account-1}
 
