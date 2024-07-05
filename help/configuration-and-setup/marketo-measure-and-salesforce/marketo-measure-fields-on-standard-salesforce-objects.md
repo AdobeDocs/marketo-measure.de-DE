@@ -5,9 +5,9 @@ title: „[!DNL Marketo Measure]-Felder in Standard-Objekten von [!DNL Salesforc
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
 source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ OnCampaignMemberDelete: Standardmäßig wird [!DNL Salesforce] nicht angezeigt, 
 
 ## Lead {#lead}
 
-Das Feld Bizible-Konto wird für unser Lead-zu-Konto-Mapping für unsere ABM-Funktion verwendet. Dieses Feld wird ausgefüllt, um die Nachschlagebeziehung zwischen den beiden Objekten zu erstellen.
+Das Feld „Bizible-Konto“ wird für unsere Lead-zu-Konto-Zuordnung für unsere ABM-Funktion verwendet. Dieses Feld wird ausgefüllt, um die Nachschlagebeziehung zwischen den beiden Objekten zu erstellen.
 
 ## Konto {#account-1}
 

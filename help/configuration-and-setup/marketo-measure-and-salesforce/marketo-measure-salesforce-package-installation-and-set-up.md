@@ -4,9 +4,9 @@ title: "Installation und Einrichtung von [!DNL Marketo Measure] [!DNL Salesforce
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
 source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -91,6 +91,6 @@ Schritt 4: Melden Sie sich bei Ihrem [!DNL Marketo Measure]-Konto an und autoris
 
 >[!MORELIKETHIS]
 >
->* [Übersicht über Integrationsberechtigungen](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}
+>* [Überblick über Integrationsberechtigungen](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}
 >
 >* [Einrichten von Adobe Admin Console](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
