@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] Ultimative Datenintegritätsanforderungen - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Endgültige Datenintegrationserfordernis - [!DNL Marketo Measure]'
 title: „[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 93%
+source-wordcount: '1607'
+ht-degree: 86%
 
 ---
 
 # [!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] validiert die eingehenden AEP-Datensätze, um sicherzustellen, dass die Daten ausreichend und kohärent für die Attribution sind. Wenn die Datenintegritätsanforderung nicht erfüllt wird, wird der Datensatz vom zurückgewiesen. [!DNL Marketo Measure] System. Dieser Artikel beschreibt die Datenintegritätsanforderung, liefert Abfragebeispiele für die Datenprüfung und empfiehlt eine Lösung für erforderliche Felder mit einem Nullwert.
+[!DNL Marketo Measure] validiert die eingehenden AEP-Datensätze, um sicherzustellen, dass die Daten für die Attribution ausreichend und kohärent sind. Wenn die Datenintegritätserfordernis nicht erfüllt wird, wird der Datensatz vom [!DNL Marketo Measure]-System abgelehnt. In diesem Artikel werden die Anforderungen an die Datenintegrität beschrieben, Beispiele für Abfragen zur Datenüberprüfung bereitgestellt und eine Lösung für erforderliche Felder mit einem Nullwert empfohlen.
 
 ## Entitätsobjekt {#entity-object}
 
@@ -373,7 +373,7 @@ ht-degree: 93%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Beispiel: 333 Je nach Datenquellentabelle ist dies entweder Lead-ID oder Kontakt-ID</td>
+      <td>Zum Beispiel - 333, je nach der Datenquellentabelle ist dies entweder Lead-ID oder Kontakt-ID</td>
     </tr>
     <tr>
       <td></td>
@@ -887,6 +887,16 @@ ht-degree: 93%
   </tbody>
 </table>
 
+**Standardwährung**: In Marketo Measure werden alle Umsätze und Kosten zum Zeitpunkt der Berichterstellung in eine Standardwährung umgerechnet. Es muss einen Datensatz mit demselben Datum für die Zielwährung selbst (z. B. USD bis USD) mit einem Konversionskurs von 1 geben.
+
+**Konversionsraten**: Jedes Paar (Quellwährung, Zielwährung) kann mehrere Konversionsraten für verschiedene Datumszeiträume aufweisen. Die Beträge müssen die gesamte Zeitspanne von 0001-01-01 bis 9999-12-31 gemäß dem Salesforce DatedConversionRate -Objekt abdecken.
+
+**Datumsbereich**:
+* Es gibt keine überlappenden Datumsbereiche innerhalb eines (Quellwährung, Zielwährung) festgelegten Kurses (z. B. 2023-01-01 bis 2023-02-01 und 2023-01-01 bis 2024-01-01).
+* Keine Lücken zwischen Datumsbereichen. Das Startdatum ist inklusive und das Enddatum ist exklusiv.
+
+<p>
+
 ## ExperienceEvent {#experienceevent}
 
 <table style="table-layout:auto">
@@ -1105,7 +1115,7 @@ ht-degree: 93%
   </tbody>
 </table>
 
-Der Ereignistyp „Interessanter Moment“ wird für Ereignistypen verwendet, die in der obigen Tabelle nicht unterstützt werden. Fügen Sie ein benutzerdefiniertes Feld hinzu, um den Untertyp „Interessanter Moment“ anzugeben.
+Der Ereignistyp „Interessanter Moment“ wird für Ereignistypen verwendet, die in der obigen Tabelle nicht unterstützt werden. Fügen Sie ein benutzerdefiniertes Feld hinzu, um den Untertyp &quot;Interessanter Moment&quot;anzugeben.
 
 ## Abfragebeispiele für die Dateninspektion {#query-examples-for-data-inspection}
 

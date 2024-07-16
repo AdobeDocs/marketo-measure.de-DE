@@ -4,10 +4,10 @@ description: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren – M
 title: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 93%
 
 ---
 
@@ -32,6 +32,17 @@ Standardmäßig exportiert [!DNL Marketo Measure] jedes Mal 200 Einträge pro AP
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
 Beachten Sie bei der Änderung dieser Einstellung, dass kleinere Batch-Größen mehr API-Credits aus Ihrem CRM-System verbrauchen. Es wird empfohlen, die Batch-Größe nur zu reduzieren, wenn in Ihrem CRM-System CPU-Timeouts oder eine hohe CPU-Last auftreten.
+
+## Berechtigungen für verbundene Salesforce-Benutzer {#salesforce-connected-user-permissions}
+
+**Marketo Measure-Administratorberechtigungssatz für dedizierten Benutzer**: Ermöglicht dem SFDC-Administrator, CRUD-Vorgänge für Marketo Measure-Objekte durchzuführen.
+
+**Berechtigungssatz für konvertierte Leads anzeigen und bearbeiten**: Dadurch kann Marketo Measure Leads dekorieren, nachdem sie in Kontakte konvertiert wurden.
+
+**Kontrollkästchen Marketing-Benutzer in Salesforce**: Ermöglicht Benutzern das Erstellen von Kampagnen und die Verwendung der Assistenten zum Importieren von Kampagnen.
+* Zusätzliche Berechtigungen für die Kampagne &quot;Erstellen&quot;sind erforderlich.
+
+**Marketo Measure Standard User**: Ermöglicht Benutzern das Lesen von Datensätzen aus Marketo Measure-Objekten.
 
 ## Salesforce Standard-Objekte und Zugriff {#salesforce-standard-objects-and-access}
 
@@ -1304,3 +1315,7 @@ Der Buyer Attribution Touchpoint ist ein benutzerdefiniertes [!DNL Marketo Measu
   </tr> 
  </tbody> 
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Überblick über Integrationsberechtigungen](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}
