@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874523
 description: "[!DNL Marketo Measure] Dynamics-Schema - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Dynamics Schema"
+title: "[!DNL Marketo Measure] Dynamics-Schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber trotzdem &quot;Bizible&quot;in Ihrem CRM. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
+>Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
 
-Nachfolgend finden Sie das erforderliche Dynamics-Schema für die ersten Schritte mit [!DNL Marketo Measure]. Alle Entitäten und Felder werden zusammen mit dem erforderlichen Lese- und/oder Schreibzugriff aufgelistet.
+Nachstehend finden Sie das erforderliche Dynamics-Schema für die ersten Schritte mit [!DNL Marketo Measure]. Alle Entitäten und Felder werden zusammen mit dem erforderlichen Lese- und/oder Schreibzugriff aufgelistet.
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 
-Der Touchpoint des Käufers ist ein [!DNL Marketo Measure] benutzerdefinierte Entität, um die Marketing-Interaktionen für Kontakte und Leads einzuschließen.
+Die Buyer Touchpoint ist eine benutzerdefinierte Entität vom Typ &quot;[!DNL Marketo Measure]&quot;, die die Marketing-Interaktionen für Kontakte und Leads einkapselt.
 
-## Touchpoint-Beziehungen des Käufers {#buyer-touchpoint-relationships}
+## Buyer Touchpoint-Beziehungen {#buyer-touchpoint-relationships}
 
-Dieses Diagramm stellt eine allgemeine Visualisierung der Beziehungen zwischen den Dynamics Stock-Entitäten und dem Käufer-Touchpoint dar.
+Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den Dynamics Stock-Entitäten und der Buyer Touchpoint.
 
 ## Buyer Touchpoint {#buyer-touchpoint}
 
@@ -200,7 +200,7 @@ Dieses Diagramm stellt eine allgemeine Visualisierung der Beziehungen zwischen d
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_medium</p></td> 
+   <td><p>bizible2_Medium</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -306,11 +306,11 @@ Dieses Diagramm stellt eine allgemeine Visualisierung der Beziehungen zwischen d
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-Der Touchpoint der Käuferzuordnung ist ein [!DNL Marketo Measure] benutzerspezifische Entität verwenden, um den Einfluss des Marketing auf Chancen einzuschließen.
+Die Buyer Attribution Touchpoint ist eine benutzerdefinierte Entität vom Typ [!DNL Marketo Measure] , um den Einfluss des Marketing auf Chancen einzuschließen.
 
-## Touchpoint-Beziehungen der Käuferzuordnung {#buyer-attribution-touchpoint-relationships}
+## Buyer Attribution Touchpoint-Beziehungen {#buyer-attribution-touchpoint-relationships}
 
-Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den Dynamics Stock-Entitäten und dem Touchpoint der Käuferzuordnung.
+Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den Dynamics Stock-Entitäten und der Buyer Attribution Touchpoint.
 
 ## Buyer Attribution Touchpoints {#buyer-attribution-touchpoints}
 
@@ -539,7 +539,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_medium</p></td> 
+   <td><p>bizible2_Medium</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -867,7 +867,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] Geschichte {#marketo-measure-history}
+## [!DNL Marketo Measure] Verlauf {#marketo-measure-history}
 
 <table> 
  <tbody> 
@@ -912,7 +912,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
 
 ## Dynamics Standard-Entitäten {#dynamics-standard-entities}
 
-Diese Liste enthält die Dynamics Standard-Entitäten, die [!DNL Marketo Measure] interagiert mit und den benutzerdefinierten Feldern, die wir diesen Entitäten hinzufügen.
+Diese Liste enthält die Dynamics Standard-Entitäten, mit denen [!DNL Marketo Measure] interagiert, sowie die benutzerdefinierten Felder, die wir diesen Entitäten hinzufügen.
 
 **Lead**
 
@@ -1249,7 +1249,7 @@ Diese Liste enthält die Dynamics Standard-Entitäten, die [!DNL Marketo Measure
  </tbody> 
 </table>
 
-**Antwort der Kampagne**
+**Kampagnenantwort**
 
 <table> 
  <tbody> 
@@ -1346,7 +1346,7 @@ Diese Liste enthält die Dynamics Standard-Entitäten, die [!DNL Marketo Measure
  </tbody> 
 </table>
 
-**Liste**
+**list**
 
 <table> 
  <tbody> 
@@ -1438,7 +1438,7 @@ Diese Liste enthält die Dynamics Standard-Entitäten, die [!DNL Marketo Measure
  </tbody> 
 </table>
 
-**Telefonanruf**
+**Telefonaufruf**
 
 <table> 
  <tbody> 

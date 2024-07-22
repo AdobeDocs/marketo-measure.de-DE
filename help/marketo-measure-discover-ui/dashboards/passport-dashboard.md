@@ -1,5 +1,5 @@
 ---
-description: Passport-Dashboard - [!DNL Marketo Measure] - Produkt
+description: Passport-Dashboard - [!DNL Marketo Measure]  - Produkt
 title: Passport-Dashboard
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
@@ -18,7 +18,7 @@ Das Passport-Dashboard bietet Marketing-Experten eine dynamische Ansicht von Lea
 
 * Wie viele Leads, Kontakte oder Möglichkeiten gab es an einem beliebigen Tag in jeder Phase ohne Terminalfenster?
 * Wie viele verschiedene Leads oder Kontakte sind während eines bestimmten Zeitraums durch die einzelnen Phasen der Transition fortgeschritten?
-   * _Beispiel_: Wäre Lead A am 1.1.2023 in Phase 1 gewesen und bis zum 31.3.2023 auf Stufe 5 erweitert worden, würde die Passport-Analyse Q1 2023 Lead A in den Stufen 1 bis 5 zählen.
+   * _Beispiel_: Wenn sich Lead A am 1.1.2023 in Stufe 1 befand und bis zum 31.3.2023 auf Stufe 5 erweitert wurde, würde die Passport-Analyse Q1 2023 Lead A in den Stufen 1 bis 5 zählen.
 * Wie viele einmalige Gelegenheiten haben während eines bestimmten Zeitraums durch die einzelnen Übergangsphasen hinweg gegeben?
 
 ## Dashboard-Komponenten {#dashboard-components}
@@ -54,4 +54,4 @@ Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 >[!MORELIKETHIS]
 >
 >* [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [Dashboard-Richtlinie zur Datenanzeige](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [Dashboard-Richtlinie zur Sichtbarkeit der Daten](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}

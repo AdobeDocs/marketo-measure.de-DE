@@ -13,15 +13,15 @@ ht-degree: 5%
 
 # Ausblenden unnötiger Berichtstypen {#hiding-unnecessary-report-types}
 
-Nachdem Sie die Installation abgeschlossen und mit der Verwendung von Berichten begonnen haben, wird nicht bei jedem Bericht die [!DNL Marketo Measure] -Paket, das im Lieferumfang enthalten ist, wird von Ihrer Organisation verwendet. Daher ist es hilfreich, die Berichtstypen auszublenden, die Sie nicht verwenden, um Verwirrung zu vermeiden und ein saubereres Erscheinungsbild zu ermöglichen. Sie können alle Berichte ausblenden, die Sie möchten. Die im folgenden Bild identifizierten Berichte sind jedoch in der Regel ausgeblendet.
+Nachdem Sie Ihre Installation abgeschlossen und mit der Verwendung von Berichten begonnen haben, wird nicht jeder Bericht, in dem das im Lieferumfang enthaltene [!DNL Marketo Measure] -Paket enthalten ist, von Ihrer Organisation verwendet. Daher ist es hilfreich, die Berichtstypen auszublenden, die Sie nicht verwenden, um Verwirrung zu vermeiden und ein saubereres Erscheinungsbild zu ermöglichen. Sie können alle Berichte ausblenden, die Sie möchten. Die im folgenden Bild identifizierten Berichte sind jedoch in der Regel ausgeblendet.
 
-1. Navigieren Sie zum **[!UICONTROL Berichte]** Registerkarte.
+1. Navigieren Sie zur Registerkarte **[!UICONTROL Berichte]** .
 
-1. Klicken Sie auf **[!UICONTROL Neuen Bericht erstellen]** -Schaltfläche am oberen Rand des Bildschirms.
+1. Klicken Sie oben im Bildschirm auf die Schaltfläche **[!UICONTROL Neuen Bericht erstellen]** .
 
 1. Geben Sie das Wort &quot;Touchpoint&quot;ein, um die Berichte zu füllen.
 
-1. Wählen Sie die **[!UICONTROL Berichtstypen zum Ausblenden auswählen]** oben links.
+1. Aktivieren Sie oben links das Kontrollkästchen **[!UICONTROL Berichtstypen zum Ausblenden auswählen]** .
 
 1. Klicken Sie auf die Berichte, die unten mit dem orangefarbenen X markiert sind, damit Ihre Berichtsliste dem unten stehenden Bild entspricht.
 

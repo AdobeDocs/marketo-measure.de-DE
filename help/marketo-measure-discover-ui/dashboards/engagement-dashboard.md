@@ -1,5 +1,5 @@
 ---
-description: Interaktions-Dashboard - [!DNL Marketo Measure] - Produkt
+description: Interaktions-Dashboard - [!DNL Marketo Measure]  - Produkt
 title: Interaktions-Dashboard
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Im Interaktionsdashboard werden Benutzerinteraktionsmetriken sorgfältig verfolgt. Es zeigt Touchpoints, die Anzahl der beteiligten Personen und die durchschnittlichen Touchpoints pro Person. Verwenden Sie das Balkendiagramm der Zeitreihen für eine monatliche, vierteljährliche oder jährliche Ansicht sowie das Balkendiagramm für detaillierte Einblicke in Kanal, Subkanal und Kampagne. Dieses Tool ist für das Verständnis der Interaktionsmuster und die Feinabstimmung Ihrer Interaktionsstrategien von wesentlicher Bedeutung.
 
-Wir verfolgen jede Kundeninteraktion als Benutzer-Touchpoints (UTs), die &quot;rohen&quot;erfassten Datenpunkte, die als Grundlage für Interaktionsmetriken in unserem Dashboard dienen. Nicht alle UTs entwickeln sich zu Käufer-Touchpoints (BTs) oder Buyer Attribution Touchpoints (BATs), da diese ausgewählte Ergebnisse sind, um bestimmte Kundeninteraktionen umsatzbezogenen Aktivitäten zuzuordnen. Beachten Sie, dass Unterdrückungsregeln keine Auswirkungen auf UTs oder das Interaktions-Dashboard haben.
+Wir verfolgen jede Kundeninteraktion als Benutzer-Touchpoints (UTs), die &quot;rohen&quot;erfassten Datenpunkte, die als Grundlage für Interaktionsmetriken in unserem Dashboard dienen. Nicht alle UTs entwickeln sich zu Käufer-Touchpoints (BT) oder Buyer Attribution-Touchpoints (BAT), da es sich hierbei um ausgewählte Ergebnisse für die Zuordnung bestimmter Kundeninteraktionen zu umsatzbezogenen Aktivitäten handelt. Beachten Sie, dass Unterdrückungsregeln keine Auswirkungen auf UTs oder das Interaktions-Dashboard haben.
 
-* **Touchpoints des Benutzers**: Touchpoints, die aus allen Interaktionen erstellt wurden.
-* **Touchpoints des Käufers**: Für die Zuordnung von Lead und Kontakt ausgewählte Touchpoints. BTs sind nicht mit Chancen verknüpft und haben keine zugehörigen Einnahmen.
-* **Touchpoints der Käuferzuordnung**: Für die Opportunity-Attribution ausgewählte Touchpoints. BVT haben Auswirkungen auf die Einnahmen, da sie mit Chancen verbunden sind.
+* **Benutzer-Touchpoints**: Touchpoints, die aus allen Interaktionen erstellt wurden.
+* **Touchpoints des Käufers**: Touchpoints, die für die Attribution &quot;Lead&quot;und &quot;Kontakt&quot;ausgewählt wurden. BT sind nicht mit Chancen verknüpft und haben keine zugehörigen Einnahmen.
+* **Touchpoints der Käuferzuordnung**: Touchpoints, die für die Opportunity-Attribution ausgewählt wurden. BAT haben Auswirkungen auf den Umsatz, da sie mit Chancen verbunden sind.
 
-Die Verwendung von BTs oder BATs zur Messung der Interaktion würde das wahre Ausmaß der Kundeninteraktionen unterstreichen, da die Interaktion über die bloße Attribution hinausgeht.
+Die Verwendung von nur BT oder BAT zur Messung der Interaktion würde das wahre Ausmaß der Kundeninteraktionen unterstreichen, da die Interaktion über die bloße Attribution hinausgeht.
 
 Fragen zu den Antworten des Dashboards:
 
@@ -37,7 +37,7 @@ Fragen zu den Antworten des Dashboards:
 ### KPI-Kacheln {#kpi-tiles}
 
 * Touchpoints: Die Gesamtzahl der generierten rohen Touchpoints.
-   * Touchpoints der Käuferzuordnung und Touchpoints der Käuferzuordnung sind Attributionsergebnisse, die durch Auswahl bestimmter Touchpoints für Gutschriften erstellt werden. Nicht alle Touchpoints werden als BTs und BATs ausgewählt.
+   * Touchpoints der Käuferzuordnung und Touchpoints der Käuferzuordnung sind Attributionsergebnisse, die durch Auswahl bestimmter Touchpoints für Gutschriften erstellt werden. Nicht alle Touchpoints sind als BT und BAT ausgewählt.
 * Touchpoints für Personen: Die Gesamtzahl der Personen mit Touchpoints.
 * Touchpoints pro Person: Durchschnittliche Anzahl der Touchpoints pro Person, die berührt wurden.
 

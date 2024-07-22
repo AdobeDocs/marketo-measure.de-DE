@@ -13,23 +13,23 @@ ht-degree: 0%
 
 # Kosten für CRM-Kampagnen {#crm-campaign-costs}
 
-Am meisten [!DNL Marketo Measure] -Kunden verwenden CRM-Kampagnen zur Verfolgung von Offline-Marketingaktivitäten. Marketer, die diese Kampagnen verwenden, überwachen auch die Kosten im CRM. Diese Funktion erleichtert Marketingexperten die Arbeit, indem sie [!DNL Marketo Measure] , um diese Kosten zu lesen und sie auf die gemeldeten Marketing-Ausgaben in [!DNL Marketo Measure]. Bisher mussten die Kunden die Kosten für jede Kampagne pro Monat manuell eingeben, jedoch mit den erforderlichen Informationen für[!DNL Marketo Measure]können Benutzer diesen Prozess automatisieren, sodass Marketing-Experten mehr Zeit für die Analyse ihrer Ausgaben und ihres ROI verbringen können.
+Die meisten [!DNL Marketo Measure] -Kunden verwenden CRM-Kampagnen, um Offline-Marketingaktivitäten zu verfolgen. Marketer, die diese Kampagnen verwenden, überwachen auch die Kosten im CRM. Diese Funktion erleichtert Marketingexperten die Lektüre dieser Kosten durch [!DNL Marketo Measure] und ihre Anwendung auf die gemeldeten Marketing-Ausgaben innerhalb von [!DNL Marketo Measure]. Bisher mussten Kunden die Kosten für jede Kampagne pro Monat manuell eingeben. Mit den erforderlichen Informationen an[!DNL Marketo Measure] können Benutzer diesen Prozess jedoch automatisieren, sodass Marketing-Experten mehr Zeit mit der Analyse ihrer Ausgaben und des ROI verbringen können.
 
 ## Verfügbarkeit {#availability}
 
-Diese Funktion ist für alle [!DNL Salesforce] und Dynamics-Kunden.
+Diese Funktion ist für alle Kunden von [!DNL Salesforce] und Dynamics verfügbar.
 
 ## Funktionsweise {#how-it-works}
 
-[!DNL Marketo Measure] sucht zunächst nach Kampagnen, die für Touchpoints &quot;aktiviert&quot;wurden. Es wurde also entweder eine passende Kampagnensynchronisierungsregel erstellt oder der Wert &quot;Käufer-Touchpoints aktivieren&quot;lautet &quot;Alle Kampagnenmitglieder einschließen&quot;oder &quot;Respondierte Kampagnenmitglieder einschließen&quot;. Darüber hinaus [!DNL Marketo Measure] muss die richtigen Werte importieren und wissen, wie die Kosten verteilt werden, sodass die folgenden Felder einen Wert enthalten müssen:
+[!DNL Marketo Measure] sucht zunächst nach Kampagnen, die für Touchpoints &quot;aktiviert&quot;wurden. Es wurde also entweder eine passende Kampagnensynchronisierungsregel erstellt oder der Wert &quot;Touchpoints des Käufers aktivieren&quot;lautet &quot;Alle Kampagnenmitglieder einschließen&quot;oder &quot;Respondierte Kampagnenmitglieder einschließen&quot;. Außerdem muss [!DNL Marketo Measure] die richtigen Werte importieren und wissen, wie die Kosten verteilt werden. Daher müssen die folgenden Felder einen Wert enthalten:
 
 **[!DNL Salesforce]**: `ActualCost`, `StartDate`, `EndDate`
 
 **[!DNL Microsoft Dynamics]**: `totalactualcost`, `actualstart`, `actualend`
 
-Wenn in einem der 3 Felder ein Wert fehlt, [!DNL Marketo Measure] nicht die Kosten importieren. Korrigieren Sie dies, indem Sie den Campaign-Datensatz im CRM aktualisieren. Kosten werden nicht importiert, wenn sie auf 0 USD gesetzt sind, weil [!DNL Salesforce] behandelt leer und $0 gleich.
+Wenn in einem der drei Felder ein Wert fehlt, importiert [!DNL Marketo Measure] die Kosten nicht. Korrigieren Sie dies, indem Sie den Campaign-Datensatz im CRM aktualisieren. Kosten werden nicht importiert, wenn sie auf 0 USD gesetzt sind, da [!DNL Salesforce] leer und 0 USD gleich behandelt.
 
-Für [!DNL Marketo Measure] Um die monatliche Verteilung einer Kampagne zu bestimmen, wird das Start- und Enddatum der Kampagne verwendet, um den Betrag gleichmäßig pro Tag zu verteilen.
+Damit [!DNL Marketo Measure] die Verteilung einer Kampagne über Monate bestimmt, wird das Start- und Enddatum der Kampagne verwendet, um den Betrag gleichmäßig pro Tag zu verteilen.
 
 ![](assets/1.jpg)
 
@@ -53,7 +53,7 @@ Wenn Sie es vorziehen möchten, die Kosten der CRM-Kampagne von jetzt an zu ber�
 
 ## Kampagnen ohne Touchpoints {#campaigns-with-no-touchpoints}
 
-Viele Marketing-Experten melden Marketingausgaben für CRM-Kampagnen, die keine Touchpoints generiert haben oder über keine Campaign-Mitglieder verfügen, um Ausgaben verfolgen zu können. Solange die drei Felder ausgefüllt sind (Startdatum, Enddatum, Kosten) und die Kampagne für Touchpoints aktiviert ist, [!DNL Marketo Measure] Ruft die Kosten ab, selbst wenn keine Touchpoints damit verbunden sind.
+Viele Marketing-Experten melden Marketingausgaben für CRM-Kampagnen, die keine Touchpoints generiert haben oder über keine Campaign-Mitglieder verfügen, um Ausgaben verfolgen zu können. Solange die drei Felder ausgefüllt sind (Startdatum, Enddatum, Kosten) und die Kampagne für Touchpoints aktiviert ist, ruft [!DNL Marketo Measure] diese Kosten ab, selbst wenn keine Touchpoints damit verknüpft sind.
 
 Dies könnte hilfreich sein, um Ausgaben für überschüssige Marketing-Kosten oder Tools zu verfolgen, die diese in Ihre ROI-Berechnungen einfließen lassen.
 
@@ -73,9 +73,9 @@ Nachdem eine Kampagne aus dem CRM importiert wurde, wird sie ähnlich wie ein AP
 
 3-4 Stunden
 
-**Ich habe das Start- und Enddatum sowie die Kosten ausgefüllt, aber warum werden meine Kosten immer noch nicht angezeigt? [!DNL Marketo Measure]?**
+**Ich habe das Start- und Enddatum sowie die Kosten ausgefüllt, aber warum werden meine Kosten immer noch nicht in [!DNL Marketo Measure] angezeigt?**
 
-Vergewissern Sie sich, dass entweder der Wert &quot;Käufer-Touchpoint aktivieren&quot;auf &quot;Alle Campaign-Mitglieder einschließen&quot;oder zumindest auf &quot;Respondierte Kampagnenmitglieder einschließen&quot;gesetzt ist oder dass Sie eine benutzerdefinierte Kampagnensynchronisierungsregel erstellt haben, die diese Kampagne enthält. Wenn Sie dies bestätigt haben und die Kampagne trotzdem nicht sehen, wenden Sie sich an [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} damit wir überprüfen können, ob Ihre Kampagnen ordnungsgemäß importiert werden.
+Vergewissern Sie sich, dass entweder der Wert &quot;Buyer Touchpoint aktivieren&quot;auf &quot;Alle Campaign-Mitglieder einschließen&quot;oder zumindest &quot;Respondierte Kampagnenmitglieder einschließen&quot;gesetzt ist oder dass Sie eine benutzerdefinierte Kampagnensynchronisierungsregel erstellt haben, die diese Kampagne enthält. Wenn Sie dies bestätigt haben und die Kampagne immer noch nicht sehen, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} , damit wir überprüfen können, ob Ihre Kampagnen ordnungsgemäß importiert werden.
 
 **Ich muss die Verteilung meiner Kampagne ändern, damit ich sie in bestimmten Monaten schwerer wiegen kann. Wie mache ich das?**
 
@@ -87,16 +87,16 @@ Tatsächlich wird die Art und Weise, wie Kosten einbezogen werden, direkt von ei
 
 **Wie ändere ich die Kosten für einen Monat in [!DNL Marketo Measure]?**
 
-Da wir uns auf das CRM als einzige &quot;Source of Truth&quot; verlassen, müssen alle Änderungen im CRM vorgenommen werden. Nachdem die Kampagne importiert wurde von [!DNL Marketo Measure], sind die Kampagnenwerte in [!DNL Marketo Measure] oder in der CSV-Datei.
+Da wir uns auf das CRM als einzige &quot;Source of Truth&quot; verlassen, müssen alle Änderungen im CRM vorgenommen werden. Sobald die Kampagne von [!DNL Marketo Measure] importiert wurde, können die Kampagnenwerte nicht mehr in [!DNL Marketo Measure] oder der CSV-Datei bearbeitet werden.
 
-**In welchem Szenario würde eine Kampagne in der Tabelle Marketing-Ausgaben angezeigt und dann nicht mehr angezeigt?**
+**In welchem Szenario würde eine Kampagne in der Tabelle der Marketing-Ausgaben angezeigt und dann nicht mehr angezeigt?**
 
-Es ist weiterhin erforderlich, dass alle drei Schlüsselfelder einen Wert aufweisen: Startdatum, Enddatum und Kosten. Unser Standardverhalten ist, dass wir nur Kampagnen mit einem Wert von mehr als 0 USD importieren. Im Idealfall würden wir Kampagnen importieren, bei denen explizit 0 USD vorhanden ist, und nicht leere Kampagnen importieren. Die Salesforce-API importiert sie jedoch unabhängig vom Wert als 0 USD. Wenn sich der Wert &quot;Käufer-Touchpoint aktivieren&quot;von &quot;Alle einschließen&quot;oder &quot;Antwort einschließen&quot;in &quot;Alle ausschließen&quot;ändert, werden die Kampagne und die Kosten aus der Tabelle Marketing-Ausgaben entfernt.
+Es ist weiterhin erforderlich, dass alle drei Schlüsselfelder einen Wert aufweisen: Startdatum, Enddatum und Kosten. Unser Standardverhalten ist, dass wir nur Kampagnen mit einem Wert von mehr als 0 USD importieren. Im Idealfall würden wir Kampagnen importieren, bei denen explizit 0 USD vorhanden ist, und nicht leere Kampagnen importieren. Die Salesforce-API importiert sie jedoch unabhängig vom Wert als 0 USD. Wenn sich der Wert &quot;Buyer Touchpoint aktivieren&quot;von &quot;Alle einschließen&quot;oder &quot;Antwort einschließen&quot;in &quot;Alle ausschließen&quot;ändert, werden die Kampagne und die Kosten aus der Tabelle Marketingausgaben entfernt.
 
-**Welche Kosten wären vorrangig, wenn eine Zeile bereits aus dem CRM-System heruntergeladen wurde und ich eine andere Zeile in die CSV-Datei mit derselben Kampagnen-ID eingegeben habe?**
+**Welche Kosten würden Vorrang haben, wenn eine Zeile bereits aus dem CRM heruntergeladen wurde und ich eine andere Zeile in die CSV-Datei mit derselben Kampagnen-ID eingegeben habe?**
 
-Obwohl Sie die Datei möglicherweise erfolgreich hochladen können, [!DNL Marketo Measure] verwendet diese Zeile nicht, da wir bereits über eine Kampagnen-ID mit demselben Wert verfügen, der automatisch aus der Integration abgerufen wurde.
+Obwohl Sie die Datei möglicherweise erfolgreich hochladen können, verwendet [!DNL Marketo Measure] diese Zeile nicht, da wir bereits über eine Kampagnen-ID mit demselben Wert verfügen, der automatisch aus der Integration abgerufen wurde.
 
 **Wie würden Sie vorschlagen, dass wir Kosten aus unseren im CRM-System eingerichteten digitalen Kampagnen übernehmen?**
 
-weil unsere [!DNL Marketo Measure] JavaScript verfolgt bereits Web-Aktivitäten von Ihrer Site aus. Wir empfehlen, keine Kampagnen zu synchronisieren, die Campaign-Mitglieder über Webformulare oder andere Site-Aktivitäten verfolgen, da dies die Touches verdoppeln wird. Daher können Sie die Option CSV-Upload in Marketing Spend weiterhin verwenden, um diese Online-/Digitalkosten zu verfolgen, wenn wir noch nicht mit dieser Plattform integriert sind (d. h. Twitter, Adroll).
+Da unser JavaScript [!DNL Marketo Measure] bereits die Webaktivität von Ihrer Site verfolgt, empfehlen wir, keine Kampagnen zu synchronisieren, die Campaign-Mitglieder aus Webformularen oder anderen Site-Aktivitäten verfolgen, da dies die Touches verdoppeln wird. Daher können Sie die Option CSV-Upload in Marketing Spend weiterhin verwenden, um diese Online-/Digitalkosten zu verfolgen, wenn wir noch nicht mit dieser Plattform integriert sind (d. h. Twitter, Adroll).

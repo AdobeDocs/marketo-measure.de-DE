@@ -17,15 +17,15 @@ ht-degree: 3%
 >
 >Die Boomerang-Funktion ist nur für Tier-2- und -3-Kunden aktiviert. Wenden Sie sich an das Adobe Account Team (Ihren Kundenbetreuer), um eine höhere Kontoebene anzufordern.
 
-Aktivieren [!UICONTROL Boomerang] Staging für Ihr Konto, müssen Sie ein Kontoadministrator sein. Sie kann auch aktiviert werden, indem Sie [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Nachdem die Funktion aktiviert wurde, befolgen Sie diese Anweisungen, um sie einzurichten.
+Um [!UICONTROL Boomerang]-Phasen für Ihr Konto zu aktivieren, müssen Sie Kontoadministrator sein. Sie können sie auch aktivieren, indem Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} wenden. Nachdem die Funktion aktiviert wurde, befolgen Sie diese Anweisungen, um sie einzurichten.
 
 ## Einrichten der Boomerang-Phase {#boomerang-stage-setup}
 
-1. Navigieren Sie zu [!UICONTROL Staging-Zuordnung]. In der Spalte mit dem Titel[!UICONTROL Boomerang],&quot; wählen Sie die Kästchen neben den Bühnen aus, die Sie verfolgen möchten.
+1. Wechseln Sie zu [!UICONTROL Staging-Zuordnung]. Wählen Sie unter der Spalte &quot;[!UICONTROL Boomerang]&quot;die Kästchen neben den Bühnen aus, die Sie verfolgen möchten.
 
    ![](assets/1-2.png)
 
-1. Navigieren Sie zu [!UICONTROL Attributionseinstellungen] und geben Sie die Anzahl der Touchpoints für jede Phase ein, die Sie sehen möchten. Wir erlauben maximal 10. Der Standardwert ist 1.
+1. Geben Sie auf der Registerkarte [!UICONTROL Attributionseinstellungen] die Anzahl der Touchpoints für jede Phase ein, die Sie sehen möchten. Wir erlauben maximal 10. Der Standardwert ist 1.
 
    ![](assets/2-2.png)
 
@@ -37,15 +37,15 @@ Aktivieren [!UICONTROL Boomerang] Staging für Ihr Konto, müssen Sie ein Kontoa
 
 ## Bumerang-Staging-Einrichtung mit benutzerdefinierter Modellzuordnung {#boomerang-stage-setup-with-custom-model-attribution}
 
-1. Navigieren Sie zu [!UICONTROL Staging-Zuordnung]. In der Spalte mit dem Titel[!UICONTROL Boomerang],&quot; wählen Sie die Kästchen neben den Bühnen aus, die Sie verfolgen möchten.
+1. Wechseln Sie zu [!UICONTROL Staging-Zuordnung]. Wählen Sie unter der Spalte &quot;[!UICONTROL Boomerang]&quot;die Kästchen neben den Bühnen aus, die Sie verfolgen möchten.
 
    ![](assets/3-1.png)
 
-1. Wenn Sie auch möchten, dass diese Bumerang-Bühnen in Ihr benutzerdefiniertes Modell aufgenommen werden und eine Attribution erhalten, wählen Sie auch das Feld unter dem[!UICONTROL Benutzerdefiniertes Modell]&quot;.
+1. Wenn Sie möchten, dass diese Bumerang-Bühnen auch in Ihr benutzerdefiniertes Modell aufgenommen werden und eine Zuordnungsgutschrift erhalten, wählen Sie auch das Feld in der Spalte &quot;[!UICONTROL Benutzerdefiniertes Modell]&quot;.
 
    ![](assets/4-1.png)
 
-1. Navigieren Sie zu [!UICONTROL Attributionseinstellungen] Registerkarte. Bestimmen Sie, wie Sie die Attribution für Ihre Bumerang-Bühnen gewichten möchten. Die Optionen bestehen darin, die Attribution für das erste Vorkommen oder das letzte Vorkommen zu gewichten oder sie gleichmäßig auf alle Vorkommen aufzuteilen.
+1. Gehen Sie zur Registerkarte [!UICONTROL Attributionseinstellungen] . Bestimmen Sie, wie Sie die Attribution für Ihre Bumerang-Bühnen gewichten möchten. Die Optionen bestehen darin, die Attribution für das erste Vorkommen oder das letzte Vorkommen zu gewichten oder sie gleichmäßig auf alle Vorkommen aufzuteilen.
 
    ![](assets/5-1.png)
 
@@ -53,7 +53,7 @@ Aktivieren [!UICONTROL Boomerang] Staging für Ihr Konto, müssen Sie ein Kontoa
 
    ![](assets/6-1.png)
 
-1. Legen Sie den Attributionsprozentsatz fest, den Sie den im benutzerdefinierten Modell enthaltenen Boomerang-Phasen zuweisen möchten. Stellen Sie sicher, dass die Gesamtzuordnung für alle Phasen 100 % ergibt. Klicks **[!UICONTROL Speichern und verarbeiten]**.
+1. Legen Sie den Attributionsprozentsatz fest, den Sie den im benutzerdefinierten Modell enthaltenen Boomerang-Phasen zuweisen möchten. Stellen Sie sicher, dass die Gesamtzuordnung für alle Phasen 100 % ergibt. Klicken Sie auf **[!UICONTROL Speichern und verarbeiten]**.
 
    ![](assets/7-1.png)
 

@@ -16,7 +16,7 @@ Das Dashboard &quot;Zugewiesener Umsatz&quot;bietet eine fokussierte Sicht auf d
 
 >[!NOTE]
 >
->Dieses Dashboard befindet sich in der Beta-Phase. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, nachdem wir die optimale Funktionalität vollständig überarbeitet und sichergestellt haben.
+>Dieses Dashboard befindet sich in Beta. Während dieser Übergangsphase werden sowohl die aktuellen als auch die neuen Dashboards verfügbar sein. Das aktuelle Dashboard wird nicht mehr unterstützt, nachdem wir die optimale Funktionalität vollständig überarbeitet und sichergestellt haben.
 
 **Fragen, die die Pinnwand beantwortet**:
 
@@ -27,8 +27,8 @@ Das Dashboard &quot;Zugewiesener Umsatz&quot;bietet eine fokussierte Sicht auf d
 
 ### KPI-Kacheln {#kpi-tiles}
 
-* **Zugewiesener Umsatz**: Der Gesamtumsatzbeitrag aus Chancen mit Touchpoints, basierend auf dem ausgewählten Attributionsmodell.
-* **Zugewiesene Angebote**: Die Anzahl der &quot;geschlossenen Gewinner&quot;-Chancen mit Touchpoints.
+* **Zugewiesener Umsatz**: Der gesamte Umsatzbeitrag, basierend auf dem ausgewählten Attributionsmodell, aus Chancen mit Touchpoints.
+* **Zugewiesene Angebote**: Die Anzahl der &quot;geschlossenen Gewinnen&quot;-Chancen mit Touchpoints.
 
 ### Zugewiesener Umsatz nach Kanal im Zeitdiagramm {#attributed-revenue-by-channel-over-time-chart}
 
@@ -37,7 +37,7 @@ Gestapeltes Balkendiagramm mit dem nach Kanal segmentierten Gesamtumsatz für je
 * Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
 * Bewegen Sie den Mauszeiger über ein Balkensegment oder den Abstand zwischen Balken, um detaillierte Informationen anzuzeigen.
 
-**Fragen zu den Grafikantworten**:
+**Fragen Sie die Diagrammantworten**:
 
 * Welche Kanäle generierten den am häufigsten zugeordneten Umsatz pro Quartal?
 * Wie hoch war die Aufteilung des zugeordneten Umsatzes nach Kanal im letzten Monat?
@@ -80,5 +80,5 @@ Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 >[!MORELIKETHIS]
 >
 >* [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [Dashboard-Richtlinie zur Datenanzeige](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [Dashboard-Richtlinie zur Sichtbarkeit der Daten](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

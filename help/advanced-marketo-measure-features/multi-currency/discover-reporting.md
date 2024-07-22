@@ -13,6 +13,6 @@ ht-degree: 8%
 
 # Reporting mit Discover {#discover-reporting}
 
-Within [!UICONTROL Benutzereinstellungen], können Benutzer die Währung von der Standardwährung in eine der aufgelisteten Unternehmenswährungen ändern. Dadurch ändert sich beispielsweise die Anzeige von Beträgen wie Kosten, Umsatz und Pipeline-Umsatz neben dem aus drei Buchstaben bestehenden Währungscode.
+In den [!UICONTROL Benutzereinstellungen] haben Benutzer die Möglichkeit, die Währung von der Standardwährung in eine beliebige der aufgelisteten Unternehmenswährungen zu ändern. Dadurch ändert sich beispielsweise die Anzeige von Beträgen wie Kosten, Umsatz und Pipeline-Umsatz neben dem aus drei Buchstaben bestehenden Währungscode.
 
 ![](assets/one.png)

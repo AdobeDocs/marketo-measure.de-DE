@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874720
-description: Auswirkungen der Angebotsmanagement-Tools [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: Wie sich Angebotsmanagement-Tools auf [!DNL Marketo Measure] - [!DNL Marketo Measure] auswirken
 title: Auswirkungen der Bid-Management-Tools auf [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
@@ -11,19 +11,19 @@ ht-degree: 1%
 
 ---
 
-# Auswirkungen der Angebotsmanagement-Tools [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
+# Wie sich Angebotsmanagement-Tools auf [!DNL Marketo Measure] auswirken {#how-bid-management-tools-affect-marketo-measure}
 
-Erfahren Sie, wie sich Angebotsverwaltungsplattformen auf die [!DNL Marketo Measure] Möglichkeit zur Verfolgung von AdWords und BingAds sowie zur Einrichtung von Tracking-Vorlagen mit unseren Parametern, um sicherzustellen, dass alles korrekt verfolgt wird.
+Erfahren Sie, wie sich Angebotsverwaltungsplattformen auf die [!DNL Marketo Measure]-Fähigkeit auswirken, AdWords und BingAds zu verfolgen, und wie Sie Tracking-Vorlagen mit unseren Parametern einrichten, um sicherzustellen, dass alles korrekt verfolgt wird.
 
-Kenshoo und Marin sind großartige Tools, mit denen Marketing-Experten ihre Werbekampagnen mit verschiedenen Suchmaschinen verfolgen, verwalten und optimieren können. Zur [!DNL Marketo Measure] Parameter, die an diese Anzeigen-URLs angehängt werden sollen, müssen Sie mit unserer [!DNL Marketo Measure] Parameter. Ihre Anzeigenplattformen können nicht mit Ihren [!DNL Marketo Measure] Konto erstellen und automatisches Tagging aktivieren, da dies die [!DNL Marketo Measure] Tagging-System, um mit dem Tagging-System von Kenshoo/Marin zu konkurrieren. Dies führt dazu, dass unsere Parameter geändert und falsch angehängt werden. Um dies zu umgehen, verfolgen Sie Vorlagen mit [!DNL Marketo Measure] -Parameter in Kenshoo und Marin eingerichtet werden.
+Kenshoo und Marin sind großartige Tools, mit denen Marketing-Experten ihre Werbekampagnen mit verschiedenen Suchmaschinen verfolgen, verwalten und optimieren können. Damit [!DNL Marketo Measure] -Parameter an diese Anzeigen-URLs angehängt werden können, müssen Sie eine Tracking-Vorlage mit unseren [!DNL Marketo Measure] -Parametern einrichten. Es ist nicht möglich, Ihre Anzeigenplattformen mit Ihrem [!DNL Marketo Measure] -Konto zu verbinden und das automatische Tagging zu aktivieren, da dadurch das [!DNL Marketo Measure] -Tagging-System mit dem Tagging-System von Kenshoo/Marin konkurriert. Dies führt dazu, dass unsere Parameter geändert und falsch angehängt werden. Um dies zu umgehen, müssen in Kenshoo und Marin Tracking-Vorlagen mit [!DNL Marketo Measure] -Parametern eingerichtet werden.
 
 ## Für [!DNL Adwords] Konten {#for-adwords-accounts}
 
 Richten Sie eine Tracking-Vorlage wie folgt ein:
 
-* Klicken Sie auf **[!UICONTROL Kampagnen]** Registerkarte.
-* Klicken Sie auf **[!UICONTROL Freigegebene Bibliothek]** in der Seitennavigationsleiste.
-* Klicks **URL-Optionen**.
+* Klicken Sie auf die Registerkarte **[!UICONTROL Kampagnen]** .
+* Klicken Sie in der Seitennavigationsleiste auf den Link **[!UICONTROL Freigegebene Bibliothek]** .
+* Klicken Sie auf **URL options**.
 * Klicken Sie neben &quot;Tracking-Vorlage&quot;auf **Bearbeiten**.
 * Füllen Sie die URL aus:
 
@@ -37,9 +37,9 @@ Richten Sie eine Tracking-Vorlage wie folgt ein:
 
 Richten Sie eine Tracking-Vorlage wie folgt ein:
 
-* Klicken Sie auf **[!UICONTROL Kampagnen]** Registerkarte.
-* Klicken Sie auf **[!UICONTROL Freigegebene Bibliothek]** in der Seitennavigationsleiste.
-* Klicks **URL-Optionen**.
+* Klicken Sie auf die Registerkarte **[!UICONTROL Kampagnen]** .
+* Klicken Sie in der Seitennavigationsleiste auf den Link **[!UICONTROL Freigegebene Bibliothek]** .
+* Klicken Sie auf **URL options**.
 * Klicken Sie neben &quot;Tracking-Vorlage&quot;auf **Bearbeiten**.
 * Füllen Sie die URL aus:
 

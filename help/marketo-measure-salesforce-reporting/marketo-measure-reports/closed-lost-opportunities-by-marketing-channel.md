@@ -15,15 +15,15 @@ ht-degree: 4%
 
 Obwohl dieser Bericht von Ihren Opportunity Stages abhängen kann, wird in diesem Bericht aufgezeigt, welche Marketing-Kanäle zu nicht geschlossenen Chancen beigetragen haben.
 
-1. Klicken Sie auf **[!UICONTROL Berichte]** Registerkarte in Salesforce und wählen Sie **[!UICONTROL Neuer Bericht]**.
+1. Klicken Sie in Salesforce auf die Registerkarte **[!UICONTROL Berichte]** und wählen Sie **[!UICONTROL Neuer Bericht]** aus.
 
    ![](assets/1-3.jpg)
 
-1. Suchen Sie im Schnellsuche-Feld &quot;Bizible Attribution&quot;und wählen Sie die **[!UICONTROL Bizible Attribution Touchpoint mit Chancen]** Berichtstyp und wählen Sie **[!UICONTROL Erstellen]**.
+1. Suchen Sie im Schnellsuch den Typ &quot;Bizible Attribution&quot;, wählen Sie den Berichtstyp **[!UICONTROL Bizible Attribution Touchpoint mit Opportunity]** und wählen Sie dann **[!UICONTROL Erstellen]** aus.
 
    ![](assets/2-3.jpg)
 
-1. Zeigen Sie oben im Bericht &quot;[!UICONTROL Alle Touchpoints der biziblen Attribution]und passen Sie das Datumsfeld an den Zeitrahmen an, über den Sie einen Bericht erstellen möchten. In unserem Beispiel betrachten wir &quot;All Time&quot;. Ändern Sie außerdem das Berichtsformat von &quot;Tabelle&quot;in &quot;Zusammenfassung&quot;.
+1. Zeigen Sie oben im Bericht &quot;[!UICONTROL Alle bizible Attribution-Touchpoints]&quot;an und passen Sie das Datumsfeld an den Zeitrahmen an, über den Sie Berichte erstellen möchten. In unserem Beispiel betrachten wir &quot;All Time&quot;. Ändern Sie außerdem das Berichtsformat von &quot;Tabelle&quot;in &quot;Zusammenfassung&quot;.
 
    ![](assets/3-3.jpg)
 

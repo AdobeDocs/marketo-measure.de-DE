@@ -1,5 +1,5 @@
 ---
-description: Neues Discover Dashboard-Handbuch - [!DNL Marketo Measure] - Produkt
+description: Neues Discover Dashboard-Handbuch - [!DNL Marketo Measure]  - Produkt
 title: Neues Handbuch zum Entdecken von Dashboards
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
@@ -26,31 +26,31 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     </tr>
     <tr>
       <td>Überblick</td>
-      <td><ul><li><strong>Umsatz</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+      <td><ul><li><strong>Umsatz</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li><strong>Übersicht</strong>:<ul>              <li>Dashboard "Zugewiesener Umsatz": Zuweisung des Umsatzes nach Kanal im Zeitdiagramm</li>
-            <li>ROI-Dashboard: Zeitverlaufsdiagramm</li></ul></li><li><strong>Ausgeben</strong>: ROI-Dashboard</li>
-          <li><strong>Angebote</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <li>ROI-Dashboard: Zeitverlaufsdiagramm</li></ul></li><li><strong>Spend</strong>: ROI-Dashboard</li>
+          <li><strong>Angebote</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Kosten pro Geschäft: </strong>ROI-Dashboard</li>
+            <strong>Kosten pro Deal: </strong>ROI-Dashboard</li>
           <li>
             <strong>Kanal/Subkanal/Kampagnenzusammenfassung:</strong>ROI-Dashboard</li>
           <li>
-            <strong>ROI- und ROI-Zusammenfassung:</strong>ROI-Dashboard</li>
+            <strong>ROI- UND ROI-Zusammenfassung:</strong>ROI-Dashboard</li>
           <li>
-            <strong>Pipeline-Umsatz:</strong>Veraltet (siehe unten)</li>
+            <strong>Pipeline-Umsatz:</strong>veraltet (siehe unten)</li>
           <li>
-            <strong>Durchschnittliche Angebotsgröße: </strong>Veraltet (siehe unten)</li></ul>
+            <strong>Durchschnittliche Größe des Angebots: </strong>Veraltet (siehe unten)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Wachstum</td>
       <td><ul>
           <li>
-            <strong>Umsatz und Umsatz im Zeitverlauf</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Umsatz und Umsatz im Zeitverlauf</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Angebote</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Angebote</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Leads</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Leads</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
             <strong>Chancen</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
@@ -58,7 +58,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
           <li>
             <strong>Individuelle Besuche und individuelle Besuche im Zeitverlauf</strong>: Web-Traffic-Dashboard</li>
           <li>
-            <strong>Site Forms und Site Forms im Zeitverlauf</strong>: Web-Traffic-Dashboard</li>
+            <strong>Site-Forms und Site-Forms im Zeitverlauf</strong>: Web-Traffic-Dashboard</li>
           <li>
             <strong>Angebote im Zeitverlauf</strong>
             <strong>: </strong>Veraltet (siehe unten)</li>
@@ -69,7 +69,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
             <strong>Pipeline-Umsatz im Zeitverlauf</strong>
             <strong>: </strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Leads im Zeitverlauf</strong>
+            <strong>Interessenten im Zeitverlauf</strong>
             <strong>: </strong>Veraltet (siehe unten)</li>
           <li>
             <strong>Kontakte und Kontakte im Zeitverlauf</strong>
@@ -85,9 +85,9 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Zusammenfassung des ROI für Kanal/Subkanal/Kampagne:</strong> ROI-Dashboard</li>
+            <strong>Zusammenfassung des ROI-Kanals/Subkanals/der Kampagne:</strong> ROI-Dashboard</li>
           <li>
-            <strong>Keyword- und Creative-ROI-Zusammenfassung:</strong>Veraltet (siehe unten)</li>
+            <strong>Suchbegriff und Zusammenfassung des kreativen ROI:</strong>Veraltet (siehe unten)</li>
         </ul>
       </td>
     </tr>
@@ -96,9 +96,9 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Umsatz</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Umsatz</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Abgegebene Leads</strong>: ROI-Dashboard</li>
+            <strong>Matches der Leads</strong>: ROI-Dashboard</li>
           <li>
             <strong>Touchpoint-Anzahl:</strong>ROI-Dashboard</li>
           <li>
@@ -107,7 +107,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
             <strong>Engagierte Chancen</strong>
             <strong>:</strong>Interaktions-Dashboard</li>
           <li>
-            <strong>Teilnehmer/innen</strong>
+            <strong>Eingegebene Personen</strong>
             <strong>:</strong>Interaktions-Dashboard</li>
           <li>
             <strong>Durchschnittliche Touchanzahl pro Konto: </strong>Interaktions-Dashboard</li>
@@ -116,7 +116,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
           <li>
             <strong>Konten nach Touchpoint-Anzahl: </strong>Interaktions-Dashboard</li>
           <li>
-            <strong>Pipeline-Umsatz:</strong>Veraltet (siehe unten)</li>
+            <strong>Pipeline-Umsatz:</strong>veraltet (siehe unten)</li>
         </ul>
       </td>
     </tr>
@@ -125,9 +125,9 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Umsatz</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Umsatz</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Ausgeben</strong>: ROI-Dashboard</li>
+            <strong>Spend</strong>: ROI-Dashboard</li>
           <li>
             <strong>ROI: </strong>ROI-Dashboard</li>
           <li>
@@ -146,17 +146,17 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
           <li>
             <strong>Seitenansichten:</strong>Web-Traffic-Dashboard</li>
           <li>
-            <strong>Site Forms:</strong>Web-Traffic-Dashboard</li>
+            <strong>Site-Forms:</strong>Web-Traffic-Dashboard</li>
           <li>
-            <strong>Übersicht:</strong>Web-Traffic-Dashboard</li>
+            <strong>Überblick:</strong>Web-Traffic-Dashboard</li>
           <li>
-            <strong>Web Traffic-Zusammenfassung:</strong>Web-Traffic-Dashboard</li>
+            <strong>Web-Traffic-Zusammenfassung:</strong>Web-Traffic-Dashboard</li>
           <li>
-            <strong>Referrer-Zusammenfassung:</strong>Web-Traffic-Dashboard</li>
+            <strong>Zusammenfassung der verweisenden Stelle:</strong>Dashboard des Webdatenverkehrs</li>
           <li>
-            <strong>Einzelbesuche nach Quelle:</strong>Web-Traffic-Dashboard</li>
+            <strong>Individuelle Besuche nach Source:</strong>Web-Traffic-Dashboard</li>
           <li>
-            <strong>Besuche nach Quelle:</strong>Web-Traffic-Dashboard</li>
+            <strong>Besuche nach Source:</strong>Web-Traffic-Dashboard</li>
           <li>
             <strong>Leads nach Formular-URL:</strong>Web-Traffic-Dashboard</li>
           <li>
@@ -182,7 +182,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Umsatz</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Umsatz</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
             <strong>Übersicht</strong>:<ul>
               <li>Dashboard "Zugewiesener Umsatz": Zuweisung des Umsatzes nach Kanal im Zeitdiagramm</li>
@@ -190,30 +190,30 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
             </ul>
           </li>
           <li>
-            <strong>Ausgeben</strong>: ROI-Dashboard</li>
+            <strong>Spend</strong>: ROI-Dashboard</li>
           <li>
-            <strong>Angebote</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Angebote</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Kosten pro Geschäft: </strong>ROI-Dashboard</li>
+            <strong>Kosten pro Deal: </strong>ROI-Dashboard</li>
           <li>
             <strong>Kanal/Subkanal/Kampagnenzusammenfassung:</strong>ROI-Dashboard</li>
           <li>
-            <strong>Pipeline-Umsatz:</strong>Veraltet (siehe unten)</li>
+            <strong>Pipeline-Umsatz:</strong>veraltet (siehe unten)</li>
           <li>
-            <strong>Durchschnittliche Angebotsgröße: </strong>Veraltet (siehe unten)</li>
+            <strong>Durchschnittliche Größe des Angebots: </strong>Veraltet (siehe unten)</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>Bezahlte Medien</td>
-      <td>Benutzer können Filter für gebührenpflichtige Medien-Kanäle in der <strong>Web-Traffic-Dashboard</strong>.</td>
+      <td>Benutzer können Filter für gebührenpflichtige Medien-Kanäle im <strong>Web-Traffic-Dashboard</strong> anwenden.</td>
     </tr>
     <tr>
       <td>Content-Marketing</td>
       <td>
         <ul>
           <li>
-            <strong>Übersicht:</strong>Web-Traffic-Dashboard</li>
+            <strong>Überblick:</strong>Web-Traffic-Dashboard</li>
           <li>
             <strong>Site Forms:</strong>
             <strong></strong>Web-Traffic-Dashboard</li>
@@ -227,7 +227,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
             <strong>Top-Einstiegsseiten nach Besuchen:</strong>
             <strong></strong>Web-Traffic-Dashboard</li>
           <li>
-            <strong>Einstiegsseiten nach Lead-Anzahl:</strong>
+            <strong>Einstiegsseiten nach Interessentenanzahl:</strong>
             <strong></strong>Web-Traffic-Dashboard</li>
           <li>
             <strong>Leads:</strong>
@@ -235,24 +235,24 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
           <li>
             <strong>Chancen</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Web Traffic-Zusammenfassung:</strong>
+            <strong>Web-Traffic-Zusammenfassung:</strong>
             <strong></strong>Web-Traffic-Dashboard</li>
           <li>
             <strong>Formular-URLs nach Kanal</strong>
             <strong>:</strong>
-            <strong></strong>Web-Traffic-Dashboard (Filter Site Forms-Kachel nach Kanal)</li>
+            <strong></strong>Web-Traffic-Dashboard (Filtern Sie die Kachel Site Forms nach Kanal)</li>
           <li>
-            <strong>Einstiegsseiten nach Umsatz: </strong>Veraltet (siehe unten)</li>
+            <strong>Einstiegsseiten nach Umsatz: </strong>Eingestellt (siehe unten)</li>
           <li>
-            <strong>Pipeline-Umsatz: </strong>Veraltet (siehe unten)</li>
+            <strong>Pipeline-Umsatz: </strong>veraltet (siehe unten)</li>
           <li>
             <strong>Einstiegsseiten nach Pipeline-Umsatz:</strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Anzahl der Einstiegsseiten nach Opportunity:</strong>Veraltet (siehe unten)</li>
+            <strong>Einstiegsseiten nach Anzahl der Möglichkeiten:</strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Zusammenfassung der Lead-Pipeline: </strong>In der Überprüfung</li>
+            <strong>Zusammenfassung der Lead-Pipeline: </strong> Im Überblick</li>
           <li>
-            <strong>Opportunity Pipeline Summary: </strong>In der Überprüfung</li>
+            <strong>Opportunity Pipeline Summary: </strong>In Review</li>
         </ul>
       </td>
     </tr>
@@ -269,24 +269,24 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
           <li>
             <strong>Velocity (Days):</strong> Velocity-Dashboard</li>
           <li>
-            <strong>Geschäftsgeschwindigkeit nach Kanal: </strong>Velocity-Dashboard</li>
+            <strong>Geschwindigkeit pro Kanal testen: </strong>Velocity-Dashboard</li>
           <li>
             <strong>Lead-Geschwindigkeit nach Kanal: </strong>Velocity-Dashboard</li>
           <li>
-            <strong>Average Deal Velocity: </strong>Velocity-Dashboard</li>
+            <strong>Durchschnittliche Geschädigkeitsgeschwindigkeit: </strong>Velocity-Dashboard</li>
           <li>
             <strong>Durchschnittliche Lead-Geschwindigkeit: </strong>Velocity-Dashboard</li>
           <li>
-            <strong>Opportunity Velocity im Zeitverlauf: </strong>Velocity-Dashboard</li>
+            <strong>Chancen-Geschwindigkeit im Zeitverlauf: </strong>Velocity-Dashboard</li>
           <li>
             <strong>Lead-Geschwindigkeit im Zeitverlauf: </strong>Velocity-Dashboard</li>
           <li>
             <strong>BT/BAT im Zeitverlauf:</strong>Interaktions-Dashboard</li>
           <li>
-            <strong>Offene Möglichkeiten:</strong>
+            <strong>Öffnungsmöglichkeiten:</strong>
             <strong> </strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Durchschnittliche Angebotsgröße:</strong>
+            <strong>Durchschnittliche Größe des Angebots:</strong>
             <strong></strong>Veraltet (siehe unten)</li>
           <li>
             <strong>Win Rate:</strong>
@@ -296,7 +296,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     </tr>
     <tr>
       <td>Snapshot</td>
-      <td>Benutzer können eine Momentaufnahme von Datensätzen abrufen, indem sie nach einem bestimmten Datum im <strong>Pass-Dashboard.</strong>
+      <td>Benutzer können eine Momentaufnahme von Datensätzen abrufen, indem sie nach einem bestimmten Datum im <strong>Passport-Dashboard</strong> filtern.
       </td>
     </tr>
     <tr>
@@ -304,7 +304,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Gelegenheiten &amp; Kontakte: </strong>Passport-Dashboard</li>
+            <strong>Gelegenheiten &amp; Interessenten/Kontakte: </strong>Passport-Dashboard</li>
         </ul>
       </td>
     </tr>
@@ -319,7 +319,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Kohortentrichter:</strong>Cohort Journey Dashboard</li>
+            <strong>Kohortentrichter:</strong>Kohorten-Journey-Dashboard</li>
           <li>
             <strong>Auswirkungen und Umsatz der Kohorte:</strong>Veraltet (siehe unten)</li>
         </ul>
@@ -367,7 +367,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Landing Pages by PipelineRevenue</strong>
+          <strong>Einstiegsseiten nach PipelineRevenue</strong>
         </p>
       </td>
     </tr>
@@ -382,7 +382,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Offene Möglichkeiten</strong>
+          <strong>Open Opportunities</strong>
           <strong>
             <br/>
           </strong>
@@ -392,7 +392,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Win-Rate</strong>
+          <strong>Win Rate</strong>
         </p>
       </td>
     </tr>
@@ -417,13 +417,13 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     </tr>
     <tr>
       <td>
-        <strong>Leads im Zeitverlauf</strong>
+        <strong>Interessenten im Zeitverlauf</strong>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Keyword- und Creative-ROI-Zusammenfassung</strong>
+          <strong>Suchbegriff und Zusammenfassung des kreativen ROI</strong>
         </p>
       </td>
       <td>
@@ -473,13 +473,13 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Einstiegsseiten nach Anzahl der Möglichkeiten</strong>
+          <strong>Einstiegsseiten nach Opportunity Count</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Auswirkungen der Kohorte und Umsatz</strong>
+        <strong>Auswirkungen und Umsatz der Kohorte</strong>
       </td>
       <td>Wird aufgrund seiner potenziellen Verwirrung bei Benutzern nicht mehr unterstützt. Unser Ziel ist Klarheit und sofortiger Datenwert.</td>
     </tr>
@@ -488,15 +488,15 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
 
 ## Funktionen, die schrittweise eingestellt wurden {#features-weve-phased-out}
 
-**Filteraktualisierungen**: Um Ihre Erfahrung zu optimieren, haben wir unsere Filterauswahl wie unten dargestellt angepasst.
+**Filteraktualisierungen**: Um Ihr Erlebnis zu optimieren, haben wir unsere Filterauswahlen wie unten dargestellt angepasst.
 
-* **Datumstyp, Metrik, Dimension, Gruppieren nach**: Diese Einstellungen sind jetzt für jedes Dashboard vordefiniert, um die Bereitstellung von Insight zu optimieren. Detaillierte Informationen sind über QuickInfos und die zugehörige Dokumentation verfügbar.
-* **Kampagnenquelle**
-* **Konto-ID und Name**: Wird überprüft.
+* **Datumstyp, Metrik, Dimension, Gruppe nach**: Diese Einstellungen sind jetzt für jedes Dashboard vordefiniert, um die Bereitstellung von Insight zu optimieren. Detaillierte Informationen sind über QuickInfos und die zugehörige Dokumentation verfügbar.
+* **Campaign Source**
+* **Konto-ID und Name**: Wird geprüft.
 
 ## Neue Ergänzungen und Verbesserungen {#new-additions-and-improvements}
 
-Neue Funktionen finden Sie im Abschnitt [Dashboard-Grundlagen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} Artikel.
+Neue Funktionen finden Sie im Artikel [Dashboard-Grundlagen kennenlernen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} .
 
 ## Feedback {#feedback}
 
@@ -505,5 +505,5 @@ Da wir uns ständig bemühen, Ihr Erlebnis zu verbessern, würden wir Ihr Feedba
 >[!MORELIKETHIS]
 >
 >* [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [Dashboard-Richtlinie zur Datenanzeige](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [Dashboard-Richtlinie zur Sichtbarkeit der Daten](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

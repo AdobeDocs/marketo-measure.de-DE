@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874743
-description: 'Verbinden [!DNL Marketo Measure] zum Aufheben des Bounce-Skript-Managers : [!DNL Marketo Measure]'
+description: Verbinden von [!DNL Marketo Measure] mit dem Unbounce-Skript-Manager - [!DNL Marketo Measure]
 title: Verbinden von [!DNL Marketo Measure] zum Aufheben von Bounces in Script Manager
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
@@ -11,17 +11,17 @@ ht-degree: 5%
 
 ---
 
-# Verbinden [!DNL Marketo Measure] zum Aufheben des Bounce-Skriptmanagers {#connecting-marketo-measure-to-unbounce-script-manager}
+# Verbinden von [!DNL Marketo Measure] mit dem Unbounce Script Manager {#connecting-marketo-measure-to-unbounce-script-manager}
 
-[!DNL Marketo Measure] direkt mit Unbounce integriert wird, sodass Sie die digitale Marketingquelle Ihrer Landingpage-Konversionen direkt in verfolgen können. [!DNL Salesforce]. Fügen Sie einfach die [!DNL Marketo Measure] Skript zu Ihrem Unbounce Script Manager hinzufügen. So geht es.
+[!DNL Marketo Measure] lässt sich direkt in Unbounce integrieren, sodass Sie die digitale Marketingquelle Ihrer Landingpage-Konversionen direkt in [!DNL Salesforce] verfolgen können. Um die Verbindung herzustellen, fügen Sie einfach das Skript [!DNL Marketo Measure] zu Ihrem Unbounce Script Manager hinzu. So geht es.
 
-1. Melden Sie sich bei Ihrer [!DNL Unbounce] -Konto.
-1. Klicks **[!UICONTROL Einstellungen]** > **[!UICONTROL Skript-Manager]** > **[!UICONTROL Skript hinzufügen]**.
-1. Wählen Sie im Popup-Fenster [!UICONTROL Benutzerdefiniertes Skript] und benennen Sie es &quot;[!DNL Marketo Measure Marketing Analytics].&quot; Klicks **[!UICONTROL Skriptdetails hinzufügen]**.
-1. Wählen Sie die Platzierung im Head aus. Schließen Sie das Skript auf der Haupt-Landingpage und im Dialogfeld &quot;Formularbestätigung&quot;ein. Fügen Sie die [!DNL Marketo Measure] unten in das Feld ein.
+1. Melden Sie sich bei Ihrem [!DNL Unbounce] -Konto an.
+1. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Skript-Manager]** > **[!UICONTROL Skript hinzufügen]**.
+1. Wählen Sie im Popup-Fenster [!UICONTROL Benutzerdefiniertes Skript] aus und geben Sie ihm den Namen &quot;[!DNL Marketo Measure Marketing Analytics]&quot;. Klicken Sie auf **[!UICONTROL Skriptdetails hinzufügen]**.
+1. Wählen Sie die Platzierung im Head aus. Schließen Sie das Skript auf der Haupt-Landingpage und im Dialogfeld &quot;Formularbestätigung&quot;ein. Fügen Sie das Skript [!DNL Marketo Measure] unten in das Feld ein.
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Die [!DNL Marketo Measure] Die -Integration funktioniert auf Unbounce-Landingpages, solange sie auf Ihrer Domäne (z. B. landing.mysite.com) gehostet werden und nicht auf Seiten, die die Domäne unbounce.com verwenden.
+Die Integration von [!DNL Marketo Measure] funktioniert auf Landingpages zum Aufheben der Bounce-Wiedergabe, sofern sie auf Ihrer Domäne (z. B. landing.mysite.com) gehostet werden und nicht auf Seiten, die die Domäne unbounce.com verwenden.

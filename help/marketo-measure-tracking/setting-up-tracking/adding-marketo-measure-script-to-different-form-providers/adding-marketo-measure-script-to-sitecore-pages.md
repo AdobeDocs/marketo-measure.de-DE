@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874747
-description: Hinzufügen [!DNL Marketo Measure] Skript für Sitecore-Seiten - [!DNL Marketo Measure]
+description: Hinzufügen von [!DNL Marketo Measure] Skript zu Sitecore-Seiten - [!DNL Marketo Measure]
 title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes für Sitecore-Seiten
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
@@ -11,17 +11,17 @@ ht-degree: 3%
 
 ---
 
-# Hinzufügen [!DNL Marketo Measure] Skript für Sitecore-Seiten {#adding-marketo-measure-script-to-sitecore-pages}
+# Hinzufügen von [!DNL Marketo Measure] Skript zu Sitecore-Seiten {#adding-marketo-measure-script-to-sitecore-pages}
 
-Content Management-Systeme können zusätzliche Schritte erfordern, die über die standardmäßige Skriptimplementierung hinausgehen. [!DNL Marketo Measure] , um Formularübermittlungen zu erkennen. Im folgenden Prozess wird beschrieben, wie Sie die [!DNL Marketo Measure] JavaScript auf Ihrer [!DNL Sitecore] Seiten.
+Content Management-Systeme können zusätzliche Schritte erfordern, die über die standardmäßige Skript-Implementierung hinausgehen, damit [!DNL Marketo Measure] Formularübermittlungen erkennen kann. Im folgenden Prozess wird beschrieben, wie Sie Ihren [!DNL Sitecore] -Seiten das JavaScript [!DNL Marketo Measure] hinzufügen.
 
 Für Sites mit Sitecore-Seiten:
 
-1. Melden Sie sich bei SiteStore an und navigieren Sie zu Ihrer Website. Suchen Sie die [!UICONTROL Konfiguration] Ordner, der sich auf derselben Ebene wie Ihr [!UICONTROL Startseite] -Element und [!UICONTROL Metadaten] Ordner.
-1. Klicken Sie auf **[!UICONTROL +]** neben dem [!UICONTROL Konfiguration] Ordner.
-1. Klicken Sie auf **[!UICONTROL +]** neben dem [!UICONTROL Instrumente] Ordner.
-1. Wählen Sie die [!UICONTROL JavaScript] -Element.
-1. Im [!UICONTROL Inhalt] klicken Sie auf die **[!UICONTROL Sperren und Bearbeiten]** -Link, um das Element zur Bearbeitung zu entsperren.
-1. Suchen Sie die [!UICONTROL &quot;JavaScript&quot;] Abschnitt. Wenn sie noch nicht erweitert ist, klicken Sie auf die Schaltfläche **[!UICONTROL +]**.
+1. Melden Sie sich bei SiteStore an und navigieren Sie zu Ihrer Website. Suchen Sie den Ordner [!UICONTROL Konfiguration] , der sich auf derselben Ebene wie das Element [!UICONTROL Home] und den Ordner [!UICONTROL Metadata] befindet.
+1. Klicken Sie auf das Symbol **[!UICONTROL +]** neben dem Ordner [!UICONTROL Konfiguration] .
+1. Klicken Sie auf das Symbol &quot;**[!UICONTROL +]**&quot;neben dem Ordner &quot;[!UICONTROL Tools]&quot;.
+1. Wählen Sie das Element [!UICONTROL Javascript] aus.
+1. Klicken Sie auf der Registerkarte [!UICONTROL Inhalt] auf den Link **[!UICONTROL Sperren und Bearbeiten]** , um das Element für die Bearbeitung zu entsperren.
+1. Suchen Sie den Abschnitt [!UICONTROL &#39;JavaScript&#39;] . Wenn sie noch nicht erweitert ist, klicken Sie auf **[!UICONTROL +]**.
 1. Geben Sie unser Skript ein: `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js"async=""></script>`
-1. Klicks **[!UICONTROL Speichern]** in der oberen linken Ecke.
+1. Klicken Sie oben links auf **[!UICONTROL Speichern]** .

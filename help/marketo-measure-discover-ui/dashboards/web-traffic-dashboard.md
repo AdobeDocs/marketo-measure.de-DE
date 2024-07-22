@@ -1,5 +1,5 @@
 ---
-description: Web-Traffic-Dashboard - [!DNL Marketo Measure] - Produkt
+description: Web-Traffic-Dashboard - [!DNL Marketo Measure]  - Produkt
 title: Webtraffic-Dashboard
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d

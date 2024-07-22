@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874781
-description: Konfiguration der doppelten Klick-Kampagnen-Manager-Ansicht über Attribution - [!DNL Marketo Measure]
+description: Konfiguration der Doppelklick-Kampagnen-Manager-Ansicht über Attribution - [!DNL Marketo Measure]
 title: Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
@@ -21,13 +21,13 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->Wenn Sie die [!DNL Marketo Measure] und [!DNL DoubleClick Campaign Manager] Integration, benötigen wir eine [API-Verbindung](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) so können wir Details der Kampagnen und kreativen Inhalte herunterladen, um die Anzeigen zu lösen.
+>Wenn Sie die Integration von [!DNL Marketo Measure] und [!DNL DoubleClick Campaign Manager] verwenden, benötigen wir eine [API-Verbindung](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms), damit wir Details der Kampagnen und kreativen Inhalte herunterladen können, um die Anzeigen aufzulösen.
 
-So erhalten Sie genauere Einblicke aus der Ansicht durch das Tracking mit [!DNL Doubleclick Campaign Manager], muss unser Tracking-Pixel konfiguriert werden.
+Um genauere Einblicke aus der Ansicht durch das Tracking mit [!DNL Doubleclick Campaign Manager] zu erhalten, muss unser Tracking-Pixel konfiguriert werden.
 
-Weitere Informationen zum [!DNL Marketo Measure] Durchsicht der Attributionsfunktionen, siehe [Häufig gestellte Fragen zur Marketo Measure-Ansicht durch Attribution](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
+Weitere Informationen zur Funktion [!DNL Marketo Measure] Durchsicht durch Attribution finden Sie in den [FAQ zur Marketo Measure-Durchsicht bei Attribution](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) .
 
-[!DNL Marketo Measure] wird als Huckepack-Tag betrachtet, da es sich um einen Drittanbieter-Aufruf über das DCM-Anzeigen-Tag handelt. Piggyback-Tags funktionieren nicht mit Bild-Tags, sondern nur mit iFrame- oder JavaScript-Tags. Nach Angaben des DCM-Supports hat sich dies in letzter Zeit nicht geändert und war immer der Fall. Standard-Tags werden seit dem 2. Oktober 2017 nicht mehr unterstützt, beeinträchtigen jedoch nicht die Fähigkeit von [!DNL Marketo Measure] , um die Impressionen zu verfolgen.
+[!DNL Marketo Measure] wird als Huckepack-Tag betrachtet, da es sich um einen Drittanbieter-Aufruf über das DCM-Anzeigen-Tag handelt. Piggyback-Tags funktionieren nicht mit Bild-Tags, sondern nur mit iFrame- oder JavaScript-Tags. Nach Angaben des DCM-Supports hat sich dies in letzter Zeit nicht geändert und war immer der Fall. Standard-Tags werden seit dem 2. Oktober 2017 nicht mehr unterstützt, beeinflussen jedoch nicht die Fähigkeit von [!DNL Marketo Measure], die Impressionen zu verfolgen.
 
 Wenn Sie eine Hierarchie der übergeordneten Elemente und untergeordneten Elemente in DCM verwenden, muss unser Tag für das Impression-Tracking auf allen Ebenen angewendet werden.
 
@@ -53,18 +53,18 @@ Fügen Sie das Tag unter der Advertiser-Einstellung in DoubleClick hinzu und ers
 
 ## FAQs {#faq}
 
-**F: Ist das Bild-Tag sicher?**
+**Q: Ist das Bild-Tag sicher?**
 
 A: Ja. Es handelt sich nicht um ein JavaScript-Tag, sondern um ein Bild-Tag.
 
-**F: Welche Berechtigungen benötigt der verbundene Benutzer?**
+**Q: Welche Berechtigungen benötigt der verbundene Benutzer?**
 
 A: dfatrafficking, dfareporting, userinfo.email
 
-**F: Wie lange kann der Import von Ausgabedaten dauern?**
+**Q: Wie lange kann es dauern, Ausgabedaten zu importieren?**
 
 A: Bis zu 6 Stunden
 
-**F: Wie lange kann der Import von Anzeigendaten dauern?**
+**Q: Wie lange kann der Import von Anzeigendaten dauern?**
 
 A: Bis zu 6 Stunden

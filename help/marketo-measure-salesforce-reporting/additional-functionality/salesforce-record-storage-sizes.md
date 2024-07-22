@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874576
-description: "[!DNL Salesforce] Speichergrößen - [!DNL Marketo Measure]"
+description: "[!DNL Salesforce] Speichergrößen für Datensätze - [!DNL Marketo Measure]"
 title: "[!DNL Salesforce] Speichergrößen für Datensätze"
 exl-id: d72499a9-3678-4db0-9993-98c3af33b5a3
 feature: Salesforce
@@ -11,16 +11,16 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Salesforce] Speichergrößen {#salesforce-record-storage-sizes}
+# [!DNL Salesforce] Speichergrößen für Datensätze {#salesforce-record-storage-sizes}
 
-[!DNL Marketo Measure] erstellt Datensätze in [!DNL Salesforce] -Instanz verwenden, ist es hilfreich, die Speichergröße dieser Datensätze zu verstehen.
+[!DNL Marketo Measure] erstellt Datensätze in Ihrer [!DNL Salesforce]-Instanz, sodass es hilfreich ist, die Speichergröße dieser Datensätze zu verstehen.
 
 ## Speichergrößen {#storage-sizes}
 
-**Ständige Aufzeichnungen**
+**Permanente Aufzeichnungen**
 
-* Käufer-Touchpoint = 1 KB
-* Touchpoint der Käuferzuordnung = 2 KB
+* BUYER TOUCHPOINT = 1 KB
+* BUYER ATTRIBUTION TOUCHPOINT = 2 KB
 * [!DNL Marketo Measure] Person = 2 KB
 * A/B-Test = 2 KB
 

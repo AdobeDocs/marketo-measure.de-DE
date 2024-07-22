@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Modell für maschinelles Lernen – FAQ {#machine-learning-model-faq}
 
-Die [!DNL Marketo Measure] Das Modell für maschinelles Lernen verwendet Ihre Touchpoint-Daten, um zu berechnen, wie viel Zuordnungsgewichtung jeder Phase zugewiesen werden soll. Dies wird dadurch bestimmt, wie wichtig jede Etappe beim Abschluss von Fahrverträgen war.
+Das Modell [!DNL Marketo Measure] Machine Learning verwendet Ihre Touchpoint-Daten, um zu berechnen, wie viel Attribution-Gewichtung jeder Phase zugewiesen werden soll. Dies wird dadurch bestimmt, wie wichtig jede Etappe beim Abschluss von Fahrverträgen war.
 
 Was sagen mir die Attributionsprozentsätze des Modells für maschinelles Lernen über jede Phase?
 
@@ -29,7 +29,7 @@ Wie wird das Modell für maschinelles Lernen berechnet?
 
 Die endgültige Gewichtung für eine benutzerdefinierte Phase wird wie folgt berechnet:
 
-**_Modellprozentsatz = Modellgenauigkeit x Konversionsrate x Touchpoint-Eindeutigkeitsgewicht_**
+**_Modellprozentsatz = Modellgenauigkeit x Konversionsrate x Touchpoint-Eindeutigkeitsgewichtung_**
 
 Am Ende werden alle benutzerdefinierten Staging-Gewichtungen normalisiert und in % konvertiert, wie unten dargestellt.
 
@@ -47,7 +47,7 @@ Die Zuweisung von 10 % Zuordnungsguthaben zu &quot;Middle Touches&quot;ist eine 
 
 Wann sollte ich meine Attributionsverteilung ändern?
 
-Wenden Sie sich an Ihren Kundenbetreuer, um die Auswirkungen der Änderung Ihrer Attributionsprozentsätze und die Schritte zu besprechen, die in Ihr benutzerdefiniertes Modell aufgenommen werden sollen. Jeder [!DNL Salesforce] und der Verkaufsprozess einzigartig ist, und wir möchten sicherstellen, dass Ihr benutzerdefiniertes Modell korrekt modelliert wird.
+Wenden Sie sich an Ihren Kundenbetreuer, um die Auswirkungen der Änderung Ihrer Attributionsprozentsätze und die Schritte zu besprechen, die in Ihr benutzerdefiniertes Modell aufgenommen werden sollen. Jeder [!DNL Salesforce]- und Verkaufsprozess ist eindeutig. Wir möchten sicherstellen, dass Ihr benutzerdefiniertes Modell korrekt modelliert wird.
 
 Dennoch haben wir einige allgemeine Trends für unsere Kunden ermittelt:
 

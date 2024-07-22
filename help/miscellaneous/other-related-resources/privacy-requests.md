@@ -5,27 +5,27 @@ exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
 # Datenschutzanfragen {#privacy-requests}
 
-Dieses Dokument bietet einen Überblick über die Verwaltung von Datenschutzanfragen, die Sie an senden können [!DNL Marketo Measure] durch die [!DNL Privacy Service] Benutzeroberfläche und **[!DNL Privacy Service]API**.
+Dieses Dokument bietet einen Überblick über die Verwaltung individueller Datenschutzanfragen, die Sie über die [!DNL Privacy Service] -Benutzeroberfläche und die **[!DNL Privacy Service]-API** an [!DNL Marketo Measure] senden können.
 
-Sie können einzelne Anfragen zum Zugriff auf und zum Löschen von Verbraucherdaten aus senden [!DNL Marketo Measure] auf zwei Arten:
+Sie können individuelle Anfragen zum Zugriff auf und zum Löschen von Verbraucherdaten aus [!DNL Marketo Measure] auf zwei Arten senden:
 
-* Durch die [[!DNL Privacy Service] Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
-* Durch die **[!DNL Privacy Service]API**. Siehe die Dokumentation . [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Über die [[!DNL Privacy Service] Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Über die **[!DNL Privacy Service]-API**. Die Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} und die API-Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"} finden Sie in der Dokumentation.
 
-Die [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} unterstützt zwei Arten von Anfragen: Datenzugriff und Datenlöschung.
+Der [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} unterstützt zwei Arten von Anforderungen: Datenzugriff und Datenlöschung.
 
 Im Folgenden wird beschrieben, wie Sie Zugriffs- und Löschanfragen erstellen können.
 
 ## Erforderliche Einrichtung zum Senden von Anforderungen an Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
-So stellen Sie Anfragen zum Zugreifen auf und Löschen von Daten für [!DNL Marketo Measure]müssen Sie:
+Um Anfragen zum Zugreifen auf und Löschen von Daten für [!DNL Marketo Measure] zu stellen, müssen Sie:
 
 1. Identifizieren Sie Folgendes:
 
@@ -35,7 +35,7 @@ So stellen Sie Anfragen zum Zugreifen auf und Löschen von Daten für [!DNL Mark
 
    Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Wenn Ihr Marketing-Team oder Ihr interner Adobe-Systemadministrator die IMS-Organisations-ID Ihres Unternehmens nicht kennen, wenden Sie sich an die Adobe-Kundenunterstützung unter gdprsupport@adobe.com. Sie benötigen die IMS-Organisations-ID, um Anfragen an die Datenschutz-API zu senden.
 
-1. In [!DNL Privacy Service], können Sie Zugriffs- und Löschanfragen an senden [!DNL Marketo Measure]und überprüfen Sie den Status vorhandener Anforderungen.
+1. In [!DNL Privacy Service] können Sie Zugriffs- und Löschanfragen an [!DNL Marketo Measure] senden und den Status vorhandener Anfragen überprüfen.
 
 ## Erforderliche Feldwerte in [!DNL Marketo Measure] JSON-Anforderungen {#required-field-values-in-marketo-measure-json-requests}
 
@@ -46,7 +46,7 @@ So stellen Sie Anfragen zum Zugreifen auf und Löschen von Daten für [!DNL Mark
 
 &quot;users&quot;:
 
-* &quot;action&quot;: Entweder [!UICONTROL access] oder löschen
+* &quot;action&quot;: entweder [!UICONTROL access] oder delete
 * &quot;userIDs&quot;:
    * &quot;namespace&quot;: email
    * &quot;type&quot;: standard
@@ -54,7 +54,7 @@ So stellen Sie Anfragen zum Zugreifen auf und Löschen von Daten für [!DNL Mark
 
 &quot;include&quot;:
 
-* **marketoMeasure** (das Adobe-Produkt, das für die Anfrage gilt)
+* **marketoMeasure** (das Adobe-Produkt, das für die Anforderung gilt)
 
 &quot;Verordnung&quot;:
 

@@ -13,15 +13,15 @@ ht-degree: 1%
 
 # Attributionszuordnungsmethode {#attribution-mapping-methodology}
 
-Die Attributionszuordnungsmethode besteht darin, bestimmte Objekte in Ihrem CRM-System (Kontakte, Chancen, Konten) zu suchen, um Zuordnungs-Touchpoints in die zugehörige Chance zu erstellen. Mit anderen Worten, es ist das [!DNL Marketo Measure] Informationen dazu, welche Touchpoints basierend auf den Prozessen Ihres aktuellen CRM-Systems in das Attributionsmodell aufgenommen werden.
+Die Attributionszuordnungsmethode besteht darin, bestimmte Objekte in Ihrem CRM-System (Kontakte, Chancen, Konten) zu suchen, um Zuordnungs-Touchpoints in die zugehörige Chance zu erstellen. Mit anderen Worten, es ist die [!DNL Marketo Measure]-Methode, um zu verstehen, welche Touchpoints basierend auf den Prozessen Ihres aktuellen CRM-Systems in das Attributionsmodell aufgenommen werden sollen.
 
 ## Konto-ID-Zuordnung {#account-id-mapping}
 
-Vorkonfiguriert, [!DNL Marketo Measure] stellt die Zuordnung der Konto-ID bereit. Das bedeutet: [!DNL Marketo Measure] betrachtet das Konto und dessen Marketing-Informationen zu Kontakten , um mit dieser Gelegenheit verbundene Attribution-Touchpoints zu erstellen. Im Folgenden finden Sie eine einfache Darstellung dieses Prozesses.
+Standardmäßig stellt [!DNL Marketo Measure] die Zuordnung der Konto-ID bereit. Das bedeutet, dass [!DNL Marketo Measure] sich die Marketing-Informationen zu Konto und Kontakten ansieht, um Attribution-Touchpoints zu erstellen, die mit der Gelegenheit verknüpft sind. Im Folgenden finden Sie eine einfache Darstellung dieses Prozesses.
 
 ![](assets/1-1.png)
 
-Bedenken Sie Folgendes **nicht alle** Touchpoints von Ihren Kontakten werden als Attribution Touchpoints in die Chance geleitet. Die Timeline der Opportunity (ihr Erstkontakt-Datum - das geschlossene Datum) bestimmt, ob ein Touchpoint als Einflussnehmer auf die Opportunity gezählt wird. Wenn daher ein Touchpoint auf Kontakt A auftritt, nachdem die Gelegenheit geschlossen wurde/verloren wurde, [!DNL Marketo Measure] wird diesen Touchpoint nicht an die Gelegenheit weiterleiten. Dieses Timeline-Verfahren wird bei allen anderen Attributionsobjektzuordnungen angewendet.
+Beachten Sie, dass **nicht alle** Touchpoints aus Ihren Kontakten als Attribution Touchpoints in die Option gepusht werden. Die Timeline der Opportunity (ihr Erstkontakt-Datum - das geschlossene Datum) bestimmt, ob ein Touchpoint als Einflussnehmer auf die Opportunity gezählt wird. Wenn also ein Touchpoint bei Kontakt A auftritt, nachdem die Gelegenheit geschlossen wurde, wird dieser Touchpoint durch [!DNL Marketo Measure] nicht an die Gelegenheit weitergeleitet. Dieses Timeline-Verfahren wird bei allen anderen Attributionsobjektzuordnungen angewendet.
 
 Vorteile: Diese Attributionsmethode ist für die meisten Unternehmen sehr effektiv. Das Marketing-Team muss sich nicht darauf verlassen, dass das Vertriebsteam alle Kontakte einer bestimmten Gelegenheit zuordnet (was häufig ein Problem darstellt). Auch wenn ein Vertriebsteam Kontaktrollen zuordnet, kann es bei der Interaktion vieler anderer Kontakte mit Marketingmaterialien zu Problemen kommen. Schließlich unterstützt diese Methode die ABM-Strategie, die versucht, die Gesamtheit eines Kontos zu beeinflussen, anstatt bestimmte Einflussnehmer.
 
@@ -29,7 +29,7 @@ Nachteile: Wenn es starke Marketing &amp; Sales-SLAs gibt, die definieren, wem w
 
 ## Opportunity Contact Role Mapping {#opportunity-contact-role-mapping}
 
-Während die meisten Kunden die Zuordnung der Konto-ID verwenden, [!DNL Marketo Measure] kann die Kontaktrollen (Kontakte, die mit der Gelegenheit verknüpft sind) innerhalb einer Gelegenheit nachschlagen, den Attributionsprozess aufzuschlüsseln. Das bedeutet: [!DNL Marketo Measure] Push-Marketing-Interaktionen, die mit den Kontaktrollen verknüpft sind, werden nur auf der Opportunity als &quot;Buyer Attribution Touchpoints&quot;übertragen. Nachfolgend finden Sie eine Darstellung dieses Prozesses.
+Während die meisten Kunden die Zuordnung der Konto-ID verwenden, kann [!DNL Marketo Measure] innerhalb einer Gelegenheit nach den Kontaktrollen (mit der Gelegenheit verbundene Kontakte) suchen, um den Attributionsprozess aufzuschlüsseln. Das bedeutet, dass [!DNL Marketo Measure] nur Marketing-Interaktionen in Verbindung mit den Kontaktrollen auf der Opportunity als &quot;Buyer Attribution Touchpoints&quot;fördert. Nachfolgend finden Sie eine Darstellung dieses Prozesses.
 
 ![](assets/2-1.png)
 
@@ -39,7 +39,7 @@ Nachteile: Wenn jedoch kein Prozess für die Kontaktrolle vorhanden ist, verlier
 
 ## Opportunity Primär Contact Role Mapping {#opportunity-primary-contact-role-mapping}
 
-Neben der bloßen Betrachtung der Kontaktrollen für die Gelegenheit, [!DNL Marketo Measure] kann sich noch mehr darauf konzentrieren, nur die Primären Kontakte auf eine Chance zu betrachten. Mit diesem Setup sollten Sie [!DNL Marketo Measure] erfasst nur den Marketing-Touchpoint, der mit den primären Kontakten auf einer Gelegenheit verknüpft ist, und leitet diese Informationen in die Zuordnungsgeschichte dieser spezifischen Gelegenheit weiter. Siehe Abbildung unten.
+Neben der bloßen Betrachtung der Kontaktrollen für die Gelegenheit kann sich [!DNL Marketo Measure] noch mehr darauf konzentrieren, nur die Primären Kontakte auf eine Chance zu betrachten. Bei diesem Setup nimmt [!DNL Marketo Measure] nur den Marketing-Touchpoint, der mit den primären Kontakten einer Gelegenheit verknüpft ist, und leitet diese Informationen in die Zuordnungsgeschichte dieser speziellen Gelegenheit weiter. Siehe Abbildung unten.
 
 ![](assets/3.png)
 

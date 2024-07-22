@@ -12,6 +12,6 @@ ht-degree: 12%
 
 # [!DNL Marketo Measure] und Dynamics-Taxonomie {#marketo-measure-and-dynamics-taxonomy}
 
-Unten finden Sie ein Flussdiagramm, das angibt, wie die Variable [!DNL Marketo Measure] Benutzerdefinierte Objekte beziehen sich auf Dynamics Standard-Objekte.<p>
+Unten finden Sie ein Flussdiagramm, das angibt, wie die [!DNL Marketo Measure] benutzerdefinierten Objekte mit Dynamics Standard-Objekten in Beziehung stehen.<p>
 
 ![](assets/bizible-and-dynamics-taxonomy-1.png)

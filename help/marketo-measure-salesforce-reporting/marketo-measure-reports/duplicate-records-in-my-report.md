@@ -15,15 +15,15 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber weiterhin &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
+>Sie sehen möglicherweise Anweisungen mit &quot;[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber trotzdem &quot;[!DNL Bizible]&quot; in Ihrem CRM-System. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
 
-Während du in die [!DNL Marketo Measure] Berichte in [!DNL Salesforce]können Sie in Ihren Berichten &quot;doppelte&quot; Datensätze finden. Dieses Gefühl wird wahrscheinlich bei der Überprüfung auftreten [!DNL Marketo Measure] nativen Berichten.
+Wenn Sie in die [!DNL Marketo Measure] Berichte in [!DNL Salesforce] eintauchen, können Sie beginnen, &#39;doppelte&#39; Datensätze in Ihren Berichten zu finden. Dieses Gefühl wird Ihnen wahrscheinlich bei der Überprüfung von vordefinierten Berichten zu [!DNL Marketo Measure] begegnen.
 
-Bei der Berichterstellung mit dem Touchpoint-Objekt des Käufers oder dem Touchpoint der Käuferzuordnung ist es wichtig zu verstehen, dass Sie nicht mehr über die Anzahl der Leads, Kontakte oder Chancen berichten, sondern vielmehr über die Anzahl der Touchpoints der Käuferzuordnung oder der mit diesen Standardobjekten (Leads, Kontakte, Chancen) verbundenen Touchpoints der Käuferzuordnung.
+Bei der Berichterstellung mit dem Touchpoints-Objekt des Käufers oder dem Buyer Attribution Touchpoint-Objekt müssen Sie wissen, dass Sie nicht mehr über die Anzahl der Leads, Kontakte oder Gelegenheiten berichten, sondern vielmehr über die Anzahl der Touchpoints des Käufers oder der Käufers, die mit diesen Standardobjekten (Leads, Kontakte, Chancen) verknüpft sind.
 
 Nehmen wir als Beispiel den folgenden Bericht:
 
-Dies ist ein **Kontakte mit Kunden-Touchpoints** Bericht. Auch dies bedeutet, dass wir uns die Anzahl der Touchpoints ansehen, die einem einzelnen Kontakt zugeordnet sind.
+Dies ist ein Bericht vom Typ **Kontakte mit Kunden-Touchpoints** . Auch dies bedeutet, dass wir uns die Anzahl der Touchpoints ansehen, die einem einzelnen Kontakt zugeordnet sind.
 
 ![](assets/1.gif)
 

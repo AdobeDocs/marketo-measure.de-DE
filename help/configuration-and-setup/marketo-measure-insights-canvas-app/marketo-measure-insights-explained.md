@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874676
-description: "[!DNL Marketo Measure] Erläuterung von Insights - [!DNL Marketo Measure]"
+description: "[!DNL Marketo Measure] Insights Explain - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Insights Explain"
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 feature: Reporting
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Erläuterung von [!DNL Marketo Measure]-Insights {#marketo-measure-insights-explained}
 
-Informationen zum [!DNL Marketo Measure] Insights-Ansicht in [!DNL Salesforce], einschließlich der Darstellung der verschiedenen Symbole und der Verwendung der Funktion. Diese Funktion ist besonders hilfreich, wenn Sie die ersten 20 Sitzungen eines Leads, Kontakts oder Kontos sehen möchten.
+Erfahren Sie mehr über die [!DNL Marketo Measure] Insights-Ansicht in [!DNL Salesforce], einschließlich der Darstellung der verschiedenen Symbole und der Verwendung der Funktion. Diese Funktion ist besonders hilfreich, wenn Sie die ersten 20 Sitzungen eines Leads, Kontakts oder Kontos sehen möchten.
 
-Sobald jemand von der [!DNL Marketo Measure] JavaScript verwenden und ein Formular auf Ihrer Website ausfüllen, wird die Person zum Lead in Ihrem System und ihre digitalen Marketingdaten werden an Ihre Salesforce (SFDC)-Organisation gesendet. In diesem Fall werden die Touchpoint-Daten im [!DNL Marketo Measure] Lead Insights-Bereich (eine Canvas-App) auf den Lead-/Kontakt-/Opportunity-/Kontoobjekten.
+Sobald jemand von der [!DNL Marketo Measure]-JavaScript verfolgt und ein Formular auf Ihrer Website ausfüllt, wird er zum Lead in Ihrem System und seine digitalen Marketingdaten werden an Ihre Salesforce (SFDC)-Organisation gesendet. In diesem Fall werden die Touchpoint-Daten im Abschnitt &quot;[!DNL Marketo Measure] Lead-Einblicke&quot;(einer Canvas-App) auf den Lead-/Kontakt-/Opportunity-/Kontoobjekten angezeigt.
 
 Zunächst sehen Sie im mittleren Teil Ihrer Einblicke die Anzahl der Sitzungen, die die Person auf Ihrer Website hatte. Sie können durch diese Sitzungen blättern und beliebig navigieren.
 
@@ -37,8 +37,8 @@ Wenn Sie auf eine bestimmte Sitzung klicken (dazu können Sie auf das tatsächli
 
 ![](assets/4.png)
 
-Auf der rechten Seite jeder Sitzung können Sie mehr der detaillierten Marketing-Daten sehen, die die [!DNL Marketo Measure] -Felder in Ihrem SFDC. In diesem Beispiel sehen Sie Anzeigengruppe, Anzeigeninhalt, Kampagne, Suchbegriff und Medium. Sie können auch nach unten scrollen, um weitere Informationen zu erhalten. [!DNL Marketo Measure] Daten, die wir bereitstellen.
+Auf der rechten Seite jeder Sitzung können Sie mehr der detaillierten Marketing-Daten sehen, die die [!DNL Marketo Measure] -Felder in Ihr SFDC übertragen. In diesem Beispiel sehen Sie Anzeigengruppe, Anzeigeninhalt, Kampagne, Keyword, Medium. Sie können auch nach unten scrollen, um mehr der von uns bereitgestellten [!DNL Marketo Measure] Daten anzuzeigen.
 
-Sobald jemand über eine Vielzahl von Sitzungen verfügt, können Sie einige Filter in [!UICONTROL Insights] , um nach bestimmten Teilen ihrer Interaktion auf Ihrer Site zu suchen. Sie können nach [!UICONTROL Touchpoint-Position] zum Beispiel.
+Sobald jemand über eine Vielzahl von Sitzungen verfügt, können Sie einige Filter in [!UICONTROL Insights] verwenden, um nach bestimmten Teilen seiner Interaktion auf Ihrer Site zu suchen. Sie können beispielsweise nach [!UICONTROL Touchpoint-Position] filtern.
 
 Sie können auch nach Seitenansichten, AB-Tests oder Forms suchen.

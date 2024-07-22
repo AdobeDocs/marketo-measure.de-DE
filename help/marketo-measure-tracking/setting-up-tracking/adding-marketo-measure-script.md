@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874795
-description: Hinzufügen [!DNL Marketo Measure] Script - [!DNL Marketo Measure]
+description: Hinzufügen von [!DNL Marketo Measure] Skript - [!DNL Marketo Measure]
 title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
@@ -13,7 +13,7 @@ ht-degree: 57%
 
 # Hinzufügen eines[!DNL Marketo Measure]-Skriptes {#adding-marketo-measure-script}
 
-[!DNL Marketo Measure]-JavaScript, das von [!DNL Marketo Measure] nachverfolgt werden soll, muss so schnell wie möglich zu allen Web-Umgebungen hinzugefügt werden. Sobald das JavaScript bereitgestellt ist, [!DNL Marketo Measure] beginnt mit der Erfassung Ihrer digitalen Daten. In diesem Artikel werden die Methoden zur Bereitstellung von [!DNL Marketo Measure] JavaScript und weitere Hinweise.
+[!DNL Marketo Measure]-JavaScript, das von [!DNL Marketo Measure] nachverfolgt werden soll, muss so schnell wie möglich zu allen Web-Umgebungen hinzugefügt werden. Sobald die JavaScript bereitgestellt ist, beginnt [!DNL Marketo Measure] mit der Erfassung Ihrer digitalen Daten. In diesem Artikel werden die Methoden für die Bereitstellung von [!DNL Marketo Measure] JavaScript und weitere Überlegungen beschrieben.
 
 >[!NOTE]
 >
@@ -26,27 +26,27 @@ Während der ersten Schritte mit [!DNL Marketo Measure] gibt es zwei Möglichkei
 
 ## Hartcodierung {#hard-coding}
 
-Als Best Practice empfehlen wir dringend eine [!DNL Marketo Measure]-JavaScript-Hartcodierung in Ihren Web-Umgebungen. Um das Skript zu hartcodieren, müssen Sie das Skript vor dem schließenden einfügen `</head>` auf jeder Seite Ihrer Site.
+Als Best Practice empfehlen wir dringend eine [!DNL Marketo Measure]-JavaScript-Hartcodierung in Ihren Web-Umgebungen. Um das Skript zu hartcodieren, müssen Sie das Skript vor dem schließenden `</head>` auf jeder Seite Ihrer Site platzieren.
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-Hartkodierung des JavaScripts in der `<head>` Ihrer Seiten stellen sicher, dass die [!DNL Marketo Measure] -Skript zuerst geladen wird und Verweisinformationen nicht fehlen. [!DNL Marketo Measure]-JavaScript wird asynchron geladen. Im Falle einer Hartcodierung muss das JavaScript manuell zur Marketing-Automatisierung hinzugefügt werden.
+Durch die Hartkodierung der JavaScript in die `<head>` Ihrer Seiten wird sichergestellt, dass das [!DNL Marketo Measure]-Skript zuerst geladen wird und Verweisinformationen nicht fehlen. [!DNL Marketo Measure]-JavaScript wird asynchron geladen. Im Falle einer Hartcodierung muss das JavaScript manuell zur Marketing-Automatisierung hinzugefügt werden.
 
 >[!TIP]
 >
->Erfahren Sie, wie Sie sicherstellen, dass Ihr Skript [DSGVO-konform](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"}.
+>Erfahren Sie, wie Sie sicherstellen, dass Ihr Skript [DSGVO-konform ist](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"}.
 
 ## Tag-Management-Systeme {#tag-management-systems}
 
-Wenn [!DNL Marketo Measure] JavaScript kann nicht über die Hardware programmiert werden. Eine weitere Möglichkeit besteht darin, die [!DNL Marketo Measure] Skripten mit einem Tag Management-System, z. B. [!DNL Google Tag Manager] (GTM) oder Tealium.
+Wenn das Hinzufügen von [!DNL Marketo Measure] JavaScript über die Hardcodierung nicht möglich ist, besteht eine weitere Option darin, das Skript [!DNL Marketo Measure] mit einem Tag Management-System wie [!DNL Google Tag Manager] (GTM) oder Tealium hinzuzufügen.
 
-Verwenden von Tag-Management-Systemen zur Bereitstellung [!DNL Marketo Measure] JS kann aufgrund der Latenz der Skriptladezeit zu einem potenziellen Datenverlust von 5-10 % führen. Wenn das Tag-Management-Tool nicht schnell genug geladen wird, kann auch [!DNL Marketo Measure]-JS nicht schnell genug geladen werden und es können Informationen zum ersten Referrer verloren gehen.
+Die Verwendung von Tag-Management-Systemen zur Bereitstellung von [!DNL Marketo Measure] JS kann aufgrund der Latenz der Skriptladezeit zu einem potenziellen Datenverlust von 5-10 % führen. Wenn das Tag-Management-Tool nicht schnell genug geladen wird, kann auch [!DNL Marketo Measure]-JS nicht schnell genug geladen werden und es können Informationen zum ersten Referrer verloren gehen.
 
 Üblicherweise wird [!DNL Marketo Measure]-JS so lange über ein Tag-Management-Tool bereitgestellt, bis es aus Timing-/Ressourcengründen besser ist, auf eine Hartcodierung umzustellen.
 
-Hinzufügen von [!DNL Marketo Measure] -Skript über eine Tag-Management-Lösung erstellen, müssen Sie ein -Tag erstellen und unser JavaScript darin hinzufügen. Wenden Sie dieses Tag auf alle Seiten Ihrer Website an, die nachverfolgt werden sollen.
+Um das Skript [!DNL Marketo Measure] über eine Tag-Management-Lösung hinzuzufügen, müssen Sie ein Tag erstellen und unsere JavaScript darin hinzufügen. Wenden Sie dieses Tag auf alle Seiten Ihrer Website an, die nachverfolgt werden sollen.
 
-[!DNL Marketo Measure] empfiehlt, dass das Tag bei jeder Seitenansicht ausgelöst wird. Außerdem ist es am besten, [!DNL Marketo Measure] die höchste Priorität in der Auslöserreihenfolge und stellen Sie sicher, dass keine synchronen Skripte vor der [!DNL Marketo Measure] -Tag, um die höchste Datenqualität sicherzustellen.
+[!DNL Marketo Measure] empfiehlt, dass das Tag bei jeder Seitenansicht ausgelöst wird. Außerdem ist es am besten, [!DNL Marketo Measure] die höchste Priorität in der Auslöserreihenfolge zu geben und sicherzustellen, dass es keine synchronen Skripte vor dem [!DNL Marketo Measure] -Tag gibt, um die höchste Datenqualität sicherzustellen.
 
 Weitere Informationen [finden Sie hier](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target="_blank"}.
 
@@ -54,17 +54,17 @@ Weitere Informationen [finden Sie hier](/help/marketo-measure-tracking/setting-u
 
 [!DNL Marketo Measure]-JavaScript ist Domain-basiert, sodass automatisch alle Sub-Domains verarbeitet werden können, solange sich das JavaScript auf den Seiten befindet und die Stamm-Domain mit der Domain übereinstimmt, die zum Erstellen des Marketo Measure-Kontos verwendet wurde.
 
-Wenn Sie jedoch separate oder internationale Domains verwenden, sollten Sie Ihre [!DNL Marketo Measure]-Beratungsperson darüber informieren. Die Domänen müssen Ihrem Konto auf der Seite [!DNL Marketo Measure] so zu beenden, dass [!DNL Marketo Measure] weiß, dass die Daten der zusätzlichen Domänen mit Ihrem Konto verknüpft werden sollen. Senden Sie also separate/internationale Domänen an Ihre [!DNL Marketo Measure] Berater.
+Wenn Sie jedoch separate oder internationale Domains verwenden, sollten Sie Ihre [!DNL Marketo Measure]-Beratungsperson darüber informieren. Die Domänen müssen Ihrem Konto am Ende von [!DNL Marketo Measure] manuell hinzugefügt werden, damit [!DNL Marketo Measure] weiß, dass die Daten der zusätzlichen Domänen mit Ihrem Konto verknüpft werden. Senden Sie also separate/internationale Domänen an Ihren [!DNL Marketo Measure] -Berater.
 
-Wenn Sie Seiten von Drittanbietern verwenden, unterhalten Sie sich mit Ihrem [!DNL Marketo Measure] Berater. Im Allgemeinen möchten Sie wissen, ob Sie eine benutzerdefinierte Version von [!DNL Marketo Measure] JavaScript verwenden, um diese Seiten gegebenenfalls zu verfolgen. Ist dies nicht möglich, wird das Tracking über CRM-Campaign-Touchpoints mit Ihren [!DNL Marketo Measure] Berater.
+Wenn Sie Seiten von Drittanbietern verwenden, unterhalten Sie sich mit Ihrem [!DNL Marketo Measure] -Berater über Ihren Anwendungsfall. Im Allgemeinen möchten Sie wissen, ob Sie eine benutzerdefinierte Version von [!DNL Marketo Measure] JavaScript hinzufügen können, um diese Seiten gegebenenfalls zu verfolgen. Ist dies nicht möglich, wird das Tracking über CRM-Campaign-Touchpoints mit Ihrem [!DNL Marketo Measure] -Berater untersucht.
 
-Verfügen Sie über Formulare, die NICHT nachverfolgt werden sollen? [!DNL Marketo Measure] da sie nicht unbedingt für die Attribution sinnvoll sind (z. B. Abmeldeformulare, Kundenanmeldungen usw.)? In diesem Fall sollten Sie den Ausschlusscode hinzufügen [in diesem Artikel](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} zu jedem Formular
+Verfügen Sie über Formulare, die NICHT von [!DNL Marketo Measure] verfolgt werden sollten, da sie für die Attribution nicht unbedingt sinnvoll sind (z. B. Abmeldeformulare, Kundenanmeldungen usw.)? Wenn ja, möchten Sie den Ausschlusscode [in diesem Artikel](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} zu jedem Formular hinzufügen
 
 Verfügen Sie über Seiten, die nicht sicher sind? Sie sollten sie schützen, da die Navigation zwischen einer sicheren/nicht sicheren Seite die Tracking-Sitzung unterbricht.
 
 Sprechen Sie mit Ihrem Webteam, damit es weiß, dass [!DNL Marketo Measure]-JavaScript immer in den entsprechenden Web-Umgebungen vorhanden sein sollte. Wenn neue Seiten/Formulare/Sites eingeführt werden, stellen Sie sicher, dass die Bereitstellung von [!DNL Marketo Measure]-JavaScript Teil des Protokolls ist.
 
-Wenn eine [!DNL Web Application Firewall (WAF)] -Warnung während des JavaScript-Setups ausgelöst wird, können Benutzer diese WAF-Regel deaktivieren oder die Cookies von Zulassungslisten wie unten dargestellt abbrechen:
+Wenn während des JavaScript-Setups eine [!DNL Web Application Firewall (WAF)] -Warnung ausgelöst wird, können Benutzer diese WAF-Regel deaktivieren oder die Cookies wie unten gezeigt auf die Zulassungsliste gesetzt haben:
 
 ![](assets/adding-marketo-measure-script-1.png)
 
@@ -73,7 +73,7 @@ Wenn eine [!DNL Web Application Firewall (WAF)] -Warnung während des JavaScript
 **Übermittlung mehrerer Formulare**
 
 * Problem: Wenn Sie mehrere verknüpfte Formulare als Teil einer Formularübermittlung haben, kann es sein, dass das erste Formular einen Touchpoint generiert, auch wenn das vollständige Formular nicht gesendet wurde.
-* Lösung: Sie müssen eines der Formulare erzwingen, den Benutzer an zu melden. [!DNL Marketo Measure] auf der Grundlage zwischengespeicherter Daten und über Abbruchsverfahren. Im Allgemeinen lässt sich dieses Problem durch [Melden des Benutzer-Codes](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} lösen.
+* Lösung: Sie müssen eines der Formulare zwingen, den Benutzer basierend auf zwischengespeicherten Daten an [!DNL Marketo Measure] zu melden und Abbruchsverfahren zu besprechen. Im Allgemeinen lässt sich dieses Problem durch [Melden des Benutzer-Codes](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} lösen.
 
 **Kontoanmeldung (keine Erstellung)**
 
@@ -86,13 +86,13 @@ Wenn eine [!DNL Web Application Firewall (WAF)] -Warnung während des JavaScript
 
 **Herunterladen von Assets**
 
-* Problem: Wenn Ihre Assets erfasst sind, [!DNL Marketo Measure] verfolgt Downloads als Formularelemente. Ohne Gating der Assets gibt es Einschränkungen dahingehend, was ohne Anpassung gemeldet werden kann.
+* Problem: Wenn Ihre Assets erfasst sind, verfolgt [!DNL Marketo Measure] Downloads beim Ausfüllen des Formulars. Ohne Gating der Assets gibt es Einschränkungen dahingehend, was ohne Anpassung gemeldet werden kann.
 * Lösung: Führen Sie ein Gating des Assets durch, wenn es vom [!DNL Marketo Measure]-JavaScript nachverfolgt werden soll. Wenn dies keine Option ist und Sie dennoch einen Touchpoint dafür benötigen, sollten Sie stattdessen eine CRM-Kampagne synchronisieren.
 
 **iFrames**
 
 * Problem: iFrames funktionieren im Grunde als Seiten innerhalb von Seiten.
-* Lösung: Die [!DNL Marketo Measure] JS muss direkt im iFrame-Header bereitgestellt werden, damit wir ihn korrekt anhängen können.
+* Lösung: Das [!DNL Marketo Measure] JS muss direkt in der iFrame-Kopfzeile bereitgestellt werden, damit wir das Formular korrekt anhängen können.
 
 **Lightboxes**
 
@@ -116,12 +116,12 @@ Wenn eine [!DNL Web Application Firewall (WAF)] -Warnung während des JavaScript
 
 **Zweite Domain**
 
-* Problem: [!DNL Marketo Measure] JavaScript ist domänenspezifisch, daher müssen für jede separate oder internationale Domäne zusätzliche Schritte unternommen werden. [!DNL Marketo Measure] JS kann Subdomains auf derselben Stammdomäne verarbeiten.
+* Problem: [!DNL Marketo Measure] JavaScript ist domänenspezifisch, sodass für jede separate oder internationale Domäne zusätzliche Schritte unternommen werden müssen. [!DNL Marketo Measure] JS kann Subdomänen auf derselben Stammdomäne verarbeiten.
 * Lösung: Wenn Sie über mehrere Stamm-Domains verfügen, die von [!DNL Marketo Measure] nachverfolgt werden sollen, fügen Sie JS zu den Domains hinzu UND informieren Sie Ihre [!DNL Marketo Measure]-Beratungsperson darüber, welche Domains manuell mit Ihrem [!DNL Marketo Measure]-Konto verknüpft werden sollen.
 
 ## Testen von [!DNL Marketo Measure]-JavaScript {#testing-marketo-measure-javascript}
 
-Ihre [!DNL Marketo Measure] Ein Berater hilft Ihnen, die Website vor Ort zu testen, um sicherzustellen, dass [!DNL Marketo Measure] JavaScript ist auf allen Seiten vorhanden. Teil dieses Tests ist das Senden einiger Formulare mit klar angegebenen Testdetails, um sicherzustellen, dass das Tracking ordnungsgemäß zurückgegeben wird.
+Ihr [!DNL Marketo Measure] -Berater hilft Ihnen, die Website per Spottest zu testen, um sicherzustellen, dass [!DNL Marketo Measure] JavaScript auf allen Seiten vorhanden ist. Teil dieses Tests ist das Senden einiger Formulare mit klar angegebenen Testdetails, um sicherzustellen, dass das Tracking ordnungsgemäß zurückgegeben wird.
 
 Allerdings ist Ihre [!DNL Marketo Measure]-Beratungsperson mit Ihrer Website wahrscheinlich nicht so vertraut wie Ihr Webteam. Aus diesem Grund ist es sehr wichtig, dass Ihr Webteam oder ein anderes entsprechendes Team die Website gründlich prüft. Dies gilt insbesondere dann, wenn komplexe Formulare wie die oben genannten verwendet werden. Ihr Team ist letztendlich dafür verantwortlich sicherzustellen, dass alle erforderlichen Web-Umgebungen ordnungsgemäß nachverfolgt werden. Wenn Sie jedoch von komplexen Formularen oder Situationen Kenntnis haben, können Sie Ihre [!DNL Marketo Measure]-Beratungsperson um Unterstützung bei den Tests bitten.
 

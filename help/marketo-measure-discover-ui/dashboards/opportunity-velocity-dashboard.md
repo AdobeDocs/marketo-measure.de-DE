@@ -1,8 +1,9 @@
 ---
-description: Opportunity Velocity-Dashboard - [!DNL Marketo Measure] - Produkt
+description: Opportunity Velocity-Dashboard - [!DNL Marketo Measure]  - Produkt
 title: Dashboard „Opportunity-Geschwindigkeit“
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 4%
@@ -22,7 +23,7 @@ Fragen, die dieses Dashboard beantwortet:
 
 ### KPI-Kachel {#kpi-tile}
 
-* **Geschlossene Kaufgeschwindigkeit**: Die durchschnittliche Anzahl von Tagen für &quot;Geschlossene Gewinner&quot;von der ersten Phase bis zum Schließen.
+* **Geschlossene Kaufgeschwindigkeit**: Die durchschnittliche Anzahl von Tagen für &quot;Geschlossene Gewinner&quot;-Chancen vom ersten Schritt bis zum Schließen.
 
 ### Opportunity Velocity by Staging {#opportunity-velocity-by-stage}
 

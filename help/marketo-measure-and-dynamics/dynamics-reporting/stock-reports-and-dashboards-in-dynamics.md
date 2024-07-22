@@ -7,7 +7,7 @@ feature: Microsoft Dynamics
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Es werden möglicherweise Anweisungen mit den folgenden Eigenschaften angezeigt:[!DNL Marketo Measure]&quot; in der Dokumentation, sehen aber trotzdem &quot;Bizible&quot;in Ihrem CRM. Wir arbeiten an dieser Aktualisierung, und das Rebranding wird bald in Ihrem CRM zu sehen sein.
+>Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
 
-Die [!DNL Marketo Measure] Managed Solution enthält mehrere Lager-Dashboards und Berichte, die Ihren grundlegenden Anforderungen bei der Anzeige gerecht werden [!DNL Marketo Measure] Daten in Dynamics. Nachfolgend finden Sie die vollständige Liste und einige häufige Anwendungsfälle.
+Die [!DNL Marketo Measure] Managed Solution enthält mehrere Lager-Dashboards und Berichte, die Ihren grundlegenden Anforderungen bei der Anzeige von [!DNL Marketo Measure] -Daten in Dynamics entsprechen. Nachfolgend finden Sie die vollständige Liste und einige häufige Anwendungsfälle.
 
 ## Dashboards (insgesamt neun) {#dashboards-total}
 
@@ -91,18 +91,18 @@ Die [!DNL Marketo Measure] Managed Solution enthält mehrere Lager-Dashboards un
  </colgroup> 
  <tbody> 
   <tr> 
-   <td><strong>Berichtsname</strong></td> 
+   <td><strong>Berichtname</strong></td> 
    <td><strong>Anwendungsfall</strong></td> 
    <td><strong>Abrechnungsgruppe</strong></td> 
   </tr> 
   <tr> 
    <td>Konten nach Interaktionsbewertung</td> 
-   <td>Gruppieren Sie alle Konten mit der Besoldungsgruppe A, B, C, D, N/A aus [!DNL Marketo Measure] Prädiktive Interaktionsbewertung.</td> 
+   <td>Gruppieren Sie alle Konten mit ihrer A, B, C, D, N/A-Bewertung aus der [!DNL Marketo Measure] Prädiktiven Interaktionsbewertung.</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
    <td>Konten mit Leads und Kontakten</td> 
-   <td>Zeigen Sie alle Leads und Kontakte nebeneinander, gruppiert nach Konto, mithilfe der [!DNL Marketo Measure] Führen zu Kontoübereinstimmung.</td> 
+   <td>Zeigen Sie alle Leads und Kontakte nebeneinander, gruppiert nach Konto, mithilfe des [!DNL Marketo Measure] Lead zum Konto-Abgleichs an.</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
@@ -196,7 +196,7 @@ Die [!DNL Marketo Measure] Managed Solution enthält mehrere Lager-Dashboards un
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td>Leads nach Social Source (LC)</td> 
+   <td>Leads von Social Source (LC)</td> 
    <td>Messen Sie, wie viele Leads mit einem Lead-Erstellungskontakt aus dem Social-Kanal generiert wurden.</td> 
    <td>Alle</td> 
   </tr> 

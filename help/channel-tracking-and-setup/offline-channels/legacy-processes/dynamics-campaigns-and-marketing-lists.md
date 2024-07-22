@@ -7,7 +7,7 @@ feature: Microsoft Dynamics
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '818'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Dieser Artikel behandelt einen veralteten Prozess. Wir empfehlen Benutzern, die [neuer, verbesserter In-App-Prozess](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
+>Dieser Artikel behandelt einen veralteten Prozess. Wir ermutigen die Benutzenden, den [neuen, verbesserten In-App-Prozess](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} zu verwenden.
 
 ## Kampagnen {#campaigns}
 
@@ -29,7 +29,7 @@ Wenn Leads oder Kontakte direkt zu einer Kampagne hinzugefügt werden, werden si
 
 ## Aktivieren von Touchpoints {#enable-touchpoints}
 
-Um diese Datensätze in die Touchpoint-Journey einzubeziehen, gibt es einige Optionen für die zu synchronisierenden Kampagnenreaktionstypen. Im Campaign-Datensatz sollte ein benutzerdefiniertes Feld aus der installierten Lösung namens &quot;[!UICONTROL Käufer-Touchpoints aktivieren].&quot; Wenn dies nicht angezeigt wird, muss das Feld über den Formular-Editor hinzugefügt werden.
+Um diese Datensätze in die Touchpoint-Journey einzubeziehen, gibt es einige Optionen für die zu synchronisierenden Kampagnenreaktionstypen. Im Campaign-Datensatz sollte ein benutzerdefiniertes Feld aus der installierten Lösung mit der Bezeichnung &quot;[!UICONTROL Käufer-Touchpoints aktivieren]&quot;vorhanden sein. Wenn dies nicht angezeigt wird, muss das Feld über den Formular-Editor hinzugefügt werden.
 
 ![](assets/2.png)
 
@@ -49,9 +49,9 @@ Ein Grund dafür, dass eine Kampagnenantwort möglicherweise nicht angezeigt wir
 
 ## Touchpoint-Datum {#touchpoint-date}
 
-Das Touchpoint-Datum für eine Kampagne bezieht sich normalerweise auf das Datum, an dem die Kampagnenantwort zur Kampagne hinzugefügt wurde. Es kann überschrieben werden, wenn das benutzerdefinierte Feld aus der installierten Lösung mit der Bezeichnung &quot;Touchpoint-Datum des Käufers&quot;ausgefüllt wird. Wenn dies nicht angezeigt wird, muss das Feld über den Formular-Editor hinzugefügt werden.
+Das Touchpoint-Datum für eine Kampagne bezieht sich normalerweise auf das Datum, an dem die Kampagnenantwort zur Kampagne hinzugefügt wurde. Sie kann überschrieben werden, wenn das benutzerdefinierte Feld aus der installierten Lösung mit der Bezeichnung &quot;Buyer Touchpoint Date&quot;ausgefüllt wird. Wenn dies nicht angezeigt wird, muss das Feld über den Formular-Editor hinzugefügt werden.
 
-Ein gängiges Beispiel bei Verwendung dieses Felds ist die Verwendung von Ereignissen, bei denen eine Abzeichen-Liste von einem Ereignis aus dem CRM-System abgescannt wird, Tage nach dem Ereignis, sodass der Benutzer das Touchpoint-Datum des Käufers in den Zeitpunkt des Ereignisses zurücksetzen kann.
+Ein gängiges Beispiel bei Verwendung dieses Felds ist die Verwendung von Ereignissen, bei denen eine Badge-Liste von einem Ereignis aus dem CRM-System hinzugefügt wird, Tage nach dem Ereignis, sodass der Benutzer das Buyer Touchpoint-Datum in den Zeitpunkt des Ereignisses zurücksetzen kann.
 
 ![](assets/5.png)
 
@@ -59,21 +59,21 @@ Ein gängiges Beispiel bei Verwendung dieses Felds ist die Verwendung von Ereign
 
 Marketinglisten bieten eine weitere Möglichkeit, Leads oder Kontakte in eine Marketing-Journey aufzunehmen. Marketing-Listen sind für eine Gruppe von Leads oder Kontakten eindeutig, d. h. der Benutzer muss auswählen, ob es sich bei seiner Liste um Leads oder eine Gruppe von Kontakten handelt.
 
-[!DNL Marketo Measure] unterstützt nur statische Marketinglisten. Dynamische Marketinglisten werden nicht unterstützt, da für unsere Verarbeitung das Änderungsdatum eines Datensatzes geprüft werden muss. Da sich jedoch häufig eine dynamische Liste ändert, gibt es kein Änderungsdatum für [!DNL Marketo Measure] zu aktivieren. Dies würde einen konstanten Download des gesamten Datensatzes über den Tag hinweg erfordern.
+[!DNL Marketo Measure] unterstützt nur statische Marketinglisten. Dynamische Marketinglisten werden nicht unterstützt, da für unsere Verarbeitung das Änderungsdatum eines Datensatzes geprüft werden muss. Da sich jedoch häufig eine dynamische Liste ändert, gibt es kein Änderungsdatum, mit dem [!DNL Marketo Measure] verglichen werden kann. Dies würde einen konstanten Download des gesamten Datensatzes über den Tag hinweg erfordern.
 
 ![](assets/6.png)
 
-Der obige Screenshot ist eine Marketingliste für Leads. Marketinglisten sind mit Kampagnen verknüpft und können mehreren Kampagnen zugeordnet werden. Es sei denn, Sie erstellen nur eine Marketingliste für eine Kampagne, [!DNL Marketo Measure] empfiehlt Kunden nicht, zur Verfolgung ihrer Kampagnen Marketinglisten zu verwenden. Es ist unwahrscheinlich, dass dieselbe genaue Liste von Leads/Kontakten für Touchpoints in mehreren Kampagnen geeignet ist.
+Der obige Screenshot ist eine Marketingliste für Leads. Marketinglisten sind mit Kampagnen verknüpft und können mehreren Kampagnen zugeordnet werden. Sofern Sie nicht immer nur eine Marketingliste für eine Kampagne erstellen, empfiehlt [!DNL Marketo Measure] nicht, dass Kunden zur Verfolgung ihrer Kampagnen Marketinglisten verwenden. Es ist unwahrscheinlich, dass dieselbe genaue Liste von Leads/Kontakten für Touchpoints in mehreren Kampagnen geeignet ist.
 
 ## Aktivieren von Touchpoints {#enable-touchpoints-1}
 
-Um eine Marketing-Liste für Touchpoints zu aktivieren, gibt es eine separate Einstellung im Campaign-Datensatz mit der Bezeichnung &quot;&quot;.[!UICONTROL Marketinglisten synchronisieren],&quot; ein einfacher Ja/Nein-Schalter. Wenn dies nicht angezeigt wird, muss das Feld über den Formular-Editor hinzugefügt werden. Im Campaign-Datensatz können Sie sehen, welche Marketinglisten mit der Kampagne verbunden sind, sodass Sie wissen, wie viele Listen Sie aktivieren.
+Um eine Marketing-Liste für Touchpoints zu aktivieren, gibt es eine separate Einstellung im Campaign-Datensatz mit der Bezeichnung &quot;[!UICONTROL Marketinglisten synchronisieren]&quot;, die ein einfacher Ja/Nein-Schalter ist. Wenn dies nicht angezeigt wird, muss das Feld über den Formular-Editor hinzugefügt werden. Im Campaign-Datensatz können Sie sehen, welche Marketinglisten mit der Kampagne verbunden sind, sodass Sie wissen, wie viele Listen Sie aktivieren.
 
 ![](assets/7.png)
 
 ## Touchpoint-Datum {#touchpoint-date-1}
 
-Das Touchpoint-Datum für eine Marketing-Liste ist normalerweise das von ListMember erstellte Datum, sodass das Datum, an dem der Lead oder Kontakt zur Marketing-Liste hinzugefügt wurde, Es kann überschrieben werden, wenn das benutzerdefinierte Feld aus der installierten Lösung mit der Bezeichnung &quot;Touchpoint-Datum des Käufers&quot;ausgefüllt wird. Wenn dies nicht angezeigt wird, muss das Feld über den Formular-Editor hinzugefügt werden.
+Das Touchpoint-Datum für eine Marketing-Liste ist normalerweise das von ListMember erstellte Datum, sodass das Datum, an dem der Lead oder Kontakt zur Marketing-Liste hinzugefügt wurde, Sie kann überschrieben werden, wenn das benutzerdefinierte Feld aus der installierten Lösung mit der Bezeichnung &quot;Buyer Touchpoint Date&quot;ausgefüllt wird. Wenn dies nicht angezeigt wird, muss das Feld über den Formular-Editor hinzugefügt werden.
 
 ![](assets/8.png)
 
@@ -81,7 +81,7 @@ Das Touchpoint-Datum für eine Marketing-Liste ist normalerweise das von ListMem
 
 Dynamics-Kampagnen werden in Ihren benutzerdefinierten Marketing-Kanälen mithilfe des Felds Kampagnentyp zusammengefasst. Diese können im Menü Dynamics-Anpassungen geändert werden.
 
-Die Werte im Menü Kampagnentyp werden in die [!DNL Marketo Measure] Anwendung. **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Offline-Kanäle]**.
+Die Werte im Menü &quot;Kampagnentyp&quot;werden in die [!DNL Marketo Measure] -Anwendung gezogen. **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Offline-Kanäle]**.
 
 Für jeden Kampagnentyp kann er einer Kombination aus Kanal und Subkanal zugeordnet werden, sodass jeder aus der Kampagne abgeleitete Touchpoint über den korrekten zugeordneten Kanal und Subkanal verfügt.
 

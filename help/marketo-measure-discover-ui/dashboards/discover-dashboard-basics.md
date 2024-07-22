@@ -1,5 +1,5 @@
 ---
-description: Dashboard-Grundlagen - [!DNL Marketo Measure] - Produkt
+description: Dashboard-Grundlagen - [!DNL Marketo Measure]  - Produkt
 title: Entdecken Sie die Grundlagen von Dashboards
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545

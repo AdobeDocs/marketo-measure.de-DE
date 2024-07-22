@@ -14,7 +14,7 @@ ht-degree: 30%
 
 Im Folgenden finden Sie eine Liste von Fehlern, die Sie möglicherweise per In-App-Benachrichtigung oder E-Mail erhalten. Wenn Sie eines davon erhalten, führen Sie die entsprechenden Schritte zur Fehlerbehebung aus. Falls das Problem durch diese Schritte nicht gelöst werden kann, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support).
 
-So zeigen Sie die vollständige Benachrichtigungsinhalt an: [!DNL Marketo Measure]klicken **Alle anzeigen** unten auf der Registerkarte Benachrichtigungen .
+Um die vollständige Benachrichtigungsmeldung in [!DNL Marketo Measure] anzuzeigen, klicken Sie unten auf der Registerkarte &quot;Benachrichtigungen&quot;auf **Alle anzeigen** .
 
 ![](assets/error-notifications-1.png)
 
@@ -60,10 +60,11 @@ So zeigen Sie die vollständige Benachrichtigungsinhalt an: [!DNL Marketo Measur
     <tr>
       <td>CANNOT_EXECUTE_FLOW_TRIGGER</td>
       <td>Fehler beim CRM-Export: CANNOT_EXECUTE_FLOW_TRIGGER : Entitätstyp "Kontakt"Geben Sie Ihrem Salesforce-Administrator diese Informationen.
-Die Beschränkung hat überschritten Sie oder Ihr Unternehmen hat die Höchstgrenze für diese Funktion überschritten. Fehler-ID: 123456</td>
+Limit überschritten
+Sie oder Ihr Unternehmen haben die Höchstgrenze für diese Funktion überschritten. Fehler-ID: 123456</td>
       <td>Der Datensatz kann nicht gespeichert werden, da er keine Trigger-Flow-Regel erfüllt, die in der Salesforce-Organisation eingerichtet ist.</td>
       <td>Überprüfen Sie die vollständigen Details der Benachrichtigungsmeldung und überprüfen Sie die Fluss-Trigger in der Salesforce-Organisation.
-Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">finden Sie hier .</a>.
+Die Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">finden Sie hier</a>.
       </td>
     </tr>
     <tr>
@@ -84,24 +85,24 @@ Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce.com
           </li>
         </ul>
         <p>
-        Stellen Sie alle erforderlichen Berechtigungen für die <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Marketo Measure-Benutzer</a>.
+        Gewähren Sie dem <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Marketo Measure-Benutzer</a> alle erforderlichen Berechtigungen.
       </td>
     </tr>
     <tr>
       <td>DUPLICATES_DETECTED</td>
       <td>Fehler beim CRM-Export: DUPLICATES_DETECTED : Entitätstyp 'Contact': CRM ErrorCode: DUPLICATES_DETECTED, CRM ErrorMessage: Sie erstellen einen doppelten Datensatz. Wir empfehlen stattdessen die Verwendung eines vorhandenen Datensatzes. RecordId: 0123456</td>
       <td>Der in die Salesforce-Org importierte Datensatz ist bereits vorhanden.</td>
-      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Die Einstellung "Regel duplizieren"deaktivieren</a> , um Duplikate zuzulassen.
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Deaktivieren Sie die Einstellung "Regel duplizieren"</a> , um Duplikate zuzulassen.
           <p>
-          Ausschluss des dedizierten Marketo Measure-Benutzers von <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierte Validierungsregeln</a>.</td>
+          Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.</td>
     </tr>
     <tr>
       <td>DUPLICATE_VALUE</td>
       <td>Fehler während CRM-Export: DUPLICATE_VALUE : Entitätstyp 'Lead': CRM ErrorCode: DUPLICATE_VALUE, CRM ErrorMessage: duplicate value found: Email_Unique__c dupliziert Wert auf Datensatz mit ID: 123, RecordId: 456</td>
       <td>Das in die Salesforce-Organisation importierte Feld erlaubt keine doppelten Werte.</td>
-      <td>Deaktivieren Sie die <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Eindeutiges Kontrollkästchen"</a> in Salesforce.
+      <td>Deaktivieren Sie das Kontrollkästchen <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Eindeutige Checkbox"</a> in Salesforce.
           <p>
-          Ausschluss des dedizierten Marketo Measure-Benutzers von <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierte Validierungsregeln</a>.</td>
+          Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.</td>
     </tr>
     <tr>
       <td>ENTITY_IS_LOCKED</td>
@@ -110,7 +111,7 @@ Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce.com
       <td>
         <ul>
           <li>Lösen Sie den ausstehenden Genehmigungsprozess für diesen Datensatz in der Salesforce-Organisation.</li>
-          <li>Ausschluss des dedizierten Marketo Measure-Benutzers von <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierte Validierungsregeln</a>.
+          <li>Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.
           </li>
         </ul>
       </td>
@@ -119,7 +120,7 @@ Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce.com
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
       <td>Fehler beim CRM-Export: FIELD_FILTER_VALIDATION_EXCEPTION : Entitätstyp 'Lead': CRM ErrorCode: FIELD_FILTER_VALIDATION_EXCEPTION, Field(s): User__C, CRM ErrorMessage: Wert ist nicht vorhanden oder entspricht nicht den Filterkriterien. Bitte wählen Sie einen Benutzer mit der Rolle "Account Executive, Inside Sales"; RecordId: 0123456</td>
       <td>Geänderter Datensatz erfüllt keine Nachschlagefilter mehr, die für das Objekt definiert sind.</td>
-      <td>Suchen Sie nach Filtern für das Objekt, das Marketo Measure zu ändern versucht. Siehe <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">dieser Salesforce-Artikel</a> , um zu erfahren, wie Sie nach Filtern für ein Objekt suchen.</td>
+      <td>Suchen Sie nach Filtern für das Objekt, das Marketo Measure zu ändern versucht. In <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">diesem Salesforce-Artikel</a> erfahren Sie, wie Sie nach Filtern für ein Objekt suchen.</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
@@ -128,7 +129,7 @@ Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce.com
       <td>Der häufigste Fall dabei ist, dass nicht die in der Salesforce-Organisation festgelegten Benennungsstandards für Bundesstaaten/Länder eingehalten werden, da die Felder Bundesland/Land so standardisiert wurden, dass nur bestimmte Werte der Auswahlliste akzeptiert werden. Um dieses Problem zu beheben, können Sie:
         <ul>
           <li>Aktualisieren Sie den Datensatz, um den für dieses Feld akzeptierten Werten der Organisation zu folgen. Wenden Sie sich an Ihren SFDC-Administrator, um die Liste der akzeptierten Werte zu erhalten.</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">Deaktivieren Sie die Auswahl-Listen "Bundesland"und "Land"</a>.
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">Deaktivieren Sie die Auswahl-Listen "Bundesland/Land"</a>.
           </li>
         </ul>
       </td>
@@ -137,13 +138,13 @@ Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce.com
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>Fehler beim CRM-Export: INACTIVE_OWNER_OR_USER : Entitätstyp 'Contact': CRM ErrorCode: INACTIVE_OWNER_OR_USER, CRM ErrorMessage: Vorgang ausgeführt mit inaktivem Benutzer [1234] als Inhaber des Kontakts, RecordId: 0123456</td>
       <td>Marketo Measure fehlt die Berechtigung "Datensätze mit inaktiven Eigentümern aktualisieren".</td>
-      <td>Gewähren Sie Marketo Measure die "<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">Aktualisieren von Datensätzen mit inaktiven Inhabern</a>".</td>
+      <td>Gewähren Sie Marketo Measure die Berechtigung "<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">Aktualisieren von Datensätzen mit inaktiven Eigentümern</a>".</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
       <td>Fehler beim CRM-Export: INSUFFICIENT_ACCESS_OR_READONLY : Entitätstyp 'Konto': CRM ErrorCode: INSUFFICIENT_ACCESS_OR_READONLY, CRM ErrorMessage: Ungenügende Zugriffsrechte auf Objekt-ID: [123], RecordId: 456</td>
       <td>Marketo Measure fehlt Berechtigungen für ein Objekt/Feld oder das Objekt ist schreibgeschützt.</td>
-      <td>Siehe Folgendes <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Experience League-Artikel</a> für Anleitungen zu den Berechtigungen, die Marketo Measure benötigt.</td>
+      <td>Eine Anleitung zu den Berechtigungen, die Marketo Measure benötigt, finden Sie im folgenden <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Experience League-Artikel</a> .</td>
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
@@ -225,9 +226,9 @@ Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce.com
       <td>Marketo Measure fehlt Berechtigungen.</td>
       <td>Es gibt mehrere Gründe für diesen Fehler, die speziell für die Salesforce-Organisation gelten. Im Folgenden finden Sie einige gängige Schritte zur Fehlerbehebung, die das Problem beheben können:
         <ul>
-          <li>Überprüfen Sie alle Berechtigungen, die wir für jede <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Objekt und Feld</a>.</li>
-          <li>Ausschluss des dedizierten Marketo Measure-Benutzers von <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierte Validierungsregeln</a>.</li>
-          <li>Marketo Measure gewähren "<a href="https://developer.salesforce.com/docs/atlas.de-DE.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">Alle ändern</a>".</li>
+          <li>Überprüfen Sie alle Berechtigungen, die wir für jedes <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Objekt und Feld</a> benötigen.</li>
+          <li>Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.</li>
+          <li>Erteilen Sie Marketo Measure die Berechtigungen "<a href="https://developer.salesforce.com/docs/atlas.de-DE.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">Alle ändern</a>".</li>
         </ul>
       </td>
     </tr>
@@ -252,7 +253,7 @@ Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce.com
       <td>RECORD_NONCOMPLIANT_WITH_VALIDATION_RULES</td>
       <td>Fehler beim CRM-Export: RECORD_NONCOMPLIANT_WITH_VALIDATION_RULES : Entitätstyp 'Lead': CRM ErrorCode: FIELD_CUSTOM_VALIDATION_EXCEPTION, Field(s): Lead_Status_Reason__c, CRM ErrorMessage: Sie müssen den Lead-Status-Grund, RecordId: 0123 auswählen. 456</td>
       <td>Der zu aktualisierende Datensatz entspricht nicht einem Überprüfungsregelsatz in der Salesforce-Organisation.</td>
-      <td>Ausschluss des dedizierten Marketo Measure-Benutzers von <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierte Validierungsregeln</a>.
+      <td>Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.
       <p>
       Aktualisieren Sie Ihre <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">Validierungsregeln</a>.</td>
     </tr>
@@ -262,14 +263,14 @@ Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce.com
       <td>Wenn die Option "Auswahlliste auf die in der Wertesatz definierten Werte beschränken"in der Einrichtung des Picklist-Felds aktiviert ist oder der in das Feld eingefügte Wert im Datensatztyp des Objekts nicht verfügbar ist.</td>
       <td>Deaktivieren Sie die Einstellung "Auswahlliste einschränken"in der Salesforce-Organisation.
           <p>
-          Ausschluss des dedizierten Marketo Measure-Benutzers von <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierte Validierungsregeln</a>.
+          Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.
       </td>
     </tr>
     <tr>
       <td>REQUIRED_FIELD_MISSING</td>
       <td>Fehler beim CRM-Export: MISSING_REQUIRED_FIELD : Entitätstyp 'Lead': CRM ErrorCode: REQUIRED_FIELD_MISSING, Field(s): Product_Type__c, CRM ErrorMessage: Erforderliche Felder fehlen: [Product_Type__c], RecordId: 0123456</td>
       <td>Wenn eine Validierungsregel Pflichtfelder für Objekte angibt.</td>
-      <td>Ausschluss des dedizierten Marketo Measure-Benutzers von <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierte Validierungsregeln</a>.
+      <td>Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.
       </td>
     </tr>
     <tr>

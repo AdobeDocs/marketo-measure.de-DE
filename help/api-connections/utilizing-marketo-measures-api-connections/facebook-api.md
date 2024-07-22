@@ -7,7 +7,7 @@ feature: APIs, Integration, UTM Parameters
 source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -15,26 +15,26 @@ ht-degree: 2%
 
 ## Einführung {#introduction}
 
-Ähnlich wie unsere AdWords &amp; [!DNL Bing Ads] Integrationen, unsere [!DNL Facebook] -Integration umfasst zwei grundlegende Aktionen:
+Ähnlich wie bei unseren AdWords- und [!DNL Bing Ads]-Integrationen führt unsere [!DNL Facebook]-Integration zwei grundlegende Aktionen aus:
 
-* Alle automatisch taggen [!DNL Facebook] Anzeigen mit einer [!DNL Marketo Measure] Parameter (_bf)
+* Alle [!DNL Facebook] Anzeigen automatisch mit einem [!DNL Marketo Measure] -Parameter (_bf) versehen
 * Informationen zu Anzeigenkosten für alle aktiven Facebook-Anzeigen herunterladen
 
-## Konfigurieren der [!DNL Facebook] Integration {#how-to-configure-the-facebook-integration}
+## Konfigurieren der [!DNL Facebook]-Integration {#how-to-configure-the-facebook-integration}
 
-Was die Einrichtung anbelangt, so müssen innerhalb der [!DNL Marketo Measure] App.
+Was die Einrichtung anbelangt, so müssen in der [!DNL Marketo Measure]-App sieben Schritte ausgeführt werden.
 
 1. Navigieren Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} und melden Sie sich an.
-1. Wählen Sie unter Mein Konto die Option **[!UICONTROL Einstellungen]**.
-1. Wählen Sie unter Integrationen die Option **[!UICONTROL Verbindungen]**.
-1. Auswählen **[!UICONTROL Einrichten einer neuen Werbeverbindung]** und ein Popup angezeigt. Auswählen **[!UICONTROL Facebook]** und melden Sie sich mit Ihren Facebook-Anmeldedaten an.
+1. Wählen Sie unter Mein Konto die Option **[!UICONTROL Einstellungen]** aus.
+1. Wählen Sie unter &quot;Integrationen&quot;die Option **[!UICONTROL Verbindungen]**.
+1. Wählen Sie **[!UICONTROL Neue Werbeverbindung einrichten]** aus. Daraufhin wird ein Popup-Fenster angezeigt. Wählen Sie **[!UICONTROL Facebook]** aus und melden Sie sich mit Ihren Facebook-Anmeldedaten an.
 
    >[!NOTE]
    >
-   >Die Person, die [!DNL Facebook Ads] -Konto muss ein Administrator innerhalb der [!DNL Facebook Ads] -Konto.
+   >Die Person, die das [!DNL Facebook Ads] -Konto verbindet, muss ein Administrator innerhalb des [!DNL Facebook Ads] -Kontos sein.
 
-1. Einmal [!DNL Marketo Measure] mit Ihrem Facebook-Konto verbunden ist, klicken Sie auf das Stiftsymbol neben dem Konto.
-1. Verschieben Sie in dieser Ansicht das &quot;Auto-Tagging?&quot; auf &quot;Ja&quot;umschalten. Aktivieren Sie dann das Kontrollkästchen im [!UICONTROL Weitere Infos] -Abschnitt, um die Geschäftsbedingungen zu vereinbaren. Stellen Sie sicher, dass [!UICONTROL Automatisches Tagging] Umschalter ist weiterhin auf &quot;[!UICONTROL Ja]&quot;.
+1. Sobald [!DNL Marketo Measure] mit Ihrem Facebook-Konto verbunden ist, klicken Sie auf das Stiftsymbol neben dem Konto.
+1. Verschieben Sie in dieser Ansicht das &quot;Auto-Tagging?&quot; auf &quot;Ja&quot;umschalten. Aktivieren Sie dann das Kontrollkästchen im Abschnitt [!UICONTROL Mehr erfahren] , um den Nutzungsbedingungen zuzustimmen. Stellen Sie sicher, dass der Umschalter [!UICONTROL Automatisches Tagging] weiterhin auf &quot;[!UICONTROL Ja]&quot;festgelegt ist.
 
 ## Konto verbinden {#connecting-the-account}
 
@@ -44,13 +44,13 @@ Was die Einrichtung anbelangt, so müssen innerhalb der [!DNL Marketo Measure] A
 
 >[!NOTE]
 >
->Wenn Sie das automatische Tagging aktivieren, werden wir den Konversionsverlauf und den Social-Testversand aller Anzeigen zurücksetzen, die wir taggen. Wir empfehlen dringend [Exportieren dieser Daten als CSV](https://www.facebook.com/business/help/205067636197240) bevor Sie das automatische Tagging aktivieren.
+>Wenn Sie das automatische Tagging aktivieren, werden wir den Konversionsverlauf und den Social-Testversand aller Anzeigen zurücksetzen, die wir taggen. Es wird dringend empfohlen, [diese Daten als CSV](https://www.facebook.com/business/help/205067636197240) zu exportieren, bevor Sie das automatische Tagging aktivieren.
 
 ![](assets/2-2.png)
 
-Sobald Sie die Integration aktiviert haben, [!DNL Marketo Measure] beginnt mit dem Herunterladen der Kosten auf Anzeigenebene in die [!DNL Marketo Measure Marketing ROI] Dashboard.
+Sobald Sie die Integration aktiviert haben, beginnt [!DNL Marketo Measure] mit dem Herunterladen der Kosten auf Anzeigenebene in das [!DNL Marketo Measure Marketing ROI]-Dashboard.
 
-Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische Tagging in Ihrer [!DNL Facebook] -Konto. Dadurch kann unser System einen _bf -Parameter für alle Anzeigenlinks hinzufügen. Durch diesen Prozess wird der neue Parameter zusätzlich zu allen anderen Tracking-Parametern hinzugefügt, die Sie bereits zu Ihrem [!DNL Facebook] Anzeigen.
+Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische Tagging in Ihrem [!DNL Facebook] -Konto aktivieren. Dadurch kann unser System einen _bf -Parameter für alle Anzeigenlinks hinzufügen. Dadurch wird der neue Parameter zusätzlich zu allen anderen Tracking-Parametern hinzugefügt, die Sie bereits zu Ihren [!DNL Facebook] -Anzeigen hinzugefügt haben.
 
 ![](assets/3.gif)
 
@@ -72,7 +72,7 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
   </tr> 
   <tr> 
    <td><p>Name der Anzeigenkampagne </p></td> 
-   <td><p>[[!DNL Facebook] Kampagnenname] oder [utm_campaign] , falls angegeben</p></td> 
+   <td><p>[[!DNL Facebook] Kampagnenname] oder [utm_campaign], falls angegeben</p></td> 
   </tr> 
   <tr> 
    <td><p>Anzeigengruppen-ID</p></td> 
@@ -80,11 +80,11 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
   </tr> 
   <tr> 
    <td><p>Werbegruppenname</p></td> 
-   <td><p>[[!DNL Facebook] Anzeigensetname]</p></td> 
+   <td><p>[[!DNL Facebook] Name des Anzeigensets]</p></td> 
   </tr> 
   <tr> 
    <td><p>Touchpoint-Quelle</p></td> 
-   <td><p>"[!DNL Facebook]", oder [utm_source] , falls angegeben</p></td> 
+   <td><p>"[!DNL Facebook]" oder [utm_source] , falls angegeben</p></td> 
   </tr> 
   <tr> 
    <td><p>Medium</p></td> 
@@ -131,30 +131,30 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
 
 ## FAQs {#faq}
 
-**F: Was [!DNL Facebook] Anzeigen werden von [!DNL Marketo Measure]?**
+**Q: Welche [!DNL Facebook] Anzeigen werden von [!DNL Marketo Measure] unterstützt?**
 
 A: Karussell, Einzelbild. Derzeit nicht Video, Bildschirmpräsentation oder Sammlung.
 
-**F: Was ist der soziale Schutz?**
+**Q: Was ist der soziale Schutz?**
 
 A: Der soziale Beweis ist eine sichtbare Interaktion wie &quot;Gefällt mir&quot;-Klicks, Klicks, Kommentare und &quot;Teilen&quot;-Klicks.
 
-**F: Was passiert, wenn [!DNL Marketo Measure] Tags der Anzeige?**
+**Q: Was passiert, wenn [!DNL Marketo Measure] die Anzeige markiert?**
 
-A: [!DNL Facebook] erlaubt es nicht, Anzeigen so zu bearbeiten [!DNL Marketo Measure] muss das Kreativelement, das die Ziel-URL enthält, löschen und dann die Anzeige mit den neuen Parametern neu erstellen.
+A: [!DNL Facebook] lässt die Bearbeitung von Anzeigen nicht zu, sodass [!DNL Marketo Measure] die Kreativelemente, die die Ziel-URL enthalten, löschen und dann die Anzeige mit den neuen Parametern neu erstellen muss.
 
-**F: Warum passiert [!DNL Marketo Measure] Alle aktualisieren [!DNL Facebook] Werbeanzeigen?**
+**Q: Warum aktualisiert [!DNL Marketo Measure] alle [!DNL Facebook] Anzeigen?**
 
-A: Die [!DNL Marketo Measure] -Prozess besteht darin, alle Anzeigen zu taggen, falls sie erneut aktiviert werden.
+A: Der [!DNL Marketo Measure]-Prozess besteht darin, alle Anzeigen für den Fall zu taggen, dass sie erneut aktiviert werden.
 
-**F: Welche Berechtigung benötigt der verbundene Benutzer?**
+**Q: Welche Berechtigung benötigt der verbundene Benutzer?**
 
 A: ads_management, email
 
-**F: Wie lange kann der Import von Ausgabedaten dauern?**
+**Q: Wie lange kann es dauern, Ausgabedaten zu importieren?**
 
 A: 1 Stunde
 
-**F: Wie lange kann der Import von Anzeigendaten dauern?**
+**Q: Wie lange kann der Import von Anzeigendaten dauern?**
 
 A: 4 Stunden

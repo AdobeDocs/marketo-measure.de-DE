@@ -14,41 +14,41 @@ ht-degree: 4%
 
 ## Überblick {#overview}
 
-Der Abschnitt &quot;Staging-Zuordnung&quot;Ihrer [!DNL Marketo Measure] -Konto beschreibt die Schritte, die [!DNL Marketo Measure] ruft automatisch aus Ihrem CRM-System und allen benutzerdefinierten Phasen ab, die Sie bei Verwendung des benutzerdefinierten Attributionsmodells definiert haben. Die Gültigkeit Ihrer [!DNL Marketo Measure] Daten beruhen darauf, dass diese Bühnen korrekt angeordnet werden, sodass [!DNL Marketo Measure] kann Ihren Trichter und das Fortschreiten der Datensätze im gesamten Trichter genau verstehen.
+Im Abschnitt &quot;Staging-Zuordnung&quot;Ihres [!DNL Marketo Measure]-Kontos werden die Phasen beschrieben, die [!DNL Marketo Measure] automatisch aus Ihrem CRM-System abruft, sowie alle benutzerdefinierten Phasen, die Sie bei Verwendung des benutzerdefinierten Attributionsmodells definiert haben. Die Gültigkeit Ihrer [!DNL Marketo Measure] -Daten hängt davon ab, dass diese Schritte korrekt sortiert werden, damit [!DNL Marketo Measure] Ihren Trichter und den Verlauf der Datensätze im gesamten Trichter genau verstehen kann.
 
-Im Abschnitt &quot;Staging-Zuordnung&quot;Ihrer [!DNL Marketo Measure] -Instanz werden sowohl aktive als auch inaktive Phasen aus Ihrem CRM-System angezeigt. Ordnen Sie alle Bühnen nach bestem Wissen und Gewissen an, wie Ihr Trichter heute ist.
+Im Abschnitt &quot;Staging-Zuordnung&quot;Ihrer [!DNL Marketo Measure]-Instanz werden sowohl aktive als auch inaktive Phasen aus Ihrem CRM-System angezeigt. Ordnen Sie alle Bühnen nach bestem Wissen und Gewissen an, wie Ihr Trichter heute ist.
 
-Eine zusätzliche Funktion, die in diesem Abschnitt verwaltet wird, sind Trichterschritte, mit denen Sie Bühnen zum Trichter hinzufügen können, ohne eine Attribution anzuwenden. Trichterphasen werden als Touchpoints verfolgt und im Feld Touchpoint-Positionen in Ihrem CRM-System ausgefüllt. Diese Trichterphasen werden auch in verschiedenen Journey-Pinnwänden in [!DNL Marketo Measure] Entdecken Sie.
+Eine zusätzliche Funktion, die in diesem Abschnitt verwaltet wird, sind Trichterschritte, mit denen Sie Bühnen zum Trichter hinzufügen können, ohne eine Attribution anzuwenden. Trichterphasen werden als Touchpoints verfolgt und im Feld Touchpoint-Positionen in Ihrem CRM-System ausgefüllt. Diese Trichterphasen werden auch in verschiedenen Journey-Pinnwänden in [!DNL Marketo Measure] Discover dargestellt.
 
 ## Bewährte Methoden {#best-practices}
 
 Unabhängig davon, ob Sie Ihre Staging-Zuordnung zum ersten Mal bewerten oder Ihre Trichterreihenfolge überprüfen, sollten Sie die folgenden Best Practices beachten.
 
 * Ordnung ist alles!
-   * Überlegungen [!DNL Marketo Measure] ruft aktive und inaktive Phasen aus Ihrem CRM ab, bestätigen Sie, dass alle Phasen, die für Lead/Kontakt oder Chancen verwendet werden können, gruppiert und entsprechend geordnet sind.
+   * Prüfen Sie unter Berücksichtigung von [!DNL Marketo Measure] , ob aktive und inaktive Phasen aus Ihrem CRM-System in allen Phasen, die auf Lead/Kontakt oder Opportunity verwendet werden können, gruppiert und entsprechend geordnet sind.
 * Stellen Sie beim Definieren einer benutzerdefinierten Phase sicher, dass das Verfolgen des Feldverlaufs für alle Felder aktiviert ist, die zum Definieren der Phase verwendet werden
 * Verwenden Sie kein Formelfeld, um eine benutzerdefinierte Phase zu definieren
    * Ein boolesches Feld ist die Best Practice-Empfehlung
 * Beachten Sie, dass der Abschnitt Lead- oder Kontaktphase in Verloren, Offen und Konvertiert unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden.
-   * Das Vorhandensein einer Phase im falschen Abschnitt kann zu einer hochgradig falschen Einstellung führen [!DNL Marketo Measure] data
-   * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr Standard-Dashboard-Objekt auf &quot;Kontakt&quot;festgelegt haben, verwenden Sie nicht die folgenden beiden für &quot;Lead&quot;([Weitere Informationen](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Eine Bühne im falschen Abschnitt &quot;Bühne&quot;kann zu hochgradig falschen [!DNL Marketo Measure]-Daten führen
+   * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr standardmäßiges Dashboard-Objekt als &quot;Kontakt&quot;festgelegt haben, verwenden Sie nicht die folgenden beiden für &quot;Lead&quot;spezifischen Felder ([Weitere Informationen](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Beachten Sie, dass der Abschnitt &quot;Opportunity stage&quot;in Lost, Open und Won unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden.
-   * Das Vorhandensein einer Phase im falschen Abschnitt kann zu einer hochgradig falschen Einstellung führen [!DNL Marketo Measure] Umsatz- oder Pipeline-Umsatzdaten
+   * Wenn sich eine Phase im falschen Abschnitt befindet, kann dies zu sehr falschen [!DNL Marketo Measure] Umsatz- oder Pipeline-Umsatzdaten führen
 * Vermeiden Sie die Verwendung doppelter Staging-Namen (unser System erkennt sie und entfernt sie automatisch).
 * Wenn Sie eine Regel festlegen möchten, die nach NULL-Werten sucht, lassen Sie das Textfeld &quot;Wert&quot;leer.
 
 ## Best Practices für Wartung {#best-practices-for-maintenance}
 
-Wenn Sie Ihre Staging-Zuordnung einmal jährlich überprüfen, stellen Sie sicher, dass Ihre Opportunity-Daten in [!DNL Marketo Measure] genau und auf dem neuesten Stand ist.
+Wenn Sie Ihre Staging-Zuordnung einmal jährlich überprüfen, stellen Sie sicher, dass Ihre Opportunity-Daten in [!DNL Marketo Measure] korrekt und aktuell sind.
 
 Andere Gründe, die eine Überprüfung Ihrer Staging-Zuordnung Trigger haben könnten, sind ...
 
 * Wechsel in Ihrem Marketing-Team
 * Alle Änderungen an Ihren CRM-Phasen
 * Aktualisierungen am Trichter Ihrer Organisation
-* Anzeigen falscher Umsatzdaten in Ihrer [!DNL Marketo Measure] Berichterstellung
+* Anzeige falscher Umsatzdaten in Ihren [!DNL Marketo Measure] Berichten
 
 >[!MORELIKETHIS]
 >

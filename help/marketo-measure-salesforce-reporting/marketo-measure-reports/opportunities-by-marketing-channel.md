@@ -15,13 +15,13 @@ ht-degree: 4%
 
 Dieser Bericht überdeckt die Anzahl der Möglichkeiten, die Ihre Marketingkanäle bieten. Er enthält alle Ihre Möglichkeiten. Sie können diesen Bericht jedoch filtern, um bestimmte Arten von Möglichkeiten zu analysieren.
 
-1. Klicken Sie auf **[!UICONTROL Berichte]** Registerkarte in Salesforce und wählen Sie **[!UICONTROL Neuer Bericht]**.
+1. Klicken Sie in Salesforce auf die Registerkarte **[!UICONTROL Berichte]** und wählen Sie **[!UICONTROL Neuer Bericht]** aus.
 
-1. Suchen Sie im Schnellsuche-Feld &quot;Bizible Attribution&quot;und wählen Sie die **[!UICONTROL Bizible Attribution Touchpoint mit Chancen]** Berichtstyp und wählen Sie **[!UICONTROL Erstellen]**.
+1. Suchen Sie im Schnellsuche-Typ den Berichtstyp &quot;Bizible Attribution&quot;, wählen Sie den Berichtstyp **[!UICONTROL Bizible Attribution Touchpoint mit Opportunity]** und wählen Sie **[!UICONTROL Erstellen]** aus.
 
    ![](assets/1-2.jpg)
 
-1. Ab Berichtsanfang zeigen Sie **[!UICONTROL Alle Touchpoints der biziblen Attribution]** und passen Sie das Datumsfeld an den Zeitrahmen an, über den Sie einen Bericht erstellen möchten. In unserem Beispiel betrachten wir &quot;All Time&quot;. Ändern Sie außerdem das Berichtsformat von [!UICONTROL Tabulatorisch] nach **[!UICONTROL Zusammenfassung]**.
+1. Zeigen Sie oben im Bericht **[!UICONTROL Alle biziblen Attribution-Touchpoints]** an und passen Sie das Datumsfeld an den Zeitrahmen an, über den Sie Berichte erstellen möchten. In unserem Beispiel betrachten wir &quot;All Time&quot;. Ändern Sie außerdem das Berichtsformat von [!UICONTROL Tabellarisch] in **[!UICONTROL Zusammenfassung]**.
 
    ![](assets/2-2.jpg)
 

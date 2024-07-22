@@ -1,6 +1,6 @@
 ---
 description: '[!DNL Salesforce] Paketkonsolidierung - [!DNL Marketo Measure]'
-title: '[!DNL Salesforce] Package-Konsolidierung'
+title: '[!DNL Salesforce] Paketkonsolidierung'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
 source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
@@ -25,11 +25,11 @@ Das neue konsolidierte V2-Paket umfasst alle Funktionen und Funktionen der vorhe
 Es gibt zwei neue Felder, um Ihre Berichterstellungsfunktionen zu verbessern:
 
 * form_name: Dieses Feld ist jetzt in BT-/BAT-Objekten verfügbar und ermöglicht Benutzenden das Erstellen von Berichten anhand von Formularnamen.
-* user_touchpoint_id: Dieses Feld ermöglicht Benutzern das Erstellen von Berichten mit Touchpoint-Zählungen für Unique Users (`bizible2__User_Touchpoint_V2__c` Salesforce).
+* user_touchpoint_id: Dieses Feld ermöglicht Benutzern das Erstellen von Berichten mit Touchpoint-Zählungen für Unique Users (`bizible2__User_Touchpoint_V2__c` in Salesforce).
 
 ## Unterstützung und Übergang {#support-and-transition}
 
-Die [Supportteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} ist verfügbar, um alle Fragen zu beantworten und einen reibungslosen Übergang zum neuen konsolidierten Paket zu gewährleisten.
+Das [Supportteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} ist verfügbar, um alle Fragen zu beantworten und einen reibungslosen Übergang zum neuen konsolidierten Paket zu gewährleisten.
 
 ## Erforderliche Aktionen {#retired-actions}
 
@@ -51,13 +51,13 @@ Die [Supportteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_b
 
 ## FAQs {#faq}
 
-**Wird das konsolidierte Paket Konflikte mit Feldern in meinem bestehenden Paket haben?**
+**Wird das konsolidierte Paket Konflikte mit Feldern in meinem vorhandenen Paket haben?**
 
 Sie müssen Ihr Paket nicht deinstallieren, bevor Sie das konsolidierte Paket installieren. Es gibt keine Konflikte in Feldern, da sie sich in einem anderen Namespace befinden.
 
 **Wie kann ich die Daten aus meinen aktuellen Paketen aufstocken?**
 
-Sie können ein Ticket erstellen [mit Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} zum Aufstocken und Wiederaufbereiten von BT-/BAT-Daten, um die Felder &quot;Touchpoint-ID&quot;und &quot;Formular-ID&quot;auszufüllen.
+Sie können ein Ticket [mit Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} für die Aufstockung und Wiederaufbereitung von BT/BAT-Daten einreichen, um die Felder &quot;Touchpoint-ID&quot;und &quot;Formular-ID&quot;auszufüllen.
 
 **Sind die Felder in den Paketen V1 und V2_EXT im konsolidierten Paket verfügbar?**
 
@@ -65,4 +65,4 @@ Ja. Das konsolidierte Paket enthält dieselben Felder in V1 mit weiteren Aufschl
 
 **Können Berichte, die V2_EXT-Felder verwenden, im konsolidierten Paket neu erstellt werden?**
 
-Ja. Führen Sie die Schritte im Abschnitt [Erforderliche Aktionen](#retired-actions) Abschnitt.
+Ja. Führen Sie die Schritte im Abschnitt [Erforderliche Aktionen](#retired-actions) aus.

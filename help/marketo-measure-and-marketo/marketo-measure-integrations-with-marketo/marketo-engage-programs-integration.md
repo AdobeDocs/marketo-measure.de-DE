@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # [!DNL Marketo Engage] Programmintegration {#marketo-engage-programs-integration}
 
-Durch die [!DNL Marketo Measure] Integration mit [!DNL Marketo Engage] Bei Programmen können unsere Kunden anfangen, Touchpoints für das Attributions-Tracking über die Marketo-Programmmitgliedschaften zu erstellen. Mit dieser Funktion können Marketingexperten mit dem Verfolgen von Programmmitgliedschaften aus E-Mail- oder Interaktionsprogrammen beginnen, die ansonsten von der [!DNL Marketo Measure] JavaScript und sollten innerhalb der Attribution-Journey gemessen werden.
+Durch die Integration von [!DNL Marketo Measure] in [!DNL Marketo Engage] Programme können unsere Kunden anfangen, Touchpoints für die Attribution-Verfolgung über die Marketo-Programmmitgliedschaften zu erstellen. Mit dieser Funktion können Marketingexperten Programmmitgliedschaften aus E-Mail- oder Interaktionsprogrammen verfolgen, die ansonsten nicht vom JavaScript [!DNL Marketo Measure] angezeigt werden und innerhalb der Attribution-Journey gemessen werden sollten.
 
 ## Verfügbarkeit {#availability}
 
@@ -23,7 +23,7 @@ Alle Ebenen.
 
 * Marketo-Produktionsinstanz
 * Produktions-Salesforce oder Microsoft Dynamics-Instanz
-* Entrichtete [!DNL Marketo Measure] Abonnement
+* Beliebiges bezahltes [!DNL Marketo Measure]-Abonnement
 * Marketo People Sync aktiviert ([!DNL Marketo Measure] Einstellungen)
 * Marketo-Programme aktiviert ([!DNL Marketo Measure] Einstellungen)
 
@@ -31,7 +31,7 @@ Alle Ebenen.
 
 **Regeln**
 
-1. Um mit der Einrichtung von Regeln für Marketo-Programme zu beginnen, navigieren Sie zu **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Programme]**. Klicken Sie auf **+** -Symbol, um Ihre erste Regel zu erstellen.
+1. Um Regeln für Marketo-Programme einzurichten, navigieren Sie zu **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Programme]** . Klicken Sie auf das Symbol **+** , um mit der Erstellung Ihrer ersten Regel zu beginnen.
 
    ![](assets/one.png)
 
@@ -45,13 +45,13 @@ Alle Ebenen.
 
    ![](assets/four.png)
 
-1. Wählen Sie aus, welches Datums- oder Datums-/Uhrzeitfeld für die Zuordnung zum Touchpoint-Datum verwendet werden soll. Um die Liste der in Marketo verfügbaren Werte anzuzeigen, geben Sie eine geschweifte Klammer ein `{` und wir zeigen die verfügbaren Felder an.
+1. Wählen Sie aus, welches Datums- oder Datums-/Uhrzeitfeld für die Zuordnung zum Touchpoint-Datum verwendet werden soll. Um die Liste der in Marketo verfügbaren Werte anzuzeigen, geben Sie eine geschweifte Klammer `{` ein. Daraufhin werden die verfügbaren Felder angezeigt.
 
    ![](assets/five.png)
 
    >[!NOTE]
    >
-   >Wenn Ihre Regel das Aktivitätsdatum oder das Datum, an dem ein Programmmitglied einen bestimmten Status erreicht hat, erfassen möchte, sollten Sie die Variable [!DNL Marketo Engage] Integration von Aktivitäten und Einrichten einer Regel für den Aktivitätstyp &quot;Änderungsstatus in Progression&quot;.
+   >Wenn Ihre Regel das Aktivitätsdatum oder das Datum erfassen möchte, an dem ein Programmmitglied einen bestimmten Status erreicht hat, sollten Sie die Aktivitätsintegration [!DNL Marketo Engage] verwenden und eine Regel für den Aktivitätstyp &quot;Änderungsstatus in Progression&quot;einrichten.
 
    ![](assets/six.png)
 
@@ -61,7 +61,7 @@ Ihre fertige Regel sollte ungefähr so aussehen:
 
 Nachdem Sie einige Regeln erstellt haben, sollten Sie sie testen, um zu überprüfen, ob Ihre Anweisung mit Ihren Programmen übereinstimmt.
 
-1. Um einen Test auszuführen, klicken Sie auf die **[!UICONTROL TEST]** wie unten dargestellt.
+1. Um einen Test auszuführen, klicken Sie auf die Schaltfläche **[!UICONTROL TEST]** , wie unten dargestellt.
 
    ![](assets/seven.png)
 
@@ -69,7 +69,7 @@ Nachdem Sie einige Regeln erstellt haben, sollten Sie sie testen, um zu überpr�
 
    ![](assets/eight.png)
 
-   Nachdem Sie die ID eingegeben haben, klicken Sie auf die [!UICONTROL Test] -Schaltfläche, durchläuft unsere Regel-Engine jede Regel und bestimmt, ob das Programm einer der Regeln entspricht. Im folgenden Beispiel sehen Sie, dass Programm 1002, genannt [!DNL Marketo Measure] Ebook, hat 5 Programmmitglieder und ist aufgrund der angezeigten Regel berechtigt.
+   Sobald Sie die ID eingeben und auf die Schaltfläche [!UICONTROL Test] klicken, durchläuft unsere Regel-Engine jede Regel und bestimmt, ob das Programm einer der Regeln entspricht oder nicht. Im folgenden Beispiel sehen Sie, dass Programm 1002 mit dem Namen [!DNL Marketo Measure] Ebook 5 Programmmitglieder hat und aufgrund der angezeigten Regel berechtigt ist.
 
    Die Regeln werden mit einer Stichprobengröße von 5.000 Mitgliedern ausgeführt. Wenn Ihr Programm mehr als 5000 Mitglieder umfasst, ist es möglich, dass wir nicht die Kompatibilität aller Mitglieder überprüfen. Dieses Tool dient einfach dazu, die korrekte Erstellung von Regeln zu überprüfen.
 
@@ -81,19 +81,19 @@ Nachdem Sie einige Regeln erstellt haben, sollten Sie sie testen, um zu überpr�
 
 ## Kanalzuordnung {#channel-mapping}
 
-In der Liste der Marketo-Programmkanäle möchten Sie die Werte der [!DNL Marketo Measure] benutzerdefinierte Marketing-Kanäle, die Sie in den Einstellungen erstellt haben. Alle von diesen Programmen generierten Touchpoints übernehmen die Kanal- und Subkanalnamen, die Sie hier auswählen.
+In der Liste der Marketo-Programmkanäle möchten Sie die Werte den benutzerdefinierten Marketingkanälen [!DNL Marketo Measure] zuordnen, die Sie in den Einstellungen erstellt haben. Alle von diesen Programmen generierten Touchpoints übernehmen die Kanal- und Subkanalnamen, die Sie hier auswählen.
 
-1. Beginnen Sie, indem Sie zu **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Offline-Kanäle]**.
+1. Navigieren Sie zunächst zu **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Offline-Kanäle]**.
 
 1. Oben haben Sie die Möglichkeit, Ihren CRM-Kampagnentypen zuzuordnen, und unten sehen Sie die Optionen für Ihre Marketo-Programmkanäle.
 
-1. Wählen Sie zunächst den Kanal aus, der dem Wert zugeordnet werden soll, und wählen Sie dann optional den Unterkanal aus. Klicken Sie abschließend auf **[!UICONTROL Speichern]** unten.
+1. Wählen Sie zunächst den Kanal aus, der dem Wert zugeordnet werden soll, und wählen Sie dann optional den Unterkanal aus. Wenn Sie fertig sind, klicken Sie unten auf **[!UICONTROL Speichern]** .
 
    ![](assets/eleven.png)
 
 ## Programmkosten {#program-costs}
 
-Durch den Datenimport von Marketo-Programmen werden die Kosten automatisch aus den Kosten des Zeitraums heruntergeladen und die in Marketo gemeldeten Kosten werden über den gesamten zugewiesenen Monat verteilt. Wenn beispielsweise für Januar 2021 1000 USD gemeldet werden, werden die 1000 USD auf 31 Tage aufgeteilt. Die Kosten finden Sie unter [!DNL Marketo Measure Discover].
+Durch den Datenimport von Marketo-Programmen werden die Kosten automatisch aus den Kosten des Zeitraums heruntergeladen und die in Marketo gemeldeten Kosten werden über den gesamten zugewiesenen Monat verteilt. Wenn beispielsweise für Januar 2021 1000 USD gemeldet werden, werden die 1000 USD auf 31 Tage aufgeteilt. Die Kosten finden Sie in [!DNL Marketo Measure Discover].
 
 ## Funktionsweise {#how-it-works}
 
@@ -139,33 +139,33 @@ Durch den Datenimport von Marketo-Programmen werden die Kosten automatisch aus d
 
 ## Cookie-Zuordnung {#cookie-mapping}
 
-Als Ergebnis der [!DNL Marketo Measure] Integration mit Marketo, der [!DNL Marketo Measure] Die Cookie-ID wird jetzt auch mit der [!DNL Marketo Munchkin Id]. Dies hilft, die Lücke zu schließen, um den anonymen Erstkontakt einer Web-Sitzung zuzuordnen, anstatt sowohl FT- als auch LC-Touches einer Marketo-Aktivität zuzuordnen. Stellen Sie sich dieses Szenario vor:
+Aufgrund der Integration von [!DNL Marketo Measure] mit Marketo wird nun auch die [!DNL Marketo Measure] Cookie-ID zugeordnet und mit der [!DNL Marketo Munchkin Id] synchronisiert. Dies hilft, die Lücke zu schließen, um den anonymen Erstkontakt einer Web-Sitzung zuzuordnen, anstatt sowohl FT- als auch LC-Touches einer Marketo-Aktivität zuzuordnen. Stellen Sie sich dieses Szenario vor:
 
-Markieren Sie Klicks auf einen [!DNL Facebook] und landet auf wayneenterprises.com , wo er mit Cookies [!DNL Marketo Measure] ID 123 und [!DNL Marketo Munchkin Id] 456. Es wird kein Formular ausgefüllt.
+Markieren Sie Klicks auf eine [!DNL Facebook] -Anzeige und landet auf wayneenterprises.com , wo er mit [!DNL Marketo Measure] Id 123 und [!DNL Marketo Munchkin Id] 456 gekocht wird. Es wird kein Formular ausgefüllt.
 
-Das Marketing-Team von Wayne Enterprises sendet eine E-Mail-Benachrichtigung an bestimmte Interessenten, darunter `mark@email.com`.
+Das Marketing-Team von Wayne Enterprises sendet eine E-Mail-Benachrichtigung an bestimmte Zielkontakte, von denen einer `mark@email.com` ist.
 
-`mark@email.com` empfängt die E-Mail und klickt durch und landet auf wayneenterprises.com. Dies wird `mark@email.com's` zweiter Besuch bei `wayneenterprise.com` mit den gleichen Cookie-IDs, aber kein Formular ausgefüllt wurde, so [!DNL Marketo Measure], sind sie immer noch ein anonymer Besucher.
+`mark@email.com` erhält die E-Mail und klickt durch und landet auf wayneenterprises.com. Dies wird `mark@email.com's` zweiter Besuch bei `wayneenterprise.com` mit denselben Cookie-IDs, es wurde jedoch kein Formular ausgefüllt, sodass [!DNL Marketo Measure] immer noch ein anonymer Besucher ist.
 
 Das Marketingteam von Web-Unternehmen erstellt eine Marketo-Aktivitätsregel, um Touchpoints für den Aktivitätstyp &quot;Klick-E-Mail&quot;zu generieren.
 
-Die heutige Implementierung würde einen einzigen FT- und LC-Touchpoint für `mark@email.com` aus der Marketo-Aktivität vom Aktivitätstyp &quot;E-Mail anklicken&quot;.
+Mit der heutigen Implementierung würde ein einzelner FT- und LC-Touchpoint für `mark@email.com` aus der Marketo-Aktivität aus dem Aktivitätstyp &quot;E-Mail klicken&quot;erstellt.
 
-Mit dieser Verbesserung des Cookie-Mappings würde der FT zurückgehen und dem [!DNL Facebook] und die LC der E-Mail gutgeschrieben werden.
+Mit dieser Verbesserung des Cookie-Mappings würde der FT zurück gehen und der [!DNL Facebook] -Anzeige gutgeschrieben und der LC würde der E-Mail gutgeschrieben.
 
 >[!NOTE]
 >
->Beim Verhalten der Cookie-Zuordnung finden Sie möglicherweise einige LC-Touchpoints, die von einem Webbesuch stammen. Es ist möglich, dass ein Lead in Marketo ohne zugehörige Aktivität angezeigt wird, und [!DNL Marketo Measure] heruntergeladen haben, mit den zugehörigen Cookies übereinstimmen und sie dann auf die neueste Websitzung verfolgen, selbst wenn keine Formularaktivität vorhanden war, durch die der Lead erstellt wurde.
+>Beim Verhalten der Cookie-Zuordnung finden Sie möglicherweise einige LC-Touchpoints, die von einem Webbesuch stammen. Es ist möglich, dass ein Lead in Marketo ohne zugehörige Aktivität angezeigt wurde, dass dann [!DNL Marketo Measure] diesen Lead heruntergeladen hat, mit den zugehörigen Cookies übereinstimmt und dann auf die neueste Websitzung verfolgt wurde, selbst wenn keine Formularaktivität vorhanden war, durch die der Lead erstellt wurde.
 
 ## FAQs {#faq}
 
-**Wie setze ich das Touchpoint-Datum auf das Fortschrittsdatum oder das Datum, an dem die Statusänderung meinem Programmmitglied zugestoßen ist?**
+**Wie setze ich das Touchpoint-Datum auf das Progressionsdatum oder das Datum, an dem die Statusänderung meinem Programmmitglied zugestoßen ist?**
 
-Wenn Ihre Regel das Aktivitätsdatum oder das Datum, an dem ein Programmmitglied einen bestimmten Status erreicht hat, erfassen möchte, sollten Sie die Variable [!DNL Marketo Engage] Integration von Aktivitäten und Einrichten einer Regel für den Aktivitätstyp &quot;Änderungsstatus in Progression&quot;. Andernfalls wird die [!DNL Marketo Engage] Bei der Programmintegration wird nur das Datum der Mitgliedschaft zur Verfügung gestellt. Dies ist das erste Datum, an dem die Marketo-Person in das Programm aufgenommen wurde, selbst wenn mehrere Status vorliegen.
+Wenn Ihre Regel das Aktivitätsdatum oder das Datum erfassen möchte, an dem ein Programmmitglied einen bestimmten Status erreicht hat, sollten Sie die Aktivitätsintegration [!DNL Marketo Engage] verwenden und eine Regel für den Aktivitätstyp &quot;Änderungsstatus in Progression&quot;einrichten. Andernfalls wird durch die [!DNL Marketo Engage] Programmintegration nur das Mitgliedsdatum zur Verfügung gestellt, d. h. das erste Datum, an dem die Marketo-Person in das Programm aufgenommen wurde, selbst wenn mehrere Status vorliegen.
 
-**Kann ich eine Auswahlliste mit Datumsoptionen für das Touchpoint-Datum erhalten?**
+**Kann ich eine Auswahlliste mit Datumsoptionen für das Touchpoint-Datum abrufen?**
 
-Um die automatische Vervollständigung Trigger, geben Sie eine geschweifte Klammer ein `{` im Textfeld ein, werden die verfügbaren Felder angezeigt.
+Um die automatische Vervollständigung Trigger, geben Sie zunächst eine geschweifte Klammer `{` in das Textfeld ein. Daraufhin werden die verfügbaren Felder angezeigt.
 
 **Wenn ich Marketo-Programmregeln erstelle und auch CRM-Kampagnenregeln verwende, werden diese dann doppelt gezählt?**
 
@@ -177,4 +177,4 @@ Aufgrund technischer Einschränkungen können wir vorerst keine benutzerdefinier
 
 **Woher weiß ich, ob ich Programme oder Aktivitäten verwende?**
 
-Die [!DNL Marketo Engage] Programmintegration ist eine einfache Möglichkeit, Touchpoints zu generieren, je nachdem, ob eine Person Programmmitglied ist oder nicht. Wenn Sie eine Regel definieren möchten, die darauf basiert, wann eine Person zu einem bestimmten Programmstatus wechselt, wird die [!DNL Marketo Engage] Die Aktivitätsintegration ist das gewünschte Setup, insbesondere der Aktivitätstyp &quot;Änderungsstatus in Progression&quot;.
+Die [!DNL Marketo Engage] Programmintegration ist eine einfache Möglichkeit, Touchpoints zu generieren, je nachdem, ob eine Person Programmmitglied eines Programms ist oder nicht. Wenn Sie eine Regel definieren möchten, die auf dem Zeitpunkt basiert, zu dem eine Person zu einem bestimmten Programmstatus wechselt, ist die [!DNL Marketo Engage] Aktivitätsintegration das gewünschte Setup, insbesondere der Aktivitätstyp &quot;Status in Progression ändern&quot;.

@@ -1,11 +1,12 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate-Implementierungshandbuch - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure]'
 title: „[!DNL Marketo Measure] Implementierungshandbuch für Ultimate“
 feature: Integration, Tracking, Attribution
-source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
+exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -15,7 +16,7 @@ Dieser Artikel dient als Implementierungshandbuch für Marketo Measure Ultimate 
 
 ## Hauptunterschiede bei der Verwendung von Ultimate im Vergleich zu Standard Tiers {#main-differences-when-using-ultimate-over-standard-tiers}
 
-B2B-Daten über AEP importieren: Marketingexperten müssen ihre B2B-Daten (z. B. Konto, Chancen, Kontakt, Lead, Kampagne, Kampagnenmitglied, Aktivität) über AEP importieren. Erfassen Sie Daten aus nahezu jeder Datenquelle und mehreren Datenquellen desselben Typs, um alle Ihre Daten für die Attribution einzubringen.
+B2B-Daten über AEP importieren: Marketingexperten müssen ihre B2B-Daten (z. B. Konto, Chancen, Kontakt, Lead, Kampagne, Kampagnenmitglied, Aktivität) über AEP importieren. Es können Daten aus nahezu jeder Datenquelle und aus mehreren Datenquellen desselben Typs aufgenommen werden, um alle Ihre Daten für die Attribution einzubringen.
 
 * Die Lösung kann mit nahezu jedem CRM verwendet werden, nicht nur Salesforce und Dynamics.
 * Es können mehrere CRM-Instanzen und/oder MAP-Instanzen mit einer Instanz von Marketo Measure verbunden werden.
@@ -132,7 +133,7 @@ Bevor Sie beginnen, gehen Sie zum Abschnitt „Experience Platform“ > „Sandb
 >[!NOTE]
 >
 >* Es wird empfohlen, pro Datenfluss nur einen Datensatz einzuschließen.
->* Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Quelle können nur in einen Datensatz übertragen werden. Jeder Datensatz kann in nur einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss zur Laufzeit.
+>* Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Quelle können nur in einen Datensatz übertragen werden. Jeder Datensatz kann in nur einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss in der Laufzeit.
 >* Löschen Sie das gesamte Ziel in AEP, um Daten in Measure zu löschen. Durch Deaktivieren werden neue Datenexporte gestoppt und alte Daten beibehalten.
 >* Die Measure-Konfiguration sieht größtenteils gleich aus, aber einige Teile wie die Phasenzuordnung sehen anders aus.
 >* Es dauert einige Stunden, bis ein neuer Datenfluss eine Flussausführung generiert, und dann treten sie in regelmäßigen, stündlichen Intervallen auf.
@@ -151,7 +152,7 @@ Wir importieren nicht automatisch Phasen aus Benutzerdaten, daher müssen alle P
 
 Wenn die Phasen nicht zugeordnet sind, funktioniert das System nicht, da die Daten nicht weitergegeben werden können.
 
-Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr Standard-Dashboard-Objekt auf &quot;Kontakt&quot;festgelegt haben, verwenden Sie nicht die folgenden beiden für &quot;Lead&quot;([Mehr dazu hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Wenn Sie Kundin oder Kunde von Marketo Measure Ultimate sind und Ihr Standard-Dashboard-Objekt auf „Kontakt“ festgelegt haben, verwenden Sie folgende beiden Lead-Felder nicht ([mehr dazu erfahren Sie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

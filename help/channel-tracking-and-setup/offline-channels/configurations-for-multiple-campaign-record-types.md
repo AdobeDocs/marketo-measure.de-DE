@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874686
-description: Konfigurationen für mehrere Kampagnentypen - [!DNL Marketo Measure]
+description: Konfigurationen für mehrere Kampagnen-Datensatztypen - [!DNL Marketo Measure]
 title: Konfigurationen für mehrere Kampagneneintragstypen
 exl-id: 10499556-a591-4630-9149-ae676e6494af
 feature: Channels
@@ -17,15 +17,15 @@ ht-degree: 8%
 
 Wenn Ihre SFDC-Organisation mehrere Kampagnentyps verwendet, müssen die Picklist-Werte für &quot;Käufer-Touchpoints aktivieren&quot;für jeden Datensatztyp hinzugefügt werden. Gehen Sie wie folgt vor, um die Optionen hinzuzufügen.
 
-1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anpassen]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Datensatztypen]**.
+1. Navigieren Sie zu **[!UICONTROL Einrichten]** > **[!UICONTROL Anpassen]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Datensatztypen]**.
 
    ![](assets/1.jpg)
 
-1. Wählen Sie die Kampagnentypen aus, indem Sie auf die Schaltfläche **[!UICONTROL Beschriftung für Datentyp]**, nicht die [!UICONTROL edit] Schaltfläche.
+1. Wählen Sie die Kampagnentypen aus, indem Sie auf die Schaltfläche **[!UICONTROL Beschriftung des Datensatztyps]** und nicht auf die Schaltfläche [!UICONTROL Bearbeiten] klicken.
 
    ![](assets/2.jpg)
 
-1. Hier werden Sie mit den verfügbaren Picklists für diesen Datensatztyp auf den Bildschirm gebracht. Auswählen **[!UICONTROL Bearbeiten]** neben dem Feld &quot;Käufer-Touchpoints aktivieren&quot;.
+1. Hier werden Sie mit den verfügbaren Picklists für diesen Datensatztyp auf den Bildschirm gebracht. Wählen Sie &quot;**[!UICONTROL Bearbeiten]**&quot;neben dem Feld &quot;Käufer-Touchpoints aktivieren&quot;.
 
    ![](assets/3.jpg)
 
@@ -33,4 +33,4 @@ Wenn Ihre SFDC-Organisation mehrere Kampagnentyps verwendet, müssen die Picklis
 
    ![](assets/4.jpg)
 
-1. Legen Sie den Standardwert auf &quot;None&quot;fest und klicken Sie auf **[!UICONTROL Speichern]**. Wiederholen Sie diese Schritte für alle weiteren Kampagnenersatztypen.
+1. Setzen Sie den Standardwert auf &quot;Keine&quot;und klicken Sie auf **[!UICONTROL Speichern]**. Wiederholen Sie diese Schritte für alle weiteren Kampagnenersatztypen.

@@ -13,12 +13,12 @@ ht-degree: 1%
 
 # Einstellungen {#settings}
 
-Diese Funktion ist mit zwei verschiedenen Funktionen verknüpft, die sich im CRM-System [!UICONTROL Allgemeine Einstellungen] Registerkarte: Mehrere Währungen und erweiterte Währungen.
+Mit dieser Funktion sind zwei separate Funktionsbits verknüpft, die sich auf der Registerkarte [!UICONTROL Allgemeine Einstellungen] des CRM-Systems befinden: Mehrere Währungen und erweiterte Währungen.
 
 **Mehrere Währungen**: Aktiviert, wenn der Kunde mehr als eine Währung verwendet.
 
 **Erweiterte Währungen**: Ein weiteres Bit, das aktiviert werden muss, wenn der Kunde die Salesforce-Funktion &quot;Erweiterte Währungsverwaltung&quot;verwendet, mit der der Benutzer einen zeitbasierten Bereich für Konversionsraten festlegen kann.
 
-Unter [!UICONTROL Benutzereinstellungen] im [!DNL Marketo Measure] Anwendung, wir zeigen die Unternehmenskurve und alle unterstützten Währungen an, die aus dem CRM abgerufen werden. Da alle diese Werte aus dem CRM-System abgerufen werden, sind diese Felder schreibgeschützt und können nicht geändert werden. Die Dashboard-Währung ist die Standardwährung für jedes Laden eines Dashboards. Sie können zurückkehren und die Währung nach Bedarf ändern.
+Unter Ihren [!UICONTROL Benutzereinstellungen] in der [!DNL Marketo Measure] -Anwendung werden die Unternehmenskurve und alle unterstützten Währungen angezeigt, die aus dem CRM abgerufen werden. Da alle diese Werte aus dem CRM-System abgerufen werden, sind diese Felder schreibgeschützt und können nicht geändert werden. Die Dashboard-Währung ist die Standardwährung für jedes Laden eines Dashboards. Sie können zurückkehren und die Währung nach Bedarf ändern.
 
 ![](assets/one-1.png)

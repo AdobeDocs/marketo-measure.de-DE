@@ -1,5 +1,5 @@
 ---
-description: Dashboard "Zugewiesene Möglichkeiten"- [!DNL Marketo Measure] - Produkt
+description: Dashboard für zugewiesene Chancen - [!DNL Marketo Measure]  - Produkt
 title: Dashboard „Zugewiesene Opportunity“
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Das Dashboard &quot;Zugewiesene Chancen&quot;bietet einen umfassenden Überblick darüber, wie Marketing-Maßnahmen sowohl zu neuen als auch ausgereiften Pipeline-Chancen beitragen. Erfahren Sie mehr über die Details aller offenen und geschlossenen Möglichkeiten, die Ihren Strategien zugeordnet werden können, mit der Flexibilität, nach Opportunitätsstufe zu filtern und den gesamten Einfluss des Marketing über geschlossene Geschäfte hinaus zu unterstreichen.
 
-**Fragen zu den Dashboard-Antworten**:
+**Fragen, die das Dashboard beantwortet**:
 
 * Welche Kanäle, Unterkanäle oder Kampagnen rangieren in Bezug auf die zugewiesene Opportunitätsmenge am höchsten?
 * Wie hoch sind die insgesamt zugewiesenen Chancen und die Anzahl unserer zugewiesenen offenen und geschlossenen Chancen?
@@ -23,8 +23,8 @@ Das Dashboard &quot;Zugewiesene Chancen&quot;bietet einen umfassenden Überblick
 
 ### KPI-Kacheln {#kpi-tiles}
 
-* **Zugewiesener Opportunity Amount**: Der Gesamtumsatzbeitrag, basierend auf dem ausgewählten Attributionsmodell aus geschlossenen und offenen Möglichkeiten mit Touchpoints, die innerhalb des gefilterten Datumszeitraums erstellt wurden.
-* **Zugewiesene Möglichkeiten**: Die Anzahl der geschlossenen und offenen Möglichkeiten, die Touchpoints aufweisen.
+* **Zugewiesener Opportunity Amount**: Der Gesamtumsatzbeitrag, der auf Grundlage des ausgewählten Attributionsmodells aus geschlossenen und offenen Chancen mit Touchpoints bereitgestellt wird, die innerhalb des gefilterten Datumszeitraums erstellt wurden.
+* **Zugewiesene Möglichkeiten**: Die Anzahl der geschlossenen und offenen Möglichkeiten mit Touchpoints.
 
 ### Zugewiesener Opportunity Amount by Channel Im Zeitdiagramm {#attributed-opportunity-amount-by-channel-over-time-chart}
 
@@ -33,7 +33,7 @@ Gestapeltes Balkendiagramm, das die nach Kanal segmentierte Summe der zugewiesen
 * Nutzen Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
 * Bewegen Sie den Mauszeiger über ein Balkensegment oder den Abstand zwischen Balken, um detaillierte Informationen anzuzeigen.
 
-**Fragen zu den Grafikantworten**:
+**Fragen Sie die Diagrammantworten**:
 
 * Welche Kanäle generierten pro Quartal den am meisten zugewiesenen Opportunitätsbetrag?
 * Wie hoch war die Aufteilung der zugeschriebenen Opportunitätsmenge nach Kanal im letzten Monat?
@@ -53,7 +53,7 @@ Gesamtzahl der zugewiesenen Gelegenheitsmengen, segmentiert nach Kanal, Subkanal
 
 Die tabellarische Sicht bietet klare und organisierte Einblicke in die Verteilung der zugeschriebenen Opportunitätsmenge. Benutzer können Leistungsmuster schnell erkennen und wirkungsvolle Marketing-Strategien bestimmen, indem sie Daten in Kanäle, Unterkanäle und Kampagnen kategorisieren.
 
-Klicken Sie auf **+** neben jedem Kanal angezeigt, um die Aufschlüsselung nach Subkanal und Kampagne anzuzeigen.
+Klicken Sie auf das Symbol **+** neben jedem Kanal, um die Aufschlüsselung nach Subkanal und Kampagne anzuzeigen.
 
 ![](assets/attributed-opportunity-dashboard-2.png)
 

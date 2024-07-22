@@ -7,73 +7,73 @@ feature: Channels
 source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # Synchronisieren von Offline-Kampagnen {#syncing-offline-campaigns}
 
-Es kann schwierig sein, Offline-Kampagnen genau zu verfolgen und zu verstehen, wie sie im Vergleich zu Ihren digitalen Marketing-Maßnahmen aussehen. [!DNL Marketo Measure] ermöglicht es Ihnen, Touchpoints zu Ihren Offline-Kampagnen in zu verfolgen und ihnen zuzuordnen. [!DNL Salesforce], auch in Situationen, in denen eine [!DNL Salesforce] Die Kampagne wird erst einige Wochen nach der Veranstaltung erstellt.
+Es kann schwierig sein, Offline-Kampagnen genau zu verfolgen und zu verstehen, wie sie im Vergleich zu Ihren digitalen Marketing-Maßnahmen aussehen. Mit [!DNL Marketo Measure] können Sie Ihre Offline-Kampagnen in [!DNL Salesforce] verfolgen und Touchpoints zuordnen, selbst in Situationen, in denen eine [!DNL Salesforce] -Kampagne erst einige Wochen nach dem Ereignis erstellt wird.
 
 >[!NOTE]
 >
->Dieser Artikel behandelt einen veralteten Prozess. Wir empfehlen Benutzern, die [neuer, verbesserter In-App-Prozess](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
+>Dieser Artikel behandelt einen veralteten Prozess. Wir ermutigen die Benutzenden, den [neuen, verbesserten In-App-Prozess](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} zu verwenden.
 
 ## Vor der Synchronisierung {#before-you-sync}
 
 Im Folgenden finden Sie einige Tipps für einen effizienten Synchronisierungsprozess:
 
 * Offline-Kampagnen beziehen sich auf Marketinginteraktionen, die nicht online stattfinden. Dazu gehören Marketing-Kanäle wie Veranstaltungen, Webinare und Messen. Schließen Sie nur Offline-Marketing-Kampagnen ein.
-* Wenn Sie Kampagnen einbeziehen möchten, die die Online-Aktivität vor der Installation verfolgt haben [!DNL Marketo Measure]stellen Sie sicher, dass Sie das Enddatum des Touchpoints als das Datum festlegen, an dem unser JavaScript auf Ihrer Site bereitgestellt wurde.
-* Es ist hilfreich, die [!DNL Marketo Measure] -App auf der Seite &quot;Offline-Kanäle&quot;geöffnet, damit die verschiedenen Kampagnentypen sowie der Marketing-Kanal, in den die Touchpoints zusammengefasst werden, leicht identifiziert werden können.
+* Wenn Sie Kampagnen einbeziehen möchten, die die Online-Aktivität vor der Installation von [!DNL Marketo Measure] verfolgt haben, stellen Sie sicher, dass Sie das Enddatum des Touchpoints als das Datum festlegen, an dem unsere JavaScript auf Ihrer Site bereitgestellt wurde.
+* Es ist hilfreich, die [!DNL Marketo Measure] -App auf der Seite &quot;Offline-Kanäle&quot;geöffnet zu halten, damit Sie die verschiedenen Kampagnentypen sowie den Marketingkanal, in den die Touchpoints zusammengefasst werden, leicht identifizieren können.
 
-* Überprüfen Sie alles, bevor Sie auf &quot;[!UICONTROL Speichern]&quot;-Schaltfläche!
+* Überprüfen Sie alles, bevor Sie auf die Schaltfläche &quot;[!UICONTROL Speichern]&quot; klicken!
 
-## Touchpoint-Datum für Massenaktualisierung {#bulk-update-touchpoint-date}
+## Massenaktualisierung des Touchpoint-Datums {#bulk-update-touchpoint-date}
 
-In [!DNL Salesforce], notiert das Feld Erstellungsdatum im Campaign-Member-Objekt das Datum, an dem das Kampagnenmitglied zur Kampagne hinzugefügt wurde. Damit der Synchronisierungsprozess reibungslos abläuft, stellen Sie sicher, dass das Feld für das Touchpoint-Datum des Käufers dasselbe Datum wie das Datum für das Salesforce Campaign-Member-Objekt hat. Dieser Schritt wird mit dem[!UICONTROL Schaltfläche &quot;Touchpoint-Datum Massenaktualisierung&quot;],&quot; _before_ Sie wählen die [!UICONTROL picklist] im Feld Käufer-Touchpoints aktivieren .
+In [!DNL Salesforce] wird im Feld Erstellungsdatum des Campaign-Member-Objekts das Datum notiert, an dem das Kampagnenmitglied zur Kampagne hinzugefügt wurde. Damit der Synchronisierungsprozess reibungslos ablaufen kann, müssen Sie sicherstellen, dass das Buyer Touchpoint-Datumsfeld dasselbe Datum wie das Datum für das Salesforce Campaign-Member-Objekt hat. Dieser Schritt wird mithilfe der Schaltfläche &quot;[!UICONTROL Massen-Update-Touchpoint-Datum]&quot; _vor_ durchgeführt, indem Sie im Feld &quot;Käufer-Touchpoints aktivieren&quot;die Option [!UICONTROL picklist] auswählen.
 
-Warum ist das wichtig? Stellen Sie sich einen Moment vor, dass Ihr Unternehmen einen Stand auf einer Konferenz im Januar gesponsert hat. Auf der Konferenz zeigten 100 Personen Interesse an Ihrem Produkt und legten ihre Kontaktdaten vor, um E-Mail-Updates zu erhalten. Drei Wochen später haben Sie schließlich eine Kampagne in [!DNL Salesforce] die Ergebnisse der Konferenz zu verfolgen.
+Warum ist das wichtig? Stellen Sie sich einen Moment vor, dass Ihr Unternehmen einen Stand auf einer Konferenz im Januar gesponsert hat. Auf der Konferenz zeigten 100 Personen Interesse an Ihrem Produkt und legten ihre Kontaktdaten vor, um E-Mail-Updates zu erhalten. Drei Wochen später haben Sie schließlich eine Kampagne in [!DNL Salesforce] erstellt, um das Ergebnis der Konferenz zu verfolgen.
 
-Ihr Upload-Datum würde drei Wochen nach dem Konferenzdatum liegen. Um diesen Unterschied zu beheben, muss die Variable [!UICONTROL Touchpoint-Datum für Massenaktualisierung] kann verwendet werden, um das entsprechende Datum festzulegen. Die Schaltfläche ist in der Abbildung unten dargestellt.
+Ihr Upload-Datum würde drei Wochen nach dem Konferenzdatum liegen. Um diesen Unterschied zu beheben, kann die Schaltfläche [!UICONTROL Touchpoint-Datum für Massenaktualisierung] verwendet werden, um das entsprechende Datum festzulegen. Die Schaltfläche ist in der Abbildung unten dargestellt.
 
 ![](assets/1-3.png)
 
-In diesem Fall würde das Upload-Datum um drei Wochen aufgestockt. Dieser Schritt sollte vor dem Festlegen der[!UICONTROL Käufer-Touchpoints aktivieren]&quot;.
+In diesem Fall würde das Upload-Datum um drei Wochen aufgestockt. Dieser Schritt sollte vor dem Festlegen des Felds &quot;[!UICONTROL Käufer-Touchpoints aktivieren]&quot;durchgeführt werden.
 
-Kurz gesagt, wenn Sie die [!UICONTROL Touchpoint-Datum für Massenaktualisierung] und ändern Sie das Touchpoint-Datum in das Datum des Ereignisses, [!DNL Marketo Measure] generiert Touchpoints für das tatsächliche Datum des Ereignisses, nicht für das Datum des Uploads.
+Zusammenfassend wird bei Verwendung der Schaltfläche [!UICONTROL Touchpoint-Datum-Massenaktualisierung] und Änderung des Touchpoint-Datums auf das Ereignisdatum [!DNL Marketo Measure] Touchpoints für das tatsächliche Datum des Ereignisses und nicht für das Datum des Uploads generiert.
 
-Sie können auch die Daten für alle Kampagnenmitglieder einer vorhandenen Kampagne aktualisieren. Stellen Sie dabei sicher, dass das Datum des Touchpoints das Datum der Interaktion des Mitglieds ist. Klicken Sie auf das Touchpoint-Datum für das Massen-Update des Käufers, filtern Sie die Liste der Kampagnenmitglieder nach Bedarf und im[!UICONTROL Datum auswählen]&quot; oberhalb der Liste der Kampagnenmitglieder, fügen Sie das Datum hinzu, an dem das Ereignis stattgefunden hat.
+Sie können auch die Daten für alle Kampagnenmitglieder einer vorhandenen Kampagne aktualisieren. Stellen Sie dabei sicher, dass das Datum des Touchpoints das Datum der Interaktion des Mitglieds ist. Klicken Sie auf das Buyer Touchpoint-Datum für die Massenaktualisierung, filtern Sie die Liste der Kampagnenmitglieder nach Bedarf und fügen Sie in der Option &quot;[!UICONTROL Datum auswählen]&quot; oberhalb der Kampagnenmitglieder das Datum hinzu, an dem das Ereignis stattgefunden hat.
 
 >[!CAUTION]
 >
->Aktualisieren Sie unbedingt das Touchpoint-Datum. _before_ aktivieren Sie Touchpoints für alle Kampagnenmitglieder.
+>Stellen Sie sicher, dass Sie das Touchpoint-Datum _vor_ aktualisieren, und aktivieren Sie Touchpoints für alle Kampagnenmitglieder.
 
 ![](assets/2-3.png)
 
 ## Erstellen einer Kampagne und Synchronisieren von Touchpoints des Käufers {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
-So erstellen Sie eine Kampagne in [!DNL Salesforce], navigieren Sie zum [!UICONTROL Kampagnen] Registerkarte und wählen Sie &quot;[!UICONTROL Neu]&quot;, wie in der Abbildung unten dargestellt. Je nach [!DNL Salesforce] -Setup verwenden, müssen Sie möglicherweise der oberen Leiste Kampagnen hinzufügen, indem Sie auf das Pluszeichen (+) klicken.
+Um eine Kampagne in [!DNL Salesforce] zu erstellen, navigieren Sie zur Registerkarte [!UICONTROL Kampagnen] und wählen Sie &quot;[!UICONTROL Neu]&quot;, wie in der Abbildung unten dargestellt. Abhängig von Ihrer [!DNL Salesforce] -Konfiguration müssen Sie der oberen Leiste möglicherweise Kampagnen hinzufügen, indem Sie auf das Pluszeichen (+) klicken.
 
 ![](assets/3-3.png)
 
-Klicken Sie beim Erstellen dieser Kampagne auf die Schaltfläche[!UICONTROL Käufer-Touchpoints aktivieren]&quot; und wählen Sie eine der folgenden Optionen aus der Auswahlliste aus:
+Klicken Sie beim Erstellen dieser Kampagne auf das Feld &quot;[!UICONTROL Käufer-Touchpoints aktivieren]&quot; und wählen Sie eine der folgenden Optionen aus der Auswahlliste aus:
 
 ![](assets/4-3.png)
 
 * **Alle Kampagnenmitglieder einschließen**
-   * Diese Option ermöglicht [!DNL Marketo Measure] , um jedem Kampagnenmitglied einen Touchpoint zuzuordnen.
+   * Diese Option ermöglicht es [!DNL Marketo Measure], jedem Kampagnenmitglied einen Touchpoint zuzuordnen.
 
-* **Kampagnenmitglieder mit &quot;Reaktion&quot;einschließen.**
+* **Fügen Sie &quot;Respondierte&quot; Kampagnenmitglieder hinzu.**
    * Diese Option wendet Touchpoints auf Kampagnenmitglieder an, die den Status &quot;Beantwortet&quot;haben.
 
 * **Schließen Sie alle Kampagnenmitglieder aus.**
-   * Diese Option weist keinen Mitgliedern der Kampagne Touchpoints zu und dient als Markierung, von der die Kampagne absichtlich ausgeschlossen wurde [!DNL Marketo Measure]. Wenn Sie eine Kampagne bei Unfall mit Touchpoints des Käufers synchronisieren, können Sie den Status auf &quot;Alle Mitglieder der Kampagne ausschließen&quot;ändern und die Touchpoints werden entfernt.
+   * Diese Option weist keinen Mitgliedern der Kampagne Touchpoints zu und dient als Markierung, dass die Kampagne absichtlich aus [!DNL Marketo Measure] ausgeschlossen wurde. Wenn Sie eine Kampagne bei Unfall mit Touchpoints des Käufers synchronisieren, können Sie den Status auf &quot;Alle Mitglieder der Kampagne ausschließen&quot;ändern und die Touchpoints werden entfernt.
 
-Sobald eine dieser Auswahlmöglichkeiten ausgewählt wurde, [!DNL Marketo Measure] weist jedem Kampagnenmitglied gegebenenfalls einen Touchpoint zu. Lead oder Kontakt , der der Kampagne hinzugefügt wird _must_ mit ihrem Datensatz verknüpfte E-Mail-Adresse haben, um [!DNL Marketo Measure] um einen Touchpoint zu erstellen. Ohne E-Mail-Adresse [!DNL Marketo Measure] weist dem Kampagnenmitglied keinen Touchpoint zu.
+Sobald eine dieser Auswahlmöglichkeiten ausgewählt ist, weist [!DNL Marketo Measure] jedem Kampagnenmitglied einen Touchpoint zu, sofern zutreffend. Dem zur Kampagne hinzugefügten Lead oder Kontakt _muss_ eine E-Mail-Adresse zugeordnet sein, damit [!DNL Marketo Measure] einen Touchpoint erstellt. Ohne eine E-Mail-Adresse wird [!DNL Marketo Measure] dem Kampagnenmitglied keinen Touchpoint zuweisen.
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: Zuordnen von Offline-Kanälen](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Zuordnen von Offline-Kanälen](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->[[!DNL Marketo Measure] Tutorials: Kampagnenobjektfelder](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Kampagnenobjektfelder](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

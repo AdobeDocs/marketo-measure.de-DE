@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874759
-description: Hinzufügen [!DNL Marketo Measure] nach [!DNL Hubspot] - [!DNL Marketo Measure]
-title: Hinzufügen [!DNL Marketo Measure] nach [!DNL Hubspot]
+description: Hinzufügen von [!DNL Marketo Measure] zu [!DNL Hubspot] - [!DNL Marketo Measure]
+title: Hinzufügen von [!DNL Marketo Measure] zu [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
@@ -11,27 +11,27 @@ ht-degree: 1%
 
 ---
 
-# Hinzufügen [!DNL Marketo Measure] nach [!DNL Hubspot] {#adding-marketo-measure-to-hubspot}
+# Hinzufügen von [!DNL Marketo Measure] zu [!DNL Hubspot] {#adding-marketo-measure-to-hubspot}
 
-Erfahren Sie, wie Sie die [!DNL Marketo Measure] JavaScript zur Verfolgung Ihrer [!DNL Hubspot] Landingpages und Formularübermittlungen.
+Erfahren Sie, wie Sie die [!DNL Marketo Measure] JavaScript hinzufügen, um Ihre [!DNL Hubspot] -Landingpages und Formularübermittlungen zu verfolgen.
 
-Hubspot unterscheidet sich etwas von anderen Marketing-Automatisierungssystemen insofern, als es Ihre Landingpages/Formulare UND Ihre Website hosten kann. Beachten Sie, dass die folgenden Anweisungen dazu dienen, [!DNL Marketo Measure] Tracking-Aktivität in [!DNL Hubspot]- gehostete Seiten. Wenn Sie Ihre Website mit einem anderen CMS als [!DNL Hubspot] (z. B. Wordpress) müssen Sie die [!DNL Marketo Measure] auch JavaScript auf dieses CMS.
+Hubspot unterscheidet sich etwas von anderen Marketing-Automatisierungssystemen insofern, als es Ihre Landingpages/Formulare UND Ihre Website hosten kann. Beachten Sie, dass die folgenden Anweisungen dazu dienen, die Tracking-Aktivität von [!DNL Marketo Measure] auf [!DNL Hubspot] gehosteten Seiten zu verfolgen. Wenn Sie Ihre Website mit einem anderen CMS als [!DNL Hubspot] (z. B. Wordpress) versorgen, müssen Sie auch die [!DNL Marketo Measure] JavaScript zu diesem CMS hinzufügen.
 
 >[!NOTE]
 >
->Wenn Sie JavaScript über einen Tag-Management-Provider bereitstellen, z. B. [!DNL Google Tag Manager], müssen Sie die [!DNL Marketo Measure] JavaScript in Ihre Website.
+>Wenn Sie die JavaScript über einen Tag-Management-Provider wie [!DNL Google Tag Manager] bereitstellen, müssen Sie die [!DNL Marketo Measure] JavaScript nicht manuell in Ihre Website hartcodieren.
 
 ## Erste Schritte {#getting-started}
 
-Sobald Sie sich bei Ihrem [!DNL Hubspot] -Konto verwenden, führen Sie die folgenden Schritte aus.
+Nachdem Sie sich bei Ihrem [!DNL Hubspot] -Konto angemeldet haben, führen Sie die folgenden Schritte aus.
 
 1. Navigieren Sie zu Inhalt .
 
-1. Klicks **[!UICONTROL Inhaltseinstellungen]**.
+1. Klicken Sie auf **[!UICONTROL Inhaltseinstellungen]**.
 
-1. Within [!UICONTROL Inhaltseinstellungen]klicken Sie auf die HTML &quot;Site-Kopfzeile&quot;(siehe Abbildung unten).
+1. Klicken Sie in den [!UICONTROL Inhaltseinstellungen] auf die HTML &quot;Site-Kopfzeile&quot;(siehe Abbildung unten).
 
-1. Fügen Sie das folgende Skript in Ihre `<header>`:
+1. Fügen Sie das folgende Skript in Ihrem `<header>` hinzu:
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
@@ -44,6 +44,6 @@ Sobald Sie sich bei Ihrem [!DNL Hubspot] -Konto verwenden, führen Sie die folge
 
 >[!TIP]
 >
->In diesem Bereich gibt es möglicherweise bereits andere Trackingcode-Snippets, z. B. Google Analytics-Code. Achten Sie darauf, sie durch ein Semikolon zu trennen `;` und ein einzelnes Leerzeichen wie folgt:
+>In diesem Bereich gibt es möglicherweise bereits andere Trackingcode-Snippets, z. B. Google Analytics-Code. Achten Sie darauf, sie durch ein Semikolon `;` und ein einzelnes Leerzeichen zu trennen, z. B.:
 >
 >`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`

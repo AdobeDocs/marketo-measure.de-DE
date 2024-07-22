@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874652
-description: "[!DNL Marketo Measure] FAQ zur Durchsicht der Attribution - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Überblick über die Attribution - FAQ"
+description: "[!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsicht der Attribution - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] FAQ zur Durchsicht der Attribution"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
 source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
@@ -15,23 +15,23 @@ ht-degree: 30%
 
 ## Was ist &quot;View Through Attribution&quot;? {#what-is-view-through-attribution}
 
-Die [!DNL Marketo Measure] [!UICONTROL Durchsicht Attribution] -Funktion bietet die Möglichkeit, Anzeigenimpressionen in das Attributionsmodell aufzunehmen.
+Die Funktion [!DNL Marketo Measure] [!UICONTROL Durch Zuordnung anzeigen] bietet die Möglichkeit, Anzeigenimpressionen in das Attributionsmodell einzubeziehen.
 
 >[!IMPORTANT]
 >
 >Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe die Marketo Measure-Funktionen, die auf Drittanbieter-Cookies basieren, ein. Dies betrifft insbesondere das Domain-übergreifende Tracking und die Viewthrough-Attribution, die das Impressions-Cookie von Google/DoubleClick verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kundinnen und -Kunden weiterhin zur Verfügung.
 
-## Warum ist [!UICONTROL Durchsicht Attribution] Wichtig? {#why-is-view-through-attribution-important}
+## Warum ist [!UICONTROL Durchsicht Attribution anzeigen] wichtig? {#why-is-view-through-attribution-important}
 
 In der Vergangenheit war es für Marketingexperten schwierig, die Neuausrichtung von Targeting oder Impression-Werbung in der Attributionsanalyse zu berücksichtigen. Potenzielle Kunden können von Zeit zu Zeit erneut Targeting-Anzeigen erhalten, es ist jedoch unwahrscheinlich, dass sie tatsächlich auf eine dieser Anzeigen klicken und ein Formular innerhalb derselben Sitzung ausfüllen. Unsere Lösung &quot;Durch Attribution anzeigen&quot;bietet jetzt die Möglichkeit nachzuverfolgen, ob jemand einer Impressions-Anzeige ausgesetzt war oder nicht. Dieser Touchpoint wird an den einzelnen Datensatz angehängt und so lange ausgeführt, bis der Interessent zum Kunden wird. Mit diesen Informationen erhält der Marketing-Experte jetzt bessere Einblicke in die Leistung seiner Retargeting-Werbung.
 
 ## Was ist an der Einrichtung dieses Systems beteiligt? {#what-is-involved-in-setting-this-up}
 
-Zur [!DNL Marketo Measure] Um die Anzeigenimpressionen zu messen, muss ein Impressions-Tag im Kampagnen-Manager von Doubleclick platziert werden. Sobald das Tag implementiert ist, werden die Impressionen in unseren Logs gespeichert und wir kümmern uns um den Rest. Wenden Sie sich an Ihren Success Manager, wenn Sie die Ansicht durch Attribution messen möchten.
+Damit [!DNL Marketo Measure] mit der Messung der Anzeigenimpressionen beginnen kann, muss ein Impressions-Tag im Kampagnen-Manager von Doubleclick platziert werden. Sobald das Tag implementiert ist, werden die Impressionen in unseren Logs gespeichert und wir kümmern uns um den Rest. Wenden Sie sich an Ihren Success Manager, wenn Sie die Ansicht durch Attribution messen möchten.
 
 ## Welche Anzeigenplattformen werden unterstützt? {#which-ad-platforms-are-supported}
 
-Wir unterstützen derzeit [!DNL Doubleclick] Kampagnen-Manager.
+Wir unterstützen derzeit [!DNL Doubleclick] Campaign Manager.
 
 ## Wie wird die Attribution berechnet? {#how-is-the-attribution-calculated}
 
@@ -114,8 +114,8 @@ Wir haben eine sorgfältige Analyse von Impressionsdaten und deren Einfluss auf 
  </tbody> 
 </table>
 
-## Wie sieht dies aus in [!DNL Salesforce?] {#what-will-this-look-like-in-salesforce}
+## Wie wird dies in [!DNL Salesforce?] aussehen? {#what-will-this-look-like-in-salesforce}
 
-[!DNL Marketo Measure] erstellt einen einzelnen Impression-Touchpoint auf jedem Lead, das der Display-Anzeige angezeigt wurde. Wir können den Benutzer auch dann zuordnen, wenn er zum ersten Mal auf Ihre Website (FT) gelangt ist und ein Formular (LC) ausfüllt. Der Touchpoint enthält Anzeigeninformationen wie Anzeigenkampagnenname/-ID, Anzeigen-ID, Anzeigeninhalt, Site-Name/ID, Platzierungsname/-ID, Marketing-Kanal, Geo, Referrer-Seite und mehr.
+[!DNL Marketo Measure] erstellt einen einzelnen Impression-Touchpoint auf jedem Lead, der der Display-Anzeige angezeigt wurde. Wir können den Benutzer auch dann zuordnen, wenn er zum ersten Mal auf Ihre Website (FT) gelangt ist und ein Formular (LC) ausfüllt. Der Touchpoint enthält Anzeigeninformationen wie Anzeigenkampagnenname/-ID, Anzeigen-ID, Anzeigeninhalt, Site-Name/ID, Platzierungsname/-ID, Marketing-Kanal, Geo, Referrer-Seite und mehr.
 
 Das Viewthrough-Attributionsmodell hängt vom Client und den zugehörigen Daten ab.

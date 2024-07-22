@@ -1,6 +1,6 @@
 ---
 unique-page-id: 37356027
-description: "[!DNL Marketo Measure] Packaglose CRM-Integration - [!DNL Marketo Measure]"
+description: "[!DNL Marketo Measure] Integration ohne CRM - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Integration ohne CRM"
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
@@ -13,30 +13,30 @@ ht-degree: 1%
 
 # [!DNL Marketo Measure] CRM-Paketlose Integration {#marketo-measure-crm-packageless-integration}
 
-Nicht alle Marketing-Teams möchten (oder haben Zugriff), dass Marketing-Berichte aus dem CRM-System ausgeführt werden, unabhängig davon, ob dies auf eingeschränkten Zugriff, CRM-Eigentum, längere Wertdauer oder rechtliche Auswirkungen zurückzuführen ist. Den Pfad von [!DNL Marketo Measure] Schnellstart bietet Ihnen die Möglichkeit, die Implementierung und Ausführung effektiv durchzuführen [!DNL Marketo Measure] mit möglichst wenig Vertrauen in das CRM.
+Nicht alle Marketing-Teams möchten (oder haben Zugriff), dass Marketing-Berichte aus dem CRM-System ausgeführt werden, unabhängig davon, ob dies auf eingeschränkten Zugriff, CRM-Eigentum, längere Wertdauer oder rechtliche Auswirkungen zurückzuführen ist. Wenn Sie den Pfad von [!DNL Marketo Measure] Quick Start hinuntergehen, können Sie [!DNL Marketo Measure] effektiv implementieren und ausführen, wobei Sie so wenig auf das CRM-System wie möglich angewiesen sind.
 
-## Standard [!DNL Marketo Measure] Installation {#standard-marketo-measure-installation}
+## Standardinstallation [!DNL Marketo Measure] {#standard-marketo-measure-installation}
 
-Durch den Standard [!DNL Marketo Measure] Installation, müssen Sie eine [!DNL Salesforce] Paket oder [!DNL Microsoft Dynamics] Verwaltete Lösung. Die Installation umfasst benutzerdefinierte Objekte/Entitäten und benutzerdefinierte Felder, die dem CRM-System hinzugefügt werden, das [!DNL Marketo Measure] kann dann Daten in schreiben.
+Durch die Standardinstallation von [!DNL Marketo Measure] müssen Sie ein [!DNL Salesforce] -Paket oder eine [!DNL Microsoft Dynamics] verwaltete Lösung installieren. Die Installation umfasst benutzerdefinierte Objekte/Entitäten und benutzerdefinierte Felder, die dem CRM-System hinzugefügt werden und in die [!DNL Marketo Measure] dann Daten schreiben kann.
 
-Eine verpackungslose Integration mit [!DNL Marketo Measure] ist für Kunden bestimmt, die keine benutzerdefinierten Objekte/Entitäten oder benutzerdefinierten Felder in Ihrem CRM-System erstellen möchten. Es ist auch eine gute Option für Kunden, die eine externe Data Warehouse verwenden.
+Eine packaglose Integration mit [!DNL Marketo Measure] ist für Kunden gedacht, die keine benutzerdefinierten Objekte/Entitäten oder benutzerdefinierten Felder in Ihrem CRM-System erstellen möchten. Es ist auch eine gute Option für Kunden, die eine externe Data Warehouse verwenden.
 
 ## Berechtigungen {#permissions}
 
-A [!DNL Marketo Measure] Die Integration ohne CRM-Lösung erfordert weiterhin Zugriff auf Standard-CRM-Objekte wie Leads und Kontakte. Es wird empfohlen, dass ein dedizierter Benutzer als verbundener Benutzer fungiert, da er über die entsprechenden Datenzugriffsberechtigungen verfügt.
+Für eine Integration ohne CRM-Verpackung mit [!DNL Marketo Measure] ist weiterhin Zugriff auf Standard-CRM-Objekte wie Leads und Kontakte erforderlich. Es wird empfohlen, dass ein dedizierter Benutzer als verbundener Benutzer fungiert, da er über die entsprechenden Datenzugriffsberechtigungen verfügt.
 
-Um sicherzustellen, dass alle Daten ordnungsgemäß aus Ihrem CRM-System abgerufen werden, benötigen wir die folgenden Sicherheits- und Barrierefreiheitseinstellungen: Alle Daten für das Profil des dedizierten Benutzers anzeigen. Dieser Berechtigungssatz gibt [!DNL Marketo Measure] den zum Herunterladen von Daten von Standardobjekten benötigten Zugriff. Dieser Berechtigungssatz befindet sich auf Profilebene.
+Um sicherzustellen, dass alle Daten ordnungsgemäß aus Ihrem CRM-System abgerufen werden, benötigen wir die folgenden Sicherheits- und Barrierefreiheitseinstellungen: Alle Daten für das Profil des dedizierten Benutzers anzeigen. Dieser Berechtigungssatz gibt [!DNL Marketo Measure] den Zugriff, der zum Herunterladen von Daten von Standardobjekten erforderlich ist. Dieser Berechtigungssatz befindet sich auf Profilebene.
 
 ## Einrichten Ihres Identitäts-Providers und Ihrer Datenverbindungen {#setup-your-identity-provider-and-data-connections}
 
-Überspringen Sie in den nachstehenden Handbüchern die Schritte zur Installation der [!DNL Salesforce] Paket oder [!DNL Microsoft Dynamics] Managed Solution und befolgen Sie nur die Berechtigungen und Integrationsanweisungen.
+Überspringen Sie in den nachstehenden Handbüchern die Schritte zur Installation des [!DNL Salesforce]-Pakets oder der [!DNL Microsoft Dynamics] Managed Solution und befolgen Sie nur die Anweisungen zu Berechtigungen und Integration.
 
-[!DNL Salesforce] Kunden klicken [here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md).
+[!DNL Salesforce] -Kunden klicken auf [hier](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md).
 
-[!DNL Microsoft Dynamics] Kunden klicken [here](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
+[!DNL Microsoft Dynamics] -Kunden klicken auf [hier](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-Nachdem Sie diese Schritte ausgeführt haben, sollte die Integration betriebsbereit sein. Wenden Sie sich bei Problemen an Ihren [!DNL Marketo Measure] repräsentativ oder [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Nachdem Sie diese Schritte ausgeführt haben, sollte die Integration betriebsbereit sein. Wenn Probleme auftreten, wenden Sie sich an Ihren [!DNL Marketo Measure] -Kundenbetreuer oder an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >
->Wenn Sie mit dem [!DNL Marketo Measure] Die CRM-Paketlose Integration ermöglicht die spätere Installation des Salesforce-Packages oder der Microsoft Dynamics Managed Solution.
+>Wenn Sie mit der Integration &quot;[!DNL Marketo Measure] CRM packageless&quot;beginnen, können Sie das Salesforce-Package oder die Microsoft Dynamics Managed Solution später installieren.

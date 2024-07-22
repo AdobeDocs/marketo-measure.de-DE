@@ -13,18 +13,18 @@ ht-degree: 1%
 
 # Konfiguration von [!DNL Marketo Measure]-Insights {#marketo-measure-insights-configuration}
 
-Die [!DNL Marketo Measure] Die Insights-Canvas-App sollte dem Lead-Seiten-Layout hinzugefügt werden, erfordert jedoch eine zusätzliche Einrichtung im Abschnitt Connected Apps Ihrer [!DNL Salesforce] Einrichtung. Befolgen Sie diese Anweisungen, um sicherzustellen, dass die Canvas-App über die entsprechenden Berechtigungen verfügt.
+Die [!DNL Marketo Measure] Insights-Canvas-App sollte dem Lead-Seiten-Layout hinzugefügt werden, erfordert jedoch eine zusätzliche Einrichtung im Abschnitt &quot;Connected Apps&quot;Ihrer [!DNL Salesforce]-Einrichtung. Befolgen Sie diese Anweisungen, um sicherzustellen, dass die Canvas-App über die entsprechenden Berechtigungen verfügt.
 
-1. Navigieren Sie zu [!DNL Salesforce] Einrichtung und klicken Sie auf **[!UICONTROL Connected Apps]** unter [!UICONTROL Apps verwalten] Registerkarte.
+1. Navigieren Sie zu [!DNL Salesforce] Setup und klicken Sie auf der Registerkarte [!UICONTROL Apps verwalten] auf **[!UICONTROL Connected Apps]** .
 
-1. Wählen Sie die [!DNL Marketo Measure Insights] aus der Liste aus, die ausgefüllt wird.
+1. Wählen Sie den Wert [!DNL Marketo Measure Insights] aus der Liste aus, die ausgefüllt wird.
 
-1. Unter dem [!UICONTROL OAuth] Richtlinien ändern Sie die Einstellung &quot;Berechtigte Benutzer&quot;in &quot;Genehmigte Benutzer sind vorautorisiert&quot;. Ein Popup wird angezeigt, klicken Sie auf **[!UICONTROL OK]** und dann **[!UICONTROL Speichern]**.
+1. Ändern Sie im Abschnitt &quot;[!UICONTROL OAuth]-Richtlinien&quot;die Einstellung &quot;Berechtigte Benutzer&quot;in &quot;Genehmigte Benutzer sind vorautorisiert&quot;. Ein Popup wird angezeigt, klicken Sie auf **[!UICONTROL OK]** und dann auf **[!UICONTROL Speichern]**.
 
    ![](assets/1-1.png)
 
-1. Nachdem die Seite gespeichert wurde, können Sie auf die **[!UICONTROL Profile verwalten]** Schaltfläche.
+1. Nachdem die Seite gespeichert wurde, können Sie auf die Schaltfläche **[!UICONTROL Profile verwalten]** klicken.
 
    ![](assets/2-1.png)
 
-1. Wählen Sie alle Profile aus, auf die Zugriff bestehen soll [!DNL Marketo Measure] Einblicke und klicken **[!UICONTROL Speichern]**.
+1. Wählen Sie alle Profile aus, die Zugriff auf [!DNL Marketo Measure] Insights haben sollen, und klicken Sie auf **[!UICONTROL Speichern]**.

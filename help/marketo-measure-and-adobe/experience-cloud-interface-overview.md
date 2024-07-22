@@ -1,5 +1,5 @@
 ---
-description: Übersicht über die Adobe Experience Cloud-Benutzeroberfläche [!DNL Marketo Measure]
+description: Übersicht über die Adobe Experience Cloud-Benutzeroberfläche - [!DNL Marketo Measure]
 title: Adobe Experience Cloud-Benutzeroberfläche – Übersicht
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
@@ -16,7 +16,7 @@ Die Benutzeroberfläche von Adobe Experience Cloud passt das Erscheinungsbild vo
 
 ## Benutzerfluss {#user-flow}
 
-Wenn Sie bereits bei einem Adobe Experience Cloud-Produkt angemeldet sind, klicken Sie auf das Menüsymbol und wählen Sie **[!DNL Marketo Measure]**.
+Wenn Sie bereits bei einem Adobe Experience Cloud-Produkt angemeldet sind, klicken Sie auf das Menüsymbol und wählen Sie **[!DNL Marketo Measure]** aus.
 
 ![](assets/unified-shell-overview-4.png)
 
@@ -24,7 +24,7 @@ Wenn Sie bereits bei einem Adobe Experience Cloud-Produkt angemeldet sind, klick
 >
 >Ihr Dropdownmenü kann je nachdem, für welche Adobe Experience Cloud-Produkte Sie angemeldet sind, anders aussehen.
 
-Wenn Sie _not_ bereits bei einem Adobe Experience Cloud-Produkt angemeldet sind, melden Sie sich direkt bei [!DNL Marketo Measure] hier: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
+Wenn Sie _nicht_ bereits bei einem Adobe Experience Cloud-Produkt angemeldet sind, melden Sie sich hier direkt bei [!DNL Marketo Measure] an: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
 
 ## Neue Funktionen {#new-features}
 
@@ -32,13 +32,13 @@ Beachten Sie neben dem aktualisierten Erscheinungsbild die folgenden Funktionen:
 
 **Domänenverwaltung**
 
-[Verwalten Sie Ihre [!DNL Marketo Measure] Domänen](/help/marketo-measure-and-adobe/domain-management.md) ohne Hilfe von [!DNL Marketo Measure].
+[Verwalten Sie Ihre [!DNL Marketo Measure] Domänen](/help/marketo-measure-and-adobe/domain-management.md) ohne Unterstützung von [!DNL Marketo Measure].
 
 ![](assets/unified-shell-overview-5.png)
 
 **Integriertes Hilfezentrum**
 
-Suchen Sie nach Support-Artikeln, senden Sie Tickets, geben Sie Feedback, alles aus dem [!DNL Marketo Measure] Anwendung.
+Suchen Sie in der Anwendung [!DNL Marketo Measure] nach Supportartikeln, senden Sie Tickets, geben Sie Feedback.
 
 ![](assets/unified-shell-overview-6.png)
 
@@ -56,9 +56,9 @@ Zeigen Sie Produktspezifische Benachrichtigungen und allgemeine Produktankündig
 
 ![](assets/unified-shell-overview-9.png)
 
-**Adobe-Einstellungen**
+**Adobe Settings**
 
-Um Ihre Spracheinstellungen oder andere Adobe-weite Voreinstellungen zu ändern, klicken Sie auf Ihr Profilsymbol. Sie können auch [!DNL Marketo Measure]-spezifische Änderungen durch Klicken auf **Meine Einstellungen**.
+Um Ihre Spracheinstellungen oder andere Adobe-weite Voreinstellungen zu ändern, klicken Sie auf Ihr Profilsymbol. Sie können auch [!DNL Marketo Measure]-spezifische Änderungen vornehmen, indem Sie auf **Meine Einstellungen** klicken.
 
 ![](assets/unified-shell-overview-10.png)
 
@@ -68,10 +68,10 @@ Um Ihre Spracheinstellungen oder andere Adobe-weite Voreinstellungen zu ändern,
 
 Lesezeichen werden umgeleitet. Wenn Sie beispielsweise zu https://apps.marketo-measure.com/Discover/391 navigieren, werden Sie nach Abschluss der Authentifizierung zu https://experience.adobe.com/marketo-measure/Discover/391 umgeleitet.
 
-**Ich kann mich nicht bei [!DNL Marketo Measure] über die Experience Cloud-Oberfläche. Was könnte das Problem sein?**
+**Ich kann mich nicht über die Experience Cloud-Oberfläche bei [!DNL Marketo Measure] anmelden. Was könnte das Problem sein?**
 
-Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine Seite wie die folgende angezeigt wird, kann sich das Problem auf der Seite [!DNL Marketo Measure] side:
+Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine Seite wie die folgende angezeigt wird, könnte das Problem auf der Seite [!DNL Marketo Measure] auftreten:
 
 ![](assets/unified-shell-overview-11.png)
 
-Wenn Sie den obigen Fehler erhalten, [Support kontaktieren](https://nation.marketo.com/t5/support/ct-p/Support) Hilfe.
+Wenn Sie den obigen Fehler erhalten, kontaktieren Sie [den Support](https://nation.marketo.com/t5/support/ct-p/Support), um Hilfe zu erhalten.

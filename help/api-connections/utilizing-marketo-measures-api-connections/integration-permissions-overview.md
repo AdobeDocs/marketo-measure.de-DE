@@ -2,7 +2,8 @@
 description: Übersicht über Integrationsberechtigungen - [!DNL Marketo Measure]
 title: Überblick über Integrationsberechtigungen
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 2%
@@ -38,7 +39,7 @@ In diesem Handbuch werden die erforderlichen Berechtigungen für die nahtlose In
     <li>Kontakt</li>
     <li>CurrencyConversionRange</li>
     <li>CurrencyStatus</li>
-    <li>Ereignisse</li>
+    <li>Veranstaltungen</li>
     <li>FieldHistory (Lead, Kontakt und Chancen)</li>
     <li>Lead</li>
     <li>Opportunity</li>
@@ -47,21 +48,21 @@ In diesem Handbuch werden die erforderlichen Berechtigungen für die nahtlose In
     <li>Aufgaben</li>
 <p>
 Die erstellten Touchpoints und andere Daten werden in benutzerdefinierte bizible Felder in Konto, Kampagne, CampaignMember, Case, Contact, Lead und Opportunity geschrieben.</td>
-    <td><b>Salesforce Connected User Permissions (erforderlich)</b>
+    <td><b>Berechtigungen für verbundene Salesforce-Benutzer (erforderlich)</b>
     <p>
-    <b>Marketo Measure-Administratorberechtigungssatz für dedizierte Benutzer:</b> Erlauben Sie dem SFDC-Administrator, CRUD-Vorgänge auf Marketo durchzuführen, um Objekte zu messen.
+    <b>Marketo Measure-Administratorberechtigungssatz für dedizierte Benutzer:</b> Erlauben dem SFDC-Administrator, CRUD-Vorgänge für Marketo-Objekte durchzuführen.
     <br>
     <b>Berechtigungssatz für konvertierte Leads anzeigen und bearbeiten:</b> Dadurch kann Marketo Measure Leads dekorieren, nachdem sie in Kontakte konvertiert wurden.
     <br>
-    <b>Salesforce Marketing User Checkbox:</b> Über das Kontrollkästchen Marketing-Benutzer können Benutzer Kampagnen erstellen und die Assistenten zum Importieren von Kampagnen verwenden.
+    <b> Salesforce Marketing User Checkbox:</b> Das Kontrollkästchen Marketing-Benutzer ermöglicht Benutzern das Erstellen von Kampagnen und die Verwendung des Assistenten zum Importieren von Kampagnen.
     <br>
-    <b>Marketo Measure Standard-Benutzer:</b> Ermöglicht dem Benutzer das Lesen von Datensätzen aus Marketo Measure-Objekten.
+    <b>Marketo Measure Standard User:</b> Ermöglicht Benutzern das Lesen von Datensätzen aus Marketo Measure-Objekten.
     <p>
-    <b>Salesforce Standard-Feldberechtigungen</b>
+    <b>Salesforce-Standardfeldberechtigungen</b>
     <br>
     <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce-Standardobjekte und Zugriff</a>
     <p>
-    <b>Berechtigungen für benutzerdefinierte Salesforce-Felder</b>
+    <b>Berechtigungen für benutzerdefinierte Felder in Salesforce</b>
     <br>
     Wir bieten Funktionseinstellungen für benutzerdefinierte Salesforce-Felder, die Kunden verwenden können. Wenn diese Funktionseinstellungen definiert sind, benötigen wir READ-Zugriff auf jedes Salesforce-Feld, das in der Funktionseinstellung gespeichert wurde (wenn z. B. der Wert der Einstellung CustomLeadSourceField gleich "LeadSource__c"ist, benötigen wir READ-Zugriff auf dieses Feld).
     </td>
@@ -82,7 +83,7 @@ Die erstellten Touchpoints und andere Daten werden in benutzerdefinierte bizible
 <li>List (MarketingList in unserem System)
 <li>ListMember (MarketingListMember in unserem System)
 <li>Opportunity
-<li>Organisation
+<li>Organization
 <li>TransactionCurrency (CurrencyConversionRange und CurrencyStatus in unserem System)
 <li>Termin, CampaignActivity, E-Mail, Fax, IncidentResolution, Brief, PhoneCall, RecurringAppointingMaster, ServiceAppointing, Task
 <li>bizible2_bizible_abtest
@@ -108,7 +109,7 @@ Für benutzerdefinierte Marketo Measure-Entitäten benötigen wir vollständige 
 <br>
 <a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics-Schema</a>
 <p>
-<b>Benutzerdefinierte Feldberechtigungen in Dynamics</b>
+<b>Benutzerdefinierte Feldberechtigungen für Dynamics</b>
 <br>
 Wir benötigen LESE-Zugriff für jedes Feld in der Lead- oder Kontaktentität, das der Kunde für benutzerdefinierte Regeln für die Unterdrücken/Entfernen von Touchpoint-Einstellungen verwenden möchte.
 <br>
@@ -156,11 +157,11 @@ Marketo Measure verfolgt Konten, Kampagnen, Anzeigengruppen, Anzeigen, Filter-ID
     <p>
     <b>Bereiche</b>
     <br>
-    <a href="https://www.linkedin.com/campaignmanager/accounts">Einrichten der Benutzerrolle im Portal (Anmeldung beim LinkedIn-Konto erforderlich)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">Überblick über Benutzerrollen</a>: Benutzerrolle, Benutzerberechtigungen anzeigen und verwalten, Rollen wie Kundenbetreuer oder Kampagnenmanager zuweisen
+    <a href="https://www.linkedin.com/campaignmanager/accounts">Einrichten der Benutzerrolle im Portal (Anmeldung beim LinkedIn-Konto erforderlich)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">Überblick über Benutzerrollen</a>: Benutzerrolle, Anzeigen und Verwalten von Benutzerberechtigungen, Zuweisen von Rollen wie Kundenbetreuer oder Kampagnenmanager
     <p>
-    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Einrichten der Seitenadministratorrolle - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">Seitenadministratorrollendefinitionen</a>: Seitenadmin-Rolle auf der gewünschten Admin-Seite
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Einrichten der Seitenadministratorrolle - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">Seitenadministratorrollendefinitionen</a>: Seitenadministratorrolle auf der gewünschten Admin-Seite
     <p>
-    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Paid Media-Administratorrolle einrichten (suchen Sie nach Paid Media-Admin ) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">Definitionen für gebührenpflichtige Medien</a>: Paid Media-Administratorrollen</td>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Einrichten der gebührenpflichtigen Medienadministratorrolle (suchen Sie nach "Paid Media Admin") - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">Definitionen für gebührenpflichtige Medien</a>: Administratorrollen für gebührenpflichtige Medien</td>
   </tr>
   <tr>
     <td>DoubleClick</td>
@@ -174,7 +175,7 @@ Marketo Measure verfolgt Konten, Kampagnen, Anzeigengruppen, Anzeigen, Filter-ID
 <p>
     <b>Bereiche</b>
     <br>
-    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: Siehe Ihre primäre Google-Konto-E-Mail-Adresse
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: Siehe Ihre primäre Google-Konto-E-Mail-Adresse.
     <p>
      <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a>: Anzeigen und Verwalten von DoubleClick for Advertisers-Berichten
     <p>
@@ -194,13 +195,13 @@ Marketo Measure verfolgt Kampagnen, Anzeigengruppen, Kreative, Site-Links und Su
 <p>
     <b>Bereiche</b>
     <br>
-    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: Siehe Ihre primäre Google-Konto-E-Mail-Adresse</td>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: Siehe Ihre primäre Google-Konto-E-Mail-Adresse.</td>
   </tr>
   <tr>
     <td>Bing</td>
     <td>Anzeigenplattformdaten</td>
     <td>Marketo Measure verfolgt Konten, Kampagnen, Anzeigengruppen, Kreative und Suchbegriffe.</td>
-    <td><li>Der Benutzer muss über sein Microsoft-Konto "Offline-Zugriff"gewähren (das Marketo Measure Zugriff auf die UserInfo des Endbenutzers gewährt, auch wenn er nicht angemeldet ist). Siehe <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoft-Seite</a> wie dies zu tun ist.</li>
+    <td><li>Der Benutzer muss über sein Microsoft-Konto "Offline-Zugriff"gewähren (das Marketo Measure Zugriff auf die UserInfo des Endbenutzers gewährt, auch wenn er nicht angemeldet ist). Weitere Informationen finden Sie auf der Seite <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsofts</a> .</li>
 <p>
     <b>Bereiche</b>
     <br>
@@ -209,7 +210,7 @@ Marketo Measure verfolgt Kampagnen, Anzeigengruppen, Kreative, Site-Links und Su
   <tr>
     <td>Marketo Engage</td>
     <td>B2B-Systemdaten</td>
-    <td>Durch die Marketo-Integration kann Marketo Measure Marketo-Aktivitäten, Personen, Programme und Programmmitgliedschaften erfassen. Darüber hinaus verfolgt Marketo Measure Marketo-Cookies (Munchkin-IDs), um Marketo-Web-Aktivitäten mit Lead-Touchpoints von Marketo Measure zu verknüpfen. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">wie hier beschrieben</a>:
+    <td>Durch die Marketo-Integration kann Marketo Measure Marketo-Aktivitäten, Personen, Programme und Programmmitgliedschaften erfassen. Außerdem verfolgt Marketo Measure Marketo-Cookies (Munchkin-IDs), um Marketo-Web-Aktivitäten mit Marketo Measure-Lead-Touchpoints zu verknüpfen, wie hier </a> beschrieben:<a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">
     <p>
     <i>Aufgrund der Marketo Measure-Integration mit Marketo wird jetzt auch die Marketo Measure-Cookie-ID zugeordnet und mit der Marketo Munchkin-ID synchronisiert. Dies hilft, die Lücke zu schließen, um den anonymen Erstkontakt einer Web-Sitzung zuzuordnen, anstatt sowohl FT- als auch LC-Touches einer Marketo-Aktivität zuzuordnen.</i>
     </td>
@@ -231,7 +232,7 @@ Marketo Measure verfolgt Kampagnen, Anzeigengruppen, Kreative, Site-Links und Su
   <tr>
     <td>Bizible JavaScript</td>
     <td></td>
-    <td><a href="/help/marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md">Welche Daten werden von bizible.js erfasst?</a>.</td>
+    <td><a href="/help/marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md">Welche Daten "bizible.js"erfasst</a>.</td>
     <td></td>
   </tr>
 </tbody>

@@ -1,15 +1,16 @@
 ---
-description: Dashboard-Richtlinie zur Datenanzeige - [!DNL Marketo Measure] - Produkt
-title: Dashboard-Richtlinie zur Datenanzeige
+description: Dashboard-Richtlinie zur Datenanzeige -  [!DNL Marketo Measure]  - Produkt
+title: Richtlinie zur Dashboard-Datentransparenz
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+exl-id: 5f6f7173-617e-459d-992f-8a8b6c2db7cb
+source-git-commit: 2bfa2923119f8ece18ec68408f8098bfa6778ccf
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 11%
+source-wordcount: '239'
+ht-degree: 14%
 
 ---
 
-# Dashboard-Richtlinie zur Datenanzeige {#dashboard-data-visibility-policy}
+# Richtlinie zur Dashboard-Datentransparenz {#dashboard-data-visibility-policy}
 
 Um ein besseres Erlebnis in unseren Dashboards zu ermöglichen, haben wir Richtlinien zur Datenanzeige für Objekte festgelegt, über die wir Berichte erstellen. Beachten Sie, dass Sie bei der Kenntnis der neuen Discover-Dashboards möglicherweise geringere Zahlen im Vergleich zu den alten Dashboards feststellen. Dies ist auf eine Änderung unserer Methode zur Datendarstellung zurückzuführen, bei der die neuen Dashboards jetzt über spezifische Sichtbarkeitsrichtlinien verfügen. Im Gegensatz zu unseren alten Discover-Dashboards, die alle verfügbaren Daten anzeigen, zeigt die neue Version nur die Daten pro Sichtbarkeitsrichtlinie an. Dieser Artikel soll klarstellen, wie Sichtbarkeitsrichtlinien für verschiedene Datenobjekte sind, und Transparenz und genaue Datenauswertung aus den Berichten sicherstellen.
 

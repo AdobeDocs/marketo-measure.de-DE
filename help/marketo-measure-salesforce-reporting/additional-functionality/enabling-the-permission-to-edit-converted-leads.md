@@ -13,9 +13,9 @@ ht-degree: 9%
 
 # Aktivierung der Berechtigung zum Bearbeiten konvertierter Leads {#enabling-the-permission-to-edit-converted-leads}
 
-Erfahren Sie, wie Sie die Berechtigung zum Bearbeiten konvertierter Lead-Datensätze in aktivieren [!DNL Salesforce]. [!DNL Marketo Measure] kann Daten an verschiedene Objekte in Salesforce übertragen. Wenn wir auf Leads drücken, stellen wir fest, dass wir in einigen Szenarien möglicherweise erneut auf einen Lead-Datensatz drücken müssen, der bereits konvertiert wurde. Damit wir Daten an diese Datensätze senden können, muss der Benutzer, über den wir verbunden sind, über die Berechtigung verfügen, konvertierte Leads auf Profilebene anzuzeigen und zu bearbeiten.
+Erfahren Sie, wie Sie die Berechtigung zum Bearbeiten konvertierter Lead-Datensätze in [!DNL Salesforce] aktivieren. [!DNL Marketo Measure] kann Daten an verschiedene Objekte in Salesforce übertragen. Wenn wir auf Leads drücken, stellen wir fest, dass wir in einigen Szenarien möglicherweise erneut auf einen Lead-Datensatz drücken müssen, der bereits konvertiert wurde. Damit wir Daten an diese Datensätze senden können, muss der Benutzer, über den wir verbunden sind, über die Berechtigung verfügen, konvertierte Leads auf Profilebene anzuzeigen und zu bearbeiten.
 
-1. Navigieren Sie zu [!UICONTROL Einrichtung] und erweitern [!UICONTROL Benutzer verwalten] Gruppierung zur Auswahl von Profilen.
+1. Navigieren Sie zu [!UICONTROL Einrichten] und erweitern Sie die Gruppe [!UICONTROL Benutzer verwalten] , um Profile auszuwählen.
 
    ![](assets/1-2.png)
 

@@ -25,15 +25,15 @@ Wenn ein Benutzer die Kostendatei herunterlädt, enthält die Datei auch eine ne
 
 ## Kosten von Anzeigenintegrationen {#costs-from-ad-integrations}
 
-Wann [!DNL Marketo Measure] Importiert die Kosten von verbundenen Plattformen wie AdWords, Bing, Facebook oder Doubleclick. Wir verwenden auch die gemeldete Währung. Die Währung wird neben Kanal, Unterkanal und Kampagne angezeigt, wenn sie in der Tabelle Marketing-Ausgaben angezeigt wird.
+Wenn [!DNL Marketo Measure] die Kosten von verbundenen Plattformen wie AdWords, Bing, Facebook oder DoubleClick importiert, wird auch die gemeldete Währung verwendet. Die Währung wird neben Kanal, Unterkanal und Kampagne angezeigt, wenn sie in der Tabelle Marketing-Ausgaben angezeigt wird.
 
-Wenn die Währung des Anzeigen-Providers nicht mit einer Währung übereinstimmt, die aus dem CRM abgerufen wird, wird möglicherweise der Fehler &quot;Gemischte Währungen&quot;unter [!DNL Marketo Measure Discover]. Um dies zu beheben, muss der CRM-Administrator eine Konversion für die unbekannte Währung hinzufügen.
+Wenn die Währung des Anzeigen-Providers nicht mit einer Währung übereinstimmt, die aus dem CRM abgerufen wird, wird möglicherweise in [!DNL Marketo Measure Discover] der Fehler &quot;Gemischte Währungen&quot;angezeigt. Um dies zu beheben, muss der CRM-Administrator eine Konversion für die unbekannte Währung hinzufügen.
 
 ## Migration zu konvertierten Marketingausgaben {#migrate-to-converted-marketing-spend}
 
 Da die Marketing-Ausgaben historisch nur in einer einzigen (USD)-Währung getätigt wurden, ist ein kleiner Arbeitsaufwand erforderlich, um alle gemeldeten Ausgaben in die neue Währung zu ändern. Selbst wenn für Ihr Konto nicht die Option &quot;Mehrere Währungen&quot;aktiviert ist, sollten Sie diese Migration vornehmen, wenn Sie eine einheitliche Unternehmenswährung außer USD haben.
 
 1. Aktuelle Ausgabedatei in eine CSV-Datei herunterladen
-1. Die Spalte &quot;Währung&quot;zeigt &quot;[!UICONTROL USD]&quot; als die angenommene Währung. Sie können entweder alle Vorkommen von[!UICONTROL USD]&quot; oder verwenden Sie Suchen+Ersetzen , um alle &quot;[!UICONTROL USD]&quot;-Instanzen in Ihre eigene Unternehmenskreditwährung, z. B. &quot;[!UICONTROL EUR]&quot; oder &quot;[!UICONTROL GBP]&quot;.
-1. Speichern Sie die Datei und laden Sie sie dann erneut in hoch. [!DNL Marketo Measure].
+1. In der Spalte &quot;Währung&quot;wird &quot;[!UICONTROL USD]&quot;als angenommen Währung angezeigt. Sie können entweder alle Vorkommen von &quot;[!UICONTROL USD]&quot;manuell ersetzen oder &quot;Find+Replace&quot;verwenden, um alle &quot;[!UICONTROL USD]&quot;-Instanzen in Ihre eigene Unternehmenswährung zu ändern, z. B. &quot;[!UICONTROL EUR]&quot;oder &quot;[!UICONTROL GBP]&quot;.
+1. Speichern Sie die Datei und laden Sie sie dann erneut in [!DNL Marketo Measure] hoch.
 1. Alle von Ihnen gemeldeten Kosten werden jetzt als neue Währung angezeigt.
