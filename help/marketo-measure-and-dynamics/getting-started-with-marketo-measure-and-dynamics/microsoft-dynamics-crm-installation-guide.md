@@ -4,10 +4,10 @@ description: „[!DNL Microsoft Dynamics]-CRM-Installationsanleitung – Marketo
 title: „[!DNL Microsoft Dynamics]-CRM-Installationsanleitung“
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: 706f60a3b35e524da816b1d70abd363f0f02a1ba
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '970'
+ht-degree: 98%
 
 ---
 
@@ -56,6 +56,8 @@ Wenn Ihr Unternehmen Sicherheitsrollen von Dynamics verwendet, vergewissern Sie 
 Sicherheitsrollen finden Sie hier: **[!UICONTROL Einstellungen]** > **[!UICONTROL Sicherheit]** > **[!UICONTROL Sicherheitsrollen]**.
 
 Für benutzerdefinierten Entitäten von [!DNL Marketo Measure] benötigen wir vollständige Berechtigungen für alle unsere Entitäten.
+
+Zusätzlich zu den Lese-/Schreibberechtigungen für Standardentitäten sind auch Berechtigungen zum Erstellen von Kampagnen erforderlich.
 
 >[!NOTE]
 >
