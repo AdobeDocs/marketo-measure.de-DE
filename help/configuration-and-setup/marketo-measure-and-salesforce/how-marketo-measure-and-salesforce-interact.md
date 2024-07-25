@@ -5,9 +5,9 @@ title: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,16 +33,16 @@ Standardmäßig exportiert [!DNL Marketo Measure] jedes Mal 200 Einträge pro AP
 
 Beachten Sie bei der Änderung dieser Einstellung, dass kleinere Batch-Größen mehr API-Credits aus Ihrem CRM-System verbrauchen. Es wird empfohlen, die Batch-Größe nur zu reduzieren, wenn in Ihrem CRM-System CPU-Timeouts oder eine hohe CPU-Last auftreten.
 
-## Berechtigungen für verbundene Salesforce-Benutzer {#salesforce-connected-user-permissions}
+## Mit Salesforce verbundene Benutzerberechtigungen {#salesforce-connected-user-permissions}
 
-**Marketo Measure-Administratorberechtigungssatz für dedizierten Benutzer**: Ermöglicht dem SFDC-Administrator, CRUD-Vorgänge für Marketo Measure-Objekte durchzuführen.
+**Marketo Measure-Administratorberechtigungssatz für dedizierte Benutzende**: Ermöglicht es SFDC-Admins, CRUD-Vorgänge für Marketo Measure-Objekte durchzuführen.
 
-**Berechtigungssatz für konvertierte Leads anzeigen und bearbeiten**: Dadurch kann Marketo Measure Leads dekorieren, nachdem sie in Kontakte konvertiert wurden.
+**Berechtigungssatz zum Anzeigen und Bearbeiten konvertierter Leads**: Ermöglicht es Marketo Measure, Leads nach ihrer Konversion in Kontakte zu ergänzen.
 
-**Kontrollkästchen Marketing-Benutzer in Salesforce**: Ermöglicht Benutzern das Erstellen von Kampagnen und die Verwendung der Assistenten zum Importieren von Kampagnen.
-* Zusätzliche Berechtigungen für die Kampagne &quot;Erstellen&quot;sind erforderlich.
+**Kontrollkästchen für Salesforce Marketing-Benutzende**: Ermöglicht es Benutzenden, Kampagnen zu erstellen und die Assistenten zum Importieren von Kampagnen zu verwenden.
+* Es sind zusätzliche Berechtigungen zum Erstellen von Kampagnen erforderlich.
 
-**Marketo Measure Standard User**: Ermöglicht Benutzern das Lesen von Datensätzen aus Marketo Measure-Objekten.
+**Marketo Measure-Standardbenutzende**: Ermöglicht es Benutzenden, Einträge aus Marketo Measure-Objekten zu lesen.
 
 ## Salesforce Standard-Objekte und Zugriff {#salesforce-standard-objects-and-access}
 
