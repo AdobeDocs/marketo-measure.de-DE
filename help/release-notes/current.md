@@ -3,16 +3,47 @@ description: Aktuelle Versionshinweise – [!DNL Marketo Measure]
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+source-git-commit: 9d1001306a3e98ca85af5839ad4ea3ff662d1886
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 67%
 
 ---
 
 # Versionshinweise 2024 {#release-notes-2024}
 
 Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktionen unserer Versionen aus dem Jahr 2024.
+
+## Q4-Version {#q4-release}
+
+### Erweiterte Segmentregeln
+
+Sie können jetzt Segmente über die Felder Campaign und Campaign-Mitglied sowie Touchpoint und Kontaktfelder erstellen. Dank dieser Verbesserung können Sie Ihre Daten in Discover effizienter analysieren und aufschlüsseln.
+
+![Segmentregeln für Mitglieder](assets/campaign-member.png)
+
+### Aktualisierung: Einstellung für die Fehlerbehandlung bei CRM-Exporten
+
+Wir haben Ihr Feedback bezüglich der Einstellung von Aufträgen gehört und führen eine neue Funktion in die Benutzeroberfläche ein. Ab heute können Sie festlegen, ob Exportvorgänge bei Auftreten von Fehlern ausgesetzt werden sollen. Verwenden Sie den neuen Umschalter in **Mein Konto** > **Einstellungen** → **CRM** → **Allgemein**. Dieser Schalter ist standardmäßig aktiviert, um die Datenintegrität und -anzeige zu verbessern. Wenn Sie diese Funktion jedoch lieber nicht verwenden möchten, können Sie sie in der Benutzeroberfläche deaktivieren und die Exportvorgänge werden fortgesetzt. Diese Aktualisierung soll die Zuverlässigkeit Ihrer Datenverwaltungsprozesse erhöhen und gleichzeitig die Kontrolle über Sie verbessern.
+
+#### Wichtige Daten und gestaffelter Rollout
+
+Sofortige Verfügbarkeit aktivieren: Der Umschalter ist jetzt in der Benutzeroberfläche aktiv und ist standardmäßig aktiviert, um zu verhindern, dass Daten bei Exportvorgängen übersprungen werden. Wenn Sie es vorziehen, dass Exportaufträge trotz aufgetretener Fehler weiterhin ausgeführt werden, deaktivieren Sie den Umschalter.
+
+Auftrag - Aktivierung aussetzen am 1. Oktober: Ab dem 1. Oktober 2024 wird der Auftrag angehalten, um sicherzustellen, dass keine Daten verloren gehen, wenn der Umschalter aktiv ist und während eines Exportvorgangs ein Fehler auf Datensatzebene auftritt. Diese Fehler sind in der Regel auf fehlende Berechtigungen, falsch angewendete benutzerdefinierte Validierungsregeln oder Probleme in Workflows/Triggern zurückzuführen. Sie erhalten Benachrichtigungen zu dem Problem. Sobald es behoben wurde, wird der Exportauftrag ab dem Zeitpunkt der Unterbrechung fortgesetzt. Wenn Sie die Aussetzung des Vorgangs abwählen, erhalten Sie weiterhin Benachrichtigungen zu Problemen. Wenn diese korrigiert wurden, werden die übersprungenen Datensätze automatisch erneut exportiert.
+
+#### Warum das wichtig ist
+
+**Verbesserte Datenintegrität und künftige Testing Ihrer Integration:** Durch Anhalten des Auftrags beim ersten Anzeichen eines Problems verhindern wir Datenverlust und gewährleisten Genauigkeit. Dies ermöglicht eine schnelle Fehlerbehebung, was zu einer verbesserten Datenexportqualität und einer allgemeinen Systemzuverlässigkeit führt.
+
+**Sofortige Sichtbarkeit:** Durch Pulsbenachrichtigungen erhalten Sie zeitnahe Warnungen auf Berechtigungsfehler, die eine umgehende Reaktion ermöglichen und potenzielle Auswirkungen auf Ihre Vorgänge minimieren.
+
+#### Unterstützung des Übergangs
+
+Um Sie bei der Anpassung an diese Änderung zu unterstützen, haben wir eine Dokumentation zur neuen Funktion und klare Fehlerbeschreibungen mit umfassenden Schritten zur Fehlerbehebung erstellt.
+
+* NEU DOC: Einstellung für die Fehlerbehandlung bei CRM-Exporten
+* [Fehlerbenachrichtigungen](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## Q3-Version {#q3-release}
 
