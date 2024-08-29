@@ -2,16 +2,22 @@
 description: Erfahren Sie, wie Sie Fehler in CRM-Exporten handhaben.
 title: Fehlerbehandlung für CRM-Exporte
 feature: Salesforce
-source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
+source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # Fehlerbehandlung für CRM-Exporte
 
-Die Einstellung &quot;Pause bei Exportfehlern&quot;befindet sich unter **Mein Konto** > **Einstellungen** > **CRM** > **Allgemein**. Diese Funktion ist nur sichtbar, wenn die Funktion &quot;In CRM exportieren&quot;aktiviert ist. Damit können Sie steuern, ob CRM-Exportvorgänge angehalten werden sollen, wenn ein Fehler auf Datensatzebene auftritt.
+Mit der Funktion &quot;Bei Exportfehlern anhalten&quot;können Sie steuern, ob CRM-Exportvorgänge angehalten werden sollen, wenn ein Fehler auf Datensatzebene auftritt.
+
+Die Einstellung befindet sich unter **Mein Konto** > **Einstellungen** > **CRM** > **Allgemein**.
+
+>[!NOTE]
+>
+>Diese Funktion ist nur sichtbar, wenn die Funktion &quot;In CRM exportieren&quot;aktiviert ist.
 
 Wenn diese Funktion aktiviert ist, wird der Exportauftrag nicht mehr ausgeführt und befindet sich weiterhin im Datensatz, in dem der Fehler aufgetreten ist, bis das Problem behoben ist. Diese Fehler sind in der Regel auf fehlende Berechtigungen, falsch angewendete benutzerdefinierte Validierungsregeln oder Probleme in Workflows/Triggern zurückzuführen. Der Auftrag wird weiterhin wie geplant ausgeführt und versucht automatisch erneut, den fehlgeschlagenen Datensatz zu exportieren, bis er erfolgreich war.
 
