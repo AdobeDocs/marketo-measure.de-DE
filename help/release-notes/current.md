@@ -6,7 +6,7 @@ feature: Release Notes
 source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 67%
+ht-degree: 99%
 
 ---
 
@@ -18,29 +18,29 @@ Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktione
 
 ### Erweiterte Segmentregeln
 
-Sie können jetzt Segmente über die Felder Campaign und Campaign-Mitglied sowie Touchpoint und Kontaktfelder erstellen. Dank dieser Verbesserung können Sie Ihre Daten in Discover effizienter analysieren und aufschlüsseln.
+Sie können jetzt Segmente über die Felder „Kampagne“ und „Kampagnenmitglied“, zusätzlich zu den Feldern „Touchpoint“ und „Kontakt“, erstellen. Dank dieser Erweiterung können Sie Ihre Daten in Discover noch effizienter analysieren und aufschlüsseln.
 
 ![Segmentregeln für Mitglieder](assets/campaign-member.png)
 
-### Aktualisierung: Einstellung für die Fehlerbehandlung bei CRM-Exporten
+### Aktualisierung: Fehlerbehandlungseinstellung für CRM-Exporte
 
-Wir haben Ihr Feedback bezüglich der Einstellung von Aufträgen gehört und führen eine neue Funktion in die Benutzeroberfläche ein. Ab heute können Sie festlegen, ob Exportvorgänge bei Auftreten von Fehlern ausgesetzt werden sollen. Verwenden Sie den neuen Umschalter in **Mein Konto** > **Einstellungen** → **CRM** → **Allgemein**. Dieser Schalter ist standardmäßig aktiviert, um die Datenintegrität und -anzeige zu verbessern. Wenn Sie diese Funktion jedoch lieber nicht verwenden möchten, können Sie sie in der Benutzeroberfläche deaktivieren und die Exportvorgänge werden fortgesetzt. Diese Aktualisierung soll die Zuverlässigkeit Ihrer Datenverwaltungsprozesse erhöhen und gleichzeitig die Kontrolle über Sie verbessern.
+Wir haben auf Ihr Feedback bezüglich des Anhaltens von Aufträgen gehört und führen eine neue Funktion in der Benutzeroberfläche ein. Ab heute können Sie festlegen, ob Exportaufträge beim Auftreten von Fehlern angehalten werden sollen. Verwenden Sie den neuen Umschalter in **Mein Konto** > **Einstellungen** → **CRM** → **Allgemein**. Dieser Schalter ist standardmäßig aktiviert, um die Datenintegrität und -transparenz zu verbessern. Wenn Sie diese Funktion jedoch lieber nicht verwenden möchten, können Sie sie in der Benutzeroberfläche deaktivieren, und die Exportaufträge werden fortgesetzt. Diese Aktualisierung soll die Zuverlässigkeit Ihrer Daten-Management-Prozesse erhöhen und Ihnen gleichzeitig mehr Kontrolle geben.
 
 #### Wichtige Daten und gestaffelter Rollout
 
-Sofortige Verfügbarkeit aktivieren: Der Umschalter ist jetzt in der Benutzeroberfläche aktiv und ist standardmäßig aktiviert, um zu verhindern, dass Daten bei Exportvorgängen übersprungen werden. Wenn Sie es vorziehen, dass Exportaufträge trotz aufgetretener Fehler weiterhin ausgeführt werden, deaktivieren Sie den Umschalter.
+Sofortige Verfügbarkeit des Umschalters: Der Umschalter ist jetzt in der Benutzeroberfläche aktiv und standardmäßig aktiviert, um zu verhindern, dass Daten bei Exportaufträgen übersprungen werden. Wenn Sie es vorziehen, dass Exportaufträge trotz aufgetretener Fehler weiterhin ausgeführt werden, deaktivieren Sie den Umschalter.
 
-Auftrag - Aktivierung aussetzen am 1. Oktober: Ab dem 1. Oktober 2024 wird der Auftrag angehalten, um sicherzustellen, dass keine Daten verloren gehen, wenn der Umschalter aktiv ist und während eines Exportvorgangs ein Fehler auf Datensatzebene auftritt. Diese Fehler sind in der Regel auf fehlende Berechtigungen, falsch angewendete benutzerdefinierte Validierungsregeln oder Probleme in Workflows/Triggern zurückzuführen. Sie erhalten Benachrichtigungen zu dem Problem. Sobald es behoben wurde, wird der Exportauftrag ab dem Zeitpunkt der Unterbrechung fortgesetzt. Wenn Sie die Aussetzung des Vorgangs abwählen, erhalten Sie weiterhin Benachrichtigungen zu Problemen. Wenn diese korrigiert wurden, werden die übersprungenen Datensätze automatisch erneut exportiert.
+Das Anhalten von Aufträgen wird am 1. Oktober aktiviert: Ab dem 1. Oktober 2024 wird, wenn der Umschalter aktiv ist und während eines Exportauftrags ein Fehler auf Eintragsebene auftritt, der Auftrag angehalten, um sicherzustellen, dass keine Daten verloren gehen. Diese Fehler sind in der Regel auf fehlende Berechtigungen, falsch angewendete benutzerdefinierte Validierungsregeln oder Probleme in Workflows/Triggern zurückzuführen. Sie erhalten Benachrichtigungen zu dem Problem, und sobald es behoben wurde, wird der Exportauftrag vom Zeitpunkt der Unterbrechung aus fortgesetzt. Wenn Sie das Anhalten des Auftrags abwählen, erhalten Sie weiterhin Benachrichtigungen zu Problemen, und wenn diese behoben sind, werden die übersprungenen Einträge automatisch erneut exportiert.
 
 #### Warum das wichtig ist
 
-**Verbesserte Datenintegrität und künftige Testing Ihrer Integration:** Durch Anhalten des Auftrags beim ersten Anzeichen eines Problems verhindern wir Datenverlust und gewährleisten Genauigkeit. Dies ermöglicht eine schnelle Fehlerbehebung, was zu einer verbesserten Datenexportqualität und einer allgemeinen Systemzuverlässigkeit führt.
+**Verbesserte Datenintegrität und Zukunftssicherheit für Ihre Integration:** Wir stoppen den Auftrag beim ersten Anzeichen von Problemen, um Datenverlust zu vermeiden und Genauigkeit zu gewährleisten. Dies ermöglicht eine schnelle Fehlerbehebung, was zu einer verbesserten Datenexportqualität und einer allgemein höheren Systemzuverlässigkeit führt.
 
-**Sofortige Sichtbarkeit:** Durch Pulsbenachrichtigungen erhalten Sie zeitnahe Warnungen auf Berechtigungsfehler, die eine umgehende Reaktion ermöglichen und potenzielle Auswirkungen auf Ihre Vorgänge minimieren.
+**Sofortige Transparenz:** Durch Pulsbenachrichtigungen erhalten Sie zeitnahe Warnungen bei Berechtigungsfehlern, die eine umgehende Reaktion ermöglichen und potenzielle Auswirkungen auf Ihre Vorgänge minimieren.
 
 #### Unterstützung des Übergangs
 
-Um Sie bei der Anpassung an diese Änderung zu unterstützen, haben wir eine Dokumentation zur neuen Funktion und klare Fehlerbeschreibungen mit umfassenden Schritten zur Fehlerbehebung erstellt.
+Um Ihnen bei der Anpassung an diese Änderung zu helfen, haben wir eine Dokumentation zu der neuen Funktion erstellt, die klare Fehlerbeschreibungen mit umfassenden Schritten zur Fehlerbehebung bietet.
 
 * Neue Dokumentation: [Einstellung zur Fehlerbehandlung für CRM-Exporte](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [Fehlerbenachrichtigungen](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
