@@ -2,10 +2,10 @@
 description: Erfahren Sie, wie Sie Fehler in CRM-Exporten handhaben.
 title: Fehlerbehandlung für CRM-Exporte
 feature: Salesforce
-source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
+source-git-commit: ce5170330fb1d9f944762f401d29be4da5c0bd43
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 8%
 
 ---
 
@@ -15,6 +15,8 @@ Mit der Funktion &quot;Bei Exportfehlern anhalten&quot;können Sie steuern, ob C
 
 Die Einstellung befindet sich unter **Mein Konto** > **Einstellungen** > **CRM** > **Allgemein**.
 
+![Pause bei Exportfehlern](assets/stop-progress.png)
+
 >[!NOTE]
 >
 >Diese Funktion ist nur sichtbar, wenn die Funktion &quot;In CRM exportieren&quot;aktiviert ist.
@@ -22,6 +24,8 @@ Die Einstellung befindet sich unter **Mein Konto** > **Einstellungen** > **CRM**
 Wenn diese Funktion aktiviert ist, wird der Exportauftrag nicht mehr ausgeführt und befindet sich weiterhin im Datensatz, in dem der Fehler aufgetreten ist, bis das Problem behoben ist. Diese Fehler sind in der Regel auf fehlende Berechtigungen, falsch angewendete benutzerdefinierte Validierungsregeln oder Probleme in Workflows/Triggern zurückzuführen. Der Auftrag wird weiterhin wie geplant ausgeführt und versucht automatisch erneut, den fehlgeschlagenen Datensatz zu exportieren, bis er erfolgreich war.
 
 Wenn Sie diese Funktion deaktivieren, wird ein Warnhinweis-Popup angezeigt, in dem Sie darüber informiert werden, dass dies zu Dateninkonsistenzen führen kann. Es liegt in Ihrer Verantwortung, alle Probleme anzugehen, die sich aus diesen Inkonsistenzen ergeben können.
+
+![Warnung zur Dateninkonsistenz](assets/data-inconsistency.png)
 
 In beiden Fällen werden alle aufgetretenen Fehler auf Datensatzebene, unabhängig davon, ob die Funktion ein- oder ausgeschaltet ist, in der Tabelle `ExportErrors` protokolliert und der Auftrag `CRMExport_ExportError` versucht automatisch, diese Datensätze täglich erneut zu exportieren. Dadurch entfällt die Notwendigkeit einer Support-Anfrage zum Initiieren eines erneuten Exports, da dies automatisch ohne Eingriff von Entwicklern erfolgt.
 
