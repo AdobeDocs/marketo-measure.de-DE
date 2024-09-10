@@ -5,8 +5,8 @@ exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ Wir haben auf Ihr Feedback bezüglich des Anhaltens von Aufträgen gehört und f
 
 Um Ihnen bei der Anpassung an diese Änderung zu helfen, haben wir eine Dokumentation zu der neuen Funktion erstellt, die klare Fehlerbeschreibungen mit umfassenden Schritten zur Fehlerbehebung bietet.
 
-* Neue Dokumentation: [Einstellung zur Fehlerbehandlung für CRM-Exporte](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
+* Neue Dokumentation: [Fehlerbehandlungseinstellung für CRM-Exporte](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [Fehlerbenachrichtigungen](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## Q3-Version {#q3-release}
