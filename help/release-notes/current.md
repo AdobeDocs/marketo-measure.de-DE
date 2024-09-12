@@ -4,9 +4,9 @@ title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1183'
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Wir haben auf Ihr Feedback bezüglich des Anhaltens von Aufträgen gehört und f
 
 #### Wichtige Daten und gestaffelter Rollout
 
-1. **sofortige Verfügbarkeit der Umschaltung:** Der Umschalter ist jetzt in der Benutzeroberfläche aktiv und ist standardmäßig aktiviert, um zu verhindern, dass Daten bei Exportvorgängen übersprungen werden. Wenn Sie es vorziehen, dass Exportaufträge trotz aufgetretener Fehler weiterhin ausgeführt werden, deaktivieren Sie den Umschalter.
+1. **Sofortige Verfügbarkeit des Umschalters:** Der Umschalter ist jetzt in der Benutzeroberfläche aktiv und standardmäßig aktiviert, um zu verhindern, dass Daten bei Exportaufträgen übersprungen werden. Wenn Sie es vorziehen, dass Exportaufträge trotz aufgetretener Fehler weiterhin ausgeführt werden, deaktivieren Sie den Umschalter.
 
-1. **Auftrag - Aktivierung aussetzen am 1. Oktober:** Ab dem 1. Oktober 2024 wird der Auftrag angehalten, um sicherzustellen, dass keine Daten verloren gehen, wenn der Umschalter aktiv ist und beim Export ein Fehler auf Datensatzebene auftritt. Diese Fehler sind in der Regel auf fehlende Berechtigungen, falsch angewendete benutzerdefinierte Validierungsregeln oder Probleme in Workflows/Triggern zurückzuführen. Sie erhalten Benachrichtigungen zu dem Problem, und sobald es behoben wurde, wird der Exportauftrag vom Zeitpunkt der Unterbrechung aus fortgesetzt. Wenn Sie das Anhalten des Auftrags abwählen, erhalten Sie weiterhin Benachrichtigungen zu Problemen, und wenn diese behoben sind, werden die übersprungenen Einträge automatisch erneut exportiert.
+1. **Das Anhalten von Aufträgen wird am 1. Oktober aktiviert:** Ab dem 1. Oktober 2024 wird, wenn der Umschalter aktiv ist und während eines Exportauftrags ein Fehler auf Eintragsebene auftritt, der Auftrag angehalten, damit keine Daten verloren gehen. Diese Fehler sind in der Regel auf fehlende Berechtigungen, falsch angewendete benutzerdefinierte Validierungsregeln oder Probleme in Workflows/Triggern zurückzuführen. Sie erhalten Benachrichtigungen zu dem Problem, und sobald es behoben wurde, wird der Exportauftrag vom Zeitpunkt der Unterbrechung aus fortgesetzt. Wenn Sie das Anhalten des Auftrags abwählen, erhalten Sie weiterhin Benachrichtigungen zu Problemen, und wenn diese behoben sind, werden die übersprungenen Einträge automatisch erneut exportiert.
 
 #### Warum das wichtig ist
 
