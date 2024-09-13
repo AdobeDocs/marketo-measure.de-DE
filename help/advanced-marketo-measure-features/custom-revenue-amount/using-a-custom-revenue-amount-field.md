@@ -4,9 +4,9 @@ description: Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag - [
 title: Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ Standardmäßig ziehen die Touchpoints der Käuferzuordnung den Opportunity-Betr
 * Betrag (SFDC-Standard)
 * [!DNL Marketo Measure] Opportunity Amount (Custom)
 
-Wenn Sie ein benutzerdefiniertes Feld &quot;Betrag&quot;für Ihre Möglichkeiten verwenden, müssen wir einen Workflow konfigurieren, um den Buyer Touchpoint-Umsatz zu berechnen. Dies erfordert ein wenig mehr erweitertes Wissen über [!DNL Salesforce], sodass es möglicherweise Hilfe von Ihrem SFDC-Administrator erfordert.
+Wenn Sie ein benutzerdefiniertes Feld &quot;Betrag&quot;für Ihre Möglichkeiten verwenden, müssen wir einen Workflow konfigurieren, um den Buyer Touchpoint-Umsatz zu berechnen. Dies erfordert fortgeschrittenere Kenntnisse über [!DNL Salesforce], sodass möglicherweise Hilfe von Ihrem SFDC-Administrator erforderlich ist.
 
 Zunächst benötigen wir die folgenden Informationen:
 
@@ -26,7 +26,7 @@ Zunächst benötigen wir die folgenden Informationen:
 
 Von hier aus beginnen wir mit der Erstellung des Workflows.
 
-## Workflow in Salesforce Lightning erstellen {#create-the-workflow-in-salesforce-lightning}
+## Erstellen des Workflows im Salesforce-Blitzgerät {#create-the-workflow-in-salesforce-lightning}
 
 Die folgenden Schritte richten sich an Benutzer von Salesforce Lightning. Wenn Sie weiterhin Salesforce Classic verwenden, sind diese Schritte [unter ](#create-the-workflow-in-salesforce-classic) aufgeführt.
 
@@ -62,7 +62,7 @@ Die folgenden Schritte richten sich an Benutzer von Salesforce Lightning. Wenn S
    * Geben Sie einen Titel ein - der API-Name wird automatisch generiert
    * Wählen Sie unter &quot;How to Find Records to Update and Set Your Values&quot;(So suchen Sie Datensätze, die aktualisiert und deren Werte festgelegt werden sollen) die Option **[!UICONTROL Use the Opportunity record, das den Fluss ausgelöst hat]**.
    * Wählen Sie im Abschnitt &quot;[!UICONTROL Filterbedingungen festlegen]&quot;die Option **[!UICONTROL Datensatz immer aktualisieren]** als Bedingungsanforderung zum Aktualisieren von Datensätzen.
-   * Wählen Sie unter &quot;[!UICONTROL Feldwerte für den Kampagnensatz festlegen]&quot;im Feld die Option &quot;Marketo Measure-Opportunity Amount&quot;und den Wert &quot;from&quot;. Wählen Sie dann das benutzerdefinierte Feld Betrag aus.
+   * Wählen Sie im Feld &quot;[!UICONTROL Feldwerte für den Kampagnensatz festlegen]&quot;aus den Wert &quot;Marketo Measure Opportunity Amount (**bizible2__Bizible_Opportunity_Amount__c**)&quot;und aus dem Wert. Wählen Sie dann das benutzerdefinierte Feld Betrag aus.
    * Klicken Sie auf **[!UICONTROL Fertig]**.
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
@@ -77,7 +77,7 @@ Die folgenden Schritte richten sich an Benutzer von Salesforce Lightning. Wenn S
 
 ## Erstellen des Workflows in Salesforce Classic {#create-the-workflow-in-salesforce-classic}
 
-Die folgenden Schritte richten sich an Benutzer von Salesforce Classic. Wenn Sie den Wechsel zu Salesforce Lightning durchgeführt haben, finden Sie diese Schritte [über](#create-the-workflow-in-salesforce-lightning).
+Die folgenden Schritte richten sich an Benutzer von Salesforce Classic. Wenn Sie zum Salesforce-Blitzen gewechselt haben, finden Sie diese Schritte [über](#create-the-workflow-in-salesforce-lightning).
 
 1. Navigieren Sie zu **[!UICONTROL Einrichten]** > **[!UICONTROL Erstellen]** > **[!UICONTROL Workflow und Genehmigungen]** > **[!UICONTROL Workflow-Regeln]**.
 
@@ -104,6 +104,6 @@ Die folgenden Schritte richten sich an Benutzer von Salesforce Classic. Wenn Sie
 
    Nachdem Sie diese Schritte ausgeführt haben, müssen die Möglichkeiten aktualisiert werden, damit der Workflow den neuen Trigger aus dem Feld [!UICONTROL benutzerdefinierte Gelegenheit] erhält.
 
-   Dies lässt sich erreichen, indem Sie Ihre Möglichkeiten über Data Loader in SFDC ausführen. Weitere Informationen zur Verwendung von Data Loader finden Sie in [diesem Artikel](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Dies lässt sich erreichen, indem Sie Ihre Chancen über Data Loader in SFDC ausführen. Weitere Informationen zur Verwendung von Data Loader finden Sie in [diesem Artikel](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
 Wenden Sie sich bei weiteren Fragen an das Adobe Account Team (Ihren Kundenbetreuer) oder an den [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
