@@ -4,9 +4,9 @@ description: Einrichten von Boomerang-Phasen - [!DNL Marketo Measure]
 title: Einrichten von Boomerang-Phasen
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->Die Boomerang-Funktion ist nur für Tier-2- und -3-Kunden aktiviert. Wenden Sie sich an das Adobe Account Team (Ihren Kundenbetreuer), um eine höhere Kontoebene anzufordern.
+>Die Boomerang-Funktion ist nur für Tier-2-Kunden aktiviert. Wenden Sie sich an das Adobe Account Team (Ihren Kundenbetreuer), um eine höhere Kontoebene anzufordern.
 
 Um [!UICONTROL Boomerang]-Phasen für Ihr Konto zu aktivieren, müssen Sie Kontoadministrator sein. Sie können sie auch aktivieren, indem Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} wenden. Nachdem die Funktion aktiviert wurde, befolgen Sie diese Anweisungen, um sie einzurichten.
 

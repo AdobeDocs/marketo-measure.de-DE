@@ -4,9 +4,9 @@ description: FAQ zur Aktivitätszuordnung - [!DNL Marketo Measure]
 title: Häufig gestellte Fragen zur Aktivitätszuordnung
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '775'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 2%
 # Häufig gestellte Fragen zur Aktivitätszuordnung {#activities-attribution-faq}
 
 [!DNL Marketo Measure] Aktivitäten importiert alle Ihre Aktivitätsdatensätze und generiert Touchpoints für sie, sodass diese Aktivitäten eine Attribution erhalten können. Der häufigste Anwendungsfall besteht darin, Aktivitäten des Sales-Teams zu verfolgen, da diese normalerweise einen Datensatz mit Telefonanrufen oder E-Mails erstellen, die an potenzielle Kunden gesendet werden. Weitere eindeutige Elemente, die verfolgt werden können, sind Inhaltsinteraktionen wie Asset-Downloads oder Videoansichten.
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur für Tier-2-Kunden aktiviert. Wenden Sie sich an das Adobe Account Team (Ihren Kundenbetreuer), um eine höhere Kontoebene anzufordern.
 
 **Inwiefern unterscheidet sich dies von Offline-Kampagnen?**
 

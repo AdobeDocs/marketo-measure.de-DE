@@ -1,21 +1,25 @@
 ---
 unique-page-id: 18874708
-description: Salesforce Activities-Zuordnung - [!DNL Marketo Measure]
-title: Salesforce Activities-Zuordnung
+description: Zuordnung von Salesforce-Aktivitäten - [!DNL Marketo Measure]
+title: Zuordnung von Salesforce-Aktivitäten
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '617'
 ht-degree: 1%
 
 ---
 
-# Salesforce Activities-Zuordnung {#salesforce-activities-attribution}
+# Zuordnung von Salesforce-Aktivitäten {#salesforce-activities-attribution}
 
-Die Integration von [!DNL Marketo Measure] Salesforce-Aktivitäten fügt bestimmte Task- und Event-Datensätze in Ihr Attributionsmodell ein. Beginnen Sie, Dinge wie Verkaufs-E-Mails oder Verkaufs-Telefonanrufe zu verfolgen, die nicht gebührend gutgeschrieben wurden. Um Ihre Aktivitätsregel zu konfigurieren, gehen Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Gehen Sie von dort zur Registerkarte **[!UICONTROL Einstellungen]** und klicken Sie auf die Registerkarte **[!UICONTROL Aktivitäten]** .
+Durch die Integration von [!DNL Marketo Measure] Salesforce-Aktivitäten werden bestimmte Aufgaben- und Ereignisdatensätze in Ihr Attributionsmodell eingefügt. Beginnen Sie, Dinge wie Verkaufs-E-Mails oder Verkaufs-Telefonanrufe zu verfolgen, die nicht gebührend gutgeschrieben wurden. Um Ihre Aktivitätsregel zu konfigurieren, gehen Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Gehen Sie von dort zur Registerkarte **[!UICONTROL Einstellungen]** und klicken Sie auf die Registerkarte **[!UICONTROL Aktivitäten]** .
 
 ![](assets/1.png)
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur für Tier-2-Kunden aktiviert. Wenden Sie sich an das Adobe Account Team (Ihren Kundenbetreuer), um eine höhere Kontoebene anzufordern.
 
 Zunächst führen wir ein neues Konzept ein, das als [!DNL Marketo Measure] Kampagne bezeichnet wird. Für jede von Ihnen definierte Regel werden Sie die Datensätze in einer [!DNL Marketo Measure]-Kampagne zusammenfassen, die Sie benennen können. Fügen Sie nach Bedarf mehrere Kampagnen hinzu. Stellen Sie sich vor, Sie würden die Effektivität einer Outbound-Verkaufskampagne neben einer Paid Media-Kampagne messen!
 
@@ -74,10 +78,10 @@ endet mit ( &#42;Outbound )
 >
 Keine Wildcard bedeutet im Grunde &quot;ist gleich&quot;. Daher sollten Sie sie nach Bedarf verwenden.
 
-| **Operator** | **Nutzungsszenario** |
+| **Operator** | **Anwendungsfall** |
 |---|---|
 | ist gleich | Einzelwert - genaue Übereinstimmung |
-| enthält | Einzelwert - enthält Wert |
+| Enthält | Einzelwert - enthält Wert |
 | Entspricht allen | Mehrere Werte - genaue Übereinstimmung |
 | Entspricht allen (enthält) | Mehrere Werte - &#42;Wert&#42;, &#42;Wert, &#42;Wert&#42; |
 
