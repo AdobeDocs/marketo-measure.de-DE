@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Handbuch"
 user-guide-description: "[!DNL Marketo Measure] gibt Marketing-Experten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen."
-source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
-workflow-type: ht
-source-wordcount: '817'
-ht-degree: 100%
+source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 99%
 
 ---
 
@@ -160,6 +160,7 @@ ht-degree: 100%
       + [Dashboard „Zugewiesene Opportunity“](marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)
       + [Dashboard „Zugewiesener Umsatz“](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [Interaktions-Dashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Keyword-ROI-Dashboard](marketo-measure-discover-ui/dashboards/keyword-roi-dashboard.md)
       + [Dashboard „Lead-Geschwindigkeit“](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
       + [Dashboard „Opportunity-Geschwindigkeit“](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
       + [Passport-Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)

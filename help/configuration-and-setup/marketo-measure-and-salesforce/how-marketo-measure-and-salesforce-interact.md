@@ -4,10 +4,10 @@ description: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren – M
 title: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
-workflow-type: ht
-source-wordcount: '1240'
-ht-degree: 100%
+source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
+workflow-type: tm+mt
+source-wordcount: '1317'
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,10 @@ Beachten Sie bei der Änderung dieser Einstellung, dass kleinere Batch-Größen 
 **Berechtigungssatz zum Anzeigen und Bearbeiten konvertierter Leads**: Ermöglicht es Marketo Measure, Leads nach ihrer Konversion in Kontakte zu ergänzen.
 
 **Kontrollkästchen für Salesforce Marketing-Benutzende**: Ermöglicht es Benutzenden, Kampagnen zu erstellen und die Assistenten zum Importieren von Kampagnen zu verwenden.
-* Es sind zusätzliche Berechtigungen zum Erstellen von Kampagnen erforderlich.
+
+* Wir benötigen zusätzliche Berechtigungen für die Kampagnen &quot;Erstellen&quot;und &quot;Aktualisieren&quot;in Ihren CRMs.
+
+* Wenn ein Touchpoint aus einer Web-Aktivität erstellt wird, müssen wir ihn mit einer Kampagne verknüpfen. Da Webaktivitäten nicht über entsprechende CRM-Kampagnen verfügen, müssen wir eine erstellen, um diese Verknüpfung herzustellen. Dies gilt sowohl für Lead- als auch Opportunity-Touchpoints. Die Berechtigung zum Aktualisieren ist erforderlich, da der von uns verwendete Aufruf &quot;upsert&quot;lautet. Wenn der Datensatz vorhanden ist, wird er aktualisiert. Wenn nicht, erstellen wir ihn. Dies gilt nur für von uns erstellte Kampagnen.
 
 **Marketo Measure-Standardbenutzende**: Ermöglicht es Benutzenden, Einträge aus Marketo Measure-Objekten zu lesen.
 
