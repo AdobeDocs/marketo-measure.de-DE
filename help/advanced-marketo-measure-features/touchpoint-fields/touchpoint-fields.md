@@ -4,9 +4,9 @@ description: Touchpoint-Felder - [!DNL Marketo Measure]
 title: Touchpoint Felder
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
+source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Navigieren Sie im Menü [!DNL Marketo Measure] Einstellungen zur Seite Touchpoin
 
 Um ein berechnetes Feld zu erstellen, sollten Sie beachten, dass ein Benutzer drei verschiedene Aktionen ausführen kann: Extrahieren, Zuordnen und Verketten von Feldern. Diese werden auch als Operatoren zur Definition eines berechneten Felds bezeichnet.
 
-Auszüge
+### Auszüge {#extracts}
 
-Der Operator [!UICONTROL extrahiert] den Wert aus einem Feld von einem anderen Speicherort, z. B. einem Kampagnenfeld, einem Lead-Feld oder in einem erweiterten Anwendungsfall [extrahiert benutzerdefinierte Parameter aus der Landingpage](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. Anschließend wird es in ein Touchpoint-Feld eingefügt (siehe [Zuordnungen zu Beispiel](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+Der Operator [!UICONTROL extrahiert ] ruft den Wert aus einem Feld von einem anderen Speicherort ab, z. B. einem Kampagnenfeld, einem Lead-Feld oder extrahieren Sie in einem erweiterten Anwendungsfall benutzerdefinierte Parameter aus der Landingpage. Anschließend wird es in ein Touchpoint-Feld eingefügt.
 
 **Beispiel 1**
 
@@ -121,7 +121,7 @@ Da Ihre Landingpages komplizierter werden und Sie mehrere Tracking-Parameter hab
 
 ![](assets/five.png)
 
-**Ordnet** zu
+### Ordnet {#maps-to}
 
 Der Operator [!UICONTROL ist ] zugeordnet, erstellt eine Tabelle mit Werten, die übersetzt oder in einen anderen Wert zusammengefasst werden müssen. Normalerweise hat dies die Form eines Schlüsselwerts, bei dem ein Code einen benutzerfreundlichen Namen darstellt und diesem Anzeigenamen zugeordnet werden muss.
 
@@ -169,7 +169,7 @@ Nachdem wir gelernt haben, wie wir Felder extrahieren und zuordnen können, lass
 
 ![](assets/seven.png)
 
-**Verkettet**
+### Konkatenate {#concatenates}
 
 Der Operator [!UICONTROL  verkettet ] Werte aus mehreren Feldern zu einem Feld. Dies ist nützlich, um einen benutzerdefinierten Wert zu erstellen, der Daten über verschiedene Felder hinweg abruft, um
 
