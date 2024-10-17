@@ -4,10 +4,10 @@ description: Definition von  [!DNL Marketo Measure] -Web-Sitzungen – [!DNL Mar
 title: Definition von  [!DNL Marketo Measure] -Web-Sitzungen
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 100%
+source-wordcount: '811'
+ht-degree: 65%
 
 ---
 
@@ -30,13 +30,29 @@ Wann eine Sitzung endet und eine neue Sitzung beginnt, wird durch verschiedene A
 
 ## Zeitbasierter Ablauf {#time-based-expiration}
 
+### Veraltetes Verhalten {#legacy-behavior}
+
 **Wie lange dauert eine Sitzung?**
 
-[!DNL Marketo Measure]-Sitzungen enden nach 30 Minuten Inaktivität auf der Website. Beispiel:
+[!UICONTROL Marketo Measure]-Sitzungen enden nach 30 Minuten Inaktivität auf der Website. Beispiel:
 
 Wenn Hanna adobe.com/de besucht, beginnt eine Sitzung. Sie erkundet die Website für einige Minuten und geht dann von ihrem Computer weg, lässt aber die Website geöffnet. Nach 30 Minuten Inaktivität endet die Sitzung.
 
-Zurzeit betrachtet [!DNL Marketo Measure] nur die Seitennavigation und Formularübermittlung als Aktivität. Scrollen durch die Web-Seite oder Bewegen des Mauszeigers über ein Element auf der Seite gilt nicht als Aktivität. Wenn Hanna also adobe.com/de besucht, um einen Blogpost zu lesen, und sie dafür eine Stunde braucht, endet ihre Web-Sitzung nach 30 Minuten, selbst wenn sie weiterhin durch den Inhalt auf der Seite scrollt.
+Derzeit betrachtet [!UICONTROL Marketo Measure] nur Seitennavigation und Formularübermittlungen als Aktivität. Scrollen durch die Web-Seite oder Bewegen des Mauszeigers über ein Element auf der Seite gilt nicht als Aktivität. Wenn Hanna also adobe.com/de besucht, um einen Blogpost zu lesen, und sie dafür eine Stunde braucht, endet ihre Web-Sitzung nach 30 Minuten, selbst wenn sie weiterhin durch den Inhalt auf der Seite scrollt.
+
+### Neues Verhalten {#new-behavior}
+
+Für neue Benutzer ist dies das Standardverhalten.
+
+Bestehende Benutzer können das neue Verhalten übernehmen, indem sie den Umschalter unter **Einstellungen** > **Alle berühren Attribution** > **Sitzungskanal-Übertragung** aktivieren. Nach der Aktivierung kann diese Einstellung nicht mehr rückgängig gemacht werden.
+
+Wenn nach 30 Minuten Inaktivität eine neue Sitzung erstellt wird, wird der Kanal der vorherigen Sitzung übernommen, wenn die neue Sitzung innerhalb von sieben Tagen beginnt. Diese Übertragung gilt nur für Direktbesuche (weder Referrer noch interne Referrer). Wenn die Inaktivität sieben Tage überschreitet, wird für den Kanal der neuen Sitzung standardmäßig &quot;Direkt/Sonstige&quot;eingestellt. Wenn Haley beispielsweise landingpage.com von Google besucht, über 30 Minuten inaktiv ist und innerhalb von sieben Tagen zurückkehrt, behält die neue Sitzung den Google-Kanal bei. Wenn derselbe Benutzer die Seite jedoch über einen anderen Kanal erneut besucht, wird der nicht direkte Kanal vom vorherigen Google-Kanal nicht überschrieben.
+
+Nur der Kanal wird übertragen, mit Ausnahme der Kampagnen- oder Referrer-Details. Dies liegt daran, dass die Kanalklassifizierung von Marketo Measure verarbeitet wird, während andere Datenpunkte separat erfasst werden.
+
+**Social-Anmeldung**
+
+Wenn ein Besucher über Google, Microsoft oder Apple Social-Anmeldungen verwendet, wird die Sitzung zu einer fortlaufenden Sitzung zusammengeführt. Gelangt ein Besucher beispielsweise von LinkedIn aus auf eine Seite, schließt er eine Google Social-Anmeldung ab und erreicht eine Dankeseite, wird dies alles als eine einzelne Sitzung gezählt. Ohne die Aktivierung der Sitzungskanal-Umschaltung würde die Anmeldung in sozialen Netzwerken aufgrund des externen Referrers separate Sitzungen erstellen.
 
 ## Kanalbasierter Ablauf {#channel-based-expiration}
 
