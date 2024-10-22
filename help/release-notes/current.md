@@ -4,9 +4,9 @@ title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,21 +16,21 @@ Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktione
 
 ## Q4-Version {#q4-release}
 
-### Neues Sitzungskanal-Übertragungsverhalten
+### Neues Verhalten für Sitzungskanal-Übertragung
 
-Der Kanal aus der vorherigen Sitzung wird nun übernommen, wenn eine neue Sitzung innerhalb von sieben Tagen nach 30 Minuten Inaktivität beginnt, und nur für Direktbesuche (keine Referrer oder interne Referrer) gilt. Nach sieben Tagen Inaktivität wird die Sitzung standardmäßig auf &quot;Direkt/Sonstige&quot;eingestellt. Nicht-direkte Kanäle werden durch Daten aus früheren Sitzungen nicht überschrieben.
+Der Kanal aus der vorherigen Sitzung wird nun übernommen, wenn eine neue Sitzung nach 30 Minuten Inaktivität innerhalb von sieben Tagen beginnt, und dies gilt nur für Direktbesuche (keine Referrer oder internen Referrer). Nach sieben Tagen Inaktivität wird die Sitzung standardmäßig auf „Direkt/Sonstige“ eingestellt. Nicht-direkte Kanäle werden durch Daten aus früheren Sitzungen nicht überschrieben.
 
-Darüber hinaus werden Sitzungen mit Social-Media-Anmeldung (Google, Microsoft oder Apple) jetzt zu einer fortlaufenden Sitzung zusammengeführt, um ein reibungsloseres Erlebnis zu gewährleisten. Ohne diesen Umschalter können Social-Anmeldungen aufgrund von Unterschieden bei externen Referrern separate Sitzungen erstellen.
+Darüber hinaus werden Sitzungen mit Social-Media-Anmeldung (Google, Microsoft oder Apple) jetzt zu einer fortlaufenden Sitzung zusammengeführt, um ein reibungsloseres Erlebnis zu gewährleisten. Ohne Aktivierung dieser Übertragung könnten Social-Media-Anmeldungen aufgrund von Unterschieden bei externen Referrern separate Sitzungen erstellen.
 
-Bei neuen Kunden ist die Übertragung des Sitzungskanals jetzt das Standardverhalten. Bestehende Kunden können dies aktivieren, indem sie den Umschalter Sitzungskanal-Übertragung unter Einstellungen → Übergeordnete Zuordnung aktivieren. Nach der Aktivierung kann diese Einstellung nicht mehr rückgängig gemacht werden.
+Bei neuer Kundschaft ist die Übertragung des Sitzungskanals jetzt das Standardverhalten. Bestehende Kundschaft kann dies aktivieren, indem sie den Umschalter „Sitzungskanal-Übertragung“ unter „Einstellungen“ → „Everytouch-Attribution“ aktiviert. Nach der Aktivierung kann diese Einstellung nicht mehr rückgängig gemacht werden.
 
-Dokumentation: [Definition von Marketo Measure-Web-Sitzungen](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+Dokumentation: [Definition von Marketo Measure-Web-Sitzungen](https://experienceleague.adobe.com/de/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### Keyword-ROI-Dashboard
 
-Das neue Keyword-ROI-Dashboard bietet detaillierte Einblicke in die Leistung gebührenpflichtiger Suchkampagnen und bietet einen umfassenden Überblick über die Kosten auf Keyword-Ebene, den zugeordneten Umsatz sowie die generierten Leads und Chancen. Mit diesem Dashboard können Sie den ROI der einzelnen Suchbegriffe für Google Adwords, LinkedIn, Bing Ads usw. auswerten.
+Das neue Keyword-ROI-Dashboard bietet detaillierte Erkenntnisse zur Leistung von Paid-Search-Kampagnen und bietet einen umfassenden Überblick über die Kosten auf Keyword-Ebene, den zugeordneten Umsatz sowie die generierten Leads und Opportunities. Mit diesem Dashboard können Sie den ROI der einzelnen Suchbegriffe für Google Adwords, LinkedIn, Bing Ads usw. auswerten.
 
-Dokumentation: [ROI-Dashboard für Suchbegriffe](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+Dokumentation: [Keyword-ROI-Dashboard](https://experienceleague.adobe.com/de/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Erweiterte Segmentregeln
 
