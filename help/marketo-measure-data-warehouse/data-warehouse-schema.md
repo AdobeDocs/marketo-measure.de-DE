@@ -4,10 +4,10 @@ description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+source-git-commit: 3ad812a05671f277d3dd3f9bc58e3b2ea3606e71
 workflow-type: tm+mt
 source-wordcount: '21110'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -32,11 +32,11 @@ Die zusätzliche _Ads Dimensional Data Model_-ERD zeigt, wie Tabellen für Anzei
 
 _Klicken Sie auf ein Bild für die Vollbildversion_
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <th>Data Warehouse-Datenmodell</th> 
-   <th>Ads Dimensional-Datenmodell</th> 
+   <th>Data Warehouse-Datenmodell</th>
+   <th>Ads Dimensional-Datenmodell</th>
   </tr> 
   <tr> 
    <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
@@ -80,7 +80,7 @@ Aus dem Quellsystem importierte Konten.
     <tr>
       <td>NAME</td>
       <td>varchar</td>
-      <td>Der Kontoname, aus dem Quellsystem.</td>
+      <td>Der Kontoname aus dem Quellsystem.</td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
