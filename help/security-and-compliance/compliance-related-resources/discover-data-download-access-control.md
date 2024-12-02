@@ -1,6 +1,6 @@
 ---
-description: "[!UICONTROL Discover Data Download] Access Control - Marketo Measure - Produktdokumentation"
-title: "[!UICONTROL Discover Data Download] Zugriffskontrolle"
+description: '[!UICONTROL Discover Data Download] Access Control - Marketo Measure - Produktdokumentation'
+title: '[!UICONTROL Discover Data Download] Zugriffssteuerung'
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 feature: Discover
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab

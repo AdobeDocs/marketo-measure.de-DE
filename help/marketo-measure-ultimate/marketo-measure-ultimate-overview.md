@@ -1,12 +1,12 @@
 ---
-description: „[!DNL Marketo Measure] Ultimate-Übersicht – [!DNL Marketo Measure]“
-title: „[!DNL Marketo Measure] Ultimate – Übersicht“
+description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Ultimate – Übersicht'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
 source-git-commit: 36688972c241f5a79c1730237598510cd44f032d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

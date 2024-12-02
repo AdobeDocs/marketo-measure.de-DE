@@ -1,6 +1,6 @@
 ---
-description: '[!DNL Marketo Measure] Endgültige Datenintegrationserfordernis - [!DNL Marketo Measure]'
-title: „[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung
+description: '[!DNL Marketo Measure] Endgültige Datenintegrationsanforderung - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
 source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
@@ -891,7 +891,7 @@ ht-degree: 86%
 
 **Standardwährung**: In Marketo Measure werden alle Umsätze und Kosten zum Zeitpunkt der Berichterstellung in eine Standardwährung umgerechnet. Es muss einen Datensatz mit demselben Datum für die Zielwährung selbst (z. B. USD bis USD) mit einem Konversionskurs von 1 geben.
 
-**Konversionsraten**: Jedes Paar (Quellwährung, Zielwährung) kann mehrere Konversionsraten für verschiedene Datumszeiträume aufweisen. Die Beträge müssen die gesamte Zeitspanne von 0001-01-01 bis 9999-12-31 gemäß dem Salesforce DatedConversionRate -Objekt abdecken.
+**Konversionsraten**: Jedes Paar (Quellwährung, Zielwährung) kann mehrere Konversionsraten für verschiedene Datumszeiträume aufweisen. Die Tarife müssen die gesamte Zeitspanne von 001-01-01 bis 9999-12-31 gemäß dem Salesforce DatedConversionRate -Objekt abdecken.
 
 **Datumsbereich**:
 * Es gibt keine überlappenden Datumsbereiche innerhalb eines (Quellwährung, Zielwährung) festgelegten Kurses (z. B. 2023-01-01 bis 2023-02-01 und 2023-01-01 bis 2024-01-01).

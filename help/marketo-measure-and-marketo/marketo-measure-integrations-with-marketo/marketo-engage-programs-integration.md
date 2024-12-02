@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] Programmintegration - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] Programmintegration"
+description: '[!DNL Marketo Engage] Programmintegration - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Engage] Programmintegration'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '1261'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,12 +22,12 @@ Alle Ebenen.
 ## Anforderungen {#requirements}
 
 * Marketo-Produktionsinstanz
-* Produktions-Salesforce oder Microsoft Dynamics-Instanz
+* Salesforce- oder Microsoft Dynamics-Produktionsinstanz
 * Beliebiges bezahltes [!DNL Marketo Measure]-Abonnement
 * Marketo People Sync aktiviert ([!DNL Marketo Measure] Einstellungen)
 * Marketo-Programme aktiviert ([!DNL Marketo Measure] Einstellungen)
 
-## Setup {#setup}
+## Einrichten {#setup}
 
 **Regeln**
 
@@ -111,7 +111,7 @@ Durch den Datenimport von Marketo-Programmen werden die Kosten automatisch aus d
   </tr> 
   <tr> 
    <td>ID</td> 
-   <td>ID</td> 
+   <td>id</td> 
   </tr> 
   <tr> 
    <td>IS_DELETED</td> 

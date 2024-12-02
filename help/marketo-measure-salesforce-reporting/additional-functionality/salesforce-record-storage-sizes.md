@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874576
-description: "[!DNL Salesforce] Speichergrößen für Datensätze - [!DNL Marketo Measure]"
-title: "[!DNL Salesforce] Speichergrößen für Datensätze"
+description: '[!DNL Salesforce] Speichergrößen für Datensätze - [!DNL Marketo Measure]'
+title: '[!DNL Salesforce] Speichergrößen für Datensätze'
 exl-id: d72499a9-3678-4db0-9993-98c3af33b5a3
 feature: Salesforce
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5

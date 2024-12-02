@@ -1,12 +1,12 @@
 ---
-description: "[!DNL Marketo Measure] 101 Berichte - Überblick - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] 101 Berichte - Überblick"
+description: '[!DNL Marketo Measure] 101 Berichte - Überblick - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] 101 Berichte - Überblick'
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 >
 >Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
 
-Alle [!DNL Marketo Measure] Kunden, die [!DNL Marketo Measure] und [!DNL Salesforce] verwenden, haben Zugriff auf den Ordner &quot;Buyer Touchpoints Reports&quot;in ihrer SFDC-Instanz. Dieser Ordner enthält eine Reihe vordefinierter Berichte, die Ihnen bei den ersten Schritten mit der Berichterstellung für Buyer Touchpoint-Daten helfen können.
+Alle [!DNL Marketo Measure] -Kunden, die [!DNL Marketo Measure] und [!DNL Salesforce] verwenden, haben Zugriff auf den Ordner &quot;Buyer Touchpoints-Berichte&quot;in ihrer SFDC-Instanz. Dieser Ordner enthält eine Reihe vordefinierter Berichte, die Ihnen bei den ersten Schritten mit der Berichterstellung für Buyer Touchpoint-Daten helfen können.
 
 ![](assets/bizible-101-reports-overview-1.png)
 
@@ -43,7 +43,7 @@ Das Objekt „[!DNL Marketo Measure]-Person“ verknüpft die Lead- und Kontakto
 
 Die folgenden beiden Berichtsvarianten verwenden denselben Berichtstyp, werden jedoch nach verschiedenen Metriken gruppiert: Personen-ID (E-Mail) oder Marketing-Kanal. Dies sind die wichtigsten Trichterberichte bzw. Trichterberichte, mit denen Sie herausfinden können, wie Ihre Leads und Kontakte mit Ihren Marketing-Maßnahmen interagieren. Vor einer Anpassung zeigen die beiden folgenden Berichte Folgendes an:
 
-**[!DNL Marketo Measure]101: Lead/Kontakte nach Kanal** | Ein Überblick darüber, wie Ihre Marketingkanäle die Erstellung von Leads oder Kontakten und deren zusätzlichen Interaktionen beeinflussen. Dieser Bericht ist ideal, um die Gesamtinteraktion über Ihre Marketing-Kanäle hinweg zu verstehen und herauszufinden, welche Marketing-Kanäle in Ihrer Salesforce-Instanz zu neuen Netznamen führen.
+**[!DNL Marketo Measure]101: Lead/Kontakte nach Kanal** | Ein Überblick darüber, wie Ihre Marketingkanäle die Erstellung von Leads oder Kontakten und deren zusätzlichen Interaktionen beeinflussen. Dieser Bericht ist ideal, um die Gesamtinteraktion über Ihre Marketingkanäle hinweg zu verstehen und herauszufinden, welche Marketingkanäle innerhalb Ihrer Salesforce-Instanz zu neuen Netznamen führen.
 **[!DNL Marketo Measure]101: Lead/Kontakte nach ID** | Dadurch wird die Geschichte jeder [!DNL Marketo Measure] Person angezeigt und es handelt sich um einen wesentlich detaillierteren Bericht, in dem jede Person und ihre Touchpoints des Käufers angezeigt werden, unabhängig davon, ob der Touchpoint als Lead oder als Kontakt auftrat.
 
 **Möglichkeiten für Touchpoints der Käuferzuordnung** | Die letzten beiden &quot;_[!DNL Marketo Measure]101..._&quot;-Berichte sind der untere Teil der Trichterberichte, in denen die Buyer Attribution Touchpoint-Daten zu Opportunities angezeigt werden. Der Hauptunterschied für diese Berichte besteht darin, dass sie aus _Touchpoints der Käuferzuordnung_ erstellt wurden, die sich auf die Daten auf der Ebene der Chancen und Chancen beziehen, z. B. auf den Umsatz. Wann immer Sie Berichte über Chancen oder zurechenbare Einnahmen erstellen möchten, sollte dieser Berichtstyp verwendet werden. Die beiden folgenden Berichte verwenden denselben Berichtstyp, werden jedoch nach verschiedenen Metriken gruppiert: Chancen-ID vs. Marketing-Kanal. Vor einer Anpassung zeigen die beiden folgenden Berichte Folgendes an:

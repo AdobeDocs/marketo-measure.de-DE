@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874789
-description: "[!DNL Marketo Measure] Berechtigungssätze - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Berechtigungssätze"
+description: '[!DNL Marketo Measure] Berechtigungssätze - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure]-Berechtigungssätze'
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
 feature: Salesforce
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ Erfahren Sie, wie Sie in Salesforce auf Berechtigungssätze vom Typ [!DNL Market
 
 ## [!DNL Marketo Measure]-Berechtigungssätze {#marketo-measure-permission-sets-1}
 
-Im Paket [!DNL Marketo Measure] Salesforce sind drei Berechtigungssätze enthalten. Diese Berechtigungssätze bieten Zugriff auf [!DNL Marketo Measure] für Administratoren, Marketingexperten und Standardbenutzer.
+Das Salesforce-Paket [!DNL Marketo Measure] enthält drei Berechtigungssätze. Diese Berechtigungssätze bieten Zugriff auf [!DNL Marketo Measure] für Administratoren, Marketingexperten und Standardbenutzer.
 
 So greifen Sie auf Berechtigungssätze in Salesforce zu und weisen sie zu:
 

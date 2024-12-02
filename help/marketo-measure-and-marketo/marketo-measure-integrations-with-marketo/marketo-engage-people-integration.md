@@ -1,7 +1,7 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage] Personenintegration - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] Personenintegration"
+description: '[!DNL Marketo Engage] Personenintegration - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Engage] Personenintegration'
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
@@ -60,7 +60,7 @@ Bei der Berichterstellung über Leads (Personen) in [!DNL Marketo Measure Discov
   </tr> 
   <tr> 
    <td><p>ID</p></td> 
-   <td><p>ID</p></td> 
+   <td><p>id</p></td> 
   </tr> 
   <tr> 
    <td><p>MODIFIED_DATE</p></td> 

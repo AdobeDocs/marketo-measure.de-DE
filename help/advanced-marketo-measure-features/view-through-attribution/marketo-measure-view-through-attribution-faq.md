@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874652
-description: "[!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsicht der Attribution - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] FAQ zur Durchsicht der Attribution"
+description: '[!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsicht der Attribution - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsichts-Attribution'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
 source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -68,7 +68,7 @@ Wir haben eine sorgfältige Analyse von Impressionsdaten und deren Einfluss auf 
   </tr> 
   <tr> 
    <td><strong>FT</strong></td> 
-   <td>100 Prozent</td> 
+   <td>100 %</td> 
    <td>0 %</td> 
    <td>35 %</td> 
    <td>26,6 %</td> 
@@ -78,7 +78,7 @@ Wir haben eine sorgfältige Analyse von Impressionsdaten und deren Einfluss auf 
   <tr> 
    <td><strong>LC</strong></td> 
    <td>0 %</td> 
-   <td>100 Prozent</td> 
+   <td>100 %</td> 
    <td>35 %</td> 
    <td>26,6 %</td> 
    <td>20 %</td> 

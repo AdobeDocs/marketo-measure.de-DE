@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] Aktivitätsintegration - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] Aktivitätsintegration"
+description: '[!DNL Marketo Engage] Aktivitätsintegration - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Engage] Aktivitätsintegration'
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '1660'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Im Rahmen der Gesamtintegration für [!DNL Marketo Measure] und [!DNL Marketo En
 * Marketo-Programme aktiviert ([!DNL Marketo Measure] Einstellungen)
 * Aktivierte Marketo-Aktivitäten ([!DNL Marketo Measure] Einstellungen)
 
-## Setup {#setup}
+## Einrichten {#setup}
 
 1. Um mit der Einrichtung von Marketo-Aktivitäten zu beginnen, navigieren Sie zu **Mein Konto** > **Einstellungen** > **Aktivitäten**.
 
@@ -78,7 +78,7 @@ Im Rahmen der Gesamtintegration für [!DNL Marketo Measure] und [!DNL Marketo En
 
    Zugeordnete Felder:
 
-   * Ort
+   * Stadt
    * Land
    * Region
    * Landingpage
@@ -119,7 +119,7 @@ Zur Krankenversicherung hinzufügen (113)\
 
 Klicken Sie auf Link (3)\
 Neuer Lead (12)\
-Blei mit SFDC synchronisieren (19)\
+Lead mit SFDC synchronisieren (19)\
 Blei konvertieren (21)\
 Inhaber ändern (23)\
 Aus Liste entfernen (25)\
@@ -137,7 +137,7 @@ E-Mail &quot;Verkauf öffnen&quot;(40)\
 Klicken Sie auf Sales Email (41)\
 Zu SFDC Campaign hinzufügen (42)\
 Aus SFDC Campaign entfernen (43)\
-Änderungsstatus in SFDC Campaign (44)\
+Status in SFDC Campaign ändern (44)\
 Receive Sales Email (45)\
 Kampagne anfordern (47)\
 E-Mail-Bounce Vertrieb (48)\

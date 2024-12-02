@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874582
-description: "[!DNL Marketo Measure] Salesforce-Objekte - [!DNL Marketo Measure]"
-title: „[!DNL Marketo Measure]-Salesforce-Objekte“
+description: '[!DNL Marketo Measure] Salesforce-Objekte - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure]-Salesforce-Objekte'
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce

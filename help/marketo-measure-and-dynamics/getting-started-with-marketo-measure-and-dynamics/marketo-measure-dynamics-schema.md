@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Dynamics-Schema - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Dynamics-Schema"
+description: '[!DNL Marketo Measure] Dynamics-Schema - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure]-Dynamics-Schema'
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
 source-git-commit: 706f60a3b35e524da816b1d70abd363f0f02a1ba
@@ -1304,7 +1304,7 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Kunde</p></td> 
+   <td><p>Kundin bzw. Kunde</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1481,7 +1481,7 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Kunde</p></td> 
+   <td><p>Kundin bzw. Kunde</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 

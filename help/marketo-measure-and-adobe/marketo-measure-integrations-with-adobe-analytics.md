@@ -1,6 +1,6 @@
 ---
-description: "[!DNL Marketo Measure] Integrationen mit Adobe Analytics - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Integrationen mit  [!DNL Adobe Analytics]"
+description: '[!DNL Marketo Measure] Integrationen mit Adobe Analytics - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Integrationen mit  [!DNL Adobe Analytics]'
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
@@ -59,7 +59,7 @@ Zusätzlich zu den unten aufgeführten Attributen können Sie auch alle Attribut
   <tr> 
    <td>Account.Name</td> 
    <td>Die Kontonamen, die mit dem angegebenen Webbesucher verknüpft sind. Wenn mehr als ein Konto mit dem angegebenen Benutzer verknüpft ist, füllt [!DNL Marketo Measure] alle übereinstimmenden Kontonamen in einer durch Semikolon getrennten Liste auf.<br/>
-   <strong>Hinweis: </strong> account.name ist der Name der Salesforce-API-Ebene für das Attribut name des Kontoobjekts. Sie können während des Schritts zur Schemavalidierung der Integrationskonfiguration (Schritt 4) einen besseren Anzeigenamen (z. B. "Unternehmen") für dieses Attribut auswählen.</td>
+   <strong>Hinweis: </strong> account.name ist der Name auf Salesforce-API-Ebene für das Attribut name des Kontoobjekts. Sie können während des Schritts zur Schemavalidierung der Integrationskonfiguration (Schritt 4) einen besseren Anzeigenamen (z. B. "Unternehmen") für dieses Attribut auswählen.</td>
   </tr>
   <tr> 
    <td>Zugewiesene Umsätze - MODEL›</td> 
@@ -81,7 +81,7 @@ Zusätzlich zu den unten aufgeführten Attributen können Sie auch alle Attribut
 
 Die über diese Integration angezeigten Attribute werden mit Ihren vertraglichen Attributbeschränkungen in [!DNL Adobe Analytics] und [!DNL Adobe Target] angerechnet. Nur Attribute, die über ein Attributabonnement (Schritt 5 in [Konfigurieren der Integration](#configuring-the-integration)) angezeigt werden, werden Ihrer Beschränkung für die abonnierte Anwendung angerechnet.
 
-## Häufig gestellte Fragen {#faqs}
+## Häufig gestellte Fragen (FAQ) {#faqs}
 
 **Wie ändere ich den Satz von Attributen, die ich über diese Integration freigeben möchte?**
 

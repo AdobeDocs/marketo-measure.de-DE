@@ -1,12 +1,12 @@
 ---
 description: '[!DNL Marketo Measure] Integrationen mit Adobe Launch - [!DNL Marketo Measure]'
-title: '[!DNL Marketo Measure] Integrationen mit Adobe Launch'
+title: '[!DNL Marketo Measure]-Integrationen mit Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
 source-git-commit: 6aaf6fd26f19e9382cc559e54558e1c5d84cfd6d
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Wenn sie in Adobe Launch installiert und konfiguriert ist, lädt die Erweiterung
 >Unter den folgenden Links erfahren Sie mehr über Adobe Launch und seine Erweiterungen:
 >
 >* [[!DNL Marketo Measure] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
->* [Adobe Launch-Übersicht ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
+>* [Adobe Launch-Übersicht ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=de){target="_blank"}
 >* [Übersicht über die Adobe Launch-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
 1. Erstellen Sie eine Eigenschaft gemäß den Schritten [in diesem Artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
