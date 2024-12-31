@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874698
-description: Erstellen eines [!DNL Marketo Measure] Profils - [!DNL Marketo Measure]
+description: Erstellen eines  [!DNL Marketo Measure] -Profils - [!DNL Marketo Measure]
 title: Erstellen eines [!DNL Marketo Measure] -Profils
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
@@ -11,32 +11,32 @@ ht-degree: 3%
 
 ---
 
-# Erstellen eines [!DNL Marketo Measure]-Profils {#creating-a-marketo-measure-profile}
+# Erstellen eines [!DNL Marketo Measure] Profils {#creating-a-marketo-measure-profile}
 
-Erfahren Sie, wie Sie ein [!DNL Marketo Measure] -Profil erstellen. Durch das Erstellen eines [!DNL Marketo Measure] -Profils werden beim Senden von Daten an Ihr CRM-System keine Überprüfungsfehler ausgegeben.
+Erfahren Sie, wie Sie ein [!DNL Marketo Measure] erstellen. Durch die Erstellung eines [!DNL Marketo Measure] Profils wird sichergestellt, dass beim Pushen von Daten an Ihr CRM keine Validierungsfehler auftreten.
 
-1. Erstellen Sie ein bestimmtes [!DNL Marketo Measure] -Profil:
+1. Erstellen Sie ein bestimmtes [!DNL Marketo Measure]:
 
-   * Zuweisen des [!DNL Marketo Measure] Administratorberechtigungssatzes
+   * Zuweisen des [!DNL Marketo Measure]-Administratorberechtigungssatzes
    * Berechtigung zum Anzeigen und Bearbeiten konvertierter Leads aktivieren
 
    >[!NOTE]
    >
-   >Dieses Profil kann ein Klon eines [!DNL System Admin] -Profils sein
+   >Dieses Profil kann ein Klon eines [!DNL System Admin] sein
 
-1. Es wurde ein dedizierter [!DNL Marketo Measure] Benutzer erstellt:
+1. hat einen dedizierten [!DNL Marketo Measure] erstellt:
 
-   * Weisen Sie dem Benutzer das neue [!DNL Marketo Measure] Profil zu.
-   * Aktivieren Sie &quot;Marketing-Benutzer&quot;als Berechtigung auf Benutzerebene
+   * Weisen Sie diesem Benutzer das neue [!DNL Marketo Measure] zu
+   * „Marketing-Benutzer“ als Berechtigung auf Benutzerebene aktivieren
 
-1. Schließen Sie dieses Profil aus allen Triggern, Workflows und Prozessen aus.
-1. Melden Sie sich bei Ihrem [!DNL Marketo Measure]-Konto an und autorisieren Sie die [!DNL Salesforce]-Verbindung mit dem neuen Benutzer erneut:
+1. Dieses Profil aus allen Triggern, Workflows und Prozessen ausschließen.
+1. Melden Sie sich bei Ihrem [!DNL Marketo Measure]-Konto an und autorisieren Sie die [!DNL Salesforce] erneut mit dem neuen Benutzer:
 
-   * Wechseln Sie zu &quot;[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}&quot;und melden Sie sich mit den Salesforce-Anmeldeinformationen der neuen Benutzerproduktion an
-   * Wählen Sie &quot;[!UICONTROL Einstellungen]&quot;in der Dropdown-Liste &quot;[!UICONTROL Mein Konto]&quot;aus.
-   * Wählen Sie &quot;[!UICONTROL Verbindungen]&quot;innerhalb der Gruppe &quot;[!UICONTROL Integrationen]&quot;aus.
-   * Klicken Sie auf das Schlüsselsymbol rechts neben der aktuellen verbundenen [!DNL Salesforce]-Verbindung und wählen Sie die Option Mit Produktion neu autorisieren aus. Melden Sie sich dann bei Aufforderung mit den neuen Benutzeranmeldeinformationen erneut an.
+   * Wechseln Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} und melden Sie sich mit den neuen Produktions-Salesforce-Anmeldeinformationen an
+   * Wählen Sie [!UICONTROL Einstellungen] in der Dropdown-Liste [!UICONTROL Mein Konto] aus.
+   * Wählen Sie [!UICONTROL Verbindungen] innerhalb der Gruppierung [!UICONTROL Integrationen] aus.
+   * Klicken Sie auf das Symbol Schlüssel rechts neben der aktuellen verbundenen [!DNL Salesforce]-Verbindung und wählen Sie die Option Erneute Autorisierung für Produktion aus. Melden Sie sich dann bei Aufforderung erneut mit den neuen Benutzeranmeldeinformationen an
 
    Fertig!
 
-   Wenden Sie sich bei Fragen zum Erstellen eines dedizierten [!DNL Marketo Measure] -Profils an das Adobe Account Team (Ihren Kundenbetreuer) oder an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   Wenden Sie sich bei Fragen zur Erstellung eines speziellen [!DNL Marketo Measure] an das Adobe-Account-Team (Ihren Account Manager) oder an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

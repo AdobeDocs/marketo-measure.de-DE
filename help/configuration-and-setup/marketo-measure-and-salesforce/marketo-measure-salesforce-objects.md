@@ -55,7 +55,7 @@ Das BAT-Objekt wird in den Objekten [!UICONTROL Opportunity], [!UICONTROL Kontak
 
 ## [!DNL Marketo Measure]-Person {#marketo-measure-person}
 
-Das Objekt „[!DNL Marketo Measure]-Person“ verknüpft die Lead- und Kontaktobjekte miteinander. Standardmäßig bietet Salesforce nicht die Möglichkeit, Berichte mit dem Lead- und Kontaktobjekt im selben Bericht zu erstellen. Durch Verknüpfung mit dem Lead- und Kontaktobjekt ermöglicht Ihnen die [!DNL Marketo Measure]-Person, einen Bericht für beide Objekte im selben Bericht zu erstellen. Dies ist besonders hilfreich, wenn ein Lead in einen Kontakt konvertiert wurde. In einem [!DNL Marketo Measure] Personendatensatz sehen Sie einen Überblick über den entsprechenden Lead- und/oder Kontaktdatensatz, eine zugehörige Liste der Touchpoints, die mit der Person verknüpft sind, und die Personen-ID (die immer die E-Mail-Adresse des Leads/Kontakts ist). Da die [!DNL Marketo Measure]-Person mit dem Lead- und Kontaktobjekt verbunden ist, gibt es niemals einen [!DNL Marketo Measure]-Personeneintrag, der mit einem Buyer Attribution Touchpoint verknüpft ist. Nachfolgend finden Sie ein Beispiel für einen [!DNL Marketo Measure]-Personeneintrag in Salesforce:
+Das Objekt „[!DNL Marketo Measure]-Person“ verknüpft die Lead- und Kontaktobjekte miteinander. Standardmäßig bietet Salesforce nicht die Möglichkeit, Berichte mit dem Lead- und Kontaktobjekt im selben Bericht zu erstellen. Durch Verknüpfung mit dem Lead- und Kontaktobjekt ermöglicht Ihnen die [!DNL Marketo Measure]-Person, einen Bericht für beide Objekte im selben Bericht zu erstellen. Dies ist besonders hilfreich, wenn ein Lead in einen Kontakt konvertiert wurde. Bei einem Datensatz mit [!DNL Marketo Measure] Person wird nach dem entsprechenden Lead- und/oder Kontaktdatensatz, einer zugehörigen Liste der mit der Person verbundenen Touchpoints und der Personen-ID (die immer die E-Mail-Adresse des Leads/Kontakts ist) gesucht. Da die [!DNL Marketo Measure]-Person mit dem Lead- und Kontaktobjekt verbunden ist, gibt es niemals einen [!DNL Marketo Measure]-Personeneintrag, der mit einem Buyer Attribution Touchpoint verknüpft ist. Nachfolgend finden Sie ein Beispiel für einen [!DNL Marketo Measure]-Personeneintrag in Salesforce:
 
 ![](assets/4.png)
 
@@ -65,7 +65,7 @@ Bei der Durchführung von A/B-Tests mit [!DNL Optimizely] oder VWO (Visual Web O
 
 ![](assets/5.png)
 
-Das [!DNL Marketo Measure]-A/B-Test-Objekt wird als zugehörige Liste auf den Seiten [!UICONTROL Leads], [!UICONTROL Kontakte] und [!UICONTROL Opportunitys] angezeigt. Die Liste überdeckt alle Experimente und Varianten, die Sie durch &quot;Optimizely&quot;oder &quot;VWO&quot;ausführen, und ermöglicht es Ihnen, die Experimente/Varianten zu sehen, da sie sich auf bestimmte Leads und Kontakte beziehen.
+Das [!DNL Marketo Measure]-A/B-Test-Objekt wird als zugehörige Liste auf den Seiten [!UICONTROL Leads], [!UICONTROL Kontakte] und [!UICONTROL Opportunitys] angezeigt. Die Liste zeigt alle Experimente und Varianten, die Sie in Optimizely oder VWO durchlaufen, und ermöglicht es Ihnen, die Experimente/Varianten in Bezug auf bestimmte Leads und Kontakte anzuzeigen.
 
 ## [!DNL Marketo Measure]-Ereignisse {#marketo-measure-events}
 
@@ -73,7 +73,7 @@ Mit dem Objekt „[!DNL Marketo Measure]-Ereignisse“ können Sie bestimmte Ere
 
 ## [!DNL Marketo Measure]-Felder {#marketo-measure-fields}
 
-Von der [!DNL Marketo Measure] JavaScript erfasste Daten werden in die benutzerdefinierten [!DNL Marketo Measure] Felder innerhalb der [!DNL Marketo Measure] Objekte übertragen. Bestimmte Felder sind nur bei bestimmten Objekten vorhanden. Sie können das [ Glossar der [[!DNL Marketo Measure] Felder]](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) und eine [ Visualisierung der zugehörigen  [!DNL Marketo Measure] Objekte](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md) anzeigen.
+Die vom [!DNL Marketo Measure] JavaScript erfassten Daten werden in die benutzerdefinierten [!DNL Marketo Measure] in den [!DNL Marketo Measure] Objekten übertragen. Bestimmte Felder sind nur für bestimmte Objekte vorhanden. Sie können das [Glossar der [[!DNL Marketo Measure]] ](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) eine [Visualisierung der zugehörigen [!DNL Marketo Measure] Objekte) ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 ## [!DNL Marketo Measure]-Berichte und -Dashboards {#marketo-measure-reports-and-dashboards}
 

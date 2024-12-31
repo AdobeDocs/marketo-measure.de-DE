@@ -1,5 +1,5 @@
 ---
-description: Dashboard-Grundlagen - [!DNL Marketo Measure]  - Produkt
+description: Dashboard-Grundlagen entdecken - [!DNL Marketo Measure] - Produkt
 title: Entdecken Sie die Grundlagen von Dashboards
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Entdecken Sie die Grundlagen von Dashboards {#discover-dashboard-basics}
 
-Dieser Artikel führt Sie durch die grundlegenden Funktionen der neu gestalteten Benutzeroberfläche, sodass Sie mühelos auf Ihre Daten zugreifen und sie interpretieren können. Lernen Sie die Dynamik des Filterbereichs kennen und lernen Sie die Komplexität unserer erweiterten Berichterstellungsfunktionen kennen, wie z. B. Drillfunktionen, Querfilterung und QuickInfos.
+Dieser Artikel führt Sie durch die grundlegenden Funktionen der neu gestalteten Benutzeroberfläche und stellt sicher, dass Sie mühelos auf Ihre Daten zugreifen und sie interpretieren können. Machen Sie sich mit der Dynamik des Filterbereichs vertraut und entdecken Sie die Feinheiten unserer erweiterten Reporting-Funktionen, wie z. B. Drill-Funktionen, Kreuzfilterung und QuickInfos.
 
 ## Filterbereich {#filter-pane}
 
-Jedes Dashboard verfügt über eine Reihe von Filtern, die von den folgenden Steuerelementen für eine nahtlose Navigation und Anpassung begleitet werden.
+Jedes Dashboard verfügt über eine Reihe von Filtern sowie die folgenden Steuerelemente für eine nahtlose Navigation und Anpassung.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -25,83 +25,83 @@ Jedes Dashboard verfügt über eine Reihe von Filtern, die von den folgenden Ste
    <th>Beschreibung</th>
   </tr> 
   <tr> 
-   <td><b>Schaltfläche "Umschalten"filtern</b></td>
+   <td><b>Umschalter für Filter</b></td>
    <td>Schalten Sie den Filterbereich ein oder aus.
    <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
    <td><b>Suchleiste</b></td>
-   <td>Verwenden Sie die Suche oben im Filterbereich, um nach einem bestimmten Filter zu suchen. Jeder Filter verfügt auch über eine eigene Suchleiste.
+   <td>Verwenden Sie die Suche oben im Filterbereich, um nach einem bestimmten Filter zu suchen. Jeder Filter verfügt außerdem über eine eigene Suchleiste.
    <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td><b>Schaltfläche "Filter löschen"</b></td>
-   <td>Um einen Filter zu löschen, klicken Sie auf das Löschsymbol oben rechts in jedem Filter.
+   <td><b>Filterschaltfläche löschen</b></td>
+   <td>Um einen Filter zu löschen, klicken Sie auf das Radiergummi-Symbol oben rechts in jedem Filter.
    <p><img src="assets/discover-dashboard-basics-3.png"></td>
   </tr>
   <tr> 
-   <td><b>Schaltfläche Anwenden</b></td>
+   <td><b>Schaltfläche „Anwenden“</b></td>
    <td>Klicken Sie auf , um Ihre Filteränderungen im Dashboard zu bestätigen und zu implementieren.
    <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
 </table>
 
-## Visuelle Filter {#filters-on-visual}
+## Filter für visuelle Inhalte {#filters-on-visual}
 
-Bewegen Sie den Mauszeiger über die obere rechte Ecke einer Visualisierung, um eine schreibgeschützte Liste der angewendeten Filter anzuzeigen.
+Bewegen Sie den Mauszeiger über die obere rechte Ecke eines visuellen Elements, um eine schreibgeschützte Liste der angewendeten Filter anzuzeigen.
 
 ![](assets/discover-dashboard-basics-3b.png)
 
 ## Berichtsfunktionen {#report-capabilities}
 
-### Drilldown und Up {#drill-down-and-up}
+### Aufschlüsselung {#drill-down-and-up}
 
-* Bewegen Sie den Mauszeiger über eine Visualisierung, um festzustellen, ob sie über eine Hierarchie verfügt. Das Vorhandensein von Optionen zur Bohrsteuerung in der Aktionsleiste zeigt dies an.
+* Bewegen Sie den Mauszeiger über ein visuelles Element, um festzustellen, ob es eine Hierarchie hat. Das Vorhandensein von Drill-Steuerungsoptionen in der Aktionsleiste zeigt dies an.
 
 ![](assets/discover-dashboard-basics-4.png)
 
-* Aktivieren Sie den Drilldown, indem Sie auf den einzelnen Pfeil nach unten klicken, der durch einen grauen Hintergrund hervorgehoben wird. Verwenden Sie zum Wiederherstellen das Drilldown-Symbol.
+* Aktivieren Sie die Aufschlüsselung, indem Sie auf den einfachen Abwärtspfeil klicken, der durch einen grauen Hintergrund hervorgehoben wird. Verwenden Sie zum Zurücksetzen das Aufschlüsselungssymbol.
 
 ![](assets/discover-dashboard-basics-5.png)
 
-Um ein Feld einzeln aufzuschlüsseln, aktivieren Sie das Drilldown-Symbol und wählen Sie ein visuelles Element aus, z. B. einen Balken.
+Um jeweils ein Feld aufzuschlüsseln, aktivieren Sie das Aufschlüsselungssymbol und wählen Sie ein visuelles Element aus, z. B. eine Leiste.
 
 ![](assets/discover-dashboard-basics-6.gif)
 
-Verwenden Sie das Drilldown-Symbol mit dem Doppelpfeil, um zur nächsten Hierarchieebene zu wechseln.
+Verwenden Sie das Doppelpfeil-Drilldown-Symbol, um zur nächsten Hierarchieebene zu gelangen.
 
 ![](assets/discover-dashboard-basics-7.gif)
 
-Verwenden Sie das abspaltbare Symbol, um Ihrer aktuellen Ansicht eine zusätzliche Hierarchieebene hinzuzufügen.
+Verwenden Sie das Symbol Verzweigung , um Ihrer aktuellen Ansicht eine zusätzliche Hierarchieebene hinzuzufügen.
 
 ![](assets/discover-dashboard-basics-8.gif)
 
-### Durchfahren {#drill-through}
+### Drill-Through {#drill-through}
 
-Um die Daten hinter der Visualisierung zu untersuchen, klicken Sie mit der rechten Maustaste auf das visuelle Element und wählen Sie die Option &quot;Drillthrough&quot;.
+Um die Daten hinter dem visuellen Element zu untersuchen, klicken Sie mit der rechten Maustaste auf das visuelle Element und wählen Sie die Option „Drill-Through“ aus.
 
 ![](assets/discover-dashboard-basics-9.gif)
 
 ### Daten exportieren {#export-data}
 
-Um die zugrunde liegenden Daten aus einer Visualisierung zu exportieren, bewegen Sie den Mauszeiger über die obere rechte Ecke. Klicken Sie auf die Schaltfläche &quot;Mehr Optionen&quot;, wählen Sie &quot;Daten exportieren&quot;, wählen Sie Ihr bevorzugtes Format aus und klicken Sie dann auf &quot;Exportieren&quot;.
+Um die zugrunde liegenden Daten aus einem visuellen Element zu exportieren, bewegen Sie den Mauszeiger über die obere rechte Ecke. Klicken Sie auf die Schaltfläche „Weitere Optionen“, wählen Sie „Daten exportieren“, wählen Sie Ihr bevorzugtes Format aus und klicken Sie dann auf „Exportieren“.
 ![](assets/discover-dashboard-basics-10.gif)
 
 ### Fokusmodus {#focus-mode}
 
-Um eine bestimmte Visualisierung oder Kachel heranzoomen, halten Sie den Mauszeiger über die obere rechte Ecke und wählen Sie die Schaltfläche &quot;Fokus&quot;aus.
+Um ein bestimmtes Bild oder eine bestimmte Kachel heranzuzoomen, bewegen Sie den Mauszeiger über die obere rechte Ecke und wählen Sie die Schaltfläche „Fokus“ aus.
 
 ![](assets/discover-dashboard-basics-11.gif)
 
-### Cross-Filter {#cross-filtering}
+### Kreuzfilterung {#cross-filtering}
 
-Wenn Sie einen Wert oder eine Achsenbeschriftung in einer Visualisierung auswählen, werden andere Visualisierungen auf der Berichtseite gefiltert, sodass nur die relevanten gefilterten Daten angezeigt werden.
+Wenn Sie in einer Visualisierung einen Wert oder eine Achsenbeschriftung auswählen, werden andere Visualisierungen auf der Berichtseite gefiltert, um sicherzustellen, dass nur die relevanten, gefilterten Daten angezeigt werden.
 
 ![](assets/discover-dashboard-basics-12.gif)
 
 ### Schnellinfo {#tooltips}
 
-QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles Element und es wird ein Pop-up mit einer kontextuellen QuickInfo angezeigt, die Einblicke oder Erklärungen zu diesem Datenpunkt liefert.
+QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles Element. Daraufhin wird eine kontextuelle QuickInfo angezeigt, die Einblicke oder Erklärungen zu diesem bestimmten Datenpunkt bietet.
 
 ![](assets/discover-dashboard-basics-13.gif)

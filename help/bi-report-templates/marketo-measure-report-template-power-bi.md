@@ -1,5 +1,5 @@
 ---
-description: '[!DNL Marketo Measure] Berichtsvorlage - Power BI - [!DNL Marketo Measure]'
+description: Vorlage für [!DNL Marketo Measure]-Bericht - Power BI - [!DNL Marketo Measure]
 title: '[!DNL Marketo Measure]-Berichtsvorlage – Power BI'
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting

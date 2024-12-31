@@ -22,7 +22,7 @@ Der Kanal aus der vorherigen Sitzung wird nun übernommen, wenn eine neue Sitzun
 
 Darüber hinaus werden Sitzungen mit Social-Media-Anmeldung (Google, Microsoft oder Apple) jetzt zu einer fortlaufenden Sitzung zusammengeführt, um ein reibungsloseres Erlebnis zu gewährleisten. Ohne Aktivierung dieser Übertragung könnten Social-Media-Anmeldungen aufgrund von Unterschieden bei externen Referrern separate Sitzungen erstellen.
 
-Bei neuer Kundschaft ist die Übertragung des Sitzungskanals jetzt das Standardverhalten. Bestehende Kunden können dies aktivieren, indem sie den Umschalter Sitzungskanal-Übertragung unter Einstellungen > Übergeordnete Zuordnung aktivieren. Nach der Aktivierung kann diese Einstellung nicht mehr rückgängig gemacht werden.
+Bei neuer Kundschaft ist die Übertragung des Sitzungskanals jetzt das Standardverhalten. Bestehende Kunden können dies aktivieren, indem sie den Umschalter Sitzungskanal-Übertragung unter Einstellungen > Everytouch-Attribution aktivieren. Nach der Aktivierung kann diese Einstellung nicht mehr rückgängig gemacht werden.
 
 Dokumentation: [Definition von Marketo Measure-Web-Sitzungen](https://experienceleague.adobe.com/de/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
@@ -36,11 +36,11 @@ Dokumentation: [Keyword-ROI-Dashboard](https://experienceleague.adobe.com/de/doc
 
 Sie können jetzt Segmente über die Felder „Kampagne“ und „Kampagnenmitglied“, zusätzlich zu den Feldern „Touchpoint“ und „Kontakt“, erstellen. Dank dieser Erweiterung können Sie Ihre Daten in Discover noch effizienter analysieren und aufschlüsseln.
 
-![Verbesserte Segmentregeln](assets/mm-q4-release-1.png)
+![Erweiterte Segmentregeln](assets/mm-q4-release-1.png)
 
 ### Aktualisierung: Fehlerbehandlungseinstellung für CRM-Exporte
 
-Wir haben auf Ihr Feedback bezüglich des Anhaltens von Aufträgen gehört und führen eine neue Funktion in der Benutzeroberfläche ein. Ab heute können Sie festlegen, ob Exportaufträge beim Auftreten von Fehlern angehalten werden sollen. Verwenden Sie den neuen Umschalter unter **Mein Konto** > **Einstellungen** > **CRM** > **Allgemein** . Dieser Schalter ist standardmäßig aktiviert, um die Datenintegrität und -transparenz zu verbessern. Wenn Sie diese Funktion jedoch lieber nicht verwenden möchten, können Sie sie in der Benutzeroberfläche deaktivieren, und die Exportaufträge werden fortgesetzt. Diese Aktualisierung soll die Zuverlässigkeit Ihrer Daten-Management-Prozesse erhöhen und Ihnen gleichzeitig mehr Kontrolle geben.
+Wir haben auf Ihr Feedback bezüglich des Anhaltens von Aufträgen gehört und führen eine neue Funktion in der Benutzeroberfläche ein. Ab heute können Sie festlegen, ob Exportaufträge beim Auftreten von Fehlern angehalten werden sollen. Verwenden Sie den neuen Umschalter in **Mein Konto** > **Einstellungen** > **CRM** > **Allgemein**. Dieser Schalter ist standardmäßig aktiviert, um die Datenintegrität und -transparenz zu verbessern. Wenn Sie diese Funktion jedoch lieber nicht verwenden möchten, können Sie sie in der Benutzeroberfläche deaktivieren, und die Exportaufträge werden fortgesetzt. Diese Aktualisierung soll die Zuverlässigkeit Ihrer Daten-Management-Prozesse erhöhen und Ihnen gleichzeitig mehr Kontrolle geben.
 
 #### Wichtige Daten und gestaffelter Rollout
 
@@ -65,7 +65,7 @@ Um Ihnen bei der Anpassung an diese Änderung zu helfen, haben wir eine Dokument
 
 <p>
 
-### Erinnerung: Veraltete Salesforce-Felder - 14. Juni
+### Erinnerung: Einstellung von Salesforce-Feldern - 14. Juni
 
 Wie letztes Jahr angekündigt, werden wir unsere [Exportaufträge an Lead-/Kontaktobjekte schrittweise auslaufen lassen](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}, um unsere Integration zu vereinfachen und den Export in Salesforce-Standardobjekte unnötig zu machen. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden [hier dokumentierten](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"} Schritte ausführen. Wir werden auch die Dokumentation zum Erstellen von Workflows teilen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
 
@@ -85,7 +85,7 @@ Die Synchronisation der Marketo Engage-Cookies ist jetzt für Marketo Measure Ul
 1. Bearbeiten Sie auf der Seite „AEP-Schemata“ das Schema „B2B-Person“ und fügen Sie die Feldergruppe „Marketo Engage-Personendetails“ hinzu.
 1. Wenn Sie die Daten in MMU einlesen, ordnen Sie das Feld „Cookie-ID“ aus der Feldgruppe dem Feld „Cookies“ aus Marketo Engage zu.
 
-### Boomerang-Phasen für Tier-2-Kunden aktiviert
+### Boomerang-Stadien für Tier 2-Kunden aktiviert
 
 Die bisher nur für Kundschaft der Stufe 3 verfügbare Funktion „Boomerang-Phasen“ steht ab dem 13. Juni 2024 auch für Kundschaft der Stufe 2 zur Verfügung. Weitere Informationen zu dieser Funktion finden Sie in der folgenden Dokumentation.
 
@@ -99,14 +99,14 @@ Die bisher nur für Kundschaft der Stufe 3 verfügbare Funktion „Boomerang-Pha
 
 <p>
 
-### Einstellung von Marketo Measure-Funktionen als Reaktion auf die Einstellung von Drittanbieter-Cookies
+### Einstellung von Marketo Measure-Funktionen als Reaktion auf den schrittweisen Ausstieg aus Drittanbieter-Cookies
 
 Als Reaktion auf wachsende Datenschutzbedenken werden Drittanbieter-Cookies schrittweise eingestellt. Die endgültige Einstellung erfolgt bis zur Frist von Google Chrome für das dritte Quartal 2024. Marketo Measure stellt bestimmte Funktionen ein, die von Drittanbieter-Cookies abhängig sind, insbesondere Domain-übergreifendes Tracking und Durchsichtszuordnung, was auf dem Impressions-Cookie „Google/DoubleClick“ basiert. Diese Änderung hat keine Auswirkungen auf andere Marketo Measure-Funktionen oder die Verwendung von Erstanbieter-Cookies. Nach dem Zeitplan von Google werden diese Funktionen voraussichtlich bis zum 1. Juni eingestellt, Die Daten, die vor diesem Datum erfasst werden, werden Kundinnen und Kunden allerdings weiterhin zur Verfügung stehen.
 
 * [Anpassung an die Einstellung von Drittanbieter-Cookies in Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
 * [Marketo Measure-Cookies](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
 
-### Schrittweise Einführung unseres erweiterten Umgang mit Fehlern
+### Schrittweiser Rollout unserer erweiterten Fehlerbehandlung
 
 Wir führen phasenweise eine verbesserte Fehlerhandhabung für Exportvorgänge ein, beginnend mit sofortigen In-App-Pulsbenachrichtigungen für Berechtigungsfehler. Außerdem stellen wir auf einen neuen Ansatz um, bei dem Exportvorgänge an der Fehlerstelle pausiert werden. Diese Änderung zielt darauf ab, die Datenintegrität und -sichtbarkeit zu verbessern und sicherzustellen, dass unsere Benutzerinnen und Benutzer reibungslosere und zuverlässigere Datenverwaltungsprozesse nutzen können. Um einen reibungslosen Übergang und eine minimale Unterbrechung Ihrer Vorgänge sicherzustellen, implementieren wir diese Änderungen in zwei Phasen:
 

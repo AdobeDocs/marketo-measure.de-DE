@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874755
-description: Hinzufügen von [!DNL Marketo Measure] zu [!DNL Marketo] Einstiegsseiten - [!DNL Marketo Measure]
+description: Hinzufügen  [!DNL Marketo Measure] zu [!DNL Marketo] Landingpages - [!DNL Marketo Measure]
 title: Hinzufügen von [!DNL Marketo Measure] zu Marketo-Landing-Pages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
@@ -11,35 +11,35 @@ ht-degree: 3%
 
 ---
 
-# Hinzufügen von [!DNL Marketo Measure] zu Marketo-Einstiegsseiten {#adding-marketo-measure-to-marketo-landing-pages}
+# Hinzufügen von [!DNL Marketo Measure] zu Marketo-Landingpages {#adding-marketo-measure-to-marketo-landing-pages}
 
-Erfahren Sie, wie Sie den Einstiegsseiten [!DNL Marketo Engage] Tracking hinzufügen, da sie zusätzliche Verarbeitungsschritte erfordern. [!DNL Marketo Measure] JavaScript muss sowohl auf der Einstiegsseite als auch im [!DNL Marketo Engage] Formular selbst vorhanden sein. Dazu müssen Sie den [!DNL Marketo Measure] JavaScript in [!DNL Marketo Engage] laden, wie in den folgenden Anweisungen beschrieben.
+Erfahren Sie, wie Sie Tracking zu [!DNL Marketo Engage] Landingpages hinzufügen, da diese zusätzliche Verarbeitungsschritte erfordern. [!DNL Marketo Measure] JavaScript muss sowohl auf der Landingpage als auch im [!DNL Marketo Engage] Formular vorhanden sein. Dazu müssen Sie die [!DNL Marketo Measure] JavaScript wie in den folgenden Anweisungen beschrieben in [!DNL Marketo Engage] laden.
 
 >[!NOTE]
 >
->Wenn Sie JavaScript über einen Tag-Management-Provider wie [!DNL Google Tag Manager] bereitstellen, müssen Sie [!DNL Marketo Measure] JS nicht manuell zu [!DNL Marketo Engage] hinzufügen.
+>Wenn Sie die JavaScript über einen Tag-Management-Anbieter wie [!DNL Google Tag Manager] bereitstellen, müssen Sie [!DNL Marketo Measure] JS nicht manuell zu [!DNL Marketo Engage] hinzufügen.
 
-## Hinzufügen von [!DNL Marketo Measure] Skript zu [!DNL Marketo Engage] Einstiegsseiten {#how-to-add-marketo-measure-script-to-marketo-engage-landing-pages}
+## Hinzufügen [!DNL Marketo Measure] Skripts zu [!DNL Marketo Engage] Landingpages {#how-to-add-marketo-measure-script-to-marketo-engage-landing-pages}
 
-1. Melden Sie sich bei Ihrem [!DNL Marketo Engage] -Konto an.
+1. Melden Sie sich bei Ihrem [!DNL Marketo Engage] an.
 1. Wählen Sie Ihre Landingpage aus und klicken Sie auf **[!UICONTROL Entwurf bearbeiten]**.
-1. Ziehen Sie das Element HTML in den Arbeitsbereich.
-1. Geben Sie den [!DNL Marketo Measure] JavaScript in den Abschnitt [!UICONTROL head] ein:
+1. Ziehen Sie das HTML-Element hinein.
+1. Geben Sie die [!DNL Marketo Measure] JavaScript im Abschnitt [!UICONTROL head] ein:
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-Beispiel für einen Screenshot unten
+Beispiel im folgenden Screenshot
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/adding-bizible-to-marketo-landing-pages-1.png)
 
-## Weitere Hinweise {#additional-notes}
+## Zusätzliche Hinweise {#additional-notes}
 
-* Möglicherweise sind bereits andere Trackingcode-Snippets vorhanden, z. B. ein [!DNL Google Analytics] -Code. Es gibt kein Problem damit. Achten Sie darauf, sie durch ein Semikolon `;` und ein einzelnes Leerzeichen zu trennen. Ein Beispiel dafür, wie dies aussehen würde:
+* Möglicherweise sind bereits andere Trackingcode-Snippets vorhanden, z. B. ein [!DNL Google Analytics]. Es ist kein Problem damit, stellen Sie sicher, dass Sie sie mit einem Semikolon `;` und einem einzigen Leerzeichen trennen. Ein Beispiel dafür, wie dies aussehen würde:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`
 
-* Wahrscheinlich werden mehrere Landingpage-Vorlagen verwendet. Stellen Sie sicher, dass Sie den Code zu allen Vorlagen hinzufügen, die Formulare enthalten.
+* Es ist wahrscheinlich, dass Sie mehrere Landingpage-Vorlagen verwenden. Stellen Sie sicher, dass Sie den Code zu allen Vorlagen hinzufügen, die Formulare enthalten.
 
-* Wenn Sie die Vorlage für Landingpages bearbeiten, müssen Sie manchmal die Seiten erneut validieren, von denen die Landingpage verwendet wird. In diesem Artikel wird [erläutert, wie eine Massengenehmigung durchgeführt werden kann](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.
+* Wenn Sie die Vorlage für Landingpages bearbeiten, müssen Sie manchmal die Seiten, von denen die Landingpage verwendet wird, erneut genehmigen. In diesem Artikel wird [Massenvalidierung“ ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

@@ -1,5 +1,5 @@
 ---
-description: Lead-Velocity-Dashboard - [!DNL Marketo Measure]  - Produkt
+description: Lead-Geschwindigkeits-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Dashboard „Lead-Geschwindigkeit“
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
@@ -12,52 +12,52 @@ ht-degree: 3%
 
 # Dashboard „Lead-Geschwindigkeit“ {#lead-velocity-dashboard}
 
-Das Velocity-Dashboard bietet einen dynamischen Einblick in das Tempo, in dem potenzielle Kunden durch den Verkaufstrichter navigieren. So erhalten Marketingexperten und Vertriebsteams wichtige Einblicke in Konversionszeiten über verschiedene Kanäle hinweg. Dieses Tool ist für die Beantwortung wichtiger Fragen über die Dauer der Lead-Konversion und die Effizienz des Fortschritts bis hin zur Verkaufsstufe unentbehrlich und ermöglicht es Ihnen, Ihre Interaktionsstrategien für beschleunigtes Wachstum und Konversionen zu optimieren.
+Das Velocity-Dashboard bietet einen dynamischen Einblick in das Tempo, in dem sich Interessenten durch den Verkaufstrichter bewegen, und bietet Marketing-Experten und Vertriebsteams wichtige Einblicke in die Konversionszeiten auf verschiedenen Kanälen. Dieses Tool ist für die Beantwortung wichtiger Fragen zur Lead-Konversionsdauer und zur Effizienz der Progression in den Vertriebsstufen von unschätzbarem Wert. So können Sie Ihre Interaktionsstrategien für beschleunigtes Wachstum und Konversionen optimieren.
 
 Fragen, die dieses Dashboard beantwortet:
 
-* Wie lange dauert es durchschnittlich, einen Lead umzurechnen?
-* Wie lange dauert es im Durchschnitt für jede Phase, bis ein Lead oder Kontakt zur nächsten Stufe gelangt? Wie ändert sich dieser Zeitraum im Laufe der Zeit?
+* Wie lange dauert es im Durchschnitt, einen Lead zu konvertieren?
+* Wie lange dauert es im Durchschnitt für jedes Stadium, bis ein Lead oder Kontakt zum nächsten Stadium wechselt? Wie ändert sich dieser Zeitraum im Laufe der Zeit?
 
 ## Dashboard-Komponenten {#dashboard-components}
 
-Ob &quot;Lead&quot;oder &quot;Kontakt&quot;angezeigt werden soll, hängt von der in den Einstellungen > Attributionseinstellungen > Standard-Dashboard-Objekt festgelegten Voreinstellung ab.
+Ob „Lead“ oder „Kontakt“ angezeigt werden soll, hängt von den Voreinstellungen ab, die in festgelegt sind: Einstellungen > Attributionseinstellungen > Standard-Dashboard-Objekt.
 
-### Lead-/Kontaktgeschwindigkeit nach Phasen {#lead-contact-velocity-by-stage}
+### Lead-/Kontaktgeschwindigkeit nach Stadium {#lead-contact-velocity-by-stage}
 
-Das Balkendiagramm zeigt die durchschnittliche Dauer in Tagen an, die Leads/Kontakte in den einzelnen Verkaufszeiträumen in einem bestimmten Zeitraum verbringen.
+Das Balkendiagramm zeigt die durchschnittliche Dauer in Tagen an, die Leads/Kontakte in jedem Verkaufsstadium während eines bestimmten Zeitraums verbringen.
 
-Fragen zu den Grafikantworten:
+Fragen, die in der Tabelle beantwortet werden:
 
 * Welche Verkaufsstufe hat in der Regel die längste Dauer für Leads/Kontakte?
-* Wie unterscheidet sich die in der Phase &quot;Erstkontakt&quot;verbrachte Zeit von der Phase &quot;MQL&quot;?
+* Wie verhält sich die Zeit, die im Stadium „Erstkontakt“ verbracht wird, mit der Zeit im Stadium „MQL“?
 
 ![](assets/lead-velocity-dashboard-1.png)
 
 ### Lead-/Kontaktgeschwindigkeit im Zeitverlauf {#lead-contact-velocity-over-time}
 
-Das Liniendiagramm der Zeitreihen zeigt die durchschnittliche Zeit in Tagen an, die Leads/Kontakte in den einzelnen Verkaufszeiträumen verbringen.
+Das Zeitreihen-Liniendiagramm zeigt die durchschnittliche Zeit in Tagen an, die Leads/Kontakte in jedem Verkaufsstadium im angegebenen Zeitraum verbringen.
 
-* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
-* Bewegen Sie den Mauszeiger über eine Zeile, um detaillierte Informationen anzuzeigen.
+* Verwenden Sie die Aufschlüsselungs- und Nach-oben-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
+* Bewegen Sie den Mauszeiger über eine Linie, um detaillierte Informationen anzuzeigen.
 
-Fragen zu den Grafikantworten:
+Fragen, die in der Tabelle beantwortet werden:
 
-* Wie hoch ist die Zeitspanne, die in den einzelnen Phasen bei Leads/Kontakten in den beobachteten Monaten verbracht wurde?
-* In welchem Monat haben Leads/Kontakte den schnellsten Fortschritt in den Verkaufsstadien erfahren?
+* Welche Trends gibt es bei der Besuchszeit für Leads/Kontakte in den einzelnen Monaten?
+* In welchem Monat erlebten Leads/Kontakte den schnellsten Fortschritt durch die Vertriebsphasen?
 
 ![](assets/lead-velocity-dashboard-2.png)
 
 ### Lead-/Kontaktgeschwindigkeit nach Kanal {#lead-contact-velocity-by-channel}
 
-Das Balkendiagramm zeigt die durchschnittliche Dauer in Tagen an, für die Leads/Kontakte in den einzelnen Trichterphasen nach Kanal segmentiert bleiben.
+Das Balkendiagramm zeigt die durchschnittliche Dauer in Tagen an, die Leads/Kontakte in jeder Trichterphase verbleiben, segmentiert nach Kanal.
 
-Bewegen Sie den Mauszeiger über eine Zeile, um detaillierte Informationen anzuzeigen.
+Bewegen Sie den Mauszeiger über eine Linie, um detaillierte Informationen anzuzeigen.
 
-Fragen zu den Grafikantworten:
+Fragen, die in der Tabelle beantwortet werden:
 
-* Welcher Kanal zeigt den schnellsten Lead-Fortschritt durch die Trichterphasen?
-* Wie variiert die Vorlaufgeschwindigkeit auf der Stufe &quot;MQL&quot;je nach Kanal?
+* Welcher Kanal zeigt die schnellste Lead-Progression durch die Trichterstufen?
+* Wie variiert die Lead-Geschwindigkeit in der „MQL“-Phase über verschiedene Kanäle hinweg?
 
 ![](assets/lead-velocity-dashboard-3.png)
 
@@ -66,7 +66,7 @@ Fragen zu den Grafikantworten:
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
 * Datum
-   * Basierend auf: Übergang am Datum
+   * Basierend auf: Übergang in Datum
 * Phase
 * Kanal
 * Unterkanal

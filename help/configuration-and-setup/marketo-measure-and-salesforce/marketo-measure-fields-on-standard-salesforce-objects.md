@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874574
-description: '[!DNL Marketo Measure] Felder für Standard [!DNL Salesforce] Objekte - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Felder in Standard [!DNL Salesforce] Objekten - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Felder in Standard- [!DNL Salesforce] -Objekten'
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce

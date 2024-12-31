@@ -14,67 +14,67 @@ ht-degree: 4%
 
 ## Überblick {#overview}
 
-Um eine genaue [!DNL Marketo Measure] Berichterstellung zu erhalten, müssen Ihre Marketing-Kanäle korrekt eingerichtet sein. Das Feld &quot;[!UICONTROL Marketing-Kanal]&quot;enthält die Gruppe der Marketing-Taktiken auf höchster Ebene, zu der ein Touchpoint gehören kann (z. B. Ereignisse, Webinare, Inhaltssynchronisierung usw.).
+Um ein genaues [!DNL Marketo Measure]-Reporting zu erhalten, müssen Ihre Marketing-Kanäle korrekt eingerichtet sein. Das Feld [!UICONTROL Marketing-]&quot; zeigt die höchste Gruppe von Marketing-Taktiken an, zu der ein Touchpoint gehören kann (z. B. Ereignisse, Webinare, Content Syndication usw.).
 
-Bei der Einrichtung Ihrer Marketing-Kanäle gibt es zwei Aspekte: Online und Offline. Dieses Dokument konzentriert sich auf die Best Practices für die Einrichtung und Pflege Ihrer Offline-Kanäle und darauf, wie diese mit [!DNL Marketo Measure] über CRM-Kampagnen synchronisiert werden.[!DNL Marketo Measure]
+Bei der Einrichtung Ihrer Marketing-Kanäle gibt es zwei Aspekte: Online und Offline. Dieses Dokument konzentriert sich auf die [!DNL Marketo Measure] Best Practice-Empfehlungen für die Einrichtung und Wartung Ihrer Offline-Kanäle und wie sie über CRM-Kampagnen mit [!DNL Marketo Measure] synchronisiert werden.
 
 Offline-Kanäle haben zwei Hauptaspekte:
 
-1. Offline-Kanalzuordnung, das Framework, das [!DNL Marketo Measure] angibt, zu welchem Kanal und Unterkanal der Offline-Touchpoint gehört
-1. Offline-Kampagnensynchronisation , bei der Offline-Touchpoints erstellt werden
+1. Offline Channel Mapping , das Framework, das [!DNL Marketo Measure] angibt, zu welchem Kanal und Unterkanal der Offline-Touchpoint gehört
+1. Offline-Kampagnensynchronisierung, bei der die Offline-Touchpoints erstellt werden
 
-Offline-Touchpoints werden in einer CRM-Kampagne erstellt und dienen dazu, Marketinginteraktionen zu verfolgen, die nicht digital über die auf den Webseiten Ihrer Website implementierte JavaScript [!DNL Marketo Measure] verfolgt werden können. Wenn eine CRM-Kampagne mit [!DNL Marketo Measure] synchronisiert wird, werden Touchpoints für die definierten Campaign-Mitglieder in der Kampagne erstellt.
+Offline-Touchpoints werden aus einer CRM-Kampagne erstellt und dienen der Verfolgung von Marketing-Interaktionen, die nicht über die [!DNL Marketo Measure] JavaScript, die auf den Seiten Ihrer Website implementiert ist, digital verfolgt werden können. Wenn eine CRM-Kampagne mit [!DNL Marketo Measure] synchronisiert wird, werden Touchpoints für die definierten Kampagnenmitglieder innerhalb der Kampagne erstellt.
 
-Der Wert &quot;Marketing-Kanal&quot;für diese Touchpoints basiert auf dem Feld &quot;Typ&quot;in der Kampagne. Die Zuordnung von &#39;CRM-Kampagnentyp&#39; zu &#39;Marketing-Kanal&#39; und &#39;Subchannel&#39; wird im Tab &#39;Offline-Kanäle&#39; Ihrer [!DNL Marketo Measure] Kontoeinstellungen verwaltet. Wenn Sie sicherstellen, dass Ihr Offline-Kanal-Mapping korrekt und aktuell ist, garantieren Sie, dass Ihre Offline-Touchpoint-Daten den korrekten Marketing-Kanälen und Subkanälen in Ihrem [!DNL Marketo Measure] -Reporting zugeordnet werden.
+Der Wert „Marketing-Kanal“ für diese Touchpoints basiert auf dem Feld „Typ“ in der Kampagne. Die Zuordnung von „CRM-Kampagnentyp“ zu „Marketing-Kanal“ und „Unterkanal“ wird in der Registerkarte „Offline-Kanäle“ Ihrer [!DNL Marketo Measure]-Kontoeinstellungen verwaltet. Wenn Sie sicherstellen, dass Ihre Offline-Kanal-Zuordnung korrekt und auf dem neuesten Stand ist, wird sichergestellt, dass Ihre Offline-Touchpoint-Daten den richtigen Marketing-Kanälen und -Unterkanälen in Ihren [!DNL Marketo Measure]-Berichten zugeordnet werden.
 
 ## Best Practice | Offline-Kanalzuordnung {#best-practice-offline-channel-mapping}
 
-Beachten Sie die folgenden Best Practices, unabhängig davon, ob Sie Ihre Offline-Kanäle zum ersten Mal zuordnen oder sie nur überprüfen, um sicherzustellen, dass sie korrekt sind.
+Unabhängig davon, ob Sie Ihre Offline-Kanäle zum ersten Mal zuordnen oder nur auf Genauigkeit überprüfen, sollten Sie die folgenden Best Practices beachten.
 
 * Erstellen eines absichtlichen Frameworks für Ihre Offline-Kanäle
-   * Nehmen Sie sich Zeit, um über die Organisation Ihrer Marketing-Kampagnen nachzudenken und darüber, wie sie in das Framework von [!DNL Marketo Measure] passen. Bestimmen Sie, welche Kanäle und Unterkanäle in Ihren Offline-Kanälen dargestellt werden sollen und welche CRM-Kampagnentypen diese Kanäle voneinander unterscheiden.
-* Arbeiten Sie zunächst an der Nutzung Ihrer aktuellen CRM-Kampagnenwerte &quot;Typ&quot;.
-   * Offline-Kanäle werden durch den &#39;Typ&#39; der CRM-Kampagne definiert. Es kann jedoch erforderlich sein, den &#39;Typ&#39; der benutzerdefinierten CRM-Kampagne zu erstellen, um die idealen Offline-Kanal- und Subkanalwerte aufzunehmen. Ideale benutzerdefinierte CRM-Kampagnentyp-Werte sollten die unten dargestellte Namenskonvention aufweisen:
-      * KANAL - SUBKANAL
-      * Beispiel: Event - Tradeshow
-      * Dadurch wird sichergestellt, dass die Zuordnung zur Subkanalebene so einfach und sauber wie möglich ist.
-* Ein Unterkanal kann nur einem CRM-Kampagnentyp zugeordnet werden.
-   * Mehrere CRM-Kampagnentypen können einem einzelnen Kanal zugeordnet werden, aber jedem Unterkanal innerhalb eines Kanals kann nur ein CRM-Kampagnentyp zugeordnet werden.
-* Nur die &quot;Typen&quot;der OFFLINE-CRM-Kampagne sollten Offline-Kanälen zugeordnet werden, da nur Offline-Kampagnen mit [!DNL Marketo Measure] synchronisiert werden sollen, um Touchpoints zu erstellen:
-   * Die &#39;Typen&#39; der ONLINE CRM-Kampagne sollten einem [!UICONTROL Marketingkanal] = &quot;NULL&quot;zugeordnet werden. Dieser Wert wird empfohlen, da er als &quot;rote Markierung&quot;dient, die angibt, dass Ihre Offline-Kanäle geprüft wurden und jeder CRM-Kampagnentyp, der &quot;NULL&quot;zugeordnet ist, ein ONLINE-Typ &quot;Typ&quot;ist und nicht mit [!DNL Marketo Measure] synchronisiert werden sollte. Touchpoints im Zusammenhang mit Online-CRM-Kampagnentypen werden bereits über [!DNL Marketo Measure] Online-Funktionen und -Kanäle verfolgt. Die Synchronisierung dieser Kampagnen birgt das Risiko, Touchpoints zu &quot;duplizieren&quot;bzw. die Zählung zu verdoppeln
+   * Nehmen Sie sich Zeit, um über die Organisation Ihrer Marketing-Kampagnen nachzudenken und darüber, wie sie in das Framework von [!DNL Marketo Measure] passen. Legen Sie fest, welche Kanäle und Unterkanäle in Ihren Offline-Kanälen dargestellt werden sollen und welche CRM-Kampagnentypen diese Kanäle voneinander unterscheiden
+* Zuerst die aktuellen CRM-Kampagnentypwerte verwenden
+   * Offline-Kanäle werden durch den CRM-Kampagnentyp definiert. Es kann jedoch erforderlich sein, den benutzerdefinierten CRM-Kampagnentyp zu erstellen, um ideale Offline-Kanal- und Unterkanalwerte zu berücksichtigen. Ideale Werte für den CRM-Kampagnentyp sollten die unten aufgeführte Benennungskonvention aufweisen:
+      * KANAL - UNTERKANAL
+      * Beispiel: Veranstaltung - Fachmesse
+      * Dadurch wird sichergestellt, dass die Zuordnung zur Unterkanalebene so einfach und sauber wie möglich ist
+* Ein Unterkanal kann nur einem CRM-Kampagnentyp zugeordnet werden
+   * Mehrere CRM-Kampagnentypen können einem einzelnen Kanal zugeordnet werden, aber es kann nur ein CRM-Kampagnentyp jedem Unterkanal innerhalb jedes Kanals zugeordnet werden
+* Nur Offline-CRM-Kampagnentypen sollten Offline-Kanälen zugeordnet werden, da nur Offline-Kampagnen mit [!DNL Marketo Measure] synchronisiert werden sollen, um Touchpoints zu erstellen:
+   * Die &#39;Kampagnentypen&#39; des ONLINE-CRMs sollten einem [!UICONTROL Marketing-Kanal] = „NULL“ zugeordnet werden. Dieser Wert wird empfohlen, da er als „rote Markierung“ dient, die angibt, dass Ihre Offline-Kanäle überprüft wurden und jeder CRM-Kampagnentyp, der „NULL“ zugeordnet ist, ein ONLINE-Typ ist und nicht mit [!DNL Marketo Measure] synchronisiert werden sollte. Touchpoints, die sich auf „Kampagnentypen“ für Online-CRMs beziehen, würden bereits über [!DNL Marketo Measure] Online-Funktionen und -Kanäle verfolgt. Die Synchronisierung dieser Kampagnen birgt das Risiko von „doppelten“ Touchpoints/doppelter Zählung
 
 ## Best Practice | Offline-Kampagnensynchronisierung {#best-practice-offline-campaign-sync}
 
-* Stellen Sie sicher, dass das Feld &quot;Typ&quot; in jeder CRM-Kampagne korrekt ist.
-   * &#39;Typ&#39; bestimmt Marketing-Kanal und Subkanal für alle Touchpoints, die aus der Kampagne bezogen werden, sobald sie synchronisiert wurden
-* Unabhängig davon, ob Sie die CRM-basierte Methode der Kampagnensynchronisierung (Käufer-Touchpoints aktivieren) oder die [!DNL Marketo Measure] App-basierte Synchronisierungsmethode (benutzerdefinierte Kampagnensynchronisierung im Tab &#39;[!UICONTROL Kampagnen]&#39; Ihrer [!UICONTROL Marketo Measure] Kontoeinstellungen) verwenden, sollten Offline-Touchpoints nur erstellt werden, wenn der Kampagnenmitglieder eine tatsächliche Offline-Interaktion mit der Kampagne und Ihrer Marke hatte:
-   * Für Offline-Kanäle wie Ereignisse oder Webinare: &quot;Registrierungen&quot;werden in der Regel über Formularübermittlungen auf Ihrer Website und [!DNL Marketo Measure] Online-Funktionen verfolgt. Deshalb sollten Campaign-Mitglieder mit dem Status &quot;Registriert&quot;keinen Offline-Touchpoint von der Kampagne erhalten, um eine doppelte Zählung zu vermeiden. Offline-Touchpoints sollten nur für die &quot;Teilnahme&quot;an der Veranstaltung oder dem Webinar repräsentativ sein.
-   * Einige Offline-Kanäle wie die Inhaltssynchronisierung sind einfacher, da jedes Campaign-Mitglied denselben &quot;reagierten&quot;Status hat, der angibt, dass es tatsächlich auf die Kampagne geantwortet hat. In diesem Fall sollten Sie Inhalte auf einer Drittanbieter-Site herunterladen und daher einen Offline-Touchpoint erhalten.
-* Stellen Sie bei Verwendung der Methode zur benutzerspezifischen Kampagnensynchronisierung in der [!DNL Marketo Measure] -App sicher, dass das Feld &quot;Touchpoint-Datum&quot;auf dem Datumsfeld des Campaign- oder Campaign-Mitglieds basiert, das am deutlichsten darauf hinweist, wann die Touchpoint-Interaktion tatsächlich stattgefunden hat
-* Verwenden Sie die Schaltfläche &quot;Touchpoint-Datum-Massenaktualisierung&quot;, wenn Sie das &quot;Touchpoint-Datum&quot;für einen der Offline-Touchpoints überschreiben müssen, die aus einer CRM-Kampagne stammen. Das &quot;Touchpoint-Datum&quot;muss so genau wie möglich sein, um sicherzustellen, dass der Touchpoint die genaueste &quot;Touchpoint-Position&quot;und damit den korrekten Betrag der Attribution enthält.
+* Sicherstellen, dass das Feld „Typ“ in jeder CRM-Kampagne korrekt ist
+   * „Typ“ bestimmt den Marketing-Kanal und Unterkanal für alle Touchpoints, die von der Kampagne bezogen werden, sobald sie synchronisiert wurden
+* Unabhängig davon, ob Sie die CRM-basierte Kampagnensynchronisierungsmethode (Käufer-Touchpoints aktivieren) oder die [!DNL Marketo Measure] App-basierte Synchronisierungsmethode (benutzerdefinierte Kampagnensynchronisierung innerhalb der Registerkarte &quot;[!UICONTROL Kampagnen]&quot; Ihrer [!UICONTROL Marketo Measure]-Kontoeinstellungen) verwenden, sollten Offline-Touchpoints nur erstellt werden, wenn das Kampagnenmitglied eine tatsächliche Offline-Interaktion mit der Kampagne und Ihrer Marke hatte:
+   * Bei Offline-Kanälen wie Events oder Webinaren werden „Registrierungen“ in der Regel über Formularübermittlungen auf Ihrer Website und [!DNL Marketo Measure] Online-Funktionen verfolgt. Daher sollten Kampagnenmitglieder mit dem Status „Registriert“ keinen Offline-Touchpoint von der Kampagne erhalten, um eine doppelte Zählung zu vermeiden. Offline-Touchpoints sollten nur für die „Teilnahme“ an der Veranstaltung oder dem Webinar repräsentativ sein.
+   * Einige Offline-Kanäle wie Content Syndication sind insofern einfacher, als jedes Kampagnenmitglied den gleichen Status „Responded“ hat, der bedeutet, dass es tatsächlich auf die Kampagne reagiert hat. In diesem Fall laden Sie Inhalte auf eine Drittanbieter-Site herunter und sollten daher einen Offline-Touchpoint erhalten
+* Bei Verwendung der Synchronisierungsmethode für benutzerdefinierte Kampagnen in der [!DNL Marketo Measure]-App müssen Sie sicherstellen, dass das Feld „Touchpoint-Datum“ auf dem Datumsfeld entweder der Kampagne oder des Kampagnenmitglieds basiert, das am meisten darauf hinweist, wann die Touchpoint-Interaktion tatsächlich stattgefunden hat
+* Verwenden Sie die Schaltfläche „Touchpoint-Datum Massenaktualisierung“, wenn Sie das „Touchpoint-Datum“ für einen der Offline-Touchpoints, die aus einer CRM-Kampagne bezogen werden, überschreiben müssen. Das „Touchpoint-Datum“ muss so genau wie möglich sein, um sicherzustellen, dass der Touchpoint die genaueste „Touchpoint-Position“ und damit den korrekten Betrag der Attribution-Credits enthält
 
 ## Best Practices für die Wartung {#best-practice-for-maintenance}
 
-Nach der Ersteinrichtung werden bei Ihrer Offline-Kanal-Einrichtung weiterhin Offline-Touchpoints entsprechend erstellt. Als Best Practice empfehlen wir, Ihre Offline-Einrichtung mindestens zweimal jährlich zu überprüfen. Dadurch werden saubere und genaue Buyer Touchpoint-Daten garantiert.
+Nach der Ersteinrichtung erstellt die Offline-Kanaleinrichtung entsprechend weiterhin Offline-Touchpoints. Als Best Practice empfehlen wir, die Offline-Einrichtung mindestens zweimal jährlich zu überprüfen. Dies garantiert saubere und genaue Käufer-Touchpoint-Daten.
 
-Wenn Sie außerdem Änderungen an Ihrer Kampagnenverwaltung oder Ihren Kampagnenprozessen vornehmen, müssen Sie sicherstellen, dass Sie Ihr [!DNL Marketo Measure] Offline-Kanal-Mapping und/oder Ihren Synchronisierungsprozess aktualisieren.
+Wenn Sie Änderungen an Ihrer Kampagnenverwaltung oder Ihren Prozessen vornehmen, müssen Sie außerdem sicherstellen, dass Sie Ihre [!DNL Marketo Measure] Offline-Kanalzuordnung und/oder Ihren Synchronisierungsprozess aktualisieren.
 
-Zu den Änderungen, die Ihr Team möglicherweise Trigger haben könnten, Aktualisierungen am Offline-Kanal-Setup in [!DNL Marketo Measure] vorzunehmen, zählen unter anderem:
+Trigger Zu den Änderungen, die Ihr Team möglicherweise dazu veranlassen, Aktualisierungen an der Offline-Kanaleinrichtung in [!DNL Marketo Measure] vorzunehmen, gehören:
 
-* CRM-Kampagnentypen, erstellt oder bearbeitet
-* Kampagnenmitglieder - Status erstellt oder bearbeitet
-* Wenn Sie die CRM-Kampagnensynchronisierungsmethode über das Feld &quot;Käufer-Touchpoints aktivieren&quot;verwenden, achten Sie darauf, dass dieses Feld für jede erstellte CRM-Kampagne überprüft und aktualisiert wird. Wenn dieses Feld vernachlässigt wird, gibt es keine verwandten Offline-Touchpoint-Daten
-* Wenn Sie aus einer CRM-Kampagne Offline-Touchpoints finden, die als Online-Touchpoints gelten (Marketing-Kanal = NULL), überprüfen Sie, ob die zugehörige CRM-Kampagne überprüft und die Synchronisierung deaktiviert ist.
+* CRM-Kampagnentypen wurden erstellt oder bearbeitet
+* Kampagnenmitglied &#39;Status&#39; erstellt oder bearbeitet
+* Wenn Sie die CRM-Kampagnensynchronisierungsmethode über das Feld „Käufer-Touchpoints aktivieren“ verwenden, stellen Sie sicher, dass dieses Feld für jede erstellte CRM-Kampagne überprüft und aktualisiert wird. Wenn dieses Feld vernachlässigt wird, gibt es keine zugehörigen Offline-Touchpoint-Daten
+* Wenn Sie auf Offline-Touchpoints einer CRM-Kampagne stoßen, die als Online-Touchpoints erscheinen (Marketing-Kanal = NULL), stellen Sie sicher, dass die zugehörige CRM-Kampagne überprüft und die Synchronisierung deaktiviert wird
 
-Wenn Ihr Team kürzlich einen der oben genannten Punkte erfahren hat, empfiehlt [!DNL Marketo Measure], Ihre Offline-Kanal-Zuordnung und Offline-Kampagnen zu überprüfen, um die entsprechenden Änderungen vorzunehmen und sicherzustellen, dass sie ordnungsgemäß synchronisiert werden.
+Wenn Ihr Team vor Kurzem einen der oben genannten Vorgänge erlebt hat, empfiehlt [!DNL Marketo Measure], die Offline-Kanalzuordnung und die Offline-Kampagnen zu überprüfen, um die entsprechenden Änderungen vorzunehmen und sicherzustellen, dass sie ordnungsgemäß synchronisiert werden.
 
 >[!MORELIKETHIS]
 >
->* [Offline-Kanal-Einrichtung](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+>* [Offline-Kanal-Setup](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Benutzerdefinierte Kampagnensynchronisierung - App-Synchronisierung](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 >* [Synchronisieren von Offline-Kampagnen - CRM-Synchronisierung](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
->* [Offline-Campaign- und Campaign-Mitglieder - CRM-Synchronisation](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
->* [Kampagnensynchronisierungsdaten - CRM-Synchronisierung](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
->* [Konfigurationen für mehrere Kampagnenersatztypen](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Erstellen einer Kampagnenlisten-Ansicht](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [Offline-Kampagne und Kampagnenmitglieder - CRM-Synchronisation](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+>* [Kampagnensynchronisierungstermine - CRM-Synchronisierung](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+>* [Konfigurationen für mehrere Kampagnen-Datensatztypen](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
+>* [Erstellen einer Kampagnenlistenansicht](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
 >* [Synchronisieren historischer Daten](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

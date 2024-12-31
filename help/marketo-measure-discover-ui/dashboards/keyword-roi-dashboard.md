@@ -1,8 +1,9 @@
 ---
-description: Keyword-ROI-Dashboard - [!DNL Marketo Measure]  - Produkt
+description: Keyword ROI Dashboard - [!DNL Marketo Measure] - Produkt
 title: Keyword-ROI-Dashboard
 feature: Reporting
-source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
+exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
+source-git-commit: 827469c68e518ff7a6497c3167ced7039323af62
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 3%
@@ -11,56 +12,56 @@ ht-degree: 3%
 
 # Keyword-ROI-Dashboard {#keyword-roi-dashboard}
 
-Das Dashboard &quot;Keyword-ROI&quot;bietet detaillierte Einblicke in die Leistung gebührenpflichtiger Suchkampagnen. Es bietet eine umfassende Analyse der Kosten auf Keyword-Ebene, des zugeordneten Umsatzes sowie der neu generierten Leads und Chancen, um ein klares Verständnis des ROI der Keyword zu gewährleisten.
+Das Dashboard „Keyword-ROI“ bietet detaillierte Einblicke in die Leistung von Kampagnen mit Paid Search. Es bietet eine umfassende Analyse der Kosten auf Keyword-Ebene, des zugeordneten Umsatzes und der neu generierten Leads und Chancen und stellt so ein klares Verständnis des Keyword-ROI sicher.
 
-Fragen zu den Antworten des Dashboards:
+Fragen, die das Dashboard beantwortet:
 
-* Wie hoch ist der ROI für jeden Suchbegriff in Google Adwords, LinkedIn und Bing Ads?
-* Wie werden Kosten und zurechenbarer Umsatz nach einzelnen Suchbegriffen aufgeschlüsselt?
-* Wie viele Leads und Möglichkeiten wurden von den einzelnen Keywords erstellt?
+* Wie hoch ist der ROI für jedes Keyword in Google Adwords, LinkedIn und Bing Ads?
+* Wie werden die Kosten und die zugeordneten Einnahmen nach einzelnen Keywords aufgeschlüsselt?
+* Wie viele Leads und Chancen wurden aus jedem Keyword erstellt?
 
 ## Dashboard-Komponenten {#dashboard-components}
 
-### Suchbegriff-ROI-Zusammenfassungstabelle {#keyword-roi-summary-table}
+### Zusammenfassungstabelle für Schlüsselwort-ROI {#keyword-roi-summary-table}
 
-Tabelle mit zurechenbarem Umsatz, Kosten und ROI, segmentiert nach einzelnen Suchbegriffen, für eine detaillierte Aufschlüsselung.
+Tabelle mit zugewiesenen Einnahmen, Kosten und ROI, segmentiert nach einzelnen Keywords, für eine detaillierte Aufschlüsselung.
 
-Führen Sie einen Drilldown in spezifische Suchbegriffe durch, um die von den einzelnen Suchbegriffen beeinflussten Chancen zu sehen.
+Schlüsseln Sie die einzelnen Keywords auf, um die von ihnen beeinflussten Opportunities anzuzeigen.
 
 **Spalten:**
 
-* **Suchbegriff**
+* **Keyword**
 * **Kampagne**
-* **Anzeigen-Konto-ID** (in Kürze verfügbar)
-* **Name des Anzeigenkontos** (in Kürze verfügbar)
+* **Werbekonto-ID** (in Kürze verfügbar)
+* **Ad-Kontoname** (in Kürze verfügbar)
 * **Anzeigengruppen-ID** (in Kürze verfügbar)
-* **Anzeigengruppenname** (in Kürze verfügbar)
+* **Name der Anzeigengruppe** (in Kürze verfügbar)
 * **Kosten**: Gesamtkosten aus verbundenen Datenquellen.
-* **Zugewiesener Umsatz**: Der gesamte Umsatzbeitrag, basierend auf dem ausgewählten Attributionsmodell, aus Chancen mit Touchpoints, die innerhalb des gefilterten Datumszeitraums geschlossen wurden.
-* **Erzielter zugewiesener Umsatz**: Der Gesamtumsatzbeitrag, der auf Grundlage des ausgewählten Attributionsmodells aus Chancen mit Touchpoints innerhalb des gefilterten Datumszeitraums stammt, unabhängig davon, wann sie geschlossen wurden.
-* **Nicht realisierter zugewiesener Pipeline-Umsatz**: Pipeline-Umsatz in Verbindung mit Touchpoints (Offene Möglichkeiten), die innerhalb des gefilterten Datumszeitraums erstellt wurden.
-* **Einfacher ROI**: Zugewiesener Umsatz dividiert durch Kosten im gefilterten Datumszeitraum.
-* **Realized ROI**: Realisierte, zurechenbare Einnahmen dividiert durch Kosten im gefilterten Datumszeitraum.
+* **Attributierter Umsatz**: Der Gesamtumsatzbeitrag, basierend auf dem ausgewählten Attributionsmodell, von Opportunities mit Touchpoints, die innerhalb des gefilterten Datumszeitraums geschlossen wurden
+* **Realisierter zugewiesener Umsatz**: Der Gesamtumsatzbeitrag, basierend auf dem ausgewählten Attributionsmodell, von Opportunitys mit Touchpoints innerhalb des gefilterten Datumszeitraums, unabhängig davon, wann sie geschlossen wurden.
+* **Nicht realisierter zugewiesener Pipeline-Umsatz**: Pipeline-Umsatz in Verbindung mit Touchpoints (offene Vertriebschancen), die innerhalb des gefilterten Datumszeitraums erstellt wurden.
+* **Einfacher ROI**: Attributierter Umsatz dividiert durch die Kosten in der gefilterten Datumsperiode.
+* **Realisierter ROI**: Realisierter zugewiesener Umsatz dividiert durch die Kosten im gefilterten Datumsbereich.
 
-### Interessenten und Chancen nach Suchbegriffstabelle {#leads-and-opportunities-by-keyword-table}
+### Leads und Vertriebschancen nach Schlüsselwort-Tabelle {#leads-and-opportunities-by-keyword-table}
 
-Tabelle mit neuen Leads, Chancen und verbundenen Kosten, segmentiert nach einzelnen Keywords, für eine detaillierte Aufschlüsselung.
+Tabelle mit neuen Leads, Vertriebschancen und zugehörigen Kosten, die nach einzelnen Keywords segmentiert sind, für eine detaillierte Aufschlüsselung.
 
-Führen Sie einen Drilldown in spezifische Suchbegriffe durch, um die von den einzelnen Suchbegriffen beeinflussten Chancen zu sehen.
+Schlüsseln Sie die einzelnen Keywords auf, um die von ihnen beeinflussten Opportunities anzuzeigen.
 
 **Spalten:**
 
-* **Suchbegriff**
+* **Keyword**
 * **Kampagne**
-* **Anzeigen-Konto-ID** (in Kürze verfügbar)
-* **Name des Anzeigenkontos** (in Kürze verfügbar)
+* **Werbekonto-ID** (in Kürze verfügbar)
+* **Ad-Kontoname** (in Kürze verfügbar)
 * **Anzeigengruppen-ID** (in Kürze verfügbar)
-* **Anzeigengruppenname** (in Kürze verfügbar)
+* **Name der Anzeigengruppe** (in Kürze verfügbar)
 * **Kosten**
-* **Neue Leads**: Gesamtzahl der neu generierten Leads, einschließlich sowohl berührter als auch unberührter Leads.
-* **Kosten pro neuem Lead**: Die durchschnittlichen Kosten pro neuem Lead, abgeleitet aus den Gesamtkosten geteilt durch die Gesamtzahl neuer Leads.
-* **Neue Möglichkeiten**: Gesamtzahl der neu geschaffenen Chancen, einschließlich sowohl berührter als auch unberührter Chancen.
-* **Kosten pro neuer Chance**: Die durchschnittlichen Kosten pro neuer Chance, abgeleitet aus den Gesamtkosten geteilt durch die Gesamtzahl neuer Chancen.
+* **Neue Leads**: Gesamtzahl der neu generierten Leads, einschließlich sowohl kontaktierter als auch nicht kontaktierter Leads.
+* **Kosten pro neuem Lead**: Die durchschnittlichen Kosten pro neuem Lead, abgeleitet von den Gesamtkosten dividiert durch die Gesamtzahl neuer Leads.
+* **Neue Opportunitys**: Gesamtzahl der neu generierten Opportunitys, einschließlich sowohl kontaktierter als auch unberührter Opportunitys.
+* **Kosten pro neuer Opportunity**: Die durchschnittlichen Kosten pro neuer Opportunity, abgeleitet von den Gesamtkosten dividiert durch die Gesamtzahl neuer Opportunitys.
 
 ## Filterbereich {#filter-pane}
 
@@ -68,10 +69,10 @@ Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
 * Datum
    * Basierend auf:
-      * Erstellungsdatum: News Leads, neue Chancen
-      * Anschaffungskosten Datum: Kosten
-      * Abschlussdatum: zugeordneter Umsatz (einfacher ROI), Geschäfte
-      * Touchpoint-Datum: Touchpoints aus realisiertem, zugeordneten Umsatz (realisierter ROI)
+      * Erstellungsdatum: Leads, neue Opportunities
+      * Anfallsdatum für Kosten: Kosten
+      * Abschlussdatum: Attributierter Umsatz (einfacher ROI), Abschlüsse
+      * Touchpoint-Datum: Touchpoints aus realisiertem zugeordneten Umsatz (realisierter ROI)
 * Attributionsmodell
 * Keyword
 * Kampagne

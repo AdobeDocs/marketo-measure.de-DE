@@ -1,5 +1,5 @@
 ---
-description: '[!DNL Marketo Measure] Endgültige Datenintegrationsanforderung - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderungen - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # [!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] validiert die eingehenden AEP-Datensätze, um sicherzustellen, dass die Daten für die Attribution ausreichend und kohärent sind. Wenn die Datenintegritätserfordernis nicht erfüllt wird, wird der Datensatz vom [!DNL Marketo Measure]-System abgelehnt. In diesem Artikel werden die Anforderungen an die Datenintegrität beschrieben, Beispiele für Abfragen zur Datenüberprüfung bereitgestellt und eine Lösung für erforderliche Felder mit einem Nullwert empfohlen.
+[!DNL Marketo Measure] validiert die eingehenden AEP-Datensätze, um sicherzustellen, dass die Daten für die Attribution ausreichend und kohärent sind. Wird die Datenintegritätsanforderung nicht erfüllt, wird der Datensatz vom [!DNL Marketo Measure] zurückgewiesen. Dieser Artikel beschreibt die Datenintegritätsanforderung, liefert Abfragebeispiele für die Dateninspektion und empfiehlt eine Lösung für erforderliche Felder mit einem Nullwert.
 
 ## Entitätsobjekt {#entity-object}
 
@@ -373,7 +373,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Zum Beispiel - 333, je nach der Datenquellentabelle ist dies entweder Lead-ID oder Kontakt-ID</td>
+      <td>Beispiel: 333 Je nach Datenquellentabelle ist dies entweder Lead-ID oder Kontakt-ID</td>
     </tr>
     <tr>
       <td></td>
@@ -887,15 +887,15 @@ ht-degree: 86%
   </tbody>
 </table>
 
-## Anforderungen an Währungsumrechnungsdaten {#currency-conversion-data-requirements}
+## Datenanforderungen zur Währungsumrechnung {#currency-conversion-data-requirements}
 
-**Standardwährung**: In Marketo Measure werden alle Umsätze und Kosten zum Zeitpunkt der Berichterstellung in eine Standardwährung umgerechnet. Es muss einen Datensatz mit demselben Datum für die Zielwährung selbst (z. B. USD bis USD) mit einem Konversionskurs von 1 geben.
+**Standardwährung**: In Marketo Measure werden alle Umsätze und Kosten zum Zeitpunkt der Berichterstellung in eine Standardwährung umgerechnet. Es muss ein Datensatz mit demselben Datumsbereich für die Zielwährung selbst (z. B. USD zu USD) mit einem Konversionskurs von 1 vorhanden sein.
 
-**Konversionsraten**: Jedes Paar (Quellwährung, Zielwährung) kann mehrere Konversionsraten für verschiedene Datumszeiträume aufweisen. Die Tarife müssen die gesamte Zeitspanne von 001-01-01 bis 9999-12-31 gemäß dem Salesforce DatedConversionRate -Objekt abdecken.
+**Konversionsraten**: Jedes Paar (Quellwährung, Zielwährung) kann mehrere Konversionsraten für verschiedene Datumszeiträume aufweisen. Die Raten müssen gemäß dem DatedConversionRate -Objekt von Salesforce die gesamte Zeitspanne von 0001-01-01 bis 9999-12-31 abdecken.
 
 **Datumsbereich**:
-* Es gibt keine überlappenden Datumsbereiche innerhalb eines (Quellwährung, Zielwährung) festgelegten Kurses (z. B. 2023-01-01 bis 2023-02-01 und 2023-01-01 bis 2024-01-01).
-* Keine Lücken zwischen Datumsbereichen. Das Startdatum ist inklusive und das Enddatum ist exklusiv.
+* Keine sich überschneidenden Datumsbereiche innerhalb eines festgelegten Kurses (Quellwährung, Zielwährung) (z. B. 2023-01-01 bis 2023-02-01 und 2023-01-01 bis 2024-01-01).
+* Keine Lücken zwischen Datumsbereichen. Das Startdatum ist inklusiv und das Enddatum ist exklusiv.
 
 <p>
 
@@ -1117,7 +1117,7 @@ ht-degree: 86%
   </tbody>
 </table>
 
-Der Ereignistyp „Interessanter Moment“ wird für Ereignistypen verwendet, die in der obigen Tabelle nicht unterstützt werden. Fügen Sie ein benutzerdefiniertes Feld hinzu, um den Untertyp &quot;Interessanter Moment&quot;anzugeben.
+Der Ereignistyp „Interessanter Moment“ wird für Ereignistypen verwendet, die in der obigen Tabelle nicht unterstützt werden. Fügen Sie ein benutzerdefiniertes Feld hinzu, um den Untertyp „Interessanter Moment“ anzugeben.
 
 ## Abfragebeispiele für die Dateninspektion {#query-examples-for-data-inspection}
 

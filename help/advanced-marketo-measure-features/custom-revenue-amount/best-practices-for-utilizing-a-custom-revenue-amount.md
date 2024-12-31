@@ -14,43 +14,43 @@ ht-degree: 7%
 
 ## Überblick {#overview}
 
-Die Kernfunktion von [!DNL Marketo Measure] besteht darin, Marketing-Touchpoints auf der gesamten Journey des Käufers Umsatzkredite zuzuweisen. Der Schlüssel zur präzisen Umsatzzuordnung besteht darin, dass [!DNL Marketo Measure] auf den korrekten Umsatzbetrag einer Gelegenheit verweisen kann, die wiederum über die verschiedenen Attributionsmodelle über die Marketing-Touchpoints verteilt wird.
+Die Kernfunktionalität von [!DNL Marketo Measure] besteht in der Möglichkeit, den Marketing-Touchpoints während der gesamten Journey des Käufers Umsatzgutschriften zuzuweisen. Der Schlüssel zu einer korrekten Umsatzzuordnung besteht in der Möglichkeit für [!DNL Marketo Measure], den richtigen Umsatzbetrag für eine Opportunity zu referenzieren, der wiederum über die verschiedenen Attributionsmodelle auf die Marketing-Touchpoints verteilt wird.
 
-Sofern während der Implementierung nichts anderes angegeben wird, wird Ihre [!DNL Marketo Measure]-Instanz so eingestellt, dass sie auf den standardmäßigen Opportunity Amount (SFDC Default) für die Umsatzzuordnung verweist. Bei vielen [!DNL Marketo Measure] -Konten spiegelt dieses Feld jedoch nicht den genauen Umsatzbetrag für Chancen wider. In diesen Fällen bietet [!DNL Marketo Measure] die Möglichkeit, einen benutzerspezifischen Umsatzbetrag für [!DNL Marketo Measure] einzurichten, um auf die Attributions-Touchpoints (BAT) zu verweisen und diese zu verteilen.
+Sofern bei der Implementierung nicht anders angegeben, wird Ihre [!DNL Marketo Measure]-Instanz so eingestellt, dass sie für die Umsatzzuordnung auf den standardmäßigen Opportunity-Betrag (SFDC-Standard) verweist. Bei vielen [!DNL Marketo Measure]-Konten entspricht dieses Feld jedoch nicht dem genauen Umsatzbetrag für Opportunities. In diesen Fällen bietet [!DNL Marketo Measure] die Möglichkeit, einen benutzerdefinierten Umsatzbetrag einzurichten, auf den [!DNL Marketo Measure] verweisen und auf die Attribution Touchpoints (BAT) verteilen können.
 
 ## Best Practices {#best-practice}
 
-Beachten Sie beim Einrichten eines benutzerspezifischen Umsatzbetrags die folgenden Best Practices, um sicherzustellen, dass Ihre [!DNL Marketo Measure]-Attributionsdaten korrekt und konsistent sind.
+Beachten Sie beim Einrichten eines benutzerdefinierten Umsatzbetrags die folgenden Best Practices, um sicherzustellen, dass Ihre [!DNL Marketo Measure] Attributionsdaten korrekt und konsistent sind!
 
 Folgendes sollte beachtet werden:
 
-* Wählen Sie das Umsatzfeld aus, das für alle Chancen genau und genutzt ist.
+* Wählen Sie das Umsatzfeld aus, das präzise und für alle Opportunities genutzt ist.
    * ARR oder Gesamtauftragswert wird empfohlen
-* Kein Formelfeld verwenden
-* Wenn Sie einen benutzerspezifischen Umsatzbetrag für Währungsumrechnungen verwenden, ist stattdessen die Funktion [!UICONTROL Marketo Measure Mehrere Währungen] die bevorzugte Methode.
-   * Die Funktion &quot;[!DNL Marketo Measure] Mehrere Währungen&quot;verweist auf die in &quot;[!DNL Salesforce]&quot;festgelegten Konversionsraten, um die Abstimmung zwischen den Währungsumrechnungen am besten sicherzustellen. Auf diese Weise können Sie weiterhin den Standard-Betrag (SFDC-Standard) oder ein anderes benutzerdefiniertes Feld &quot;Betrag&quot;verwenden, das sich auf die Konversionsraten von [!DNL Salesforce] bezieht.
-* Wenn Sie das Feld Betrag aktualisieren, auf das Sie mit [!DNL Marketo Measure] verweisen möchten, verwenden Sie Data Loader, um vergangene Möglichkeiten zu aktualisieren, um sicherzustellen, dass Ihre Umsatzdaten konsistent sind und das richtige Feld über den Workflow aufgefüllt wird
+* Keine Formelfelder verwenden
+* Wenn Sie einen benutzerdefinierten Umsatzbetrag für Währungsumrechnungen verwenden, ist stattdessen die Funktion [!UICONTROL Mehrere Marketo Measure] zu bevorzugen.
+   * Die Funktion Mehrere Währungen [!DNL Marketo Measure] verweist auf die in [!DNL Salesforce] festgelegten Konversionsraten, um eine optimale Abstimmung zwischen den Währungsumrechnungen sicherzustellen. Auf diese Weise können Sie weiterhin das standardmäßige „Betrag“ (SFDC-Standard) oder ein anderes benutzerdefiniertes Betragsfeld verwenden, das sich auf die [!DNL Salesforce] Konversionsraten bezieht.
+* Wenn Sie das Betragsfeld aktualisieren, auf das Sie verweisen [!DNL Marketo Measure], verwenden Sie den Data Loader, um vergangene Opportunities zu aktualisieren, um sicherzustellen, dass Ihre Umsatzdaten konsistent sind und das richtige Feld über den Workflow ausgefüllt wird
 
 ## Best Practices für die Wartung {#best-practice-for-maintenance}
 
-Durch die jährliche Überprüfung der Einrichtung Ihres Umsatzbetrags wird sichergestellt, dass Ihre Attributionsdaten korrekt sind und mit dem Rest der Umsatzberichte Ihres Unternehmens abgestimmt sind.
+Durch die jährliche Überprüfung der Einrichtung Ihres Umsatzbetrags wird sichergestellt, dass Ihre Attributionsdaten korrekt sind und mit dem Rest der Umsatzberichterstattung Ihres Unternehmens übereinstimmen.
 
 Wenn Sie einen benutzerdefinierten Umsatzbetrag verwenden, überprüfen Sie Ihre Umsatzeinstellungen wie folgt.
 
-* Gehen Sie in Ihrem [!DNL Marketo Measure] -Konto zum Abschnitt &#39;[!UICONTROL Opportunities]&#39; unter CRM .
-* Identifizieren Sie das Feld [!UICONTROL Benutzerdefinierter Opportunity Amount] , hier sollte Ihr Feld für die [!UICONTROL benutzerspezifische Umsatzbetrag-API] aufgeführt werden.
-* Vergewissern Sie sich, dass das Feld weiterhin korrekt ist.
-* Lassen Sie außerdem Ihren [!DNL Salesforce] Admin bestätigen, dass der Workflow &quot;Benutzerspezifischer Umsatzbetrag&quot;in [!DNL Salesforce] noch ausgeführt wird.
+* Rufen Sie in Ihrem [!DNL Marketo Measure]-Konto den Abschnitt [!UICONTROL Opportunities] unter CRM auf.
+* Identifizieren Sie das Feld [!UICONTROL Benutzerdefinierter Opportunity]Betrag“, in dem Ihr [!UICONTROL benutzerdefinierter Umsatzbetrag-API]Feld aufgeführt werden sollte.
+* Vergewissern Sie sich, dass dies weiterhin das richtige Feld ist
+* Bitten Sie Ihren [!DNL Salesforce] außerdem, zu bestätigen, dass der Workflow Benutzerdefinierter Umsatzbetrag in [!DNL Salesforce] noch ausgeführt wird
 
-Abgesehen von einer jährlichen Überprüfung können gewisse organisatorische Änderungen die Notwendigkeit einer Überprüfung der Einrichtung Ihres Umsatzbetrags signalisieren..
+Neben einer jährlichen Überprüfung können bestimmte organisatorische Änderungen auch darauf hindeuten, dass Sie Ihren Umsatzbetrag überprüfen müssen…
 
 * Wechsel in Ihrem Marketing-Team
-* Änderungen am Feld &quot;Benutzerspezifischer Umsatz&quot;
-* Organisationsänderungen bei der Berichterstattung über den Umsatz
+* Änderungen am Feld Benutzerdefinierter Umsatz
+* Organisatorische Änderungen bei der Berichterstattung über den Umsatz
 
 >[!MORELIKETHIS]
 >
 >* [Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [Verwenden des Datenladeprogramms zum Aktualisieren des benutzerdefinierten Felds &quot;Betrag&quot;](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Verwenden des Datenladers zum Aktualisieren des benutzerdefinierten Betragsfelds](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 >* [Überblick über mehrere Währungen](/help/advanced-marketo-measure-features/multi-currency/overview.md)
 >* [Einstellungen für mehrere Währungen](/help/advanced-marketo-measure-features/multi-currency/settings.md)

@@ -1,5 +1,5 @@
 ---
-description: Dashboard-Richtlinie zur Datenanzeige -  [!DNL Marketo Measure]  - Produkt
+description: Richtlinie für die Sichtbarkeit von Dashboard-Daten - [!DNL Marketo Measure] - Produkt
 title: Richtlinie zur Dashboard-Datentransparenz
 feature: Reporting
 exl-id: 5f6f7173-617e-459d-992f-8a8b6c2db7cb
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 # Richtlinie zur Dashboard-Datentransparenz {#dashboard-data-visibility-policy}
 
-Um ein besseres Erlebnis in unseren Dashboards zu ermöglichen, haben wir Richtlinien zur Datenanzeige für Objekte festgelegt, über die wir Berichte erstellen. Beachten Sie, dass Sie bei der Kenntnis der neuen Discover-Dashboards möglicherweise geringere Zahlen im Vergleich zu den alten Dashboards feststellen. Dies ist auf eine Änderung unserer Methode zur Datendarstellung zurückzuführen, bei der die neuen Dashboards jetzt über spezifische Sichtbarkeitsrichtlinien verfügen. Im Gegensatz zu unseren alten Discover-Dashboards, die alle verfügbaren Daten anzeigen, zeigt die neue Version nur die Daten pro Sichtbarkeitsrichtlinie an. Dieser Artikel soll klarstellen, wie Sichtbarkeitsrichtlinien für verschiedene Datenobjekte sind, und Transparenz und genaue Datenauswertung aus den Berichten sicherstellen.
+Um in unseren Dashboards ein besseres Erlebnis zu bieten, haben wir Richtlinien zur Datensichtbarkeit für Objekte festgelegt, über die wir berichten. Beachten Sie Folgendes: Wenn Sie sich mit unseren neuen Discover-Dashboards vertraut machen, werden Sie möglicherweise niedrigere Zahlen im Vergleich zu den alten Dashboards feststellen. Dies ist auf eine Änderung unserer Datendarstellungsmethode zurückzuführen, bei der die neuen Dashboards jetzt über spezifische Richtlinien für die Sichtbarkeit verfügen. Im Gegensatz zu unseren alten Discover Dashboards, die alle verfügbaren Daten anzeigen, zeigt die neue Version nur die Daten gemäß der Sichtbarkeitsrichtlinie an. In diesem Artikel soll klargestellt werden, wie Sichtbarkeitsrichtlinien für verschiedene Datenobjekte funktionieren, und es soll sichergestellt werden, dass die Berichte transparent und präzise interpretiert werden.
 
 <table>
 <thead>
@@ -48,11 +48,11 @@ Um ein besseres Erlebnis in unseren Dashboards zu ermöglichen, haben wir Richtl
   </tr>
   <tr>
     <td>Opportunity</td>
-    <td>Letzte 2 Jahre auf der Grundlage des Opportunitäts-Enddatums</td>
+    <td>Letzte 2 Jahre, basierend auf Opportunity-Abschlussdatum</td>
   </tr>
   <tr>
-    <td>Staging-Transitionen (Lead und Chancen)</td>
-    <td>Letzte 5 Jahre, basierend auf dem Übergang im Datum</td>
+    <td>Stadienübergänge (Lead und Opportunity)</td>
+    <td>Letzte 5 Jahre, basierend auf Übergang im Datum</td>
   </tr>
   <tr>
     <td>Kampagne</td>
@@ -60,7 +60,7 @@ Um ein besseres Erlebnis in unseren Dashboards zu ermöglichen, haben wir Richtl
   </tr>
   <tr>
     <td>Kampagnenmitglieder</td>
-    <td>Letzte 5 Jahre basierend auf dem Erstellungsdatum des Kampagnenmitglieds</td>
+    <td>Letzte 5 Jahre, basierend auf dem Erstellungsdatum des Kampagnenmitglieds</td>
   </tr>
   <tr>
     <td>CRM-Aufgaben</td>
@@ -68,23 +68,23 @@ Um ein besseres Erlebnis in unseren Dashboards zu ermöglichen, haben wir Richtl
   </tr>
   <tr>
     <td>CRM-Ereignisse</td>
-    <td>Letzte 5 Jahre, basierend auf dem Ereignisstartdatum</td>
+    <td>Letzte 5 Jahre, basierend auf dem Startdatum des Ereignisses</td>
   </tr>
   <tr>
     <td>Aktivitäten (Marketo und AEP)</td>
-    <td>Letzte 5 Jahre basierend auf dem Ereignisdatum</td>
+    <td>Letzte 5 Jahre, basierend auf dem Ereignisdatum</td>
   </tr>
   <tr>
-    <td>Sitzungen </td>
-    <td>Letzte 5 Jahre basierend auf dem Ereignisdatum</td>
+    <td>Sessions </td>
+    <td>Letzte 5 Jahre, basierend auf dem Ereignisdatum</td>
   </tr>
   <tr>
     <td>Seitenansichten</td>
-    <td>Letzte 5 Jahre basierend auf dem Ereignisdatum</td>
+    <td>Letzte 5 Jahre, basierend auf dem Ereignisdatum</td>
   </tr>
   <tr>
     <td>Formularsendungen</td>
-    <td>Letzte 5 Jahre basierend auf dem Ereignisdatum</td>
+    <td>Letzte 5 Jahre, basierend auf dem Ereignisdatum</td>
   </tr>
 </tbody>
 </table>

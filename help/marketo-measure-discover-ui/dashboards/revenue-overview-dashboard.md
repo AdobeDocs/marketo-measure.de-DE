@@ -1,5 +1,5 @@
 ---
-description: Dashboard "Umsatzübersicht"- [!DNL Marketo Measure]  - Produkt
+description: Dashboard für Umsatzübersicht - [!DNL Marketo Measure] - Produkt
 title: Dashboard „Umsatzübersicht“
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
@@ -12,43 +12,43 @@ ht-degree: 3%
 
 # Dashboard „Umsatzübersicht“ {#revenue-overview-dashboard}
 
-Das Dashboard &quot;Umsatzübersicht&quot;bietet Einblicke in den Gesamtumsatz aus Ihrem CRM-System, wodurch die Rolle Ihrer Marketing-Strategien deutlich wird. Es bietet einen Überblick darüber, wie Marketing Ihren Gesamtumsatz beeinflusst und zum erfolgreichen Abschluss von Geschäften beiträgt.
+Das Dashboard „Umsatzübersicht“ bietet Einblicke in den Gesamtumsatz Ihres CRM und beleuchtet die Rolle Ihrer Marketing-Strategien. Es bietet einen Überblick darüber, wie das Marketing Ihren Gesamtumsatz beeinflusst und zum erfolgreichen Abschluss von Angeboten beiträgt.
 
-**Fragen, die die Pinnwand beantwortet:**
+**Fragen, die das Board beantwortet:**
 
-* Wie viel Prozent unseres Umsatzes ist auf unsere Marketingbemühungen zurückzuführen?
-* Welche % unserer &quot;Closed Won&quot;-Angebote wurden durch unsere Marketingbemühungen beeinflusst?
+* Welcher Prozentsatz unseres Umsatzes ist auf unsere Marketingbemühungen zurückzuführen?
+* Welche % unserer „Closed Won“-Angebote wurden durch unsere Marketing-Maßnahmen beeinflusst?
 
 ## Dashboard-Komponenten {#dashboard-components}
 
 ### KPI-Kacheln {#kpi-tiles}
 
-* **Gesamtumsatz**: Der Gesamtumsatz aus &quot;geschlossenen Gewinnen&quot;-Chancen, einschließlich Chancen ohne Touchpoints.
-* **Gesamtsumme der Angebote**: Die Anzahl der &quot;geschlossenen Gewinnen&quot;-Chancen, einschließlich Chancen ohne Touchpoints.
-* **Zugewiesener Umsatz**: Der Gesamtumsatz aus &quot;geschlossenen Gewinnen&quot;-Chancen mit Touchpoints.
-* **Zugewiesene Angebote**: Die Anzahl der &quot;geschlossenen Gewinnen&quot;-Chancen mit Touchpoints.
+* **Gesamtumsatz**: Der Gesamtumsatz aus abgeschlossenen gewonnenen Vertriebschancen, einschließlich Vertriebschancen ohne Touchpoints.
+* **Abschlüsse insgesamt**: Die Anzahl der „abgeschlossenen gewonnenen“ Opportunitys, einschließlich Opportunitys ohne Touchpoints.
+* **Attributierter Umsatz**: Der Gesamtumsatz von Opportunitys mit „Abgeschlossenen Gewinnen“ mit Touchpoints.
+* **Zugewiesene Angebote**: Die Anzahl der Opportunitys mit „abgeschlossenen Gewinnen“, die Touchpoints haben.
 
-### Diagramm zum Umsatz und zu den zugewiesenen Umsätzen {#revenue-and-attributed-revenue-chart}
+### Diagramm Umsatz und zugewiesener Umsatz {#revenue-and-attributed-revenue-chart}
 
-Dieses nebeneinander liegende Balkendiagramm für Zeitreihen steht im Gegensatz zum Gesamtumsatz mit dem zugewiesenen Umsatz, wodurch Ihre Marketing-Auswirkungen auf den Gesamtumsatz klar visualisiert werden.
+Dieses Zeitreihen-Balkendiagramm stellt den Gesamtumsatz und den zugeordneten Umsatz gegenüber, indem es die Auswirkungen Ihres Marketings auf den Gesamtumsatz deutlich visualisiert.
 
-* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Quartal und Jahr zu kategorisieren.
-* Bewegen Sie den Mauszeiger über einen Bereich des Balkendiagramms, um dessen detaillierte Informationen anzuzeigen.
+* Verwenden Sie die Aufschlüsselungs- und Nach-oben-Funktionen, um die Daten nach Quartal und Jahr zu kategorisieren.
+* Bewegen Sie den Mauszeiger über einen Abschnitt des Balkendiagramms, um dessen detaillierte Informationen anzuzeigen.
 
-**Fragt die Diagrammantworten:**
+**Fragen in der Grafik beantworten:**
 
-* Wie viel Prozent unseres Umsatzes vom August 2022 können auf unsere Marketinginitiativen zurückgeführt werden?
-* Wie hoch ist der zugeordnete Umsatz im 3. Quartal des letzten Jahres im Vergleich zum 4. Quartal?
+* Welcher Prozentsatz unseres Umsatzes vom August 2022 kann auf unsere Marketing-Initiativen zurückgeführt werden?
+* Wie hoch ist der Umsatz im 3. Quartal des letzten Jahres im Vergleich zum 4. Quartal?
 
 ![](assets/revenue-overview-dashboard-1.png)
 
-### Diagramm zur Attribution {#attribution-coverage-chart}
+### Attributionsdeckungsdiagramm {#attribution-coverage-chart}
 
-Dieses Tortendiagramm visualisiert Ihre Attributionsabdeckung deutlich, indem es den Gesamtumsatz in zugewiesene und nicht zugewiesene Umsätze segmentiert und so den genauen Prozentsatz des Umsatzes ermittelt, der von Ihren Marketing-Maßnahmen beeinflusst wird.
+Dieses Tortendiagramm veranschaulicht deutlich die Abdeckung Ihrer Attribution, indem der Gesamtumsatz in „Attributierter Umsatz“ und „Nicht zugewiesener Umsatz“ unterteilt wird und der genaue Prozentsatz des Umsatzes hervorgehoben wird, der durch Ihre Marketing-Maßnahmen beeinflusst wird.
 
-**Fragt die Diagrammantworten:**
+**Fragen in der Grafik beantworten:**
 
-* Wie hoch war der prozentuale Anteil des Umsatzes, der auf unsere Marketingbemühungen im letzten Jahr zurückgeführt wurde?
+* Wie hoch war der Prozentsatz der Umsatzabdeckung, der unseren Marketingbemühungen im letzten Jahr zugeschrieben wurde?
 
 ![](assets/revenue-overview-dashboard-2.png)
 
@@ -56,9 +56,9 @@ Dieses Tortendiagramm visualisiert Ihre Attributionsabdeckung deutlich, indem es
 
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
-* Datum (basierend auf dem geschlossenen Datum)
+* Datum (basierend auf Abschlussdatum)
 
 >[!MORELIKETHIS]
 >
 >* [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [Dashboard-Richtlinie zur Sichtbarkeit der Daten](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [Richtlinie für die Datensichtbarkeit im Dashboard](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}

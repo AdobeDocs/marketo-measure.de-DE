@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874781
-description: Konfiguration der Doppelklick-Kampagnen-Manager-Ansicht über Attribution - [!DNL Marketo Measure]
+description: Konfigurieren der DoubleClick Campaign Manager-Ansicht über Attribution - [!DNL Marketo Measure]
 title: Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
@@ -13,7 +13,7 @@ ht-degree: 27%
 
 # Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
-## Anzeigen durch Attribution {#measuring-view-through-attribution}
+## Ansicht durch Attribution messen {#measuring-view-through-attribution}
 
 >[!IMPORTANT]
 >
@@ -21,50 +21,50 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->Wenn Sie die Integration von [!DNL Marketo Measure] und [!DNL DoubleClick Campaign Manager] verwenden, benötigen wir eine [API-Verbindung](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms), damit wir Details der Kampagnen und kreativen Inhalte herunterladen können, um die Anzeigen aufzulösen.
+>Wenn Sie die Integration von [!DNL Marketo Measure] und [!DNL DoubleClick Campaign Manager] verwenden, benötigen wir eine [API-Verbindung](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) damit wir Details zu den Kampagnen und Kreativen herunterladen können, um die Anzeigen aufzulösen.
 
-Um genauere Einblicke aus der Ansicht durch das Tracking mit [!DNL Doubleclick Campaign Manager] zu erhalten, muss unser Tracking-Pixel konfiguriert werden.
+Um durch Tracking mit [!DNL Doubleclick Campaign Manager] detailliertere Einblicke aus der Ansicht zu erhalten, muss unser Tracking-Pixel konfiguriert werden.
 
-Weitere Informationen zur Funktion [!DNL Marketo Measure] Durchsicht durch Attribution finden Sie in den [FAQ zur Marketo Measure-Durchsicht bei Attribution](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) .
+Weitere Informationen zur Funktion „Durch Attribution anzeigen[!DNL Marketo Measure] finden Sie unter Häufig gestellte Fragen zur Ansicht über Attribution durch [Marketo Measure](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
-[!DNL Marketo Measure] wird als Huckepack-Tag betrachtet, da es sich um einen Drittanbieter-Aufruf über das DCM-Anzeigen-Tag handelt. Piggyback-Tags funktionieren nicht mit Bild-Tags, sondern nur mit iFrame- oder JavaScript-Tags. Nach Angaben des DCM-Supports hat sich dies in letzter Zeit nicht geändert und war immer der Fall. Standard-Tags werden seit dem 2. Oktober 2017 nicht mehr unterstützt, beeinflussen jedoch nicht die Fähigkeit von [!DNL Marketo Measure], die Impressionen zu verfolgen.
+[!DNL Marketo Measure] wird als Huckepack-Tag betrachtet, da es sich um einen Drittanbieteraufruf über das DCM-Werbe-Tag handelt. Piggyback-Tags funktionieren nicht mit Bild-Tags, sondern nur mit iframe- oder JavaScript-Tags. Laut DCM-Support hat sich dies in letzter Zeit nicht geändert und war immer der Fall. Standard-Tags werden seit dem 2. Oktober 2017 nicht mehr unterstützt, haben jedoch keine Auswirkungen auf die Möglichkeit von [!DNL Marketo Measure], die Impressionen zu verfolgen.
 
-Wenn Sie eine Hierarchie der übergeordneten Elemente und untergeordneten Elemente in DCM verwenden, muss unser Tag für das Impression-Tracking auf allen Ebenen angewendet werden.
+Wenn Sie eine übergeordnete und untergeordnete Hierarchie in DCM verwenden, müssen wir unser Tag auf alle Ebenen für das Impression-Tracking anwenden.
 
 ## Hinzufügen des Bild-Tags {#how-to-add-the-image-tag}
 
-Fügen Sie das Tag unter der Advertiser-Einstellung in DoubleClick hinzu und erstellen Sie ein Impressionsereignis-Tag.
+Fügen Sie das Tag unter der Advertiser-Einstellung zu DoubleClick hinzu und erstellen Sie ein Impression Event-Tag.
 
 1. Fügen Sie den folgenden Code als 1x1-Bildpixel hinzu.
 
 `https://cdn.bizibly.com/i?v=%eadv!&a=%eaid!&c=%ecid!&s=%esid!&p=%epid!&m=%m&n=%n`
 
-1. Vergewissern Sie sich nach dem Hinzufügen, dass die Trennzeichen wie folgt zugeordnet sind. Dies sollte automatisch erfolgen, sobald das -Tag angewendet wird:
+1. Bestätigen Sie nach dem Hinzufügen, dass die Trennzeichen wie folgt zugeordnet sind. Dies sollte automatisch erfolgen, sobald das Tag angewendet wird:
 
-   v = %eadv! [!DNL Expand] Advertiser-ID\
-   a = %eaid! Anzeigen-ID erweitern\
-   c = %ecid! Creative-ID erweitern\
-   s = %esid! Erweitern der Site-ID\
-   p = %epid! Platzierungs-ID erweitern\
-   m = %m Match Code Makro\
-   n = %n zufällige Zahlenmakro
+   v = %HEADV! [!DNL Expand] Advertiser-ID\
+   a = %eAid! Anzeigen-ID erweitern\
+   c = %ecid! Kreative ID erweitern\
+   s = %ESID! Site-ID erweitern\
+   p = %EPID! Platzierungs-ID erweitern\
+   m = %m Match-Code-Makro\
+   n = %n Makro mit Zufallszahl
 
    ![](assets/1.png)
 
 ## FAQs {#faq}
 
-**Q: Ist das Bild-Tag sicher?**
+**F: Ist das Bild-Tag sicher?**
 
 A: Ja. Es handelt sich nicht um ein JavaScript-Tag, sondern um ein Bild-Tag.
 
-**Q: Welche Berechtigungen benötigt der verbundene Benutzer?**
+**F: Welche Berechtigungen benötigt der verbundene Benutzer?**
 
-A: dfatrafficking, dfareporting, userinfo.email
+A: Datenhandel, dfReporting, userinfo.email
 
-**Q: Wie lange kann es dauern, Ausgabedaten zu importieren?**
+**F: Wie lange kann es dauern, Ausgabendaten zu importieren?**
 
 A: Bis zu 6 Stunden
 
-**Q: Wie lange kann der Import von Anzeigendaten dauern?**
+**F: Wie lange kann es dauern, um Anzeigendaten zu importieren?**
 
 A: Bis zu 6 Stunden

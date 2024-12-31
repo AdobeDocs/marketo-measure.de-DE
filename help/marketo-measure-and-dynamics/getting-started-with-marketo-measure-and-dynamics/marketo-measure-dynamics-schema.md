@@ -17,15 +17,15 @@ ht-degree: 66%
 >
 >Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
 
-Nachstehend finden Sie das erforderliche Dynamics-Schema für die ersten Schritte mit [!DNL Marketo Measure]. Alle Entitäten und Felder werden zusammen mit dem erforderlichen Lese- und/oder Schreibzugriff aufgelistet.
+Nachfolgend finden Sie das erforderliche Dynamics-Schema für die ersten Schritte mit [!DNL Marketo Measure]. Alle Entitäten und Felder werden zusammen mit dem erforderlichen Lese- und/oder Schreibzugriff aufgelistet.
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 
-Die Buyer Touchpoint ist eine benutzerdefinierte Entität vom Typ &quot;[!DNL Marketo Measure]&quot;, die die Marketing-Interaktionen für Kontakte und Leads einkapselt.
+Die Buyer Touchpoint ist eine [!DNL Marketo Measure] benutzerdefinierte Entität zum Einkapseln der Marketing-Interaktionen für Kontakte und Leads.
 
 ## Buyer Touchpoint-Beziehungen {#buyer-touchpoint-relationships}
 
-Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den Dynamics Stock-Entitäten und der Buyer Touchpoint.
+Dieses Diagramm ist eine allgemeine Visualisierung der Beziehungen zwischen den Dynamics Stock-Entitäten und der Buyer Touchpoint.
 
 ## Buyer Touchpoint {#buyer-touchpoint}
 
@@ -56,7 +56,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Destination_URL</p></td> 
+   <td><p>bizible2_ad_destination_URL</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -74,61 +74,61 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Id</p></td> 
+   <td><p>bizible2_ad_id</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Bizible_TouchpointId</p></td> 
+   <td><p>bizible2_bizible_TouchpointId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Browser</p></td> 
+   <td><p>bizible2_browser</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_CampaignId</p></td> 
+   <td><p>bizible2_campaignID</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ContactId</p></td> 
+   <td><p>bizible2_contactId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_count_First_Touch</p></td> 
+   <td><p>bizible2_count_first_touch</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_count_lead_Conversion_touch</p></td> 
+   <td><p>bizible2_count_lead_conversion_touch</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_U_Shaped</p></td> 
+   <td><p>bizible2_count_u_Shaped</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL</p></td> 
+   <td><p>bizible2_form_URL</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL_Raw</p></td> 
+   <td><p>bizible2_form_URL_raw</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -140,13 +140,13 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_geo_Country</p></td> 
+   <td><p>bizible2_geo_country</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_geo_Region</p></td> 
+   <td><p>bizible2_geo_region</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -158,13 +158,13 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_MatchType</p></td> 
+   <td><p>Bizible2_Keyword_MatchType</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_keyword_text</p></td> 
+   <td><p>Bizible2_Keyword_Text</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -182,7 +182,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_LeadId</p></td> 
+   <td><p>bizible2_leadId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -200,31 +200,31 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Medium</p></td> 
+   <td><p>Bizible2_Medium</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Name</p></td> 
+   <td><p>bizible2_name</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Id</p></td> 
+   <td><p>bizible2_placement_id</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Name</p></td> 
+   <td><p>bizible2_placement_name</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Platform</p></td> 
+   <td><p>bizible2_platform</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -236,67 +236,67 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_referrer_Page_Raw</p></td> 
+   <td><p>bizible2_referrer_page_raw</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_search_Phrase</p></td> 
+   <td><p>bizible2_search_phrase</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Segment</p></td> 
+   <td><p>bizible2_segment</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Site_Id</p></td> 
+   <td><p>bizible2_site_id</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Site_Name</p></td> 
+   <td><p>bizible2_site_name</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date</p></td> 
+   <td><p>Bizible2_Touchpoint_Date</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Position</p></td> 
+   <td><p>Bizible2_Touchpoint_Position</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source</p></td> 
+   <td><p>Bizible2_Touchpoint_Source</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Type</p></td> 
+   <td><p>Bizible2_Touchpoint_Type</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_UniqueId</p></td> 
+   <td><p>bizible2_uniqueId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Account</p></td> 
+   <td><p>bizible2_account</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -306,11 +306,11 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-Die Buyer Attribution Touchpoint ist eine benutzerdefinierte Entität vom Typ [!DNL Marketo Measure] , um den Einfluss des Marketing auf Chancen einzuschließen.
+Die Buyer Attribution Touchpoint ist eine [!DNL Marketo Measure] benutzerdefinierte Entität, um den Einfluss des Marketings auf Opportunities zu erfassen.
 
 ## Buyer Attribution Touchpoint-Beziehungen {#buyer-attribution-touchpoint-relationships}
 
-Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den Dynamics Stock-Entitäten und der Buyer Attribution Touchpoint.
+Dieses Diagramm ist eine allgemeine Visualisierung der Beziehungen zwischen den Dynamics Stock-Entitäten und der Buyer Attribution Touchpoint.
 
 ## Buyer Attribution Touchpoints {#buyer-attribution-touchpoints}
 
@@ -323,7 +323,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
-   <td><p>bizible2_AccountId</p></td> 
+   <td><p>bizible2_accountId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -347,7 +347,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Destination_URL</p></td> 
+   <td><p>bizible2_ad_destination_URL</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -365,115 +365,115 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Id</p></td> 
+   <td><p>bizible2_ad_id</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Custom_Model</p></td> 
+   <td><p>Bizible2_Attribution_Custom_Model</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Custom_Model_2</p></td> 
+   <td><p>Bizible2_Attribution_Custom_Model_2</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Erstkontakt</p></td> 
+   <td><p>Bizible2_Attribution_First_Touch</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Lead_Conversion_Touch</p></td> 
+   <td><p>Bizible2_Attribution_Lead_Conversion_Touch</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_U_Shaped</p></td> 
+   <td><p>Bizible2_Attribution_U_Shaped</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_W_Shaped</p></td> 
+   <td><p>Bizible2_Attribution_W_Shaped</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_Attribution_TouchpointId</p></td> 
+   <td><p>Bizible2_Bizible_Attribution_TouchpointID</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Browser</p></td> 
+   <td><p>bizible2_browser</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_CampaignId</p></td> 
+   <td><p>bizible2_campaignID</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ContactId</p></td> 
+   <td><p>bizible2_contactId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Custom_Model</p></td> 
+   <td><p>bizible2_count_custom_model</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_count_Custom_Model_2</p></td> 
+   <td><p>bizible2_count_custom_model_2</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_count_First_Touch</p></td> 
+   <td><p>bizible2_count_first_touch</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_count_lead_create_touch</p></td> 
+   <td><p>bizible2_count_lead_creation_touch</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_U_Shaped</p></td> 
+   <td><p>bizible2_count_u_Shaped</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_W_Shaped</p></td> 
+   <td><p>bizible2_count_w_Shaped</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL</p></td> 
+   <td><p>bizible2_form_URL</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL_Raw</p></td> 
+   <td><p>bizible2_form_URL_raw</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -485,13 +485,13 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_geo_Country</p></td> 
+   <td><p>bizible2_geo_country</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_geo_Region</p></td> 
+   <td><p>bizible2_geo_region</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -503,13 +503,13 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_MatchType</p></td> 
+   <td><p>Bizible2_Keyword_MatchType</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_keyword_text</p></td> 
+   <td><p>Bizible2_Keyword_Text</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -539,37 +539,37 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Medium</p></td> 
+   <td><p>Bizible2_Medium</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Name</p></td> 
+   <td><p>bizible2_name</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_OpportunityId</p></td> 
+   <td><p>Bizible2_OpportunityId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Id</p></td> 
+   <td><p>bizible2_placement_id</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Name</p></td> 
+   <td><p>bizible2_placement_name</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Platform</p></td> 
+   <td><p>bizible2_platform</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -581,19 +581,19 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_referrer_Page_Raw</p></td> 
+   <td><p>bizible2_referrer_page_raw</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Custom_Model</p></td> 
+   <td><p>bizible2_revenue_custom_model</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Custom_Model_2</p></td> 
+   <td><p>bizible2_revenue_custom_model_2</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -611,19 +611,19 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_First_Touch</p></td> 
+   <td><p>bizible2_revenue_first_touch</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_revenue_first_touch_base</p></td> 
+   <td><p>bizible2_venue_first_touch_base</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_revenue_lead_Conversion_touch</p></td> 
+   <td><p>bizible2_revenue_lead_conversion_touch</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -635,79 +635,79 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_U_Shaped</p></td> 
+   <td><p>Bizible2_Revenue_U_Shaped</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_revenue_u_shape_base</p></td> 
+   <td><p>bizible2_revenue_u_shed_base</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_W_Shaped</p></td> 
+   <td><p>bizible2_revenue_W_Shaped</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_revenue_w_shape_base</p></td> 
+   <td><p>bizible2_venue_w_shed_Base</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_search_Phrase</p></td> 
+   <td><p>bizible2_search_phrase</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Segment</p></td> 
+   <td><p>bizible2_segment</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Site_Id</p></td> 
+   <td><p>bizible2_site_id</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Site_Name</p></td> 
+   <td><p>bizible2_site_name</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date</p></td> 
+   <td><p>Bizible2_Touchpoint_Date</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Position</p></td> 
+   <td><p>Bizible2_Touchpoint_Position</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source</p></td> 
+   <td><p>Bizible2_Touchpoint_Source</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Type</p></td> 
+   <td><p>Bizible2_Touchpoint_Type</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_UniqueId</p></td> 
+   <td><p>bizible2_uniqueId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -732,67 +732,67 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_BizibleId</p></td> 
+   <td><p>bizible2_bizibleID</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ContactId</p></td> 
+   <td><p>bizible2_contactId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_DateReport</p></td> 
+   <td><p>bizible2_DateReported</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Experiment</p></td> 
+   <td><p>bizible2_experiment</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ExperimentId</p></td> 
+   <td><p>bizible2_experimentId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_LeadId</p></td> 
+   <td><p>bizible2_leadId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Name</p></td> 
+   <td><p>bizible2_name</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_OpportunityId</p></td> 
+   <td><p>Bizible2_OpportunityId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_UserId</p></td> 
+   <td><p>bizible2_userId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Variation</p></td> 
+   <td><p>bizible2_variation</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_VariationId</p></td> 
+   <td><p>bizible2_variationId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -811,25 +811,25 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_EventId</p></td> 
+   <td><p>bizible2_bizible_eventID</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_BizibleId</p></td> 
+   <td><p>bizible2_bizibleID</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_ContactId</p></td> 
+   <td><p>bizible2_contactId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_DateReport</p></td> 
+   <td><p>bizible2_DateReported</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -841,25 +841,25 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_EventValue</p></td> 
+   <td><p>Bizible2_EventValue</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_LeadId</p></td> 
+   <td><p>bizible2_leadId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Name</p></td> 
+   <td><p>bizible2_name</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_OpportunityId</p></td> 
+   <td><p>Bizible2_OpportunityId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -867,7 +867,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] Verlauf {#marketo-measure-history}
+## [!DNL Marketo Measure] {#marketo-measure-history}
 
 <table> 
  <tbody> 
@@ -878,19 +878,19 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_HistoryId</p></td> 
+   <td><p>bizible2_bizible_historyId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Entity_Type</p></td> 
+   <td><p>bizible2_entity_type</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_EntityId</p></td> 
+   <td><p>bizible2_entityId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -902,7 +902,7 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Name</p></td> 
+   <td><p>bizible2_name</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -910,9 +910,9 @@ Dieses Diagramm zeigt eine allgemeine Darstellung der Beziehungen zwischen den D
  </tbody> 
 </table>
 
-## Dynamics Standard-Entitäten {#dynamics-standard-entities}
+## Dynamics-Standardelemente {#dynamics-standard-entities}
 
-Diese Liste enthält die Dynamics Standard-Entitäten, mit denen [!DNL Marketo Measure] interagiert, sowie die benutzerdefinierten Felder, die wir diesen Entitäten hinzufügen.
+Diese Liste enthält die Dynamics-Standardentitäten, mit denen [!DNL Marketo Measure] interagiert, sowie die benutzerdefinierten Felder, die wir diesen Entitäten hinzufügen.
 
 **Lead**
 
@@ -925,19 +925,19 @@ Diese Liste enthält die Dynamics Standard-Entitäten, mit denen [!DNL Marketo M
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
-   <td><p>Ledid</p></td> 
+   <td><p>bleihaltig</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>emailaddress1</p></td> 
+   <td><p>emailAddress1</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>statecode</p></td> 
+   <td><p>Zustandscode</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -949,13 +949,13 @@ Diese Liste enthält die Dynamics Standard-Entitäten, mit denen [!DNL Marketo M
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>createdOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>ModifiedOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -967,31 +967,31 @@ Diese Liste enthält die Dynamics Standard-Entitäten, mit denen [!DNL Marketo M
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>qualifyingopportunityid</p></td> 
+   <td><p>QualifyingOpportunityID</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>websiteurl</p></td> 
+   <td><p>websiteURL</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>companyname</p></td> 
+   <td><p>companyName</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Account</p></td> 
+   <td><p>bizible2_account</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_BizibleId</p></td> 
+   <td><p>bizible2_bizibleID</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1016,7 +1016,7 @@ Diese Liste enthält die Dynamics Standard-Entitäten, mit denen [!DNL Marketo M
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>emailaddress1</p></td> 
+   <td><p>emailAddress1</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1028,19 +1028,19 @@ Diese Liste enthält die Dynamics Standard-Entitäten, mit denen [!DNL Marketo M
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>createdOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>ModifiedOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_BizibleId</p></td> 
+   <td><p>bizible2_bizibleID</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1065,25 +1065,25 @@ Diese Liste enthält die Dynamics Standard-Entitäten, mit denen [!DNL Marketo M
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>websiteurl</p></td> 
+   <td><p>websiteURL</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>createdOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>ModifiedOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Engagement_Score</p></td> 
+   <td><p>bizible2_interaction_score</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1102,7 +1102,7 @@ Diese Liste enthält die Dynamics Standard-Entitäten, mit denen [!DNL Marketo M
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
-   <td><p>opportunityid</p></td> 
+   <td><p>OpportunityID</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1114,61 +1114,61 @@ Diese Liste enthält die Dynamics Standard-Entitäten, mit denen [!DNL Marketo M
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>createdOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>ModifiedOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>statecode</p></td> 
+   <td><p>Zustandscode</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>statecodename</p></td> 
+   <td><p>stateCodeName</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>salesstage</p></td> 
+   <td><p>Verkaufsstufe</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>salesstagecode</p></td> 
+   <td><p>SalesStageCode</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>estimatedClosedate</p></td> 
+   <td><p>estimatedCloseDate</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>actualvalue</p></td> 
+   <td><p>Tatsächlicher Wert</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_Opportunity_Amount</p></td> 
+   <td><p>Bizible2_Bizible_Opportunity_Amount</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_Opportunity_amount_Base</p></td> 
+   <td><p>bizible2_bizible_opportunity_amount_base</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1178,7 +1178,7 @@ Diese Liste enthält die Dynamics Standard-Entitäten, mit denen [!DNL Marketo M
 
 **Kampagne**
 
-Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berechtigungen zum Erstellen von Kampagnen erforderlich.
+Zusätzlich zu den unten aufgeführten Lese-/Schreibberechtigungen sind auch die Berechtigungen zum Erstellen von Kampagnen erforderlich.
 
 <table> 
  <tbody> 
@@ -1189,37 +1189,37 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
-   <td><p>campaign id</p></td> 
+   <td><p>campaignID</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>typecode</p></td> 
+   <td><p>Typcode</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>typecodename</p></td> 
+   <td><p>typeCodeName</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>createdOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>ModifiedOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_Attribution_SyncType</p></td> 
+   <td><p>Bizible2_Bizible_Attribution_SyncType</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1231,19 +1231,19 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_UniqueId</p></td> 
+   <td><p>bizible2_uniqueId</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_End_Date</p></td> 
+   <td><p>Bizible2_Touchpoint_End_Date</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Start_Date</p></td> 
+   <td><p>Bizible2_Touchpoint_Start_Date</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1251,7 +1251,7 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
  </tbody> 
 </table>
 
-**Kampagnenantwort**
+**Kampagnenreaktion**
 
 <table> 
  <tbody> 
@@ -1262,43 +1262,43 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
-   <td><p>activityid</p></td> 
+   <td><p>activityId</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>activitytypecode</p></td> 
+   <td><p>ActivityTypeCode</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>activitytypecodename</p></td> 
+   <td><p>activityTypeCodeName</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>createdOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>ModifiedOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>responsecode</p></td> 
+   <td><p>Antwortcode</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>responsecodename</p></td> 
+   <td><p>responsecodeName</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1310,37 +1310,37 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>regardingobjectid</p></td> 
+   <td><p>Bezug auf objectID</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_Touchpoint_Date</p></td> 
+   <td><p>Bizible2_Bizible_Touchpoint_Date</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Date</p></td> 
+   <td><p>Bizible2_Touchpoint_Status_Date</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Contact</p></td> 
+   <td><p>Bizible2_Touchpoint_Status_Kontakt</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Leade</p></td> 
+   <td><p>Bizible2_Touchpoint_Status_Leade</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Opportunity</p></td> 
+   <td><p>Bizible2_Touchpoint_Status_Opportunity</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1348,7 +1348,7 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
  </tbody> 
 </table>
 
-**list**
+**Liste**
 
 <table> 
  <tbody> 
@@ -1359,37 +1359,37 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
-   <td><p>listid</p></td> 
+   <td><p>listId</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdformCode</p></td> 
+   <td><p>createdFromCode</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>membertype</p></td> 
+   <td><p>memberType</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>createdOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>ModifiedOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_Touchpoint_Date</p></td> 
+   <td><p>Bizible2_Bizible_Touchpoint_Date</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1408,31 +1408,31 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
-   <td><p>listid</p></td> 
+   <td><p>listId</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>entityid</p></td> 
+   <td><p>entityId</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>listmemberid</p></td> 
+   <td><p>listMemberId</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>createdOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>ModifiedOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1440,7 +1440,7 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
  </tbody> 
 </table>
 
-**Telefonaufruf**
+**Telefonanruf**
 
 <table> 
  <tbody> 
@@ -1451,31 +1451,31 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
-   <td><p>activityid</p></td> 
+   <td><p>activityId</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>activitytypecode</p></td> 
+   <td><p>ActivityTypeCode</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>activitytypecodename</p></td> 
+   <td><p>activityTypeCodeName</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>createdOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>ModifiedOn</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1487,19 +1487,19 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>regardingobjectid</p></td> 
+   <td><p>Bezug auf objectID</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_Touchpoint_Date</p></td> 
+   <td><p>Bizible2_Bizible_Touchpoint_Date</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_BizibleId</p></td> 
+   <td><p>bizible2_bizibleID</p></td> 
    <td><p>Benutzerdefiniert</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1507,4 +1507,4 @@ Zusätzlich zu den unten stehenden Lese-/Schreibberechtigungen sind auch Berecht
  </tbody> 
 </table>
 
-[] = Nur ältere V1-Kunden
+[] = nur V1-Legacy-Kunden

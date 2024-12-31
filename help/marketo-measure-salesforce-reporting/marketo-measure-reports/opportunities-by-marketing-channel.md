@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874628
-description: Möglichkeiten nach Marketing-Kanal - [!DNL Marketo Measure]
+description: Vertriebschancen nach Marketing-Kanal - [!DNL Marketo Measure]
 title: Opportunitys nach Marketingkanal
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
@@ -13,26 +13,26 @@ ht-degree: 4%
 
 # Opportunitys nach Marketingkanal {#opportunities-by-marketing-channel}
 
-Dieser Bericht überdeckt die Anzahl der Möglichkeiten, die Ihre Marketingkanäle bieten. Er enthält alle Ihre Möglichkeiten. Sie können diesen Bericht jedoch filtern, um bestimmte Arten von Möglichkeiten zu analysieren.
+Dieser Bericht zeigt die Anzahl der von Ihren Marketing-Kanälen generierten Opportunitys an. Er enthält alle Ihre Opportunitys. Sie können diesen Bericht jedoch filtern, um bestimmte Arten von Opportunitys zu analysieren.
 
-1. Klicken Sie in Salesforce auf die Registerkarte **[!UICONTROL Berichte]** und wählen Sie **[!UICONTROL Neuer Bericht]** aus.
+1. Klicken Sie auf **[!UICONTROL Berichte]** in Salesforce und wählen Sie **[!UICONTROL Neuer Bericht]** aus.
 
-1. Suchen Sie im Schnellsuche-Typ den Berichtstyp &quot;Bizible Attribution&quot;, wählen Sie den Berichtstyp **[!UICONTROL Bizible Attribution Touchpoint mit Opportunity]** und wählen Sie **[!UICONTROL Erstellen]** aus.
+1. Wählen Sie in der Schnellsuche unter „Bizible Attribution“ den Berichtstyp **[!UICONTROL Bizible Attribution Touchpoint mit Opportunity]** und klicken Sie auf **[!UICONTROL Erstellen]**.
 
    ![](assets/1-2.jpg)
 
-1. Zeigen Sie oben im Bericht **[!UICONTROL Alle biziblen Attribution-Touchpoints]** an und passen Sie das Datumsfeld an den Zeitrahmen an, über den Sie Berichte erstellen möchten. In unserem Beispiel betrachten wir &quot;All Time&quot;. Ändern Sie außerdem das Berichtsformat von [!UICONTROL Tabellarisch] in **[!UICONTROL Zusammenfassung]**.
+1. Zeigen Sie oben im Bericht &quot;**[!UICONTROL Attribution-Touchpoints von Bizible]** an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von &quot;[!UICONTROL &quot; ] &quot;**[!UICONTROL &quot;]**.
 
    ![](assets/2-2.jpg)
 
-1. Jetzt werden wir dem Bericht Felder hinzufügen. Geben Sie in die Schnellsuche auf der linken Seite &quot;Marketing-Kanal&quot;ein und fügen Sie ihn zur Zusammenfassungsgruppe im Bericht hinzu.
+1. Jetzt fügen wir dem Bericht Felder hinzu. Geben Sie in der Schnellsuche auf der linken Seite „Marketing-Kanal“ ein und fügen Sie ihn zur Gruppierung „Zusammenfassung“ im Bericht hinzu.
 
    ![](assets/3-2.jpg)
 
 1. Führen Sie nun den Bericht aus und analysieren Sie!
 
-   Dies ist ein Angebotsbericht, der nach Marketingkanälen zusammengefasst wird. Dieser Bericht konzentriert sich auf alle Opt-in-Vorgänge, kann jedoch nach Phase/Art der Gelegenheit gefiltert werden. Sie können auch Felder hinzufügen, über die Sie Berichte erstellen möchten.
+   Dies ist ein Opportunities-Bericht, der nach Marketing-Kanal zusammengefasst wird. Dieser Bericht konzentriert sich auf alle Opportunities, kann jedoch nach Stadium/Art der Opportunity gefiltert werden. Sie können auch beliebige Felder hinzufügen, über die Sie einen Bericht erstellen möchten.
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: SFDC-Lagerberichte](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Stock-SFDC-Berichte](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

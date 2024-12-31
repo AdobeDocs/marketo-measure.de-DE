@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874692
-description: Bomerang-Staging-Szenarien - [!DNL Marketo Measure]
+description: Boomerang-Stadium-Szenarien - [!DNL Marketo Measure]
 title: Boomerang-Phasen-Szenarien
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
@@ -15,130 +15,130 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Die Boomerang-Funktion ist nur für Tier-2- und -3-Kunden aktiviert. Wenden Sie sich an das Adobe Account Team (Ihren Kundenbetreuer), um eine höhere Kontoebene anzufordern.
+>Die Boomerang-Funktion ist nur für Kunden der Ebenen 2 und 3 aktiviert. Um eine höhere Kontoebene anzufordern, wenden Sie sich an das Adobe-Account-Team (Ihren Account Manager).
 
-Im Folgenden finden Sie einige Beispiele für Bomerang-Staging-Szenarien, um zu verstehen, wie [!DNL Marketo Measure] in jeder Situation Touchpoints erstellt.
+Im Folgenden finden Sie einige Beispiele für Bumerang-Stadium-Szenarien, um zu verstehen, wie [!DNL Marketo Measure] in jeder Situation Touchpoints erstellt.
 
 ## Einzelne Lead-Szenarien {#single-lead-scenarios}
 
-**Szenario 1: Standardmäßige Boomerang-Touchpoints für einen Lead**
+**Szenario 1: Standard-Boomerang-Touchpoints für einen Lead**
 
-Dies ist das einfachste Boomerang-Szenario. Die oberste Zeile (mit der Bezeichnung Lead 1) stellt die Journey der Leads dar und wie ihre Touchpoints auf dem Lead-Datensatz angezeigt werden. Das Ergebnis (als Opportunity bezeichnet) zeigt an, wie die Touchpoints der Leads in die Opportunity umgesetzt werden. Der Verlauf von Touchpoints wird in chronologischer Reihenfolge von links nach rechts erläutert.
+Dies ist das einfachste Boomerang-Szenario. Die obere Zeile (mit Lead 1 beschriftet) stellt die Journey der einzelnen Leads dar und wie ihre Touchpoints auf dem Lead-Datensatz erscheinen. Die Untergrenze (mit Opportunity bezeichnet) zeigt an, wie sich die Touchpoints der Leads auf die Opportunity auswirken. Der Verlauf der Touchpoints wird in chronologischer Hinsicht von links nach rechts erklärt.
 
-In diesem Szenario hat sich ein Kunde dafür entschieden, seine **MQL**- und **SQL**-Bühnen mit Bomerangs verfolgen zu lassen. Jede Boomerang-Touchpoint-Position ist mit der Bühne und der Zahl beschriftet, in der sie auftritt (MQL-01, SQL-01, MQL-02). Der letzte Bomerang-Touchpoint für diese Phase hat die Touchpoint-Position &quot;(Letzter)&quot;.
+In diesem Szenario hat ein Kunde ausgewählt, dass seine **MQL**- und **SQL**-Stadien mit Boomerangs verfolgt werden. Jede Touchpoint-Position in Boomerang ist mit dem Stadium und der Nummer gekennzeichnet, in der sie auftritt (MQL-01, SQL-01, MQL-02). Der letzte Boomerang-Touchpoint für diese Phase hat „(Last)“ in der Touchpoint-Position.
 
-Lead 1 wird dann in einen Kontakt mit einer Gelegenheit umgewandelt, der als OC-Kontakt gilt.
+Lead 1 wird dann in einen Kontakt mit einer Opportunity umgewandelt, der als OC Touch gilt.
 
 ![](assets/1-1.png)
 
-**Szenario 2: Bomerang-Touchpoints und benutzerdefinierte Phasen für einen Lead**
+**Szenario 2: Boomerang-Touchpoints UND benutzerdefinierte Stadien für einen Lead**
 
-In diesem Szenario hat ein Kunde nur ausgewählt, die **SQL-Phase** mit Bomerang-Touchpoints zu verfolgen. MQL- und SAL-Bühnen werden weiterhin verfolgt, allerdings mit der Funktion [!DNL Marketo Measure] Benutzerdefinierte Bühne .
+In diesem Szenario hat sich ein Kunde nur dafür entschieden, die **SQL-Phase** mit Boomerang-Touchpoints zu verfolgen. MQL- und SQL-Stadien werden weiterhin verfolgt, jedoch mit der Funktion „Benutzerdefiniertes Stadium [!DNL Marketo Measure]&quot;.
 
 ![](assets/2-1.png)
 
-Beachten Sie, dass die MQL-Touchpoint-Position nicht mit einer Zahl beschriftet ist. Dies liegt daran, dass es nicht für die Verfolgung mit Boomerang-Touchpoints ausgewählt wurde. Beim Erstellen von Touchpoints für Bühnen, die im benutzerdefinierten Modell enthalten sind, aber nicht mit Boomerang verfolgt werden, nimmt [!DNL Marketo Measure] das letzte Vorkommen aus dieser Phase ein.
+Beachten Sie, dass die MQL-Touchpoint-Position nicht mit einer Zahl gekennzeichnet ist. Dies liegt daran, dass es nicht für das Tracking mit Boomerang-Touchpoints ausgewählt wurde. Beim Erstellen von Touchpoints für Stadien, die im benutzerdefinierten Modell enthalten sind, aber nicht mit Boomerang verfolgt werden, nimmt [!DNL Marketo Measure] das letzte Vorkommen aus diesem Stadium.
 
-Für die SAL-Phase ignoriert [!DNL Marketo Measure] die ersten beiden Vorkommen dieser Phase. [!DNL Marketo Measure] erstellt nur einen SAL-Touchpoint für das Auftreten _last_ . Im obigen Beispiel geschieht dies direkt vor dem OC-Touchpoint.
+Für die SAL-Phase ignoriert [!DNL Marketo Measure] die ersten beiden Vorkommen dieser Phase. [!DNL Marketo Measure] erstellt nur einen SAL-Touchpoint für das _letzte_ Vorkommen. Im obigen Beispiel geschieht dies direkt vor dem OC-Touchpoint.
 
-Die SQL-Phase wird mit Boomerang-Touchpoints verfolgt und drei Touchpoints wurden entsprechend erstellt und beschriftet.
+Die SQL-Phase wird mit Boomerang-Touchpoints verfolgt, und drei Touchpoints wurden entsprechend erstellt und gekennzeichnet.
 
-Lead 1 wird dann in einen Kontakt mit einer Gelegenheit umgewandelt, der als OC-Kontakt gilt.
+Lead 1 wird dann in einen Kontakt mit einer Opportunity umgewandelt, der als OC Touch gilt.
 
-**Szenario 3: Wenn Leads eine Bühne nicht erreichen/überspringen**
+**Szenario 3: Wenn Leads eine Phase nicht erreichen/überspringen**
 
-Dieses Szenario verwendet dieselben Kriterien wie Szenario 2. Ein Kunde hat sich entschieden, die SQL-Bühne nur mit Bomerang-Touchpoints zu verfolgen. MQL und SAL werden weiterhin verfolgt, jedoch mit der Funktion [!DNL Marketo Measure] Benutzerdefinierte Bühne .
+Dieses Szenario verwendet dieselben Kriterien wie Szenario 2. Ein Kunde hat sich nur dafür entschieden, das SQL-Stadium mit Boomerang-Touchpoints zu verfolgen. MQL und SQL werden weiterhin verfolgt, jedoch mit der [!DNL Marketo Measure] Custom Staging-Funktion.
 
 ![](assets/3.png)
 
-In diesem Szenario wechselt der Lead nie zur SAL-Phase. Er wird in einen Kontakt umgewandelt, bevor er die SAL-Bühne erreicht, wodurch die SAL-Bühne im Wesentlichen &quot;übersprungen&quot;wird. In diesem Fall geht [!DNL Marketo Measure] davon aus, dass die SAL mit dem OC-Touchpoint auftritt und sowohl die SAL- als auch die OC-Position auf demselben Touchpoint angezeigt werden.
+In diesem Szenario wechselt der Lead nie tatsächlich in die SQL-Phase. Es wandelt sich in einen Kontakt um, bevor es die SAL-Stufe erreicht, und „überspringt“ im Wesentlichen die SAL-Stufe. In diesem Fall geht [!DNL Marketo Measure] davon aus, dass die SAL mit dem OC-Touchpoint erfolgt und sowohl die SAL- als auch die OC-Position auf demselben Touchpoint erscheinen.
 
-Lead 1 wird dann in einen Kontakt mit einer Gelegenheit umgewandelt, der als OC-Kontakt gilt.
+Lead 1 wird dann in einen Kontakt mit einer Opportunity umgewandelt, der als OC Touch gilt.
 
 ## Szenarien mit mehreren Leads {#scenarios-with-multiple-leads}
 
-In den folgenden Szenarien kann Boomerang Stages komplizierter werden, da wir uns ansehen, wie mehrere Leads die Opportunity-Journey beeinflussen können.
+In den folgenden Szenarien können Boomerang-Stadien komplizierter werden, da wir untersuchen, wie mehrere Leads die Opportunity-Journey beeinflussen können.
 
-Die oberste Zeile (mit der Bezeichnung Lead 1 in Blau) stellt die Journey der einzelnen Leads dar und wie ihre Touchpoints auf dem Lead-Datensatz angezeigt werden. Dasselbe gilt für Lead 2 (in rosa) und Lead 3 (in orange). Das Ergebnis (als Opportunity bezeichnet) zeigt an, wie beide Touchpoints der Leads auf die Opportunity übersetzt werden. Der Verlauf von Touchpoints wird in chronologischer Reihenfolge von links nach rechts erläutert.
+Die obere Zeile (mit der Beschriftung Lead 1, in Blau) stellt die Journey der einzelnen Leads dar und wie ihre Touchpoints auf dem Lead-Datensatz erscheinen. Dasselbe gilt für das Blei 2 (in Rosa) und das Blei 3 (in Orange). Die Untergrenze (mit Opportunity bezeichnet) zeigt an, wie sich beide Touchpoints dieser Leads auf die Opportunity auswirken. Der Verlauf der Touchpoints wird in chronologischer Hinsicht von links nach rechts erklärt.
 
-**Szenario 1: [!UICONTROL Drei Leads mit Chancen]**
+**Szenario 1: [!UICONTROL Drei Leads mit Opportunity]**
 
-In diesem Szenario hat sich ein Kunde entschieden, die **MQL** und **SAL-Bühnen** mit Bomerang-Touchpoints zu verfolgen. Die SQL-Phase wird von den standardmäßigen benutzerdefinierten Bühnen verfolgt.
+In diesem Szenario hat sich ein Kunde dafür entschieden, die **MQL**- und **SAL-Stadien** mit Boomerang-Touchpoints zu verfolgen. Die SQL-Phase wird von den standardmäßigen benutzerdefinierten Phasen verfolgt.
 
 ![](assets/4.png)
 
-Die FT- und LC-Touchpoints auf der Opportunity stammen aus Lead 1 (blau), da sie vor FT und LC von Lead 2 (rosa) auftraten. Der LC-Touchpoint für Lead 2 wird als &quot;Formular&quot;-Touchpoint auf der Opportunity angezeigt.
+Die FT- und LC-Touchpoints für die Opportunity stammen aus Lead 1 (blau), da sie vor dem FT und LC von Lead 2 (rosa) stattfanden. Der LC-Touchpoint für Lead 2 wird als „Formular“-Touchpoint auf der Opportunity angezeigt.
 
-Die MQL-01 (Letzte) von Lead 2 wird die erste MQL auf der Opportunity. Die MQL-01 von Lead 1 wird nicht als Touchpoint für die Gelegenheit angezeigt, da die MQL von Lead 2 zuerst erfolgte. Die MQL-02 und MQL-03 von Lead 1 werden jedoch bei der Gelegenheit angezeigt.
+Die MQL-01 (Letzte) von Lead 2 wird die erste MQL für die Opportunity. Die MQL-01 von Lead 1 wird nicht als Touchpoint auf der Opportunity angezeigt, da die MQL von Lead 2 zuerst stattgefunden hat. Allerdings werden MQL-02 und MQL-03 von Lead 1 auf der Opportunity angezeigt.
 
-Die SQL-Phase wird mit benutzerdefinierten Bühnen und nicht mit Bumerang-Bühnen verfolgt. Obwohl die SQL-Phase zwischen Lead 1 und Lead 2 drei Vorkommen aufweist, wird nur das letzte SQL-Vorkommen als Touchpoint auf der Opportunity einbezogen.
+Die SQL-Phase wird mit benutzerdefinierten Stadien verfolgt, nicht mit Boomerang-Stadien. Obwohl es drei Vorkommnisse der SQL-Phase zwischen Lead 1 und Lead 2 gibt, wird nur das letzte SQL-Vorkommnis als Touchpoint in die Opportunity aufgenommen.
 
-Der SAL-01 (Letzter) Touchpoint von Lead 1 wird als Touchpoint auf die Chancen übertragen. Lead 1 wird dann in einen Kontakt mit einer Gelegenheit umgewandelt, der als OC-Kontakt gilt. Der SAL-01 (Letzter)-Touchpoint von Lead 2 wird als Touchpoint erstellt, da diese Staging-Transition _nach_ dem OC-Kontakt auftrat.
+Der SAL-01-Touchpoint (Letzter) von Lead 1 wird als Touchpoint auf die Opportunity übertragen. Lead 1 wird dann in einen Kontakt mit einer Opportunity umgewandelt, der als OC Touch gilt. Der SAL-01-Touchpoint (Letzter) von Lead 2 wird als Touchpoint erstellt, da dieser Stadienübergang (_) nach_ OC-Touch erfolgt ist.
 
-Die Touchpoints FT, LC und MQL, SQL, SAL (orange) von Lead 3 erfolgten alle nach dem OC-Touchpoint auf der Opportunity. Diese Touchpoints sind in der Opportunity enthalten, werden jedoch als &quot;mittlere Touche&quot;betrachtet.
+Die FT-, LC- und MQL-, SQL-, SAL-Touchpoints (orange) von Lead 3 erfolgten alle nach dem OC-Touchpoint auf der Opportunity. Diese Touchpoints sind in der Opportunity enthalten, gelten aber als „Middle Touches“.
 
-Wenn Lead 2 und 3 in Kontakte umgewandelt werden, erstellt [!DNL Marketo Measure] keinen weiteren OC-Touchpoint, da nur eine Opportunitätserstellung möglich ist.
+Wenn Lead 2 und 3 in Kontakte umgewandelt werden, erstellen [!DNL Marketo Measure] keinen weiteren OC-Touchpoint, da es nur eine Phase der Opportunity-Erstellung geben kann.
 
-**Szenario 2 - [!UICONTROL Drei Leads mit Chancen]**
+**Szenario 2 - [!UICONTROL Drei Leads mit Opportunity]**
 
-In diesem Szenario hat sich ein Kunde entschieden, die **MQL**, **SQL** und **SAL**-Bühnen mit Bumerang-Touchpoints zu verfolgen.
+In diesem Szenario hat sich ein Kunde dafür entschieden, die **MQL**, **SQL** und **SAL** mit Boomerang-Touchpoints zu verfolgen.
 
-Alle Touchpoints von Lead 1 sind auf der Opportunity von FT bis SAL-01 (Letzter) enthalten. Der LC-Touchpoint aus Lead 2 wird als Form-Touchpoint zwischen den Touchpoints LC und MQL-01 auf der Opportunity einbezogen.
+Alle Touchpoints von Lead 1 sind in der Opportunity enthalten, von FT bis SAL-01 (Letzte). Der LC-Touchpoint von Lead 2 wird als Formular-Touchpoint zwischen dem LC und den MQL-01-Touchpoints auf der Opportunity eingefügt.
 
 ![](assets/5.png)
 
-Der MQL-01 (Letzter) von Lead 2 ist schließlich der MQL-04 (Letzter) Touchpoint auf der Opportunity. Da in diesem Szenario mehrere Leads-Journey innerhalb einer Chance betrachtet werden, kann sich die Positionierung und Nummerierung der Touchpoints der Leads ändern, wenn sie als Touchpoints auf der Opportunity übersetzt werden. Auf ähnliche Weise wird SQL-01 (Letzter) von Lead 2 zum SQL-04 (Letzter) auf der Opp. Die SAL-01 (Letzte) von Lead 2 wird ebenfalls zur SAL-02 (Letzte) der Chance.
+Das MQL-01 (Letzte) von Lead 2 wird schließlich der MQL-04 (Letzte) Touchpoint auf der Opportunity. Da in diesem Szenario die Journey mehrerer Leads innerhalb einer Opportunity betrachtet werden, können sich Positionierung und Nummerierung der Touchpoints der Leads ändern, wenn sie als Touchpoints für die Opportunity übersetzt werden. Ähnlich wird SQL-01 (Letzte) von Lead 2 zum SQL-04 (Letzte) auf der Opportunity. Lead 2&#39;s SAL-01 (Letzte) wird auch SAL-02 (Letzte) der Opportunity.
 
-Es sind nur 2 SAL-Touchpoints in der Opportunity enthalten. [!DNL Marketo Measure] versucht nicht, Touchpoints für Staging-Transitionen zu erzwingen/zu erstellen, wenn sie nicht aufgetreten sind.
+Es sind nur zwei SSL-Touchpoints in der Opportunity enthalten. [!DNL Marketo Measure] wird nicht versuchen, Touchpoints für Staging-Übergänge zu erzwingen/zu erstellen, wenn diese nicht bereits stattgefunden haben.
 
-Die Touchpoint-Journey von Lead 3 beginnt kurz vor dem OC-Kontakt, aber lange nachdem Lead 1 und Lead 2 ihre FT- und LC-Berührung hatten. In diesem Fall werden die FT- und LC-Daten von Lead 3 als Form-Touchpoint auf der Opportunity angezeigt. Lead 1 wird dann in einen Kontakt mit einer Gelegenheit umgewandelt, der als OC-Kontakt gilt.
+Das Touchpoint-Journey von Lead 3 beginnt kurz vor dem Touch des OC, aber lange nachdem Lead 1 und Lead 2 ihren FT- und LC-Touch hatten. In diesem Fall erscheinen die FT und LC von Lead 3 als Formular-Touchpoint auf der Opportunity. Lead 1 wird dann in einen Kontakt mit einer Opportunity umgewandelt, der als OC Touch gilt.
 
-MQL-, SQL- und SAL-Touches von Lead 3 treten alle gleichzeitig auf, nachdem das OC berühren. Da sie nach dem OC-Touchpoint auftraten, wird dieser Touchpoint als Form/Middle Touch auf der Opportunity und nicht als Bomerang-Staging-Transition angezeigt.
+Die MQL-, SQL- und SAL-Touches von Lead 3 erfolgen alle gleichzeitig nach der OC-Touch-Touch-Touch-Technologie. Da sie nach dem OC-Touchpoint erfolgt sind, erscheint dieser Touchpoint als Form/Middle Touch auf der Opportunity und nicht als Boomerang-Stadienübergang.
 
-**Szenario 2a - Webbesuch Boomerang Touchpoints**
+**Szenario 2a - Boomerang-Touchpoints für Web-Besuche**
 
-In diesem Szenario hat sich ein Kunde entschieden, die **MQL**, **SQL** und **SAL**-Bühnen mit Bumerang-Touchpoints zu verfolgen. Dieses Szenario ist mit dem oben genannten Szenario fast identisch, mit einigen Ausnahmen.
+In diesem Szenario hat sich ein Kunde dafür entschieden, die **MQL**, **SQL** und **SAL** mit Boomerang-Touchpoints zu verfolgen. Dieses Szenario ist mit wenigen Ausnahmen fast identisch mit dem oben beschriebenen.
 
 ![](assets/6.png)
 
-Alle Touchpoints von Lead 1 werden in die Gelegenheit aufgenommen, von FT bis SAL-01 (Letzter). Der LC-Touchpoint aus Lead 2 wird als Form-Touchpoint zwischen den Touchpoints LC und MQL-01 auf der Opportunity einbezogen.
+Alle Touchpoints von Lead 1 werden bei der Opportunity berücksichtigt, von FT bis SAL-01 (Letzte). Der LC-Touchpoint von Lead 2 wird als Formular-Touchpoint zwischen dem LC und den MQL-01-Touchpoints auf der Opportunity eingefügt.
 
-Lead 2 MQL-01 (Letzter) (Webbesuch) wird nicht als Touchpoint auf der Opp erstellt. Dies liegt daran, dass dieser Touchpoint ein Webbesuch war, der nach dem letzten Vorkommen der SQL-Phase stattfindet, und nicht dazu beiträgt, die Chancen vorwärts zu bringen.
+Lead 2&#39;s MQL-01 (Letzter) (Web Visit) wird nicht als Touchpoint auf der Opportunity erstellt. Dies liegt daran, dass dieser Touchpoint ein Web-Besuch war, der nach dem letzten Auftreten der SQL-Phase erfolgt und nicht dazu beiträgt, die Opportunity voranzutreiben.
 
-Die Phase von Lead 1 ändert sich in SAL und wird dann in Kontakt mit Chancen umgewandelt. In diesem Fall werden die Positionen SAL-01 (Letzter) und OC im selben Touchpoint kombiniert.
+Das Stadium von Lead 1 ändert sich in SAL und wird dann in einen Kontakt mit einer Opportunity umgewandelt. In diesem Fall werden die Positionen SAL-01 (Letzter) und OC im selben Touchpoint kombiniert.
 
-Der FT,LC-Touch von Lead 3 wird als Form-Touchpoint auf der Opp erstellt. Als Touchpoints werden nur Formularelemente erstellt, die nach dem Tippen des OC auf das Formular angewendet werden. Aus diesem Grund werden die Transitionen der Stufe SQL-01 (Letzter) und SAL-01 (Letzter) für Lead 2 nicht als Touchpoints erstellt, da es sich bei diesen Touchpoints um Webbesuche handelte.
+Der FT- und LC-Touch von Lead 3 wird als Formular-Touchpoint auf der Opportunity erstellt. Nach dem OC Touch werden nur noch Aktionen zum Ausfüllen von Formularen als Touchpoints erstellt. Aus diesem Grund werden die Transitionen der SQL-01-Phase (Letzte) und der SQL-01-Phase (Letzte) für Lead 2 nicht als Touchpoints erstellt, da es sich bei diesen Touchpoints um Web-Besuche handelte.
 
-Die MQL-, SQL- und SAL-Touchpoints von Lead 3 sind als Touchpoint enthalten, da es sich um eine Aktion zum Ausfüllen von Formularen handelte.
+Die MQL-, SQL-, SQL-Touches von Lead 3 sind als Touchpoint enthalten, da es sich um eine Aktion zum Ausfüllen eines Formulars handelte.
 
 **Szenario 3 - Boomerang-Attributionsgewichtung**
 
-In diesem Szenario hat sich ein Kunde entschieden, die **MQL**, **SQL** und **SAL**-Bühnen mit Bumerang-Touchpoints zu verfolgen.
+In diesem Szenario hat sich ein Kunde dafür entschieden, die **MQL**, **SQL** und **SAL** mit Boomerang-Touchpoints zu verfolgen.
 
 ![](assets/7.png)
 
-Die FT- und LC-Touchpoints auf der Opportunity stammen aus Lead 1 (blau), da sie vor FT und LC von Lead 2 (rosa) auftraten. Der LC-Touchpoint für Lead 2 wird als &quot;Formular&quot;-Touchpoint auf der Opportunity angezeigt.
+Die FT- und LC-Touchpoints für die Opportunity stammen aus Lead 1 (blau), da sie vor dem FT und LC von Lead 2 (rosa) stattfanden. Der LC-Touchpoint für Lead 2 erscheint als „Formular“-Touchpoint auf der Opportunity.
 
-Die MQL-01 (Letzte) von Lead 2 wird zur ersten MQL auf der Opportunity. Die MQL-01 von Lead 1 wird nicht als Touchpoint für die Gelegenheit angezeigt, da die MQL von Lead 2 zuerst erfolgte.
+Die MQL-01 (Letzte) von Lead 2 wird zur ersten MQL auf der Opportunity. Die MQL-01 von Lead 1 wird nicht als Touchpoint auf der Opportunity angezeigt, da die MQL von Lead 2 zuerst stattgefunden hat.
 
-Die SQL-01 (Letzte) von Lead 2 wird zu SQL-01 auf der Opportunity. Die SQL-01 auf Lead 1 wird nicht als Touchpoint für die Chance erscheinen, da SQL-01 auf Lead 2 zuerst stattgefunden hat.
+Die SQL-01 (Letzte) von Lead 2 wird bei der Opportunity zu SQL-01. SQL-01 auf Lead 1 wird nicht als Touchpoint auf der Opportunity angezeigt, da SQL-01 auf Lead 2 zuerst stattgefunden hat.
 
-Beachten Sie, dass Lead 1-Bumerangs zwischen MQL und SQL einige Male vor dem endgültigen Erreichen der SAL-Bühne. SQL-01, MQL-02, SQL-02, MQL-03, SQL-03 _wird nicht_ als Touchpoints auf die Chance aufgenommen, da diese Staging-Transitionen nicht dazu beitragen, die Chancen im Journey weiter zu verbessern.
+Beachten Sie, dass Lead 1 einige Male zwischen MQL und SQL liegt, bevor das SQL-Stadium endgültig erreicht wird. SQL-01, MQL-02, SQL-02, MQL-03, SQL-03 _wird nicht_ Touchpoints der Opportunity einbezogen, da diese Staging-Übergänge nicht dazu beitragen, die Opportunity im Journey voranzutreiben.
 
-Der SAL-01 (Letzter) Touchpoint von Lead 1 ist der nächste Touchpoint, der in die Opp-Funktion aufgenommen wird. Lead 1 wandelt sich dann in einen Kontakt mit einer Gelegenheit um und schafft so den OC-Kontaktpunkt.
+Der SAL-01 (Letzter) Touchpoint von Lead 1 ist der nächste Touchpoint, der in die Opportunity aufgenommen wird. Lead 1 wandelt sich dann in einen Kontakt mit einer Opportunity um und erstellt den OC Touchpoint.
 
-Die Touchpoints von Lead 3s FT und LC und MQL, SQL und SAL erscheinen als Formulareingriff auf die Chancen.
+FT und LC von Lead 3 und die Touchpoints für MQL, SQL und SQL erscheinen als Form Touches bei der Opportunity.
 
-Der SQL-01-Touchpoint von Lead 2 wird nicht als Touchpoint auf der Opp einbezogen, da er nach dem OC-Touchpoint aufgetreten ist. Außerdem erfolgte die SQL-Staging-Transition von Lead 2 _nach der finalen SAL-Staging-Transition_ und trägt nicht dazu bei, die Opportunity-Journey vorwärts zu treiben.
+Der SQL-01-Touchpoint (Letzter) von Lead 2 wird nicht als Touchpoint in die Opportunity aufgenommen, da er nach dem OC-Touchpoint erfolgte. Außerdem erfolgte der SQL-Staging-Übergang von Lead 2 _nach dem letzten SQL-Staging-Übergang_ und trägt nicht dazu bei, das Opportunity-Journey voranzutreiben.
 
-## Opportunity-Szenarios {#opportunity-scenarios}
+## Opportunity-Szenarien {#opportunity-scenarios}
 
-**Szenario 1 - Kontakte mit Opportunity und Boomerang Tracking**
+**Szenario 1 - Kontakte mit Opportunity- und Boomerang-Tracking**
 
-In diesem Szenario hat sich ein Kunde entschieden, die **Übergänge der Demo- und Verhandlungsphase** auf dem **Kontakt** zu verfolgen. Jede Bomerang-Bühne kann bis zu zwei Touchpoints erhalten. Der Unterschied zwischen Staging-Transitionen bei einem Kontakt- und Staging-Übergang auf einem Lead besteht darin, dass Transitionen der Kontaktstufe als Boomerang-Touchpoints auf dem Opportunity _nach_ des OC-Touchpoints angezeigt werden können. Dies gilt nicht für Staging-Transitionen, die auf dem Lead auftreten, da sie als Form-Touchpoint angezeigt werden.
+In diesem Szenario hat sich ein Kunde dafür entschieden, die Übergänge **Demo- und Verhandlungsphase** auf der **Kontakt** zu verfolgen. Jede Boomerang-Phase kann bis zu zwei Touchpoints erhalten. Der Unterschied zwischen Stufenübergängen eines Kontakts und Stufenübergängen eines Leads besteht darin, dass die Übergänge der Kontaktstufe als Boomerang-Touchpoints auf der Opportunity (_)_ OC-Touchpoint erscheinen können. Dies gilt nicht für Stadium-Übergänge, die am Lead auftreten, da diese als Formular-Touchpoint erscheinen.
 
 ![](assets/8.png)
 
-In diesem Beispiel werden die Transitionen der Demo- und Verhandlungsphase von Contact 1 als Demo-01- und Verhandlungs-01-Touchpoints für die Chancen einbezogen. Die Demostage-Transition von Contact 2 erfolgt _nach_ Kontakt 1&#39;s und wird als Demo-02 (Letzter)-Touchpoint auf der Opportunity angezeigt.
+In diesem Beispiel werden die Übergänge von Demo und Verhandlungsphase von Kontakt 1 als Touchpoints Demo-01 und Verhandlungs-01 für die Opportunity einbezogen. Der Übergang des Demo-Stadiums von Kontakt 2 erfolgt _nach_ Kontakt 1 und wird als Demo-02 (letzter) Touchpoint auf der Opportunity angezeigt.
 
-Beachten Sie, dass es keinen zweiten Übergang zur Verhandlungsphase gibt. Die Chance springt sofort von Demo-02 (Letzter) in die Phase der &#39;Close Won&#39;. In diesem Fall enthält [!DNL Marketo Measure] die Transition der Verhandlungen mit dem Touchpoint &quot;Geschlossene Woche&quot;.
+Beachten Sie, dass es keinen zweiten Übergang zur Verhandlungsphase gibt. Die Opportunity springt sofort von Demo-02 (Letzte) zu Close Won. In diesem Fall umfasst [!DNL Marketo Measure] die Verhandlungstransition mit dem Touchpoint „Abgeschlossen gewonnen“.

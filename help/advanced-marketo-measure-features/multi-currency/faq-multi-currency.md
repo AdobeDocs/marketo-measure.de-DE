@@ -13,51 +13,51 @@ ht-degree: 0%
 
 # Häufig gestellte Fragen (mehrere Währungen) {#faq-multi-currency}
 
-**Woher weiß ich, welches Feature-Bit aktiviert werden soll?**
+**Wie weiß ich, welche Funktion aktiviert werden soll?**
 
-Beachten Sie, dass es für diese Funktion zwei verschiedene Feature Bit gibt. Beide befinden sich im Tab [!UICONTROL Allgemein] des CRM-Abschnitts unter Einstellungen: Mehrere Währungen und Erweiterte Währungen. Mehrere Währungen sollten aktiviert werden, wenn der Kunde mehr als eine Währung verwendet. Die zusätzliche Funktion &quot;Erweiterte Währungen&quot;kann hingegen aktiviert werden, wenn der Kunde die Funktion &quot;Erweiterte Währungsverwaltung&quot;von [!DNL Salesforce] verwendet, mit der der Benutzer einen zeitbasierten Bereich für Konversionsraten festlegen kann.
+Beachten Sie, dass es für diese Funktion zwei verschiedene Funktionsbits gibt. Beide befinden sich auf der Registerkarte [!UICONTROL Allgemein] des CRM-Abschnitts in den Einstellungen: Mehrere Währungen und Erweiterte Währungen. Wenn der Kunde mehr als eine Währung verwendet, sollten mehrere Währungen aktiviert werden. Die zusätzliche Funktion „Erweiterte Währungen“ hingegen kann aktiviert werden, wenn der Kunde die Funktion „Erweiterte Währungsverwaltung“ von [!DNL Salesforce] verwendet, bei der der Benutzer einen zeitbasierten Bereich für Konversionsraten festlegen kann.
 
-Marketo Measure ruft die Währungseinstellung automatisch aus dem CRM-System des Kunden ab. In Marketo Measure ist keine manuelle Konfiguration erforderlich, die dem CRM-System entspricht. Die Währungseinstellung finden Sie auf der Seite &quot;Allgemein&quot;unter &quot;CRM&quot;.
+Marketo Measure ruft die Währungseinstellung automatisch aus dem CRM des Kunden ab. Eine manuelle Konfiguration in Marketo Measure, die dem CRM-System entspricht, ist nicht mehr erforderlich. Die Währungseinstellung befindet sich auf der Seite „Allgemein“ unter „CRM“.
 
 **Warum gibt mir mein Werbekonto eine Warnmeldung?**
 
-Neben Ihrem Anzeigenkonto wird eine Warnmeldung angezeigt, bei der Währungen von einer nicht unterstützten Währung eingehen können. In diesem Fall enthalten Ihre Dashboards Kacheln mit der Meldung &quot;Gemischte Währungen&quot;. Wir empfehlen Ihnen, mit Ihrem CRM-Administrator zusammenzuarbeiten, um sicherzustellen, dass diese unbekannte Währung eine Konversion in Ihrem CRM-System enthält.
+Neben Ihrem Werbekonto wird eine Warnmeldung angezeigt, in der möglicherweise Währungen aus einer nicht unterstützten Währung eingehen. In diesem Fall enthalten Ihre Dashboards Kacheln mit der Meldung „Gemischte Währungen“. Wir empfehlen Ihnen, mit Ihrem CRM-Administrator zusammenzuarbeiten, um sicherzustellen, dass diese unbekannte Währung eine Konversion in Ihrem CRM enthält.
 
-**Was bedeutet &quot;Gemischte Währungen&quot;auf meiner Dashboard-Kachel?**
+**Was bedeutet „Gemischte Währungen“ auf meiner Dashboard-Kachel?**
 
-Wenn Sie eine Kachel mit der Meldung &quot;Gemischte Währungen&quot;am unteren Rand haben, bedeutet das, dass wir einige Kosten importiert haben, die einer Währung zugeordnet sind, die wir nicht erkennen. Da alle Konversionen aus dem CRM-System mit einer tatsächlichen Konversionsrate stammen müssen, bedeutet dies, dass Ihrem CRM diese Währung fehlt. Wir empfehlen Ihnen, mit Ihrem CRM-Administrator zusammenzuarbeiten, um sicherzustellen, dass diese unbekannte Währung eine Konversion in Ihrem CRM-System enthält.
+Wenn Sie eine Kachel haben, die unten die Meldung „Gemischte Währungen“ enthält, bedeutet das, dass wir einige Kosten importiert haben, die einer Währung zugeordnet sind, die wir nicht erkennen. Da alle unsere Konversionen von dem CRM mit einem tatsächlichen Konversionsrate stammen müssen, bedeutet dies, dass Ihrem CRM diese Währung fehlt. Wir empfehlen Ihnen, mit Ihrem CRM-Administrator zusammenzuarbeiten, um sicherzustellen, dass diese unbekannte Währung eine Konversion in Ihrem CRM enthält.
 
-**Wie kann ich den Fehler &quot;Gemischte Währungen&quot;beheben, der durch ungültige Währungen verursacht wurde?**
+**Wie kann ich den Fehler „Gemischte Währungen“ beheben, der durch ungültige Währungen verursacht wird?**
 
-Unser System aktualisiert nicht erkannte Währungen auf &quot;XXX&quot;. Um Möglichkeiten mit ungültigen Währungen auszuschließen, erstellen Sie auf der Seite &quot;Touchpoint-Einstellungen&quot;eine Unterdrückungsregel, um Touchpoints für Chancen mit der Währung &quot;XXX&quot;zu verhindern. Nach der Verarbeitung werden wir nur über bekannte Währungen berichten.
+Unser System aktualisiert nicht erkannte Währungen auf „XXX“. Um Opportunitys mit ungültigen Währungen auszuschließen, erstellen Sie eine Unterdrückungsregel auf der Seite Touchpoint-Einstellungen , um Touchpoints für Opportunitys mit der Währung „XXX“ zu verhindern. Nach der Verarbeitung berichten wir nur über bekannte Währungen.
 
 **Wie kann ich eine neue Währung oder einen neuen Umrechnungskurs hinzufügen?**
 
-Die Deklarierung einer neuen Währung oder eines neuen Konversionskurses kann nur in [!DNL Salesforce] oder [!DNL Dynamics] erfolgen, sodass für diese Werte nur eine einzige &quot;Source of Truth&quot;vorliegt. Sobald eine neue Währung oder Umrechnungsrate erkannt wurde, lädt [!DNL Marketo Measure] diese herunter und stellt sie für Sie bereit. Wir bieten keinen Bereich, in dem diese Preise angegeben werden können.
+Eine neue Währung oder ein neuer Umrechnungskurs kann nur in [!DNL Salesforce] oder [!DNL Dynamics] deklariert werden, sodass es nur eine einzige Quelle der Wahrheit für diese Werte gibt. Sobald eine neue Währung oder ein neuer Umrechnungskurs erkannt wurde, lädt [!DNL Marketo Measure] diese herunter und stellt sie Ihnen zur Verfügung. Wir bieten keinen Bereich an, um diese Preise einzugeben.
 
-**Die Währung wird nicht im richtigen Format angezeigt. Wie kann ich dies ändern?**
+**Die Währung wird nicht im richtigen Format angezeigt. Wie kann ich das ändern?**
 
-Wir wissen, dass einige Länder eine andere Art haben, Beträge zu formatieren (z. B. 1.234.00, 1.234, 1.234). Aber wir führen ein weiteres Maß an Komplexität ein, wenn wir nicht nur die Währung eines Benutzers bestimmen müssen, sondern auch dessen Herkunftsland, da unterschiedliche Länder und Währungen unterschiedlich gehandhabt werden können. Das von uns gewählte konsistente Format ist 1.234.00. Dies kann nicht geändert werden.
+Wir verstehen, dass einige Länder eine andere Art der Formatierung von Beträgen haben (z. B. 1.234,00, 1.234, 1.234). Aber wir führen eine weitere Komplexität ein, wenn wir nicht nur die Währung eines Benutzers bestimmen müssen, sondern auch sein Herkunftsland, da verschiedene Länder und Währungen unterschiedlich behandelt werden können. Das von uns gewählte konsistente Format ist 1.234,00. Dies kann nicht geändert werden.
 
 **Warum können Sie das Währungssymbol für meine ausgewählte Währung nicht anzeigen?**
 
-[!DNL Salesforce] und [!DNL Dynamics] zeigen ihre Beträge mit dem 3-Buchstaben-Konversionscode an. Aus Gründen der Konsistenz werden unsere konvertierten Beträge auch mit dem 3-Buchstaben-Konversionscode und nicht mit dem Symbol angezeigt.
+[!DNL Salesforce] und [!DNL Dynamics] zeigen ihre Beträge mit dem aus drei Buchstaben bestehenden Konversionscode an. Aus Konsistenzgründen werden unsere konvertierten Beträge auch mit dem 3-Buchstaben-Konversionscode und nicht mit dem Symbol angezeigt.
 
 **Was wird mein Kunde sehen, wenn mehrere Währungen nicht aktiviert sind?**
 
-Wenn der Kunde nicht über die Funktion für mehrere Währungen verfügt, wird standardmäßig sein Währungsgebietsschema aus dem CRM ausgewählt und alle ISO-Codes geändert, die seine Ausgaben und Umsätze in der Unternehmenskurve anzeigen. Wenn dies nicht korrekt ist und der Kunde eine gemischte Verwendung der Währung hat, besteht die Lösung darin, ein Upgrade durchzuführen, um die Funktion mit mehreren Währungen zu erhalten.
+Wenn der Kunde nicht über die Funktion mit mehreren Währungen verfügt, verwenden wir standardmäßig das Währungsgebietsschema des CRM und ändern alle ISO-Codes, die seine Ausgaben und Einnahmen in der Unternehmenswährung anzeigen. Wenn dies falsch ist und der Kunde eine gemischte Verwendung von Währungen hat, wäre die Lösung, ein Upgrade durchzuführen, um die Funktion mit mehreren Währungen zu erhalten.
 
 **Wie wirkt sich diese Funktion auf Touchpoint-basierte Berichte im CRM aus?**
 
-Bei Kunden mit [!DNL Dynamics] und [!DNL Salesforce], die nur die einfache (nicht erweiterte) Währungsverwaltung verwenden, sollten die Umsatzbeträge von Touchpoints korrekt konvertiert werden, sodass CRM-Berichte erwartungsgemäß funktionieren sollten.
+Für [!DNL Dynamics] und [!DNL Salesforce] Kunden, die nur das grundlegende (nicht erweiterte) Währungsmanagement verwenden, sollten Touchpoint-Umsatzbeträge korrekt konvertiert werden, sodass CRM-Berichte wie erwartet funktionieren sollten.
 
-Leider gibt es einige Nuancen dazu, wie dies für Benutzer von [!DNL Salesforce] Advanced Currency Management funktioniert, da die Verwendung von [!DNL Salesforce] seit langem eingeschränkt ist. Die kurze Antwort auf &quot;Was tun wir in diesem Fall&quot; ist, dass wir Umsätze mithilfe der Pauschalsätze umrechnen, die im Tab &quot;Währungen verwalten&quot; (d. h. nicht erweiterter Standard) definiert sind. Mit anderen Worten, wir ignorieren die veralteten Wechselkurse ganz und gar, obwohl der Kunde die alten Wechselkurse definiert hat.
+Leider gibt es einige Nuancen in der Funktionsweise für Benutzer von [!DNL Salesforce] Advanced Currency Management, aufgrund einer langjährigen Einschränkung der [!DNL Salesforce]. Die kurze Antwort auf „Was tun wir in diesem Fall“ ist, dass wir die Umsatzbeträge mithilfe der Pauschalsätze umrechnen, die auf der Registerkarte „Verwalten von Währungen“ der allgemeinen (d. h. nicht erweiterten) Ebene definiert sind. Mit anderen Worten, wir ignorieren die datierten Wechselkurse ganz, obwohl der Kunde datierte Wechselkurse definiert hat.
 
-Für den interessierten Leser hier ist der Grund, warum es so funktioniert. Unsere Touchpoints verwenden Formelfelder zur Berechnung des Umsatzes (abgeleitet aus dem zugehörigen Opportunity-Betrag). [!DNL Salesforce] unterstützt nativ die Währungsumrechnung für diese Formelberechnungen, jedoch nur für ihren grundlegenden Geschmack der Währungsunterstützung. Es ist unmöglich für uns, ein Formelfeld zu definieren, das auf die alten Wechselkurse verweist. [!DNL Salesforce] unterstützt diese Funktion einfach nicht, daher haben wir keine Möglichkeit, die veralteten Raten in unseren Umsatzberechnungen zu referenzieren, obwohl diese veralteten Raten in [!DNL Salesforce] vorhanden sind (es klingt verrückt, aber so funktioniert es.)
+Für den interessierten Leser ist dies der Grund, warum es so funktioniert. Unsere Touchpoints verwenden Formelfelder zur Berechnung des Umsatzes (abgeleitet aus dem zugehörigen Opportunity-Betrag). [!DNL Salesforce] unterstützt nativ die Währungsumrechnung für diese Formelberechnungen, jedoch nur für die grundlegende Variante der Währungsunterstützung. Es ist uns unmöglich, ein Formelfeld zu definieren, das sich auf die datierten Wechselkurse bezieht. [!DNL Salesforce] unterstützt diese Funktion einfach nicht, daher haben wir keine Möglichkeit, die datierten Sätze in unseren Einnahmenberechnungen zu referenzieren, obwohl diese datierten Sätze in [!DNL Salesforce] existieren (es klingt verrückt, aber so funktioniert es.)
 
 **Wenn mein Kunde einen Workflow zum Ausfüllen eines konvertierten Felds verwendet hat, wie sollte er dieses Feld künftig verwenden?**
 
-Da unser Angebot nun die Konversionen für den Kunden verarbeitet, empfehlen wir, die Workflows und das benutzerdefinierte Feld zu entfernen und den Rohdatenwert zu importieren.
+Da unser Angebot nun die Konversionen für den Kunden verarbeitet, empfehlen wir, die Workflows und das benutzerdefinierte Feld zu entfernen und es uns zu ermöglichen, seinen Rohwert zu importieren.
 
 >[!MORELIKETHIS]
 >

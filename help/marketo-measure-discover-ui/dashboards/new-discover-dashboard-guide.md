@@ -1,18 +1,18 @@
 ---
-description: Neues Discover Dashboard-Handbuch - [!DNL Marketo Measure]  - Produkt
+description: Neues Handbuch zum Entdecken-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Neues Handbuch zum Entdecken von Dashboards
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1076'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # Neues Handbuch zum Entdecken von Dashboards {#new-discover-dashboard-guide}
 
-Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. Unser Hauptziel ist es, Ihnen ein optimiertes und intuitiveres Erlebnis zu bieten. Mit saubereren Visualisierungen und einfacherer Navigation behält diese Umgestaltung nicht nur die meisten vorhandenen Metriken bei, sondern bietet auch neue Einblicke. Tauchen Sie ein und entdecken Sie mehr Klarheit und Mehrwert.
+Wir freuen uns, Ihnen unsere Neugestaltung des Discover Dashboards vorstellen zu können. Unser Hauptziel ist es, Ihnen ein optimiertes und intuitives Erlebnis zu bieten. Mit saubereren Visualisierungen und einfacherer Navigation behält diese Überarbeitung nicht nur die meisten der vorhandenen Metriken bei, sondern bietet auch neue Einblicke. Tauchen Sie ein und entdecken Sie die verbesserte Klarheit und den Mehrwert.
 
 <table>
   <colgroup>
@@ -26,56 +26,56 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     </tr>
     <tr>
       <td>Überblick</td>
-      <td><ul><li><strong>Umsatz</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
-          <li><strong>Übersicht</strong>:<ul>              <li>Dashboard "Zugewiesener Umsatz": Zuweisung des Umsatzes nach Kanal im Zeitdiagramm</li>
-            <li>ROI-Dashboard: Zeitverlaufsdiagramm</li></ul></li><li><strong>Spend</strong>: ROI-Dashboard</li>
-          <li><strong>Angebote</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+      <td><ul><li><strong>Umsatz</strong>: Attributierter Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+          <li><strong>Übersicht</strong>:<ul>              <li>Dashboard „Zugewiesener Umsatz“: Diagramm „Zugewiesener Umsatz nach Kanal im Zeitverlauf“</li>
+            <li>ROI-Dashboard: Diagramm zu Kosten im Zeitverlauf</li></ul></li><li><strong>Ausgaben</strong>: ROI-Dashboard</li>
+          <li><strong>Angebote</strong>: Attributierter Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Kosten pro Deal: </strong>ROI-Dashboard</li>
+            <strong>Kosten pro Abschluss: </strong>ROI Dashboard</li>
           <li>
-            <strong>Kanal/Subkanal/Kampagnenzusammenfassung:</strong>ROI-Dashboard</li>
+            <strong>Kanal/Unterkanal/Kampagnen-Zusammenfassung:</strong>ROI-Dashboard</li>
           <li>
-            <strong>ROI- UND ROI-Zusammenfassung:</strong>ROI-Dashboard</li>
+            <strong>ROI &amp; ROI Zusammenfassung:</strong>ROI Dashboard</li>
           <li>
-            <strong>Pipeline-Umsatz:</strong>veraltet (siehe unten)</li>
+            <strong>Pipeline-Umsatz:</strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Durchschnittliche Größe des Angebots: </strong>Veraltet (siehe unten)</li></ul>
+            <strong>Durchschnittlicher Abschlussumfang: </strong>Veraltet (siehe unten)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Wachstum</td>
       <td><ul>
           <li>
-            <strong>Umsatz und Umsatz im Zeitverlauf</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Umsatz und Umsatz im Zeitablauf</strong>: Attributierter Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Angebote</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Angebote</strong>: Attributierter Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Leads</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Leads</strong>: Attributierter Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Chancen</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Opportunities</strong>: Attributierter Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Besuche und Besuche im Zeitverlauf</strong>: Web-Traffic-Dashboard</li>
+            <strong>Besuche und Besuche im Zeitverlauf</strong>: Dashboard für Webtraffic</li>
           <li>
-            <strong>Individuelle Besuche und individuelle Besuche im Zeitverlauf</strong>: Web-Traffic-Dashboard</li>
+            <strong>Eindeutige Besuche und Eindeutige Besuche im Zeitverlauf</strong>: Dashboard für Webtraffic</li>
           <li>
-            <strong>Site-Forms und Site-Forms im Zeitverlauf</strong>: Web-Traffic-Dashboard</li>
+            <strong>Site Forms und Site Forms im </strong>: Dashboard für Webtraffic</li>
           <li>
-            <strong>Angebote im Zeitverlauf</strong>
+            <strong>Abschlüsse im Zeitverlauf</strong>
             <strong>: </strong>Veraltet (siehe unten)</li>
           <li>
             <strong>Pipeline-Umsatz</strong>
             <strong>: </strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Pipeline-Umsatz im Zeitverlauf</strong>
+            <strong>Pipeline-Umsatz im Zeitablauf</strong>
             <strong>: </strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Interessenten im Zeitverlauf</strong>
+            <strong>Leads im Zeitverlauf</strong>
             <strong>: </strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Kontakte und Kontakte im Zeitverlauf</strong>
+            <strong>Kontakte und Kontakte im Zeitablauf</strong>
             <strong>: </strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Chancen im Zeitverlauf</strong>
+            <strong>Opportunities im Zeitablauf</strong>
             <strong>: </strong>Veraltet (siehe unten)</li>
         </ul>
       </td>
@@ -85,9 +85,9 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Zusammenfassung des ROI-Kanals/Subkanals/der Kampagne:</strong> ROI-Dashboard</li>
+            <strong>Zusammenfassung Kanal/Unterkanal/Kampagne-ROI:</strong> ROI Dashboard</li>
           <li>
-            <strong>Suchbegriff und Zusammenfassung des kreativen ROI:</strong>Veraltet (siehe unten)</li>
+            <strong>Zusammenfassung für Keyword und Creative ROI:</strong>Veraltet (siehe unten)</li>
         </ul>
       </td>
     </tr>
@@ -96,27 +96,27 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Umsatz</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Umsatz</strong>: Attributierter Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Matches der Leads</strong>: ROI-Dashboard</li>
+            <strong>Leads-Treffer</strong>: ROI-Dashboard</li>
           <li>
             <strong>Touchpoint-Anzahl:</strong>ROI-Dashboard</li>
           <li>
-            <strong>Eingebundene Konten:</strong>Interaktions-Dashboard</li>
+            <strong>Konten aktiviert:</strong>Interaktions-Dashboard</li>
           <li>
-            <strong>Engagierte Chancen</strong>
+            <strong>Eingebundene Opportunities</strong>
             <strong>:</strong>Interaktions-Dashboard</li>
           <li>
-            <strong>Eingegebene Personen</strong>
+            <strong>Eingebundene Personen</strong>
             <strong>:</strong>Interaktions-Dashboard</li>
           <li>
-            <strong>Durchschnittliche Touchanzahl pro Konto: </strong>Interaktions-Dashboard</li>
+            <strong>Durchschnittliche Anzahl der Kontakte pro Konto: </strong>Interaktions-Dashboard</li>
           <li>
-            <strong>Touchpoints im Zeitverlauf:</strong>Interaktions-Dashboard</li>
+            <strong>Touchpoints im Zeitverlauf:</strong>-Dashboard</li>
           <li>
-            <strong>Konten nach Touchpoint-Anzahl: </strong>Interaktions-Dashboard</li>
+            <strong>Konten nach Anzahl der Touchpoints: </strong>Interaktions-Dashboard</li>
           <li>
-            <strong>Pipeline-Umsatz:</strong>veraltet (siehe unten)</li>
+            <strong>Pipeline-Umsatz:</strong>Veraltet (siehe unten)</li>
         </ul>
       </td>
     </tr>
@@ -125,13 +125,13 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Umsatz</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Umsatz</strong>: Attributierter Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Spend</strong>: ROI-Dashboard</li>
+            <strong>Ausgaben</strong>: ROI-Dashboard</li>
           <li>
-            <strong>ROI: </strong>ROI-Dashboard</li>
+            <strong>ROI: </strong>ROI Dashboard</li>
           <li>
-            <strong>Ausgaben nach Kanal/Subkanal/Kampagne: </strong>ROI-Dashboard</li>
+            <strong>Ausgaben nach Kanal/Unterkanal/Kampagne: </strong>ROI Dashboard</li>
         </ul>
       </td>
     </tr>
@@ -140,33 +140,33 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Unique Visits:</strong>Web-Traffic-Dashboard</li>
+            <strong>Eindeutige Besuche:</strong>Dashboard für Webdatenverkehr</li>
           <li>
-            <strong>Besuche:</strong>Web-Traffic-Dashboard</li>
+            <strong>Besuche:Dashboard </strong>Datenverkehr“</li>
           <li>
-            <strong>Seitenansichten:</strong>Web-Traffic-Dashboard</li>
+            <strong>Seitenansichten:Dashboard </strong>Webdatenverkehr“</li>
           <li>
-            <strong>Site-Forms:</strong>Web-Traffic-Dashboard</li>
+            <strong>Site Forms:</strong>Web Traffic-Dashboard</li>
           <li>
-            <strong>Überblick:</strong>Web-Traffic-Dashboard</li>
+            <strong>Überblick:</strong>Dashboard für Webdatenverkehr</li>
           <li>
-            <strong>Web-Traffic-Zusammenfassung:</strong>Web-Traffic-Dashboard</li>
+            <strong>Zusammenfassung Webtraffic:</strong>Dashboard Webtraffic</li>
           <li>
-            <strong>Zusammenfassung der verweisenden Stelle:</strong>Dashboard des Webdatenverkehrs</li>
+            <strong>Referrer-Zusammenfassung</strong> Dashboard für Webdatenverkehr</li>
           <li>
-            <strong>Individuelle Besuche nach Source:</strong>Web-Traffic-Dashboard</li>
+            <strong>Eindeutige Besuche nach Source</strong>Dashboard für Webdatenverkehr</li>
           <li>
-            <strong>Besuche nach Source:</strong>Web-Traffic-Dashboard</li>
+            <strong>Besuche nach Source:</strong>-Dashboard für Webdatenverkehr</li>
           <li>
-            <strong>Leads nach Formular-URL:</strong>Web-Traffic-Dashboard</li>
+            <strong>Leads nach Formular-URL</strong>Dashboard für Webdatenverkehr</li>
           <li>
-            <strong>Kosten pro individuellem Besuch</strong>
+            <strong>Kosten pro eindeutigem Besuch</strong>
           </li>
           <li>
             <strong>Kosten pro Besuch</strong>
           </li>
           <li>
-            <strong>Umsatz pro individuellem Besuch</strong>
+            <strong>Umsatz pro eindeutigem Besuch</strong>
           </li>
           <li>
             <strong>Umsatz pro Besuch</strong>
@@ -182,84 +182,84 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Umsatz</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Umsatz</strong>: Attributierter Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
             <strong>Übersicht</strong>:<ul>
-              <li>Dashboard "Zugewiesener Umsatz": Zuweisung des Umsatzes nach Kanal im Zeitdiagramm</li>
-              <li>ROI-Dashboard: Zeitverlaufsdiagramm</li>
+              <li>Dashboard „Zugewiesener Umsatz“: Diagramm „Zugewiesener Umsatz nach Kanal im Zeitverlauf“</li>
+              <li>ROI-Dashboard: Diagramm zu Kosten im Zeitverlauf</li>
             </ul>
           </li>
           <li>
-            <strong>Spend</strong>: ROI-Dashboard</li>
+            <strong>Ausgaben</strong>: ROI-Dashboard</li>
           <li>
-            <strong>Angebote</strong>: Zuweisung von Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Angebote</strong>: Attributierter Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Kosten pro Deal: </strong>ROI-Dashboard</li>
+            <strong>Kosten pro Abschluss: </strong>ROI Dashboard</li>
           <li>
-            <strong>Kanal/Subkanal/Kampagnenzusammenfassung:</strong>ROI-Dashboard</li>
+            <strong>Kanal/Unterkanal/Kampagnen-Zusammenfassung:</strong>ROI-Dashboard</li>
           <li>
-            <strong>Pipeline-Umsatz:</strong>veraltet (siehe unten)</li>
+            <strong>Pipeline-Umsatz:</strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Durchschnittliche Größe des Angebots: </strong>Veraltet (siehe unten)</li>
+            <strong>Durchschnittlicher Abschlussumfang: </strong>Veraltet (siehe unten)</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>Bezahlte Medien</td>
-      <td>Benutzer können Filter für gebührenpflichtige Medien-Kanäle im <strong>Web-Traffic-Dashboard</strong> anwenden.</td>
+      <td>Benutzer können Filter für Paid-Media-Kanäle im <strong>Web-Traffic-Dashboard</strong> anwenden.</td>
     </tr>
     <tr>
       <td>Content-Marketing</td>
       <td>
         <ul>
           <li>
-            <strong>Überblick:</strong>Web-Traffic-Dashboard</li>
+            <strong>Überblick:</strong>Dashboard für Webdatenverkehr</li>
           <li>
             <strong>Site Forms:</strong>
-            <strong></strong>Web-Traffic-Dashboard</li>
+            <strong></strong>Dashboard für Webtraffic</li>
           <li>
-            <strong>Unique Visits:</strong>
-            <strong></strong>Web-Traffic-Dashboard</li>
+            <strong>Eindeutige Besuche:</strong>
+            <strong></strong>Dashboard für Webtraffic</li>
           <li>
-            <strong>Top-Einstiegsseiten nach individuellen Besuchen:</strong>
-            <strong></strong>Web-Traffic-Dashboard</li>
+            <strong>Top Landing Pages nach eindeutigen Besuchen:</strong>
+            <strong></strong>Dashboard für Webtraffic</li>
           <li>
-            <strong>Top-Einstiegsseiten nach Besuchen:</strong>
-            <strong></strong>Web-Traffic-Dashboard</li>
+            <strong>Top Landing Pages nach Besuchen:</strong>
+            <strong></strong>Dashboard für Webtraffic</li>
           <li>
-            <strong>Einstiegsseiten nach Interessentenanzahl:</strong>
-            <strong></strong>Web-Traffic-Dashboard</li>
+            <strong>Landing Pages nach Lead-Anzahl:</strong>
+            <strong></strong>Dashboard für Webtraffic</li>
           <li>
             <strong>Leads:</strong>
-            <strong></strong>Web-Traffic-Dashboard</li>
+            <strong></strong>Dashboard für Webtraffic</li>
           <li>
-            <strong>Chancen</strong>: Zugewiesener Umsatz, Umsatzübersicht, ROI-Dashboards</li>
+            <strong>Opportunities</strong>: Attributierter Umsatz, Umsatzübersicht, ROI-Dashboards</li>
           <li>
-            <strong>Web-Traffic-Zusammenfassung:</strong>
-            <strong></strong>Web-Traffic-Dashboard</li>
+            <strong>Übersicht über den Webtraffic:</strong>
+            <strong></strong>Dashboard für Webtraffic</li>
           <li>
             <strong>Formular-URLs nach Kanal</strong>
             <strong>:</strong>
-            <strong></strong>Web-Traffic-Dashboard (Filtern Sie die Kachel Site Forms nach Kanal)</li>
+            <strong></strong>Dashboard für Web-Traffic (Site-Forms-Kachel nach Kanal filtern)</li>
           <li>
-            <strong>Einstiegsseiten nach Umsatz: </strong>Eingestellt (siehe unten)</li>
+            <strong>Landingpages nach Umsatz: </strong>Nicht mehr unterstützt (siehe unten)</li>
           <li>
-            <strong>Pipeline-Umsatz: </strong>veraltet (siehe unten)</li>
+            <strong>Pipeline-Umsatz: </strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Einstiegsseiten nach Pipeline-Umsatz:</strong>Veraltet (siehe unten)</li>
+            <strong>Landingpages nach Pipeline-Umsatz:</strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Einstiegsseiten nach Anzahl der Möglichkeiten:</strong>Veraltet (siehe unten)</li>
+            <strong>Landing Pages nach Opportunity-Anzahl:</strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Zusammenfassung der Lead-Pipeline: </strong> Im Überblick</li>
+            <strong>Zusammenfassung Lead-Pipeline: </strong>Wird geprüft</li>
           <li>
-            <strong>Opportunity Pipeline Summary: </strong>In Review</li>
+            <strong>Zusammenfassung Opportunity-Pipeline: </strong>Wird geprüft</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>Marketing Ops </td>
       <td>
-        <p>Dashboard "Marketing Ops"</p>
+        <p>Marketing Ops Dashboard</p>
       </td>
     </tr>
     <tr>
@@ -267,36 +267,36 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Velocity (Days):</strong> Velocity-Dashboard</li>
+            <strong>Geschwindigkeit (Tage):</strong>-Dashboard</li>
           <li>
-            <strong>Geschwindigkeit pro Kanal testen: </strong>Velocity-Dashboard</li>
+            <strong>Abschlussgeschwindigkeit nach Kanal: </strong>Velocity-Dashboard</li>
           <li>
             <strong>Lead-Geschwindigkeit nach Kanal: </strong>Velocity-Dashboard</li>
           <li>
-            <strong>Durchschnittliche Geschädigkeitsgeschwindigkeit: </strong>Velocity-Dashboard</li>
+            <strong>Durchschnittliche Abschlussgeschwindigkeit: </strong>Velocity-Dashboard</li>
           <li>
             <strong>Durchschnittliche Lead-Geschwindigkeit: </strong>Velocity-Dashboard</li>
           <li>
-            <strong>Chancen-Geschwindigkeit im Zeitverlauf: </strong>Velocity-Dashboard</li>
+            <strong>Opportunity-Geschwindigkeit im Zeitverlauf: </strong>Velocity-Dashboard</li>
           <li>
             <strong>Lead-Geschwindigkeit im Zeitverlauf: </strong>Velocity-Dashboard</li>
           <li>
-            <strong>BT/BAT im Zeitverlauf:</strong>Interaktions-Dashboard</li>
+            <strong>BT/BAT im Zeitverlauf:</strong>-Dashboard</li>
           <li>
-            <strong>Öffnungsmöglichkeiten:</strong>
+            <strong>Offene Opportunitys:</strong>
             <strong> </strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Durchschnittliche Größe des Angebots:</strong>
+            <strong>Durchschnittliche Abschlussgröße:</strong>
             <strong></strong>Veraltet (siehe unten)</li>
           <li>
-            <strong>Win Rate:</strong>
+            <strong>Erfolgsquote:</strong>
             <strong> </strong>Veraltet (siehe unten)</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>Snapshot</td>
-      <td>Benutzer können eine Momentaufnahme von Datensätzen abrufen, indem sie nach einem bestimmten Datum im <strong>Passport-Dashboard</strong> filtern.
+      <td>Benutzer können einen Schnappschuss der Datensätze abrufen, indem sie nach einem bestimmten Datum im <strong>Passport-Dashboard“ </strong>
       </td>
     </tr>
     <tr>
@@ -304,7 +304,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Gelegenheiten &amp; Interessenten/Kontakte: </strong>Passport-Dashboard</li>
+            <strong>Opportunities &amp; Leads/Kontakte: </strong>Passport-Dashboard</li>
         </ul>
       </td>
     </tr>
@@ -319,9 +319,9 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
       <td>
         <ul>
           <li>
-            <strong>Kohortentrichter:</strong>Kohorten-Journey-Dashboard</li>
+            <strong>Cohort Funnel:</strong>Cohort Journey Dashboard</li>
           <li>
-            <strong>Auswirkungen und Umsatz der Kohorte:</strong>Veraltet (siehe unten)</li>
+            <strong>Cohort Impact &amp; Revenue:</strong>Veraltet (siehe unten)</li>
         </ul>
       </td>
     </tr>
@@ -344,7 +344,7 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
   <tbody>
     <tr>
       <th scope="col">Veraltete Metriken</th>
-      <th scope="col">Begründung</th>
+      <th scope="col">Überlegung</th>
     </tr>
     <tr>
       <td>
@@ -353,36 +353,36 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
         </p>
       </td>
       <td rowspan="3">
-        <p>Die Pipeline-Attribution stellt von Natur aus eine Herausforderung dar, da sie zukunftsorientiert ist, während die Attribution ein rückwärtsgewandter Prozess ist. Der Versuch, die Attribution frühzeitig auf die Pipeline anzuwenden, kann zu unvollständigen Touchpoint-Daten führen und zu einer Verzerrung der Ergebnisse führen. Stattdessen haben wir nicht realisierte Pipeline-Daten im ROI-Dashboard integriert. Darüber hinaus bleibt der Zugriff auf diese Daten über die Erstellung benutzerdefinierter Berichte möglich.
+        <p>Die Attribution über Pipelines stellt von Natur aus eine Herausforderung dar, da sie vorausschauend ist, während die Attribution ein rückwärtsgerichteter Prozess ist. Ein vorzeitiger Versuch, die Attribution auf die Pipeline anzuwenden, kann zu unvollständigen Touchpoint-Daten führen, was zu Verzerrungen der Ergebnisse führt. Stattdessen haben wir nicht realisierte Pipeline-Daten in das ROI-Dashboard integriert. Darüber hinaus bleibt der Zugriff auf diese Daten über das Authoring benutzerdefinierter Berichte bestehen.
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Pipeline-Umsatz im Zeitverlauf</strong>
+          <strong>Pipeline-Umsatz im Zeitablauf</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Einstiegsseiten nach PipelineRevenue</strong>
+          <strong>Landingpages nach PipelineRevenue</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Durchschnittliche Größe des Angebots</strong>
+          <strong>Durchschnittlicher Abschlussumfang</strong>
         </p>
       </td>
-      <td rowspan="3">Wir haben uns dafür entschieden, diese CRM-Datenpunkte nicht in unseren Dashboards zu duplizieren, um Attributionseinblicke hervorzuheben.</td>
+      <td rowspan="3">Wir haben uns entschieden, diese CRM-Datenpunkte nicht in unseren Dashboards zu duplizieren, um Attributionserkenntnisse zu betonen.</td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Open Opportunities</strong>
+          <strong>Opportunities</strong>
           <strong>
             <br/>
           </strong>
@@ -392,53 +392,53 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Win Rate</strong>
+          <strong>Erfolgsquote</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Angebote im Zeitverlauf</strong>
+          <strong>Abschlüsse im Zeitverlauf</strong>
         </p>
       </td>
-      <td rowspan="4">Diese Metriken werden bereits in den KPI-Kacheln bereitgestellt. Wir haben ihre Zeitreihenansicht aus unserem Dashboard ausgeschlossen, um Redundanz zu vermeiden und Klarheit zu erhalten.
+      <td rowspan="4">Diese Metriken werden bereits in den KPI-Kacheln bereitgestellt. Um Redundanz zu vermeiden und Klarheit zu schaffen, haben wir die Zeitreihenansicht aus unserem Dashboard ausgeschlossen.
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Kontakte im Zeitverlauf</strong>
+        <strong>Kontakte im Zeitablauf</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Chancen im Zeitverlauf</strong>
+        <strong>Opportunities im Zeitablauf</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Interessenten im Zeitverlauf</strong>
+        <strong>Leads im Zeitverlauf</strong>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Suchbegriff und Zusammenfassung des kreativen ROI</strong>
+          <strong>Zusammenfassung Schlüsselwörter und kreative ROI</strong>
         </p>
       </td>
       <td>
-        <p>Diese Dimensionen sind plattformspezifisch und bieten keine ganzheitliche Sicht auf den Web-Traffic. Es wird empfohlen, dass Benutzer Kanal-/Subkanal-/Kampagnendaten in Marketo Measure untersuchen und dann spezifische Plattformtools für Einblicke auf Keyword-/Kreativelebene nutzen, um Genauigkeit und Kontext zu wahren.
+        <p>Diese Dimensionen sind plattformspezifisch und bieten keine ganzheitliche Sicht auf den Web-Traffic. Es wird empfohlen, dass Benutzerinnen und Benutzer Kanal-/Unterkanal-/Kampagnendaten in Marketo Measure untersuchen und dann spezifische Plattformtools für Erkenntnisse auf Keyword-/Kreativebene nutzen, um Genauigkeit und Kontext zu gewährleisten.
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Kosten pro individuellem Besuch</strong>
+          <strong>Kosten pro eindeutigem Besuch</strong>
         </p>
       </td>
       <td rowspan="7">
-        <p>Die Einführung von Geschäftsmetriken wie Umsatz oder Kosten in ein Dashboard für Webtraffic kann zu falschen Interpretationen führen. Wir befürworten, dass wir uns auf Einblicke konzentrieren, die die Auswirkungen Ihres Web-Traffics auf die Lead-Generierung aufzeigen. Für einen tieferen Einblick in die Attribution oder den ROI ist eine Analyse auf Kanal-/Unterkanal-/Kampagnenebene unerlässlich, um Klarheit und Präzision zu gewährleisten. Darüber hinaus bleibt der Zugriff auf diese Daten über die Erstellung benutzerdefinierter Berichte möglich.
+        <p>Die Einführung von Geschäftsmetriken wie Umsatz oder Kosten in einem Dashboard für Webtraffic kann zu Fehlinterpretationen führen. Wir empfehlen, sich auf Einblicke zu konzentrieren, die die Auswirkungen Ihres Web-Traffics auf die Lead-Generierung aufzeigen. Für einen tieferen Einblick in Attribution oder ROI ist die Analyse auf Kanal-/Unterkanal-/Kampagnenebene unerlässlich, um Klarheit und Präzision zu gewährleisten. Darüber hinaus bleibt der Zugriff auf diese Daten über das Authoring benutzerdefinierter Berichte bestehen.
         </p>
         <br/>
       </td>
@@ -466,44 +466,44 @@ Wir freuen uns, Ihnen unser Discover Dashboard-Neudesign vorstellen zu können. 
     <tr>
       <td>
         <p>
-          <strong>Einstiegsseiten nach Umsatz</strong>
+          <strong>Landingpages nach Umsatz</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Einstiegsseiten nach Opportunity Count</strong>
+          <strong>Landing Pages nach Opportunity-Anzahl</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Auswirkungen und Umsatz der Kohorte</strong>
+        <strong>Kohortenwirkung und Umsatz</strong>
       </td>
-      <td>Wird aufgrund seiner potenziellen Verwirrung bei Benutzern nicht mehr unterstützt. Unser Ziel ist Klarheit und sofortiger Datenwert.</td>
+      <td>Veraltet, da es Benutzer verwirren kann. Unser Ziel ist Klarheit und sofortiger Datenwert.</td>
     </tr>
   </tbody>
 </table>
 
-## Funktionen, die schrittweise eingestellt wurden {#features-weve-phased-out}
+## Funktionen, die wir schrittweise eingestellt haben {#features-weve-phased-out}
 
-**Filteraktualisierungen**: Um Ihr Erlebnis zu optimieren, haben wir unsere Filterauswahlen wie unten dargestellt angepasst.
+**Filteraktualisierungen**: Um Ihr Erlebnis zu optimieren, haben wir unsere Filterauswahl wie unten beschrieben angepasst.
 
-* **Datumstyp, Metrik, Dimension, Gruppe nach**: Diese Einstellungen sind jetzt für jedes Dashboard vordefiniert, um die Bereitstellung von Insight zu optimieren. Detaillierte Informationen sind über QuickInfos und die zugehörige Dokumentation verfügbar.
-* **Campaign Source**
+* **Datentyp, Metrik, Dimension,**: Diese Einstellungen sind jetzt für jedes Dashboard vordefiniert, um die Bereitstellung von Insights zu optimieren. Detaillierte Informationen sind über QuickInfos und die zugehörige Dokumentation verfügbar.
+* **Kampagnenquelle**
 * **Konto-ID und Name**: Wird geprüft.
 
 ## Neue Ergänzungen und Verbesserungen {#new-additions-and-improvements}
 
-Neue Funktionen finden Sie im Artikel [Dashboard-Grundlagen kennenlernen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} .
+Neue Funktionen finden Sie im Artikel [Discover Dashboard Basics](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} .
 
 ## Feedback {#feedback}
 
-Da wir uns ständig bemühen, Ihr Erlebnis zu verbessern, würden wir Ihr Feedback zu diesem neuesten Update sehr schätzen. Ihre Gedanken beeinflussen zukünftige Verfeinerungen direkt und stellen sicher, dass unsere Plattform immer auf Ihre Bedürfnisse abgestimmt ist. Sehen Sie sich ein Feedback-Formular in Marketo Measure an.
+Da wir bestrebt sind, Ihr Erlebnis kontinuierlich zu verbessern, würden wir uns über Ihr Feedback zu diesem neuesten Update sehr freuen. Ihre Gedanken beeinflussen direkt zukünftige Verbesserungen und stellen sicher, dass unsere Plattform immer auf Ihre Bedürfnisse abgestimmt ist. Halten Sie Ausschau nach einem Feedback-Formular in Marketo Measure.
 
 >[!MORELIKETHIS]
 >
 >* [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [Dashboard-Richtlinie zur Sichtbarkeit der Daten](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [Richtlinie für die Datensichtbarkeit im Dashboard](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

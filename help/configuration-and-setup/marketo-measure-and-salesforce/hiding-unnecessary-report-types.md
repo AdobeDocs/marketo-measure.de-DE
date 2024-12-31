@@ -13,20 +13,20 @@ ht-degree: 5%
 
 # Ausblenden unnötiger Berichtstypen {#hiding-unnecessary-report-types}
 
-Nachdem Sie Ihre Installation abgeschlossen und mit der Verwendung von Berichten begonnen haben, wird nicht jeder Bericht, in dem das im Lieferumfang enthaltene [!DNL Marketo Measure] -Paket enthalten ist, von Ihrer Organisation verwendet. Daher ist es hilfreich, die Berichtstypen auszublenden, die Sie nicht verwenden, um Verwirrung zu vermeiden und ein saubereres Erscheinungsbild zu ermöglichen. Sie können alle Berichte ausblenden, die Sie möchten. Die im folgenden Bild identifizierten Berichte sind jedoch in der Regel ausgeblendet.
+Nachdem Sie die Installation abgeschlossen und mit der Verwendung von Berichten begonnen haben, wird nicht jeder Bericht, den das [!DNL Marketo Measure]-Paket enthält, von Ihrem Unternehmen verwendet. Daher ist es hilfreich, Berichtstypen auszublenden, die Sie nicht verwenden, um Verwirrung zu vermeiden und ein saubereres Erscheinungsbild zu ermöglichen. Sie können beliebige Berichte ausblenden, aber die in der Abbildung unten identifizierten Berichte sind normalerweise ausgeblendet.
 
-1. Navigieren Sie zur Registerkarte **[!UICONTROL Berichte]** .
+1. Navigieren Sie zur Registerkarte **[!UICONTROL Berichte]**.
 
-1. Klicken Sie oben im Bildschirm auf die Schaltfläche **[!UICONTROL Neuen Bericht erstellen]** .
+1. Klicken Sie auf **[!UICONTROL Neuen Bericht erstellen]** oben auf dem Bildschirm.
 
-1. Geben Sie das Wort &quot;Touchpoint&quot;ein, um die Berichte zu füllen.
+1. Geben Sie das Wort „Touchpoint“ ein, um die Berichte zu füllen.
 
-1. Aktivieren Sie oben links das Kontrollkästchen **[!UICONTROL Berichtstypen zum Ausblenden auswählen]** .
+1. Aktivieren Sie **[!UICONTROL Kontrollkästchen „Auszublendende Berichtstypen auswählen]** oben links.
 
-1. Klicken Sie auf die Berichte, die unten mit dem orangefarbenen X markiert sind, damit Ihre Berichtsliste dem unten stehenden Bild entspricht.
+1. Klicken Sie auf die unten mit einem orangefarbenen X markierten Berichte, damit Ihre Berichtsliste genauso aussieht wie die Abbildung unten.
 
    ![](assets/1-4.png)
 
 >[!MORELIKETHIS]
 >
->[Salesforce - Nicht verwendete Berichtstypen ausblenden](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&amp;type=5&amp;language=en_us)
+>[Salesforce - Ausblenden nicht verwendeter Berichtstypen](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&amp;type=5&amp;language=en_us)

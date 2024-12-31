@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874791
-description: Gewähren von [!DNL Salesforce] Zugriff auf [!DNL Marketo Measure] Support - [!DNL Marketo Measure]
-title: Gewähren von [!DNL Salesforce] Zugriff auf Marketo Measure-Support
+description: Gewähren [!DNL Salesforce] Zugriff auf [!DNL Marketo Measure] Support - [!DNL Marketo Measure]
+title: Gewähren  [!DNL Salesforce]  Zugriffs auf Marketo Measure-Support
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
@@ -11,30 +11,30 @@ ht-degree: 2%
 
 ---
 
-# Gewähren von [!DNL Salesforce] Zugriff auf Marketo Measure-Support {#granting-salesforce-access-to-marketo-measure-support}
+# Gewähren [!DNL Salesforce] Zugriffs auf Marketo Measure-Support {#granting-salesforce-access-to-marketo-measure-support}
 
-In einigen Fällen kann der Support von [!DNL Marketo Measure] den Zugriff auf Ihre [!DNL Salesforce]-Umgebung anfordern, um bei der Diagnose- oder Salesforce-Konfiguration während der Implementierung behilflich zu sein.
+In einigen Fällen fordert [!DNL Marketo Measure] Support möglicherweise Zugriff auf Ihre [!DNL Salesforce]-Umgebung an, um die Fehlerbehebung bei Diagnosen oder die Salesforce-Konfiguration während der Implementierung zu unterstützen.
 
-Die Gewährung des Anmeldezugriffs hängt geringfügig davon ab, ob Sie [!DNL Salesforce Classic] oder das [!DNL Salesforce Lightning] Erlebnis verwenden.
+Die Gewährung des Anmeldezugriffs unterscheidet sich geringfügig je nachdem, ob Sie [!DNL Salesforce Classic] oder das [!DNL Salesforce Lightning] Experience Platform verwenden.
 
 ## Gewähren des Anmeldezugriffs in Salesforce Classic {#granting-login-access-in-salesforce-classic}
 
-Abhängig von Ihrer Organisation befindet sich die Schaltfläche [!UICONTROL Einrichten] entweder neben Ihrem Namen in der oberen rechten Ecke der Seite oder wird als Dropdown-Option angezeigt, wenn Sie auf Ihren Namen klicken.
+Je nach Unternehmen befindet sich die [!UICONTROL Setup]-Schaltfläche entweder oben rechts auf der Seite neben Ihrem Namen oder wird als Dropdown-Option angezeigt, wenn Sie auf Ihren Namen klicken.
 
-1. Um auf die Seite **Anmeldezugriff gewähren** in der [!DNL Salesforce Classic] -Benutzeroberfläche zuzugreifen, gehen Sie folgendermaßen vor:
+1. So greifen Sie auf die Seite **Anmeldezugriff gewähren** in [!DNL Salesforce Classic] Benutzeroberfläche zu:
 
-   * Klicken Sie auf **[!UICONTROL Setup]** > **[!UICONTROL Meine personenbezogenen Daten]** > **[!UICONTROL Gewähren des Anmeldezugriffs]**.
+   * Klicken Sie auf **[!UICONTROL Setup]** > **[!UICONTROL Meine persönlichen]** > **[!UICONTROL Anmeldezugriff gewähren]**.
 
-     ODER
+     OR
 
-   * Klicken Sie auf &quot;`<your name>`&quot;> &quot;**[!UICONTROL Meine Einstellungen]**&quot;> &quot;**[!UICONTROL Persönlich]**&quot;> &quot;**[!UICONTROL Gewähren des Kontoanmeldezugriffs]**&quot;.
+   * Klicken Sie auf `<your name>` > **[!UICONTROL Meine Einstellungen]** > **[!UICONTROL Persönlich]** > **[!UICONTROL Zugriff auf Kontoanmeldungen gewähren]**.
 
-1. Legen Sie das Ablaufdatum für den Zugriff auf [!UICONTROL Marketo Measure-Support] fest. Zur technischen Fehlerbehebung empfehlen wir, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche zu gewähren.
+1. Legen Sie das Ablaufdatum des Zugriffs für den [!UICONTROL Marketo Measure-Support] fest. Für die technische Fehlerbehebung empfehlen wir, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche zu gewähren.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Gewähren des Anmeldezugriffs beim Blitz [!DNL Salesforce] {#granting-login-access-in-salesforce-lightning}
+## Gewähren des Anmeldezugriffs in [!DNL Salesforce] Lightning {#granting-login-access-in-salesforce-lightning}
 
-1. Klicken Sie auf Ihren Avatar oben rechts im Bildschirm und wählen Sie **[!UICONTROL Einstellungen]** aus.
-1. Klicken Sie auf **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
-1. Legen Sie das Ablaufdatum für den Zugriff auf &quot;[!UICONTROL Marketo Measure-Support]&quot;fest. Zur technischen Fehlerbehebung empfehlen wir, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche zu gewähren.
+1. Klicken Sie auf Ihren Avatar oben rechts im Bildschirm und wählen Sie **[!UICONTROL Einstellungen]**.
+1. Klicken Sie **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
+1. Legen Sie das Ablaufdatum des Zugriffs für &quot;[!UICONTROL Marketo Measure-Support“ ]. Für die technische Fehlerbehebung empfehlen wir, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche zu gewähren.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

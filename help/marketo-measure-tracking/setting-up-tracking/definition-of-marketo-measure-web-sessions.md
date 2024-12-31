@@ -5,7 +5,7 @@ title: Definition von  [!DNL Marketo Measure] -Web-Sitzungen
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
 source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 100%
 

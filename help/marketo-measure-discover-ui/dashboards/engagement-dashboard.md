@@ -1,5 +1,5 @@
 ---
-description: Interaktions-Dashboard - [!DNL Marketo Measure]  - Produkt
+description: Interaktions-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Interaktions-Dashboard
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
@@ -12,60 +12,60 @@ ht-degree: 0%
 
 # Interaktions-Dashboard {#engagement-dashboard}
 
-Im Interaktionsdashboard werden Benutzerinteraktionsmetriken sorgfältig verfolgt. Es zeigt Touchpoints, die Anzahl der beteiligten Personen und die durchschnittlichen Touchpoints pro Person. Verwenden Sie das Balkendiagramm der Zeitreihen für eine monatliche, vierteljährliche oder jährliche Ansicht sowie das Balkendiagramm für detaillierte Einblicke in Kanal, Subkanal und Kampagne. Dieses Tool ist für das Verständnis der Interaktionsmuster und die Feinabstimmung Ihrer Interaktionsstrategien von wesentlicher Bedeutung.
+Das Interaktions-Dashboard verfolgt die Metriken der Benutzerinteraktion sorgfältig. Es zeigt Touchpoints, die Anzahl der interagierenden Personen und die durchschnittlichen Touchpoints pro Person. Verwenden Sie das Zeitreihen-Balkendiagramm für eine monatliche, vierteljährliche oder jährliche Ansicht und das Balkendiagramm für detaillierte Kanal-, Unterkanal- und Kampagnen-Insights. Dieses Tool ist wichtig, um Interaktionsmuster zu verstehen und Ihre Interaktionsstrategien zu optimieren.
 
-Wir verfolgen jede Kundeninteraktion als Benutzer-Touchpoints (UTs), die &quot;rohen&quot;erfassten Datenpunkte, die als Grundlage für Interaktionsmetriken in unserem Dashboard dienen. Nicht alle UTs entwickeln sich zu Käufer-Touchpoints (BT) oder Buyer Attribution-Touchpoints (BAT), da es sich hierbei um ausgewählte Ergebnisse für die Zuordnung bestimmter Kundeninteraktionen zu umsatzbezogenen Aktivitäten handelt. Beachten Sie, dass Unterdrückungsregeln keine Auswirkungen auf UTs oder das Interaktions-Dashboard haben.
+Wir verfolgen jede Kundeninteraktion als Benutzer-Touchpoints (UTs), die „rohen“ erfassten Datenpunkte, die als Grundlage für Interaktionsmetriken auf unserem Dashboard dienen. Nicht alle UTs entwickeln sich zu Buyer Touchpoints (BT) oder Buyer Attribution Touchpoints (BAT), da dies ausgewählte Ergebnisse sind, um bestimmte Kundeninteraktionen umsatzbezogenen Aktivitäten zuzuordnen. Beachten Sie, dass sich Unterdrückungsregeln nicht auf UTS oder das Interaktions-Dashboard auswirken.
 
-* **Benutzer-Touchpoints**: Touchpoints, die aus allen Interaktionen erstellt wurden.
-* **Touchpoints des Käufers**: Touchpoints, die für die Attribution &quot;Lead&quot;und &quot;Kontakt&quot;ausgewählt wurden. BT sind nicht mit Chancen verknüpft und haben keine zugehörigen Einnahmen.
-* **Touchpoints der Käuferzuordnung**: Touchpoints, die für die Opportunity-Attribution ausgewählt wurden. BAT haben Auswirkungen auf den Umsatz, da sie mit Chancen verbunden sind.
+* **Benutzer-Touchpoints**: Touchpoints, die aus allen Interaktionen erstellt werden.
+* **Käufer-Touchpoints**: Touchpoints ausgewählt für Lead- und Kontaktzuordnung. BT sind nicht mit Opportunities verknüpft und haben keinen zugehörigen Umsatz.
+* **Attribution-Touchpoints des Käufers**: Touchpoints für die Attribution von Opportunities ausgewählt. BAT wirkt sich auf den Umsatz aus, da sie mit Opportunitys verknüpft sind.
 
-Die Verwendung von nur BT oder BAT zur Messung der Interaktion würde das wahre Ausmaß der Kundeninteraktionen unterstreichen, da die Interaktion über die bloße Attribution hinausgeht.
+Die Verwendung von nur BT oder BAT zur Messung der Interaktion würde das wahre Ausmaß der Kundeninteraktionen unterbewerten, da die Interaktion breiter ist als nur die Attribution.
 
-Fragen zu den Antworten des Dashboards:
+Fragen, die das Dashboard beantwortet:
 
-* Wie viele Leute waren verlobt? Wie hoch ist die durchschnittliche Touchanzahl pro engagierter Person?
-* Wie unterscheidet sich die Anzahl der Touchpoints von Personen, die innerhalb eines bestimmten Kanals/Subkanals/einer bestimmten Kampagne auf einen Kontakt geklickt haben?
-* Wie viele Touchpoints gab es in einem bestimmten Kanal oder Subkanal? Wie hat sich das im Laufe der Zeit verändert?
+* Wie viele Leute waren verlobt? Wie viele Kontakte hat eine interagierende Person im Durchschnitt?
+* Wie hoch ist die Anzahl der Touchpoints im Vergleich zu Personen, die innerhalb eines bestimmten Kanals/Unterkanals/einer bestimmten Kampagne kontaktiert wurden?
+* Wie viele Touchpoints gab es in einem bestimmten Kanal oder Unterkanal? Wie hat sie sich im Laufe der Zeit verändert?
 
 >[!NOTE]
 >
->Die Interaktionsmetriken &quot;Konto&quot;und &quot;Chancen&quot;sind für die Veröffentlichung im ersten Halbjahr 2024 geplant.
+>Account- und Opportunity-Interaktionsmetriken sind für die Veröffentlichung im ersten Halbjahr 2024 geplant.
 
 ## Dashboard-Komponenten {#dashboard-components}
 
 ### KPI-Kacheln {#kpi-tiles}
 
 * Touchpoints: Die Gesamtzahl der generierten rohen Touchpoints.
-   * Touchpoints der Käuferzuordnung und Touchpoints der Käuferzuordnung sind Attributionsergebnisse, die durch Auswahl bestimmter Touchpoints für Gutschriften erstellt werden. Nicht alle Touchpoints sind als BT und BAT ausgewählt.
-* Touchpoints für Personen: Die Gesamtzahl der Personen mit Touchpoints.
-* Touchpoints pro Person: Durchschnittliche Anzahl der Touchpoints pro Person, die berührt wurden.
+   * Käufer-Touchpoints und Käufer-Attribution-Touchpoints sind Attributionsergebnisse, die durch die Auswahl bestimmter Touchpoints für eine Gutschrift erstellt werden. Nicht alle Touchpoints sind als BT und BAT ausgewählt.
+* Kontaktierte Personen: Die Gesamtzahl der Personen mit Touchpoints.
+* Touchpoints pro Person: Durchschnittliche Anzahl an Touchpoints pro Person, die kontaktiert wurden.
 
-### Touchpoints und Personen, die im Zeitverlauf berührt werden {#touchpoints-and-people-touched-over-time}
+### Kontaktpunkte und Personen im Zeitverlauf {#touchpoints-and-people-touched-over-time}
 
-Das Balkendiagramm der Zeitreihen zeigt die Anzahl der Touchpoints, Touchpoints für Personen und Touchpoints pro Person für jeden Monat, jedes Quartal und jedes Jahr.
+Das Zeitreihen-Balkendiagramm zeigt die Anzahl der Touchpoints, Personen, die kontaktiert wurden, und Touchpoints pro Person für jeden Monat, jedes Quartal und jedes Jahr an.
 
-* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
-* Bewegen Sie den Mauszeiger über eine Leiste oder Zeile, um detaillierte Informationen anzuzeigen.
+* Verwenden Sie die Aufschlüsselungs- und Nach-oben-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
+* Bewegen Sie den Mauszeiger über einen Balken oder eine Linie, um detaillierte Informationen anzuzeigen.
 
-Fragen zu den Grafikantworten:
+Fragen, die in der Tabelle beantwortet werden:
 
-* Wie hat sich die Anzahl der Touchpoints und Personen, die Touch erfahren haben, im Laufe der Zeit verändert?
-* Wie unterscheiden sich die Touchpoints pro Person von einem Quartal/Monat zum nächsten?
+* Wie hat sich die Anzahl der Touchpoints und Personen, die kontaktiert werden, im Laufe der Zeit entwickelt?
+* Wie sehen die Kontaktpunkte pro Person im Vergleich von einem Quartal/Monat zum nächsten aus?
 
 ![](assets/engagement-dashboard-1.png)
 
-### Touchpoints/Personen, die nach Kanal kontaktiert wurden {#touchpoints-people-touched-by-channel}
+### Touchpoints/Personen, die über einen Kanal kontaktiert werden {#touchpoints-people-touched-by-channel}
 
-Balkendiagramm mit Touchpoints oder Touch-Personen, segmentiert nach Kanal/Subkanal/Kampagne.
+Balkendiagramm mit Touchpoints oder nach Kanal/Unterkanal/Kampagne segmentierten Kontakten.
 
-* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Subchannel und Campaign zu kategorisieren.
-* Bewegen Sie den Mauszeiger über die einzelnen Balken, um die Touchpoints oder Personen anzuzeigen, die berührt wurden.
+* Verwenden Sie die Drilldown- und Nach-oben-Funktionen, um die Daten nach Unterkanal und Kampagne zu kategorisieren.
+* Bewegen Sie den Mauszeiger über jede Leiste, um die Touchpoints oder Personen mit Touchpoints anzuzeigen.
 
-Fragen zu den Grafikantworten:
+Fragen, die in der Tabelle beantwortet werden:
 
-* Welcher Kanal/Subkanal/welche Kampagne hat die höchste Interaktion erzielt?
-* Wie unterscheidet sich die Anzahl der Touchpoints von Personen, die innerhalb eines bestimmten Kanals/Subkanals/einer bestimmten Kampagne auf einen Kontakt geklickt haben?
+* Welcher Kanal/Unterkanal/welche Kampagne führte zu der größten Interaktion?
+* Wie hoch ist die Anzahl der Touchpoints im Vergleich zu Personen, die innerhalb eines bestimmten Kanals/Unterkanals/einer bestimmten Kampagne kontaktiert wurden?
 
 ![](assets/engagement-dashboard-2.png)
 
@@ -73,6 +73,6 @@ Fragen zu den Grafikantworten:
 
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
-* Datum (basierend auf dem Touchpoint-Datum)
-* Kanal, Subkanal
+* Datum (basierend auf Touchpoint-Datum)
+* Kanal, Unterkanal
 * Kampagne

@@ -17,20 +17,20 @@ ht-degree: 10%
 >
 >Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
 
-Eine der Kernfunktionen von [!DNL Marketo Measure] besteht darin, Ihre digitalen Marketingbemühungen durch Aktionen auf Ihrer Website zu verfolgen und diese Daten dann über Leads und Kontakte an Ihre Produktion zu senden [!DNL Salesforce org]. In der Regel werden jedoch keine eingehenden Leads von Ihrer Website innerhalb einer Sandbox-Integration erstellt, sodass der Fokus auf Daten von einer rein Offline-Perspektive aus liegt.
+Eine der [!DNL Marketo Measure] Kernfunktionen ist die Möglichkeit, Ihre digitalen Marketing-Maßnahmen durch Aktionen auf Ihrer Website zu verfolgen und diese Daten dann über Leads und Kontakte an Ihre [!DNL Salesforce org] zu übertragen. In der Regel werden jedoch keine eingehenden Leads von Ihrer Website innerhalb einer Sandbox-Integration erstellt, sodass der Datenfokus ausschließlich aus der Offline-Perspektive erfolgt.
 
-Im Folgenden finden Sie die beiden Quellen, auf die in beiden Testphasen verwiesen wird. [Schritte 1-4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&amp;language=en_US&amp;type=5) und [Schritte 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). Es wird empfohlen, diese Dokumente zu überprüfen, da sie in einigen Bereichen detaillierter sind.
+Im Folgenden finden Sie die beiden Quellen, die für beide Testphasen referenziert werden. [Schritte 1-](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&amp;language=en_US&amp;type=5) und [Schritte 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). Es wird empfohlen, diese Dokumente zu lesen, da sie in einigen Bereichen mehr Details enthalten.
 
-1. Sie müssen einige Leads in einer CSV-Datei erstellen, damit Sie sie in eine Kampagne hochladen können. Dies lässt sich erreichen, indem Sie einige Leads über einen Bericht in Ihrer Produktions-Salesforce exportieren. Andernfalls können Sie Leads in einer Excel-Datei manuell erstellen und dann als CSV-Datei für den Import speichern. Man braucht nur etwa 20 Datensätze. Die Datei muss die folgenden Spalten enthalten:
+1. Einige Leads müssen Sie in einer CSV-Datei erstellen, damit Sie sie in eine Kampagne hochladen können. Um dies zu erreichen, exportieren Sie einige Leads über einen Bericht in Ihrer Produktions-Salesforce. Andernfalls können Sie Leads manuell in einer Excel-Datei erstellen und diese dann als CSV zum Import speichern. Man braucht nur etwa 20 Datensätze. Die Datei muss die folgenden Spalten aufweisen:
 
    1. E-Mail
    1. Unternehmen
    1. Nachname
-   1. Vorname (optional, jedoch empfohlen)
+   1. Vorname (optional, aber empfohlen)
 
 1. Melden Sie sich bei Ihrer Sandbox-Umgebung an.
 1. Erstellen Sie eine Testkampagne. Verwenden Sie einen Kampagnentyp wie Ereignis oder Newsletter.
 1. Laden Sie nach der Erstellung der Kampagne Leads als Kampagnenmitglieder hoch, indem Sie **[!UICONTROL Mitglieder verwalten]** > **[!UICONTROL Mitglieder hinzufügen]** > **[!UICONTROL Dateien importieren]** auswählen.
-1. Nachdem dies abgeschlossen ist, wählen Sie im Campaign-Seitenlayout &quot;Käufer-Touchpoints aktivieren&quot;, bei dem es sich um ein Picklist-Feld handelt. Wählen Sie den Wert aus: **[!UICONTROL Alle Kampagnenmitglieder einschließen]**.
+1. Wenn dies abgeschlossen ist, kehren Sie zum Kampagnenseiten-Layout zurück und geben Sie „Käufer-Touchpoints aktivieren“ ein Auswahllistenfeld an. Wählen Sie den Wert: **[!UICONTROL Alle Kampagnenmitglieder einschließen]**.
 
-Danach wird eine Synchronisation zwischen [!DNL Marketo Measure] und [!DNL Salesforce] gestartet und Touchpoints auf die Lead-Datensätze angewendet. Es wird empfohlen, am nächsten Tag einen Bericht mit dem Namen &quot;Buyer Touchpoint on Leads&quot;im Ordner [!UICONTROL Touchpoints-Berichte des Käufers] auf der Registerkarte &quot;Berichte&quot;zurückzuchecken. Wenn der Bericht einen Touchpoint für jeden Lead ausfüllt, ist dies ein Zeichen für Erfolg.
+Danach wird eine Synchronisation zwischen [!DNL Marketo Measure] und [!DNL Salesforce] gestartet und Touchpoints werden auf die Lead-Datensätze angewendet. Wir empfehlen, am nächsten Tag einen Bericht mit dem Namen &quot;Buyer Touchpoint on Leads“ im Ordner &quot;[!UICONTROL  Touchpoints-Berichte“ auf ] Registerkarte „Berichte“ zu verwenden. Wenn der Bericht für jeden Lead einen Touchpoint ausfüllt, ist dies ein Zeichen für Erfolg.

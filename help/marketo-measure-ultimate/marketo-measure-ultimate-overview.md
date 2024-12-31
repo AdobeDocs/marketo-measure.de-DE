@@ -1,5 +1,5 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure]'
+description: Übersicht über [!DNL Marketo Measure] Ultimate - [!DNL Marketo Measure]
 title: '[!DNL Marketo Measure] Ultimate – Übersicht'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution

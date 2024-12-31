@@ -1,5 +1,5 @@
 ---
-description: Best Practices für die Aktivitätszuordnung - [!DNL Marketo Measure]
+description: Best Practices für Attributionsaktivitäten - [!DNL Marketo Measure]
 title: Best Practices für die Aktivitätszuordnung
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
@@ -14,43 +14,43 @@ ht-degree: 4%
 
 ## Überblick {#overview}
 
-Mit der Funktion &quot;[!DNL Marketo Measure] Aktivitätszuordnung&quot;können Kunden Touchpoints aus Aktivitätsdatensätzen in Ihrem CRM erstellen. Diese Methode zum Erstellen von Touchpoints ist flexibel. Damit können Sie Regeln erstellen, die auf den Feldern &quot;Aufgabe&quot;oder &quot;Ereignis&quot;basieren, um [!DNL Marketo Measure] darüber zu informieren, von welcher Aktivität Touchpoints erzeugt werden sollen und daher Zuordnungsgutschriften erhalten.
+Mit der Attributionsfunktion für [!DNL Marketo Measure] Aktivitäten können Kunden aus Aktivitätsdatensätzen in Ihrem CRM Touchpoints erstellen. Diese Methode zur Erstellung von Touchpoints ist flexibel. Damit können Sie auf der Grundlage von „Aufgabe“- oder „Ereignis“-Feldern Regeln erstellen, um [!DNL Marketo Measure] zu informieren, aus welchen Aktivitätsdatensätzen Touchpoints erzeugt werden sollen, und so Attributionsgutschriften zu erhalten.
 
-Der häufigste Anwendungsfall für diese Funktion ist das Erstellen von Regeln, die Interaktionen mit Verkäufen in Ihre Touchpoint-Daten des Käufers aufnehmen. Mithilfe der Aktivitätszuordnung können Sie Ihre Verkaufs- und Marketingdaten in einer Journey ausrichten.
+Der häufigste Anwendungsfall für diese Funktion besteht darin, Regeln zu erstellen, die Verkaufsinteraktionen in Ihre Käufer-Touchpoint-Daten integrieren. Die Attribution von Aktivitäten ermöglicht es Ihnen, Ihre Verkaufs- und Marketingdaten in einer Journey zusammenzufassen.
 
-Für viele [!DNL Salesforce] -Instanzen kann das Aktivitätsobjekt verschiedene Datensatztypen unterhalten. Daher ist es wichtig, dass Ihre Aktivitätsregeln spezifisch sind und auf die Datensätze zugeschnitten sind, die Sie in Touchpoints übersetzen möchten. Die folgenden Best Practices helfen Ihnen dabei sicherzustellen, dass Sie über Ihre Aktivitätszuordnung sinnvolle und wertvolle Touchpoints erstellen.
+In vielen [!DNL Salesforce] kann das Aktivitätsobjekt verschiedene Datensatztypen enthalten. Daher ist es wichtig, dass Ihre Aktivitätsregeln spezifisch und auf die Datensätze zugeschnitten sind, die Sie in Touchpoints übersetzen möchten. Mit den folgenden Best Practices können Sie über Ihre Attributionsaktivitäten aussagekräftige und wertvolle Touchpoints erstellen.
 
 ## Best Practices {#best-practice}
 
-Beachten Sie die folgenden Best Practices, unabhängig davon, ob Sie zum ersten Mal Aktivitätsregeln definieren oder nur zuvor eingerichtete Aktivitätsregeln überprüfen.
+Unabhängig davon, ob Sie Aktivitätsregeln zum ersten Mal definieren oder nur zuvor eingerichtete Aktivitätsregeln überprüfen, sollten Sie die folgenden Best Practices beachten.
 
 * Einfach starten
-   * Identifizieren Sie einige wichtige Aktivitätstypen, die Sie in Ihre [!DNL Marketo Measure] -Daten integrieren möchten, und fügen Sie dann weitere Typen hinzu, sobald Sie sich mit der Zuweisung dieser Touchpoints vertraut machen.
-   * Wie bereits erwähnt, besteht der primäre Anwendungsfall dieser Funktion darin, Touchpoints zu erstellen, die die Wirksamkeit Ihres Sales Development-Teams verfolgen, insbesondere ausgehende Telefonanrufe und ausgehende E-Mails.
+   * Identifizieren Sie einige wichtige Aktivitätstypen, die Sie in Ihre [!DNL Marketo Measure] integrieren möchten, und fügen Sie dann weitere Typen hinzu, wenn Sie sich mit der Zuweisung dieser Touchpoints vertraut machen
+   * Wie bereits erwähnt, besteht der primäre Anwendungsfall dieser Funktion darin, Touchpoints zu erstellen, die die Wirksamkeit Ihres Sales Development Teams verfolgen, insbesondere ausgehende Telefonanrufe und ausgehende E-Mails
 
 >[!NOTE]
 >
->Es wird **NOT** empfohlen, Verkaufsaktivitäten zu verfolgen, die nach der Erstellung der Chancen stattfinden, da das Tracking eines Prozesses für Vertriebsmitarbeiter keine großen Einblicke bietet. Das Ziel besteht darin, neben Marketing-Einflüssen den Einfluss der Verkäufe zu verfolgen, in erster Linie bei der Entwicklung einer neuen Opportunity/Pipeline-Generierung.
+>Es wird **NICHT** empfohlen, Vertriebsaktivitäten zu verfolgen, die nach der Erstellung der Opportunity erfolgen, da die Verfolgung eines Sales Executives-Prozesses nicht viele Einblicke bietet. Ziel ist es, den Vertriebseinfluss neben dem Marketing-Einfluss zu verfolgen, vor allem bei der Entwicklung einer neuen Opportunity-/Pipeline-Generation
 
 * Verwenden Sie keine Formelfelder, um Ihre Regeln zu definieren
-* Erstellen von Regeln, die spezifisch und präzise sind
-   * Die Schwelle für die Erstellung eines Aktivitäts-Touchpoints sollte mit der eines Formulars oder einer Kampagnenmitgliedschaft identisch (oder ähnlich) sein: Antworten auf ausgehende E-Mails oder abgeschlossene Telefonkonversationen
-* Immer neue Regeln in [!DNL Salesforce] validieren, bevor Sie speichern und verarbeiten
-   * Durch das Replizieren der Aktivitätsregeln in einem Berichtstyp &quot;Aufgaben und Ereignisse&quot;erhalten Sie ein klares Verständnis dafür, wie viele Touchpoints von der Regel stammen
-* Arbeiten mit Ihrem Sales Opt-Team
-   * Wenn Sie das Team einbinden, das am ehesten mit Ihren Aktivitätsdatensätzen oder dem Tool zur Verkaufsförderung zusammenarbeitet, stellen Sie sicher, dass Sie die richtigen Felder zum Definieren Ihrer Regeln verwenden
+* Erstellen Sie spezifische und präzise Regeln
+   * Der Schwellenwert für die Erstellung eines Aktivitäts-Touchpoints sollte mit dem Ausfüllen eines Formulars oder der Kampagnenmitgliedschaft übereinstimmen (oder ähnlich sein): Antworten auf eine ausgehende E-Mail oder abgeschlossene Telefongespräche
+* Vor dem Speichern und Verarbeiten neue Regeln in [!DNL Salesforce] immer validieren
+   * Durch die Replikation der Aktivitätsregeln in einem Berichtstyp „Aufgaben und Ereignisse“ erhalten Sie ein klares Verständnis davon, wie viele Touchpoints genau aus der Regel stammen
+* Arbeiten mit Ihrem Vertriebschancen-Team
+   * Wenn Sie das Team einbinden, das Ihrem Aktivitätsdatensatz oder Verkaufs-Aktivierungs-Tool am nächsten ist, stellen Sie sicher, dass Sie die richtigen Felder zum Definieren Ihrer Regeln verwenden
 
 ## Best Practices für die Wartung {#best-practice-for-maintenance}
 
-Durch die Überprüfung Ihrer Aktivitätszuordnungsregeln mindestens zweimal jährlich stellen Sie sicher, dass Ihre Aktivitäts-Touchpoints korrekt und auf dem neuesten Stand sind. Sie möchten sicherstellen, dass diese Regeln keine unerwünschten Touchpoints erstellen, die Ihre Käuferzuordnungsdaten verwässern. Eine Übersicht darüber, wie Ihre Regeln definiert werden, hilft Ihnen und Ihrem Team, sich auf Ihre Aktivitätszuordnung und ihre Rolle in Ihren [!DNL Marketo Measure] -Daten zu verlassen.
+Wenn Sie Ihre Attributionsregeln für Aktivitäten mindestens zweimal jährlich überprüfen, können Sie sicherstellen, dass Ihre Touchpoints für Aktivitäten korrekt und auf dem neuesten Stand sind. Sie sollten sicherstellen, dass diese Regeln keine unerwünschten Touchpoints erzeugen, die Ihre Käuferzuordnungsdaten verwässern. Eine Übersicht über die Definition Ihrer Regeln hilft Ihnen und Ihrem Team, sich mit Ihren Attributionsaktivitäten und ihrer Rolle in Ihren [!DNL Marketo Measure]-Daten vertraut zu machen.
 
-Andere Gründe dafür könnten eine Überprüfung Ihrer Aktivitätsregeln Trigger haben...
+Andere Gründe, die Trigger für eine Überprüfung Ihrer Aktivitätsregeln sein könnten, sind…
 
 * Wechsel in Ihrem Marketing-Team
 * Änderungen an Feldern, die zur Definition der Aktivitätsdatensätze verwendet werden
-* Änderungen oder Aktualisierungen an den Tools zur Verkaufsaktivierung
+* Änderungen oder Aktualisierungen Ihrer Sales Enablement Tools
 
 >[!MORELIKETHIS]
 >
->* [Aktivitätszuordnung](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
->* [FAQ zur Zuordnung von Verkaufsaktivitäten](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>* [Aktivitäten Attribution](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
+>* [Häufig gestellte Fragen zur Attribution von Vertriebsaktivitäten](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

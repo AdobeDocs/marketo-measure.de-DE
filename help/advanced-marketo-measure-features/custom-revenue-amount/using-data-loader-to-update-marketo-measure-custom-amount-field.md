@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874771
-description: Verwenden von Data Loader zum Aktualisieren des Felds  [!DNL Marketo Measure] Benutzerdefinierter Betrag - [!DNL Marketo Measure]
-title: Verwenden von Data Loader zum Aktualisieren des benutzerdefinierten Marketo Measure-Zahlenfelds
+description: Verwenden des Datenladers zum Aktualisieren  [!DNL Marketo Measure]  benutzerdefinierten Betragsfelds - [!DNL Marketo Measure]
+title: Verwenden des Datenladers zum Aktualisieren des benutzerdefinierten Marketo Measure-Betragsfelds
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
@@ -11,23 +11,23 @@ ht-degree: 2%
 
 ---
 
-# Verwenden von Data Loader zum Aktualisieren des Felds [!DNL Marketo Measure] benutzerspezifischer Betrag {#using-data-loader-to-update-marketo-measure-custom-amount-field}
+# Verwenden des Datenladers zum Aktualisieren [!DNL Marketo Measure] benutzerdefinierten Betragsfelds {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 
-[!DNL Marketo Measure] empfiehlt die Verwendung von Data Loader als praktische Option zum Aktualisieren von Opportunitätswerten bei der Verwendung eines benutzerdefinierten Umsatzfelds (wir verwenden das Feld &quot;Betrag&quot;standardmäßig) in [!DNL Marketo Measure]. Data Loader wird gegenüber dem Update-Skript [!DNL Marketo Measure] bevorzugt, da für das Skript Benutzer alle Salesforce-Validierungsregeln deaktivieren müssen, während das Skript [!DNL Marketo Measure] ausgeführt wird.
+[!DNL Marketo Measure] empfiehlt die Verwendung von Data Loader als praktische Option, um Opportunity-Werte zu aktualisieren, wenn ein benutzerdefiniertes Umsatzfeld in [!DNL Marketo Measure] verwendet wird (wir verwenden das Feld „Betrag“ standardmäßig). Data Loader wird gegenüber der Verwendung des [!DNL Marketo Measure]-Aktualisierungsskripts bevorzugt, da die Benutzenden für das Skript alle Salesforce-Validierungsregeln deaktivieren müssen, während das [!DNL Marketo Measure] ausgeführt wird.
 
-## Verwenden von Data Loader zum Aktualisieren des Felds [!DNL Marketo Measure] benutzerspezifischer Betrag{#using-data-loader-to-update-marketo-measure-custom-amount-field-1}
+## Verwenden des Datenladers zum Aktualisieren [!DNL Marketo Measure] benutzerdefinierten Betragsfelds{#using-data-loader-to-update-marketo-measure-custom-amount-field-1}
 
-1. Erstellen Sie ein Excel-Blatt mit den folgenden Elementen:
+1. Erstellen Sie ein Excel-Arbeitsblatt mit:
 
    * Opportunity-ID
-   * Feld &quot;Benutzerdefinierter Opportunity-Betrag&quot;(Feld für Ihren bevorzugten Umsatz)
-   * [!DNL Marketo Measure] Feld &quot;Opportunity Amount&quot;
+   * Benutzerdefiniertes Feld für Opportunity-Betrag (Feld für den bevorzugten Umsatz)
+   * [!DNL Marketo Measure] Feld Opportunity-Betrag
 
-1. Kopieren Sie die Werte aus Ihrem bevorzugten Umsatzfeld und fügen Sie sie in das Feld [!UICONTROL [!DNL Marketo Measure] Opportunity Amount] ein. Aktualisieren Sie dann diese Optionen mithilfe der CSV-Datei.
+1. Kopieren Sie die Werte aus dem Feld Bevorzugter Umsatz und fügen Sie sie in das Feld [!UICONTROL [!DNL Marketo Measure] Opportunity-] ein. Aktualisieren Sie dann diese Opportunities mithilfe der CSV-Datei .
 
-**_Alternativ können Sie Salesforce aufrufen und eine benutzerdefinierte Listenansicht verwenden, um alle Möglichkeiten massenweise zu bearbeiten..._**
+**_Alternativ können Sie zu Salesforce wechseln und eine benutzerdefinierte Listenansicht verwenden, um alle Opportunities massenweise zu bearbeiten…_**
 
-1. Erstellen Sie eine benutzerdefinierte Listenansicht für alle Möglichkeiten.
-1. Das Feld &quot;Filter für das bevorzugte Umsatzfeld hinzufügen&quot;ist nicht leer _und das Feld_ [!UICONTROL Marketo] &quot;Wert für die Mglichkeitsbewertung&quot;ist leer.
-1. Klicken Sie auf **[!UICONTROL Massenbearbeitung]**, aber ändern Sie nichts.
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Dadurch wird der Workflow Trigger, die Felder [!DNL Marketo Measure] &quot;Opportunity Amount&quot;mit dem Feld Softwareumsatz zu füllen.
+1. Erstellen Sie eine benutzerdefinierte Listenansicht für alle Opportunities.
+1. Filter für das Feld „Bevorzugter Umsatz“ hinzufügen ist nicht leer _und das Feld_ 2}Marketo] Opportunity-Betrag messen ist leer.[!UICONTROL 
+1. Klicken Sie **[!UICONTROL Massenbearbeitung]** ändern Sie jedoch nichts.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Dadurch wird der Workflow so Trigger, dass die Felder für den Betrag der [!DNL Marketo Measure] Opportunity mit dem Feld „Software-Umsatz“ ausgefüllt werden.

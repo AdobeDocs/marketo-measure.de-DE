@@ -5,23 +5,23 @@ type: Documentation
 git-repo: https://github.com/AdobeDocs/marketo-measure.de-DE
 index: true
 source-git-commit: ce2ce5c5652d4067f50e88b062d7d951b645d93b
-workflow-type: ht
-source-wordcount: '111'
+workflow-type: tm+mt
+source-wordcount: '109'
 ht-degree: 100%
 
 ---
 
 
-# Metadaten für den internen Gebrauch.
+# Metadaten für die interne Verwendung
 
-Die Datei „metadata.md“ enthält Metadaten auf Repository-Ebene, die an die für Benutzerhandbücher verwendeten Dateien namens „TOC.md“ im Repository übergeben werden. Änderungen des Inhalts von „metadata.md“ für ein Benutzerhandbuch können Sie bei Bedarf in der entsprechenden TOC.md-Datei vornehmen.
+Die Datei metadata.md enthält Metadaten auf Repo-Ebene, die an die TOC.md-Dateien des Benutzerhandbuchs im Repo weitergegeben werden. Wenn Sie den Inhalt von metadata.md für ein Benutzerhandbuch ändern möchten, tun Sie dies in einer beliebigen TOC.md-Datei.
 
-| Metadaten | Funktion |
+| metadata | was es macht |
 |--- |--- |
-| solution-title | Wird in der Artikelüberschrift als Link verwendet. |
-| solution-hub-url | Öffnet die Helpx-Hub-Seite. |
-| solution-image | Zeigt das Lösungssymbol neben dem Lösungstitel an. Noch nicht implementiert. |
-| getting-started-url | Link zur Helpx-Seite „Erste Schritte“. |
-| tutorials-url | Link zu Video-Tutorials – entweder Helpx-Tutorials oder KT-Tutorials. |
-| mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. Standard ist 2. |
-| git-repo | Gibt den Speicherort des Master-Repositorys für die interne Verwendung an. |
+| solution-title | Wird in der Artikelkopfzeile als Link verwendet |
+| solution-hub-url | Öffnet die helpx-Hub-Seite |
+| solution-image | Zeigt Lösungssymbol neben dem Titel der Lösung an. Noch nicht implementiert |
+| getting-started-url | Link zur Startseite Erste Schritte von helpx |
+| tutorials-url | Link zu Video-Übungen – entweder Helpx-Übungen oder KT-Übungen |
+| mini-toc-levels | Legt fest, wie viele Überschriftenebenen in der rechten Leiste angezeigt werden. Standardwert ist „2“ |
+| git-repo | Gibt den Speicherort der Master-Repo für die interne Verwendung an. |

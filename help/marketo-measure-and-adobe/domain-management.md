@@ -1,5 +1,5 @@
 ---
-description: Domänenverwaltung - [!DNL Marketo Measure]
+description: Domain-Verwaltung - [!DNL Marketo Measure]
 title: Domänenverwaltung
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
@@ -12,55 +12,55 @@ ht-degree: 1%
 
 # Domänenverwaltung {#domain-management}
 
-Für IMS-fähige Mandanten, die [!DNL Marketo Measure] in der Experience Cloud-Oberfläche ausführen, stellt [!DNL Marketo Measure] eine Schnittstelle bereit, über die Benutzer ihre eigene Domänenliste verwalten können. [!DNL Marketo Measure] -Benutzer müssen zunächst alle Domänen überprüfen, die sie in der [Adobe Admin Console](https://adminconsole.adobe.com/) verfolgen möchten. Sobald Domänen in der Admin Console verifiziert sind, können Benutzer verwalten, ob [!DNL Marketo Measure] diese Domänen zur Verfolgung des Website-Traffics verwendet.
+Für IMS-aktivierte Mandanten, die [!DNL Marketo Measure] in der Experience Cloud-Oberfläche ausgeführt werden, bietet [!DNL Marketo Measure] eine Schnittstelle, mit der Benutzende ihre eigene Liste von Domains verwalten können. [!DNL Marketo Measure] Benutzer müssen zunächst alle Domains überprüfen, die sie in der [Adobe Admin Console verfolgen ](https://adminconsole.adobe.com/). Sobald Domains in der Admin Console überprüft wurden, können Benutzende verwalten, ob [!DNL Marketo Measure] diese Domains zum Tracking des Website-Traffics verwendet.
 
-## Hinzufügen von Domänen in Admin Console {#adding-domains-in-admin-console}
+## Hinzufügen von Domains in Admin Console {#adding-domains-in-admin-console}
 
-IMS-Benutzer mit Zugriff auf Adobe Admin Console können eigene Domänen hinzufügen und validieren. Die Domänenvalidierung umfasst das Hinzufügen eines DNS-Eintrags für jede Domäne und die anschließende Überprüfung dieses Datensatzes durch die Admin Console.
+IMS-Benutzende mit Zugriff auf die Adobe Admin Console können Domains hinzufügen und validieren, deren Inhaber sie sind. Die Domain-Validierung umfasst das Hinzufügen eines DNS-Eintrags für jede Domain und das anschließende Überprüfen dieses Eintrags durch die Admin Console.
 
 ![](assets/domain-management-1.png)
 
-Anweisungen zum Hinzufügen von Domänen finden Sie in der [Dokumentation zur Admin Console](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Nachdem eine Domäne hinzugefügt wurde, muss sie [mit einem Verzeichnis](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies) verknüpft sein.
+Anweisungen zum Hinzufügen von Domains finden Sie in der Dokumentation zu [Admin Console](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Nachdem eine Domain hinzugefügt wurde, muss sie [mit einem Verzeichnis verknüpft](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
-## Verwalten von Domänen in [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
+## Verwalten von Domains in [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
-Nachdem der Admin Console eine Domäne hinzugefügt wurde, synchronisiert [!DNL Marketo Measure] diesen Datensatz regelmäßig mit der Datenbank. Diese Synchronisierung findet nächtlich statt, und auch jedes Mal, wenn ein Benutzer die Seite **[!UICONTROL Domänen]** in der Benutzeroberfläche von [!DNL Marketo Measure] besucht. Standardmäßig sind alle von [!DNL Marketo Measure] importierten Datensätze deaktiviert und der Mandant muss jede Domäne manuell aktivieren.
+Nachdem eine Domain zur Admin Console hinzugefügt wurde, synchronisiert [!DNL Marketo Measure] diesen Datensatz regelmäßig mit der Datenbank. Diese Synchronisierung erfolgt nächtlich und auch jedes Mal, wenn ein Benutzer die Seite **[!UICONTROL Domains]** in der [!DNL Marketo Measure]-Benutzeroberfläche besucht. Standardmäßig sind alle Datensätze, die importiert [!DNL Marketo Measure], deaktiviert, und der Mandant muss jede Domain manuell aktivieren.
 
 ![](assets/domain-management-2.png)
 
-Auf der Seite **[!UICONTROL Integration]** > **[!UICONTROL Domänen]** werden dem Benutzer alle Domänen angezeigt, die er in der Admin Console registriert hat, sowie ihr Status. Jede Domäne kann aktiviert oder deaktiviert werden. Wenn eine Domäne aktiviert ist, erfasst das [!DNL Marketo Measure]-Tracking sämtlichen Traffic, der in dieser Domäne angezeigt wird. Wenn eine Domäne deaktiviert ist, ignoriert [!DNL Marketo Measure] jeglichen Traffic, der von dieser Domäne stammt, und erstellt keine Touchpoints oder anderen Daten. [!DNL Marketo Measure] bestätigt die Deaktivierung einer Domäne und warnt vor möglichen Auswirkungen:
+Auf der Seite **[!UICONTROL Integration]** > **[!UICONTROL Domains]** werden alle Domains, die sie in der Admin Console registriert haben, zusammen mit ihrem Status angezeigt. Jede Domain kann aktiviert oder deaktiviert werden. Wenn eine Domain aktiviert ist, erfasst [!DNL Marketo Measure] Tracking sämtlichen Traffic, der in dieser Domain angezeigt wird. Wenn eine Domain deaktiviert ist, ignoriert [!DNL Marketo Measure] jeglichen Traffic von dieser Domain und erstellt keine Touchpoints oder anderen Daten. [!DNL Marketo Measure] bestätigt die Deaktivierung einer Domain und warnt vor etwaigen Auswirkungen:
 
 ![](assets/domain-management-3.png)
 
-Die Auswirkungen des Umschalgens auf eine Domäne sind unmittelbar und die Änderungen sind nicht rückwirkend. In Zukunft löscht [!DNL Marketo Measure] nach einem bestimmten Zeitraum Daten aus deaktivierten Domänen.
+Das Umschalten einer Domain hat sofortige Auswirkungen, und Änderungen sind nicht rückwirkend. In Zukunft werden [!DNL Marketo Measure] nach einem festgelegten Zeitraum Daten aus deaktivierten Domains löschen.
 
 ## Status {#statuses}
 
-Der Status der Admin Consolen wird wie folgt kategorisiert:
+Admin Console-Status werden wie folgt kategorisiert:
 
-* **VALIDATED**: Diese Domäne wird in Admin Console überprüft.
-* **UNVERIFIED**: Diese Domäne ist in Admin Console nicht vollständig verifiziert und kann in [!DNL Marketo Measure] nicht verfolgt werden.
-* **UNGÜLTIG**: Diese Domäne ist möglicherweise abgelaufen oder wurde aus der Admin Console entfernt. Tracking-Daten in [!DNL Marketo Measure] werden zum Löschen markiert
-* **LEGACY**: Diese Domäne wurde in [!DNL Marketo Measure] erstellt und ist nicht in der Admin Console vorhanden
+* **VALIDIERT**: Diese Domain wird in der Admin Console überprüft
+* **UNVERIFIED**: Diese Domain ist in der Admin Console nicht vollständig verifiziert und kann in [!DNL Marketo Measure] nicht verfolgt werden
+* **UNGÜLTIG**: Diese Domain ist möglicherweise abgelaufen oder wurde aus der Admin Console entfernt. Tracking-Daten in [!DNL Marketo Measure] sind zum Löschen gekennzeichnet
+* **LEGACY**: Diese Domain wurde in [!DNL Marketo Measure] erstellt und existiert nicht in der Admin Console
 
-Der Tracking-Status kann wie folgt lauten:
+Tracking-Status können wie folgt lauten:
 
-* **AKTIV**: [!DNL Marketo Measure] erhält Daten von dieser Domäne
-* **DEABLED**: Diese Domäne kann verfolgt werden, ist jedoch deaktiviert.
-* **UNAVAILABLE**: Diese Domäne ist nicht für das Tracking verfügbar, da sie nicht verifiziert wurde.
+* **ACTIVE**: [!DNL Marketo Measure] empfängt Daten von dieser Domain
+* **DEAKTIVIERT**: Diese Domäne ist für das Tracking verfügbar, aber deaktiviert
+* **NICHT VERFÜGBAR**: Diese Domain steht für das Tracking nicht zur Verfügung, da sie nicht verifiziert ist
 
-Wenn Sie den Mauszeiger über ein einzelnes Statuselement bewegen, wird eine QuickInfo Trigger, in der dieser Status näher erläutert wird.
+Wenn Sie den Mauszeiger über ein einzelnes Statuselement bewegen, wird eine QuickInfo angezeigt, in der dieser Trigger näher erläutert wird.
 
 ## FAQs {#faq}
 
-**Was passiert, wenn eine Domäne in der Admin Console entfernt wird?**
+**Was passiert, wenn eine Domain aus der Admin Console entfernt wird?**
 
-Wenn eine Domäne in der Admin Console entfernt wird, markiert [!DNL Marketo Measure] die Domäne als gelöscht. [!DNL Marketo Measure] stoppt sofort das Traffic-Tracking in dieser Domäne, entfernt jedoch keine zuvor erfassten Daten.
+Wenn eine Domain aus der Admin Console entfernt wird, markiert [!DNL Marketo Measure] die Domain als gelöscht. [!DNL Marketo Measure] stoppt sofort die Verfolgung des Traffics auf dieser Domain, entfernt jedoch keine zuvor erfassten Daten.
 
-**Warum kann ich eine Domäne nicht aktivieren?**
+**Warum kann ich eine Domain nicht aktivieren?**
 
-Es gibt verschiedene Gründe, warum eine Domäne auf dieser Seite möglicherweise nicht ausgewählt werden darf. Wenn die Domäne nicht in der Admin Console validiert wird, ist sie in [!DNL Marketo Measure] nicht verfügbar. Wenn die Domäne einer anderen Adobe-Org als dem aktuellen [!DNL Marketo Measure] -Mandanten gehört, kann sie nicht ausgewählt werden.
+Es gibt verschiedene Gründe, warum eine Domain auf dieser Seite nicht ausgewählt werden kann. Wenn die Domain in der Admin Console nicht validiert wurde, ist sie in [!DNL Marketo Measure] nicht verfügbar. Wenn die Domain einer anderen Adobe-Organisation als der aktuelle [!DNL Marketo Measure] gehört, kann sie ebenfalls nicht ausgewählt werden.
 
-**Wie kann ich eine Domäne aus dieser Liste entfernen?**
+**Wie entferne ich eine Domain aus dieser Liste?**
 
-Wenn für eine Domäne der Schalter &quot;Aktiviert&quot;deaktiviert ist, ignoriert [!DNL Marketo Measure] sie und wird effektiv aus [!DNL Marketo Measure] entfernt. Um eine Domäne dauerhaft aus [!DNL Marketo Measure] zu entfernen, müssen Sie sie in [!DNL Marketo Measure] deaktivieren und sie dann aus der Admin Console entfernen.
+Wenn für eine Domain der Schalter „enabled“ deaktiviert ist, ignoriert [!DNL Marketo Measure] ihn und er wird effektiv aus [!DNL Marketo Measure] entfernt. Um eine Domain dauerhaft aus [!DNL Marketo Measure] zu entfernen, müssen Sie sie in [!DNL Marketo Measure] deaktivieren und dann aus der Admin Console entfernen.

@@ -1,5 +1,5 @@
 ---
-description: ROI-Dashboard - [!DNL Marketo Measure]  - Produkt
+description: ROI Dashboard - [!DNL Marketo Measure] - Produkt
 title: ROI-Dashboard
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
@@ -12,66 +12,66 @@ ht-degree: 3%
 
 # ROI-Dashboard {#roi-dashboard}
 
-Das ROI-Dashboard bietet Marketing-Experten einen detaillierten Überblick über die Investitionsrenditen über Kanäle, Unterkanäle und Kampagnen hinweg. Sie schlüsselt Kosten- und Umsatzmuster sorgfältig auf und zeigt gleichzeitig Metriken wie Kosten-pro-Interessent-, Deal- und Opportunities auf, um ein umfassendes Verständnis der Marketing-Attribution zu gewährleisten.
+Das ROI-Dashboard bietet Marketing-Experten einen detaillierten Überblick über die Investitionsrenditen in Kanälen, Unterkanälen und Kampagnen. Sie schlüsselt Kosten- und Umsatzmuster akribisch auf und beleuchtet Metriken wie Kosten pro Lead, Abschluss und Opportunity und stellt so ein umfassendes Verständnis der Marketing-Attribution sicher.
 
-**Fragen, die die Pinnwand beantwortet**
+**Fragen, die das Board beantwortet**
 
-* Wie hoch waren die ROI-Werte für jeden Kanal, jeden Unterkanal und jede Kampagne?
-* Wie wurden die Kosten und Einnahmen auf die einzelnen Kanäle, Unterkanäle und Kampagnen verteilt?
-* Was waren die Kosten pro Lead, Kosten pro Deal und Kosten pro Opportunity?
+* Wie lauteten die ROI-Werte für jeden Kanal, Unterkanal und jede Kampagne?
+* Wie verteilten sich Kosten und Einnahmen auf die einzelnen Kanäle, Unterkanäle und Kampagnen?
+* Was waren die Kosten pro Lead, Kosten pro Abschluss und Kosten pro Vertriebschance?
 
 ## Dashboard-Komponenten {#dashboard-components}
 
 ### KPI-Kacheln {#kpi-tiles}
 
-* **Kosten**: Gesamtkosten aus verbundenen Datenquellen und manuell hochgeladene Kosten.
-* **Zugewiesener Umsatz**: Der gesamte Umsatzbeitrag, basierend auf dem ausgewählten Attributionsmodell, aus Chancen mit Touchpoints, die innerhalb des gefilterten Datumszeitraums geschlossen wurden.
-* **Erzielter zugewiesener Umsatz**: Der Gesamtumsatzbeitrag, der auf Grundlage des ausgewählten Attributionsmodells aus Chancen mit Touchpoints innerhalb des gefilterten Datumszeitraums stammt, unabhängig davon, wann sie geschlossen wurden.
-* **Gesamtzahl neuer Leads**: Gesamtzahl der neu generierten Leads, einschließlich sowohl berührter als auch unberührter Leads.
-* **Kosten pro neuem Lead**: Die durchschnittlichen Kosten pro neuem Lead, abgeleitet aus den Gesamtkosten geteilt durch die Gesamtzahl neuer Leads.
-* **Neue Chancen insgesamt**: Gesamtzahl der neu geschaffenen Chancen, einschließlich sowohl berührter als auch unberührter Chancen.
-* **Kosten pro neuer Chance**: Die durchschnittlichen Kosten pro neuer Chance, abgeleitet aus den Gesamtkosten geteilt durch die Gesamtzahl neuer Chancen.
-* **Gesamtsumme der Angebote**: Die Anzahl der &quot;geschlossenen Gewinnen&quot;-Chancen, einschließlich Chancen ohne Touchpoints.
-* **Einfacher ROI**: Zugewiesener Umsatz dividiert durch Kosten im gefilterten Datumszeitraum.
-* **Realized ROI**: Realisierte, zurechenbare Einnahmen dividiert durch Kosten im gefilterten Datumszeitraum.
+* **Kosten**: Gesamtkosten aus verbundenen Datenquellen und manuell hochgeladenen Kosten.
+* **Attributierter Umsatz** Der Gesamtumsatzbeitrag, basierend auf dem ausgewählten Attributionsmodell, von Opportunities mit Touchpoints, die innerhalb des gefilterten Datumszeitraums geschlossen wurden.
+* **Realisierter zugewiesener Umsatz**: Der Gesamtumsatzbeitrag, basierend auf dem ausgewählten Attributionsmodell, von Opportunitys mit Touchpoints innerhalb des gefilterten Datumszeitraums, unabhängig davon, wann sie geschlossen wurden.
+* **Total New Leads**: Gesamtzahl der neu generierten Leads, einschließlich sowohl kontaktierter als auch nicht kontaktierter Leads.
+* **Kosten pro neuem Lead**: Die durchschnittlichen Kosten pro neuem Lead, abgeleitet von den Gesamtkosten dividiert durch die Gesamtzahl neuer Leads.
+* **Total New Opportunities**: Gesamtzahl der neu generierten Opportunitys, einschließlich sowohl kontaktierter als auch unberührter Opportunitys.
+* **Kosten pro neuer Opportunity**: Die durchschnittlichen Kosten pro neuer Opportunity, abgeleitet von den Gesamtkosten dividiert durch die Gesamtzahl neuer Opportunitys.
+* **Abschlüsse insgesamt**: Die Anzahl der „abgeschlossenen gewonnenen“ Opportunitys, einschließlich Opportunitys ohne Touchpoints.
+* **Einfacher ROI**: Attributierter Umsatz dividiert durch die Kosten in der gefilterten Datumsperiode.
+* **Realisierter ROI**: Realisierter zugewiesener Umsatz dividiert durch die Kosten im gefilterten Datumsbereich.
 
 ![](assets/roi-dashboard-1.png)
 
 ### Kosten und Umsatz nach Kanaldiagramm {#cost-and-revenue-by-channel-graph}
 
-Balkendiagramm zur Darstellung von Kosten und Umsatz, das eine vergleichende Sicht auf die Größenordnung der Balken in Bezug auf verschiedene Kanäle, Unterkanäle und Kampagnen bietet.
+Balkendiagramm, das die Kosten und den Umsatz darstellt und eine vergleichende Perspektive auf ihre Größe in Bezug auf verschiedene Kanäle, Unterkanäle und Kampagnen bietet.
 
-* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Subchannel und Campaign zu kategorisieren.
-* Bewegen Sie den Mauszeiger über die einzelnen Balken, um die einfachen und realisierten ROIs anzuzeigen.
+* Verwenden Sie die Drilldown- und Nach-oben-Funktionen, um die Daten nach Unterkanal und Kampagne zu kategorisieren.
+* Bewegen Sie den Mauszeiger über jede Leiste, um die einfachen und realisierten ROIs anzuzeigen.
 
-**Fragen der Diagrammantworten**
+**Fragen in der Grafik beantworten**
 
-* Wie hoch waren die ROI-Werte für jeden Kanal, jeden Unterkanal und jede Kampagne?
-* Gibt es Ausreißer-Kanäle oder Subkanäle mit ungewöhnlich hohen oder niedrigen Kosten im Verhältnis zum Umsatz?
+* Wie lauteten die ROI-Werte für jeden Kanal, Unterkanal und jede Kampagne?
+* Gibt es Ausreißer-Kanäle oder Unterkanäle mit ungewöhnlich hohen oder niedrigen Kosten im Verhältnis zu ihrem Umsatz?
 
 ![](assets/roi-dashboard-2.png)
 
-### Realisierter und einfacher ROI im Zeitverlauf {#realized-vs-simple-roi-over-time}
+### Realisierter vs. einfacher ROI im Zeitverlauf {#realized-vs-simple-roi-over-time}
 
-Zeitreihenliniendiagramm, das den Vergleich zwischen realisiertem und einfachem ROI anzeigt und deren Fortschritt im Zeitverlauf verfolgt.
+Zeitreihen-Liniendiagramm, das den Vergleich zwischen realisiertem und einfachem ROI anzeigt und deren Fortschritt im Zeitverlauf verfolgt.
 
 * Bewegen Sie den Mauszeiger über einen Abschnitt im Diagramm, um die einfachen und realisierten ROIs anzuzeigen.
 
-**Fragen der Diagrammantworten**
+**Fragen in der Grafik beantworten**
 
-* Wie unterscheidet sich der realisierte ROI von dem einfachen ROI über bestimmte Zeiträume?
-* Wie steht der Trend des realisierten ROI zu signifikanten Marketing-Ereignissen im selben Zeitraum?
+* Wie lässt sich der realisierte ROI mit dem einfachen ROI über bestimmte Zeiträume vergleichen?
+* In welchem Zusammenhang steht der Trend der realisierten ROI mit wichtigen Marketing-Ereignissen im selben Zeitraum?
 
 ![](assets/roi-dashboard-3.png)
 
-### Zeitverlaufsdiagramm {#cost-over-time-graph}
+### Diagramm zu Kosten im Zeitverlauf {#cost-over-time-graph}
 
-Gestapeltes Balkendiagramm mit Gesamtkosten, segmentiert nach verknüpften Kanälen für jeden Monat/Quartal/Jahr.
+Gestapeltes Balkendiagramm mit den Gesamtkosten, segmentiert nach zugehörigen Kanälen für jeden Monat/Quartal/Jahr.
 
-* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
+* Verwenden Sie die Aufschlüsselungs- und Nach-oben-Funktionen, um die Daten nach Monat, Quartal oder Jahr zu kategorisieren.
 * Bewegen Sie den Mauszeiger über ein Balkensegment oder den Abstand zwischen Balken, um detaillierte Informationen anzuzeigen.
 
-**Fragen der Diagrammantworten**
+**Fragen in der Grafik beantworten**
 
 * Wie vergleichen sich die Gesamtkosten aller Kanäle von einem Quartal/Monat zum nächsten?
 * Wie haben sich die Kosten für einen bestimmten Kanal im Laufe der Zeit entwickelt?
@@ -80,48 +80,48 @@ Gestapeltes Balkendiagramm mit Gesamtkosten, segmentiert nach verknüpften Kanä
 
 ### Kosten nach Kanaldiagramm {#cost-by-channel-graph}
 
-Balkendiagramm mit den nach Kanal/Subkanal/Kampagne segmentierten Marketingausgaben.
+Balkendiagramm mit einer Darstellung der Marketingausgaben nach Kanal/Unterkanal/Kampagne.
 
-* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Kanal/Subkanal/Kampagne zu kategorisieren.
+* Verwenden Sie die Drill-down- und Up-Funktionen, um die Daten nach Kanal/Unterkanal/Kampagne zu kategorisieren.
 
-**Fragen der Diagrammantworten**
+**Fragen in der Grafik beantworten**
 
-* Welche Unterkanäle oder Kampagnen innerhalb eines primären Kanals weisen die höchste Zuordnung auf?
-* Welche Marketing-Wege (Kanal, Unterkanal oder Kampagne) scheinen im Vergleich zu anderen unterfinanziert?
+* Welche Unterkanäle oder Kampagnen innerhalb eines primären Kanals haben die höchste Zuordnung?
+* Welche Marketing-Möglichkeiten (Kanal, Unterkanal oder Kampagne) scheinen im Vergleich zu anderen unterfinanziert zu sein?
 
 ![](assets/roi-dashboard-5.png)
 
 ### ROI-Zusammenfassungstabelle {#roi-summary-table}
 
-Tabelle mit zurechenbaren Einnahmen, Kosten und ROI, segmentiert nach einzelnen Kanälen, für eine detaillierte Aufschlüsselung.
+Tabelle mit zugeordneten Einnahmen, Kosten und ROI, nach einzelnen Kanälen segmentiert, für eine detaillierte Aufschlüsselung.
 
-* Klicken Sie auf das &quot;+&quot;-Symbol neben jedem Kanal, um die Aufschlüsselung nach Subkanal und Kampagne anzuzeigen.
+* Klicken Sie auf das Symbol &quot;+&quot; neben jedem Kanal, um die Aufschlüsselung nach Unterkanal und Kampagne anzuzeigen.
 
 **Spalten**
 
-* Kanal/Subkanal/Kampagne
+* channel/subchannel/campaign
 * Kosten
 * Attributierter Umsatz
-* Realisierte zugewiesene Umsätze
+* Realisierter zugewiesener Umsatz
 * Einfacher ROI
 * Realisierter ROI
-* Nicht realisierter zugewiesener Pipeline-Umsatz: Pipeline-Umsatz in Verbindung mit Touchpoints (Open Opportunities), die innerhalb des gefilterten Datumszeitraums erstellt wurden.
+* Nicht realisierter zugewiesener Pipeline-Umsatz : Pipeline-Umsatz in Verbindung mit Touchpoints (offene Vertriebschancen), die innerhalb des Zeitraums mit gefiltertem Datum erstellt wurden.
 
-### Tabelle der Marketing-Ausgaben {#marketing-spend-table}
+### Marketing-Ausgabentabelle {#marketing-spend-table}
 
-Tabelle mit Kosten, neuen Leads, Chancen und Angeboten, die nach einzelnen Kanälen segmentiert sind, für eine detaillierte Aufschlüsselung.
+Tabelle mit Kosten, neuen Leads, Vertriebschancen und Abschlüssen, die nach einzelnen Kanälen segmentiert sind, für eine detaillierte Aufschlüsselung.
 
-* Klicken Sie auf das &quot;+&quot;-Symbol neben jedem Kanal, um die Aufschlüsselung nach Subkanal und Kampagne anzuzeigen.
+* Klicken Sie auf das Symbol &quot;+&quot; neben jedem Kanal, um die Aufschlüsselung nach Unterkanal und Kampagne anzuzeigen.
 
 **Spalten**
 
-* Kanal/Subkanal/Kampagne
+* channel/subchannel/campaign
 * Kosten
 * New Leads
 * Kosten pro neuem Lead
 * Neue Chancen
-* Kosten pro neuer Chance
-* Abschlüsse
+* Kosten pro neuer Opportunity
+* Angebote
 * Kosten pro Abschluss
 
 ## Filterbereich {#filter-pane}
@@ -130,16 +130,16 @@ Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
 * Datum
    * Basierend auf:
-      * Erstellungsdatum: News Leads, neue Chancen
-      * Anschaffungskosten Datum: Kosten
-      * Abschlussdatum: zugeordneter Umsatz (einfacher ROI), Geschäfte
-      * Touchpoint-Datum: Touchpoints aus realisiertem, zugeordneten Umsatz (realisierter ROI)
+      * Erstellungsdatum: Leads, neue Opportunities
+      * Anfallsdatum für Kosten: Kosten
+      * Abschlussdatum: Attributierter Umsatz (einfacher ROI), Abschlüsse
+      * Touchpoint-Datum: Touchpoints aus realisiertem zugeordneten Umsatz (realisierter ROI)
 * Attributionsmodell
-* Kanal, Subkanal
+* Kanal, Unterkanal
 * Kampagne
 
 >[!MORELIKETHIS]
 >
 >* [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [Dashboard-Richtlinie zur Sichtbarkeit der Daten](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [Richtlinie für die Datensichtbarkeit im Dashboard](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

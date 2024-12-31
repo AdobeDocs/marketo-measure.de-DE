@@ -12,9 +12,9 @@ ht-degree: 30%
 
 # Fehlerbenachrichtigungen {#error-notifications}
 
-Im Folgenden finden Sie eine Liste von Fehlern, die Sie möglicherweise per In-App-Benachrichtigung oder E-Mail erhalten. Wenn Sie eines davon erhalten, führen Sie die entsprechenden Schritte zur Fehlerbehebung aus. Falls das Problem durch diese Schritte nicht gelöst werden kann, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support).
+Nachfolgend finden Sie eine Liste mit Fehlern, die Sie möglicherweise über In-App-Benachrichtigungen oder E-Mails erhalten. Wenn Sie eine dieser Optionen erhalten, führen Sie die entsprechenden Schritte zur Fehlerbehebung aus. Falls das Problem durch diese Schritte nicht gelöst werden kann, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support).
 
-Um die vollständige Benachrichtigungsmeldung in [!DNL Marketo Measure] anzuzeigen, klicken Sie unten auf der Registerkarte &quot;Benachrichtigungen&quot;auf **Alle anzeigen** .
+Um die vollständige Benachrichtigung in [!DNL Marketo Measure] anzuzeigen, klicken **unten auf der Registerkarte** auf „Alle anzeigen“.
 
 ![](assets/error-notifications-1.png)
 
@@ -59,58 +59,58 @@ Um die vollständige Benachrichtigungsmeldung in [!DNL Marketo Measure] anzuzeig
     </tr>
     <tr>
       <td>CANNOT_EXECUTE_FLOW_TRIGGER</td>
-      <td>Fehler beim CRM-Export: CANNOT_EXECUTE_FLOW_TRIGGER : Entitätstyp "Kontakt"Geben Sie Ihrem Salesforce-Administrator diese Informationen.
+      <td>Fehler beim CRM-Export: CANNOT_EXECUTE_FLOW_TRIGGER : Entitätstyp „Kontakt“ Geben Sie Ihrem Salesforce-Administrator diese Details.
 Limit überschritten
 Sie oder Ihr Unternehmen haben die Höchstgrenze für diese Funktion überschritten. Fehler-ID: 123456</td>
-      <td>Der Datensatz kann nicht gespeichert werden, da er keine Trigger-Flow-Regel erfüllt, die in der Salesforce-Organisation eingerichtet ist.</td>
-      <td>Überprüfen Sie die vollständigen Details der Benachrichtigungsmeldung und überprüfen Sie die Fluss-Trigger in der Salesforce-Organisation.
-Die Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">finden Sie hier</a>.
+      <td>Der Datensatz kann nicht gespeichert werden, da er keiner in der Salesforce-Organisation eingerichteten Trigger-Flussregel entspricht.</td>
+      <td>Überprüfen Sie die vollständigen Details der Benachrichtigung und die Fluss-Trigger in der Salesforce-Organisation.
+Die Salesforce-Dokumentation zu Flow Trigger <a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">finden Sie hier</a>.
       </td>
     </tr>
     <tr>
       <td>CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY</td>
-      <td>Fehler beim CRM-Export: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY : Entitätstyp 'Lead': CRM ErrorCode: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, CRM ErrorMessage: System.LimitException: Apex CPU timelimit exceeded, RecordId: 0123456
+      <td>Fehler beim CRM-Export: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY : Entitätstyp 'Lead': CRM-Fehlercode: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, CRM-Fehlermeldung: System.LimitException: Apex CPU-Zeitlimit überschritten, RecordId: 0123456
       <p>
-      Fehler beim CRM-Export: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY : Entitätstyp 'Konto': CRM ErrorCode: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, CRM ErrorMessage: Entitätstyp kann nicht aktualisiert werden: Konto, RecordId: 0123456</td>
-      <td>Trigger verhindern die Aktualisierung oder das Einfügen eines Objekts.
+      Fehler beim CRM-Export: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY : Entitätstyp 'Konto': CRM-Fehlercode: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, CRM-Fehlermeldung: Entitätstyp kann nicht aktualisiert werden: Konto, Datensatz-ID: 0123456</td>
+      <td>Trigger verhindern das Aktualisieren oder Einfügen eines Objekts.
       <p>
-      ODER
+      OR
       <p>
       Fehlende Berechtigungen für das Objekt.</td>
-      <td>Überprüfen Sie den Trigger-Code, der dazu führt, dass das Einfügen/Aktualisieren fehlschlägt. Weitere Informationen zu Triggern finden Sie in der folgenden Salesforce-Dokumentation .
+      <td>Überprüfen Sie den Trigger-Code, der zum Fehlschlagen des Einfüge-/Aktualisierungsprozesses führt. In der folgenden Salesforce-Dokumentation finden Sie weitere Informationen zu Trigger:
         <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5">Apex-Trigger</a>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5">Apex-Trigger </a>
           </li>
-          <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">Fluss-Trigger</a>
+          <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">Fluss-Trigger </a>
           </li>
         </ul>
         <p>
-        Gewähren Sie dem <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Marketo Measure-Benutzer</a> alle erforderlichen Berechtigungen.
+        Geben Sie dem <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Marketo Measure-Benutzer alle erforderlichen Berechtigungen</a>.
       </td>
     </tr>
     <tr>
       <td>DUPLICATES_DETECTED</td>
-      <td>Fehler beim CRM-Export: DUPLICATES_DETECTED : Entitätstyp 'Contact': CRM ErrorCode: DUPLICATES_DETECTED, CRM ErrorMessage: Sie erstellen einen doppelten Datensatz. Wir empfehlen stattdessen die Verwendung eines vorhandenen Datensatzes. RecordId: 0123456</td>
-      <td>Der in die Salesforce-Org importierte Datensatz ist bereits vorhanden.</td>
-      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Deaktivieren Sie die Einstellung "Regel duplizieren"</a> , um Duplikate zuzulassen.
+      <td>Fehler beim CRM-Export: DUPLICATES_DETECTED : Entitätstyp „Kontakt“: CRM-Fehlercode: DUPLICATES_DETECTED, CRM-Fehlermeldung: Es wird ein doppelter Eintrag erstellt. Es wird empfohlen, stattdessen einen vorhandenen Datensatz zu verwenden., RecordId: 0123456</td>
+      <td>Der in die Salesforce-Organisation importierte Datensatz existiert bereits.</td>
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Deaktivieren Sie die Einstellung „Regel duplizieren</a>, um Duplikate zuzulassen.
           <p>
           Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.</td>
     </tr>
     <tr>
       <td>DUPLICATE_VALUE</td>
-      <td>Fehler während CRM-Export: DUPLICATE_VALUE : Entitätstyp 'Lead': CRM ErrorCode: DUPLICATE_VALUE, CRM ErrorMessage: duplicate value found: Email_Unique__c dupliziert Wert auf Datensatz mit ID: 123, RecordId: 456</td>
-      <td>Das in die Salesforce-Organisation importierte Feld erlaubt keine doppelten Werte.</td>
-      <td>Deaktivieren Sie das Kontrollkästchen <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Eindeutige Checkbox"</a> in Salesforce.
+      <td>Fehler beim CRM-Export: DUPLICATE_VALUE : Entitätstyp „Lead“: CRM-Fehlercode: DUPLICATE_VALUE, CRM-Fehlermeldung: Doppelter Wert gefunden: E-Mail_Unique__c dupliziert Wert im Datensatz mit ID: 123, RecordId: 456</td>
+      <td>Das in die Salesforce-Organisation importierte Feld lässt keine doppelten Werte zu.</td>
+      <td>Deaktivieren Sie das <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1"> „Eindeutiges Kontrollkästchen</a> in Salesforce.
           <p>
           Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.</td>
     </tr>
     <tr>
       <td>ENTITY_IS_LOCKED</td>
-      <td>Fehler beim CRM-Export: ENTITY_IS_LOCKED : Entitätstyp 'Konto': CRM ErrorCode: ENTITY_IS_LOCKED, CRM ErrorMessage: Dieser Datensatz ist gesperrt. Wenn Sie sie bearbeiten müssen, wenden Sie sich an Ihren Administrator. RecordId: 0123456</td>
+      <td>Fehler beim CRM-Export: ENTITY_IS_LOCKED : Entitätstyp 'Konto': CRM-Fehlercode: ENTITY_IS_LOCKED, CRM-Fehlermeldung: Dieser Datensatz ist gesperrt. Wenn Sie sie bearbeiten müssen, wenden Sie sich an Ihren Administrator, RecordId: 0123456</td>
       <td>Wenn sich ein Datensatz in einem Genehmigungsprozess befindet und ein Benutzer, der nicht der aktuelle Genehmiger oder Systemadministrator ist, versucht, den Datensatz zu bearbeiten.</td>
       <td>
         <ul>
-          <li>Lösen Sie den ausstehenden Genehmigungsprozess für diesen Datensatz in der Salesforce-Organisation.</li>
+          <li>Lösen Sie den ausstehenden Genehmigungsprozess für diesen Datensatz in der Salesforce-Organisation auf.</li>
           <li>Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.
           </li>
         </ul>
@@ -118,37 +118,37 @@ Die Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce
     </tr>
     <tr>
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
-      <td>Fehler beim CRM-Export: FIELD_FILTER_VALIDATION_EXCEPTION : Entitätstyp 'Lead': CRM ErrorCode: FIELD_FILTER_VALIDATION_EXCEPTION, Field(s): User__C, CRM ErrorMessage: Wert ist nicht vorhanden oder entspricht nicht den Filterkriterien. Bitte wählen Sie einen Benutzer mit der Rolle "Account Executive, Inside Sales"; RecordId: 0123456</td>
-      <td>Geänderter Datensatz erfüllt keine Nachschlagefilter mehr, die für das Objekt definiert sind.</td>
-      <td>Suchen Sie nach Filtern für das Objekt, das Marketo Measure zu ändern versucht. In <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">diesem Salesforce-Artikel</a> erfahren Sie, wie Sie nach Filtern für ein Objekt suchen.</td>
+      <td>Fehler beim CRM-Export: FIELD_FILTER_VALIDATION_EXCEPTION : Entitätstyp 'Lead': CRM-Fehlercode: FIELD_FILTER_VALIDATION_EXCEPTION, Feld(er): Benutzer__C, CRM-Fehlermeldung: Wert existiert nicht oder entspricht nicht den Filterkriterien. Wählen Sie einen Benutzer mit der Rolle „Account Executive, Inside Sales“; RecordId: 0123456</td>
+      <td>Der geänderte Datensatz erfüllt nicht mehr die für das Objekt definierten Suchfilter.</td>
+      <td>Suchen Sie nach Filtern für das Objekt, das Marketo Measure ändern möchte. Siehe <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">diesen Artikel zu Salesforce</a>, um zu erfahren, wie Sie nach Filtern für ein Objekt suchen können.</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
-      <td>Fehler beim CRM-Export: FIELD_INTEGRITY_EXCEPTION : Entitätstyp 'Lead': CRM ErrorCode: FIELD_INTEGRITY_EXCEPTION, Field(s): Country, CRM ErrorMessage: Es gibt ein Problem mit diesem Land, auch wenn es korrekt angezeigt wird. Bitte wählen Sie ein Land/Gebiet aus der Liste der gültigen Länder aus.: Land, RecordId: 0123456</td>
+      <td>Fehler beim CRM-Export: FIELD_INTEGRITY_EXCEPTION : Entitätstyp 'Lead': CRM-Fehlercode: FIELD_INTEGRITY_EXCEPTION, Feld(er): Land, CRM-Fehlermeldung: Es gibt ein Problem mit diesem Land, auch wenn es korrekt erscheinen mag. Wählen Sie ein Land/eine Region aus der Liste der gültigen Länder aus.: Land, RecordId: 0123456</td>
       <td>Der erwartete Typ des Datensatzes stimmt nicht überein.</td>
-      <td>Der häufigste Fall dabei ist, dass nicht die in der Salesforce-Organisation festgelegten Benennungsstandards für Bundesstaaten/Länder eingehalten werden, da die Felder Bundesland/Land so standardisiert wurden, dass nur bestimmte Werte der Auswahlliste akzeptiert werden. Um dieses Problem zu beheben, können Sie:
+      <td>Der häufigste Fall hierfür ist, dass die in der Salesforce-Organisation festgelegten Benennungsstandards für Bundesländer/Länder nicht eingehalten werden, da die Felder für Bundesland/Land so standardisiert wurden, dass nur bestimmte Werte der Auswahlliste akzeptiert werden. Um dieses Problem zu beheben, haben Sie folgende Möglichkeiten:
         <ul>
-          <li>Aktualisieren Sie den Datensatz, um den für dieses Feld akzeptierten Werten der Organisation zu folgen. Wenden Sie sich an Ihren SFDC-Administrator, um die Liste der akzeptierten Werte zu erhalten.</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">Deaktivieren Sie die Auswahl-Listen "Bundesland/Land"</a>.
+          <li>Aktualisieren Sie den Datensatz so, dass er den von der Organisation für dieses Feld akzeptierten Werten entspricht. Wenden Sie sich an Ihren SFDC-Administrator, um die Liste der akzeptierten Werte zu erhalten.</li>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">Deaktivieren Sie die Auswahllisten Bundesland/</a>.
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>INACTIVE_OWNER_OR_USER</td>
-      <td>Fehler beim CRM-Export: INACTIVE_OWNER_OR_USER : Entitätstyp 'Contact': CRM ErrorCode: INACTIVE_OWNER_OR_USER, CRM ErrorMessage: Vorgang ausgeführt mit inaktivem Benutzer [1234] als Inhaber des Kontakts, RecordId: 0123456</td>
-      <td>Marketo Measure fehlt die Berechtigung "Datensätze mit inaktiven Eigentümern aktualisieren".</td>
-      <td>Gewähren Sie Marketo Measure die Berechtigung "<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">Aktualisieren von Datensätzen mit inaktiven Eigentümern</a>".</td>
+      <td>Fehler beim CRM-Export: INACTIVE_OWNER_OR_USER : Entitätstyp 'Kontakt': CRM-Fehlercode: INACTIVE_OWNER_OR_USER, CRM-Fehlermeldung: Vorgang mit inaktivem Benutzer [1234] als Kontaktbesitzer ausgeführt, RecordId: 0123456</td>
+      <td>In Marketo Measure fehlt die Berechtigung zum Aktualisieren von Datensätzen mit inaktiven Inhabern.</td>
+      <td>Erteilen Sie Marketo Measure die Berechtigung <a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">Aktualisieren von Datensätzen mit inaktiven </a>".</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
-      <td>Fehler beim CRM-Export: INSUFFICIENT_ACCESS_OR_READONLY : Entitätstyp 'Konto': CRM ErrorCode: INSUFFICIENT_ACCESS_OR_READONLY, CRM ErrorMessage: Ungenügende Zugriffsrechte auf Objekt-ID: [123], RecordId: 456</td>
-      <td>Marketo Measure fehlt Berechtigungen für ein Objekt/Feld oder das Objekt ist schreibgeschützt.</td>
-      <td>Eine Anleitung zu den Berechtigungen, die Marketo Measure benötigt, finden Sie im folgenden <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Experience League-Artikel</a> .</td>
+      <td>Fehler beim CRM-Export: INSUFFICIENT_ACCESS_OR_READONLY : Entitätstyp 'Konto': CRM-Fehlercode: INSUFFICIENT_ACCESS_OR_READONLY, CRM-Fehlermeldung: Unzureichende Zugriffsrechte für Objekt-ID: [123], RecordId: 456</td>
+      <td>Marketo Measure fehlen Berechtigungen für ein Objekt/Feld oder das Objekt ist schreibgeschützt.</td>
+      <td>Im folgenden <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Experience League-Artikel finden </a> Anleitungen zu den Berechtigungen, die Marketo Measure benötigt.</td>
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Fehler beim Adobe Analytics-Export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Fehler: Upload nicht erlaubt. Validieren Sie das Datenquellenschema vor dem Hochladen. Datenquellen-ID:1234</td>
+      <td>Fehler beim Adobe Analytics-Export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Fehler: Hochladen nicht zulässig. Bestätigen Sie das Datenquellenschema vor dem Hochladen. Datenquellen-ID:1234</td>
       <td>Die Adobe Analytics-Integration ist nicht korrekt konfiguriert.</td>
       <td>Lesen Sie die folgenden Hilfeartikel, um eine korrekte Konfiguration sicherzustellen:
         <ul>
@@ -167,13 +167,13 @@ Die Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce
       <p>
       Fehler beim Anzeigenimport: INVALID_CURRENCY_ISO_CODE : Die Währung XXX für das Konto für 1234 wird von Marketo Measure nicht unterstützt.</td>
       <td>Es wurde eine nicht unterstützte Währung gefunden.</td>
-      <td>Im in der Benachrichtigung angegebenen Quellsystem (Anzeige, CRM, Marketo) stellt sicher, dass die dem Datensatz zugeordnete Währung eine unterstützte und gültige Währung aufweist. Unterstützte Währungen werden von ISO-Währungsstandards abgeleitet.</td>
+      <td>Im in der Benachrichtigung angegebenen Quellsystem (Ad, CRM, Marketo) wird sichergestellt, dass die mit dem Datensatz verknüpfte Währung eine unterstützte und gültige Währung hat. Unterstützte Währungen werden von ISO-Währungsstandards abgeleitet.</td>
     </tr>
     <tr>
       <td>MISSING_BIZIBLE_CUSTOM_FIELDS_PERMISSIONS</td>
-      <td>Fehler beim CRM-Export: MISSING_BIZIBLE_CUSTOM_FIELDS_PERMISSIONS : Entitätstyp 'Campaign': CRM ErrorCode: INVALID_FIELD_FOR_INSERT_UPDATE, Field(s): bizible2__UniqueId__c, CRM ErrorMessage: Felder können nicht erstellt/aktualisiert werden: bizible2_ UniqueId__c. Überprüfen Sie die Sicherheitseinstellungen dieses Felds und stellen Sie sicher, dass es für Ihr Profil oder Ihren Berechtigungssatz gelesen/geschrieben wird.</td>
-      <td>Marketo Measure fehlt Berechtigungen für bizible Felder.</td>
-      <td>Wir benötigen Lese- und Schreibberechtigungen für alle Felder mit dem Präfix "bizible2__". Eine vollständige Liste dieser Felder finden Sie <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">in diesem Artikel</a>.</td>
+      <td>Fehler beim CRM-Export: MISSING_BIZIBLE_CUSTOM_FIELDS_PERMISSIONS : Entitätstyp 'Kampagne': CRM-Fehlercode: INVALID_FIELD_FOR_INSERT_UPDATE, Feld(er): bizible2__UniqueId__c, CRM-Fehlermeldung: Felder können nicht erstellt/aktualisiert werden: bizible2__UniqueId__c. Überprüfen Sie die Sicherheitseinstellungen dieses Felds und stellen Sie sicher, dass es für Ihr Profil oder Ihren Berechtigungssatz Lese-/Schreibzugriff hat.</td>
+      <td>Marketo Measure fehlen Berechtigungen für Bizible-Felder.</td>
+      <td>Wir benötigen Lese- und Schreibberechtigungen für alle Felder mit dem Präfix „bizible2__“. Eine vollständige Liste dieser Felder finden Sie <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">in diesem Artikel</a>.</td>
     </tr>
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
@@ -222,13 +222,13 @@ Die Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce
     </tr>
     <tr>
       <td>MISSING_RECORD_OBJECT_PERMISSIONS</td>
-      <td>Fehler beim CRM-Export: MISSING_RECORD_OBJECT_PERMISSIONS : Entitätstyp 'bizible2__Bizible_Touchpoint__c': CRM ErrorCode: INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY, Field(s): Account, CRM ErrorMessage: Ungenügende Zugriffsrechte auf Cross-Reference ID: 01 23456</td>
-      <td>Marketo Measure fehlt Berechtigungen.</td>
-      <td>Es gibt mehrere Gründe für diesen Fehler, die speziell für die Salesforce-Organisation gelten. Im Folgenden finden Sie einige gängige Schritte zur Fehlerbehebung, die das Problem beheben können:
+      <td>Fehler beim CRM-Export: MISSING_RECORD_OBJECT_PERMISSIONS : Entitätstyp 'bizible2__Bizible_Touchpoint__c': CRM-Fehlercode: INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY, Feld(er): Konto, CRM-Fehlermeldung: Unzureichende Zugriffsrechte für Querverweis-ID: 0123456</td>
+      <td>Marketo Measure fehlen Berechtigungen.</td>
+      <td>Es gibt mehrere Gründe für diesen Fehler, die spezifisch für die Salesforce-Organisation sind. Im Folgenden finden Sie einige gängige Schritte zur Fehlerbehebung, mit denen das Problem behoben werden kann:
         <ul>
-          <li>Überprüfen Sie alle Berechtigungen, die wir für jedes <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Objekt und Feld</a> benötigen.</li>
+          <li>Überprüfen Sie alle erforderlichen Berechtigungen für jedes <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Objekt und Feld</a>.</li>
           <li>Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.</li>
-          <li>Erteilen Sie Marketo Measure die Berechtigungen "<a href="https://developer.salesforce.com/docs/atlas.de-DE.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">Alle ändern</a>".</li>
+          <li>Erteilen Sie Marketo Measure <a href="https://developer.salesforce.com/docs/atlas.de-DE.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">Alle ändern</a>-Berechtigungen.</li>
         </ul>
       </td>
     </tr>
@@ -239,7 +239,7 @@ Die Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce
           Fehler beim CRM-Import: NULL_EMPTY_CURRENCY_ISO_CODE: ISO-Währungs-Code ist NULL oder leer, wenn MultiCurrency für RecordId 1234 aktiviert ist
       </td>
       <td>Die Währung muss ein unterstützter ISO-Währungs-Code sein.</td>
-      <td>Im in der Benachrichtigung angegebenen Quellsystem (Anzeige, CRM, Marketo) stellt sicher, dass die dem Datensatz zugeordnete Währung eine unterstützte und gültige Währung aufweist. Unterstützte Währungen werden von ISO-Währungsstandards abgeleitet.</td>
+      <td>Im in der Benachrichtigung angegebenen Quellsystem (Ad, CRM, Marketo) wird sichergestellt, dass die mit dem Datensatz verknüpfte Währung eine unterstützte und gültige Währung hat. Unterstützte Währungen werden von ISO-Währungsstandards abgeleitet.</td>
     </tr>
     <tr>
       <td>OPERATION_TOO_LARGE</td>
@@ -251,33 +251,33 @@ Die Salesforce-Dokumentation zu Fluss-Triggern <a href="https://admin.salesforce
     </tr>
     <tr>
       <td>RECORD_NONCOMPLIANT_WITH_VALIDATION_RULES</td>
-      <td>Fehler beim CRM-Export: RECORD_NONCOMPLIANT_WITH_VALIDATION_RULES : Entitätstyp 'Lead': CRM ErrorCode: FIELD_CUSTOM_VALIDATION_EXCEPTION, Field(s): Lead_Status_Reason__c, CRM ErrorMessage: Sie müssen den Lead-Status-Grund, RecordId: 0123 auswählen. 456</td>
-      <td>Der zu aktualisierende Datensatz entspricht nicht einem Überprüfungsregelsatz in der Salesforce-Organisation.</td>
+      <td>Fehler beim CRM-Export: RECORD_NONCOMPLIANT_WITH_VALIDATION_RULES : Entitätstyp 'Lead': CRM-Fehlercode: FIELD_CUSTOM_VALIDATION_EXCEPTION, Feld(er): Lead_Status_Reason__c, CRM-Fehlermeldung: Sie müssen den Grund für den Lead-Status auswählen, RecordId: 0123456</td>
+      <td>Der zu aktualisierende Datensatz erfüllt einen in der Salesforce-Organisation festgelegten Validierungsregelsatz nicht.</td>
       <td>Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.
       <p>
-      Aktualisieren Sie Ihre <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">Validierungsregeln</a>.</td>
+      Aktualisieren Sie <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">Validierungsregeln</a>.</td>
     </tr>
     <tr>
       <td>RESTRICT_PICKLIST_VALUES_ENABLED</td>
-      <td>Fehler beim CRM-Export: RESTRICT_PICKLIST_VALUES_ENABLED : Entitätstyp 'Campaign': CRM ErrorCode: INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST, Field(s): Areas_of_Interest__c, CRM ErrorMessage: bad value for restricted picklist field: Unknown</td>
-      <td>Wenn die Option "Auswahlliste auf die in der Wertesatz definierten Werte beschränken"in der Einrichtung des Picklist-Felds aktiviert ist oder der in das Feld eingefügte Wert im Datensatztyp des Objekts nicht verfügbar ist.</td>
-      <td>Deaktivieren Sie die Einstellung "Auswahlliste einschränken"in der Salesforce-Organisation.
+      <td>Fehler beim CRM-Export: RESTRICT_PICKLIST_VALUES_ENABLED : Entitätstyp 'Kampagne': CRM-Fehlercode: INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST, Feld(er): Areas_of_Interest__c, CRM-Fehlermeldung: ungültiger Wert für eingeschränktes Auswahllistenfeld: Unbekannt</td>
+      <td>Wenn im Setup des Auswahllistenfelds die Option „Auswahlliste auf die im Wertesatz definierten Werte beschränken“ aktiviert ist oder der in das Feld eingefügte Wert im Datensatztyp des Objekts nicht verfügbar ist.</td>
+      <td>Deaktivieren Sie die Einstellung Auswahlliste einschränken in der Salesforce-Organisation.
           <p>
           Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.
       </td>
     </tr>
     <tr>
       <td>REQUIRED_FIELD_MISSING</td>
-      <td>Fehler beim CRM-Export: MISSING_REQUIRED_FIELD : Entitätstyp 'Lead': CRM ErrorCode: REQUIRED_FIELD_MISSING, Field(s): Product_Type__c, CRM ErrorMessage: Erforderliche Felder fehlen: [Product_Type__c], RecordId: 0123456</td>
+      <td>Fehler beim CRM-Export: MISSING_REQUIRED_FIELD : Entitätstyp 'Lead': CRM-Fehlercode: REQUIRED_FIELD_MISSING, Feld(er): Product_Type__c, CRM-Fehlermeldung: Erforderliche Felder fehlen: [Product_Type__c], RecordId: 0123456</td>
       <td>Wenn eine Validierungsregel Pflichtfelder für Objekte angibt.</td>
       <td>Schließen Sie den dedizierten Marketo Measure-Benutzer aus <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">benutzerdefinierten Validierungsregeln</a> aus.
       </td>
     </tr>
     <tr>
       <td>UNKNOWN_EXCEPTION</td>
-      <td>Fehler während CRM-Export: UNKNOWN_EXCEPTION : Entitätstyp 'Contact': CRM ErrorCode: UNKNOWN_EXCEPTION, CRM ErrorMessage: Portal-Benutzer können keine Partnerkonten besitzen, RecordId: 0123456</td>
-      <td>In Salesforce trat eine unbehandelte Ausnahme auf.</td>
-      <td>Wenn das Problem weiterhin besteht, schreiben Sie eine Groß-/Kleinschreibung mit Salesforce ein und kopieren Sie die numerischen Werte in die Fehlermeldung.</td>
+      <td>Fehler beim CRM-Export: UNKNOWN_EXCEPTION : Entitätstyp „Kontakt“: CRM-Fehlercode: UNKNOWN_EXCEPTION, CRM-Fehlermeldung: Portalbenutzer können keine Partnerkonten besitzen, RecordId: 0123456</td>
+      <td>In Salesforce ist ein Ausnahmefehler aufgetreten.</td>
+      <td>Wenn das Problem weiterhin besteht, senden Sie eine Anfrage an Salesforce und kopieren Sie die numerischen Werte in der Fehlermeldung.</td>
     </tr>
     <tr>
       <td>UNSUPPORTED_CRM_PACKAGE_VERSION</td>

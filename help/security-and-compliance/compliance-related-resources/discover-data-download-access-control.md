@@ -1,6 +1,6 @@
 ---
-description: '[!UICONTROL Discover Data Download] Access Control - Marketo Measure - Produktdokumentation'
-title: '[!UICONTROL Discover Data Download] Zugriffssteuerung'
+description: '[!UICONTROL Entdecken des Daten]Downloads, Zugriffskontrolle - Marketo Measure - Produktdokumentation'
+title: '[!UICONTROL Entdecken des Daten-Downloads] Zugriffskontrolle'
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 feature: Discover
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
@@ -10,15 +10,15 @@ ht-degree: 5%
 
 ---
 
-# [!UICONTROL Discover Data Download] Zugriffssteuerung {#discover-data-download-access-control}
+# [!UICONTROL Entdecken des Daten-Downloads] Zugriffskontrolle {#discover-data-download-access-control}
 
-Das Steuerelement [!UICONTROL Datendownload in Discover] ermöglicht es [!DNL Marketo Measure] Administratoren, die Richtlinien für den Datendownload für die Discover-Dashboards auf der Grundlage der Benutzerrollen festzulegen. Das Steuerelement erfasst alle Datendownload-Aktionen in Discover-Dashboards.
+[!UICONTROL Discover-Datendownload]-Steuerelement ermöglicht es [!DNL Marketo Measure]-Administratoren, die Datendownload-Richtlinien für die Discover-Dashboards basierend auf den Benutzerrollen festzulegen. Das Steuerelement deckt alle Datendownload-Aktionen in Discover-Dashboards ab.
 
-1. Klicken Sie unter [!UICONTROL Sicherheit] auf **[!UICONTROL Datenzugriff]** .
+1. Klicken Sie **[!UICONTROL Datenzugriff]** unter [!UICONTROL Sicherheit].
 
    ![](assets/discover-data-download-access-control-1.png)
 
-1. Klicken Sie auf das Dropdown-Menü und wählen Sie die entsprechende Option für Ihre Konsole aus.
+1. Klicken Sie auf die Dropdown-Liste und wählen Sie die entsprechende Option für Ihre Konsole aus.
 
    ![](assets/discover-data-download-access-control-2.png)
 
@@ -28,12 +28,12 @@ Das Steuerelement [!UICONTROL Datendownload in Discover] ermöglicht es [!DNL Ma
      <td>Alle Benutzer können Daten herunterladen, einschließlich PDF- und CSV-Formaten.</td>
     </tr>
     <tr>
-     <td><strong>Nur Administratoren</strong></td>
+     <td><strong>Nur Admin-Benutzer</strong></td>
      <td>Nur Admin-Benutzer können Daten herunterladen, einschließlich PDF- und CSV-Formaten.</td>
     </tr>
     <tr>
      <td><strong>Keine</strong></td>
-     <td>Niemand kann Daten herunterladen, einschließlich PDF- und CSV-Formaten.</td>
+     <td>Niemand kann Daten herunterladen, sowohl PDF- als auch CSV-Formate.</td>
     </tr>
    </table>
 
@@ -43,4 +43,4 @@ Das Steuerelement [!UICONTROL Datendownload in Discover] ermöglicht es [!DNL Ma
 
 >[!NOTE]
 >
->Die Einstellung wird möglicherweise erst wirksam, wenn sich Benutzer abgemeldet und wieder angemeldet haben.
+>Die Einstellung wird möglicherweise erst wirksam, wenn sich Benutzer abgemeldet haben und sich wieder anmelden.

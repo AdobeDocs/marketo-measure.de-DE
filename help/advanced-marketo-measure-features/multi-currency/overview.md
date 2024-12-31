@@ -13,27 +13,27 @@ ht-degree: 1%
 
 # Überblick {#overview}
 
-Heute unterstützt die Anwendung [!DNL Marketo Measure] nur eine einzige Währung (vorausgesetzt, sie ist USD), während wir wissen und wissen, dass wir Kunden auf der ganzen Welt haben, die über ihre eigenen Unternehmens- und Benutzerwährungen berichten müssen. Mit dieser Funktion können Benutzer zwischen denselben Währungen wechseln, die in ihrem CRM-System verwendet werden, wenn sie die gemeldeten Ausgaben oder Umsätze in [!DNL Marketo Measure] anzeigen.
+Heute unterstützt die [!DNL Marketo Measure]-Anwendung nur eine einzige Währung (angenommen USD), während wir wissen und wissen, dass wir Kunden auf der ganzen Welt haben, die über ihre eigenen Unternehmens- und Benutzerwährungen berichten müssen. Diese Funktion ermöglicht es Benutzenden, bei der Anzeige der gemeldeten Ausgaben oder Umsatzerlöse in [!DNL Marketo Measure] zwischen den gleichen Währungen zu wechseln, die auch in ihrem CRM verwendet werden.
 
 ## Verfügbarkeit {#availability}
 
-Ebene 2 und höher.
+Stufe 2 und höher.
 
 ## Anforderungen {#requirements}
 
-[!DNL Marketo Measure] ruft automatisch die Währungseinstellung aus dem CRM-System des Kunden ab. Eine manuelle Konfiguration in [!DNL Marketo Measure], die dem CRM-System entspricht, ist nicht mehr erforderlich. Die Währungseinstellung finden Sie auf der Seite &quot;Allgemein&quot;unter &quot;CRM&quot;.
+[!DNL Marketo Measure] ruft die Währungseinstellung automatisch aus dem CRM des Kunden ab. Eine manuelle Konfiguration in [!DNL Marketo Measure], die dem CRM-System entspricht, ist nicht mehr erforderlich. Die Währungseinstellung befindet sich auf der Seite „Allgemein“ unter „CRM“.
 
-In [!DNL Salesforce] muss für den Kunden &quot;Aktivieren mehrerer Währungen&quot;aktiviert sein. Optional kann der Kunde auch &quot;Ja, ich möchte die erweiterte Währungsverwaltung aktivieren&quot;auswählen.
+In [!DNL Salesforce] muss für den Kunden „Mehrere Währungen aktivieren“ aktiviert sein. Optional kann der Kunde auch „Ja, ich möchte die erweiterte Währungsverwaltung aktivieren“ auswählen.
 
-In Dynamics kann der Kunde in seinen Einstellungen statische Wechselkurse für mehrere Währungen festlegen. In Dynamics gibt es kein Konzept der &quot;erweiterten Währungsverwaltung&quot;.
+In Dynamics kann der Kunde in seinen Einstellungen statische Wechselkurse für mehrere Währungen festlegen. Es gibt in Dynamics kein Konzept für „erweitertes Währungsmanagement“.
 
 ## Bedingungen {#terms}
 
 | **Begriff** | Beschreibung |
 |---|---|
-| **Erweiterte Währung** | Für den Kunden sind erweitertes Währungsmanagement und mehrere Währungen aktiviert, was bedeutet, dass er für verschiedene Zeiträume unterschiedliche Konversionsraten haben kann. |
-| **Firmenwährung** | Dies sind die verschiedenen Währungen, die von einer Organisation im CRM-System aufgeführt und deklariert werden, alle mit Konversionsraten. [!DNL Marketo Measure] importiert diese Werte und stellt diese Währungen Benutzern in unserem Produkt zur Verfügung. |
-| **Währungsgebietsschema** | Die für eine Organisation verwendete einheitliche Währung, die auf der Seite Unternehmensinformationen festgelegt wird. |
-| **Lokale Währung (oder Benutzerwährung)** | Die für einen einzelnen Benutzer im Benutzerprofil festgelegte Währung, sodass er jeden Betrag in seiner eigenen Landeswährung anzeigen kann. Die Organisation muss die Währung deklarieren und einrichten, bevor ein Benutzer seine Landeswährung auswählen kann. |
-| **Einzelwährung** | Wird für Kunden verwendet, die nicht mehrere Währungen im CRM verwenden, deren Organisation jedoch in einer anderen Währung ausgeführt wird, sodass sie über ein &quot;Währungs-Gebietsschema&quot;verfügen. Dies ist weiterhin eine einheitliche Währung für die Organisation, jedoch ohne Konvertierung. |
-| **Einfache Währung** | Für den Kunden ist &quot;Mehrere Währungen&quot;aktiviert, er hat jedoch eine statische Konversionsrate pro Währung. |
+| **Erweiterte Währung** | Der Kunde verfügt über eine erweiterte Währungsverwaltung und mehrere Währungen aktiviert, was bedeutet, dass er für verschiedene Zeiträume unterschiedliche Konversionsraten haben kann. |
+| **Unternehmenswährung** | Dies sind die verschiedenen Währungen, die von einer Organisation im CRM aufgelistet und deklariert werden, alle mit Konversionsraten. [!DNL Marketo Measure] importieren diese Werte und stellen diese Währungen den Benutzern in unserem Produkt zur Verfügung. |
+| **Währungsgebietsschema** | Die einheitliche Währung, die für eine Organisation verwendet wird, wird auf der Seite „Unternehmensinformationen“ festgelegt. |
+| **Lokale Währung (oder Benutzerwährung)** | Die Währung, die für einen einzelnen Benutzer im Benutzerprofil festgelegt wurde, sodass er einen beliebigen Betrag in seiner eigenen lokalen Währung anzeigen kann. Das Unternehmen muss die Währung deklarieren und einrichten, bevor ein Benutzer seine lokale Währung auswählen kann. |
+| **Einheitswährung** | Wird für Kunden verwendet, die nicht mehrere Währungen im CRM verwenden, deren Organisation jedoch in einer anderen Währung läuft, sodass sie ein „Währungsgebietsschema“ haben. Dies ist immer noch eine einheitliche Währung für die Organisation, aber ohne jede Umrechnung. |
+| **Einfache Währung** | Für den Kunden sind mehrere Währungen aktiviert, aber er hat einen statischen Konversionskurs pro Währung. |

@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874708
-description: Zuordnung von Salesforce-Aktivitäten - [!DNL Marketo Measure]
-title: Zuordnung von Salesforce-Aktivitäten
+description: Salesforce-Aktivitäten Attribution - [!DNL Marketo Measure]
+title: Attribution von Salesforce-Aktivitäten
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
 source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
@@ -11,19 +11,19 @@ ht-degree: 1%
 
 ---
 
-# Zuordnung von Salesforce-Aktivitäten {#salesforce-activities-attribution}
+# Attribution von Salesforce-Aktivitäten {#salesforce-activities-attribution}
 
-Durch die Integration von [!DNL Marketo Measure] Salesforce-Aktivitäten werden bestimmte Aufgaben- und Ereignisdatensätze in Ihr Attributionsmodell eingefügt. Beginnen Sie, Dinge wie Verkaufs-E-Mails oder Verkaufs-Telefonanrufe zu verfolgen, die nicht gebührend gutgeschrieben wurden. Um Ihre Aktivitätsregel zu konfigurieren, gehen Sie zu [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Gehen Sie von dort zur Registerkarte **[!UICONTROL Einstellungen]** und klicken Sie auf die Registerkarte **[!UICONTROL Aktivitäten]** .
+Durch die Integration von [!DNL Marketo Measure] Salesforce-Aktivitäten werden spezifische Aufgaben- und Ereignisdatensätze in Ihr Attributionsmodell integriert. Beginnen Sie damit, Dinge wie Verkaufs-E-Mails oder Verkaufs-Telefonanrufe zu verfolgen, die nicht die gebührende Gutschrift erhielten. Die Aktivitätsregel kann unter [experience.adobe.com/marketo-measure konfiguriert ](https://experience.adobe.com/marketo-measure){target="_blank"}. Navigieren Sie von dort zur Registerkarte **[!UICONTROL Einstellungen]** und klicken Sie auf die Registerkarte **[!UICONTROL Aktivitäten]**.
 
 ![](assets/1.png)
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur für Tier-2-Kunden aktiviert. Wenden Sie sich an das Adobe Account Team (Ihren Kundenbetreuer), um eine höhere Kontoebene anzufordern.
+>Diese Funktion ist nur für Kunden der Stufe 2 aktiviert. Um eine höhere Kontoebene anzufordern, wenden Sie sich an das Adobe-Account-Team (Ihren Account Manager).
 
-Zunächst führen wir ein neues Konzept ein, das als [!DNL Marketo Measure] Kampagne bezeichnet wird. Für jede von Ihnen definierte Regel werden Sie die Datensätze in einer [!DNL Marketo Measure]-Kampagne zusammenfassen, die Sie benennen können. Fügen Sie nach Bedarf mehrere Kampagnen hinzu. Stellen Sie sich vor, Sie würden die Effektivität einer Outbound-Verkaufskampagne neben einer Paid Media-Kampagne messen!
+Zu Beginn führen wir ein neues Konzept ein, das als [!DNL Marketo Measure]-Kampagne bezeichnet wird. Für jede Regel, die Sie definieren, gruppieren Sie die Datensätze in einer [!DNL Marketo Measure] Kampagne, die Sie benennen können. Fügen Sie bei Bedarf mehrere Kampagnen hinzu. Stellen Sie sich vor, Sie messen die Effektivität einer Outbound-Kampagne neben einer Paid-Media-Kampagne!
 
-Sie werden diesen [!DNL Marketo Measure] Kampagnennamen verwenden, um uns mitzuteilen, welchem Kanal er zugeordnet werden soll. Wenn Sie noch an ausgehende Verkäufe denken, sollten möglicherweise alle ausgehenden Vertriebskampagnen in einem BDR-Kanal platziert werden.
+Sie verwenden diesen [!DNL Marketo Measure] Kampagnennamen, um uns mitzuteilen, welchem Kanal er zugeordnet werden soll. Wenn Sie immer noch über ausgehende Verkäufe nachdenken, sollten vielleicht alle ausgehenden Verkaufskampagnen in einem BDR-Kanal sitzen.
 
 Machen Sie sich mit dieser Hierarchie vertraut:
 
@@ -36,61 +36,61 @@ Machen Sie sich mit dieser Hierarchie vertraut:
 
 >[!TIP]
 >
->Wenn Sie beispielsweise eine eindeutige Kampagne für jeden Vertriebsmitarbeiter festlegen möchten, verwenden Sie dynamische Ersatzparameter, um den Kampagnennamen [!DNL Marketo Measure] auszufüllen. Im selben Beispiel können Sie `"Outbound Sales - {AssignedTo}"` eingeben und es wird in etwa `"Outbound Sales - Jill"` oder `"Outbound Sales - Jack."` geändert
+>Wenn Sie beispielsweise für jeden Vertriebsmitarbeiter eine eindeutige Kampagne festlegen möchten, füllen Sie den Namen der [!DNL Marketo Measure]-Kampagne mit dynamischen Ersatzparametern aus. Im selben Beispiel können Sie `"Outbound Sales - {AssignedTo}"` eingeben und es ändert sich in etwas wie `"Outbound Sales - Jill"` oder `"Outbound Sales - Jack."`
 
 ![](assets/2.png)
 
-Sobald Ihr [!DNL Marketo Measure] Kampagnenname festgelegt ist, ist es Zeit, Ihre Aktivitätsregeln einzurichten.
+Nachdem Sie Ihren [!DNL Marketo Measure]-Kampagnennamen festgelegt haben, können Sie Ihre Aktivitätsregeln einrichten.
 
-Die Regeln dienen als Filter, um uns mitzuteilen, welche Datensätze für die Zuordnung infrage kommen. Angenommen, Sie erstellen einen Bericht in Ihrem CRM-System mit einer ähnlichen Logik, um diesen Bericht zu generieren. Sie haben die Flexibilität, eine Kombination aus und/oder Anweisungen und verschiedenen Operatoren wie `matches any`, `contains`, `starts with`, `ends with`, `is equal to` zu verwenden. Definieren Sie `and` -Anweisungen innerhalb einer Boxed Rule oder Layer `or` -Anweisungen außerhalb des Felds.
+Die Regeln dienen als Filter, um anzugeben, welche Datensätze für die Attribution infrage kommen. Stellen Sie sich vor, Sie erstellen einen Bericht in Ihrem CRM mit einer ähnlichen Logik, um diesen Bericht zu generieren. Sie haben die Flexibilität, eine Kombination aus - und/oder -Anweisungen und verschiedenen Operatoren wie `matches any`, `contains`, `starts with`, `ends with` und `is equal to` zu verwenden. Definieren Sie `and` Anweisungen in einer Boxed-Regel oder Layer-`or` außerhalb des Boxes.
 
 ![](assets/3.png)
 
 >[!NOTE]
 >
->Formelfelder können nicht in Ihren Regeln verwendet werden und werden nicht in der Auswahlliste angezeigt. Da Formeln im Hintergrund berechnet werden und einen Datensatz nicht ändern, kann [!DNL Marketo Measure] nicht erkennen, ob ein Datensatz zu einer Regel passt oder nicht.
+>Formelfelder können nicht in Ihren Regeln verwendet werden und werden nicht in der Auswahlliste angezeigt. Da Formeln im Hintergrund berechnet werden und einen Datensatz nicht ändern, können [!DNL Marketo Measure] nicht erkennen, ob ein Datensatz zu einer Regel passt oder nicht.
 >
->Stellen Sie sicher, dass die richtigen Werte für ID-Felder wie CrmEvent.CreatedById verwendet werden. [!DNL Salesforce IDs] ist 18 Zeichen lang (0054H000007WmrfQAC).
+>Stellen Sie sicher, dass Sie die richtigen Werte für ID-Felder wie „CrmEvent.CreatedById“ verwenden. [!DNL Salesforce IDs] sind 18 Zeichen lang ( 0054H000007WmrfQAC).
 
-Wählen Sie abschließend eines Ihrer Datums- oder Datums-/Uhrzeitfelder aus, das als Buyer Touchpoint-Datum verwendet werden soll. Es können sowohl Standard- als auch benutzerdefinierte Felder ausgewählt werden.
+Wählen Sie abschließend eines Ihrer Datums- oder Datums-/Uhrzeitfelder als Buyer Touchpoint-Datum aus. Es können entweder standardmäßige und benutzerdefinierte Felder ausgewählt werden.
 
 >[!TIP]
 >
->Bei der Paketinstallation enthält [!DNL Marketo Measure] ein benutzerdefiniertes Buyer Touchpoint-Datumsfeld im Aktivitätsdatensatz. Wenn Sie ein dynamisches Datum verwenden möchten, z. B. das Datum, an dem sich ein Status ändert, können Sie einen CRM-Workflow verwenden, um das &quot;Buyer Touchpoint-Datum&quot;festzulegen und in diesem Schritt hier das Buyer Touchpoint-Datum auszuwählen.
+>Bei der Paketinstallation fügt [!DNL Marketo Measure] dem Aktivitätsdatensatz ein benutzerdefiniertes Buyer Touchpoint-Datumsfeld hinzu. Wenn Sie ein dynamisches Datum verwenden möchten, z. B. das Datum, an dem sich ein Status ändert, können Sie mithilfe eines CRM-Workflows das &quot;Buyer Touchpoint-Datum“ festlegen und dann in diesem Schritt das Buyer Touchpoint-Datum auswählen.
 
 ![](assets/4.png)
 
-Vergessen Sie nicht, verschiedene Regeln für Aufgaben oder Ereignisse festzulegen. Sie müssen wissen, welches Objekt Ihr Sales-Team zur Aufzeichnung seiner Aktivitäten verwendet.
+Vergessen Sie nicht, andere Regeln für Aufgaben oder Ereignisse festzulegen. Sie müssen wissen, welches Objekt Ihr Vertriebsteam verwendet, um seine Aktivitäten aufzuzeichnen.
 
 ![](assets/5.png)
 
-Sie möchten diese neuen Touchpoints wahrscheinlich in ihren entsprechenden [Marketingkanal](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"} platzieren. Definieren Sie dazu den Kanal mit dem soeben erstellten neuen Kampagnen-Mapping.
+Sie sollten diese neuen Touchpoints wahrscheinlich in ihrem entsprechenden [Marketing-Kanal“ ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=channels.Online%20channels){target="_blank"}. Definieren Sie dazu den Kanal mit seiner neuen Kampagnen-Zuordnung, die gerade erstellt wurde.
 
 >[!TIP]
 >
->Verwenden Sie beim Hinzufügen einer Kanaldefinition Platzhalterwerte, um Operatoren leichter anzugeben, z. B.:
+>Nutzen Sie beim Hinzufügen einer Kanaldefinition Platzhalterwerte, um die Darstellung von Operatoren zu vereinfachen. Beispiel:
 >
->beginnt mit ( Outbound&#42; )
+>beginnt mit ( Ausgehend&#42; )
 >
-contains ( &#42;Outbound&#42; )
+enthält ( &#42;Outbound&#42; )
 >
 endet mit ( &#42;Outbound )
 >
-Keine Wildcard bedeutet im Grunde &quot;ist gleich&quot;. Daher sollten Sie sie nach Bedarf verwenden.
+Kein Platzhalter bedeutet im Grunde „ist gleich“. Daher sollten Sie darauf achten, dass Sie ihn bei Bedarf verwenden.
 
 | **Operator** | **Anwendungsfall** |
 |---|---|
-| ist gleich | Einzelwert - genaue Übereinstimmung |
+| ist gleich | Einzelwert - exakte Übereinstimmung |
 | Enthält | Einzelwert - enthält Wert |
-| Entspricht allen | Mehrere Werte - genaue Übereinstimmung |
-| Entspricht allen (enthält) | Mehrere Werte - &#42;Wert&#42;, &#42;Wert, &#42;Wert&#42; |
+| Entspricht allen | Mehrere Werte - Exakte Übereinstimmung |
+| stimmt überein mit „any“ (enthält) | Mehrere Werte - &#42;value&#42;, &#42;value, &#42;value&#42; |
 
 ![](assets/6.png)
 
-Und nicht zuletzt haben Sie die Möglichkeit, die Kosten für Ihre neuen Kanäle anzugeben. Mit dem Upload der Marketingausgaben ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} können Sie Ihre Ausgaben auf Kanal-, Unterkanal- oder Kampagnenebene eingeben. [ Mit Ihren neuen [!DNL Marketo Measure]-Kampagnen können Sie diese zugehörigen Kosten pro Monat hinzufügen und dann den ROI für jede Kampagne sehen!
+Und nicht zuletzt haben Sie die Möglichkeit, Kosten für Ihre neuen Kanäle einzutragen. Mit [ Upload von Marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"}Ausgaben können Sie Ihre Ausgaben auf Kanal-, Unterkanal- oder Kampagnenebene eingeben. Mit Ihren neuen [!DNL Marketo Measure]-Kampagnen können Sie diese zugehörigen Kosten nach Monat hinzufügen und dann den ROI für jede Kampagne anzeigen!
 
 ![](assets/7.png)
 
 >[!MORELIKETHIS]
 >
-[FAQ zur Aktivitätszuordnung](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+[Häufig gestellte Fragen zur Aktivitätszuordnung](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

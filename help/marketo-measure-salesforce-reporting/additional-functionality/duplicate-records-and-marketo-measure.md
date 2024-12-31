@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874572
-description: Duplizierte Datensätze und  [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: Duplizieren von Datensätzen und [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Doppelte Datensätze und  [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
@@ -11,23 +11,23 @@ ht-degree: 12%
 
 ---
 
-# Datensätze duplizieren und [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
+# Duplizieren von Datensätzen und [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
 >
 >Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
 
-[!DNL Marketo Measure] verwendet die E-Mail-Adresse als eindeutige Kennung bei der Zuordnung von Daten zu einem zugehörigen Lead oder Kontakt im CRM. Wenn [!DNL Marketo Measure] mehrere Leads oder Kontakte mit derselben E-Mail-Adresse findet, werden dieselben Daten für alle Datensätze angezeigt. Die Auswirkung davon liegt darin, dass Sie über Leads oder Kontakte mit [!DNL Marketo Measure] berichten und die Anzahl der Unique People, die Touchpoints des Käufers haben, fälschlicherweise erhöhen können.
+[!DNL Marketo Measure] verwendet die E-Mail-Adresse als eindeutige Kennung, wenn Daten mit einem zugehörigen Lead oder Kontakt im CRM abgeglichen werden. Wenn [!DNL Marketo Measure] mehrere Leads oder Kontakte mit derselben E-Mail-Adresse findet, werden dieselben Daten in allen Datensätzen angezeigt. Dies wirkt sich aus, wenn Sie Berichte zu Leads oder Kontakten mit [!DNL Marketo Measure] erstellen, und kann fälschlicherweise die Anzahl der Einzelpersonen mit Käufer-Touchpoints in die Höhe treiben.
 
-Wie sieht dies in der [!DNL Marketo Measure] -Berichterstellung aus?
+Wie sieht dies in [!DNL Marketo Measure] Reporting aus?
 
-_Beispielbericht: [!DNL Marketo Measure] Personen mit Touchpoints für Käufer._
+_Beispielbericht: [!DNL Marketo Measure] Personen mit Käufer-Touchpoints._
 
 ![](assets/1-1.png)
 
-Sie können für die [!DNL Marketo Measure] Personen-ID von kelsey@adobe.com sehen, dass mit dieser E-Mail-Adresse sowohl ein Lead als auch ein Kontakt vorhanden sind. In diesem Bericht werden 2 Erstkontakt-Ereignisse, zwei Lead-Erstellungskontakt-Touches und zwei PostLC-Interaktionen gemeldet. Diese doppelten Datensätze enthalten Touchpoint-Datums- und Touchpoint-Informationen, die zu dem Schluss führen können, dass es sich um zwei verschiedene Personen handelt, obwohl es sich um dieselbe Person handelt.
+Für die [!DNL Marketo Measure] Personen-ID von kelsey@adobe.com können Sie sehen, dass es sowohl einen Lead als auch einen Kontakt mit dieser E-Mail-Adresse gibt. In diesem Bericht werden zwei Erstkontakte, zwei Lead-Erstellungs-Kontakte und zwei PostLC-Interaktionen gemeldet. Diese doppelten Datensätze enthalten dasselbe Touchpoint-Datum und dieselbe Touchpoint-Information, was zu dem Schluss führen könnte, dass es sich um zwei verschiedene Personen handelt, obwohl sie dieselbe Person sind.
 
 **Empfehlung**
 
-* Um die Rendite Ihrer Berichte zu maximieren, empfehlen wir die Verwendung eines Deduplizierungs-Tools in Ihrem CRM-System, um sicherzustellen, dass Sie nur netto neue, eindeutige Datensätze erstellen. Dies kann mit Ihrem Marketing-Automatisierungs-Tool oder einer separaten Software erfolgen, die in Ihrem CRM-System installiert ist. [!DNL Marketo Measure] dedupliziert Datensätze nicht automatisch und bietet diesen Dienst nicht über unsere Software an.
-* Eine alternative Option wäre das manuelle Zusammenführen von Datensätzen bei der Identifizierung von Duplikaten. Dieser Prozess kann zeitaufwendig und mühsam sein, aber die Ausgabe präziser Berichte ist die Zeitinvestition wert.
+* Um eine maximale Rendite in Ihren Berichten zu erzielen, empfehlen wir die Verwendung eines Deduplizierungs-Tools in Ihrem CRM, um sicherzustellen, dass Sie nur neue, eindeutige Datensätze erstellen. Dies kann mit Ihrem Marketing-Automatisierungs-Tool oder einer separaten Software, die in Ihrem CRM installiert ist, erfolgen. [!DNL Marketo Measure] dedupliziert Einträge nicht automatisch und bietet diesen Service nicht über unsere Software an.
+* Eine alternative Option besteht darin, Datensätze beim Identifizieren von Duplikaten manuell zusammenzuführen. Dieser Prozess kann zeitaufwendig und mühsam sein, aber das Ergebnis genauer Berichte lohnt sich.

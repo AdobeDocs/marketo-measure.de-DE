@@ -1,5 +1,5 @@
 ---
-description: Web-Traffic-Dashboard - [!DNL Marketo Measure]  - Produkt
+description: Web Traffic-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Webtraffic-Dashboard
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
@@ -12,13 +12,13 @@ ht-degree: 6%
 
 # Webtraffic-Dashboard {#web-traffic-dashboard}
 
-Das Dashboard &quot;Webdatenverkehr&quot;bietet einen umfassenden Überblick über die Interaktionen der Besucher Ihrer Site. Erfahren Sie mehr über Metriken wie Unique Visitor-Zählungen pro URL, Gesamtbesuche, Seitenansichten und Formularübermittlungen von bestimmten Formular-URLs oder Landingpages. Überwachen Sie monatliche Traffic-Trends und identifizieren Sie leistungsstarke gebührenpflichtige Medien, sodass Sie Ihre Strategien für eine optimale Umsatzgenerierung verfeinern können.
+Das Dashboard für den Web-Traffic bietet eine umfassende Ansicht der Besucherinteraktionen Ihrer Site. Erfahren Sie mehr über Metriken wie die Anzahl der Unique Visitors pro URL, Gesamtbesuche, Seitenansichten und Formularübermittlungen von bestimmten Formular-URLs oder Landingpages. Überwachen Sie monatliche Traffic-Trends und identifizieren Sie leistungsstarke bezahlte Medien, damit Sie Ihre Strategien für eine optimale Umsatzgenerierung verfeinern können.
 
 Fragen, die dieses Dashboard beantwortet:
 
 * Wie viele Besuche/Unique Visitors haben wir von jeder URL?
 * Wie viele Seitenansichten und Formularübermittlungen haben wir von jeder URL?
-* Wie hat sich der Web-Traffic im vergangenen Jahr entwickelt?
+* Wie hat sich der Web-Traffic im letzten Jahr entwickelt?
 
 ## Dashboard-Komponenten {#dashboard-components}
 
@@ -28,71 +28,71 @@ Fragen, die dieses Dashboard beantwortet:
 <thead>
   <tr>
     <td>Besuche</td>
-    <td>Die Gesamtzahl der Site-Besuche (Sitzungen), die von externen Seiten initiiert wurden, die bekannte und anonyme Benutzer umfassen.</td>
+    <td>Die Gesamtzahl der Seitenbesuche (Sitzungen), die von externen Seiten aus initiiert wurden und bekannte und anonyme Benutzer umfassen.</td>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>Besucher</td>
-    <td>Die Gesamtanzahl der Unique Visitors.</td>
+    <td>Die Gesamtzahl der Unique Visitors.</td>
   </tr>
   <tr>
     <td>Seitenansichten</td>
-    <td>Die Gesamtanzahl der Ansichten auf den Seiten einer Website.</td>
+    <td>Die Gesamtzahl der Aufrufe auf allen Webseiten.</td>
   </tr>
   <tr>
     <td>Formulare</td>
     <td>Die Gesamtzahl der Formularübermittlungen, einschließlich LinkedIn Lead Gen Forms.</td>
   </tr>
   <tr>
-    <td>Eindeutige E-Mails aus Forms</td>
-    <td>Gesamtzahl eindeutiger E-Mails aus Formularübermittlungen.</td>
+    <td>Eindeutige E-Mails von Forms</td>
+    <td>Gesamtzahl der eindeutigen E-Mails aus Formularübermittlungen.</td>
   </tr>
   <tr>
-    <td>Aus Forms erstellte Leads</td>
-    <td>Gesamtzahl neuer Leads, die aus Formularübermittlungen erstellt wurden.</td>
+    <td>Leads aus Forms erstellt</td>
+    <td>Gesamtzahl der neuen Leads, die aus Formularübermittlungen erstellt wurden.</td>
   </tr>
 </tbody>
 </table>
 
 ## Web-Traffic im Zeitverlauf {#web-traffic-over-time}
 
-Zeitreihenliniendiagramm mit den Trends von Seitenansichten, Besuchen, Besuchern, Forms, einmaligen E-Mails aus Formularen und Lead-Erstellung aus Formularen. Verwenden Sie dieses Diagramm, um die Leistung und Interaktion Ihrer Website im Zeitverlauf zu visualisieren und zu vergleichen.
+Zeitreihen-Liniendiagramm, das die Trends bei Seitenansichten, Besuchen, Besuchern, Forms, eindeutigen E-Mails aus Formularen und der Lead-Erstellung aus Formularen anzeigt. Verwenden Sie dieses Diagramm, um die Leistung und Interaktion Ihrer Website im Zeitverlauf zu visualisieren und zu vergleichen.
 
-* Bewegen Sie den Mauszeiger über einen Abschnitt im Diagramm, um die Gesamtbesuche, Unique Visitors oder Formularübermittlungen anzuzeigen.
-* Zoomen Sie mit dem Schieberegler links in bestimmte Wertebereiche.
+* Bewegen Sie den Mauszeiger über einen Abschnitt im Diagramm, um die Gesamtzahl der Besuche, Unique Visitors oder Formularsendungen anzuzeigen.
+* Zoomen Sie mit dem Schieberegler auf der linken Seite in bestimmte Wertebereiche.
 
-Fragen zu den Grafikantworten:
+Fragen, die in der Tabelle beantwortet werden:
 
-* Wie vergleichen sich die Trends bei den Gesamtbesuchen mit den Unique Visitors und den Formulareinsendungen über den angezeigten Zeitraum?
-* In welchem Zeitraum wurde auf der Website die höchste Anzahl an Unique Visitors im Vergleich zu Gesamtbesuche und Formularübermittlungen angezeigt?
+* Wie lassen sich die Trends bei den Besuchen insgesamt im Vergleich zu den Unique Visitors und den Formularübermittlungen im angezeigten Zeitraum vergleichen?
+* In welchem Zeitraum wurde auf der Website die höchste Anzahl von Unique Visitors im Vergleich zur Gesamtzahl der Besuche und Formularübermittlungen angezeigt?
 
 ![](assets/web-traffic-dashboard-1.png)
 
-## Webtraffic-Zusammenfassungstabelle {#web-traffic-summary-table}
+## Zusammenfassungstabelle für Webtraffic {#web-traffic-summary-table}
 
-Tabelle mit Seitenansichten, Besuchen, Besuchern, Forms, einmaligen E-Mails aus Formularen und Lead-Erstellung aus Formularen nach URLs.
+Tabelle mit Seitenansichten, Besuchen, Besuchern, Forms, eindeutigen E-Mails aus Formularen und Lead-Erstellung aus Formularen nach URLs.
 
 **Spalten**
 
 * Seitentitel
-* Seiten-URL
+* „Seiten-URL“
 * Seitenansichten
 * Besuche
 * Eindeutige Besucher
 * Formularsendungen
-* Eindeutige E-Mails aus Formularen
+* Eindeutige E-Mails von Formularen
 * Lead-Erstellung aus Formularen
 
 ![](assets/web-traffic-dashboard-2.png)
 
 ## Referrer-Tabelle {#referrer-table}
 
-Tabelle, die die Gesamtbesuche und Unique Visitors nach Referrern anzeigt.
+Tabelle mit der Gesamtzahl der Besuche und Unique Visitors nach Referrern.
 
 **Spalten**
 
-* Referrer Name
+* Name des Werbers
 * Besuche
 * Eindeutige Besucher
 
@@ -100,15 +100,15 @@ Tabelle, die die Gesamtbesuche und Unique Visitors nach Referrern anzeigt.
 
 ## Besuche/Besucher nach Kanal {#visits-visitors-by-channel}
 
-Balkendiagramm mit Besuchen oder Unique Visitors, segmentiert nach Kanal/Subkanal/Kampagne.
+Balkendiagramm mit der Darstellung von Besuchen für Unique Visitors nach Kanal/Unterkanal/Kampagne.
 
-* Verwenden Sie die Drilldown- und Up-Funktionen, um die Daten nach Subchannel und Campaign zu kategorisieren.
+* Verwenden Sie die Drilldown- und Nach-oben-Funktionen, um die Daten nach Unterkanal und Kampagne zu kategorisieren.
 * Bewegen Sie den Mauszeiger über die einzelnen Balken, um die Besuche oder Unique Visitors anzuzeigen.
 
-Fragen zu den Grafikantworten:
+Fragen, die in der Tabelle beantwortet werden:
 
-* Welcher Kanal/Subkanal/welche Kampagne zieht die höchste Anzahl von Besuchen oder Unique Visitors an?
-* Wie unterscheidet sich die Anzahl der Unique Visitors von der Gesamtanzahl der Besuche innerhalb eines bestimmten Kanals/Subkanals/einer bestimmten Kampagne?
+* Welcher Kanal/welcher Unterkanal/welche Kampagne zieht die höchste Anzahl an Besuchen oder Unique Visitors an?
+* Wie hoch ist die Anzahl der Unique Visitors im Vergleich zur Gesamtzahl der Besuche innerhalb eines bestimmten Kanals/Unterkanals/einer bestimmten Kampagne?
 
 ![](assets/web-traffic-dashboard-4.png)
 
@@ -116,8 +116,8 @@ Fragen zu den Grafikantworten:
 
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
-* Datum (basierend auf dem Ereignisdatum)
-* Kanal, Subkanal
+* Datum (basierend auf Ereignisdatum)
+* Kanal, Unterkanal
 * Kampagne
 * URL
 * Seitentitel

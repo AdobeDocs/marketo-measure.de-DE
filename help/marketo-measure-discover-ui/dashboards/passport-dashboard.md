@@ -1,5 +1,5 @@
 ---
-description: Passport-Dashboard - [!DNL Marketo Measure]  - Produkt
+description: Passport-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Passport-Dashboard
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
@@ -12,33 +12,33 @@ ht-degree: 3%
 
 # Passport-Dashboard {#passport-dashboard}
 
-Das Passport-Dashboard bietet Marketing-Experten eine dynamische Ansicht von Leads, Kontakten und Möglichkeiten, während sie innerhalb eines bestimmten Zeitraums verschiedene Phasen durchlaufen. Durch Filterung nach einem bestimmten Datum können Benutzer auch eine Momentaufnahme der Datensätze für diesen Tag abrufen.
+Das Pass-Dashboard bietet Marketing-Experten eine dynamische Ansicht von Leads, Kontakten und Opportunities beim Übergang durch verschiedene Stadien innerhalb eines bestimmten Zeitraums. Durch Filtern nach einem bestimmten Datum können Benutzer auch eine Momentaufnahme der Datensätze für diesen Tag abrufen.
 
-**Fragen, die die Pinnwand beantwortet:**
+**Fragen, die das Board beantwortet:**
 
-* Wie viele Leads, Kontakte oder Möglichkeiten gab es an einem beliebigen Tag in jeder Phase ohne Terminalfenster?
-* Wie viele verschiedene Leads oder Kontakte sind während eines bestimmten Zeitraums durch die einzelnen Phasen der Transition fortgeschritten?
-   * _Beispiel_: Wenn sich Lead A am 1.1.2023 in Stufe 1 befand und bis zum 31.3.2023 auf Stufe 5 erweitert wurde, würde die Passport-Analyse Q1 2023 Lead A in den Stufen 1 bis 5 zählen.
-* Wie viele einmalige Gelegenheiten haben während eines bestimmten Zeitraums durch die einzelnen Übergangsphasen hinweg gegeben?
+* Wie viele Leads, Kontakte oder Opportunities gab es in jeder nicht-terminalen Phase an einem ausgewählten Tag?
+* Wie viele verschiedene Leads oder Kontakte haben während eines bestimmten Zeitraums in jedem Übergangsstadium den Vorgang durchlaufen?
+   * _Beispiel_: Wenn sich Lead A am 1/1/2023 in Phase 1 befand und bis 3/31/2023 auf Stufe 5 vorrückte, würde die Passanalyse für das 1. Quartal 2023 Lead A in den Stufen 1 bis 5 zählen.
+* Wie viele einzigartige Opportunitys wurden in einem bestimmten Zeitraum durch jede Übergangsphase geleitet?
 
 ## Dashboard-Komponenten {#dashboard-components}
 
-### Möglichkeiten in der Phase nach Staging-Namen {#opportunities-in-stage-by-stage-name}
+### Vertriebschancen in Phase nach Name des Stadiums {#opportunities-in-stage-by-stage-name}
 
-* Jede Phase zeigt die Anzahl der Möglichkeiten mit Touchpoints, die innerhalb eines bestimmten Zeitraums durch sie geleitet wurden.
-   * Wenn eine Gelegenheit innerhalb dieses Zeitraums mehrere Phasen durchläuft, wird sie in jeder Phase gezählt, in der sie vergeht.
-* Terminalphasen wie &quot;Geschlossene Gewinne&quot;und &quot;Geschlossene Verluste&quot;sind ausgeschlossen.
-* Sowohl das Start- als auch das Enddatum sind inklusive.
+* Jedes Stadium zeigt die Anzahl der Opportunitys mit Touchpoints, die in einem bestimmten Zeitraum durchlaufen wurden.
+   * Wenn eine Opportunity innerhalb dieses Zeitraums mehrere Stadien durchläuft, wird sie in jedem Stadium gezählt, das sie durchläuft.
+* Terminalphasen wie „Closed Won“ und „Closed Lost“ sind ausgeschlossen.
+* Start- und Enddatum sind inklusive.
 
 ![](assets/passport-dashboard-1.png)
 
-### Leads oder Kontakte in der Staging-Umgebung nach Staging-Name {#leads-or-contacts-in-stage-by-stage-name}
+### Leads oder Kontakte in der Phase nach Name der Phase {#leads-or-contacts-in-stage-by-stage-name}
 
-* Jede Phase zeigt die Anzahl der Leads oder Kontakte mit Touchpoints, die innerhalb eines bestimmten Zeitraums durch sie geleitet wurden.
-   * Ob &quot;Lead&quot;oder &quot;Kontakt&quot;angezeigt werden soll, hängt von der in den Einstellungen > Attributionseinstellungen > Standard-Dashboard-Objekt festgelegten Voreinstellung ab.
-   * Wenn ein Lead oder Kontakt innerhalb dieses Zeitraums mehrere Phasen durchläuft, wird er in jeder Phase gezählt, in der er durchläuft.
-* Terminalphasen wie &quot;Geschlossene Gewinne&quot;und &quot;Geschlossene Verluste&quot;sind ausgeschlossen.
-* Sowohl das Start- als auch das Enddatum sind inklusive.
+* In jedem Schritt wird die Anzahl der Leads oder Kontakte mit Touchpoints angezeigt, die in einem bestimmten Zeitraum durchlaufen wurden.
+   * Ob „Lead“ oder „Kontakt“ angezeigt werden soll, hängt von den Voreinstellungen ab, die in festgelegt sind: Einstellungen > Attributionseinstellungen > Standard-Dashboard-Objekt.
+   * Wenn ein Lead oder Kontakt in diesem Zeitraum mehrere Phasen durchläuft, wird er in jedem Schritt gezählt, den er durchläuft.
+* Terminalphasen wie „Closed Won“ und „Closed Lost“ sind ausgeschlossen.
+* Start- und Enddatum sind inklusive.
 
 ![](assets/passport-dashboard-2.png)
 
@@ -46,12 +46,12 @@ Das Passport-Dashboard bietet Marketing-Experten eine dynamische Ansicht von Lea
 
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
-* Datum (basierend auf dem Übergangsdatum)
-* Kanal, Subkanal
+* Datum (basierend auf Übergangsdatum)
+* Kanal, Unterkanal
 * Kampagne
 * Segmente
 
 >[!MORELIKETHIS]
 >
 >* [Entdecken Sie die Grundlagen von Dashboards](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [Dashboard-Richtlinie zur Sichtbarkeit der Daten](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [Richtlinie für die Datensichtbarkeit im Dashboard](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}

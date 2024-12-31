@@ -12,7 +12,7 @@ ht-degree: 15%
 
 ---
 
-# Test [!DNL Marketo Measure] aus vollständigem Kreis {#test}
+# [!DNL Marketo Measure] aus Vollkreis testen {#test}
 
 Text
 
@@ -22,4 +22,4 @@ Mehr Text
 
 >[!NOTE]
 >
->Text
+>Notizentext

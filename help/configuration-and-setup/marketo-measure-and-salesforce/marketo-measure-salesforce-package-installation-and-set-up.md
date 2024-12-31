@@ -1,5 +1,5 @@
 ---
-description: '[!DNL Marketo Measure] Salesforce-Paketinstallation und -einrichtung - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] der Installation und Einrichtung von Salesforce-Paketen - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] [!DNL Salesforce] Paketinstallation und -einrichtung'
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
