@@ -4,7 +4,7 @@ description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 3ad812a05671f277d3dd3f9bc58e3b2ea3606e71
+source-git-commit: e9861f8032475d3e60a3bb3ebf67dfee520bbb75
 workflow-type: tm+mt
 source-wordcount: '21110'
 ht-degree: 99%
