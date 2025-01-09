@@ -4,7 +4,7 @@ description: Integration von [!DNL Marketo Engage]-Aktivitäten - [!DNL Marketo 
 title: Integration von [!DNL Marketo Engage]
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 1%
@@ -159,9 +159,9 @@ Benutzerdefinierte Aktivität (xxx)
 
 ## Kanalzuordnung {#channel-mapping}
 
-Für jede der Regeln eines Aktivitätstyps mit einer Programm-ID wird der Marketo-Programmkanal anhand des Programms bestimmt. Wir verwenden den Programmkanal, um Ihre benutzerdefinierten Offline-Kanäle zuzuordnen, sodass Sie sicherstellen müssen, dass Ihre Kanäle ordnungsgemäß konfiguriert sind [wie hier beschrieben](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
+Für jede der Regeln eines Aktivitätstyps mit einer Programm-ID wird der Marketo-Programmkanal anhand des Programms bestimmt. Wir verwenden den Programmkanal, um Ihre benutzerdefinierten Offline-Kanäle zuzuordnen, sodass Sie sicherstellen müssen, dass Ihre Kanäle ordnungsgemäß konfiguriert sind [wie hier beschrieben](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}.
 
-Für alle Regeln aus einem Aktivitätstyp ohne Programm-ID war der erste Schritt die Erstellung eines Kampagnennamens. Verwenden Sie diesen Kampagnennamen, um Ihre benutzerdefinierten Online-Kanäle einzurichten [hier beschrieben](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Für alle Regeln aus einem Aktivitätstyp ohne Programm-ID war der erste Schritt die Erstellung eines Kampagnennamens. Verwenden Sie diesen Kampagnennamen, um Ihre benutzerdefinierten Online-Kanäle einzurichten [hier beschrieben](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}.
 
 Wenn die Kanäle für Ihre Marketo-Aktivitäten nicht ordnungsgemäß konfiguriert sind, fallen Ihre neuen Touchpoints wahrscheinlich unter den Kanal „Sonstige“.
 

@@ -4,7 +4,7 @@ description: Integration von [!DNL Marketo Engage] Programmen - [!DNL Marketo Me
 title: Integration von [!DNL Marketo Engage] Programmen
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 2%
@@ -99,16 +99,12 @@ Durch den Datenimport von Marketo-Programmen werden Kosten automatisch aus dem K
 
 **Feldzuordnungen**
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
+<table><thead>
   <tr> 
    <th>Biz_Ad_campaigns</th> 
    <th>Marketo</th> 
-  </tr> 
+  </tr></thead>
+<tbody>
   <tr> 
    <td>ID</td> 
    <td>ID</td> 
@@ -118,24 +114,60 @@ Durch den Datenimport von Marketo-Programmen werden Kosten automatisch aus dem K
    <td>(Prüfen, ob das Programm noch über die API existiert)</td> 
   </tr> 
   <tr> 
-   <td><p>NAME</p></td> 
+   <td>NAME</td> 
    <td>name</td> 
   </tr> 
  </tbody> 
 </table>
 
-| Biz_Campaign_Members | Marketo |
-|---|---|
-| ID | „MarketoProgramMembership„_ProgramId_Lead-ID |
-| MODIFIED_DATE | updatedAt |
-| CREATED_DATE | membershipDate |
-| LEAD_ID | ID (Mitgliedschaft in der Liste) |
-| LEAD_EMAIL | E-Mail (Mitgliedschaft in der Liste) |
-| STATUS | progressStatus |
-| HAS_RESPONDED | reachedStatus |
-| CAMPAIGN_NAME | programName |
-| CAMPAIGN_ID | programId |
-| CAMPAIGN_TYPE | Kanal |
+<table><thead>
+  <tr>
+    <th>Biz_Campaign_Members</th>
+    <th>Marketo</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>ID</td>
+    <td>„MarketoProgramMembership„_ProgramId_Lead-ID</td>
+  </tr>
+  <tr>
+    <td>MODIFIED_DATE</td>
+    <td>updatedAt</td>
+  </tr>
+  <tr>
+    <td>CREATED_DATE</td>
+    <td>membershipDate</td>
+  </tr>
+  <tr>
+    <td>LEAD_ID</td>
+    <td>ID (Mitgliedschaft in der Liste)</td>
+  </tr>
+  <tr>
+    <td>LEAD_EMAIL</td>
+    <td>E-Mail (Mitgliedschaft in der Liste)</td>
+  </tr>
+  <tr>
+    <td>STATUS</td>
+    <td>progressStatus</td>
+  </tr>
+  <tr>
+    <td>HAS_RESPONDED</td>
+    <td>reachedStatus</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_NAME</td>
+    <td>programName</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_ID</td>
+    <td>programId</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_TYPE</td>
+    <td>Kanal</td>
+  </tr>
+</tbody>
+</table>
 
 ## Cookie-Zuordnung {#cookie-mapping}
 
