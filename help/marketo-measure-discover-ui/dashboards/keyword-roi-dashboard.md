@@ -3,9 +3,9 @@ description: Keyword ROI Dashboard - [!DNL Marketo Measure] - Produkt
 title: Keyword-ROI-Dashboard
 feature: Reporting
 exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
-source-git-commit: 827469c68e518ff7a6497c3167ced7039323af62
+source-git-commit: f1adf53a9bf3adbc77d52c12dbafb09a28e51178
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '403'
 ht-degree: 3%
 
 ---
@@ -32,10 +32,10 @@ Schlüsseln Sie die einzelnen Keywords auf, um die von ihnen beeinflussten Oppor
 
 * **Keyword**
 * **Kampagne**
-* **Werbekonto-ID** (in Kürze verfügbar)
-* **Ad-Kontoname** (in Kürze verfügbar)
-* **Anzeigengruppen-ID** (in Kürze verfügbar)
-* **Name der Anzeigengruppe** (in Kürze verfügbar)
+* **Werbekonto-ID**
+* **Ad-Kontoname**
+* **Anzeigengruppen-ID**
+* **Anzeigengruppenname**
 * **Kosten**: Gesamtkosten aus verbundenen Datenquellen.
 * **Attributierter Umsatz**: Der Gesamtumsatzbeitrag, basierend auf dem ausgewählten Attributionsmodell, von Opportunities mit Touchpoints, die innerhalb des gefilterten Datumszeitraums geschlossen wurden
 * **Realisierter zugewiesener Umsatz**: Der Gesamtumsatzbeitrag, basierend auf dem ausgewählten Attributionsmodell, von Opportunitys mit Touchpoints innerhalb des gefilterten Datumszeitraums, unabhängig davon, wann sie geschlossen wurden.
@@ -53,10 +53,10 @@ Schlüsseln Sie die einzelnen Keywords auf, um die von ihnen beeinflussten Oppor
 
 * **Keyword**
 * **Kampagne**
-* **Werbekonto-ID** (in Kürze verfügbar)
-* **Ad-Kontoname** (in Kürze verfügbar)
-* **Anzeigengruppen-ID** (in Kürze verfügbar)
-* **Name der Anzeigengruppe** (in Kürze verfügbar)
+* **Werbekonto-ID**
+* **Ad-Kontoname**
+* **Anzeigengruppen-ID**
+* **Anzeigengruppenname**
 * **Kosten**
 * **Neue Leads**: Gesamtzahl der neu generierten Leads, einschließlich sowohl kontaktierter als auch nicht kontaktierter Leads.
 * **Kosten pro neuem Lead**: Die durchschnittlichen Kosten pro neuem Lead, abgeleitet von den Gesamtkosten dividiert durch die Gesamtzahl neuer Leads.
