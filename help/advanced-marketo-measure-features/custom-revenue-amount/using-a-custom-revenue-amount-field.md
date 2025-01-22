@@ -4,7 +4,7 @@ description: Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag - [
 title: Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
+source-git-commit: 03342bde87b75ab702eea4c63b581479a7e303c1
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 2%
@@ -104,6 +104,6 @@ Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Si
 
    Trigger Nachdem Sie diese Schritte abgeschlossen haben, müssen die Opportunitys aktualisiert werden, damit der Workflow den neuen Wert aus dem Feld [!UICONTROL Benutzerdefinierte Opportunity] erhält.
 
-   Dies können Sie erreichen, indem Sie Ihre Opportunitys über den Data Loader in SFDC ausführen. Weitere Informationen zur Verwendung des Datenladers finden Sie in [diesem Artikel](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Dies können Sie erreichen, indem Sie Ihre Opportunitys über den Data Loader in SFDC ausführen. Weitere Informationen zur Verwendung des Datenladers finden Sie in [diesem Artikel](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}.
 
 Sollten Sie Fragen haben, wenden Sie sich bitte an das Adobe Account Team (Ihren Account Manager) oder an den [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
