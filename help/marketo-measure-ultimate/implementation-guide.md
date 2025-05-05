@@ -56,7 +56,7 @@ Es wird empfohlen, ein Dienstprogramm zur automatischen Generierung zu verwenden
 
 * Weitere Informationen wie Schritte zum Herunterladen und Einrichten des Hilfsprogramms [finden Sie hier](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=de#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Für diejenigen mit einer _**CDP-Berechtigung**_: Erstellen Sie Schemata, indem Sie zur Seite „Quellen“ navigieren.
+Für diejenigen mit einer _&#x200B;**CDP-Berechtigung**&#x200B;_: Erstellen Sie Schemata, indem Sie zur Seite „Quellen“ navigieren.
 
 * Wählen Sie aus einer Quelle „Daten hinzufügen“ > „Vorlagen verwenden“ aus.
 

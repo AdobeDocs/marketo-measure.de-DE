@@ -71,7 +71,7 @@ Nachdem Sie über eine Tracking-Vorlage verfügen, befolgen Sie die nachstehende
 Denken Sie daran, dass Sie Tracking-Vorlagen auf der Ebene [!UICONTROL Konto], [!UICONTROL Kampagne] oder Anzeigengruppe in AdWords hinzufügen sollten. Wenn Sie Tracking-Vorlagen auf Keyword-, Sitelink- oder Anzeigenebene hinzufügen, muss Ihre Anzeige den Prüfungs- und Genehmigungsprozess durchlaufen, und Sie riskieren, den Leistungsverlauf Ihrer Anzeigen neu zu starten. Weitere Informationen zum [ von Tracking-Vorlagen](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Melden Sie sich bei Ihrem [!DNL Google AdWords] Konto an.
-1. Navigieren Sie [!UICONTROL  Ansicht ]Kampagnen“ in der linken Navigationsleiste
+1. Navigieren Sie [!UICONTROL &#x200B; Ansicht &#x200B;]Kampagnen“ in der linken Navigationsleiste
 1. Navigieren Sie zu [!UICONTROL Einstellungen], auch in der linken Navigationsleiste
 1. Schalten Sie in die Ansicht [!UICONTROL Kontoeinstellungen] oben um
 1. Erweitern Sie den Abschnitt [!UICONTROL Tracking]

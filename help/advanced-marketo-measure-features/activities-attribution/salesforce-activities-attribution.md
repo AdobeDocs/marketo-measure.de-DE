@@ -72,11 +72,11 @@ Sie sollten diese neuen Touchpoints wahrscheinlich in ihrem entsprechenden [Mark
 >
 >beginnt mit ( Ausgehend&#42; )
 >
-enthält ( &#42;Outbound&#42; )
+>enthält ( &#42;Outbound&#42; )
 >
-endet mit ( &#42;Outbound )
+>endet mit ( &#42;Outbound )
 >
-Kein Platzhalter bedeutet im Grunde „ist gleich“. Daher sollten Sie darauf achten, dass Sie ihn bei Bedarf verwenden.
+>Kein Platzhalter bedeutet im Grunde „ist gleich“. Daher sollten Sie darauf achten, dass Sie ihn bei Bedarf verwenden.
 
 | **Operator** | **Anwendungsfall** |
 |---|---|
@@ -93,4 +93,4 @@ Und nicht zuletzt haben Sie die Möglichkeit, Kosten für Ihre neuen Kanäle ein
 
 >[!MORELIKETHIS]
 >
-[Häufig gestellte Fragen zur Aktivitätszuordnung](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>[Häufig gestellte Fragen zur Aktivitätszuordnung](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

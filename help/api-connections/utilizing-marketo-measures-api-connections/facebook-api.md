@@ -34,7 +34,7 @@ Was die Einrichtung betrifft, müssen in der [!DNL Marketo Measure]-App sieben S
    >Die Person, die das [!DNL Facebook Ads]-Konto verbindet, muss Administrator des [!DNL Facebook Ads]-Kontos sein.
 
 1. Sobald [!DNL Marketo Measure] mit Ihrem Facebook-Konto verbunden ist, klicken Sie auf das Stiftsymbol neben dem Konto.
-1. Verschieben Sie in dieser Ansicht das Feld „Automatisches Tagging?“ auf „Ja“ umschalten. Aktivieren Sie dann das Kontrollkästchen im Abschnitt [!UICONTROL Weitere Informationen], um den Nutzungsbedingungen zuzustimmen. Stellen Sie sicher[!UICONTROL  dass der Umschalter für ]Automatisches Tagging“ weiterhin auf &quot;[!UICONTROL Ja] eingestellt ist.
+1. Verschieben Sie in dieser Ansicht das Feld „Automatisches Tagging?“ auf „Ja“ umschalten. Aktivieren Sie dann das Kontrollkästchen im Abschnitt [!UICONTROL Weitere Informationen], um den Nutzungsbedingungen zuzustimmen. Stellen Sie sicher[!UICONTROL &#x200B; dass der Umschalter für &#x200B;]Automatisches Tagging“ weiterhin auf &quot;[!UICONTROL Ja] eingestellt ist.
 
 ## Verbinden des Kontos {#connecting-the-account}
 
