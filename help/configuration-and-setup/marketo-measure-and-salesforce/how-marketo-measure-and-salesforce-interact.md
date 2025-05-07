@@ -4,9 +4,9 @@ description: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren – M
 title: Wie [!DNL Marketo Measure] und [!DNL Salesforce] interagieren
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
+source-git-commit: ec5172286951f482905f97268f33f063d1860694
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1290'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Schauen wir uns einmal die Beziehung zwischen [!DNL Marketo Measure] und Salesforce an.
 
-## Salesforce und [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
+## Salesforce und [!DNL Marketo Measure]  {#salesforce-and-marketo-measure}
 
 Sobald das [!DNL Marketo Measure] Konto erstellt und [!DNL Salesforce] verbunden ist, beginnt [!DNL Marketo Measure] damit, Marketingdaten in die CRM-Instanz zu pushen, solange das von [!DNL Marketo Measure] verwaltete Paket installiert ist und die Benutzerin bzw. der Benutzer von [!DNL Marketo Measure] Salesforce über Bearbeitungsrechte verfügt.
 
@@ -449,7 +449,19 @@ Hiermit werden die [!DNL Salesforce]-Standardobjekte, mit denen [!DNL Marketo Me
    <td>Typ</td> 
    <td>Standard</td> 
    <td>x</td> 
-   <td><br></td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>Startdatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>EndDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
   </tr>
   <tr> 
    <td>Name</td> 
@@ -583,7 +595,7 @@ Hiermit werden die [!DNL Salesforce]-Standardobjekte, mit denen [!DNL Marketo Me
 >* Aufgabe
 
 
-## Benutzerdefinierte [!DNL Marketo Measure]-Objekte in [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
+## Benutzerdefinierte [!DNL Marketo Measure]-Objekte in [!DNL Salesforce]  {#marketo-measure-custom-objects-in-salesforce}
 
 Neben der Erstellung von benutzerdefinierten Feldern in den Standardobjekten von SFDC werden nach der Installation des [!DNL Marketo Measure]-Pakets eine Reihe von benutzerdefinierten Objekten erstellt. Es folgt eine Liste dieser benutzerdefinierten Objekte zusammen mit einer Tabelle, in der die Felder angegeben sind, in die [!DNL Marketo Measure] schreiben wird.
 
