@@ -4,10 +4,10 @@ description: Attributionszuordnungsmethodik - [!DNL Marketo Measure]
 title: Attributionszuordnungsmethode
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
+source-git-commit: 90d0d6481e5b338d08a56f555ca3addea8bdd304
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: '611'
+ht-degree: 0%
 
 ---
 
@@ -28,6 +28,10 @@ Positiv:: Diese Attributionsmethode ist für die meisten Unternehmen sehr effekt
 Negativ:: Wenn es starke Marketing- und Sales-SLAs gibt, die definieren, wer wofür angerechnet werden soll, dann könnte diese Methode problematisch sein. Wenn Personen keine Account-Hierarchien verwenden, um bestimmte Geschäftseinheiten innerhalb eines größeren Accounts zu definieren (z. B.: IBM), können darüber hinaus Marketing-Interaktionen, die für eine Business Unit spezifisch sind, über andere Business Unit-Opportunitys verteilt werden.
 
 ## Zuordnung der Kontaktrolle der Opportunity {#opportunity-contact-role-mapping}
+
+>[!NOTE]
+>
+>Zuordnungsmethoden für Kontaktrollen sind nur für diejenigen verfügbar, die Salesforce als CRM verwenden. Es ist nicht für Microsoft Dynamics-Benutzer verfügbar, da in diesem CRM kein Kontaktrollen-Objekt vorhanden ist.
 
 Während die meisten Kunden die Konto-ID-Zuordnung verwenden, können [!DNL Marketo Measure] in einer Opportunity die Kontaktrollen (mit der Opportunity verknüpfte Kontakte) nachschlagen, um den Attributionsprozess aufzuschlüsseln. Das bedeutet, dass [!DNL Marketo Measure] nur Marketing-Interaktionen pushen, die mit den Kontaktrollen der Opportunity als Attribution-Touchpoints für Käufer verknüpft sind. Nachfolgend finden Sie eine Darstellung dieses Prozesses.
 
