@@ -4,7 +4,7 @@ description: '[!DNL Marketo Measure] Cookies - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure]-Cookies'
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 99%
@@ -106,7 +106,7 @@ Erfahren Sie mehr über die verschiedenen [!DNL Marketo Measure]-Cookies, die au
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Drittanbieter, Domain=.<a href="http://bizibly.com/">bizibly.com</a></td>
+    <td>Drittanbieter, Domain=.<a href="https://bizibly.com/">bizibly.com</a></td>
     <td>Zuordnung zwischen der Marketo Measure-Cookie-ID in der Domain des Mandanten und der zugehörigen DoubleClick-Impressions-Cookie-ID.</td>
     <td>1 Jahr</td>
     <td>Ja</td>

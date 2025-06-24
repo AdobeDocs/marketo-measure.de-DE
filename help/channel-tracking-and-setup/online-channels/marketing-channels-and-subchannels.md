@@ -4,9 +4,9 @@ description: Marketing-Kanäle und -Unterkanäle – [!DNL Marketo Measure]
 title: Marketing-Kanäle und -Unterkanäle
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Unterkanäle sind das zweite Puzzleteil beim Einsortieren der eingehenden Leads 
 
 Das folgende Diagramm zeigt ein Beispiel für einen Marketing-Kanal, einen Unterkanel und einen Inhalt, der auf einer Web-Seite mit der folgenden URL basiert:
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial)*
+`http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial`
 
 In diesem Fall ist der Inhalt, auf den die Benutzerin bzw. der Benutzer zugreifen möchte, das Einleitungshandbuch für die B2B-Marketing-Attribution. [!DNL Marketo Measure] analysiert die URL, die zu diesem Inhalt führt, mithilfe der in dieser Organisation eingerichteten Kanalregeln und verwendet sie, um diesen Lead in den Marketing-Kanal „Paid Social“ und den Unterkanal „LinkedIn“ einzusortieren.
 
