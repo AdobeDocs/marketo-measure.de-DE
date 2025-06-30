@@ -4,9 +4,9 @@ description: Boomerang-Stadium-Szenarien - [!DNL Marketo Measure]
 title: Boomerang-Phasen-Szenarien
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: ce54eb497c55c4ab8da55e9b2803dc59a87c7267
+source-git-commit: 855ae5abe6f8782ed1883f85be545c11bf86e7ce
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Die MQL-01 (Letzte) von Lead 2 wird die erste MQL für die Opportunity. Die MQL-
 
 Die SQL-Phase wird mit benutzerdefinierten Stadien verfolgt, nicht mit Boomerang-Stadien. Obwohl es drei Vorkommnisse der SQL-Phase zwischen Lead 1 und Lead 2 gibt, wird nur das letzte SQL-Vorkommnis als Touchpoint in die Opportunity aufgenommen.
 
-Der SAL-01-Touchpoint (Letzter) von Lead 1 wird als Touchpoint auf die Opportunity übertragen. Lead 1 wird dann in einen Kontakt mit einer Opportunity umgewandelt, der als OC Touch gilt. Der SAL-01-Touchpoint (Letzter) von Lead 2 wird als Touchpoint erstellt, da dieser Stadienübergang (_) nach_ OC-Touch erfolgt ist.
+Der SAL-01-Touchpoint (Letzter) von Lead 1 wird als Touchpoint auf die Opportunity übertragen. Lead 1 wird dann in einen Kontakt mit einer Opportunity umgewandelt, der als OC Touch gilt. Der SAL-01-Touchpoint (Letzter) von Lead 2 wird nicht als Touchpoint erstellt, da dieser Stadienübergang _nach_ OC-Touch stattfand.
 
 Die FT-, LC- und MQL-, SQL-, SAL-Touchpoints (orange) von Lead 3 erfolgten alle nach dem OC-Touchpoint auf der Opportunity. Diese Touchpoints sind in der Opportunity enthalten, gelten aber als „Middle Touches“.
 
