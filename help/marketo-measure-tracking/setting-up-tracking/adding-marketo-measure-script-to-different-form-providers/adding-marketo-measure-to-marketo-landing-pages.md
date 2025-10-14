@@ -42,4 +42,4 @@ Beispiel im folgenden Screenshot
 
 * Es ist wahrscheinlich, dass Sie mehrere Landingpage-Vorlagen verwenden. Stellen Sie sicher, dass Sie den Code zu allen Vorlagen hinzufügen, die Formulare enthalten.
 
-* Wenn Sie die Vorlage für Landingpages bearbeiten, müssen Sie manchmal die Seiten, von denen die Landingpage verwendet wird, erneut genehmigen. In diesem Artikel wird [Massenvalidierung“ ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=de){target="_blank"}.
+* Wenn Sie die Vorlage für Landingpages bearbeiten, müssen Sie manchmal die Seiten, von denen die Landingpage verwendet wird, erneut genehmigen. In diesem Artikel wird [Massenvalidierung“ &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=de){target="_blank"}.

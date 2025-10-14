@@ -44,4 +44,4 @@ In der Listenansicht der Kampagne, die erstellt werden kann, haben Sie die Mögl
 
 >[!MORELIKETHIS]
 >
->[Beheben häufiger Probleme bei der Inline-Bearbeitung von Listenansichten](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}
+>[Beheben häufiger Probleme bei der Inline-Bearbeitung von Listenansichten](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

@@ -29,4 +29,4 @@ Nachdem Sie die Installation abgeschlossen und mit der Verwendung von Berichten 
 
 >[!MORELIKETHIS]
 >
->[Salesforce - Ausblenden nicht verwendeter Berichtstypen](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&amp;type=5&amp;language=en_us)
+>[Salesforce - Ausblenden nicht verwendeter Berichtstypen](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

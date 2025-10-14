@@ -27,7 +27,7 @@ Der verwaltete Berechtigungssatz bietet einem SFDC-Administrator die Möglichkei
 
 * Berechtigungssatz für konvertierte Leads anzeigen und bearbeiten
 
-Dies ermöglicht [!DNL Marketo Measure], Leads zu dekorieren, nachdem sie in Kontakte umgewandelt wurden. Wenn dieser Berechtigungssatz nicht aktiviert ist, kann es zu erheblichen Lücken bei der Datenverfolgung kommen. Weitere Informationen finden Sie unter [[!DNL Salesforce Trailblazer] Community](https://help.salesforce.com/s/articleView?language=en_US&amp;id=leads_view_edit_converted.htm&amp;type=5).
+Dies ermöglicht [!DNL Marketo Measure], Leads zu dekorieren, nachdem sie in Kontakte umgewandelt wurden. Wenn dieser Berechtigungssatz nicht aktiviert ist, kann es zu erheblichen Lücken bei der Datenverfolgung kommen. Weitere Informationen finden Sie unter [[!DNL Salesforce Trailblazer] Community](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
 
 * Checkbox „Marketing-Benutzer [!DNL Salesforce]&quot;
 

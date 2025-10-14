@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Beim Zusammenführen von Leads in [!DNL Salesforce] sollten Sie immer vorsichtig sein, um sicherzustellen, dass keine Daten verloren gehen.
 
-Im Folgenden finden Sie eine Aufschlüsselung des [!DNL Salesforce]-Supports [Zusammenführen von Leads](https://help.salesforce.com/s/articleView?id=leads_merge.htm&amp;language=en_US&amp;type=5).
+Im Folgenden finden Sie eine Aufschlüsselung des [!DNL Salesforce]-Supports [Zusammenführen von Leads](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5).
 
 [!DNL Marketo Measure] kommt ins Spiel, wenn es an der Zeit ist, Felder auszuwählen, die in den zusammengeführten Datensatz eingefügt werden. Überprüfen Sie bei Auswahl des primären Datensatzes, ob die [!DNL Marketo Measure] Felder ausgewählt wurden, um sie in den neuen Datensatz zu übertragen.
 

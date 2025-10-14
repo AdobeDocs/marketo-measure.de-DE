@@ -19,7 +19,7 @@ Sie können einzelne Anfragen zum Zugreifen auf und Löschen von Verbraucherdate
 * Über die [[!DNL Privacy Service] Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=de){target="_blank"}.
 * Über die **[!DNL Privacy Service]-API**. Siehe die Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de){target="_blank"} und die API-Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-Der [Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de){target="_blank"} unterstützt zwei Anfragetypen: Datenzugriff und Datenlöschung.
+Der [Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de){target="_blank"} unterstützt zwei Anfragetypen: Datenzugriff und Datenlöschung.
 
 Sehen wir uns an, wie Sie Zugriffs- und Löschanfragen erstellen können.
 
