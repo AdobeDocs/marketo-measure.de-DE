@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Kontobasiertes Marketing – Überblick {#account-based-marketing-overview}
 
-Die folgenden Abschnitte bieten einen kurzen Überblick über ABM, die Komponenten der ABM-Funktion in [!DNL Marketo Measure] und darüber, wie Sie sie zu Ihrem [!DNL Salesforce]-Seiten-Layout hinzufügen. Um mehr über ABM zu erfahren, lesen Sie den [ABM-Blog](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"} von Adobe.
+Die folgenden Abschnitte bieten einen kurzen Überblick über ABM, die Komponenten der ABM-Funktion in [!DNL Marketo Measure] und darüber, wie Sie sie zu Ihrem [!DNL Salesforce]-Seiten-Layout hinzufügen. Um mehr über ABM zu erfahren, lesen Sie den [ABM-Blog](https://business.adobe.com/de/blog/basics/account-based-marketing){target="_blank"} von Adobe.
 
 Detaillierte Anweisungen zum Einrichten von ABM in Ihrer [!DNL Salesforce]-Instanz finden Sie unter [Einrichten des ABM-Seiten-Layouts in Salesforce](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
