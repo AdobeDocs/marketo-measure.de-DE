@@ -7,7 +7,7 @@ user-guide-description: '[!DNL Marketo Measure] gibt Marketing-Fachleuten einen 
 source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
 workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -16,18 +16,18 @@ ht-degree: 100%
 
 + [Überblick](home.md)
 + Einführung in [!DNL Marketo Measure] {#introduction-to-marketo-measure}
-   + Überblick und Ressourcen {#overview-resources}
+   + Übersichtsressourcen {#overview-resources}
       + [Marketing-Zuordnung](introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
       + [[!DNL Marketo Measure] Attributionsmodelle](introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
       + [[!DNL Marketo Measure] Framework](introduction-to-marketo-measure/overview-resources/marketo-measure-framework.md)
       + [Glossar der  [!DNL Marketo Measure] -Felder](introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
-+ [!DNL Marketo Measure]-Tracking {#marketo-measure-tracking}
-   + Tracking einrichten {#setting-up-tracking}
++ Tracking [!DNL Marketo Measure] {#marketo-measure-tracking}
+   + Einrichten des Trackings {#setting-up-tracking}
       + [Best Practices zur Implementierung von  [!DNL Marketo Measure] -JavaScript](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
       + [Hinzufügen eines [!DNL Marketo Measure] -Skriptes](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Hinzufügen eines [!DNL Marketo Measure] -Skriptes über den Google Tag Manager](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
       + [Von JavaScript erfasste Daten](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
-      + Hinzufügen eines[!DNL Marketo Measure]-Skriptes für andere Formularanbieter {#adding-marketo-measure-script-to-different-form-providers}
+      + Hinzufügen [!DNL Marketo Measure] Skripts zu verschiedenen Formularanbietern {#adding-marketo-measure-script-to-different-form-providers}
          + [Hinzufügen von [!DNL Marketo Measure] -JavaScript to Pardot](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
          + [Hinzufügen eines [!DNL Marketo Measure] -Skriptes für Lightbox Forms](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
          + [Hinzufügen eines [!DNL Marketo Measure] -Skriptes für Sitecore-Seiten](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-sitecore-pages.md)
@@ -69,7 +69,7 @@ ht-degree: 100%
    + Sandbox-Tests {#sandbox-testing}
       + [Testen der [!DNL Marketo Measure] -Integration mit einer Salesforce-Sandbox](configuration-and-setup/sandbox-testing/testing-the-marketo-measure-integration-with-a-salesforce-sandbox.md)
       + [Salesforce-Sandbox zur Betreibungsmigration](configuration-and-setup/sandbox-testing/salesforce-sandbox-to-production-migration.md)
-   + [!DNL Marketo Measure] Insights (Canvas App) {#marketo-measure-insights-canvas-app}
+   + [!DNL Marketo Measure] Insights (Canvas-App) {#marketo-measure-insights-canvas-app}
       + [Erläuterung von [!DNL Marketo Measure]-Insights](configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-explained.md)
       + [Konfiguration von [!DNL Marketo Measure]-Insights](configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md)
 + Kanalverfolgung und -einrichtung {#channel-tracking-and-setup}
@@ -92,7 +92,7 @@ ht-degree: 100%
          + [Synchronisieren historischer Daten](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
          + [Synchronisieren von Offline-Kampagnen](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 + API-Verbindungen {#api-connections}
-   + Ausnutzen der API-Verbindungen von [!DNL Marketo Measure] {#utilizing-marketo-measures-api-connections}
+   + Verwenden der API-Verbindungen von [!DNL Marketo Measure] {#utilizing-marketo-measures-api-connections}
       + [Integrierte Anzeigenplattformen](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
       + [Überblick über Integrationsberechtigungen](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [Best Practices für API-Verbindungen](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
@@ -102,14 +102,14 @@ ht-degree: 100%
       + [[!DNL LinkedIn]-Integration](api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
       + [Grundlagen [!DNL Marketo Measure] AdWords-Tagging](api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
       + [Erneutes Autorisieren von Connected Accounts](api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
-+ Marketingausgaben {#marketing-spend}
++ Marketing-Ausgaben {#marketing-spend}
    + Ausgabenverwaltung {#spend-management}
       + [Ausgabenverwaltungsmethoden](marketing-spend/spend-management/spend-management-methods.md)
       + [Marketingkanal-Kosten](marketing-spend/spend-management/marketing-channel-costs.md)
       + [Marketing-Ausgaben für Berichte](marketing-spend/spend-management/report-marketing-spend.md)
       + [Kosten für CRM-Kampagnen](marketing-spend/spend-management/crm-campaign-costs.md)
-+ Erweiterte [!DNL Marketo Measure]-Funktionen {#advanced-marketo-measure-features}
-   + Benutzerdefinierten Attributionsmodelle {#custom-attribution-models}
++ Erweiterte [!DNL Marketo Measure] {#advanced-marketo-measure-features}
+   + Benutzerdefinierte Attributionsmodelle {#custom-attribution-models}
       + [Benutzerdefiniertes Attributionsmodell und Einrichtung](advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
       + [Best Practices für benutzerdefiniertes Modell](advanced-marketo-measure-features/custom-attribution-models/best-practices-for-custom-model.md)
       + [Best Practices für die Phasenzuordnung](advanced-marketo-measure-features/custom-attribution-models/best-practices-for-stage-mapping.md)
@@ -122,7 +122,7 @@ ht-degree: 100%
    + Segmentierung {#segmentation}
       + [Best Practices für die Segmentierung](advanced-marketo-measure-features/segmentation/best-practices-for-segmentation.md)
       + [Benutzerdefinierte Segmentierung](advanced-marketo-measure-features/segmentation/custom-segmentation.md)
-   + Aktivitätszuordnung {#activities-attribution}
+   + Aktivitätenattribution {#activities-attribution}
       + [Best Practices für die Aktivitätszuordnung](advanced-marketo-measure-features/activities-attribution/best-practices-for-activities-attribution.md)
       + [[!DNL Salesforce]-Aktivitätszuordnung](advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
       + [Häufig gestellte Fragen zur Aktivitätszuordnung](advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
@@ -130,16 +130,16 @@ ht-degree: 100%
       + [Boomerang-Phasen und Touchpoints](advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md)
       + [Einrichten von Boomerang-Phasen](advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md)
       + [Boomerang-Phasen-Szenarien](advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md)
-   + Benutzerspezifischer Umsatzbetrag {#custom-revenue-amount}
+   + Benutzerdefinierter Umsatzbetrag {#custom-revenue-amount}
       + [Best Practices für die Verwendung eines benutzerdefinierten Umsatzbetrags](advanced-marketo-measure-features/custom-revenue-amount/best-practices-for-utilizing-a-custom-revenue-amount.md)
       + [Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag](advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
       + [Aktualisieren mit Data Loader [!DNL Marketo Measure] Benutzerdefiniertes Zahlenfeld](advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
-   + Durchsichts-Attribution {#view-through-attribution}
+   + Über Attribution anzeigen {#view-through-attribution}
       + [[!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsichts-Attribution](advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md)
       + [Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution](advanced-marketo-measure-features/view-through-attribution/configuring-doubleclick-campaign-manager-view-through-attribution.md)
    + Touchpoint Felder {#touchpoint-fields}
       + [Touchpoint Felder](advanced-marketo-measure-features/touchpoint-fields/touchpoint-fields.md)
-   + Kontobasiertes Marketing {#account-based-marketing}
+   + Account-Based-Marketing {#account-based-marketing}
       + [Kontobasierte Zuordnung](advanced-marketo-measure-features/account-based-marketing/account-based-attribution.md)
       + [Kontobasiertes Marketing – Überblick](advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md)
    + A/B-Tests {#a-b-testing}
@@ -152,7 +152,7 @@ ht-degree: 100%
       + [Einstellungen](advanced-marketo-measure-features/multi-currency/settings.md)
       + [Reporting mit Discover](advanced-marketo-measure-features/multi-currency/discover-reporting.md)
       + [Häufig gestellte Fragen (mehrere Währungen)](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
-+ [!DNL Marketo Measure] Benutzeroberfläche von Discover {#marketo-measure-discover-ui}
++ Benutzeroberfläche [!DNL Marketo Measure] Discover {#marketo-measure-discover-ui}
    + Dashboards {#dashboards}
       + [Entdecken Sie die Grundlagen von Dashboards](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Neues Handbuch zum Entdecken von Dashboards](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
@@ -179,15 +179,15 @@ ht-degree: 100%
       + [[!DNL Marketo Measure]-Umsatz-Workflows für [!DNL Dynamics]](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-revenue-workflows-for-dynamics.md)
       + [OAuth mit Azure Active Directory für [!DNL Dynamics] CRM](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md)
       + [[!DNL Marketo Measure] und Dynamics-Taxonomie](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-and-dynamics-taxonomy.md)
-   + Dynamics-Reporting {#dynamics-reporting}
+   + Dynamics-Berichte {#dynamics-reporting}
       + [Lagerberichte und Dashboards in [!DNL Dynamics]](marketo-measure-and-dynamics/dynamics-reporting/stock-reports-and-dashboards-in-dynamics.md)
 + [!DNL Marketo Measure] und Marketo {#marketo-measure-and-marketo}
-   + [!DNL Marketo Measure]-Integrationen mit Marketo {#marketo-measure-integrations-with-marketo}
+   + [!DNL Marketo Measure] Integrationen mit Marketo {#marketo-measure-integrations-with-marketo}
       + [Einrichten der [!DNL Marketo] -Verbindung](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
       + [Integration von Marketo Engage-Aktivitäten](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-activities-integration.md)
       + [Integration von Marketo Engage People](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-people-integration.md)
       + [Integration von Marketo Engage-Programmen](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md)
-+ [!DNL Marketo Measure] Salesforce-Reporting {#marketo-measure-salesforce-reporting}
++ [!DNL Marketo Measure] Salesforce-Berichte {#marketo-measure-salesforce-reporting}
    + Neue Berichtstypen {#new-report-types}
       + [Erstellen benutzerdefinierter  [!DNL Marketo Measure] Berichtstypen](marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md)
       + [Berichtstyp für Kontakte ohne Opportunitys](marketo-measure-salesforce-reporting/new-report-types/report-type-for-contacts-without-opportunities.md)
@@ -198,11 +198,11 @@ ht-degree: 100%
       + [Geschlossene verlorene Opportunitys nach Marketingkanal](marketo-measure-salesforce-reporting/marketo-measure-reports/closed-lost-opportunities-by-marketing-channel.md)
       + [[!UICONTROL Leads mit Buyer Touchpoints] Bericht](marketo-measure-salesforce-reporting/marketo-measure-reports/leads-with-buyer-touchpoints-report.md)
       + [Reporting zu Chancen mit oder ohne Buyer Attribution Touchpoints](marketo-measure-salesforce-reporting/marketo-measure-reports/reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints.md)
-      + [Doppelte Datensätze in meinem Bericht](marketo-measure-salesforce-reporting/marketo-measure-reports/duplicate-records-in-my-report.md)
+      + [Doppelte Einträge in meinem Bericht](marketo-measure-salesforce-reporting/marketo-measure-reports/duplicate-records-in-my-report.md)
    + Zusätzliche Funktionen {#additional-functionality}
       + [PostLC-Touchpoints und Lead-Interaktion](marketo-measure-salesforce-reporting/additional-functionality/postlc-touchpoints-and-lead-engagement.md)
-      + [Doppelte Datensätze und  [!DNL Marketo Measure]](marketo-measure-salesforce-reporting/additional-functionality/duplicate-records-and-marketo-measure.md)
-      + [Salesforce-Speichergrößen](marketo-measure-salesforce-reporting/additional-functionality/salesforce-record-storage-sizes.md)
+      + [Doppelte Einträge und  [!DNL Marketo Measure]](marketo-measure-salesforce-reporting/additional-functionality/duplicate-records-and-marketo-measure.md)
+      + [Salesforce-Speichergrößen für Einträge](marketo-measure-salesforce-reporting/additional-functionality/salesforce-record-storage-sizes.md)
       + [Best Practices für die Zusammenführung von Leads](marketo-measure-salesforce-reporting/additional-functionality/best-practices-for-merging-leads.md)
       + [Aktivierung der Berechtigung zum Bearbeiten konvertierter Leads](marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md)
 + [!DNL Marketo Measure] Data Warehouse {#marketo-measure-data-warehouse}
@@ -218,12 +218,12 @@ ht-degree: 100%
       + [Sicherstellen der Zustimmung für die DSGVO in [!DNL Marketo Measure] Js](security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md)
       + [Sicherheitssitzungsbeschränkungen: IP-Adressen in der Zulassungsliste](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate}
-   + [[!DNL Marketo Measure] Ultimate - Übersicht](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
+   + [[!DNL Marketo Measure] Ultimate – Übersicht](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
    + [Datenintegritätsanforderung](marketo-measure-ultimate/data-integrity-requirement.md)
    + [Implementierungshandbuch](marketo-measure-ultimate/implementation-guide.md)
    + [Migration von Stufe 1–2 zu [!DNL Marketo Measure] Ultimate](marketo-measure-ultimate/migration-from-tier-to-marketo-measure-ultimate.md)
-+ Verschiedenes {#miscellaneous}
-   + Weitere verwandte Ressourcen {#other-related-resources}
++ Sonstiges {#miscellaneous}
+   + Sonstige verwandte Ressourcen {#other-related-resources}
       + [[!DNL Marketo Measure] Wartung](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
       + [[!DNL Marketo Measure] Ressourcenliste](miscellaneous/other-related-resources/marketo-measure-resource-list.md)
       + [Anrufverfolgungsintegration](miscellaneous/other-related-resources/call-tracking-integration.md)

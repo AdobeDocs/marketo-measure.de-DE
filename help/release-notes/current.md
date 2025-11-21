@@ -6,7 +6,7 @@ feature: Release Notes
 source-git-commit: 9ea72d0e1cf0f754cc8fe844944b93705fb2b12f
 workflow-type: tm+mt
 source-wordcount: '1375'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
@@ -24,13 +24,13 @@ Darüber hinaus werden Sitzungen mit Social-Media-Anmeldung (Google, Microsoft o
 
 Bei neuer Kundschaft ist die Übertragung des Sitzungskanals jetzt das Standardverhalten. Bestehende Kunden können dies aktivieren, indem sie den Umschalter Sitzungskanal-Übertragung unter Einstellungen > Everytouch-Attribution aktivieren. Nach der Aktivierung kann diese Einstellung nicht mehr rückgängig gemacht werden.
 
-Dokumentation: [Definition von Marketo Measure-Web-Sitzungen](https://experienceleague.adobe.com/de/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+Dokumentation: [Definition von Marketo Measure-Websitzungen](https://experienceleague.adobe.com/de/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### Keyword-ROI-Dashboard
 
 Das neue Keyword-ROI-Dashboard bietet detaillierte Erkenntnisse zur Leistung von Paid-Search-Kampagnen und bietet einen umfassenden Überblick über die Kosten auf Keyword-Ebene, den zugeordneten Umsatz sowie die generierten Leads und Opportunities. Mit diesem Dashboard können Sie den ROI der einzelnen Suchbegriffe für Google Adwords, LinkedIn, Bing Ads usw. auswerten.
 
-Dokumentation: [Keyword-ROI-Dashboard](https://experienceleague.adobe.com/de/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+Dokumentation: [Keyword ROI Dashboard](https://experienceleague.adobe.com/de/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Erweiterte Segmentregeln
 
@@ -67,7 +67,7 @@ Um Ihnen bei der Anpassung an diese Änderung zu helfen, haben wir eine Dokument
 
 ### Erinnerung: Einstellung von Salesforce-Feldern - 14. Juni
 
-Wie letztes Jahr angekündigt, werden wir unsere [Exportaufträge an Lead-/Kontaktobjekte schrittweise auslaufen lassen](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}, um unsere Integration zu vereinfachen und den Export in Salesforce-Standardobjekte unnötig zu machen. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden [hier dokumentierten](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"} Schritte ausführen. Wir werden auch die Dokumentation zum Erstellen von Workflows teilen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
+Wie letztes Jahr angekündigt, werden wir [unsere Exportaufträge an Lead-/Kontaktobjekte auslaufen lassen](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} um unsere Integration zu vereinfachen und die Notwendigkeit zum Export in Salesforce Standardobjekte zu beseitigen. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden [hier dokumentierten](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"} Schritte ausführen. Wir werden auch die Dokumentation zum Erstellen von Workflows teilen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
 
 Diese Änderung bringt zwei wesentliche Vorteile:
 
@@ -78,7 +78,7 @@ Diese Änderung bringt zwei wesentliche Vorteile:
 
 Wir freuen uns, das neue [Dashboard „Zugewiesene Opportunity“](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"} einzuführen, mit dem Sie einen umfassenden Überblick darüber erhalten, wie Ihre Marketing-Maßnahmen sowohl zu neuen als auch ausgereiften Pipeline-Opportunitys beitragen. Mit diesem Dashboard können Sie die Details jeder offenen und abgeschlossenen Opportunity, die Ihren Strategien zuzuordnen ist, einsehen und flexibel nach dem Schritt der Opportunity filtern. Es bietet Erkenntnisse, welche Kanäle, Unterkanäle oder Kampagnen in Bezug auf die zugewiesene Opportunity-Anzahl am besten platziert werden, und zeigt die insgesamt zugewiesene Opportunity-Anzahl zusammen mit der Anzahl der zugewiesenen offenen und geschlossenen Opportunitys an.
 
-### Marketo Engage-Cookie-Synchronisation für Marketo Measure Ultimate
+### Marketo Engage Cookie Sync für Marketo Measure Ultimate
 
 Die Synchronisation der Marketo Engage-Cookies ist jetzt für Marketo Measure Ultimate verfügbar. So verwenden Sie diese Funktion:
 
@@ -103,7 +103,7 @@ Die bisher nur für Kundschaft der Stufe 3 verfügbare Funktion „Boomerang-Pha
 
 Als Reaktion auf wachsende Datenschutzbedenken werden Drittanbieter-Cookies schrittweise eingestellt. Die endgültige Einstellung erfolgt bis zur Frist von Google Chrome für das dritte Quartal 2024. Marketo Measure stellt bestimmte Funktionen ein, die von Drittanbieter-Cookies abhängig sind, insbesondere Domain-übergreifendes Tracking und Durchsichtszuordnung, was auf dem Impressions-Cookie „Google/DoubleClick“ basiert. Diese Änderung hat keine Auswirkungen auf andere Marketo Measure-Funktionen oder die Verwendung von Erstanbieter-Cookies. Nach dem Zeitplan von Google werden diese Funktionen voraussichtlich bis zum 1. Juni eingestellt, Die Daten, die vor diesem Datum erfasst werden, werden Kundinnen und Kunden allerdings weiterhin zur Verfügung stehen.
 
-* [Anpassung an die Einstellung von Drittanbieter-Cookies in Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
+* [Anpassen an die Einstellung von Drittanbieter-Cookies in Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
 * [Marketo Measure-Cookies](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
 
 ### Schrittweiser Rollout unserer erweiterten Fehlerbehandlung
@@ -125,6 +125,6 @@ Um Ihnen bei der Anpassung an diese Änderung zu helfen, [haben wir eine Dokumen
 
 <br>
 
-### Für die LinkedIn-Integration erforderliche Aktion
+### Aktion erforderlich für LinkedIn-Integration
 
 LinkedIn hat kürzlich eine aktualisierte Version seiner Lead Sync-API veröffentlicht. Bitte authentifizieren Sie die LinkedIn-Verbindung in Ihrer Marketo Measure-Instanz bis zum 20. Mai erneut, um Unterbrechungen zu vermeiden.
