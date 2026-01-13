@@ -1,14 +1,15 @@
 ---
-description: EInrichten von Adobe Admin Console – Marketo Measure – Produktdokumentation
+description: Einrichten von Adobe Admin Console
 title: Einrichten von Adobe Admin Console
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 79%
 
 ---
+
 
 # Einrichten von Adobe Admin Console {#adobe-admin-console-setup}
 
@@ -28,11 +29,11 @@ Um die Benutzerauthentifizierung und -autorisierung mit Ihren Instanzen von [!DN
 
 Beim Zugriff auf die Adobe Admin Console sehen Sie Ihre [!DNL Marketo Measure]-Produktinstanzen im Abschnitt „Überblick“.
 
-![](assets/adobe-admin-console-setup-1.png)
+![Adobe Admin Console mit Marketo Measure-Produktkarte](assets/adobe-admin-console-setup-1.png)
 
 Mit einem Klick auf die Produktkarte von [!DNL Marketo Measure] werden Ihnen alle Ihre [!DNL Marketo Measure]-Instanzen angezeigt. Standardmäßig hat jede Instanz von [!DNL Marketo Measure] ihr eigenes Profil mit dem Präfix „[!DNL Marketo Measure]“. Alle Admins oder Benutzenden, die diesem oder einem anderen Profil in dieser Instanz hinzugefügt wurden, können sich bei [!DNL Marketo Measure] anmelden.
 
-![](assets/adobe-admin-console-setup-2.png)
+![Adobe Admin Console-Produktprofilliste für Marketo Measure-Instanzen](assets/adobe-admin-console-setup-2.png)
 
 Es ist keine Aktion erforderlich, um ein Profil innerhalb der [!DNL Marketo Measure]-Produktinstanz(en) zu erstellen.
 
@@ -50,11 +51,10 @@ Der nächste Schritt besteht darin, Zugriff auf die [!DNL Marketo Measure]-Anwen
 Wenn Sie eine Person zu der jeweiligen Gruppe hinzufügen, sehen Sie ihren [Identitätstyp aufgelistet](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html).
 
 >[!NOTE]
->
->Um [!DNL Marketo Measure]-Admin (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}) zu sein, muss eine Person als „Benutzer“ _und_ als „Admin“ zu einem beliebigen [!DNL Marketo Measure] Produktprofil innerhalb der [!DNL Marketo Measure]-Produktkarte hinzugefügt werden.
+>Um [!DNL Marketo Measure]-Administrator zu sein (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}), muss ein Benutzer als Benutzer _und_ Administrator zu jedem [!DNL Marketo Measure] Produktprofil in der [!DNL Marketo Measure] Produktkarte hinzugefügt werden.
 
 **Anmelden bei[!DNL Marketo Measure]**
 
-Nachdem eine Person einem Produktprofil hinzugefügt wurde, kann sie durch Auswahl der Option [!DNL Marketo Measure]Mit Adobe ID anmelden **auf die**-Instanz(en) unter [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} zugreifen.
+Nachdem ein(e) Benutzende(r) einem Produktprofil hinzugefügt wurde, kann er/sie auf seine/ihre [!DNL Marketo Measure]-Instanzen zugreifen, indem er/sie die Option **Mit Adobe ID anmelden** unter [experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
-![](assets/adobe-admin-console-setup-3.png)
+![Marketo Measure-Anmeldebildschirm mit der Option „Mit Adobe ID anmelden“](assets/adobe-admin-console-setup-3.png)

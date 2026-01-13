@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874698
 description: Erstellen eines  [!DNL Marketo Measure] -Profils - [!DNL Marketo Measure]
 title: Erstellen eines [!DNL Marketo Measure] -Profils
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 3%
 
 ---
+
 
 # Erstellen eines [!DNL Marketo Measure] Profils {#creating-a-marketo-measure-profile}
 
@@ -21,7 +21,6 @@ Erfahren Sie, wie Sie ein [!DNL Marketo Measure] erstellen. Durch die Erstellung
    * Berechtigung zum Anzeigen und Bearbeiten konvertierter Leads aktivieren
 
    >[!NOTE]
-   >
    >Dieses Profil kann ein Klon eines [!DNL System Admin] sein
 
 1. hat einen dedizierten [!DNL Marketo Measure] erstellt:
@@ -39,4 +38,4 @@ Erfahren Sie, wie Sie ein [!DNL Marketo Measure] erstellen. Durch die Erstellung
 
    Fertig!
 
-   Wenden Sie sich bei Fragen zur Erstellung eines speziellen [!DNL Marketo Measure] an das Adobe-Account-Team (Ihren Account Manager) oder an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   Wenn Sie Fragen zur Erstellung eines dedizierten [!DNL Marketo Measure] haben, wenden Sie sich an das Adobe Account Team (Ihren Account Manager) oder an den [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

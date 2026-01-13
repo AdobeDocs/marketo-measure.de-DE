@@ -3,12 +3,13 @@ description: '[!DNL Salesforce]-Paketkonsolidierung - [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] Paketkonsolidierung'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '449'
 ht-degree: 6%
 
 ---
+
 
 # [!DNL Salesforce] Paketkonsolidierung {#salesforce-package-consolidation}
 
@@ -41,13 +42,13 @@ Das [Support-Team](https://nation.marketo.com/t5/support/ct-p/Support){target="_
       * V2_EXT-Abfrage:
          * bizible2_ext__Ad_Content_FT__c enthält Kontaktaufnahme
 
-![](assets/package-consolidation-1.png)
+![Beispielberichtsfilter mit dem FT-Feld „V2_EXT-Anzeigeninhalt“](assets/package-consolidation-1.png)
 
 * Entsprechende Abfrage im konsolidierten Paket:
    * Bizible2__Touchpoint_Position__c enthält FT UND
    * Bizible2__Ad_Content__c enthält Kontaktaufnahme
 
-![](assets/salesforce-package-consolidation-2.png)
+![Entsprechender Berichtsfilter unter Verwendung konsolidierter Touchpoint-Felder](assets/salesforce-package-consolidation-2.png)
 
 ## FAQs {#faq}
 
@@ -57,7 +58,7 @@ Sie müssen Ihr Paket nicht deinstallieren, bevor Sie das konsolidierte Paket in
 
 **Wie kann ich die Daten aus meinen aktuellen Paketen aufstocken?**
 
-Sie können ein Ticket ([&#x200B; Support) &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}, um BT/BAT-Daten zum Ausfüllen der Touchpoint-ID- und Formular-ID-Felder aufzustocken und erneut zu verarbeiten.
+Sie können ein Ticket ([ Support) ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} Aufstockung und Neuverarbeitung von BT-/BAT-Daten zum Ausfüllen von Touchpoint-ID- und Formular-ID-Feldern einreichen.
 
 **Werden die Felder in den Paketen V1 und V2_EXT im konsolidierten Paket verfügbar sein?**
 

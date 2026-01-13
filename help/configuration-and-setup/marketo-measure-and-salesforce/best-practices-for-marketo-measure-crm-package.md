@@ -3,17 +3,17 @@ description: Best Practices für das  [!DNL Marketo Measure] -CRM-Paket - [!DNL 
 title: Best Practices für [!DNL Marketo Measure] CRM-Package
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 7%
 
 ---
 
+
 # Best Practices für [!DNL Marketo Measure] CRM-Paket {#best-practices-for-marketo-measure-crm-package}
 
 >[!NOTE]
->
 >Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Das wird aktualisiert und das Rebranding wird bald in Ihrem CRM widergespiegelt.
 
 ## Überblick {#overview}
@@ -49,12 +49,10 @@ Andere Gründe dafür könnten Trigger einer Überprüfung…
 * Vergewissern Sie sich, dass Sie die neueste Version des Buyer-Touchpoints-Pakets in [!DNL Salesforce] installiert haben
 
 >[!NOTE]
->
 >Wenn Sie Marketo Measure beim Exportieren von Daten nach Salesforce deaktivieren, werden keine vorhandenen Daten gelöscht. Um sie zu entfernen, führen Sie die Schritte in [diesem Salesforce-Hilfeartikel](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"} aus.
 
 >[!MORELIKETHIS]
->
->* [Buyer Touchpoint-Paket aktualisieren](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
->* [[!DNL Marketo Measure] Berechtigungssätze](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [Freigabe des Ordners „Berichte und Dashboards“](https://help.salesforce.com/s/articleView?language=de_DE&id=analytics_share_folder.htm&type=0)
->* [Marketo Measure mit Salesforce verbinden](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+> [Buyer Touchpoint-Paket aktualisieren](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
+> [[!DNL Marketo Measure] Berechtigungssätze](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+> [Freigabe des Ordners „Berichte und Dashboards“](https://help.salesforce.com/s/articleView?language=de_DE&id=analytics_share_folder.htm&type=0)
+> [Verbinden von Marketo Measure mit Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

@@ -1,27 +1,25 @@
 ---
-unique-page-id: 35586140
-description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
+description: Data Warehouse-Schema
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: e9861f8032475d3e60a3bb3ebf67dfee520bbb75
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '21110'
+source-wordcount: '21106'
 ht-degree: 99%
 
 ---
+
 
 # Data Warehouse-Schema {#data-warehouse-schema}
 
 Mit Data Warehouse können Sie beliebig viel verfolgen, Berichte zu Ihren Attributionsdaten erstellen, wo immer Sie möchten, und sie in andere Datensätze einbinden.
 
 >[!IMPORTANT]
->
->* Zeilen mit dem Wert _DELETED_DATE werden 7 Tage lang beibehalten und dann aus Snowflake entfernt.
->* Die Zeitzonen, die in Snowflake verwendet werden, entsprechen der koordinierten Weltzeit (UTC).
+> Zeilen mit dem Wert _DELETED_DATE werden 7 Tage lang beibehalten und dann aus Snowflake entfernt.
+> Die Zeitzonen, die in Snowflake verwendet werden, entsprechen der koordinierten Weltzeit (UTC).
 
 >[!NOTE]
->
 >[Klicken Sie hier](#sample-queries), um Beispielabfragen am Ende dieses Artikels zu sehen.
 
 ## Diagramme zur Entitätsbeziehung {#entity-relationship-diagrams}
@@ -40,9 +38,9 @@ _Klicken Sie auf ein Bild für die Vollbildversion_
   </tr> 
   <tr> 
    <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
-   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td> 
-  </tr> 
- </tbody> 
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td>
+  </tr>
+ </tbody>
 </table>
 
 ## Ansichten {#views}
@@ -110,7 +108,7 @@ Aus dem Quellsystem importierte Konten.
     <tr>
       <td>IS_DELETED</td>
       <td>boolean</td>
-      <td>Gibt an, ob der Datensatz im Quellsystem gelöscht wird.</td>
+      <td>Gibt an, ob der Eintrag im Quellsystem gelöscht wird.</td>
       <td>false</td>
     </tr>
     <tr>
@@ -122,19 +120,19 @@ Aus dem Quellsystem importierte Konten.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
@@ -170,7 +168,7 @@ Zuordnungstabelle zwischen bekannten Lead-/Kontakt-E-Mail-Adressen und Konten. D
     <tr>
       <td>ID</td>
       <td>varchar</td>
-      <td>Eine eindeutige ID für den Datensatz.</td>
+      <td>Eine eindeutige ID für den Eintrag.</td>
       <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13 000</td>
     </tr>
     <tr>
@@ -200,25 +198,25 @@ Zuordnungstabelle zwischen bekannten Lead-/Kontakt-E-Mail-Adressen und Konten. D
     <tr>
       <td>IS_DELETED</td>
       <td>boolean</td>
-      <td>Gibt an, ob der Datensatz als gelöscht betrachtet wird.</td>
+      <td>Gibt an, ob der Eintrag als gelöscht betrachtet wird.</td>
       <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -310,7 +308,7 @@ Aus einem Quellsystem oder verbundenen Anzeigenkonto importierte Aktivitäten.
     <tr>
       <td>IS_DELETED</td>
       <td>boolean</td>
-      <td>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</td>
+      <td>Gibt an, ob der Eintrag im Quellsystem als gelöscht betrachtet wird.</td>
       <td>false</td>
     </tr>
     <tr>
@@ -322,19 +320,19 @@ Aus einem Quellsystem oder verbundenen Anzeigenkonto importierte Aktivitäten.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -427,13 +425,13 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigen
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes.</td>
+      <td>Datum der letzten Änderung des Eintrags.</td>
       <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
       <td>FIRST_IMPORTED</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz zum ersten Mal aus dem Quellsystem importiert wurde.</td>
+      <td>Datum, an dem der Eintrag zum ersten Mal aus dem Quellsystem importiert wurde.</td>
       <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
@@ -509,19 +507,19 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigen
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -614,13 +612,13 @@ Advertiser, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes.</td>
+      <td>Datum der letzten Änderung des Eintrags.</td>
       <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
       <td>FIRST_IMPORTED</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz zum ersten Mal aus dem Quellsystem importiert wurde.</td>
+      <td>Datum, an dem der Eintrag zum ersten Mal aus dem Quellsystem importiert wurde.</td>
       <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
@@ -664,19 +662,19 @@ Advertiser, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -719,7 +717,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
       <td>varchar</td>
-      <td>Wird als null erwartet, da dies der Datensatz für die Anzeigenkonten in der Anzeigen-Hierarchie ist.</td>
+      <td>Wird als null erwartet, da dies der Eintrag für die Anzeigenkonten in der Anzeigen-Hierarchie ist.</td>
       <td>null</td>
     </tr>
     <tr>
@@ -727,7 +725,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>AD_ACCOUNT_NAME</p>
       </td>
       <td>varchar</td>
-      <td>Wird als null erwartet, da dies der Datensatz für die Anzeigenkonten in der Anzeigen-Hierarchie ist.</td>
+      <td>Wird als null erwartet, da dies der Eintrag für die Anzeigenkonten in der Anzeigen-Hierarchie ist.</td>
       <td>null</td>
     </tr>
     <tr>
@@ -822,7 +820,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-09-06 12:54:37.000</p>
@@ -834,7 +832,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum, an dem der Datensatz zum ersten Mal aus dem Quellsystem importiert wurde.</p>
+        <p>Datum, an dem der Eintrag zum ersten Mal aus dem Quellsystem importiert wurde.</p>
       </td>
       <td>
         <p>2018-08-02 06:35:58.000</p>
@@ -1048,19 +1046,19 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -1220,7 +1218,7 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-08-02 06:35:58.000</p>
@@ -1232,7 +1230,7 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum, an dem der Datensatz zum ersten Mal aus dem Quellsystem importiert wurde.</p>
+        <p>Datum, an dem der Eintrag zum ersten Mal aus dem Quellsystem importiert wurde.</p>
       </td>
       <td>
         <p>2018-08-02 06:35:58.000</p>
@@ -1364,19 +1362,19 @@ Kampagnen, die aus verbundenen Anzeigenkonten, Quellsystemen, utm und Self-Repor
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -1454,7 +1452,7 @@ Ad Forms wurde aus einem beliebigen verbundenen Anzeigenkonto importiert.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-08-02 06:35:58.000</p>
@@ -1466,7 +1464,7 @@ Ad Forms wurde aus einem beliebigen verbundenen Anzeigenkonto importiert.
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum, an dem der Datensatz zum ersten Mal aus dem Quellsystem importiert wurde.</p>
+        <p>Datum, an dem der Eintrag zum ersten Mal aus dem Quellsystem importiert wurde.</p>
       </td>
       <td>
         <p>2018-08-02 06:35:58.000</p>
@@ -1565,25 +1563,25 @@ Ad Forms wurde aus einem beliebigen verbundenen Anzeigenkonto importiert.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>SOURCE_ID</td>
       <td>varchar</td>
-      <td>ID für die Quelle, aus der der Datensatz stammt.</td>
+      <td>ID für die Quelle, aus der der Eintrag stammt.</td>
       <td>aw.3284209</td>
     </tr>
   </tbody>
@@ -1675,7 +1673,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>varchar</td>
       <td>
-        <p>Wird als null erwartet, da dies der Datensatz für die Anzeigengruppe in der Hierarchie ist.</p>
+        <p>Wird als null erwartet, da dies der Eintrag für die Anzeigengruppe in der Hierarchie ist.</p>
       </td>
       <td>
         <p>null</p>
@@ -1687,7 +1685,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>varchar</td>
       <td>
-        <p>Wird als null erwartet, da dies der Datensatz für die Anzeigengruppe in der Hierarchie ist.</p>
+        <p>Wird als null erwartet, da dies der Eintrag für die Anzeigengruppe in der Hierarchie ist.</p>
       </td>
       <td>
         <p>null</p>
@@ -1749,7 +1747,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-08-02 06:36:14.000</p>
@@ -1761,7 +1759,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum, an dem der Datensatz zum ersten Mal aus dem Quellsystem importiert wurde.</p>
+        <p>Datum, an dem der Eintrag zum ersten Mal aus dem Quellsystem importiert wurde.</p>
       </td>
       <td>
         <p>2018-08-02 06:36:14.000</p>
@@ -1891,19 +1889,19 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -1960,19 +1958,19 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -2004,7 +2002,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-09-01 04:53:53.000</p>
@@ -3015,19 +3013,19 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -3062,14 +3060,14 @@ Aus der Integration der Attributions-KI generierte Daten. Diese Felder werden nu
   <tr>
     <td>CONVERSION_ID</td>
     <td>varchar</td>
-    <td>ID für das Konversionsereignis (dies ist der ursprüngliche, eindeutige ID-Wert, der mit dem Ereignisdatensatz im Quelldatensatz gesendet wurde)</td>
+    <td>ID für das Konversionsereignis (dies ist der ursprüngliche, eindeutige ID-Wert, der mit dem Ereignisdateneintrag im Quelldatensatz gesendet wurde)</td>
     <td>0013100001b44aGAAQ</td>
   </tr>
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>ursprüngliche MM-Ereignis-ID für das Konversionsereignis 
-<br>einem Benutzer-Touchpoint oder einer Staging-Transition zugeordnet</td>
+    <td>ursprüngliche MM-Ereignis-ID für das Konversionsereignis
+    <br>Ist einem Benutzer-Touchpoint oder einer Stadienübergabe zugeordnet</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3112,7 +3110,7 @@ Aus der Integration der Attributions-KI generierte Daten. Diese Felder werden nu
   <tr>
     <td>INFLUENCED_PERCENT</td>
     <td>number(38,35)</td>
-    <td>der Teil der Konvertierung, für den jeder Touchpoint verantwortlich ist</td>
+    <td>der Teil der Konversion, für den jeder Touchpoint verantwortlich ist</td>
     <td>0,10</td>
   </tr>
   <tr>
@@ -3412,7 +3410,7 @@ Aus dem Quellsystem importierte Kampagnenmitglieder. Diese Tabelle ist leer, wen
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</p>
+        <p>Gibt an, ob der Eintrag im Quellsystem als gelöscht betrachtet wird.</p>
       </td>
       <td>
         <p>false</p>
@@ -3427,19 +3425,19 @@ Aus dem Quellsystem importierte Kampagnenmitglieder. Diese Tabelle ist leer, wen
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -3496,19 +3494,19 @@ Marketing-Kanäle, wie in der [!DNL Marketo Measure]-Anwendung erstellt.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Das Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Das Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Das Datum, an dem der Datensatz zuletzt in Snowflake geändert wurde.</td>
+      <td>Das Datum, an dem der Eintrag zuletzt in Snowflake geändert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Das Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Das Datum, an dem der Eintrag in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -3540,7 +3538,7 @@ Aus dem Quellsystem importierte Kontakte.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Kontaktdatensatzes im Quellsystem.</p>
+        <p>Datum der letzten Änderung des Kontakteintrags im Quellsystem.</p>
       </td>
       <td>
         <p>2018-09-05 05:17:53.000</p>
@@ -3550,7 +3548,7 @@ Aus dem Quellsystem importierte Kontakte.
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der Erstellung des Kontaktdatensatzes, aus dem Quellsystem.</p>
+        <p>Datum der Erstellung des Kontakteintrags, aus dem Quellsystem.</p>
       </td>
       <td>
         <p>2018-09-05 05:17:51.000</p>
@@ -3648,20 +3646,20 @@ Aus dem Quellsystem importierte Kontakte.
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Datensatz im Quellsystem gelöscht wird.</p>
+        <p>Gibt an, ob der Eintrag im Quellsystem gelöscht wird.</p>
       </td>
       <td>false</td>
     </tr>
     <tr>
       <td>IS_DUPLICATE</td>
       <td>boolean</td>
-      <td>Dient zum Deduplizieren von Datensätzen, wenn sowohl eine CRM- als auch eine Marketo-Integration eingerichtet sind. Bei Duplikaten wird der Marketo-Kontakt als "true"markiert.</td>
+      <td>Dient zum Deduplizieren von Einträgen, wenn sowohl eine CRM- als auch eine Marketo-Integration eingerichtet sind. Bei Duplikaten wird der Marketo-Kontakt als "true"markiert.</td>
       <td>false</td>
     </tr>
     <tr>
       <td>SOURCE_SYSTEM</td>
       <td>varchar</td>
-      <td>Gibt an, ob der Datensatz aus einem CRM-System oder einer Marketo-Integration stammt.</td>
+      <td>Gibt an, ob der Eintrag aus einem CRM-System oder einer Marketo-Integration stammt.</td>
       <td>Crm</td>
     </tr>
     <tr>
@@ -3685,19 +3683,19 @@ Aus dem Quellsystem importierte Kontakte.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
@@ -3727,7 +3725,7 @@ Aus dem Quellsystem importierte Währungskonversionsraten.
     <tr>
       <td>ID</td>
       <td>number(38,0)</td>
-      <td>Eine eindeutige ID für den Datensatz.</td>
+      <td>Eine eindeutige ID für den Eintrag.</td>
       <td>-5942345438803054604</td>
     </tr>
     <tr>
@@ -3769,37 +3767,37 @@ Aus dem Quellsystem importierte Währungskonversionsraten.
     <tr>
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Quellsystem erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag im Quellsystem erstellt wurde.</td>
       <td>2019-03-30 00:54:50.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes im Quellsystem.</td>
+      <td>Datum der letzten Änderung des Eintrags im Quellsystem.</td>
       <td>2019-03-30 00:54:50.000</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
       <td>boolean</td>
-      <td>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</td>
+      <td>Gibt an, ob der Eintrag im Quellsystem als gelöscht betrachtet wird.</td>
       <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -3826,7 +3824,7 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes.</td>
+      <td>Datum der letzten Änderung des Eintrags.</td>
       <td>2018-09-06 12:22:45.000</td>
     </tr>
     <tr>
@@ -4219,7 +4217,7 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</p>
+        <p>Gibt an, ob der Eintrag im Quellsystem als gelöscht betrachtet wird.</p>
       </td>
       <td>
         <p>false</p>
@@ -4234,7 +4232,7 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
     <tr>
       <td>SOURCE_ID</td>
       <td>varchar</td>
-      <td>ID für die Quelle, aus der der Datensatz stammt.</td>
+      <td>ID für die Quelle, aus der der Eintrag stammt.</td>
       <td>aw.3284209</td>
     </tr>
     <tr>
@@ -4304,7 +4302,7 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
     <tr>
       <td>CURRENCY_ID</td>
       <td>number(38,0)</td>
-      <td>ID-Wert der Währung für den Datensatz.</td>
+      <td>ID-Wert der Währung für den Eintrag.</td>
       <td>
         <p>-3253183181619994799</p>
       </td>
@@ -4312,19 +4310,19 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -4484,7 +4482,7 @@ Creatives, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-08-02 06:36:25.000</p>
@@ -4496,7 +4494,7 @@ Creatives, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum, an dem der Datensatz zum ersten Mal aus dem Quellsystem importiert wurde.</p>
+        <p>Datum, an dem der Eintrag zum ersten Mal aus dem Quellsystem importiert wurde.</p>
       </td>
       <td>
         <p>2018-08-02 06:36:25.000</p>
@@ -4739,19 +4737,19 @@ Creatives, die aus einem beliebigen verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -4900,7 +4898,7 @@ Aus dem Quellsystem importierte Ereignisse. Diese Tabelle ist leer, wenn die Akt
       <td>
         <p>boolean</p>
       </td>
-      <td>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</td>
+      <td>Gibt an, ob der Eintrag im Quellsystem als gelöscht betrachtet wird.</td>
       <td>
         <p>Falsch</p>
       </td>
@@ -4914,19 +4912,19 @@ Aus dem Quellsystem importierte Ereignisse. Diese Tabelle ist leer, wenn die Akt
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5063,7 +5061,7 @@ Aus dem Quellsystem importierte Aufgaben. Diese Tabelle wird gefüllt, wenn die 
       <td>
         <p>boolean</p>
       </td>
-      <td>Gibt an, ob der Datensatz im Quellsystem als gelöscht betrachtet wird.</td>
+      <td>Gibt an, ob der Eintrag im Quellsystem als gelöscht betrachtet wird.</td>
       <td>
         <p>false</p>
       </td>
@@ -5077,19 +5075,19 @@ Aus dem Quellsystem importierte Aufgaben. Diese Tabelle wird gefüllt, wenn die 
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5110,7 +5108,7 @@ Tabelle aller ISO-Währungen.
     <tr>
        <td>ID</td>
       <td>number(38,0)</td>
-      <td>Eine eindeutige ID für den Währungsdatensatz.</td>
+      <td>Eine eindeutige ID für den Währungseintrag.</td>
       <td>139474809945095870</td>
     </tr>
     <tr>
@@ -5136,25 +5134,25 @@ Tabelle aller ISO-Währungen.
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz zuletzt geändert wurde in [!DNL Marketo Measure].</td>
+      <td>Datum, an dem der Eintrag zuletzt geändert wurde in [!DNL Marketo Measure].</td>
       <td>2018-08-27 18:30:25.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE_CRM</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes im Quellsystem.</td>
+      <td>Datum der letzten Änderung des Eintrags im Quellsystem.</td>
       <td>2018-08-27 18:30:25.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der Erstellung des Datensatzes in [!DNL Marketo Measure]</td>
+      <td>Datum der Erstellung des Eintrags in [!DNL Marketo Measure]</td>
       <td>2018-08-27 18:30:25.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE_CRM</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz im Quellsystem erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag im Quellsystem erstellt wurde.</td>
       <td>2018-08-27 18:30:25.000</td>
     </tr>
     <tr>
@@ -5178,19 +5176,19 @@ Tabelle aller ISO-Währungen.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5241,7 +5239,7 @@ AB-Tests aufgezeichnet. Diese Tabelle ist leer, wenn AB-Tests nicht aktiviert si
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes.</td>
+      <td>Datum der letzten Änderung des Eintrags.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
@@ -5310,26 +5308,26 @@ AB-Tests aufgezeichnet. Diese Tabelle ist leer, wenn AB-Tests nicht aktiviert si
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Datensatz gelöscht, für Diagnose und Prüfung verwendet wurde.</p>
+        <p>Gibt an, ob der Eintrag gelöscht, für Diagnose und Prüfung verwendet wurde.</p>
       </td>
       <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5380,7 +5378,7 @@ Web-Ereignisse, die mit benutzerdefinierten Ereignissen in JavaScript aufgezeich
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Das letzte Datum, an dem der Datensatz geändert wurde.</td>
+      <td>Das letzte Datum, an dem der Eintrag geändert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
@@ -5421,26 +5419,26 @@ Web-Ereignisse, die mit benutzerdefinierten Ereignissen in JavaScript aufgezeich
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Datensatz gelöscht, für Diagnose und Prüfung verwendet wurde.</p>
+        <p>Gibt an, ob der Eintrag gelöscht, für Diagnose und Prüfung verwendet wurde.</p>
       </td>
       <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5448,7 +5446,7 @@ Web-Ereignisse, die mit benutzerdefinierten Ereignissen in JavaScript aufgezeich
 
 ### BIZ_CUSTOM_LANDING_PAGES {#biz-custom-landing-pages}
 
-Landing-Pages, die von einem beliebigen verbundenen Anzeigenkonto heruntergeladen wurden.
+Landingpages, die von einem beliebigen verbundenen Anzeigenkonto heruntergeladen wurden.
 
 <table>
   <tbody>
@@ -5462,7 +5460,7 @@ Landing-Pages, die von einem beliebigen verbundenen Anzeigenkonto heruntergelade
        <td>ID</td>
       <td>varchar</td>
       <td>
-        <p>Eine eindeutige ID für den Datensatz.</p>
+        <p>Eine eindeutige ID für den Eintrag.</p>
       </td>
       <td></td>
     </tr>
@@ -5663,19 +5661,19 @@ Landing-Pages, die von einem beliebigen verbundenen Anzeigenkonto heruntergelade
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5696,7 +5694,7 @@ Zuordnungstabelle für E-Mail-Adressen und Besucher-IDs.
     <tr>
       <td>ID</td>
       <td>varchar</td>
-      <td>Eine eindeutige ID für den Datensatz.</td>
+      <td>Eine eindeutige ID für den Eintrag.</td>
       <td>
         <p>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13 000</p>
       </td>
@@ -5753,7 +5751,7 @@ Zuordnungstabelle für E-Mail-Adressen und Besucher-IDs.
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Datensatz als gelöscht gilt, für Diagnose und Prüfung verwendet wird.</p>
+        <p>Gibt an, ob der Eintrag als gelöscht gilt, für Diagnose und Prüfung verwendet wird.</p>
       </td>
       <td>
         <p>false</p>
@@ -5768,19 +5766,19 @@ Zuordnungstabelle für E-Mail-Adressen und Besucher-IDs.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5791,8 +5789,7 @@ Zuordnungstabelle für E-Mail-Adressen und Besucher-IDs.
 Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlungen, Benutzer-Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT) und Kostendaten kombinieren. Wird intern zur Unterstützung verwendet [!DNL Marketo Measure] Berichterstellung.
 
 >[!IMPORTANT]
->
->Marketo Measure wird diese Tabelle Mitte 2024 einstellen. Wenn Sie sie selbst erstellen möchten, führen Sie [diese SQL-Abfrage](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql) aus.
+>Marketo Measure wird diese Tabelle Mitte 2024 einstellen. Wenn Sie sie selbst erstellen möchten, führen Sie [diese SQL-Abfrage](/help/data-warehouse/assets/BIZ_FACTS.sql) aus.
 
 <table>
   <tbody>
@@ -6342,7 +6339,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der Erstellung des Kontaktdatensatzes, aus dem Quellsystem.</p>
+        <p>Datum der Erstellung des Kontakteintrags, aus dem Quellsystem.</p>
       </td>
       <td>2017-04-28 00:21:52.000</td>
     </tr>
@@ -6359,7 +6356,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
     <tr>
       <td>EMAIL</td>
       <td>varchar</td>
-      <td>E-Mail-Adresse für den Datensatz.</td>
+      <td>E-Mail-Adresse für den Eintrag.</td>
       <td>personb@adobe.com</td>
     </tr>
     <tr>
@@ -6368,7 +6365,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der Erstellung des Lead-Datensatzes aus dem Quellsystem.</p>
+        <p>Datum der Erstellung des Lead-Eintrags aus dem Quellsystem.</p>
       </td>
       <td>
         <p>2017-04-28 00:21:52.000</p>
@@ -6528,7 +6525,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Datensatz gelöscht wurde oder nicht, wird als Audit-Protokoll verwendet.</p>
+        <p>Gibt an, ob der Eintrag gelöscht wurde oder nicht, wird als Audit-Protokoll verwendet.</p>
       </td>
       <td>
         <p>false</p>
@@ -6537,25 +6534,25 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
     <tr>
       <td>CURRENCY_ID</td>
       <td>number(38,0)</td>
-      <td>ID-Wert der Währung für den Datensatz.</td>
+      <td>ID-Wert der Währung für den Eintrag.</td>
       <td>-3253183181619994799</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -6603,7 +6600,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
       </td>
       <td>varchar</td>
       <td>
-        <p>Die erste Cookie-ID der zugehörigen Besucher-ID. Wenn der Datensatz als is_duplicated = true markiert ist, ist dieses Feld null.</p>
+        <p>Die erste Cookie-ID der zugehörigen Besucher-ID. Wenn der Eintrag als is_duplicated = true markiert ist, ist dieses Feld null.</p>
       </td>
       <td>
         <p>v_9bc63c34482f4de8c2e3b9d8f9f0df56</p>
@@ -6615,7 +6612,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
       </td>
       <td>varchar</td>
       <td>
-        <p>Die aufgezeichnete Sitzungs-ID zum Zeitpunkt der Protokollierung der Formularübermittlung. Wenn der Datensatz als is_duplicated = true markiert ist, ist dieses Feld null.</p>
+        <p>Die aufgezeichnete Sitzungs-ID zum Zeitpunkt der Protokollierung der Formularübermittlung. Wenn der Eintrag als is_duplicated = true markiert ist, ist dieses Feld null.</p>
       </td>
       <td>
         <p>2018-08-06:01-35-24-1231230.9bc63c34482f</p>
@@ -6637,7 +6634,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-08-07 23:09:52.000</p>
@@ -6664,7 +6661,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
         <p>URL, an die das Formular gesendet wurde, einschließlich aller Abfrageparameter.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6728,7 +6725,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
       <td>
         <p>boolean</p>
       </td>
-      <td>Gibt an, ob der Datensatz als Duplikat betrachtet wird.</td>
+      <td>Gibt an, ob der Eintrag als Duplikat betrachtet wird.</td>
       <td>
         <p>false</p>
       </td>
@@ -6812,19 +6809,19 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -6896,7 +6893,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
@@ -6918,7 +6915,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
       <td>
         <p>URL, an die die Impression gesendet wurde, einschließlich aller Abfrageparameter.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -6977,7 +6974,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
       <td>
         <p>boolean</p>
       </td>
-      <td>Gibt an, ob der Datensatz als Duplikat betrachtet wird.</td>
+      <td>Gibt an, ob der Eintrag als Duplikat betrachtet wird.</td>
       <td>
         <p>false</p>
       </td>
@@ -7453,19 +7450,19 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -7627,7 +7624,7 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>2018-08-02 06:37:29.000</td>
     </tr>
@@ -7637,7 +7634,7 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum, an dem der Datensatz zum ersten Mal aus dem Quellsystem importiert wurde.</p>
+        <p>Datum, an dem der Eintrag zum ersten Mal aus dem Quellsystem importiert wurde.</p>
       </td>
       <td>
         <p>2018-08-02 06:37:29.000</p>
@@ -7818,19 +7815,19 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -7838,7 +7835,7 @@ Aus einem beliebigen verbundenen Anzeigenkonto importierte Suchbegriffe.
 
 ### BIZ_LANDING_PAGES {#biz-landing-pages}
 
-Landing-Pages, die aus einem verbundenen Anzeigenkonto importiert wurden.
+Landingpages, die aus einem verbundenen Anzeigenkonto importiert wurden.
 
 <table>
   <tbody>
@@ -8037,19 +8034,19 @@ Landing-Pages, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -8081,7 +8078,7 @@ Aus dem Quellsystem importierte Leads.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Lead-Datensatzes im Quellsystem.</p>
+        <p>Datum der letzten Änderung des Lead-Eintrags im Quellsystem.</p>
       </td>
       <td>
         <p>2018-08-27 21:52:10.000</p>
@@ -8091,7 +8088,7 @@ Aus dem Quellsystem importierte Leads.
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der Erstellung des Lead-Datensatzes aus dem Quellsystem.</p>
+        <p>Datum der Erstellung des Lead-Eintrags aus dem Quellsystem.</p>
       </td>
       <td>2018-08-27 21:52:10.000</td>
     </tr>
@@ -8285,7 +8282,7 @@ Aus dem Quellsystem importierte Leads.
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Datensatz im Quellsystem gelöscht wird.</p>
+        <p>Gibt an, ob der Eintrag im Quellsystem gelöscht wird.</p>
       </td>
       <td>
         <p>false</p>
@@ -8312,13 +8309,13 @@ Aus dem Quellsystem importierte Leads.
     <tr>
       <td>IS_DUPLICATE</td>
       <td>boolean</td>
-      <td>Dient zum Deduplizieren von Datensätzen, wenn sowohl eine CRM- als auch eine Marketo-Integration eingerichtet sind. Bei Duplikaten wird Marketo Lead als "true"markiert.</td>
+      <td>Dient zum Deduplizieren von Einträgen, wenn sowohl eine CRM- als auch eine Marketo-Integration eingerichtet sind. Bei Duplikaten wird Marketo Lead als "true"markiert.</td>
       <td>true</td>
     </tr>
     <tr>
       <td>SOURCE_SYSTEM</td>
       <td>varchar</td>
-      <td>Gibt an, ob der Datensatz aus einem CRM-System oder einer Marketo-Integration stammt.</td>
+      <td>Gibt an, ob der Eintrag aus einem CRM-System oder einer Marketo-Integration stammt.</td>
       <td>Crm</td>
     </tr>
     <tr>
@@ -8330,19 +8327,19 @@ Aus dem Quellsystem importierte Leads.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -8422,7 +8419,7 @@ Phasen-Transitionen für Leads oder Kontakte.
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum, an dem der Datensatz in die Phase übergegangen ist.</p>
+        <p>Datum, an dem der Eintrag in die Phase übergegangen ist.</p>
       </td>
       <td>
         <p>2018-08-27 16:05:34.000</p>
@@ -8548,7 +8545,7 @@ Phasen-Transitionen für Leads oder Kontakte.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-08-28 15:31:10.000</p>
@@ -8562,7 +8559,7 @@ Phasen-Transitionen für Leads oder Kontakte.
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Übergangsdatensatz als gelöscht betrachtet wird.</p>
+        <p>Gibt an, ob der Übergangseintrag als gelöscht betrachtet wird.</p>
       </td>
       <td>
         <p>false</p>
@@ -8571,19 +8568,19 @@ Phasen-Transitionen für Leads oder Kontakte.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -8813,7 +8810,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Datensatz im Quellsystem gelöscht wird.</p>
+        <p>Gibt an, ob der Eintrag im Quellsystem gelöscht wird.</p>
       </td>
       <td>false</td>
     </tr>
@@ -8840,7 +8837,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
     <tr>
       <td>CURRENCY_ID</td>
       <td>number(38,0)</td>
-      <td>ID-Wert der Währung für den Datensatz.</td>
+      <td>ID-Wert der Währung für den Eintrag.</td>
       <td>4609512587744160000</td>
     </tr>
     <tr>
@@ -8852,19 +8849,19 @@ Aus dem Quellsystem importierte Möglichkeiten.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
@@ -8965,7 +8962,7 @@ Phasen-Transitionen für Opportunitys.
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum, an dem der Datensatz in die Phase übergegangen ist.</p>
+        <p>Datum, an dem der Eintrag in die Phase übergegangen ist.</p>
       </td>
       <td>
         <p>2018-05-26 07:29:43.000</p>
@@ -9089,7 +9086,7 @@ Phasen-Transitionen für Opportunitys.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-08-28 03:53:33.000</p>
@@ -9103,7 +9100,7 @@ Phasen-Transitionen für Opportunitys.
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob der Übergangsdatensatz als gelöscht betrachtet wird.</p>
+        <p>Gibt an, ob der Übergangseintrag als gelöscht betrachtet wird.</p>
       </td>
       <td>
         <p>false</p>
@@ -9112,19 +9109,19 @@ Phasen-Transitionen für Opportunitys.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9204,7 +9201,7 @@ Seitenansichten, die aus Webbesuchen erfasst wurden. Mehrere Seitenansichten kö
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-08-19 16:55:37.000</p>
@@ -9299,7 +9296,7 @@ Seitenansichten, die aus Webbesuchen erfasst wurden. Mehrere Seitenansichten kö
       <td>
         <p>boolean</p>
       </td>
-      <td>Gibt an, ob der Datensatz als Duplikat betrachtet wird.</td>
+      <td>Gibt an, ob der Eintrag als Duplikat betrachtet wird.</td>
       <td>false</td>
     </tr>
     <tr>
@@ -9333,7 +9330,7 @@ Seitenansichten, die aus Webbesuchen erfasst wurden. Mehrere Seitenansichten kö
         <p>URL, von der die Seitenansicht stammt, einschließlich aller Abfrageparameter.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9393,19 +9390,19 @@ Seitenansichten, die aus Webbesuchen erfasst wurden. Mehrere Seitenansichten kö
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9549,7 +9546,7 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigenkon
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>2018-08-02 06:36:25.000</td>
     </tr>
@@ -9559,7 +9556,7 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigenkon
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum, an dem der Datensatz zum ersten Mal aus dem Quellsystem importiert wurde.</p>
+        <p>Datum, an dem der Eintrag zum ersten Mal aus dem Quellsystem importiert wurde.</p>
       </td>
       <td>2018-08-02 06:36:25.000</td>
     </tr>
@@ -9629,19 +9626,19 @@ Tabelle, die alle Platzierungen speichert, die von allen verbundenen Anzeigenkon
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Erstellungsdatum des Datensatzes durch Snowflake</td>
+      <td>Erstellungsdatum des Eintrags durch Snowflake</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Änderungsdatum des Datensatzes durch Snowflake</td>
+      <td>Änderungsdatum des Eintrags durch Snowflake</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Löschdatum des Datensatzes durch Snowflake, falls er gelöscht wurde</td>
+      <td>Löschdatum des Eintrags durch Snowflake, falls er gelöscht wurde</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9698,19 +9695,19 @@ Segmentwerte gemäß der Definition in der [!DNL Marketo Measure]-Anwendung.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9744,7 +9741,7 @@ Ordnet den Namen des benutzerdefinierten Segments dem Kategoriewert zu. (Dadurch
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2022-02-28 18:12:35.000</p>
@@ -9771,25 +9768,25 @@ Ordnet den Namen des benutzerdefinierten Segments dem Kategoriewert zu. (Dadurch
     <tr>
       <td>IS_DELETED</td>
       <td>boolean</td>
-      <td>Gibt an, ob der Datensatz gelöscht wird.</td>
+      <td>Gibt an, ob der Eintrag gelöscht wird.</td>
       <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9855,7 +9852,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-09-01 03:49:10.000</p>
@@ -9912,7 +9909,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>URL der ersten Seitenansicht der Sitzung, einschließlich aller Abfrageparameter.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -10025,7 +10022,7 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
         <p>boolean</p>
       </td>
       <td>
-        <p>Gibt an, ob die Sitzung aus einem CRM-Aktivitätsdatensatz stammt oder nicht.</p>
+        <p>Gibt an, ob die Sitzung aus einem CRM-Aktivitätseintrag stammt oder nicht.</p>
       </td>
       <td>
         <p>false</p>
@@ -10536,19 +10533,19 @@ Sitzungen werden über Seitenansichten verarbeitet. Mehrere Seitenansichten kön
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -10696,7 +10693,7 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>2018-08-02 06:37:29.000</td>
     </tr>
@@ -10706,7 +10703,7 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum, an dem der Datensatz zum ersten Mal aus dem Quellsystem importiert wurde.</p>
+        <p>Datum, an dem der Eintrag zum ersten Mal aus dem Quellsystem importiert wurde.</p>
       </td>
       <td>2018-08-02 06:37:29.000</td>
     </tr>
@@ -10778,19 +10775,19 @@ Sites, die aus einem verbundenen Anzeigenkonto importiert wurden.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -11067,19 +11064,19 @@ Sites-Links von einem beliebigen verbundenen Anzeigenkonto aus.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Erstellungsdatum des Datensatzes durch Snowflake</td>
+      <td>Erstellungsdatum des Eintrags durch Snowflake</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Änderungsdatum des Datensatzes durch Snowflake</td>
+      <td>Änderungsdatum des Eintrags durch Snowflake</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Löschdatum des Datensatzes durch Snowflake, falls er gelöscht wurde</td>
+      <td>Löschdatum des Eintrags durch Snowflake, falls er gelöscht wurde</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -11111,7 +11108,7 @@ Liste der Schritte, wie sie importiert oder in der [!DNL Marketo Measure]-Anwend
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-08-22 17:27:27.000</p>
@@ -11250,19 +11247,19 @@ Liste der Schritte, wie sie importiert oder in der [!DNL Marketo Measure]-Anwend
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -11294,7 +11291,7 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-08-29 22:29:30.000</p>
@@ -11348,7 +11345,7 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
       </td>
       <td>varchar</td>
       <td>
-        <p>Der Datensatz der übergeordneten Person, der sich auf einen Lead oder Kontakt bezieht.</p>
+        <p>Der Eintrag der übergeordneten Person, der sich auf einen Lead oder Kontakt bezieht.</p>
       </td>
       <td>
         <p>Person_00Q0Z000013e2PYUAY</p>
@@ -11613,7 +11610,7 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
         <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Eine Raw-Landingpage enthält alle Abfrageparameter in der URL. Im CRM als "Landingpage - Roh" bezeichnet.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -12310,19 +12307,19 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -12385,19 +12382,19 @@ Aggregation von URLs aus Landingpages, Referrer-Seiten und Seitenansichten.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -12429,7 +12426,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2018-09-05 23:30:53.000</p>
@@ -12628,7 +12625,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>Die erste Landingpage der Sitzung, die zu einem Touchpoint führte. Eine Raw-Landingpage enthält alle Abfrageparameter in der URL. Im CRM als "Landingpage - Roh" bezeichnet.</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12676,7 +12673,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
         <p>Das erste Formular, das in einer Sitzung aufgezeichnet wurde und zu einem Touchpoint führte. Nachfolgende Formularübermittlungen werden nicht in der Tabelle "Attribution_Touchpoints" angezeigt, sondern in der Tabelle "Form_Submissions". Eine Formularrohseite kann Abfrageparameter in der URL enthalten. Im CRM als "Formular-URL - Roh" bezeichnet.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -13170,19 +13167,19 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -13203,7 +13200,7 @@ Zuordnungstabelle der [!DNL Marketo Measure]-Sitzungs-ID zur Adobe ECID und Munc
     <tr>
        <td>ID</td>
       <td>varchar</td>
-      <td>Eine eindeutige ID für den Zuordnungsdatensatz.</td>
+      <td>Eine eindeutige ID für den Zuordnungseintrag.</td>
       <td>
         <p>0d643578c0c74753eff91abe668ed328|2020-06-17:19:03:36|0002|0|568668</p>
       </td>
@@ -13246,7 +13243,7 @@ Zuordnungstabelle der [!DNL Marketo Measure]-Sitzungs-ID zur Adobe ECID und Munc
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Datum der letzten Änderung des Datensatzes.</p>
+        <p>Datum der letzten Änderung des Eintrags.</p>
       </td>
       <td>
         <p>2020-06-17 19:03:36.000</p>
@@ -13265,7 +13262,7 @@ Zuordnungstabelle der [!DNL Marketo Measure]-Sitzungs-ID zur Adobe ECID und Munc
       <td>varchar</td>
       <td>URL der Seitenansicht, einschließlich aller Abfrageparameter.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>
@@ -13307,7 +13304,7 @@ Zuordnungstabelle der [!DNL Marketo Measure]-Sitzungs-ID zur Adobe ECID und Munc
     <tr>
       <td>IS_DUPLICATED</td>
       <td>boolean</td>
-      <td>Gibt an, ob der Datensatz als Duplikat betrachtet wird.</td>
+      <td>Gibt an, ob der Eintrag als Duplikat betrachtet wird.</td>
       <td>false</td>
     </tr>
     <tr>
@@ -13337,19 +13334,19 @@ Zuordnungstabelle der [!DNL Marketo Measure]-Sitzungs-ID zur Adobe ECID und Munc
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake erstellt wurde.</td>
+      <td>Datum, an dem der Eintrag in Snowflake erstellt wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum der letzten Änderung des Datensatzes in Snowflake.</td>
+      <td>Datum der letzten Änderung des Eintrags in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum, an dem der Datensatz in Snowflake als gelöscht markiert wurde.</td>
+      <td>Datum, an dem der Eintragz in Snowflake als gelöscht markiert wurde.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -13361,7 +13358,7 @@ Zuordnungstabelle der [!DNL Marketo Measure]-Sitzungs-ID zur Adobe ECID und Munc
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,trim(split(ch.name,'.')[1])  as subchannel
       ,count(bt.id)                 as buyer_touchpoint_count
@@ -13383,7 +13380,7 @@ group by 1,2
 
 ```
 --Note: This query does not perform any currency conversion.  If your data contains multiple currencies, you will need to add in logic to perform the conversion to the desired currency using the biz_conversion_rates table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,sum(opp.amount*(bat.full_path_percentage/100))   as attributed_revenue
   from biz_user_touchpoints         ut
@@ -13450,7 +13447,6 @@ order by 1
 **Anzeigen aller Buyer Attribution Touchpoints (BATs) und deren zugewiesener Umsätze für eine einzige Opportunity.**
 
 >[!NOTE]
->
 >Diese Abfrage gibt den zugeordneten Umsatz für das W-Form-Modell zurück. Ändern Sie das Modell, indem Sie das Feld in der Berechnung des zugeordneten Umsatzes aktualisieren.
 
 ```

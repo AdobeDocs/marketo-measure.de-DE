@@ -1,22 +1,21 @@
 ---
-unique-page-id: 42762310
 description: Synchronisieren historischer Daten - [!DNL Marketo Measure]
 title: Synchronisieren historischer Daten
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1528'
 ht-degree: 3%
 
 ---
+
 
 # Synchronisieren historischer Daten {#syncing-historical-data}
 
 [!DNL Marketo Measure] ist eine Lösung, die die detailliertesten, umsetzbaren Daten bereitstellt. Nach unserem Kenntnisstand verfügen Sie möglicherweise über vorhandene Daten, für die Sie eine Attribution wünschen. Es ist möglich, Touchpoints für historische Daten zu generieren, aber es ist wichtig, einige Faktoren zu berücksichtigen, bevor Sie mit diesem Prozess fortfahren.
 
 >[!NOTE]
->
 >Dieser Artikel behandelt einen veralteten Prozess. Wir ermutigen die Benutzenden, den [neuen, verbesserten In-App-Prozess](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} zu verwenden.
 
 ## Zu berücksichtigende Faktoren {#factors-to-consider}
@@ -49,14 +48,13 @@ Dies ist ein Thema, das wir dringend empfehlen, zuerst mit Ihrem [!DNL Marketo M
 
 **Online:**
 
-Um historische Online-Daten zu synchronisieren, müssen die Daten in Salesforce-Kampagnen unterteilt sein. Diese können dann über [!DNL Salesforce] Regeln für die Kampagnensynchronisierung in der [!DNL Marketo Measure] App mit [!DNL Marketo Measure] synchronisiert werden. Sie müssen sicherstellen, dass aus keiner dieser Kampagnen nach dem Tag der Live-Schaltung Ihrer JavaScript Touchpoints generiert werden. Der Grund dafür ist, doppelte Touchpoints zu vermeiden. Nach der Live-Schaltung der JavaScript werden Online-Anstrengungen automatisch verfolgt, sodass wir sie nicht auch über eine SFDC-Kampagne verfolgen möchten. Um dieses Problem zu vermeiden, sollten Sie der Regel eine gewisse Zeit hinzufügen. Möglicherweise liegt das Erstellungsdatum des Kampagnenmitglieds unter dem [JavaScript-Tag der Live-Schaltung].
+Um historische Online-Daten zu synchronisieren, müssen die Daten in Salesforce-Kampagnen unterteilt sein. Diese können dann über [!DNL Marketo Measure] Regeln für die Kampagnensynchronisierung in der [!DNL Salesforce] App mit [!DNL Marketo Measure] synchronisiert werden. Sie müssen sicherstellen, dass aus keiner dieser Kampagnen nach dem Tag der Live-Schaltung Ihrer JavaScript Touchpoints generiert werden. Der Grund dafür ist, doppelte Touchpoints zu vermeiden. Nach der Live-Schaltung der JavaScript werden Online-Anstrengungen automatisch verfolgt, sodass wir sie nicht auch über eine SFDC-Kampagne verfolgen möchten. Um dieses Problem zu vermeiden, sollten Sie der Regel eine gewisse Zeit hinzufügen. Möglicherweise liegt das Erstellungsdatum des Kampagnenmitglieds unter dem [JavaScript-Tag der Live-Schaltung].
 
-![](assets/syncing-historical-data-1.png)
+![Beispiel für eine Salesforce-Kampagnensynchronisierungsregel für Verlaufsdaten](assets/syncing-historical-data-1.png)
 
 Die Kanalzuordnungskomponente für historische Online-Daten kann etwas kompliziert sein. Wir möchten, dass sie mit Ihren aktuellen Online-Kanalregeln (aus dem Online-Regelblatt) für sauberes Reporting so gut wie möglich übereinstimmt. Im Folgenden finden Sie ein Beispiel für eine ideale Kanalzuordnung.
 
 >[!NOTE]
->
 >Diese Kanalzuordnung erfolgt im Abschnitt [!UICONTROL Offline-Kanäle] der [!DNL Marketo Measure]-App, da wir SFDC-Kampagnen verwenden.
 
 | Salesforce-Kampagnentyp | Kanal | Unterkanal |
@@ -69,7 +67,7 @@ Online-Daten, die auf diese Weise hinzugefügt werden, sind von Natur aus wenige
 
 Es ist möglicherweise nicht möglich oder sinnvoll, die Anzahl der SFDC-Kampagnentypen zu verwenden, um eine granulare Kanalzuordnung zu unterstützen. Daher müssen Sie möglicherweise nur auf die Kanalebene zuordnen und die Unterkanäle ignorieren. Wenn die Kanalebene ebenfalls nicht bekannt ist, können Sie einen Proxy-Kanal wie „Historic Digital“ einrichten, damit Sie zumindest wissen, dass es sich um einen Online-Touch handelte.
 
-Wenn Sie das Touchpoint-Datum, das für diese historischen Online-Bemühungen gesendet wird, massenweise bearbeiten müssen, verwenden Sie die [!DNL Marketo Measure] benutzerdefinierte Schaltfläche „Touchpoint-Datum [!UICONTROL &#x200B; Massenaktualisierung] (dieses Feld ist als benutzerdefiniertes Feld im Kampagnenobjekt in SFDC verfügbar). Wenn die Kampagne eine kurze Zeitspanne hat, wäre es vielleicht sinnvoll, das Touchpoint-Datum massenweise in einem Tagesintervall zu bearbeiten, während es möglicherweise sinnvoll wäre, die Massenaktualisierung wöchentlich durchzuführen, wenn die Kampagne eine längere Zeitspanne hat. Wenn Sie die Funktion „Massen-Update-Touchpoint-Datum“ verwenden, stellen Sie sicher, dass Sie die Kampagnensynchronisierungsregel aktualisieren, um das Buyer Touchpoint-Datum im Datumsfeld zu verwenden. Beachten Sie, dass Sie dazu möglicherweise kreativ mit Ihren Kampagnen-Synchronisierungsregeln umgehen müssen, wenn dies nur für eine oder zwei Kampagnen gilt und nicht für alle.
+Wenn Sie das Touchpoint-Datum, das für diese historischen Online-Bemühungen gesendet wird, massenweise bearbeiten müssen, verwenden Sie die [!DNL Marketo Measure] benutzerdefinierte Schaltfläche „Touchpoint-Datum [!UICONTROL  Massenaktualisierung] (dieses Feld ist als benutzerdefiniertes Feld im Kampagnenobjekt in SFDC verfügbar). Wenn die Kampagne eine kurze Zeitspanne hat, wäre es vielleicht sinnvoll, das Touchpoint-Datum massenweise in einem Tagesintervall zu bearbeiten, während es möglicherweise sinnvoll wäre, die Massenaktualisierung wöchentlich durchzuführen, wenn die Kampagne eine längere Zeitspanne hat. Wenn Sie die Funktion „Massen-Update-Touchpoint-Datum“ verwenden, stellen Sie sicher, dass Sie die Kampagnensynchronisierungsregel aktualisieren, um das Buyer Touchpoint-Datum im Datumsfeld zu verwenden. Beachten Sie, dass Sie dazu möglicherweise kreativ mit Ihren Kampagnen-Synchronisierungsregeln umgehen müssen, wenn dies nur für eine oder zwei Kampagnen gilt und nicht für alle.
 
 **offline:**
 
@@ -91,14 +89,13 @@ Historische digitale Daten müssen in [!DNL Dynamics] Kampagnen organisiert werd
 
 Wenn die Daten an einem anderen Ort gespeichert sind (z. B. noch in der Marketing-Automatisierung), müssen sie in [!DNL Dynamics] verschoben und in die entsprechenden Kampagnen organisiert werden. Dann müssen Sie das Touchpoint-Datum berücksichtigen, da Sie möchten, dass es das Datum aus der Vergangenheit widerspiegelt und nicht das Datum, an das Sie es [!DNL Dynamics] verschoben haben. Um dieses Datum zu überschreiben, können Sie das benutzerdefinierte Feld &quot;Buyer Touchpoint-Datum“ verwenden, um das Datum zu ändern. Sie müssen dies dem Marketing-Listenformular hinzufügen.
 
-![](assets/syncing-historical-data-2.png)
+![Einrichtung der Dynamics Marketing-Liste mit dem Datumsfeld von Buyer Touchpoint](assets/syncing-historical-data-2.png)
 
 Daher können Sie das Datum für alle Personen in dieser Marketing-Liste, die für das Touchpoint-Datum verwendet werden, global festlegen. Um genauere historische Daten zu erhalten, erstellen Sie mehrere Marketing-Listen für dieselbe Kampagne - jede mit einem eigenen Touchpoint-Datum. Wenn die Kampagne eine kurze Zeitspanne hat, wäre es vielleicht sinnvoll, eine Marketing-Liste für jeden Tag zu erstellen. Wenn die Kampagne eine längere Zeitspanne hat, kann es sinnvoll sein, wöchentlich eine Marketing-Liste zu erstellen.
 
 Weitere Informationen zum Synchronisieren von Marketing-Listen finden Sie hier: [[!DNL Dynamics] Kampagnen und Marketing-Listen](/help/channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
->
 >Wenn Sie aus irgendeinem Grund eine Online-Kampagnenverfolgungs-Aktivität haben, die nach dem JavaScript-Live-Datum aktiv ist, stellen Sie sicher, dass Sie das Feld &quot;[!UICONTROL Touchpoint-Enddatum] auf das Datum setzen, an dem die JS live ging. Dadurch soll vermieden werden, dass für dieselbe Interaktion doppelte Touchpoints vorhanden sind.
 
 Überlegungen: Online-Daten, die auf diese Weise hinzugefügt werden, sind von Natur aus weniger detailliert als Online-Daten, [!DNL Marketo Measure] über JavaScript nachverfolgt werden. Beispielsweise werden Felder wie Formular-URL, Landingpage, Referrer-Seite usw. nicht ausgefüllt. Daher wird empfohlen, die Kampagnen nach Möglichkeit in jede Quelle aufzuteilen. Im Folgenden finden Sie ein Beispiel für eine ideale Zuordnung.
@@ -117,9 +114,9 @@ Um Touchpoints für Offline-Marketing-Maßnahmen aus der Vergangenheit zu haben,
 
 | Kampagnentyp Dynamics | Kanal | Unterkanal |
 |---|---|---|
-| Veranstaltungen - Gesponserte Konferenzen | Events | Gesponserte Konferenzen |
-| Veranstaltungen - Partnerveranstaltungen | Events | Partnerveranstaltungen |
-| Ereignisse - gehostete Ereignisse | Events | Gehostete Ereignisse |
+| Veranstaltungen - Gesponserte Konferenzen | Ereignisse | Gesponserte Konferenzen |
+| Veranstaltungen - Partnerveranstaltungen | Ereignisse | Partnerveranstaltungen |
+| Ereignisse - gehostete Ereignisse | Ereignisse | Gehostete Ereignisse |
 | Webinar - Partner-Webinar | Webinar | Partner-Webinar |
 
 Wenn diese Daten nicht bereits in Kampagnen mit den richtigen Datumsangaben organisiert sind, können Sie das Feld &quot;Buyer Touchpoint-Datum“ verwenden, um das genaue Datum aus der Offline-Aktivität in der Vergangenheit anzuzeigen.

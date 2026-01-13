@@ -1,21 +1,21 @@
 ---
-unique-page-id: 18874734
 description: Best Practices für die Zusammenführung von Leads - [!DNL Marketo Measure]
 title: Best Practices für die Zusammenführung von Leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '194'
 ht-degree: 5%
 
 ---
+
 
 # Best Practices für die Zusammenführung von Leads {#best-practices-for-merging-leads}
 
 Beim Zusammenführen von Leads in [!DNL Salesforce] sollten Sie immer vorsichtig sein, um sicherzustellen, dass keine Daten verloren gehen.
 
-Im Folgenden finden Sie eine Aufschlüsselung des [!DNL Salesforce]-Supports [Zusammenführen von Leads](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5).
+Im Folgenden finden Sie eine Aufschlüsselung des [-Supports ](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5)Zusammenführen von Leads[!DNL Salesforce].
 
 [!DNL Marketo Measure] kommt ins Spiel, wenn es an der Zeit ist, Felder auszuwählen, die in den zusammengeführten Datensatz eingefügt werden. Überprüfen Sie bei Auswahl des primären Datensatzes, ob die [!DNL Marketo Measure] Felder ausgewählt wurden, um sie in den neuen Datensatz zu übertragen.
 
@@ -23,6 +23,6 @@ Wenn mehrere Datensätze mit [!DNL Marketo Measure] Daten vorhanden sind, stelle
 
 Von dort aus sollten Sie die Leads zusammenführen können und [!DNL Marketo Measure] Daten werden in den neuen Datensatz übertragen.
 
-Wenn Sie Fragen haben, wenden Sie sich bitte an das Adobe-Account-Team (Ihren Account Manager) oder an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Wenn Sie Fragen haben, wenden Sie sich bitte an das Adobe Account Team (Ihren Account Manager) oder an den [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-![](assets/1.jpg)
+![Dialogfeld &quot;Salesforce-Leads zusammenführen“ mit Beibehaltung von Marketo Measure-Feldern](assets/1.jpg)

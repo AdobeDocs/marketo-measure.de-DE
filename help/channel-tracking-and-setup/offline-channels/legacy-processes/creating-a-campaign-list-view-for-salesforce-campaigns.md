@@ -1,22 +1,21 @@
 ---
-unique-page-id: 18874718
 description: Erstellen einer Kampagnenlistenansicht für [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]
 title: Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce] -Kampagnen
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 5%
 
 ---
 
+
 # Erstellen einer Kampagnenlistenansicht für [!DNL Salesforce] Kampagnen {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Erfahren Sie, wie Sie eine Listenansicht für die Kampagnen erstellen, die Sie mit Käufer-Touchpoints synchronisieren möchten.
 
 >[!NOTE]
->
 >Dieser Artikel behandelt einen veralteten Prozess. Wir ermutigen die Benutzenden, den [neuen, verbesserten In-App-Prozess](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} zu verwenden.
 
 In der Listenansicht der Kampagne, die erstellt werden kann, haben Sie die Möglichkeit, einen „go-to“-Speicherort zu wählen, um die Felder „Typ“ und „Käufer-Touchpoints aktivieren“ anzuzeigen und zu verwalten, um sicherzustellen, dass jede Ihrer [!DNL Salesforce] Kampagnen, die Ihre Offline-Marketing-Kanäle informieren, ordnungsgemäß eingerichtet ist.
@@ -43,5 +42,4 @@ In der Listenansicht der Kampagne, die erstellt werden kann, haben Sie die Mögl
    * Stellen Sie sicher, dass Sie über Berechtigungen für die Felder verfügen
 
 >[!MORELIKETHIS]
->
 >[Beheben häufiger Probleme bei der Inline-Bearbeitung von Listenansichten](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

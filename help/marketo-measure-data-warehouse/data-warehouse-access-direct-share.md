@@ -1,14 +1,15 @@
 ---
-description: Data Warehouse-Zugriff - Direktfreigabe - Produktdokumentation
+description: Data Warehouse Access - Direct Share
 title: Data Warehouse Access - Direct Share
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: bff10626589aba8c3dfe995dabde6eac1fc7809f
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 4%
+source-wordcount: '288'
+ht-degree: 5%
 
 ---
+
 
 # Data Warehouse Access - Direct Share {#data-warehouse-access-direct-share}
 
@@ -28,14 +29,13 @@ Damit [!DNL Marketo Measure] eine direkte Freigabe für das Data Warehouse einri
 
 Öffnen Sie den **Einstellungen** in der Marketo Measure-App und navigieren Sie zur Seite **Data Warehouse**. Geben Sie im Abschnitt **Direct Share** Ihre [Snowflake-Konto-ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in das bereitgestellte Feld ein und klicken Sie auf **Verbinden**.
 
-![](assets/data-warehouse-access-direct-share-1.png)
+![Marketo Measure Data Warehouse-Einstellungen, die das Snowflake Direct Share-Formular anzeigen](assets/data-warehouse-access-direct-share-1.png)
 
 ## Zugriff auf die Freigabe {#accessing-the-share}
 
 Nachdem die Freigabe für die angegebene Konto-ID erstellt wurde, müssen Sie die [Einrichtungsschritte](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} in Ihrer Snowflake-Instanz ausführen, um auf die Daten zuzugreifen.
 
 >[!NOTE]
->
 >Sie können einen beliebigen Datenbanknamen auswählen. Sie können die Berechtigungen einer beliebigen Rolle zuweisen, sofern diese in Ihrer Snowflake-Instanz vorhanden ist.
 
 * Konto-Administratorrolle verwenden

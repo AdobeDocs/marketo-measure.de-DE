@@ -1,20 +1,19 @@
 ---
-unique-page-id: 18874572
 description: Duplizieren von Datensätzen und [!DNL Marketo Measure] - [!DNL Marketo Measure]
-title: Doppelte Datensätze und  [!DNL Marketo Measure]
+title: Doppelte Einträge und  [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 12%
 
 ---
 
+
 # Duplizieren von Datensätzen und [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
->
 >Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
 
 [!DNL Marketo Measure] verwendet die E-Mail-Adresse als eindeutige Kennung, wenn Daten mit einem zugehörigen Lead oder Kontakt im CRM abgeglichen werden. Wenn [!DNL Marketo Measure] mehrere Leads oder Kontakte mit derselben E-Mail-Adresse findet, werden dieselben Daten in allen Datensätzen angezeigt. Dies wirkt sich aus, wenn Sie Berichte zu Leads oder Kontakten mit [!DNL Marketo Measure] erstellen, und kann fälschlicherweise die Anzahl der Einzelpersonen mit Käufer-Touchpoints in die Höhe treiben.
@@ -23,7 +22,7 @@ Wie sieht dies in [!DNL Marketo Measure] Reporting aus?
 
 _Beispielbericht: [!DNL Marketo Measure] Personen mit Käufer-Touchpoints._
 
-![](assets/1-1.png)
+![ 1](assets/1-1.png)
 
 Für die [!DNL Marketo Measure] Personen-ID von kelsey@adobe.com können Sie sehen, dass es sowohl einen Lead als auch einen Kontakt mit dieser E-Mail-Adresse gibt. In diesem Bericht werden zwei Erstkontakte, zwei Lead-Erstellungs-Kontakte und zwei PostLC-Interaktionen gemeldet. Diese doppelten Datensätze enthalten dasselbe Touchpoint-Datum und dieselbe Touchpoint-Information, was zu dem Schluss führen könnte, dass es sich um zwei verschiedene Personen handelt, obwohl sie dieselbe Person sind.
 

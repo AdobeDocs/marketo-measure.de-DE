@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874682
 description: Marketing-Kanäle und -Unterkanäle – [!DNL Marketo Measure]
 title: Marketing-Kanäle und -Unterkanäle
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 97%
 
 ---
+
 
 # Marketing-Kanäle und -Unterkanäle {#marketing-channels-and-subchannels}
 
@@ -49,7 +49,7 @@ Das folgende Diagramm zeigt ein Beispiel für einen Marketing-Kanal, einen Unter
 
 In diesem Fall ist der Inhalt, auf den die Benutzerin bzw. der Benutzer zugreifen möchte, das Einleitungshandbuch für die B2B-Marketing-Attribution. [!DNL Marketo Measure] analysiert die URL, die zu diesem Inhalt führt, mithilfe der in dieser Organisation eingerichteten Kanalregeln und verwendet sie, um diesen Lead in den Marketing-Kanal „Paid Social“ und den Unterkanal „LinkedIn“ einzusortieren.
 
-![](assets/1.jpg)
+![Diagramm zur Verknüpfung von Marketing-Kanal, Unterkanal und Inhalt aus einer getaggten URL](assets/1.jpg)
 
 Weitere Beispiele …
 

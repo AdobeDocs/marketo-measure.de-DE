@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874694
 description: Migration der Salesforce-Sandbox zur Produktion – [!DNL Marketo Measure]
 title: Migration der Salesforce-Sandbox zur Produktion
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 95%
 
 ---
+
 
 # Migration der Salesforce-Sandbox zur Produktion {#salesforce-sandbox-to-production-migration}
 
@@ -29,9 +29,9 @@ Wenn Sie sich dafür entschieden haben, [!DNL Marketo Measure] in einer [!DNL Sa
 * Melden Sie sich bei der [!DNL Marketo Measure]-Anwendung unter experience.adobe.com/marketo-measure an.
 * Navigieren Sie zu „Mein Konto“ >[!UICONTROL Einstellungen] >[!UICONTROL Verbindungen]
 * Klicken Sie auf das Papierkorbsymbol neben Ihrer SFDC-Verbindung, um sie zu löschen.
-* Sie werden aufgefordert, den Löschvorgang zu bestätigen. Achten Sie darauf, die Eingabeaufforderung sorgfältig zu lesen und die Folgen der Löschung zu verstehen.
+* Sie werden aufgefordert, den Löschvorgang zu bestätigen. Achten Sie darauf, den Prompt sorgfältig zu lesen und die Folgen der Löschung zu verstehen.
 
-  ![](assets/salesforce-sandbox-to-production-migration-1.png)
+  ![Seite mit Marketo Measure-Verbindungen, die das Löschen einer Salesforce-Sandbox bestätigt](assets/salesforce-sandbox-to-production-migration-1.png)
 
    * Geben Sie den Namen des Unternehmens ein, wie im Bestätigungsmodell angezeigt, und klicken Sie auf „Ich verstehe die Konsequenzen, Verbindung jetzt löschen“.
 * Dadurch wird der Löschvorgang ausgelöst. Es dauert einige Zeit, bis er abgeschlossen ist.
@@ -51,8 +51,8 @@ Wenn Sie sich dafür entschieden haben, [!DNL Marketo Measure] in einer [!DNL Sa
 
 [Berechtigungssätze](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Freigeben von Berichten](https://help.salesforce.com/s/articleView?language=de_DE&amp;id=analytics_share_folder.htm&amp;type=0){target="_blank"}
+[Berichte freigeben](https://help.salesforce.com/s/articleView?language=de_DE&id=analytics_share_folder.htm&type=0){target="_blank"}
 
 [Ausblenden unnötiger Berichtstypen](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 
-[Benutzerdefinierter Workflow, falls anwendbar](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+[Benutzerdefinierter Workflow, falls anwendbar](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)

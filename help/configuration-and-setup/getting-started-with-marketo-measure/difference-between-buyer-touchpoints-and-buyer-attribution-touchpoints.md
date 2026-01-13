@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874646
 description: Unterschiede zwischen Buyer Touchpoints und Buyer Attribution Touchpoints – [!DNL Marketo Measure]
 title: Unterschiede zwischen Buyer Touchpoints und Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: bdc32fdfe24d57fd7770654f1238896c7b59acf6
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
 ---
+
 
 # Unterschiede zwischen Buyer Touchpoints und Buyer Attribution Touchpoints {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
@@ -21,31 +21,31 @@ Während das Objekt „Buyer Attribution Touchpoint“ mit den Kontakt-, Konten-
 
 Unterschied zwischen BT und BAT:
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
-  <tr> 
-   <td>Buyer Touchpoint (BT)</td> 
-   <td>Buyer Attribution Touchpoint (BAT)</td> 
-  </tr> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Bezieht sich auf das Lead-, Kontakt- und Fallobjekt</li> 
-     <li>Bezieht sich nicht auf das Opportunity-Objekt</li> 
-     <li>Umsatz ist nicht mit einem Buyer Touchpoint verknüpft</li> 
-    </ul></td> 
-   <td> 
-    <ul> 
-     <li>Bezieht sich auf das Kontakt-, Konto- und Opportunity-Objekt</li> 
-     <li>Bezieht sich nicht auf das Lead-Objekt</li> 
-     <li>Da ein Buyer Attribution Touchpoint mit einer Opportunity verknüpft ist, ist allen BAT-Merkblättern Umsatz zugeordnet</li> 
-    </ul></td> 
-  </tr> 
- </tbody> 
+<table>
+ <colgroup>
+  <col>
+  <col>
+ </colgroup>
+ <tbody>
+  <tr>
+   <td>Buyer Touchpoint (BT)</td>
+   <td>Buyer Attribution Touchpoint (BAT)</td>
+  </tr>
+  <tr>
+   <td>
+    <ul>
+     <li>Bezieht sich auf das Lead-, Kontakt- und Fallobjekt</li>
+     <li>Bezieht sich nicht auf das Opportunity-Objekt</li>
+     <li>Umsatz ist nicht mit einem Buyer Touchpoint verknüpft</li>
+    </ul></td>
+   <td>
+    <ul>
+     <li>Bezieht sich auf das Kontakt-, Konto- und Opportunity-Objekt</li>
+     <li>Bezieht sich nicht auf das Lead-Objekt</li>
+     <li>Da ein Buyer Attribution Touchpoint mit einer Opportunity verknüpft ist, ist allen BAT-Merkblättern Umsatz zugeordnet</li>
+    </ul></td>
+  </tr>
+ </tbody>
 </table>
 
 ## FAQs {#faq}

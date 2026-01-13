@@ -1,15 +1,15 @@
 ---
-unique-page-id: 37356027
 description: '[!DNL Marketo Measure] CRM Package-Less-Integration - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] CRM-Paketlose Integration'
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 2%
 
 ---
+
 
 # [!DNL Marketo Measure] CRM-Paketlose Integration {#marketo-measure-crm-packageless-integration}
 
@@ -31,12 +31,11 @@ Um sicherzustellen, dass alle Daten ordnungsgemäß aus Ihrem CRM abgerufen werd
 
 Überspringen Sie in den folgenden Handbüchern die Schritte zum Installieren des [!DNL Salesforce]-Pakets oder [!DNL Microsoft Dynamics] Managed Solution und befolgen Sie nur die Anweisungen zu Berechtigungen und Integration .
 
-[!DNL Salesforce] Kunden klicken [hier](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md).
+[!DNL Salesforce] Kunden klicken [hier](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md).
 
-[!DNL Microsoft Dynamics] Kunden klicken [hier](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
+[!DNL Microsoft Dynamics] Kunden klicken [hier](/help/marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
 Nachdem Sie diese Schritte abgeschlossen haben, sollte die Integration funktionsfähig sein. Wenden Sie sich bei Problemen an Ihren [!DNL Marketo Measure] oder an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
->
 >Wenn Sie mit der [!DNL Marketo Measure] CRM-Paketlosen Integration beginnen, können Sie das Salesforce-Paket oder die Microsoft Dynamics Managed Solution später installieren.

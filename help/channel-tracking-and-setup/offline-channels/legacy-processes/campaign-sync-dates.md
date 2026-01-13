@@ -1,22 +1,21 @@
 ---
-unique-page-id: 18874684
 description: Kampagnensynchronisierungstermine - [!DNL Marketo Measure]
 title: Kampagnensynchronisierungsdaten
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 5%
 
 ---
+
 
 # Kampagnensynchronisierungsdaten {#campaign-sync-dates}
 
 Erfahren Sie, was die Funktion Synchronisierungstermine in Campaign bewirkt und bieten Sie einige Anwendungsfälle für diese Funktion.
 
 >[!NOTE]
->
 >Dieser Artikel behandelt einen veralteten Prozess. Wir ermutigen die Benutzenden, den [neuen, verbesserten In-App-Prozess](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"} zu verwenden.
 
 **[!DNL Marketo Measure]Paket erforderlich: 6.9 oder höher**
@@ -28,11 +27,11 @@ Diese Funktion besteht aus zwei einfachen Datumsfeldern im [!DNL Salesforce] Cam
 
 Sobald Käufer-Touchpoints für eine bestimmte Kampagne aktiviert sind, können Sie bei Kampagnensynchronisierungsterminen Touchpoint-Datumsparameter für die jeweilige Kampagne festlegen. Wenn Sie also ein Touchpoint-Enddatum vom 1. März 2017 hinzufügen, erstellt [!DNL Marketo Measure] nur Touchpoints für Kampagnenmitglieder, die vor diesem Datum zur Kampagne hinzugefügt wurden. [!DNL Marketo Measure] werden keine Touchpoints für Kampagnenmitglieder erstellen, die nach dem 1. März 2017 hinzugefügt wurden.
 
-![](assets/1.gif)
+![Salesforce-Kampagne mit den Feldern „Touchpoint-Startdatum“ und „Enddatum“](assets/1.gif)
 
 Wenn Sie einer Kampagne ein Touchpoint-Startdatum hinzufügen (z. B. am 1. Januar 2017), erstellen [!DNL Marketo Measure] auch keine Touchpoints für Kampagnenmitglieder, die der Kampagne vor dem 1. Januar 2017 hinzugefügt wurden. Sie müssen kein Touchpoint-Startdatum hinzufügen, wenn Sie ein Touchpoint-Enddatum hinzufügen, und umgekehrt.
 
-## Anwendungsfälle {#use-cases}
+## Anwendungsszenarien {#use-cases}
 
 **Aufstockung der Touchpoints**
 

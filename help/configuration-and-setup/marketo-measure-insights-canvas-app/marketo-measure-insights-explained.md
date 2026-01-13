@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874676
 description: '[!DNL Marketo Measure] Insights erklärt - [!DNL Marketo Measure]'
 title: Erläuterung von [!DNL Marketo Measure]-Insights
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
+
 
 # Erläuterung von [!DNL Marketo Measure]-Insights {#marketo-measure-insights-explained}
 
@@ -19,7 +19,7 @@ Sobald jemand von der [!DNL Marketo Measure] JavaScript verfolgt wird und ein Fo
 
 Zunächst sehen Sie im mittleren Teil Ihrer Einblicke die Anzahl der Sitzungen, die die Person auf Ihrer Website hatte. Sie können durch diese Sitzungen scrollen und beliebig navigieren.
 
-![](assets/1.png)
+![Insights-Sitzungsliste mit der Anzahl der verfolgten Sitzungen](assets/1.png)
 
 Sie können sich die Zusammenfassung aller Ihrer Sitzungen ansehen, wenn Sie im mittleren oberen Teil Ihrer Einblicke auf „Alle“ klicken. Dort werden die Daten der einzelnen Sitzungen, der Kanal oder die Quelle für diese Sitzungen sowie eine Reihe von Symbolen zur Angabe weiterer Informationen angezeigt.
 
@@ -27,15 +27,15 @@ Als Erstes sehen Sie die FT- oder LC-Symbole. Diese stellen die Touchpoint-Posit
 
 Die Symbole, die wie Papier aussehen, zeigen an, dass eine Seitenansicht während der Sitzung stattgefunden hat. Wahrscheinlich enthält jede Sitzung dieses Symbol.
 
-![](assets/2.png)
+![Rollout-Ansicht „Insights“ mit Touchpoint-Positionen und Kanaldetails](assets/2.png)
 
 Das Symbol, das wie ein Becher aussieht, signalisiert, dass ein A/B-Test-Experiment stattgefunden hat. Wir integrieren zu diesem Zeitpunkt mit Optimizely und VWO. Mit dieser Integration können wir das Experiment und die Variante pushen, die der Benutzer in der jeweiligen Sitzung gesehen hat.
 
-![](assets/3.png)
+![Insights-Sitzungsliste mit hervorgehobenem Symbol für A/B-Test-Becher](assets/3.png)
 
 Wenn Sie auf eine bestimmte Sitzung klicken (Sie können dies tun, indem Sie auf das tatsächliche Datum der Sitzung oder im oberen mittleren Teil der gruppierten Sitzungen klicken), können Sie die Sitzungsdetails sehen. In jeder Sitzung können Sie alle spezifischen Seiten sehen, die der Benutzer gesehen hat, sortiert nach Datum und Uhrzeit.
 
-![](assets/4.png)
+![Bedienfeld „Sitzungsdetails“ mit Seitenansichten innerhalb einer Sitzung](assets/4.png)
 
 Auf der rechten Seite jeder Sitzung sehen Sie mehr von den granularen Marketing-Daten, die die [!DNL Marketo Measure] in Ihre SFDC übertragen. In diesem Beispiel sehen Sie Anzeigengruppe, Anzeigeninhalt, Kampagne, Keyword, Medium. Sie können auch einen Bildlauf nach unten durchführen, um mehr der von uns bereitgestellten [!DNL Marketo Measure] anzuzeigen.
 

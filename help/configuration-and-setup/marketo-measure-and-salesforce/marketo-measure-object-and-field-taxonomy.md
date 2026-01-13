@@ -1,25 +1,25 @@
 ---
-unique-page-id: 18874584
 description: '[!DNL Marketo Measure] Objekt- und Feldtaxonomie - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Objekt- und Feldtaxonomie'
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
+
 
 # [!DNL Marketo Measure] Objekt- und Feldtaxonomie {#marketo-measure-object-and-field-taxonomy}
 
 Nachfolgend finden Sie ein Flussdiagramm, das darstellt, wie [!DNL Marketo Measure] benutzerdefinierten Objekte mit [!DNL Salesforce] Standardobjekten in Beziehung stehen.
 
-![](assets/1-2.png)
+![ 2](assets/1-2.png)
 
 Für das Bild in voller Größe [hier klicken](assets/bizible-object-and-field-taxonomy-graph-full.png).
 
-Definitionen der [!DNL Marketo Measure] Felder, die in jedem Objekt vorhanden sind [finden Sie hier](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
+Definitionen der [!DNL Marketo Measure] Felder, die in jedem Objekt vorhanden sind [finden Sie hier](/help/glossary.md).
 
 ## FAQs {#faq}
 

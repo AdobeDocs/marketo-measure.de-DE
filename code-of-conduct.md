@@ -1,5 +1,5 @@
 ---
-source-git-commit: ea1e867b7169bac473d8e9754cbb97a0fdcb57fd
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -8,7 +8,6 @@ ht-degree: 100%
 # Adobe-Verhaltenskodex
 
 ## Unser Versprechen
-
 
 Um eine offene und freundliche Umgebung zu fördern, verpflichten wir uns als Beitragende und Verantwortliche, dafür zu sorgen, dass die Teilnahme an unserem Projekt und in unserer Community für alle frei von Belästigung bleibt, unabhängig von Alter, Körpergröße und Statur, Behinderung, Ethnie, geschlechtlicher Identität und Ausdruck der Geschlechtlichkeit, Erfahrungsniveau, Nationalität, persönlichem Auftreten, Rasse, Religion oder sexueller Identität und Orientierung.
 

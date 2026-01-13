@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874588
 description: Benutzerdefinierte Kampagnensynchronisierung - [!DNL Marketo Measure]
 title: Synchronisierung benutzerspezifischer Kampagnen
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
+
 
 # Synchronisierung benutzerspezifischer Kampagnen {#custom-campaign-sync}
 
@@ -25,36 +25,32 @@ Heute können Sie mit dem installierten [!DNL Marketo Measure] angeben, welche K
 1. Mit AccountAdmin-Berechtigungen können Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Kampagnen]** navigieren und die Regelbenutzeroberfläche Kampagnenmitglieder synchronisieren sehen.
 1. Klicken Sie auf das Symbol **+** , um mit der Erstellung einer Regel zu beginnen.
 
-   ![](assets/1-1.png)
+   ![Seite „Kampagnensynchronisierungseinstellungen“ mit der Schaltfläche „Regel hinzufügen“](assets/1-1.png)
 
 1. Sie können eine Regel aus den Feldern [!UICONTROL Kampagne] oder [!UICONTROL Kampagnenmitglied] erstellen. Füllen Sie den Rest der Regel mit dem Operator und dem Wert aus, den wir validieren sollen. Im folgenden Beispiel prüfen wir anhand des Namens nach einer bestimmten Kampagne.
 
-   ![](assets/2-1.png)
+   ![Rule Builder mit Kampagnenfeldauswahl und Operatoroptionen](assets/2-1.png)
 
    >[!NOTE]
-   >
    >Formelfelder können nicht in Ihren Regeln verwendet werden und werden nicht in der Auswahlliste angezeigt. Da Formeln im Hintergrund berechnet werden und einen Datensatz nicht ändern, können [!DNL Marketo Measure] nicht erkennen, ob ein Datensatz zu einer Regel passt oder nicht.
 
 1. Wählen Sie das Touchpoint-Datum aus. Die Liste der möglichen Daten wird angezeigt, nachdem Sie eine geschweifte Klammer `{` eingegeben haben. Wählen Sie dann das Datum aus, das auf alle Touchpoints angewendet werden soll, die aus der Regel erstellt wurden.
 
-   ![](assets/3-1.png)
+   ![Touchpoint-Datumsfeld mit Dropdown-Liste zur automatischen Vervollständigung mit verfügbaren Datumsfeldern](assets/3-1.png)
 
    >[!NOTE]
-   >
    >Wenn Sie benutzerdefinierte Kampagnen-Synchronisierungsregeln verwenden, lesen [!DNL Marketo Measure] keine Aktualisierungen, die Sie mit der Schaltfläche Massen-Update des Touchpoint-Datums vorgenommen haben.
 
 1. Klicken Sie auf das Häkchen und fügen Sie dann bei Bedarf zusätzliche Regeln für weitere Kampagnen hinzu.
 
-   ![](assets/4-1.png)
+   ![Regel mit Häkchen und der Option zum Hinzufügen weiterer Regeln abgeschlossen](assets/4-1.png)
 
    >[!NOTE]
-   >
    >Nachdem nun neben der CRM-Synchronisierung Regeln definiert sind, geraten die angegebenen Regeln natürlich in Konflikt. Wenn Sie sich dafür entscheiden, weiterhin sowohl den benutzerdefinierten Kampagnensynchronisierungstyp _als auch_ CRM-Synchronisierungstyp zu verwenden, ist es wichtig, Regeln zu erstellen, damit Ihre CRM-Synchronisierungstypen nicht ignoriert werden.
 
-   ![](assets/5-1.png)
+   ![Mehrere Kampagnensynchronisierungsregeln mit Konfigurationen des CRM-Synchronisierungstyps](assets/5-1.png)
 
    >[!NOTE]
-   >
    >Wenn Sie erwägen, den Benutzer des [!UICONTROL CRM-Synchronisierungstyps] letztendlich zu stoppen, ist es ideal, Regeln zu erstellen, die nicht auf den „Synchronisierungstyp“ verweisen, aber _weiterhin_ die aktuellen CRM-Touchpoints beibehalten. Auf diese Weise funktionieren die Regeln immer noch, wenn/wenn dieser Wechsel erfolgt.
 
 Hier ist ein Beispiel, wie das aussehen würde, damit keine vorhandenen CRM-Touchpoints verloren gehen:
@@ -63,22 +59,22 @@ Hier ist ein Beispiel, wie das aussehen würde, damit keine vorhandenen CRM-Touc
 
 Sie können in Campaign einfach die Buyer Touchpoints und Buyer Attribution Touchpoint-Datensätze überprüfen, um sicherzustellen, dass die Regeln ordnungsgemäß funktionieren. Im Folgenden finden Sie eine BAT, die mit dem entsprechenden dynamischen Touchpoint-Datum erstellt und aus der Kampagne abgerufen [!DNL Marketo Measure]. Das Feld Erstellungsdatum befindet sich im Bild darunter.
 
-![](assets/6-1.png)
+![Buyer Attribution Touchpoint-Datensatz mit einem dynamischen Touchpoint-Datumsfeld](assets/6-1.png)
 
 ## Wird getestet {#testing}
 
 1. Die Funktion Kampagnensynchronisierung verfügt über eine Testfunktion, mit der Sie überprüfen können, ob die von Ihnen erstellten Regeln tatsächlich den Kampagnenkriterien entsprechen. Klicken Sie zunächst auf die Schaltfläche [!UICONTROL Test]. Die Regeln müssen zuerst gespeichert werden, bevor Sie mit dem Testen beginnen können.
 
-   ![](assets/7-1.png)
+   ![Schaltfläche „Test“ in der Benutzeroberfläche für Kampagnensynchronisierungsregeln](assets/7-1.png)
 
    Es wird ein Popup angezeigt, in dem Sie eine Kampagnen-ID (entweder 15 oder 18 Zeichen aus dem CRM) zum Testen eingeben können. Der Punkt ist, die Kampagnen-ID aus dem CRM einzugeben, das Sie synchronisieren wollten, um sicherzustellen, dass sie mit der von Ihnen erstellten Regel übereinstimmt.
 
-   ![](assets/8-1.png)
+   ![Testen des modalen Dialogfelds mit dem Eingabefeld für die Kampagnen-ID](assets/8-1.png)
 
 1. Nachdem Sie auf [!UICONTROL Test] geklickt haben, sehen Sie den Namen der Kampagne und die Anzahl der Kampagnenmitglieder, die für Touchpoints infrage kommen. Darunter wird eine Tabelle mit allen Regeln angezeigt, die Ihrer Kampagnen-ID entsprechen. Nur die Übereinstimmungen werden angezeigt.
 
-   ![](assets/9.png)
+   ![Testergebnisse mit Kampagnennamen und der Anzahl der berechtigten Mitglieder](assets/9.png)
 
 1. Sie können auch auf die Anzahl der Mitglieder klicken, um eine Liste der Leads und Kontakte und ihrer IDs anzuzeigen, die Teil der Kampagnenregel-Eignung sind. Dies ist nur ein Beispielsatz und zeigt bis zu 50 an, damit Sie eine Vorstellung davon erhalten, welche Datensätze qualifiziert sind.
 
-   ![](assets/10.png)
+   ![Liste der berechtigten Kampagnenmitglieder mit Lead- und Kontakt-IDs](assets/10.png)
