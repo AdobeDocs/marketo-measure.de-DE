@@ -17,16 +17,16 @@ Erfahren Sie, wie Sie die Berechtigung zum Bearbeiten konvertierter Lead-Datens�
 
 1. Gehen Sie zu [!UICONTROL Setup] und erweitern Sie die [!UICONTROL Benutzer verwalten] Gruppierung, um Profile auszuwählen.
 
-   ![ 2](assets/1-2.png)
+   ![&#x200B; 2](assets/1-2.png)
 
 1. Wählen Sie das Profil des Benutzers aus, über den wir verbunden sind.
 
 1. Suchen Sie nach der Berechtigung zum Anzeigen und Bearbeiten konvertierter Leads.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. Aktivieren Sie das Kontrollkästchen, um die Berechtigung zum Anzeigen und Bearbeiten konvertierter Leads zu aktivieren.
 
-   ![ 1](assets/3-1.png)
+   ![&#x200B; 1](assets/3-1.png)
 
 Und Sie sind fertig!

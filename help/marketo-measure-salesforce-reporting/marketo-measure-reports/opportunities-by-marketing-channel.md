@@ -19,15 +19,15 @@ Dieser Bericht zeigt die Anzahl der von Ihren Marketing-Kanälen generierten Opp
 
 1. Wählen Sie in der Schnellsuche unter „Bizible Attribution“ den Berichtstyp **[!UICONTROL Bizible Attribution Touchpoint mit Opportunity]** und klicken Sie auf **[!UICONTROL Erstellen]**.
 
-   ![ 2](assets/1-2.jpg)
+   ![&#x200B; 2](assets/1-2.jpg)
 
-1. Zeigen Sie oben im Bericht &quot;**[!UICONTROL Attribution-Touchpoints von Bizible]** an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von &quot;[!UICONTROL &quot; ] &quot;**[!UICONTROL &quot;]**.
+1. Zeigen Sie oben im Bericht &quot;**[!UICONTROL Attribution-Touchpoints von Bizible]** an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von &quot;[!UICONTROL &quot; &#x200B;] &quot;**[!UICONTROL &quot;]**.
 
-   ![ 2](assets/2-2.jpg)
+   ![&#x200B; 2](assets/2-2.jpg)
 
 1. Jetzt fügen wir dem Bericht Felder hinzu. Geben Sie in der Schnellsuche auf der linken Seite „Marketing-Kanal“ ein und fügen Sie ihn zur Gruppierung „Zusammenfassung“ im Bericht hinzu.
 
-   ![ 2](assets/3-2.jpg)
+   ![&#x200B; 2](assets/3-2.jpg)
 
 1. Führen Sie nun den Bericht aus und analysieren Sie!
 

@@ -117,4 +117,4 @@ Erfahren Sie mehr über die verschiedenen [!DNL Marketo Measure]-Cookies, die au
 
 Wenn während der JavaScript-Einrichtung eine Web Application Firewall-Warnung (WAF) ausgelöst wird, können Benutzende diese WAF-Regel deaktivieren oder die Cookies auf die Zulassungsliste setzen, wie im folgenden Beispiel gezeigt:
 
-![Beispiel einer WAF auf die Zulassungsliste setzen-Warnung mit der Aufforderung, Marketo Measure-Cookies zu ](assets/marketo-measure-cookies-1.png)
+![Beispiel einer WAF auf die Zulassungsliste setzen-Warnung mit der Aufforderung, Marketo Measure-Cookies zu &#x200B;](assets/marketo-measure-cookies-1.png)

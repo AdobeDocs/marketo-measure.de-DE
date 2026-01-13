@@ -22,7 +22,7 @@ Wie sieht dies in [!DNL Marketo Measure] Reporting aus?
 
 _Beispielbericht: [!DNL Marketo Measure] Personen mit Käufer-Touchpoints._
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 Für die [!DNL Marketo Measure] Personen-ID von kelsey@adobe.com können Sie sehen, dass es sowohl einen Lead als auch einen Kontakt mit dieser E-Mail-Adresse gibt. In diesem Bericht werden zwei Erstkontakte, zwei Lead-Erstellungs-Kontakte und zwei PostLC-Interaktionen gemeldet. Diese doppelten Datensätze enthalten dasselbe Touchpoint-Datum und dieselbe Touchpoint-Information, was zu dem Schluss führen könnte, dass es sich um zwei verschiedene Personen handelt, obwohl sie dieselbe Person sind.
 

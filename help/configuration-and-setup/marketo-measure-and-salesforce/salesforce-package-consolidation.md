@@ -58,7 +58,7 @@ Sie müssen Ihr Paket nicht deinstallieren, bevor Sie das konsolidierte Paket in
 
 **Wie kann ich die Daten aus meinen aktuellen Paketen aufstocken?**
 
-Sie können ein Ticket ([ Support) ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} Aufstockung und Neuverarbeitung von BT-/BAT-Daten zum Ausfüllen von Touchpoint-ID- und Formular-ID-Feldern einreichen.
+Sie können ein Ticket ([&#x200B; Support) &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} Aufstockung und Neuverarbeitung von BT-/BAT-Daten zum Ausfüllen von Touchpoint-ID- und Formular-ID-Feldern einreichen.
 
 **Werden die Felder in den Paketen V1 und V2_EXT im konsolidierten Paket verfügbar sein?**
 

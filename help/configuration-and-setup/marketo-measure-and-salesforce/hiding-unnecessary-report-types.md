@@ -25,7 +25,7 @@ Nachdem Sie die Installation abgeschlossen und mit der Verwendung von Berichten 
 
 1. Klicken Sie auf die unten mit einem orangefarbenen X markierten Berichte, damit Ihre Berichtsliste genauso aussieht wie die Abbildung unten.
 
-   ![ 4](assets/1-4.png)
+   ![&#x200B; 4](assets/1-4.png)
 
 >[!MORELIKETHIS]
 >[Salesforce - Ausblenden nicht verwendeter Berichtstypen](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

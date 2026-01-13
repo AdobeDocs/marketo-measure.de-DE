@@ -32,13 +32,13 @@ Hier finden Sie verschiedene Links zu relevanten Artikeln/Videos, die Ihnen beim
 * [Synchronisieren von SFDC-Kampagnen mit Käufer-Touchpoints](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [Marketingausgaben hochladen](/help/marketing-spend/marketing-channel-costs.md#uploading-marketing-costs)
 * [Erneutes Verbinden von Werbekonten](/help/api-connections/reauthorizing-connected-accounts.md)
-* [ [!DNL Marketo Measure] JavaScript wird hinzugefügt](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
+* [&#x200B; [!DNL Marketo Measure] JavaScript wird hinzugefügt](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
    * [Forms ausschließen](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **Reporting**
 
 * [Erstellen benutzerdefinierter Berichtstypen mit [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-report-types.md) (wenn Sie einen Bericht über benutzerdefinierte Lead-/Kontakt-/Opportunity-Felder erstellen müssen)
-* [Glossar der  [!DNL Marketo Measure] ](/help/glossary.md)
+* [Glossar der  [!DNL Marketo Measure] &#x200B;](/help/glossary.md)
 
 **Fehlerbehebung**
 

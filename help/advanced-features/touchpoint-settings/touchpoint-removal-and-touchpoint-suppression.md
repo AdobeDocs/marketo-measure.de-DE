@@ -34,7 +34,7 @@ Beginnen Sie mit dem Hinzufügen einer Regel und der Auswahl des Felds, das Ihre
 
 Wählen Sie aus einer Liste von Operatoren aus, die sich auf den nächsten Wertesatz beziehen, den Sie in der nächsten Spalte hinzufügen.
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 >[!TIP]
 >Um mehrere Werte in einem Feld hinzuzufügen, verwenden Sie den Operator „stimmt überein mit“, wobei die einzelnen Werte durch Kommas voneinander getrennt sind.
@@ -62,7 +62,7 @@ Machen Sie sich keine Sorgen, wenn Sie einen Fehler machen. Sie können auch ein
 
 ![Konfiguration der Unterdrückungsregeln für Attribution-Touchpoints des Käufers](assets/5.png)
 
-Zum Fertigstellen [!UICONTROL  Sie Ihre Regeln ] und verarbeiten. Wenn Sie viele Änderungen vornehmen, sollten Sie sicherstellen, dass Sie Ihre Änderungen dabei speichern. [!DNL Marketo Measure] werden Ihre Touchpoints erst entfernen, wenn Sie auf klicken
+Zum Fertigstellen [!UICONTROL &#x200B; Sie Ihre Regeln &#x200B;] und verarbeiten. Wenn Sie viele Änderungen vornehmen, sollten Sie sicherstellen, dass Sie Ihre Änderungen dabei speichern. [!DNL Marketo Measure] werden Ihre Touchpoints erst entfernen, wenn Sie auf klicken
 [!UICONTROL **Speichern und Verarbeiten**].
 
 | Benutzerin oder Benutzer | Anwendungsfall |

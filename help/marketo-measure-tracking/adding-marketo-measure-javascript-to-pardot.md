@@ -25,11 +25,11 @@ Nachdem Sie sich bei Ihrem [!DNL Pardot]-Konto angemeldet haben, führen Sie die
 
 1. Wählen Sie **[!UICONTROL Layoutvorlage]** aus.
 
-   ![ 3](assets/1-3.png)
+   ![&#x200B; 3](assets/1-3.png)
 
 1. Bestimmen Sie die entsprechende Layout-Vorlage und klicken Sie **[!UICONTROL rechts]** Bearbeiten“.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. Kopieren Sie den [!DNL Marketo Measure] JavaScript-Code und fügen Sie ihn direkt vor dem schließenden Header-Tag auf Ihrer HTML-Seite ein.
 

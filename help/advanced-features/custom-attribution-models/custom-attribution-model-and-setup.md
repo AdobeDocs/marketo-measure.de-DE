@@ -32,7 +32,7 @@ Mit dem [!DNL Marketo Measure] benutzerdefinierten Attributionsmodell können Be
    >[!NOTE]
    >Es sind bis zu sechs benutzerdefinierte Phasen zulässig (ohne die Standardwerte: FT, LC, OC, Closed).
 
-   ![ 1](assets/1-1.png)
+   ![&#x200B; 1](assets/1-1.png)
 
    >[!NOTE]
    >_Alle_ Leads/Kontakte und Opportunity-Phasen werden hier angezeigt, auch wenn die Phase inaktiv ist oder nicht mehr in [!DNL Salesforce] verwendet wird. Wenn Sie diese Stadien entfernen möchten, müssen Sie sie in [!DNL Salesforce] schwer löschen.
@@ -43,7 +43,7 @@ Mit dem [!DNL Marketo Measure] benutzerdefinierten Attributionsmodell können Be
 
    Im folgenden Beispiel wird eine benutzerdefinierte „MQL“-Phase mithilfe eines Datumsfelds definiert. Die Regel besagt einfach, dass das Feld „MQL-Datum“, wenn es nicht leer ist, als MQL betrachtet und in das benutzerdefinierte Modell aufgenommen werden sollte. Es ist auch wichtig, die benutzerdefinierten Stadien nach ihrer Erstellung zu sortieren, damit sie dem Verlauf Ihres Verkaufszyklus folgen.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
    >[!CAUTION]
    >Vergessen Sie nicht, die Verlaufsverfolgung für benutzerdefinierte Felder zu aktivieren.

@@ -20,11 +20,11 @@ Erstellen Sie einen neuen Berichtstyp, um alle Opportunities mit oder ohne Attri
 
 1. Navigieren Sie **[!UICONTROL Setup]** > **[!UICONTROL Erstellen]** > **[!UICONTROL Berichtstypen]**.
 
-   ![ 1](assets/1-1.jpg)
+   ![&#x200B; 1](assets/1-1.jpg)
 
 1. Wählen Sie **[!UICONTROL Neuer benutzerdefinierter Berichtstyp]**.
 
-   ![ 1](assets/2-1.jpg)
+   ![&#x200B; 1](assets/2-1.jpg)
 
 1. Legen Sie das Primäre Objekt als &quot;[!UICONTROL Opportunities] fest.
 
@@ -32,11 +32,11 @@ Erstellen Sie einen neuen Berichtstyp, um alle Opportunities mit oder ohne Attri
    * Verwenden Sie dieselbe Benennung für den Namen des Berichtstyps. Geben Sie in der Beschreibungseingabe „Opportunities mit oder ohne Attribution-Touchpoints des Käufers“ ein.
    * Speichern Sie den Bericht im &quot;[!UICONTROL Andere] und setzen Sie den Bericht auf &quot;[!UICONTROL bereitgestellt].
 
-   ![ 1](assets/3-1.jpg)
+   ![&#x200B; 1](assets/3-1.jpg)
 
 1. Von dort aus verknüpfen Sie das Objekt Opportunities mit dem Objekt Attribution Touchpoints des Käufers. Stellen Sie sicher, dass Sie die Schaltfläche „A-Datensätze können verwandte B-Datensätze haben oder auch nicht.“ Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
 
-   ![ 1](assets/4-1.jpg)
+   ![&#x200B; 1](assets/4-1.jpg)
 
 >[!MORELIKETHIS]
 >[[!DNL Marketo Measure] Tutorials: Zusätzliche SFDC-Berichte](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

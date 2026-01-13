@@ -23,7 +23,7 @@ So richten Sie Ihre Verbindung mit Marketo ein.
 
    ![Dropdown-Liste Mein Konto bei Marketo Measure mit Einstellungsoption](assets/set-up-marketo-connection-1.png)
 
-1. Klicken [!UICONTROL  unter &quot;]&quot; auf **[!UICONTROL Verbindungen]**.
+1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf **[!UICONTROL Verbindungen]**.
 
    ![Menü „Integrationen“ mit Option „Verbindungen“](assets/set-up-marketo-connection-2.png)
 

@@ -19,7 +19,7 @@ Wenn die Verbindung Ihrer Werbeplattform unterbrochen wird, können [!DNL Market
 
 Wenn Ihre CRM-Plattform getrennt wird, können [!DNL Marketo Measure] keine [!DNL Marketo Measure] Daten aktualisieren oder neue Touchpoints in Ihre Organisation übertragen. Sobald die CRM-Verbindung wiederhergestellt wurde, überträgt [!DNL Marketo Measure] alle Daten, die während der Trennung des Kontos fehlten.
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 ## Erneutes Autorisieren von getrennten Konten {#re-authorizing-disconnected-accounts}
 

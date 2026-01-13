@@ -76,7 +76,7 @@ Nachdem Sie die Kalkulationstabelle mit Ihren benutzerdefinierten Regeln bearbei
 ![Offline-Kanaloberfläche mit Auswahllistenfeldern zum Eingeben von Kanalzuordnungsregeln](assets/7-2.png)
 
 >[!TIP]
->Möchten Sie ermitteln _wann_ ein [!DNL Salesforce] Kampagnentyp in [!DNL Marketo Measure] Kanalzuordnung übernommen wird? Navigieren Sie **[!UICONTROL Setup]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Felder]** > **[!UICONTROL Typ]**. Sie können dann sehen, welche Werte sich in der Auswahlliste befinden und welche inaktiv sind. Inaktive werden in unserem Abschnitt „Offline-[!UICONTROL &quot; nicht als ] angezeigt. Beachten Sie, dass dieser Vorgang zwischen einigen Minuten und 48 Stunden dauern kann.
+>Möchten Sie ermitteln _wann_ ein [!DNL Salesforce] Kampagnentyp in [!DNL Marketo Measure] Kanalzuordnung übernommen wird? Navigieren Sie **[!UICONTROL Setup]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Felder]** > **[!UICONTROL Typ]**. Sie können dann sehen, welche Werte sich in der Auswahlliste befinden und welche inaktiv sind. Inaktive werden in unserem Abschnitt „Offline-[!UICONTROL &quot; nicht als &#x200B;] angezeigt. Beachten Sie, dass dieser Vorgang zwischen einigen Minuten und 48 Stunden dauern kann.
 
 Klicken Sie **[!UICONTROL Speichern]** wenn Sie fertig sind. [!DNL Marketo Measure] werden die Änderungen hochladen und die Daten erneut verarbeiten.
 

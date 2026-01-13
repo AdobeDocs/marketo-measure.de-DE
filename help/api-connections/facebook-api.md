@@ -24,7 +24,7 @@ ht-degree: 3%
 
 Was die Einrichtung betrifft, müssen in der [!DNL Marketo Measure]-App sieben Schritte ausgeführt werden.
 
-1. Navigieren Sie zu [experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} melden Sie sich an.
+1. Navigieren Sie zu [experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} melden Sie sich an.
 1. Wählen Sie unter Mein Konto **[!UICONTROL Einstellungen]** aus.
 1. Wählen Sie unter Integrationen **[!UICONTROL Verbindungen]** aus.
 1. Wählen Sie **[!UICONTROL Neue Anzeigenverbindung einrichten]** und ein Popup wird angezeigt. Wählen Sie **[!UICONTROL Facebook]** aus und melden Sie sich mit Ihren Facebook-Anmeldeinformationen an.
@@ -33,7 +33,7 @@ Was die Einrichtung betrifft, müssen in der [!DNL Marketo Measure]-App sieben S
    >Die Person, die das [!DNL Facebook Ads]-Konto verbindet, muss Administrator des [!DNL Facebook Ads]-Kontos sein.
 
 1. Sobald [!DNL Marketo Measure] mit Ihrem Facebook-Konto verbunden ist, klicken Sie auf das Stiftsymbol neben dem Konto.
-1. Verschieben Sie in dieser Ansicht das Feld „Automatisches Tagging?“ auf „Ja“ umschalten. Aktivieren Sie dann das Kontrollkästchen im Abschnitt [!UICONTROL Weitere Informationen], um den Nutzungsbedingungen zuzustimmen. Stellen Sie sicher[!UICONTROL  dass der Umschalter für ]Automatisches Tagging“ weiterhin auf &quot;[!UICONTROL Ja] eingestellt ist.
+1. Verschieben Sie in dieser Ansicht das Feld „Automatisches Tagging?“ auf „Ja“ umschalten. Aktivieren Sie dann das Kontrollkästchen im Abschnitt [!UICONTROL Weitere Informationen], um den Nutzungsbedingungen zuzustimmen. Stellen Sie sicher[!UICONTROL &#x200B; dass der Umschalter für &#x200B;]Automatisches Tagging“ weiterhin auf &quot;[!UICONTROL Ja] eingestellt ist.
 
 ## Verbinden des Kontos {#connecting-the-account}
 
@@ -42,9 +42,9 @@ Was die Einrichtung betrifft, müssen in der [!DNL Marketo Measure]-App sieben S
 ## Aktivieren von automatischem Tagging {#enabling-autotagging}
 
 >[!NOTE]
->Wenn Sie das automatische Tagging aktivieren, setzen wir den Konversionsverlauf und den Social Proof aller Anzeigen zurück, die wir taggen. Es wird dringend empfohlen[ diese Daten als CSV zu exportieren](https://www.facebook.com/business/help/205067636197240) bevor Sie das automatische Tagging aktivieren.
+>Wenn Sie das automatische Tagging aktivieren, setzen wir den Konversionsverlauf und den Social Proof aller Anzeigen zurück, die wir taggen. Es wird dringend empfohlen[&#x200B; diese Daten als CSV zu exportieren](https://www.facebook.com/business/help/205067636197240) bevor Sie das automatische Tagging aktivieren.
 
-![ 2](assets/2-2.png)
+![&#x200B; 2](assets/2-2.png)
 
 Sobald Sie die Integration aktiviert haben, beginnen [!DNL Marketo Measure], Kosten auf Anzeigenebene in das [!DNL Marketo Measure Marketing ROI] Dashboard herunterzuladen.
 

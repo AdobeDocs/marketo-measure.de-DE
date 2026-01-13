@@ -305,7 +305,7 @@ Dieses Feld zeigt die allgemeine Gruppe von Marketing-Aktivitäten oder Marketin
 
 Dieses Feld zeigt den Marketingkanal und den Unterkanal an, zu dem ein Touchpoint gehört. Im folgenden Beispiel ist Marketingkanal - Pfad Social.LinkedIn, wobei der Marketingkanal Social und der Unterkanal LinkedIn ist.
 
-![ 3](assets/1-3.png)
+![&#x200B; 3](assets/1-3.png)
 
 **Medium** | Buyer Touchpoint, Buyer Attribution Touchpoint
 

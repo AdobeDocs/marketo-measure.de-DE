@@ -34,9 +34,9 @@ Im Feld Erstellungsdatum auf dem Objekt Kampagnenmitglied wird [!DNL Salesforce]
 
 Warum ist das wichtig? Stellen Sie sich vor, Ihr Unternehmen hat im Januar einen Stand auf einer Konferenz gesponsert. Auf der Konferenz zeigten 100 Personen Interesse an Ihrem Produkt und gaben ihre Kontaktinformationen an, um E-Mail-Updates zu erhalten. Drei Wochen später haben Sie endlich eine Kampagne erstellt, [!DNL Salesforce] die Ergebnisse der Konferenz zu verfolgen.
 
-Ihr Upload-Datum liegt drei Wochen nach dem Konferenzdatum. Um diesen Unterschied zu beheben, [!UICONTROL  Sie mit der Schaltfläche ]Massenaktualisierung Touchpoint-Datum“ das entsprechende Datum festlegen. Die Schaltfläche ist in der Abbildung unten dargestellt.
+Ihr Upload-Datum liegt drei Wochen nach dem Konferenzdatum. Um diesen Unterschied zu beheben, [!UICONTROL &#x200B; Sie mit der Schaltfläche &#x200B;]Massenaktualisierung Touchpoint-Datum“ das entsprechende Datum festlegen. Die Schaltfläche ist in der Abbildung unten dargestellt.
 
-![ 3](assets/1-3.png)
+![&#x200B; 3](assets/1-3.png)
 
 In diesem Fall würde das Upload-Datum um drei Wochen aufgestockt. Dieser Schritt sollte vor dem Festlegen des Felds &quot;[!UICONTROL Kunden-Touchpoints aktivieren] ausgeführt werden.
 
@@ -47,17 +47,17 @@ Sie können auch die Daten für alle Kampagnenmitglieder in einer vorhandenen Ka
 >[!CAUTION]
 >Stellen Sie sicher, dass Sie das Touchpoint _Datum vor dem_ aktualisieren, da Sie Touchpoints für alle Kampagnenmitglieder aktivieren.
 
-![ 3](assets/2-3.png)
+![&#x200B; 3](assets/2-3.png)
 
 ## Erstellen einer Kampagne und Synchronisieren von Käufer-Touchpoints {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
 Um eine Kampagne in [!DNL Salesforce] zu erstellen, gehen Sie zur Registerkarte [!UICONTROL Kampagnen] und wählen Sie [!UICONTROL Neu] aus, wie in der Abbildung unten dargestellt. Abhängig von Ihrer [!DNL Salesforce] müssen Sie möglicherweise Kampagnen in der oberen Leiste hinzufügen, indem Sie auf das Pluszeichen (+) klicken.
 
-![ 3](assets/3-3.png)
+![&#x200B; 3](assets/3-3.png)
 
 Wenn Sie diese Kampagne erstellen, klicken Sie auf das Feld [!UICONTROL Kunden-Touchpoints aktivieren] und wählen Sie eine der folgenden Optionen aus der Auswahlliste aus:
 
-![ 3](assets/4-3.png)
+![&#x200B; 3](assets/4-3.png)
 
 * **Alle Kampagnenmitglieder einbeziehen**
    * Diese Option ermöglicht es [!DNL Marketo Measure], jedem Kampagnenmitglied einen Touchpoint zuzuordnen.

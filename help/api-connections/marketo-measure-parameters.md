@@ -41,10 +41,10 @@ Beispiel einer URL mit [!DNL Marketo Measure]-Parametern:
    * Die drei Übereinstimmungstypen sind: breit, unscharf und exakt.
 
 >[!TIP]
->Weitere Informationen zu Übereinstimmungstypen finden [ in einem entsprechenden AdWords-Artikel](https://support.google.com/adwords/answer/2497836?hl=de){target="_blank"}.
+>Weitere Informationen zu Übereinstimmungstypen finden [&#x200B; in einem entsprechenden AdWords-Artikel](https://support.google.com/adwords/answer/2497836?hl=de){target="_blank"}.
 
 * `_bn={network}`
-   * Stellt den Anzeigennetzwerktyp (Anzeige [ Suche) ](https://support.google.com/adwords/answer/1752334?hl=de){target="_blank"}.
+   * Stellt den Anzeigennetzwerktyp (Anzeige [&#x200B; Suche) &#x200B;](https://support.google.com/adwords/answer/1752334?hl=de){target="_blank"}.
    * Ähnelt dem UTM-Quellparameter.
 
 * `_bg={adgroupID}`

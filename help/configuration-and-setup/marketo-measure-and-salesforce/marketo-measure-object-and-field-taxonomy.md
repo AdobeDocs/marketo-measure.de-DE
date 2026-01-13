@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Nachfolgend finden Sie ein Flussdiagramm, das darstellt, wie [!DNL Marketo Measure] benutzerdefinierten Objekte mit [!DNL Salesforce] Standardobjekten in Beziehung stehen.
 
-![ 2](assets/1-2.png)
+![&#x200B; 2](assets/1-2.png)
 
 Für das Bild in voller Größe [hier klicken](assets/bizible-object-and-field-taxonomy-graph-full.png).
 

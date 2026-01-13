@@ -75,7 +75,7 @@ Diese Einrichtung richtet sich an neue [!DNL Marketo Measure], die Dynamics CRM 
 
    ![Dialogfeld zur Bestätigung des Administratoreinverständnisses mit der Schaltfläche „Akzeptieren“](assets/setup-13b.png)
 
-1. Stellen Sie auf der Registerkarte [!UICONTROL Benutzer und ]&quot; sicher, dass die gültigen „Benutzer und Gruppen“ der Anwendung zugewiesen sind.
+1. Stellen Sie auf der Registerkarte [!UICONTROL Benutzer und &#x200B;]&quot; sicher, dass die gültigen „Benutzer und Gruppen“ der Anwendung zugewiesen sind.
 
    ![Registerkarte „Benutzer und Gruppen“ mit den zugewiesenen Benutzern](assets/setup-14.png)
 

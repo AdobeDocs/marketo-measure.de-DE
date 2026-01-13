@@ -74,4 +74,4 @@ Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine Seite wie d
 
 ![Fehlerseite mit Marketo Measure-Verbindungsproblem](assets/unified-shell-overview-11.png)
 
-Wenn Sie den oben genannten Fehler erhalten, [ Sie den Support ](https://nation.marketo.com/t5/support/ct-p/Support) Hilfe.
+Wenn Sie den oben genannten Fehler erhalten, [&#x200B; Sie den Support &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support) Hilfe.

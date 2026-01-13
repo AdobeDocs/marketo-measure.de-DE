@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Einstellungen {#settings}
 
-Mit dieser Funktion sind zwei separate Funktionsbits verknüpft, die sich auf der Registerkarte [!UICONTROL Allgemeine Einstellungen“ des CRM ]: Mehrere Währungen und Erweiterte Währungen.
+Mit dieser Funktion sind zwei separate Funktionsbits verknüpft, die sich auf der Registerkarte [!UICONTROL Allgemeine Einstellungen“ des CRM &#x200B;]: Mehrere Währungen und Erweiterte Währungen.
 
 **Mehrere Währungen**: Aktiviert, wenn der Kunde mehr als eine Währung verwendet.
 

@@ -39,7 +39,7 @@ Nach der Installation und Konfiguration in Adobe Launch lädt die [!DNL Marketo 
 
    ![Erweiterungskatalogsuche mit Bizible-Erweiterung](assets/marketo-measure-integrations-3.png)
 
-1. Klicken Sie in [!UICONTROL  Kachel ]Bizible Analytics“ auf **[!UICONTROL Installieren]**.
+1. Klicken Sie in [!UICONTROL &#x200B; Kachel &#x200B;]Bizible Analytics“ auf **[!UICONTROL Installieren]**.
 
    ![Bizible Analytics-Erweiterungskachel mit Schaltfläche „Installieren“](assets/marketo-measure-integrations-4.png)
 

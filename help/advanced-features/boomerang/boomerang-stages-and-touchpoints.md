@@ -80,6 +80,6 @@ Die Begrenzung gilt für Data Warehouse und CRMs aufgrund der von [!DNL Marketo 
 
 **F: Was ist der Vorteil der Verwendung von Boomerang-Stadien mit benutzerdefinierter Modellierung?**
 
-Durch die Verwendung [!UICONTROL Boomerang]-Stadien mit benutzerdefinierter Modellierung können Sie den Touchpoints [!UICONTROL Boomerang“ eine Attributionsgewichtung zuweisen, ] diesen Stadien Umsatzgutschriften zuweist.
+Durch die Verwendung [!UICONTROL Boomerang]-Stadien mit benutzerdefinierter Modellierung können Sie den Touchpoints [!UICONTROL Boomerang“ eine Attributionsgewichtung zuweisen, &#x200B;] diesen Stadien Umsatzgutschriften zuweist.
 
 Ohne benutzerdefinierte Modellierung erstellt [!DNL Marketo Measure] Touchpoints für jeden Bumerang und jede Stadienübergabe, weist diesen Touchpoints jedoch keine Attributionszuordnung zu. Die einzigen Boomerang-Touchpoints, die Attributionsgutschriften erhalten, sind aus Submission Touchpoints. Ohne benutzerdefiniertes Modell werden [!DNL Boomerang] Touchpoints als „Middle Touch“ betrachtet und entsprechend angerechnet.

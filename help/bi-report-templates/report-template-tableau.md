@@ -15,7 +15,7 @@ ht-degree: 95%
 
 ## Erste Schritte {#getting-started}
 
-Sie können auf die [!DNL Tableau] Berichtsvorlage ([) ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
+Sie können auf die [!DNL Tableau] Berichtsvorlage ([) &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Öffnen Sie die Tableau-Arbeitsmappen-Datei der [!DNL Adobe Marketo Measure]-Berichtsvorlage.
 
@@ -65,7 +65,7 @@ Dies ist jedoch in folgender Hinsicht falsch: Wenn eine Sitzung gelöscht wurde,
 
 Einige Umwandlungen wurden ausgehend vom ursprünglichen Zustand in Snowflake auf die Daten in [!DNL Tableau] angewendet. Die meisten dieser Umwandlungen werden in den benutzerdefinierten SQL-Abfragen angewendet, die die Tabellen im [!DNL Tableau]-Modell generieren. Klicken Sie mit der rechten Maustaste auf den Tabellennamen und wählen Sie „Benutzerdefinierte SQL-Abfrage bearbeiten“ aus, um die benutzerdefinierte SQL-Abfrage anzuzeigen, die zum Generieren einer Tabelle verwendet wird. Einige der spezifischen Umwandlungen sind nachfolgend beschrieben.
 
-![Kontextmenü mit der Option Benutzerdefinierte SQL-Abfrage bearbeiten ](assets/marketo-measure-report-template-tableau-4.png)
+![Kontextmenü mit der Option Benutzerdefinierte SQL-Abfrage bearbeiten &#x200B;](assets/marketo-measure-report-template-tableau-4.png)
 
 ![Dialogfeld für benutzerdefinierten SQL-Abfrage-Editor in Tableau](assets/marketo-measure-report-template-tableau-5.png)
 

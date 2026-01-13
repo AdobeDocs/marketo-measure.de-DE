@@ -37,7 +37,7 @@ Erfahren Sie mehr über [Marketo Measure Ultimate](/help/marketo-measure-ultimat
 ## Schemata und Datensätze {#schemas-and-datasets}
 
 >[!NOTE]
->Unter [ eines Schemas finden Sie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#building-blocks-of-a-schema){target="_blank"} Übersicht über Schemas, Klassen und Feldergruppen.
+>Unter [&#x200B; eines Schemas finden Sie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#building-blocks-of-a-schema){target="_blank"} Übersicht über Schemas, Klassen und Feldergruppen.
 
 **XDM-Schema = Klasse + Schemafeldgruppe&#42;**
 
@@ -56,7 +56,7 @@ Es wird empfohlen, ein Dienstprogramm zur automatischen Generierung zu verwenden
 
 * Die Schritte zum Herunterladen und Einrichten des Dienstprogramms [finden Sie hier](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=de#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Für diejenigen mit einer _**CDP-Berechtigung**_: Erstellen Sie Schemata, indem Sie zur Seite „Quellen“ navigieren.
+Für diejenigen mit einer _&#x200B;**CDP-Berechtigung**&#x200B;_: Erstellen Sie Schemata, indem Sie zur Seite „Quellen“ navigieren.
 
 * Wählen Sie aus einer Quelle „Daten hinzufügen“ > „Vorlagen verwenden“ aus.
 

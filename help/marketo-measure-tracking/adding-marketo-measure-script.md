@@ -56,7 +56,7 @@ Wenn Sie jedoch separate oder internationale Domains verwenden, sollten Sie Ihre
 
 Wenn Sie Seiten von Drittanbietern verwenden, sprechen Sie mit Ihrem [!DNL Marketo Measure] Consultant über Ihren Anwendungsfall. Im Allgemeinen möchten Sie wissen, ob Sie eine benutzerdefinierte Version [!DNL Marketo Measure] JavaScript hinzufügen können, um diese Seiten ggf. zu verfolgen. Wenn dies nicht möglich ist, wird das Tracking über CRM-Campaign-Touchpoints mit Ihrem [!DNL Marketo Measure]-Berater untersucht.
 
-Haben Sie Formulare, die NICHT von [!DNL Marketo Measure] nachverfolgt werden sollten, da sie für die Attribution nicht unbedingt sinnvoll sind (z. B. Abmeldeformulare, Kundenanmeldungen usw.)? In diesem Fall sollten Sie den Ausschlusscode ([ diesem Artikel) ](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} Formular hinzufügen
+Haben Sie Formulare, die NICHT von [!DNL Marketo Measure] nachverfolgt werden sollten, da sie für die Attribution nicht unbedingt sinnvoll sind (z. B. Abmeldeformulare, Kundenanmeldungen usw.)? In diesem Fall sollten Sie den Ausschlusscode ([&#x200B; diesem Artikel) &#x200B;](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} Formular hinzufügen
 
 Verfügen Sie über Seiten, die nicht sicher sind? Sie sollten sie schützen, da die Navigation zwischen einer sicheren/nicht sicheren Seite die Tracking-Sitzung unterbricht.
 
