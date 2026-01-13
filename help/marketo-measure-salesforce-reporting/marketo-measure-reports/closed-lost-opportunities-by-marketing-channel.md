@@ -46,4 +46,4 @@ Obwohl dieser Bericht von Ihren Opportunity-Stadien abhängen kann, wird in dies
    Dies ist ein Bericht zu Opportunitys, der vom Marketing-Kanal zusammengefasst wird, um die abgeschlossenen verlorenen Opportunitys kanalübergreifend zu messen. In diesem Bericht können Sie nachvollziehen, welche Kanäle möglicherweise nicht die gewünschte Leistung erbringen. Sie können beliebige Filter oder Felder hinzufügen, über die Sie einen Bericht erstellen möchten.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Tutorials: Zusätzliche SFDC-Berichte](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutorials: Zusätzliche SFDC-Berichte](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

@@ -33,4 +33,4 @@ Dieser Bericht zeigt jedoch die Anzahl der Touchpoints im Zusammenhang mit James
 Wenn Sie die „Anzahl der Kontakte“ verstehen möchten, können Sie die Felder „Anzahl - Erstkontakt“, „Kontakt zur Lead-Erstellung zählen“ oder „U-förmig zählen“ verwenden, um zu verstehen, wie viele Kontakte Marketing-Interaktionen hatten.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Tutorials: Stock-SFDC-Berichte](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Stock-SFDC-Berichte](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
