@@ -72,7 +72,7 @@ Richten Sie die Einstellungen für die Benutzerattribute ein und ordnen Sie sie 
     
     b. Hinweis: Wenn Sie Ihre SAML-Konfiguration jetzt testen, analysieren wir die Attribute „E-Mail“, „Vorname“ und „Nachname“, die Sie für diesen Abschnitt verwenden können.
 
-![ B. Hinweis: Wenn Sie Ihre SAML-Konfiguration jetzt testen, werden wir sie analysieren](assets/discover-control-1.png)
+![&#x200B; B. Hinweis: Wenn Sie Ihre SAML-Konfiguration jetzt testen, werden wir sie analysieren](assets/discover-control-1.png)
 
 Richten Sie Ihre Benutzerrolleneinstellungen ein und ordnen Sie sie den entsprechenden Rollen oder Gruppen zu, die von Ihrem IdP klassifiziert wurden.
 
@@ -94,7 +94,7 @@ Testen der Single Sign-On-Konfiguration
     
     b. Wenn der Fehler „fehlgeschlagen“ angezeigt wird, folgen Sie der Meldung und versuchen Sie es erneut.
 
-![ B. Wenn der Fehler „Fehler“ angezeigt wird, befolgen Sie die Meldung und versuchen Sie es erneut](assets/discover-control-3.png)
+![&#x200B; B. Wenn der Fehler „Fehler“ angezeigt wird, befolgen Sie die Meldung und versuchen Sie es erneut](assets/discover-control-3.png)
 
 Speichern Sie Ihre Einstellungen und weisen Sie Ihre Kolleginnen und Kollegen an, [!UICONTROL Single Sign-On] mit Ihrer neuen, benutzerdefinierten Anmelde-URL zu verwenden.
 

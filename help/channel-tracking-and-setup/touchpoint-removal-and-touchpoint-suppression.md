@@ -64,7 +64,7 @@ Machen Sie sich keine Sorgen, wenn Sie einen Fehler machen. Sie können auch ein
 
 ![4) Legen Sie bei Bedarf Regeln für die Attributions-Touchpoints des Käufers fest](assets/touchpoint-settings-8.png)
 
-Zum Fertigstellen [!UICONTROL  Sie Ihre Regeln ] und verarbeiten. Wenn Sie viele Änderungen vornehmen, sollten Sie sicherstellen, dass Sie Ihre Änderungen dabei speichern. [!DNL Marketo Measure] werden Ihre Touchpoints erst entfernen, wenn Sie auf klicken
+Zum Fertigstellen [!UICONTROL &#x200B; Sie Ihre Regeln &#x200B;] und verarbeiten. Wenn Sie viele Änderungen vornehmen, sollten Sie sicherstellen, dass Sie Ihre Änderungen dabei speichern. [!DNL Marketo Measure] werden Ihre Touchpoints erst entfernen, wenn Sie auf klicken
 [!UICONTROL **Speichern und Verarbeiten**].
 
 | **Operator** | **Anwendungsfall** |

@@ -30,6 +30,6 @@ Wenn Ihre SFDC-Organisation mehrere Kampagnendatensatztypen verwendet, müssen f
 
 1. Fügen Sie alle drei Werte aus der Gruppe „Verfügbare Werte“ zur Gruppe „Ausgewählte Werte“ hinzu.
 
-   ![1. Fügen Sie alle drei Werte aus der Gruppierung „Verfügbare Werte“ zur ](assets/offline-channels-10.jpg)
+   ![1. Fügen Sie alle drei Werte aus der Gruppierung „Verfügbare Werte“ zur &#x200B;](assets/offline-channels-10.jpg)
 
 1. Setzen Sie den Standardwert auf „Keine“ und klicken Sie auf **[!UICONTROL Speichern]**. Wiederholen Sie diesen Vorgang für alle weiteren Kampagnendatensatztypen.

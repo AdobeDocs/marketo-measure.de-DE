@@ -20,7 +20,7 @@ Die [!DNL Marketo Measure] Insights Canvas-App sollte zum Lead-Seiten-Layout hin
 
 1. Ändern Sie im Abschnitt [!UICONTROL OAuth]-Richtlinien die Einstellung Zulässige Benutzer in „Admin-genehmigte Benutzer sind vorautorisiert“. Ein Popup wird angezeigt, klicken Sie auf **[!UICONTROL OK]** und dann auf **[!UICONTROL Speichern]**.
 
-   ![1. Ändern Sie im Abschnitt OAuth-Richtlinien die Einstellung Zulässige Benutzer ](assets/marketo-app-1.png)
+   ![1. Ändern Sie im Abschnitt OAuth-Richtlinien die Einstellung Zulässige Benutzer &#x200B;](assets/marketo-app-1.png)
 
 1. Nachdem die Seite gespeichert wurde, können Sie auf die Schaltfläche **[!UICONTROL Profile verwalten]** klicken.
 

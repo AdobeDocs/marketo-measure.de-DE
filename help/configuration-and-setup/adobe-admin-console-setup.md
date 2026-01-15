@@ -32,7 +32,7 @@ Beim Zugriff auf die Adobe Admin Console sehen Sie Ihre [!DNL Marketo Measure]-P
 
 Mit einem Klick auf die Produktkarte von [!DNL Marketo Measure] werden Ihnen alle Ihre [!DNL Marketo Measure]-Instanzen angezeigt. Standardmäßig hat jede Instanz von [!DNL Marketo Measure] ihr eigenes Profil mit dem Präfix „[!DNL Marketo Measure]“. Alle Admins oder Benutzenden, die diesem oder einem anderen Profil in dieser Instanz hinzugefügt wurden, können sich bei [!DNL Marketo Measure] anmelden.
 
-![Wenn Sie auf die Marketo Measure-Produktkarte klicken, werden alle Ihre ](assets/adobe-setup-2.png)
+![Wenn Sie auf die Marketo Measure-Produktkarte klicken, werden alle Ihre &#x200B;](assets/adobe-setup-2.png)
 
 Es ist keine Aktion erforderlich, um ein Profil innerhalb der [!DNL Marketo Measure]-Produktinstanz(en) zu erstellen.
 
@@ -55,6 +55,6 @@ Wenn Sie eine Person zu der jeweiligen Gruppe hinzufügen, sehen Sie ihren [Iden
 
 **Anmelden bei[!DNL Marketo Measure]**
 
-Nachdem ein(e) Benutzende(r) einem Produktprofil hinzugefügt wurde, kann er/sie auf seine/ihre [!DNL Marketo Measure]-Instanzen zugreifen, indem er/sie die Option **Mit Adobe ID anmelden** unter [experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}.
+Nachdem ein(e) Benutzende(r) einem Produktprofil hinzugefügt wurde, kann er/sie auf seine/ihre [!DNL Marketo Measure]-Instanzen zugreifen, indem er/sie die Option **Mit Adobe ID anmelden** unter [experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 ![Nachdem ein Benutzer zu einem Produktprofil hinzugefügt wurde, kann er](assets/adobe-setup-3.png)

@@ -28,7 +28,7 @@ Jedes [!DNL Marketo Measure] hat Zugriff auf eine Funktion namens [CRM-Kampagnen
 
 Wenn diese Funktion aktiviert ist, werden automatisch Ausgaben aus jeder CRM-Kampagne/-Programm abgerufen, die die folgenden Kriterien erfüllt:
 
-i. [!DNL Marketo Measure] prüft zunächst, ob die Kampagne/das Programm Touchpoints erstellt, entweder anhand einer entsprechenden erstellten [Kampagnensynchronisierungsregel](/help/channel-tracking-and-setup/custom-campaign-sync.md) oder anhand einer [ erstellten Programmsynchronisierungsregel](/help/marketo-engage-programs-integration.md) oder [Wert „Käufer-Touchpoints aktivieren](/help/channel-tracking-and-setup/syncing-offline-campaigns.md) ist „Alle Kampagnenmitglieder einschließen“ oder „Responded“-Kampagnenmitglieder einschließen.“
+i. [!DNL Marketo Measure] prüft zunächst, ob die Kampagne/das Programm Touchpoints erstellt, entweder anhand einer entsprechenden erstellten [Kampagnensynchronisierungsregel](/help/channel-tracking-and-setup/custom-campaign-sync.md) oder anhand einer [&#x200B; erstellten Programmsynchronisierungsregel](/help/marketo-engage-programs-integration.md) oder [Wert „Käufer-Touchpoints aktivieren](/help/channel-tracking-and-setup/syncing-offline-campaigns.md) ist „Alle Kampagnenmitglieder einschließen“ oder „Responded“-Kampagnenmitglieder einschließen.“
 
 II. Für die Kampagne/das Programm muss ein Startdatum angegeben werden
 

@@ -14,7 +14,7 @@ ht-degree: 93%
 
 ## Erste Schritte {#getting-started}
 
-Sie können auf die [!DNL Tableau] Berichtsvorlage ([) ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
+Sie können auf die [!DNL Tableau] Berichtsvorlage ([) &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Öffnen Sie die Tableau-Arbeitsmappen-Datei der [!DNL Adobe Marketo Measure]-Berichtsvorlage.
 

@@ -51,7 +51,7 @@ Ziel: Verwenden des Werts eines benutzerdefinierten Felds und Ablegen im Touchpo
    * **)** markiert das Ende der Extraktion
    * **.&#42;** sagt uns, dass wir die vollständige Zeichenfolge extrahieren
 
-![.&amp;42; gibt an, dass die vollständige Zeichenfolge extrahiert wird](assets/touchpoint-fields-10.png)
+![.&42; gibt an, dass die vollständige Zeichenfolge extrahiert wird](assets/touchpoint-fields-10.png)
 
 **Beispiel #2**
 
@@ -156,7 +156,7 @@ Nachdem wir nun gelernt haben, wie man Felder extrahiert und ihnen zuordnet, kom
 * Als Nächstes möchten wir alle möglichen Werte für die ersten Ziffern seinen Anzeigenamen zuordnen
 * Erstellen Sie ein berechnetes Feld und beschriften Sie es mit „Region_Name“
 * Definieren Sie die Regel, indem Sie mit der Suche nach dem extrahierten Feld beginnen. In diesem Fall [!DNL Touchpoint.Region]
-* Verwenden Sie den Operator [!UICONTROL zu“, ] eine Zuordnung für jede Zahl zu ihrem Wert erstellen möchten
+* Verwenden Sie den Operator [!UICONTROL zu“, &#x200B;] eine Zuordnung für jede Zahl zu ihrem Wert erstellen möchten
 * Es wird eine Tabelle angezeigt, in der die einzelnen Zuordnungen aufgelistet werden. Am Ende wird er ungefähr so aussehen:
 * Basierend auf der Zuordnung und der obigen URL würde der „Region_Wert“ für einen Touchpoint mit dieser Landingpage „EMEA“ lauten
 * Wiederholen Sie die Extraktion und die Zuordnung für die verbleibenden 4 Ziffernsätze

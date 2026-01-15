@@ -76,7 +76,7 @@ Wenn keine Regeln für Leads/Kontakte und Opportunities eingerichtet sind, wird 
 
 Wenn Sie fertig sind, klicken Sie zuerst auf [!UICONTROL Speichern], überprüfen Sie alles und klicken Sie dann auf [!UICONTROL Speichern und verarbeiten]. Beachten Sie, dass Sie Ihre Einstellungen nach dem Speichern und Verarbeiten sieben Tage lang nicht bearbeiten können, da [!DNL Marketo Measure] Ihre Daten während dieser Zeit neu formatiert.
 
-Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr standardmäßiges Dashboard-Objekt als Kontakt festgelegt haben, verwenden Sie nicht die beiden folgenden Lead-spezifischen Felder ([ mehr dazu](/help/data-integrity-requirement.md){target="_blank"}).
+Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr standardmäßiges Dashboard-Objekt als Kontakt festgelegt haben, verwenden Sie nicht die beiden folgenden Lead-spezifischen Felder ([&#x200B; mehr dazu](/help/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

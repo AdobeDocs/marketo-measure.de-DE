@@ -98,7 +98,7 @@ Die MQL-, SQL- und SAL-Touches von Lead 3 erfolgen alle gleichzeitig nach der OC
 
 In diesem Szenario hat sich ein Kunde dafür entschieden, die **MQL**, **SQL** und **SAL** mit Boomerang-Touchpoints zu verfolgen. Dieses Szenario ist mit wenigen Ausnahmen fast identisch mit dem oben beschriebenen.
 
-![In diesem Szenario hat sich ein Kunde dafür entschieden, MQL, SQL ](assets/boomerang-stages-23.png)
+![In diesem Szenario hat sich ein Kunde dafür entschieden, MQL, SQL &#x200B;](assets/boomerang-stages-23.png)
 
 Alle Touchpoints von Lead 1 werden bei der Opportunity berücksichtigt, von FT bis SAL-01 (Letzte). Der LC-Touchpoint von Lead 2 wird als Formular-Touchpoint zwischen dem LC und den MQL-01-Touchpoints auf der Opportunity eingefügt.
 
@@ -114,7 +114,7 @@ Die MQL-, SQL-, SQL-Touches von Lead 3 sind als Touchpoint enthalten, da es sich
 
 In diesem Szenario hat sich ein Kunde dafür entschieden, die **MQL**, **SQL** und **SAL** mit Boomerang-Touchpoints zu verfolgen.
 
-![In diesem Szenario hat sich ein Kunde dafür entschieden, MQL, SQL ](assets/boomerang-stages-25.png)
+![In diesem Szenario hat sich ein Kunde dafür entschieden, MQL, SQL &#x200B;](assets/boomerang-stages-25.png)
 
 Die FT- und LC-Touchpoints für die Opportunity stammen aus Lead 1 (blau), da sie vor dem FT und LC von Lead 2 (rosa) stattfanden. Der LC-Touchpoint für Lead 2 erscheint als „Formular“-Touchpoint auf der Opportunity.
 

@@ -31,7 +31,7 @@ Unabhängig davon, ob Sie Ihr Staging-Mapping zum ersten Mal bewerten oder nur I
    * Ein boolesches Feld ist die Best-Practice-Empfehlung
 * Beachten Sie, dass der Abschnitt Lead- oder Kontaktphase in Verloren, Offen und Konvertiert unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden
    * Eine Stufe im falschen Abschnitt der Stufe kann zu stark falschen [!DNL Marketo Measure] führen
-   * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr standardmäßiges Dashboard-Objekt als Kontakt festgelegt haben, verwenden Sie nicht die beiden folgenden Lead-spezifischen Felder ([ mehr dazu](/help/data-integrity-requirement.md){target="_blank"}).
+   * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr standardmäßiges Dashboard-Objekt als Kontakt festgelegt haben, verwenden Sie nicht die beiden folgenden Lead-spezifischen Felder ([&#x200B; mehr dazu](/help/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Beachten Sie, dass der Abschnitt „Opportunity-Phase“ in „Verloren“, „Offen“ und „Gewonnen“ unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden

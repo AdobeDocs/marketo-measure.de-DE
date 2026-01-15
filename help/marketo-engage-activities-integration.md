@@ -35,7 +35,7 @@ Im Rahmen der allgemeinen [!DNL Marketo Measure]- und [!DNL Marketo Engage]-Inte
 
 1. Klicken Sie auf das Dropdown-Menü unter [!UICONTROL Aktivitätstypen auswählen], um mit der Auswahl der verschiedenen Typen zu beginnen.
 
-   ![1. Klicken Sie zum Starten auf das Dropdown-Menü unter Aktivitätstypen auswählen ](assets/marketo-engage-activities-03.png)
+   ![1. Klicken Sie zum Starten auf das Dropdown-Menü unter Aktivitätstypen auswählen &#x200B;](assets/marketo-engage-activities-03.png)
 
 1. Wenn alle erforderlichen Aktivitäten ausgewählt sind, werden sie in Ihrer [!UICONTROL Liste der ausgewählten Aktivitäten] und unter [!UICONTROL Regeln definieren] angezeigt.
 
@@ -63,11 +63,11 @@ Im Rahmen der allgemeinen [!DNL Marketo Measure]- und [!DNL Marketo Engage]-Inte
 
 1. Klicken Sie auf **[!UICONTROL Als Entwurf speichern]**, damit Ihre Änderungen nicht verloren gehen.
 
-   ![1. Klicken Sie stets auf Als Entwurf speichern ](assets/marketo-engage-activities-09.png)
+   ![1. Klicken Sie stets auf Als Entwurf speichern &#x200B;](assets/marketo-engage-activities-09.png)
 
 1. Navigieren Sie zur Registerkarte **[!UICONTROL Attributzuordnung]** .
 
-   ![1. Navigieren Sie zur Registerkarte Attributzuordnung ](assets/marketo-engage-activities-10.png)
+   ![1. Navigieren Sie zur Registerkarte Attributzuordnung &#x200B;](assets/marketo-engage-activities-10.png)
 
 1. Für jeden ausgewählten Aktivitätstyp haben Sie die Möglichkeit, zusätzliche Marketo-Attribute Touchpoint-Feldern zuzuordnen, damit Sie diese Werte in [!DNL Marketo Measure Discover] oder im CRM anzeigen und darüber berichten können.
 

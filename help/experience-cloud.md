@@ -40,7 +40,7 @@ Neben dem aktualisierten Look-and-Feel sind die folgenden Funktionen zu beachten
 
 Suchen Sie in der [!DNL Marketo Measure]-Anwendung nach Support-Artikeln, reichen Sie Tickets ein und geben Sie Feedback.
 
-![Suche nach Support-Artikeln, Einreichen von Tickets, Bereitstellen von Feedback - alles von innerhalb der ](assets/unified-overview-5.png)
+![Suche nach Support-Artikeln, Einreichen von Tickets, Bereitstellen von Feedback - alles von innerhalb der &#x200B;](assets/unified-overview-5.png)
 
 **Programmumschalter**
 
@@ -74,4 +74,4 @@ Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine Seite wie d
 
 ![Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine](assets/unified-overview-7.png)
 
-Wenn Sie den oben genannten Fehler erhalten, [ Sie den Support ](https://nation.marketo.com/t5/support/ct-p/Support) Hilfe.
+Wenn Sie den oben genannten Fehler erhalten, [&#x200B; Sie den Support &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support) Hilfe.

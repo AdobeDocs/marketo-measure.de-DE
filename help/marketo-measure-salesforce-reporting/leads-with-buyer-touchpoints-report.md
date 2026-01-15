@@ -28,7 +28,7 @@ Standardmäßig stehen Ihnen viele Reporting-Funktionen zur Verfügung, wenn es 
 
 1. Legen Sie das primäre Objekt als „Leads“ fest und geben Sie in der Eingabe „Berichtstypbezeichnung“ „Leads mit Käufer-Touchpoints - Einschließlich“ ein. Speichern Sie den Bericht in der Kategorie „Leads“ und ändern Sie den Bereitstellungsstatus in **[!UICONTROL bereitgestellt]**. Wählen Sie dann **[!UICONTROL Weiter]** aus.
 
-   ![1. Legen Sie das primäre Objekt als „Leads“ und innerhalb des „Berichtstyps“ ](assets/marketo-reports-18.jpg)
+   ![1. Legen Sie das primäre Objekt als „Leads“ und innerhalb des „Berichtstyps“ &#x200B;](assets/marketo-reports-18.jpg)
 
 1. Wählen Sie für die Objektbeziehungen das Objekt **[!DNL Marketo Measure]Personen** als sekundäres Objekt aus. Wählen Sie die Beziehung A zu B als „Jeder Datensatz &#39;A&#39; muss mindestens einen zugehörigen Datensatz &#39;B&#39; haben.“ Dort verknüpfen Sie das Objekt &quot;Buyer Touchpoint&quot; und wählen Sie dieselbe Beziehung zwischen den Objekten B und C aus.
 

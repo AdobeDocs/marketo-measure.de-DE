@@ -60,7 +60,7 @@ Es gibt zwei Tracking-Vorlagen, deren Verwendung [!DNL Marketo Measure] empfiehl
 
 1. Klicken Sie auf **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Einstellungen]** im sich erweiternden Fenster.
 
-   ![1. Klicken Sie auf Alle Kampagnen und dann auf Einstellungen im sich erweiternden ](assets/utilizing-connections-13.png)
+   ![1. Klicken Sie auf Alle Kampagnen und dann auf Einstellungen im sich erweiternden &#x200B;](assets/utilizing-connections-13.png)
 
 1. Klicken Sie **[!UICONTROL oben auf]** Kontoeinstellungen“ und dann **[!UICONTROL Tracking-Vorlage]**. Geben Sie die [!DNL Marketo Measure] Tracking-Vorlage ein.
 
@@ -72,7 +72,7 @@ Es gibt zwei Tracking-Vorlagen, deren Verwendung [!DNL Marketo Measure] empfiehl
 
 1. Klicken Sie **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Kampagnen]** im sich erweiternden Fenster.
 
-   ![1. Klicken Sie auf Alle Kampagnen und dann auf Kampagnen in der erweiternden ](assets/utilizing-connections-12.png)
+   ![1. Klicken Sie auf Alle Kampagnen und dann auf Kampagnen in der erweiternden &#x200B;](assets/utilizing-connections-12.png)
 
 1. Wählen Sie alle entsprechenden Kampagnen oder **[!UICONTROL Alle auswählen]**, klicken Sie auf **[!UICONTROL Bearbeiten]** und klicken Sie dann auf **[!UICONTROL Tracking-Vorlagen ändern]**.
 

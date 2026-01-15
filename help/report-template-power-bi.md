@@ -14,7 +14,7 @@ ht-degree: 93%
 
 ## Erste Schritte {#getting-started}
 
-Sie können auf die Power BI-Berichtsvorlage ([) ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
+Sie können auf die Power BI-Berichtsvorlage ([) &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Öffnen Sie die Power BI-Datei der Adobe [!DNL Marketo Measure]-Berichtsvorlage.
 

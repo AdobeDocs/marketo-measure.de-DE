@@ -24,13 +24,13 @@ Obwohl dieser Bericht von Ihren Opportunity-Stadien abhängen kann, wird in dies
 
 1. Zeigen Sie am Anfang des Berichts &quot;[!UICONTROL Alle Bizible Attribution Touchpoints]&quot; an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von Tabellenformat zu Zusammenfassung.
 
-   ![1. Beginnend mit dem Anfang des Berichts „Alle Bizible“ ](assets/marketo-reports-8.jpg)
+   ![1. Beginnend mit dem Anfang des Berichts „Alle Bizible“ &#x200B;](assets/marketo-reports-8.jpg)
 
-   ![1. Beginnend mit dem Anfang des Berichts „Alle Bizible“ ](assets/bizible-guide-3.png)
+   ![1. Beginnend mit dem Anfang des Berichts „Alle Bizible“ &#x200B;](assets/bizible-guide-3.png)
 
 1. Jetzt fügen wir dem Bericht Felder hinzu. Geben Sie in der Schnellsuche auf der linken Seite „Marketing-Kanal“ ein und fügen Sie ihn zur Gruppierung „Zusammenfassung“ im Bericht hinzu.
 
-   ![1. Jetzt fügen wir dem Bericht Felder hinzu. Im ](assets/bizible-guide-4.png)
+   ![1. Jetzt fügen wir dem Bericht Felder hinzu. Im &#x200B;](assets/bizible-guide-4.png)
 
 1. Als Nächstes fügen wir einen Filter hinzu, um nur abgeschlossene verlorene Opportunities zu betrachten. Suchen Sie in der Schnellsuche auf der linken Seite nach dem Feld „Staging“ und ziehen Sie es in den Filterbereich.
 

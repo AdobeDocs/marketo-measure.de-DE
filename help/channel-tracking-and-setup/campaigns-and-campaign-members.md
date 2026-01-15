@@ -23,7 +23,7 @@ ht-degree: 87%
 
 Das Paket [!DNL Marketo Measure] [!DNL Salesforce] enthält ein Feld mit der Bezeichnung „Buyer Touchpoints aktivieren“ für das Kampagnenobjekt. Nachdem das Feld zum Seiten-Layout hinzugefügt wurde, sieht es in etwa so aus:
 
-![Das Marketo Measure Salesforce-Paket enthält ein Feld mit der Bezeichnung ](assets/dynamics-lists-1.png)
+![Das Marketo Measure Salesforce-Paket enthält ein Feld mit der Bezeichnung &#x200B;](assets/dynamics-lists-1.png)
 
 Die in der Auswahlliste verfügbaren Optionen sind:
 
@@ -59,7 +59,7 @@ Kampagnenmitglieder sind unter [!UICONTROL Kampagnen] verschachtelt und beziehen
 
 Wenn diese Funktion aktiviert ist, wird [!DNL Marketo Measure] dem Kampagnenmitglied einen Statuswert in 4 verschiedenen Feldern zuweisen, die im installierten Paket enthalten sind: Touchpoint-Status (Lead), Touchpoint-Status (Kontakt), Touchpoint-Status (Opportunity) und Touchpoint-Statusdatum. So können Kundinnen und Kunden überprüfen, ob ein Touchpoint als Buyer Touchpoint oder Buyer Attribution Touchpoint erstellt wurde, je nachdem, auf welches Objekt er sich bezieht. Das Touchpoint-Statusdatum ist einfach das letzte Datum, an dem der Status des Kampagnenmitglieds aktualisiert wurde.
 
-![Wenn diese Option aktiviert ist, überträgt Marketo Measure einen Statuswert auf die ](assets/dynamics-lists-3.png)
+![Wenn diese Option aktiviert ist, überträgt Marketo Measure einen Statuswert auf die &#x200B;](assets/dynamics-lists-3.png)
 
 ## Buyer-Touchpoint-Datum {#buyer-touchpoint-date}
 
@@ -67,7 +67,7 @@ Mit der Installation des Pakets enthält [!DNL Marketo Measure] auch ein Feld au
 
 Dies könnte erforderlich sein, wenn eine Liste Tage/Wochen/Monate nach dem tatsächlichen Eintreten eines Ereignisses hochgeladen wurde. Es gibt Möglichkeiten, alle Einträge gleichzeitig zu aktualisieren, wie nachfolgend beschrieben.
 
-![Dies kann erforderlich sein, wenn eine Liste Tage/Wochen/Monate nach einem ](assets/dynamics-lists-4.png) hochgeladen wurde
+![Dies kann erforderlich sein, wenn eine Liste Tage/Wochen/Monate nach einem &#x200B;](assets/dynamics-lists-4.png) hochgeladen wurde
 
 Um zu wissen, ob Sie das Buyer-Touchpoint-Datum verwenden müssen oder nicht, sehen Sie hier, wie die Daten von [!DNL Marketo Measure] abhängig vom [!UICONTROL Synchronisationstyp], der für die Kampagne ausgewählt wurde, bestimmt werden.
 

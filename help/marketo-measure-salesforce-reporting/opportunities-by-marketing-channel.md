@@ -20,13 +20,13 @@ Dieser Bericht zeigt die Anzahl der von Ihren Marketing-Kanälen generierten Opp
 
    ![1. Geben Sie in der Schnellsuche in „Bizible Attribution“ Folgendes ein](assets/bizible-guide-1.png)
 
-1. Zeigen Sie oben im Bericht &quot;**[!UICONTROL Attribution-Touchpoints von Bizible]** an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von &quot;[!UICONTROL &quot; ] &quot;**[!UICONTROL &quot;]**.
+1. Zeigen Sie oben im Bericht &quot;**[!UICONTROL Attribution-Touchpoints von Bizible]** an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von &quot;[!UICONTROL &quot; &#x200B;] &quot;**[!UICONTROL &quot;]**.
 
    ![1. Beginnend mit dem Anfang des Berichts, Alle Bizible anzeigen](assets/bizible-guide-2.png)
 
 1. Jetzt fügen wir dem Bericht Felder hinzu. Geben Sie in der Schnellsuche auf der linken Seite „Marketing-Kanal“ ein und fügen Sie ihn zur Gruppierung „Zusammenfassung“ im Bericht hinzu.
 
-   ![1. Jetzt fügen wir dem Bericht Felder hinzu. Im ](assets/marketo-reports-10.jpg)
+   ![1. Jetzt fügen wir dem Bericht Felder hinzu. Im &#x200B;](assets/marketo-reports-10.jpg)
 
 1. Führen Sie nun den Bericht aus und analysieren Sie!
 

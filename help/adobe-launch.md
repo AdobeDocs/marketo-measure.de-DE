@@ -40,7 +40,7 @@ Nach der Installation und Konfiguration in Adobe Launch lädt die [!DNL Marketo 
 
    ![1. Klicken Sie auf die Registerkarte Katalog und suchen Sie nach „Bizible“](assets/marketo-launch-10.png)
 
-1. Klicken Sie in [!UICONTROL  Kachel ]Bizible Analytics“ auf **[!UICONTROL Installieren]**.
+1. Klicken Sie in [!UICONTROL &#x200B; Kachel &#x200B;]Bizible Analytics“ auf **[!UICONTROL Installieren]**.
 
    ![1. Klicken Sie in der Kachel „Bizible Analytics“ auf Installieren.](assets/marketo-launch-7.png)
 

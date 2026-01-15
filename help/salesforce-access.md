@@ -36,5 +36,5 @@ Je nach Unternehmen befindet sich die [!UICONTROL Setup]-Schaltfläche entweder 
 
 1. Klicken Sie auf Ihren Avatar oben rechts im Bildschirm und wählen Sie **[!UICONTROL Einstellungen]**.
 1. Klicken Sie **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
-1. Legen Sie das Ablaufdatum des Zugriffs für &quot;[!UICONTROL Marketo Measure-Support“ ]. Für die technische Fehlerbehebung empfehlen wir, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche zu gewähren.
+1. Legen Sie das Ablaufdatum des Zugriffs für &quot;[!UICONTROL Marketo Measure-Support“ &#x200B;]. Für die technische Fehlerbehebung empfehlen wir, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche zu gewähren.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
