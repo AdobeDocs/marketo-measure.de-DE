@@ -16,7 +16,7 @@ So richten Sie Ihre Verbindung mit Marketo ein.
 
 >[!PREREQUISITES]
 >
->[Nur API-Benutzerrolle erstellen](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) für die Verbindung [!DNL Marketo Measure]/Marketo Engage.
+>[Nur API-Benutzerrolle erstellen](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=de) für die Verbindung [!DNL Marketo Measure]/Marketo Engage.
 
 1. Klicken Sie [!DNL Marketo Measure] auf die Dropdown **[!UICONTROL Liste Mein Konto]** und wählen Sie **[!UICONTROL Einstellungen]**.
 

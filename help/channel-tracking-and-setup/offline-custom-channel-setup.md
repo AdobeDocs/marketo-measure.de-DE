@@ -85,6 +85,6 @@ Klicken Sie **[!UICONTROL Speichern]** wenn Sie fertig sind. [!DNL Marketo Measu
 >
 >* [[!DNL Marketo Measure] Tutorials: Zuordnen von Offline-Kanälen](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Tutorials: Synchronisieren von Offline-Kampagnen](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure] Tutorials: Synchronisieren von Offline-Kampagnen](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
 >* [Integration von Marketo Engage-Programmen](/help/marketo-engage-programs-integration.md){target="_blank"}
