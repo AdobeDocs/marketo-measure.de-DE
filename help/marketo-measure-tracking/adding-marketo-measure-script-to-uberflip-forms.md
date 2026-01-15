@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Wenn Sie [!DNL Uberflip] derzeit zur Verwaltung Ihrer Inhalte verwenden, ist es wichtig, dass Sie diese erforderlichen Schritte ausführen, um sicherzustellen, dass [!DNL Marketo Measure] diese Formularübermittlungen nachverfolgt. Auch Ihr Success Manager bei [!DNL Uberflip] sollte Ihnen dabei behilflich sein können.
 
-1. Fügen Sie dieses Skript zum Abschnitt [!DNL Uberflip]Benutzerdefinierter Code>HTML[!UICONTROL  von ] hinzu.
+1. Fügen Sie dieses Skript zum Abschnitt [!DNL Uberflip]Benutzerdefinierter Code>HTML[!UICONTROL &#x200B; von &#x200B;] hinzu.
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 

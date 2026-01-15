@@ -17,7 +17,7 @@ ht-degree: 7%
 
 1. Melden Sie sich bei Ihrem [!DNL Unbounce] an.
 1. Klicken Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Skript-Manager]** > **[!UICONTROL Skript hinzufügen]**.
-1. Wählen Sie im Popup &quot;[!UICONTROL  Script“ aus ] benennen Sie es &quot;[!DNL Marketo Measure Marketing Analytics]&quot;. Klicken Sie **[!UICONTROL Skriptdetails hinzufügen]**.
+1. Wählen Sie im Popup &quot;[!UICONTROL &#x200B; Script“ aus &#x200B;] benennen Sie es &quot;[!DNL Marketo Measure Marketing Analytics]&quot;. Klicken Sie **[!UICONTROL Skriptdetails hinzufügen]**.
 1. Platzierung im Kopf auswählen. Einbinden des Skripts in die Haupt-Landingpage und das Dialogfeld zur Formularbestätigung. Fügen Sie das unten stehende [!DNL Marketo Measure] in das Feld ein.
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`

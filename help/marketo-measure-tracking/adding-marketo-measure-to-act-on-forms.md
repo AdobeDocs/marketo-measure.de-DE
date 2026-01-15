@@ -15,7 +15,7 @@ ht-degree: 6%
 ## Anleitungen {#directions}
 
 1. Wählen Sie im Formular, das Sie bearbeiten, die **[!UICONTROL Einstellungen]** in der rechten Ecke aus.
-1. Suchen Sie nach einem Bereich mit [!UICONTROL  Bezeichnung „Externe Web-Analyse“.] Hier legen Sie das [!DNL Marketo Measure]-Trackingcode-Snippet ab.
+1. Suchen Sie nach einem Bereich mit [!UICONTROL &#x200B; Bezeichnung „Externe Web-Analyse“.] Hier legen Sie das [!DNL Marketo Measure]-Trackingcode-Snippet ab.
 
 ## JavaScript von [!DNL Marketo Measure]  {#marketo-measure-javascript}
 
