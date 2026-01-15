@@ -1,15 +1,14 @@
 ---
-description: Best Practices für API-Verbindungen – [!DNL Marketo Measure]
+description: Anleitung zu Best Practices für API-Verbindungen für Marketo Measure-Benutzende
 title: Best Practices für API-Verbindungen
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 95%
+source-wordcount: '741'
+ht-degree: 96%
 
 ---
-
 
 # Best Practices für API-Verbindungen {#best-practices-for-api-connections}
 
@@ -40,6 +39,7 @@ Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]
 * Informationen zu Werbeanzeigenkosten für alle aktiven [!DNL Facebook]-Werbeanzeigen herunterzuladen
 
 >[!NOTE]
+>
 >Es gibt keine Tracking-Vorlage für [!DNL Facebook]. Die API basiert auf dem automatisch mit Tags versehenen Parameter (_bf), um die Werbeanzeigendetails zu erfassen.
 
 **AdWords**: Implementieren Sie eine Tracking-Vorlage auf Kontoebene und aktivieren Sie das automatische Tagging
@@ -56,7 +56,6 @@ Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]
 Es besteht kein Risiko, den Werbeanzeigenverlauf bei der Einrichtung Ihrer [!DNL Bing]-API-Verbindung zu verlieren, im Gegensatz zu einigen unserer anderen API-Verbindungen.
 
 Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]-Bing-API in der Lage sein:
-
 * Alle Bing-Werbeanzeigen mit den folgenden Parametern von `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}` automatisch zu taggen
 * Informationen zu Werbeanzeigenkosten für alle aktiven Bing-Werbeanzeigen herunterzuladen
 
@@ -70,6 +69,7 @@ Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]
 * Herunterladen von Informationen zu Werbeanzeigenkosten für alle aktiven und unterstützten [!DNL LinkedIn]-Werbeanzeigen
 
 >[!NOTE]
+>
 >Es gibt keine Tracking-Vorlage für [!DNL LinkedIn], sondern die API verwendet den automatisch mit Tags versehenen Parameter (_bl), um alle möglichen Werbeanzeigendetails zu erfassen.
 
 ## Best Practices für die Wartung {#best-practice-for-maintenance}
@@ -87,10 +87,11 @@ Die Gründe für die Trennung und Neuautorisierung können sein ...
 Wenn Ihr Team eines der oben genannten Szenarien durchlaufen hat, überprüfen Sie Ihre API-Verbindungen in der [!DNL Marketo Measure]-Anwendung, um sicherzustellen, dass sie nicht erneut autorisiert werden müssen.
 
 >[!MORELIKETHIS]
-> [Integrierte Anzeigenplattformen (APIs)](/help/api-connections/integrated-ad-platforms.md)
-> [Auswirkungen der Bid-Management-Tools auf [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
-> [[!DNL Marketo Measure] API-Parameter - Erklärung](/help/api-connections/marketo-measure-parameters.md)
-> [Facebook-API - Übersicht](/help/api-connections/facebook-api.md)
-> [[!DNL LinkedIn] Übersicht über die Integration](/help/api-connections/linkedin-integration.md)
-> [Übersicht über die AdWords-Integration](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
-> [Erneutes Autorisieren von verbundenen API-Konten](/help/api-connections/reauthorizing-connected-accounts.md)
+>
+>* [Integrierte Anzeigenplattformen (APIs)](/help/api-connections/integrated-ad-platforms.md)
+>* [Wie sich Bid-Management-Tools auswirken [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [[!DNL Marketo Measure] API-Parameter – Erklärung](/help/api-connections/marketo-measure-parameters.md)
+>* [Übersicht über die Facebook-API](/help/api-connections/facebook-api.md)
+>* [[!DNL LinkedIn] Integrationsübersicht](/help/api-connections/linkedin-integration.md)
+>* [Übersicht über die AdWords-Integration](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
+>* [Erneutes Autorisieren von verbundenen API-Accounts](/help/api-connections/reauthorizing-connected-accounts.md)

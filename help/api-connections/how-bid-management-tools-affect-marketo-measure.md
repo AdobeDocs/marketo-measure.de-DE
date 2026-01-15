@@ -1,15 +1,14 @@
 ---
-description: Wie sich die Tools zur Angebotsverwaltung auswirken [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: Wie sich Gebotsverwaltungs-Tools auf  [!DNL Marketo Measure]  Anleitung für Marketo Measure-Benutzende auswirken
 title: Auswirkungen der Bid-Management-Tools auf [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
-
 
 # Wie sich Gebotsverwaltungs-Tools auf [!DNL Marketo Measure] auswirken {#how-bid-management-tools-affect-marketo-measure}
 
@@ -31,6 +30,7 @@ Richten Sie eine Tracking-Vorlage wie folgt ein:
       * `{lpurl}&_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
    * Wenn KEINE Ihrer Werbe-URLs ein &quot;?“ aufweist Verwenden Sie in ihnen diese URL:
       * `{lpurl}?_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
+
 
 ## Für [!DNL Bing Ads] Konten {#for-bing-ads-accounts}
 

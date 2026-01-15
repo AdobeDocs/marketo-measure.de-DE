@@ -1,15 +1,14 @@
 ---
-description: Definition von  [!DNL Marketo Measure] -Web-Sitzungen – [!DNL Marketo Measure]
+description: Definition der  [!DNL Marketo Measure] -Websitzungs-Anleitung für Marketo Measure-Benutzer
 title: Definition von  [!DNL Marketo Measure] -Web-Sitzungen
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 98%
+source-wordcount: '568'
+ht-degree: 96%
 
 ---
-
 
 # Definition von [!DNL Marketo Measure]-Web-Sitzungen {#definition-of-marketo-measure-web-sessions}
 
@@ -30,29 +29,13 @@ Wann eine Sitzung endet und eine neue Sitzung beginnt, wird durch verschiedene A
 
 ## Zeitbasierter Ablauf {#time-based-expiration}
 
-### Veraltetes Verhalten {#legacy-behavior}
-
 **Wie lange dauert eine Sitzung?**
 
-[!UICONTROL Marketo Measure]-Sitzungen enden nach 30 Minuten Inaktivität auf der Website. Beispiel:
+[!DNL Marketo Measure]-Sitzungen enden nach 30 Minuten Inaktivität auf der Website. Beispiel:
 
 Wenn Hanna adobe.com/de besucht, beginnt eine Sitzung. Sie erkundet die Website für einige Minuten und geht dann von ihrem Computer weg, lässt aber die Website geöffnet. Nach 30 Minuten Inaktivität endet die Sitzung.
 
-Zurzeit betrachtet [!UICONTROL Marketo Measure] nur die Seitennavigation und Formularübermittlung als Aktivität. Scrollen durch die Web-Seite oder Bewegen des Mauszeigers über ein Element auf der Seite gilt nicht als Aktivität. Wenn Hanna also adobe.com/de besucht, um einen Blogpost zu lesen, und sie dafür eine Stunde braucht, endet ihre Web-Sitzung nach 30 Minuten, selbst wenn sie weiterhin durch den Inhalt auf der Seite scrollt.
-
-### Neues Verhalten {#new-behavior}
-
-Für neue Benutzende ist dies das Standardverhalten.
-
-Bestehende Benutzende können das neue Verhalten übernehmen, indem sie den Umschalter unter **Einstellungen** > **Everytouch-Attribution** > **Sitzungskanal-Übertragung** aktivieren. Nach der Aktivierung kann diese Einstellung nicht mehr rückgängig gemacht werden.
-
-Wenn nach 30 Minuten Inaktivität eine neue Sitzung erstellt wird, wird der Kanal der vorherigen Sitzung übernommen, wenn die neue Sitzung innerhalb von sieben Tagen beginnt. Diese Übertragung gilt nur für Direktbesuche (entweder keine Referrer oder keine internen Referrer). Wenn die Inaktivität sieben Tage überschreitet, wird für den Kanal der neuen Sitzung standardmäßig „Direkt/Sonstige“ eingestellt. Wenn Hanna beispielsweise landingpage.com von Google aus besucht, über 30 Minuten inaktiv ist und innerhalb von sieben Tagen zurückkehrt, behält die neue Sitzung den Google-Kanal bei. Wenn dieselbe Benutzerin die Seite jedoch über einen anderen Kanal erneut besucht, wird der nicht-direkte Kanal vom vorherigen Google-Kanal nicht überschrieben.
-
-Nur der Kanal wird übertragen, mit Ausnahme der Kampagnen- oder Referrer-Details. Dies liegt daran, dass die Kanalklassifizierung von Marketo Measure verarbeitet wird, während andere Datenpunkte separat erfasst werden.
-
-**Social-Media-Anmeldung**
-
-Wenn Besuchende Social-Media-Anmeldungen über Google, Microsoft oder Apple verwenden, wird die Sitzung zu einer fortlaufenden Sitzung zusammengeführt. Wenn Besuchende beispielsweise von LinkedIn aus auf einer Seite landen, eine Social-Media-Anmeldung über Google abschließen und auf eine Danke-Seite gelangen, wird dies alles als eine einzige Sitzung gezählt. Ohne aktivierte Sitzungskanal-Übertragung würde die Social-Media-Anmeldung aufgrund des externen Referrers separate Sitzungen erstellen.
+Zurzeit betrachtet [!DNL Marketo Measure] nur die Seitennavigation und Formularübermittlung als Aktivität. Scrollen durch die Web-Seite oder Bewegen des Mauszeigers über ein Element auf der Seite gilt nicht als Aktivität. Wenn Hanna also adobe.com/de besucht, um einen Blogpost zu lesen, und sie dafür eine Stunde braucht, endet ihre Web-Sitzung nach 30 Minuten, selbst wenn sie weiterhin durch den Inhalt auf der Seite scrollt.
 
 ## Kanalbasierter Ablauf {#channel-based-expiration}
 

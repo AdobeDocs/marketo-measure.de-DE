@@ -1,15 +1,14 @@
 ---
-description: Hinzufügen  [!DNL Marketo Measure]  Skripts zu Sitecore-Seiten - [!DNL Marketo Measure]
+description: Hinzufügen  [!DNL Marketo Measure]  Skripts zu Sitecore-Seiten für Marketo Measure-Benutzer
 title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes für Sitecore-Seiten
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---
-
 
 # Hinzufügen [!DNL Marketo Measure] Skripts zu Sitecore-Seiten {#adding-marketo-measure-script-to-sitecore-pages}
 
