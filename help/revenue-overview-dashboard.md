@@ -1,0 +1,65 @@
+---
+description: Fasst das Dashboard „Umsatzübersicht“ zusammen und zeigt die Gesamtzahl und die zugewiesenen Einnahmen und Abschlüsse im Zeitverlauf an.
+title: Dashboard „Umsatzübersicht“
+feature: Reporting
+exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 2%
+
+---
+
+# Dashboard „Umsatzübersicht“ {#revenue-overview-dashboard}
+
+Das Dashboard „Umsatzübersicht“ bietet Einblicke in den Gesamtumsatz Ihres CRM und beleuchtet die Rolle Ihrer Marketing-Strategien. Es bietet einen Überblick darüber, wie das Marketing Ihren Gesamtumsatz beeinflusst und zum erfolgreichen Abschluss von Angeboten beiträgt.
+
+**Fragen, die das Board beantwortet:**
+
+* Welcher Prozentsatz unseres Umsatzes ist auf unsere Marketingbemühungen zurückzuführen?
+* Welche % unserer „Closed Won“-Angebote wurden durch unsere Marketing-Maßnahmen beeinflusst?
+
+## Dashboard-Komponenten {#dashboard-components}
+
+### KPI-Kacheln {#kpi-tiles}
+
+* **Gesamtumsatz**: Der Gesamtumsatz aus abgeschlossenen gewonnenen Vertriebschancen, einschließlich Vertriebschancen ohne Touchpoints.
+* **Abschlüsse insgesamt**: Die Anzahl der „abgeschlossenen gewonnenen“ Opportunitys, einschließlich Opportunitys ohne Touchpoints.
+* **Attributierter Umsatz**: Der Gesamtumsatz von Opportunitys mit „Abgeschlossenen Gewinnen“ mit Touchpoints.
+* **Zugewiesene Angebote**: Die Anzahl der Opportunitys mit „abgeschlossenen Gewinnen“, die Touchpoints haben.
+
+### Diagramm Umsatz und zugewiesener Umsatz {#revenue-and-attributed-revenue-chart}
+
+Dieses Zeitreihen-Balkendiagramm stellt den Gesamtumsatz und den zugeordneten Umsatz gegenüber, indem es die Auswirkungen Ihres Marketings auf den Gesamtumsatz deutlich visualisiert.
+
+* Verwenden Sie die Aufschlüsselungs- und Nach-oben-Funktionen, um die Daten nach Quartal und Jahr zu kategorisieren.
+* Bewegen Sie den Mauszeiger über einen Abschnitt des Balkendiagramms, um dessen detaillierte Informationen anzuzeigen.
+
+**Fragen in der Grafik beantworten:**
+
+* Welcher Prozentsatz unseres Umsatzes vom August 2022 kann auf unsere Marketing-Initiativen zurückgeführt werden?
+* Wie hoch ist der Umsatz im 3. Quartal des letzten Jahres im Vergleich zum 4. Quartal?
+
+![Wie hoch ist der zugeordnete Umsatz im dritten Quartal des letzten Jahres](assets/revenue-dashboard-1.png)
+
+### Attributionsdeckungsdiagramm {#attribution-coverage-chart}
+
+Dieses Tortendiagramm veranschaulicht deutlich die Abdeckung Ihrer Attribution, indem der Gesamtumsatz in „Attributierter Umsatz“ und „Nicht zugewiesener Umsatz“ unterteilt wird und der genaue Prozentsatz des Umsatzes hervorgehoben wird, der durch Ihre Marketing-Maßnahmen beeinflusst wird.
+
+**Fragen in der Grafik beantworten:**
+
+* Wie hoch war der Prozentsatz der Umsatzabdeckung, der unseren Marketingbemühungen im letzten Jahr zugeschrieben wurde?
+
+![Wie hoch war der Prozentsatz der Umsatzabdeckung, der unseren Marketing-Maßnahmen zugeschrieben wurde](assets/revenue-dashboard-2.png)
+
+## Filterbereich {#filter-pane}
+
+Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
+
+* Datum (basierend auf Abschlussdatum)
+
+>[!MORELIKETHIS]
+>
+>* [Entdecken Sie die Grundlagen von Dashboards](/help/discover-dashboard-basics.md){target="_blank"}
+>* [Richtlinie für die Datensichtbarkeit im Dashboard](/help/dashboard-data-visibility-policy.md){target="_blank"}

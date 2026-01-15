@@ -3,13 +3,13 @@ description: '[!DNL Facebook] API - [!DNL Marketo Measure]'
 title: '[!DNL Facebook] API'
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
-
 
 # [!DNL Facebook] API {#facebook-api}
 
@@ -24,33 +24,35 @@ ht-degree: 3%
 
 Was die Einrichtung betrifft, müssen in der [!DNL Marketo Measure]-App sieben Schritte ausgeführt werden.
 
-1. Navigieren Sie zu [experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} melden Sie sich an.
+1. Navigieren Sie zu [experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"} melden Sie sich an.
 1. Wählen Sie unter Mein Konto **[!UICONTROL Einstellungen]** aus.
 1. Wählen Sie unter Integrationen **[!UICONTROL Verbindungen]** aus.
 1. Wählen Sie **[!UICONTROL Neue Anzeigenverbindung einrichten]** und ein Popup wird angezeigt. Wählen Sie **[!UICONTROL Facebook]** aus und melden Sie sich mit Ihren Facebook-Anmeldeinformationen an.
 
    >[!NOTE]
+   >
    >Die Person, die das [!DNL Facebook Ads]-Konto verbindet, muss Administrator des [!DNL Facebook Ads]-Kontos sein.
 
 1. Sobald [!DNL Marketo Measure] mit Ihrem Facebook-Konto verbunden ist, klicken Sie auf das Stiftsymbol neben dem Konto.
-1. Verschieben Sie in dieser Ansicht das Feld „Automatisches Tagging?“ auf „Ja“ umschalten. Aktivieren Sie dann das Kontrollkästchen im Abschnitt [!UICONTROL Weitere Informationen], um den Nutzungsbedingungen zuzustimmen. Stellen Sie sicher[!UICONTROL &#x200B; dass der Umschalter für &#x200B;]Automatisches Tagging“ weiterhin auf &quot;[!UICONTROL Ja] eingestellt ist.
+1. Verschieben Sie in dieser Ansicht das Feld „Automatisches Tagging?“ auf „Ja“ umschalten. Aktivieren Sie dann das Kontrollkästchen im Abschnitt [!UICONTROL Weitere Informationen], um den Nutzungsbedingungen zuzustimmen. Stellen Sie sicher[!UICONTROL  dass der Umschalter für ]Automatisches Tagging“ weiterhin auf &quot;[!UICONTROL Ja] eingestellt ist.
 
 ## Verbinden des Kontos {#connecting-the-account}
 
-![Einrichten einer neuen Facebook-Werbeverbindung in Marketo Measure](assets/1.gif)
+![Verbinden der {connecting-the-account}](assets/utilizing-connections-2.gif)
 
 ## Aktivieren von automatischem Tagging {#enabling-autotagging}
 
 >[!NOTE]
->Wenn Sie das automatische Tagging aktivieren, setzen wir den Konversionsverlauf und den Social Proof aller Anzeigen zurück, die wir taggen. Es wird dringend empfohlen[&#x200B; diese Daten als CSV zu exportieren](https://www.facebook.com/business/help/205067636197240) bevor Sie das automatische Tagging aktivieren.
+>
+>Wenn Sie das automatische Tagging aktivieren, setzen wir den Konversionsverlauf und den Social Proof aller Anzeigen zurück, die wir taggen. Es wird dringend empfohlen[ diese Daten als CSV zu exportieren](https://www.facebook.com/business/help/205067636197240) bevor Sie das automatische Tagging aktivieren.
 
-![&#x200B; 2](assets/2-2.png)
+![Wenn Sie das automatische Tagging aktivieren, werden der Konversionsverlauf und der Social-Media-Korrekturabzug zurückgesetzt](assets/bizible-guide-1.png)
 
 Sobald Sie die Integration aktiviert haben, beginnen [!DNL Marketo Measure], Kosten auf Anzeigenebene in das [!DNL Marketo Measure Marketing ROI] Dashboard herunterzuladen.
 
 Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische Tagging für Ihr [!DNL Facebook]-Konto aktivieren. Dadurch kann unser System einen _bf-Parameter über alle Werbelinks hinweg hinzufügen. Dieser Prozess fügt den neuen Parameter zu allen anderen Tracking-Parametern hinzu, die Sie Ihren [!DNL Facebook] bereits hinzugefügt haben.
 
-![Automatisches Tagging in den Facebook-Verbindungseinstellungen aktivieren](assets/3.gif)
+![Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische Tagging für Ihre aktivieren](../assets/marketo-engage-activities-05.png)
 
 ## Feldzuordnung {#field-mapping}
 

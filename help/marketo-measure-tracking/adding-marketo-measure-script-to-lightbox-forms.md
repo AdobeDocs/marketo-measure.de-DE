@@ -1,15 +1,14 @@
 ---
-description: Hinzufügen  [!DNL Marketo Measure]  Skripts zu Lightbox Forms - [!DNL Marketo Measure]
+description: Anleitung  [!DNL Marketo Measure]  Hinzufügen von Skripten zu Lightbox Forms für Marketo Measure-Benutzer
 title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes für Lightbox Forms
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
-
 
 # Hinzufügen [!DNL Marketo Measure] Skripts zu Lightbox Forms {#adding-marketo-measure-script-to-lightbox-forms}
 
@@ -21,11 +20,11 @@ Da ein Formular innerhalb einer Lightbox im Grunde ein Formular innerhalb eines 
 
 Suchen Sie zunächst den iFrame, in dem [!UICONTROL Lightbox]-Formular vorhanden ist.
 
-![Finden des Lightbox-Formular-iFrame in der Seitenquelle](assets/1.png)
+![Suchen Sie zunächst den iFrame, in dem sich das Lightbox-Formular befindet.](assets/adding-providers-8.png)
 
 Platzieren Sie anschließend die [!DNL Marketo Measure] JavaScript im iFrame.
 
-![Marketo Measure-Skript innerhalb des Lightbox iFrame platziert](assets/2.png)
+![Platzieren Sie als Nächstes die Marketo Measure JavaScript im iFrame.](assets/adding-providers-5.png)
 
 Wenn die JavaScript hinzugefügt wird, werden Übermittlungen von Formularen durch Befolgen der folgenden Anweisungen überprüft:
 

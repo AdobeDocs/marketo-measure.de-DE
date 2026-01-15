@@ -1,11 +1,11 @@
 ---
-description: Übersicht über Integrationsberechtigungen - [!DNL Marketo Measure]
+description: Anleitung zur Übersicht über Integrationsberechtigungen für Marketo Measure-Benutzende
 title: Überblick über Integrationsberechtigungen
 feature: APIs, Integration
 exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1291'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ In diesem Handbuch werden die erforderlichen Berechtigungen für eine nahtlose I
 <tbody>
   <tr>
     <td>Salesforce</td>
-    <td>B2B-Systemdaten  
+    <td>B2B-Systemdaten
 </td>
     <td>Marketo Measure verfolgt:
     <p>
@@ -61,7 +61,7 @@ Erstellte Touchpoints und andere Daten werden in benutzerdefinierte Bizible-Feld
     <p>
     <b>Salesforce-Standardfeldberechtigungen</b>
     <br>
-    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce-Standardobjekte und -Zugriff</a>
+    <a href="/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md">Salesforce-Standardobjekte und -Zugriff</a>
     <p>
     <b>Benutzerdefinierte Salesforce-Feldberechtigungen</b>
     <br>
@@ -108,7 +108,7 @@ Für benutzerdefinierte Marketo Measure-Entitäten benötigen wir vollständige 
 <p>
 <b>Dynamics-Standardfeldberechtigungen</b>
 <br>
-<a href="/help/marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics-</a>
+<a href="/help/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics-</a>
 <p>
 <b>Benutzerdefinierte Dynamics-Feldberechtigungen</b>
 <br>
@@ -211,16 +211,16 @@ Marketo Measure verfolgt Kampagnen, Anzeigengruppen, Kreative, Site-Links und Sc
   <tr>
     <td>Marketo Engage</td>
     <td>B2B-Systemdaten</td>
-    <td>Durch die Marketo-Integration kann Marketo Measure Aktivitäten, Personen, Programme und Programmmitgliedschaften für Marketo erfassen. Darüber hinaus verfolgt Marketo Measure Marketo-Cookies (Munchkin-IDs), um Marketo-Web-Aktivitäten mit Marketo Measure-Lead-Touchpoints zu verknüpfen <a href="/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#cookie-mapping">wie hier beschrieben</a>:
+    <td>Durch die Marketo-Integration kann Marketo Measure Aktivitäten, Personen, Programme und Programmmitgliedschaften für Marketo erfassen. Darüber hinaus verfolgt Marketo Measure Marketo-Cookies (Munchkin-IDs), um Marketo-Web-Aktivitäten mit Marketo Measure-Lead-Touchpoints zu verknüpfen <a href="/help/marketo-engage-programs-integration.md#cookie-mapping">wie hier beschrieben</a>:
     <p>
     <i>Aufgrund der Integration von Marketo Measure mit Marketo wird die Marketo Measure-Cookie-ID jetzt auch der Marketo-Munchkin-ID zugeordnet und mit dieser synchronisiert. Auf diese Weise wird die Lücke geschlossen, sodass der anonyme Erstkontakt einer Web-Sitzung zugeordnet werden kann, anstatt sowohl die FT- als auch die LC-Kontakte einer Marketo-Aktivität zuzuordnen.</i>
     </td>
-    <td>Der Kunde muss einen dedizierten Marketo Engage-API-Benutzer erstellen und die Anmeldeinformationen für Marketo Measure bereitstellen. Es ist keine zusätzliche Berechtigungskonfiguration erforderlich. <a href="/help/marketo-measure-and-marketo/set-up-marketo-connection.md#configuring-the-integration">Weitere Informationen</a>.</td>
+    <td>Der Kunde muss einen dedizierten Marketo Engage-API-Benutzer erstellen und die Anmeldeinformationen für Marketo Measure bereitstellen. Es ist keine zusätzliche Berechtigungskonfiguration erforderlich. <a href="/help/set-up-marketo-connection.md#configuring-the-integration">Weitere Informationen</a>.</td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
     <td>B2B-Systemdaten</td>
-    <td>Die Integration von B2B-Kundenattributen ermöglicht es gemeinsamen Benutzenden von Marketo Measure und Adobe Analytics, ihre Adobe Analytics-Benutzerprofile mit wertvollen Metadaten anzureichern, die von der Marketo Measure-Attributionsmaschine und durch ihre Synchronisierungsfunktion mit CRMs (Microsoft Dynamics und Salesforce) abgeleitet wurden. <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Weitere Informationen</a>.</td>
+    <td>Die Integration von B2B-Kundenattributen ermöglicht es gemeinsamen Benutzenden von Marketo Measure und Adobe Analytics, ihre Adobe Analytics-Benutzerprofile mit wertvollen Metadaten anzureichern, die von der Marketo Measure-Attributionsmaschine und durch ihre Synchronisierungsfunktion mit CRMs (Microsoft Dynamics und Salesforce) abgeleitet wurden. <a href="/help/adobe-analytics.md">Weitere Informationen</a>.</td>
     <td>Der Kunde muss Marketo Measure eine Alias-ID und FTP-Server-Anmeldeinformationen für einen Speicherort bereitstellen, an den Daten in seine Analytics-Instanz hochgeladen werden.
     <p>
     Beachten Sie die folgenden Informationen, da Sie sie für einige der späteren Schritte im Prozess benötigen werden:
@@ -228,7 +228,7 @@ Marketo Measure verfolgt Kampagnen, Anzeigengruppen, Kreative, Site-Links und Sc
     <li>Die Alias-ID. Dabei kann es sich um einen beliebigen Wert handeln. Wir empfehlen „marketomeasure_id“</li>
     <li>Der Host-Name und die Anmeldeinformationen des FTP-Servers (Benutzername und Kennwort)</li>
     <p>
-    <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md#configuring-the-integration">Weitere Informationen</a></td>
+    <a href="/help/adobe-analytics.md#configuring-the-integration">Weitere Informationen</a></td>
   </tr>
   <tr>
     <td>Bizible JavaScript</td>
@@ -240,4 +240,4 @@ Marketo Measure verfolgt Kampagnen, Anzeigengruppen, Kreative, Site-Links und Sc
 </table>
 
 >[!MORELIKETHIS]
->[Fehlerbenachrichtigungen](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[Fehlerbenachrichtigungen](/help/configuration-and-setup/error-notifications.md){target="_blank"}

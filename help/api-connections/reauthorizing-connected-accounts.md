@@ -1,15 +1,15 @@
 ---
-description: Erneutes Autorisieren von verbundenen Konten - [!DNL Marketo Measure]
+description: Anleitung zur erneuten Autorisierung von Connected Accounts für Marketo Measure-Benutzer
 title: Erneutes Autorisieren von Connected Accounts
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '201'
 ht-degree: 3%
 
 ---
-
 
 # Erneutes Autorisieren von Connected Accounts {#reauthorizing-connected-accounts}
 
@@ -19,7 +19,7 @@ Wenn die Verbindung Ihrer Werbeplattform unterbrochen wird, können [!DNL Market
 
 Wenn Ihre CRM-Plattform getrennt wird, können [!DNL Marketo Measure] keine [!DNL Marketo Measure] Daten aktualisieren oder neue Touchpoints in Ihre Organisation übertragen. Sobald die CRM-Verbindung wiederhergestellt wurde, überträgt [!DNL Marketo Measure] alle Daten, die während der Trennung des Kontos fehlten.
 
-![&#x200B; 1](assets/1-1.png)
+![Wenn Ihre CRM-Plattform getrennt wird, wird Marketo Measure nicht mehr unterstützt](assets/utilizing-connections-7.png)
 
 ## Erneutes Autorisieren von getrennten Konten {#re-authorizing-disconnected-accounts}
 

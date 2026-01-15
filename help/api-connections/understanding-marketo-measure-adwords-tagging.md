@@ -1,15 +1,14 @@
 ---
-description: Grundlegendes  [!DNL Marketo Measure]  AdWords-Tagging - [!DNL Marketo Measure]
+description: Grundlegendes  [!DNL Marketo Measure]  AdWords-Tagging-Anleitung für Marketo Measure-Benutzende
 title: Grundlagen [!DNL Marketo Measure] AdWords-Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 5%
+source-wordcount: '657'
+ht-degree: 6%
 
 ---
-
 
 # Grundlegendes [!DNL Marketo Measure] AdWords-Tagging {#understanding-marketo-measure-adwords-tagging}
 
@@ -61,11 +60,11 @@ Es gibt zwei Tracking-Vorlagen, deren Verwendung [!DNL Marketo Measure] empfiehl
 
 1. Klicken Sie auf **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Einstellungen]** im sich erweiternden Fenster.
 
-   ![Google AdWords-Navigation mit Menü „Alle Kampagnen“ und Einstellungsoption](assets/1.png)
+   ![1. Klicken Sie auf Alle Kampagnen und dann auf Einstellungen im sich erweiternden ](assets/utilizing-connections-13.png)
 
 1. Klicken Sie **[!UICONTROL oben auf]** Kontoeinstellungen“ und dann **[!UICONTROL Tracking-Vorlage]**. Geben Sie die [!DNL Marketo Measure] Tracking-Vorlage ein.
 
-   ![Seite Kontoeinstellungen mit dem Feld Tracking-Vorlage zur Eingabe von Marketo Measure-Parametern](assets/2-1.png)
+   ![1. Klicken Sie oben auf Kontoeinstellungen und dann auf Tracking](assets/bizible-guide-1.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -73,11 +72,11 @@ Es gibt zwei Tracking-Vorlagen, deren Verwendung [!DNL Marketo Measure] empfiehl
 
 1. Klicken Sie **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Kampagnen]** im sich erweiternden Fenster.
 
-   ![Navigation in Google AdWords mit dem Menü „Alle Kampagnen“ und der Option „Kampagnen“](assets/3.png)
+   ![1. Klicken Sie auf Alle Kampagnen und dann auf Kampagnen in der erweiternden ](assets/utilizing-connections-12.png)
 
 1. Wählen Sie alle entsprechenden Kampagnen oder **[!UICONTROL Alle auswählen]**, klicken Sie auf **[!UICONTROL Bearbeiten]** und klicken Sie dann auf **[!UICONTROL Tracking-Vorlagen ändern]**.
 
-   ![Seite zur Kampagnenauswahl mit Bearbeitungsmenü mit der Option „Vorlagen für Änderungsverfolgung“](assets/4-1.png)
+   ![1. Wählen Sie alle entsprechenden Kampagnen aus oder wählen Sie „Alle“ und klicken Sie auf „Bearbeiten“](../assets/marketo-engage-activities-05.png)
 
 1. Geben Sie die [!DNL Marketo Measure] Tracking-Vorlage ein und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -85,13 +84,13 @@ Es gibt zwei Tracking-Vorlagen, deren Verwendung [!DNL Marketo Measure] empfiehl
 
 1. Klicken Sie **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Anzeigengruppen]** im sich erweiternden Fenster.
 
-   ![Google AdWords-Navigation mit dem Menü „Alle Kampagnen“ mit der Option „Anzeigengruppen“](assets/5-1.png)
+   ![1. Klicken Sie auf Alle Kampagnen und dann auf Anzeigengruppen in der](assets/api-connections-01.png)
 
 1. Wählen Sie alle anwendbaren Anzeigengruppen aus oder wählen Sie „Alle“, klicken Sie **[!UICONTROL Bearbeiten]** und klicken Sie dann auf **[!UICONTROL Tracking-Vorlagen ändern]**.
 
 1. Geben Sie die [!DNL Marketo Measure] Tracking-Vorlage ein und klicken Sie auf **[!UICONTROL Anwenden]**.
 
-   ![Anzeigengruppen-Auswahlseite mit Bearbeitungsmenü mit der Option Änderungsverfolgungsvorlagen und der Schaltfläche Anwenden](assets/6-1.png)
+   ![1. Geben Sie die Marketo Measure-Tracking-Vorlage ein und klicken Sie auf Anwenden.](../assets/marketo-engage-activities-01.png)
 
 ## FAQs {#faq}
 
@@ -112,6 +111,7 @@ A: 4 Stunden
 A.: Wir können keine individuellen kreativen Details für dynamische Suchanzeigen abrufen, aber wenn das automatische Tagging aktiviert ist, können wir trotzdem die kreative ID und den Umsatz des Attributs abrufen.
 
 >[!NOTE]
+>
 >Sobald die Änderungen vorgenommen wurden, sind Sie fertig. Wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} wenn während des Setups Fragen auftreten.
 
 [Klicken Sie hier](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} um Anweisungen von Google zum Erstellen von Tracking-Vorlagen auf Kontoebene zu erhalten.

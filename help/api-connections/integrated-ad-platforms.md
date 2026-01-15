@@ -1,15 +1,15 @@
 ---
-description: Integrierte Werbeplattformen - [!DNL Marketo Measure]
+description: Anleitung zu integrierten Anzeigenplattformen für Marketo Measure-Benutzende
 title: Integrierte Anzeigenplattformen
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 0%
+source-wordcount: '1734'
+ht-degree: 1%
 
 ---
-
 
 # Integrierte Anzeigenplattformen {#integrated-ad-platforms}
 
@@ -21,11 +21,11 @@ Bevor wir uns mit den Besonderheiten jeder Plattform befassen, werden wir uns da
 
 Wie in der Abbildung unten dargestellt, wird eine Schaltfläche zum Einrichten neuer Werbeverbindungen angezeigt.
 
-![Seite „Verbindungen“ mit der Schaltfläche „Neue Anzeigenverbindung einrichten“](assets/2.png)
+![Wie in der Abbildung unten dargestellt, wird eine Schaltfläche angezeigt, mit der Sie Folgendes tun können](assets/bizible-guide-1.png)
 
 Nachdem Sie auf die Schaltfläche [!UICONTROL Neue Anzeigenverbindung einrichten] geklickt haben, wird ein Fenster (siehe unten) mit vier Anzeigenverbindungstypen [!UICONTROL Verbindung] angezeigt. Klicken Sie auf Verbinden. Daraufhin wird ein weiteres Fenster angezeigt, in dem Sie nach Anmeldeinformationen gefragt werden. Geben Sie die Anmeldeinformationen ein und klicken Sie auf [!UICONTROL Autorisieren], um das Konto mit [!DNL Marketo Measure] zu verbinden.
 
-![Marketo Measure Ads-Verbindungsmodal mit verfügbaren Kontotypen](assets/select-account-type.png)
+![Klicken Sie nach dem Klicken auf die Schaltfläche Neue Anzeigenverbindung einrichten , a](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -56,22 +56,22 @@ Nachdem Sie über eine Tracking-Vorlage verfügen, befolgen Sie die nachstehende
 
 1. Navigieren Sie [!UICONTROL Mein Konto] > [!UICONTROL Einstellungen] > [!UICONTROL Integrationen] > [!UICONTROL Verbindungen].
 
-   ![Liste der Verbindungen mit vorhandenen Werbekonten](assets/4.png)
+   ![1. Gehen Sie zu Einstellungen meines Kontos Integrationen Verbindungen.](assets/utilizing-connections-8.png)
 
 1. Klicken Sie auf das Stiftsymbol neben dem AdWords-Konto, für das das automatische Tagging [!DNL Marketo Measure] ist.
 
-   ![Bedienfeld „Kontoeinstellungen hinzufügen“ mit Umschalter für automatisches Tagging](assets/5.png)
+   ![1. Klicken Sie auf das Stiftsymbol neben dem AdWords-Konto, das Folgendes bewirkt](assets/utilizing-connections-9.png)
 
 1. Schalten Sie in der oberen rechten Ecke den Umschalter **[!UICONTROL Automatisches Tagging]** auf **[!UICONTROL Ja]**. Klicken Sie unten auf der Seite auf **[!UICONTROL Weitere Informationen]**, um das Textfeld zu erweitern, und klicken Sie auf **[!UICONTROL Speichern]**. Die Einrichtung des automatischen Tagging ist abgeschlossen.
 
-   ![Automatisches Tagging-Bestätigungsmodal in Marketo Measure](assets/6.png)
+   ![1. Stellen Sie in der oberen rechten Ecke den Schalter für automatisches Tagging auf ein](assets/utilizing-connections-10.png)
 
 ## Einrichten einer Tracking-Vorlage in AdWords mit [!DNL Marketo Measure] {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-Denken Sie daran, dass Sie Tracking-Vorlagen auf der Ebene [!UICONTROL Konto], [!UICONTROL Kampagne] oder Anzeigengruppe in AdWords hinzufügen sollten. Wenn Sie Tracking-Vorlagen auf Keyword-, Sitelink- oder Anzeigenebene hinzufügen, muss Ihre Anzeige den Prüfungs- und Genehmigungsprozess durchlaufen, und Sie riskieren, den Leistungsverlauf Ihrer Anzeigen neu zu starten. Weitere Informationen zum [&#x200B; von Tracking-Vorlagen](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
+Denken Sie daran, dass Sie Tracking-Vorlagen auf der Ebene [!UICONTROL Konto], [!UICONTROL Kampagne] oder Anzeigengruppe in AdWords hinzufügen sollten. Wenn Sie Tracking-Vorlagen auf Keyword-, Sitelink- oder Anzeigenebene hinzufügen, muss Ihre Anzeige den Prüfungs- und Genehmigungsprozess durchlaufen, und Sie riskieren, den Leistungsverlauf Ihrer Anzeigen neu zu starten. Weitere Informationen zum [ von Tracking-Vorlagen](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Melden Sie sich bei Ihrem [!DNL Google AdWords] Konto an.
-1. Navigieren Sie [!UICONTROL &#x200B; Ansicht &#x200B;]Kampagnen“ in der linken Navigationsleiste
+1. Navigieren Sie [!UICONTROL  Ansicht ]Kampagnen“ in der linken Navigationsleiste
 1. Navigieren Sie zu [!UICONTROL Einstellungen], auch in der linken Navigationsleiste
 1. Schalten Sie in die Ansicht [!UICONTROL Kontoeinstellungen] oben um
 1. Erweitern Sie den Abschnitt [!UICONTROL Tracking]
@@ -88,6 +88,7 @@ Denken Sie daran, dass Sie Tracking-Vorlagen auf der Ebene [!UICONTROL Konto], [
    Um Fehler beim manuellen Taggen von URLs zu vermeiden, wird in der Regel empfohlen, die UTM-Parameter automatisch zu generieren. Dabei muss es sich nicht um automatisches Tagging mit AdWords oder [!DNL Marketo Measure] handeln. Es gibt mehrere Tools, die den Prozess vereinfachen, indem die Parameter für die URL automatisch basierend auf den von Ihnen bereitgestellten Informationen generiert werden.
 
    >[!TIP]
+   >
    >Wenn Sie den Fehler erhalten, dass die Tracking-Vorlage ungültig ist, löschen Sie Ihren Browser-Cache und versuchen Sie es erneut - dies löst oft das Problem.
 
 ## Automatisches Generieren von UTM-Tags für [!DNL Google AdWords] {#how-to-automatically-generate-utm-tags-for-google-adwords}
@@ -122,6 +123,7 @@ Unsere Integration unterstützt die folgenden Anzeigentypen:
 * Mobile-Anzeige
 * Erweiterte Textanzeige
 
+
 Die automatische Tagging-Funktion von Bing Ads fügt die folgenden UTM-Parameter hinzu:
 
 * utm_source
@@ -152,7 +154,7 @@ Bevor Sie das automatische Tagging mit [!DNL Facebook Ads] aktivieren, müssen S
 
 Beachten Sie, dass Sie Ihr [!DNL Facebook]-Konto jederzeit mit der [!DNL Marketo Measure]-App verbinden können und keine Daten verloren gehen. Der Leistungsverlauf wird nur gelöscht, wenn das automatische Tagging aktiviert ist.
 
-Weitere [&#x200B; zum Exportieren von &#x200B;](https://www.facebook.com/business/help/393890194130036){target="_blank"} Ad-Berichten finden [!DNL Facebook] in diesem Artikel auf Facebook .
+Weitere [ zum Exportieren von ](https://www.facebook.com/business/help/393890194130036){target="_blank"} Ad-Berichten finden [!DNL Facebook] in diesem Artikel auf Facebook .
 
 ## Gesponserte LinkedIn-Inhalte {#linkedin-sponsored-content}
 

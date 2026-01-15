@@ -1,15 +1,14 @@
 ---
-description: LinkedIn-Integration - [!DNL Marketo Measure]
+description: LinkedIn-Integrationsleitfaden für Marketo Measure-Benutzer
 title: LinkedIn-Integration
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2703'
 ht-degree: 1%
 
 ---
-
 
 # LinkedIn-Integration {#linkedin-integration}
 
@@ -27,7 +26,7 @@ Verfügbar für alle Benutzer.
 
 ## Anforderungen {#requirements}
 
-**Campaign Manager-Rollen**
+### Campaign Manager-Rollen
 
 Damit [!DNL Marketo Measure] Kostendaten für Anzeigen und Anzeigen herunterladen können, müssen Sie im Campaign Manager über eine der folgenden Rollen verfügen:
 
@@ -37,7 +36,7 @@ Damit [!DNL Marketo Measure] Kostendaten für Anzeigen und Anzeigen herunterlade
 
 Weitere Informationen: [Benutzerrollen und -funktionen in Campaign Manager](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager).
 
-**Paid Media-Administratorrollen**
+### Paid Media-Administratorrollen
 
 Damit [!DNL Marketo Measure] gesponserte Kreative erstellen/aktualisieren können, müssen Sie über eine der folgenden Paid-Media-Administratorrollen verfügen:
 
@@ -48,7 +47,7 @@ Weitere Informationen: [LinkedIn-](https://www.linkedin.com/help/linkedin/answer
 
 Es gibt andere [!DNL LinkedIn] Rollen, die wir **für** Integration benötigen. Diese Rollen werden oft mit den erforderlichen Rollen verwechselt, also beachten Sie, dass es einen Unterschied gibt!
 
-**Seiten-Admin-Rollen**
+### Seiten-Admin-Rollen
 
 Damit [!DNL Marketo Measure] Leads aus Lead-Gen-Formularen herunterladen/integrieren können, müssen Sie über die folgende Seitenadministratorrolle verfügen:
 
@@ -60,29 +59,31 @@ Weitere Informationen: [LinkedIn-](https://www.linkedin.com/help/linkedin/answer
 
 [!DNL Marketo Measure] werden Folgendes unterstützen:
 
-**Gesponserte Inhalte:** Gesponserte Inhalte ermöglichen es Ihnen, Inhalte für den [!DNL LinkedIn] Feed von Mitgliedern bereitzustellen, die über diejenigen hinausgehen, die Ihrem Unternehmen folgen. Gesponserte Inhalte können auf eine bestimmte Zielgruppe ausgerichtet werden und können Advertisern dabei helfen, [!DNL LinkedIn] Mitglieder zu erreichen, wo und wann immer sie auf der [!DNL LinkedIn]-Plattform über Desktop, Mobilgeräte und Tablet interagieren. Gesponserte Inhalte mit Lead Gen Forms werden unterstützt.
+Mit gesponserten Inhalten können Sie Inhalte für den [!DNL LinkedIn]-Feed von Mitgliedern bereitstellen, die nicht denen entsprechen, die Ihrem Unternehmen folgen. Gesponserte Inhalte können auf eine bestimmte Zielgruppe ausgerichtet werden und können Advertisern dabei helfen, [!DNL LinkedIn] Mitglieder zu erreichen, wo und wann immer sie auf der [!DNL LinkedIn]-Plattform über Desktop, Mobilgeräte und Tablet interagieren. Gesponserte Inhalte mit Lead Gen Forms werden unterstützt.
 
 Die von [!DNL Marketo Measure] unterstützten Arten von gesponserten Inhalts-Anzeigenformaten sind Einzelbild-Anzeigen und Videoanzeigen (über Lead Gen Forms). Aufgrund der Komplexität des Schemas unterstützen wir keine Karussellanzeigen.
 
 [!DNL Marketo Measure] unterstützt keine gesponserten Nachrichten, Textanzeigen oder dynamischen Anzeigen.
 
-![LinkedIn-Anzeigenformattypen mit Optionen für Einzelbildanzeigen, Videoanzeigen und Karussells mit Forms-Unterstützung für Lead Gen](assets/one.png)
+![Marketo Measure unterstützt keine gesponserten Nachrichten, Textanzeigen oder Dynamic Media](assets/bizible-guide-1.png)
 
 >[!TIP]
+>
 >Für alle Kampagnen/Ausgaben, die aus einer nicht gesponserten Inhaltsquelle stammen (z. B. Kampagnentyp „Textanzeige“ oder „Gesponsert inMail„), unterstützt [!DNL Marketo Measure] von _aus_ Tracking dieser Kampagnentypen. Wenn Sie die Ausgaben für Kampagnen wie diese zusammen mit Ihren Ausgaben für „gesponserte Inhalte“ verfolgen möchten, stellen Sie sicher, dass Sie unsere CSV-Datei mit den Marketingausgaben verwenden, um diese Ausgaben manuell zu protokollieren.
 
 ## Funktionsweise: Gesponserte Inhalte {#how-it-works-sponsored-content}
 
 >[!NOTE]
+>
 >Vor der ersten Verwendung muss diese Funktionseinstellung aktiviert werden, indem Sie zu [!DNL Marketo Measure] [!UICONTROL Einstellungen] > [!UICONTROL Integrationen] > [!UICONTROL Anzeigen] > [!UICONTROL LinkedIn Lead Gen Forms aktivieren].
 
-**[!DNL LinkedIn's]eindeutige Anforderungen an das automatische Tagging**
+### [!DNL LinkedIn's] eindeutige Anforderungen an das automatische Tagging
 
 [!DNL Marketo Measure] können die Leistung Ihrer [!DNL LinkedIn]-Kampagnen verfolgen, indem Sie Ihre Landingpages automatisch taggen.
 
 [!DNL Marketo Measure] werden nach Kreativen mit einer eindeutigen LinkedIn-Freigabe suchen und am Ende einen `?_bl={creativeId}` Parameter hinzufügen.
 
-**Kopieren von Freigaben**
+### Kopieren von Freigaben
 
 Bei dieser [!DNL Marketo Measure/LinkedIn]-Integration bitten wir Kunden, vorhandene Kreative nicht zu kopieren/klonen/duplizieren. Wenn Freigaben gefunden werden und nur auf einer Creative verwendet werden, können [!DNL Marketo Measure] die Freigabe wie besehen taggen, ohne dass Kreative oder Freigaben neu erstellt werden müssen. Der gesamte Werbeverlauf (Impressionen, Klicks, Freigaben) bleibt erhalten.
 
@@ -90,13 +91,13 @@ Sobald festgestellt wird, dass eine Freigabe für mehrere Kreative freigegeben i
 
 Für die Zukunft empfiehlt [!DNL Marketo Measure], keine [!DNL LinkedIn]-Freigaben zu duplizieren und alle Kreativen und Freigaben so einzigartig wie möglich zu halten, damit wir einfach unser Tracking hinzufügen können, ohne den Anzeigenverlauf löschen zu müssen.
 
-**gekürzte URLs**
+### Kürzere URLs
 
 Der Grund für den zusätzlichen Schritt besteht darin, dass LinkedIn es ermöglicht, Ziel-URLs als gekürzte URL zu verwenden (bit.ly, goog.le usw.), was bedeutet, dass [!DNL Marketo Measure] die lange, aufgelöste URL nicht sieht und [!DNL Marketo Measure] Tracking-Parameter zu einer aufgelösten URL hinzufügen muss. Um dieses Problem zu umgehen, sucht [!DNL Marketo Measure] vor der erneuten Erstellung einer Anzeige nach gekürzten URLs, erweitert die URL und erstellt dann die neue Anzeige mit der aufgelösten URL und allen ihren Parametern, sodass [!DNL Marketo Measure] Tags hinzufügen können. Durch das Erstellen einer neuen Anzeige wird der Werbeverlauf (Impressionen, Klicks, Freigaben) gelöscht. Daher ist die Berechtigung zum Taggen gekürzter URLs erforderlich.
 
 Wenn Sie stark gekürzte URLs verwenden, kann dies erhebliche Auswirkungen auf Ihre Kreativen haben. Es wird empfohlen, keine gekürzten URLs mehr zu verwenden, damit [!DNL Marketo Measure] die Landingpages taggen können, ohne neue Anzeigen erstellen und den Werbeverlauf löschen zu müssen.
 
-**Der Prozess**
+### Der Prozess
 
 Beginnen wir mit einigen Beispielen. Nehmen wir an, wir haben….
 
@@ -105,7 +106,7 @@ Creative B : Freigabe 234\
 Creative C : Freigabe 234\
 Creative D : Freigabe 234
 
-![Diagramm mit vier Kreativen mit ihren zugehörigen Freigaben vor dem automatischen Tagging-Prozess](assets/two.png)
+![Creative D : Freigabe 234](../assets/marketo-engage-activities-05.png)
 
 `1)` [!DNL Marketo Measure] durchsucht zunächst alle Kampagnen, Kreativen und Freigaben mit dem Status „Aktiv“. [!DNL Marketo Measure] werden angehaltene, archivierte oder abgebrochene Anzeigen nicht mit Tags versehen. Wenn eine Anzeige angehalten und auf [!UICONTROL aktiv] gesetzt wurde, werden wir sie mit einem Tag versehen, sobald sie wieder aktiv ist. Wenn wir eine eindeutige Freigabe finden, d. h. sie wird nicht in mehreren Kreativen oder Kampagnen verwendet (z. B. Creative A : Freigabe 123), fügen [!DNL Marketo Measure] unseren benutzerdefinierten `>> ?_bl={creativeId}` zur Freigabe-URL hinzu.
 
@@ -118,19 +119,16 @@ Creative D : Freigabe 234
 `5)` [!DNL Marketo Measure] müssen regelmäßig überprüfen, ob Freigaben nicht freigegeben werden. Falls dies der Fall ist, werden wir den Prozess in Schritt 2 oben neu starten.
 
 >[!NOTE]
+>
 >Wenn Sie dies implementieren, verlieren unsere Kunden den Anzeigenverlauf von Creative B : Freigabe 234, Creative C : Freigabe 234 und Creative D : Freigabe 234, da es jetzt mit Creative E neu erstellt wird : Freigabe 345, Freigabe F : Freigabe 456 und Creative G : Freigabe 567 .
 
-![Diagramm mit neuen Kreativen mit eindeutigen Freigaben, die nach dem automatischen Tagging- und Archivierungsprozess erstellt wurden](assets/three.png)
+![Wenn Sie dies implementieren, verlieren unsere Kunden den Werbeverlauf](assets/api-connections-01.png)
 
 ## Funktionsweise: Lead Gen Forms {#how-it-works-lead-gen-forms}
-
-**[!DNL LinkedIn's]eindeutige Anforderungen an das automatische Tagging**
 
 [!DNL Marketo Measure] können die Leistung Ihrer [!DNL LinkedIn]-Kampagnen verfolgen, indem Sie Ihre Landingpages automatisch taggen.
 
 [!DNL Marketo Measure] werden nach Kreativen mit einer eindeutigen LinkedIn-Freigabe suchen und am Ende einen `?_bl={creativeId}` Parameter hinzufügen.
-
-**Der Prozess**
 
 Über [!DNL LinkedIn's] Anzeigenformular-API und die Antwort-API für Anzeigenformulare können wir Formulardaten für ein Anzeigenkonto erfassen und die E-Mail-Adresse mit einem Lead aus dem CRM oder Marketo verknüpfen.
 
@@ -139,9 +137,9 @@ LinkedIn-Formulare können mehrere E-Mail-Adressen enthalten. Beim Herunterladen
 Unabhängig vom Campaign- oder Creative-Status führen alle Formularantworten zu einem Touchpoint. [!DNL Marketo Measure] verfügt über eine 90-tägige Lookback-Einschränkung. Daher kann [!DNL Marketo Measure] nicht auf Formularantworten zugreifen, die älter als 90 Tage sind. Je länger jedoch die [!DNL Marketo Measure]- und [!DNL LinkedIn]-Integration aktiviert ist, desto mehr Touchpoints für Lead-Gen-Formulare werden über [!DNL Marketo Measure] angezeigt.
 
 >[!NOTE]
+>
 >LinkedIn-Kosten werden weiterhin im Rahmen von gesponserten Inhaltskampagnen heruntergeladen.
 
-**Tracking von Lead Gen Forms in CRM oder Marketo**
 
 Bevor die [!DNL Marketo Measure]- und LinkedIn-Lead-Gen-Forms-Integration bestand, war es gängige Praxis, dass Kundinnen und Kunden ihre Formularübermittlungen an ein Marketo-Programm und/oder eine CRM-Kampagne pushen, um die Formulare zu verfolgen und eine Attribution auf diesen Aktivitäten zu erhalten. Sobald die Einstellung für die Lead-Gen-Forms aktiviert ist, möchten wir sicherstellen, dass diese Formularübermittlungen nicht doppelt gezählt werden. Überprüfen Sie Folgendes:
 
@@ -150,6 +148,7 @@ Bevor die [!DNL Marketo Measure]- und LinkedIn-Lead-Gen-Forms-Integration bestan
 * Aktualisieren aller zugehörigen CRM-Kampagnenregeln
 
 >[!NOTE]
+>
 >Die LinkedIn-API unterliegt einer 90-tägigen Lookback-Beschränkung. Wenn Sie also Marketo- oder CRM-Regeln verwenden, wird empfohlen, das Enddatum für die Regel auf 90 Tage vor dem Datum festzulegen, an dem Sie die Integration in [!DNL Marketo Measure] aktiviert haben.
 
 ## Touchpoint-Details ansehen {#touchpoint-details}
@@ -263,7 +262,7 @@ Da [!DNL Marketo Measure] eine direkte Integration mit [!DNL LinkedIn] aufweist,
 
 Wie bei anderen Anzeigenintegrationen hat [!DNL Marketo Measure] eine Marketing-Kanal-Regel definiert, um alle [!DNL LinkedIn], Kreativen und Kosten zu platzieren. Um die Regel zu verwenden, sollte eine neue Zeile für die Paid-[!DNL LinkedIn]-Aktivitäten des Kunden eingefügt werden. Es kann sich um einen neuen oder vorhandenen Kanal handeln. Verwenden Sie in der Spalte „Referrer“ die Definition &quot;[[!DNL LinkedIn] Paid]&quot;, die [!DNL Marketo Measure] als Touchpoint mit einem [!DNL Marketo Measure]-Tag definiert hat.
 
-![Konfiguration der Marketing-Kanal-Regel mit der Definition des bezahlten Kanals LinkedIn mit der Referrer-Spalte](assets/four.png)
+![Wie bei anderen Anzeigenintegrationen hat Marketo Measure ein Marketing definiert](../assets/marketo-engage-activities-01.png)
 
 ## [!DNL Marketo Measure] Discover {#marketo-measure-discover}
 
@@ -315,7 +314,7 @@ LinkedIn erfordert, dass alle erstellten oder geänderten Anzeigen den normalen 
 
 Beide. Die [!DNL Marketo Measure] Integration ermöglicht es uns, die Ziel-URL vom Clickthrough-Bild in der Anzeige zu taggen, aktualisiert aber auch automatisch die gekürzte URL in der Anzeigenbeschreibung.
 
-![LinkedIn-Anzeige, die sowohl die Ziel-URL als auch die gekürzte URL in der Beschreibung anzeigt, die mit Tags versehen werden](assets/five.png)
+![Beide. Durch die Marketo Measure-Integration können wir das Ziel taggen](assets/select-type-1.png)
 
 **Ich habe mein [!DNL LinkedIn ads] Konto verbunden. Warum taggt [!DNL Marketo Measure] meine Links nicht?**
 
@@ -325,7 +324,7 @@ Der angemeldete [!DNL LinkedIn] benötigt angemessenen Bearbeitungszugriff, d. h
 
 Die Freigabe-ID ist nicht in einem [!DNL LinkedIn]-Bericht angegeben, sodass es keine klare und naheliegende Möglichkeit gibt, nach Creative-to-Share-Zuordnungen zu suchen. Wenn Sie vermuten, dass es sich bei einem Kreativen um eine Kopie handelt, können Sie dies manuell überprüfen, indem Sie die Anzeige in Ihrem [!DNL LinkedIn] Campaign Manager öffnen. Dadurch wird die Anzeige in einer neuen Registerkarte geöffnet und Sie finden die Freigabe-ID in der URL.
 
-![LinkedIn-Kampagnen-Manager, auf dem die auf einer neuen Registerkarte geöffnete Anzeige mit der Freigabe-ID in der URL sichtbar ist](assets/six.png)
+![Die Freigabe-ID wird nicht in einem LinkedIn-Bericht angegeben. Daher](assets/linkedin-integration-02.png)
 
 ## Häufig gestellte Fragen zu Lead Gen Forms {#lead-gen-forms-faq}
 

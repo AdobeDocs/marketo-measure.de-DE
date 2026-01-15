@@ -1,22 +1,23 @@
 ---
-description: Adding [!DNL Marketo Measure] script - [!DNL Marketo Measure]
+description: Hinzufügen  [!DNL Marketo Measure]  Skript-Anleitungen für Marketo Measure-Benutzer
 title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1298'
 ht-degree: 57%
 
 ---
-
 
 # Hinzufügen eines[!DNL Marketo Measure]-Skriptes {#adding-marketo-measure-script}
 
 [!DNL Marketo Measure]-JavaScript, das von [!DNL Marketo Measure] nachverfolgt werden soll, muss so schnell wie möglich zu allen Web-Umgebungen hinzugefügt werden. Nach der Bereitstellung von JavaScript beginnt [!DNL Marketo Measure] mit der Erfassung Ihrer digitalen Daten. In diesem Artikel werden die Methoden zur Bereitstellung [!DNL Marketo Measure] JavaScript und weitere Überlegungen beschrieben.
 
 >[!NOTE]
->Vergewissern Sie sich, dass Sie zusätzlich zur [!DNL Marketo Measure]-JavaScript-Bereitstellung [alle entsprechenden Domains in [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} eingefordert haben.
+>
+>Vergewissern Sie sich, dass Sie zusätzlich zur [!DNL Marketo Measure]-JavaScript-Bereitstellung [alle entsprechenden Domains in [!DNL Adobe Admin Console]](/help/domain-management.md){target="_blank"} eingefordert haben.
 
 Während der ersten Schritte mit [!DNL Marketo Measure] gibt es zwei Möglichkeiten, [!DNL Marketo Measure]-JavaScript zu Ihrer Website hinzuzufügen:
 
@@ -32,7 +33,8 @@ Als Best Practice empfehlen wir dringend eine [!DNL Marketo Measure]-JavaScript-
 Durch die Hartkodierung des JavaScript in den `<head>` Ihrer Seiten wird sichergestellt, dass das [!DNL Marketo Measure]-Skript zuerst geladen wird und Verweisinformationen nicht verpasst werden. [!DNL Marketo Measure]-JavaScript wird asynchron geladen. Im Falle einer Hartcodierung muss das JavaScript manuell zur Marketing-Automatisierung hinzugefügt werden.
 
 >[!TIP]
->Erfahren Sie, wie Sie sicherstellen können, dass Ihr Skript [DSGVO-konform](/help/security/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"} ist.
+>
+>Erfahren Sie, wie Sie sicherstellen können, dass Ihr Skript die DSGVO einhält.
 
 ## Tag-Management-Systeme {#tag-management-systems}
 
@@ -56,7 +58,7 @@ Wenn Sie jedoch separate oder internationale Domains verwenden, sollten Sie Ihre
 
 Wenn Sie Seiten von Drittanbietern verwenden, sprechen Sie mit Ihrem [!DNL Marketo Measure] Consultant über Ihren Anwendungsfall. Im Allgemeinen möchten Sie wissen, ob Sie eine benutzerdefinierte Version [!DNL Marketo Measure] JavaScript hinzufügen können, um diese Seiten ggf. zu verfolgen. Wenn dies nicht möglich ist, wird das Tracking über CRM-Campaign-Touchpoints mit Ihrem [!DNL Marketo Measure]-Berater untersucht.
 
-Haben Sie Formulare, die NICHT von [!DNL Marketo Measure] nachverfolgt werden sollten, da sie für die Attribution nicht unbedingt sinnvoll sind (z. B. Abmeldeformulare, Kundenanmeldungen usw.)? In diesem Fall sollten Sie den Ausschlusscode ([&#x200B; diesem Artikel) &#x200B;](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} Formular hinzufügen
+Haben Sie Formulare, die NICHT von [!DNL Marketo Measure] nachverfolgt werden sollten, da sie für die Attribution nicht unbedingt sinnvoll sind (z. B. Abmeldeformulare, Kundenanmeldungen usw.)? In diesem Fall sollten Sie den Ausschlusscode ([ diesem Artikel) ](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} Formular hinzufügen
 
 Verfügen Sie über Seiten, die nicht sicher sind? Sie sollten sie schützen, da die Navigation zwischen einer sicheren/nicht sicheren Seite die Tracking-Sitzung unterbricht.
 
@@ -64,7 +66,7 @@ Sprechen Sie mit Ihrem Webteam, damit es weiß, dass [!DNL Marketo Measure]-Java
 
 Wenn während des JavaScript-Setups eine [!DNL Web Application Firewall (WAF)] ausgelöst wird, können Benutzerinnen und Benutzer diese WAF-Regel deaktivieren oder die Cookies auf die Zulassungsliste setzen, wie im folgenden Beispiel gezeigt:
 
-![Beispiel einer WAF-Warnaufforderung für das Marketo Measure-Skript](assets/adding-marketo-measure-script-1.png)
+![Wenn während des Tests eine Warnung bezüglich Web Application Firewall (WAF) ausgelöst wird](assets/adding-script-1.png)
 
 ## Formulare, auf die besonders zu achten ist {#forms-to-pay-extra-attention-to}
 
@@ -79,6 +81,7 @@ Wenn während des JavaScript-Setups eine [!DNL Web Application Firewall (WAF)] a
 * Lösung: Fügen Sie dem Konto-/Kunden/Partner-Anmeldeformular einen Ausschluss-Code hinzu.
 
 >[!NOTE]
+>
 >Es wird empfohlen, einen Touchpoint für die Erstellung eines Kontos oder einer Testversion zu erstellen.
 
 **Herunterladen von Assets**
