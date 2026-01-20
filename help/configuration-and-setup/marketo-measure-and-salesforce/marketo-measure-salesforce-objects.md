@@ -73,7 +73,7 @@ Mit dem Objekt „[!DNL Marketo Measure]-Ereignisse“ können Sie bestimmte Ere
 
 ## [!DNL Marketo Measure]-Felder {#marketo-measure-fields}
 
-Die vom [!DNL Marketo Measure] JavaScript erfassten Daten werden in die benutzerdefinierten [!DNL Marketo Measure] in den [!DNL Marketo Measure] Objekten übertragen. Bestimmte Felder sind nur für bestimmte Objekte vorhanden. Sie können das [Glossar der [[!DNL Marketo Measure]] ](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) eine [Visualisierung der zugehörigen [!DNL Marketo Measure] Objekte) ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Die vom [!DNL Marketo Measure] JavaScript erfassten Daten werden in die benutzerdefinierten [!DNL Marketo Measure] in den [!DNL Marketo Measure] Objekten übertragen. Bestimmte Felder sind nur für bestimmte Objekte vorhanden. Sie können das [Glossar der [[!DNL Marketo Measure]] &#x200B;](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) eine [Visualisierung der zugehörigen [!DNL Marketo Measure] Objekte) &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 ## [!DNL Marketo Measure]-Berichte und -Dashboards {#marketo-measure-reports-and-dashboards}
 

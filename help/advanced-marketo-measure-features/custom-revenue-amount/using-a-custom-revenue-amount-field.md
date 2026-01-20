@@ -28,7 +28,7 @@ Von hier aus beginnen wir mit der Erstellung des Workflows.
 
 ## Erstellen des Workflows in Salesforce Lightning {#create-the-workflow-in-salesforce-lightning}
 
-Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen. Wenn Sie Salesforce Classic weiterhin verwenden, [ diese Schritte unten ](#create-the-workflow-in-salesforce-classic).
+Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen. Wenn Sie Salesforce Classic weiterhin verwenden, [&#x200B; diese Schritte unten &#x200B;](#create-the-workflow-in-salesforce-classic).
 
 1. Geben Sie bei der Einrichtung „Flüsse“ in das Feld „Schnellsuche“ ein und wählen Sie &quot;**[!UICONTROL &quot;,]** Flow Builder zu starten. Klicken Sie im rechten Bedienfeld auf die Schaltfläche **[!UICONTROL Neuer Fluss]**.
 
@@ -77,7 +77,7 @@ Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen.
 
 ## Erstellen des Workflows in Salesforce Classic {#create-the-workflow-in-salesforce-classic}
 
-Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Sie zu Salesforce Lightning gewechselt haben, [ Sie diese Schritte oben](#create-the-workflow-in-salesforce-lightning).
+Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Sie zu Salesforce Lightning gewechselt haben, [&#x200B; Sie diese Schritte oben](#create-the-workflow-in-salesforce-lightning).
 
 1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Erstellen]** > **[!UICONTROL Workflow und Genehmigungen]** > **[!UICONTROL Workflow-Regeln]**.
 

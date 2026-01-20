@@ -21,7 +21,7 @@ Dieser Bericht zeigt die Anzahl der von Ihren Marketing-Kanälen generierten Opp
 
    ![](assets/1-2.jpg)
 
-1. Zeigen Sie oben im Bericht &quot;**[!UICONTROL Attribution-Touchpoints von Bizible]** an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von &quot;[!UICONTROL &quot; ] &quot;**[!UICONTROL &quot;]**.
+1. Zeigen Sie oben im Bericht &quot;**[!UICONTROL Attribution-Touchpoints von Bizible]** an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von &quot;[!UICONTROL &quot; &#x200B;] &quot;**[!UICONTROL &quot;]**.
 
    ![](assets/2-2.jpg)
 

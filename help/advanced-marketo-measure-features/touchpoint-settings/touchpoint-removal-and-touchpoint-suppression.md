@@ -65,7 +65,7 @@ Machen Sie sich keine Sorgen, wenn Sie einen Fehler machen. Sie können auch ein
 
 ![](assets/5.png)
 
-Zum Fertigstellen [!UICONTROL  Sie Ihre Regeln ] und verarbeiten. Wenn Sie viele Änderungen vornehmen, sollten Sie sicherstellen, dass Sie Ihre Änderungen dabei speichern. [!DNL Marketo Measure] werden Ihre Touchpoints erst entfernen, wenn Sie auf klicken
+Zum Fertigstellen [!UICONTROL &#x200B; Sie Ihre Regeln &#x200B;] und verarbeiten. Wenn Sie viele Änderungen vornehmen, sollten Sie sicherstellen, dass Sie Ihre Änderungen dabei speichern. [!DNL Marketo Measure] werden Ihre Touchpoints erst entfernen, wenn Sie auf klicken
 [!UICONTROL **Speichern und Verarbeiten**].
 
 | **Operator** | **Anwendungsfall** |

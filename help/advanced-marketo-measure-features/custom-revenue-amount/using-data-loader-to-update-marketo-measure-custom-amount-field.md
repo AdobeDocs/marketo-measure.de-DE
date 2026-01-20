@@ -28,6 +28,6 @@ ht-degree: 2%
 **_Alternativ können Sie zu Salesforce wechseln und eine benutzerdefinierte Listenansicht verwenden, um alle Opportunities massenweise zu bearbeiten…_**
 
 1. Erstellen Sie eine benutzerdefinierte Listenansicht für alle Opportunities.
-1. Filter für das Feld „Bevorzugter Umsatz“ hinzufügen ist nicht leer _und das Feld_ 2}Marketo[!UICONTROL  Opportunity-Betrag messen ist leer.]
+1. Filter für das Feld „Bevorzugter Umsatz“ hinzufügen ist nicht leer _und das Feld_ 2&rbrace;Marketo[!UICONTROL &#x200B; Opportunity-Betrag messen ist leer.]
 1. Klicken Sie **[!UICONTROL Massenbearbeitung]** ändern Sie jedoch nichts.
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Dadurch wird der Workflow so Trigger, dass die Felder für den Betrag der [!DNL Marketo Measure] Opportunity mit dem Feld „Software-Umsatz“ ausgefüllt werden.

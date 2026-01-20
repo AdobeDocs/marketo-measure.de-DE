@@ -54,7 +54,7 @@ ht-degree: 88%
    + [!DNL Marketo Measure] und Salesforce {#marketo-measure-and-salesforce}
       + [Installation und Einrichtung von [!DNL Marketo Measure] Salesforce-Paketen](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
       + [[!DNL Salesforce] Paketkonsolidierung](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
-      + [ [!DNL Marketo Measure] mit Salesforce verbinden](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+      + [&#x200B; [!DNL Marketo Measure] mit Salesforce verbinden](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Best Practices für [!DNL Marketo Measure] CRM-Package](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce-Objekte](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
       + [Fehlerbehandlung für CRM-Exporte](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)

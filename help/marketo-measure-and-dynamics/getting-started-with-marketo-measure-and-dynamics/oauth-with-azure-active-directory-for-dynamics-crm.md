@@ -76,7 +76,7 @@ Diese Einrichtung richtet sich an neue [!DNL Marketo Measure], die Dynamics CRM 
 
    ![](assets/setup-13b.png)
 
-1. Stellen Sie auf der Registerkarte [!UICONTROL Benutzer und ]&quot; sicher, dass die gültigen „Benutzer und Gruppen“ der Anwendung zugewiesen sind.
+1. Stellen Sie auf der Registerkarte [!UICONTROL Benutzer und &#x200B;]&quot; sicher, dass die gültigen „Benutzer und Gruppen“ der Anwendung zugewiesen sind.
 
    ![](assets/setup-14.png)
 

@@ -29,7 +29,7 @@ Nachdem Sie sich bei Ihrem [!DNL Hubspot]-Konto angemeldet haben, führen Sie di
 
 1. Klicken Sie **[!UICONTROL Inhaltseinstellungen]**.
 
-1. Klicken [!UICONTROL  in &quot;]&quot; auf die Site-Kopfzeile HTML (siehe Abbildung unten).
+1. Klicken [!UICONTROL &#x200B; in &quot;]&quot; auf die Site-Kopfzeile HTML (siehe Abbildung unten).
 
 1. Fügen Sie das folgende Skript in Ihre `<header>` ein:
 
