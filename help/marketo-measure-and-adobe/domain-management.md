@@ -20,7 +20,7 @@ IMS-Benutzende mit Zugriff auf die Adobe Admin Console können Domains hinzufüg
 
 ![](assets/domain-management-1.png)
 
-Anweisungen zum Hinzufügen von Domains finden Sie in der Dokumentation zu [Admin Console](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Nachdem eine Domain hinzugefügt wurde, muss sie [mit einem Verzeichnis verknüpft](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
+Anweisungen zum Hinzufügen von Domains finden Sie in der Dokumentation zu [Admin Console](https://helpx.adobe.com/de/enterprise/using/add-domains-directories.html). Nachdem eine Domain hinzugefügt wurde, muss sie [mit einem Verzeichnis verknüpft](https://helpx.adobe.com/de/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## Verwalten von Domains in [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
