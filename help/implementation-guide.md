@@ -37,7 +37,7 @@ Erfahren Sie mehr über [Marketo Measure Ultimate](/help/migration-from-tier-to-
 
 >[!NOTE]
 >
->Unter [ eines Schemas finden Sie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#building-blocks-of-a-schema){target="_blank"} Übersicht über Schemas, Klassen und Feldergruppen.
+>Unter [&#x200B; eines Schemas finden Sie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#building-blocks-of-a-schema){target="_blank"} Übersicht über Schemas, Klassen und Feldergruppen.
 
 **XDM-Schema = Klasse + Schemafeldgruppe&#42;**
 
@@ -46,7 +46,7 @@ Erfahren Sie mehr über [Marketo Measure Ultimate](/help/migration-from-tier-to-
 
 &#42; _Ein Schema umfasst eine Klasse und keine oder mehr Schemafeldgruppen. Dies bedeutet, dass Sie ein Datensatzschema auch ohne die Verwendung von Feldergruppen erstellen können._
 
-![&amp;42; Ein Schema umfasst eine Klasse und kein oder mehrere Schemafelder](assets/marketo-guide-1.png)
+![&42; Ein Schema umfasst eine Klasse und kein oder mehrere Schemafelder](assets/marketo-guide-1.png)
 
 [Datensätze - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Alle Daten, die erfolgreich in AEP aufgenommen wurden, bleiben als Datensätze im Data Lake erhalten. Ein Datensatz ist ein Speicher- und Verwaltungskonstrukt für eine Sammlung von Daten, normalerweise eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält.
 
@@ -56,7 +56,7 @@ Es wird empfohlen, ein Dienstprogramm zur automatischen Generierung zu verwenden
 
 * Die Schritte zum Herunterladen und Einrichten des Dienstprogramms [finden Sie hier](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=de#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Für diejenigen mit einer _**CDP-Berechtigung**_: Erstellen Sie Schemata, indem Sie zur Seite „Quellen“ navigieren.
+Für diejenigen mit einer _&#x200B;**CDP-Berechtigung**&#x200B;_: Erstellen Sie Schemata, indem Sie zur Seite „Quellen“ navigieren.
 
 * Wählen Sie aus einer Quelle „Daten hinzufügen“ > „Vorlagen verwenden“ aus.
 

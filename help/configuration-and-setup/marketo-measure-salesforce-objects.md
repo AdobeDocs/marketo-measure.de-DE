@@ -46,7 +46,7 @@ Das [!UICONTROL Buyer Attribution Touchpoint]-Objekt liefert Informationen zu de
 
 Buyer Attribution Touchpoints (BAT) werden erst erstellt, nachdem eine Gelegenheit für Kontakte erstellt wurde, die über Buyer Touchpoint(BT)-Daten verfügen. BATs werden nicht ohne eine Opportunity erstellt. Sobald die Opportunity erstellt wurde, verwendet das BAT-Objekt das [!DNL Salesforce]-Feld *Betrag* für die Opportunity, um zu ermitteln, wie viel Umsatz den Touchpoints zugeordnet werden soll.
 
-Wenn Sie ein Feld [Benutzerdefinierter Betrag](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md) verwenden, um den Umsatz für das Opportunity-Objekt anzuzeigen, muss ein **** Workflow“ erstellt werden. [!DNL Marketo Measure] kann die in Feldern für benutzerdefinierte Beträge angezeigten Informationen nicht lesen und daher keine Umsatzzuordnungsdaten für die Touchpoints ausfüllen. Dieser Workflow verwendet das **[!DNL Marketo Measure]-Feld „Anzahl Opportunitys“**, eines der benutzerdefinierten [!DNL Marketo Measure]-Felder, um den Umsatzwert aus dem benutzerdefinierten Feld „Betrag“ dem Feld „Anzahl Opportunitys“ zuzuordnen.
+Wenn Sie ein Feld [Benutzerdefinierter Betrag](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md) verwenden, um den Umsatz für das Opportunity-Objekt anzuzeigen, muss ein **&#x200B;**&#x200B;Workflow“ erstellt werden. [!DNL Marketo Measure] kann die in Feldern für benutzerdefinierte Beträge angezeigten Informationen nicht lesen und daher keine Umsatzzuordnungsdaten für die Touchpoints ausfüllen. Dieser Workflow verwendet das **[!DNL Marketo Measure]-Feld „Anzahl Opportunitys“**, eines der benutzerdefinierten [!DNL Marketo Measure]-Felder, um den Umsatzwert aus dem benutzerdefinierten Feld „Betrag“ dem Feld „Anzahl Opportunitys“ zuzuordnen.
 
 ![Wenn Sie ein benutzerdefiniertes Summenfeld verwenden, muss ein Workflow erstellt werden](assets/connect-salesforce-1.png)
 
@@ -62,7 +62,7 @@ Das Objekt „[!DNL Marketo Measure]-Person“ verknüpft die Lead- und Kontakto
 
 Bei der Durchführung von A/B-Tests mit [!DNL Optimizely] oder VWO (Visual Web Optimizer) können Sie diese Konten mit Ihrem [!DNL Marketo Measure]-Konto verknüpfen, um die A/B-Testdaten in Salesforce anzuzeigen. Mit dem [!DNL Marketo Measure]-A/B-Testobjekt können Sie A/B-Testdaten aus Optimizely/VW0 abrufen und mit Leads und Kontakten verknüpfen.
 
-![Wenn Sie A/B-Tests über Optimizely oder VWO (Visual Studio) ](assets/marketo-salesforce-8.png)
+![Wenn Sie A/B-Tests über Optimizely oder VWO (Visual Studio) &#x200B;](assets/marketo-salesforce-8.png)
 
 Das [!DNL Marketo Measure]-A/B-Test-Objekt wird als zugehörige Liste auf den Seiten [!UICONTROL Leads], [!UICONTROL Kontakte] und [!UICONTROL Opportunitys] angezeigt. Die Liste zeigt alle Experimente und Varianten, die Sie in Optimizely oder VWO durchlaufen, und ermöglicht es Ihnen, die Experimente/Varianten in Bezug auf bestimmte Leads und Kontakte anzuzeigen.
 
@@ -72,7 +72,7 @@ Mit dem Objekt „[!DNL Marketo Measure]-Ereignisse“ können Sie bestimmte Ere
 
 ## [!DNL Marketo Measure]-Felder {#marketo-measure-fields}
 
-Die vom [!DNL Marketo Measure] JavaScript erfassten Daten werden in die benutzerdefinierten [!DNL Marketo Measure] in den [!DNL Marketo Measure] Objekten übertragen. Bestimmte Felder sind nur für bestimmte Objekte vorhanden. Sie können das [Glossar der [[!DNL Marketo Measure]] ](/help/glossary.md) eine [Visualisierung der zugehörigen [!DNL Marketo Measure] Objekte) ](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md).
+Die vom [!DNL Marketo Measure] JavaScript erfassten Daten werden in die benutzerdefinierten [!DNL Marketo Measure] in den [!DNL Marketo Measure] Objekten übertragen. Bestimmte Felder sind nur für bestimmte Objekte vorhanden. Sie können das [Glossar der [[!DNL Marketo Measure]] &#x200B;](/help/glossary.md) eine [Visualisierung der zugehörigen [!DNL Marketo Measure] Objekte) &#x200B;](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md).
 
 ## [!DNL Marketo Measure]-Berichte und -Dashboards {#marketo-measure-reports-and-dashboards}
 

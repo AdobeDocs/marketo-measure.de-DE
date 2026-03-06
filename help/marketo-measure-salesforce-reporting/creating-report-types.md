@@ -37,7 +37,7 @@ Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce
 1. Definieren Sie die Objektbeziehungen.
 
    * Das Lead-Objekt (A) mit dem [!DNL Marketo Measure] Personenobjekt (B) und dann mit dem Buyer Touchpoint-Objekt (C) verknüpfen
-   * Stellen Sie sicher[!UICONTROL  dass „Jeder A/B-Datensatz muss mindestens einen B/C]-Datensatz enthalten“ ausgewählt ist
+   * Stellen Sie sicher[!UICONTROL &#x200B; dass „Jeder A/B-Datensatz muss mindestens einen B/C]-Datensatz enthalten“ ausgewählt ist
    * [!UICONTROL Speichern]
 
    ![Speichern](assets/new-types-11.png)
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce
 1. Definieren Sie die Objektbeziehungen.
 
    * Verknüpfen Sie das [!DNL Marketo Measure] Personenobjekt (A) mit dem Buyer Touchpoint-Objekt (B)
-   * Stellen Sie sicher[!UICONTROL  dass „Jeder A-Eintrag muss mindestens einen B-Eintrag ]&quot; ausgewählt ist.
+   * Stellen Sie sicher[!UICONTROL &#x200B; dass „Jeder A-Eintrag muss mindestens einen B-Eintrag &#x200B;]&quot; ausgewählt ist.
    * [!UICONTROL Speichern]
 
    ![Speichern](assets/new-types-9.png)
@@ -83,7 +83,7 @@ Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce
 1. Definieren Sie die Objektbeziehungen.
 
    * Verknüpfen Sie das Opportunities-Objekt (A) mit dem Buyer Attribution Touchpoint-Objekt (B)
-   * Stellen Sie sicher[!UICONTROL  dass „Jeder A-Eintrag muss mindestens einen B-Eintrag ]&quot; ausgewählt ist.
+   * Stellen Sie sicher[!UICONTROL &#x200B; dass „Jeder A-Eintrag muss mindestens einen B-Eintrag &#x200B;]&quot; ausgewählt ist.
    * [!UICONTROL Speichern]
 
    ![Speichern](assets/new-types-15.png)
@@ -96,4 +96,4 @@ Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce
 
 1. Stellen Sie sicher, dass die benutzerdefinierten Felder, die Sie dem Bericht hinzufügen möchten, im Abschnitt Feldlayout-Eigenschaften angezeigt werden. Wenn Sie andere Felder hinzufügen möchten, verwenden Sie die Option &quot;[!UICONTROL Verknüpfte Felder über die Suche hinzufügen]&quot;.
 
-   ![1. ](assets/new-types-3.png) Stellen Sie sicher, dass die benutzerdefinierten Felder, die Sie dem hinzufügen möchten,
+   ![1. &#x200B;](assets/new-types-3.png) Stellen Sie sicher, dass die benutzerdefinierten Felder, die Sie dem hinzufügen möchten,

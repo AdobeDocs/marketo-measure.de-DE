@@ -22,13 +22,13 @@ So richten Sie Ihre Verbindung mit Marketo ein.
 
    ![1. Klicken Sie in Marketo Measure auf die Dropdown-Liste Mein Konto und](assets/set-connection-7.png)
 
-1. Klicken [!UICONTROL  unter &quot;]&quot; auf **[!UICONTROL Verbindungen]**.
+1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf **[!UICONTROL Verbindungen]**.
 
    ![1. Klicken Sie unter Integrationen auf Verbindungen.](assets/set-connection-8.png)
 
 1. Klicken Sie **[!UICONTROL Neue CRM-Verbindung einrichten]**.
 
-   ![1. Klicken Sie auf Neue CRM-Verbindung einrichten ](assets/set-connection-9.png)
+   ![1. Klicken Sie auf Neue CRM-Verbindung einrichten &#x200B;](assets/set-connection-9.png)
 
 1. Klicken Sie auf **[!UICONTROL Verbinden]**-Schaltfläche neben Marketo.
 
@@ -40,7 +40,7 @@ So richten Sie Ihre Verbindung mit Marketo ein.
 
 1. Wählen Sie noch in Marketo Engage **LaunchPoint** in der Baumstruktur links aus. Suchen Sie den benutzerdefinierten Service, den Sie mit Marketo Measure verbinden möchten, und klicken Sie auf **Details anzeigen**.
 
-   ![1. Wählen Sie noch in Marketo Engage LaunchPoint in der Baumstruktur auf der ](assets/set-connection-4.png)
+   ![1. Wählen Sie noch in Marketo Engage LaunchPoint in der Baumstruktur auf der &#x200B;](assets/set-connection-4.png)
 
 1. Markieren und speichern Sie die Client-ID und den geheimen Client-Schlüssel. Klicken Sie auf **Schließen**.
 

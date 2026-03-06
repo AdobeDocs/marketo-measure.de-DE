@@ -51,7 +51,7 @@ Ziel: Verwenden des Werts eines benutzerdefinierten Felds und Ablegen im Touchpo
    * **)** markiert das Ende der Extraktion
    * **.&#42;** teilt uns mit, dass wir die vollständige Zeichenfolge extrahieren
 
-![.&amp;42; sagt uns, dass wir die vollständige Zeichenfolge extrahieren](assets/touchpoint-fields-10.png)
+![.&42; sagt uns, dass wir die vollständige Zeichenfolge extrahieren](assets/touchpoint-fields-10.png)
 
 **Beispiel #2**
 
@@ -106,7 +106,7 @@ Da Ihre Landingpages immer komplizierter werden und Sie über mehrere Tracking-P
    * **(** markiert den Beginn der Extraktion
    * **)** markiert das Ende der Extraktion
    * **\W** gibt an, dass wir ein „Wort“ extrahieren
-   * ****** ist die Anzahl der Zeichen, die extrahiert werden
+   * **&#x200B;**&#x200B;** ist die Anzahl der Zeichen, die extrahiert werden
 
 * Erstellen Sie ein berechnetes Feld und beschriften Sie es mit „Benutzerdefinierte Kampagnen-ID“
 * Definieren Sie die Regel, indem Sie zunächst nach dem Feld Touchpoint.Session.LandingPage suchen
@@ -148,7 +148,7 @@ Nachdem wir nun gelernt haben, wie man Felder extrahiert und ihnen zuordnet, kom
 
       * Beachten Sie, dass nur die ersten Ziffern die geschlossene Klammer aufweisen, da nur die vier Ziffern extrahiert werden
    * **\d** gibt an, dass wir eine „Ziffer“ extrahieren
-   * ****** ist die Anzahl der Zeichen, die extrahiert werden
+   * **&#x200B;**&#x200B;** ist die Anzahl der Zeichen, die extrahiert werden
 
 
 
@@ -156,17 +156,17 @@ Nachdem wir nun gelernt haben, wie man Felder extrahiert und ihnen zuordnet, kom
 * Als Nächstes möchten wir alle möglichen Werte für die ersten Ziffern seinen Anzeigenamen zuordnen
 * Erstellen Sie ein berechnetes Feld und beschriften Sie es mit „Region_Name“
 * Definieren Sie die Regel, indem Sie mit der Suche nach dem extrahierten Feld beginnen. In diesem Fall [!DNL Touchpoint.Region]
-* Verwenden Sie den Operator [!UICONTROL zu“, ] eine Zuordnung für jede Zahl zu ihrem Wert erstellen möchten
+* Verwenden Sie den Operator [!UICONTROL zu“, &#x200B;] eine Zuordnung für jede Zahl zu ihrem Wert erstellen möchten
 * Es wird eine Tabelle angezeigt, in der die einzelnen Zuordnungen aufgelistet werden. Am Ende wird er ungefähr so aussehen:
 * Basierend auf der Zuordnung und der obigen URL würde der „Region_Wert“ für einen Touchpoint mit dieser Landingpage „EMEA“ lauten
 * Wiederholen Sie die Extraktion und die Zuordnung für die verbleibenden 4 Ziffernsätze
 
-   * Um 01 zu extrahieren, definieren Sie den Wert als „BZ=\d **-**(\d**)**-\d**-\d**-\d**&quot;
+   * Um 01 zu extrahieren, definieren Sie den Wert als „BZ=\d **-**(\d&#x200B;**)**-\d&#x200B;**-\d**-\d**&quot;
    * Um 09 zu extrahieren, definieren Sie den Wert als „BZ=\d **-\d**-**(\d**)**-\d**-\d**&quot;
-   * Um 03 zu extrahieren, definieren Sie den Wert als „BZ=\d **-\d**-\d**-**(\d**)**-\d**&quot;
-   * Um die 10 zu extrahieren, definieren Sie den Wert als „BZ=\d **-\d**-\d**-\d**-**(\d**)**&quot;
+   * Um 03 zu extrahieren, definieren Sie den Wert als „BZ=\d **-\d**-\d&#x200B;**-**(\d&#x200B;**)**-\d**&quot;
+   * Um die 10 zu extrahieren, definieren Sie den Wert als „BZ=\d **-\d**-\d&#x200B;**-\d**-**(\d**)**&quot;
 
-![Um die 10 zu extrahieren, definieren Sie den Wert als „BZ=\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-(\d](assets/touchpoint-fields-3.png))“](assets/touchpoint-fields-3.png)
+![Um die 10 zu extrahieren, definieren Sie den Wert als „BZ=\d](assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-(\d&rbrack;(assets/touchpoint-fields-3.png))“&rbrack;(assets/touchpoint-fields-3.png)
 
 **Verkettet**
 

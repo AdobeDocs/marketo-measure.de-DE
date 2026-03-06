@@ -26,7 +26,7 @@ Dieser Artikel bietet einen Überblick darüber, wie Sie Ihr [!DNL Salesforce]-K
 
 1. Klicken Sie unter dem CRM-Abschnitt in Verbindungen auf **[!UICONTROL Neue CRM-Verbindung einrichten]**.
 
-   ![1. Klicken Sie unter dem CRM-Abschnitt in Verbindungen auf Neu einrichten ](assets/bizible-taxonomy-1.png)
+   ![1. Klicken Sie unter dem CRM-Abschnitt in Verbindungen auf Neu einrichten &#x200B;](assets/bizible-taxonomy-1.png)
 
 1. Ein Popup-Fenster erscheint, in dem Sie aufgefordert werden, die CRM-Verbindung auszuwählen. Klicken Sie **[!UICONTROL Verbinden]** neben dem [!DNL Salesforce].
 

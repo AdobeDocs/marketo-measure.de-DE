@@ -62,7 +62,7 @@ Nachdem Sie einige Regeln erstellt haben, können Sie sie testen, um zu überpr�
 
 1. Um einen Test auszuführen, klicken Sie auf die Schaltfläche **[!UICONTROL TEST]**, wie unten dargestellt.
 
-   ![1. Klicken Sie zum Ausführen eines Tests wie abgebildet auf die Schaltfläche TEST ](assets/marketo-engage-programs-03.png)
+   ![1. Klicken Sie zum Ausführen eines Tests wie abgebildet auf die Schaltfläche TEST &#x200B;](assets/marketo-engage-programs-03.png)
 
 1. Es wird ein Modal angezeigt, in das Sie die Programm-ID aus Marketo eingeben können.
 

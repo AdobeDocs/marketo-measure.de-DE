@@ -30,6 +30,6 @@ ht-degree: 7%
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
 
-   ![1. Klicken Sie abschließend auf Speichern ](assets/discover-control-3.png)
+   ![1. Klicken Sie abschließend auf Speichern &#x200B;](assets/discover-control-3.png)
 
 Die Einstellung wird möglicherweise erst wirksam, wenn sich Benutzer abgemeldet haben und sich wieder anmelden.

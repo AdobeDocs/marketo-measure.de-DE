@@ -29,7 +29,7 @@ Um das Feldverlauf-Tracking zu aktivieren, folgen Sie den folgenden Anweisungen.
 
 1. Gehen Sie zu dem Objekt, in dem sich das benutzerdefinierte Feld befindet, und klicken Sie auf die Schaltfläche **[!UICONTROL Verlaufs-Tracking festlegen]**.
 
-   ![1. Wechseln Sie zu dem Objekt, in dem sich das benutzerdefinierte Feld befindet, und klicken Sie auf ](assets/custom-models-1.png)
+   ![1. Wechseln Sie zu dem Objekt, in dem sich das benutzerdefinierte Feld befindet, und klicken Sie auf &#x200B;](assets/custom-models-1.png)
 
 1. Wählen Sie die Felder aus, für die Sie Änderungen verfolgen möchten.
 

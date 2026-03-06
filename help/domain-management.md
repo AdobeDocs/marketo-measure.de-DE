@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Domänenverwaltung {#domain-management}
 
-Für IMS-aktivierte Mandanten, die [!DNL Marketo Measure] in der Experience Cloud-Benutzeroberfläche ausführen, bietet [!DNL Marketo Measure] eine Benutzeroberfläche, über die Benutzende ihre eigene Liste von Domains verwalten können. [!DNL Marketo Measure] Benutzer müssen zunächst alle Domains überprüfen, die sie in der [Adobe Admin Console verfolgen ](https://adminconsole.adobe.com/). Sobald die Domains in der Admin Console verifiziert wurden, können Benutzer verwalten, ob [!DNL Marketo Measure] diese Domains zum Tracking des Website-Traffics verwendet.
+Für IMS-aktivierte Mandanten, die [!DNL Marketo Measure] in der Experience Cloud-Benutzeroberfläche ausführen, bietet [!DNL Marketo Measure] eine Benutzeroberfläche, über die Benutzende ihre eigene Liste von Domains verwalten können. [!DNL Marketo Measure] Benutzer müssen zunächst alle Domains überprüfen, die sie in der [Adobe Admin Console verfolgen &#x200B;](https://adminconsole.adobe.com/). Sobald die Domains in der Admin Console verifiziert wurden, können Benutzer verwalten, ob [!DNL Marketo Measure] diese Domains zum Tracking des Website-Traffics verwendet.
 
 ## Hinzufügen von Domains in Admin Console {#adding-domains-in-admin-console}
 

@@ -32,7 +32,7 @@ Es wird empfohlen, dass Sie die [!DNL Marketo Measure]-Felder nur für Ihre Sand
 
 1. Klicken Sie auf **[!UICONTROL Bearbeiten]** neben dem Seiten-Layout, das Sie aktualisieren möchten.
 
-   ![1. Klicken Sie neben dem gewünschten Seiten-Layout auf Bearbeiten ](assets/marketo-salesforce-1.jpg)
+   ![1. Klicken Sie neben dem gewünschten Seiten-Layout auf Bearbeiten &#x200B;](assets/marketo-salesforce-1.jpg)
 
 1. Wählen Sie unter der Option [!UICONTROL Felder] das Feld **[!UICONTROL Buyer Touchpoints aktivieren]** und ziehen Sie es an die gewünschten Stelle auf der Seite. Fügen Sie als Nächstes die Felder **[!UICONTROL Startdatum des Touchpoints]** und **[!UICONTROL Enddatum des Touchpoints]** hinzu.
 
