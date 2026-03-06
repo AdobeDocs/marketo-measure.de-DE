@@ -1,12 +1,12 @@
 ---
-unique-page-id: 18874594
-description: Integrierte Werbeplattformen - [!DNL Marketo Measure]
+description: Anleitung zu integrierten Anzeigenplattformen für Marketo Measure-Benutzende
 title: Integrierte Anzeigenplattformen
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
+hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1853'
 ht-degree: 1%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Die maximale Anzahl von Ad Platform-Verbindungen, die Sie haben können, beträgt 300.
+>Die maximale Anzahl von Ad Platform-Verbindungen, die Sie verbinden können, beträgt 300.
 
 Bevor wir uns mit den Besonderheiten jeder Plattform befassen, werden wir uns damit befassen, wie wir eines dieser Konten mit [!DNL Marketo Measure] verbinden. Melden Sie sich zuerst bei [!DNL Marketo Measure] an und navigieren Sie **[!UICONTROL die Option]** Einstellungen **[!UICONTROL auf der Registerkarte]** Mein Konto“ oben links im Bildschirm. Wählen Sie anschließend **[!UICONTROL Verbindungen]** im Abschnitt **[!UICONTROL Integrationen]** auf der linken Seite aus.
 
 Wie in der Abbildung unten dargestellt, wird eine Schaltfläche zum Einrichten neuer Werbeverbindungen angezeigt.
 
-![](assets/2.png)
+![Wie in der Abbildung unten dargestellt, wird eine Schaltfläche angezeigt, mit der Sie Folgendes tun können](assets/bizible-guide-1.png)
 
 Nachdem Sie auf die Schaltfläche [!UICONTROL Neue Anzeigenverbindung einrichten] geklickt haben, wird ein Fenster (siehe unten) mit vier Anzeigenverbindungstypen [!UICONTROL Verbindung] angezeigt. Klicken Sie auf Verbinden. Daraufhin wird ein weiteres Fenster angezeigt, in dem Sie nach Anmeldeinformationen gefragt werden. Geben Sie die Anmeldeinformationen ein und klicken Sie auf [!UICONTROL Autorisieren], um das Konto mit [!DNL Marketo Measure] zu verbinden.
 
-![](assets/select-account-type.png)
+![Klicken Sie nach dem Klicken auf die Schaltfläche Neue Anzeigenverbindung einrichten , a](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -42,13 +42,13 @@ Die Tracking-Vorlage ist ein Tool, das Google bereitstellt, um die so genannten 
 [!DNL Marketo Measure] Sucht in Ihrem [!DNL AdWords]-Konto nach Tracking-Vorlagen:
 
 * *Option A*: Tracking-Vorlage wurde gefunden. [!DNL Marketo Measure] Fügt der Vorlage seine Parameter hinzu.
-* *Option B*: Es wurde eine Umleitung von Drittanbietern gefunden. Wenn in der Tracking-Vorlage eine Weiterleitung eines Drittanbieters gefunden wird, können [!DNL Marketo Measure] keine Maßnahmen ergreifen. Sie müssen die [!DNL Marketo Measure] Tags manuell zum Drittanbietersystem hinzufügen. Ein Beispiel für eine Umleitung von Drittanbietern wäre ein Tool zur Angebotsverwaltung wie Kenshoo oder Marin. Erfahren Sie mehr darüber, wie [Tools zur Angebotsverwaltung [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
+* *Option B*: Es wurde eine Umleitung von Drittanbietern gefunden. Wenn in der Tracking-Vorlage eine Weiterleitung eines Drittanbieters gefunden wird, können [!DNL Marketo Measure] keine Maßnahmen ergreifen. Sie müssen die [!DNL Marketo Measure] Tags manuell zum Drittanbietersystem hinzufügen. Ein Beispiel für eine Umleitung von Drittanbietern wäre ein Tool zur Angebotsverwaltung wie Kenshoo oder Marin. Erfahren Sie mehr darüber, wie [Tools zur Angebotsverwaltung [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Option C*: Keine Tracking-Vorlage gefunden. [!DNL Marketo Measure] überprüft alle Ihre Werbeziel-URLs auf die [!DNL Marketo Measure]. Basierend auf dem Scan, wenn:
    * Es wurden Parameter gefunden: die Einrichtung ist abgeschlossen!
    * Parameter wurden nicht gefunden: [!DNL Marketo Measure] hängen ihre Parameter an das Ende der Werbeziel-URLs an. [!DNL Marketo Measure] Fügt neue Anzeigen innerhalb von zwei Stunden nach ihrer Erstellung an. Beachten Sie, dass die Parameter nicht zu einer Vorlage hinzugefügt werden.
 
-Erfahren Sie mehr über unsere [[!DNL AdWords] automatische Tagging-Funktion](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
+Erfahren Sie mehr über unsere [[!DNL AdWords] automatische Tagging-Funktion](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## So aktivieren Sie [!DNL Marketo Measure] automatische Tagging für Adwords {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -60,15 +60,15 @@ Nachdem Sie über eine Tracking-Vorlage verfügen, befolgen Sie die nachstehende
 
 1. Navigieren Sie [!UICONTROL Mein Konto] > [!UICONTROL Einstellungen] > [!UICONTROL Integrationen] > [!UICONTROL Verbindungen].
 
-   ![](assets/4.png)
+   ![1. Gehen Sie zu Einstellungen meines Kontos Integrationen Verbindungen.](assets/utilizing-connections-8.png)
 
 1. Klicken Sie auf das Stiftsymbol neben dem AdWords-Konto, für das das automatische Tagging [!DNL Marketo Measure] ist.
 
-   ![](assets/5.png)
+   ![1. Klicken Sie auf das Stiftsymbol neben dem AdWords-Konto, das Folgendes bewirkt](assets/utilizing-connections-9.png)
 
 1. Schalten Sie in der oberen rechten Ecke den Umschalter **[!UICONTROL Automatisches Tagging]** auf **[!UICONTROL Ja]**. Klicken Sie unten auf der Seite auf **[!UICONTROL Weitere Informationen]**, um das Textfeld zu erweitern, und klicken Sie auf **[!UICONTROL Speichern]**. Die Einrichtung des automatischen Tagging ist abgeschlossen.
 
-   ![](assets/6.png)
+   ![1. Stellen Sie in der oberen rechten Ecke den Schalter für automatisches Tagging auf ein](assets/utilizing-connections-10.png)
 
 ## Einrichten einer Tracking-Vorlage in AdWords mit [!DNL Marketo Measure] {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
