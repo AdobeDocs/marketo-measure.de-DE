@@ -48,7 +48,7 @@ Erfahren Sie mehr über [Marketo Measure Ultimate](/help/migration-from-tier-to-
 
 ![&42; Ein Schema umfasst eine Klasse und kein oder mehrere Schemafelder](assets/marketo-guide-1.png)
 
-[Datensätze - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Alle Daten, die erfolgreich in AEP aufgenommen wurden, bleiben als Datensätze im Data Lake erhalten. Ein Datensatz ist ein Speicher- und Verwaltungskonstrukt für eine Sammlung von Daten, normalerweise eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält.
+[Datensätze - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Alle Daten, die erfolgreich in AEP aufgenommen wurden, bleiben als Datensätze im Data Lake erhalten. Ein Datensatz ist ein Speicher- und Verwaltungskonstrukt für eine Sammlung von Daten, normalerweise eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält.
 
 ## Erstellen eines Schemas {#creating-a-schema}
 
