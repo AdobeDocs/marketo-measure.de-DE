@@ -83,4 +83,4 @@ Wenn Sie in einer Visualisierung einen Wert oder eine Achsenbeschriftung auswäh
 
 QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles Element. Daraufhin wird eine kontextuelle QuickInfo angezeigt, die Einblicke oder Erklärungen zu diesem bestimmten Datenpunkt bietet.
 
-![QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles ](assets/discover-basics-4.gif)
+![QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles &#x200B;](assets/discover-basics-4.gif)
