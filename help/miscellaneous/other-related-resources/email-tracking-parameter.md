@@ -4,10 +4,10 @@ description: E-Mail-Tracking-Parameter - [!DNL Marketo Measure]
 title: E-Mail-Verfolgungsparameter
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 5%
+source-wordcount: '480'
+ht-degree: 4%
 
 ---
 
@@ -40,33 +40,33 @@ Marketo Measure akzeptiert die folgenden Werte: E-Mail-Adresse, Salesforce-Lead-
  </colgroup> 
  <tbody> 
   <tr> 
-   <th><p>Marketing-Automatisierung</p></th> 
+   <th><p>Marketing-Automation</p></th> 
    <th><p>Token/Tag/Makro </p></th> 
    <th><p>Beispiel</p></th> 
    <th><p>Hilfsmaterial</p></th> 
   </tr> 
   <tr> 
    <td><p>Marketo</p></td> 
-   <td><p>{{lead.email.address}} </p></td> 
-   <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}</p></td> 
-   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=de</p></td> 
+   <td><p>"{lead.email address}" </p></td> 
+   <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}`</p></td> 
+   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html</p></td> 
   </tr> 
   <tr> 
    <td><p>Pardot</p></td> 
    <td><p>%%email%% </p><p>oder</p><p>%%USER_CRM_ID%%</p></td> 
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%</p></td> 
-   <td><p>https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5</p></td> 
+   <td><p>https://help.salesforce.com/s/articleView?language=en_US&amp;id=pardot_variable_tags_reference.htm&amp;type=5</p></td> 
   </tr> 
   <tr> 
    <td><p>HubSpot</p></td> 
    <td><p>(über Editor eingefügt)</p></td> 
-   <td><p>k. A.</p></td> 
+   <td><p>Nicht zutreffend</p></td> 
    <td><p>https://knowledge.hubspot.com/website-pages/personalize-your-content</p></td> 
   </tr> 
   <tr> 
    <td><p>Act-On</p></td> 
    <td><p>(über Message Composer eingefügt)</p></td> 
-   <td><p>k. A.</p></td> 
+   <td><p>Nicht zutreffend</p></td> 
    <td><p>https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data</p></td> 
   </tr> 
  </tbody> 

@@ -4,7 +4,7 @@ title: Entdecken Sie die Grundlagen von Dashboards
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
 hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 1%
@@ -21,10 +21,10 @@ Jedes Dashboard verfügt über eine Reihe von Filtern sowie die folgenden Steuer
 
 | Name | Beschreibung |
 | --- | --- |
-| Umschalter für Filter | Schalten Sie den Filterbereich ein oder aus. |||![&#x200B; ---  --- &#x200B;](assets/discover-basics-9.png) |
-| Suchleiste | Verwenden Sie die Suche oben im Filterbereich, um nach einem bestimmten Filter zu suchen. Jeder Filter verfügt außerdem über eine eigene Suchleiste. |||![&#x200B; ---  --- &#x200B;](assets/discover-basics-10.png) |
-| Filterschaltfläche löschen | Um einen Filter zu löschen, klicken Sie auf das Radiergummi-Symbol oben rechts in jedem Filter. |||![&#x200B; ---  --- &#x200B;](assets/discover-basics-11.png) |
-| Schaltfläche „Anwenden“ | Klicken Sie auf , um Ihre Filteränderungen im Dashboard zu bestätigen und zu implementieren. |||![&#x200B; ---  --- &#x200B;](assets/discover-3a-1.png) |
+| Umschalter für Filter | Schalten Sie den Filterbereich ein oder aus. ![\| --- \| --- \|](assets/discover-basics-9.png) |
+| Suchleiste | Verwenden Sie die Suche oben im Filterbereich, um nach einem bestimmten Filter zu suchen. Jeder Filter verfügt außerdem über eine eigene Suchleiste. ![\| --- \| --- \|](assets/discover-basics-10.png) |
+| Filterschaltfläche löschen | Um einen Filter zu löschen, klicken Sie auf das Radiergummi-Symbol oben rechts in jedem Filter. ![\| --- \| --- \|](assets/discover-basics-11.png) |
+| Schaltfläche „Anwenden“ | Klicken Sie auf , um Ihre Filteränderungen im Dashboard zu bestätigen und zu implementieren. ![\| --- \| --- \|](assets/discover-3a-1.png) |
 
 ## Filter für visuelle Inhalte {#filters-on-visual}
 
@@ -83,4 +83,4 @@ Wenn Sie in einer Visualisierung einen Wert oder eine Achsenbeschriftung auswäh
 
 QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles Element. Daraufhin wird eine kontextuelle QuickInfo angezeigt, die Einblicke oder Erklärungen zu diesem bestimmten Datenpunkt bietet.
 
-![QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles &#x200B;](assets/discover-basics-4.gif)
+![QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles ](assets/discover-basics-4.gif)
