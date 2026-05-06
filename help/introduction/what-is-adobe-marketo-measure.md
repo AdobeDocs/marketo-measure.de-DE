@@ -3,7 +3,7 @@ description: Was ist Adobe Marketo Measure
 title: Was ist Adobe Marketo Measure?
 hide: true
 hidefromtoc: true
-source-git-commit: 7c3f586e308ba885d10f3f9b8925af93277ad2e0
+source-git-commit: 3f04c21a6990f61000418642713217a490d10f86
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 0%
@@ -26,10 +26,10 @@ Reden wir mehr darüber, wie es das macht!
 Funktionsweise von Marketo Measure
 Marketo Measure lässt sich mit vielen Tools in Ihrem Technologie-Stack integrieren. Es lässt sich auch direkt in die unten aufgeführten Werbeplattformen integrieren.
 
-●    Google Ads
-●    Bing Ads
-●    Facebook/Meta
-●    LinkedIn
+● Google Ads
+Bing-Anzeigen ●
+● Facebook/Meta
+● LinkedIn
 
 Diese Integrationen helfen dabei, den Paid-Media-Kampagnen-Traffic von diesen Plattformen aus auf die exakte Anzeigenkampagne aufzulösen, wenn das automatische Tagging aktiviert ist.
 
@@ -46,10 +46,10 @@ Mit all diesen Daten erschaffen Sie jetzt Touchpoints aus einer Fülle verschied
 
 Touchpoints wird auch eine Position zugewiesen. Diese Position basiert darauf, wo sich der Touchpoint im Kaufprozess und beim Journey befindet. Es gibt vier Standardpositionen und Sie haben die Möglichkeit, benutzerdefinierte Positionen zu erstellen. Die Standardpositionen sind wie folgt…
 
-●    First Touch (FT) - Der allererste Touchpoint (kann anonym sein)
-●    Lead Creation (LC) : Der erste Touchpoint, an dem wir eine E-Mail-Adresse erfassen
-●    Opportunity Creation (OC) - Der letzte Kontakt vor der Erstellung einer Opportunity
-●    Geschlossen : Der letzte Kontakt vor dem Abschluss (geschlossen, gewonnen oder verloren) einer Opportunity.
+● First Touch (FT) - Der allererste Touchpoint (kann anonym sein)
+● Lead Creation (LC) - Der erste Touchpoint, an dem wir eine E-Mail-Adresse erfassen
+● Opportunity Creation (OC) - Der letzte Kontakt vor der Erstellung einer Opportunity
+● Geschlossen : Der letzte Kontakt vor dem Abschluss (geschlossen, gewonnen oder verloren) einer Opportunity.
 
 Die Positionen bestimmen dann die Gewichtung, basierend auf den verschiedenen Attributionsmodellen.
 
