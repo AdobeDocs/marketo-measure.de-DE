@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: Handbuch zu [!DNL Marketo Measure]
 user-guide-description: '[!DNL Marketo Measure] gibt Marketing-Fachleuten einen Einblick, welche Marketing-Maßnahmen am effektivsten zur Umsatzsteigerung für ihre Firma beitragen.'
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+source-git-commit: 5eb42c797a34163504fe24fef19949d2c647793b
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 88%
+source-wordcount: '787'
+ht-degree: 87%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 88%
    + [!DNL Marketo Measure] und Salesforce {#marketo-measure-and-salesforce}
       + [Installation und Einrichtung von [!DNL Marketo Measure] Salesforce-Paketen](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
       + [[!DNL Salesforce] Paketkonsolidierung](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
-      + [&#x200B; [!DNL Marketo Measure] mit Salesforce verbinden](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+      + [ [!DNL Marketo Measure] mit Salesforce verbinden](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Best Practices für [!DNL Marketo Measure] CRM-Package](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce-Objekte](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
       + [Fehlerbehandlung für CRM-Exporte](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
@@ -233,7 +233,7 @@ ht-degree: 88%
       + [Datenschutzanfrage](miscellaneous/other-related-resources/privacy-requests.md)
       + [Entfernen der [!DNL Marketo Measure] -Tracking-Parameter aus der Landingpage-URL in Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Übergang zu [!DNL Marketo Measure] aus dem vollständigen Kreis](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
-   + [Test](miscellaneous/test.md)
+   + {hide-from-toc}[Test](miscellaneous/test.md)
 + Versionshinweise {#release-notes}
    + [Aktuelle Versionshinweise](release-notes/current.md)
    + Frühere Versionen {#previous-releases}
