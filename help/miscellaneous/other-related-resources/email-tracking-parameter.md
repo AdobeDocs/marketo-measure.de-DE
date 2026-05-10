@@ -4,9 +4,9 @@ description: E-Mail-Tracking-Parameter - [!DNL Marketo Measure]
 title: E-Mail-Verfolgungsparameter
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+source-git-commit: 39e5397e8423c81551e12bc3ec82d7b9312c17aa
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '463'
 ht-degree: 4%
 
 ---
@@ -47,8 +47,8 @@ Marketo Measure akzeptiert die folgenden Werte: E-Mail-Adresse, Salesforce-Lead-
   </tr> 
   <tr> 
    <td><p>Marketo</p></td> 
-   <td><p>"{lead.email address}" </p></td> 
-   <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}`</p></td> 
+   <td><p><pre><code>{{lead.Email Address}}</code></pre></p></td> 
+   <td><p><pre><code>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}</code></pre></p></td> 
    <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=de</p></td> 
   </tr> 
   <tr> 
