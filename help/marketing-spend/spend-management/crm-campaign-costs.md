@@ -4,9 +4,12 @@ description: CRM-Kampagnenkosten - [!DNL Marketo Measure]
 title: Kosten für CRM-Kampagnen
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/RxCP7bZJ9DND0BSpQ2PY5mOsSe-Kr45d24UKXWDmX6M
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: 1193
 ht-degree: 1%
 
 ---
@@ -75,7 +78,7 @@ Alle Änderungen an den Kosten oder der Verteilung müssen im CRM vorgenommen we
 
 **Ich habe das Start- und Enddatum sowie die Kosten ausgefüllt, aber warum werden meine Kosten immer noch nicht in [!DNL Marketo Measure] angezeigt?**
 
-Vergewissern Sie sich, dass Sie entweder den Wert &quot;Buyer Touchpoint aktivieren“ auf „Alle Kampagnenmitglieder einschließen“ oder zumindest „Respondierte Kampagnenmitglieder einschließen“ gesetzt haben oder dass Sie eine benutzerdefinierte Kampagnensynchronisierungsregel erstellt haben, die diese Kampagne enthält. Wenn Sie dies bestätigt haben und die Kampagne immer noch nicht angezeigt wird, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} damit wir überprüfen können, ob Ihre Kampagnen ordnungsgemäß importiert werden.
+Vergewissern Sie sich, dass Sie entweder den Wert &quot;Buyer Touchpoint aktivieren“ auf „Alle Kampagnenmitglieder einschließen“ oder zumindest „Respondierte Kampagnenmitglieder einschließen“ gesetzt haben oder dass Sie eine benutzerdefinierte Kampagnensynchronisierungsregel erstellt haben, die diese Kampagne enthält. Wenn Sie dies bestätigt haben und die Kampagne immer noch nicht angezeigt wird, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de){target="_blank"} damit wir überprüfen können, ob Ihre Kampagnen ordnungsgemäß importiert werden.
 
 **Ich muss die Verteilung meiner Kampagne ändern, damit ich sie in bestimmten Monaten schwerer wiegen kann. Wie mache ich das?**
 

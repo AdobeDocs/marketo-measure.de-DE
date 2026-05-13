@@ -4,10 +4,12 @@ description: Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag - [
 title: Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 2%
+source-wordcount: 689
+ht-degree: 4%
 
 ---
 
@@ -28,7 +30,7 @@ Von hier aus beginnen wir mit der Erstellung des Workflows.
 
 ## Erstellen des Workflows in Salesforce Lightning {#create-the-workflow-in-salesforce-lightning}
 
-Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen. Wenn Sie Salesforce Classic weiterhin verwenden, [&#x200B; diese Schritte unten &#x200B;](#create-the-workflow-in-salesforce-classic).
+Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen. Wenn Sie Salesforce Classic weiterhin verwenden, [ diese Schritte unten ](#create-the-workflow-in-salesforce-classic).
 
 1. Geben Sie bei der Einrichtung „Flüsse“ in das Feld „Schnellsuche“ ein und wählen Sie &quot;**[!UICONTROL &quot;,]** Flow Builder zu starten. Klicken Sie im rechten Bedienfeld auf die Schaltfläche **[!UICONTROL Neuer Fluss]**.
 
@@ -67,7 +69,7 @@ Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen.
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Ein Popup-Fenster wird angezeigt. Geben Sie im Fenster Fluss speichern „Flow Label“ ein (der Name der Flow API wird automatisch generiert). Klicken Sie **[!UICONTROL erneut auf]** Speichern“.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Ein Popup-Fenster wird angezeigt. Geben Sie im Fenster Fluss speichern „Flow Label“ ein (der Name der Flow API wird automatisch generiert). Klicken Sie erneut auf **[!UICONTROL Speichern]**.
 
    ![](assets/using-a-custom-revenue-amount-field-8.png)
 
@@ -77,7 +79,7 @@ Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen.
 
 ## Erstellen des Workflows in Salesforce Classic {#create-the-workflow-in-salesforce-classic}
 
-Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Sie zu Salesforce Lightning gewechselt haben, [&#x200B; Sie diese Schritte oben](#create-the-workflow-in-salesforce-lightning).
+Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Sie zu Salesforce Lightning gewechselt haben, [ Sie diese Schritte oben](#create-the-workflow-in-salesforce-lightning).
 
 1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Erstellen]** > **[!UICONTROL Workflow und Genehmigungen]** > **[!UICONTROL Workflow-Regeln]**.
 
@@ -102,8 +104,8 @@ Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Si
 
 1. Sie werden auf eine Rollout-Seite für Ihren Workflow zurückgeleitet. Stellen Sie sicher, dass Sie auf „Aktivieren“ klicken und schon können Sie loslegen. Klicken Sie zum Aktivieren **[!UICONTROL Bearbeiten]** neben Ihrem neuen Workflow und dann auf **[!UICONTROL Aktivieren]**.
 
-   Trigger Nachdem Sie diese Schritte abgeschlossen haben, müssen die Opportunitys aktualisiert werden, damit der Workflow den neuen Wert aus dem Feld [!UICONTROL Benutzerdefinierte Opportunity] erhält.
+   Nachdem Sie diese Schritte abgeschlossen haben, müssen die Opportunitys aktualisiert werden, damit der Workflow den neuen Wert aus dem Feld [!UICONTROL Benutzerdefinierte Opportunity] erhält.
 
    Dies können Sie erreichen, indem Sie Ihre Opportunitys über den Data Loader in SFDC ausführen. Weitere Informationen zur Verwendung des Datenladers finden Sie in [diesem Artikel](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}.
 
-Bei Fragen wenden Sie sich bitte an das Adobe Account Team (Ihren Account Manager) oder an den [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Bei Fragen wenden Sie sich bitte an das Adobe Account Team (Ihren Account Manager) oder an den [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de){target="_blank"}.

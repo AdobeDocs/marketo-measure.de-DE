@@ -4,9 +4,11 @@ description: Hinzufügen eines [!DNL Marketo Measure] -Skriptes über [!DNL Goog
 title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes über [!DNL Google Tag Manager]
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/g3PTxiShipF9q79oIAWKZIUU-YFMarLEDeKknaPiHck
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 198
 ht-degree: 95%
 
 ---
@@ -19,7 +21,7 @@ Wenn Sie unser Skript über GTM hinzufügen möchten, geben Sie dem [!DNL Market
 
 >[!NOTE]
 >
->Weitere Informationen finden Sie [&#x200B; diesem „Support](https://support.google.com/tagmanager/answer/2772421?hl=de){target="_blank"}Artikel von Google&quot;.
+>Weitere Informationen finden Sie [ diesem „Support](https://support.google.com/tagmanager/answer/2772421?hl=de){target="_blank"}Artikel von Google&quot;.
 
 ## Hinzufügen von [!DNL Marketo Measure]-JS über [!DNL Google Tag Manager] {#how-to-add-marketo-measure-js-via-google-tag-manager}
 

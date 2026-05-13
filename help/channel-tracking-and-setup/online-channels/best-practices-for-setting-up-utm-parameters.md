@@ -4,10 +4,12 @@ description: Best Practices zum Einrichten von UTM-Parametern – [!DNL Marketo 
 title: Best Practices zum Einrichten von UTM-Parametern
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/DtL-NA5HSr40pOEJ0iCge--9Aa-reP1PRyJIw3qfAqM
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 86%
+source-wordcount: 459
+ht-degree: 83%
 
 ---
 
@@ -33,7 +35,7 @@ Achten Sie auf Einfachheit. Verwenden Sie diesen Parameter nicht, um die Anzeige
 
 **utm_campaign**: Dieses Feld ist dem Anzeigenkampagnennamen zugeordnet. Verwenden Sie „utm_campaign“, um den Titel der Kampagne so wie auf der Anzeigenplattform oder intern referenziert anzugeben.
 
-Dieser Parameter eignet sich auch hervorragend, um Geolokation, Anzeigennetzwerk-Typ (Display oder Suche) usw. anzugeben.
+Dies ist auch ein guter Parameter, um Geolocation, Ad-Netzwerk-Typ (Anzeige v. search), und so weiter.
 
 Es wird empfohlen, Unterstriche anstelle von Leerzeichen zu verwenden und Interpunktion zu vermeiden. Dadurch wird die Wahrscheinlichkeit von Codierungsfehlern durch Browser beim Lesen Ihrer Parameter verringert.
 

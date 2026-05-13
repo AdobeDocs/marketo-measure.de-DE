@@ -4,9 +4,11 @@ description: Generierung und Zuordnung von Touchpoints – [!DNL Marketo Measure
 title: Generierung und Zuordnung von Touchpoints
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/otuePoQBPvb-UEJCTI1CeyA1BYQ7Jn-jZQm63si-6uA
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 363
 ht-degree: 100%
 
 ---
@@ -30,7 +32,7 @@ Der Prozess der Touchpoint-Generierung beantwortet die Frage „Wie weiß [!DNL 
 
 | **Interaktionstyp** | **Beispiel** | **Methode der Touchpoint-Generierung** |
 |---|---|---|
-| Online auf Ihren Sites | Formularausfüllung | JavaScript von [!DNL Marketo Measure]  |
+| Online auf Ihren Sites | Formularausfüllung | JavaScript von [!DNL Marketo Measure] |
 | Offline oder Online auf anderen Sites | Handelsmessen; Partner für Content Syndication stellen eine Liste von Leads bereit, die mit Ihren Inhalten interagiert haben | CRM-Kampagnenzugehörigkeit, synchronisiert mit [!DNL Marketo Measure], entweder durch Festlegen des Kampagnensynchronisierungstyps direkt in der Kampagne oder durch Festlegen von Regeln auf der Kampagnenseite in [!DNL Marketo Measure] |
 | Verkaufsaktivität | Ausgehender Aufruf von SDR | CRM-Aktivitätseintrag (Aufgabe oder Ereignis), synchronisiert mit [!DNL Marketo Measure] durch die Logik auf der Seite [!UICONTROL Aktivitäten] in [!DNL Marketo Measure] |
 
@@ -40,7 +42,7 @@ Der Prozess der Touchpoint-Zuordnung beantwortet die Frage: „Wenn dieser Touch
 
 | **Interaktionstyp** | **Generierungsmethode** | **Zuordnungsmethode** |
 |---|---|---|
-| Online auf Ihren Sites | JavaScript von [!DNL Marketo Measure]  | Über die Seite [!DNL Online Channels] in [!DNL Marketo Measure], indem UTM-Werte und die Landingpage referenziert werden und auf Verweisseiteninformationen verwiesen wird |
+| Online auf Ihren Sites | JavaScript von [!DNL Marketo Measure] | Über die Seite [!DNL Online Channels] in [!DNL Marketo Measure], indem UTM-Werte und die Landingpage referenziert werden und auf Verweisseiteninformationen verwiesen wird |
 | Offline oder Online auf anderen Sites | Synchronisierung der CRM-Kampagnenzugehörigkeit | Über die Seite [!UICONTROL Offline-Kanäle] in [!DNL Marketo Measure], durch Verweis auf den Kampagnentyp |
 | Verkaufsaktivität | Synchronisierung von CRM-Aktivitäten | Über die Seite [!UICONTROL Online-Kanäle] in [!DNL Marketo Measure], indem auf den Kampagnennamen verwiesen wird, der auf der Seite [!UICONTROL Aktivitäten] zugewiesen ist |
 

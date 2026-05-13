@@ -4,10 +4,13 @@ description: Vertriebschancen nach Marketing-Kanal - [!DNL Marketo Measure]
 title: Opportunitys nach Marketingkanal
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/UUVK-y5KT4g8YGIwDq1cWi4IU5-s8Ajr41n4pLwsLOU
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 4%
+source-wordcount: 213
+ht-degree: 3%
 
 ---
 
@@ -21,7 +24,7 @@ Dieser Bericht zeigt die Anzahl der von Ihren Marketing-Kanälen generierten Opp
 
    ![](assets/1-2.jpg)
 
-1. Zeigen Sie oben im Bericht &quot;**[!UICONTROL Attribution-Touchpoints von Bizible]** an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von &quot;[!UICONTROL &quot; &#x200B;] &quot;**[!UICONTROL &quot;]**.
+1. Zeigen Sie oben im Bericht &quot;**[!UICONTROL Attribution-Touchpoints von Bizible]** an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von &quot;[!UICONTROL &quot; ] &quot;**[!UICONTROL &quot;]**.
 
    ![](assets/2-2.jpg)
 
@@ -35,4 +38,4 @@ Dieser Bericht zeigt die Anzahl der von Ihren Marketing-Kanälen generierten Opp
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: Stock-SFDC-Berichte](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Stock-SFDC-Berichte](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

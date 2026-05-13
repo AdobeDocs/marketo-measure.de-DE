@@ -3,10 +3,13 @@ description: '[!DNL Marketo Measure]-Berichtsvorlage - Power BI - [!DNL Marketo 
 title: '[!DNL Marketo Measure]-Berichtsvorlage – Power BI'
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/xoNrfpeiDzwSGh1Ii3Anl1O78vaRrvmHlzYTrPG7k5I
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 99%
+source-wordcount: 2565
+ht-degree: 97%
 
 ---
 
@@ -14,7 +17,7 @@ ht-degree: 99%
 
 ## Erste Schritte {#getting-started}
 
-Sie können auf die Power BI-Berichtsvorlage ([) &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
+Sie können auf die Power BI-Berichtsvorlage ([) ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Öffnen Sie die Power BI-Datei der Adobe [!DNL Marketo Measure]-Berichtsvorlage.
 
@@ -105,9 +108,9 @@ Segmentnamen sind anpassbar. Sie weisen daher im Snowflake Data Warehouse allgem
 
 ### ID-Umwandlung mit Unterscheidung zwischen Groß-/Kleinschreibung {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure]-Daten verfügen über einige Tabellen, bei denen die Werte des Primärschlüssels (ID) zwischen Groß- und Kleinschreibung unterscheiden, nämlich „Touchpoint“ und „Kampagne“. Die Daten-Engine, die die Power BI-Modellierungsebene steuert, unterscheidet nicht zwischen Groß- und Kleinschreibung, was zu „doppelten“ ID-Werten führt. Um die Groß-/Kleinschreibung dieser Schlüsselwerte zu erhalten, wurden Umwandlungsschritte implementiert, die unsichtbare Zeichen an Kleinbuchstaben anhängen, wobei die Eindeutigkeit der ID bei der Auswertung auf Daten-Engine-Ebene gewahrt bleibt. Weitere Informationen zu diesem Problem und zu den detaillierten Schritten für die angewendete Methode finden Sie [hier] (https://blog.crossjoin.co.uk/2019
-/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Diese ID-Werte, bei denen zwischen Groß- und Kleinschreibung unterschieden wird, werden als „Join-IDs“ (Verküpfungs-IDs) bezeichnet und als Joinkeys (Verknüpfungsschlüssel) auf Beziehungsebene verwendet. Die Join-IDs wurden in der Berichtsebene ausgeblendet, sodass die ursprünglichen ID-Werte für Berichte sichtbar bleiben, da die unsichtbaren Zeichen die Funktionen zum Ausschneiden/Einfügen und 
-Filtern beeinträchtigen können.
+[!DNL Marketo Measure]-Daten verfügen über einige Tabellen, bei denen die Werte des Primärschlüssels (ID) zwischen Groß- und Kleinschreibung unterscheiden, nämlich „Touchpoint“ und „Kampagne“. Die Daten-Engine, die die Power BI-Modellierungsebene steuert, unterscheidet nicht zwischen Groß- und Kleinschreibung, was zu „doppelten“ ID-Werten führt. Um die Groß-/Kleinschreibung dieser Schlüsselwerte zu erhalten, wurden Umwandlungsschritte implementiert, die unsichtbare Zeichen an Kleinbuchstaben anhängen, wobei die Eindeutigkeit der ID bei der Auswertung auf Daten-Engine-Ebene gewahrt bleibt. Weitere Informationen zu diesem Problem und zu den detaillierten Schritten zur von uns verwendeten Methode finden Sie [hier] (https://blog.crossjoin.co.uk/2019
+/10/06/power-bi-and-case-sensitive/){target="_blank"}. Diese ID-Werte, bei denen zwischen Groß- und Kleinschreibung unterschieden wird, werden als „Join-IDs“ (Verküpfungs-IDs) bezeichnet und als Joinkeys (Verknüpfungsschlüssel) auf Beziehungsebene verwendet. Wir haben die Join-IDs in der Reporting-Ebene ausgeblendet, sodass die ursprünglichen ID-Werte für die Verwendung in Berichten sichtbar bleiben, da die unsichtbaren Zeichen das Ausschneiden beeinträchtigen können
+Funktionen zum Einfügen und Filtern.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 

@@ -4,10 +4,12 @@ description: Synchronisieren von Offline-Kampagnen - [!DNL Marketo Measure]
 title: Synchronisieren von Offline-Kampagnen
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/ltakDiD8y340M4KAMrInxoUjM1jGCIMmLs1stypPXzo
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 5%
+source-wordcount: 752
+ht-degree: 9%
 
 ---
 
@@ -35,7 +37,7 @@ Im Feld Erstellungsdatum auf dem Objekt Kampagnenmitglied wird [!DNL Salesforce]
 
 Warum ist das wichtig? Stellen Sie sich vor, Ihr Unternehmen hat im Januar einen Stand auf einer Konferenz gesponsert. Auf der Konferenz zeigten 100 Personen Interesse an Ihrem Produkt und gaben ihre Kontaktinformationen an, um E-Mail-Updates zu erhalten. Drei Wochen später haben Sie endlich eine Kampagne erstellt, [!DNL Salesforce] die Ergebnisse der Konferenz zu verfolgen.
 
-Ihr Upload-Datum liegt drei Wochen nach dem Konferenzdatum. Um diesen Unterschied zu beheben, [!UICONTROL &#x200B; Sie mit der Schaltfläche &#x200B;]Massenaktualisierung Touchpoint-Datum“ das entsprechende Datum festlegen. Die Schaltfläche ist in der Abbildung unten dargestellt.
+Ihr Upload-Datum liegt drei Wochen nach dem Konferenzdatum. Um diesen Unterschied zu beheben, [!UICONTROL  Sie mit der Schaltfläche ]Massenaktualisierung Touchpoint-Datum“ das entsprechende Datum festlegen. Die Schaltfläche ist in der Abbildung unten dargestellt.
 
 ![](assets/1-3.png)
 

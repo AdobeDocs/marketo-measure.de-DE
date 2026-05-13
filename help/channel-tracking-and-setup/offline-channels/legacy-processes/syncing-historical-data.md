@@ -4,9 +4,12 @@ description: Synchronisieren historischer Daten - [!DNL Marketo Measure]
 title: Synchronisieren historischer Daten
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/RODJgjoLhJW0g3ra0H-mn8bOeBicfOuVlLSvU--Gaeo
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: 1516
 ht-degree: 3%
 
 ---
@@ -25,7 +28,7 @@ ht-degree: 3%
 
 a. Die Daten müssen in Kampagnen organisiert und mit [!DNL Marketo Measure] synchronisiert werden, damit Touchpoints generiert werden können. Wenn er derzeit nicht in Kampagnen unterteilt ist, sollten Sie prüfen, ob sich die Zeit und die Ressourcen lohnen, die für die Segmentierung der Daten in die entsprechenden Kampagnen erforderlich sind.
 
-b. Das Datum, an dem das Mitglied der Kampagne hinzugefügt wurde oder als beantwortet markiert wurde, wird für das Touchpoint-Datum verwendet. Daher muss dieses Datum auch korrekt sein. [!DNL Marketo Measure] bietet Problemumgehungen sowohl in SFDC als auch in MSD, um die Daten zu aktualisieren. Dies kann jedoch je nach Volumen zeitaufwendig sein.
+b. Das Datum, an dem das Mitglied der Kampagne hinzugefügt wurde oder als „Responded“ (geantwortet) markiert wurde, wird für das Touchpoint-Datum verwendet. Daher muss dieses Datum auch korrekt sein. [!DNL Marketo Measure] bietet Problemumgehungen sowohl in SFDC als auch in MSD, um die Daten zu aktualisieren. Dies kann jedoch je nach Volumen zeitaufwendig sein.
 
 **Haben Sie für alle Kanäle (Paid Search, Ereignisse, Organic usw.) eine relativ gleiche Datenmenge in Kampagnen organisiert?**
 
@@ -49,7 +52,7 @@ Dies ist ein Thema, das wir dringend empfehlen, zuerst mit Ihrem [!DNL Marketo M
 
 **Online:**
 
-Um historische Online-Daten zu synchronisieren, müssen die Daten in Salesforce-Kampagnen unterteilt sein. Diese können dann über [!DNL Marketo Measure] Regeln für die Kampagnensynchronisierung in der [!DNL Salesforce] App mit [!DNL Marketo Measure] synchronisiert werden. Sie müssen sicherstellen, dass aus keiner dieser Kampagnen nach dem Tag der Live-Schaltung Ihrer JavaScript Touchpoints generiert werden. Der Grund dafür ist, doppelte Touchpoints zu vermeiden. Nach der Live-Schaltung der JavaScript werden Online-Anstrengungen automatisch verfolgt, sodass wir sie nicht auch über eine SFDC-Kampagne verfolgen möchten. Um dieses Problem zu vermeiden, sollten Sie der Regel eine gewisse Zeit hinzufügen. Möglicherweise liegt das Erstellungsdatum des Kampagnenmitglieds unter dem [JavaScript-Tag der Live-Schaltung].
+Um historische Online-Daten zu synchronisieren, müssen die Daten in Salesforce-Kampagnen unterteilt sein. Diese können dann über [!DNL Salesforce] Regeln für die Kampagnensynchronisierung in der [!DNL Marketo Measure] App mit [!DNL Marketo Measure] synchronisiert werden. Sie müssen sicherstellen, dass aus keiner dieser Kampagnen nach dem Tag der Live-Schaltung Ihrer JavaScript Touchpoints generiert werden. Der Grund dafür ist, doppelte Touchpoints zu vermeiden. Nach der Live-Schaltung der JavaScript werden Online-Anstrengungen automatisch verfolgt, sodass wir sie nicht auch über eine SFDC-Kampagne verfolgen möchten. Um dieses Problem zu vermeiden, sollten Sie der Regel eine gewisse Zeit hinzufügen. Möglicherweise liegt das Erstellungsdatum des Kampagnenmitglieds unter dem [JavaScript-Tag der Live-Schaltung].
 
 ![](assets/syncing-historical-data-1.png)
 
@@ -69,7 +72,7 @@ Online-Daten, die auf diese Weise hinzugefügt werden, sind von Natur aus wenige
 
 Es ist möglicherweise nicht möglich oder sinnvoll, die Anzahl der SFDC-Kampagnentypen zu verwenden, um eine granulare Kanalzuordnung zu unterstützen. Daher müssen Sie möglicherweise nur auf die Kanalebene zuordnen und die Unterkanäle ignorieren. Wenn die Kanalebene ebenfalls nicht bekannt ist, können Sie einen Proxy-Kanal wie „Historic Digital“ einrichten, damit Sie zumindest wissen, dass es sich um einen Online-Touch handelte.
 
-Wenn Sie das Touchpoint-Datum, das für diese historischen Online-Bemühungen gesendet wird, massenweise bearbeiten müssen, verwenden Sie die [!DNL Marketo Measure] benutzerdefinierte Schaltfläche „Touchpoint-Datum [!UICONTROL &#x200B; Massenaktualisierung] (dieses Feld ist als benutzerdefiniertes Feld im Kampagnenobjekt in SFDC verfügbar). Wenn die Kampagne eine kurze Zeitspanne hat, wäre es vielleicht sinnvoll, das Touchpoint-Datum massenweise in einem Tagesintervall zu bearbeiten, während es möglicherweise sinnvoll wäre, die Massenaktualisierung wöchentlich durchzuführen, wenn die Kampagne eine längere Zeitspanne hat. Wenn Sie die Funktion „Massen-Update-Touchpoint-Datum“ verwenden, stellen Sie sicher, dass Sie die Kampagnensynchronisierungsregel aktualisieren, um das Buyer Touchpoint-Datum im Datumsfeld zu verwenden. Beachten Sie, dass Sie dazu möglicherweise kreativ mit Ihren Kampagnen-Synchronisierungsregeln umgehen müssen, wenn dies nur für eine oder zwei Kampagnen gilt und nicht für alle.
+Wenn Sie das Touchpoint-Datum, das für diese historischen Online-Bemühungen gesendet wird, massenweise bearbeiten müssen, verwenden Sie die [!DNL Marketo Measure] benutzerdefinierte Schaltfläche „Touchpoint-Datum [!UICONTROL  Massenaktualisierung] (dieses Feld ist als benutzerdefiniertes Feld im Kampagnenobjekt in SFDC verfügbar). Wenn die Kampagne eine kurze Zeitspanne hat, wäre es vielleicht sinnvoll, das Touchpoint-Datum massenweise in einem Tagesintervall zu bearbeiten, während es möglicherweise sinnvoll wäre, die Massenaktualisierung wöchentlich durchzuführen, wenn die Kampagne eine längere Zeitspanne hat. Wenn Sie die Funktion „Massen-Update-Touchpoint-Datum“ verwenden, stellen Sie sicher, dass Sie die Kampagnensynchronisierungsregel aktualisieren, um das Buyer Touchpoint-Datum im Datumsfeld zu verwenden. Beachten Sie, dass Sie dazu möglicherweise kreativ mit Ihren Kampagnen-Synchronisierungsregeln umgehen müssen, wenn dies nur für eine oder zwei Kampagnen gilt und nicht für alle.
 
 **offline:**
 

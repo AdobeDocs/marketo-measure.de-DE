@@ -4,9 +4,11 @@ description: ' [!DNL Marketo Measure] - [!DNL Hubspot] - [!DNL Marketo Measure]'
 title: Wird  [!DNL Marketo Measure]  hinzugefügt [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/3To9-9GZMHJf6vVOUPTedkJBpqU1TZNxKeVBHIm0PKY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: 177
 ht-degree: 1%
 
 ---
@@ -29,7 +31,7 @@ Nachdem Sie sich bei Ihrem [!DNL Hubspot]-Konto angemeldet haben, führen Sie di
 
 1. Klicken Sie **[!UICONTROL Inhaltseinstellungen]**.
 
-1. Klicken [!UICONTROL &#x200B; in &quot;]&quot; auf die Site-Kopfzeile HTML (siehe Abbildung unten).
+1. Klicken [!UICONTROL  in &quot;]&quot; auf die Site-Kopfzeile HTML (siehe Abbildung unten).
 
 1. Fügen Sie das folgende Skript in Ihre `<header>` ein:
 

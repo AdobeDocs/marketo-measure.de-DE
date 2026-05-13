@@ -3,9 +3,12 @@ description: Best Practices für die Staging-Zuordnung - [!DNL Marketo Measure]
 title: Best Practices für die Phasenzuordnung
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: 479
 ht-degree: 4%
 
 ---
@@ -31,7 +34,7 @@ Unabhängig davon, ob Sie Ihr Staging-Mapping zum ersten Mal bewerten oder nur I
    * Ein boolesches Feld ist die Best-Practice-Empfehlung
 * Beachten Sie, dass der Abschnitt Lead- oder Kontaktphase in Verloren, Offen und Konvertiert unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden
    * Eine Stufe im falschen Abschnitt der Stufe kann zu stark falschen [!DNL Marketo Measure] führen
-   * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr standardmäßiges Dashboard-Objekt als Kontakt festgelegt haben, verwenden Sie nicht die beiden folgenden Lead-spezifischen Felder ([&#x200B; mehr dazu](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr standardmäßiges Dashboard-Objekt als Kontakt festgelegt haben, verwenden Sie nicht die beiden folgenden Lead-spezifischen Felder ([ mehr dazu](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Beachten Sie, dass der Abschnitt „Opportunity-Phase“ in „Verloren“, „Offen“ und „Gewonnen“ unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden

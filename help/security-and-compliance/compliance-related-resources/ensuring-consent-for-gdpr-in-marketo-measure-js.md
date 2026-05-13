@@ -4,10 +4,13 @@ description: Sicherstellen der Zustimmung für die DSGVO in Marketo Measure JS �
 title: Sicherstellen der Zustimmung für die DSGVO in Marketo Measure JS
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/hQdhj6JLLiLkBfe-DgklJH-1Zk5WJJea0zADzILEeMY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 100%
+source-wordcount: 425
+ht-degree: 96%
 
 ---
 
@@ -52,7 +55,7 @@ Damit wird [!DNL bizible.js] angewiesen, nichts nachzuverfolgen, bis eine Zustim
 
 *Bizible. Push(&#39;Consent&#39;, true);*
 
-**Wenn Sie [!DNL Google Tag Manager] verwenden, um das Skript** zu installieren, denken Sie daran, dass GTM die Datenattribute entfernt. Verwenden Sie stattdessen das folgende Skript:
+**Wenn Sie [!DNL Google Tag Manager] verwenden, um das Skript zu installieren**, denken Sie daran, dass GTM die Datenattribute entfernt. Verwenden Sie stattdessen das folgende Skript:
 
 `<span id="bizible-settings" data-requires-user-consent="true"></span>`
 `<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`

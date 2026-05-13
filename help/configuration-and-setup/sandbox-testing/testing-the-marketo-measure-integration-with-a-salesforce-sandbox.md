@@ -4,10 +4,12 @@ description: Testen der Marketo Measure-Integration mit einer Salesforce-Sandbox
 title: Testen der Marketo Measure-Integration mit einer Salesforce-Sandbox
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Es3alliU-EbPfMFY6gOybcr12HGgKVHyu97r7ZfRPFA
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 10%
+source-wordcount: 362
+ht-degree: 9%
 
 ---
 
@@ -33,4 +35,4 @@ Im Folgenden finden Sie die beiden Quellen, die für beide Testphasen referenzie
 1. Laden Sie nach der Erstellung der Kampagne Leads als Kampagnenmitglieder hoch, indem Sie **[!UICONTROL Mitglieder verwalten]** > **[!UICONTROL Mitglieder hinzufügen]** > **[!UICONTROL Dateien importieren]** auswählen.
 1. Wenn dies abgeschlossen ist, kehren Sie zum Kampagnenseiten-Layout zurück und geben Sie „Käufer-Touchpoints aktivieren“ ein Auswahllistenfeld an. Wählen Sie den Wert: **[!UICONTROL Alle Kampagnenmitglieder einschließen]**.
 
-Danach wird eine Synchronisation zwischen [!DNL Marketo Measure] und [!DNL Salesforce] gestartet und Touchpoints werden auf die Lead-Datensätze angewendet. Wir empfehlen, am nächsten Tag einen Bericht mit dem Namen &quot;Buyer Touchpoint on Leads“ im Ordner &quot;[!UICONTROL &#x200B; Touchpoints-Berichte“ auf &#x200B;] Registerkarte „Berichte“ zu verwenden. Wenn der Bericht für jeden Lead einen Touchpoint ausfüllt, ist dies ein Zeichen für Erfolg.
+Danach wird eine Synchronisation zwischen [!DNL Marketo Measure] und [!DNL Salesforce] gestartet und Touchpoints werden auf die Lead-Datensätze angewendet. Wir empfehlen, am nächsten Tag einen Bericht mit dem Namen &quot;Buyer Touchpoint on Leads“ im Ordner &quot;[!UICONTROL  Touchpoints-Berichte“ auf ] Registerkarte „Berichte“ zu verwenden. Wenn der Bericht für jeden Lead einen Touchpoint ausfüllt, ist dies ein Zeichen für Erfolg.

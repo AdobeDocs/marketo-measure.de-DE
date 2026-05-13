@@ -4,10 +4,13 @@ description: Best Practices für die Zusammenführung von Leads - [!DNL Marketo 
 title: Best Practices für die Zusammenführung von Leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/VonT7Suvlt5VjzPqZ9UWoVe3ZTpPsk4c-7q-0wLplA0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 5%
+source-wordcount: 200
+ht-degree: 8%
 
 ---
 
@@ -15,7 +18,7 @@ ht-degree: 5%
 
 Beim Zusammenführen von Leads in [!DNL Salesforce] sollten Sie immer vorsichtig sein, um sicherzustellen, dass keine Daten verloren gehen.
 
-Im Folgenden finden Sie eine Aufschlüsselung des [-Supports &#x200B;](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5)Zusammenführen von Leads[!DNL Salesforce].
+Im Folgenden finden Sie eine Aufschlüsselung des [!DNL Salesforce]-Supports [Zusammenführen von Leads](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5).
 
 [!DNL Marketo Measure] kommt ins Spiel, wenn es an der Zeit ist, Felder auszuwählen, die in den zusammengeführten Datensatz eingefügt werden. Überprüfen Sie bei Auswahl des primären Datensatzes, ob die [!DNL Marketo Measure] Felder ausgewählt wurden, um sie in den neuen Datensatz zu übertragen.
 

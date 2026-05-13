@@ -4,10 +4,12 @@ description: Warum Sie niemals Touchpoints löschen sollten - [!DNL Marketo Meas
 title: Warum Sie Touchpoints nie löschen sollten
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/HeJr54wYsCH2Ic4dZ-Ds24c5-kC-Joq0uIZhXL5zE-o
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 5%
+source-wordcount: 228
+ht-degree: 8%
 
 ---
 
@@ -21,4 +23,4 @@ Wenn ein Touchpoint gelöscht wird, entsteht eine Bohrung in den Attributionsdat
 
 ![](assets/1.png)
 
-Wenn Touchpoints aus Ihrer SFDC gelöscht wurden, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}, um einen erneuten Import Ihrer Daten anzufordern.
+Wenn Touchpoints aus Ihrer SFDC gelöscht wurden, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de){target="_blank"}, um einen erneuten Import Ihrer Daten anzufordern.

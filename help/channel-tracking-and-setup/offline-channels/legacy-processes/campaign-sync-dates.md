@@ -4,10 +4,12 @@ description: Kampagnensynchronisierungstermine - [!DNL Marketo Measure]
 title: Kampagnensynchronisierungsdaten
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/GwenZehxxKmWurJHJ3i3RTyhMocQ8piRR7HVARAbBKI
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 5%
+source-wordcount: 499
+ht-degree: 6%
 
 ---
 
@@ -42,4 +44,4 @@ Es kann vorkommen, dass es einem Marketing-Team nicht gelingt, zu einem bestimmt
 
 Wenn Sie Neukunde von [!DNL Marketo Measure] sind, möchten Sie möglicherweise einige der Marketing-Daten mitbringen, die Sie über SFDC Campaign verfolgt haben. Wenn Sie jedoch Touchpoints für Ihre Online-SFDC-Kampagnen aktivieren, könnte dies das Problem der doppelten Zählung der Attribution verursachen, da [!DNL Marketo Measure] automatisch Touchpoints für Ihre Online-Marketing-Maßnahmen erstellt. Um eine doppelte Zählung von Daten zu vermeiden, können Sie mithilfe der Touchpoint-Enddaten von Campaign eine Begrenzung für die Touchpoint-Daten festlegen, die von [!DNL Marketo Measure] in der SFDC-Kampagne erstellt wurden. Wenn Sie beispielsweise rückwirkende Konversionen für eine Social-Media-Kampagne hinzufügen möchten, die Sie in SFDC verfolgt haben, aber Sie wissen, dass Sie am 1. Juli die [!DNL Marketo Measure] JavaScript hinzugefügt haben (die Online-Touchpoints erstellt), können Sie die Social-Media-SFDC-Kampagne so bearbeiten, dass sie ein Touchpoint-Enddatum enthält, das dem 1. Juli entspricht, und Buyer-Touchpoints für diese Kampagne aktivieren.
 
-Es kann viele weitere Anwendungsfälle für Touchpoint-Enddaten geben. Wenn Sie Hilfe beim Ermitteln einer bestimmten Situation benötigen, wenden Sie sich bitte an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Es kann viele weitere Anwendungsfälle für Touchpoint-Enddaten geben. Wenn Sie Hilfe beim Ermitteln einer bestimmten Situation benötigen, wenden Sie sich bitte an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de){target="_blank"}.

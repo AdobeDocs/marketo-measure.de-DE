@@ -4,9 +4,12 @@ description: '[!DNL Marketo Measure]-Wartung - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure]-Wartung'
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/VEBJQ-MEYJv0wmkGV9kcLO42qQ25ibwinCGYOP5Kk-k
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: 636
 ht-degree: 95%
 
 ---
@@ -27,7 +30,7 @@ Frischen Sie Ihr Gedächtnis auf, indem Sie [diesen Artikel](/help/marketing-spe
 
 **Aktualisieren der Liste der zu verfolgenden Domains (1x/Monat)**
 
-Marketo Measure verfolgt alle Seiten und Subdomains, auf denen unser JavaScript aktiv ist, aber nur für Domains, die uns bekannt sind. Wenn Sie kürzlich eine neue Domain eröffnet, international erweitert oder Ihre primäre Domain geändert haben, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}, um sicherzustellen, dass wir Ihr Konto entsprechend aktualisieren.
+Marketo Measure verfolgt alle Seiten und Subdomains, auf denen unser JavaScript aktiv ist, aber nur für Domains, die uns bekannt sind. Wenn Sie kürzlich eine neue Domain eröffnet, international erweitert oder Ihre primäre Domain geändert haben, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de){target="_blank"}, um sicherzustellen, dass wir Ihr Konto entsprechend aktualisieren.
 
 **Überprüfen der Zuordnung der benutzerdefinierten Kanäle auf Genauigkeit (1x/Monat)**
 
