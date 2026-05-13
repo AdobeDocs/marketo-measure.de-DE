@@ -4,16 +4,19 @@ description: Hinzufügen  [!DNL Marketo Measure] zu [!DNL Marketo] Landingpages 
 title: Hinzufügen von [!DNL Marketo Measure] zu Marketo-Landingpages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/oMudhh5HLf2i618ZV7RjLNMCsYYgxKoO-hp1g6ia85U
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: 229
 ht-degree: 3%
 
 ---
 
 # Hinzufügen von [!DNL Marketo Measure] zu Marketo-Landingpages {#adding-marketo-measure-to-marketo-landing-pages}
 
-Erfahren Sie, wie Sie Tracking zu [!DNL Marketo Engage] Landingpages hinzufügen, da diese zusätzliche Verarbeitungsschritte erfordern. [!DNL Marketo Measure] JavaScript muss sowohl auf der Landingpage als auch im [!DNL Marketo Engage] Formular vorhanden sein. Dazu müssen Sie die [!DNL Marketo Measure] JavaScript wie in den folgenden Anweisungen beschrieben in [!DNL Marketo Engage] laden.
+Erfahren Sie, wie Sie Tracking zu [!DNL Marketo Engage] Landingpages hinzufügen, da diese zusätzliche Verarbeitungsschritte erfordern. [!DNL Marketo Measure] JavaScript muss sowohl auf der Landingpage als auch im [!DNL Marketo Engage] Formular selbst vorhanden sein. Dazu müssen Sie die [!DNL Marketo Measure] JavaScript wie in den folgenden Anweisungen beschrieben in [!DNL Marketo Engage] laden.
 
 >[!NOTE]
 >
@@ -34,7 +37,7 @@ Beispiel im folgenden Screenshot
 
    ![](assets/adding-bizible-to-marketo-landing-pages-1.png)
 
-## Zusätzliche Hinweise {#additional-notes}
+## Weitere Hinweise {#additional-notes}
 
 * Möglicherweise sind bereits andere Trackingcode-Snippets vorhanden, z. B. ein [!DNL Google Analytics]. Es ist kein Problem damit, stellen Sie sicher, dass Sie sie mit einem Semikolon `;` und einem einzigen Leerzeichen trennen. Ein Beispiel dafür, wie dies aussehen würde:
 

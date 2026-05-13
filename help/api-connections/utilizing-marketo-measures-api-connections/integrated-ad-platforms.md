@@ -4,16 +4,24 @@ description: Integrierte Werbeplattformen - [!DNL Marketo Measure]
 title: Integrierte Anzeigenplattformen
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+TQID: https://experienceleague.adobe.com/R4zYLoHltPjhCEYZ800GO9AZ7noyOmXYXu0VAlVzY-0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: 1793
 ht-degree: 1%
 
 ---
 
 # Integrierte Anzeigenplattformen {#integrated-ad-platforms}
 
-[!DNL Marketo Measure] verfügt über API-Verbindungen zu Google AdWords, Microsoft BingAds, [!DNL Facebook] Ads und DoubleClick Campaign Manager. Über diese API-Verbindungen kann [!DNL Marketo Measure] Daten einfach abrufen und zusammen mit der externen Buyer-App an Ihr CRM übertragen. Es ist kein manuelles Hochladen von Kosten oder Daten erforderlich. Stattdessen müssen Ihre Konten einfach mit der [!DNL Marketo Measure]-App verbunden und autorisiert werden. [!DNL Marketo Measure] lädt dann automatisch Ihre Marketing-Kosten von den Plattformen herunter und lädt sie in die [!DNL Marketo Measure]-App. Wenn Sie das automatische Tagging für AdWords, BingAds oder [!DNL Facebook] Ads aktivieren möchten, hängen [!DNL Marketo Measure] seine Parameter automatisch an die URLs Ihrer Anzeigen an.
+[!DNL Marketo Measure] verfügt über API-Verbindungen zu Google AdWords, Microsoft BingAds, [!DNL Facebook] Ads und DoubleClick Campaign Manager. Über diese API-Verbindungen kann [!DNL Marketo Measure] Daten einfach abrufen und zusammen mit der externen Buyer-App an Ihr CRM übertragen. Es ist kein manuelles Hochladen von Kosten oder Daten erforderlich. Stattdessen müssen Ihre Konten einfach mit der [!DNL Marketo Measure]-App verbunden und autorisiert werden. [!DNL Marketo Measure] laden dann automatisch Ihre Marketing-Kosten von den Plattformen herunter und laden sie in die [!DNL Marketo Measure] App. Wenn Sie das automatische Tagging für AdWords, BingAds oder [!DNL Facebook] Ads aktivieren möchten, hängen [!DNL Marketo Measure] seine Parameter automatisch an die URLs Ihrer Anzeigen an.
 
 ## Verbinden von Anzeigenplattformen {#how-to-connect-ad-platforms}
 
@@ -41,12 +49,12 @@ Die Tracking-Vorlage ist ein Tool, das Google bereitstellt, um die so genannten 
 
 [!DNL Marketo Measure] Sucht in Ihrem [!DNL AdWords]-Konto nach Tracking-Vorlagen:
 
-* *Option A*: Tracking-Vorlage wurde gefunden. [!DNL Marketo Measure] Fügt der Vorlage seine Parameter hinzu.
+* *Option A*: Tracking-Vorlage wurde gefunden. [!DNL Marketo Measure] fügt seine Parameter zur Vorlage hinzu.
 * *Option B*: Es wurde eine Umleitung von Drittanbietern gefunden. Wenn in der Tracking-Vorlage eine Weiterleitung eines Drittanbieters gefunden wird, können [!DNL Marketo Measure] keine Maßnahmen ergreifen. Sie müssen die [!DNL Marketo Measure] Tags manuell zum Drittanbietersystem hinzufügen. Ein Beispiel für eine Umleitung von Drittanbietern wäre ein Tool zur Angebotsverwaltung wie Kenshoo oder Marin. Erfahren Sie mehr darüber, wie [Tools zur Angebotsverwaltung [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
-* *Option C*: Keine Tracking-Vorlage gefunden. [!DNL Marketo Measure] überprüft alle Ihre Werbeziel-URLs auf die [!DNL Marketo Measure]. Basierend auf dem Scan, wenn:
+* *Option C*: Keine Tracking-Vorlage gefunden. [!DNL Marketo Measure] werden alle Ihre Werbeziel-URLs auf die [!DNL Marketo Measure] Parameter überprüft. Basierend auf dem Scan, wenn:
    * Es wurden Parameter gefunden: die Einrichtung ist abgeschlossen!
-   * Parameter wurden nicht gefunden: [!DNL Marketo Measure] hängen ihre Parameter an das Ende der Werbeziel-URLs an. [!DNL Marketo Measure] Fügt neue Anzeigen innerhalb von zwei Stunden nach ihrer Erstellung an. Beachten Sie, dass die Parameter nicht zu einer Vorlage hinzugefügt werden.
+   * Parameter wurden nicht gefunden: [!DNL Marketo Measure] hängen ihre Parameter an das Ende der Werbeziel-URLs an. [!DNL Marketo Measure] hängt neue Anzeigen innerhalb von zwei Stunden nach ihrer Erstellung an. Beachten Sie, dass die Parameter nicht zu einer Vorlage hinzugefügt werden.
 
 Erfahren Sie mehr über unsere [[!DNL AdWords] automatische Tagging-Funktion](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
@@ -119,7 +127,7 @@ Dieses Tool ist eine Chrome-Erweiterung, mit der Sie UTM-Tags schnell generieren
 
 ## Bing-Werbeanzeigen {#bing-ads}
 
-Bing Ads ist eine integrierte Plattform, mit der Sie das automatische Tagging für URLs aktivieren oder ein Tool eines Drittanbieters wie [!DNL Marketo Measure] zum Taggen von Anzeigen verwenden können. [!DNL Bing Ads] stützt sich ebenfalls auf UTM-Parameter.
+Bing Ads ist eine integrierte Plattform, mit der Sie das automatische Tagging für URLs aktivieren oder ein Tool eines Drittanbieters wie [!DNL Marketo Measure] zum Taggen von Anzeigen verwenden können. [!DNL Bing Ads] sind auch UTM-Parameter erforderlich.
 
 Unsere Integration unterstützt die folgenden Anzeigentypen:
 
@@ -152,7 +160,7 @@ Besuchen Sie die [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us
 
 ## Facebook-Anzeigen {#facebook-ads}
 
-Die [!DNL Marketo Measure] Integration mit [!DNL Facebook] ermöglicht das automatische Herunterladen von Anzeigeninformationen und das Tagging der URL mit ihren Parametern. [!DNL Marketo Measure] ruft die Kampagnen- und Anzeigensatzinformationen über unser automatisches Tagging ab. Mit dem Anzeigensatz wird das Feld Anzeigengruppenname ausgefüllt. Weitere Informationen zum Einrichten von URL-Tags auf der [!DNL Facebook]-Plattform finden Sie auf der [!DNL Facebook] [Business](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"}-Seite.
+Die [!DNL Marketo Measure] Integration mit [!DNL Facebook] ermöglicht das automatische Herunterladen von Anzeigeninformationen und das Tagging der URL mit ihren Parametern. [!DNL Marketo Measure] werden die Kampagnen- und Anzeigensatzinformationen über unser automatisches Tagging abrufen. Mit dem Anzeigensatz wird das Feld Anzeigengruppenname ausgefüllt. Weitere Informationen zum Einrichten von URL-Tags auf der [!DNL Facebook]-Plattform finden Sie auf der [!DNL Facebook] [Business](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"}-Seite.
 
 Bevor Sie das automatische Tagging mit [!DNL Facebook Ads] aktivieren, müssen Sie den vorherigen Leistungsverlauf als CSV exportieren. An dieser Stelle, wenn [!DNL Marketo Measure] Tags mit dem _bf-Parameter [!DNL Facebook Ads], liest [!DNL Facebook] die Anzeigen als brandneu und löscht den Leistungsverlauf. Daher ist es wichtig, einen Datensatz der vorherigen Leistung zu exportieren, wenn dies für Sie und Ihr Unternehmen von Wert ist.
 
@@ -162,11 +170,11 @@ Weitere [&#x200B; zum Exportieren von [!DNL Facebook] Ad-Berichten finden &#x200
 
 ## Gesponserte LinkedIn-Inhalte {#linkedin-sponsored-content}
 
-Durch die LinkedIn-Integration können [!DNL Marketo Measure] Ziel-URLs mit [!DNL LinkedIn] gesponserten Inhalten taggen, was es [!DNL Marketo Measure] letztendlich ermöglicht, einen Benutzer durch seine gesamte Touchpoint-Journey zu verfolgen und die Aktivität wieder den spezifischen [!DNL LinkedIn] Campaign und Creative zuzuordnen. Dadurch erhalten Kundinnen und Kunden Einblicke in den ROI ihrer [!DNL LinkedIn]. [!DNL Marketo Measure] sucht nach Kreativen mit einer eindeutigen [!DNL LinkedIn] Freigabe und fügt am Ende einen `?_bl={creativeId}` hinzu.
+Durch die LinkedIn-Integration können [!DNL Marketo Measure] Ziel-URLs mit [!DNL LinkedIn] gesponserten Inhalten taggen, was es [!DNL Marketo Measure] letztendlich ermöglicht, einen Benutzer durch seine gesamte Touchpoint-Journey zu verfolgen und die Aktivität wieder den spezifischen [!DNL LinkedIn] Campaign und Creative zuzuordnen. Dadurch erhalten Kundinnen und Kunden Einblicke in den ROI ihrer [!DNL LinkedIn]. [!DNL Marketo Measure] werden nach Kreativen mit einer eindeutigen [!DNL LinkedIn]-Freigabe suchen und am Ende einen `?_bl={creativeId}` Parameter hinzufügen.
 
 Da [!DNL LinkedIn]-Freigaben über mehrere Kampagnen und Kreative hinweg verwendet werden können, bitten wir Kunden, vorhandene Kreative nicht zu kopieren/klonen/duplizieren, damit sie ihre Einzigartigkeit beibehalten können. Wenn Freigaben gefunden werden und nur auf einer Creative verwendet werden, können [!DNL Marketo Measure] die Freigabe wie besehen taggen, ohne dass Kreative oder Freigaben neu erstellt werden müssen. Der gesamte Werbeverlauf (Impressionen, Klicks, Freigaben) bleibt erhalten.
 
-Sobald festgestellt wird, dass eine Freigabe für mehrere Kreative freigegeben ist, müssen [!DNL Marketo Measure] einen Prozess zum Anhalten, Kopieren und erneuten Taggen durchlaufen, um einen eindeutigen Satz zu erstellen. [!DNL Marketo Measure] wird Live-Kreative anhalten und archivieren, was bedeutet, dass das Kreative mit den Impressionen, Klicks und Social Shares auch archiviert wird.
+Sobald festgestellt wird, dass eine Freigabe für mehrere Kreative freigegeben ist, müssen [!DNL Marketo Measure] einen Prozess zum Anhalten, Kopieren und erneuten Taggen durchlaufen, um einen eindeutigen Satz zu erstellen. [!DNL Marketo Measure] werden die Live-Kreativen anhalten und archivieren. Das bedeutet, dass das Kreative mit den Impressionen, Klicks und Social Shares auch archiviert wird.
 
 ## Nicht integrierte Plattformen {#non-integrated-platforms}
 

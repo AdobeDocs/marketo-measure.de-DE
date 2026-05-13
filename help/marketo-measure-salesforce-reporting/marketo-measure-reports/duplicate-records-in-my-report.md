@@ -4,10 +4,15 @@ description: Doppelte Einträge in meinem Bericht - [!DNL Marketo Measure]
 title: Doppelte Einträge in meinem Bericht
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/jnfw-d0aoXenk-beBuQYFd2IbVZVK4ypvqaOkvpnYxk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 10%
+source-wordcount: 288
+ht-degree: 9%
 
 ---
 
@@ -17,7 +22,7 @@ ht-degree: 10%
 >
 >Möglicherweise werden in der Dokumentation Anweisungen für &quot;[!DNL Marketo Measure]&quot; angezeigt, in Ihrem CRM-System wird jedoch weiterhin &quot;[!DNL Bizible]&quot; angezeigt. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
 
-Wenn Sie in [!DNL Marketo Measure] in die [!DNL Salesforce] Berichte eintauchen, finden Sie möglicherweise „doppelte“ Einträge in Ihren Berichten. Dies wird Ihnen wahrscheinlich beim Überprüfen [!DNL Marketo Measure] vordefinierten Berichte auffallen.
+Wenn Sie in [!DNL Salesforce] in die [!DNL Marketo Measure] Berichte eintauchen, finden Sie möglicherweise „doppelte“ Einträge in Ihren Berichten. Dies wird Ihnen wahrscheinlich beim Überprüfen [!DNL Marketo Measure] vordefinierten Berichte auffallen.
 
 Bei der Berichterstellung mit dem Objekt der Käufer-Touchpoints oder dem Buyer Attribution Touchpoint-Objekt ist es wichtig zu verstehen, dass Sie nicht mehr über die Anzahl der Leads, Kontakte oder Vertriebschancen berichten, sondern vielmehr über die Anzahl der Käufer-Touchpoints oder der Käufer-Attribution-Touchpoints, die mit diesen Standardobjekten (Leads, Kontakte, Vertriebschancen) verknüpft sind.
 

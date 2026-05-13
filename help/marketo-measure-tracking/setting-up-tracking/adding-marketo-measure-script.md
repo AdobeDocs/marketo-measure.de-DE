@@ -4,10 +4,16 @@ description: Adding [!DNL Marketo Measure] script - [!DNL Marketo Measure]
 title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 57%
+source-wordcount: 1292
+ht-degree: 53%
 
 ---
 
@@ -129,12 +135,12 @@ Gehen Sie wie folgt vor, um ein Formular selbst zu testen:
 
 1. Verwenden Sie immer einen Inkognito-Browser oder leeren Sie Ihren Cache vor jedem Formularübermittlungstest UND verwenden Sie jedes Mal eine andere E-Mail-Adresse.
 
-   a. Es empfiehlt sich, eine fingierte E-Mail-Adresse zu verwenden, bei der ersichtlich ist, dass es sich um einen Test handelt, und in der die Uhrzeit enthalten ist, z. B. testing830am@test.com.
+   a. Es empfiehlt sich, eine gefälschte E-Mail zu verwenden, die etwas enthält, das darauf hinweist, dass es sich um einen Test handelt, und die Tageszeit angeben. z. B. testing830am@test.com.
 
 1. Notieren Sie sich die URL der Seite, an die Sie das Formular senden, und die verwendete E-Mail.
 
 1. Suchen Sie den Eintrag, der in Ihrem CRM-System (Lead oder Kontakt) für die Formularübermittlung erstellt wurde, und überprüfen Sie, ob ein Touchpoint ordnungsgemäß erstellt wurde.
 
-   a. Sie können einen [!DNL Marketo Measure]-Stock-Bericht wie Leads mit Buyer Touchpoints verwenden oder sich das Lead-/Kontakt-Seiten-Layout ansehen, wenn Sie Ihre Seiten-Layouts mit [!DNL Marketo Measure]-Details aktualisieren.
+   a. Sie können einen [!DNL Marketo Measure] Lagerbericht verwenden, z. B. Leads mit Käufer-Touchpoints, oder sich das Lead-/Kontakt-Seiten-Layout ansehen, wenn Sie Ihre Seiten-Layouts mit [!DNL Marketo Measure] Details aktualisieren möchten.
 
-   b. Die Verarbeitung der Daten kann einige Zeit dauern.
+   b. Es kann einige Zeit dauern, bis die Daten verarbeitet werden.

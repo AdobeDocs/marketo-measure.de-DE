@@ -4,10 +4,15 @@ description: Erfahren Sie mehr über Account-basiertes Marketing (ABM) und darü
 title: Kontobasiertes Marketing – Überblick
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/iYWfa6eSeqICk5K3p2mVPRf2xt3UybpRFIJxSYzRmAA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 98%
+source-wordcount: 837
+ht-degree: 95%
 
 ---
 
@@ -47,7 +52,7 @@ Die Leads/Kontakte der Konten werden durch ihre E-Mail/Website-Domains validiert
 
 >[!NOTE]
 >
->Für jeden Lead wird versucht, ihn in der bevorzugten Reihenfolge der oben genannten Methoden einem Konto zuzuordnen. Sobald eine Übereinstimmung gefunden wurde, wird die Konto-ID sofort auf den Lead festgelegt und nicht mehr mit einer anderen Methode abgeglichen. 
+>Für jeden Lead wird versucht, ihn in der bevorzugten Reihenfolge der oben genannten Methoden einem Konto zuzuordnen. Sobald eine Übereinstimmung gefunden wurde, wird die Konto-ID sofort auf den Lead festgelegt und nicht mehr mit einer anderen Methode abgeglichen.
 
 ## Prädiktive Interaktionsbewertung {#predictive-engagement-score}
 
@@ -70,7 +75,7 @@ Es gibt viele Komponenten, die in den Algorithmus eingehen, mit dem die PES bere
 >Sie werden bei einigen Konten die Bewertung „Nicht zutreffend“ oder „-“ (Bindestrich) in Ihrer prädiktiven Interaktionsbewertung sehen.
 
 _Die Bewertung „Nicht zutreffend“ bedeutet einfach, dass für dieses Konto nicht genügend Daten vorhanden sind, damit das Modell eine echte Bewertung erstellen kann – mit mehr Daten wird letztendlich eine Bewertung vergeben._
-_Die Bewertung „-“ (Bindestrich) bedeutet, dass dieses Konto aufgrund von Zeitbeschränkungen, gelegentlich fehlenden Prozessen usw. noch nicht vom ABM-Prozess verarbeitet wurde. Wenn Sie auf der Grundlage anderer ähnlicher Konten oder Zeiträume der Meinung sind, dass ein solches Konto eine Bewertung haben sollte, teilen Sie dies bitte [!DNL Marketo Measure] mit._
+_Der Grad &quot;-&quot; (das Strichsymbol) bedeutet, dass dieses Konto aufgrund von Zeitbeschränkungen, gelegentlich übergangenen Prozessen usw. noch nicht vom ABM-Prozess verarbeitet wurde. Wenn Sie auf der Grundlage anderer ähnlicher Konten oder Zeiträume der Meinung sind, dass ein solches Konto eine Bewertung haben sollte, teilen Sie dies bitte [!DNL Marketo Measure] mit._
 
 ## Einrichten des ABM-Seiten-Layouts in [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 

@@ -4,9 +4,16 @@ description: Kosten des Marketing-Kanals - [!DNL Marketo Measure]
 title: Marketingkanal-Kosten
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Mjpr4y4vxdeefsbULVxjk3Gf6jdy7Q2ST70gg73dfqk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: 1295
 ht-degree: 1%
 
 ---
@@ -81,7 +88,7 @@ Klicken Sie im Menü **[!UICONTROL Mein Konto]** auf **[!UICONTROL Einstellungen
 
 **Schritt 2: Laden Sie die CSV-Datei Aktuelle Kosten herunter**
 
-Navigieren Sie rechts im Bildschirm und klicken Sie auf **[!UICONTROL Aktuelle Kosten herunterladen].** Mit dieser Option können Sie eine Tabelle im CSV-Format herunterladen.
+Navigieren Sie zur rechten Seite des Bildschirms und klicken Sie auf **[!UICONTROL Aktuelle Kosten herunterladen].** Mit dieser Option können Sie eine Tabelle im CSV-Format herunterladen.
 
 ![](assets/2.png)
 
@@ -91,7 +98,7 @@ Sie können die Datei importieren und mithilfe von Google Sheets, Apple Numbers,
 
 Nehmen Sie nach dem Import der Tabelle die gewünschten Änderungen vor, z. B. Kosten zu Kanälen und Unterkanälen hinzufügen oder vorhandene Informationen aktualisieren.
 
-Überprüfen Sie die Logikregeln in Ihrem Blatt. Jede Zeile sollte einen Kanal und einen seiner Unterkanäle enthalten, die durch einen Punkt (.) am Ende getrennt sind. Es ist wichtig, dieses Format konsistent zu verwenden.
+Überprüfen Sie die Logikregeln in Ihrem Blatt. Jede Zeile sollte einen Kanal und einen seiner Unterkanäle enthalten, die durch ein (.) getrennt sind. Punkt am Ende. Es ist wichtig, dieses Format konsistent zu verwenden.
 
 Um beispielsweise Facebook als Unterkanal und Social als Kanal anzugeben, sollte die Regel wie folgt geschrieben werden: „Social.Facebook“. Um ein Offline-Ereignis zu verfolgen, sollte die Kanalsyntax wie folgt lauten: „Events.Big Conference.“ Beispiele sind in der Abbildung unten dargestellt:
 

@@ -3,9 +3,16 @@ description: Methoden der Ausgabenverwaltung - [!DNL Marketo Measure]
 title: Ausgabenverwaltungsmethoden
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/HdGBr6tPbjbLrO71Zr1MWN6i19TuDIaqvEhgWcNNxAY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: 423
 ht-degree: 1%
 
 ---
@@ -28,11 +35,11 @@ Jedes [!DNL Marketo Measure] hat Zugriff auf eine Funktion namens [CRM-Kampagnen
 
 Wenn diese Funktion aktiviert ist, werden automatisch Ausgaben aus jeder CRM-Kampagne/-Programm abgerufen, die die folgenden Kriterien erfüllt:
 
-i. [!DNL Marketo Measure] prüft zunächst, ob die Kampagne/das Programm Touchpoints erstellt, entweder anhand einer entsprechenden erstellten [Kampagnensynchronisierungsregel](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) oder anhand einer [&#x200B; erstellten Programmsynchronisierungsregel](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) oder [Wert „Käufer-Touchpoints aktivieren](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) ist „Alle Kampagnenmitglieder einschließen“ oder „Responded“-Kampagnenmitglieder einschließen.“
+I. [!DNL Marketo Measure] prüft zunächst, ob die Kampagne/das Programm Touchpoints erstellt, entweder anhand einer entsprechenden erstellten [Kampagnensynchronisierungsregel](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) oder anhand einer [Programmsynchronisierungsregel](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) erstellten passenden oder [Wert für Buyer Touchpoints aktivieren](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) „Alle Kampagnenmitglieder einbeziehen“ oder „Responded“-Kampagnenmitglieder einbeziehen.“
 
-II. Für die Kampagne/das Programm muss ein Startdatum angegeben werden
+ii. Für die Kampagne/das Programm muss ein Startdatum angegeben werden
 
-III. Für die Kampagne/das Programm muss ein Enddatum angegeben werden
+iii. Für die Kampagne/das Programm muss ein Enddatum angegeben werden
 
 IV. Die Istkosten (für Kampagnen in SFDC) oder Periodenkosten (für Programme in Marketo) müssen angegeben werden.
 

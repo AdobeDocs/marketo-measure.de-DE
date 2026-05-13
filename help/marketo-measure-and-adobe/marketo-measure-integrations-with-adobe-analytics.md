@@ -3,10 +3,18 @@ description: '[!DNL Marketo Measure] Integrationen mit Adobe Analytics - [!DNL M
 title: '[!DNL Marketo Measure] Integrationen mit [!DNL Adobe Analytics]'
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 1%
+source-wordcount: 968
+ht-degree: 2%
 
 ---
 
@@ -28,7 +36,7 @@ Die Integration von B2B-Kundenattributen ermöglicht es gemeinsamen Benutzenden 
 
    * Der Host-Name und die Anmeldeinformationen des FTP-Servers (Benutzername und Kennwort)
 
-1. Nachdem die Source für Kundenattributdaten erstellt wurde, setzen Sie den Konfigurationsprozess fort, indem Sie im **[!UICONTROL Admin-Menü zum Bildschirm]** Integrationen **[!UICONTROL >]** Verbindungen[!DNL Marketo Measure] navigieren.
+1. Nachdem die Source für Kundenattributdaten erstellt wurde, setzen Sie den Konfigurationsprozess fort, indem Sie im [!DNL Marketo Measure] Admin-Menü zum Bildschirm **[!UICONTROL Integrationen]** > **[!UICONTROL Verbindungen]** navigieren.
 
 1. Klicken Sie auf **[!UICONTROL Schaltfläche „Verbindung für neue Kundenattribute einrichten]** und folgen Sie den Anweisungen zum Konfigurieren der Integration von Kundenattributen. Die Benutzeroberfläche fordert Sie auf, die Alias-ID und die FTP-Verbindungsinformationen einzugeben, die Sie beim Erstellen der Source für Kundenattribute in Ihrer Core Services Console erhalten haben. Wählen Sie die Gruppe von Kontoattributen aus, die Sie mit Ihrem [!DNL Adobe Analytics]-Konto synchronisieren möchten.
 
@@ -57,7 +65,7 @@ Zusätzlich zu den unten aufgeführten können Sie auch alle Attribute hochladen
    <td><b>Beschreibung</b></td>
   </tr> 
   <tr> 
-   <td>Account.Name</td> 
+   <td>account.name</td> 
    <td>Die Kontonamen, die mit dem angegebenen Web-Besucher verknüpft sind. Wenn mehr als ein Konto mit dem angegebenen Benutzer verknüpft ist, füllt [!DNL Marketo Measure] alle übereinstimmenden Kontonamen in einer durch Semikolon getrennten Liste.<br/>
    <strong>Hinweis:</strong> account.name ist der Name auf Salesforce-API-Ebene für das Namensattribut im Kontoobjekt. Sie können während des Schritts zur Schemavalidierung der Integrationskonfiguration für dieses Attribut einen besseren Anzeigenamen (z. B. „Unternehmen„) auswählen (Schritt 4).</td>
   </tr>

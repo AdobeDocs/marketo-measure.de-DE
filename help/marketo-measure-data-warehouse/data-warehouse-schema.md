@@ -4,9 +4,16 @@ description: Data Warehouse-Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse-Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '21110'
+source-wordcount: 21775
 ht-degree: 99%
 
 ---
@@ -948,7 +955,7 @@ Aus einem verbundenen Anzeigenkonto importierte Anzeigenkonten.
         <p>Die Ausgabenmenge, die in den letzten 30 Tagen importiert wurde, gilt nur für AdWords.</p>
       </td>
       <td>
-        <p>17260,000000000000000000</p>
+        <p>17260.000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -2110,7 +2117,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>varchar</td>
       <td>
-        <p>Der Segmentwert für die erste Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente" bezeichnet.</p>
+        <p>Der Segmentwert für die erste Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td>
         <p>ABC</p>
@@ -2122,7 +2129,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>varchar</td>
       <td>
-        <p>Der Segmentwert für die zweite Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente" bezeichnet.</p>
+        <p>Der Segmentwert für die zweite Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td>
         <p>Ja</p>
@@ -2134,7 +2141,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>varchar</td>
       <td>
-        <p>Der Segmentwert für die dritte Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen im [!DNL Marketo Measure] App. Im CRM als "Segmente" bezeichnet.</p>
+        <p>Der Segmentwert für die dritte Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</p>
       </td>
       <td>
         <p>KMU</p>
@@ -2145,7 +2152,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>CATEGORY4</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die 4. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 4. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td>
         <p>Neues Unternehmen</p>
       </td>
@@ -2155,7 +2162,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>CATEGORY5</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die 5. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 5. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2163,7 +2170,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>CATEGORY6</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die 6. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 6. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2171,7 +2178,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>CATEGORY7</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die 7. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 7. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2187,7 +2194,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>CATEGORY9</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die 9. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 9. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2195,7 +2202,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>CATEGORY10</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die 10. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 10. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2227,7 +2234,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>CATEGORY14</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die 14. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 14. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2235,7 +2242,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>CATEGORY15</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die 15. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 15. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -2484,7 +2491,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -2532,7 +2539,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>120839827</p>
@@ -2544,7 +2551,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
       </td>
       <td>varchar</td>
       <td>
-        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>Hindernis</p>
@@ -2875,7 +2882,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil er Teil eines W-förmigen Touchings ist (siehe Is_First_Touch, Is_Lead_Creation_Touch und Is_Opp_Creation_Touch).</p>
       </td>
       <td>
-        <p>0,0153374234214425</p>
+        <p>0.0153374234214425</p>
       </td>
     </tr>
     <tr>
@@ -2889,7 +2896,7 @@ Anzeigengruppen, die aus einem verbundenen Anzeigenkonto importiert wurden.
         <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet ist, weil er Teil eines vollständigen Pfadmodells ist (siehe Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</p>
       </td>
       <td>
-        <p>0,0143061513081193</p>
+        <p>0.0143061513081193</p>
       </td>
     </tr>
     <tr>
@@ -3069,7 +3076,7 @@ Aus der Integration der Attributions-KI generierte Daten. Diese Felder werden nu
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
     <td>ursprüngliche MM-Ereignis-ID für das Konversionsereignis 
-<br>einem Benutzer-Touchpoint oder einer Staging-Transition zugeordnet</td>
+    <br>Ist einem Benutzer-Touchpoint oder einer Stadienübergabe zugeordnet</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3094,7 +3101,7 @@ Aus der Integration der Attributions-KI generierte Daten. Diese Felder werden nu
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
     <td>ursprüngliche MM-Kontakt-ID für das Konversionsereignis
-<br>ist meistens null</td>
+    <br>wahrscheinlich in den meisten Fällen null sein</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
@@ -3821,7 +3828,7 @@ Kostendaten, die aus verbundenen Anzeigenkonten oder aus selbst gemeldeten Marke
       <td>ID</td>
       <td>varchar</td>
       <td>Eine eindeutige ID für den Kosteneintrag.</td>
-      <td>aw.6601259029.285114995.21703163075.[AdWords Display]_2018-09-06</td>
+      <td>aw.6601259029.285114995.21703163075.[AdWords-Anzeige]_2018-09-06</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -6213,7 +6220,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
         <p>Der berechnete Prozentsatz, der diesem Touchpoint zugeordnet wird, weil er Teil eines U-förmigen Touchings ist.</p>
       </td>
       <td>
-        <p>100,0000000000000000000</p>
+        <p>100.0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -6269,7 +6276,7 @@ Vereinigungen, die Impressionen, Seitenansichten, Besuche, Formularübermittlung
         <p>Betrag der Möglichkeit aus dem Quellsystem.</p>
       </td>
       <td>
-        <p>42000,00000000</p>
+        <p>42000.00000000</p>
       </td>
     </tr>
     <tr>
@@ -7094,7 +7101,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
       </td>
       <td>varchar</td>
       <td>
-        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -7142,7 +7149,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
       </td>
       <td>varchar</td>
       <td>
-        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>120839827</p>
@@ -7154,7 +7161,7 @@ Impressionen ausgelöst und aufgezeichnet. Diese Tabelle erfordert eine DoubleCl
       </td>
       <td>varchar</td>
       <td>
-        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>Hindernis</p>
@@ -8714,7 +8721,7 @@ Aus dem Quellsystem importierte Möglichkeiten.
         <p>Gesamtbetrag, der von der Möglichkeit erwartet oder geschlossen wird, vom Quellsystem.</p>
       </td>
       <td>
-        <p>8988,00000000</p>
+        <p>8988.00000000</p>
       </td>
     </tr>
     <tr>
@@ -9003,7 +9010,7 @@ Phasen-Transitionen für Opportunitys.
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>Der numerische Rang der Phase, entsprechend der Reihenfolge in den Einstellungen für die Phasen-Zuordnung in [!DNL Marketo Measure].</p>
+        <p>Der numerische Rang des Stagings, entsprechend der Reihenfolge in den Einstellungen für die Phasen-Zuordnung in [!DNL Marketo Measure].</p>
       </td>
       <td>
         <p>4</p>
@@ -11485,7 +11492,7 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
         <p>CATEGORY8</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die achte Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 8. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -11509,7 +11516,7 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
         <p>CATEGORY11</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die 11. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 11. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -11517,7 +11524,7 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
         <p>CATEGORY12</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die 12. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 12. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -11525,7 +11532,7 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
         <p>CATEGORY13</p>
       </td>
       <td>varchar</td>
-      <td>Der Segmentwert für die 13. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App definiert. Im CRM als "Segmente" bezeichnet.</td>
+      <td>Der Segmentwert für die 13. Kategorie, in die der Touchpoint fällt, wie in den Segmentdefinitionen in der [!DNL Marketo Measure]-App. Im CRM als "Segmente" bezeichnet.</td>
       <td></td>
     </tr>
     <tr>
@@ -11710,10 +11717,10 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
       </td>
       <td>varchar</td>
       <td>
-        <p>Wird verwendet, um das Medium zu definieren, das zum Touchpoint führte. Dies kann entweder aus der URL von utm_medium herausgeparst werden. Oder wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich um Werte wie "cpc" oder "display" handeln.</p>
+        <p>Wird verwendet, um das Medium zu definieren, das zum Touchpoint führte. Dies kann entweder aus der URL von utm_medium herausgeparst werden. Oder wenn [!DNL Marketo Measure] eine Anzeige auflösen kann, kann es sich auch um Werte wie "cpc" oder "display" handeln.</p>
       </td>
       <td>
-        <p>Social Media</p>
+        <p>Social</p>
       </td>
     </tr>
     <tr>
@@ -11782,7 +11789,7 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
       </td>
       <td>varchar</td>
       <td>
-        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -11830,7 +11837,7 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
       </td>
       <td>varchar</td>
       <td>
-        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>120839827</p>
@@ -11842,7 +11849,7 @@ Buyer Touchpoints, alle Touchpoints, die mit einem Lead oder Kontakt verknüpft 
       </td>
       <td>varchar</td>
       <td>
-        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>Hindernis</p>
@@ -12805,7 +12812,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
       </td>
       <td>varchar</td>
       <td>
-        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>ID des Advertisers aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -12853,7 +12860,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
       </td>
       <td>varchar</td>
       <td>
-        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>ID der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>120839827</p>
@@ -12865,7 +12872,7 @@ Alle Touchpoints, die aus einem Ereignis erstellt wurden, das mit einer E-Mail v
       </td>
       <td>varchar</td>
       <td>
-        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für DoubleClick Campaign Manager.</p>
+        <p>Name der Platzierung aus dem Anzeigenkonto, von dem aus die Anzeige aufgelöst wurde. Dies gilt nur für den Kampagnen-Manager von DoubleClick.</p>
       </td>
       <td>
         <p>Hindernis</p>

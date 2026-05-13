@@ -3,16 +3,27 @@ description: Fehlerbenachrichtigungen - [!DNL Marketo Measure]
 title: Fehlerbenachrichtigungen
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/SDJqtYTppmKWPpLQrhI9EkK-mYQ3f3Xh2BLoWzqIGx4
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+subfeature_v2:
+  - id: ec526b86-7a6d-4fae-87bd-f61c37b9b506
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 30%
+source-wordcount: 1915
+ht-degree: 27%
 
 ---
 
 # Fehlerbenachrichtigungen {#error-notifications}
 
-Nachfolgend finden Sie eine Liste mit Fehlern, die Sie möglicherweise über In-App-Benachrichtigungen oder E-Mails erhalten. Wenn Sie eine dieser Optionen erhalten, führen Sie die entsprechenden Schritte zur Fehlerbehebung aus. Falls das Problem durch diese Schritte nicht gelöst werden kann, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support).
+Nachfolgend finden Sie eine Liste mit Fehlern, die Sie möglicherweise über In-App-Benachrichtigungen oder E-Mails erhalten. Wenn Sie eine dieser Optionen erhalten, führen Sie die entsprechenden Schritte zur Fehlerbehebung aus. Falls das Problem durch diese Schritte nicht gelöst werden kann, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de).
 
 Um die vollständige Benachrichtigung in [!DNL Marketo Measure] anzuzeigen, klicken **unten auf der Registerkarte** auf „Alle anzeigen“.
 
@@ -46,7 +57,7 @@ Um die vollständige Benachrichtigung in [!DNL Marketo Measure] anzuzeigen, klic
           <p>Sie können die CRM-Credits, die Marketo Measure verwendet, auch wie folgt anpassen:</p>
           <ul>
             <li>Navigieren Sie zu <b>Einstellungen</b> &gt; <b>CRM</b> &gt; <b>Allgemein</b></li>
-            <li>Aktualisieren Sie das tägliche CRM-API-Limit<br/>
+            <li>Tägliches CRM-API-Limit aktualisieren<br/>
               <ul>
                 <li><b>Hinweis: Der Standardwert ist 100.000</b></li>
               </ul>
@@ -124,7 +135,7 @@ Die Salesforce-Dokumentation zu Flow Trigger <a href="https://admin.salesforce.c
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
-      <td>Fehler beim CRM-Export: FIELD_INTEGRITY_EXCEPTION : Entitätstyp 'Lead': CRM-Fehlercode: FIELD_INTEGRITY_EXCEPTION, Feld(er): Land, CRM-Fehlermeldung: Es gibt ein Problem mit diesem Land, auch wenn es korrekt erscheinen mag. Wählen Sie ein Land/eine Region aus der Liste der gültigen Länder aus.: Land, RecordId: 0123456</td>
+      <td>Fehler beim CRM-Export: FIELD_INTEGRITY_EXCEPTION : Entitätstyp 'Lead': CRM-Fehlercode: FIELD_INTEGRITY_EXCEPTION, Feld(er): Land, CRM-Fehlermeldung: Es gibt ein Problem mit diesem Land, auch wenn es korrekt erscheinen mag. Bitte ein Land/Gebiet aus der Liste der gültigen Länder auswählen.: Land, RecordId: 0123456</td>
       <td>Der erwartete Typ des Datensatzes stimmt nicht überein.</td>
       <td>Der häufigste Fall hierfür ist, dass die in der Salesforce-Organisation festgelegten Benennungsstandards für Bundesländer/Länder nicht eingehalten werden, da die Felder für Bundesland/Land so standardisiert wurden, dass nur bestimmte Werte der Auswahlliste akzeptiert werden. Um dieses Problem zu beheben, haben Sie folgende Möglichkeiten:
         <ul>
@@ -144,7 +155,7 @@ Die Salesforce-Dokumentation zu Flow Trigger <a href="https://admin.salesforce.c
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
       <td>Fehler beim CRM-Export: INSUFFICIENT_ACCESS_OR_READONLY : Entitätstyp 'Konto': CRM-Fehlercode: INSUFFICIENT_ACCESS_OR_READONLY, CRM-Fehlermeldung: Unzureichende Zugriffsrechte für Objekt-ID: [123], RecordId: 456</td>
       <td>Marketo Measure fehlen Berechtigungen für ein Objekt/Feld oder das Objekt ist schreibgeschützt.</td>
-      <td>Anleitungen zu den Berechtigungen, die Marketo Measure erfordert, finden <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md"> im folgenden Artikel zu </a>Experience League .</td>
+      <td>Anleitungen zu den Berechtigungen, die Marketo Measure erfordert, finden </a> im folgenden Artikel zu <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Experience League .</td>
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
@@ -179,12 +190,12 @@ Die Salesforce-Dokumentation zu Flow Trigger <a href="https://admin.salesforce.c
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Fehler beim CRM-Export: MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Marketo Measure hat keine Berechtigung zum Anzeigen/Bearbeiten konvertierter Leads</td>
-      <td>Hilfe zur Aktivierung dieser Berechtigung in Ihrem CRM-System finden Sie im folgenden Experience League-Dokument<br/>
-<a href="/help/marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md">Aktivieren der Berechtigung zum Bearbeiten konvertierter Leads</a></td>
+      <td>Weitere Informationen zur Aktivierung dieser Berechtigung in Ihrem CRM finden Sie im folgenden Experience League-Dokument<br/>
+          <a href="/help/marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md">Aktivieren der Berechtigung zum Bearbeiten konvertierter Leads</a></td>
     </tr>
     <tr>
       <td>MISSING_FIELD_READ_PERMISSION</td>
-      <td>Fehler beim CRM-Import: MISSING_FIELD_READ_PERMISSION : Entitätstyp 'Ereignis': INVALID_FIELD:<br/>
+      <td>Fehler beim CRM-Import: MISSING_FIELD_READ_PERMISSION : Entitätstyp 'Ereignis': UNGÜLTIGES_FELD:<br/>
     SystemModstamp,IsDeleted,WhoId,bizible2__Bizible_Touchpoint_Date__c</td>
       <td>Marketo Measure hat für ein erforderliches Feld keine Leseberechtigungen.</td>
       <td>In den folgenden Hilfeartikeln finden Sie Anleitungen zu den erforderlichen Berechtigungen für Marketo Measure:

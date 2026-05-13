@@ -3,9 +3,14 @@ description: '[!DNL Marketo Measure] der Installation und Einrichtung von Salesf
 title: '[!DNL Marketo Measure] [!DNL Salesforce] Paketinstallation und -einrichtung'
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/l293WWmVHXGAthQKznwSssgTihMOdpqi4gh58t1fh-g
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: 512
 ht-degree: 95%
 
 ---
@@ -34,7 +39,7 @@ Gehen Sie wie folgt vor, um das [!DNL Marketo Measure Salesforce]-Basispaket zu 
 
 1. Melden Sie sich bei [!DNL Salesforce] als Administrator an.
 
-1. Wählen Sie **[!UICONTROL Installieren] für alle Benutzer**. 
+1. Wählen Sie **[!UICONTROL Installieren] für alle Benutzer**.
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-1.png)
 

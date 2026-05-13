@@ -4,10 +4,15 @@ description: Marketing-Kanäle und -Unterkanäle – [!DNL Marketo Measure]
 title: Marketing-Kanäle und -Unterkanäle
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: 453
+ht-degree: 93%
 
 ---
 
@@ -39,7 +44,7 @@ Der Marketing-Kanal ist die breiteste Klassifizierungsstufe und kann eine Vielza
 
 **Unterkanal**
 
-Unterkanäle sind das zweite Puzzleteil beim Einsortieren der eingehenden Leads in Buckets. Unterkanäle geben Aufschluss darüber, _welche_ Iteration Ihres Marketing-Kanals genau verwendet wurde. Beispielsweise können Sie im Marketing-Kanal „Paid Social“ Unterkanäle für **AdWords**, **BingAds**, **Facebook** usw. haben. Der Unterkanal entspricht in der Regel dem Parameterwert „utm_source“ in Ihrer URL.
+Unterkanäle sind das zweite Puzzleteil beim Einsortieren der eingehenden Leads in Buckets. Unterkanäle geben Aufschluss darüber, _welche_ Iteration Ihres Marketing-Kanals genau verwendet wurde. Beispielsweise könnten Sie im Kanal Bezahltes Social-Media-Marketing Unterkanäle für **AdWords**, **BingAds**, **Facebook** usw. haben. Der Unterkanal entspricht normalerweise dem Parameterwert utm_source in Ihrer URL.
 
 ## Anwendungsbeispiel {#use-case-example}
 

@@ -4,9 +4,14 @@ description: Migration der Salesforce-Sandbox zur Produktion – [!DNL Marketo M
 title: Migration der Salesforce-Sandbox zur Produktion
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/tdO2AE1dXfriuURbldKa0NB6wzc0o6NBH0CdgolkqSc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: 327
 ht-degree: 98%
 
 ---
@@ -51,7 +56,7 @@ Wenn Sie sich dafür entschieden haben, [!DNL Marketo Measure] in einer [!DNL Sa
 
 [Berechtigungssätze](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Berichte freigeben](https://help.salesforce.com/s/articleView?language=de_DE&id=analytics_share_folder.htm&type=0){target="_blank"}
+[Freigeben von Berichten](https://help.salesforce.com/s/articleView?language=de_DE&id=analytics_share_folder.htm&type=0){target="_blank"}
 
 [Ausblenden unnötiger Berichtstypen](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

@@ -3,9 +3,14 @@ description: Best Practices für Offline-Kanäle - [!DNL Marketo Measure]
 title: Best Practices für Offline-Kanäle
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/p-xffnDY4cbrbz4dH1Z4MgWCOwuoP-IjDHU4YdTww8o
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: 1060
 ht-degree: 4%
 
 ---
@@ -59,7 +64,7 @@ Nach der Ersteinrichtung erstellt die Offline-Kanaleinrichtung entsprechend weit
 
 Wenn Sie Änderungen an Ihrer Kampagnenverwaltung oder Ihren Prozessen vornehmen, müssen Sie außerdem sicherstellen, dass Sie Ihre [!DNL Marketo Measure] Offline-Kanalzuordnung und/oder Ihren Synchronisierungsprozess aktualisieren.
 
-Trigger Zu den Änderungen, die Ihr Team möglicherweise dazu veranlassen, Aktualisierungen an der Offline-Kanaleinrichtung in [!DNL Marketo Measure] vorzunehmen, gehören:
+Zu den Änderungen, die Ihr Team möglicherweise dazu veranlassen, Aktualisierungen an der Offline-Kanaleinrichtung in [!DNL Marketo Measure] vorzunehmen, gehören:
 
 * CRM-Kampagnentypen wurden erstellt oder bearbeitet
 * Kampagnenmitglied &#39;Status&#39; erstellt oder bearbeitet

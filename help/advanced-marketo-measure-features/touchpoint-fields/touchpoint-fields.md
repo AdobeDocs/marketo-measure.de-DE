@@ -4,9 +4,15 @@ description: Touchpoint-Felder - [!DNL Marketo Measure]
 title: Touchpoint Felder
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/f45LL11QRQWjzRDTMdsiSUKbB357lPibq8nFNVt75bk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: 1965
 ht-degree: 0%
 
 ---
@@ -50,7 +56,7 @@ Ziel: Verwenden des Werts eines benutzerdefinierten Felds und Ablegen im Touchpo
 
    * **(** markiert den Beginn der Extraktion
    * **)** markiert das Ende der Extraktion
-   * **.&#42;** sagt uns, dass wir die vollständige Zeichenfolge extrahieren
+   * **.&#42;** teilt uns mit, dass wir die vollständige Zeichenfolge extrahieren
 
 ![](assets/two.png)
 

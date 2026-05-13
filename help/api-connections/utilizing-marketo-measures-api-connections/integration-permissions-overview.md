@@ -3,10 +3,20 @@ description: Übersicht über Integrationsberechtigungen - [!DNL Marketo Measure
 title: Überblick über Integrationsberechtigungen
 feature: APIs, Integration
 exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/e0BkGPzfpf6LjR0eIUfOTLku8d-Dgm6Kh6Jlfs3cLBA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 3%
+source-wordcount: 1406
+ht-degree: 2%
 
 ---
 
@@ -201,7 +211,7 @@ Marketo Measure verfolgt Kampagnen, Anzeigengruppen, Kreative, Site-Links und Sc
     <td>Bing</td>
     <td>Anzeigen von Platform-Daten</td>
     <td>Marketo Measure verfolgt Konten, Kampagnen, Anzeigengruppen, Kreative und Schlüsselwörter.</td>
-    <td><li>Der Benutzer muss über sein Microsoft-Konto „Offline-Zugriff“ gewähren (wodurch Marketo Measure Zugriff auf die UserInfo des Endbenutzers gewährt wird, auch wenn dieser nicht angemeldet ist). Informationen hierzu finden Sie auf <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access"> Seite von </a>Microsoft.</li>
+    <td><li>Der Benutzer muss über sein Microsoft-Konto „Offline-Zugriff“ gewähren (wodurch Marketo Measure Zugriff auf die UserInfo des Endbenutzers gewährt wird, auch wenn dieser nicht angemeldet ist). Informationen hierzu finden Sie auf </a> Seite von <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoft.</li>
 <p>
     <b>Bereiche</b>
     <br>

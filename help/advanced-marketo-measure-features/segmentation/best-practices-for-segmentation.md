@@ -3,9 +3,14 @@ description: Best Practices für die Segmentierung – [!DNL Marketo Measure]
 title: Best Practices für die Segmentierung
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/YR-eQXPLgo1FbUk4VXa9cuaAwjiSSVBbSB3ZjAeScaY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 451
 ht-degree: 100%
 
 ---
@@ -26,7 +31,7 @@ Bei der Push-Übertragung nach [!UICONTROL Discover] werden Segmente auf allen P
 
 Beachten Sie die folgenden Best Practices, unabhängig davon, ob die Segmentierung zum ersten Mal definiert oder nur die zuvor eingerichtete Segmentierung überprüft wird.
 
-* Achten Sie auf Einfachheit. 
+* Achten Sie auf Einfachheit.
 * Richten Sie den Segmentnamen an die Nomenklatur Ihres Unternehmens aus, d. h. Kategorie = Filtername, Segment = Filterwert.
 * Verwenden Sie keine Formelfelder in Ihren Regeln
 * Erstellen Sie die Segmentierung möglichst für Lead/Kontakt und für Opportunity, um eine Verwendung über den gesamten Trichter hinweg sicherzustellen

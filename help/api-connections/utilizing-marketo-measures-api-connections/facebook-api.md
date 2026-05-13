@@ -4,10 +4,18 @@ description: '[!DNL Facebook] API - [!DNL Marketo Measure]'
 title: '[!DNL Facebook] API'
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/yW6j0Ha8-O0-AQo2ledBBpzji3hy7UHxFPa5L-9WNEg
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2:
+  - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 3%
+source-wordcount: 498
+ht-degree: 4%
 
 ---
 
@@ -34,7 +42,7 @@ Was die Einrichtung betrifft, müssen in der [!DNL Marketo Measure]-App sieben S
    >Die Person, die das [!DNL Facebook Ads]-Konto verbindet, muss Administrator des [!DNL Facebook Ads]-Kontos sein.
 
 1. Sobald [!DNL Marketo Measure] mit Ihrem Facebook-Konto verbunden ist, klicken Sie auf das Stiftsymbol neben dem Konto.
-1. Verschieben Sie in dieser Ansicht das Feld „Automatisches Tagging?“ auf „Ja“ umschalten. Aktivieren Sie dann das Kontrollkästchen im Abschnitt [!UICONTROL Weitere Informationen], um den Nutzungsbedingungen zuzustimmen. Stellen Sie sicher[!UICONTROL &#x200B; dass der Umschalter für &#x200B;]Automatisches Tagging“ weiterhin auf &quot;[!UICONTROL Ja] eingestellt ist.
+1. Verschieben Sie in dieser Ansicht den Umschalter „Automatisches Tagging?“ auf „Ja“. Aktivieren Sie dann das Kontrollkästchen im Abschnitt [!UICONTROL Weitere Informationen], um den Nutzungsbedingungen zuzustimmen. Stellen Sie sicher[!UICONTROL &#x200B; dass der Umschalter für &#x200B;]Automatisches Tagging“ weiterhin auf &quot;[!UICONTROL Ja] eingestellt ist.
 
 ## Verbinden des Kontos {#connecting-the-account}
 
@@ -83,11 +91,11 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
    <td><p>[Name des [!DNL Facebook]]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Touchpoint-Quelle</p></td> 
+   <td><p>Kontaktpunkt Quelle</p></td> 
    <td><p>"[!DNL Facebook]" oder [UTM_SOURCE], falls angegeben</p></td> 
   </tr> 
   <tr> 
-   <td><p>Medium</p></td> 
+   <td><p>Mittel</p></td> 
    <td><p>„Social“ oder [utm_medium], falls angegeben</p></td> 
   </tr> 
   <tr> 
@@ -116,7 +124,7 @@ Damit die Integration ordnungsgemäß funktioniert, müssen Sie das automatische
   </tr> 
   <tr> 
    <td><p>ad_provider (Data Warehouse)</p></td> 
-   <td><p>[!DNL Facebook]"</p></td> 
+   <td><p>"[!DNL Facebook]"</p></td> 
   </tr> 
   <tr> 
    <td><p>account_unique_id (Data Warehouse)</p></td> 

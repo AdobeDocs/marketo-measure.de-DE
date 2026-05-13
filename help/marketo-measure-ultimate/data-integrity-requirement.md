@@ -3,10 +3,16 @@ description: '[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderungen - [
 title: '[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 86%
+source-wordcount: 1703
+ht-degree: 78%
 
 ---
 
@@ -45,7 +51,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Zum Beispiel: 123</td>
+      <td>E.g. - 123</td>
     </tr>
     <tr>
       <td></td>
@@ -53,7 +59,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -61,7 +67,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -98,7 +104,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -106,7 +112,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Zum Beispiel: 55555</td>
+      <td>E.g. - 55555</td>
     </tr>
     <tr>
       <td></td>
@@ -114,7 +120,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -122,7 +128,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -210,7 +216,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 987654321@999-abc-888.Marketo</td>
+      <td>E.g. - 987654321@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -218,7 +224,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Zum Beispiel: 987654321</td>
+      <td>E.g. - 987654321</td>
     </tr>
     <tr>
       <td></td>
@@ -226,7 +232,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -234,7 +240,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -258,7 +264,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 333@999-abc-888.Marketo</td>
+      <td>E.g. - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -267,7 +273,7 @@ ht-degree: 86%
       <td>Lead-ID oder Kontakt-ID</td>
       <td>Ja</td>
       <td>
-        <p>Zum Beispiel: 333, je nach der Datenquellentabelle ist dies entweder die Lead-ID oder die Kontakt-ID.</p>
+        <p>E.g. - 333. Abhängig von der Datenquellentabelle ist dies entweder die Lead-ID oder die Kontakt-ID.</p>
         <p>Fremdschlüssel für Lead oder Kontakt</p>
       </td>
     </tr>
@@ -277,7 +283,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -285,7 +291,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -293,7 +299,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -302,7 +308,7 @@ ht-degree: 86%
       <td>Kampagnen-ID</td>
       <td>Ja</td>
       <td>
-        <p>Zum Beispiel: 55555.</p>
+        <p>E.g. - 55555.</p>
         <p>Fremdschlüssel für Kampagne</p>
       </td>
     </tr>
@@ -312,7 +318,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -320,7 +326,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -381,7 +387,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -389,7 +395,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -458,7 +464,7 @@ ht-degree: 86%
       <td></td>
       <td>Nein</td>
       <td>
-        <p>Zum Beispiel: 123@999-abc-888.Marketo.</p>
+        <p>E.g. - 123@999-abc-888.Marketo.</p>
         <p>Der Satz von sourceAccountKey-Feldern ist nur für wahre Kontaktdatensätze „erforderlich“, definiert als Personeneinträge, die mit „Konto“ verknüpft sind. Wenn er fehlt, wird der Datensatz nicht zurückgewiesen, aber die Attributionsergebnisse sind deaktiviert.</p>
         <p>personComponents ist ein Array, Marketo Measure verwendet jedoch nur das erste Element „personComponents[0]“</p>
       </td>
@@ -470,7 +476,7 @@ ht-degree: 86%
       <td>Konto-ID</td>
       <td>Nein</td>
       <td>
-        <p>Zum Beispiel: 123.</p>
+        <p>E.g. - 123.</p>
         <p>Fremdschlüssel für Konto</p>
       </td>
     </tr>
@@ -488,7 +494,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Nein</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td colspan="7"><strong>Opportunity</strong> (Opportunity für Salesforce, Opportunities für Marketo)</td>
@@ -508,7 +514,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>Zum Beispiel: 77777</td>
+      <td>E.g. - 77777</td>
     </tr>
     <tr>
       <td></td>
@@ -516,7 +522,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -524,7 +530,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -557,7 +563,7 @@ ht-degree: 86%
       <td>Konto-ID</td>
       <td>Ja</td>
       <td>
-        <p>Zum Beispiel: 123.</p>
+        <p>E.g. - 123.</p>
         <p>Fremdschlüssel für Konto</p>
       </td>
     </tr>
@@ -567,7 +573,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -575,7 +581,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -674,7 +680,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -682,7 +688,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -717,7 +723,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -725,7 +731,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -749,7 +755,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -757,7 +763,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -809,7 +815,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 0x012345</td>
+      <td>E.g. - 0x012345</td>
     </tr>
     <tr>
       <td></td>
@@ -817,7 +823,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Salesforce</td>
+      <td>E.g. - SALESFORCE</td>
     </tr>
     <tr>
       <td></td>
@@ -874,7 +880,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td>ISOCode</td>
       <td>Ja</td>
-      <td>Zum Beispiel: EUR</td>
+      <td>E.g. EUR</td>
     </tr>
     <tr>
       <td></td>
@@ -947,7 +953,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 333@999-abc-888.Marketo</td>
+      <td>E.g. - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -957,7 +963,7 @@ ht-degree: 86%
       <td>Lead-ID oder Kontakt-ID</td>
       <td>Ja</td>
       <td>
-        <p>Zum Beispiel: 333, je nach der Datenquellentabelle ist dies entweder die Lead-ID oder die Kontakt-ID.</p>
+        <p>E.g. - 333. Abhängig von der Datenquellentabelle ist dies entweder die Lead-ID oder die Kontakt-ID.</p>
         <p>Fremdschlüssel für Lead oder Kontakt</p>
       </td>
     </tr>
@@ -968,7 +974,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -977,7 +983,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -986,7 +992,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja nur für den Typ leadOperation.addToCampaign</td>
-      <td>Zum Beispiel: 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -996,7 +1002,7 @@ ht-degree: 86%
       <td>Kampagnen-ID</td>
       <td>Ja nur für den Typ leadOperation.addToCampaign</td>
       <td>
-        <p>Zum Beispiel: 55555.</p>
+        <p>E.g. - 55555.</p>
         <p>Fremdschlüssel für Kampagne</p>
       </td>
     </tr>
@@ -1007,7 +1013,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja nur für den Typ leadOperation.addToCampaign</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -1016,7 +1022,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja nur für den Typ leadOperation.addToCampaign</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -1025,7 +1031,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja nur für den Typ leadOperation.campaignProgression</td>
-      <td>Zum Beispiel: 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -1035,7 +1041,7 @@ ht-degree: 86%
       <td>Kampagnen-ID</td>
       <td>Ja nur für den Typ leadOperation.campaignProgression</td>
       <td>
-        <p>Zum Beispiel: 55555.</p>
+        <p>E.g. - 55555.</p>
         <p>Fremdschlüssel für Kampagne</p>
       </td>
     </tr>
@@ -1046,7 +1052,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja nur für den Typ leadOperation.campaignProgression</td>
-      <td>Zum Beispiel: 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -1055,7 +1061,7 @@ ht-degree: 86%
       <td>Zeichenfolge</td>
       <td></td>
       <td>Ja nur für den Typ leadOperation.campaignProgression</td>
-      <td>Zum Beispiel: Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
   </tbody>
 </table>

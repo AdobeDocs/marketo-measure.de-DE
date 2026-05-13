@@ -4,9 +4,15 @@ description: Synchronisieren historischer Daten - [!DNL Marketo Measure]
 title: Synchronisieren historischer Daten
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/RODJgjoLhJW0g3ra0H-mn8bOeBicfOuVlLSvU--Gaeo
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: 1516
 ht-degree: 3%
 
 ---
@@ -25,7 +31,7 @@ ht-degree: 3%
 
 a. Die Daten müssen in Kampagnen organisiert und mit [!DNL Marketo Measure] synchronisiert werden, damit Touchpoints generiert werden können. Wenn er derzeit nicht in Kampagnen unterteilt ist, sollten Sie prüfen, ob sich die Zeit und die Ressourcen lohnen, die für die Segmentierung der Daten in die entsprechenden Kampagnen erforderlich sind.
 
-b. Das Datum, an dem das Mitglied der Kampagne hinzugefügt wurde oder als beantwortet markiert wurde, wird für das Touchpoint-Datum verwendet. Daher muss dieses Datum auch korrekt sein. [!DNL Marketo Measure] bietet Problemumgehungen sowohl in SFDC als auch in MSD, um die Daten zu aktualisieren. Dies kann jedoch je nach Volumen zeitaufwendig sein.
+b. Das Datum, an dem das Mitglied der Kampagne hinzugefügt wurde oder als „Responded“ (geantwortet) markiert wurde, wird für das Touchpoint-Datum verwendet. Daher muss dieses Datum auch korrekt sein. [!DNL Marketo Measure] bietet Problemumgehungen sowohl in SFDC als auch in MSD, um die Daten zu aktualisieren. Dies kann jedoch je nach Volumen zeitaufwendig sein.
 
 **Haben Sie für alle Kanäle (Paid Search, Ereignisse, Organic usw.) eine relativ gleiche Datenmenge in Kampagnen organisiert?**
 
@@ -49,7 +55,7 @@ Dies ist ein Thema, das wir dringend empfehlen, zuerst mit Ihrem [!DNL Marketo M
 
 **Online:**
 
-Um historische Online-Daten zu synchronisieren, müssen die Daten in Salesforce-Kampagnen unterteilt sein. Diese können dann über [!DNL Marketo Measure] Regeln für die Kampagnensynchronisierung in der [!DNL Salesforce] App mit [!DNL Marketo Measure] synchronisiert werden. Sie müssen sicherstellen, dass aus keiner dieser Kampagnen nach dem Tag der Live-Schaltung Ihrer JavaScript Touchpoints generiert werden. Der Grund dafür ist, doppelte Touchpoints zu vermeiden. Nach der Live-Schaltung der JavaScript werden Online-Anstrengungen automatisch verfolgt, sodass wir sie nicht auch über eine SFDC-Kampagne verfolgen möchten. Um dieses Problem zu vermeiden, sollten Sie der Regel eine gewisse Zeit hinzufügen. Möglicherweise liegt das Erstellungsdatum des Kampagnenmitglieds unter dem [JavaScript-Tag der Live-Schaltung].
+Um historische Online-Daten zu synchronisieren, müssen die Daten in Salesforce-Kampagnen unterteilt sein. Diese können dann über [!DNL Salesforce] Regeln für die Kampagnensynchronisierung in der [!DNL Marketo Measure] App mit [!DNL Marketo Measure] synchronisiert werden. Sie müssen sicherstellen, dass aus keiner dieser Kampagnen nach dem Tag der Live-Schaltung Ihrer JavaScript Touchpoints generiert werden. Der Grund dafür ist, doppelte Touchpoints zu vermeiden. Nach der Live-Schaltung der JavaScript werden Online-Anstrengungen automatisch verfolgt, sodass wir sie nicht auch über eine SFDC-Kampagne verfolgen möchten. Um dieses Problem zu vermeiden, sollten Sie der Regel eine gewisse Zeit hinzufügen. Möglicherweise liegt das Erstellungsdatum des Kampagnenmitglieds unter dem [JavaScript-Tag der Live-Schaltung].
 
 ![](assets/syncing-historical-data-1.png)
 
