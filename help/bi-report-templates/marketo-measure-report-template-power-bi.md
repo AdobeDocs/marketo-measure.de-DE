@@ -4,8 +4,10 @@ title: '[!DNL Marketo Measure]-Berichtsvorlage – Power BI'
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
 TQID: https://experienceleague.adobe.com/xoNrfpeiDzwSGh1Ii3Anl1O78vaRrvmHlzYTrPG7k5I
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 2565
@@ -17,7 +19,7 @@ ht-degree: 97%
 
 ## Erste Schritte {#getting-started}
 
-Sie können auf die Power BI-Berichtsvorlage ([) ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
+Sie können auf die Power BI-Berichtsvorlage ([) &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Öffnen Sie die Power BI-Datei der Adobe [!DNL Marketo Measure]-Berichtsvorlage.
 

@@ -5,8 +5,10 @@ title: Opportunitys nach Marketingkanal
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
 TQID: https://experienceleague.adobe.com/UUVK-y5KT4g8YGIwDq1cWi4IU5-s8Ajr41n4pLwsLOU
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 213
@@ -24,7 +26,7 @@ Dieser Bericht zeigt die Anzahl der von Ihren Marketing-Kanälen generierten Opp
 
    ![](assets/1-2.jpg)
 
-1. Zeigen Sie oben im Bericht &quot;**[!UICONTROL Attribution-Touchpoints von Bizible]** an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von &quot;[!UICONTROL &quot; ] &quot;**[!UICONTROL &quot;]**.
+1. Zeigen Sie oben im Bericht &quot;**[!UICONTROL Attribution-Touchpoints von Bizible]** an und passen Sie das Datumsfeld an den Zeitrahmen an, für den Sie einen Bericht erstellen möchten. In unserem Beispiel geht es um „All Time“. Ändern Sie außerdem das Berichtsformat von &quot;[!UICONTROL &quot; &#x200B;] &quot;**[!UICONTROL &quot;]**.
 
    ![](assets/2-2.jpg)
 

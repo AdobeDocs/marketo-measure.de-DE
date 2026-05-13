@@ -4,7 +4,8 @@ title: Adobe Experience Cloud-Benutzeroberfläche – Übersicht
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
 TQID: https://experienceleague.adobe.com/sWShCKtPiGe5MWS09Le1F9a-gbds18qA9Cae0asctfg
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 304
@@ -76,4 +77,4 @@ Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine Seite wie d
 
 ![](assets/unified-shell-overview-11.png)
 
-Wenn Sie den oben genannten Fehler erhalten, [ Sie den Support ](https://nation.marketo.com/t5/support/ct-p/Support) Hilfe.
+Wenn Sie den oben genannten Fehler erhalten, [&#x200B; Sie den Support &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support) Hilfe.

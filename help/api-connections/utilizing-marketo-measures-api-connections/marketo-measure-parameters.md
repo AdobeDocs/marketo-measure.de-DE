@@ -5,9 +5,12 @@ title: '[!DNL Marketo Measure]-Parameter'
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 feature: APIs, Integration, UTM Parameters
 TQID: https://experienceleague.adobe.com/IurdaUgr2R1vxfOP4bcXp8TSUj4ymkA-R9kZ9put4Ug
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
-subfeature_v2: id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2:
+  - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 243
@@ -46,10 +49,10 @@ Beispiel einer URL mit [!DNL Marketo Measure]-Parametern:
 
 >[!TIP]
 >
->Weitere Informationen zu Übereinstimmungstypen finden [ in einem entsprechenden AdWords-Artikel](https://support.google.com/adwords/answer/2497836?hl=de){target="_blank"}.
+>Weitere Informationen zu Übereinstimmungstypen finden [&#x200B; in einem entsprechenden AdWords-Artikel](https://support.google.com/adwords/answer/2497836?hl=de){target="_blank"}.
 
 * `_bn={network}`
-   * Stellt den Anzeigennetzwerktyp (Anzeige [ Suche) ](https://support.google.com/adwords/answer/1752334?hl=de){target="_blank"}.
+   * Stellt den Anzeigennetzwerktyp (Anzeige [&#x200B; Suche) &#x200B;](https://support.google.com/adwords/answer/1752334?hl=de){target="_blank"}.
    * Ähnelt dem UTM-Quellparameter.
 
 * `_bg={adgroupID}`

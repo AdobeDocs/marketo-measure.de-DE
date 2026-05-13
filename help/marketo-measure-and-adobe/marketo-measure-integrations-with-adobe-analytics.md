@@ -4,9 +4,13 @@ title: '[!DNL Marketo Measure] Integrationen mit [!DNL Adobe Analytics]'
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
 TQID: https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 968
@@ -38,11 +42,11 @@ Die Integration von B2B-Kundenattributen ermöglicht es gemeinsamen Benutzenden 
 
    Geben Sie Ihre Adobe IMS-Organisations-ID ein. Diese ID wird unten rechts in Ihrem Adobe Experience Cloud Admin Console angezeigt. Weitere Hilfe zum Auffinden dieser ID erhalten Sie beim Adobe Account Team (Ihrem Account Manager).
 
-1. Nachdem Sie die Verbindung in Ihrem [!DNL Marketo Measure]-Konto erstellt haben, müssen Sie zu Ihrer Experience Cloud-Konsole zurückkehren, um [ Schema zu ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Sie müssen sich keine Gedanken über das Hochladen der FTP-Datei machen, [!DNL Marketo Measure] diesen Teil für Sie automatisiert hat. Gehen Sie zum Bildschirm „Schema anzeigen/bearbeiten“ für die Kundenattribut-Source, die Sie in Schritt 1 erstellt haben, und teilen Sie Adobe mit, welche Datentypen für die einzelnen Attribute gelten, die [!DNL Marketo Measure] in Ihrem Namen hochgeladen hat. Sie können bei Bedarf auch neue Anzeigenamen für die hochgeladenen Attribute erstellen.
+1. Nachdem Sie die Verbindung in Ihrem [!DNL Marketo Measure]-Konto erstellt haben, müssen Sie zu Ihrer Experience Cloud-Konsole zurückkehren, um [&#x200B; Schema zu &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Sie müssen sich keine Gedanken über das Hochladen der FTP-Datei machen, [!DNL Marketo Measure] diesen Teil für Sie automatisiert hat. Gehen Sie zum Bildschirm „Schema anzeigen/bearbeiten“ für die Kundenattribut-Source, die Sie in Schritt 1 erstellt haben, und teilen Sie Adobe mit, welche Datentypen für die einzelnen Attribute gelten, die [!DNL Marketo Measure] in Ihrem Namen hochgeladen hat. Sie können bei Bedarf auch neue Anzeigenamen für die hochgeladenen Attribute erstellen.
 
    Wenn Sie Attribute aus Ihrem CRM-Kontoobjekt synchronisieren möchten, wird dringend empfohlen, neue Anzeigenamen für sie auszuwählen, da [!DNL Marketo Measure] nur die Namen auf API-Ebene für diese Attribute ausfüllt, was in der Regel nicht berichterstellungsfreundlich ist.
 
-1. Der letzte Schritt besteht darin, Attributabonnements für die Experience Cloud-Programme zu konfigurieren, in denen Sie die Attribute verwenden möchten. Sie können Abonnements für [!DNL Adobe Analytics] oder [!DNL Adobe Target] konfigurieren.  Weitere Informationen dazu finden [ hier](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
+1. Der letzte Schritt besteht darin, Attributabonnements für die Experience Cloud-Programme zu konfigurieren, in denen Sie die Attribute verwenden möchten. Sie können Abonnements für [!DNL Adobe Analytics] oder [!DNL Adobe Target] konfigurieren.  Weitere Informationen dazu finden [&#x200B; hier](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
 
 ## Attributbeschreibungen {#attribute-descriptions}
 
