@@ -5,8 +5,11 @@ title: '[!DNL Marketo Measure] Ressourcenliste'
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
 TQID: https://experienceleague.adobe.com/oY2h-o6vE-X-TcsklCmmKitANBYszLt7SSBWbAmy1lU
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 341
@@ -35,13 +38,13 @@ Hier finden Sie verschiedene Links zu relevanten Artikeln/Videos, die Ihnen beim
 * [Synchronisieren von SFDC-Kampagnen mit Käufer-Touchpoints](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [Marketingausgaben hochladen](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Erneutes Verbinden von Werbekonten](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
-* [ [!DNL Marketo Measure] JavaScript wird hinzugefügt](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+* [&#x200B; [!DNL Marketo Measure] JavaScript wird hinzugefügt](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
    * [Forms ausschließen](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **Reporting**
 
 * [Erstellen benutzerdefinierter Berichtstypen mit [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (wenn Sie einen Bericht über benutzerdefinierte Lead-/Kontakt-/Opportunity-Felder erstellen müssen)
-* [Glossar der  [!DNL Marketo Measure] ](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
+* [Glossar der  [!DNL Marketo Measure] &#x200B;](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 **Fehlerbehebung**
 
