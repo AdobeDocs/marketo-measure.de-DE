@@ -5,10 +5,8 @@ title: Konfigurieren der [!DNL Marketo Measure] A/B-Test-Integration
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
 TQID: https://experienceleague.adobe.com/BmZ2KnbTIkhPX1kGTNHMMMfmw7zs3Z1-YLwLIVOhVuk
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 128
@@ -22,6 +20,6 @@ Fügen Sie die [!DNL Marketo Measure] Abschnitte über A/B-Tests zu Lead, Kontak
 
 1. Stellen Sie sicher, dass Sie das Paket [[!DNL Marketo Measure] v3.9 oder höher verwenden](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}.
 1. Fügen Sie die Liste &quot;[!DNL Marketo Measure] ABTests“ zu Ihren Seiten-Layouts hinzu und klicken Sie dann auf **Einstellungen** (Schraubenschlüssel).
-1. Entfernen Sie das Standardfeld „Id“ aus der Liste der ausgewählten Felder. Fügen Sie [!UICONTROL &#x200B; Felder &#x200B;]Experiment“, [!UICONTROL Variante] und [!UICONTROL DateReporting] hinzu und ändern Sie „Sortieren nach“ in „Berichtsdatum“. Klicken Sie auf die **[!UICONTROL Absteigend]**.
+1. Entfernen Sie das Standardfeld „Id“ aus der Liste der ausgewählten Felder. Fügen Sie [!UICONTROL  Felder ]Experiment“, [!UICONTROL Variante] und [!UICONTROL DateReporting] hinzu und ändern Sie „Sortieren nach“ in „Berichtsdatum“. Klicken Sie auf die **[!UICONTROL Absteigend]**.
 1. Deaktivieren Sie unter [!UICONTROL Schaltflächen] die Option **[!UICONTROL Neu]**.
 1. Wenden Sie sich an Ihren Kontovertreter oder an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}, um die Funktion zu aktivieren.

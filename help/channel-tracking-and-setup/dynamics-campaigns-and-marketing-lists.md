@@ -28,7 +28,7 @@ Wenn Leads oder Kontakte direkt zu einer Kampagne hinzugefügt werden, werden si
 
 ## Touchpoints aktivieren {#enable-touchpoints}
 
-Um diese Datensätze in die Touchpoint-Journey aufzunehmen, gibt es einige Optionen für die Typen der Campaign-Antworten, die synchronisiert werden sollen. Im Kampagnendatensatz sollte ein benutzerdefiniertes Feld der installierten Lösung mit der Bezeichnung „Käuferkontaktpunkte aktivieren[!UICONTROL &#x200B; vorhanden &#x200B;]. Wenn dies nicht angezeigt wird, muss das Feld über den Formulareditor hinzugefügt werden.
+Um diese Datensätze in die Touchpoint-Journey aufzunehmen, gibt es einige Optionen für die Typen der Campaign-Antworten, die synchronisiert werden sollen. Im Kampagnendatensatz sollte ein benutzerdefiniertes Feld der installierten Lösung mit der Bezeichnung „Käuferkontaktpunkte aktivieren[!UICONTROL  vorhanden ]. Wenn dies nicht angezeigt wird, muss das Feld über den Formulareditor hinzugefügt werden.
 
 ![Um diese Datensätze in die Touchpoint-Journey aufzunehmen, gibt es einige](assets/dynamics-lists-10.png)
 
@@ -80,7 +80,7 @@ Das Touchpoint-Datum für eine Marketing-Liste ist in der Regel das Erstellungsd
 
 Dynamics-Kampagnen werden in Ihren benutzerdefinierten Marketing-Kanälen mithilfe des Felds Kampagnentyp zusammengefasst. Diese können im Menü „Dynamics-Anpassungen“ geändert werden.
 
-Die Werte im Menü Kampagnentyp werden in die [!DNL Marketo Measure] übernommen. **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Offline-]**.
+Die Werte im Menü Kampagnentyp werden in die [!DNL Marketo Measure] übernommen. **[!UICONTROL Mein]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Offline-Kanäle]**.
 
 Für jeden Kampagnentyp kann er einer Kanal- und Unterkanal-Kombination zugeordnet werden, sodass jeder Touchpoint, der von der Kampagne abgeleitet wird, den richtigen zugeordneten Kanal und Unterkanal hat.
 
