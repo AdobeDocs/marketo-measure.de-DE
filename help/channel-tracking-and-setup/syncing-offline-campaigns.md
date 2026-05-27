@@ -34,7 +34,7 @@ Im Feld Erstellungsdatum auf dem Objekt Kampagnenmitglied wird [!DNL Salesforce]
 
 Warum ist das wichtig? Stellen Sie sich vor, Ihr Unternehmen hat im Januar einen Stand auf einer Konferenz gesponsert. Auf der Konferenz zeigten 100 Personen Interesse an Ihrem Produkt und gaben ihre Kontaktinformationen an, um E-Mail-Updates zu erhalten. Drei Wochen später haben Sie endlich eine Kampagne erstellt, [!DNL Salesforce] die Ergebnisse der Konferenz zu verfolgen.
 
-Ihr Upload-Datum liegt drei Wochen nach dem Konferenzdatum. Um diesen Unterschied zu beheben, [!UICONTROL  Sie mit der Schaltfläche ]Massenaktualisierung Touchpoint-Datum“ das entsprechende Datum festlegen. Die Schaltfläche ist in der Abbildung unten dargestellt.
+Ihr Upload-Datum liegt drei Wochen nach dem Konferenzdatum. Um diesen Unterschied zu beheben, [!UICONTROL &#x200B; Sie mit der Schaltfläche &#x200B;]Massenaktualisierung Touchpoint-Datum“ das entsprechende Datum festlegen. Die Schaltfläche ist in der Abbildung unten dargestellt.
 
 ![Ihr Upload-Datum liegt drei Wochen nach dem Konferenzdatum.](assets/dynamics-lists-1.png)
 
