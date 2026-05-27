@@ -4,8 +4,12 @@ title: '[!DNL Salesforce] Paketkonsolidierung'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
 TQID: https://experienceleague.adobe.com/tnukDAuF9C1oI2Req6SWqg3C9gLFJASkIWDDt-0HUm0
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 446
@@ -60,7 +64,7 @@ Sie müssen Ihr Paket nicht deinstallieren, bevor Sie das konsolidierte Paket in
 
 **Wie kann ich die Daten aus meinen aktuellen Paketen aufstocken?**
 
-Sie können ein Ticket ([ Support) ](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de){target="_blank"} Aufstockung und Neuverarbeitung von BT-/BAT-Daten zum Ausfüllen von Touchpoint-ID- und Formular-ID-Feldern einreichen.
+Sie können ein Ticket ([&#x200B; Support) &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de){target="_blank"} Aufstockung und Neuverarbeitung von BT-/BAT-Daten zum Ausfüllen von Touchpoint-ID- und Formular-ID-Feldern einreichen.
 
 **Werden die Felder in den Paketen V1 und V2_EXT im konsolidierten Paket verfügbar sein?**
 
