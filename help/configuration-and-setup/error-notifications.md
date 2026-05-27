@@ -6,7 +6,7 @@ exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '1942'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -46,7 +46,7 @@ Um die vollständige Benachrichtigung in [!DNL Marketo Measure] anzuzeigen, klic
           <p>Sie können die CRM-Credits, die Marketo Measure verwendet, auch wie folgt anpassen:</p>
           <ul>
             <li>Navigieren Sie zu <b>Einstellungen</b> &gt; <b>CRM</b> &gt; <b>Allgemein</b></li>
-            <li>Aktualisieren Sie das tägliche CRM-API-Limit<br/>
+            <li>Tägliches CRM-API-Limit aktualisieren<br/>
               <ul>
                 <li><b>Hinweis: Der Standardwert ist 100.000</b></li>
               </ul>
@@ -179,12 +179,12 @@ Die Salesforce-Dokumentation zu Flow Trigger <a href="https://admin.salesforce.c
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Fehler beim CRM-Export: MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Marketo Measure hat keine Berechtigung zum Anzeigen/Bearbeiten konvertierter Leads</td>
-      <td>Hilfe zur Aktivierung dieser Berechtigung in Ihrem CRM-System finden Sie im folgenden Experience League-Dokument<br/>
-<a href="/help/marketo-measure-salesforce-reporting/enabling-the-permission-to-edit-converted-leads.md">Aktivieren der Berechtigung zum Bearbeiten konvertierter Leads</a></td>
+      <td>Weitere Informationen zur Aktivierung dieser Berechtigung in Ihrem CRM finden Sie im folgenden Experience League-Dokument<br/>
+          <a href="/help/marketo-measure-salesforce-reporting/enabling-the-permission-to-edit-converted-leads.md">Aktivieren der Berechtigung zum Bearbeiten konvertierter Leads</a></td>
     </tr>
     <tr>
       <td>MISSING_FIELD_READ_PERMISSION</td>
-      <td>Fehler beim CRM-Import: MISSING_FIELD_READ_PERMISSION : Entitätstyp 'Ereignis': INVALID_FIELD:<br/>
+      <td>Fehler beim CRM-Import: MISSING_FIELD_READ_PERMISSION : Entitätstyp 'Ereignis': UNGÜLTIGES_FELD:<br/>
     SystemModstamp,IsDeleted,WhoId,bizible2__Bizible_Touchpoint_Date__c</td>
       <td>Marketo Measure hat für ein erforderliches Feld keine Leseberechtigungen.</td>
       <td>In den folgenden Hilfeartikeln finden Sie Anleitungen zu den erforderlichen Berechtigungen für Marketo Measure:

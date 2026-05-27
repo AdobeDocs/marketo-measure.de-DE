@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -118,7 +118,7 @@ Informationen zu Kampagnenkosten finden Sie [in diesem Artikel](/help/crm-campai
 
 Die Art und Weise, wie [!DNL Marketo Measure] über alle gelöschten Einträge in Salesforce auf dem Laufenden bleibt, ob es sich nun um gelöschte Leads, Konten oder Opportunitys handelt, besteht darin, diese Einträge in der API zu sehen und zu verfolgen, ob ein Eintrag als „IsDeleted“ markiert ist. Leider hat Salesforce bei den Kampagnenmitgliedern eine andere Methode eingeführt, um diese Mitglieder aus einer Kampagne zu löschen. Sie werden nämlich nur als „entfernt“ und nicht als „gelöscht“ markiert, sodass das Problem darin bestand, dass die Touchpoints in Salesforce, die mit den gelöschten Kampagnenmitgliedern verbunden waren, immer noch existierten.
 
-Um dieses Problem zu umgehen, haben [!DNL Marketo Measure] ein [!DNL Marketo Measure] und einen Trigger erstellt, die verfolgt werden können, wenn Kampagnenmitglieder entfernt werden und dann der entsprechende Touchpoint gelöscht wird. **Sie benötigen [!DNL Marketo Measure] Marketing Analytics-Paket v6.15 oder höher**, um diese Funktion verwenden zu können.
+Um dieses Problem zu umgehen, hat [!DNL Marketo Measure] ein [!DNL Marketo Measure]-Verlaufsobjekt und einen Trigger erstellt, um zu verfolgen, wann Kampagnenmitglieder entfernt werden, und dann den entsprechenden Touchpoint zu löschen. **Sie benötigen das [!DNL Marketo Measure]-Marketing-Analyse-Paket V6.15 oder höher**, um diese Funktion zu nutzen.
 
 >[!CAUTION]
 >

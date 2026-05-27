@@ -80,7 +80,7 @@ Sie sollten diese neuen Touchpoints wahrscheinlich in ihrem entsprechenden [Mark
 | Entspricht allen | Mehrere Werte - Exakte Übereinstimmung |
 | stimmt überein mit „any“ (enthält) | Mehrere Werte - &#42;value&#42;, &#42;value, &#42;value&#42; |
 
-![| stimmt überein mit „any“ (enthält) | Mehrere Werte - &42;Wert&42;, &42;Wert, &42;Wert&42; |](assets/activities-attribution-8.png)
+![| Entspricht einem beliebigen (enthält) | Mehrere Werte - &42;Wert&42;, &42;Wert, &42;Wert&42; |](assets/activities-attribution-8.png)
 
 Und nicht zuletzt haben Sie die Möglichkeit, Kosten für Ihre neuen Kanäle einzutragen. Mit [&#x200B; Upload von Marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"}Ausgaben können Sie Ihre Ausgaben auf Kanal-, Unterkanal- oder Kampagnenebene eingeben. Mit Ihren neuen [!DNL Marketo Measure]-Kampagnen können Sie diese zugehörigen Kosten nach Monat hinzufügen und dann den ROI für jede Kampagne anzeigen!
 
