@@ -101,7 +101,7 @@ Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Si
 
 1. Sie werden auf eine Rollout-Seite für Ihren Workflow zurückgeleitet. Stellen Sie sicher, dass Sie auf „Aktivieren“ klicken und schon können Sie loslegen. Klicken Sie zum Aktivieren **[!UICONTROL Bearbeiten]** neben Ihrem neuen Workflow und dann auf **[!UICONTROL Aktivieren]**.
 
-   Trigger Nachdem Sie diese Schritte abgeschlossen haben, müssen die Opportunitys aktualisiert werden, damit der Workflow den neuen Wert aus dem Feld [!UICONTROL Benutzerdefinierte Opportunity] erhält.
+   Nachdem Sie diese Schritte abgeschlossen haben, müssen die Opportunitys aktualisiert werden, damit der Workflow den neuen Wert aus dem Feld [!UICONTROL Benutzerdefinierte Opportunity] erhält.
 
    Dies können Sie erreichen, indem Sie Ihre Opportunitys über den Data Loader in SFDC ausführen. Weitere Informationen zur Verwendung des Datenladers finden Sie in [diesem Artikel](/help/channel-tracking-and-setup/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 

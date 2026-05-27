@@ -6,7 +6,7 @@ feature: Reporting
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '2485'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -92,7 +92,7 @@ Es gibt einige Stellen, an denen zwei Tabellen aus [!DNL Snowflake] mit einer Ve
 
 ### Segmentnamen {#segment-names}
 
-Da Segmentnamen angepasst werden können, verfügen sie im Snowflake Data Warehouse über generische Spaltennamen. [!DNL BIZ_SEGMENT_NAMES] ist eine Zuordnungstabelle, in der der allgemeine Segmentname mit dem benutzerdefinierten Segmentnamen, dem er zugeordnet ist, aufgelistet wird, wie im Abschnitt Segment in der [!DNL Marketo Measure]-Benutzeroberfläche definiert. Wenn Sie benutzerdefinierte Segmentnamen verwenden und diese in Ihr [!DNL Tableau]-Modell integrieren möchten, verwenden Sie diese Tabelle und benennen Sie die Spalten innerhalb des Tableau-Modells manuell um. Die Segmentspalten befinden sich in der Lead- und Attributions-Touchpoint-Tabelle und müssen nur einmal umbenannt werden.
+Segmentnamen sind anpassbar. Sie weisen daher im Snowflake Data Warehouse allgemeine Spaltennamen auf. [!DNL BIZ_SEGMENT_NAMES] ist eine Zuordnungstabelle, in der der allgemeine Segmentname mit dem angepassten, zugeordneten Segmentnamen aufgeführt wird, wie im Segmentabschnitt der [!DNL Marketo Measure]-Benutzeroberfläche definiert. Wenn Sie benutzerdefinierte Segmentnamen verwenden und diese in Ihr [!DNL Tableau]-Modell integrieren möchten, verwenden Sie diese Tabelle und benennen Sie die Spalten innerhalb des Tableau-Modells manuell um. Die Segmentspalten befinden sich in der Lead- und Attributions-Touchpoint-Tabelle und müssen nur einmal umbenannt werden.
 
 Die Spalte [!UICONTROL KATEGORIE] enthält die Kategorienummer und die Spalte SEGMENTNAME den angepassten Segmentnamen, dem sie zugeordnet ist.
 
