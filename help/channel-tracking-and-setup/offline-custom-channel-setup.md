@@ -45,7 +45,7 @@ Hier können Sie die Kanal-/Unterkanal-Zuordnung in der [!DNL Marketo Measure] A
 
 Stellen Sie sich z. B. vor, Sie nehmen an zwei [!DNL Salesforce]-Konferenzen im Jahr teil. Jede Konferenz ist jedoch sehr unterschiedlich und hat eine einzigartige Zielgruppe. Sie wollen wissen, welche der beiden mehr Wert bringt. In Ihrer [!DNL Salesforce]-Umgebung können Sie dem Januar-Ereignis den Kampagnentyp „Konferenz“, Ihren Kanal &quot;[!DNL Salesforce]&quot; und Ihren Unterkanal „Januar-Konferenz“ zuweisen.
 
-Nun möchten Sie dasselbe für die Juni-Konferenz tun. Da es sich um eine Konferenz handelt, kann ihr derselbe Kampagnentyp zugewiesen werden, in diesem Fall „Konferenz“. Der Kanal ist derselbe, [!DNL Salesforce], und der Unterkanal für diese zweite Konferenz ist „June Conference“. Aus organisatorischer Sicht ist dies sinnvoll. Es ist jedoch für die [!DNL Marketo Measure] Logik sehr verwirrend, diese Regeln zu lesen und anzuwenden, da beide Kampagnen denselben Kampagnentyp haben. [!DNL Marketo Measure] Das Skript kann keine Daten eines Typs zwei verschiedenen Unterkanälen zuordnen. Das bedeutet, dass Sie für jeden Unterkanal einen neuen Kampagnentyp erstellen müssen, aber die Unterkanäle können denselben Kanal haben.
+Nun möchten Sie dasselbe für die Juni-Konferenz tun. Da es sich um eine Konferenz handelt, kann ihr derselbe Kampagnentyp zugewiesen werden, in diesem Fall „Konferenz“. Der Kanal ist derselbe, [!DNL Salesforce], und der Unterkanal für diese zweite Konferenz ist „June Conference“. Aus organisatorischer Sicht ist dies sinnvoll. Es ist jedoch für die [!DNL Marketo Measure] Logik sehr verwirrend, diese Regeln zu lesen und anzuwenden, da beide Kampagnen denselben Kampagnentyp haben. [!DNL Marketo Measure] Skript kann keine Daten eines Typs zwei verschiedenen Unterkanälen zuordnen. Das bedeutet, dass Sie für jeden Unterkanal einen neuen Kampagnentyp erstellen müssen, aber die Unterkanäle können denselben Kanal haben.
 
 Im Folgenden finden Sie ein Beispiel für eine Logik, die [!DNL Marketo Measure] nicht lesen könnten:
 
@@ -77,7 +77,7 @@ Nachdem Sie die Kalkulationstabelle mit Ihren benutzerdefinierten Regeln bearbei
 
 >[!TIP]
 >
->Möchten Sie ermitteln _wann_ ein [!DNL Salesforce] Kampagnentyp in [!DNL Marketo Measure] Kanalzuordnung übernommen wird? Navigieren Sie **[!UICONTROL Setup]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Felder]** > **[!UICONTROL Typ]**. Sie können dann sehen, welche Werte sich in der Auswahlliste befinden und welche inaktiv sind. Inaktive werden in unserem Abschnitt „Offline-[!UICONTROL &quot; nicht als &#x200B;] angezeigt. Beachten Sie, dass dieser Vorgang zwischen einigen Minuten und 48 Stunden dauern kann.
+>Möchten Sie ermitteln _wann_ ein [!DNL Salesforce] Kampagnentyp in [!DNL Marketo Measure] Kanalzuordnung übernommen wird? Navigieren Sie **[!UICONTROL Setup]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Felder]** > **[!UICONTROL Typ]**. Sie können dann sehen, welche Werte sich in der Auswahlliste befinden und welche inaktiv sind. Inaktive werden in unserem Abschnitt „Offline-[!UICONTROL &quot; nicht als ] angezeigt. Beachten Sie, dass dieser Vorgang zwischen einigen Minuten und 48 Stunden dauern kann.
 
 Klicken Sie **[!UICONTROL Speichern]** wenn Sie fertig sind. [!DNL Marketo Measure] werden die Änderungen hochladen und die Daten erneut verarbeiten.
 
@@ -85,6 +85,6 @@ Klicken Sie **[!UICONTROL Speichern]** wenn Sie fertig sind. [!DNL Marketo Measu
 >
 >* [[!DNL Marketo Measure] Tutorials: Zuordnen von Offline-Kanälen](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Tutorials: Synchronisieren von Offline-Kampagnen](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure] Tutorials: Synchronisieren von Offline-Kampagnen](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
 >* [Integration von Marketo Engage-Programmen](/help/marketo-engage-programs-integration.md){target="_blank"}

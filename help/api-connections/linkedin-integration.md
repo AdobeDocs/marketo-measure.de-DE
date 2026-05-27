@@ -87,7 +87,7 @@ Die von [!DNL Marketo Measure] unterstützten Arten von gesponserten Inhalts-Anz
 
 Bei dieser [!DNL Marketo Measure/LinkedIn]-Integration bitten wir Kunden, vorhandene Kreative nicht zu kopieren/klonen/duplizieren. Wenn Freigaben gefunden werden und nur auf einer Creative verwendet werden, können [!DNL Marketo Measure] die Freigabe wie besehen taggen, ohne dass Kreative oder Freigaben neu erstellt werden müssen. Der gesamte Werbeverlauf (Impressionen, Klicks, Freigaben) bleibt erhalten.
 
-Sobald festgestellt wird, dass eine Freigabe für mehrere Kreative freigegeben ist, müssen [!DNL Marketo Measure] einen Prozess zum Anhalten, Kopieren und erneuten Taggen durchlaufen, um einen eindeutigen Satz zu erstellen. [!DNL Marketo Measure] pausiert und archiviert Live-Kreative und löscht daher den Anzeigenverlauf einschließlich Impressionen, Klicks und Social Shares, um das automatische Tagging durchzuführen.
+Sobald festgestellt wird, dass eine Freigabe für mehrere Kreative freigegeben ist, müssen [!DNL Marketo Measure] einen Prozess zum Anhalten, Kopieren und erneuten Taggen durchlaufen, um einen eindeutigen Satz zu erstellen. [!DNL Marketo Measure] pausiert und archiviert Live-Kreative und löscht daher den Anzeigenverlauf einschließlich Impressionen, Klicks und Social Shares, um das automatische Tagging durchführen zu können.
 
 Für die Zukunft empfiehlt [!DNL Marketo Measure], keine [!DNL LinkedIn]-Freigaben zu duplizieren und alle Kreativen und Freigaben so einzigartig wie möglich zu halten, damit wir einfach unser Tracking hinzufügen können, ohne den Anzeigenverlauf löschen zu müssen.
 
@@ -108,7 +108,7 @@ Creative D : Freigabe 234
 
 ![Creative D : Freigabe 234](../assets/marketo-engage-activities-05.png)
 
-`1)` [!DNL Marketo Measure] durchsucht zunächst alle Kampagnen, Kreativen und Freigaben mit dem Status „Aktiv“. [!DNL Marketo Measure] pausierte, archivierte oder abgebrochene Anzeigen werden nicht getaggt. Wenn eine Anzeige angehalten und auf [!UICONTROL aktiv] gesetzt wurde, werden wir sie mit einem Tag versehen, sobald sie wieder aktiv ist. Wenn wir eine eindeutige Freigabe finden, d. h. sie wird nicht in mehreren Kreativen oder Kampagnen verwendet (z. B. Creative A : Freigabe 123), fügen [!DNL Marketo Measure] unseren benutzerdefinierten `>> ?_bl={creativeId}` zur Freigabe-URL hinzu.
+`1)` [!DNL Marketo Measure] durchsucht zunächst alle Kampagnen, Kreativen und Freigaben mit dem Status „Aktiv“. [!DNL Marketo Measure] werden angehaltene, archivierte oder abgebrochene Anzeigen nicht mit Tags versehen. Wenn eine Anzeige angehalten und auf [!UICONTROL aktiv] gesetzt wurde, werden wir sie mit einem Tag versehen, sobald sie wieder aktiv ist. Wenn wir eine eindeutige Freigabe finden, d. h. sie wird nicht in mehreren Kreativen oder Kampagnen verwendet (z. B. Creative A : Freigabe 123), fügen [!DNL Marketo Measure] unseren benutzerdefinierten `>> ?_bl={creativeId}` zur Freigabe-URL hinzu.
 
 `2)` Wenn die Freigabe jetzt freigegeben wurde und ihre Eindeutigkeit verloren gegangen ist (z. B. Creative B : Freigabe 234 und Creative C : Freigabe 234 und Creative D : Freigabe 234), hält [!DNL Marketo Measure] alle ähnlichen Kreativen (d. h. Creative B, Creative C und Creative D) an und archiviert sie.
 
@@ -134,7 +134,7 @@ Creative D : Freigabe 234
 
 LinkedIn-Formulare können mehrere E-Mail-Adressen enthalten. Beim Herunterladen von Formularantworten suchen wir nach E-Mail-Adressen mit der folgenden Priorität: geschäftliche E-Mail-Adresse, E-Mail-Adresse (Primärformularfeld) oder benutzerdefinierte Felder mit einem gültigen E-Mail-Wert.
 
-Unabhängig vom Campaign- oder Creative-Status führen alle Formularantworten zu einem Touchpoint. [!DNL Marketo Measure] verfügt über eine 90-tägige Lookback-Einschränkung, sodass [!DNL Marketo Measure] nicht mehr auf Formularantworten zugreifen kann, die älter als 90 Tage sind. Je länger jedoch die [!DNL Marketo Measure]- und [!DNL LinkedIn]-Integration aktiviert ist, desto mehr Touchpoints für Lead-Gen-Formulare werden über [!DNL Marketo Measure] angezeigt.
+Unabhängig vom Campaign- oder Creative-Status führen alle Formularantworten zu einem Touchpoint. [!DNL Marketo Measure] verfügt über eine 90-tägige Lookback-Einschränkung. Daher kann [!DNL Marketo Measure] nicht auf Formularantworten zugreifen, die älter als 90 Tage sind. Je länger jedoch die [!DNL Marketo Measure]- und [!DNL LinkedIn]-Integration aktiviert ist, desto mehr Touchpoints für Lead-Gen-Formulare werden über [!DNL Marketo Measure] angezeigt.
 
 >[!NOTE]
 >
@@ -304,7 +304,7 @@ Wir haben beobachtet, dass einige Marketer einen Bild-Link in die Ziel-URL einf�
 
 **Oh nein, jemand aus meinem Team hat versehentlich eine Aktie geklont. Kann ich es anhalten?**
 
-Keine Sorge. [!DNL Marketo Measure] prüft programmgesteuert, ob Freigaben vorhanden sind, die nicht mehr eindeutig sind, was bedeutet, dass sie seitdem in eine andere Creative kopiert wurden. Sobald diese Kopie erkannt wurde, folgen [!DNL Marketo Measure] dem üblichen Ablauf, um Anzeigen zu taggen und neu zu erstellen.
+Keine Sorge. [!DNL Marketo Measure] überprüft programmgesteuert, ob Freigaben nicht mehr eindeutig sind, d. h., ob sie seitdem in eine andere Creative kopiert wurden. Sobald diese Kopie erkannt wurde, folgen [!DNL Marketo Measure] dem üblichen Ablauf, um Anzeigen zu taggen und neu zu erstellen.
 
 **Die Überprüfung meiner Anzeige stand noch aus. Warum steht die Überprüfung erneut aus, nachdem [!DNL Marketo Measure] es getaggt hat?**
 

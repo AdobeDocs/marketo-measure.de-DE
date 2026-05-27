@@ -68,6 +68,6 @@ Eine Anleitung zum Konfigurieren von Aktivitäten in der [!UICONTROL Marketo] Me
 
 **Welchen Kanal nutzen diese Aktivitäten?**
 
-Wenn die Aktivitätsregel und der entsprechende [!DNL Marketo Measure] Kampagnenname erstellt wurden, verwenden Sie die Online-Kanaldefinitionen, um diese Kampagnen unter dem richtigen Marketing-Kanal zu platzieren. [!DNL Marketo Measure] Kanäle können nicht nur über Medium und Quelle, sondern auch über Campaign definiert werden.
+Wenn die Aktivitätsregel und der entsprechende [!DNL Marketo Measure] Kampagnenname erstellt wurden, verwenden Sie die Online-Kanaldefinitionen, um diese Kampagnen unter dem richtigen Marketing-Kanal zu platzieren. [!DNL Marketo Measure] können Kanäle nicht nur über Medium und Quelle, sondern auch über Campaign definieren.
 
 Um im obigen Beispiel die Kampagne „Outbound Call {Assigned To}&quot; dem BDR-Kanal zuzuweisen, fügen Sie eine Zeile in Ihre Online-Kanal-CSV für den BDR-Kanal mit der Kampagnendefinition „Outbound Call&#42;&quot; ein - das Sternchen bezeichnet einen Platzhalterwert, sodass alle Kampagnen, die mit „Outbound Call“ beginnen, unter den BDR-Kanal fallen, anstatt für jeden Kampagnennamen eine separate Zeile erstellen zu müssen.

@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 85%
 
 Das Paket [!DNL Marketo Measure] [!DNL Salesforce] enthält ein Feld mit der Bezeichnung „Buyer Touchpoints aktivieren“ für das Kampagnenobjekt. Nachdem das Feld zum Seiten-Layout hinzugefügt wurde, sieht es in etwa so aus:
 
-![Das Marketo Measure Salesforce-Paket enthält ein Feld mit der Bezeichnung &#x200B;](assets/dynamics-lists-1.png)
+![Das Marketo Measure Salesforce-Paket enthält ein Feld mit der Bezeichnung ](assets/dynamics-lists-1.png)
 
 Die in der Auswahlliste verfügbaren Optionen sind:
 
@@ -59,7 +59,7 @@ Kampagnenmitglieder sind unter [!UICONTROL Kampagnen] verschachtelt und beziehen
 
 Wenn diese Funktion aktiviert ist, wird [!DNL Marketo Measure] dem Kampagnenmitglied einen Statuswert in 4 verschiedenen Feldern zuweisen, die im installierten Paket enthalten sind: Touchpoint-Status (Lead), Touchpoint-Status (Kontakt), Touchpoint-Status (Opportunity) und Touchpoint-Statusdatum. So können Kundinnen und Kunden überprüfen, ob ein Touchpoint als Buyer Touchpoint oder Buyer Attribution Touchpoint erstellt wurde, je nachdem, auf welches Objekt er sich bezieht. Das Touchpoint-Statusdatum ist einfach das letzte Datum, an dem der Status des Kampagnenmitglieds aktualisiert wurde.
 
-![Wenn diese Option aktiviert ist, überträgt Marketo Measure einen Statuswert auf die &#x200B;](assets/dynamics-lists-3.png)
+![Wenn diese Option aktiviert ist, überträgt Marketo Measure einen Statuswert auf die ](assets/dynamics-lists-3.png)
 
 ## Buyer-Touchpoint-Datum {#buyer-touchpoint-date}
 
@@ -67,7 +67,7 @@ Mit der Installation des Pakets enthält [!DNL Marketo Measure] auch ein Feld au
 
 Dies könnte erforderlich sein, wenn eine Liste Tage/Wochen/Monate nach dem tatsächlichen Eintreten eines Ereignisses hochgeladen wurde. Es gibt Möglichkeiten, alle Einträge gleichzeitig zu aktualisieren, wie nachfolgend beschrieben.
 
-![Dies kann erforderlich sein, wenn eine Liste Tage/Wochen/Monate nach einem &#x200B;](assets/dynamics-lists-4.png) hochgeladen wurde
+![Dies kann erforderlich sein, wenn eine Liste Tage/Wochen/Monate nach einem ](assets/dynamics-lists-4.png) hochgeladen wurde
 
 Um zu wissen, ob Sie das Buyer-Touchpoint-Datum verwenden müssen oder nicht, sehen Sie hier, wie die Daten von [!DNL Marketo Measure] abhängig vom [!UICONTROL Synchronisationstyp], der für die Kampagne ausgewählt wurde, bestimmt werden.
 
@@ -118,7 +118,7 @@ Informationen zu Kampagnenkosten finden Sie [in diesem Artikel](/help/crm-campai
 
 Die Art und Weise, wie [!DNL Marketo Measure] über alle gelöschten Einträge in Salesforce auf dem Laufenden bleibt, ob es sich nun um gelöschte Leads, Konten oder Opportunitys handelt, besteht darin, diese Einträge in der API zu sehen und zu verfolgen, ob ein Eintrag als „IsDeleted“ markiert ist. Leider hat Salesforce bei den Kampagnenmitgliedern eine andere Methode eingeführt, um diese Mitglieder aus einer Kampagne zu löschen. Sie werden nämlich nur als „entfernt“ und nicht als „gelöscht“ markiert, sodass das Problem darin bestand, dass die Touchpoints in Salesforce, die mit den gelöschten Kampagnenmitgliedern verbunden waren, immer noch existierten.
 
-Um dieses Problem zu umgehen, haben [!DNL Marketo Measure] ein [!DNL Marketo Measure] und einen Trigger erstellt, die verfolgt werden können, wenn Kampagnenmitglieder entfernt werden und dann der entsprechende Touchpoint gelöscht wird. **Sie benötigen [!DNL Marketo Measure] Marketing Analytics-Paket v6.15 oder höher**, um diese Funktion verwenden zu können.
+Um dieses Problem zu umgehen, hat [!DNL Marketo Measure] ein [!DNL Marketo Measure]-Verlaufsobjekt und einen Trigger erstellt, um zu verfolgen, wann Kampagnenmitglieder entfernt werden, und dann den entsprechenden Touchpoint zu löschen. **Sie benötigen das [!DNL Marketo Measure]-Marketing-Analyse-Paket V6.15 oder höher**, um diese Funktion zu nutzen.
 
 >[!CAUTION]
 >
