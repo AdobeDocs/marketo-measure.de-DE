@@ -25,7 +25,7 @@ Diese Funktion besteht aus zwei einfachen Datumsfeldern im [!DNL Salesforce] Cam
 * Touchpoint-Startdatum
 * Touchpoint-Enddatum
 
-Sobald Käufer-Touchpoints für eine bestimmte Kampagne aktiviert sind, können Sie bei Kampagnensynchronisierungsterminen Touchpoint-Datumsparameter für die jeweilige Kampagne festlegen. Wenn Sie also ein Touchpoint-Enddatum vom 1. März 2017 hinzufügen, erstellt [!DNL Marketo Measure] nur Touchpoints für Kampagnenmitglieder, die vor diesem Datum zur Kampagne hinzugefügt wurden. [!DNL Marketo Measure] erstellt keine Touchpoints für Kampagnenmitglieder, die nach dem 1. März 2017 hinzugefügt wurden.
+Sobald Käufer-Touchpoints für eine bestimmte Kampagne aktiviert sind, können Sie bei Kampagnensynchronisierungsterminen Touchpoint-Datumsparameter für die jeweilige Kampagne festlegen. Wenn Sie also ein Touchpoint-Enddatum vom 1. März 2017 hinzufügen, erstellt [!DNL Marketo Measure] nur Touchpoints für Kampagnenmitglieder, die vor diesem Datum zur Kampagne hinzugefügt wurden. [!DNL Marketo Measure] werden keine Touchpoints für Kampagnenmitglieder erstellen, die nach dem 1. März 2017 hinzugefügt wurden.
 
 ![Sobald Käufer-Touchpoints für eine bestimmte Kampagne aktiviert sind, Kampagnen-Synchronisierungsdaten](assets/legacy-processes-3.gif)
 

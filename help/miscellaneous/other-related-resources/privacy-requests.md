@@ -4,12 +4,9 @@ title: Datenschutzanfragen
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
 TQID: https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2:
-  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 284
@@ -23,8 +20,8 @@ Dieses Dokument bietet einen Überblick über die Verwaltung einzelner Datenschu
 
 Sie können einzelne Anfragen zum Zugreifen auf und Löschen von Verbraucherdaten aus [!DNL Marketo Measure] auf zwei Arten senden:
 
-* Über die [[!DNL Privacy Service] Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=de){target="_blank"}.
-* Über die **[!DNL Privacy Service]-API**. Siehe die Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de){target="_blank"} und die API-Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Über die [[!DNL Privacy Service] Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Über die **[!DNL Privacy Service]-API**. Siehe die Dokumentation [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} und die API-Referenz [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
 Die [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de){target="_blank"} unterstützt zwei Arten von Anfragen: Datenzugriff und Datenlöschung.
 
