@@ -18,7 +18,7 @@ Um Kundenkonversionen manuell an [!DNL Marketo Measure] zu melden, gibt es eine 
 
 Wenn Sie Formulare verwenden, die AJAX (oder einen anderen Mechanismus), um Konvertierungsdaten vom Client an unsere Server zu senden, ist [!DNL Marketo Measure] möglicherweise nicht über die Kundenkonvertierung auf einem der von uns überwachten Standardpfade informiert. In diesem Szenario können wir eine einfache API verwenden (siehe unten).
 
-Wenn Sie Ihre eigenen Formularübermittlungen bearbeiten, können Sie [!DNL Marketo Measure] explizit über die JavaScript aufrufen. [!DNL Marketo Measure] Sammelt alle relevanten Informationen aus dem Formular und sendet sie asynchron an unsere Server.
+Wenn Sie Ihre eigenen Formularübermittlungen bearbeiten, können Sie [!DNL Marketo Measure] explizit über die JavaScript aufrufen. [!DNL Marketo Measure] sammelt alle relevanten Informationen aus dem Formular und sendet sie asynchron an unsere Server.
 
 **Im Folgenden finden Sie ein Codebeispiel unter Verwendung von JQuery (unter der Annahme, dass die ID im Formular „formId“ lautet):**
 
