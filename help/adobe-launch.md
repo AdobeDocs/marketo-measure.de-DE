@@ -22,11 +22,11 @@ Nach der Installation und Konfiguration in Adobe Launch lädt die [!DNL Marketo 
 >
 >Weitere Informationen zu Adobe Launch und seinen Erweiterungen finden Sie unter den folgenden Links:
 >
->* [[!DNL Marketo Measure] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+>* [[!DNL Marketo Measure] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=de#catalog){target="_blank"}
 >* [Übersicht über Adobe Launch](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=de){target="_blank"}
->* [Adobe Launch-Erweiterung - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
+>* [Adobe Launch-Erweiterung - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html?lang=de){target="_blank"}
 
-1. Erstellen Sie eine Eigenschaft entsprechend den Schritten [in diesem Artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
+1. Erstellen Sie eine Eigenschaft entsprechend den Schritten [in diesem Artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=de#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Klicken Sie auf die von Ihnen erstellte Eigenschaft.
 
