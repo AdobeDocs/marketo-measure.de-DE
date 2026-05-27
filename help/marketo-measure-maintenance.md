@@ -6,7 +6,7 @@ feature: Tracking
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ Lesen Sie [diesen Artikel](/help/channel-tracking-and-setup/online-custom-channe
 
 **Evaluieren der Einstellungen für die Touchpoint-Unterdrückung (1x/Quartal)**
 
-Wenn Sie viele Touchpoints sehen, die Sie lieber nicht in Ihrer Attributionshistorie berücksichtigen möchten (z. B. von einem [!DNL Login] oder [!DNL Unsubscribe forms], einer Karriereseite oder einer internen App), sollten Sie Ihre bestehenden Einstellungen zur Unterdrückung von Touchpoints überprüfen. Bestimmen Sie einmal im Quartal alle Gruppen von Touchpoints, die unnötiges Rauschen verursachen, und aktualisieren Sie Ihre Unterdrückungslogik entsprechend. [Hier ist ein hilfreicher Artikel](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) mit den Anleitungen.
+Wenn Sie viele Touchpoints sehen, die Sie lieber nicht in Ihrer Attributionshistorie berücksichtigen möchten (z. B. von einem [!DNL Login] oder [!DNL Unsubscribe forms], einer Karriereseite oder einer internen App), sollten Sie Ihre bestehenden Einstellungen zur Unterdrückung von Touchpoints überprüfen. Ermitteln Sie einmal im Quartal die Gruppen von Touchpoints, die unnötiges Rauschen verursachen, und aktualisieren Sie Ihre Unterdrückungslogik entsprechend. [Hier finden Sie einen hilfreichen Artikel](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) mit der Anleitung dazu.
 
 **Überprüfen der benutzerdefinierten Phasenzuordnung auf Genauigkeit (1x/Quartal) (falls anwendbar)**
 

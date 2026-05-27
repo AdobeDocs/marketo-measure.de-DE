@@ -6,7 +6,7 @@ feature: Salesforce
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 78%
+ht-degree: 83%
 
 ---
 
@@ -46,7 +46,7 @@ Das [!UICONTROL Buyer Attribution Touchpoint]-Objekt liefert Informationen zu de
 
 Buyer Attribution Touchpoints (BAT) werden erst erstellt, nachdem eine Gelegenheit für Kontakte erstellt wurde, die über Buyer Touchpoint(BT)-Daten verfügen. BATs werden nicht ohne eine Opportunity erstellt. Sobald die Opportunity erstellt wurde, verwendet das BAT-Objekt das [!DNL Salesforce]-Feld *Betrag* für die Opportunity, um zu ermitteln, wie viel Umsatz den Touchpoints zugeordnet werden soll.
 
-Wenn Sie ein Feld [Benutzerdefinierter Betrag](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md) verwenden, um den Umsatz für das Opportunity-Objekt anzuzeigen, muss ein **&#x200B;**&#x200B;Workflow“ erstellt werden. [!DNL Marketo Measure] kann die in Feldern für benutzerdefinierte Beträge angezeigten Informationen nicht lesen und daher keine Umsatzzuordnungsdaten für die Touchpoints ausfüllen. Dieser Workflow verwendet das **[!DNL Marketo Measure]-Feld „Anzahl Opportunitys“**, eines der benutzerdefinierten [!DNL Marketo Measure]-Felder, um den Umsatzwert aus dem benutzerdefinierten Feld „Betrag“ dem Feld „Anzahl Opportunitys“ zuzuordnen.
+Es muss ein **Workflow** erstellt werden, wenn Sie ein [benutzerdefiniertes Betragsfeld](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md) nutzen, um den Umsatz für das Opportunity-Objekt anzuzeigen. [!DNL Marketo Measure] kann die in benutzerdefinierten Feldern des Typs „Betrag“ angezeigten Informationen nicht lesen und Umsatzzuordnungsdaten nicht für die Touchpoints eingeben. Dieser Workflow verwendet das **[!DNL Marketo Measure]-Feld „Anzahl Opportunitys“**, eines der benutzerdefinierten [!DNL Marketo Measure]-Felder, um den Umsatzwert aus dem benutzerdefinierten Feld „Betrag“ dem Feld „Anzahl Opportunitys“ zuzuordnen.
 
 ![Wenn Sie ein benutzerdefiniertes Summenfeld verwenden, muss ein Workflow erstellt werden](assets/connect-salesforce-1.png)
 

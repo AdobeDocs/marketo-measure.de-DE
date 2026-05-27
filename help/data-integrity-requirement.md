@@ -194,7 +194,7 @@ ht-degree: 76%
       <td></td>
       <td>actualCost.currencyCode</td>
       <td>
-        <p>string</p>
+        <p>Zeichenfolge</p>
         <p>^[A-Z]{3}$</p>
       </td>
       <td>CurrencyIsoCode</td>
@@ -639,7 +639,7 @@ ht-degree: 76%
       <td></td>
       <td>OpportunityAmount.currencyCode</td>
       <td>
-        <p>string</p>
+        <p>Zeichenfolge</p>
         <p>^[A-Z]{3}$</p>
       </td>
       <td>CurrencyIsoCode</td>

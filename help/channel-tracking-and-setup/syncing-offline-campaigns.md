@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Synchronisieren von Offline-Kampagnen {#syncing-offline-campaigns}
 
-Es kann schwierig sein, Offline-Kampagnen genau zu verfolgen und zu verstehen, wie sie mit Ihren digitalen Marketing-Maßnahmen verglichen werden. [!DNL Marketo Measure] ermöglicht es Ihnen, Touchpoints in [!DNL Salesforce] Ihren Offline-Kampagnen zu verfolgen und zuzuordnen, auch in Situationen, in denen eine [!DNL Salesforce]-Kampagne erst einige Wochen nach dem Ereignis erstellt wird.
+Es kann schwierig sein, Offline-Kampagnen genau zu verfolgen und zu verstehen, wie sie mit Ihren digitalen Marketing-Maßnahmen verglichen werden. [!DNL Marketo Measure] können Sie Touchpoints Ihren Offline-Kampagnen in [!DNL Salesforce] nachverfolgen und zuordnen, auch in Situationen, in denen eine [!DNL Salesforce]-Kampagne erst einige Wochen nach dem Ereignis erstellt wird.
 
 >[!NOTE]
 >

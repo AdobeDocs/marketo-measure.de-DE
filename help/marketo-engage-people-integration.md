@@ -83,7 +83,7 @@ Beim Reporting über Leads (Personen) in [!DNL Marketo Measure Discover] sehen S
   </tr>
   <tr>
    <td><p>IS_CONVERTED</p></td>
-   <td><p>Nicht zutreffend</p></td>
+   <td><p>n. z.</p></td>
   </tr>
   <tr>
    <td><p>ACCOUNT_ID</p></td>

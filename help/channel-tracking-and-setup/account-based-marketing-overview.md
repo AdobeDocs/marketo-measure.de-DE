@@ -6,7 +6,7 @@ feature: Account-based Marketing
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ Detaillierte Anweisungen zum Einrichten von ABM in Ihrer [!DNL Salesforce]-Insta
 
 ## Was ist ABM? {#what-is-abm}
 
-Account-Based Marketing, ABM, ist eine Marketing-Strategie, bei der Sie auf Unternehmen und Konten als Ganzes abzielen und an diese verkaufen, nicht nur als Einzelpersonen. [!DNL Marketo Measure] hilft Marketing- und Vertriebsteams durch die Lead-to-Account-Zuordnungsfunktion und den Predictive Engagement Score bei der Ausführung erfolgreicher ABM-Strategien.
+Kontobasiertes Marketing (account-based marketing, ABM), ist eine Marketing-Strategie, bei der Sie Unternehmen und Konten als Ganzes ansprechen und an sie verkaufen, nicht nur an Einzelpersonen. [!DNL Marketo Measure] hilft Marketing- und Vertriebs-Teams bei der Ausführung erfolgreicher ABM-Strategien mit der Zuordnungsfunktion „Lead-zu-Konto“ und einer prädiktiven Interaktionsbewertung.
 
 Damit unser ABM-Modell in Ihr CRM-System integriert werden kann, muss [!DNL Marketo Measure] die folgenden Kriterien erfüllen:
 
@@ -68,8 +68,8 @@ Es gibt viele Komponenten, die in den Algorithmus eingehen, mit dem die PES bere
 >
 >Sie werden bei einigen Konten die Bewertung „Nicht zutreffend“ oder „-“ (Bindestrich) in Ihrer prädiktiven Interaktionsbewertung sehen.
 
-_Eine Note „K. A.“ bedeutet einfach, dass es in diesem Konto keine ausreichenden Daten für das Modell gibt, um eine echte Note zu generieren - mit mehr Daten wird schließlich eine Note gegeben._
-_Die Note &quot;-&quot; (das Bindestrichsymbol) bedeutet, dass dieses Konto aufgrund von Zeitbeschränkungen, gelegentlich übergangenen Prozessen usw. vom ABM-Prozess noch verarbeitet werden muss. Wenn Sie auf der Grundlage anderer ähnlicher Konten oder Zeiträume der Meinung sind, dass ein solches Konto eine Bewertung haben sollte, teilen Sie dies bitte [!DNL Marketo Measure] mit._
+_Die Bewertung „Nicht zutreffend“ bedeutet einfach, dass für dieses Konto nicht genügend Daten vorhanden sind, damit das Modell eine echte Bewertung erstellen kann – mit mehr Daten wird letztendlich eine Bewertung vergeben._
+_Der Grad &quot;-&quot; (das Strichsymbol) bedeutet, dass dieses Konto aufgrund von Zeitbeschränkungen, gelegentlich übergangenen Prozessen usw. noch nicht vom ABM-Prozess verarbeitet wurde. Wenn Sie auf der Grundlage anderer ähnlicher Konten oder Zeiträume der Meinung sind, dass ein solches Konto eine Bewertung haben sollte, teilen Sie dies bitte [!DNL Marketo Measure] mit._
 
 ## Einrichten des ABM-Seiten-Layouts in [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 
