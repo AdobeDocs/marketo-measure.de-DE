@@ -5,12 +5,8 @@ title: Gewähren  [!DNL Salesforce]  Zugriffs auf Marketo Measure-Support
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
 TQID: https://experienceleague.adobe.com/tdDicEb3UhCWF4-EUIbkc-zLK4z7ho8iccmiSgaVfzk
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 187
@@ -43,5 +39,5 @@ Je nach Unternehmen befindet sich die [!UICONTROL Setup]-Schaltfläche entweder 
 
 1. Klicken Sie auf Ihren Avatar oben rechts im Bildschirm und wählen Sie **[!UICONTROL Einstellungen]**.
 1. Klicken Sie **[!UICONTROL Zugriff auf Kontoanmeldung gewähren]**.
-1. Legen Sie das Ablaufdatum des Zugriffs für &quot;[!UICONTROL Marketo Measure-Support“ &#x200B;]. Für die technische Fehlerbehebung empfehlen wir, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche zu gewähren.
+1. Legen Sie das Ablaufdatum des Zugriffs für &quot;[!UICONTROL Marketo Measure-Support“ ]. Für die technische Fehlerbehebung empfehlen wir, [!DNL Marketo Measure] Support-Zugriff für mindestens eine Woche zu gewähren.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
