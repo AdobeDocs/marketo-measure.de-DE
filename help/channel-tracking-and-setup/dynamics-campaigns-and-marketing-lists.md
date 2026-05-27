@@ -80,7 +80,7 @@ Das Touchpoint-Datum für eine Marketing-Liste ist in der Regel das Erstellungsd
 
 Dynamics-Kampagnen werden in Ihren benutzerdefinierten Marketing-Kanälen mithilfe des Felds Kampagnentyp zusammengefasst. Diese können im Menü „Dynamics-Anpassungen“ geändert werden.
 
-Die Werte im Menü Kampagnentyp werden in die [!DNL Marketo Measure] übernommen. **[!UICONTROL Mein Konto]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Offline-]**.
+Die Werte im Menü Kampagnentyp werden in die [!DNL Marketo Measure] übernommen. **[!UICONTROL Mein]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Offline-Kanäle]**.
 
 Für jeden Kampagnentyp kann er einer Kanal- und Unterkanal-Kombination zugeordnet werden, sodass jeder Touchpoint, der von der Kampagne abgeleitet wird, den richtigen zugeordneten Kanal und Unterkanal hat.
 
