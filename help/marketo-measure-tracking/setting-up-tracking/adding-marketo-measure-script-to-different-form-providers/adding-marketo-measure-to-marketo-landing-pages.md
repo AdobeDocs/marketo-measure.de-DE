@@ -5,8 +5,7 @@ title: Hinzufügen von [!DNL Marketo Measure] zu Marketo-Landingpages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
 TQID: https://experienceleague.adobe.com/oMudhh5HLf2i618ZV7RjLNMCsYYgxKoO-hp1g6ia85U
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 229
@@ -45,4 +44,4 @@ Beispiel im folgenden Screenshot
 
 * Es ist wahrscheinlich, dass Sie mehrere Landingpage-Vorlagen verwenden. Stellen Sie sicher, dass Sie den Code zu allen Vorlagen hinzufügen, die Formulare enthalten.
 
-* Wenn Sie die Vorlage für Landingpages bearbeiten, müssen Sie manchmal die Seiten, von denen die Landingpage verwendet wird, erneut genehmigen. In diesem Artikel wird [Massenvalidierung“ &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=de){target="_blank"}.
+* Wenn Sie die Vorlage für Landingpages bearbeiten, müssen Sie manchmal die Seiten, von denen die Landingpage verwendet wird, erneut genehmigen. In diesem Artikel wird [Massenvalidierung“ ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

@@ -5,12 +5,9 @@ title: Erstellen benutzerdefinierter  [!DNL Marketo Measure] Berichtstypen
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
 TQID: https://experienceleague.adobe.com/9EUfRTrISEMdz70ZgJE5MjP1bworxRqnFZVnjYEmSio
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2:
-  - id: c8f57308-7e33-4e41-a385-b55041c78939
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 370
@@ -44,7 +41,7 @@ Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce
 1. Definieren Sie die Objektbeziehungen.
 
    * Das Lead-Objekt (A) mit dem [!DNL Marketo Measure] Personenobjekt (B) und dann mit dem Buyer Touchpoint-Objekt (C) verknüpfen
-   * Stellen Sie sicher[!UICONTROL &#x200B; dass „Jeder A/B-Datensatz muss mindestens einen B/C]-Datensatz enthalten“ ausgewählt ist
+   * Stellen Sie sicher[!UICONTROL  dass „Jeder A/B-Datensatz muss mindestens einen B/C]-Datensatz enthalten“ ausgewählt ist
    * [!UICONTROL Speichern]
 
    ![](assets/3.png)
@@ -67,7 +64,7 @@ Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce
 1. Definieren Sie die Objektbeziehungen.
 
    * Verknüpfen Sie das [!DNL Marketo Measure] Personenobjekt (A) mit dem Buyer Touchpoint-Objekt (B)
-   * Stellen Sie sicher[!UICONTROL &#x200B; dass „Jeder A-Eintrag muss mindestens einen B-Eintrag &#x200B;]&quot; ausgewählt ist.
+   * Stellen Sie sicher[!UICONTROL  dass „Jeder A-Eintrag muss mindestens einen B-Eintrag ]&quot; ausgewählt ist.
    * [!UICONTROL Speichern]
 
    ![](assets/6.png)
@@ -90,7 +87,7 @@ Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce
 1. Definieren Sie die Objektbeziehungen.
 
    * Verknüpfen Sie das Opportunities-Objekt (A) mit dem Buyer Attribution Touchpoint-Objekt (B)
-   * Stellen Sie sicher[!UICONTROL &#x200B; dass „Jeder A-Eintrag muss mindestens einen B-Eintrag &#x200B;]&quot; ausgewählt ist.
+   * Stellen Sie sicher[!UICONTROL  dass „Jeder A-Eintrag muss mindestens einen B-Eintrag ]&quot; ausgewählt ist.
    * [!UICONTROL Speichern]
 
    ![](assets/9.png)
