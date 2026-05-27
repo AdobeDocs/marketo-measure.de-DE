@@ -5,7 +5,8 @@ title: Boomerang-Phasen und Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
 TQID: https://experienceleague.adobe.com/mp1vsPh6lSoJuX4jvuENn7kuiYwIVCMrSw19y86u5UA
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 724
@@ -84,6 +85,6 @@ Die Begrenzung gilt für Data Warehouse und CRMs aufgrund der von [!DNL Marketo 
 
 **F: Was ist der Vorteil der Verwendung von Boomerang-Stadien mit benutzerdefinierter Modellierung?**
 
-Durch die Verwendung [!UICONTROL Boomerang]-Stadien mit benutzerdefinierter Modellierung können Sie den Touchpoints [!UICONTROL Boomerang“ eine Attributionsgewichtung zuweisen, ] diesen Stadien Umsatzgutschriften zuweist.
+Durch die Verwendung [!UICONTROL Boomerang]-Stadien mit benutzerdefinierter Modellierung können Sie den Touchpoints [!UICONTROL Boomerang“ eine Attributionsgewichtung zuweisen, &#x200B;] diesen Stadien Umsatzgutschriften zuweist.
 
 Ohne benutzerdefinierte Modellierung erstellt [!DNL Marketo Measure] Touchpoints für jeden Bumerang und jede Stadienübergabe, weist diesen Touchpoints jedoch keine Attributionszuordnung zu. Die einzigen Boomerang-Touchpoints, die Attributionsgutschriften erhalten, sind aus Submission Touchpoints. Ohne benutzerdefiniertes Modell werden [!DNL Boomerang] Touchpoints als „Middle Touch“ betrachtet und entsprechend angerechnet.

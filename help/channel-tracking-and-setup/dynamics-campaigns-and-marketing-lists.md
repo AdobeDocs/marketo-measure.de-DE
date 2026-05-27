@@ -28,7 +28,7 @@ Wenn Leads oder Kontakte direkt zu einer Kampagne hinzugefügt werden, werden si
 
 ## Touchpoints aktivieren {#enable-touchpoints}
 
-Um diese Datensätze in die Touchpoint-Journey aufzunehmen, gibt es einige Optionen für die Typen der Campaign-Antworten, die synchronisiert werden sollen. Im Kampagnendatensatz sollte ein benutzerdefiniertes Feld der installierten Lösung mit der Bezeichnung „Käuferkontaktpunkte aktivieren[!UICONTROL  vorhanden ]. Wenn dies nicht angezeigt wird, muss das Feld über den Formulareditor hinzugefügt werden.
+Um diese Datensätze in die Touchpoint-Journey aufzunehmen, gibt es einige Optionen für die Typen der Campaign-Antworten, die synchronisiert werden sollen. Im Kampagnendatensatz sollte ein benutzerdefiniertes Feld der installierten Lösung mit der Bezeichnung „Käuferkontaktpunkte aktivieren[!UICONTROL &#x200B; vorhanden &#x200B;]. Wenn dies nicht angezeigt wird, muss das Feld über den Formulareditor hinzugefügt werden.
 
 ![Um diese Datensätze in die Touchpoint-Journey aufzunehmen, gibt es einige](assets/dynamics-lists-10.png)
 

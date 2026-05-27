@@ -18,7 +18,7 @@ Unsere Integration mit [!DNL CallTrackingMetrics] soll eine Web-Sitzung mit eine
 
 „Call Tracking“ im allgemeinen Sinne ist ein Produkt von Unternehmen wie [!DNL CallTrackingMetrics], [!DNL DiaglogTech], [!DNL Invoca] oder [!DNL CallRail], um nur einige zu nennen. Benutzerinnen und Benutzern werden basierend auf den verschiedenen Marketing-Kanälen oder Kampagnen, von denen sie kommen, eindeutige Telefonnummern angezeigt. Dadurch können Marketing-Fachleute sehen, wie diese Kanäle oder Kampagnen funktionieren.
 
-![ „Call Tracking“ im allgemeinen Sinne ist ein Produkt von solchen Unternehmen](assets/other-resources-6.png)
+![&#x200B; „Call Tracking“ im allgemeinen Sinne ist ein Produkt von solchen Unternehmen](assets/other-resources-6.png)
 
 ## Vorher und Nachher {#before-and-after}
 
@@ -48,7 +48,7 @@ Wenn [!DNL Marketo Measure] die Aufgabe importieren/herunterladen können, verar
 
 Der [!UICONTROL Touchpoint]-Typ „Aufruf“ wird aus der Aufgabe, aus dem obigen Screenshot, gezogen, der auch von CallTrackingMetrics aufgefüllt wird, wenn die Aufgabe erstellt wird.
 
-![Der Touchpoint-Typ „Anruf“ wird aus der Aufgabe, aus der ](assets/marketo-engage-activities-01.png)
+![Der Touchpoint-Typ „Anruf“ wird aus der Aufgabe, aus der &#x200B;](assets/marketo-engage-activities-01.png)
 
 ## Berichterstellung {#reporting}
 
