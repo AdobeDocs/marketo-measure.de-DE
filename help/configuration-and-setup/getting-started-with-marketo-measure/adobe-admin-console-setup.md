@@ -4,8 +4,7 @@ title: Einrichten von Adobe Admin Console
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
 TQID: https://experienceleague.adobe.com/0-n7qfW9O8qQHD1vMyJGdBF8XNo-Hpa2oFMrWUmUNWc
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 396
@@ -58,6 +57,6 @@ Wenn Sie eine Person zu der jeweiligen Gruppe hinzufügen, sehen Sie ihren [Iden
 
 **Anmelden bei[!DNL Marketo Measure]**
 
-Nachdem ein(e) Benutzende(r) einem Produktprofil hinzugefügt wurde, kann er/sie auf seine/ihre [!DNL Marketo Measure]-Instanzen zugreifen, indem er/sie die Option **Mit Adobe ID anmelden** unter [experience.adobe.com/marketo-measure &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}.
+Nachdem ein(e) Benutzende(r) einem Produktprofil hinzugefügt wurde, kann er/sie auf seine/ihre [!DNL Marketo Measure]-Instanzen zugreifen, indem er/sie die Option **Mit Adobe ID anmelden** unter [experience.adobe.com/marketo-measure ](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 ![](assets/adobe-admin-console-setup-3.png)

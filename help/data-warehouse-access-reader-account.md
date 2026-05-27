@@ -32,7 +32,7 @@ Um auf Ihr Snowflake Data Warehouse zuzugreifen, müssen Sie zur spezifischen UR
    >
    >Dies ist ein schreibgeschütztes Konto, das für Ihre Organisation verfügbar ist, nicht nur für einzelne Benutzer. Jeder Benutzer in Ihrem Unternehmen, der Zugriff auf [!DNL Marketo Measure] hat, kann dieses Konto verwenden, um sich beim Snowflake Data Warehouse-Leserkonto anzumelden.
 
-1. Klicken Sie auf den in der Snowflake-URL angegebenen Link, um zur Snowflake-Anmeldeseite zu gelangen, auf der Sie Ihren Benutzernamen und Ihr Kennwort eingeben. _Wenn Sie Ihr Kennwort nicht haben, gehen Sie wie folgt vor, um es zurückzusetzen_.
+1. Klicken Sie auf den in der Snowflake-URL angegebenen Link, um zur Snowflake-Anmeldeseite zu gelangen, auf der Sie Ihren Benutzernamen und Ihr Kennwort eingeben. _Wenn Sie Ihr Kennwort nicht haben, können Sie es mit den folgenden Schritten zurücksetzen_.
 
    ![1. Klicken Sie auf den in der Snowflake-URL angegebenen Link. Daraufhin werden Sie weitergeleitet](assets/data-account-5.png)
 

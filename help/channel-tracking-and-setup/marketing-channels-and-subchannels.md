@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 62%
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ Zu definieren, was in [!DNL Marketo Measure] Kanäle und Unterkanäle sind, wie 
 
 ## Überblick {#overview}
 
-Marketing-Kanäle werden verwendet, um Ihre Marketing-Aktivitäten zu kategorisieren (oder zu „Behälter“ zu machen), um die Berichterstellung zu vereinfachen, sowohl im Dash für den [!DNL Marketo Measure]-ROI als auch in Ihrem CRM. [!DNL Marketo Measure] verfügt über zwölf vorkonfigurierte Kanäle (die Sie anpassen/umbenennen können, um sie an die Konventionen Ihres Unternehmens anzupassen) sowie über die Möglichkeit, weitere benutzerdefinierte Kanäle zu erstellen, um eine noch detailliertere Filterung zu ermöglichen.
+Marketing-Kanäle helfen Ihnen bei der Kategorisierung (oder Einsortierung in „Buckets“) Ihrer Marketing-Aktivitäten, damit Berichte einfacher erstellt werden können, sowohl im ROI-Dash von [!DNL Marketo Measure] als auch in Ihrem CRM-System. [!DNL Marketo Measure] verfügt über 12 vorkonfigurierte Kanäle (die Sie anpassen/umbenennen können, um sie den Konventionen Ihres Unternehmens anzupassen) sowie die Möglichkeit, weitere benutzerdefinierte Kanäle zu erstellen, um eine noch detailliertere Filterung zu ermöglichen.
 
 Jedes Mal, wenn jemand eine der Inhaltsseiten Ihrer Site besucht (unabhängig davon, ob es sich bei diesem Inhalt um eine Webseite, den Download eines Whitepapers, eine Seiten-URL usw. handelt), wird dieser Lead anhand verschiedener in der URL enthaltener UTM-Parameter in einem Kanal/Unterkanal in einen „Bucket“ sortiert, der auf verschiedenen UTM-Parametern aus der URL basiert.
 
@@ -45,9 +45,9 @@ Unterkanäle sind das zweite Puzzleteil beim Einsortieren der eingehenden Leads 
 
 Das folgende Diagramm zeigt ein Beispiel für einen Marketing-Kanal, einen Unterkanel und einen Inhalt, der auf einer Web-Seite mit der folgenden URL basiert:
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
+* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
-In diesem Fall ist der Inhalt, auf den die Benutzerin oder der Benutzer versucht zuzugreifen, das Einführungshandbuch zur B2B-Marketing-Attribution. [!DNL Marketo Measure] analysiert die URL, die zu diesem Inhalt führt, mithilfe der in dieser Organisation eingerichteten Kanalregeln und verwendet sie, um diesen Lead in den Marketing-Kanal „Bezahlte Social Media“ und den Unterkanal „LinkedIn“ zu „bündeln“.
+In diesem Fall ist der Inhalt, auf den die Benutzerin bzw. der Benutzer zugreifen möchte, das Einleitungshandbuch für die B2B-Marketing-Attribution. [!DNL Marketo Measure] analysiert die URL, die zu diesem Inhalt führt, mithilfe der in dieser Organisation eingerichteten Kanalregeln und verwendet sie, um diesen Lead in den Marketing-Kanal „Paid Social“ und den Unterkanal „LinkedIn“ einzusortieren.
 
 ![In diesem Fall ist der Inhalt, auf den der Benutzer zugreifen möchte](assets/online-channels-1.png)
 

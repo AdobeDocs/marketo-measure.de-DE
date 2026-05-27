@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Folgendes sollte beachtet werden:
 * Für jede Sammlung bzw. jeden Behälter von Daten ist eine eigene Regel erforderlich (Zeile im Arbeitsblatt), die angibt, wie die Daten organisiert werden. Seien Sie so spezifisch wie möglich.
 * Die [!DNL Marketo Measure]-Logik priorisiert Daten in absteigender Reihenfolge, beginnend mit der obersten Zeile des Arbeitsblatts und dann nach unten. Sie liest jeden Behälter oder jede Zelle zeilenweise und sucht nach der ersten Übereinstimmung Die Daten werden dann nach den Werten in diesen Behältern sortiert. Mehr dazu unten.
 * Sortieren Sie Ihr Blatt nicht in alphabetischer Reihenfolge, da dies die Logikregeln stört.
-* Nach dem Hochladen der Datei können Sie sieben Tage lang keine der Regeln ändern. [!DNL Marketo Measure] nutzt diese Zeit zur Verarbeitung und Aktualisierung der Touchpoints.
+* Nach dem Hochladen der Datei können Sie für sieben Tage keine der Regeln ändern. [!DNL Marketo Measure] nutzt diese Zeit zur Verarbeitung und Aktualisierung der Touchpoints.
 
 ## Logik und Prioritäten von [!DNL Marketo Measure] {#marketo-measure-logic-and-priorities}
 
@@ -46,7 +46,7 @@ Die Tabelle enthält sieben Spalten:
 * **Landingpage:** Fügen Sie hier die Landingpage hinzu
 * **Verweisende Website:** die URLs von Websites, die auf Traffic auf Ihren Seiten verweisen oder integrierte [!DNL Marketo Measure]-Logik (durch Klammern angegeben)
 
-In der achten Spalte wird angegeben, welche Regeln nicht aus der Tabelle mit „Nicht entfernen“ gelöscht werden können. Oben im Arbeitsblatt befinden sich standardmäßige Kanalregeln, die [!DNL Marketo Measure] empfehlen, weder zu ändern noch zu entfernen, selbst wenn Sie diese Kanäle nicht verwenden. [!DNL Marketo Measure] verfügt über tiefe Integrationen mit diesen Plattformen, sodass sie standardmäßig einbezogen werden.
+In der achten Spalte wird angegeben, welche Regeln nicht aus der Tabelle mit „Nicht entfernen“ gelöscht werden können. Am oberen Rand des Arbeitsblatts befinden sich standardmäßige Kanalregeln, die [!DNL Marketo Measure] empfiehlt, nicht zu ändern oder zu entfernen, selbst wenn Sie diese Kanäle nicht verwenden. [!DNL Marketo Measure] verfügt über tiefe Integrationen mit diesen Plattformen, sodass sie standardmäßig eingeschlossen sind.
 
 Die Zeilen stellen Regeln und die Reihenfolge dar, in der [!DNL Marketo Measure] die Daten priorisiert. Die erste Zeile hat Vorrang vor der zweiten Zeile, die zweite Zeile hat Vorrang vor der dritten Zeile usw. Bei der Bestimmung, in welchen Marketing-Kanälen und Unterkanälen Touchpoints zusammengefasst werden sollen, liest [!DNL Marketo Measure] von oben nach unten und von links nach rechts, bis eine Zeile gefunden wird, die den Kriterien des Touchpoints entspricht. (Wenn ein Touchpoint `utm_source=Facebook` hat, wird der Touchpoint aufgrund von Regel 15 im Screenshot im Kanal Social.Facebook zusammengefasst.)
 

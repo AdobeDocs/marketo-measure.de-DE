@@ -7,13 +7,13 @@ hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 71%
+ht-degree: 80%
 
 ---
 
 # Best Practices zum Einrichten von UTM-Parametern {#best-practices-for-setting-up-utm-parameters}
 
-UTM-Parameter eignen sich hervorragend, um Ihre Marketing-Daten herauszuschneiden. [!DNL Marketo Measure] verwendet und erfasst alle UTM-Parameter zum Ausfüllen von Feldern in Salesforce und in der [!DNL Marketo Measure] App. Mit diesen Informationen erhalten Sie ein genaues Verständnis dafür, woher Ihre Leads, Opportunitys und abgeschlossenen/gewonnenen Deals stammen.
+UTM-Parameter eignen sich hervorragend, um die Slice-and-Dice-Technik auf Ihre Marketing-Daten anzuwenden. [!DNL Marketo Measure] verwendet und erfasst alle UTM-Parameter, um Felder in Salesforce und in der [!DNL Marketo Measure]-App aufzufüllen. Mit diesen Informationen erhalten Sie ein genaues Verständnis dafür, woher Ihre Leads, Opportunitys und abgeschlossenen/gewonnenen Deals stammen.
 
 Sie können den [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=de){target="_blank"} verwenden, um Ihre UTM-Parameter einzurichten und sie im Rahmen Ihrer Marketing-Maßnahmen Ihren Links hinzuzufügen. Verwenden Sie diese [Google](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}Tabelle, wenn Sie alle UTM-Links leichter verfolgen möchten.
 
@@ -29,7 +29,7 @@ Verwenden Sie dieses Feld nicht, um den Subkanal zu benennen.
 
 Beispiel: Facebook, Twitter, LinkedIn, Drip_email, Email_blast, newsletter.
 
-Achten Sie auf Einfachheit. Verwenden Sie diesen Parameter nicht, um die Anzeigenart, z. B. „Retargeting“, „Gesponsert“, anzugeben. Fügen Sie keine utm_source = homepage, webdirect, website hinzu. [!DNL Marketo Measure] füllt diese Informationen automatisch für Sie aus.
+Achten Sie auf Einfachheit. Verwenden Sie diesen Parameter nicht, um die Anzeigenart, z. B. „Retargeting“, „Gesponsert“, anzugeben. Fügen Sie kein „utm_source = homepage, webdirect, website“ hinzu. [!DNL Marketo Measure] trägt diese Informationen automatisch für Sie ein.
 
 **utm_campaign**: Dieses Feld ist dem Anzeigenkampagnennamen zugeordnet. Verwenden Sie „utm_campaign“, um den Titel der Kampagne so wie auf der Anzeigenplattform oder intern referenziert anzugeben.
 
