@@ -4,12 +4,8 @@ title: '[!DNL Marketo Measure] Reporting-Handbuch'
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
 TQID: https://experienceleague.adobe.com/qdhOT569T3OyHBOuwBGbxAV-kYaCJnfP6qJ8Mb-A4Wk
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 5685
@@ -21,7 +17,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
+>Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.&#x200B;
 
 Bevor Sie einen [!DNL Marketo Measure] erstellen, müssen Sie unbedingt überprüfen, ob Ihre [!DNL Marketo Measure] Kontoeinstellungen überprüft und konfiguriert wurden, um sicherzustellen, dass die Daten in den Berichten korrekt sind und die Besonderheiten Ihres Unternehmens widerspiegeln. Darüber hinaus funktionieren Reporting-Projekte am besten, wenn sie einem strukturierten Prozess folgen. Justin Norris, ein [!DNL Marketo Measure] Power-User, Fürsprecher und Partner aus [Perkuto](https://perkuto.com/){target="_blank"} fasst gut zusammen [wie man an Berichte herangeht [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/){target="_blank"}:
 
@@ -43,7 +39,7 @@ Auf der höchsten Ebene gibt es zwei Berichtskategorien, die auf den beiden vers
 
    * Wird häufig für TOFU-Metriken (Top of the funnel) und Berichte zu _Personen_ (Leads, Kontakte [!DNL Marketo Measure] Personen) verwendet
    * BTs werden zum Verständnis aller Marketing-Interaktionen im Zusammenhang mit **Personen** verwendet, da sie den vollständigen Touchpoint-Verlauf für jede Person enthalten. Zur Erinnerung: Diese Touchpoints werden im CRM für den anonymen Erstkontakt, den Touch Lead-Erstellung und jede nachfolgende Formularübermittlung oder jeden Touchpoint erstellt, aus dem Sie synchronisieren möchten
-einer Offline-Kampagne oder -Aktivität.
+     einer Offline-Kampagne oder -Aktivität.
 
 1. **Buyer Attribution Touchpoints** (BATs) / Opportunity / Kontoebene / Umsatz
 

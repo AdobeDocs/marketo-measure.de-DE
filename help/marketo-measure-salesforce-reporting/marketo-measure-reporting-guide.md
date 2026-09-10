@@ -5,7 +5,7 @@ exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
-source-wordcount: '6597'
+source-wordcount: '6600'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
+>Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.&#x200B;
 
 Bevor Sie einen [!DNL Marketo Measure] erstellen, müssen Sie unbedingt überprüfen, ob Ihre [!DNL Marketo Measure] Kontoeinstellungen überprüft und konfiguriert wurden, um sicherzustellen, dass die Daten in den Berichten korrekt sind und die Besonderheiten Ihres Unternehmens widerspiegeln. Darüber hinaus funktionieren Reporting-Projekte am besten, wenn sie einem strukturierten Prozess folgen. Justin Norris, ein [!DNL Marketo Measure] Power-User, Fürsprecher und Partner aus [Perkuto](https://perkuto.com/) fasst gut zusammen [wie man an Berichte herangeht [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
 
@@ -36,7 +36,7 @@ Auf der höchsten Ebene gibt es zwei Berichtskategorien, die auf den beiden vers
 
    * Wird häufig für TOFU-Metriken (Top of the funnel) und Berichte zu _Personen_ (Leads, Kontakte [!DNL Marketo Measure] Personen) verwendet
    * BTs werden zum Verständnis aller Marketing-Interaktionen im Zusammenhang mit **Personen** verwendet, da sie den vollständigen Touchpoint-Verlauf für jede Person enthalten. Zur Erinnerung: Diese Touchpoints werden im CRM für den anonymen Erstkontakt, den Touch Lead-Erstellung und jede nachfolgende Formularübermittlung oder jeden Touchpoint erstellt, aus dem Sie synchronisieren möchten
-einer Offline-Kampagne oder -Aktivität.
+     einer Offline-Kampagne oder -Aktivität.
 
 1. **Buyer Attribution Touchpoints** (BATs) / Opportunity / Kontoebene / Umsatz
 
@@ -256,13 +256,13 @@ Eventmanager könnten jedoch mehr daran interessiert sein, welche bestimmten Ere
 Insight mit zusätzlichen Filtern in bestimmte „Inhalte“ integrieren
 
 * Filtern nach: &#39;Landingpage&#39; ENTHÄLT (z. B.):
-   * /blog
-   * /ebook
-   * /Webinar
+  * /blog
+  * /ebook
+  * /Webinar
 
 * ODER: &#39;Formular-URL&#39; ENTHÄLT (zum Beispiel)
-   * /Kontakt
-   * /demo
+  * /Kontakt
+  * /demo
 
 „Inhaltsbasierte“ Berichte bieten einen großen Nutzen bei der Berichterstellung über einen beliebigen Teil der funnel. Sie werden jedoch am häufigsten oben in der funnel verwendet, um zusätzliche insight für eine erste Leads-Interaktion bereitzustellen. Wenn man bedenkt, dass die „organische Suche“ tendenziell der stärkste Kanal ist, um die anfängliche Interaktion (FT) zu fördern, gibt es nicht so viele Daten auf Kampagnenebene.
 
@@ -739,7 +739,7 @@ Der obige Screenshot zeigt die Daten zu den Marketing-Ausgaben der letzten 3 vol
 
 **ERINNERUNG**: [!DNL Marketo Measure] definiert „Umsatz“ als abgeschlossenen gewonnenen Umsatz oder Buchungen und definiert „Pipeline-Umsatz“ als _offenen/potenziellen Umsatz aus offenen Opportunities_.
 
-Eine weitere wichtige Erkenntnis aus dem oben genannten ROI-Bericht ist der „Pipeline-Umsatz“, der im roten Feld dargestellt wird. Das bedeutet, dass wir von den 12.970 USD, die in den letzten drei vollständigen Monaten investiert wurden, derzeit 705.199 USD an abgeschlossenen Won-„Umsatz“ zuordnen, aber wir weisen auch 6.905.532 USD an offenen, potenziellen Einnahmen („Pipeline-Umsatz„) Touchpoints zu, die aus derselben Investition erstellt wurden! Was wir erwarten würden, ist ein Teil des „Pipeline-Umsatzes“, der im Laufe der Zeit geschlossen wird und die „Umsatz“-Zahl speist, und daher würde die ROI-Zahl im Laufe der Zeit steigen. Die „Ausgaben“-Nummer ist festgelegt, da wir in den letzten drei vollständigen Monaten nicht mehr in der Zeit ausgeben können. Dies ist die Bedeutung der Verwendung eines „Datumstyps“ vom Typ „Touchpoint-Datum“ in jeder ROI-Berichterstellung: Er definiert den investierten Betrag (**I**)und stellt sicher, dass der Betrag des (**R**)Umsatzes, der den gleichen Touchpoints zugeordnet wird, die aus der Investition bezogen wurden (für jeden ausgegebenen Dollar, wie viel wurde ausgegeben?).
+Eine weitere wichtige Erkenntnis aus dem oben genannten ROI-Bericht ist der „Pipeline-Umsatz“, der im roten Feld dargestellt wird. Das bedeutet, dass wir von den 12.970 US-Dollar, die USD in den letzten drei vollständigen Monaten investiert hat, derzeit 705.199 US-Dollar an abgeschlossenen Won-„Umsatz“ zuordnen, aber wir schreiben auch 6.905.532 US-Dollar an offenen, potenziellen Einnahmen („Pipeline-Umsatz„) Touchpoints zu, die aus derselben Investition erstellt wurden! Was wir erwarten würden, ist ein Teil des „Pipeline-Umsatzes“, der im Laufe der Zeit geschlossen wird und die „Umsatz“-Zahl speist, und daher würde die ROI-Zahl im Laufe der Zeit steigen. Die „Ausgaben“-Nummer ist festgelegt, da wir in den letzten drei vollständigen Monaten nicht mehr in der Zeit ausgeben können. Dies ist die Bedeutung der Verwendung eines „Datumstyps“ vom Typ „Touchpoint-Datum“ in jeder ROI-Berichterstellung: Er definiert den investierten Betrag (**I**)und stellt sicher, dass der Betrag des (**R**)Umsatzes, der den gleichen Touchpoints zugeordnet wird, die aus der Investition bezogen wurden (für jeden ausgegebenen Dollar, wie viel wurde ausgegeben?).
 
 >[!TIP]
 >
