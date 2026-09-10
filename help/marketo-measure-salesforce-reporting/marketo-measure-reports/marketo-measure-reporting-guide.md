@@ -21,7 +21,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
+>Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.&#x200B;
 
 Bevor Sie einen [!DNL Marketo Measure] erstellen, müssen Sie unbedingt überprüfen, ob Ihre [!DNL Marketo Measure] Kontoeinstellungen überprüft und konfiguriert wurden, um sicherzustellen, dass die Daten in den Berichten korrekt sind und die Besonderheiten Ihres Unternehmens widerspiegeln. Darüber hinaus funktionieren Reporting-Projekte am besten, wenn sie einem strukturierten Prozess folgen. Justin Norris, ein [!DNL Marketo Measure] Power-User, Fürsprecher und Partner aus [Perkuto](https://perkuto.com/){target="_blank"} fasst gut zusammen [wie man an Berichte herangeht [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/){target="_blank"}:
 
@@ -43,7 +43,7 @@ Auf der höchsten Ebene gibt es zwei Berichtskategorien, die auf den beiden vers
 
    * Wird häufig für TOFU-Metriken (Top of the funnel) und Berichte zu _Personen_ (Leads, Kontakte [!DNL Marketo Measure] Personen) verwendet
    * BTs werden zum Verständnis aller Marketing-Interaktionen im Zusammenhang mit **Personen** verwendet, da sie den vollständigen Touchpoint-Verlauf für jede Person enthalten. Zur Erinnerung: Diese Touchpoints werden im CRM für den anonymen Erstkontakt, den Touch Lead-Erstellung und jede nachfolgende Formularübermittlung oder jeden Touchpoint erstellt, aus dem Sie synchronisieren möchten
-einer Offline-Kampagne oder -Aktivität.
+     einer Offline-Kampagne oder -Aktivität.
 
 1. **Buyer Attribution Touchpoints** (BATs) / Opportunity / Kontoebene / Umsatz
 
