@@ -20,7 +20,7 @@ Erfahren Sie, wie Sie die Berechtigung zum Bearbeiten konvertierter Lead-Datens�
 
 1. Gehen Sie zu [!UICONTROL Setup] und erweitern Sie die [!UICONTROL Benutzer verwalten] Gruppierung, um Profile auszuwählen.
 
-   ![1. Navigieren Sie zu Setup und erweitern Sie die Gruppe Benutzer verwalten ](assets/additional-functionality-1.png)
+   ![1. Navigieren Sie zu Setup und erweitern Sie die Gruppe Benutzer verwalten &#x200B;](assets/additional-functionality-1.png)
 
 1. Wählen Sie das Profil des Benutzers aus, über den wir verbunden sind.
 
