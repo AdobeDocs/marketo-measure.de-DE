@@ -4,16 +4,21 @@ description: Ausblenden unnötiger Berichtstypen - [!DNL Marketo Measure]
 title: Ausblenden unnötiger Berichtstypen
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/lnkpFBpwVTs2rEdHCcopwGE64UT0SBlIeWORKxW9BII
+TQID: 'https://experienceleague.adobe.com/lnkpFBpwVTs2rEdHCcopwGE64UT0SBlIeWORKxW9BII'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 152
+source-wordcount: '152'
 ht-degree: 5%
-
 ---
-
 # Ausblenden unnötiger Berichtstypen {#hiding-unnecessary-report-types}
 
 Nachdem Sie die Installation abgeschlossen und mit der Verwendung von Berichten begonnen haben, wird nicht jeder Bericht, den das [!DNL Marketo Measure]-Paket enthält, von Ihrem Unternehmen verwendet. Daher ist es hilfreich, Berichtstypen auszublenden, die Sie nicht verwenden, um Verwirrung zu vermeiden und ein saubereres Erscheinungsbild zu ermöglichen. Sie können beliebige Berichte ausblenden, aber die in der Abbildung unten identifizierten Berichte sind normalerweise ausgeblendet.

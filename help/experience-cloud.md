@@ -1,15 +1,21 @@
 ---
-description: Anleitung zur Übersicht über die Adobe Experience Cloud-Benutzeroberfläche für Marketo Measure-Benutzer
-title: Adobe Experience Cloud-Benutzeroberfläche – Übersicht
+description: Anleitung zur Übersicht über die Adobe Experience Cloud-Oberfläche für Marketo Measure-Anwender
+title: Überblick über die Adobe Experience Cloud-Benutzeroberfläche
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 19%
-
 ---
-
 # Adobe Experience Cloud-Benutzeroberfläche – Übersicht {#experience-cloud-interface-overview}
 
 Die Benutzeroberfläche von Adobe Experience Cloud stimmt das Erscheinungsbild von Adobe Experience Cloud-Programmen und -Services ab. Aber sie weist mehr als nur ein neues Design auf. Es handelt sich dabei um eine Single Page Application, die das Anwendererlebnis in einer einzigen Instanz bereitstellt.
@@ -40,7 +46,7 @@ Neben dem aktualisierten Look-and-Feel sind die folgenden Funktionen zu beachten
 
 Suchen Sie in der [!DNL Marketo Measure]-Anwendung nach Support-Artikeln, reichen Sie Tickets ein und geben Sie Feedback.
 
-![Suche nach Support-Artikeln, Einreichen von Tickets, Bereitstellen von Feedback - alles von innerhalb der &#x200B;](assets/unified-overview-5.png)
+![Suche nach Support-Artikeln, Einreichen von Tickets, Bereitstellen von Feedback - alles von innerhalb der ](assets/unified-overview-5.png)
 
 **Programmumschalter**
 
@@ -68,10 +74,10 @@ Um Ihre Sprache oder andere Einstellungen für Adobe zu ändern, klicken Sie auf
 
 Lesezeichen werden umgeleitet. Wenn Sie beispielsweise zu https://apps.marketo-measure.com/Discover/391 navigieren, werden Sie nach Abschluss der Authentifizierung zu https://experience.adobe.com/marketo-measure/Discover/391 weitergeleitet.
 
-**Ich kann mich über die Experience Cloud-Benutzeroberfläche nicht bei [!DNL Marketo Measure] anmelden. Was könnte das Problem sein?**
+**Ich kann mich über die Experience Cloud-Oberfläche nicht bei [!DNL Marketo Measure] anmelden. Was könnte das Problem sein?**
 
-Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine Seite wie die folgende sehen, könnte das Problem auf der [!DNL Marketo Measure] liegen:
+Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine Seite wie die folgende sehen, könnte das Problem auf der [!DNL Marketo Measure] Seite liegen:
 
 ![Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine](assets/unified-overview-7.png)
 
-Wenn Sie den oben genannten Fehler erhalten, [&#x200B; Sie den Support &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support) Hilfe.
+Wenn Sie den oben genannten Fehler erhalten, [ Sie den Support ](https://nation.marketo.com/t5/support/ct-p/Support) Hilfe.

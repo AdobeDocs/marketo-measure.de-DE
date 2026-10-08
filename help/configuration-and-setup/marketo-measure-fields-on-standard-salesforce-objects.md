@@ -1,15 +1,22 @@
 ---
-description: '[!DNL Marketo Measure] Felder in Standard [!DNL Salesforce] Objekten - [!DNL Marketo Measure]'
-title: '[!DNL Marketo Measure] Felder in Standard- [!DNL Salesforce] -Objekten'
+description: '[!DNL Marketo Measure] von Feldern in standardmäßigen [!DNL Salesforce] - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure]-Felder in Standard-Objekten von[!DNL Salesforce]'
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '673'
 ht-degree: 99%
-
 ---
-
 
 # [!DNL Marketo Measure]-Felder in Standard-Objekten von[!DNL Salesforce] {#marketo-measure-fields-on-standard-salesforce-objects}
 
@@ -20,7 +27,7 @@ Lernen Sie die verschiedenen [!DNL Marketo Measure]-Felder kennen, die zu [!DNL 
 
 ## Konto {#account}
 
-Prädiktive Interaktionsbewertung: Dieses Feld wird in Verbindung mit unserer ABM-Funktion verwendet, um einen Wert für die Interaktion des Kontos zu ermitteln. Dabei werden viele Faktoren berücksichtigt, z. B. die Häufigkeit der Seitenaufrufe, wie viele Kontakte mit dem Konto verbunden sind, ob es ein geschlossenes Konto gibt, usw.
+Prädiktive Interaktionsbewertung: Dieses Feld wird in Verbindung mit unserer ABM-Funktion verwendet, um einen Wert dafür zu ermitteln, wie stark das Konto eingebunden ist. Dabei werden viele Faktoren berücksichtigt, z. B. die Aktualität der Seitenansichten, wie viele Kontakte mit dem Konto verbunden sind, ob es eine abgeschlossene Opportunity gibt usw.
 
 ## Kampagne {#campaign}
 
@@ -34,7 +41,7 @@ Touchpoint-Startdatum: Dieses Feld wird zum Festlegen eines Anfangsdatums für d
 
 Touchpoint-Enddatum: Dieses Feld wird zum Festlegen eines Enddatums für die Anwendung von Touchpoints auf historische Kampagnen verwendet. Ein gängiges Beispiel wäre die Einbeziehung von digitalen Kampagnen vor [!DNL Marketo Measure] und die Festlegung des Enddatums auf den Tag, an dem das Skript angewendet wurde.
 
-Massenaktualisierung des Touchpoint-Datums (Schaltfläche): Mit dieser Schaltfläche wird das Touchpoint-Datum der Kampagnen-Mitglieder bei der Synchronisierung der Kampagne verwaltet, da wir entweder das Datum der Kampagnen-Mitgliedschaft oder das erste standardmäßige Antwortdatum referenzieren. Falls diese Datumsfelder keine genaue Darstellung des tatsächlichen Touchpoint-Datums darstellen, verwenden wir diese Schaltfläche, um das Touchpoint-Datum festzulegen.
+Massenaktualisierung des Touchpoint-Datums (Schaltfläche): Mit dieser Schaltfläche wird das Touchpoint-Datum der Kampagnenmitglieder bei der Synchronisierung der Kampagne verwaltet, da wir entweder das Datum der Kampagnenzugehörigkeit oder das erste standardmäßige Antwortdatum verwenden. Falls diese Datumsfelder keine genaue Darstellung des tatsächlichen Touchpoint-Datums liefern, verwenden wir diese Schaltfläche, um das Touchpoint-Datum festzulegen.
 
 Update der [!DNL Marketo Measure]-Attribution (Validierungsregel): Diese Regel wird nach Paketversion 6.0 nicht mehr unterstützt.
 
@@ -68,6 +75,6 @@ Dies wird für unsere Lead-zu-Konto-Zuordnung für unsere ABM-Funktion verwendet
 
 ## Aktivität {#activity}
 
-BizibleID: Hierfür müssen wir einen Touchpoint mit Aktivitäten für unsere Integration von Aktivitätsattributen und Calltracking-Metriken verknüpfen.
+BizibleID: Damit verknüpfen wir einen Touchpoint mit Aktivitäten für unsere Aktivitäts-Attribution und die Integration mit CallTrackingMetrics.
 
-Buyer-Touchpoint-Datum: Dies ist ein Feld, das über einen Workflow ausgefüllt werden kann, um das Datum für die Aktivitäts-Attribution zu verwenden. Es wird für unsere Calltrackingmetrics-Integration ausgefüllt, um zu wissen, wann die Interaktion stattgefunden hat.
+Buyer-Touchpoint-Datum: Dies ist ein Feld, das über einen Workflow ausgefüllt werden kann, um das Datum für die Attribution von Aktivitäten zu verwenden. Es wird für unsere Integration mit CallTrackingMetrics ausgefüllt, um zu erfassen, wann die Interaktion stattgefunden hat.

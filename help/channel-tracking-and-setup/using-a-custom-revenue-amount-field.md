@@ -3,13 +3,17 @@ description: Verwenden eines benutzerdefinierten Felds für Umsatzbeträge für 
 title: Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 4%
-
 ---
-
 # Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag {#using-a-custom-revenue-amount-field}
 
 Standardmäßig ziehen Attributions-Touchpoints des Käufers den Opportunity-Betrag aus einem von zwei Feldern:
@@ -27,7 +31,7 @@ Von hier aus beginnen wir mit der Erstellung des Workflows.
 
 ## Erstellen des Workflows in Salesforce Lightning {#create-the-workflow-in-salesforce-lightning}
 
-Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen. Wenn Sie Salesforce Classic weiterhin verwenden, [&#x200B; diese Schritte unten &#x200B;](#create-the-workflow-in-salesforce-classic).
+Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen. Wenn Sie Salesforce Classic weiterhin verwenden, [ diese Schritte unten ](#create-the-workflow-in-salesforce-classic).
 
 1. Geben Sie bei der Einrichtung „Flüsse“ in das Feld „Schnellsuche“ ein und wählen Sie &quot;**[!UICONTROL &quot;,]** Flow Builder zu starten. Klicken Sie im rechten Bedienfeld auf die Schaltfläche **[!UICONTROL Neuer Fluss]**.
 
@@ -35,11 +39,11 @@ Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen.
 
 1. Wählen Sie **[!UICONTROL Datensatzausgelöster Fluss]** und klicken Sie unten **[!UICONTROL auf]** Erstellen“.
 
-   ![1. Wählen Sie einen durch einen Datensatz ausgelösten Fluss aus und klicken Sie unten auf Erstellen &#x200B;](assets/custom-amount-10.png)
+   ![1. Wählen Sie einen durch einen Datensatz ausgelösten Fluss aus und klicken Sie unten auf Erstellen ](assets/custom-amount-10.png)
 
 1. Wählen Sie im Fenster Start konfigurieren das Objekt Opportunity aus. Wählen Sie im [!UICONTROL Trigger konfigurieren] die Option **[!UICONTROL Ein Datensatz wird erstellt oder aktualisiert]** aus.
 
-   ![1. Wählen Sie im Fenster Start konfigurieren das Objekt Opportunity aus. Vom &#x200B;](assets/custom-amount-11.png)
+   ![1. Wählen Sie im Fenster Start konfigurieren das Objekt Opportunity aus. Vom ](assets/custom-amount-11.png)
 
 1. Wählen Sie im Abschnitt Einstiegsbedingungen festlegen unter [!UICONTROL Bedingungsanforderungen] die Option **[!UICONTROL Benutzerdefinierte Bedingungslogik ist erfüllt]**.
    * Wählen Sie im Suchfeld Ihr benutzerdefiniertes Betragsfeld aus.
@@ -61,7 +65,7 @@ Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen.
    * Titel eingeben - der API-Name wird automatisch generiert
    * Wählen Sie unter „Suchen nach Datensätzen zum Aktualisieren und Festlegen ihrer Werte“ die Option **[!UICONTROL Verwenden des Opportunity-Datensatzes, der den Fluss ausgelöst hat]**.
    * Wählen Sie im Abschnitt [!UICONTROL Filterbedingungen festlegen] die Option **[!UICONTROL Datensatz immer aktualisieren]** als Bedingungsanforderung zum Aktualisieren des Datensatzes aus.
-   * Wählen Sie [!UICONTROL &#x200B; Feld „Feldwerte für den Kampagnensatz festlegen] den Marketo Measure-Opportunity-Betrag und den Ab-Wert aus. Wählen Sie dann Ihr benutzerdefiniertes Betragsfeld aus.
+   * Wählen Sie [!UICONTROL  Feld „Feldwerte für den Kampagnensatz festlegen] den Marketo Measure-Opportunity-Betrag und den Ab-Wert aus. Wählen Sie dann Ihr benutzerdefiniertes Betragsfeld aus.
    * Klicken Sie auf **[!UICONTROL Fertig]**.
 
    ![Klicken Sie auf Fertig.](assets/custom-amount-15.png)
@@ -76,7 +80,7 @@ Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen.
 
 ## Erstellen des Workflows in Salesforce Classic {#create-the-workflow-in-salesforce-classic}
 
-Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Sie zu Salesforce Lightning gewechselt haben, [&#x200B; Sie diese Schritte oben](#create-the-workflow-in-salesforce-lightning).
+Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Sie zu Salesforce Lightning gewechselt haben, [ Sie diese Schritte oben](#create-the-workflow-in-salesforce-lightning).
 
 1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Erstellen]** > **[!UICONTROL Workflow und Genehmigungen]** > **[!UICONTROL Workflow-Regeln]**.
 
@@ -90,10 +94,10 @@ Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Si
 
 1. Konfigurieren Sie den Workflow. Legen Sie den Regelnamen als „Opportunity-Betrag [!DNL Marketo Measure].“ fest. Legen Sie die Auswertungskriterien auf „Erstellt und jedes Mal, wenn sie bearbeitet werden“ fest. Wählen Sie für die Regelkriterien Ihr benutzerdefiniertes Betragsfeld aus und wählen Sie den Operator [!UICONTROL als „Ungleich“] und lassen Sie das Feld „Wert“ leer.
 
-   ![1. Konfigurieren Sie den Workflow. Legen Sie den Regelnamen als &quot;Marketo aktualisieren“ &#x200B;](assets/custom-amount-7.png)
+   ![1. Konfigurieren Sie den Workflow. Legen Sie den Regelnamen als &quot;Marketo aktualisieren“ ](assets/custom-amount-7.png)
 
 1. Eine Workflow-Aktion hinzufügen. Wählen Sie für diese Auswahlliste &quot;[!UICONTROL Neues Feld aktualisieren] aus.
-   ![1. Eine Workflow-Aktion hinzufügen. Diese Auswahlliste auf „Neues Feld“ &#x200B;](assets/custom-amount-8.png)
+   ![1. Eine Workflow-Aktion hinzufügen. Diese Auswahlliste auf „Neues Feld“ ](assets/custom-amount-8.png)
 
 1. Hier geben Sie die Feldinformationen ein. Im Feld „Name“ empfehlen wir die Verwendung der folgenden Bezeichnung: &quot;[!DNL Marketo Measure] Opportunity-Betrag“. Der „Eindeutige Name“ wird automatisch basierend auf dem Feld „Name“ ausgefüllt. Wählen Sie in der Auswahlliste „Zu aktualisierendes Feld“ die Option „Opportunity-Betrag [!DNL Marketo Measure]&quot;. Aktivieren Sie nach Auswahl des Felds das Kontrollkästchen „Workflow-Regeln nach Feldänderung neu auswerten“. Wählen Sie unter „Neuen Feldwert angeben“ die Option „Formel zum Festlegen des neuen Werts verwenden“ aus. Legen Sie den API-Namen Ihres benutzerdefinierten Betragsfelds in das leere Feld. Klicken Sie auf **[!UICONTROL Speichern]**.
 

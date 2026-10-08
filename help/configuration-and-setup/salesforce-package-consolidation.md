@@ -1,15 +1,22 @@
 ---
-description: '''[!DNL Salesforce] Package-Konsolidierung - [!DNL Marketo Measure]'''
+description: '''[!DNL Salesforce]-Paketkonsolidierung - [!DNL Marketo Measure]'''
 title: '[!DNL Salesforce] Paketkonsolidierung'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 9%
-
 ---
-
 # [!DNL Salesforce] Paketkonsolidierung {#salesforce-package-consolidation}
 
 Um das Benutzererlebnis zu verbessern und die Verwendung zu vereinfachen, werden vorhandene Pakete in ein einziges, umfassendes Paket kompiliert.
@@ -24,7 +31,7 @@ Das neue konsolidierte V2-Paket enthält alle Funktionen und Leistungsmerkmale d
 
 Es gibt zwei neue Felder, um Ihre Reporting-Funktionen zu verbessern:
 
-* form_name: Dieses Feld ist jetzt in BT-/BAT-Objekten verfügbar und ermöglicht Benutzenden das Erstellen von Berichten anhand von Formularnamen.
+* form_name: Dieses Feld ist jetzt in Buyer-Touchpoint-(BT)-/Buyer-Attribution-Touchpoint-(BAT)-Objekten verfügbar und ermöglicht Benutzenden das Erstellen von Berichten anhand von Formularnamen.
 * user_Touchpoint_id: Dieses Feld ermöglicht Benutzern das Erstellen von Berichten mit eindeutigen Benutzer-Touchpoint-Zahlen (`bizible2__User_Touchpoint_V2__c` in Salesforce).
 
 ## Support und Transition {#support-and-transition}
@@ -36,16 +43,16 @@ Das [Support-Team](https://nation.marketo.com/t5/support/ct-p/Support?profile.la
 * Wenn Sie das V2-Paket bereits installiert haben, müssen Sie es auf die neue konsolidierte Version aktualisieren.
 * Wenn Sie Berichte oder Dashboards aus einem beliebigen Reporting-Paket haben, können Sie diese einfach neu erstellen, ohne dass Änderungen erforderlich sind, da alle Felder im konsolidierten Paket vorhanden sind.
 * Wenn Sie Berichte haben, die Felder im V2_EXT-Paket verwenden, können Sie diese mithilfe der folgenden Schritte im konsolidierten Paket neu erstellen:
-   * Alle Daten in V2_EXT-Feldern sind in Touchpoint-Feldern verfügbar, sodass Sie Ihre Berichte ändern können, um Daten aus den entsprechenden V2-Touchpoint-Feldern abzurufen, indem Sie einen Filter für die Touchpoint-Position hinzufügen.
-   * Beispielbericht zum Abrufen aller Leads mit Anzeigeninhalts-FT mit „Reichweitentext“.
-      * V2_EXT-Abfrage:
-         * bizible2_ext__Ad_Content_FT__c enthält Kontaktaufnahme
+  * Alle Daten in V2_EXT-Feldern sind in Touchpoint-Feldern verfügbar, sodass Sie Ihre Berichte ändern können, um Daten aus den entsprechenden V2-Touchpoint-Feldern abzurufen, indem Sie einen Filter für die Touchpoint-Position hinzufügen.
+  * Beispielbericht zum Abrufen aller Leads mit Anzeigeninhalts-FT mit „Reichweitentext“.
+    * V2_EXT-Abfrage:
+      * bizible2_ext__Ad_Content_FT__c enthält Kontaktaufnahme
 
 ![bizible2extAdContentFTc enthält Outreach](assets/bizible-full-1.png)
 
 * Entsprechende Abfrage im konsolidierten Paket:
-   * Bizible2__Touchpoint_Position__c enthält FT UND
-   * Bizible2__Ad_Content__c enthält Kontaktaufnahme
+  * Bizible2__Touchpoint_Position__c enthält FT UND
+  * Bizible2__Ad_Content__c enthält Kontaktaufnahme
 
 ![bizible2AdContentc enthält Outreach](assets/bizible-taxonomy-1.png)
 
@@ -57,7 +64,7 @@ Sie müssen Ihr Paket nicht deinstallieren, bevor Sie das konsolidierte Paket in
 
 **Wie kann ich die Daten aus meinen aktuellen Paketen aufstocken?**
 
-Sie können ein Ticket ([&#x200B; Support) &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de){target="_blank"} Aufstockung und Neuverarbeitung von BT-/BAT-Daten zum Ausfüllen von Touchpoint-ID- und Formular-ID-Feldern einreichen.
+Sie können ein Ticket ([ Support) ](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de){target="_blank"} Aufstockung und Neuverarbeitung von BT-/BAT-Daten zum Ausfüllen von Touchpoint-ID- und Formular-ID-Feldern einreichen.
 
 **Werden die Felder in den Paketen V1 und V2_EXT im konsolidierten Paket verfügbar sein?**
 

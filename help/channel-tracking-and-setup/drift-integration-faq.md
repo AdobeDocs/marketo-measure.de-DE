@@ -3,13 +3,17 @@ description: Häufig gestellte Fragen zur Drift-Integration für Marketo Measure
 title: Häufig gestellte Fragen zur Drift-Integration
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 3%
-
 ---
-
 # Häufig gestellte Fragen zur Drift-Integration {#drift-integration-faq}
 
 Im Rahmen der [!DNL Marketo Measure] Integration mit Drift finden Sie hier einige der am häufigsten gestellten Fragen. Wenn Sie Fragen haben, die unten nicht aufgeführt sind, wenden Sie sich an das Adobe Account Team (Ihren Account Manager) oder an den [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de){target="_blank"}.

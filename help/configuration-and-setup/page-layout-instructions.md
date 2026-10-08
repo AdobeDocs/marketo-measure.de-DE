@@ -3,26 +3,33 @@ description: Anleitung zum Seitenlayout für Marketo Measure-Benutzer
 title: Anweisungen zum Seiten-Layout
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 92%
-
 ---
-
 # Anweisungen zum Seiten-Layout {#page-layout-instructions}
 
 >[!NOTE]
 >
 >Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
 
-Zur einfachen Anzeige von [!DNL Marketo Measure]-Daten empfehlen wir, die Seiten-Layouts für [!UICONTROL Konto-], [!UICONTROL Kontakt-], [!UICONTROL Lead-], [!UICONTROL Gelegenheits-] und [!UICONTROL Kampagnen-]Objekte zu aktualisieren. Unten sind die Anweisungen zum Seiten-Layout für jedes Objekt aufgeschlüsselt.
+Zur einfachen Anzeige von [!DNL Marketo Measure]-Daten empfehlen wir, die Seiten-Layouts für [!UICONTROL Konto-], [!UICONTROL Kontakt-], [!UICONTROL Lead-], [!UICONTROL Gelegenheits-] und [!UICONTROL Kampagnen-]Objekte zu aktualisieren. Die Anweisungen für jedes Objekt-Seitenlayout sind unten aufgeführt.
 
 Navigieren Sie zunächst zu Ihren [!DNL Salesforce]-Einstellungen und öffnen Sie die Registerkarte [!UICONTROL Anpassen].
 
 ## Kampagnenobjekt {#campaign-object}
 
-Es wird empfohlen, dass Sie die [!DNL Marketo Measure]-Felder nur für Ihre Sandbox zu Ihrer SFDC-Kampagne hinzufügen. Mit diesem Feldern können Sie die Touchpoint-Generierung testen. In der Produktion wird empfohlen, nur die Schaltfläche [!DNL Marketo Measure] für die Massenaktualisierung des Touchpoint-Datums hinzuzufügen. Es wird davon abgeraten, die [!DNL Marketo Measure]-Felder in die Produktion aufzunehmen, da Sie Regeln zur Kampagnensynchronisierung erstellen können.
+Es wird empfohlen, dass Sie die [!DNL Marketo Measure]-Felder nur für Ihre Sandbox zu Ihrer SFDC-Kampagne hinzufügen. Mit diesen Feldern können Sie die Touchpoint-Generierung testen. In der Produktion wird empfohlen, nur die Schaltfläche [!DNL Marketo Measure] für die Massenaktualisierung des Touchpoint-Datums hinzuzufügen. Es wird davon abgeraten, die [!DNL Marketo Measure]-Felder in die Produktion aufzunehmen, da Sie Regeln zur Kampagnensynchronisierung erstellen können.
 
 1. Wählen Sie innerhalb der Build-Option **[!UICONTROL Kampagnen]**.
 
@@ -32,7 +39,7 @@ Es wird empfohlen, dass Sie die [!DNL Marketo Measure]-Felder nur für Ihre Sand
 
 1. Klicken Sie auf **[!UICONTROL Bearbeiten]** neben dem Seiten-Layout, das Sie aktualisieren möchten.
 
-   ![1. Klicken Sie neben dem gewünschten Seiten-Layout auf Bearbeiten &#x200B;](assets/marketo-salesforce-1.jpg)
+   ![1. Klicken Sie neben dem gewünschten Seiten-Layout auf Bearbeiten ](assets/marketo-salesforce-1.jpg)
 
 1. Wählen Sie unter der Option [!UICONTROL Felder] das Feld **[!UICONTROL Buyer Touchpoints aktivieren]** und ziehen Sie es an die gewünschten Stelle auf der Seite. Fügen Sie als Nächstes die Felder **[!UICONTROL Startdatum des Touchpoints]** und **[!UICONTROL Enddatum des Touchpoints]** hinzu.
 
@@ -58,7 +65,7 @@ Es wird empfohlen, dass Sie die [!DNL Marketo Measure]-Felder nur für Ihre Sand
 
 1. Klicken Sie auf **[!UICONTROL Bearbeiten]** neben dem Seiten-Layout, das Sie aktualisieren möchten. Beachten Sie, dass es mehrere Seiten-Layouts mit den Buyer-Touchpoint-Abschnitten geben kann.
 
-1. Klicken Sie links in Ihrem Schnellsuchmenü auf die Seitenoption „VisualForce“.
+1. Klicken Sie links in Ihrem Schnellsuchmenü auf die Option „Visualforce-Seite“.
 
 1. Erstellen Sie einen Abschnitt und nennen Sie ihn „Buyer Touchpoints“.
 
@@ -70,7 +77,7 @@ Es wird empfohlen, dass Sie die [!DNL Marketo Measure]-Felder nur für Ihre Sand
 
 1. Wählen Sie im Menü die Option [!UICONTROL Arbeitsflächenanwendungen] und erstellen Sie unter dem gerade erstellten [!DNL VisualForce]-Abschnitt „Touchpoints“ einen neuen Abschnitt mit dem Namen „Marketo Measure Insights“.
 
-1. Ziehen Sie die [!DNL Marketo Measure Insights]-Arbeitsflächenanwendung in den neu erstellten Abschnitt. Klicken Sie auf **Speichern**. Manchmal ist es erforderlich, das Seiten-Layout zuerst in der Arbeitsflächenanwendung zu speichern, bevor sie abgelegt wird, da Salesforce es nicht sofort erkennt. Nachdem Sie den Abschnitt erstellt haben, speichern Sie also das Seiten-Layout erst und bearbeiten Sie es dann erneut, um die Arbeitsflächenanwendung in diesen Abschnitt zu ziehen. Dies gilt für jedes Objekt.
+1. Ziehen Sie die [!DNL Marketo Measure Insights]-Arbeitsflächenanwendung in den neu erstellten Abschnitt. Klicken Sie auf **Speichern**. Manchmal ist es erforderlich, das Seitenlayout zuerst zu speichern, bevor Sie die Canvas App einfügen, da Salesforce sie nicht sofort erkennt. Nachdem Sie den Abschnitt erstellt haben, speichern Sie zunächst das Seitenlayout und bearbeiten Sie es dann erneut, um die Canvas App in diesen Abschnitt zu ziehen. Dies gilt für jedes Objekt.
 
    >[!NOTE]
    >
@@ -88,7 +95,7 @@ Wenn Sie die ABM-Funktion von [!DNL Marketo Measure] verwenden, [klicken Sie hie
 
    Gehen Sie zur Option „Zugehörige Listen“ im Schnellsuchmenü und fügen Sie die zugehörige Liste **[!UICONTROL Buyer Touchpoints]** hinzu.
 
-1. Klicken Sie auf das Schraubenschlüsselsymbol und fügen Sie folgenden Spalten in dieser Reihenfolge hinzu:
+1. Klicken Sie auf das Schraubenschlüsselsymbol und fügen Sie den folgenden Spalten in dieser Reihenfolge hinzu:
 
    * Buyer Touchpoint
    * Marketing-Kanal
@@ -107,7 +114,7 @@ Wenn Sie die ABM-Funktion von [!DNL Marketo Measure] verwenden, [klicken Sie hie
 
 1. Gehen Sie zurück zur Option [!UICONTROL Zugehörige Liste] im Menü und fügen Sie die zum **[!UICONTROL Buyer Attribution Touchpoint]** zugehörige Liste hinzu.
 
-1. Klicken Sie auf das Schraubenschlüsselsymbol und fügen Sie folgenden Spalten in dieser Reihenfolge hinzu:
+1. Klicken Sie auf das Schraubenschlüsselsymbol und fügen Sie den folgenden Spalten in dieser Reihenfolge hinzu:
 
    * Attribution Touchpoint
    * Marketing-Kanal
@@ -131,7 +138,7 @@ Wenn Sie die ABM-Funktion von [!DNL Marketo Measure] verwenden, [klicken Sie hie
 
 1. Klicken Sie auf **[!UICONTROL Seiten-Layouts]**.
 
-1. Wählen Sie dann das Seiten-Layout aus, das Sie bearbeiten möchten.
+1. Wählen Sie das Seitenlayout aus, das Sie bearbeiten möchten.
 
 1. Fügen Sie die zum **[!UICONTROL Buyer Attribution Touchpoint]** zugehörige Liste hinzu und klicken Sie auf das Schraubenschlüsselsymbol, um die folgenden Spalten für Opportunitys hinzuzufügen:
 
@@ -157,7 +164,7 @@ Wenn Sie die ABM-Funktion von [!DNL Marketo Measure] verwenden, [klicken Sie hie
 
 1. Klicken Sie auf **[!UICONTROL Seiten-Layouts]**.
 
-1. Wählen Sie dann das Seiten-Layout aus, das Sie bearbeiten möchten.
+1. Wählen Sie das Seitenlayout aus, das Sie bearbeiten möchten.
 
 1. Fügen Sie die zum **[!UICONTROL Buyer Attribution Touchpoint]** zugehörige Liste hinzu und klicken Sie auf das Schraubenschlüsselsymbol, um folgende Spalten hinzuzufügen:
 

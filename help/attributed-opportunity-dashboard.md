@@ -3,14 +3,18 @@ description: Behandelt das Dashboard „Zugewiesene Opportunity“, das die Oppo
 title: Dashboard „Zugewiesene Opportunity“
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 2%
-
 ---
-
 # Dashboard „Zugewiesene Opportunity“ {#attributed-opportunity-dashboard}
 
 Das Dashboard Zugewiesene Vertriebschancen bietet einen umfassenden Überblick darüber, wie Marketing-Maßnahmen sowohl zu entstehenden als auch zu ausgereiften Pipeline-Vertriebschancen beitragen. Machen Sie sich mit den Details jeder offenen und geschlossenen Opportunity vertraut, die auf Ihre Strategien zurückzuführen sind, und nutzen Sie die Flexibilität, nach Opportunity-Stadium zu filtern. So wird unterstrichen, dass der Einfluss des Marketings über abgeschlossene Angebote hinaus umfassend ist.
@@ -72,7 +76,7 @@ Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
 * Datum (basierend auf dem Erstellungsdatum der Opportunity)
 * Attributionsmodell
-   * Bei offenen Opportunitys bieten die Attributionsmodelle „Vollständiger Pfad“ und „Benutzerdefiniert“ Point-in-Time-Ansichten und stellen keine endgültigen Attributionsergebnisse dar.
+  * Bei offenen Opportunitys bieten die Attributionsmodelle „Vollständiger Pfad“ und „Benutzerdefiniert“ Point-in-Time-Ansichten und stellen keine endgültigen Attributionsergebnisse dar.
 * Opportunity-Stadium (basierend auf aktuellem Stadium)
 * Kanal, Unterkanal
 * Kampagne

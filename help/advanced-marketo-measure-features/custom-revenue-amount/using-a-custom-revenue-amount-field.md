@@ -4,16 +4,18 @@ description: Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag - [
 title: Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-TQID: https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0
+TQID: 'https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: '689'
 ht-degree: 4%
-
 ---
-
 # Verwenden eines benutzerdefinierten Felds für den Umsatzbetrag {#using-a-custom-revenue-amount-field}
 
 Standardmäßig ziehen Attributions-Touchpoints des Käufers den Opportunity-Betrag aus einem von zwei Feldern:
@@ -31,7 +33,7 @@ Von hier aus beginnen wir mit der Erstellung des Workflows.
 
 ## Erstellen des Workflows in Salesforce Lightning {#create-the-workflow-in-salesforce-lightning}
 
-Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen. Wenn Sie Salesforce Classic weiterhin verwenden, [&#x200B; diese Schritte unten &#x200B;](#create-the-workflow-in-salesforce-classic).
+Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen. Wenn Sie Salesforce Classic weiterhin verwenden, [ diese Schritte unten ](#create-the-workflow-in-salesforce-classic).
 
 1. Geben Sie bei der Einrichtung „Flüsse“ in das Feld „Schnellsuche“ ein und wählen Sie &quot;**[!UICONTROL &quot;,]** Flow Builder zu starten. Klicken Sie im rechten Bedienfeld auf die Schaltfläche **[!UICONTROL Neuer Fluss]**.
 
@@ -80,7 +82,7 @@ Die folgenden Schritte sind für Benutzende von Salesforce Lightning vorgesehen.
 
 ## Erstellen des Workflows in Salesforce Classic {#create-the-workflow-in-salesforce-classic}
 
-Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Sie zu Salesforce Lightning gewechselt haben, [&#x200B; Sie diese Schritte oben](#create-the-workflow-in-salesforce-lightning).
+Die folgenden Schritte sind für Salesforce Classic-Benutzer vorgesehen. Wenn Sie zu Salesforce Lightning gewechselt haben, [ Sie diese Schritte oben](#create-the-workflow-in-salesforce-lightning).
 
 1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Erstellen]** > **[!UICONTROL Workflow und Genehmigungen]** > **[!UICONTROL Workflow-Regeln]**.
 

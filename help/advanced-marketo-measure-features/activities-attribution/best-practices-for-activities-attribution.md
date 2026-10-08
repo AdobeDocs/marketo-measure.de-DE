@@ -1,19 +1,21 @@
 ---
 description: Best Practices für Attributionsaktivitäten - [!DNL Marketo Measure]
-title: Best Practices für die Aktivitätszuordnung
+title: Best Practices für Attribution von Aktivitäten
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-TQID: https://experienceleague.adobe.com/hCGaaarnFmGXgMvu9N2l5JZIXJQ0oAsY214s1MFlS84
+TQID: 'https://experienceleague.adobe.com/hCGaaarnFmGXgMvu9N2l5JZIXJQ0oAsY214s1MFlS84'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 515
+source-wordcount: '515'
 ht-degree: 4%
-
 ---
-
-# Best Practices für die Aktivitätszuordnung {#best-practices-for-activities-attribution}
+# Best Practices für Attribution von Aktivitäten {#best-practices-for-activities-attribution}
 
 ## Überblick {#overview}
 
@@ -28,8 +30,8 @@ In vielen [!DNL Salesforce] kann das Aktivitätsobjekt verschiedene Datensatztyp
 Unabhängig davon, ob Sie Aktivitätsregeln zum ersten Mal definieren oder nur zuvor eingerichtete Aktivitätsregeln überprüfen, sollten Sie die folgenden Best Practices beachten.
 
 * Einfach starten
-   * Identifizieren Sie einige wichtige Aktivitätstypen, die Sie in Ihre [!DNL Marketo Measure] integrieren möchten, und fügen Sie dann weitere Typen hinzu, wenn Sie sich mit der Zuweisung dieser Touchpoints vertraut machen
-   * Wie bereits erwähnt, besteht der primäre Anwendungsfall dieser Funktion darin, Touchpoints zu erstellen, die die Wirksamkeit Ihres Sales Development Teams verfolgen, insbesondere ausgehende Telefonanrufe und ausgehende E-Mails
+  * Identifizieren Sie einige wichtige Aktivitätstypen, die Sie in Ihre [!DNL Marketo Measure] integrieren möchten, und fügen Sie dann weitere Typen hinzu, wenn Sie sich mit der Zuweisung dieser Touchpoints vertraut machen
+  * Wie bereits erwähnt, besteht der primäre Anwendungsfall dieser Funktion darin, Touchpoints zu erstellen, die die Wirksamkeit Ihres Sales Development Teams verfolgen, insbesondere ausgehende Telefonanrufe und ausgehende E-Mails
 
 >[!NOTE]
 >
@@ -37,11 +39,11 @@ Unabhängig davon, ob Sie Aktivitätsregeln zum ersten Mal definieren oder nur z
 
 * Verwenden Sie keine Formelfelder, um Ihre Regeln zu definieren
 * Erstellen Sie spezifische und präzise Regeln
-   * Der Schwellenwert für die Erstellung eines Aktivitäts-Touchpoints sollte mit dem Ausfüllen eines Formulars oder der Kampagnenmitgliedschaft übereinstimmen (oder ähnlich sein): Antworten auf eine ausgehende E-Mail oder abgeschlossene Telefongespräche
+  * Der Schwellenwert für die Erstellung eines Aktivitäts-Touchpoints sollte mit dem Ausfüllen eines Formulars oder der Kampagnenmitgliedschaft übereinstimmen (oder ähnlich sein): Antworten auf eine ausgehende E-Mail oder abgeschlossene Telefongespräche
 * Vor dem Speichern und Verarbeiten neue Regeln in [!DNL Salesforce] immer validieren
-   * Durch die Replikation der Aktivitätsregeln in einem Berichtstyp „Aufgaben und Ereignisse“ erhalten Sie ein klares Verständnis davon, wie viele Touchpoints genau aus der Regel stammen
+  * Durch die Replikation der Aktivitätsregeln in einem Berichtstyp „Aufgaben und Ereignisse“ erhalten Sie ein klares Verständnis davon, wie viele Touchpoints genau aus der Regel stammen
 * Arbeiten mit Ihrem Vertriebschancen-Team
-   * Wenn Sie das Team einbinden, das Ihrem Aktivitätsdatensatz oder Verkaufs-Aktivierungs-Tool am nächsten ist, stellen Sie sicher, dass Sie die richtigen Felder zum Definieren Ihrer Regeln verwenden
+  * Wenn Sie das Team einbinden, das Ihrem Aktivitätsdatensatz oder Verkaufs-Aktivierungs-Tool am nächsten ist, stellen Sie sicher, dass Sie die richtigen Felder zum Definieren Ihrer Regeln verwenden
 
 ## Best Practices für die Wartung {#best-practice-for-maintenance}
 

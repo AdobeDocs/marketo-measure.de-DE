@@ -3,13 +3,17 @@ description: '[!DNL Marketo Measure]-Ressourcenliste - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ressourcenliste'
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 6%
-
 ---
-
 # [!DNL Marketo Measure] Ressourcenliste {#marketo-measure-resource-list}
 
 Hier finden Sie verschiedene Links zu relevanten Artikeln/Videos, die Ihnen beim Einstieg in [!DNL Marketo Measure] helfen!
@@ -31,13 +35,13 @@ Hier finden Sie verschiedene Links zu relevanten Artikeln/Videos, die Ihnen beim
 * [Synchronisieren von SFDC-Kampagnen mit Käufer-Touchpoints](/help/channel-tracking-and-setup/campaigns-and-campaign-members.md)
 * [Marketingausgaben hochladen](/help/marketing-channel-costs.md)
 * [Erneutes Verbinden von Werbekonten](/help/api-connections/reauthorizing-connected-accounts.md)
-* [&#x200B; [!DNL Marketo Measure] JavaScript wird hinzugefügt](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
-   * [Forms ausschließen](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md)
+* [ [!DNL Marketo Measure] JavaScript wird hinzugefügt](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
+  * [Forms ausschließen](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **Reporting**
 
 * [Erstellen benutzerdefinierter Berichtstypen mit [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/creating-report-types.md) (wenn Sie einen Bericht über benutzerdefinierte Lead-/Kontakt-/Opportunity-Felder erstellen müssen)
-* [Glossar der  [!DNL Marketo Measure] &#x200B;](/help/glossary.md)
+* [Glossar der  [!DNL Marketo Measure] ](/help/glossary.md)
 
 **Fehlerbehebung**
 
@@ -46,12 +50,12 @@ Hier finden Sie verschiedene Links zu relevanten Artikeln/Videos, die Ihnen beim
 
 ## Videos {#videos}
 
-Im Folgenden finden Sie einige Videos    Hilft Ihnen beim Einstieg:
+Im Folgenden finden Sie einige Videos, die Ihnen dabei helfen, sich auf den neuesten Stand zu bringen:
 
 * [[!DNL Marketo Measure] Einführungsschulung](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 Minuten)
-* [[!DNL Marketo Measure] Reporting in SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=de) (30-45 Min.)
+* [[!DNL Marketo Measure] Reporting in SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 Min.)
 
-**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=de) (~30 Minuten)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30 Minuten)**
 
 Diese Kursreihe ist als allgemeine Einführung in die grundlegenden Konzepte konzipiert, die Sie kennen müssen, um [!DNL Marketo Measure] zu meistern. Es bietet eine Einführung in das Konzept der Attribution, was [!DNL Marketo Measure] als Tool tut und den allgemeinen Rahmen, auf dem [!DNL Marketo Measure] arbeitet.
 
@@ -63,7 +67,7 @@ Themen:
 * Touchpoints
 * Attributionsmodelle
 
-**[[!DNL Marketo Measure] Berichterstellung in SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=de) (30-45 Minuten)**
+**[[!DNL Marketo Measure] Berichterstellung in SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 Minuten)**
 
 Diese Kursreihe ist eine Einführung in die [!DNL Marketo Measure] Stock-Berichte, die in Salesforce installiert wurden. Diese Berichte dienen als Grundlage für die meisten Berichte, die Sie mit [!DNL Marketo Measure] Daten erstellen.
 
@@ -76,7 +80,7 @@ Themen:
 * Opportunities nach ID-Bericht
 * Bericht zu Opportunities nach Kanal
 
-**[Kanalverwaltung](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=de)**
+**[Kanalverwaltung](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
 
 In diesem Kurs werden verschiedene Möglichkeiten zur Anpassung von [!DNL Marketo Measure] im Hinblick auf Online- und Offline-Tracking behandelt. Dieser Kurs ist fortgeschrittener und möglicherweise nicht für alle Benutzer relevant.
 
@@ -88,4 +92,4 @@ Themen:
 * Felder für Kampagnen und Kampagnenmitglieder
 * Offline-Kanalverwaltung
 
-Hier finden Sie alle [Anfänger-E-Learning-Videos](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=de).
+Hier finden Sie alle [Anfänger-E-Learning-Videos](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html).

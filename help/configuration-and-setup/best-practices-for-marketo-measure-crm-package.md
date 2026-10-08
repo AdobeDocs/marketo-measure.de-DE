@@ -1,15 +1,22 @@
 ---
-description: Best Practices für  [!DNL Marketo Measure] -CRM-Paket-Anleitung für Marketo Measure-Benutzer
-title: Best Practices für [!DNL Marketo Measure] CRM-Package
+description: Best Practices für [!DNL Marketo Measure] CRM-Paket-Anleitung für Marketo Measure-Benutzer
+title: Best Practices für [!DNL Marketo Measure] CRM-Paket
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 8%
-
 ---
-
 
 # Best Practices für [!DNL Marketo Measure] CRM-Paket {#best-practices-for-marketo-measure-crm-package}
 
@@ -32,11 +39,11 @@ Mit diesen Paketen können Ihre [!DNL Marketo Measure] Benutzer einfach auf Touc
 Beachten Sie bei der Implementierung und Verwaltung Ihres [!DNL Marketo Measure] [!DNL Salesforce]-Pakets die folgenden Best Practices.
 
 * Vergewissern Sie sich, dass jedes erforderliche Teammitglied Zugriff auf die [!DNL Marketo Measure] Berichtsordner hat. Es sollten 1-3 [!DNL Marketo Measure] vorhanden sein (diese werden unten erläutert). Um den Zugriff zu öffnen, muss die Person, die die Pakete installiert hat, die Berichtsordner für die entsprechenden Benutzer oder Rollen freigeben.
-   * **Buyer Touchpoint-Berichte** - für alle verfügbar
-   * **[!DNL Marketo Measure]Account-Based Marketing Reports** - Berichte werden nur an Kunden mit Stufe 2 und höher ausgefüllt
-   * **Buyer Touchpoint-Dashboards** - für alle verfügbar, dieses Paket ist jedoch optional.
+  * **Buyer Touchpoint-Berichte** - für alle verfügbar
+  * **[!DNL Marketo Measure]Account-Based Marketing Reports** - Berichte werden nur an Kunden mit Stufe 2 und höher ausgefüllt
+  * **Buyer Touchpoint-Dashboards** - für alle verfügbar, dieses Paket ist jedoch optional.
 
-## Best Practices für die Wartung {#best-practice-for-maintenance}
+## Best Practice für die Wartung {#best-practice-for-maintenance}
 
 Während die Einrichtung Ihres CRM-Pakets bei der ersten Implementierung abgedeckt wird, wird empfohlen, die Einrichtung Ihres CRM-Pakets einmal jährlich zu überprüfen. Diese Überprüfung bestätigt, dass alle Seiten-Layouts korrekt eingerichtet sind und dass alle entsprechenden Team-Mitglieder Zugriff auf [!DNL Marketo Measure] Berichte und Dashboards haben.
 

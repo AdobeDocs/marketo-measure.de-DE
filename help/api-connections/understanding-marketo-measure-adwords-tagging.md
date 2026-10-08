@@ -1,15 +1,23 @@
 ---
-description: Grundlegendes  [!DNL Marketo Measure]  AdWords-Tagging-Anleitung für Marketo Measure-Benutzende
-title: Grundlagen [!DNL Marketo Measure] AdWords-Tagging
+description: Grundlegendes [!DNL Marketo Measure] AdWords-Tagging-Anleitung für Marketo Measure-Anwender
+title: Grundlegendes [!DNL Marketo Measure] AdWords-Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '683'
 ht-degree: 7%
-
 ---
-
 # Grundlegendes [!DNL Marketo Measure] AdWords-Tagging {#understanding-marketo-measure-adwords-tagging}
 
 Um Ihre Anzeigen auf einer sehr granularen Ebene zu verfolgen, müssen die Anzeigenziel-URLs eindeutig sein. Dazu fügt [!DNL Marketo Measure] automatisches Tagging automatisch Tracking-Parameter zu den Werbeziel-URLs Ihrer [!DNL AdWords]-Anzeigen hinzu. Sehen wir uns ein Beispiel unten an.
@@ -60,7 +68,7 @@ Es gibt zwei Tracking-Vorlagen, deren Verwendung [!DNL Marketo Measure] empfiehl
 
 1. Klicken Sie auf **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Einstellungen]** im sich erweiternden Fenster.
 
-   ![1. Klicken Sie auf Alle Kampagnen und dann auf Einstellungen im sich erweiternden &#x200B;](assets/utilizing-connections-13.png)
+   ![1. Klicken Sie auf Alle Kampagnen und dann auf Einstellungen im sich erweiternden ](assets/utilizing-connections-13.png)
 
 1. Klicken Sie **[!UICONTROL oben auf]** Kontoeinstellungen“ und dann **[!UICONTROL Tracking-Vorlage]**. Geben Sie die [!DNL Marketo Measure] Tracking-Vorlage ein.
 
@@ -72,7 +80,7 @@ Es gibt zwei Tracking-Vorlagen, deren Verwendung [!DNL Marketo Measure] empfiehl
 
 1. Klicken Sie **[!UICONTROL Alle Kampagnen]** und dann **[!UICONTROL Kampagnen]** im sich erweiternden Fenster.
 
-   ![1. Klicken Sie auf Alle Kampagnen und dann auf Kampagnen in der erweiternden &#x200B;](assets/utilizing-connections-12.png)
+   ![1. Klicken Sie auf Alle Kampagnen und dann auf Kampagnen in der erweiternden ](assets/utilizing-connections-12.png)
 
 1. Wählen Sie alle entsprechenden Kampagnen oder **[!UICONTROL Alle auswählen]**, klicken Sie auf **[!UICONTROL Bearbeiten]** und klicken Sie dann auf **[!UICONTROL Tracking-Vorlagen ändern]**.
 

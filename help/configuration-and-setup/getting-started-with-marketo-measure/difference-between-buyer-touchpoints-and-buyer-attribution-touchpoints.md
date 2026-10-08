@@ -1,26 +1,28 @@
 ---
 unique-page-id: 18874646
-description: Unterschiede zwischen Buyer Touchpoints und Buyer Attribution Touchpoints – [!DNL Marketo Measure]
-title: Unterschiede zwischen Buyer Touchpoints und Buyer Attribution Touchpoints
+description: Unterschied zwischen Käufer-Touchpoints und Käufer-Attribution-Touchpoints - [!DNL Marketo Measure]
+title: Unterschied zwischen Buyer Touchpoints und Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/vj5iw2eqF-ZBl2P8tloZdHWK67tRJn-J0RVh-hKnOZQ
+TQID: 'https://experienceleague.adobe.com/vj5iw2eqF-ZBl2P8tloZdHWK67tRJn-J0RVh-hKnOZQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 392
-ht-degree: 100%
-
+source-wordcount: '392'
+ht-degree: 97%
 ---
-
-# Unterschiede zwischen Buyer Touchpoints und Buyer Attribution Touchpoints {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
+# Unterschied zwischen Buyer Touchpoints und Buyer Attribution Touchpoints {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
 Erfahren Sie, was einen Buyer Touchpoint (BT) und einen Buyer Attribution Touchpoint (BAT) definiert, welche Unterschiede zwischen den beiden bestehen, und finden Sie Antworten auf häufig gestellte Fragen.
 
 Der Hauptunterschied zwischen Buyer Touchpoints und Buyer Attribution Touchpoints besteht in ihrer Beziehung zu [!DNL Salesforce]-Objekten. BTs beziehen sich auf die Lead-, Kontakt- und Fallobjekte, jedoch nicht auf das Opportunity-Objekt. Das bedeutet, dass mit Buyer Touchpoints nie ein Umsatz verbunden ist.
 
-Während das Objekt „Buyer Attribution Touchpoint“ mit den Kontakt-, Konten- und Opportunity-Objekten verbunden ist, jedoch nicht mit dem Lead-Objekt, sind die Buyer Attribution Touchpoints nicht an Leads gebunden. Im BAT-Objekt werden die Umsätze angezeigt, die mit bestimmten Marketing-Interaktionen verknüpft sind.
+Während das Objekt „Buyer Attribution Touchpoint“ mit den Kontakt-, Konto- und Opportunity-Objekten verbunden ist, jedoch nicht mit dem Lead-Objekt, sind die Buyer Attribution Touchpoints nicht an Leads gebunden. Im BAT-Objekt werden die Umsätze angezeigt, die mit bestimmten Marketing-Interaktionen verknüpft sind.
 
 Unterschied zwischen BT und BAT:
 
@@ -59,7 +61,7 @@ Ein BT wird zu einem BAT, sobald dieser BT mit einem Kontakt verknüpft ist, der
 
 **Kann ein Buyer Touchpoint eine Touchpoint-Position der Opportunity Creation (OC) haben?**
 
-Ein Buyer Touchpoint hat als Touchpoint-Position entweder Erstkontakt (FT), Lead-Erstellung (LC) oder Formularübermittlung (Zwischen-Touchpoints). Da BTs nicht mit Opportunitys verknüpft sind, kann ein BT nicht über die Touchpoint-Position „Opportunity Creation“ oder „Closed“ verfügen.
+Ein Buyer Touchpoint hat als Touchpoint-Position entweder Erstkontakt (FT), Lead-Erstellung (LC) oder Formularübermittlung (Zwischen-Touchpoints). Da BTs nicht mit Opportunities verknüpft sind, kann ein BT nicht über die Touchpoint-Position „Opportunity Creation“ oder „Geschlossen“ verfügen.
 
 **Wie werden Buyer-Touchpoint-Daten genutzt?**
 

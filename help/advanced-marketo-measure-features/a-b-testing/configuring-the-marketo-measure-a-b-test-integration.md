@@ -1,27 +1,32 @@
 ---
 unique-page-id: 18874726
-description: Konfigurieren der  [!DNL Marketo Measure] -A/B-Testintegration - [!DNL Marketo Measure]
-title: Konfigurieren der [!DNL Marketo Measure] A/B-Test-Integration
+description: Konfigurieren der [!DNL Marketo Measure] A/B-Testintegration - [!DNL Marketo Measure]
+title: Konfigurieren der [!DNL Marketo Measure] A/B-Testintegration
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
-TQID: https://experienceleague.adobe.com/BmZ2KnbTIkhPX1kGTNHMMMfmw7zs3Z1-YLwLIVOhVuk
+TQID: 'https://experienceleague.adobe.com/BmZ2KnbTIkhPX1kGTNHMMMfmw7zs3Z1-YLwLIVOhVuk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 348f752d-f464-5239-ab5e-c1faaeafb983
+    internal-label: A/B Testing
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 128
-ht-degree: 25%
-
+source-wordcount: '130'
+ht-degree: 20%
 ---
-
 # Konfigurieren der [!DNL Marketo Measure] A/B-Testintegration {#configuring-the-marketo-measure-a-b-test-integration}
 
 Fügen Sie die [!DNL Marketo Measure] Abschnitte über A/B-Tests zu Lead, Kontakt, Fall und Opportunity hinzu. [!DNL Marketo Measure] Mit der A/B-Testintegration können Sie die Auswirkungen Ihrer Site-Experimente [Optimizely](https://www.optimizely.com/de){target="_blank"} und [VWO](https://vwo.com/de){target="_blank"} auf den Umsatz verfolgen.
 
 1. Stellen Sie sicher, dass Sie das Paket [[!DNL Marketo Measure] v3.9 oder höher verwenden](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}.
 1. Fügen Sie die Liste &quot;[!DNL Marketo Measure] ABTests“ zu Ihren Seiten-Layouts hinzu und klicken Sie dann auf **Einstellungen** (Schraubenschlüssel).
-1. Entfernen Sie das Standardfeld „Id“ aus der Liste der ausgewählten Felder. Fügen Sie [!UICONTROL &#x200B; Felder &#x200B;]Experiment“, [!UICONTROL Variante] und [!UICONTROL DateReporting] hinzu und ändern Sie „Sortieren nach“ in „Berichtsdatum“. Klicken Sie auf die **[!UICONTROL Absteigend]**.
+1. Entfernen Sie das Standardfeld „Id“ aus der Liste der ausgewählten Felder. Fügen Sie [!UICONTROL  Felder ]Experiment“, [!UICONTROL Variante] und [!UICONTROL DateReporting] hinzu und ändern Sie „Sortieren nach“ in „Berichtsdatum“. Klicken Sie auf die **[!UICONTROL Absteigend]**.
 1. Deaktivieren Sie unter [!UICONTROL Schaltflächen] die Option **[!UICONTROL Neu]**.
 1. Wenden Sie sich an Ihren Kontovertreter oder an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}, um die Funktion zu aktivieren.

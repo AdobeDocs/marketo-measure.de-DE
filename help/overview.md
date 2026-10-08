@@ -1,25 +1,33 @@
 ---
-description: '''Übersicht über [!DNL Marketo Measure] Ultimate - [!DNL Marketo Measure]'''
+description: „Übersicht über [!DNL Marketo Measure] Ultimate - [!DNL Marketo Measure]"
 title: '[!DNL Marketo Measure] Ultimate – Übersicht'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 81%
-
+ht-degree: 88%
 ---
-
 # [!DNL Marketo Measure] Ultimate – Übersicht {#marketo-measure-ultimate-overview}
 
-[!DNL Marketo Measure] (ehemals Bizible) bietet Marketing-Fachleuten in insight, welche Marketing-Maßnahmen zur Steigerung des Umsatzes und der Maximierung des ROI für ihr Unternehmen am effektivsten sind. [!DNL Marketo Measure] ist eine Marketing-Attributionslösung, mit der die Kanalleistung automatisch verfolgt und Berichte darüber erstellt werden, wobei sichtbar ist, welche Kanäle die meiste Kundeninteraktion fördern, und Sie Ihre Marketing-Ausgaben entsprechend optimieren können.
+[!DNL Marketo Measure] (ehemals Bizible) gibt Marketing-Fachleuten Einblicke, welche Marketing-Maßnahmen zur Steigerung des Umsatzes und Maximierung des ROI für ihr Unternehmen am effektivsten sind. [!DNL Marketo Measure] ist eine Marketing-Attributionslösung, die die Kanalleistung automatisch verfolgt und in Berichten aufzeigt, welche Kanäle die Kundeninteraktion am meisten fördern. Sie bietet Ihnen außerdem die Möglichkeit, Ihre Marketing-Ausgaben entsprechend zu optimieren.
 
 [!DNL Marketo Measure Ultimate] enthält die zusätzlichen Funktionen:
 
 * Es können Daten aus nahezu jeder Datenquelle und aus mehreren Datenquellen desselben Typs aufgenommen werden, um alle Ihre Daten für die Attribution einzubringen.
-   * Die Lösung kann mit nahezu jedem CRM verwendet werden, nicht nur Salesforce und Dynamics.
-   * Es können mehrere CRM-Instanzen und/oder MAP-Instanzen mit einer Instanz von [!DNL Marketo Measure] verbunden werden.
-   * Es können Drittanbieterdaten zu Webinar-Registrierung und -Teilnahme einbegracht werden.
+  * Die Lösung kann mit nahezu jedem CRM verwendet werden, nicht nur Salesforce und Dynamics.
+  * Es können mehrere CRM-Instanzen und/oder MAP-Instanzen mit einer Instanz von [!DNL Marketo Measure] verbunden werden.
+  * Es können Drittanbieterdaten zu Webinar-Registrierung und -Teilnahme eingebracht werden.&#x200B;
 
 * Ihre Daten können mit großer Flexibilität durch die Feldzuordnungs- und Transformationsfunktionen transformiert werden, um zu gewährleisten, dass die Daten die richtige Form haben.
 
@@ -81,7 +89,7 @@ Die Abschnitte „Verloren“, „Gewonnen“ und „Konvertiert“ lassen keine
 Benutzerdefinierte Schritte können nur für die Abschnitte „Offen“ definiert werden.
 CRM-Schritte werden nicht mehr automatisch in die Schrittzuordnung einbezogen.
 
-Es müssen vier integrierten Schritten Regeln zugeordnet werden (Zuordnungsregeln für die beiden anderen Schritte, „Lead – Verloren“ und „Lead – Offen“ sind optional):
+Es müssen vier integrierten Schritten Regeln zugeordnet werden (Zuordnungsregeln für die beiden anderen Schritte, „Lead – Verloren“ und „Lead – Konvertiert“, sind optional):
 
 * Lead – Offen
 * Opportunity – Verloren
@@ -90,7 +98,7 @@ Es müssen vier integrierten Schritten Regeln zugeordnet werden (Zuordnungsregel
 
 Regelbedingungen sind datensatzspezifisch. Schrittzuordnungsregeln müssen für alle Datensätze und alle Schritte erstellt werden, mit Ausnahme von „Lead – Verloren“ und „Lead – Konvertiert“.
 
-Keine Auswahl für die Modelle „Trichter“, „Bumerang“ oder „Benutzerdefiniert“. Für die Modelle „Trichter“, „Bumerang“ oder „Benutzerdefiniert“ werden alle Schritte ausgewählt. Es gibt eine Obergrenze für die Anzahl der Schritte, die wir unterstützen: 15 benutzerdefinierte plus 6 integrierte Schritte.
+Keine Auswahl für die Modelle „Trichter“, „Bumerang“ oder „Benutzerdefiniert“. Für die Modelle „Trichter“, „Bumerang“ und „Benutzerdefiniert“ werden alle Schritte ausgewählt. Es gibt eine Obergrenze für die Anzahl der Schritte, die wir unterstützen: 15 benutzerdefinierte plus 6 integrierte Schritte.
 
 ![Keine Auswahl für funnel vs. Boomerang vs. benutzerdefiniertes Modell. Alle Stadien sind](assets/marketo-overview-4.png)
 
@@ -102,12 +110,12 @@ Touchpoint-Regeln für Kampagnenmitglieder und Touchpoint-Regeln für Aktivität
 
 Attributions-Touchpoints werden nicht in CRM geschrieben, da Ultimate über keine direkte CRM-Verbindung verfügt.
 
-ML-Dienste von [!DNL Marketo Measure] ABM (Lead-zu-Konto-Übereinstimmung und prädiktive Interaktionsbewertung) sind für [!DNL Marketo Measure Ultimate] nicht verfügbar. Sie finden diese Dienste kostenlos in der RT-CDP B2B Edition.
+ML-Dienste von [!DNL Marketo Measure] ABM (Lead-zu-Konto-Übereinstimmung und prädiktive Interaktionsbewertung) sind für [!DNL Marketo Measure Ultimate] nicht verfügbar. Sie finden diese Dienste kostenlos in der B2B-Edition von RT-CDP.
 
 ## Einschränkungen {#limitations}
 
 * Für Datenumwandlungsregeln steht nur eine begrenzte Anzahl von Feldern zur Verfügung.
-* Für bestehende Benutzerinnen und Benutzer der Ebenen 1–3 gibt es keinen Migrationspfad. Es ist eine neue Implementierung erforderlich, aber wir helfen Ihnen dabei, die Daten von nachverfolgten Web-Aktivitäten aus der vorhandenen Instanz zu migrieren.
+* Für bestehende Benutzerinnen und Benutzer der Ebenen 1–3 gibt es keinen Migrationspfad. Es ist eine neue Implementierung erforderlich, aber wir unterstützen Sie bei der Migration der Daten von nachverfolgten Web-Aktivitäten aus der vorhandenen Instanz.
 
 >[!MORELIKETHIS]
 >

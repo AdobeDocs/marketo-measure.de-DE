@@ -1,22 +1,26 @@
 ---
 unique-page-id: 37355835
-description: Touchpoint-Felder - [!DNL Marketo Measure]
+description: Kontaktpunktfelder - [!DNL Marketo Measure]
 title: Touchpoint Felder
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/f45LL11QRQWjzRDTMdsiSUKbB357lPibq8nFNVt75bk
+TQID: 'https://experienceleague.adobe.com/f45LL11QRQWjzRDTMdsiSUKbB357lPibq8nFNVt75bk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Customer experience
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1965
-ht-degree: 0%
-
+source-wordcount: '1979'
+ht-degree: 1%
 ---
-
 # Touchpoint Felder {#touchpoint-fields}
 
 Traditionell schult unser Customer Success-Team, wenn Kunden [!DNL Marketo Measure] mit einbinden und wir keine direkte Tagging-Integration haben, unsere Kunden darin, wie sie ihre Landingpages entsprechend taggen können, damit sie das richtige UTM-Format verwenden und wir ihre Anzeigen auflösen können. Einige dieser Kunden verwenden keine UTMs, sondern eigene Tagging-Parameter. Dies bedeutet, dass es sehr zeitaufwendig sein kann, alle Landingpages über alle Werbenetzwerke hinweg mit einer neuen Tagging-Struktur zu bearbeiten, die [!DNL Marketo Measure] durchsetzt. Um uns an ihre Tagging-Struktur anzupassen, akzeptieren wir jetzt benutzerdefinierte Parameter, die unseren Regeldefinitionen zugeordnet werden können. Das Ziel besteht darin, die benutzerdefinierten Tracking-Parameter der Kunden anzupassen, sodass wir sie nicht dazu zwingen müssen, ihre URL-Struktur zu ändern.
@@ -54,9 +58,9 @@ Ziel: Verwenden des Werts eines benutzerdefinierten Felds und Ablegen im Touchpo
 * Verwenden Sie den Operator „extrahiert“, da wir den Wert aus dem Parameter abrufen müssen
 * Um die vollständige Zeichenfolge aus dem Feld zu extrahieren, verwenden wir den Ausdruck „(.&#42;)“
 
-   * **(** markiert den Beginn der Extraktion
-   * **)** markiert das Ende der Extraktion
-   * **.&#42;** teilt uns mit, dass wir die vollständige Zeichenfolge extrahieren
+  * **(** markiert den Beginn der Extraktion
+  * **)** markiert das Ende der Extraktion
+  * **.&#42;** teilt uns mit, dass wir die vollständige Zeichenfolge extrahieren
 
 ![](assets/two.png)
 
@@ -72,11 +76,11 @@ Ein gängiges Anwendungsbeispiel für diese Funktion ist das Abrufen von Werten 
 * Verwenden Sie den Operator „extrahiert“, da wir den Wert aus dem Parameter abrufen müssen
 * Um den Wert der Promotion zu extrahieren, definieren wir den Wert als „promo=(\w+)“
 
-   * **(** markiert den Beginn der Extraktion
-   * **)** markiert das Ende der Extraktion
-   * **\w** gibt an, dass wir ein „Wort“ extrahieren, das 0-9 enthält
-   * **+** extrahiert den vollständigen Wert des Parameters ohne Zeichenbeschränkung
-   * Beachten Sie, dass Sie einen Schrägstrich und keinen umgekehrten Schrägstrich verwenden
+  * **(** markiert den Beginn der Extraktion
+  * **)** markiert das Ende der Extraktion
+  * **\w** gibt an, dass wir ein „Wort“ extrahieren, das 0-9 enthält
+  * **+** extrahiert den vollständigen Wert des Parameters ohne Zeichenbeschränkung
+  * Beachten Sie, dass Sie einen Schrägstrich und keinen umgekehrten Schrägstrich verwenden
 
 ![](assets/three.png)
 
@@ -91,10 +95,10 @@ Versuchen wir ein ähnliches Beispiel, bei dem wir einen Trackingcode extrahiere
 * Verwenden Sie den Operator „extrahiert“, da wir den Wert aus dem Parameter abrufen müssen
 * Um den Wert „123456“ zu extrahieren, definieren wir den Wert als „cid=(\d{6})“
 
-   * **(** markiert den Beginn der Extraktion
-   * **)** markiert das Ende der Extraktion
-   * **\d** gibt an, dass wir eine „Ziffer“ extrahieren
-   * **{6}** ist die Anzahl der Zeichen, die extrahiert werden
+  * **(** markiert den Beginn der Extraktion
+  * **)** markiert das Ende der Extraktion
+  * **\d** gibt an, dass wir eine „Ziffer“ extrahieren
+  * **{6}** ist die Anzahl der Zeichen, die extrahiert werden
 
 ![](assets/four.png)
 
@@ -110,20 +114,20 @@ Da Ihre Landingpages immer komplizierter werden und Sie über mehrere Tracking-P
 * Verwenden Sie den Operator „extrahiert“, da wir den Wert aus dem Parameter abrufen müssen
 * Um den Wert „US“ zu extrahieren, definieren wir den Wert als „country=(\w{2})“
 
-   * **(** markiert den Beginn der Extraktion
-   * **)** markiert das Ende der Extraktion
-   * **\W** gibt an, dass wir ein „Wort“ extrahieren
-   * **{2}** ist die Anzahl der Zeichen, die extrahiert werden
+  * **(** markiert den Beginn der Extraktion
+  * **)** markiert das Ende der Extraktion
+  * **\W** gibt an, dass wir ein „Wort“ extrahieren
+  * **{2}** ist die Anzahl der Zeichen, die extrahiert werden
 
 * Erstellen Sie ein berechnetes Feld und beschriften Sie es mit „Benutzerdefinierte Kampagnen-ID“
 * Definieren Sie die Regel, indem Sie zunächst nach dem Feld Touchpoint.Session.LandingPage suchen
 * Verwenden Sie den Operator „extrahiert“, da wir den Wert aus dem Parameter abrufen müssen
 * Um den Wert „123456“ zu extrahieren, definieren wir den Wert als „campaign_ID=(\d{6})“
 
-   * **(** markiert den Beginn der Extraktion
-   * **)** markiert das Ende der Extraktion
-   * **\d** gibt an, dass wir eine „Ziffer“ extrahieren
-   * **{6}** ist die Anzahl der Zeichen, die extrahiert werden
+  * **(** markiert den Beginn der Extraktion
+  * **)** markiert das Ende der Extraktion
+  * **\d** gibt an, dass wir eine „Ziffer“ extrahieren
+  * **{6}** ist die Anzahl der Zeichen, die extrahiert werden
 
 ![](assets/five.png)
 
@@ -148,14 +152,14 @@ Nachdem wir nun gelernt haben, wie man Felder extrahiert und ihnen zuordnet, kom
 * Verwenden Sie den Operator [!UICONTROL extrahiert], da wir den Wert aus dem Parameter abrufen müssen
 * Um den Wert „04“ zu extrahieren, definieren wir den Wert als „BZ=(\d{2})-\d{2}-\d{2}-\d{2}-\d{2}&quot;
 
-   * **(** markiert den Beginn der Extraktion
+  * **(** markiert den Beginn der Extraktion
 
-      * Beachten Sie, dass nur die ersten Ziffern eine offene Klammer aufweisen, da nur die vier Ziffern extrahiert werden
-   * **)** markiert das Ende der Extraktion
+    * Beachten Sie, dass nur die ersten Ziffern eine offene Klammer aufweisen, da nur die vier Ziffern extrahiert werden
+  * **)** markiert das Ende der Extraktion
 
-      * Beachten Sie, dass nur die ersten Ziffern die geschlossene Klammer aufweisen, da nur die vier Ziffern extrahiert werden
-   * **\d** gibt an, dass wir eine „Ziffer“ extrahieren
-   * **{2}** ist die Anzahl der Zeichen, die extrahiert werden
+    * Beachten Sie, dass nur die ersten Ziffern die geschlossene Klammer aufweisen, da nur die vier Ziffern extrahiert werden
+  * **\d** gibt an, dass wir eine „Ziffer“ extrahieren
+  * **{2}** ist die Anzahl der Zeichen, die extrahiert werden
 
 
 
@@ -163,15 +167,15 @@ Nachdem wir nun gelernt haben, wie man Felder extrahiert und ihnen zuordnet, kom
 * Als Nächstes möchten wir alle möglichen Werte für die ersten Ziffern seinen Anzeigenamen zuordnen
 * Erstellen Sie ein berechnetes Feld und beschriften Sie es mit „Region_Name“
 * Definieren Sie die Regel, indem Sie mit der Suche nach dem extrahierten Feld beginnen. In diesem Fall [!DNL Touchpoint.Region]
-* Verwenden Sie den Operator [!UICONTROL zu“, &#x200B;] eine Zuordnung für jede Zahl zu ihrem Wert erstellen möchten
+* Verwenden Sie den Operator [!UICONTROL zu“, ] eine Zuordnung für jede Zahl zu ihrem Wert erstellen möchten
 * Es wird eine Tabelle angezeigt, in der die einzelnen Zuordnungen aufgelistet werden. Am Ende wird er ungefähr so aussehen:
 * Basierend auf der Zuordnung und der obigen URL würde der „Region_Wert“ für einen Touchpoint mit dieser Landingpage „EMEA“ lauten
 * Wiederholen Sie die Extraktion und die Zuordnung für die verbleibenden 4 Ziffernsätze
 
-   * Um 01 zu extrahieren, definieren Sie den Wert als „BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\d{2}&quot;
-   * Um 09 zu extrahieren, definieren Sie den Wert als „BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2}&quot;
-   * Um 03 zu extrahieren, definieren Sie den Wert als „BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}&quot;
-   * Um die 10 zu extrahieren, definieren Sie den Wert als „BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**&quot;
+  * Um 01 zu extrahieren, definieren Sie den Wert als „BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\d{2}&quot;
+  * Um 09 zu extrahieren, definieren Sie den Wert als „BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2}&quot;
+  * Um 03 zu extrahieren, definieren Sie den Wert als „BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}&quot;
+  * Um die 10 zu extrahieren, definieren Sie den Wert als „BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**&quot;
 
 ![](assets/seven.png)
 

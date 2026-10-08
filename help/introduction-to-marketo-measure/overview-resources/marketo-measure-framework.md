@@ -4,23 +4,26 @@ description: Marketo Measure Framework - Marketo Measure - Produktdokumentation
 title: Marketo Measure-Framework
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-TQID: https://experienceleague.adobe.com/jXanQ2O2lHunlg-PtFF9ot3WACHxu8ZA1sc9klyaXwo
+TQID: 'https://experienceleague.adobe.com/jXanQ2O2lHunlg-PtFF9ot3WACHxu8ZA1sc9klyaXwo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '393'
 ht-degree: 100%
-
 ---
-
 # Marketo Measure-Framework {#marketo-measure-framework}
 
-Erfahren Sie mehr über die vier Hauptkomponenten des Marketo Measure-Frameworks. Marketo Measure verlässt sich bei der Verfolgung, Organisation und Speicherung von Daten sowie bei der Bereitstellung von Berichtsfunktionen auf diese Anwendungen. Die vier Komponenten des Marketo Measure-Frameworks sind:
+Erfahren Sie mehr über die vier Hauptkomponenten des Marketo Measure-Frameworks. Marketo Measure verlässt sich bei Tracking, Organisation und Speicherung von Daten sowie bei der Bereitstellung von Reporting-Funktionen auf diese Anwendungen. Die vier Komponenten des Marketo Measure-Frameworks sind:
 
 * JavaScript von Marketo Measure
 * CRM-Integrationen
@@ -37,7 +40,7 @@ Das Marketo Measure-JavaScript verfolgt alle Online-Marketing-Interaktionen, auc
 >
 >Anweisungen zum Hinzufügen des Marketo Measure-JS finden Sie [hier](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
-Das JS von Marketo Measure erfasst Daten von Web-Besuchen (einschließlich anonymer Web-Besuche), allgemeinem Traffic/Seitennavigation, Inhalts-Downloads und Formularübermittlungen. Diese Daten werden in Ihr CRM-System übertragen und jede Marketing-Interaktion wird als Touchpoint angezeigt.
+Das JS von Marketo Measure erfasst Daten von Web-Besuchen (einschließlich anonymer Web-Besuche), allgemeinem Traffic/Seitennavigation, Content-Downloads und Formularübermittlungen. Diese Daten werden in Ihr CRM-System übertragen und jede Marketing-Interaktion wird als Touchpoint angezeigt.
 
 ## CRM-Integrationen {#crm-integrations}
 
@@ -49,7 +52,7 @@ Indem Sie Marketo Measure-Daten in Ihrem CRM-System aufrufen, können Sie die de
 
 ## Drittanbieteranwendungen {#third-party-applications}
 
-Die meisten Marketing-Experten sind für ihre Marketing-Maßnahmen auf einige verschiedene Anwendungen angewiesen. Zusätzlich zu Salesforce und MS Dynamics ist Marketo Measure in 13 Anwendungen von Drittanbietern integriert (siehe unten).
+Die meisten Marketing-Experten sind für ihre Marketing-Maßnahmen auf einige verschiedene Anwendungen angewiesen. Zusätzlich zu Salesforce und MS Dynamics ist Marketo Measure mit 13 Drittanbieter-Anwendungen integriert (siehe unten).
 
 ![](assets/2-1.png)
 
@@ -65,7 +68,7 @@ Hier können Sie die allgemeinen Informationen Ihres Unternehmens aktualisieren 
 
 **Einstellungen**
 
-In diesem Menüpunkt können Sie Ihre Attributions- und Kanalzuordnungseinstellungen konfigurieren, Integrationen mit CRMs und Drittanbieteranwendungen verwalten, Benutzerinnen und Benutzer von Marketo Measure-Konten anzeigen/hinzufügen und Rechnungsinformationen aktualisieren.
+In diesem Menüpunkt können Sie Ihre Attributions- und Kanalzuordnungseinstellungen konfigurieren, Integrationen mit CRMs und Drittanbieter-Anwendungen verwalten, Benutzerinnen und Benutzer von Marketo Measure-Konten anzeigen/hinzufügen und Abrechnungsinformationen aktualisieren.
 
 **Marketing-ROI-Dashboard**
 

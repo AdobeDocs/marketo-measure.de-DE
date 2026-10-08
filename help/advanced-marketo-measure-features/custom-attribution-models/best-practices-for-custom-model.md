@@ -3,20 +3,24 @@ description: Best Practices für ein benutzerdefiniertes Modell - [!DNL Marketo 
 title: Best Practices für benutzerdefiniertes Modell
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-TQID: https://experienceleague.adobe.com/p-O-xH6MR0SrtGh8Wa57g1stQHMNCgftQ-2BVnSi01I
+TQID: 'https://experienceleague.adobe.com/p-O-xH6MR0SrtGh8Wa57g1stQHMNCgftQ-2BVnSi01I'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: '851'
 ht-degree: 2%
-
 ---
-
-# Best Practices für benutzerdefiniertes Modell {#best-practices-for-custom-model}
+# Best Practices für benutzerdefinierte Modelle {#best-practices-for-custom-model}
 
 ## Überblick {#overview}
 
@@ -41,25 +45,25 @@ Es ist wichtig, dass diese beiden Aspekte Ihres benutzerdefinierten Modells korr
 Unabhängig davon, ob Sie Ihr benutzerdefiniertes Modell zum ersten Mal einrichten oder überprüfen, was zuvor eingerichtet wurde, ist es wichtig, die folgenden Best Practices zu beachten.
 
 * Einfach starten
-   * Identifizieren Sie die wichtigsten Phasen, die Sie zu Ihrem benutzerdefinierten Modell hinzufügen möchten und die für Ihre [!DNL Marketo Measure]-Berichterstellung von entscheidender Bedeutung sind. In der Regel handelt es sich dabei um Stadien, an denen Sie häufig gemessen werden oder auf denen Sie insight erwerben möchten
-   * Sie können Ihrem benutzerdefinierten Modell jederzeit im Laufe der Zeit hinzufügen
+  * Identifizieren Sie die wichtigsten Phasen, die Sie zu Ihrem benutzerdefinierten Modell hinzufügen möchten und die für Ihre [!DNL Marketo Measure]-Berichterstellung von entscheidender Bedeutung sind. In der Regel handelt es sich dabei um Stadien, an denen Sie häufig gemessen werden oder auf denen Sie insight erwerben möchten
+  * Sie können Ihrem benutzerdefinierten Modell jederzeit im Laufe der Zeit hinzufügen
 * Verwenden des Modells für maschinelles Lernen [!DNL Marketo Measure]
-   * Wenn Sie Schwierigkeiten bei der Entscheidung über den prozentualen Zuordnungsdurchbruch haben, kann das Modell des [!DNL Marketo Measure] maschinellen Lernens Ihnen dabei helfen, fundierte Entscheidungen beim Festlegen Ihres benutzerdefinierten Attributionsmodells zu treffen.
-   * Beim Anzeigen des Modells für maschinelles Lernen spiegeln die Prozentsätze der Attribution jedes Schritts die potenziellen Auswirkungen Ihrer Marketing-Maßnahmen wider
-      * Ein höherer Prozentsatz bedeutet, dass das Marketing die Bewegung der funnel zu diesem Zeitpunkt direkt beeinflussen kann
-      * Ein niedrigerer Attributionsprozentsatz bedeutet, dass Stadien für Ihr Team weniger wichtig sind
+  * Wenn Sie Schwierigkeiten bei der Entscheidung über den prozentualen Zuordnungsdurchbruch haben, kann das Modell des [!DNL Marketo Measure] maschinellen Lernens Ihnen dabei helfen, fundierte Entscheidungen beim Festlegen Ihres benutzerdefinierten Attributionsmodells zu treffen.
+  * Beim Anzeigen des Modells für maschinelles Lernen spiegeln die Prozentsätze der Attribution jedes Schritts die potenziellen Auswirkungen Ihrer Marketing-Maßnahmen wider
+    * Ein höherer Prozentsatz bedeutet, dass das Marketing die Bewegung der funnel zu diesem Zeitpunkt direkt beeinflussen kann
+    * Ein niedrigerer Attributionsprozentsatz bedeutet, dass Stadien für Ihr Team weniger wichtig sind
 * Sie müssen die funnel-Spitzenphasen entweder anhand der Lead- oder anhand der Kontaktphasen definieren, nicht über beide
-   * Das bedeutet, dass Sie sicherstellen müssen, dass alle Personen diese Phase auf dem relativen Objekt durchlaufen
-      * Beispiel: Wenn Sie die MQL-Phase ausgehend vom Lead-Objekt definieren, müssen alle Personen in Ihr System als Lead eintreten und in ihrem Lead-Datensatz als MQL gekennzeichnet werden, damit [!DNL Marketo Measure] genau widerspiegeln können, welche Berührung mit der Umstellung des Leads auf MQL verbunden war. Wenn dies nicht der Fall ist und einige Personen Kontakt aufnehmen, bevor sie als Lead zu MQL werden, können [!DNL Marketo Measure] dies in Ihren Touchpoint-Daten nicht genau berücksichtigen, und wir müssen davon ausgehen, dass die Person bereits MQL verwendet hat. [!DNL Marketo Measure] kann das Stadium-Hopping nicht erklären. Daher schließen wir, dass Stadien durchlaufen wurden, auch wenn dies nicht der Fall war.
+  * Das bedeutet, dass Sie sicherstellen müssen, dass alle Personen diese Phase auf dem relativen Objekt durchlaufen
+    * Beispiel: Wenn Sie die MQL-Phase ausgehend vom Lead-Objekt definieren, müssen alle Personen in Ihr System als Lead eintreten und in ihrem Lead-Datensatz als MQL gekennzeichnet werden, damit [!DNL Marketo Measure] genau widerspiegeln können, welche Berührung mit der Umstellung des Leads auf MQL verbunden war. Wenn dies nicht der Fall ist und einige Personen Kontakt aufnehmen, bevor sie als Lead zu MQL werden, können [!DNL Marketo Measure] dies in Ihren Touchpoint-Daten nicht genau berücksichtigen, und wir müssen davon ausgehen, dass die Person bereits MQL verwendet hat. [!DNL Marketo Measure] kann das Stadium-Hopping nicht erklären. Daher schließen wir, dass Stadien durchlaufen wurden, auch wenn dies nicht der Fall war.
 * Stellen Sie sicher, dass die Feldverlaufsverfolgung für alle Felder aktiviert ist, die zum Definieren von benutzerdefinierten Stadien verwendet werden, die Sie einbinden
 * Verwenden Sie keine Formelfelder, um einen benutzerdefinierten Schritt zu definieren
-   * Ein boolesches Feld ist eine Best-Practice-Empfehlung
+  * Ein boolesches Feld ist eine Best-Practice-Empfehlung
 * Binden Sie keine benutzerdefinierten Stadien in Ihr benutzerdefiniertes Modell ein, die mit einer [!DNL Marketo Measure] Milestone Touchpoint-Position (FT, LC, OC, Closed Won/Lost) übereinstimmen.
-   * Wenn Sie dies tun, treten diese Positionen immer gleichzeitig auf und können zu überhöhten Attributionsgutschriften an Teile Ihrer funnel führen.
+  * Wenn Sie dies tun, treten diese Positionen immer gleichzeitig auf und können zu überhöhten Attributionsgutschriften an Teile Ihrer funnel führen.
 * Arbeiten mit Ihrem Vertriebschancen-Team
-   * Das Einbringen des Teams, das mit den Stadien am nächsten arbeitet, und seiner Bedeutung stellt sicher, dass Sie die richtigen Stadien verwenden und dass sie richtig definiert sind
+  * Das Einbringen des Teams, das mit den Stadien am nächsten arbeitet, und seiner Bedeutung stellt sicher, dass Sie die richtigen Stadien verwenden und dass sie richtig definiert sind
 
-## Best Practices für die Wartung {#best-practice-for-maintenance}
+## Best Practice für die Wartung {#best-practice-for-maintenance}
 
 Wenn Sie Ihr benutzerdefiniertes Modell mindestens zweimal jährlich überprüfen, stellen Sie sicher, dass Ihr benutzerdefiniertes Attributionsbericht korrekt und zuverlässig ist.
 

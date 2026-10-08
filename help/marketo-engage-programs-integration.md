@@ -1,15 +1,19 @@
 ---
-description: Integration von [!DNL Marketo Engage] Programmen - [!DNL Marketo Measure]
+description: Integration von [!DNL Marketo Engage]-Programmen - [!DNL Marketo Measure]
 title: Integration von [!DNL Marketo Engage] Programmen
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 2%
-
 ---
-
 # Integration von [!DNL Marketo Engage] Programmen {#marketo-engage-programs-integration}
 
 Durch die [!DNL Marketo Measure] Integration mit [!DNL Marketo Engage]-Programmen können unsere Kunden damit beginnen, Touchpoints für das Attributions-Tracking aus den Marketo-Programmmitgliedschaften zu erstellen. Mit dieser Funktion können Marketing-Fachleute Programmmitgliedschaften aus E-Mail- oder Interaktionsprogrammen verfolgen, die ansonsten vom [!DNL Marketo Measure] JavaScript nicht gesehen werden und auf der Attributions-Journey gemessen werden sollten.
@@ -62,7 +66,7 @@ Nachdem Sie einige Regeln erstellt haben, können Sie sie testen, um zu überpr�
 
 1. Um einen Test auszuführen, klicken Sie auf die Schaltfläche **[!UICONTROL TEST]**, wie unten dargestellt.
 
-   ![1. Klicken Sie zum Ausführen eines Tests wie abgebildet auf die Schaltfläche TEST &#x200B;](assets/marketo-engage-programs-03.png)
+   ![1. Klicken Sie zum Ausführen eines Tests wie abgebildet auf die Schaltfläche TEST ](assets/marketo-engage-programs-03.png)
 
 1. Es wird ein Modal angezeigt, in das Sie die Programm-ID aus Marketo eingeben können.
 

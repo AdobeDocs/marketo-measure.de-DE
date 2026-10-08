@@ -1,24 +1,28 @@
 ---
-description: Best Practices für API-Verbindungen – [!DNL Marketo Measure]
+description: Best Practices für API-Verbindungen - [!DNL Marketo Measure]
 title: Best Practices für API-Verbindungen
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-TQID: https://experienceleague.adobe.com/3f-fqPIPf40brt2-xfiMLLO6McY6hlT7rKkBvXb2laA
+TQID: 'https://experienceleague.adobe.com/3f-fqPIPf40brt2-xfiMLLO6McY6hlT7rKkBvXb2laA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 subfeature_v2:
   - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+    internal-label: Facebook API
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 752
+source-wordcount: '752'
 ht-degree: 97%
-
 ---
-
 # Best Practices für API-Verbindungen {#best-practices-for-api-connections}
 
 ## Überblick {#overview}
@@ -31,9 +35,9 @@ Die [!DNL Marketo Measure] API-Verbindungen sind ein unschätzbarer Aspekt Ihres
 
 Unabhängig von der Werbeplattform, die Sie verbinden, sollten Sie die folgenden Richtlinien beachten.
 
-* Verwenden Sie Admins für die Verbindung
-* Sie können mehrere Werbekonten für eine Plattform verbinden.
-* Sie sollten alle möglichen Werbekonten anschließen, um die Ausgabenberichterstellung so weit wie möglich zu automatisieren.
+* Verwenden Sie eine oder einen Admin, um die Verbindung herzustellen.
+* Sie können mehrere Werbekonten mit einer Plattform verknüpfen.
+* Sie sollten alle möglichen Werbekonten verknüpfen, um das Ausgaben-Reporting so weit wie möglich zu automatisieren.
 * Wenn verfügbar, implementieren Sie immer eine Tracking-Vorlage. Die Vorlage stellt sicher, dass selbst dann, wenn die Verbindung des Werbekontos getrennt wird, [!DNL Marketo Measure] weiterhin detaillierte Werbeanzeigendetails abrufen kann
 
 Um jede [!DNL Marketo Measure]-API zu optimieren, beachten Sie die folgenden Best Practices.
@@ -58,7 +62,7 @@ Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]
 Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]-AdWords-API in der Lage sein:
 
 * Alle AdWords-Werbeanzeigen automatisch mit den [!DNL Marketo Measure]-Parametern von `_bk={keyword}, _bt={creative}, _bm={matchtype}, _bn={network}, _bg={adgroupID}` zu taggen
-* Informationen zu Werbeanzeigenkosten für alle aktiven AdWords-Werbeanzeigen herunterzuladen
+* Laden Sie Informationen zu Werbeanzeigenkosten für alle aktiven AdWords-Werbeanzeigen herunter.
 
 **Bing**: Implementieren Sie eine Tracking-Vorlage auf Kontoebene und aktivieren Sie das automatische Tagging
 
@@ -66,11 +70,11 @@ Es besteht kein Risiko, den Werbeanzeigenverlauf bei der Einrichtung Ihrer [!DNL
 
 Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]-Bing-API in der Lage sein:
 * Alle Bing-Werbeanzeigen mit den folgenden Parametern von `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}` automatisch zu taggen
-* Informationen zu Werbeanzeigenkosten für alle aktiven Bing-Werbeanzeigen herunterzuladen
+* Laden Sie Informationen zu Werbeanzeigenkosten für alle aktiven Bing-Werbeanzeigen herunter.
 
 **LinkedIn**: Verbindung mit automatischem Tagging
 
-Durch die Aktivierung der automatischen Tagging-Funktion wird eine Freigabe neu erstellt und in einem neuen Werbemittel platziert. Das alte Werbemittel wird archiviert.
+Durch die Aktivierung der automatischen Tagging-Funktion wird eine Freigabe neu erstellt und in einem neuen Kreativelement platziert. Das alte Kreativelement wird archiviert.
 
 Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]-LinkedIn-API in der Lage sein:
 
@@ -85,9 +89,9 @@ Durch Befolgung unserer Best-Practice-Empfehlung wird die [!DNL Marketo Measure]
 
 Wenn Sie unsere Best Practices befolgen, werden Sie davor geschützt, Daten zu verlieren, wenn die Verbindung getrennt ist. Wir empfehlen Ihnen jedoch dennoch, Ihre Verbindung regelmäßig (im Idealfall monatlich) zu überprüfen. Dabei handelt es sich um eine einfache visuelle Überprüfung des Abschnitts [!UICONTROL Verbindungen] in der [!DNL Marketo Measure]-App, um sicherzustellen, dass keine roten Schlüsselsymbole vorhanden sind. Diese weisen auf ein nicht verbundenes Konto hin.
 
-Wenn ein mit der API verbundenes Konto getrennt wird, kann [!DNL Marketo Measure] keine Ausgabedaten abrufen oder neue Werbeanzeigen taggen. Deshalb empfehlen wir immer, nach Möglichkeit eine Tracking-Vorlage zu implementieren. Die Vorlage stellt sicher, dass selbst dann, wenn die Verbindung des Werbekontos getrennt wird, [!DNL Marketo Measure] weiterhin Werbeanzeigen taggen und detaillierte Werbeanzeigendetails abrufen kann. Nach der erneuten Verbindung werden die Ausgabedaten wieder ausgefüllt und die Unterbrechung der Berichterstellung für Paid-Kanäle ist minimal.
+Wenn ein mit der API verbundenes Konto getrennt wird, kann [!DNL Marketo Measure] keine Ausgabedaten abrufen oder neue Werbeanzeigen taggen. Deshalb empfehlen wir immer, nach Möglichkeit eine Tracking-Vorlage zu implementieren. Die Vorlage stellt sicher, dass selbst dann, wenn die Verbindung des Werbekontos getrennt wird, [!DNL Marketo Measure] weiterhin Werbeanzeigen taggen und detaillierte Werbeanzeigendetails abrufen kann. Nach der erneuten Verbindung werden die Ausgabedaten wieder ausgefüllt und die Unterbrechung des Paid-Kanal-Reportings ist minimal.
 
-Die Gründe für die Trennung und Neuautorisierung können sein ...
+Gründe für die Trennung der Verbindung und die Neuautorisierung können sein ...
 
 * Passwortänderung für das verbundene Konto
 * Diese Person ist nicht mehr in der Firma

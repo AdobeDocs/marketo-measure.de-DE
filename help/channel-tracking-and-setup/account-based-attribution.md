@@ -3,13 +3,17 @@ description: Erfahren Sie mehr über die Account-basierte Attribution und darüb
 title: Kontobasierte Attribution
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 11%
-
 ---
-
 # Kontobasierte Attribution {#account-based-attribution}
 
 Mit dem Aufstieg von Account-Based Marketing (ABM) ist es wichtig zu verstehen, wie [!DNL Marketo Measure] Ihre ABM-Strategie ergänzen können. [!DNL Marketo Measure] zeigt jeden Touchpoint für jeden Lead und Kontakt unter Ihren Konten an.
@@ -18,7 +22,7 @@ Mit dem Aufstieg von Account-Based Marketing (ABM) ist es wichtig zu verstehen, 
 
 Wenn unter einem Konto mehrere Opportunities vorhanden sind, teilen sich die verschiedenen Opportunitys die ersten beiden Touchpoints - den First Touch (FT) und die Lead Creation (LC). Wenn neue Opportunitys erstellt werden, wird deren individueller Umsatzbetrag den Touchpoints zugeordnet, die dazu beigetragen haben, die Opportunity weiter unten in der funnel zu positionieren. Beachten Sie, dass Touchpoints, die mit Opportunities verknüpft sind, als Attribution-Touchpoints (BATs) für Käufer gelten.
 
-Beispielsweise hat das nachstehende Konto zwei Opportunitys. Für die erste Opportunity hat es nur einen Touchpoint. Dieser Touchpoint umfasst die Touchpoints FT, LC und Opportunity-Erstellung (Opportunity Creation, OC). Die zweite Opportunity hat dieselbe FT &amp; LC wie die erste Opportunity, aber der OC Touchpoint ist anders. Außerdem verfügt die zweite Opportunity über zusätzliche Touchpoints, die nicht mit der ersten Opportunity verknüpft sind, da sie nach dem Abschlussdatum der ersten Opportunities stattfinden.
+Beispielsweise hat das nachstehende Konto zwei Opportunities. Für die erste Opportunity hat es nur einen Touchpoint. Dieser Touchpoint umfasst die Touchpoints FT, LC und Opportunity-Erstellung (Opportunity Creation, OC). Die zweite Opportunity hat dieselbe FT &amp; LC wie die erste Opportunity, aber der OC Touchpoint ist anders. Außerdem verfügt die zweite Opportunity über zusätzliche Touchpoints, die nicht mit der ersten Opportunity verknüpft sind, da sie nach dem Abschlussdatum der ersten Opportunities stattfinden.
 
 ![Beispiel: Das nachstehende Konto bietet zwei Möglichkeiten. Für die erste Opportunity](assets/account-marketing-4.jpg)
 

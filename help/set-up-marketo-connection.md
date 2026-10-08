@@ -3,32 +3,36 @@ description: Einrichten der Marketo-Verbindungsanleitung für Marketo Measure-Be
 title: Einrichten der Marketo-Verbindung
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 3%
-
 ---
-
 # Einrichten der Marketo-Verbindung {#set-up-marketo-connection}
 
 So richten Sie Ihre Verbindung mit Marketo ein.
 
 >[!PREREQUISITES]
 >
->[Nur API-Benutzerrolle erstellen](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=de) für die Verbindung [!DNL Marketo Measure]/Marketo Engage.
+>[Nur API-Benutzerrolle erstellen](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) für die Verbindung [!DNL Marketo Measure]/Marketo Engage.
 
 1. Klicken Sie [!DNL Marketo Measure] auf die Dropdown **[!UICONTROL Liste Mein Konto]** und wählen Sie **[!UICONTROL Einstellungen]**.
 
    ![1. Klicken Sie in Marketo Measure auf die Dropdown-Liste Mein Konto und](assets/set-connection-7.png)
 
-1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf **[!UICONTROL Verbindungen]**.
+1. Klicken [!UICONTROL  unter &quot;]&quot; auf **[!UICONTROL Verbindungen]**.
 
    ![1. Klicken Sie unter Integrationen auf Verbindungen.](assets/set-connection-8.png)
 
 1. Klicken Sie **[!UICONTROL Neue CRM-Verbindung einrichten]**.
 
-   ![1. Klicken Sie auf Neue CRM-Verbindung einrichten &#x200B;](assets/set-connection-9.png)
+   ![1. Klicken Sie auf Neue CRM-Verbindung einrichten ](assets/set-connection-9.png)
 
 1. Klicken Sie auf **[!UICONTROL Verbinden]**-Schaltfläche neben Marketo.
 
@@ -40,7 +44,7 @@ So richten Sie Ihre Verbindung mit Marketo ein.
 
 1. Wählen Sie noch in Marketo Engage **LaunchPoint** in der Baumstruktur links aus. Suchen Sie den benutzerdefinierten Service, den Sie mit Marketo Measure verbinden möchten, und klicken Sie auf **Details anzeigen**.
 
-   ![1. Wählen Sie noch in Marketo Engage LaunchPoint in der Baumstruktur auf der &#x200B;](assets/set-connection-4.png)
+   ![1. Wählen Sie noch in Marketo Engage LaunchPoint in der Baumstruktur auf der ](assets/set-connection-4.png)
 
 1. Markieren und speichern Sie die Client-ID und den geheimen Client-Schlüssel. Klicken Sie auf **Schließen**.
 

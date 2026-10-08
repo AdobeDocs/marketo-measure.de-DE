@@ -3,13 +3,20 @@ description: Workflows zur Abstimmung der Dynamics-Umsatz- und Abschlussdatumsfe
 title: '[!DNL Marketo Measure] Umsatz-Workflows für Dynamics'
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] Umsatz-Workflows für Dynamics {#marketo-measure-revenue-workflows-for-dynamics}
 
 ## Teil 1: Geschätzte Einnahmen vs. tatsächliche Einnahmen {#part-estimated-revenue-vs-actual-revenue}
@@ -42,7 +49,7 @@ Dieser Workflow wird gestartet, wenn ein Benutzer eine Opportunity schließt und
 
 ## Teil 2: Geschätztes Abschlussdatum im Vergleich zum tatsächlichen Abschlussdatum {#part-estimated-close-date-vs-actual-close-date}
 
-Standardmäßig sind Pipeline-Umsatzdaten nicht im Dashboard verfügbar, da Dynamics standardmäßig zwei Felder für das Abschlussdatum des Lagerbestands hat: Geschätztes Abschlussdatum und Tatsächliches Abschlussdatum. [!DNL Marketo Measure] kann nur auf ein Abschlussdatumsfeld im Dashboard verweisen und verweist auf das tatsächliche Abschlussdatum.
+Standardmäßig sind Pipeline-Umsatzdaten nicht im Dashboard verfügbar, da Dynamics standardmäßig zwei Felder für das Abschlussdatum des Lagerbestands hat: Geschätztes Abschlussdatum und Tatsächliches Abschlussdatum. [!DNL Marketo Measure] kann nur auf ein Abschlussdatumsfeld im Dashboard verweisen und es verweist auf das tatsächliche Abschlussdatum.
 
 Wenn offene Opportunitys im Feld Tatsächliches Abschlussdatum keine Daten haben, enthält das Dashboard keine Daten zu offenen Opportunitys. Allerdings ist ein auf der Opportunity-Phase basierender Workflow erforderlich, um beide Datumsfelder zu unterstützen.
 

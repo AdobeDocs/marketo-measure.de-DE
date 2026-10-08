@@ -3,14 +3,20 @@ description: Kostenleitfaden für Marketing-Kanäle für Marketo Measure-Anwende
 title: Marketingkanal-Kosten
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1333'
 ht-degree: 1%
-
 ---
-
 # Marketingkanal-Kosten {#marketing-channel-costs}
 
 Einer der grundlegendsten Vorteile der Verwendung von [!DNL Marketo Measure] ist die Möglichkeit, Marketing-Maßnahmen direkt mit den Auswirkungen auf den Umsatz zu verbinden - mit der gewünschten Granularität. Auf der Touchpoint-Ebene lässt sich der Return on Investment erkennen. Um diesen Vorteil nutzen zu können, müssen die Kanalkosten in die [!DNL Marketo Measure]-App hochgeladen werden. ROI-Berichte werden automatisch erstellt und sind im Dashboard **Marketing-ROI“** [experience.adobe.com/marketo-measure verfügbar](https://experience.adobe.com/marketo-measure){target="_blank"}.

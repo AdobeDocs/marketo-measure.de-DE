@@ -3,13 +3,17 @@ description: Glossar der Marketo Measure-Felder
 title: Glossar der Marketo Measure-Felder
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3254'
 ht-degree: 99%
-
 ---
-
 
 # Glossar der Marketo Measure-Felder {#glossary}
 
@@ -59,7 +63,7 @@ Dieses Feld wird auf die gleiche Weise wie der Name der Anzeigenkampagne ausgef�
 
 **Anzeigenkampagnenname (LC)** | Buyer Touchpoint
 
-Dieses Feld wird auf die gleiche Weise wie der Name der Anzeigenkampagne ausgefüllt. In diesem Feld wird jedoch speziell der Name der Anzeigenkampagne angezeigt, die den Touchpoint &quot;Lead-Erstellung&quot;generiert hat.
+Dieses Feld wird auf die gleiche Weise wie der Name der Anzeigenkampagne ausgefüllt. In diesem Feld wird jedoch speziell der Name der Anzeigenkampagne angezeigt, die den Touchpoint „Lead-Erstellung“ generiert hat.
 
 **Anzeigeninhalt** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -75,19 +79,19 @@ Wenn keines der oben genannten zutrifft, ist dieses Feld leer.
 
 `1)` Wenn der Touchpoint aus einer Paid Search stammt, zeigt dieses Feld das URL-Ziel an, zu dem Sie weitergeleitet werden, nachdem Sie in der Suchmaschine auf die Anzeige geklickt haben.
 
-Wenn der Touchpoint nicht aus einer Paid Search stammt, ist das Feld leer.
+Wenn der Touchpoint nicht aus Paid Search stammt, ist das Feld leer.
 
 **Anzeigengruppen-ID** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
 `1)` Wenn der Touchpoint aus einer Paid Search stammt, wird hier die ID der Anzeigengruppe aus AdWords/Bing Ads angezeigt.
 
-Wenn der Touchpoint nicht aus einer Paid Search stammt, ist das Feld leer.
+Wenn der Touchpoint nicht aus Paid Search stammt, ist das Feld leer.
 
 **Anzeigengruppenname** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
 `1)` Wenn der Touchpoint von einer Paid Search stammt, wird hier der Anzeigengruppenname von AdWords/Bing Ads angezeigt.
 
-Wenn der Touchpoint nicht aus einer Paid Search stammt, ist das Feld leer.
+Wenn der Touchpoint nicht aus Paid Search stammt, ist das Feld leer.
 
 **Anzeigen-ID** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -95,7 +99,7 @@ Wenn der Touchpoint nicht aus einer Paid Search stammt, ist das Feld leer.
 
 `2)` Dies wird mit der externen Aktivitäts-ID ausgefüllt, wenn der Touchpoint von einer CRM-Aktivität generiert wird.
 
-Wenn der Touchpoint nicht aus einer Paid Search stammt, ist das Feld leer.
+Wenn der Touchpoint nicht aus Paid Search stammt, ist das Feld leer.
 
 **Attribution % Benutzerdefiniertes Modell** | Buyer Attribution Touchpoint
 
@@ -129,7 +133,7 @@ In diesem Feld wird der Prozentsatz des Umsatzes angezeigt, der einem Touchpoint
 
 **Marketo Measure Opportunity Amount** | Salesforce Opportunity
 
-Wenn Sie ein benutzerdefiniertes Feld &quot;Betrag&quot;verwenden, um den Opportunity-Umsatz zu melden, kann Marketo Measure diese benutzerdefinierten Felder nicht lesen. Der Marketo Measure Opportunity Amount ist ein ausgeblendetes Feld, das zum Erstellen eines Workflows verwendet wird, mit dem Marketo Measure benutzerdefinierte Amount-Felder für die Opportunity lesen kann.
+Wenn Sie ein benutzerdefiniertes Feld &quot;Betrag&quot;verwenden, um den Opportunity-Umsatz zu melden, kann Marketo Measure diese benutzerdefinierten Felder nicht lesen. Der Opportunity-Betrag in Marketo Measure ist ein ausgeblendetes Feld, das zum Erstellen eines Workflows verwendet wird, mit dem Marketo Measure benutzerdefinierte Betragsfelder für die Opportunity lesen kann.
 
 **Browser** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -161,9 +165,9 @@ Dieses Feld zeigt in Dezimalform den Prozentsatz der Umsatzgutschriften an einen
 
 **Zählung - Erstkontakt** | Buyer Touchpoint
 
-Dieses Feld zeigt in Dezimalform den Prozentsatz der Attributionen, die einem Touchpoint gemäß einem Erstkontakt-Modell gewährt werden. Wenn es sich bei dem Touchpoint um den Erstkontakt handelt, ist dieses Feld immer 1,0 (d. h. 100 % Attributionsgutschriften). Wenn der Touchpoint nicht der Erstkontakt ist, ist dieses Feld immer 0 (d. h. 0 % Attributionsgutschriften).
+Dieses Feld zeigt in Dezimalform den Prozentsatz der Attributionen, die einem Touchpoint gemäß einem Erstkontakt-Modell gewährt werden. Wenn es sich bei dem Touchpoint um den Erstkontakt handelt, ist dieses Feld immer 1,0 (d. h. 100 % Attributionsgutschrift). Wenn der Touchpoint nicht der Erstkontakt ist, ist dieses Feld immer 0 (d. h. 0 % Attributionsgutschriften).
 
-Da sich dieses Feld auf das Touchpoint-Objekt des Käufers bezieht, spiegelt es nicht die Umsatzgutschriften wider, sondern lediglich die Attributionsgutschriften.
+Da sich dieses Feld auf das Objekt „Buyer Touchpoint“ bezieht, spiegelt es nicht die Umsatzgutschrift wider, sondern lediglich die Attributionsgutschrift.
 
 **Zählung - Vollständiger Pfad** | Buyer Attribution Touchpoint
 
@@ -175,9 +179,9 @@ Dieses Feld zeigt in Dezimalform den Prozentsatz der Umsatzgutschriften an einen
 
 **Zählung - Touch bei Lead-Erstellung** | Buyer Touchpoint
 
-Dieses Feld zeigt in Dezimalform den Prozentsatz der einem Touchpoint gemäß einem Lead-Erstellungsmodell zugewiesenen Attribution. Wenn es sich bei dem Touchpoint um den Touchpoint der Lead-Erstellung handelt, ist dieses Feld immer 1,0 (d. h. 100 % Attributionsgutschriften). Wenn es sich bei dem Touchpoint nicht um den Touchpoint der Lead-Erstellung handelt, ist dieses Feld immer 0 (d. h. 0 % Attributionsgutschriften).
+Dieses Feld zeigt in Dezimalform den Prozentsatz der Attributionsgutschrift an, der einem Touchpoint gemäß einem Lead-Erstellungsmodell zugewiesen wird. Wenn es sich bei dem Touchpoint um den Touchpoint der Lead-Erstellung handelt, ist dieses Feld immer 1,0 (d. h. 100 % Attributionsgutschrift). Wenn es sich bei dem Touchpoint nicht um den Touchpoint der Lead-Erstellung handelt, ist dieses Feld immer 0 (d. h. 0 % Attributionsgutschrift).
 
-Da sich dieses Feld auf das Touchpoint-Objekt des Käufers bezieht, spiegelt es nicht die Umsatzgutschriften wider, sondern lediglich die Attributionsgutschriften.
+Da sich dieses Feld auf das Objekt „Buyer Touchpoint“ bezieht, spiegelt es nicht die Umsatzgutschrift wider, sondern lediglich die Attributionsgutschrift.
 
 **Anzahl - U-förmig** | Buyer Attribution Touchpoint
 
@@ -185,9 +189,9 @@ Dieses Feld zeigt in Dezimalform den Prozentsatz der Umsatzgutschriften an einen
 
 **Anzahl - U-förmig** | Buyer Touchpoint
 
-Dieses Feld zeigt in Dezimalform den Prozentsatz der Attributionsgutschriften an, der einem Touchpoint gemäß einem U-förmigen Modell gewährt wird. Im U-förmigen Modell wird die Gewichtung zwischen Erstkontakt, Lead-Erstellungs-Touch und allen zwischengeschalteten Formularübermittlungen zwischen Erstkontakt und Lead-Erstellungskontakt aufgeteilt.
+Dieses Feld zeigt in Dezimalform den Prozentsatz der Attributionsgutschriften an, der einem Touchpoint gemäß einem U-förmigen Modell gewährt wird. Im U-förmigen Modell wird die Gewichtung zwischen Erstkontakt, Lead-Erstellungs-Touchpoint und allen zwischengeschalteten Formularübermittlungen zwischen Erstkontakt und dem Touchpoint „Lead-Erstellung“ aufgeteilt.
 
-Da sich dieses Feld auf das Touchpoint-Objekt des Käufers bezieht, spiegelt es nicht die Umsatzgutschriften wider, sondern lediglich die Attributionsgutschriften.
+Da sich dieses Feld auf das Objekt „Buyer Touchpoint“ bezieht, spiegelt es nicht die Umsatzgutschrift wider, sondern lediglich die Attributionsgutschrift.
 
 **Zählung - W-förmig** | Buyer Attribution Touchpoint
 
@@ -197,7 +201,7 @@ Dieses Feld zeigt in Dezimalform den Prozentsatz der Gutschriften an einen Touch
 
 ## D {#d}
 
-Datum gemeldet | Marketo Measure ABTest, Marketo Measure-Ereignis
+Meldedatum | Marketo Measure ABTest, Marketo Measure-Ereignis
 
 Marketo Measure-Ereignis - das Datum, an dem ein Benutzer auf Ihrer Website eine bestimmte Aktion ausgeführt und ein Ereignis aktiviert hat
 
@@ -213,7 +217,7 @@ In diesem Feld wird der Name der Aktion angezeigt, die das Ereignis ausgelöst h
 
 **Ereigniswert** | Marketo Measure-Ereignis
 
-Beschreibung des Ereignisses (d. h. Homepage)
+Beschreibung des Ereignisses (d. h. Startseite)
 
 **Experimentname** | Marketo Measure ABTest
 
@@ -221,7 +225,7 @@ In diesem Feld wird der Name des Experiments (d. h. die Testschaltfläche) angez
 
 **Experiment-ID** | Marketo Measure AB-Test
 
-Der eindeutige Identifikationscode für jedes Experiment
+Der eindeutige Identifikations-Code für jedes Experiment
 
 [Klicken Sie hier, um zum Seitenanfang zurückzukehren.](#top)
 
@@ -233,7 +237,7 @@ In diesem Feld wird eine gekürzte Version der URL einer Seite angezeigt, in der
 
 Formular-URL - Roh | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-In diesem Feld wird die gesamte Seiten-URL angezeigt, in der das Formular ausgefüllt wurde, einschließlich UTM-Parameter
+In diesem Feld wird die gesamte Seiten-URL angezeigt, auf der das Formular ausgefüllt wurde, einschließlich UTM-Parametern.
 
 [Klicken Sie hier, um zum Seitenanfang zurückzukehren.](#top)
 
@@ -245,11 +249,11 @@ In diesem Feld wird der Name der Stadt angezeigt, in der der Lead/Kontakt Ihre W
 
 Geo-Land | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Dieses Feld zeigt an, wo das Land, in dem der Lead/Kontakt Ihre Website besucht hat, liegt. Dies erfolgt über die Reverse-IP-Suche.
+Dieses Feld zeigt das Land an, in dem der Lead/Kontakt Ihre Website besucht hat. Dies erfolgt über die Reverse-IP-Suche.
 
 Geo-Region | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-In diesem Feld wird die Region oder der Bundesstaat angezeigt, in der der Lead/Kontakt Ihre Website besucht hat. Dies erfolgt über die Reverse-IP-Suche.
+In diesem Feld wird die Region oder der Bundesstaat angezeigt, in dem der Lead/Kontakt Ihre Website besucht hat. Dies erfolgt über die Reverse-IP-Suche.
 
 [Klicken Sie hier, um zum Seitenanfang zurückzukehren.](#top)
 
@@ -287,7 +291,7 @@ In diesem Feld wird die gekürzte Version der URL (keine UTM-Parameter) der erst
 
 **Landingpage - Roh** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-In diesem Feld wird die gesamte URL (einschließlich UTM-Parameter) der ersten Web-Seite angezeigt, die während einer Web-Sitzung besucht wurde.
+In diesem Feld wird die gesamte URL (einschließlich UTM-Parametern) der ersten Web-Seite angezeigt, die während einer Web-Sitzung besucht wurde.
 
 **Lead** | Buyer Touchpoint, Marketo Measure Person
 
@@ -299,11 +303,11 @@ Dieses Feld zeigt den Namen des Leads an, zu dem ein Touchpoint gehört.
 
 **Marketingkanal** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Dieses Feld zeigt die allgemeine Gruppe von Marketing-Aktivitäten oder Marketingkanälen an, zu denen der Touchpoint gehört (d. h. Paid Search, Direkt, Social Media usw.). Touchpoints werden nach der Einrichtung Ihrer Kanäle in der Marketo Measure App gruppiert. Weitere Informationen über Marketing-Kanäle und dazu, wie Sie Ihre Kanäle einrichten können, finden Sie [hier](/help/channel-tracking-and-setup/online-custom-channel-setup.md).
+Dieses Feld zeigt die allgemeine Gruppe von Marketing-Aktivitäten oder Marketing-Kanälen an, zu denen der Touchpoint gehört (d. h. Paid Search, Direkt, Social Media usw.). Touchpoints werden nach der Einrichtung Ihrer Kanäle in der Marketo Measure App gruppiert. Weitere Informationen über Marketing-Kanäle und dazu, wie Sie Ihre Kanäle einrichten können, finden Sie [hier](/help/channel-tracking-and-setup/online-custom-channel-setup.md).
 
 **Marketingkanal - Pfad** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Dieses Feld zeigt den Marketingkanal und den Unterkanal an, zu dem ein Touchpoint gehört. Im folgenden Beispiel ist Marketingkanal - Pfad Social.LinkedIn, wobei der Marketingkanal Social und der Unterkanal LinkedIn ist.
+Dieses Feld zeigt den Marketing-Kanal und den Unterkanal an, zu dem ein Touchpoint gehört. Im folgenden Beispiel ist „Marketing-Kanal - Pfad“ der Wert „Social.LinkedIn“, wobei der Marketing-Kanal „Social“ und der Unterkanal „LinkedIn“ ist.
 
 ![Dieses Feld zeigt den Marketing-Kanal und den Unterkanal an, der ein](assets/overview-resources-16.png)
 
@@ -345,17 +349,17 @@ In diesem Feld wird die URL (ohne UTM-Parameter) der letzten Webseite angezeigt,
 
 Beispiel:
 
-- Wenn der Touchpoint von einer gebührenpflichtigen/kostenlosen Suche stammt, zeigt das Feld die URL der Suchmaschine an
+- Wenn der Touchpoint von einer bezahlten oder organischen Suche stammt, zeigt das Feld die URL der Suchmaschine an.
 
 - Wenn der Touchpoint aus Social Media stammt, zeigt das Feld die URL der sozialen Website (d. h. LinkedIn) an.
 
 **Referrer-Page - Roh** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Dieses Feld zeigt dieselben Informationen wie die Seite der verweisenden Stelle an, allerdings zeigt dieses Feld die gesamte verweisende URL (einschließlich UTM-Parameter) an.
+Dieses Feld zeigt dieselben Informationen wie die Referrer-Seite an, allerdings wird hier die gesamte verweisende URL (einschließlich UTM-Parametern) angezeigt.
 
 **Umsatz - Benutzerdefiniertes Modell** | Buyer Attribution Touchpoint
 
-Wenn Sie ein benutzerdefiniertes Attributionsmodell verwenden, zeigt dieses Feld den Geldumsatz an, der einem Touchpoint zugeordnet ist, entsprechend dem in Ihrem benutzerspezifischen Modell festgelegten Attributionsprozentsatz.
+Wenn Sie ein benutzerdefiniertes Attributionsmodell verwenden, zeigt dieses Feld den Umsatzbetrag in US-Dollar an, der einem Touchpoint entsprechend dem in Ihrem benutzerdefinierten Modell festgelegten Attributionsprozentsatz zugeordnet ist.
 
 Wenn Sie kein benutzerdefiniertes Modell verwenden, beträgt der Geldbetrag 0.
 
@@ -389,7 +393,7 @@ In diesem Feld wird die Salesforce-Kampagne angezeigt, zu der der Touchpoint geh
 
 **Suchbegriff** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Wenn der Touchpoint aus einer gebührenpflichtigen oder kostenlosen Suche stammt, zeigt dieses Feld den in die Suchmaschine eingegebenen Suchbegriff an. Aus Datenschutzgründen sind diese Informationen jedoch in der Regel nicht verfügbar.
+Wenn der Touchpoint aus einer bezahlten oder organischen Suche stammt, zeigt dieses Feld den in die Suchmaschine eingegebenen Suchbegriff an. Aus Datenschutzgründen sind diese Informationen jedoch in der Regel nicht verfügbar.
 
 **Segment** | Buyer Attribution Touchpoint
 
@@ -417,7 +421,7 @@ Dies ist dasselbe Feld wie das Touchpoint-Datum. In diesem Feld werden jedoch in
 
 **Touchpoint-Position** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Dieses Feld zeigt die Position des Touchpoints an. Die Position des Touchpoints spiegelt die wichtigsten Meilenstein-Touchpoints im Kunden-Journey wider (d. h. FT, Form, LC, OC, Closed). Die Position des Touchpoints hängt davon ab, wann er auf der Journey des Kunden aufgetreten ist, und ein einzelner Touchpoint kann mehr als eine Position aufweisen. Die verschiedenen Touchpoint-Positionen lauten wie folgt:
+Dieses Feld zeigt die Position des Touchpoints an. Die Position des Touchpoints spiegelt die wichtigsten Meilenstein-Touchpoints in der Customer Journey wider (d. h. FT, Form, LC, OC, Closed). Die Position des Touchpoints hängt davon ab, wann er in der Customer Journey aufgetreten ist, und ein einzelner Touchpoint kann mehr als eine Position aufweisen. Die verschiedenen Touchpoint-Positionen lauten wie folgt:
 
 Erstkontakt (FT) - Die allererste Marketing-Interaktion, die jemand mit Ihrer Marke hat
 
@@ -427,7 +431,7 @@ Formular - Wenn ein Besucher ein Online-Formular ausfüllt
 
 Opportunity Creation (OC) - Die Marketing-Interaktion, die dem Zeitpunkt der Erstellung der Opportunity am nächsten ist
 
-Geschlossen - Die Marketing-Interaktion, die dem Zeitpunkt am nächsten ist, wenn die Opportunity geschlossen wird (Gewinner oder Verlust)
+Geschlossen – die Marketing-Interaktion, die dem Zeitpunkt am nächsten liegt, zu dem die Opportunity geschlossen wird (gewonnen oder verloren).
 
 **Touchpoint-Quelle** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -449,11 +453,11 @@ Dies ist dasselbe Feld wie die Touchpoint-Quelle. Dieses Feld zeigt jedoch spezi
 
 **Touchpoint-Quelle (LC)** | Buyer Touchpoint
 
-Dies ist dasselbe Feld wie die Touchpoint-Quelle. Dieses Feld zeigt jedoch speziell die Quelle des Touchpoints &quot;Lead-Erstellung&quot;an.
+Dies ist dasselbe Feld wie die Touchpoint-Quelle, jedoch zeigt dieses Feld speziell die Quelle des Touchpoints „Lead-Erstellung“ an.
 
 **Touchpoint-Typ** | Auf dem Buyer Touchpoint und dem Buyer Attribution Touchpoint gefunden.
 
-In diesem Feld wird der Interaktionstyp des Touchpoints angezeigt. Er wird wie folgt angezeigt: Webbesuch, Webformular oder Webchat für JavaScript-Touchpoints. Für CRM-Campaign-Touchpoints wird sie als CRM angezeigt. Es wird mit der Aufgabe oder dem Ereignistyp für Aktivitäts-Touchpoints gefüllt.
+In diesem Feld wird der Interaktionstyp des Touchpoints angezeigt. Er wird wie folgt angezeigt: Web-Besuch, Web-Formular oder Webchat für JavaScript-Touchpoints. Für CRM-Campaign-Touchpoints wird sie als CRM angezeigt. Es wird mit der Aufgabe oder dem Ereignistyp für Aktivitäts-Touchpoints gefüllt.
 
 [Klicken Sie hier, um zum Seitenanfang zurückzukehren.](#top)
 

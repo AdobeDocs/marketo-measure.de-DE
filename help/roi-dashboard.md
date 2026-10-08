@@ -3,14 +3,18 @@ description: Erkunden Sie das ROI-Dashboard, um Kosten, Umsatz und ROI über Kan
 title: ROI-Dashboard
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 2%
-
 ---
-
 # ROI-Dashboard {#roi-dashboard}
 
 Das ROI-Dashboard bietet Marketing-Experten einen detaillierten Überblick über die Investitionsrenditen in Kanälen, Unterkanälen und Kampagnen. Sie schlüsselt Kosten- und Umsatzmuster akribisch auf und beleuchtet Metriken wie Kosten pro Lead, Abschluss und Opportunity und stellt so ein umfassendes Verständnis der Marketing-Attribution sicher.
@@ -130,11 +134,11 @@ Tabelle mit Kosten, neuen Leads, Vertriebschancen und Abschlüssen, die nach ein
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
 * Datum
-   * Basierend auf:
-      * Erstellungsdatum: Leads, neue Opportunities
-      * Anfallsdatum für Kosten: Kosten
-      * Abschlussdatum: Attributierter Umsatz (einfacher ROI), Abschlüsse
-      * Touchpoint-Datum: Touchpoints aus realisiertem zugeordneten Umsatz (realisierter ROI)
+  * Basierend auf:
+    * Erstellungsdatum: Leads, neue Opportunities
+    * Anfallsdatum für Kosten: Kosten
+    * Abschlussdatum: Attributierter Umsatz (einfacher ROI), Abschlüsse
+    * Touchpoint-Datum: Touchpoints aus realisiertem zugeordneten Umsatz (realisierter ROI)
 * Attributionsmodell
 * Kanal, Unterkanal
 * Kampagne

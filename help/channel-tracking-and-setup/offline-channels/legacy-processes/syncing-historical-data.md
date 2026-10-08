@@ -4,19 +4,23 @@ description: Synchronisieren historischer Daten - [!DNL Marketo Measure]
 title: Synchronisieren historischer Daten
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-TQID: https://experienceleague.adobe.com/RODJgjoLhJW0g3ra0H-mn8bOeBicfOuVlLSvU--Gaeo
+TQID: 'https://experienceleague.adobe.com/RODJgjoLhJW0g3ra0H-mn8bOeBicfOuVlLSvU--Gaeo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: '1516'
 ht-degree: 3%
-
 ---
-
 # Synchronisieren historischer Daten {#syncing-historical-data}
 
 [!DNL Marketo Measure] ist eine Lösung, die die detailliertesten, umsetzbaren Daten bereitstellt. Nach unserem Kenntnisstand verfügen Sie möglicherweise über vorhandene Daten, für die Sie eine Attribution wünschen. Es ist möglich, Touchpoints für historische Daten zu generieren, aber es ist wichtig, einige Faktoren zu berücksichtigen, bevor Sie mit diesem Prozess fortfahren.
@@ -75,7 +79,7 @@ Online-Daten, die auf diese Weise hinzugefügt werden, sind von Natur aus wenige
 
 Es ist möglicherweise nicht möglich oder sinnvoll, die Anzahl der SFDC-Kampagnentypen zu verwenden, um eine granulare Kanalzuordnung zu unterstützen. Daher müssen Sie möglicherweise nur auf die Kanalebene zuordnen und die Unterkanäle ignorieren. Wenn die Kanalebene ebenfalls nicht bekannt ist, können Sie einen Proxy-Kanal wie „Historic Digital“ einrichten, damit Sie zumindest wissen, dass es sich um einen Online-Touch handelte.
 
-Wenn Sie das Touchpoint-Datum, das für diese historischen Online-Bemühungen gesendet wird, massenweise bearbeiten müssen, verwenden Sie die [!DNL Marketo Measure] benutzerdefinierte Schaltfläche „Touchpoint-Datum [!UICONTROL &#x200B; Massenaktualisierung] (dieses Feld ist als benutzerdefiniertes Feld im Kampagnenobjekt in SFDC verfügbar). Wenn die Kampagne eine kurze Zeitspanne hat, wäre es vielleicht sinnvoll, das Touchpoint-Datum massenweise in einem Tagesintervall zu bearbeiten, während es möglicherweise sinnvoll wäre, die Massenaktualisierung wöchentlich durchzuführen, wenn die Kampagne eine längere Zeitspanne hat. Wenn Sie die Funktion „Massen-Update-Touchpoint-Datum“ verwenden, stellen Sie sicher, dass Sie die Kampagnensynchronisierungsregel aktualisieren, um das Buyer Touchpoint-Datum im Datumsfeld zu verwenden. Beachten Sie, dass Sie dazu möglicherweise kreativ mit Ihren Kampagnen-Synchronisierungsregeln umgehen müssen, wenn dies nur für eine oder zwei Kampagnen gilt und nicht für alle.
+Wenn Sie das Touchpoint-Datum, das für diese historischen Online-Bemühungen gesendet wird, massenweise bearbeiten müssen, verwenden Sie die [!DNL Marketo Measure] benutzerdefinierte Schaltfläche „Touchpoint-Datum [!UICONTROL  Massenaktualisierung] (dieses Feld ist als benutzerdefiniertes Feld im Kampagnenobjekt in SFDC verfügbar). Wenn die Kampagne eine kurze Zeitspanne hat, wäre es vielleicht sinnvoll, das Touchpoint-Datum massenweise in einem Tagesintervall zu bearbeiten, während es möglicherweise sinnvoll wäre, die Massenaktualisierung wöchentlich durchzuführen, wenn die Kampagne eine längere Zeitspanne hat. Wenn Sie die Funktion „Massen-Update-Touchpoint-Datum“ verwenden, stellen Sie sicher, dass Sie die Kampagnensynchronisierungsregel aktualisieren, um das Buyer Touchpoint-Datum im Datumsfeld zu verwenden. Beachten Sie, dass Sie dazu möglicherweise kreativ mit Ihren Kampagnen-Synchronisierungsregeln umgehen müssen, wenn dies nur für eine oder zwei Kampagnen gilt und nicht für alle.
 
 **offline:**
 

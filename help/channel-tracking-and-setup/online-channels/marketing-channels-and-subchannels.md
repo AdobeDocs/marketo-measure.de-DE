@@ -1,22 +1,25 @@
 ---
 unique-page-id: 18874682
-description: Marketing-Kanäle und -Unterkanäle – [!DNL Marketo Measure]
-title: Marketing-Kanäle und -Unterkanäle
+description: Marketing-Kanäle und -Unterkanäle - [!DNL Marketo Measure]
+title: Marketing-Kanal und -Unterkanäle
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-TQID: https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0
+TQID: 'https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 93%
-
+source-wordcount: '453'
+ht-degree: 92%
 ---
-
-# Marketing-Kanäle und -Unterkanäle {#marketing-channels-and-subchannels}
+# Marketing-Kanal und -Unterkanäle {#marketing-channels-and-subchannels}
 
 ## Zweck {#purpose}
 
@@ -48,11 +51,11 @@ Unterkanäle sind das zweite Puzzleteil beim Einsortieren der eingehenden Leads 
 
 ## Anwendungsbeispiel {#use-case-example}
 
-Das folgende Diagramm zeigt ein Beispiel für einen Marketing-Kanal, einen Unterkanel und einen Inhalt, der auf einer Web-Seite mit der folgenden URL basiert:
+Das folgende Diagramm zeigt ein Beispiel für einen Marketing-Kanal, einen Unterkanal und Content, der auf einer Web-Seite mit der folgenden URL basiert:
 
 `http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial`
 
-In diesem Fall ist der Inhalt, auf den die Benutzerin bzw. der Benutzer zugreifen möchte, das Einleitungshandbuch für die B2B-Marketing-Attribution. [!DNL Marketo Measure] analysiert die URL, die zu diesem Inhalt führt, mithilfe der in dieser Organisation eingerichteten Kanalregeln und verwendet sie, um diesen Lead in den Marketing-Kanal „Paid Social“ und den Unterkanal „LinkedIn“ einzusortieren.
+In diesem Fall ist der Content, auf den die Benutzerin bzw. der Benutzer zugreifen möchte, das Einführungshandbuch für die B2B-Marketing-Attribution. [!DNL Marketo Measure] analysiert die URL, die zu diesem Inhalt führt, mithilfe der in dieser Organisation eingerichteten Kanalregeln und verwendet sie, um diesen Lead in den Marketing-Kanal „Paid Social“ und den Unterkanal „LinkedIn“ einzusortieren.
 
 ![](assets/1.jpg)
 

@@ -3,14 +3,18 @@ description: Von JavaScript erfasste Daten für Marketo Measure-Benutzende
 title: Von JavaScript erfasste Daten
 feature: Tracking
 exl-id: 83814168-9d3e-45ac-b514-df58f0b2e90b
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 77%
-
 ---
-
 # Von JavaScript erfasste Daten {#data-collected-by-javascript}
 
 Erfahren Sie mehr über die Daten, die von Marketo Measure JavaScript bei der Bereitstellung erfasst werden.
@@ -27,8 +31,8 @@ Marketo Measure erfasst die folgenden allgemeinen Daten für alle Anfragetypen:
 
 | Herkunft | Name | Datentyp | Zweck |
 | --- | --- | --- | --- |
-| Anfragen-Header | IP-Adresse | string | Der Standort des Benutzers oder der Benutzerin wird durch eine GeoIP-Suche ermittelt. Diese Daten sind temporär und nicht dauerhaft gespeichert. |
-| Anfragen-Header | User-Agent-Zeichenfolge: | string | Bestimmt, welches Gerät die Person verwendet. |
+| Anfragen-Header | IP-Adresse | string | Der Standort des Benutzers oder der Benutzerin wird durch eine GeoIP-Suche ermittelt. Diese Daten sind temporär und werden nicht dauerhaft gespeichert. |
+| Anfragen-Header | User-Agent-Zeichenfolge: | string | Bestimmt, welches Gerät die Benutzerin bzw. der Benutzer verwendet. |
 | Abfrageparameter | `_biz_u` | string | Bizible Cookie-ID. |
 | Abfrageparameter | `_biz_l` | string | URL der aktuellen Seite. |
 | Abfrageparameter | `_biz_t` | long | Zeitstempel der Aktivität. |
@@ -39,7 +43,7 @@ Zusätzlich zu den oben genannten allgemeinen Daten hängt bizible.js auch zusä
 | Anfragetyp | Anfragepfad | Zusätzlicher Abfrageparameter | Datentyp | Zweck |
 | --- | --- | --- | --- | --- |
 | Seitenansicht | `/ipv` | `_biz_r` | string | URL der Referrer-Seite. |
-|  |  | `_biz_h` | string | Die Bildschirmauflösung des Hash-Clients. |
+|  |  | `_biz_h` | string | Gehashte Bildschirmauflösung des Clients. |
 |  |  | `_biz_c` | string | Optionaler Parameter. Wenn dieser Parameter vorhanden ist, zeigt er an, dass der Mandant `bizible.js` so konfiguriert, dass er auf das Einverständnis des Benutzers wartet, bevor er das Tracking durchführt, und dass `bizible.js` das Einverständnis des Benutzers zur Nachverfolgung erhalten hat. |
 | Formularabsendungen | `/frm` | `eMail` | string | E-Mail-Adresse in einfachem Text. |
 | Benutzer-ID-Zuordnung | `/u` | `mapType` | enum | Welche Art von Benutzer-ID-Zuordnung erkannt `bizible.js` (Marketo Munchkin ID und Adobe ECID) |

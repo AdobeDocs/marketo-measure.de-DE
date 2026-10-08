@@ -3,13 +3,17 @@ description: Keyword ROI Dashboard - [!DNL Marketo Measure] - Produkt
 title: Keyword-ROI-Dashboard
 feature: Reporting
 exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
-
 ---
-
 # Keyword-ROI-Dashboard {#keyword-roi-dashboard}
 
 Das Dashboard „Keyword-ROI“ bietet detaillierte Einblicke in die Leistung von Kampagnen mit Paid Search. Es bietet eine umfassende Analyse der Kosten auf Keyword-Ebene, des zugeordneten Umsatzes und der neu generierten Leads und Chancen und stellt so ein klares Verständnis des Keyword-ROI sicher.
@@ -68,11 +72,11 @@ Schlüsseln Sie die einzelnen Keywords auf, um die von ihnen beeinflussten Oppor
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
 * Datum
-   * Basierend auf:
-      * Erstellungsdatum: Leads, neue Opportunities
-      * Anfallsdatum für Kosten: Kosten
-      * Abschlussdatum: Attributierter Umsatz (einfacher ROI), Abschlüsse
-      * Touchpoint-Datum: Touchpoints aus realisiertem zugeordneten Umsatz (realisierter ROI)
+  * Basierend auf:
+    * Erstellungsdatum: Leads, neue Opportunities
+    * Anfallsdatum für Kosten: Kosten
+    * Abschlussdatum: Attributierter Umsatz (einfacher ROI), Abschlüsse
+    * Touchpoint-Datum: Touchpoints aus realisiertem zugeordneten Umsatz (realisierter ROI)
 * Attributionsmodell
 * Keyword
 * Kampagne

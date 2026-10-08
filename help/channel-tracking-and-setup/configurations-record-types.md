@@ -1,16 +1,20 @@
 ---
 description: Anleitung zu Konfigurationen für mehrere Kampagnendatensatztypen für Marketo Measure-Benutzende
-title: Konfigurationen für mehrere Kampagneneintragstypen
+title: Konfigurationen für mehrere Kampagnen-Eintragstypen
 exl-id: 10499556-a591-4630-9149-ae676e6494af
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
-
 ---
-
-# Konfigurationen für mehrere Kampagneneintragstypen {#configurations-for-multiple-campaign-record-types}
+# Konfigurationen für mehrere Kampagnen-Eintragstypen {#configurations-for-multiple-campaign-record-types}
 
 **Fehlende Auswahllistenwerte im Feld „Käufer-Touchpoints aktivieren“**
 
@@ -30,6 +34,6 @@ Wenn Ihre SFDC-Organisation mehrere Kampagnendatensatztypen verwendet, müssen f
 
 1. Fügen Sie alle drei Werte aus der Gruppe „Verfügbare Werte“ zur Gruppe „Ausgewählte Werte“ hinzu.
 
-   ![1. Fügen Sie alle drei Werte aus der Gruppierung „Verfügbare Werte“ zur &#x200B;](assets/offline-channels-10.jpg)
+   ![1. Fügen Sie alle drei Werte aus der Gruppierung „Verfügbare Werte“ zur ](assets/offline-channels-10.jpg)
 
 1. Setzen Sie den Standardwert auf „Keine“ und klicken Sie auf **[!UICONTROL Speichern]**. Wiederholen Sie diesen Vorgang für alle weiteren Kampagnendatensatztypen.

@@ -3,13 +3,17 @@ description: Doppelte Datensätze im Handbuch Mein Bericht für Marketo Measure-
 title: Doppelte Einträge in meinem Bericht
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 8%
-
 ---
-
 # Doppelte Einträge in meinem Bericht {#duplicate-records-in-my-report}
 
 >[!NOTE]
@@ -34,4 +38,4 @@ Wenn Sie die „Anzahl der Kontakte“ verstehen möchten, können Sie die Felde
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: Stock-SFDC-Berichte](https://experienceleague.adobe.com/de/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Stock-SFDC-Berichte](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

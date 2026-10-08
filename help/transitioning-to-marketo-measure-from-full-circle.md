@@ -1,15 +1,21 @@
 ---
-description: Wechsel zu  [!DNL Marketo Measure]  Vollkreisanleitung für Marketo Measure-Benutzer
-title: Übergang zu [!DNL Marketo Measure] aus dem vollständigen Kreis
+description: Übergang von der Vollkreisanleitung für Marketo Measure-Benutzende zur [!DNL Marketo Measure]
+title: Übergang von Kreis zu [!DNL Marketo Measure]
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 0%
-
 ---
-
 # Übergang von Kreis zu [!DNL Marketo Measure] {#transitioning-to-marketo-measure-from-full-circle}
 
 Den Wechsel von Full Circle zu [!DNL Marketo Measure]? Du bist nicht allein. Beachten Sie dabei die wichtigsten Aspekte und die Erfahrungen, die wir von anderen Kunden erhalten haben, die diesen Wechsel vollzogen haben.
@@ -30,7 +36,7 @@ Wenn Sie mit der CRM-Kampagnenverwaltung vertraut sind und es vorziehen, vorhand
 
 ## Sichtbarkeit vs. Attribution {#visibility-vs-attribution}
 
-Bei den meisten Full-Circle-Setups sehen Sie jede Interaktion einer Person mit Ihren Marketing- oder Vertriebsaktivitäten. Seitenansichten, wiederholte Seitenbesuche, Mitgliedschaft in dreifach vorhandenen Kampagnen - all dies wird im Vollkreis dargestellt. Wenn Sie eine Seite 300-mal anzeigen, erstellt Full Circle 300 doppelte Kampagnen und gibt Ihnen eine Mitgliedschaft in jeder davon. [!DNL Marketo Measure] Das tut es nicht, und das war eine bewusste Design-Entscheidung von unserer Seite.
+Bei den meisten Full-Circle-Setups sehen Sie jede Interaktion einer Person mit Ihren Marketing- oder Vertriebsaktivitäten. Seitenansichten, wiederholte Seitenbesuche, Mitgliedschaft in dreifach vorhandenen Kampagnen - all dies wird im Vollkreis dargestellt. Wenn Sie eine Seite 300-mal anzeigen, erstellt Full Circle 300 doppelte Kampagnen und gibt Ihnen eine Mitgliedschaft in jeder davon. [!DNL Marketo Measure] nicht, und das war eine bewusste Design-Entscheidung von unserer Seite.
 
 [!DNL Marketo Measure] bietet Ihnen eine Attributionsgeschichte, die aussagekräftige Interaktionen aufzeigt und das Gewicht angemessen auf die wirkungsvollsten Touchpoints verteilt. Beispielsweise zeigt das [!DNL Marketo Measure]-Framework keine Seitenansichten (ohne Formularausfüllungen) als routinemäßige Touchpoints. Eine eigenständige Seitenansicht hat wahrscheinlich keine Auswirkungen darauf, ob ein Kauf-Journey vorangebracht wird. Wir erstellen jedoch einen Touchpoint, wenn es sich um die letzte Interaktion vor einem bestimmten CRM-Meilenstein handelt (z. B. Lead- oder Opportunity-Erstellung). Wir wollen euch nicht alles zeigen. Wir möchten Ihnen die Dinge zeigen, die von einem Attributions-Standpunkt aus wichtig sind.
 

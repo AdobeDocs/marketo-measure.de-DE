@@ -1,24 +1,28 @@
 ---
-description: Erfahren Sie mehr über Account-basiertes Marketing (ABM) und darüber, wie Adobe Marketo Measure Marketing- und Vertriebs-Teams dabei unterstützt, erfolgreiche ABM-Strategien auszuführen.
+description: Erfahren Sie mehr über Account-Based Marketing (ABM) und darüber, wie Adobe Marketo Measure Marketing- und Vertriebs-Teams dabei unterstützt, erfolgreiche ABM-Strategien umzusetzen.
 title: Kontobasiertes Marketing – Überblick
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 96ef477f-0ffb-5375-8fca-6d27be6b7c00
+    internal-label: Account-based Marketing
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '876'
 ht-degree: 92%
-
 ---
-
 # Kontobasiertes Marketing – Überblick {#account-based-marketing-overview}
 
-Die folgenden Abschnitte bieten einen kurzen Überblick über ABM, die Komponenten der ABM-Funktion in [!DNL Marketo Measure] und darüber, wie Sie sie zu Ihrem [!DNL Salesforce]-Seiten-Layout hinzufügen. Weitere Informationen zu ABM finden Sie im Adobe-Blog [ABM](https://business.adobe.com/de/blog/basics/account-based-marketing){target="_blank"}.
+Die folgenden Abschnitte bieten einen kurzen Überblick über ABM, die Komponenten der ABM-Funktion in [!DNL Marketo Measure] und darüber, wie Sie sie zu Ihrem [!DNL Salesforce]-Seiten-Layout hinzufügen. Weitere Informationen zu ABM finden Sie im Adobe-Blog [ABM](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
 
 Detaillierte Anweisungen zum Einrichten von ABM in Ihrer [!DNL Salesforce]-Instanz finden Sie unter [Einrichten des ABM-Seiten-Layouts in Salesforce](/help/channel-tracking-and-setup/account-based-marketing-overview.md){target="_blank"}.
 
 ## Was ist ABM? {#what-is-abm}
 
-Kontobasiertes Marketing (account-based marketing, ABM), ist eine Marketing-Strategie, bei der Sie Unternehmen und Konten als Ganzes ansprechen und an sie verkaufen, nicht nur an Einzelpersonen. [!DNL Marketo Measure] hilft Marketing- und Vertriebs-Teams bei der Ausführung erfolgreicher ABM-Strategien mit der Zuordnungsfunktion „Lead-zu-Konto“ und einer prädiktiven Interaktionsbewertung.
+Account-Based Marketing (ABM) ist eine Marketing-Strategie, bei der Sie Unternehmen und Konten als Ganzes ansprechen und an sie verkaufen, nicht nur an einzelne Kontakte. [!DNL Marketo Measure] hilft Marketing- und Vertriebs-Teams bei der Ausführung erfolgreicher ABM-Strategien mit der Zuordnungsfunktion „Lead-zu-Konto“ und einer prädiktiven Interaktionsbewertung.
 
 Damit unser ABM-Modell in Ihr CRM-System integriert werden kann, muss [!DNL Marketo Measure] die folgenden Kriterien erfüllen:
 
@@ -31,7 +35,7 @@ Damit unser ABM-Modell in Ihr CRM-System integriert werden kann, muss [!DNL Mark
 
 ## Lead-zu-Konto-Zuordnung {#lead-to-account-mapping}
 
-Die Lead-zu-Konto-Zuordnung ist ein wesentlicher Bestandteil eines effektiven ABM-Ansatzes. Mit der Lead-zu-Konto-Zuordnung werden interessierte Personen (oder Leads), die mit Ihrer Marke interagieren, in demselben Unternehmenskonto zusammengefasst. Auf diese Weise können Sie Einzelpersonen desselben Unternehmens auf konsistente Weise ansprechen und an diese verkaufen. Es sind keine zusätzlichen Konfigurationen für [!DNL Salesforce] erforderlich, damit diese Funktion in Anspruch genommen werden kann. Dies sind die Übereinstimmungsmethoden für die Lead-zu-Konto-Zuordnung von [!DNL Marketo Measure]:
+Die Lead-zu-Konto-Zuordnung ist ein wesentlicher Bestandteil eines effektiven ABM-Ansatzes. Mit der Lead-zu-Konto-Zuordnung werden Interessierte (oder Leads), die mit Ihrer Marke interagieren, im selben Firmenkonto zusammengefasst. Auf diese Weise können Sie Kontakte derselben Firma konsistent ansprechen und an diese verkaufen. Es sind keine zusätzlichen Konfigurationen für [!DNL Salesforce] erforderlich, damit diese Funktion in Anspruch genommen werden kann. Dies sind die Übereinstimmungsmethoden für die Lead-zu-Konto-Zuordnung von [!DNL Marketo Measure]:
 
 * Lead-Website zu Konto-Website
 * Lead-E-Mail-Domain zu Konto-Website-Domain
@@ -50,9 +54,9 @@ Die Leads/Kontakte der Konten werden durch ihre E-Mail/Website-Domains validiert
 
 ## Prädiktive Interaktionsbewertung {#predictive-engagement-score}
 
-Die prädiktive Interaktionsbewertung (Predictive Engagement Score, PES) von [!DNL Marketo Measure] ist ein dynamischer Wert, der veranschaulicht, wie stark ein bestimmtes Konto mit Ihren Marketing-Maßnahmen interagiert. Diese Bewertung ist hilfreich, um Konten zielgerichtet ansprechen zu können. Sie ist ein wertvolles Instrument zur Identifizierung von Konten, um effektiver und effizienter zu agieren.
+Die prädiktive Interaktionsbewertung (Predictive Engagement Score, PES) von [!DNL Marketo Measure] ist ein dynamischer Wert, der veranschaulicht, wie stark ein bestimmtes Konto mit Ihren Marketing-Maßnahmen interagiert. Diese Bewertung ist hilfreich, um Konten zielgerichtet ansprechen zu können. Sie ist ein wertvolles Tool, um Konten zu identifizieren, die gezielter, effektiver und effizienter angesprochen werden können.
 
-Es gibt viele Komponenten, die in den Algorithmus eingehen, mit dem die PES berechnet wird. Neuigkeit und Alter haben – neben der letzten Touchpoint-Aktivität oder Seitenansichten – großen Einfluss auf die Bewertungsänderungen. Das Hinzufügen neuer Kontakte zu einem Konto wirkt sich ebenfalls auf den PES aus. Nachfolgend finden Sie eine Liste einiger PES-Eingaben:
+Es gibt viele Komponenten, die in den Algorithmus eingehen, mit dem die PES berechnet wird. Aktualität und Alter haben – neben der letzten Touchpoint-Aktivität oder Seitenansichten – großen Einfluss auf die Bewertungsänderungen. Das Hinzufügen neuer Kontakte zu einem Konto wirkt sich ebenfalls auf den PES aus. Nachfolgend finden Sie eine Liste einiger PES-Eingaben:
 
 * Gesamtzahl der Seitenansichten von dem Konto aus
 * Durchschnittliche Anzahl der Seitenansichten
@@ -66,7 +70,7 @@ Es gibt viele Komponenten, die in den Algorithmus eingehen, mit dem die PES bere
 
 >[!NOTE]
 >
->Sie werden bei einigen Konten die Bewertung „Nicht zutreffend“ oder „-“ (Bindestrich) in Ihrer prädiktiven Interaktionsbewertung sehen.
+>Sie sehen vermutlich bei einigen Konten die Bewertung „Nicht zutreffend“ oder „-“ (Bindestrich-Symbol) in Ihrer prädiktiven Interaktionsbewertung sehen.
 
 _Die Bewertung „Nicht zutreffend“ bedeutet einfach, dass für dieses Konto nicht genügend Daten vorhanden sind, damit das Modell eine echte Bewertung erstellen kann – mit mehr Daten wird letztendlich eine Bewertung vergeben._
 _Der Grad &quot;-&quot; (das Strichsymbol) bedeutet, dass dieses Konto aufgrund von Zeitbeschränkungen, gelegentlich übergangenen Prozessen usw. noch nicht vom ABM-Prozess verarbeitet wurde. Wenn Sie auf der Grundlage anderer ähnlicher Konten oder Zeiträume der Meinung sind, dass ein solches Konto eine Bewertung haben sollte, teilen Sie dies bitte [!DNL Marketo Measure] mit._

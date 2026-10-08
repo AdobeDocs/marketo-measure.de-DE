@@ -4,26 +4,30 @@ description: '[!DNL Marketo Measure] Cookies - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure]-Cookies'
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-TQID: https://experienceleague.adobe.com/QOjNe0Eu2irVrpZVkbf5SVe-3COP1nhRqPg6oDlFhGY
+TQID: 'https://experienceleague.adobe.com/QOjNe0Eu2irVrpZVkbf5SVe-3COP1nhRqPg6oDlFhGY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: '409'
 ht-degree: 97%
-
 ---
-
 # Marketo Measure-Cookies {#marketo-measure-cookies}
 
 Erfahren Sie mehr über die verschiedenen [!DNL Marketo Measure]-Cookies, die auf Ihre Site geladen werden, wenn Sie [!DNL Marketo Measure]-JavaScript auf Ihren Landingpages anwenden. Diese Informationen können während der Implementierung für das Web-Entwicklungs-Team nützlich sein.
 
 >[!IMPORTANT]
 >
->Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe die Marketo Measure-Funktionen, die auf Drittanbieter-Cookies basieren, ein. Dies betrifft insbesondere das Domain-übergreifende Tracking und die Viewthrough-Attribution, die das Impressions-Cookie von Google/DoubleClick verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kundinnen und -Kunden weiterhin zur Verfügung.
+>Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe die Marketo Measure-Funktionen ein, die auf Drittanbieter-Cookies basieren. Dies betrifft insbesondere Cross-Domain-Tracking und View-through Attribution, die das Impressions-Cookie „Google/DoubleClick“ verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kundinnen und -Kunden weiterhin zur Verfügung.
 
 <table>
 <thead>
@@ -50,7 +54,7 @@ Erfahren Sie mehr über die verschiedenen [!DNL Marketo Measure]-Cookies, die au
   <tr>
     <td>_biz_nA</td>
     <td>Erstanbieter</td>
-    <td>Eine Sequenznummer, die Marketo Measure für alle Anforderungen für die interne Diagnose enthält.</td>
+    <td>Eine Sequenznummer, die Marketo Measure zu allen Anfragen zu internen Diagnosezwecken hinzufügt.</td>
     <td>1 Jahr</td>
     <td>Nein</td>
     <td>Nein</td>

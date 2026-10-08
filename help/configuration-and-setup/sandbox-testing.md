@@ -3,13 +3,20 @@ description: Anleitung zum Testen der Marketo Measure-Integration mit einer Sale
 title: Testen der Marketo Measure-Integration mit einer Salesforce-Sandbox
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 9%
-
 ---
-
 # Testen der Marketo Measure-Integration mit einer Salesforce-Sandbox {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
@@ -32,4 +39,4 @@ Im Folgenden finden Sie die beiden Quellen, die für beide Testphasen referenzie
 1. Laden Sie nach der Erstellung der Kampagne Leads als Kampagnenmitglieder hoch, indem Sie **[!UICONTROL Mitglieder verwalten]** > **[!UICONTROL Mitglieder hinzufügen]** > **[!UICONTROL Dateien importieren]** auswählen.
 1. Wenn dies abgeschlossen ist, kehren Sie zum Kampagnenseiten-Layout zurück und geben Sie „Käufer-Touchpoints aktivieren“ ein Auswahllistenfeld an. Wählen Sie den Wert: **[!UICONTROL Alle Kampagnenmitglieder einschließen]**.
 
-Danach wird eine Synchronisation zwischen [!DNL Marketo Measure] und [!DNL Salesforce] gestartet und Touchpoints werden auf die Lead-Datensätze angewendet. Wir empfehlen, am nächsten Tag einen Bericht mit dem Namen &quot;Buyer Touchpoint on Leads“ im Ordner &quot;[!UICONTROL &#x200B; Touchpoints-Berichte“ auf &#x200B;] Registerkarte „Berichte“ zu verwenden. Wenn der Bericht für jeden Lead einen Touchpoint ausfüllt, ist dies ein Zeichen für Erfolg.
+Danach wird eine Synchronisation zwischen [!DNL Marketo Measure] und [!DNL Salesforce] gestartet und Touchpoints werden auf die Lead-Datensätze angewendet. Wir empfehlen, am nächsten Tag einen Bericht mit dem Namen &quot;Buyer Touchpoint on Leads“ im Ordner &quot;[!UICONTROL  Touchpoints-Berichte“ auf ] Registerkarte „Berichte“ zu verwenden. Wenn der Bericht für jeden Lead einen Touchpoint ausfüllt, ist dies ein Zeichen für Erfolg.

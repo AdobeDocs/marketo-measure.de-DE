@@ -3,19 +3,27 @@ description: '[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderungen - [
 title: '[!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-TQID: https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E
+TQID: 'https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1703
+source-wordcount: '1703'
 ht-degree: 78%
-
 ---
-
 # [!DNL Marketo Measure] Ultimate-Datenintegritätsanforderung {#marketo-measure-ultimate-data-integrity-requirement}
 
 [!DNL Marketo Measure] validiert die eingehenden AEP-Datensätze, um sicherzustellen, dass die Daten für die Attribution ausreichend und kohärent sind. Wird die Datenintegritätsanforderung nicht erfüllt, wird der Datensatz vom [!DNL Marketo Measure] zurückgewiesen. Dieser Artikel beschreibt die Datenintegritätsanforderung, liefert Abfragebeispiele für die Dateninspektion und empfiehlt eine Lösung für erforderliche Felder mit einem Nullwert.
@@ -366,7 +374,7 @@ ht-degree: 78%
     </tr>
     <tr>
       <td>XDM-Profil für Einzelpersonen</td>
-      <td rowspan="11">XDM-Geschäftsperson – Details</td>
+      <td rowspan="11">XDM Business Person Details</td>
       <td>b2b.personKey.sourceKey</td>
       <td>Zeichenfolge</td>
       <td></td>
@@ -413,7 +421,7 @@ ht-degree: 78%
       <td>b2b.personStatus</td>
       <td>Zeichenfolge</td>
       <td>Status</td>
-      <td><b><i>Ja nur für personType „Lead“</i></b></td>
+      <td><b><i>Ja, nur für personType „Lead“</i></b></td>
       <td>Nur erforderlich, wenn der b2b.personType „Lead“ ist</td>
     </tr>
     <tr>
@@ -437,7 +445,7 @@ ht-degree: 78%
       <td>b2b.isConverted</td>
       <td>boolean</td>
       <td>IsConverted</td>
-      <td><b><i>Ja nur für personType „Lead“</i></b></td>
+      <td><b><i>Ja, nur für personType „Lead“</i></b></td>
       <td>Nur erforderlich, wenn der b2b.personType „Lead“ ist</td>
     </tr>
     <tr>
@@ -465,7 +473,7 @@ ht-degree: 78%
       <td>Nein</td>
       <td>
         <p>E.g. - 123@999-abc-888.Marketo.</p>
-        <p>Der Satz von sourceAccountKey-Feldern ist nur für wahre Kontaktdatensätze „erforderlich“, definiert als Personeneinträge, die mit „Konto“ verknüpft sind. Wenn er fehlt, wird der Datensatz nicht zurückgewiesen, aber die Attributionsergebnisse sind deaktiviert.</p>
+        <p>Der Satz von sourceAccountKey-Feldern ist nur für wahre Kontaktdatensätze „erforderlich“, definiert als Personeneinträge, die mit „Konto“ verknüpft sind. Wenn er fehlt, wird der Datensatz nicht abgelehnt, aber die Attributionsergebnisse sind ungenau.</p>
         <p>personComponents ist ein Array, Marketo Measure verwendet jedoch nur das erste Element „personComponents[0]“</p>
       </td>
     </tr>
@@ -609,7 +617,7 @@ ht-degree: 78%
     </tr>
     <tr>
       <td></td>
-      <td rowspan="5">XDM-Geschäfts-Opportunity – Details</td>
+      <td rowspan="5">XDM Business Opportunity Details</td>
       <td>IsWon</td>
       <td>boolean</td>
       <td>IsWon</td>
@@ -652,7 +660,7 @@ ht-degree: 78%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Die Rolle „Opportunity-Kontakt“ (nur erforderlich, wenn die Rolle „Opportunity-Kontakt“ als die kaufende Gruppe für die Attribution verwendet werden soll)</strong></td>
+      <td colspan="7"><strong>Opportunity-Kontaktrolle (nur erforderlich, wenn die Opportunity-Kontaktrolle als Käufergruppe für die Attribution verwendet werden soll)</strong></td>
     </tr>
     <tr>
       <td rowspan="16">XDM-Geschäfts-Opportunity – Personenbeziehung</td>
@@ -1000,7 +1008,7 @@ ht-degree: 78%
       <td>leadOperation.addToCampaign.campaignKey.sourceId</td>
       <td>Zeichenfolge</td>
       <td>Kampagnen-ID</td>
-      <td>Ja nur für den Typ leadOperation.addToCampaign</td>
+      <td>Ja, nur für den Typ leadOperation.addToCampaign</td>
       <td>
         <p>E.g. - 55555.</p>
         <p>Fremdschlüssel für Kampagne</p>
@@ -1039,7 +1047,7 @@ ht-degree: 78%
       <td>leadOperation.campaignProgression.campaignKey.sourceId</td>
       <td>Zeichenfolge</td>
       <td>Kampagnen-ID</td>
-      <td>Ja nur für den Typ leadOperation.campaignProgression</td>
+      <td>Ja, nur für den Typ leadOperation.campaignProgression</td>
       <td>
         <p>E.g. - 55555.</p>
         <p>Fremdschlüssel für Kampagne</p>
@@ -1088,7 +1096,7 @@ ht-degree: 78%
     <tr>
       <td>Interessanter Moment</td>
       <td>leadOperation.interestingMoment</td>
-      <td>Wird verwendet, um hochwertige Aktivitäten von potenziellen Kundinnen und Kunden nachzuverfolgen</td>
+      <td>Wird verwendet, um hochwertige Aktivitäten von potenziellen Kundinnen und Kunden zu Tracking-Zwecken zu erfassen</td>
     </tr>
     <tr>
       <td>Formular ausfüllen</td>
@@ -1127,7 +1135,7 @@ Der Ereignistyp „Interessanter Moment“ wird für Ereignistypen verwendet, di
 
 ## Abfragebeispiele für die Dateninspektion {#query-examples-for-data-inspection}
 
-Im Folgenden finden Sie eine Liste von Abfragebeispielen für die Inspektion von Datensätzen, die in den AEP Data Lake aufgenommen wurden. Um sie für Ihre Datensätze zu verwenden, ersetzen Sie den Tabellennamen in den unten stehenden Abfragebeispielen durch Ihren tatsächlichen Datensatztabellennamen.
+Im Folgenden finden Sie eine Liste von Abfragebeispielen für die Inspektion von Datensätzen, die in den AEP Data Lake aufgenommen wurden. Um sie für Ihre Datensätze zu verwenden, ersetzen Sie den Tabellennamen in den unten stehenden Abfragebeispielen durch den Tabellennamen Ihres tatsächlichen Datensatzes.
 
 Wir gehen davon aus, dass alle Zahlen 0 sind.
 
@@ -1135,7 +1143,7 @@ Für das Feld „personType“ erwarten wir, dass nur die Werte „Lead“ oder 
 
 Für Personeneinträge des Typs „Kontakt“ erwarten wir, dass es einen Konto-Fremdschlüssel gibt.
 
-Für Personeneinträge des Typs „Lead“ existiert kein Konto-Fremdschlüssel und es ist nicht keiner erforderlich. Wenn Sie Personeneinträge des Typs „Lead“ als Personeneinträge des Typs „Kontakt“ aufnehmen möchten (was empfohlen wird), ist kein Konto-Fremdschlüssel für diese Personeneinträge erforderlich.
+Für Personeneinträge des Typs „Lead“ existiert kein Konto-Fremdschlüssel und es ist keiner erforderlich. Wenn Sie Personeneinträge des Typs „Lead“ als Personeneinträge des Typs „Kontakt“ aufnehmen möchten (was empfohlen wird), ist kein Konto-Fremdschlüssel für diese Personeneinträge erforderlich.
 
 ### XDM-Geschäftskonto {#xdm-business-account}
 
@@ -1384,7 +1392,7 @@ select 'last updated date', count(*) from currency_conversion_rate where extSour
 Es wird empfohlen, ein berechnetes Feld in der Feldzuordnung zu verwenden, um das Feld standardmäßig auf einen Wert ungleich null zu setzen. Im Folgenden finden Sie zwei Beispiele:
 
 * Wenn opportunityName für einige Opportunity-Einträge null ist, erstellen und verwenden Sie das folgende berechnete Feld in der Feldzuordnung
-   * `iif(name != null && trim(name) != "", name, "Unknown")`
+  * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * Wenn die leadOperation.campaignProgression.campaignID einiger experienceevent-Einträge null ist, erstellen und verwenden Sie das folgende berechnete Feld in der Feldzuordnung
-   * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
+  * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`

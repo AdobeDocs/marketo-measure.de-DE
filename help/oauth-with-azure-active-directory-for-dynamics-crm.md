@@ -1,16 +1,23 @@
 ---
-description: Anleitung für OAuth  [!DNL Azure Active Directory]  Dynamics CRM für Marketo Measure-Benutzende
-title: OAuth mit  [!DNL Azure Active Directory]  für Dynamics CRM
+description: Anleitung für OAuth mit [!DNL Azure Active Directory] für Dynamics CRM für Marketo Measure-Benutzende
+title: OAuth mit [!DNL Azure Active Directory] für Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 2%
-
 ---
-
 # OAuth mit [!DNL Azure Active Directory] für Dynamics CRM {#oauth-with-azure-active-directory-for-dynamics-crm}
 
 ## Wer ist betroffen? {#who-s-affected}
@@ -27,7 +34,7 @@ Diese Einrichtung richtet sich an neue [!DNL Marketo Measure], die Dynamics CRM 
 
 1. Wählen Sie den Azure AD-Mandanten aus, indem Sie oben rechts auf der Seite auf Ihr Konto klicken, dann auf Verzeichnisnavigation wechseln und den entsprechenden Mandanten auswählen. Überspringen Sie diesen Schritt, wenn Sie nur einen Azure AD-Mandanten unter Ihrem Konto haben oder bereits den entsprechenden Azure AD-Mandanten ausgewählt haben.
 
-   ![1. Wählen Sie den Azure AD-Mandanten aus, indem Sie auf Ihr -Konto in der &#x200B;](assets/bizible-taxonomy-1.png)
+   ![1. Wählen Sie den Azure AD-Mandanten aus, indem Sie auf Ihr -Konto in der ](assets/bizible-taxonomy-1.png)
 
 1. Suchen Sie in der Suchleiste nach &quot;[!DNL Azure Active Directory]&quot; und klicken Sie zum Öffnen auf den Namen.
 
@@ -35,7 +42,7 @@ Diese Einrichtung richtet sich an neue [!DNL Marketo Measure], die Dynamics CRM 
 
 1. Klicken Sie **[!UICONTROL Menü links auf]** App-Registrierungen“.
 
-   ![1. Klicken Sie im Menü links auf App-Registrierungen &#x200B;](assets/microsoft-guide-2.png)
+   ![1. Klicken Sie im Menü links auf App-Registrierungen ](assets/microsoft-guide-2.png)
 
 1. Klicken Sie **[!UICONTROL oben]** „Neue Registrierung“.
 
@@ -60,7 +67,7 @@ c. Geben Sie den Umleitungs-URI an. Bei Web-Anwendungen ist dies die Basis-URL I
 
 1. Navigieren Sie zur Registerkarte API-Berechtigungen und stellen Sie sicher, dass der Anwendung die richtigen Berechtigungen zugewiesen sind.
 
-   ![1. Navigieren Sie zur Registerkarte API-Berechtigungen und stellen Sie sicher, dass die &#x200B;](assets/microsoft-guide-6.png)
+   ![1. Navigieren Sie zur Registerkarte API-Berechtigungen und stellen Sie sicher, dass die ](assets/microsoft-guide-6.png)
 
 1. Geben Sie von hier aus &quot;[!UICONTROL enterprise]&quot; in das Suchfeld ein und klicken Sie auf **[!UICONTROL Enterprise Applications]**.
 
@@ -76,7 +83,7 @@ c. Geben Sie den Umleitungs-URI an. Bei Web-Anwendungen ist dies die Basis-URL I
 
    ![1. Klicken Sie auf Akzeptieren.](assets/microsoft-guide-9.png)
 
-1. Stellen Sie auf der Registerkarte [!UICONTROL Benutzer und &#x200B;]&quot; sicher, dass die gültigen „Benutzer und Gruppen“ der Anwendung zugewiesen sind.
+1. Stellen Sie auf der Registerkarte [!UICONTROL Benutzer und ]&quot; sicher, dass die gültigen „Benutzer und Gruppen“ der Anwendung zugewiesen sind.
 
    ![1. Vergewissern Sie sich auf der Registerkarte „Benutzer und Gruppen“, dass die](assets/microsoft-guide-10.png)
 
@@ -114,7 +121,7 @@ a. Die Client-ID ist die ID aus Schritt #7 im obigen Abschnitt. Wenn Sie sie nic
 
 b. „Client-Geheimnis“ ist das Anwendungsgeheimnis, das im Azure-Portal für Ihre Anwendung unter „Zertifikate und Geheimnisse“ erstellt wurde.
 
-![&#x200B; B. Client-Geheimnis ist das im Azure-Portal erstellte Anwendungsgeheimnis](assets/microsoft-guide-11.png)
+![ B. Client-Geheimnis ist das im Azure-Portal erstellte Anwendungsgeheimnis](assets/microsoft-guide-11.png)
 
 c. Der Anwendungs-ID-URI ist die URL der Ziel-Web-API (gesicherte Ressource). Um die App-ID-URL zu finden, klicken Sie im Azure-Portal auf &quot;[!DNL Azure Active Directory]&quot;, klicken Sie auf „Anwendungsregistrierungen“, öffnen Sie die Seite „Einstellungen“ der Anwendung und klicken Sie auf „Eigenschaften“. Es kann sich auch um eine externe Ressource wie `https://graph.microsoft.com` handeln. Dies ist normalerweise die URL der Dynamics-Instanz.
 

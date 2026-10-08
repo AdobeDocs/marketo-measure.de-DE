@@ -1,24 +1,31 @@
 ---
-description: Aktuelle Versionshinweise – [!DNL Marketo Measure]
+description: Aktuelle Versionshinweise - [!DNL Marketo Measure]
 title: Aktuelle Versionshinweise
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-TQID: https://experienceleague.adobe.com/WCmnCEZ-aUK4OODKYLymgD8-Ohb6k-AIcJMVrBHMm2Y
+TQID: 'https://experienceleague.adobe.com/WCmnCEZ-aUK4OODKYLymgD8-Ohb6k-AIcJMVrBHMm2Y'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: ffecc0ee-70f2-5687-bca0-deee982ffbfa
+    internal-label: Release Notes
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: '1464'
 ht-degree: 91%
-
 ---
-
 # Versionshinweise 2024 {#release-notes-2024}
 
 Nachstehend finden Sie Informationen zu allen neuen und aktualisierten Funktionen unserer Versionen aus dem Jahr 2024.
@@ -37,21 +44,21 @@ Dokumentation: [Definition von Marketo Measure-Websitzungen](https://experiencel
 
 ### Keyword-ROI-Dashboard
 
-Das neue Keyword-ROI-Dashboard bietet detaillierte Erkenntnisse zur Leistung von Paid-Search-Kampagnen und bietet einen umfassenden Überblick über die Kosten auf Keyword-Ebene, den zugeordneten Umsatz sowie die generierten Leads und Opportunities. Mit diesem Dashboard können Sie den ROI der einzelnen Suchbegriffe für Google Adwords, LinkedIn, Bing Ads usw. auswerten.
+Das neue Keyword-ROI-Dashboard bietet detaillierte Erkenntnisse zur Leistung von Paid-Search-Kampagnen und bietet einen umfassenden Überblick über die Kosten auf Keyword-Ebene, den zugeordneten Umsatz sowie die generierten Leads und Opportunities. Mit diesem Dashboard können Sie den ROI der einzelnen Keywords für Google Adwords, LinkedIn, Bing Ads usw. auswerten.
 
 Dokumentation: [Keyword ROI Dashboard](https://experienceleague.adobe.com/de/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Erweiterte Segmentregeln
 
-Sie können jetzt Segmente über die Felder „Kampagne“ und „Kampagnenmitglied“, zusätzlich zu den Feldern „Touchpoint“ und „Kontakt“, erstellen. Dank dieser Erweiterung können Sie Ihre Daten in Discover noch effizienter analysieren und aufschlüsseln.
+Sie können jetzt Segmente mithilfe der Felder „Kampagne“ und „Kampagnenmitglied“ sowie der Felder „Touchpoint“ und „Kontakt“ erstellen. Dank dieser Erweiterung können Sie Ihre Daten in Discover noch effizienter analysieren und aufschlüsseln.
 
 ![Erweiterte Segmentregeln](assets/mm-q4-release-1.png)
 
 ### Aktualisierung: Fehlerbehandlungseinstellung für CRM-Exporte
 
-Wir haben auf Ihr Feedback bezüglich des Anhaltens von Aufträgen gehört und führen eine neue Funktion in der Benutzeroberfläche ein. Ab heute können Sie festlegen, ob Exportaufträge beim Auftreten von Fehlern angehalten werden sollen. Verwenden Sie den neuen Umschalter in **Mein Konto** > **Einstellungen** > **CRM** > **Allgemein**. Dieser Schalter ist standardmäßig aktiviert, um die Datenintegrität und -transparenz zu verbessern. Wenn Sie diese Funktion jedoch lieber nicht verwenden möchten, können Sie sie in der Benutzeroberfläche deaktivieren, und die Exportaufträge werden fortgesetzt. Diese Aktualisierung soll die Zuverlässigkeit Ihrer Daten-Management-Prozesse erhöhen und Ihnen gleichzeitig mehr Kontrolle geben.
+Wir haben auf Ihr Feedback zur Vorgehensweise beim Anhalten von Aufträgen gehört und führen eine neue Funktion in der Benutzeroberfläche ein. Ab heute können Sie festlegen, ob Exportaufträge beim Auftreten von Fehlern angehalten werden sollen. Verwenden Sie den neuen Umschalter in **Mein Konto** > **Einstellungen** > **CRM** > **Allgemein**. Dieser Schalter ist standardmäßig aktiviert, um die Datenintegrität und -transparenz zu verbessern. Wenn Sie diese Funktion jedoch lieber nicht verwenden möchten, können Sie sie in der Benutzeroberfläche deaktivieren, und die Exportaufträge werden fortgesetzt. Diese Aktualisierung soll die Zuverlässigkeit Ihrer Daten-Management-Prozesse erhöhen und Ihnen gleichzeitig mehr Kontrolle geben.
 
-#### Wichtige Daten und gestaffelter Rollout
+#### Wichtige Termine und gestaffelter Rollout
 
 1. **Sofortige Verfügbarkeit des Umschalters:** Der Umschalter ist jetzt in der Benutzeroberfläche aktiv und standardmäßig aktiviert, um zu verhindern, dass Daten bei Exportaufträgen übersprungen werden. Wenn Sie es vorziehen, dass Exportaufträge trotz aufgetretener Fehler weiterhin ausgeführt werden, deaktivieren Sie den Umschalter.
 
@@ -76,7 +83,7 @@ Um Ihnen bei der Anpassung an diese Änderung zu helfen, haben wir eine Dokument
 
 ### Erinnerung: Einstellung von Salesforce-Feldern - 14. Juni
 
-Wie letztes Jahr angekündigt, werden wir [unsere Exportaufträge an Lead-/Kontaktobjekte auslaufen lassen](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} um unsere Integration zu vereinfachen und die Notwendigkeit zum Export in Salesforce Standardobjekte zu beseitigen. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden [hier dokumentierten](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"} Schritte ausführen. Wir werden auch die Dokumentation zum Erstellen von Workflows teilen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
+Wie letztes Jahr angekündigt, werden wir [unsere Exportaufträge an Lead-/Kontaktobjekte auslaufen lassen](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} um unsere Integration zu vereinfachen und die Notwendigkeit zum Export in Salesforce Standardobjekte zu beseitigen. Sie können dieselben Daten von Ihren Touchpoint-Objekten abrufen, indem Sie die folgenden [hier dokumentierten](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"} Schritte ausführen. Wir werden außerdem eine Dokumentation zum Erstellen eines Workflows bereitstellen, um diese Daten zum Lead-/Kontaktobjekt hinzuzufügen. Die Einstellung wird am 14. Juni 2024 wirksam.
 
 Diese Änderung bringt zwei wesentliche Vorteile:
 
@@ -91,12 +98,12 @@ Wir freuen uns, das neue [Dashboard „Zugewiesene Opportunity“](/help/marketo
 
 Die Synchronisation der Marketo Engage-Cookies ist jetzt für Marketo Measure Ultimate verfügbar. So verwenden Sie diese Funktion:
 
-1. Bearbeiten Sie auf der Seite „AEP-Schemata“ das Schema „B2B-Person“ und fügen Sie die Feldergruppe „Marketo Engage-Personendetails“ hinzu.
+1. Bearbeiten Sie auf der Seite „AEP-Schemata“ das B2B-Personenschema und fügen Sie die Feldgruppe „Marketo Engage Person Details“ hinzu.
 1. Wenn Sie die Daten in MMU einlesen, ordnen Sie das Feld „Cookie-ID“ aus der Feldgruppe dem Feld „Cookies“ aus Marketo Engage zu.
 
 ### Boomerang-Stadien für Tier 2-Kunden aktiviert
 
-Die bisher nur für Kundschaft der Stufe 3 verfügbare Funktion „Boomerang-Phasen“ steht ab dem 13. Juni 2024 auch für Kundschaft der Stufe 2 zur Verfügung. Weitere Informationen zu dieser Funktion finden Sie in der folgenden Dokumentation.
+Die bisher nur für Kundschaft der Stufe 3 verfügbare Funktion „Boomerang Stage“ steht ab dem 13. Juni 2024 auch für Kundschaft der Stufe 2 zur Verfügung. Weitere Informationen zu dieser Funktion finden Sie in der folgenden Dokumentation.
 
 * [Boomerang-Phasen und Touchpoints](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [Einrichten von Boomerang-Phasen](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
@@ -110,7 +117,7 @@ Die bisher nur für Kundschaft der Stufe 3 verfügbare Funktion „Boomerang-Pha
 
 ### Einstellung von Marketo Measure-Funktionen als Reaktion auf den schrittweisen Ausstieg aus Drittanbieter-Cookies
 
-Als Reaktion auf wachsende Datenschutzbedenken werden Drittanbieter-Cookies schrittweise eingestellt. Die endgültige Einstellung erfolgt bis zur Frist von Google Chrome für das dritte Quartal 2024. Marketo Measure stellt bestimmte Funktionen ein, die von Drittanbieter-Cookies abhängig sind, insbesondere Domain-übergreifendes Tracking und Durchsichtszuordnung, was auf dem Impressions-Cookie „Google/DoubleClick“ basiert. Diese Änderung hat keine Auswirkungen auf andere Marketo Measure-Funktionen oder die Verwendung von Erstanbieter-Cookies. Nach der Timeline von Google werden diese Funktionen voraussichtlich bis zum 1. Juni eingestellt, Die Daten, die vor diesem Datum erfasst werden, werden Kundinnen und Kunden allerdings weiterhin zur Verfügung stehen.
+Als Reaktion auf wachsende Datenschutzbedenken werden Drittanbieter-Cookies schrittweise eingestellt. Die endgültige Einstellung erfolgt bis zur Frist von Google Chrome für das dritte Quartal 2024. Marketo Measure stellt bestimmte Funktionen ein, die von Drittanbieter-Cookies abhängig sind, insbesondere Cross-Domain Tracking und View-through Attribution, die auf dem Impressions-Cookie „Google/DoubleClick“ basieren. Diese Änderung hat keine Auswirkungen auf andere Marketo Measure-Funktionen oder die Verwendung von Erstanbieter-Cookies. Nach der Timeline von Google werden diese Funktionen voraussichtlich bis zum 1. Juni eingestellt. Die Daten, die vor diesem Datum erfasst werden, stehen Kundinnen und Kunden allerdings weiterhin zur Verfügung.
 
 * [Anpassen an die Einstellung von Drittanbieter-Cookies in Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
 * [Marketo Measure-Cookies](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
@@ -124,7 +131,7 @@ Wir führen phasenweise eine verbesserte Fehlerhandhabung für Exportaufträge e
 
 _Warum das wichtig ist_
 
-Verbesserte Datenintegrität und Zukunftssicherheit für Ihre Integration: Wir stoppen den Vorgang beim ersten Anzeichen von Problemen, um Datenverlust zu vermeiden und Genauigkeit zu gewährleisten. Dies ermöglicht eine schnelle Problembehebung, was die Qualität des Datenexports und die Systemzuverlässigkeit verbessert.
+Verbesserte Datenintegrität und Zukunftssicherheit für Ihre Integration: Wir stoppen den Auftrag beim ersten Anzeichen von Problemen, um Datenverlust zu vermeiden und Genauigkeit zu gewährleisten. Dies ermöglicht eine schnelle Problembehebung, was die Qualität des Datenexports und die Systemzuverlässigkeit verbessert.
 
 Sofortige Sichtbarkeit: Die Einführung von Pulsbenachrichtigungen ermöglicht eine umgehende Reaktion auf Berechtigungsfehler, wodurch mögliche Auswirkungen auf Vorgänge verhindert werden.
 

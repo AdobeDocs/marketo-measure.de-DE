@@ -1,22 +1,26 @@
 ---
 unique-page-id: 18874795
-description: Adding [!DNL Marketo Measure] script - [!DNL Marketo Measure]
-title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes
+description: '[!DNL Marketo Measure] hinzufügen - [!DNL Marketo Measure]'
+title: Hinzufügen eines[!DNL Marketo Measure]-Skriptes
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-TQID: https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw
+TQID: 'https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1292
+source-wordcount: '1293'
 ht-degree: 53%
-
 ---
-
 # Hinzufügen eines[!DNL Marketo Measure]-Skriptes {#adding-marketo-measure-script}
 
 [!DNL Marketo Measure]-JavaScript, das von [!DNL Marketo Measure] nachverfolgt werden soll, muss so schnell wie möglich zu allen Web-Umgebungen hinzugefügt werden. Nach der Bereitstellung von JavaScript beginnt [!DNL Marketo Measure] mit der Erfassung Ihrer digitalen Daten. In diesem Artikel werden die Methoden zur Bereitstellung [!DNL Marketo Measure] JavaScript und weitere Überlegungen beschrieben.
@@ -64,7 +68,7 @@ Wenn Sie jedoch separate oder internationale Domains verwenden, sollten Sie Ihre
 
 Wenn Sie Seiten von Drittanbietern verwenden, sprechen Sie mit Ihrem [!DNL Marketo Measure] Consultant über Ihren Anwendungsfall. Im Allgemeinen möchten Sie wissen, ob Sie eine benutzerdefinierte Version [!DNL Marketo Measure] JavaScript hinzufügen können, um diese Seiten ggf. zu verfolgen. Wenn dies nicht möglich ist, wird das Tracking über CRM-Campaign-Touchpoints mit Ihrem [!DNL Marketo Measure]-Berater untersucht.
 
-Haben Sie Formulare, die NICHT von [!DNL Marketo Measure] nachverfolgt werden sollten, da sie für die Attribution nicht unbedingt sinnvoll sind (z. B. Abmeldeformulare, Kundenanmeldungen usw.)? In diesem Fall sollten Sie den Ausschlusscode ([&#x200B; diesem Artikel) &#x200B;](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} Formular hinzufügen
+Haben Sie Formulare, die NICHT von [!DNL Marketo Measure] nachverfolgt werden sollten, da sie für die Attribution nicht unbedingt sinnvoll sind (z. B. Abmeldeformulare, Kundenanmeldungen usw.)? In diesem Fall sollten Sie den Ausschlusscode ([ diesem Artikel) ](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} Formular hinzufügen
 
 Verfügen Sie über Seiten, die nicht sicher sind? Sie sollten sie schützen, da die Navigation zwischen einer sicheren/nicht sicheren Seite die Tracking-Sitzung unterbricht.
 
@@ -92,7 +96,7 @@ Wenn während des JavaScript-Setups eine [!DNL Web Application Firewall (WAF)] a
 
 **Herunterladen von Assets**
 
-* Problem: Wenn Ihre Assets kategorisiert sind, verfolgt [!DNL Marketo Measure] Downloads beim Ausfüllen des Formulars. Ohne Gating der Assets gibt es Einschränkungen dahingehend, was ohne Anpassung gemeldet werden kann.
+* Problem: Wenn Ihre Assets kategorisiert sind, verfolgt [!DNL Marketo Measure] Downloads beim Ausfüllen des Formulars. Ohne Gating der Assets gibt es Einschränkungen dahingehend, worüber wir ohne benutzerdefinierte Anpassung berichten können.
 * Lösung: Führen Sie ein Gating des Assets durch, wenn es vom [!DNL Marketo Measure]-JavaScript nachverfolgt werden soll. Wenn dies keine Option ist und Sie dennoch einen Touchpoint dafür benötigen, sollten Sie stattdessen eine CRM-Kampagne synchronisieren.
 
 **iFrames**
@@ -118,7 +122,7 @@ Wenn während des JavaScript-Setups eine [!DNL Web Application Firewall (WAF)] a
 **Chat**
 
 * Problem: Wenn Sie einen Chat-Anbieter verwenden, kann eine besondere Vorgehensweise erforderlich sein.
-* Lösung: [!DNL Marketo Measure] kann in Drift, Olark, Livechat, LivePerson und SnapEngage integriert werden. Alle anderen Plattformen müssen über die Zugehörigkeit zu einer CRM-Kampagne nachverfolgt werden.
+* Lösung: [!DNL Marketo Measure] kann in Drift, Olark, Livechat, LivePerson und SnapEngage integriert werden. Alle anderen Plattformen müssen über die Zugehörigkeit zu einer Customer-Relationship-Management-Kampagne nachverfolgt werden.
 
 **Zweite Domain**
 
@@ -139,7 +143,7 @@ Gehen Sie wie folgt vor, um ein Formular selbst zu testen:
 
 1. Notieren Sie sich die URL der Seite, an die Sie das Formular senden, und die verwendete E-Mail.
 
-1. Suchen Sie den Eintrag, der in Ihrem CRM-System (Lead oder Kontakt) für die Formularübermittlung erstellt wurde, und überprüfen Sie, ob ein Touchpoint ordnungsgemäß erstellt wurde.
+1. Suchen Sie den Eintrag (Lead oder Kontakt), der in Ihrem Customer-Relationship-Management-System für die Formularübermittlung erstellt wurde, und überprüfen Sie, ob ein Touchpoint ordnungsgemäß erstellt wurde.
 
    a. Sie können einen [!DNL Marketo Measure] Lagerbericht verwenden, z. B. Leads mit Käufer-Touchpoints, oder sich das Lead-/Kontakt-Seiten-Layout ansehen, wenn Sie Ihre Seiten-Layouts mit [!DNL Marketo Measure] Details aktualisieren möchten.
 

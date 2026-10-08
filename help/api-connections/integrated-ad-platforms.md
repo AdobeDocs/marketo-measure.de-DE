@@ -3,14 +3,20 @@ description: Anleitung zu integrierten Anzeigenplattformen für Marketo Measure-
 title: Integrierte Anzeigenplattformen
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 1%
-
 ---
-
 # Integrierte Anzeigenplattformen {#integrated-ad-platforms}
 
 [!DNL Marketo Measure] verfügt über API-Verbindungen zu Google AdWords, Microsoft BingAds, [!DNL Facebook] Ads und DoubleClick Campaign Manager. Über diese API-Verbindungen kann [!DNL Marketo Measure] Daten einfach abrufen und zusammen mit der externen Buyer-App an Ihr CRM übertragen. Es ist kein manuelles Hochladen von Kosten oder Daten erforderlich. Stattdessen müssen Ihre Konten einfach mit der [!DNL Marketo Measure]-App verbunden und autorisiert werden. [!DNL Marketo Measure] laden dann automatisch Ihre Marketing-Kosten von den Plattformen herunter und laden sie in die [!DNL Marketo Measure] App. Wenn Sie das automatische Tagging für AdWords, BingAds oder [!DNL Facebook] Ads aktivieren möchten, hängen [!DNL Marketo Measure] seine Parameter automatisch an die URLs Ihrer Anzeigen an.
@@ -45,8 +51,8 @@ Die Tracking-Vorlage ist ein Tool, das Google bereitstellt, um die so genannten 
 * *Option B*: Es wurde eine Umleitung von Drittanbietern gefunden. Wenn in der Tracking-Vorlage eine Weiterleitung eines Drittanbieters gefunden wird, können [!DNL Marketo Measure] keine Maßnahmen ergreifen. Sie müssen die [!DNL Marketo Measure] Tags manuell zum Drittanbietersystem hinzufügen. Ein Beispiel für eine Umleitung von Drittanbietern wäre ein Tool zur Angebotsverwaltung wie Kenshoo oder Marin. Erfahren Sie mehr darüber, wie [Tools zur Angebotsverwaltung [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Option C*: Keine Tracking-Vorlage gefunden. [!DNL Marketo Measure] werden alle Ihre Werbeziel-URLs auf die [!DNL Marketo Measure] Parameter überprüft. Basierend auf dem Scan, wenn:
-   * Es wurden Parameter gefunden: die Einrichtung ist abgeschlossen!
-   * Parameter wurden nicht gefunden: [!DNL Marketo Measure] hängen ihre Parameter an das Ende der Werbeziel-URLs an. [!DNL Marketo Measure] hängt neue Anzeigen innerhalb von zwei Stunden nach ihrer Erstellung an. Beachten Sie, dass die Parameter nicht zu einer Vorlage hinzugefügt werden.
+  * Es wurden Parameter gefunden: die Einrichtung ist abgeschlossen!
+  * Parameter wurden nicht gefunden: [!DNL Marketo Measure] hängen ihre Parameter an das Ende der Werbeziel-URLs an. [!DNL Marketo Measure] hängt neue Anzeigen innerhalb von zwei Stunden nach ihrer Erstellung an. Beachten Sie, dass die Parameter nicht zu einer Vorlage hinzugefügt werden.
 
 Erfahren Sie mehr über unsere [[!DNL AdWords] automatische Tagging-Funktion](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
@@ -72,10 +78,10 @@ Nachdem Sie über eine Tracking-Vorlage verfügen, befolgen Sie die nachstehende
 
 ## Einrichten einer Tracking-Vorlage in AdWords mit [!DNL Marketo Measure] {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-Denken Sie daran, dass Sie Tracking-Vorlagen auf der Ebene [!UICONTROL Konto], [!UICONTROL Kampagne] oder Anzeigengruppe in AdWords hinzufügen sollten. Wenn Sie Tracking-Vorlagen auf Keyword-, Sitelink- oder Anzeigenebene hinzufügen, muss Ihre Anzeige den Prüfungs- und Genehmigungsprozess durchlaufen, und Sie riskieren, den Leistungsverlauf Ihrer Anzeigen neu zu starten. Weitere Informationen zum [&#x200B; von Tracking-Vorlagen](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
+Denken Sie daran, dass Sie Tracking-Vorlagen auf der Ebene [!UICONTROL Konto], [!UICONTROL Kampagne] oder Anzeigengruppe in AdWords hinzufügen sollten. Wenn Sie Tracking-Vorlagen auf Keyword-, Sitelink- oder Anzeigenebene hinzufügen, muss Ihre Anzeige den Prüfungs- und Genehmigungsprozess durchlaufen, und Sie riskieren, den Leistungsverlauf Ihrer Anzeigen neu zu starten. Weitere Informationen zum [ von Tracking-Vorlagen](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Melden Sie sich bei Ihrem [!DNL Google AdWords] Konto an.
-1. Navigieren Sie [!UICONTROL &#x200B; Ansicht &#x200B;]Kampagnen“ in der linken Navigationsleiste
+1. Navigieren Sie [!UICONTROL  Ansicht ]Kampagnen“ in der linken Navigationsleiste
 1. Navigieren Sie zu [!UICONTROL Einstellungen], auch in der linken Navigationsleiste
 1. Schalten Sie in die Ansicht [!UICONTROL Kontoeinstellungen] oben um
 1. Erweitern Sie den Abschnitt [!UICONTROL Tracking]
@@ -158,7 +164,7 @@ Bevor Sie das automatische Tagging mit [!DNL Facebook Ads] aktivieren, müssen S
 
 Beachten Sie, dass Sie Ihr [!DNL Facebook]-Konto jederzeit mit der [!DNL Marketo Measure]-App verbinden können und keine Daten verloren gehen. Der Leistungsverlauf wird nur gelöscht, wenn das automatische Tagging aktiviert ist.
 
-Weitere [&#x200B; zum Exportieren von [!DNL Facebook] Ad-Berichten finden &#x200B;](https://www.facebook.com/business/help/393890194130036){target="_blank"} in diesem Artikel auf Facebook .
+Weitere [ zum Exportieren von [!DNL Facebook] Ad-Berichten finden ](https://www.facebook.com/business/help/393890194130036){target="_blank"} in diesem Artikel auf Facebook .
 
 ## Gesponserte LinkedIn-Inhalte {#linkedin-sponsored-content}
 

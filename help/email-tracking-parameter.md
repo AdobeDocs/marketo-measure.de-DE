@@ -3,13 +3,17 @@ description: Anleitung zu E-Mail-Tracking-Parametern für Marketo Measure-Benutz
 title: E-Mail-Verfolgungsparameter
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 4%
-
 ---
-
 # E-Mail-Verfolgungsparameter {#email-tracking-parameter}
 
 Mit dem [!DNL Marketo Measure]-E-Mail-Tracking-Parameter können Marketing-Fachleute E-Mail-Klicks als Formularübermittlungen behandeln, sodass Touchpoints für diese Aktionen generiert werden. Ohne Verwendung eines E-Mail-Tracking-Parameters werden Clickthroughs aus einer E-Mail nur als „Web-Besuche“ behandelt, bis der Benutzer über eine Formularübermittlung oder einen Web-Chat tatsächlich mit der Site interagiert.
@@ -32,7 +36,7 @@ Marketo Measure akzeptiert die folgenden Werte: E-Mail-Adresse, Salesforce-Lead-
 
 | Marketing-Automatisierung | Token/Tag/Makro | Beispiel | Hilfsmaterial |
 | --- | --- | --- | --- |
-| Marketo | `{{lead.Email Address}}` | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}}`> | [Token - Übersicht](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=de) |
+| Marketo | `{{lead.Email Address}}` | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}}`> | [Token - Übersicht](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html) |
 | Pardot | %%email%% oder %%USER_CRM_ID%% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [Pardot-Variablentags-Referenz](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
 | HubSpot | (über Editor eingefügt) | k. A. | [HubSpot - Personalisieren von Inhalten](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
 | Act-On | (über Message Composer eingefügt) | k. A. | [Act-On personalisieren Sie E-Mail-Inhalte](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |

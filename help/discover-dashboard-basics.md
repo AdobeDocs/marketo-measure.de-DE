@@ -3,14 +3,18 @@ description: Einführung in die Oberfläche des Discover-Dashboards, Filter, Dri
 title: Entdecken Sie die Grundlagen von Dashboards
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-hidefromtoc: true
-source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 1%
-
+source-wordcount: '576'
+ht-degree: 5%
 ---
-
 # Entdecken Sie die Grundlagen von Dashboards {#discover-dashboard-basics}
 
 Dieser Artikel führt Sie durch die grundlegenden Funktionen der neu gestalteten Benutzeroberfläche und stellt sicher, dass Sie mühelos auf Ihre Daten zugreifen und sie interpretieren können. Machen Sie sich mit der Dynamik des Filterbereichs vertraut und entdecken Sie die Feinheiten unserer erweiterten Reporting-Funktionen, wie z. B. Drill-Funktionen, Kreuzfilterung und QuickInfos.
@@ -83,4 +87,4 @@ Wenn Sie in einer Visualisierung einen Wert oder eine Achsenbeschriftung auswäh
 
 QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles Element. Daraufhin wird eine kontextuelle QuickInfo angezeigt, die Einblicke oder Erklärungen zu diesem bestimmten Datenpunkt bietet.
 
-![QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles &#x200B;](assets/discover-basics-4.gif)
+![QuickInfos bieten zusätzliche Details zu den angezeigten Daten. Bewegen Sie den Mauszeiger über ein visuelles ](assets/discover-basics-4.gif)

@@ -1,21 +1,25 @@
 ---
-description: Lead-Geschwindigkeits-Dashboard - [!DNL Marketo Measure] - Produkt
+description: Lead Velocity-Dashboard - [!DNL Marketo Measure] - Produkt
 title: Dashboard „Lead-Geschwindigkeit“
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
-TQID: https://experienceleague.adobe.com/uuQ2MDoDrYfOEPFs5hNpW6upYZQ3Vs2-4sciJOWV74s
+TQID: 'https://experienceleague.adobe.com/uuQ2MDoDrYfOEPFs5hNpW6upYZQ3Vs2-4sciJOWV74s'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '364'
 ht-degree: 3%
-
 ---
-
 # Dashboard „Lead-Geschwindigkeit“ {#lead-velocity-dashboard}
 
 Das Velocity-Dashboard bietet einen dynamischen Einblick in das Tempo, in dem Interessenten durch den Sales funnel navigieren, und gibt Marketing-Experten und Vertriebsteams wichtige Einblicke in die Konversionszeiten auf verschiedenen Kanälen. Dieses Tool ist für die Beantwortung wichtiger Fragen zur Lead-Konversionsdauer und zur Effizienz der Progression in den Vertriebsstufen von unschätzbarem Wert. So können Sie Ihre Interaktionsstrategien für beschleunigtes Wachstum und Konversionen optimieren.
@@ -72,7 +76,7 @@ Fragen, die in der Tabelle beantwortet werden:
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
 * Datum
-   * Basierend auf: Übergang in Datum
+  * Basierend auf: Übergang in Datum
 * Phase
 * Kanal
 * Unterkanal

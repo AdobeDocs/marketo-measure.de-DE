@@ -3,13 +3,20 @@ description: '[!DNL Marketo Measure] Salesforce-Objekte - [!DNL Marketo Measure]
 title: '[!DNL Marketo Measure]-Salesforce-Objekte'
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 83%
-
 ---
-
 # [!DNL Marketo Measure]-Salesforce-Objekte {#marketo-measure-salesforce-objects}
 
 >[!NOTE]
@@ -42,9 +49,9 @@ Die BT-bezogene Liste zeigt alle Touchpoints an, die zu dem Lead oder Kontakt ge
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-Das [!UICONTROL Buyer Attribution Touchpoint]-Objekt liefert Informationen zu den Marketing-Interaktionen Ihrer Kontakte im Zusammenhang mit einer Opportunity. Es zeigt die *Attributions*-Daten zu den Marketing-Touchpoints an. Mit diesem Objekt können Sie erkennen, wie viel Umsatz-Credits jedem Marketing-Touchpoint zugeordnet sind. Der Typ des von Ihnen verwendeten Attributionsmodells bestimmt den Prozentsatz des den Touchpoints zugeordneten Umsatzes.
+Das [!UICONTROL Buyer Attribution Touchpoint]-Objekt liefert Informationen zu den Marketing-Interaktionen Ihrer Kontakte im Zusammenhang mit einer Opportunity. Es zeigt die *Attributions*-Daten zu den Marketing-Touchpoints an. Mit diesem Objekt können Sie erkennen, welcher Umsatzanteil jedem Marketing-Touchpoint zugeordnet ist. Der Typ des von Ihnen verwendeten Attributionsmodells bestimmt den Prozentsatz des den Touchpoints zugeordneten Umsatzes.
 
-Buyer Attribution Touchpoints (BAT) werden erst erstellt, nachdem eine Gelegenheit für Kontakte erstellt wurde, die über Buyer Touchpoint(BT)-Daten verfügen. BATs werden nicht ohne eine Opportunity erstellt. Sobald die Opportunity erstellt wurde, verwendet das BAT-Objekt das [!DNL Salesforce]-Feld *Betrag* für die Opportunity, um zu ermitteln, wie viel Umsatz den Touchpoints zugeordnet werden soll.
+Buyer Attribution Touchpoints (BATs) werden erst erstellt, nachdem eine Opportunity für Kontakte erstellt wurde, die über Buyer Touchpoint (BT)-Daten verfügen. BATs werden nicht ohne eine Opportunity erstellt. Sobald die Opportunity erstellt wurde, verwendet das BAT-Objekt das [!DNL Salesforce]-Feld *Betrag* für die Opportunity, um zu ermitteln, wie viel Umsatz den Touchpoints zugeordnet werden soll.
 
 Es muss ein **Workflow** erstellt werden, wenn Sie ein [benutzerdefiniertes Betragsfeld](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md) nutzen, um den Umsatz für das Opportunity-Objekt anzuzeigen. [!DNL Marketo Measure] kann die in benutzerdefinierten Feldern des Typs „Betrag“ angezeigten Informationen nicht lesen und Umsatzzuordnungsdaten nicht für die Touchpoints eingeben. Dieser Workflow verwendet das **[!DNL Marketo Measure]-Feld „Anzahl Opportunitys“**, eines der benutzerdefinierten [!DNL Marketo Measure]-Felder, um den Umsatzwert aus dem benutzerdefinierten Feld „Betrag“ dem Feld „Anzahl Opportunitys“ zuzuordnen.
 
@@ -62,7 +69,7 @@ Das Objekt „[!DNL Marketo Measure]-Person“ verknüpft die Lead- und Kontakto
 
 Bei der Durchführung von A/B-Tests mit [!DNL Optimizely] oder VWO (Visual Web Optimizer) können Sie diese Konten mit Ihrem [!DNL Marketo Measure]-Konto verknüpfen, um die A/B-Testdaten in Salesforce anzuzeigen. Mit dem [!DNL Marketo Measure]-A/B-Testobjekt können Sie A/B-Testdaten aus Optimizely/VW0 abrufen und mit Leads und Kontakten verknüpfen.
 
-![Wenn Sie A/B-Tests über Optimizely oder VWO (Visual Studio) &#x200B;](assets/marketo-salesforce-8.png)
+![Wenn Sie A/B-Tests über Optimizely oder VWO (Visual Studio) ](assets/marketo-salesforce-8.png)
 
 Das [!DNL Marketo Measure]-A/B-Test-Objekt wird als zugehörige Liste auf den Seiten [!UICONTROL Leads], [!UICONTROL Kontakte] und [!UICONTROL Opportunitys] angezeigt. Die Liste zeigt alle Experimente und Varianten, die Sie in Optimizely oder VWO durchlaufen, und ermöglicht es Ihnen, die Experimente/Varianten in Bezug auf bestimmte Leads und Kontakte anzuzeigen.
 
@@ -72,7 +79,7 @@ Mit dem Objekt „[!DNL Marketo Measure]-Ereignisse“ können Sie bestimmte Ere
 
 ## [!DNL Marketo Measure]-Felder {#marketo-measure-fields}
 
-Die vom [!DNL Marketo Measure] JavaScript erfassten Daten werden in die benutzerdefinierten [!DNL Marketo Measure] in den [!DNL Marketo Measure] Objekten übertragen. Bestimmte Felder sind nur für bestimmte Objekte vorhanden. Sie können das [Glossar der [[!DNL Marketo Measure]] &#x200B;](/help/glossary.md) eine [Visualisierung der zugehörigen [!DNL Marketo Measure] Objekte) &#x200B;](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md).
+Die vom [!DNL Marketo Measure] JavaScript erfassten Daten werden in die benutzerdefinierten [!DNL Marketo Measure] in den [!DNL Marketo Measure] Objekten übertragen. Bestimmte Felder sind nur für bestimmte Objekte vorhanden. Sie können das [Glossar der [[!DNL Marketo Measure]] ](/help/glossary.md) eine [Visualisierung der zugehörigen [!DNL Marketo Measure] Objekte) ](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md).
 
 ## [!DNL Marketo Measure]-Berichte und -Dashboards {#marketo-measure-reports-and-dashboards}
 

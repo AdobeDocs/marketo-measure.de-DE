@@ -4,20 +4,25 @@ description: Marketing-Ausgaben melden - [!DNL Marketo Measure]
 title: Marketing-Ausgaben für Berichte
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-TQID: https://experienceleague.adobe.com/xdj3h4D3SQtHJkxyBAHjlqdLY2I1tQCzZEDyX06o9bE
+TQID: 'https://experienceleague.adobe.com/xdj3h4D3SQtHJkxyBAHjlqdLY2I1tQCzZEDyX06o9bE'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 347
+source-wordcount: '347'
 ht-degree: 1%
-
 ---
-
 # Marketing-Ausgaben für Berichte {#report-marketing-spend}
 
 ## Marketing-Ausgabentabelle {#marketing-spend-table}
@@ -28,7 +33,7 @@ Die Tabelle enthält eine Mischung verschiedener Währungen. Siehe das Dashboard
 
 ## Upload-Kosten {#upload-costs}
 
-Wenn ein Benutzer die Kostendatei herunterlädt, enthält die Datei auch eine neue Spalte mit der Währung für jede Zeile. Die einzigen zulässigen Währungen sind diejenigen, die im CRM festgelegt und gespeichert wurden. Sie müssen den abgekürzten Code mit 3 Buchstaben für Ihre Währung kennen (USD, CAD, JPY, EUR). Wenn eine Datei mit einer nicht erkannten Währung hochgeladen wird, schlägt der Datei-Upload fehl.
+Wenn ein Benutzer die Kostendatei herunterlädt, enthält die Datei auch eine neue Spalte mit der Währung für jede Zeile. Die einzigen zulässigen Währungen sind diejenigen, die im CRM festgelegt und gespeichert wurden. Sie müssen den abgekürzten dreistelligen Code für Ihre Währung kennen (USD, CAD, JPY, EUR). Wenn eine Datei mit einer nicht erkannten Währung hochgeladen wird, schlägt der Datei-Upload fehl.
 
 ## Kosten aus Anzeigenintegrationen {#costs-from-ad-integrations}
 
@@ -38,9 +43,9 @@ Wenn die Währung vom Werbeanbieter nicht mit einer Währung übereinstimmt, die
 
 ## Zu konvertierten Marketingausgaben migrieren {#migrate-to-converted-marketing-spend}
 
-Da die Marketingausgaben bisher nur in einer einzigen Währung (USD) getätigt wurden, ist nur ein geringer Arbeitsaufwand erforderlich, um alle gemeldeten Ausgaben in die neue Währung zu ändern. Selbst wenn für Ihr Konto mehrere Währungen nicht aktiviert sind, sollten Sie diese Migration durchführen, wenn Sie eine einzige Unternehmenswährung außer USD haben.
+Da die Marketingausgaben in der Vergangenheit nur in einer einzigen Währung (USD) getätigt wurden, ist ein geringer Arbeitsaufwand erforderlich, um alle gemeldeten Ausgaben in die neue Währung zu ändern. Auch wenn für Ihr Konto mehrere Währungen nicht aktiviert sind, sollten Sie diese Migration durchführen, wenn Sie eine einzige Unternehmenswährung außer USD haben.
 
 1. Aktuelle Ausgabedatei als CSV herunterladen
-1. In der Spalte Währung wird &quot;[!UICONTROL USD] als angenommene Währung angezeigt. Sie können entweder alle Vorkommen von &quot;[!UICONTROL USD] manuell ersetzen oder mit Find+Replace alle &quot;[!UICONTROL USD]&quot;-Instanzen in Ihre eigene Unternehmenswährung ändern, z. B. &quot;[!UICONTROL EUR]&quot; oder &quot;[!UICONTROL GBP]&quot;.
+1. In der Währungsspalte wird &quot;[!UICONTROL USD]&quot; als angenommene Währung angezeigt. Sie können entweder alle Vorkommen von &quot;[!UICONTROL USD]&quot; manuell ersetzen oder mit Suchen+Ersetzen alle &quot;[!UICONTROL USD]&quot;-Instanzen in Ihre eigene Unternehmenswährung ändern, z. B. &quot;[!UICONTROL EUR]&quot; oder &quot;[!UICONTROL GBP].
 1. Speichern Sie die Datei und laden Sie sie wieder in [!DNL Marketo Measure] hoch.
 1. Alle gemeldeten Kosten werden jetzt in der neuen Währung angezeigt.

@@ -3,13 +3,17 @@ description: '"[!DNL Marketo Measure] Integrationen mit Adobe Launch - [!DNL Mar
 title: '[!DNL Marketo Measure]-Integrationen mit Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 8%
-
 ---
-
 # [!DNL Marketo Measure]-Integrationen mit Adobe Launch {#marketo-measure-integrations-with-adobe-launch}
 
 Die Adobe Launch-Erweiterung ist für bestehende [!DNL Marketo Measure] konzipiert, die Adobe Launch bereits auf ihrer Website verwenden. Die Erweiterung dient als Tag-Management-Lösung, mit der Sie Skripte auf der Grundlage bestimmter Ereignisse und Bedingungen konfigurieren und dynamisch auf Ihren Seiten laden können.
@@ -22,11 +26,11 @@ Nach der Installation und Konfiguration in Adobe Launch lädt die [!DNL Marketo 
 >
 >Weitere Informationen zu Adobe Launch und seinen Erweiterungen finden Sie unter den folgenden Links:
 >
->* [[!DNL Marketo Measure] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=de#catalog){target="_blank"}
+>* [[!DNL Marketo Measure] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
 >* [Übersicht über Adobe Launch](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=de){target="_blank"}
->* [Adobe Launch-Erweiterung - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html?lang=de){target="_blank"}
+>* [Adobe Launch-Erweiterung - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. Erstellen Sie eine Eigenschaft entsprechend den Schritten [in diesem Artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=de#go-to-the-data-collection-interface){target="_blank"}.
+1. Erstellen Sie eine Eigenschaft entsprechend den Schritten [in diesem Artikel](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Klicken Sie auf die von Ihnen erstellte Eigenschaft.
 
@@ -40,7 +44,7 @@ Nach der Installation und Konfiguration in Adobe Launch lädt die [!DNL Marketo 
 
    ![1. Klicken Sie auf die Registerkarte Katalog und suchen Sie nach „Bizible“](assets/marketo-launch-10.png)
 
-1. Klicken Sie in [!UICONTROL &#x200B; Kachel &#x200B;]Bizible Analytics“ auf **[!UICONTROL Installieren]**.
+1. Klicken Sie in [!UICONTROL  Kachel ]Bizible Analytics“ auf **[!UICONTROL Installieren]**.
 
    ![1. Klicken Sie in der Kachel „Bizible Analytics“ auf Installieren.](assets/marketo-launch-7.png)
 

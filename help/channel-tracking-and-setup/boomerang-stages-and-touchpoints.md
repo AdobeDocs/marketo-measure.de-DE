@@ -1,16 +1,22 @@
 ---
 description: Boomerang-Stadien und Touchpoints-Anleitungen für Marketo Measure-Anwender
-title: Boomerang-Phasen und Touchpoints
+title: Boomerang-Schritte und Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 1%
-
 ---
-
-# Boomerang-Phasen und Touchpoints {#boomerang-stages-and-touchpoints}
+# Boomerang-Schritte und Touchpoints {#boomerang-stages-and-touchpoints}
 
 >[!AVAILABILITY]
 >
@@ -59,7 +65,7 @@ Boomerang-Stadien Einfluss:
 
 **Alle Berichte, die „ist gleich [Touchpoint-Position] verwenden**
 
-* Boomerang-Stadien führen neue Touchpoint-Positionen in Ihre Daten ein. [!DNL Marketo Measure] das Format der Touchpoint-Position ändert, um das Auftreten des Stadiums einzuschließen, z. B. „MQL-01“ oder „MQL-05 (Letzte)“. In diesem Beispiel wirken sich Boomerang-Stadien auf alle Berichte aus, die „Touchpoint-Position ist gleich MQL“ verwenden. Um diese Berichte anzupassen, sollte der Filter stattdessen den Operator „enthält“ verwenden.
+* Boomerang-Stadien führen neue Touchpoint-Positionen in Ihre Daten ein. [!DNL Marketo Measure] ändert das Format der Touchpoint-Position, um das Auftreten des Stadiums einzuschließen, z. B. „MQL-01“ oder „MQL-05 (Letzte)“. In diesem Beispiel wirken sich Boomerang-Stadien auf alle Berichte aus, die „Touchpoint-Position ist gleich MQL“ verwenden. Um diese Berichte anzupassen, sollte der Filter stattdessen den Operator „enthält“ verwenden.
 
 ## FAQs {#faq}
 
@@ -81,6 +87,6 @@ Die Begrenzung gilt für Data Warehouse und CRMs aufgrund der von [!DNL Marketo 
 
 **F: Was ist der Vorteil der Verwendung von Boomerang-Stadien mit benutzerdefinierter Modellierung?**
 
-Durch die Verwendung [!UICONTROL Boomerang]-Stadien mit benutzerdefinierter Modellierung können Sie den Touchpoints [!UICONTROL Boomerang“ eine Attributionsgewichtung zuweisen, &#x200B;] diesen Stadien Umsatzgutschriften zuweist.
+Durch die Verwendung [!UICONTROL Boomerang]-Stadien mit benutzerdefinierter Modellierung können Sie den Touchpoints [!UICONTROL Boomerang“ eine Attributionsgewichtung zuweisen, ] diesen Stadien Umsatzgutschriften zuweist.
 
 Ohne benutzerdefinierte Modellierung erstellt [!DNL Marketo Measure] Touchpoints für jeden Bumerang und jede Stadienübergabe, weist diesen Touchpoints jedoch keine Attributionszuordnung zu. Die einzigen Boomerang-Touchpoints, die Attributionsgutschriften erhalten, sind aus Submission Touchpoints. Ohne benutzerdefiniertes Modell werden [!DNL Boomerang] Touchpoints als „Middle Touch“ betrachtet und entsprechend angerechnet.

@@ -1,29 +1,33 @@
 ---
 unique-page-id: 18874781
-description: Konfigurieren der DoubleClick Campaign Manager-Ansicht über Attribution - [!DNL Marketo Measure]
-title: Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution
+description: Konfigurieren von DoubleClick Campaign Manager View Through Attribution - [!DNL Marketo Measure]
+title: Konfiguration der View-through-Attribution in Doubleclick Campaign Manager
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-TQID: https://experienceleague.adobe.com/RekX4OsH-i5HHm-KyRNTp8r6SHhJRGM14trA7XXaJNQ
+TQID: 'https://experienceleague.adobe.com/RekX4OsH-i5HHm-KyRNTp8r6SHhJRGM14trA7XXaJNQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: '425'
 ht-degree: 28%
-
 ---
-
-# Konfiguration der DoubleClick Campaign Manager-Ansicht über Attribution {#configuring-doubleclick-campaign-manager-view-through-attribution}
+# Konfiguration der View-through-Attribution in Doubleclick Campaign Manager {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
 ## Ansicht durch Attribution messen {#measuring-view-through-attribution}
 
 >[!IMPORTANT]
 >
->Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe die Marketo Measure-Funktionen, die auf Drittanbieter-Cookies basieren, ein. Dies betrifft insbesondere das Domain-übergreifende Tracking und die Viewthrough-Attribution, die das Impressions-Cookie von Google/DoubleClick verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kundinnen und -Kunden weiterhin zur Verfügung.
+>Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe die Marketo Measure-Funktionen ein, die auf Drittanbieter-Cookies basieren. Dies betrifft insbesondere Cross-Domain-Tracking und View-through Attribution, die das Impressions-Cookie „Google/DoubleClick“ verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kundinnen und -Kunden weiterhin zur Verfügung.
 
 >[!NOTE]
 >
