@@ -3,14 +3,18 @@ description: Marketing-Zuordnung
 title: Marketing-Zuordnung
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 97%
-
 ---
-
 
 # Marketing-Zuordnung {#marketing-attribution}
 
@@ -26,7 +30,7 @@ Marketo Measure gibt Marketing-Experten einen Einblick, welche Marketing-Maßnah
 
 ![Touchpoints beziehen sich auf die Interaktionen, die ein Interessent/Lead mit Ihrem Online- oder E-Mail-Konto hat](assets/overview-resources-8.png)
 
-Diese Meilensteinbkontakte bilden die Grundlage für die **Attributionsmodelle** von Marketo Measure. Marketo Measure bietet sechs Attributionsmodelle. Jedes Modell konzentriert sich auf verschiedene Phasen der Journey und bietet eine allgemeine Struktur für die Zuweisung von Umsatzguthaben zu Ihren Marketing-Touchpoints. Welches Modell Sie verwenden, hängt davon ab, welche Phasen der Journey Sie vor allem messen möchten und wie viele Daten Sie auswerten möchten. Die von Marketo Measure angebotenen Attributionsmodelle sind:
+Diese Meilensteinbkontakte bilden die Grundlage für die **Attributionsmodelle** von Marketo Measure. Marketo Measure bietet sechs Attributionsmodelle. Jedes Modell konzentriert sich auf verschiedene Phasen der Customer Journey und bietet eine allgemeine Struktur für die Zuweisung von Umsatzgutschriften zu Ihren Marketing-Touchpoints. Welches Modell Sie verwenden, hängt davon ab, welche Phasen der Journey Sie vor allem messen möchten und wie viele Daten Sie auswerten möchten. Die von Marketo Measure angebotenen Attributionsmodelle sind:
 
 * First Touch
 * Leaderstellung
@@ -40,11 +44,11 @@ Diese Meilensteinbkontakte bilden die Grundlage für die **Attributionsmodelle**
 
 ## Warum Attribution wichtig ist {#why-attribution-is-important}
 
-Marketing-Teams melden normalerweise Interaktionen, Aktivitäten und andere Softmetriken. Daher ist es für Marketing-Experten oft eine Herausforderung zu zeigen, wie viel Umsatz sie effektiv für die Organisation generiert haben. Die Marketing-Attribution löst dieses Problem, indem Marketing-Maßnahmen direkt an den Umsatz gebunden werden. Dadurch erhalten Marketing-Fachleute die harten Metriken, die sie benötigen, um:
+Marketing-Teams berichten normalerweise über Interaktionen, Aktivitäten und andere weiche Kennzahlen. Daher ist es für Marketing-Experten oft eine Herausforderung zu zeigen, wie viel Umsatz sie effektiv für die Organisation generiert haben. Die Marketing-Attribution löst dieses Problem, indem Marketing-Maßnahmen direkt an den Umsatz gebunden werden. Dadurch erhalten Marketing-Fachleute die harten Metriken, die sie benötigen, um Folgendes zu tun:
 
-* Zu bestimmen, welche Kampagnen und Kanäle eine gute Leistung erbringen und welche am rentabelsten sind.
-* Marketing-Fonds den leistungsstärksten Kanälen zuzuweisen
+* Bestimmen, welche Kampagnen und Kanäle eine gute Leistung erbringen und welche am rentabelsten sind
+* Marketing-Budget den leistungsstärksten Kanälen zuweisen
 * Zu Ermitteln, welche Marketing-Kanäle am meisten für die Konversion von Leads in Kunden verantwortlich sind.
-* Prognosen zu Marketing-Zielen in Bezug auf den Umsatz
+* Marketing-Ziele in Bezug auf den Umsatz prognostizieren
 
-Darüber hinaus wird durch die Marketing-Attribution die fehlende Abstimmung zwischen Verkaufs- und Marketing-Teams behoben. Da Vertriebsteams über Umsatz und Pipeline berichten und Marketing-Teams hauptsächlich auf Softmetriken angewiesen sind, können Marketing-Experten nicht herausfinden, welche ihrer Bemühungen am einflussreichsten bei der Verkaufsförderung waren. Durch die Verknüpfung von Marketing-Maßnahmen mit Umsatz können beide Teams dieselbe Sprache sprechen, und Marketing-Fachleute können demonstrieren, wie ihre Bemühungen dazu beigetragen haben, Kunden zu werden.
+Darüber hinaus wird durch die Marketing-Attribution die fehlende Abstimmung zwischen Verkaufs- und Marketing-Teams behoben. Da Vertriebsteams über Umsatz und Pipeline berichten und Marketing-Teams hauptsächlich auf Softmetriken angewiesen sind, können Marketing-Experten nicht herausfinden, welche ihrer Bemühungen am einflussreichsten bei der Verkaufsförderung waren. Durch die Verknüpfung von Marketing-Maßnahmen mit dem Umsatz können beide Teams dieselbe Sprache sprechen, und Marketing-Fachleute können demonstrieren, wie ihre Bemühungen dazu beigetragen haben, dass Leads schließlich zu Kundinnen und Kunden wurden.

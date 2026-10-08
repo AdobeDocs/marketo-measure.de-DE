@@ -3,13 +3,17 @@ description: Unterschied zwischen einer Google Analytics-Konversion und einer Bu
 title: Unterschied zwischen einer Google Analytics-Konversion und einem Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 4%
-
 ---
-
 # Unterschied zwischen einer Google Analytics-Konversion und einem Buyer Touchpoint {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
 Erfahren Sie, was ein [!DNL Google Analytics (GA)] ist und wie es sich von einem Buyer Touchpoint unterscheidet.
@@ -75,7 +79,7 @@ Käufer-Touchpoints verhalten sich jedoch anders.
 
 * Ein Bot sendet Formulare auf einer Website (diese Bots schaffen es normalerweise nicht in das CRM eines Kunden).
 * Ein Benutzer sendet weitere Formulare nach der ersten Übermittlung des Formulars. [!DNL Marketo Measure] überträgt nur die erste Konvertierung aus dieser Sitzung.
-* Der Benutzer klickt mehrmals auf die Formularübermittlung. [!DNL Marketo Measure] berücksichtigt nur die erste Formularübermittlung.
+* Der Benutzer klickt mehrmals auf die Formularübermittlung. [!DNL Marketo Measure] wird nur die erste Formularübermittlung berücksichtigt.
 * Der Benutzer lädt die Dankeseite mehrmals neu.
 * Der Benutzer verwendet alle Tools zum Blockieren von Anzeigen.
 

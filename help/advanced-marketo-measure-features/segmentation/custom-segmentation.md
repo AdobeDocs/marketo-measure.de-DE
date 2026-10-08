@@ -4,18 +4,21 @@ description: Benutzerdefinierte Segmentierung - [!DNL Marketo Measure]
 title: Benutzerdefinierte Segmentierung
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-TQID: https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM
+TQID: 'https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '754'
 ht-degree: 1%
-
 ---
-
 # Benutzerdefinierte Segmentierung {#custom-segmentation}
 
 Segmente bieten die Möglichkeit, Daten im Dashboard &quot;[!DNL Marketo Measure]-ROI“ zu filtern, um einen bestimmten Datensatz weiter aufzuschlüsseln. Beispielsweise kann ein Segment durch ein geografisches Gebiet oder ein Benotungssystem definiert werden.
@@ -72,9 +75,9 @@ Schritt 4: Filterregeln hinzufügen.
 * Klicken Sie auf das Papierkorbsymbol, um eine ganze Kategorie oder eine einzelne Regel innerhalb einer Kategorie zu löschen. Alternativ können Sie zum Bearbeiten der Kategorie oder Regel auf das Stiftsymbol klicken
 * Beachten Sie, dass Sie die Schaltfläche &quot;[!UICONTROL Speichern] und „Speichern und Verarbeiten“ haben. Klicken Sie auf die Schaltfläche Speichern , um Ihre Änderungen zu speichern. Verwenden Sie die Schaltfläche Speichern und Verarbeiten NUR, nachdem Sie Folgendes sichergestellt haben:
 
-   * Ihre Zuordnung ist korrekt
-   * Sie haben alle Segmente hinzugefügt, die Sie innerhalb einer Kategorie nachverfolgen möchten
-   * Mit den Triggern der Schaltfläche Speichern und verarbeiten [!DNL Marketo Measure] Sie alle Touchpoints synchronisieren und die neu hinzugefügten Informationen anwenden. Dieser Vorgang dauert 7 Tage, und die Regeln können während dieses Zeitraums nicht geändert werden
+  * Ihre Zuordnung ist korrekt
+  * Sie haben alle Segmente hinzugefügt, die Sie innerhalb einer Kategorie nachverfolgen möchten
+  * Mit den Triggern der Schaltfläche Speichern und verarbeiten [!DNL Marketo Measure] Sie alle Touchpoints synchronisieren und die neu hinzugefügten Informationen anwenden. Dieser Vorgang dauert 7 Tage, und die Regeln können während dieses Zeitraums nicht geändert werden
 
 **_Zusätzliche Hinweise:_**
 

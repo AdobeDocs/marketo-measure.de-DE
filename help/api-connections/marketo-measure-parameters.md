@@ -3,19 +3,27 @@ description: '[!DNL Marketo Measure] - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure]-Parameter'
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 64%
-
+ht-degree: 91%
 ---
-
 
 # [!DNL Marketo Measure]-Parameter {#marketo-measure-parameters}
 
 ## [!DNL Marketo Measure]-Parameter – Erklärung {#marketo-measure-parameters-explained}
 
-Um durch die Verwendung von UTMs noch mehr insight zu erhalten, fügt [!DNL Marketo Measure] benutzerdefinierte Parameter in [!DNL Google] AdWords, Bing Ads und [!DNL Facebook] Ads an Ihre Anzeigen an. [!DNL Marketo Measure] lässt sich mit diesen Plattformen integrieren, um den Einrichtungsprozess weitgehend zu automatisieren. Wenn Sie sich für die Verwendung des automatischen Tagging entscheiden, hängen [!DNL Marketo Measure] seine Parameter automatisch an die URLs Ihrer Anzeigen an. [!DNL Marketo Measure] lädt auch automatisch Ihre Marketing-Kosten von den Plattformen herunter und lädt sie in die [!DNL Marketo Measure]-App.
+Um weitere Einblicke in die Verwendung von UTMs zu gewinnen, hängt [!DNL Marketo Measure] benutzerdefinierte Parameter an Ihre Anzeigen in [!DNL Google] AdWords, Bing Ads und [!DNL Facebook] Ads an. [!DNL Marketo Measure] ist zur Automatisierung eines Großteils des Einrichtungsprozesses mit diesen Plattformen integriert. Wenn Sie sich für die Verwendung des automatischen Taggings entscheiden, hängt [!DNL Marketo Measure] seine Parameter automatisch an die URLs Ihrer Anzeigen an. [!DNL Marketo Measure] lädt außerdem Ihre Marketing-Kosten automatisch von den Plattformen herunter und lädt sie in die [!DNL Marketo Measure]-App.
 
 Beispiel einer URL ohne Parameter:
 
@@ -28,27 +36,27 @@ Beispiel einer URL mit [!DNL Marketo Measure]-Parametern:
 ## AdWords-Parameter {#adwords-parameters}
 
 * `_bk={keyword}`
-   * Stellt den Suchbegriff dar, den die Person in der Suchmaschine verwendet hat.
-   * Ähnelt dem Parameter „UTM-Begriff“.
+  * Stellt das Keyword dar, das die Person in der Suchmaschine verwendet hat.
+  * Ähnelt dem Parameter „UTM-Begriff“.
 
 * `_bt={creative}`
-   * Stellt die kreative ID oder den Namen dar.
-   * Ähnelt dem UTM-Inhaltsparameter.
+  * Stellt die kreative ID oder den Namen dar.
+  * Ähnelt dem UTM-Content-Parameter.
 
 * `_bm={matchtype}`
-   * Gibt an, wie genau der Suchbegriff übereinstimmt.
-   * Mithilfe von Suchbegriffübereinstimmungstypen können Sie steuern, welche Suchvorgänge Ihre Anzeige auslösen. Sie können beispielsweise eine breite Übereinstimmung verwenden, um Ihre Anzeige einer breiten Zielgruppe anzuzeigen, oder Sie können eine genaue Übereinstimmung verwenden, um bestimmte Kundengruppen anzusprechen.
-   * Die drei Übereinstimmungstypen sind: breit, unscharf und exakt.
+  * Gibt an, wie genau das Keyword übereinstimmt.
+  * Mithilfe von Suchbegriffübereinstimmungstypen können Sie steuern, welche Suchvorgänge Ihre Anzeige auslösen. Sie können beispielsweise eine breite Übereinstimmung verwenden, um Ihre Anzeige einer breiten Zielgruppe anzuzeigen, oder Sie können eine genaue Übereinstimmung verwenden, um bestimmte Kundengruppen anzusprechen.
+  * Die drei Übereinstimmungstypen sind: breit, unscharf und exakt.
 
 >[!TIP]
 >Weitere Informationen zu Übereinstimmungstypen finden [&#x200B; in einem entsprechenden AdWords-Artikel](https://support.google.com/adwords/answer/2497836?hl=de){target="_blank"}.
 
 * `_bn={network}`
-   * Stellt den Anzeigennetzwerktyp (Anzeige [&#x200B; Suche) &#x200B;](https://support.google.com/adwords/answer/1752334?hl=de){target="_blank"}.
-   * Ähnelt dem UTM-Quellparameter.
+  * Stellt den Anzeigennetzwerktyp (Anzeige [&#x200B; Suche) &#x200B;](https://support.google.com/adwords/answer/1752334?hl=de){target="_blank"}.
+  * Ähnelt dem UTM-Quellenparameter.
 
 * `_bg={adgroupID}`
-   * Stellt die ID der Anzeigengruppe dar, zu der die Anzeige gehört
+  * Stellt die ID der Anzeigengruppe dar, zu der die Anzeige gehört
 
 >[!NOTE]
 >Umleitungs-URL-Parameter werden nicht unterstützt.
@@ -63,4 +71,4 @@ Beispiel einer URL mit [!DNL Marketo Measure]-Parametern:
 ## Facebook-Parameter {#facebook-parameters}
 
 * `_bf ={creative}`
-   * Dies stellt die kreative ID oder den Namen dar
+  * Dies stellt die Creative-ID oder den Creative-Namen dar

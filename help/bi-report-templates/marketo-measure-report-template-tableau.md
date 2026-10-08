@@ -1,21 +1,25 @@
 ---
-description: '[!DNL Marketo Measure] Berichtsvorlage - Tableau - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] - Tableau - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure]-Berichtsvorlage – Tableau'
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-TQID: https://experienceleague.adobe.com/yeKdQAe2ZyoFluQuk8CbqA-yWw3XeSdtGYvAFf2WROM
+TQID: 'https://experienceleague.adobe.com/yeKdQAe2ZyoFluQuk8CbqA-yWw3XeSdtGYvAFf2WROM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 2314
+source-wordcount: '2314'
 ht-degree: 98%
-
 ---
-
 # [!DNL Marketo Measure]-Berichtsvorlage – Tableau {#marketo-measure-report-template-tableau}
 
 ## Erste Schritte {#getting-started}
@@ -76,7 +80,7 @@ Einige Umwandlungen wurden ausgehend vom ursprünglichen Zustand in Snowflake au
 
 ### Spalten entfernt {#removed-columns}
 
-Um das Datenmodell zu vereinfachen und unnötige Daten zu entfernen, wurde die Anzahl der aus der ursprünglichen Snowflake-Tabelle nach Tableau importierten Spalten verringert. Zu den entfernten Spalten gehören unnötige Fremdschlüssel, denormalisierte Dimensionsdaten, die besser über Beziehungen zu anderen Tabellen im Modell genutzt werden können, Audit-Spalten und für die interne [!DNL Marketo Measure]-Verarbeitung verwendete Spalten. Sie können Spalten entsprechend Ihren geschäftlichen Anforderungen hinzufügen oder entfernen, indem Sie die Liste der importierten Spalten im Abschnitt „Select“ der benutzerdefinierten SQL-Abfrage bearbeiten.
+Um das Datenmodell zu vereinfachen und redundante und unnötige Daten zu entfernen, haben wir die Anzahl der aus der ursprünglichen Snowflake-Tabelle nach Tableau importierten Spalten verringert. Zu den entfernten Spalten gehören unnötige Fremdschlüssel, denormalisierte Dimensionsdaten, die besser über Beziehungen zu anderen Tabellen im Modell genutzt werden können, Audit-Spalten und für die interne [!DNL Marketo Measure]-Verarbeitung verwendete Spalten. Sie können Spalten entsprechend Ihren geschäftlichen Anforderungen hinzufügen oder entfernen, indem Sie die Liste der importierten Spalten im Abschnitt „Select“ der benutzerdefinierten SQL-Abfrage bearbeiten.
 
 >[!NOTE]
 >
@@ -88,7 +92,7 @@ Tabellen und Spalten wurden umbenannt, um sie benutzerfreundlicher zu gestalten 
 
 ### Zeilen hinzugefügt {#rows-added}
 
-Um den Berechnungen im Modell Funktionen zur Währungsumrechnung hinzuzufügen, wurde sowohl in der Tabelle für die Opportunity als auch in der für die Kosten eine Spalte für den unternehmensbezogenen Umrechnungskurs und eine Spalte für den Umrechnungszielkurs hinzugefügt. Der Wert in diesen Spalten wird auf Zeilenebene hinzugefügt und ausgewertet, indem sowohl für die Datums- als auch für die Währungs-ID eine Verknüpfung zur Tabelle mit dem Umrechnungskurs hergestellt wird. Da Tableau nicht zulässt, dass Faktentabellen mehr als eine Dimensionstabelle gemeinsam nutzen, wurden die Umrechnungskurse direkt den Tabellen hinzugefügt, die sie verwenden. Weitere Informationen dazu, wie die Währungsumrechnung in diesem Modell funktioniert, finden Sie im Abschnitt [Währungsumrechnung](#currency-conversion) in dieser Dokumentation.
+Um den Berechnungen im Modell Währungsumrechnungen hinzuzufügen, haben wir sowohl der Tabelle „Opportunity“ als auch der Tabelle „Cost“ jeweils eine Spalte für den unternehmensweiten Umrechnungskurs und eine Spalte für den Ziel-Umrechnungskurs hinzugefügt. Der Wert in diesen Spalten wird auf Zeilenebene hinzugefügt und berechnet, indem sowohl über das Datum als auch über die Währungs-ID ein Join mit der Tabelle „Umrechnungskurs“ hergestellt wird. Da Tableau nicht zulässt, dass Faktentabellen mehr als eine Dimensionstabelle gemeinsam nutzen, wurden die Konversionsraten direkt zu den Tabellen hinzugefügt, die sie verwenden. Weitere Informationen dazu, wie die Währungsumrechnung in diesem Modell funktioniert, finden Sie im Abschnitt [Währungsumrechnung](#currency-conversion) in dieser Dokumentation.
 
 ![](assets/marketo-measure-report-template-tableau-6.png)
 
@@ -136,20 +140,20 @@ In diesem Modell sind die Dimensionen „Kampagne“ und „Kanal“ mit dem Tou
 >
 >Einige Ereignisse, wie z. B. Sitzungen, haben direkte Links zu den Dimensionen „Kampagne“ und „Kanal“. Wenn Berichte zu diesen Dimensionen auf Sitzungsebene gewünscht werden, wird empfohlen, hierzu ein eigenes Datenmodell zu erstellen.
 
-Kostendaten werden in der Snowflake Data Warehouse-Kostentabelle auf unterschiedlichen Aggregationsebenen gespeichert. Für alle Anzeigenanbieter kann für die Daten auf Kampagnenebene ein Rollup auf Kanalebene durchgeführt werden. Aus diesem Grund ruft dieses Modell Kostendaten basierend auf dem Flag „campaign_is_aggregatable_cost“ ab. Selbstgemeldete Kosten können nur auf Kanalebene übermittelt werden und sind nicht erforderlich, um über Kampagnendaten zu verfügen. Um möglichst genaue Kostenberichte zu ermöglichen, werden die selbstgemeldeten Kosten basierend auf dem Flag „channel_is_aggregatable_cost“ abgerufen. Die Abfrage zum Import von Kostendaten wird mit folgender Logik verfasst: If ad_provider = &quot;SelfReported&quot; then channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
+Kostendaten werden in der Snowflake Data Warehouse-Kostentabelle auf unterschiedlichen Aggregationsebenen gespeichert. Für alle Anzeigenanbieter kann für die Daten auf Kampagnenebene ein Rollup auf Kanalebene durchgeführt werden. Aus diesem Grund ruft dieses Modell Kostendaten basierend auf der Markierung „campaign_is_aggregatable_cost“ ab. Selbstgemeldete Kosten können nur auf Kanalebene übermittelt werden und sind nicht erforderlich, um über Kampagnendaten zu verfügen. Um möglichst genaue Kostenberichte zu ermöglichen, werden die selbstgemeldeten Kosten basierend auf der Markierung „channel_is_aggregatable_cost“ abgerufen. Die Abfrage zum Import von Kostendaten wird mit folgender Logik verfasst: If ad_provider = &quot;SelfReported&quot; then channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
 
 Im Kontext dieses Modells werden diese Modell-, Lead-, [!UICONTROL Kontakt]-, [!UICONTROL Konto]- und [!UICONTROL Opportunity]-Daten als Dimensionsdaten betrachtet und direkt mit der Tabelle der Lead- und Attributions-Touchpoints verknüpft.
 
 ### Währungsumrechnung {#currency-conversion}
 
-Die in der Tabelle „Umrechnungskurs“ angegebenen Kurse stellen den Wert dar, der zum Umrechnen eines Betrags aus der Unternehmenswährung erforderlich ist. Für Umrechnungen in eine beliebige Währung ist eine doppelte Umrechnung erforderlich: zunächst von der ursprünglichen Währung in die Unternehmenswährung und dann von der Unternehmenwährung in die ausgewählte Währung. Der erste Schritt in dieser Kette im Modell besteht darin, zwei Spalten mit diesen Umrechnungskursen zu den Tabellen mit Beträgen, Opportunitys und Kosten hinzuzufügen. Diese Schritte werden im Abschnitt „Zeilen hinzugefügt“ in diesem Dokument beschrieben. Da Umrechnungskurse nicht statisch sein müssen und sich in bestimmten Datumsbereichen ändern können, müssen alle Währungsumrechnungen auf Zeilenebene durchgeführt werden. Bei der Umrechnung von der ursprünglichen Währung in die Unternehmenswährung wird der Wert durch den unternehmensbezogenen Umrechnungskurs geteilt und dann mit dem Umrechnungszielkurs multipliziert. Der Umrechnungszielkurs wird durch den ausgewählten Währungsparameterwert bestimmt.
+Die in der Tabelle „Umrechnungskurs“ angegebenen Kurse stellen den Wert dar, der zum Umrechnen eines Betrags aus der Unternehmenswährung erforderlich ist. Für Umrechnungen in eine beliebige Währung ist eine doppelte Umrechnung erforderlich: zunächst von der ursprünglichen Währung in die Unternehmenswährung und dann von der Unternehmenswährung in die ausgewählte Währung. Der erste Schritt in dieser Kette im Modell besteht darin, zwei Spalten mit diesen Umrechnungskursen zu den Tabellen mit Beträgen, Opportunitys und Kosten hinzuzufügen. Diese Schritte werden im Abschnitt „Zeilen hinzugefügt“ in diesem Dokument beschrieben. Da Umrechnungskurse nicht statisch sein müssen und sich in bestimmten Datumsbereichen ändern können, müssen alle Währungsumrechnungen auf Zeilenebene durchgeführt werden. Bei der Umrechnung von der ursprünglichen Währung in die Unternehmenswährung wird der Wert durch den unternehmensbezogenen Umrechnungskurs geteilt und dann mit dem Umrechnungszielkurs multipliziert. Der Umrechnungszielkurs wird durch den ausgewählten Währungsparameterwert bestimmt.
 
 * Umrechnen des ursprünglichen Werts in den unternehmensbezogenen Währungswert / unternehmensbezogener Umrechnungskurs = Wert in der Unternehmenswährung
 * Umrechnen des Werts aus dem unternehmensbezogenen in den ausgewählten Währungswert in der Unternehmenswährung `*` Umrechnungskurs der ausgewählten Währung = Wert in der ausgewählten Währung
 
 ![](assets/marketo-measure-report-template-tableau-13.png)
 
-In den Kennzahlen für die Währungsumrechnung in diesem Modell wird der Wert 1,0 für den Kurs eingesetzt, wenn kein Umrechnungskurs identifiziert werden kann. Es wurden separate Kennzahlen erstellt, um den Währungswert für die Kennzahl anzuzeigen und einen Warnhinweis auszugeben, wenn eine Berechnung mehr als einen Währungswert enthält ((d. h. ein Wert konnte nicht in die ausgewählte Währung umgerechnet werden). Diese Kennzahlen, Kostenwährung und Umsatzwährung, sind in allen visuellen Darstellungen, in denen Kosten- oder Umsatzdaten angezeigt werden, als QuickInfos enthalten.
+In den Kennzahlen für die Währungsumrechnung in diesem Modell wird der Wert 1,0 für den Kurs eingesetzt, wenn kein Umrechnungskurs identifiziert werden kann. Es wurden separate Kennzahlen erstellt, um den Währungswert für die Kennzahl anzuzeigen und einen Warnhinweis auszugeben, wenn eine Berechnung mehr als einen Währungswert enthält (d. h., ein Wert konnte nicht in die ausgewählte Währung umgerechnet werden). Diese Kennzahlen, Kostenwährung und Umsatzwährung, sind in allen visuellen Darstellungen, in denen Kosten- oder Umsatzdaten angezeigt werden, als QuickInfos enthalten.
 
 ![](assets/marketo-measure-report-template-tableau-14.png)
 
@@ -161,7 +165,7 @@ Zum [!DNL Tableau model] wurden Definitionen für Parameter, benutzerdefinierte 
 
 Informationen zum Anzeigen von Definitionen für Spalten, die direkt aus [!DNL Snowflake] stammen, finden Sie in der [Data-Warehouse-Dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
-## Diskrepanzen zwischen Vorlagen- und Discover-Modell {#discrepancies-between-templates-and-discover}
+## Diskrepanzen zwischen Vorlagen und Discover {#discrepancies-between-templates-and-discover}
 
 ### Attributierter Umsatz {#attributed-revenue}
 
@@ -181,13 +185,13 @@ Da sich der ROI aus attributiertem Umsatz und Kosten berechnet, können dieselbe
 
 ### Touchpoints {#touchpoints}
 
-Diese Metriken werden, wie in den Berichtsvorlagen dargestellt, in Discover nicht widergespiegelt. Es ist derzeit kein direkter Vergleich zwischen Vorlagen und Discover möglich.
+Diese Metriken werden, wie in den Berichtsvorlagen dargestellt, in Discover nicht widergespiegelt. Es ist derzeit kein direkter Vergleich zwischen den beiden möglich.
 
 ### Webtraffic {#web-traffic}
 
-Das Datenmodell der Berichtsvorlage normalisiert die Dimensionsdaten von Kanal, Subkanal und Kampagne über die Beziehung zwischen Sitzung und Touchpoint. Dies unterscheidet sich vom Discover-Datenmodell, bei dem diese Dimensionen für die Sitzung denormalisiert werden. Aufgrund dieser Unterscheidung sollten die Gesamtzahlen für Besuche und Besuchende zwischen Discover und der Berichtsvorlage übereinstimmen. Wenn diese Zahlen jedoch nach Dimension angezeigt oder gefiltert werden, wird diese Übereinstimmung nicht erwartet. Dies liegt daran, dass die Dimensionsdaten in der Vorlage nur für Web-Ereignisse verfügbar sind, die zu einem Touchpoint geführt haben (d. h. nicht anonyme Ereignisse). Weitere Informationen finden Sie im Abschnitt [Datenmodell](#data-model) in dieser Dokumentation.
+Das Datenmodell der Berichtsvorlage normalisiert die Dimensionsdaten von Kanal, Subkanal und Kampagne über die Beziehung zwischen Sitzung und Touchpoint. Dies unterscheidet sich vom Discover-Datenmodell, bei dem diese Dimensionen für die Sitzung denormalisiert werden. Aufgrund dieser Unterscheidung sollten die Gesamtzahlen für Besuche und Besuchende zwischen Discover und der Reporting-Vorlage übereinstimmen. Wenn diese Zahlen jedoch nach Dimension angezeigt oder gefiltert werden, wird diese Übereinstimmung nicht erwartet. Dies liegt daran, dass die Dimensionsdaten in der Vorlage nur für Web-Ereignisse verfügbar sind, die zu einem Touchpoint geführt haben (d. h. nicht anonyme Ereignisse). Weitere Informationen finden Sie im Abschnitt [Datenmodell](#data-model) in dieser Dokumentation.
 
-Es kann kleine Diskrepanzen bei der Gesamtzahl der Site-Formulare zwischen [!DNL Discover] und der Vorlage geben. Dies liegt daran, dass das Datenmodell in der Berichtsvorlage über eine Beziehung zur Sitzung und dann zum Touchpoint Dimensionsdaten für das Site-Formular erhält. Es einigen Fälle weisen Site-Formulardaten keine korrelierte Sitzung auf.
+Es kann kleine Diskrepanzen bei der Gesamtzahl der Site-Formulare zwischen [!DNL Discover] und der Vorlage geben. Dies liegt daran, dass das Datenmodell in der Berichtsvorlage über eine Beziehung zur Sitzung und dann zum Touchpoint Dimensionsdaten für das Site-Formular erhält. In einigen Fällen weisen Site-Formulardaten jedoch keine korrelierte Sitzung auf.
 
 ### Leads und Konten {#leads-and-accounts}
 

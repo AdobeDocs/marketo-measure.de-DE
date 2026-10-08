@@ -1,16 +1,20 @@
 ---
 description: Zeigt, wie bizible.js so konfiguriert wird, dass auf das Einverständnis des Benutzers zur DSGVO gewartet wird, bevor Cookies gesetzt oder Daten gesendet werden
-title: Sicherstellen der Zustimmung für die DSGVO in Marketo Measure JS
+title: Sicherstellen des Einverständnisses für die DSGVO in Marketo Measure JS
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 92%
-
 ---
-
-# Sicherstellen der Zustimmung für die DSGVO in Marketo Measure JS {#ensuring-consent-for-gdpr-in-marketo-measure-js}
+# Sicherstellen des Einverständnisses für die DSGVO in Marketo Measure JS {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 Die Datenschutz-Grundverordnung (DSGVO) ist eine EU-Rechtsvorschrift, die am 25. Mai 2018 in Kraft getreten ist.
 
@@ -20,7 +24,7 @@ Ziel der DSGVO ist es, die Rechte der betroffenen Personen in der Europäischen 
 
 Standardmäßig sammelt [!DNL bizible.js] die Analysedaten der Benutzenden, es sei denn, es ist so konfiguriert, dass es auf die Zustimmung wartet. Wenn [!DNL bizible.js] so konfiguriert ist, dass es auf die Zustimmung der Benutzenden wartet, erstellt es keine Cookies und sendet keine Analysedaten, bis die Zustimmung erteilt wurde.
 
-## Warten auf Zustimmung {#how-to-wait-for-consent}
+## Warten auf Einverständnis {#how-to-wait-for-consent}
 
 Es gibt zwei Möglichkeiten, [!DNL bizible.js] so einzustellen, dass auf die Zustimmung gewartet wird.
 
@@ -58,9 +62,9 @@ Damit wird [!DNL bizible.js] angewiesen, nichts nachzuverfolgen, bis eine Zustim
 
 >[!NOTE]
 >
->bizible.js erstellt ein Cookie zur Erinnerung daran, dass die Zustimmung der Benutzerin bzw. des Benutzers eingegangen ist, und beginnt mit der Erfassung von Analysedaten wie gewohnt erst, nachdem die JS-API aufgerufen wurde.
+>bizible.js erstellt ein Cookie zur Erinnerung daran, dass das Einverständnis einer Benutzerin bzw. eines Benutzers eingegangen ist, und beginnt mit der Erfassung von Analysedaten wie gewohnt erst, nachdem die JS-API aufgerufen wurde.
 
-Im Gegensatz dazu können Kundinnen und Kunden diese API auch verwenden, um die Zustimmung der Person zu widerrufen:
+Im Gegensatz dazu können Kunden diese API auch verwenden, um das Einverständnis der Benutzerin bzw. des Benutzers zu widerrufen:
 
 `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); } };`
 

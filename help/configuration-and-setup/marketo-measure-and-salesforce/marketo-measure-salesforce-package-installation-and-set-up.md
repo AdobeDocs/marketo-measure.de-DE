@@ -1,20 +1,25 @@
 ---
-description: '[!DNL Marketo Measure] der Installation und Einrichtung von Salesforce-Paketen - [!DNL Marketo Measure]'
-title: '[!DNL Marketo Measure] [!DNL Salesforce] Paketinstallation und -einrichtung'
+description: '[!DNL Marketo Measure] der Installation und Einrichtung des Salesforce-Pakets - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] und Einrichten [!DNL Salesforce] Pakets'
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-TQID: https://experienceleague.adobe.com/l293WWmVHXGAthQKznwSssgTihMOdpqi4gh58t1fh-g
+TQID: 'https://experienceleague.adobe.com/l293WWmVHXGAthQKznwSssgTihMOdpqi4gh58t1fh-g'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Integrations
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: '512'
 ht-degree: 95%
-
 ---
-
 # Installation und Einrichtung von [!DNL Marketo Measure] Salesforce-Paketen {#marketo-measure-salesforce-package-installation-and-set-up}
 
 Vor der Installation des [!DNL Marketo Measure]-[!DNL Salesforce]-Basispakets müssen Sie ermitteln, ob Sie es zuerst in einer [!DNL Salesforce]-Sandbox installieren, bevor Sie zu Ihrer Salesforce-Produktionsinstanz wechseln.
@@ -66,9 +71,9 @@ Schritt 1: Erstellen eines spezifischen [!DNL Marketo Measure]-Profils
 1. Weisen Sie die folgenden Berechtigungen zu:
 
 * &quot;[!DNL Marketo Measure]-Administratorberechtigungssatz&quot;
-   * Der verwaltete Berechtigungssatz bietet einem SFDC-Administrator die Möglichkeit, Einträge von [!DNL Marketo Measure]-Objekten zu erstellen, zu lesen, zu schreiben und zu löschen.
+  * Der verwaltete Berechtigungssatz bietet einem SFDC-Administrator die Möglichkeit, Einträge von [!DNL Marketo Measure]-Objekten zu erstellen, zu lesen, zu schreiben und zu löschen.
 * &quot;Berechtigungssatz für konvertierte Leads anzeigen und bearbeiten&quot;
-   * Dies ermöglicht [!DNL Marketo Measure], Leads zu dekorieren, nachdem sie in Kontakte umgewandelt wurden. Wenn dieser Berechtigungssatz nicht aktiviert ist, kann es zu erheblichen Lücken beim Daten-Tracking kommen.
+  * Dies ermöglicht [!DNL Marketo Measure], Leads zu dekorieren, nachdem sie in Kontakte umgewandelt wurden. Wenn dieser Berechtigungssatz nicht aktiviert ist, kann es zu erheblichen Lücken beim Daten-Tracking kommen.
 
 >[!NOTE]
 >
@@ -78,9 +83,9 @@ Schritt 2: Erstellen Sie einen dedizierten [!DNL Marketo Measure]-Benutzer, dami
 
 1. Weisen Sie das [!DNL Marketo Measure]-Profil diesem Benutzer neu zu.
 
-1. Aktivieren Sie &quot;Marketing-Benutzer“ als Berechtigung auf Benutzerebene.
+1. Aktivieren Sie „Marketing User“ als Berechtigung auf Benutzerebene.
 
-* Das Kontrollkästchen [!UICONTROL Marketing-Benutzer] ermöglicht es dem Benutzer, Kampagnen zu erstellen und die Assistenten zum Importieren von Kampagnen zu verwenden. Wenn diese Option nicht ausgewählt ist, können die Benutzenden nur Kampagnen und erweiterte Kampagneneinstellungen anzeigen, den Kampagnenverlauf für einen einzelnen Lead oder Kontakt bearbeiten und Kampagnenberichte ausführen. [!DNL Marketo Measure] muss in der Lage sein, das Kampagnenobjekt zu lesen und hineinzuschreiben.
+* Das Kontrollkästchen [!UICONTROL Marketing-Benutzer] ermöglicht es dem Benutzer, Kampagnen zu erstellen und die Assistenten zum Importieren von Kampagnen zu verwenden. Wenn diese Option nicht ausgewählt ist, kann der Benutzer nur Kampagnen und das erweiterte Kampagnen-Setup anzeigen, den Campaign History für einen einzelnen Lead oder Kontakt bearbeiten und Kampagnenberichte ausführen. [!DNL Marketo Measure] muss in der Lage sein, das Kampagnenobjekt zu lesen und hineinzuschreiben.
 
 Schritt 3: Schließen Sie dieses Profil aus allen Triggern, Workflows und Prozessen aus
 
@@ -92,7 +97,7 @@ Schritt 4: Melden Sie sich bei Ihrem [!DNL Marketo Measure]-Konto an und autoris
 
 1. Wählen Sie **[!UICONTROL Verbindungen]** in der Gruppierung **[!UICONTROL Integrationen]**.
 
-1. Klicken Sie auf das Schlüsselsymbol rechts neben der aktuell verbundenen [!DNL Salesforce]-Verbindung und wählen Sie **Erneut mit Produktion autorisieren**. Melden Sie sich mit den neuen Anmeldeinformationen erneut an (wenn Sie dazu aufgefordert werden).
+1. Klicken Sie auf das Schlüsselsymbol rechts neben der aktuell verbundenen [!DNL Salesforce]-Verbindung und wählen Sie **Erneut mit Produktion autorisieren**. Melden Sie sich mit den neuen Anmeldedaten erneut an (wenn Sie dazu aufgefordert werden).
 
 >[!MORELIKETHIS]
 >

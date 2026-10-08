@@ -1,28 +1,31 @@
 ---
 unique-page-id: 18874539
-description: Erstellen benutzerdefinierter  [!DNL Marketo Measure] -Berichtstypen - [!DNL Marketo Measure]
-title: Erstellen benutzerdefinierter  [!DNL Marketo Measure] Berichtstypen
+description: Erstellen benutzerdefinierter [!DNL Marketo Measure] Berichtstypen - [!DNL Marketo Measure]
+title: Erstellen benutzerdefinierter [!DNL Marketo Measure] Berichtstypen
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-TQID: https://experienceleague.adobe.com/9EUfRTrISEMdz70ZgJE5MjP1bworxRqnFZVnjYEmSio
+TQID: 'https://experienceleague.adobe.com/9EUfRTrISEMdz70ZgJE5MjP1bworxRqnFZVnjYEmSio'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 370
-ht-degree: 6%
-
+source-wordcount: '372'
+ht-degree: 5%
 ---
-
 # Erstellen benutzerdefinierter [!DNL Marketo Measure] Berichtstypen {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
 >
->Möglicherweise werden in der Dokumentation Anweisungen für &quot;[!DNL Marketo Measure]&quot; angezeigt, in Ihrem CRM-System wird jedoch weiterhin &quot;[!DNL Bizible]&quot; angezeigt. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
+>Möglicherweise werden in der Dokumentation Anweisungen für &quot;[!DNL Marketo Measure]&quot; angezeigt, in Ihrem CRM-System wird jedoch weiterhin &quot;[!DNL Bizible]&quot; angezeigt. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem Customer Relationship Management zu sehen sein.
 
 Erfahren Sie, wie Sie benutzerdefinierte [!DNL Marketo Measure] [!DNL Salesforce] Berichtstypen erstellen. Es gibt drei verschiedene Berichtstypen, die wir empfehlen zu erstellen: Leads mit Käufer-Touchpoints (benutzerdefiniert), [!DNL Marketo Measure] Person mit Käufer-Touchpoints (benutzerdefiniert), Opportunities mit Buyer Attribution Touchpoint (benutzerdefiniert).
 

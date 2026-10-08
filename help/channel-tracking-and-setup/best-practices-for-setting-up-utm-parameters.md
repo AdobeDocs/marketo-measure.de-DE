@@ -3,17 +3,21 @@ description: Anleitung zu Best Practices für die Einrichtung von UTM-Parametern
 title: Best Practices zum Einrichten von UTM-Parametern
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 80%
-
 ---
+# Best Practices zum Festlegen von UTM-Parametern {#best-practices-for-setting-up-utm-parameters}
 
-# Best Practices zum Einrichten von UTM-Parametern {#best-practices-for-setting-up-utm-parameters}
-
-UTM-Parameter eignen sich hervorragend, um die Slice-and-Dice-Technik auf Ihre Marketing-Daten anzuwenden. [!DNL Marketo Measure] verwendet und erfasst alle UTM-Parameter, um Felder in Salesforce und in der [!DNL Marketo Measure]-App aufzufüllen. Mit diesen Informationen erhalten Sie ein genaues Verständnis dafür, woher Ihre Leads, Opportunitys und abgeschlossenen/gewonnenen Deals stammen.
+UTM-Parameter eignen sich hervorragend, um Ihre Marketing-Daten detailliert zu analysieren. [!DNL Marketo Measure] verwendet und erfasst alle UTM-Parameter, um Felder in Salesforce und in der [!DNL Marketo Measure]-App aufzufüllen. Mit diesen Informationen erhalten Sie ein genaues Verständnis dafür, woher Ihre Leads, Opportunitys und abgeschlossenen/gewonnenen Deals stammen.
 
 Sie können den [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=de){target="_blank"} verwenden, um Ihre UTM-Parameter einzurichten und sie im Rahmen Ihrer Marketing-Maßnahmen Ihren Links hinzuzufügen. Verwenden Sie diese [Google](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}Tabelle, wenn Sie alle UTM-Links leichter verfolgen möchten.
 
@@ -29,9 +33,9 @@ Verwenden Sie dieses Feld nicht, um den Subkanal zu benennen.
 
 Beispiel: Facebook, Twitter, LinkedIn, Drip_email, Email_blast, newsletter.
 
-Achten Sie auf Einfachheit. Verwenden Sie diesen Parameter nicht, um die Anzeigenart, z. B. „Retargeting“, „Gesponsert“, anzugeben. Fügen Sie kein „utm_source = homepage, webdirect, website“ hinzu. [!DNL Marketo Measure] trägt diese Informationen automatisch für Sie ein.
+Achten Sie auf Einfachheit. Verwenden Sie diesen Parameter nicht, um die Anzeigenart, z. B. „Retargeting“, „Gesponsert“, anzugeben. Fügen Sie kein „utm_source = Startseite, webdirect, Website“ hinzu. [!DNL Marketo Measure] trägt diese Informationen automatisch für Sie ein.
 
-**utm_campaign**: Dieses Feld ist dem Anzeigenkampagnennamen zugeordnet. Verwenden Sie „utm_campaign“, um den Titel der Kampagne so wie auf der Anzeigenplattform oder intern referenziert anzugeben.
+**utm_campaign**: Dieses Feld ist dem Anzeigenkampagnennamen zugeordnet. Verwenden Sie „utm_campaign“, um den Titel der Kampagne so anzugeben, wie er auf der Anzeigenplattform oder intern verwendet wird.
 
 Dies ist auch ein guter Parameter, um Geolocation, Ad-Netzwerk-Typ (Anzeige v. search), und so weiter.
 
@@ -59,6 +63,6 @@ Beispiel: Wenn eine [!UICONTROL Display]-Anzeige auf Facebook platziert wird, em
 
 `fakewebsite.com/?utm_medium=social&utm_source=facebook&utm_campaign=Display_campaign_ID&utm_content=content_of_campaign`
 
-Beachten Sie, dass Begriffe/Kanäle nicht dupliziert werden und in diesem Fall „utm_term“ nicht verwendet wird.
+Beachten Sie, dass Suchbegriffe und Kanäle nicht dupliziert werden und in diesem Fall „utm_term“ nicht verwendet wird.
 
 Bei Fragen wenden Sie sich an das Adobe Account Team (Ihren Account Manager) oder an den [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

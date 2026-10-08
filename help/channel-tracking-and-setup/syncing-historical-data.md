@@ -3,13 +3,17 @@ description: Anleitung zum Synchronisieren historischer Daten für Marketo Measu
 title: Synchronisieren historischer Daten
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 3%
-
 ---
-
 # Synchronisieren historischer Daten {#syncing-historical-data}
 
 [!DNL Marketo Measure] ist eine Lösung, die die detailliertesten, umsetzbaren Daten bereitstellt. Nach unserem Kenntnisstand verfügen Sie möglicherweise über vorhandene Daten, für die Sie eine Attribution wünschen. Es ist möglich, Touchpoints für historische Daten zu generieren, aber es ist wichtig, einige Faktoren zu berücksichtigen, bevor Sie mit diesem Prozess fortfahren.

@@ -1,15 +1,19 @@
 ---
-description: Anleitung zur Erstellung einer Kampagnenlistenansicht für  [!DNL Salesforce] -Kampagnen für Marketo Measure-Benutzende
-title: Erstellen einer Kampagnenlisten-Ansicht für [!DNL Salesforce] -Kampagnen
+description: Anleitung zum Erstellen einer Kampagnenlistenansicht für [!DNL Salesforce] Kampagnen für Marketo Measure-Benutzende
+title: Erstellen einer Kampagnenlistenansicht für [!DNL Salesforce] Kampagnen
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 6%
-
+source-wordcount: '451'
+ht-degree: 4%
 ---
-
 # Erstellen einer Kampagnenlistenansicht für [!DNL Salesforce] Kampagnen {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Erfahren Sie, wie Sie eine Listenansicht für die Kampagnen erstellen, die Sie mit Käufer-Touchpoints synchronisieren möchten.
@@ -26,7 +30,7 @@ In der Listenansicht der Kampagne, die erstellt werden kann, haben Sie die Mögl
 
    * **Typ** [GLEICH] „Alle Kampagnentypen, die wir Ihren Offline-Kanälen zugeordnet haben“. Weitere Informationen finden Sie in Ihrem Implementierungsplan oder auf der Registerkarte „Offline-Kanäle“ in [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mein Konto -> Einstellungen -> Offline-Kanäle). Sie können die gewünschten Typen (die einem Offline-Marketing-Kanal zugeordnet sind) über das Lupensymbol auswählen.
 
-      * Wählen Sie maximal 3 Typen für jeden Filter. Es gibt eine Begrenzung von Zeichen, die Sie in einem Filterfeld haben können. Beginnen Sie mit 3 Typen pro Filter und fügen Sie bei Bedarf zusätzliche Zeilen von „Typ“-Filtern hinzu.
+     * Wählen Sie maximal 3 Typen für jeden Filter. Es gibt eine Begrenzung von Zeichen, die Sie in einem Filterfeld haben können. Beginnen Sie mit 3 Typen pro Filter und fügen Sie bei Bedarf zusätzliche Zeilen von „Typ“-Filtern hinzu.
 
    * **Erstellungsdatum** [GRÖSSER ODER GLEICH] Ihr [!DNL Marketo Measure]. Ihr Startdatum finden Sie im ROI-Dashboard der [!DNL Marketo Measure] App. Wählen Sie einfach &#39;Seit Erstellungsdatum&#39; im Datumsbereich des Bindestrichs aus und es wird Ihr Startdatum angezeigt.
    * **&#42;Datensatztyp&#42;**: Um Änderungen in der Listenansicht vorzunehmen, müssen Sie einen Filter für Datensatztyp hinzufügen. Jeder Kampagnendatensatz, den Sie möglicherweise bearbeiten müssen, muss vom gleichen Datensatztyp sein.

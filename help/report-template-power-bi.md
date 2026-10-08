@@ -1,15 +1,19 @@
 ---
-description: '[!DNL Marketo Measure]-Berichtsvorlage - Power BI - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] - Power BI - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure]-Berichtsvorlage – Power BI'
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2735'
 ht-degree: 91%
-
 ---
-
 # [!DNL Marketo Measure]-Berichtsvorlage – Power BI {#marketo-measure-report-template-power-bi}
 
 ## Erste Schritte {#getting-started}
@@ -42,7 +46,7 @@ Alle Abfragen filtern gelöschte Zeilen heraus, und die [!UICONTROL Faktentabell
 
 >[!NOTE]
 >
->Da die Datumsfilter auf das Änderungsdatum einer Zeile angewendet werden, sollten Sie beim Reporting für Daten, die außerhalb des eingeschränkten Datumsbereichs liegen, Vorsicht walten lassen. Nehmen wir zum Beispiel an, der geänderte Datumsbereich ist auf die letzten beiden Jahre beschränkt. Dies kann ein Ereignis mit einem Ereignisdatum von vor drei Jahren umfassen, das jedoch kürzlich geändert wurde. Das Reporting über Ereignisse, die drei Jahre zurückliegen, liefert jedoch unvollständige Ergebnisse, da nicht alle Zeilen innerhalb des Zeitraums von zwei Jahren geändert wurden.
+>Da die Datumsfilter auf das Änderungsdatum einer Zeile angewendet werden, sollten Sie beim Reporting für Datumsangaben, die außerhalb des eingeschränkten Datumsbereichs liegen, Vorsicht walten lassen. Nehmen wir zum Beispiel an, der geänderte Datumsbereich ist auf die letzten beiden Jahre beschränkt. Dies kann ein Ereignis mit einem Ereignisdatum von vor drei Jahren umfassen, das jedoch kürzlich geändert wurde. Das Reporting über Ereignisse, die drei Jahre zurückliegen, liefert jedoch unvollständige Ergebnisse, da nicht alle Zeilen innerhalb des Zeitrahmens von zwei Jahren geändert wurden.
 
 ![Da die Datumsfilter auf das Änderungsdatum eines angewendet werden](assets/marketo-bi-3.png)
 
@@ -99,15 +103,15 @@ Tabellen und Spalten wurden umbenannt, um sie benutzerfreundlicher zu gestalten 
 
 ### Segmente umbenannt {#renamed-segments}
 
-Da Segmentnamen angepasst werden können, verfügen sie im Snowflake Data Warehouse über generische Spaltennamen. [!DNL BIZ_SEGMENT_NAMES] ist eine Zuordnungstabelle, in der der generische Segmentname und der zugeordnete benutzerdefinierte Segmentname aufgelistet sind, die im Abschnitt Segment in der [!DNL Marketo Measure]-Benutzeroberfläche definiert sind. Die Tabelle „Segmentname“ wird verwendet, um die Segmentspalten in den Lead-Touchpoint- und Attributions-Touchpoint-Tabellen umzubenennen. Wenn kein benutzerdefiniertes Segment vorhanden ist, bleibt der allgemeine Segmentname erhalten.
+Da Segmentnamen benutzerdefiniert sind, weisen sie im Snowflake Data Warehouse allgemeine Spaltennamen auf. [!DNL BIZ_SEGMENT_NAMES] ist eine Zuordnungstabelle, in der der allgemeine Segmentname und der zugeordnete angepasste Segmentname aufgeführt werden, wie im Segmentabschnitt der [!DNL Marketo Measure]-Benutzeroberfläche definiert. Die Tabelle „Segmentname“ wird verwendet, um die Segmentspalten in den Lead-Touchpoint- und Attributions-Touchpoint-Tabellen umzubenennen. Wenn kein benutzerdefiniertes Segment vorhanden ist, bleibt der allgemeine Segmentname erhalten.
 
 ![Da Segmentnamen angepasst werden können, verfügen sie über generische Spaltennamen in der](assets/marketo-bi-4.png)
 
 ### ID-Umwandlung mit Unterscheidung zwischen Groß-/Kleinschreibung {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure]-Daten verfügen über einige Tabellen, bei denen die Werte des Primärschlüssels (ID) zwischen Groß- und Kleinschreibung unterscheiden, nämlich „Touchpoint“ und „Kampagne“. Die Daten-Engine, die die Power BI-Modellierungsebene steuert, unterscheidet nicht zwischen Groß- und Kleinschreibung, was zu „doppelten“ ID-Werten führt. Um die Groß-/Kleinschreibung dieser Schlüsselwerte zu erhalten, wurden Umwandlungsschritte implementiert, die unsichtbare Zeichen an Kleinbuchstaben anhängen, wobei die Eindeutigkeit der ID bei der Auswertung auf Daten-Engine-Ebene gewahrt bleibt. Weitere Informationen zu diesem Problem und zu den detaillierten Schritten für die angewendete Methode finden Sie [hier] (https://blog.crossjoin.co.uk/2019
-/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Diese ID-Werte, bei denen zwischen Groß- und Kleinschreibung unterschieden wird, werden als „Join-IDs“ (Verküpfungs-IDs) bezeichnet und als Joinkeys (Verknüpfungsschlüssel) auf Beziehungsebene verwendet. Die Join-IDs wurden in der Berichtsebene ausgeblendet, sodass die ursprünglichen ID-Werte für Berichte sichtbar bleiben, da die unsichtbaren Zeichen die Funktionen zum Ausschneiden/Einfügen und 
-Filtern beeinträchtigen können.
+[!DNL Marketo Measure]-Daten verfügen über einige Tabellen, bei denen die Werte des Primärschlüssels (ID) zwischen Groß- und Kleinschreibung unterscheiden, nämlich „Touchpoint“ und „Kampagne“. Die Daten-Engine, die die Power BI-Modellierungsebene steuert, unterscheidet nicht zwischen Groß- und Kleinschreibung, was zu „doppelten“ ID-Werten führt. Um die Groß-/Kleinschreibung dieser Schlüsselwerte zu erhalten, wurden Umwandlungsschritte implementiert, die unsichtbare Zeichen an Kleinbuchstaben anhängen, wobei die Eindeutigkeit der ID bei der Auswertung auf Daten-Engine-Ebene gewahrt bleibt. Weitere Informationen zu diesem Problem und zu den detaillierten Schritten zur von uns verwendeten Methode finden Sie [hier] (https://blog.crossjoin.co.uk/2019
+/10/06/power-bi-and-case-sensitive/){target="_blank"}. Diese ID-Werte, bei denen zwischen Groß- und Kleinschreibung unterschieden wird, werden als „Join-IDs“ (Verküpfungs-IDs) bezeichnet und als Joinkeys (Verknüpfungsschlüssel) auf Beziehungsebene verwendet. Wir haben die Join-IDs in der Reporting-Ebene ausgeblendet, sodass die ursprünglichen ID-Werte für die Verwendung in Berichten sichtbar bleiben, da die unsichtbaren Zeichen das Ausschneiden beeinträchtigen können
+Funktionen zum Einfügen und Filtern.
 
 ![/Einfügen von Funktionen und Filtern.](assets/marketo-bi-8.png)
 
@@ -119,7 +123,7 @@ Um den Berechnungen im Modell Funktionen zur Währungsumrechnung hinzuzufügen, 
 
 ![Um den Berechnungen im Modell Währungsumrechnungsfunktionen hinzuzufügen, haben wir folgende Möglichkeiten](assets/marketo-bi-10.png)
 
-Die in [!DNL Snowflake] gespeicherte Tabelle „Umrechnungskurs“ enthält einen Datumsbereich für jede Umrechnung. Power BI erlaubt keine Verknüpfungskriterien für eine Berechnung (d. h. zwischen einem Datumsbereich). Für eine Verknüpfung an einem Datum wurden der Tabelle Schritte für den Umrechnungskurs hinzugefügt, um die Zeilen so zu erweitern, dass im Datumsbereich für die Umrechnung für jedes Datum eine Zeile vorhanden ist.
+Die in [!DNL Snowflake] gespeicherte Tabelle „Umrechnungskurs“ enthält einen Datumsbereich für jede Umrechnung. Power BI erlaubt keine Verknüpfungskriterien für eine Berechnung (d. h. zwischen einem Datumsbereich). Um eine Verknüpfung nach Datum zu ermöglichen, haben wir der Tabelle „Konversionsrate“ Schritte hinzugefügt, um die Zeilen so zu erweitern, dass im Konversionsdatumsbereich für jedes Datum eine Zeile vorhanden ist.
 
 ![Die in Snowflake gespeicherte Konversionsratentabelle enthält einen Datumsbereich](assets/marketo-bi-9.png)
 
@@ -135,9 +139,9 @@ Ereignisdaten, die zum Erstellen von Touchpoints verwendet werden, werden in den
 
 Lead-Touchpoints und Attributions-Touchpoints werden in ihren eigenen Tabellen gespeichert, und zwar mit einem Link zur Touchpoint-Tabelle. Die meisten Dimensionsdaten für Lead- und Attributions-Touchpoints stammen aus ihrer Verknüpfung mit dem entsprechenden Touchpoint.
 
-In diesem Modell sind die Dimensionen „Kampagne“ und „Kanal“ mit dem Touchpoint verknüpft, sodass alle Berichte zu diesen Dimensionen über diesen Link erfolgen. Das bedeutet, dass die dimensionsbezogenen Berichte zu Ereignisdaten möglicherweise unvollständig sind. Dies ist darauf zurückzuführen, dass viele Ereignisse erst dann Links zu diesen Dimensionen haben, nachdem sie zu Touchpoints verarbeitet wurden. Hinweis: Einige Ereignisse, wie z. B. Sitzungen, haben direkte Links zu den Dimensionen „Kampagne“ und „Kanal“. Wenn Berichte zu diesen Dimensionen auf Sitzungsebene gewünscht werden, wird empfohlen, hierzu ein eigenes Datenmodell zu erstellen.
+In diesem Modell sind die Dimensionen „Kampagne“ und „Kanal“ mit dem Touchpoint verknüpft, sodass alle Berichte zu diesen Dimensionen über diesen Link erfolgen. Das bedeutet, dass die dimensionsbezogenen Berichte zu Ereignisdaten möglicherweise unvollständig sind. Dies ist darauf zurückzuführen, dass viele Ereignisse erst dann Links zu diesen Dimensionen haben, nachdem sie zu Touchpoints verarbeitet wurden. Hinweis: Einige Ereignisse, wie z. B. Sitzungen, haben direkte Verknüpfungen zu den Dimensionen „Kampagne“ und „Kanal“. Wenn Berichte zu diesen Dimensionen auf Sitzungsebene gewünscht werden, wird empfohlen, hierzu ein eigenes Datenmodell zu erstellen.
 
-Kostendaten werden auf unterschiedlichen Aggregationsebenen in der [!DNL Snowflake] Data Warehouse-Kostentabelle gespeichert. Für alle Anzeigenanbieter kann für die Daten auf Kampagnenebene ein Rollup auf Kanalebene durchgeführt werden. Aus diesem Grund ruft dieses Modell Kostendaten basierend auf dem Flag „campaign_is_aggregatable_cost“ ab. Selbstgemeldete Kosten können nur auf Kanalebene übermittelt werden und sind nicht erforderlich, um über Kampagnendaten zu verfügen. Um möglichst genaue Kostenberichte zu ermöglichen, werden die selbstgemeldeten Kosten basierend auf dem Flag „channel_is_aggregatable_cost“ abgerufen. Die Abfrage zum Import von Kostendaten wird mit folgender Logik verfasst: If ad_provider = &quot;SelfReported&quot; then channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
+Kostendaten werden auf unterschiedlichen Aggregationsebenen in der [!DNL Snowflake] Data Warehouse-Kostentabelle gespeichert. Für alle Anzeigenanbieter kann für die Daten auf Kampagnenebene ein Rollup auf Kanalebene durchgeführt werden. Aus diesem Grund ruft dieses Modell Kostendaten basierend auf der Markierung „campaign_is_aggregatable_cost“ ab. Selbstgemeldete Kosten können nur auf Kanalebene übermittelt werden und sind nicht erforderlich, um über Kampagnendaten zu verfügen. Um möglichst genaue Kostenberichte zu ermöglichen, werden die selbstgemeldeten Kosten basierend auf der Markierung „channel_is_aggregatable_cost“ abgerufen. Die Abfrage zum Import von Kostendaten wird mit folgender Logik verfasst: If ad_provider = &quot;SelfReported&quot; then channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
 
 Kostendaten und Touchpoint-Daten verfügen über einige gemeinsame Dimensionen, sodass beide Faktentabellen Beziehungen zu den Dimensionstabellen „Kampagne“ und „Kanal“ aufweisen.
 
@@ -147,7 +151,7 @@ Im Kontext dieses Modells werden diese Modell-, [!UICONTROL Lead]-, [!UICONTROL 
 
 **Datum**
 
-Da Power BI nur Beziehungen zwischen Tabellen in einer Spalte ermöglicht, wurde eine Dimensionstabelle „Datum“ hinzugefügt, um die nötige Verknüpfung zwischen den Tabellen mit den Beträgen (Opportunity und Kosten) und der Tabelle „Umrechnungskurs“ zu ermöglichen. Weitere Informationen zum Berechnen von Währungsumrechnungen in diesem Modell finden Sie im Abschnitt „Währungsumrechnung“.
+Da Power BI nur Beziehungen zwischen Tabellen in einer Spalte ermöglicht, wurde eine Dimensionstabelle „Datum“ hinzugefügt, um die nötige Verknüpfung zwischen den Tabellen mit den Beträgen (Opportunity und Kosten) und der Tabelle „Umrechnungskurs“ zu ermöglichen. Weitere Informationen dazu, wie Währungsumrechnungen in diesem Modell berechnet werden, finden Sie im Abschnitt „Währungsumrechnung“.
 
 **Kennzahlen**
 
@@ -159,7 +163,7 @@ Es wurde eine separate Tabelle hinzugefügt, in der die Namen der Attributionsmo
 
 ### Währungsumrechnung {#currency-conversion}
 
-Die in der Tabelle „Umrechnungskurs“ angegebenen Kurse stellen den Wert dar, der zum Umrechnen eines Betrags aus der Unternehmenswährung erforderlich ist. Für Umrechnungen in eine beliebige Währung ist eine doppelte Umrechnung erforderlich: zunächst von der ursprünglichen Währung in die Unternehmenswährung und dann von der Unternehmenwährung in die ausgewählte Währung. Der erste Schritt in dieser Kette im Modell besteht darin, eine Spalte mit diesem Umrechnungskurs zu den Tabellen mit Beträgen, Opportunitys und Kosten hinzuzufügen. Diese Schritte werden unter der Überschrift „Zeilen hinzugefügt“ des Abschnitts „Datenumwandlungen“ in diesem Dokument beschrieben. Bei der Umrechnung von der ursprünglichen Währung in die Unternehmenswährung wird der Wert durch diese hinzugefügte Spalte geteilt. Der nächste Schritt besteht darin, den unternehmensbezogenen Währungswert mit dem Kurs in der Tabelle „Umrechnungskurs“ zu multiplizieren, der der ausgewählten Währung entspricht.
+Die in der Tabelle „Umrechnungskurs“ angegebenen Kurse stellen den Wert dar, der zum Umrechnen eines Betrags aus der Unternehmenswährung erforderlich ist. Für Umrechnungen in eine beliebige Währung ist eine doppelte Umrechnung erforderlich: zunächst von der ursprünglichen Währung in die Unternehmenswährung und dann von der Unternehmenswährung in die ausgewählte Währung. Der erste Schritt in dieser Kette im Modell besteht darin, eine Spalte mit diesem Umrechnungskurs zu den Tabellen mit Beträgen, Opportunitys und Kosten hinzuzufügen. Diese Schritte werden unter der Überschrift „Zeilen hinzugefügt“ des Abschnitts „Datenumwandlungen“ in diesem Dokument beschrieben. Bei der Umrechnung von der ursprünglichen Währung in die Unternehmenswährung wird der Wert durch diese hinzugefügte Spalte geteilt. Der nächste Schritt besteht darin, den unternehmensbezogenen Währungswert mit dem Kurs in der Tabelle „Konversionsrate“ zu multiplizieren, der der ausgewählten Währung entspricht.
 
 * Umrechnen des ursprünglichen Werts in den unternehmensbezogenen Währungswert / unternehmensbezogener Umrechnungskurs = Wert in der Unternehmenswährung
 * Umrechnen des Werts aus dem unternehmensbezogenen in den ausgewählten Währungswert in der Unternehmenswährung `*` Umrechnungskurs der ausgewählten Währung = Wert in der ausgewählten Währung
@@ -182,7 +186,7 @@ Zum Power BI-Modell wurden Definitionen für Tabellen, benutzerdefinierte Spalte
 
 Informationen zum Anzeigen von Definitionen für Spalten, die direkt aus [!DNL Snowflake] stammen, finden Sie in der [Data-Warehouse-Dokumentation](/help/data-warehouse-schema.md){target="_blank"}.
 
-## Diskrepanzen zwischen Vorlagen- und Discover-Modell {#discrepancies-between-templates-and-discover}
+## Diskrepanzen zwischen Vorlagen und Discover {#discrepancies-between-templates-and-discover}
 
 ### Attributierter Umsatz {#attributed-revenue}
 
@@ -198,19 +202,19 @@ Da sich der ROI aus attributiertem Umsatz und Kosten berechnet, können dieselbe
 
 ### Touchpoints {#touchpoints}
 
-Diese Metriken werden, wie in den Berichtsvorlagen dargestellt, in Discover nicht widergespiegelt. Es ist derzeit kein direkter Vergleich zwischen Vorlagen und Discover möglich.
+Diese Metriken werden, wie in den Berichtsvorlagen dargestellt, in Discover nicht widergespiegelt. Es ist derzeit kein direkter Vergleich zwischen den beiden möglich.
 
 ### Webtraffic {#web-traffic}
 
-Das Datenmodell der Berichtsvorlage normalisiert die Dimensionsdaten von Kanal, Subkanal und Kampagne über die Beziehung zwischen Sitzung und Touchpoint. Dies unterscheidet sich vom Discover-Datenmodell, bei dem diese Dimensionen für die Sitzung denormalisiert werden. Aufgrund dieser Unterscheidung sollten die Gesamtzahlen für Besuche und Besuchende zwischen Discover und der Berichtsvorlage übereinstimmen. Wenn diese Zahlen jedoch nach Dimension angezeigt oder gefiltert werden, wird diese Übereinstimmung nicht erwartet. Dies liegt daran, dass die Dimensionsdaten in der Vorlage nur für Web-Ereignisse verfügbar sind, die zu einem Touchpoint geführt haben (d. h. nicht anonyme Ereignisse). Weitere Informationen finden Sie im Abschnitt [Datenmodell](#data-model) in dieser Dokumentation.
+Das Datenmodell der Berichtsvorlage normalisiert die Dimensionsdaten von Kanal, Subkanal und Kampagne über die Beziehung zwischen Sitzung und Touchpoint. Dies unterscheidet sich vom Discover-Datenmodell, bei dem diese Dimensionen für die Sitzung denormalisiert werden. Aufgrund dieser Unterscheidung sollten die Gesamtzahlen für Besuche und Besuchende zwischen Discover und der Reporting-Vorlage übereinstimmen. Wenn diese Zahlen jedoch nach Dimension angezeigt oder gefiltert werden, wird diese Übereinstimmung nicht erwartet. Dies liegt daran, dass die Dimensionsdaten in der Vorlage nur für Web-Ereignisse verfügbar sind, die zu einem Touchpoint geführt haben (d. h. nicht anonyme Ereignisse). Weitere Informationen finden Sie im Abschnitt [Datenmodell](#data-model) in dieser Dokumentation.
 
-Es kann kleine Diskrepanzen bei der Gesamtzahl der Site-Formulare zwischen [!DNL Discover] und der Vorlage geben. Dies liegt daran, dass das Datenmodell in der Berichtsvorlage über eine Beziehung zur Sitzung und dann zum Touchpoint Dimensionsdaten für das Site-Formular erhält. Es einigen Fälle weisen Site-Formulardaten keine korrelierte Sitzung auf.
+Es kann kleine Diskrepanzen bei der Gesamtzahl der Site-Formulare zwischen [!DNL Discover] und der Vorlage geben. Dies liegt daran, dass das Datenmodell in der Berichtsvorlage über eine Beziehung zur Sitzung und dann zum Touchpoint Dimensionsdaten für das Site-Formular erhält. In einigen Fällen weisen Site-Formulardaten jedoch keine korrelierte Sitzung auf.
 
 ### Leads und Konten {#leads-and-accounts}
 
 Die Dimensionsberichte für die betroffenen Konten können zwischen Discover und der Vorlage geringfügig voneinander abweichen. Dies ist erneut auf die Dimensionsmodellierung auf Basis der Beziehung zwischen Touchpoint und Lead- bzw. Attributions-Touchpoint zurückzuführen. Weitere Informationen dazu finden Sie im Abschnitt „Zugewiesener Umsatz“.
 
-Alle Lead-Zahlen in Discover sind attributierte Lead-Zahlen, und in der Berichtsvorlage weist die Metrik Lead-Touchpoints auf. Daher ist für diese Kennzahl kein direkter Vergleich zwischen den beiden Berichten möglich.
+Alle Lead-Zahlen in Discover sind attributierte Lead-Zahlen und in der Berichtsvorlage lautet die Metrik „Lead-Touchpoints“. Daher ist für diese Kennzahl kein direkter Vergleich zwischen den beiden Berichten möglich.
 
 ### Interaktionsverlauf {#engagement-path}
 

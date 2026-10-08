@@ -3,13 +3,17 @@ description: Anleitung zu Best Practices für Touchpoint-Einstellungen für Benu
 title: Best Practices für Touchpoint-Einstellungen
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 6%
-
 ---
-
 # Best Practices für Touchpoint-Einstellungen {#best-practices-for-touchpoint-settings}
 
 ## Überblick {#overview}
@@ -23,13 +27,13 @@ Im [!UICONTROL Touchpoint]Einstellungen Ihrer [!DNL Marketo Measure] App können
 In Ihrer [!DNL Marketo Measure] App ist der Abschnitt [!UICONTROL Touchpoint]Einstellungen“ in vier wichtige Abschnitte unterteilt. Jeder Abschnitt unterdrückt oder entfernt einen anderen Datensatz. Verwenden Sie die unten stehende Taste, um sicherzustellen, dass Ihre Regeln die gewünschten Touchpoints unterdrücken oder entfernen.
 
 * Entfernen Sie Buyer Touchpoints aus dem CRM
-   * Verwenden Sie diesen Abschnitt, wenn Sie eine Regel erstellen möchten, mit der **Buyer Touchpoint-Daten** (die Touchpoints, die der Person zugeordnet sind, nicht der Opportunity) aus Ihrem **CRM entfernt werden**
+  * Verwenden Sie diesen Abschnitt, wenn Sie eine Regel erstellen möchten, mit der **Buyer Touchpoint-Daten** (die Touchpoints, die der Person zugeordnet sind, nicht der Opportunity) aus Ihrem **CRM entfernt werden**
 * Buyer Touchpoints aus dem CRM unterdrücken
-   * Verwenden Sie diesen Abschnitt, wenn Sie eine Regel erstellen möchten, die **Buyer Touchpoint-Daten** (die Touchpoints, die der Person zugeordnet sind, nicht der Opportunity) aus Ihrem **CRM** und **Entdecken** entfernt
+  * Verwenden Sie diesen Abschnitt, wenn Sie eine Regel erstellen möchten, die **Buyer Touchpoint-Daten** (die Touchpoints, die der Person zugeordnet sind, nicht der Opportunity) aus Ihrem **CRM** und **Entdecken** entfernt
 * Buyer Attribution Touchpoints aus dem CRM entfernen
-   * Verwenden Sie diesen Abschnitt, wenn Sie eine Regel erstellen möchten, mit der **Buyer Attribution Touchpoint**-Daten (die Touchpoints, die mit der Opportunity und dem Umsatz verknüpft sind) aus Ihrem **CRM entfernt werden**
+  * Verwenden Sie diesen Abschnitt, wenn Sie eine Regel erstellen möchten, mit der **Buyer Attribution Touchpoint**-Daten (die Touchpoints, die mit der Opportunity und dem Umsatz verknüpft sind) aus Ihrem **CRM entfernt werden**
 * Buyer Attribution Touchpoints aus dem CRM unterdrücken
-   * Verwenden Sie diesen Abschnitt, wenn Sie eine Regel erstellen möchten, die **Buyer Attribution Touchpoint**-Daten (die Touchpoints, die mit der Opportunity und dem Umsatz verknüpft sind) aus Ihrem **CRM** und **Discover**
+  * Verwenden Sie diesen Abschnitt, wenn Sie eine Regel erstellen möchten, die **Buyer Attribution Touchpoint**-Daten (die Touchpoints, die mit der Opportunity und dem Umsatz verknüpft sind) aus Ihrem **CRM** und **Discover**
 
 ## Best Practices {#best-practice}
 
@@ -41,7 +45,7 @@ Unabhängig davon, ob Sie zum ersten Mal Touchpoint-Einstellungsregeln festlegen
 * Vergewissern Sie sich mithilfe des obigen Schlüssels, dass Ihre Regel im richtigen Abschnitt der Touchpoint-Einstellungen angegeben ist
 * Testen Sie Ihre Regeln, bevor Sie sie implementieren, indem Sie die Regellogik in einem Touchpoint-Bericht für Käufer in CRM replizieren, um sicherzustellen, dass die gewünschten Daten unterdrückt oder entfernt werden
 
-## Best Practices für die Wartung {#best-practice-for-maintenance}
+## Best Practice für die Wartung {#best-practice-for-maintenance}
 
 Die Überprüfung Ihrer [!UICONTROL Touchpoint-Einstellungen] ist wichtig, da sie Ihre Daten drastisch ändern können, wenn sie nicht richtig definiert sind. Als Best Practice empfehlen wir, Ihre Touchpoint-Einstellungen mindestens zweimal jährlich zu überprüfen. Dies ist eine einfache visuelle Überprüfung der Regeln, die im Abschnitt Touchpoint-Einstellungen Ihrer [!DNL Marketo Measure] App eingerichtet sind. Bei dieser Überprüfung können Sie sicher sein, dass Ihre Touchpoint-Einstellungen auf dem neuesten Stand sind und dass alle Änderungen entsprechend vorgenommen werden können.
 
@@ -50,7 +54,7 @@ Gründe für die Überprüfung Ihrer [!UICONTROL Touchpoint]-Einstellungen sind�
 * Wechsel in Ihrem Marketing-Team
 * Wichtige Aktualisierungen Ihrer Website-Struktur
 * Identifizierung von Touchpoint-Daten, die nicht mehr nützlich sind
-   * Jedes Mal, wenn Sie auf Touchpoint-Daten stoßen, bei denen Sie der Meinung sind, dass sie keine Attribution-Credits erhalten sollten, stellen [!DNL touchpoint suppression] Regeln die Funktionalität dar, Ihre Daten so sauber und genau wie möglich zu gestalten.
+  * Jedes Mal, wenn Sie auf Touchpoint-Daten stoßen, bei denen Sie der Meinung sind, dass sie keine Attribution-Credits erhalten sollten, stellen [!DNL touchpoint suppression] Regeln die Funktionalität dar, Ihre Daten so sauber und genau wie möglich zu gestalten.
 * Änderungen an den Feldern, die zur Definition der Unterdrückungs- oder Entfernungsregeln verwendet werden
 
 >[!MORELIKETHIS]

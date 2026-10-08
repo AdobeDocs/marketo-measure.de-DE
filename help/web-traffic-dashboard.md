@@ -3,14 +3,18 @@ description: Beschreibt das Dashboard „Web-Traffic“ für Besuche, Seitenansi
 title: Webtraffic-Dashboard
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 6%
-
 ---
-
 # Webtraffic-Dashboard {#web-traffic-dashboard}
 
 Das Dashboard für den Web-Traffic bietet eine umfassende Ansicht der Besucherinteraktionen Ihrer Site. Erfahren Sie mehr über Metriken wie die Anzahl der Unique Visitors pro URL, Gesamtbesuche, Seitenansichten und Formularübermittlungen von bestimmten Formular-URLs oder Landingpages. Überwachen Sie monatliche Traffic-Trends und identifizieren Sie leistungsstarke bezahlte Medien, damit Sie Ihre Strategien für eine optimale Umsatzgenerierung verfeinern können.

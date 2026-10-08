@@ -1,16 +1,22 @@
 ---
 description: Vertriebschancen nach Marketing-Kanal-Anleitung für Marketo Measure-Anwender
-title: Opportunitys nach Marketingkanal
+title: Chancen nach Marketing-Kanal
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 4%
-
 ---
-
-# Opportunitys nach Marketingkanal {#opportunities-by-marketing-channel}
+# Chancen nach Marketing-Kanal {#opportunities-by-marketing-channel}
 
 Dieser Bericht zeigt die Anzahl der von Ihren Marketing-Kanälen generierten Opportunitys an. Er enthält alle Ihre Opportunitys. Sie können diesen Bericht jedoch filtern, um bestimmte Arten von Opportunitys zu analysieren.
 

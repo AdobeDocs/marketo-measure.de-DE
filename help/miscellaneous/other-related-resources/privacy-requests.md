@@ -3,20 +3,23 @@ description: Datenschutzanfragen - [!DNL Marketo Measure]
 title: Datenschutzanfragen
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-TQID: https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI
+TQID: 'https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: '284'
 ht-degree: 27%
-
 ---
-
 # Datenschutzanfragen {#privacy-requests}
 
 Dieses Dokument bietet einen Überblick über die Verwaltung einzelner Datenschutzanfragen, die Sie über die [!DNL Privacy Service]-Benutzeroberfläche und die **[!DNL Privacy Service]-API an [!DNL Marketo Measure] senden**.
@@ -40,7 +43,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten für [!DNL Marketo Measure]
 
    b. E-Mail-Adresse der Person, für die Sie eine Aktion durchführen möchten
 
-   Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Wenn Ihr Marketing-Team oder Ihr interner Adobe-Systemadministrator die IMS-Organisations-ID Ihres Unternehmens nicht kennen, wenden Sie sich an die Adobe-Kundenunterstützung unter gdprsupport@adobe.com. Sie benötigen die IMS-Organisations-ID, um Anfragen an die Datenschutz-API zu senden.
+   Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Wenn Ihr Marketing-Team oder Ihr interner Adobe-Systemadministrator die IMS-Organisations-ID Ihres Unternehmens nicht kennt, wenden Sie sich an die Adobe Kundenunterstützung unter gdprsupport@adobe.com. Sie benötigen die IMS-Organisations-ID, um Anfragen an die Privacy API zu senden.
 
 1. In [!DNL Privacy Service] können Sie Zugriffs- und Löschanfragen an [!DNL Marketo Measure] senden und den Status vorhandener Anfragen überprüfen.
 
@@ -55,9 +58,9 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten für [!DNL Marketo Measure]
 
 * „Aktion“: Entweder [!UICONTROL Zugriff] oder Löschen
 * „userIDs“:
-   * „namespace“: E-Mail
-   * „Typ“: Standard
-   * „value“: `<Data Subject's Email Address>`
+  * „namespace“: E-Mail
+  * „Typ“: Standard
+  * „value“: `<Data Subject's Email Address>`
 
 „Include“:
 

@@ -1,16 +1,20 @@
 ---
 description: Beschreibt das Einrichten und Verwenden eines Readerkontos für den Zugriff auf das Marketo Measure Data Warehouse
-title: Data Warehouse Access - Reader-Konto
+title: Data Warehouse-Zugriff – Reader-Konto
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 3%
-
 ---
-
-# Data Warehouse Access - Reader-Konto {#data-warehouse-access-reader-account}
+# Data Warehouse-Zugriff – Reader-Konto {#data-warehouse-access-reader-account}
 
 ## Snowflake-Zugriffs-Link {#snowflake-access-link}
 
@@ -66,14 +70,14 @@ Sie müssen einige Informationen eingeben, um Ihr Snowflake Data Warehouse mit e
 >Jedes Tool hat unterschiedliche Verbindungsanforderungen. Es wird empfohlen, die Dokumentation für das jeweilige Tool zu konsultieren, das verbunden werden soll.
 
 * **URI** (immer erforderlich)
-   * Dies ist der Domain-Name des Snowflake-Kontos. Sie ist in einem Abschnitt des Snowflake-Anmelde-Links enthalten.
+  * Dies ist der Domain-Name des Snowflake-Kontos. Sie ist in einem Abschnitt des Snowflake-Anmelde-Links enthalten.
 * **Benutzername** (immer erforderlich)
-   * Der Benutzername wird auf der Data Warehouse-Informationsseite in [!DNL Marketo Measure] aufgeführt.
+  * Der Benutzername wird auf der Data Warehouse-Informationsseite in [!DNL Marketo Measure] aufgeführt.
 * **Kennwort** (immer erforderlich)
-   * Dies ist das Kennwort, das Sie beim ersten Anmelden bei Ihrem Snowflake-Konto festgelegt haben. Gehen Sie wie oben beschrieben vor, um Ihr Kennwort zurückzusetzen.
+  * Dies ist das Kennwort, das Sie beim ersten Anmelden bei Ihrem Snowflake-Konto festgelegt haben. Gehen Sie wie oben beschrieben vor, um Ihr Kennwort zurückzusetzen.
 * **Datenbankname** (nicht immer erforderlich)
-   * Die -Datenbank speichert die Daten in Snowflake. Es ist die Speicherressource. Der Datenbankname wird auf der Data Warehouse-Informationsseite in [!DNL Marketo Measure] aufgeführt.
+  * Die -Datenbank speichert die Daten in Snowflake. Es ist die Speicherressource. Der Datenbankname wird auf der Data Warehouse-Informationsseite in [!DNL Marketo Measure] aufgeführt.
 * **Warehouse-Name** (nicht immer erforderlich)
-   * Das Warehouse ist das, was Abfragen in Snowflake ausführt. Dies ist die berechnete Ressource. Der Warehouse-Name wird auf der Data Warehouse-Informationsseite in [!DNL Marketo Measure] aufgeführt.
+  * Das Warehouse ist das, was Abfragen in Snowflake ausführt. Dies ist die berechnete Ressource. Der Warehouse-Name wird auf der Data Warehouse-Informationsseite in [!DNL Marketo Measure] aufgeführt.
 
   ![Das Warehouse führt Abfragen in Snowflake aus. Es ist der berechnete](assets/data-account-2.png)

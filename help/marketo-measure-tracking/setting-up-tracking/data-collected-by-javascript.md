@@ -3,16 +3,18 @@ description: Von JavaScript erfasste Daten - [!DNL Marketo Measure]
 title: Von JavaScript erfasste Daten
 feature: Tracking
 exl-id: 83814168-9d3e-45ac-b514-df58f0b2e90b
-TQID: https://experienceleague.adobe.com/QSbkXXjEjxmddR-dTrgjZiV0dXvO-iZKjHfSBJP2Jt0
+TQID: 'https://experienceleague.adobe.com/QSbkXXjEjxmddR-dTrgjZiV0dXvO-iZKjHfSBJP2Jt0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: '231'
 ht-degree: 98%
-
 ---
-
 # Von JavaScript erfasste Daten {#data-collected-by-javascript}
 
 Erfahren Sie mehr über die Daten, die von Marketo Measure JavaScript bei der Bereitstellung erfasst werden.
@@ -41,13 +43,13 @@ Marketo Measure erfasst die folgenden allgemeinen Daten für alle Anfragetypen:
     <td>Anfragen-Header</td>
     <td>IP-Adresse</td>
     <td>string</td>
-    <td>Der Standort des Benutzers oder der Benutzerin wird durch eine GeoIP-Suche ermittelt. Diese Daten sind temporär und nicht dauerhaft gespeichert.</td>
+    <td>Der Standort des Benutzers oder der Benutzerin wird durch eine GeoIP-Suche ermittelt. Diese Daten sind temporär und werden nicht dauerhaft gespeichert.</td>
   </tr>
   <tr>
     <td>Anfragen-Header</td>
     <td>User-Agent-Zeichenfolge:</td>
     <td>string</td>
-    <td>Bestimmt, welches Gerät die Person verwendet.</td>
+    <td>Bestimmt, welches Gerät die Benutzerin bzw. der Benutzer verwendet.</td>
   </tr>
   <tr>
     <td>Abfrageparameter</td>
@@ -101,14 +103,14 @@ Zusätzlich zu den oben genannten allgemeinen Daten hängt bizible.js auch zusä
     <td></td>
     <td>_biz_h</td>
     <td>string</td>
-    <td>Die Bildschirmauflösung des Hash-Clients.</td>
+    <td>Gehashte Bildschirmauflösung des Clients.</td>
   </tr>
   <tr>
     <td></td>
     <td></td>
     <td>_biz_c</td>
     <td>string</td>
-    <td>Optionaler Parameter. Wenn dieser Parameter vorhanden ist, zeigt er an, dass der Mandant bizible.js so konfiguriert, dass vor dem Tracking auf das Einverständnis der Person gewartet wird, und dass bizible.js ihr Einverständnis für das Tracking erhalten hat.</td>
+    <td>Optionaler Parameter. Wenn dieser Parameter vorhanden ist, zeigt er an, dass der Mandant bizible.js so konfiguriert, dass vor dem Tracking auf das Einverständnis der Benutzerin bzw. des Benutzers gewartet wird und dass bizible.js das Einverständnis zum Tracking erhalten hat.</td>
   </tr>
   <tr>
     <td>Formularabsendungen</td>

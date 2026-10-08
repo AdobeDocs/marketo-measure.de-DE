@@ -1,18 +1,20 @@
 ---
-description: EInrichten von Adobe Admin Console – Marketo Measure – Produktdokumentation
+description: Einrichten von Adobe Admin Console – Marketo Measure – Produktdokumentation
 title: Einrichten von Adobe Admin Console
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
-TQID: https://experienceleague.adobe.com/0-n7qfW9O8qQHD1vMyJGdBF8XNo-Hpa2oFMrWUmUNWc
+TQID: 'https://experienceleague.adobe.com/0-n7qfW9O8qQHD1vMyJGdBF8XNo-Hpa2oFMrWUmUNWc'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: '396'
 ht-degree: 85%
-
 ---
-
 # Einrichten von Adobe Admin Console {#adobe-admin-console-setup}
 
 Der erste Schritt zur Verwendung von [!DNL Marketo Measure] ist das Erstellen und Anmelden bei Ihrer bereitgestellten Adobe Admin Console. Wenn Sie die E-Mail mit den Anmeldeanweisungen nicht erhalten haben, wenden Sie sich an die Kundenbetreuung von [!DNL Marketo Measure].

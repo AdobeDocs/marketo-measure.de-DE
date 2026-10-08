@@ -3,24 +3,34 @@ description: '[!DNL Marketo Measure] Ultimate-Implementierungshandbuch - [!DNL M
 title: '[!DNL Marketo Measure] Implementierungshandbuch für Ultimate'
 feature: Integration, Tracking, Attribution
 exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
-TQID: https://experienceleague.adobe.com/Dj1Dbz4wPQt99NlAEtcn7v3AQoQPdIV5HDExXmlbcZ0
+TQID: 'https://experienceleague.adobe.com/Dj1Dbz4wPQt99NlAEtcn7v3AQoQPdIV5HDExXmlbcZ0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+    internal-label: Data modeling
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Data management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: '1074'
 ht-degree: 65%
-
 ---
-
 # [!DNL Marketo Measure] Implementierungshandbuch für Ultimate {#marketo-measure-ultimate-implementation-guide}
 
-Dieser Artikel dient als Implementierungshandbuch für Marketo Measure Ultimate und bietet klare Schritte und Einblicke, um eine erfolgreiche Integration und Nutzung sicherzustellen.
+Dieser Artikel dient als Implementierungsleitfaden für Marketo Measure Ultimate und bietet klare Schritte und Erkenntnisse, um eine erfolgreiche Integration und einen erfolgreichen Einsatz sicherzustellen.
 
 ## Hauptunterschiede bei der Verwendung von Ultimate im Vergleich zu Standard Tiers {#main-differences-when-using-ultimate-over-standard-tiers}
 
@@ -32,7 +42,7 @@ Importieren von B2B-Daten über AEP: Von Marketern wird erwartet, dass sie ihre 
 
 Die direkten Verbindungen von CRM und Marketo Engage sind für Ultimate nicht mehr verfügbar.
 
-* Ultimate pusht keine Daten an das CRM-System zurück. Kundinnen und Kunden können Daten aus Data Warehouse verwenden.
+* Ultimate pusht keine Daten an das CRM-System zurück. Kundinnen und Kunden können Daten aus dem Data Warehouse verwenden.
 * Marketing-Experten bringen Daten aus Ad Platform weiterhin über Direktverbindungen und das Tracking von Web-Aktivitäten über Marketo Measure JavaScript.
 
 Ultimate-Benutzenden wird AEP bereitgestellt. Wenn AEP bereits vorhanden ist, wird keine neue Instanz erneut bereitgestellt.
@@ -50,7 +60,7 @@ Erfahren Sie mehr über [Marketo Measure Ultimate](/help/marketo-measure-ultimat
 **XDM-Schema = Klasse + Schemafeldgruppe&#42;**
 
 * Die erforderlichen Felder können nicht geändert werden. Kundinnen und Kunden können bei Bedarf benutzerdefinierte Felder erstellen und hinzufügen.
-* Beispiel für einen hierarchiebasierten Feldnamen: accountOrganisation.annualRevenue.amount
+* Beispiel für einen hierarchiebasierten Feldnamen: accountOrganization.annualRevenue.amount
 
 &#42; _Ein Schema umfasst eine Klasse und keine oder mehr Schemafeldgruppen. Dies bedeutet, dass Sie ein Datensatzschema auch ohne die Verwendung von Feldergruppen erstellen können._
 
@@ -119,7 +129,7 @@ Seite „Quellen“ > „Datenflüsse“ zum Überprüfen des Status von Datenfl
 
 ## Dateninspektion {#data-inspection}
 
-Option 1: Um Abfragen direkt über die Benutzeroberfläche auszuführen, rufen Sie die Registerkarte „Abfragen“ unter „Daten-Management“ auf.
+Option 1: Um Abfragen direkt über die Benutzeroberfläche auszuführen, rufen Sie die Registerkarte „Abfragen“ unter „Daten-Management“ auf.&#x200B;
 
 ![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
@@ -127,13 +137,13 @@ Option 2: [Herunterladen und Verwenden von PSQL](https://experienceleague.adobe.
 
 ## Aktivieren des Datensatzes für Marketo Measure {#activate-dataset-for-marketo-measure}
 
-Bevor Sie beginnen, gehen Sie zum Abschnitt „Experience Platform“ > „Sandbox-Zuordnung“ in den Einstellungen der Measure-UI und ordnen Sie eine Sandbox zu.
+Bevor Sie beginnen, gehen Sie zum Abschnitt „Experience Platform“ > „Sandbox Mapping“ in den Einstellungen der Measure UI und ordnen Sie eine Sandbox zu.
 
 >[!CAUTION]
 >
 >Diese Einstellung kann nach Auswahl nicht mehr geändert werden.
 
-1. Gehen Sie in AEP zu „Ziele“ > „Marketo Measure“, um Datensätze zu exportieren.
+1. Gehen Sie in AEP zu „Ziele“ > „Marketo Measure-Seite“, um Datensätze zu exportieren.
 1. Konfigurieren Sie das Ziel.
 1. Aktivieren Sie den Datensatz.
 1. Überprüfen Sie auf der Seite „Kontostatus“ unter Measure-UI-Einstellungen den Datenflussstatus.
@@ -143,7 +153,7 @@ Bevor Sie beginnen, gehen Sie zum Abschnitt „Experience Platform“ > „Sandb
 >* Es wird empfohlen, nur einen Datensatz pro Datenfluss einzuschließen.
 >* Daten für eine bestimmte Entität (z. B. Konto) aus einer bestimmten Quelle können nur in einen Datensatz aufgenommen werden. Jeder Datensatz kann in nur einem Datenfluss enthalten sein. Verstöße stoppen den Datenfluss in der Laufzeit.
 >* Löschen Sie das gesamte Ziel in AEP, um Daten in Measure zu löschen. Durch Deaktivieren werden neue Datenexporte gestoppt und die alten Daten beibehalten.
->* Die Measure-Konfiguration sieht größtenteils gleich aus, aber einige Teile wie die Phasenzuordnung sehen anders aus.
+>* Die Measure-Konfiguration sieht größtenteils gleich aus, aber einige Teile wie die Schrittzuordnung sehen anders aus.
 >* Es dauert einige Stunden, bis ein neuer Datenfluss eine Flussausführung generiert, und dann treten sie in regelmäßigen, stündlichen Intervallen auf.
 
 In Measure muss die Standardwährung im Abschnitt „Währung“ festgelegt werden.
@@ -154,11 +164,11 @@ In Measure muss die Standardwährung im Abschnitt „Währung“ festgelegt werd
 
 Wir importieren nicht automatisch Phasen aus Benutzerdaten, daher müssen alle Phasen manuell zugeordnet werden.
 
-* Benutzende können Phasen aus verschiedenen Quellen zuordnen.
+* Benutzende können Schritte aus verschiedenen Quellen zuordnen.
 
 ![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
-Wenn die Phasen nicht zugeordnet sind, funktioniert das System nicht, da die Daten nicht weitergegeben werden können.
+Wenn die Schritte nicht zugeordnet sind, funktioniert das System nicht, da die Daten nicht weitergegeben werden können.
 
 Wenn Sie Kundin oder Kunde von Marketo Measure Ultimate sind und Ihr Standard-Dashboard-Objekt auf „Kontakt“ festgelegt haben, verwenden Sie folgende beiden Lead-Felder nicht ([mehr dazu erfahren Sie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
@@ -174,7 +184,7 @@ Wählen Sie einen Datensatz aus und legen Sie für jeden Datensatz Regeln fest.
 Datensatz auswählen und Aktivitätstypen auswählen.
 
 * Benutzerdefinierte Aktivitäten werden noch nicht unterstützt.
-* Bei Kundenaktivitäten, die nicht zu den verfügbaren Optionen passen, empfehlen wir, diese als „interessante Momente“ zu kategorisieren und benutzerdefinierte Felder zu verwenden, um sie zu unterscheiden.
+* Bei Kundenaktivitäten, die nicht zu den verfügbaren Optionen passen, empfehlen wir, diese als „Interessante Momente“ zu kategorisieren und benutzerdefinierte Felder zu verwenden, um sie zu unterscheiden.
 
 **Offline-Kanäle:**
 

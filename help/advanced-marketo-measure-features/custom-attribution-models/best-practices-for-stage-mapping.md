@@ -1,21 +1,26 @@
 ---
 description: Best Practices für die Staging-Zuordnung - [!DNL Marketo Measure]
-title: Best Practices für die Phasenzuordnung
+title: Best Practices für die Schrittzuordnung
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-TQID: https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg
+TQID: 'https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '479'
 ht-degree: 4%
-
 ---
-
-# Best Practices für die Phasenzuordnung {#best-practices-for-stage-mapping}
+# Best Practices für die Schrittzuordnung {#best-practices-for-stage-mapping}
 
 ## Überblick {#overview}
 
@@ -30,17 +35,17 @@ Eine zusätzliche Funktion, die in diesem Abschnitt verwaltet wird, sind Funnel-
 Unabhängig davon, ob Sie Ihr Staging-Mapping zum ersten Mal bewerten oder nur Ihre funnel-Bestellung überprüfen, ist es wichtig, die folgenden Best Practices zu beachten.
 
 * Bestellung ist alles!
-   * Wenn Sie [!DNL Marketo Measure] aktive und inaktive Phase aus Ihrem CRM abrufen, bestätigen Sie, dass alle Phasen, die für einen Lead/Kontakt oder eine Opportunity verwendet werden könnten, gruppiert und entsprechend sortiert werden.
+  * Wenn Sie [!DNL Marketo Measure] aktive und inaktive Phase aus Ihrem CRM abrufen, bestätigen Sie, dass alle Phasen, die für einen Lead/Kontakt oder eine Opportunity verwendet werden könnten, gruppiert und entsprechend sortiert werden.
 * Stellen Sie bei der Definition eines benutzerdefinierten Schritts sicher, dass die Feldverlaufsverfolgung für alle Felder aktiviert ist, die zum Definieren des Schritts verwendet werden
 * Verwenden Sie kein Formelfeld, um einen benutzerdefinierten Schritt zu definieren
-   * Ein boolesches Feld ist die Best-Practice-Empfehlung
+  * Ein boolesches Feld ist die Best-Practice-Empfehlung
 * Beachten Sie, dass der Abschnitt Lead- oder Kontaktphase in Verloren, Offen und Konvertiert unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden
-   * Eine Stufe im falschen Abschnitt der Stufe kann zu stark falschen [!DNL Marketo Measure] führen
-   * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr standardmäßiges Dashboard-Objekt als Kontakt festgelegt haben, verwenden Sie nicht die beiden folgenden Lead-spezifischen Felder ([&#x200B; mehr dazu](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
-      * b2b.personStatus
-      * b2b.isConverted
+  * Eine Stufe im falschen Abschnitt der Stufe kann zu stark falschen [!DNL Marketo Measure] führen
+  * Wenn Sie Marketo Measure Ultimate-Kunde sind und Ihr standardmäßiges Dashboard-Objekt als Kontakt festgelegt haben, verwenden Sie nicht die beiden folgenden Lead-spezifischen Felder ([&#x200B; mehr dazu](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+    * b2b.personStatus
+    * b2b.isConverted
 * Beachten Sie, dass der Abschnitt „Opportunity-Phase“ in „Verloren“, „Offen“ und „Gewonnen“ unterteilt ist. Überprüfen Sie, ob sich die Phasen in ihrem entsprechenden Abschnitt befinden
-   * Eine Phase im falschen Stadienabschnitt kann zu stark falschen [!DNL Marketo Measure] Umsatz- oder Pipeline-Umsatzdaten führen
+  * Eine Phase im falschen Stadienabschnitt kann zu stark falschen [!DNL Marketo Measure] Umsatz- oder Pipeline-Umsatzdaten führen
 * Vermeiden Sie die Verwendung doppelter Phasennamen (unser System erkennt sie und entfernt sie automatisch).
 * Um eine Regel festzulegen, die auf NULL-Werte prüft, lassen Sie das Textfeld „Wert“ leer.
 

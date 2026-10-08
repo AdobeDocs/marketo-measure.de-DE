@@ -4,18 +4,26 @@ description: Salesforce-Aktivitäten Attribution - [!DNL Marketo Measure]
 title: Attribution von Salesforce-Aktivitäten
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-TQID: https://experienceleague.adobe.com/ti99Z40gvNCYWahCq2viPcNh-eAW4-laO3C6fBY7INU
+TQID: 'https://experienceleague.adobe.com/ti99Z40gvNCYWahCq2viPcNh-eAW4-laO3C6fBY7INU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: '644'
 ht-degree: 2%
-
 ---
-
 # Attribution von Salesforce-Aktivitäten {#salesforce-activities-attribution}
 
 Durch die Integration von [!DNL Marketo Measure] Salesforce-Aktivitäten werden spezifische Aufgaben- und Ereignisdatensätze in Ihr Attributionsmodell integriert. Beginnen Sie damit, Dinge wie Verkaufs-E-Mails oder Verkaufs-Telefonanrufe zu verfolgen, die nicht die gebührende Gutschrift erhielten. Die Aktivitätsregel kann unter [experience.adobe.com/marketo-measure konfiguriert &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"}. Navigieren Sie von dort zur Registerkarte **[!UICONTROL Einstellungen]** und klicken Sie auf die Registerkarte **[!UICONTROL Aktivitäten]**.
@@ -33,11 +41,11 @@ Sie verwenden diesen [!DNL Marketo Measure] Kampagnennamen, um uns mitzuteilen, 
 Machen Sie sich mit dieser Hierarchie vertraut:
 
 * Kanal
-   * Unterkanal
-      * Kampagne
-      * Kampagne
-   * Unterkanal
-      * Kampagne
+  * Unterkanal
+    * Kampagne
+    * Kampagne
+  * Unterkanal
+    * Kampagne
 
 >[!TIP]
 >

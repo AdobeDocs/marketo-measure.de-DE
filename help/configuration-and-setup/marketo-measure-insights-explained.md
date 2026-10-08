@@ -1,15 +1,19 @@
 ---
-description: '[!DNL Marketo Measure] Insights erklärt - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Insights - Erklärung - [!DNL Marketo Measure]'
 title: Erläuterung von [!DNL Marketo Measure]-Insights
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # Erläuterung von [!DNL Marketo Measure]-Insights {#marketo-measure-insights-explained}
 
 Erfahren Sie mehr über die [!DNL Marketo Measure] Insights-Ansicht in [!DNL Salesforce], einschließlich der Darstellung der verschiedenen Symbole und der Verwendung der Funktion. Diese Funktion ist am hilfreichsten, um die ersten 20 Sitzungen eines Leads, Kontakts oder Kontos anzuzeigen.

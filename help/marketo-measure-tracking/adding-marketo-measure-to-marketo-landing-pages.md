@@ -1,15 +1,19 @@
 ---
-description: Hinzufügen  [!DNL Marketo Measure]  Anleitungen für Marketo Measure-Benutzer zu Marketo-Landingpages
+description: Hinzufügen von [!DNL Marketo Measure] zur Anleitung für Marketo Measure-Benutzer zu Marketo-Landingpages
 title: Hinzufügen von [!DNL Marketo Measure] zu Marketo-Landingpages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 3%
-
+source-wordcount: '241'
+ht-degree: 2%
 ---
-
 # Hinzufügen von [!DNL Marketo Measure] zu Marketo-Landingpages {#adding-marketo-measure-to-marketo-landing-pages}
 
 Erfahren Sie, wie Sie Tracking zu [!DNL Marketo Engage] Landingpages hinzufügen, da diese zusätzliche Verarbeitungsschritte erfordern. [!DNL Marketo Measure] JavaScript muss sowohl auf der Landingpage als auch im [!DNL Marketo Engage] Formular selbst vorhanden sein. Dazu müssen Sie die [!DNL Marketo Measure] JavaScript wie in den folgenden Anweisungen beschrieben in [!DNL Marketo Engage] laden.

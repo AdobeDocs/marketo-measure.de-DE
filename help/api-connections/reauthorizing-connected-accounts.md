@@ -3,19 +3,25 @@ description: Anleitung zur erneuten Autorisierung von Connected Accounts für Ma
 title: Erneutes Autorisieren von Connected Accounts
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 4%
-
 ---
-
 # Erneutes Autorisieren von Connected Accounts {#reauthorizing-connected-accounts}
 
 Wenn ein Konto von Ihrem [!DNL Marketo Measure]-Konto getrennt wird, ändert sich der Status der Plattform in „Autorisierung erforderlich“ und es wird ein rotes Schlüsselsymbol angezeigt.
 
-Wenn die Verbindung Ihrer Werbeplattform unterbrochen wird, können [!DNL Marketo Measure] keine Kostendaten herunterladen oder, falls Sie das automatische Tagging aktiviert haben, die [!DNL Marketo Measure] UTM-Parameter an neu erstellte Anzeigen anhängen. [!DNL Marketo Measure] kann die UTM-Parameter nicht rückwirkend an Touchpoints anhängen, die von der Anzeigenplattform erstellt wurden, während das Konto getrennt wurde.
+Wenn die Verbindung Ihrer Werbeplattform unterbrochen wird, können [!DNL Marketo Measure] keine Kostendaten herunterladen oder, falls Sie das automatische Tagging aktiviert haben, die [!DNL Marketo Measure] UTM-Parameter an neu erstellte Anzeigen anhängen. [!DNL Marketo Measure] können die UTM-Parameter nicht rückwirkend an Touchpoints anhängen, die von der Anzeigenplattform erstellt wurden, während das Konto getrennt wurde.
 
 Wenn Ihre CRM-Plattform getrennt wird, können [!DNL Marketo Measure] keine [!DNL Marketo Measure] Daten aktualisieren oder neue Touchpoints in Ihre Organisation übertragen. Sobald die CRM-Verbindung wiederhergestellt wurde, überträgt [!DNL Marketo Measure] alle Daten, die während der Trennung des Kontos fehlten.
 

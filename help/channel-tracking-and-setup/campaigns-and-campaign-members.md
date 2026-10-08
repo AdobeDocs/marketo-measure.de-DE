@@ -3,14 +3,18 @@ description: Anleitung für Kampagnen und Kampagnenmitglieder für Marketo Measu
 title: Kampagnen und Kampagnenmitglieder
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 88%
-
 ---
-
 # Kampagnen und Kampagnenmitglieder {#campaigns-and-campaign-members}
 
 [!DNL Salesforce]-Kampagnen dienen dazu, Listen von Leads und Kontakten zu verfolgen, die mit einem Marketing-Programm oder einer Aktivität verbunden sind. Hierbei handelte es sich in der Regel um Webinare, Registrierungen oder z. B. Messebesuche. Marketing-Fachleute können auswählen, ob eine Kampagne einer Touchpoint-Journey gutgeschrieben werden soll oder nicht.
@@ -21,7 +25,7 @@ ht-degree: 88%
 
 ## Aktivieren von Touchpoints {#enabling-touchpoints}
 
-Das Paket [!DNL Marketo Measure] [!DNL Salesforce] enthält ein Feld mit der Bezeichnung „Buyer Touchpoints aktivieren“ für das Kampagnenobjekt. Nachdem das Feld zum Seiten-Layout hinzugefügt wurde, sieht es in etwa so aus:
+Das Paket [!DNL Marketo Measure] [!DNL Salesforce] enthält ein Feld mit der Bezeichnung „Buyer Touchpoints aktivieren“ für das Kampagnenobjekt. Nachdem das Feld zum Seitenlayout hinzugefügt wurde, sieht es ungefähr so aus:
 
 ![Das Marketo Measure Salesforce-Paket enthält ein Feld mit der Bezeichnung &#x200B;](assets/dynamics-lists-1.png)
 
@@ -30,7 +34,7 @@ Die in der Auswahlliste verfügbaren Optionen sind:
 ![In der Auswahlliste sind folgende Optionen verfügbar:](assets/dynamics-lists-10.png)
 
 * Alle Kampagnen-Mitglieder einschließen: Jeder Lead oder Kontakt, der zur Kampagne hinzugefügt wird, erhält einen Touchpoint, der dieser Kampagne zugeordnet ist.
-* Nur „beantwortete“ Kampagnenmitglieder einschließen – Nur Leads oder Kontakte mit dem Status „Beantwortet“ der Kampagne erhalten einen Touchpoint, der mit dieser Kampagne verknüpft ist.
+* Nur Kampagnenmitglieder mit dem Status „Responded“ einschließen – Nur Leads oder Kontakte mit dem Kampagnenmitgliedsstatus „Responded“ erhalten einen Touchpoint, der mit dieser Kampagne verknüpft ist.
 * Alle Kampagnenmitglieder ausschließen – Keiner der Leads oder Kontakte erhält einen mit dieser Kampagne verbundenen Touchpoint.
 
 Beachten Sie, dass Kampagnenmitglieder eine E-Mail-Adresse haben müssen, die mit ihrem Eintrag verknüpft ist, damit [!DNL Marketo Measure] einen Touchpoint erstellen kann. Ohne eine E-Mail-Adresse wird [!DNL Marketo Measure] dem Kampagnenmitglied keinen Touchpoint zuweisen.
@@ -41,11 +45,11 @@ Mit der Installation des Pakets enthält [!DNL Marketo Measure] außerdem zwei D
 
 Diese Daten zeigen [!DNL Marketo Measure] wann wir beginnen oder aufhören sollten, Kampagnenmitglieder aus der Kampagne in die Touchpoint-Journey aufzunehmen. Sie können entweder ein Datum, beides oder gar kein Datum festlegen.
 
-## Anwendungsbeispiel für das Touchpoint-Startdatum {#use-case-for-touchpoint-start-date}
+## Anwendungsfall für das Touchpoint-Startdatum {#use-case-for-touchpoint-start-date}
 
 Das Startdatum kann verwendet werden, wenn eine vorhandene Kampagne zum Tracking von Leads und Kontakten verwendet wird. Die Benutzenden möchten jedoch erst mit der Messung beginnen, wenn neue Systeme oder Prozesse vorhanden sind. Daher entscheiden sie sich, ein Startdatum festzulegen, sobald [!DNL Marketo Measure] mit dem Tracking dieser Kampagnenmitglieder beginnen soll.
 
-## Anwendungsbeispiel für das Touchpoint-Enddatum {#use-case-for-touchpoint-end-date}
+## Anwendungsfall für das Touchpoint-Enddatum {#use-case-for-touchpoint-end-date}
 
 Wenn Sie vor der Verwendung von [!DNL Marketo Measure] eine Marketing-Automatisierungsplattform verwendet haben, die die digitalen Interaktionen von Leads (z. B. das Einreichen von Formularen) verfolgt hat, und diese Leads dann in eine [!DNL Saleforce]-Kampagne hochgeladen haben, können Sie das Feld „Touchpoint-Enddatum“ verwenden. Sie würden das Touchpoint-Enddatum als Ihr Startdatum mit [!DNL Marketo Measure] festlegen und Buyer Touchpoints aktivieren. Dann würde jede digitale Interaktion dieser Leads als Touchpoint erstellt werden. Der Grund, warum Sie das Touchpoint-Enddatum mit [!DNL Marketo Measure] auf Ihr Startdatum setzen, ist, dass wir diese digitalen Interaktionen in Zukunft über unser JavaScript verfolgen werden.
 
@@ -80,7 +84,7 @@ Wenn der [!UICONTROL Synchronisationstyp] auf „Nur ,Beantwortete’ Kampagnenm
 
 * Buyer-Touchpoint-Datum
 * Datum der ersten Antwort
-   * Das Datum der ersten Antwort wird automatisch festgelegt, sobald der Status auf „Beantwortet“ geändert wird. Es handelt sich um ein [!DNL Salesforce]-Standardfeld, das nicht geändert werden kann.
+  * Das Datum der ersten Antwort wird automatisch festgelegt, sobald der Status auf „Beantwortet“ geändert wird. Es handelt sich um ein [!DNL Salesforce]-Standardfeld, das nicht geändert werden kann.
 
 * Kampagnenmitglied-Erstellungsdatum
 
@@ -98,13 +102,13 @@ Suchen Sie zunächst nach den Einträgen und filtern Sie die Einträge, für die
 
 >[!CAUTION]
 >
->Es gibt eine Suche, die nicht funktioniert, die im folgenden Beispiel angezeigt wird. Die Benutzeroberfläche unterstützt nicht die Suche nach „null“ für Buyer Touchpoint-Daten (die folgende Suche würde nicht funktionieren):
+>Es gibt eine Suche, die nicht funktioniert, die im folgenden Beispiel angezeigt wird. Die Benutzeroberfläche unterstützt nicht die Suche nach null Buyer-Touchpoint-Daten (die folgende Suche würde nicht funktionieren):
 
 ![Es gibt eine Suche, die nicht funktioniert, und die wird angezeigt in](assets/legacy-processes-10.png)
 
 Wenn Sie die Suche nicht benötigen und die Daten nur auf jeden Eintrag eines Kampagnenmitglieds anwenden möchten, verwenden Sie das Kontrollkästchen „[!UICONTROL Alle Einträge einbeziehen]“ (siehe Screenshot unten), das alle Einträge auf allen Seiten überprüft.
 
-Wählen Sie in der Kalenderauswahl Datum und Uhrzeit aus. Wenn Sie das aktuelle Datum/Uhrzeit auswählen möchten, klicken Sie auf Datum/Uhrzeit, die neben der Kalenderauswahl angezeigt wird.
+Wählen Sie in der Kalenderauswahl Datum und Uhrzeit aus. Wenn Sie das aktuelle Datum und die aktuelle Uhrzeit auswählen möchten, klicken Sie auf die Datum/Uhrzeit-Angabe, die neben der Kalenderauswahl angezeigt wird.
 
 Sobald Sie das Datum und die Uhrzeit festgelegt haben, klicken Sie auf die Schaltfläche **[!UICONTROL Ausgewählte Einträge aktualisieren]**, um die Änderungen zu übernehmen.
 

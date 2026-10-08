@@ -1,22 +1,26 @@
 ---
-description: Definition der  [!DNL Marketo Measure] -Websitzungs-Anleitung für Marketo Measure-Benutzer
-title: Definition von  [!DNL Marketo Measure] -Web-Sitzungen
+description: Definition [!DNL Marketo Measure] Anleitung für Marketo Measure-Benutzer zu Websitzungen
+title: Definition von [!DNL Marketo Measure]-Web-Sitzungen
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 90%
-
 ---
-
 # Definition von [!DNL Marketo Measure]-Web-Sitzungen {#definition-of-marketo-measure-web-sessions}
 
 Erfahren Sie, wie [!DNL Marketo Measure] Web-Sitzungen definiert.
 
 Eine **Web-Sitzung** bezieht sich auf die Interaktionen einer Person mit Ihrer Website während eines bestimmten Zeitraums. Die Sitzung beginnt, wenn eine Benutzerin oder ein Benutzer auf Ihre Website gelangt.
 
-Beispiel: Hanna besucht adobe.com/de. Mit ihrem Besuch auf der Site beginnt eine Sitzung. Wenn Hanna die Site verlässt, indem sie die Registerkarte/den Web-Browser schließt oder von der Site weg navigiert, endet die Sitzung.
+Zum Beispiel besucht Haley adobe.com. Mit ihrem Besuch auf der Site beginnt eine Sitzung. Wenn Hanna die Site verlässt, indem sie die Registerkarte/den Web-Browser schließt oder von der Site weg navigiert, endet die Sitzung.
 
 Eine Benutzerin oder ein Benutzer kann nicht mehrere Sitzungen gleichzeitig öffnen. Wenn Hanna [!DNL adobe.com] auf zehn verschiedenen Registerkarten öffnet, wird nur eine Sitzung im Zusammenhang mit ihrem Besuch auf der Website erstellt.
 
@@ -33,9 +37,9 @@ Wann eine Sitzung endet und eine neue Sitzung beginnt, wird durch verschiedene A
 
 [!DNL Marketo Measure] Sitzungen enden nach 30 Minuten Inaktivität auf der Website. Beispiel:
 
-Wenn Hanna adobe.com/de besucht, beginnt eine Sitzung. Sie erkundet die Website für einige Minuten und geht dann von ihrem Computer weg, lässt aber die Website geöffnet. Nach 30 Minuten Inaktivität endet die Sitzung.
+Wenn Haley adobe.com besucht, beginnt eine Sitzung. Sie erkundet die Website für einige Minuten und geht dann von ihrem Computer weg, lässt aber die Website geöffnet. Nach 30 Minuten Inaktivität endet die Sitzung.
 
-Derzeit betrachtet [!DNL Marketo Measure] nur Seitennavigation und Formularübermittlungen als Aktivität. Scrollen durch die Web-Seite oder Bewegen des Mauszeigers über ein Element auf der Seite gilt nicht als Aktivität. Wenn Hanna also adobe.com/de besucht, um einen Blogpost zu lesen, und sie dafür eine Stunde braucht, endet ihre Web-Sitzung nach 30 Minuten, selbst wenn sie weiterhin durch den Inhalt auf der Seite scrollt.
+Derzeit betrachtet [!DNL Marketo Measure] nur Seitennavigation und Formularübermittlungen als Aktivität. Scrollen durch die Web-Seite oder Bewegen des Mauszeigers über ein Element auf der Seite gilt nicht als Aktivität. Wenn Haley also adobe.com besucht, um einen Blogpost zu lesen, und sie dafür eine Stunde braucht, endet ihre Web-Sitzung nach 30 Minuten, selbst wenn sie weiterhin durch den Content auf der Seite scrollt.
 
 ## Kanalbasierter Ablauf {#channel-based-expiration}
 
@@ -53,13 +57,13 @@ Hanna ist auf LinkedIn, klickt dort auf einen [!DNL Marketo Measure]-Post und wi
 
 **Paid-Search-Kanäle oder organische Suchkanäle**
 
-Neue Sitzungen beginnen jedes Mal, wenn eine Benutzerin oder ein Benutzer über Paid-Search-Kanäle oder organische Suchkanäle auf Ihre Site gelangt. Wenn Hanna über eine organische Suche auf der Adobe-Website landet und Ihre Website dann über eine bezahlte Anzeige (auch als „Paid Ad“ bezeichnet) in Google sofort besucht, werden zwei separate Sitzungen erstellt.
+Neue Sitzungen beginnen jedes Mal, wenn eine Benutzerin oder ein Benutzer über bezahlte oder organische Suchkanäle auf Ihre Site gelangt. Wenn Haley über eine organische Suche auf der Adobe-Website landet und Ihre Website dann über eine bezahlte Anzeige (auch als „Paid Ad“ bezeichnet) auf Google sofort besucht, werden zwei separate Sitzungen erstellt.
 
 **Web Direct Traffic**
 
 Wenn eine Besucherin oder ein Besucher Ihre Website durch Eingabe der zugehörigen URL in die Adressleiste aufruft, beginnt nicht immer eine neue Sitzung.
 
-Wenn Hannas erste Web-Sitzung aufgrund eines Besuchs von einer Referral-Site, einem Social-Media-Kanal oder einem Paid-Search-Kanal/organischen Suchkanal beginnt und sie dann die Site per Web-Direktzugriff besucht, beginnt dadurch keine neue Sitzung.
+Wenn Haleys erste Web-Sitzung aufgrund eines Besuchs von einer Verweis-Website, einem Social-Media-Kanal oder einem bezahlten bzw. organischen Suchkanal beginnt und sie dann die Site per Web-Direktzugriff besucht, beginnt dadurch keine neue Sitzung.
 
 _Wenn jedoch_ ihre erste Web-Sitzung auf einen Web-Direktzugriff zurückzuführen ist und sie dann die Website über _eine externe/Referral-Site_ besucht, wird die erste Sitzung beendet und eine neue Sitzung im Zusammenhang mit der externen/Referral-Site geöffnet.
 

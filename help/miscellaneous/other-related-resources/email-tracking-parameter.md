@@ -4,16 +4,18 @@ description: E-Mail-Tracking-Parameter - [!DNL Marketo Measure]
 title: E-Mail-Verfolgungsparameter
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-TQID: https://experienceleague.adobe.com/IC3sOBtb9A4EUwhhtD4s7JBTx2gT07y9DtKtM5F1qRQ
+TQID: 'https://experienceleague.adobe.com/IC3sOBtb9A4EUwhhtD4s7JBTx2gT07y9DtKtM5F1qRQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 463
+source-wordcount: '463'
 ht-degree: 4%
-
 ---
-
 # E-Mail-Verfolgungsparameter {#email-tracking-parameter}
 
 Mit dem [!DNL Marketo Measure]-E-Mail-Tracking-Parameter können Marketing-Fachleute E-Mail-Klicks als Formularübermittlungen behandeln, sodass Touchpoints für diese Aktionen generiert werden. Ohne Verwendung eines E-Mail-Tracking-Parameters werden Clickthroughs aus einer E-Mail nur als „Web-Besuche“ behandelt, bis der Benutzer über eine Formularübermittlung oder einen Web-Chat tatsächlich mit der Site interagiert.
@@ -43,7 +45,7 @@ Marketo Measure akzeptiert die folgenden Werte: E-Mail-Adresse, Salesforce-Lead-
  </colgroup> 
  <tbody> 
   <tr> 
-   <th><p>Marketing-Automation</p></th> 
+   <th><p>Marketing-Automatisierung</p></th> 
    <th><p>Token/Tag/Makro </p></th> 
    <th><p>Beispiel</p></th> 
    <th><p>Hilfsmaterial</p></th> 
@@ -63,13 +65,13 @@ Marketo Measure akzeptiert die folgenden Werte: E-Mail-Adresse, Salesforce-Lead-
   <tr> 
    <td><p>HubSpot</p></td> 
    <td><p>(über Editor eingefügt)</p></td> 
-   <td><p>n. z.</p></td> 
+   <td><p>k. A.</p></td> 
    <td><p>https://knowledge.hubspot.com/website-pages/personalize-your-content</p></td> 
   </tr> 
   <tr> 
    <td><p>Act-On</p></td> 
    <td><p>(über Message Composer eingefügt)</p></td> 
-   <td><p>n. z.</p></td> 
+   <td><p>k. A.</p></td> 
    <td><p>https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data</p></td> 
   </tr> 
  </tbody> 

@@ -4,21 +4,26 @@ description: '[!DNL Marketo Measure] Dynamics-Schema - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure]-Dynamics-Schema'
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-TQID: https://experienceleague.adobe.com/8Naefwjo6LIx7ovwcm95E06yReRQeoXGNqIfRisfRgQ
+TQID: 'https://experienceleague.adobe.com/8Naefwjo6LIx7ovwcm95E06yReRQeoXGNqIfRisfRgQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1086
+source-wordcount: '1086'
 ht-degree: 66%
-
 ---
-
 # [!DNL Marketo Measure]-Dynamics-Schema {#marketo-measure-dynamics-schema}
 
 >[!NOTE]
 >
->Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
+>Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.&#x200B;
 
 Nachfolgend finden Sie das erforderliche Dynamics-Schema für die ersten Schritte mit [!DNL Marketo Measure]. Alle Entitäten und Felder werden zusammen mit dem erforderlichen Lese- und/oder Schreibzugriff aufgelistet.
 
@@ -37,7 +42,7 @@ Dieses Diagramm ist eine allgemeine Visualisierung der Beziehungen zwischen den 
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -322,7 +327,7 @@ Dieses Diagramm ist eine allgemeine Visualisierung der Beziehungen zwischen den 
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -725,7 +730,7 @@ Dieses Diagramm ist eine allgemeine Visualisierung der Beziehungen zwischen den 
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -810,7 +815,7 @@ Dieses Diagramm ist eine allgemeine Visualisierung der Beziehungen zwischen den 
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -877,7 +882,7 @@ Dieses Diagramm ist eine allgemeine Visualisierung der Beziehungen zwischen den 
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -924,7 +929,7 @@ Diese Liste enthält die Dynamics-Standardentitäten, mit denen [!DNL Marketo Me
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -1009,7 +1014,7 @@ Diese Liste enthält die Dynamics-Standardentitäten, mit denen [!DNL Marketo Me
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -1058,7 +1063,7 @@ Diese Liste enthält die Dynamics-Standardentitäten, mit denen [!DNL Marketo Me
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -1101,7 +1106,7 @@ Diese Liste enthält die Dynamics-Standardentitäten, mit denen [!DNL Marketo Me
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -1188,7 +1193,7 @@ Zusätzlich zu den unten aufgeführten Lese-/Schreibberechtigungen sind auch die
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -1261,7 +1266,7 @@ Zusätzlich zu den unten aufgeführten Lese-/Schreibberechtigungen sind auch die
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -1358,7 +1363,7 @@ Zusätzlich zu den unten aufgeführten Lese-/Schreibberechtigungen sind auch die
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -1407,7 +1412,7 @@ Zusätzlich zu den unten aufgeführten Lese-/Schreibberechtigungen sind auch die
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 
@@ -1450,7 +1455,7 @@ Zusätzlich zu den unten aufgeführten Lese-/Schreibberechtigungen sind auch die
   <tr> 
    <th><p>Schemaname</p></th> 
    <th><p>Standard/Benutzerdefiniert</p></th> 
-   <th><p>Gelesen</p></th> 
+   <th><p>Lesen</p></th> 
    <th><p>Schreiben</p></th> 
   </tr> 
   <tr> 

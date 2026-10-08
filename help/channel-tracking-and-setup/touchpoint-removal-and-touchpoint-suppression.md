@@ -1,16 +1,20 @@
 ---
 description: Anleitung zum Entfernen von Touchpoints und zur Touchpoint-Unterdrückung für Marketo Measure-Anwender
-title: Entfernen von Touchpoints und Unterdrückung von Touchpoints
+title: Entfernen von Touchpoints und Unterdrücken von Touchpoints
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
-
 ---
-
-# Entfernen von Touchpoints und Unterdrückung von Touchpoints {#touchpoint-removal-and-touchpoint-suppression}
+# Entfernen von Touchpoints und Unterdrücken von Touchpoints {#touchpoint-removal-and-touchpoint-suppression}
 
 Erfahren Sie, wie Sie Touchpoints, die bestimmte Kriterien erfüllen, aus Ihrem CRM entfernen oder unterdrücken können. Dies kann hilfreich sein, um Speicherplatz freizugeben, wenn Sie [!DNL Salesforce] Datenspeicherungsbeschränkungen haben.
 
@@ -64,7 +68,7 @@ Machen Sie sich keine Sorgen, wenn Sie einen Fehler machen. Sie können auch ein
 
 ![4) Legen Sie bei Bedarf Regeln für die Attributions-Touchpoints des Käufers fest](assets/touchpoint-settings-8.png)
 
-Zum Fertigstellen [!UICONTROL &#x200B; Sie Ihre Regeln &#x200B;] und verarbeiten. Wenn Sie viele Änderungen vornehmen, sollten Sie sicherstellen, dass Sie Ihre Änderungen dabei speichern. [!DNL Marketo Measure] Ihre Touchpoints werden erst entfernt, wenn Sie klicken
+Zum Fertigstellen [!UICONTROL &#x200B; Sie Ihre Regeln &#x200B;] und verarbeiten. Wenn Sie viele Änderungen vornehmen, sollten Sie sicherstellen, dass Sie Ihre Änderungen dabei speichern. [!DNL Marketo Measure] werden Ihre Touchpoints erst entfernen, wenn Sie auf klicken
 [!UICONTROL **Speichern und Verarbeiten**].
 
 | **Operator** | **Anwendungsfall** |

@@ -3,20 +3,23 @@ description: Methoden der Ausgabenverwaltung - [!DNL Marketo Measure]
 title: Ausgabenverwaltungsmethoden
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-TQID: https://experienceleague.adobe.com/HdGBr6tPbjbLrO71Zr1MWN6i19TuDIaqvEhgWcNNxAY
+TQID: 'https://experienceleague.adobe.com/HdGBr6tPbjbLrO71Zr1MWN6i19TuDIaqvEhgWcNNxAY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 423
+source-wordcount: '423'
 ht-degree: 1%
-
 ---
-
 # Ausgabenverwaltungsmethoden {#spend-management-methods}
 
 Ausgabendaten sind der Schlüssel für den Erfolg von ROI-Berichten mit [!DNL Marketo Measure]. Um ein genaues und umfassendes ROI-Reporting über alle Ihre Kanäle und Unterkanäle hinweg zu erhalten, müssen Sie sicherstellen, dass Sie über die entsprechenden Ausgabendaten verfügen, die in [!DNL Marketo Measure] abgerufen werden.

@@ -1,15 +1,19 @@
 ---
-description: Anleitung  [!DNL Marketo Measure]  Hinzufügen von Skripten zu Lightbox Forms für Marketo Measure-Benutzer
-title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes für Lightbox Forms
+description: Anleitung zum Hinzufügen [!DNL Marketo Measure] Skripts zu Lightbox Forms für Marketo Measure-Benutzer
+title: Hinzufügen [!DNL Marketo Measure] Skripts zu Lightbox Forms
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
-
+source-wordcount: '214'
+ht-degree: 0%
 ---
-
 # Hinzufügen [!DNL Marketo Measure] Skripts zu Lightbox Forms {#adding-marketo-measure-script-to-lightbox-forms}
 
 Erfahren Sie, wie Sie die [!DNL Marketo Measure] JavaScript ordnungsgemäß zu einem Formular in einer Lightbox hinzufügen.

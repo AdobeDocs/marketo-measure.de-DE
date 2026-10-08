@@ -3,13 +3,17 @@ description: Verwenden des Datenladers zum Aktualisieren der Anleitung für benu
 title: Verwenden des Datenladers zum Aktualisieren des benutzerdefinierten Marketo Measure-Betragsfelds
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 1%
-
 ---
-
 # Verwenden des Datenladers zum Aktualisieren [!DNL Marketo Measure] benutzerdefinierten Betragsfelds {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 
 [!DNL Marketo Measure] empfiehlt die Verwendung von Data Loader als praktische Option, um Opportunity-Werte zu aktualisieren, wenn ein benutzerdefiniertes Umsatzfeld in [!DNL Marketo Measure] verwendet wird (wir verwenden das Feld „Betrag“ standardmäßig). Data Loader wird gegenüber der Verwendung des [!DNL Marketo Measure]-Aktualisierungsskripts bevorzugt, da die Benutzenden für das Skript alle Salesforce-Validierungsregeln deaktivieren müssen, während das [!DNL Marketo Measure] ausgeführt wird.

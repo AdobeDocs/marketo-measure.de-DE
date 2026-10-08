@@ -3,17 +3,23 @@ description: Anleitung zur Domain-Verwaltung für Marketo Measure-Benutzende
 title: Domänenverwaltung
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 1%
-
 ---
-
 # Domänenverwaltung {#domain-management}
 
-Für IMS-aktivierte Mandanten, die [!DNL Marketo Measure] in der Experience Cloud-Benutzeroberfläche ausführen, bietet [!DNL Marketo Measure] eine Benutzeroberfläche, über die Benutzende ihre eigene Liste von Domains verwalten können. [!DNL Marketo Measure] Benutzer müssen zunächst alle Domains überprüfen, die sie in der [Adobe Admin Console verfolgen &#x200B;](https://adminconsole.adobe.com/). Sobald die Domains in der Admin Console verifiziert wurden, können Benutzer verwalten, ob [!DNL Marketo Measure] diese Domains zum Tracking des Website-Traffics verwendet.
+Für IMS-aktivierte Mandanten, die [!DNL Marketo Measure] in der Experience Cloud-Oberfläche ausführen, bietet [!DNL Marketo Measure] eine Schnittstelle, mit der Benutzende ihre eigene Liste von Domains verwalten können. [!DNL Marketo Measure] Benutzer müssen zunächst alle Domains überprüfen, die sie in der [Adobe Admin Console verfolgen &#x200B;](https://adminconsole.adobe.com/). Sobald die Domains in der Admin Console verifiziert wurden, können Benutzer verwalten, ob [!DNL Marketo Measure] diese Domains zum Tracking des Website-Traffics verwendet.
 
 ## Hinzufügen von Domains in Admin Console {#adding-domains-in-admin-console}
 
@@ -56,7 +62,7 @@ Wenn Sie den Mauszeiger über ein einzelnes Statuselement bewegen, wird eine Qui
 
 **Was passiert, wenn eine Domain in der Admin Console entfernt wird?**
 
-Wenn eine Domain in der Admin Console entfernt wird, markiert [!DNL Marketo Measure] die Domain als gelöscht. [!DNL Marketo Measure] Stoppt sofort das Tracking des Traffics auf dieser Domain, entfernt jedoch keine zuvor erfassten Daten.
+Wenn eine Domain in der Admin Console entfernt wird, markiert [!DNL Marketo Measure] die Domain als gelöscht. [!DNL Marketo Measure] stoppt sofort die Verfolgung des Traffics auf dieser Domain, entfernt jedoch keine zuvor erfassten Daten.
 
 **Warum kann ich eine Domain nicht aktivieren?**
 

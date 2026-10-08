@@ -3,13 +3,20 @@ description: Leitfaden zur Migration von Salesforce Sandbox in die Produktionsum
 title: Migration der Salesforce-Sandbox zur Produktion
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 92%
-
 ---
-
 # Migration der Salesforce-Sandbox zur Produktion {#salesforce-sandbox-to-production-migration}
 
 Wenn Sie sich dafür entschieden haben, [!DNL Marketo Measure] in einer [!DNL Salesforce] Sandbox-Umgebung zu testen, folgen Sie diesen Anweisungen, um zur Produktion zu migrieren, sobald Sie bereit sind. Bei den folgenden Anweisungen wird davon ausgegangen, dass Sie das Paket [!DNL Marketo Measure] bereits in Ihre Sandbox-Organisation heruntergeladen, die erforderlichen Tests durchgeführt haben und bereit sind, [!DNL Marketo Measure] in die Produktion zu übertragen.
@@ -18,7 +25,7 @@ Wenn Sie sich dafür entschieden haben, [!DNL Marketo Measure] in einer [!DNL Sa
 
 * Installieren Sie das Paket [!DNL Marketo Measure] in der Produktion mit der Einstellung „[!UICONTROL Alle Benutzer]“.
 
-   * [Basispaket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+  * [Basispaket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
 * Weitere Informationen über die Beziehung von [!DNL Marketo Measure] zu [!DNL Salesforce] finden Sie in [diesem Artikel](/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md)
 * Ein wenig [!DNL Salesforce]-Konfiguration ist notwendig. Die spezifischen Maßnahmen sind in [Schritt 4 im Folgenden beschrieben](#salesforce-configuration)
@@ -32,7 +39,7 @@ Wenn Sie sich dafür entschieden haben, [!DNL Marketo Measure] in einer [!DNL Sa
 
   ![Sie werden aufgefordert, den Löschvorgang zu bestätigen. Sieh zu, dass du weiterliest](assets/salesforce-migration-1.png)
 
-   * Geben Sie den Namen des Unternehmens ein, wie im Bestätigungsmodell angezeigt, und klicken Sie auf „Ich verstehe die Konsequenzen, Verbindung jetzt löschen“.
+  * Geben Sie den Namen des Geschäfts ein, wie im Bestätigungsdialogfeld angezeigt, und klicken Sie auf „Ich verstehe die Konsequenzen, Verbindung jetzt löschen“.
 * Dadurch wird der Löschvorgang ausgelöst. Es dauert einige Zeit, bis er abgeschlossen ist.
 
 ## Schritt 3: Verbinden der Produktions-CRM-Instanz in der [!DNL Marketo Measure]-App {#connect-the-production-crm-instance-in-marketo-measure-app}

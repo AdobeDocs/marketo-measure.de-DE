@@ -1,22 +1,26 @@
 ---
 unique-page-id: 18874747
-description: Hinzufügen  [!DNL Marketo Measure]  Skripts zu Sitecore-Seiten - [!DNL Marketo Measure]
-title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes für Sitecore-Seiten
+description: Hinzufügen [!DNL Marketo Measure] Skripts zu Sitecore-Seiten - [!DNL Marketo Measure]
+title: Hinzufügen [!DNL Marketo Measure] Skripts zu Sitecore-Seiten
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
-TQID: https://experienceleague.adobe.com/sXO-rCY3NbxX0AztYt-o3f-tpJFlrncLIb7-NvEjZO0
+TQID: 'https://experienceleague.adobe.com/sXO-rCY3NbxX0AztYt-o3f-tpJFlrncLIb7-NvEjZO0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 126
-ht-degree: 3%
-
+source-wordcount: '128'
+ht-degree: 0%
 ---
-
 # Hinzufügen [!DNL Marketo Measure] Skripts zu Sitecore-Seiten {#adding-marketo-measure-script-to-sitecore-pages}
 
 Content-Management-Systeme können über die Standardimplementierung hinaus zusätzliche Schritte erfordern, damit [!DNL Marketo Measure] Formularübermittlungen erkennen können. Im folgenden Prozess wird beschrieben, wie Sie den [!DNL Marketo Measure] JavaScript-Code zu Ihren [!DNL Sitecore] hinzufügen.

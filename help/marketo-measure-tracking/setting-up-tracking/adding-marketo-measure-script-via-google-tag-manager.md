@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874797
-description: Hinzufügen eines [!DNL Marketo Measure] -Skriptes über [!DNL Google Tag Manager]  – [!DNL Marketo Measure]
-title: Hinzufügen eines [!DNL Marketo Measure] -Skriptes über [!DNL Google Tag Manager]
+description: Hinzufügen [!DNL Marketo Measure] Skripts über [!DNL Google Tag Manager] - [!DNL Marketo Measure]
+title: Hinzufügen eines [!DNL Marketo Measure]-Skriptes über [!DNL Google Tag Manager]
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
-TQID: https://experienceleague.adobe.com/g3PTxiShipF9q79oIAWKZIUU-YFMarLEDeKknaPiHck
+TQID: 'https://experienceleague.adobe.com/g3PTxiShipF9q79oIAWKZIUU-YFMarLEDeKknaPiHck'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 95%
-
+source-wordcount: '199'
+ht-degree: 93%
 ---
-
 # Hinzufügen eines [!DNL Marketo Measure]-Skriptes über [!DNL Google Tag Manager] {#adding-marketo-measure-script-via-google-tag-manager}
 
 Bei der Installation des JavaScripts von [!DNL Marketo Measure] wird empfohlen, eine direkte [Hartkodierung im Skript der Website durchzuführen](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"}. Ist dies nicht möglich, können Sie auch [!DNL Google Tag Manager] (GTM) zum Laden des [!DNL Marketo Measure]-JS verwenden. Beachten Sie, dass [!DNL Marketo Measure]-JS, das über GTM geladen wird, anfällig für Latenz ist. Latenz verursacht eine Verzögerung bei der Skriptladezeit, was dazu führen kann, dass etwa 3–5 % aller Formularübermittlungen fehlen.
@@ -34,4 +36,4 @@ Wenn Sie unser Skript über GTM hinzufügen möchten, geben Sie dem [!DNL Market
 
 1. Klicken Sie auf **[!UICONTROL Auslöseregel hinzufügen]**, um Google anzuweisen, unser Snippet auf *allen Seiten* zu laden.
 
-1. Navigieren Sie auf der linken Seite zum Abschnitt mit der Container-Entwurfsübersicht. Klicken Sie auf die Schaltfläche, um eine Version Ihres Containers zu erstellen und die Änderungen zu veröffentlichen.
+1. Navigieren Sie auf der linken Seite zum Abschnitt „Container-Entwurf – Überblick“. Klicken Sie auf die Schaltfläche, um eine Version Ihres Containers zu erstellen und die Änderungen zu veröffentlichen.

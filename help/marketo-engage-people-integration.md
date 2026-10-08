@@ -3,13 +3,17 @@ description: Integration von [!DNL Marketo Engage] Personen - [!DNL Marketo Meas
 title: Integration von [!DNL Marketo Engage] Personen
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 3%
-
 ---
-
 # Integration von [!DNL Marketo Engage] Personen {#marketo-engage-people-integration}
 
 Mit der Marketo People -Integration können [!DNL Marketo Measure] Personen aus Marketo herunterladen und beginnen, die verfolgten Sitzungen mit den Kontakten zu verknüpfen und Touchpoints ihren Interaktionen zuzuordnen. Bisher war [!DNL Marketo Measure] nur in der Lage, Touchpoints einer Person aus dem CRM zuzuordnen. Dies hilft Marketing-Experten, ihre Marketing-Maßnahmen früher zu messen, anstatt auf eine Phase oder einen Trigger zu warten, um sie mit dem CRM zu synchronisieren.
@@ -59,7 +63,7 @@ Beim Reporting über Leads (Personen) in [!DNL Marketo Measure Discover] sehen S
   </tr>
   <tr>
    <td><p>ID</p></td>
-   <td><p>ID</p></td>
+   <td><p>id</p></td>
   </tr>
   <tr>
    <td><p>MODIFIED_DATE</p></td>
@@ -83,7 +87,7 @@ Beim Reporting über Leads (Personen) in [!DNL Marketo Measure Discover] sehen S
   </tr>
   <tr>
    <td><p>IS_CONVERTED</p></td>
-   <td><p>n. z.</p></td>
+   <td><p>k. A.</p></td>
   </tr>
   <tr>
    <td><p>ACCOUNT_ID</p></td>

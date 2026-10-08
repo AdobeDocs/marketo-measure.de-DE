@@ -1,21 +1,24 @@
 ---
 unique-page-id: 18874652
-description: Häufig gestellte Fragen zur [!DNL Marketo Measure] über Attribution - [!DNL Marketo Measure]
+description: Häufig gestellte Fragen zur [!DNL Marketo Measure] View Through Attribution - [!DNL Marketo Measure]
 title: '[!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsichts-Attribution'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-TQID: https://experienceleague.adobe.com/JL9J8c0qR5xOVFvzVaxrBKgBR0MO4WhcdUjQTX9Y2i0
+TQID: 'https://experienceleague.adobe.com/JL9J8c0qR5xOVFvzVaxrBKgBR0MO4WhcdUjQTX9Y2i0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '506'
 ht-degree: 33%
-
 ---
-
 # [!DNL Marketo Measure] Häufig gestellte Fragen zur Durchsichts-Attribution {#marketo-measure-view-through-attribution-faq}
 
 ## Was ist View Through Attribution? {#what-is-view-through-attribution}
@@ -24,7 +27,7 @@ Die Funktion [!DNL Marketo Measure] [!UICONTROL Durch Attribution anzeigen] biet
 
 >[!IMPORTANT]
 >
->Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe die Marketo Measure-Funktionen, die auf Drittanbieter-Cookies basieren, ein. Dies betrifft insbesondere das Domain-übergreifende Tracking und die Viewthrough-Attribution, die das Impressions-Cookie von Google/DoubleClick verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kundinnen und -Kunden weiterhin zur Verfügung.
+>Aus Datenschutzgründen werden Drittanbieter-Cookies immer seltener verwendet. Die von Google Chrome angekündigte Einstellung von Drittanbieter-Cookies im 3. Quartal 2024 stellt effektiv das Ende dieser Tracking-Methode dar. Daher stellt Adobe die Marketo Measure-Funktionen ein, die auf Drittanbieter-Cookies basieren. Dies betrifft insbesondere Cross-Domain-Tracking und View-through Attribution, die das Impressions-Cookie „Google/DoubleClick“ verwenden. Andere Funktionen von Marketo Measure sind davon nicht betroffen. Die Verwendung von Erstanbieter-Cookies ist ebenfalls nicht betroffen. In Anbetracht des Zeitplans von Google ist das geplante Einstellungsdatum der beiden oben genannten Funktionen der 1.6.2024. Zugehörige Daten, die vor diesem Datum erfasst wurden, stehen Adobe-Kundinnen und -Kunden weiterhin zur Verfügung.&#x200B;
 
 ## Warum ist [!UICONTROL Durch Attribution anzeigen] wichtig? {#why-is-view-through-attribution-important}
 

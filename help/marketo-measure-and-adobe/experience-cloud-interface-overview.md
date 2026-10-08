@@ -1,18 +1,22 @@
 ---
-description: Übersicht über die Adobe Experience Cloud-Benutzeroberfläche - [!DNL Marketo Measure]
-title: Adobe Experience Cloud-Benutzeroberfläche – Übersicht
+description: Übersicht über die Benutzeroberfläche von Adobe Experience Cloud - [!DNL Marketo Measure]
+title: Überblick über die Adobe Experience Cloud-Benutzeroberfläche
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-TQID: https://experienceleague.adobe.com/sWShCKtPiGe5MWS09Le1F9a-gbds18qA9Cae0asctfg
+TQID: 'https://experienceleague.adobe.com/sWShCKtPiGe5MWS09Le1F9a-gbds18qA9Cae0asctfg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 25%
-
 ---
-
 # Adobe Experience Cloud-Benutzeroberfläche – Übersicht {#experience-cloud-interface-overview}
 
 Die Benutzeroberfläche von Adobe Experience Cloud stimmt das Erscheinungsbild von Adobe Experience Cloud-Programmen und -Services ab. Aber sie weist mehr als nur ein neues Design auf. Es handelt sich dabei um eine Single Page Application, die das Anwendererlebnis in einer einzigen Instanz bereitstellt.
@@ -71,9 +75,9 @@ Um Ihre Sprache oder andere Einstellungen für Adobe zu ändern, klicken Sie auf
 
 Lesezeichen werden umgeleitet. Wenn Sie beispielsweise zu https://apps.marketo-measure.com/Discover/391 navigieren, werden Sie nach Abschluss der Authentifizierung zu https://experience.adobe.com/marketo-measure/Discover/391 weitergeleitet.
 
-**Ich kann mich über die Experience Cloud-Benutzeroberfläche nicht bei [!DNL Marketo Measure] anmelden. Was könnte das Problem sein?**
+**Ich kann mich über die Experience Cloud-Oberfläche nicht bei [!DNL Marketo Measure] anmelden. Was könnte das Problem sein?**
 
-Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine Seite wie die folgende sehen, könnte das Problem auf der [!DNL Marketo Measure] liegen:
+Wenn Sie sich bei Adobe Experience Cloud anmelden können, aber eine Seite wie die folgende sehen, könnte das Problem auf der [!DNL Marketo Measure] Seite liegen:
 
 ![](assets/unified-shell-overview-11.png)
 

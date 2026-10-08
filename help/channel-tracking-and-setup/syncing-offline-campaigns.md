@@ -3,13 +3,17 @@ description: Anleitung zum Synchronisieren von Offline-Kampagnen für Marketo Me
 title: Synchronisieren von Offline-Kampagnen
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 8%
-
 ---
-
 # Synchronisieren von Offline-Kampagnen {#syncing-offline-campaigns}
 
 Es kann schwierig sein, Offline-Kampagnen genau zu verfolgen und zu verstehen, wie sie mit Ihren digitalen Marketing-Maßnahmen verglichen werden. [!DNL Marketo Measure] können Sie Touchpoints Ihren Offline-Kampagnen in [!DNL Salesforce] nachverfolgen und zuordnen, auch in Situationen, in denen eine [!DNL Salesforce]-Kampagne erst einige Wochen nach dem Ereignis erstellt wird.
@@ -61,13 +65,13 @@ Wenn Sie diese Kampagne erstellen, klicken Sie auf das Feld [!UICONTROL Kunden-T
 ![Wenn Sie diese Kampagne erstellen, klicken Sie auf „Kunden-Touchpoints aktivieren“](assets/dynamics-lists-3.png)
 
 * **Alle Kampagnenmitglieder einbeziehen**
-   * Diese Option ermöglicht es [!DNL Marketo Measure], jedem Kampagnenmitglied einen Touchpoint zuzuordnen.
+  * Diese Option ermöglicht es [!DNL Marketo Measure], jedem Kampagnenmitglied einen Touchpoint zuzuordnen.
 
 * **Schließen Sie „Responded“-Kampagnenmitglieder ein.**
-   * Diese Option wendet Touchpoints auf Kampagnenmitglieder an, die den Status „Beantwortet“ haben.
+  * Diese Option wendet Touchpoints auf Kampagnenmitglieder an, die den Status „Beantwortet“ haben.
 
 * **Alle Kampagnenmitglieder ausschließen.**
-   * Diese Option schreibt keinen Mitgliedern der Kampagne Touchpoints zu und dient als Markierung, dass die Kampagne bewusst von der [!DNL Marketo Measure] ausgeschlossen wurde. Wenn Sie jemals bei einem Unfall eine Kampagne mit Käufer-Touchpoints synchronisieren, können Sie den Status in „Alle Kampagnenmitglieder ausschließen“ ändern, und die Touchpoints werden entfernt.
+  * Diese Option schreibt keinen Mitgliedern der Kampagne Touchpoints zu und dient als Markierung, dass die Kampagne bewusst von der [!DNL Marketo Measure] ausgeschlossen wurde. Wenn Sie jemals bei einem Unfall eine Kampagne mit Käufer-Touchpoints synchronisieren, können Sie den Status in „Alle Kampagnenmitglieder ausschließen“ ändern, und die Touchpoints werden entfernt.
 
 Sobald eine dieser Auswahlmöglichkeiten ausgewählt ist, weisen [!DNL Marketo Measure] jedem Kampagnenmitglied einen Touchpoint zu, sofern zutreffend. Einem Lead oder Kontakt, der zur Kampagne hinzugefügt wird _muss_ eine E-Mail-Adresse mit seinem Datensatz verknüpft sein, damit [!DNL Marketo Measure] einen Touchpoint erstellen können. Ohne eine E-Mail-Adresse wird [!DNL Marketo Measure] dem Kampagnenmitglied keinen Touchpoint zuweisen.
 

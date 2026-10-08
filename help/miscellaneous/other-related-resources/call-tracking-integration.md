@@ -4,18 +4,23 @@ description: Integration der Anrufverfolgung - [!DNL Marketo Measure]
 title: Anrufverfolgungsintegration
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-TQID: https://experienceleague.adobe.com/6-mDiLKLFk2x3Y2FzWxNjlm6BmLKNRDAObs3CYPvEgE
+TQID: 'https://experienceleague.adobe.com/6-mDiLKLFk2x3Y2FzWxNjlm6BmLKNRDAObs3CYPvEgE'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '694'
 ht-degree: 1%
-
 ---
-
 # Anrufverfolgungsintegration {#call-tracking-integration}
 
 Unsere Integration mit [!DNL CallTrackingMetrics] soll eine Web-Sitzung mit einem Telefonanruf zusammenführen. Ein Telefonanruf wird als Formularübermittlung an [!DNL Marketo Measure] behandelt. Sie wird einer Web-Sitzung zugeschrieben, die ansonsten nur als Web-Besuch betrachtet worden wäre, da keine tatsächliche Formularübermittlung stattgefunden hat.
@@ -76,7 +81,7 @@ Sowohl der Touchpoint-Typ als auch Medium enthalten die Daten, die aus dem Task.
 
 Überprüfen Sie zunächst die Aufgabe, um sicherzustellen, dass ein [!DNL BizibleId] ausgefüllt ist. Wenn kein Wert vorhanden ist, können wir keinen Touchpoint dafür erstellen. Dies muss mit CallTrackingMetrics eskaliert werden.
 
-Wenn ein Wert vorhanden ist, beachten Sie, dass wir alle Web-Sitzungen nur als 30 Minuten betrachten. Wenn auf eine Google-Anzeige um 12::17pm geklickt wurde (Beginn der Sitzung auf der Website), der Telefonanruf jedoch erst um 1::05pm stattfand, werden die Websitzung und der Telefonanruf nicht zusammengeführt. Stattdessen erstellt [!DNL Marketo Measure] einen separaten [!DNL Salesforce Task]-Touchpoint, um den Telefonanruf zu verfolgen, der jedoch über keine Web-Sitzungsdaten verfügt.
+Wenn ein Wert vorhanden ist, beachten Sie, dass wir alle Web-Sitzungen nur als 30 Minuten betrachten. Wenn um 12:17 Uhr (Sitzungsbeginn auf der Website) auf eine Google-Anzeige geklickt wurde, der Telefonanruf jedoch erst um 13:05 Uhr erfolgte, werden die Websitzung und der Telefonanruf nicht zusammengeführt. Stattdessen erstellt [!DNL Marketo Measure] einen separaten [!DNL Salesforce Task]-Touchpoint, um den Telefonanruf zu verfolgen, der jedoch über keine Web-Sitzungsdaten verfügt.
 
 ![](assets/6.png)
 

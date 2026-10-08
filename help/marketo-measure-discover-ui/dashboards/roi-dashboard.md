@@ -1,20 +1,23 @@
 ---
-description: ROI Dashboard - [!DNL Marketo Measure] - Produkt
+description: ROI-Dashboard - [!DNL Marketo Measure] - Produkt
 title: ROI-Dashboard
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-TQID: https://experienceleague.adobe.com/fPjoTK2sNSt8lOg4qePjqJIL8vOPhWy-GK5gQLqeSc4
+TQID: 'https://experienceleague.adobe.com/fPjoTK2sNSt8lOg4qePjqJIL8vOPhWy-GK5gQLqeSc4'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 736
+source-wordcount: '736'
 ht-degree: 3%
-
 ---
-
 # ROI-Dashboard {#roi-dashboard}
 
 Das ROI-Dashboard bietet Marketing-Experten einen detaillierten Überblick über die Investitionsrenditen in Kanälen, Unterkanälen und Kampagnen. Sie schlüsselt Kosten- und Umsatzmuster akribisch auf und beleuchtet Metriken wie Kosten pro Lead, Abschluss und Opportunity und stellt so ein umfassendes Verständnis der Marketing-Attribution sicher.
@@ -134,11 +137,11 @@ Tabelle mit Kosten, neuen Leads, Vertriebschancen und Abschlüssen, die nach ein
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
 * Datum
-   * Basierend auf:
-      * Erstellungsdatum: Leads, neue Opportunities
-      * Anfallsdatum für Kosten: Kosten
-      * Abschlussdatum: Attributierter Umsatz (einfacher ROI), Abschlüsse
-      * Touchpoint-Datum: Touchpoints aus realisiertem zugeordneten Umsatz (realisierter ROI)
+  * Basierend auf:
+    * Erstellungsdatum: Leads, neue Opportunities
+    * Anfallsdatum für Kosten: Kosten
+    * Abschlussdatum: Attributierter Umsatz (einfacher ROI), Abschlüsse
+    * Touchpoint-Datum: Touchpoints aus realisiertem zugeordneten Umsatz (realisierter ROI)
 * Attributionsmodell
 * Kanal, Unterkanal
 * Kampagne

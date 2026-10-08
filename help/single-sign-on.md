@@ -2,16 +2,17 @@
 description: Anleitung zum einmaligen Anmelden für Marketo Measure-Benutzende
 title: Single Sign-On
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 54%
-
 ---
-
 # Single Sign-On {#single-sign-on}
 
-SAML (Security Assertion Markup Language) für SSO (Single Sign-On) ermöglicht es den Benutzenden, sich über den Identitätsanbieter eines Unternehmens zu authentifizieren, wenn sie sich bei der [!DNL Marketo Measure]-App anmelden. SSO ermöglicht es den Benutzenden, sich einmal zu authentifizieren, ohne dass sie sich in verschiedenen Anwendungen authentifizieren müssen. SAML ist eine Notwendigkeit für Kundinnen und Kunden in Unternehmen, da nicht alle Benutzenden über ein [!DNL Salesforce]- oder [!DNL Google]-Konto in ihrer Organisation verfügen. Um zu skalieren, hat [!DNL Marketo Measure] eine SAML-Lösung entwickelt, die Identitätsanbieter von Unternehmen unterstützen kann.
+SAML (Security Assertion Markup Language) für SSO (Single Sign-On) ermöglicht es den Benutzenden, sich über den Identitätsanbieter eines Unternehmens zu authentifizieren, wenn sie sich bei der [!DNL Marketo Measure]-App anmelden. SSO ermöglicht es Benutzern, sich einmal zu authentifizieren, ohne sich in separaten Anwendungen erneut authentifizieren zu müssen. SAML ist eine Notwendigkeit für Kundinnen und Kunden in Unternehmen, da nicht alle Benutzenden über ein [!DNL Salesforce]- oder [!DNL Google]-Konto in ihrer Organisation verfügen. Um zu skalieren, hat [!DNL Marketo Measure] eine SAML-Lösung entwickelt, die Identitätsanbieter von Unternehmen unterstützen kann.
 
 >[!CAUTION]
 >
@@ -24,7 +25,7 @@ SAML (Security Assertion Markup Language) für SSO (Single Sign-On) ermöglicht 
 ## Anforderungen {#requirements}
 
 * Benutzende mit AccountAdmin-Rechten in der [!DNL Marketo Measure]-App
-* Benutzende mit Adminzugriff auf den Identitätsanbieter der Kundschaft
+* Benutzer mit Administratorzugriff auf den Identitätsanbieter des Kunden
 
 ## Erste Schritte {#getting-started}
 
@@ -50,7 +51,7 @@ Wechseln zur benutzerdefinierten SSO in der [!DNL Marketo Measure]-Anwendung
     
     c. Wechseln Sie den Anmeldetyp zu „Benutzerdefiniertes SSO“, um den Konfigurationsprozess zu starten.
 
-Ausfüllen der Verbindungseinstellungen für Ihre Identitätsanbieter-Konfiguration
+Geben Sie die Verbindungseinstellungen für Ihre Identitätsanbieter-Konfiguration ein
 
     a. Ihr Identitätsanbieter gibt möglicherweise ein XML-Dokument mit IdP-Metadaten zurück, aus dem die erforderlichen Konfigurationsfelder abgerufen werden. Laden Sie entweder den Inhalt des XML-Dokuments oder füllen Sie die drei folgenden Felder mit den Daten aus, die während des Identitätsanbieter-Konfigurationsprozesses generiert wurden. **Sie müssen nicht beides abschließen.**
     
@@ -114,16 +115,16 @@ Probieren Sie es aus!
 
 >[!NOTE]
 >
->Nachdem Sie SSO konfiguriert haben, müssen Sie innerhalb der Anwendung[!DNL Marketo Measure]keine Benutzenden mehr hinzufügen. Die Bereitstellung von Benutzenden sollte direkt über Ihren Identitätsanbieter erfolgen.
+>Nachdem Sie SSO konfiguriert haben, müssen Sie innerhalb der Anwendung[!DNL Marketo Measure]keine Benutzenden mehr hinzufügen. Die Bereitstellung von Benutzern sollte direkt über Ihren Identitätsanbieter erfolgen.
 
-## Benutzende eines CRM (Erweiterte Einstellungen) {#crm-users-advanced-setup}
+## CRM-Benutzer (Advanced Setup) {#crm-users-advanced-setup}
 
 Standardmäßig können alle Konten über ihre CRM-Zugangsdaten auf die [!DNL Marketo Measure]-Anwendung zugreifen. Manchmal müssen Kontoinhaberinnen bzw. -inhaber den Zugriff auf bestimmte Rollen beschränken und ihn nicht für alle Benutzenden mit einer aktiven CRM-Lizenz öffnen. Mit der erweiterten Einrichtung können Sie Ihre CRM-Rollen und -Gruppen den [!DNL Marketo Measure]-Benutzerberechtigungen zuordnen.
 
 Wenn keine Rollen oder Gruppen zugeordnet sind, besteht die Standardeinstellung darin, dass alle aktiven Lizenzen in Ihrem CRM-System über Standardbenutzerzugriff verfügen.
 
 * [!DNL Marketo Measure]-Standardbenutzer: Geben Sie den Rollen- oder Gruppenwert für Benutzende an, die über schreibgeschützten Zugriff auf die [!DNL Marketo Measure]-Anwendung verfügen sollen.
-* [!DNL Marketo Measure]-Konto-Admin-Benutzer: Geben Sie den Rollen- oder Gruppenwert für Benutzende an, die über Administratorzugriff auf die [!DNL Marketo Measure]-Anwendung verfügen sollen. Das bedeutet, dass die Rolle Zugriff auf Konfigurationsänderungen und Einstellungen hat, die sich auf Ihr Konto beziehen.
+* [!DNL Marketo Measure]-Konto-Admin-Benutzer: Geben Sie den Rollen- oder Gruppenwert für Benutzende an, die über Administratorzugriff auf die [!DNL Marketo Measure]-Anwendung verfügen sollen. Das bedeutet, dass die Rolle Zugriff darauf hat, Konfigurationen und Einstellungen zu ändern, die sich auf Ihr Konto beziehen.
 
 Wenn mehrere Rollen oder Gruppen einer Rolle zugeordnet werden sollen, geben Sie jeden Wert durch ein Komma getrennt ein.
 

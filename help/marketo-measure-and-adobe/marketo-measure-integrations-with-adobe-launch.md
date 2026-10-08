@@ -3,18 +3,20 @@ description: '[!DNL Marketo Measure] Integrationen mit Adobe Launch - [!DNL Mark
 title: '[!DNL Marketo Measure]-Integrationen mit Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-TQID: https://experienceleague.adobe.com/5bgXPo2wv7eeJqnrDZkYYasapORBU3V1MxgGOgoKrTw
+TQID: 'https://experienceleague.adobe.com/5bgXPo2wv7eeJqnrDZkYYasapORBU3V1MxgGOgoKrTw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: '316'
 ht-degree: 6%
-
 ---
-
 # [!DNL Marketo Measure]-Integrationen mit Adobe Launch {#marketo-measure-integrations-with-adobe-launch}
 
 Die Adobe Launch-Erweiterung ist für bestehende [!DNL Marketo Measure] konzipiert, die Adobe Launch bereits auf ihrer Website verwenden. Die Erweiterung dient als Tag-Management-Lösung, mit der Sie Skripte auf der Grundlage bestimmter Ereignisse und Bedingungen konfigurieren und dynamisch auf Ihren Seiten laden können.

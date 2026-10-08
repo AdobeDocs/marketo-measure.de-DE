@@ -3,13 +3,17 @@ description: Verwenden Sie das Dashboard „Lead-Geschwindigkeit“, um die Zeit
 title: Dashboard „Lead-Geschwindigkeit“
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 2%
-
 ---
-
 # Dashboard „Lead-Geschwindigkeit“ {#lead-velocity-dashboard}
 
 Das Velocity-Dashboard bietet einen dynamischen Einblick in das Tempo, in dem Interessenten durch den Sales funnel navigieren, und gibt Marketing-Experten und Vertriebsteams wichtige Einblicke in die Konversionszeiten auf verschiedenen Kanälen. Dieses Tool ist für die Beantwortung wichtiger Fragen zur Lead-Konversionsdauer und zur Effizienz der Progression in den Vertriebsstufen von unschätzbarem Wert. So können Sie Ihre Interaktionsstrategien für beschleunigtes Wachstum und Konversionen optimieren.
@@ -66,7 +70,7 @@ Fragen, die in der Tabelle beantwortet werden:
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
 * Datum
-   * Basierend auf: Übergang in Datum
+  * Basierend auf: Übergang in Datum
 * Phase
 * Kanal
 * Unterkanal

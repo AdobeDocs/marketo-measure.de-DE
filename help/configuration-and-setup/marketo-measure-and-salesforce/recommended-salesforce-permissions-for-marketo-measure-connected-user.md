@@ -1,23 +1,31 @@
 ---
 unique-page-id: 18874696
-description: Recommended [!DNL Salesforce] Permissions for [!DNL Marketo Measure] Connected User - [!DNL Marketo Measure]
-title: Empfohlene [!DNL Salesforce] -Berechtigungen für [!DNL Marketo Measure] Connected User
+description: Empfohlene [!DNL Salesforce] für [!DNL Marketo Measure] verbundene Benutzer - [!DNL Marketo Measure]
+title: Empfohlene [!DNL Salesforce] für [!DNL Marketo Measure] Connected User
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/ImKgikcl5a3LJhBs8VnvWFZAxLkEY0r3Ip0XVZoHE-g
+TQID: 'https://experienceleague.adobe.com/ImKgikcl5a3LJhBs8VnvWFZAxLkEY0r3Ip0XVZoHE-g'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 441
-ht-degree: 27%
-
+source-wordcount: '445'
+ht-degree: 26%
 ---
-
 # Empfohlene [!DNL Salesforce] für [!DNL Marketo Measure] Connected User {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
 
 [!DNL Marketo Measure] sendet und empfängt Daten über einen verbundenen [!DNL Salesforce]-Benutzer in der [!DNL Marketo Measure]-App.
@@ -34,11 +42,11 @@ Der verwaltete Berechtigungssatz bietet einem SFDC-Administrator die Möglichkei
 
 * Berechtigungssatz für konvertierte Leads anzeigen und bearbeiten
 
-Dies ermöglicht [!DNL Marketo Measure], Leads zu dekorieren, nachdem sie in Kontakte umgewandelt wurden. Wenn dieser Berechtigungssatz nicht aktiviert ist, kann es zu erheblichen Lücken beim Daten-Tracking kommen. Weitere Informationen finden Sie unter [[!DNL Salesforce Trailblazer] Community](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
+Dies ermöglicht [!DNL Marketo Measure], Leads zu dekorieren, nachdem sie in Kontakte umgewandelt wurden. Wenn dieses Berechtigungs-Set nicht aktiviert ist, kann es zu erheblichen Lücken beim Daten-Tracking kommen. Weitere Informationen finden Sie unter [[!DNL Salesforce Trailblazer] Community](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
 
 * Checkbox „Marketing-Benutzer [!DNL Salesforce]&quot;
 
-Das Kontrollkästchen [!UICONTROL Marketing-Benutzer] ermöglicht es dem Benutzer, Kampagnen zu erstellen und die Assistenten zum Importieren von Kampagnen zu verwenden. Wenn diese Option nicht ausgewählt ist, können die Benutzenden nur Kampagnen und erweiterte Kampagneneinstellungen anzeigen, den Kampagnenverlauf für einen einzelnen Lead oder Kontakt bearbeiten und Kampagnenberichte ausführen. [!DNL Marketo Measure] muss in der Lage sein, das Kampagnenobjekt zu lesen und hineinzuschreiben.
+Das Kontrollkästchen [!UICONTROL Marketing-Benutzer] ermöglicht es dem Benutzer, Kampagnen zu erstellen und die Assistenten zum Importieren von Kampagnen zu verwenden. Wenn diese Option nicht ausgewählt ist, kann der Benutzer nur Kampagnen und das erweiterte Kampagnen-Setup anzeigen, den Campaign History für einen einzelnen Lead oder Kontakt bearbeiten und Kampagnenberichte ausführen. [!DNL Marketo Measure] muss in der Lage sein, das Kampagnenobjekt zu lesen und hineinzuschreiben.
 
 **Zusätzliche Fehlerbehebung**
 

@@ -3,13 +3,17 @@ description: Häufig gestellte Fragen (Handbuch für mehrere Währungen) für Be
 title: Häufig gestellte Fragen (mehrere Währungen)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
-
 ---
-
 # Häufig gestellte Fragen (mehrere Währungen) {#faq-multi-currency}
 
 **Wie weiß ich, welche Funktion aktiviert werden soll?**
@@ -52,7 +56,7 @@ Für [!DNL Dynamics] und [!DNL Salesforce] Kunden, die nur das grundlegende (nic
 
 Leider gibt es einige Nuancen in der Funktionsweise für Benutzer von [!DNL Salesforce] Advanced Currency Management, aufgrund einer langjährigen Einschränkung der [!DNL Salesforce]. Die kurze Antwort auf „Was tun wir in diesem Fall“ ist, dass wir die Umsatzbeträge mithilfe der Pauschalsätze umrechnen, die auf der Registerkarte „Verwalten von Währungen“ der allgemeinen (d. h. nicht erweiterten) Ebene definiert sind. Mit anderen Worten, wir ignorieren die datierten Wechselkurse ganz, obwohl der Kunde datierte Wechselkurse definiert hat.
 
-Für den interessierten Leser ist dies der Grund, warum es so funktioniert. Unsere Touchpoints verwenden Formelfelder zur Berechnung des Umsatzes (abgeleitet aus dem zugehörigen Opportunity-Betrag). [!DNL Salesforce] unterstützt nativ die Währungsumrechnung für diese Formelberechnungen, aber nur für die grundlegende Variante der Währungsunterstützung. Es ist uns unmöglich, ein Formelfeld zu definieren, das sich auf die datierten Wechselkurse bezieht. [!DNL Salesforce] unterstützt diese Funktion einfach nicht, daher haben wir keine Möglichkeit, die datierten Sätze in unseren Einnahmenberechnungen zu referenzieren, obwohl diese datierten Sätze in [!DNL Salesforce] existieren (es klingt verrückt, aber so funktioniert es.)
+Für den interessierten Leser ist dies der Grund, warum es so funktioniert. Unsere Touchpoints verwenden Formelfelder zur Berechnung des Umsatzes (abgeleitet aus dem zugehörigen Opportunity-Betrag). [!DNL Salesforce] unterstützt nativ die Währungsumrechnung für diese Formelberechnungen, jedoch nur für die grundlegende Variante der Währungsunterstützung. Es ist uns unmöglich, ein Formelfeld zu definieren, das sich auf die datierten Wechselkurse bezieht. [!DNL Salesforce] unterstützt diese Funktion einfach nicht, daher haben wir keine Möglichkeit, die datierten Sätze in unseren Einnahmenberechnungen zu referenzieren, obwohl diese datierten Sätze in [!DNL Salesforce] existieren (es klingt verrückt, aber so funktioniert es.)
 
 **Wenn mein Kunde einen Workflow zum Ausfüllen eines konvertierten Felds verwendet hat, wie sollte er dieses Feld künftig verwenden?**
 

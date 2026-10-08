@@ -3,19 +3,23 @@ description: Keyword ROI Dashboard - [!DNL Marketo Measure] - Produkt
 title: Keyword-ROI-Dashboard
 feature: Reporting
 exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
-TQID: https://experienceleague.adobe.com/nOK0KPYYD1kMdf7aBZTQWI-BD8zFIEB0akwEDD-Jeqw
+TQID: 'https://experienceleague.adobe.com/nOK0KPYYD1kMdf7aBZTQWI-BD8zFIEB0akwEDD-Jeqw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: '404'
 ht-degree: 3%
-
 ---
-
 # Keyword-ROI-Dashboard {#keyword-roi-dashboard}
 
 Das Dashboard „Keyword-ROI“ bietet detaillierte Einblicke in die Leistung von Kampagnen mit Paid Search. Es bietet eine umfassende Analyse der Kosten auf Keyword-Ebene, des zugeordneten Umsatzes und der neu generierten Leads und Chancen und stellt so ein klares Verständnis des Keyword-ROI sicher.
@@ -74,11 +78,11 @@ Schlüsseln Sie die einzelnen Keywords auf, um die von ihnen beeinflussten Oppor
 Dieses Dashboard verfügt über die folgenden Einstellungen und Filter:
 
 * Datum
-   * Basierend auf:
-      * Erstellungsdatum: Leads, neue Opportunities
-      * Anfallsdatum für Kosten: Kosten
-      * Abschlussdatum: Attributierter Umsatz (einfacher ROI), Abschlüsse
-      * Touchpoint-Datum: Touchpoints aus realisiertem zugeordneten Umsatz (realisierter ROI)
+  * Basierend auf:
+    * Erstellungsdatum: Leads, neue Opportunities
+    * Anfallsdatum für Kosten: Kosten
+    * Abschlussdatum: Attributierter Umsatz (einfacher ROI), Abschlüsse
+    * Touchpoint-Datum: Touchpoints aus realisiertem zugeordneten Umsatz (realisierter ROI)
 * Attributionsmodell
 * Keyword
 * Kampagne

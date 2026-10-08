@@ -1,20 +1,23 @@
 ---
-description: Best Practices für die Segmentierung – [!DNL Marketo Measure]
+description: Best Practices für die Segmentierung - [!DNL Marketo Measure]
 title: Best Practices für die Segmentierung
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-TQID: https://experienceleague.adobe.com/YR-eQXPLgo1FbUk4VXa9cuaAwjiSSVBbSB3ZjAeScaY
+TQID: 'https://experienceleague.adobe.com/YR-eQXPLgo1FbUk4VXa9cuaAwjiSSVBbSB3ZjAeScaY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 451
-ht-degree: 100%
-
+source-wordcount: '451'
+ht-degree: 99%
 ---
-
 # Best Practices für die Segmentierung {#best-practices-for-segmentation}
 
 ## Überblick {#overview}
@@ -32,17 +35,17 @@ Bei der Push-Übertragung nach [!UICONTROL Discover] werden Segmente auf allen P
 Beachten Sie die folgenden Best Practices, unabhängig davon, ob die Segmentierung zum ersten Mal definiert oder nur die zuvor eingerichtete Segmentierung überprüft wird.
 
 * Achten Sie auf Einfachheit.
-* Richten Sie den Segmentnamen an die Nomenklatur Ihres Unternehmens aus, d. h. Kategorie = Filtername, Segment = Filterwert.
+* Passen Sie den Segmentnamen an die Nomenklatur Ihres Unternehmens an, d. h. Kategorie = Filtername, Segment = Filterwert.
 * Verwenden Sie keine Formelfelder in Ihren Regeln
-* Erstellen Sie die Segmentierung möglichst für Lead/Kontakt und für Opportunity, um eine Verwendung über den gesamten Trichter hinweg sicherzustellen
-   * Wenn Sie Kundin oder Kunde von Marketo Measure Ultimate sind und Ihr Standard-Dashboard-Objekt auf „Kontakt“ festgelegt haben, verwenden Sie folgende beiden Lead-Felder nicht ([mehr dazu erfahren Sie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
-      * b2b.personStatus
-      * b2b.isConverted
-   * Nicht jede Segmentkategorie wird über den gesamten Trichter ausgerichtet
-      * Die Segmentkategorie „Opportunity-Typ“ bezieht sich beispielsweise nicht auf Leads. Bei einem Segment, das mit „Region“ verknüpft ist, handelt es sich jedoch wahrscheinlich um eine Kategorie, die im gesamten Trichter definiert werden kann
+* Erstellen Sie die Segmentierung nach Möglichkeit sowohl für Lead/Kontakt als auch für Opportunity, damit Sie sie im gesamten Trichter verwenden können.
+  * Wenn Sie Kundin oder Kunde von Marketo Measure Ultimate sind und Ihr Standard-Dashboard-Objekt auf „Kontakt“ festgelegt haben, verwenden Sie folgende beiden Lead-Felder nicht ([mehr dazu erfahren Sie hier](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+    * b2b.personStatus
+    * b2b.isConverted
+  * Nicht jede Segmentkategorie ist über den gesamten Trichter hinweg anwendbar
+    * Die Segmentkategorie „Opportunity-Typ“ bezieht sich beispielsweise nicht auf Leads. Bei einem Segment, das mit „Region“ verknüpft ist, handelt es sich jedoch wahrscheinlich um eine Kategorie, die im gesamten Trichter definiert werden kann.
 * Denken Sie darüber nach, wie Sie Ihre Daten derzeit darstellen möchten – ob im CRM-System oder in einem BI-Tool – und erwägen Sie eine entsprechende Segmenterstellung in [!DNL Marketo Measure], sodass dieselben Berichte in Discover verfügbar sind
 
-## Best Practices für die Wartung {#best-practice-for-maintenance}
+## Best Practice für die Wartung {#best-practice-for-maintenance}
 
 Indem Sie Ihre Segmentierung mindestens zweimal jährlich überprüfen, stellen Sie sicher, dass die Segmentierung auf dem neuesten Stand ist. Als Best Practice empfehlen wir, Ihre Regeln auf der Registerkarte [!UICONTROL Segmente] der [!DNL Marketo Measure]-Kontoeinstellungen zu überprüfen und Berichte in [!DNL Salesforce] abzurufen, um Ihre in Aktion befindlichen Segmente zu prüfen. Diese Schritte geben Ihnen und Ihrem Team nicht nur ein sicheres Gefühl in Bezug auf die Segmentierung, sondern anschließend auch bei Ihren [!DNL Marketo Measure]-Berichten.
 

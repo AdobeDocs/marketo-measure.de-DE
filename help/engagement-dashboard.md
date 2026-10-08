@@ -3,13 +3,17 @@ description: Entdecken Sie das Interaktions-Dashboard zur Verfolgung von Touchpo
 title: Interaktions-Dashboard
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
-
 ---
-
 
 # Interaktions-Dashboard {#engagement-dashboard}
 
@@ -37,7 +41,7 @@ Fragen, die das Dashboard beantwortet:
 ### KPI-Kacheln {#kpi-tiles}
 
 * Touchpoints: Die Gesamtzahl der generierten rohen Touchpoints.
-   * Käufer-Touchpoints und Käufer-Attribution-Touchpoints sind Attributionsergebnisse, die durch die Auswahl bestimmter Touchpoints für eine Gutschrift erstellt werden. Nicht alle Touchpoints werden als BTs und BATs ausgewählt.
+  * Käufer-Touchpoints und Käufer-Attribution-Touchpoints sind Attributionsergebnisse, die durch die Auswahl bestimmter Touchpoints für eine Gutschrift erstellt werden. Nicht alle Touchpoints werden als BTs und BATs ausgewählt.
 * Kontaktierte Personen: Die Gesamtzahl der Personen mit Touchpoints.
 * Touchpoints pro Person: Durchschnittliche Anzahl an Touchpoints pro Person, die kontaktiert wurden.
 

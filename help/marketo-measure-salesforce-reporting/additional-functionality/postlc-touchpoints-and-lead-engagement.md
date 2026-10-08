@@ -1,22 +1,25 @@
 ---
 unique-page-id: 18874562
 description: PostLC-Touchpoints und Lead-Interaktion - Marketo Measure - Produktdokumentation
-title: PostLC-Touchpoints und Lead-Interaktion
+title: PostLC-Touchpoints und Lead-Engagement
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/n4xUxE4OCjGuKWUwV5Gi-KA9xC7ChzpdhjXjuqbzlIA
+TQID: 'https://experienceleague.adobe.com/n4xUxE4OCjGuKWUwV5Gi-KA9xC7ChzpdhjXjuqbzlIA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 4%
-
 ---
-
-# PostLC-Touchpoints und Lead-Interaktion {#postlc-touchpoints-and-lead-engagement}
+# PostLC-Touchpoints und Lead-Engagement {#postlc-touchpoints-and-lead-engagement}
 
 [!DNL Marketo Measure] Post-Lead Creation (PostLC)-Touchpoints sind für Kundinnen und Kunden verfügbar, die Multi-Touch-Attributionsmodelle (W-Shape und höher) verwenden. Wenn ein Lead oder Kontakt zu Ihrer Website zurückkehrt und weiterhin Formulare ausfüllt, registrieren sich diese Formularübermittlungen als PostLC-Touchpoints. Mit diesen Touchpoints können Sie sehen, welche Inhalte dazu führen, dass Leads noch lange nach ihrer ersten Konversion weiterhin mit Ihrer Site interagieren. PostLC-Touchpoints teilen sich das Attributionsguthaben mit allen zwischengeschalteten Touchpoints innerhalb einer Opportunity; 10 % Attributionsguthaben werden zwischengeschalteten Touchpoints zugewiesen und gleichmäßig auf alle Touches verteilt.
 

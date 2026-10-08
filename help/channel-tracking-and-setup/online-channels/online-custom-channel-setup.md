@@ -1,26 +1,29 @@
 ---
 unique-page-id: 18874596
-description: Online-Einrichtung benutzerdefinierter Kanäle – [!DNL Marketo Measure]
-title: Online-Einrichtung benutzerdefinierter Kanäle
+description: Einrichten eines benutzerdefinierten Online-Kanals - [!DNL Marketo Measure]
+title: Online-Setup benutzerdefinierter Kanäle
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-TQID: https://experienceleague.adobe.com/8mxa4BFlZDGPRecGF-ZYDIf5pzPpistFv2kOUF0Se88
+TQID: 'https://experienceleague.adobe.com/8mxa4BFlZDGPRecGF-ZYDIf5pzPpistFv2kOUF0Se88'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1225
-ht-degree: 100%
-
+source-wordcount: '1225'
+ht-degree: 99%
 ---
-
 # Online-Einrichtung benutzerdefinierter Kanäle {#online-custom-channel-setup}
 
-Um eine genaue Berichterstellung zu erhalten, müssen Marketing-Kanäle eingerichtet werden, die der UTM-Strategie Ihres Unternehmens entsprechen. In diesem Handbuch erfahren Sie, wie Sie Ihre benutzerspezifischen Kanalregeln am besten konfigurieren.
+Um eine genaue Berichterstellung zu erhalten, müssen Marketing-Kanäle eingerichtet werden, die der UTM-Strategie Ihres Unternehmens entsprechen. In diesem Handbuch erfahren Sie, wie Sie Ihre benutzerdefinierten Kanalregeln am besten konfigurieren.
 
 ## Vorbereitung {#before-you-begin}
 
@@ -28,10 +31,10 @@ Bevor Sie mit der Erstellung Ihrer Kanalregeln für [!DNL Marketo Measure] begin
 
 Folgendes sollte beachtet werden:
 
-* Ihr Unternehmen kann maximal 40 benutzerdefinierte Marketing-Kanäle erstellen. Dies umfasst sowohl Offline- als auch Online-Kanäle.
+* Ihr Unternehmen kann maximal 40 benutzerdefinierte Marketingkanäle erstellen. Dies umfasst sowohl Offline- als auch Online-Kanäle.
 * Ihr Unternehmen kann bis zu 200 Unterkanäle erstellen.
-* Für jede Sammlung bzw. jeden Behälter von Daten ist eine eigene Regel erforderlich (Zeile im Arbeitsblatt), die angibt, wie die Daten organisiert werden. Seien Sie so spezifisch wie möglich.
-* Die [!DNL Marketo Measure]-Logik priorisiert Daten in absteigender Reihenfolge, beginnend mit der obersten Zeile des Arbeitsblatts und dann nach unten. Sie liest jeden Behälter oder jede Zelle zeilenweise und sucht nach der ersten Übereinstimmung Die Daten werden dann nach den Werten in diesen Behältern sortiert. Mehr dazu unten.
+* Für jede Sammlung bzw. jede Gruppe von Daten ist eine eigene Regel erforderlich (Zeile im Arbeitsblatt), die angibt, wie die Daten organisiert werden. Seien Sie so spezifisch wie möglich.
+* Die [!DNL Marketo Measure]-Logik priorisiert Daten in absteigender Reihenfolge, beginnend mit der obersten Zeile des Arbeitsblatts und dann nach unten. Sie liest jeden Behälter oder jede Zelle zeilenweise und sucht nach der ersten Übereinstimmung Die Daten werden dann nach den Werten in diesen Gruppen sortiert. Mehr dazu unten.
 * Sortieren Sie Ihr Blatt nicht in alphabetischer Reihenfolge, da dies die Logikregeln stört.
 * Nach dem Hochladen der Datei können Sie für sieben Tage keine der Regeln ändern. [!DNL Marketo Measure] nutzt diese Zeit zur Verarbeitung und Aktualisierung der Touchpoints.
 
@@ -53,13 +56,13 @@ Die Tabelle enthält sieben Spalten:
 * **Landingpage:** Fügen Sie hier die Landingpage hinzu
 * **Verweisende Website:** die URLs von Websites, die auf Traffic auf Ihren Seiten verweisen oder integrierte [!DNL Marketo Measure]-Logik (durch Klammern angegeben)
 
-In der achten Spalte wird angegeben, welche Regeln nicht aus der Tabelle mit „Nicht entfernen“ gelöscht werden können. Am oberen Rand des Arbeitsblatts befinden sich standardmäßige Kanalregeln, die [!DNL Marketo Measure] empfiehlt, nicht zu ändern oder zu entfernen, selbst wenn Sie diese Kanäle nicht verwenden. [!DNL Marketo Measure] verfügt über tiefe Integrationen mit diesen Plattformen, sodass sie standardmäßig eingeschlossen sind.
+In der achten Spalte ist mit „Nicht entfernen“ gekennzeichnet, welche Regeln Sie nicht aus der Tabelle löschen können. Am oberen Rand des Arbeitsblatts befinden sich standardmäßige Kanalregeln, die [!DNL Marketo Measure] empfiehlt, nicht zu ändern oder zu entfernen, selbst wenn Sie diese Kanäle nicht verwenden. [!DNL Marketo Measure] verfügt über tiefe Integrationen mit diesen Plattformen, sodass sie standardmäßig eingeschlossen sind.
 
 Die Zeilen stellen Regeln und die Reihenfolge dar, in der [!DNL Marketo Measure] die Daten priorisiert. Die erste Zeile hat Vorrang vor der zweiten Zeile, die zweite Zeile hat Vorrang vor der dritten Zeile usw. Bei der Bestimmung, in welchen Marketing-Kanälen und Unterkanälen Touchpoints zusammengefasst werden sollen, liest [!DNL Marketo Measure] von oben nach unten und von links nach rechts, bis eine Zeile gefunden wird, die den Kriterien des Touchpoints entspricht. (Wenn ein Touchpoint `utm_source=Facebook` hat, wird der Touchpoint aufgrund von Regel 15 im Screenshot im Kanal Social.Facebook zusammengefasst.)
 
 ![](assets/3.png)
 
-[!DNL Marketo Measure] enthält 12 Standardkanäle für Ihre Verwendung. Diese Kanäle korrelieren mit Plattformen, mit denen [!DNL Marketo Measure] vollständig integriert ist. Unabhängig davon, ob Sie sie verwenden oder nicht, entfernen Sie sie nicht. Wenn Sie eine dieser Plattformen verwenden, z. B. Bing Ads, aber lieber eine andere Benennungsregel für den Kanal oder den Unterkanal verwenden, können Sie den Namen aktualisieren. Ein Beispiel wird in der Abbildung unten gezeigt.
+[!DNL Marketo Measure] enthält 12 Standardkanäle für Ihre Verwendung. Diese Kanäle korrelieren mit Plattformen, mit denen [!DNL Marketo Measure] vollständig integriert ist. Unabhängig davon, ob Sie sie verwenden oder nicht, entfernen Sie sie nicht. Wenn Sie eine dieser Plattformen verwenden, z. B. Bing Ads, aber lieber eine andere Namenskonvention für den Kanal oder den Unterkanal verwenden, können Sie den Namen aktualisieren. Ein Beispiel wird in der Abbildung unten gezeigt.
 
 ![](assets/4.png)
 
@@ -73,7 +76,7 @@ Jeder Parameter oder jede Komponente der Regel wird dem Kanal separat zugeordnet
 
 Die nächste Regel fragt nur nach dem Medium-Parameter, sodass alle Daten mit diesem Parameter in diesen Kanal zusammengefasst werden. Schließlich werden für [!DNL Facebook] alle Daten, die von der Facebook-URL stammen, in den letzten Facebook-Kanal aufgenommen.
 
-Der Standardkanal &quot;Sonstige&quot; ist vorhanden, um Daten zu erfassen, die nicht den Kriterien einer Regel entsprechen. Beachten Sie, dass einige Buckets im Kanal &quot;Sonstige&quot; Sternchen (&#42;) enthalten. Diese Sternchen stellen Platzhalterzeichen dar, die als Auffangbehälter dienen.
+Der Standardkanal &quot;Sonstige&quot; ist vorhanden, um Daten zu erfassen, die nicht den Kriterien einer Regel entsprechen. Beachten Sie, dass einige Buckets im Kanal &quot;Sonstige&quot; Sternchen (&#42;) enthalten. Diese Sternchen (*) stellen Platzhalterzeichen dar, die als Auffangbehälter dienen.
 
 ![](assets/6.png)
 
@@ -87,21 +90,21 @@ Im Folgenden finden Sie weitere Beispiele für die Logik von Platzhaltern:
 
 Beachten Sie außerdem, dass Sie beim Erstellen eines Unterkanals für einen Ihrer Kanäle einen Unterkanal für alle Regeln unter diesem Kanal erstellen müssen. Anders ausgedrückt: Wenn Sie einen Unterkanal erstellen, können Sie den Rest der Spalten nicht leer lassen.
 
-## Einrichten Ihrer benutzerspezifischen Kanalregeln {#setting-up-your-custom-channels-rules}
+## Einrichten Ihrer benutzerdefinierten Kanalregeln {#setting-up-your-custom-channels-rules}
 
 Sobald Sie sich für die Organisation und Priorisierung Ihrer Daten entschieden haben, können Sie Ihre Regeln zur Tabelle hinzufügen. Nachfolgend finden Sie einige Best Practices:
 
 * Halten Sie Ihre Regeln von Anfang an so einfach wie möglich. Sie können jederzeit auf den Regeln aufbauen.
 * Fügen Sie den Kanalnamen keine Sonderzeichen hinzu (z. B. $%#&amp;&#42;@)
 * Bearbeiten Sie nicht die mit BingAds und AdWords verknüpften Regeln. Diese Regeln sind von entscheidender Bedeutung für die Zusammenfassung der Daten, die automatisch aus der [!DNL Marketo Measure] API-Integration mit diesen Plattformen kommen. Eine Namensänderung des Subkanals und des Kanals zur Anpassung an Ihre Anforderungen ist jedoch kein Problem.
-* Entfernen Sie nicht die Regeln, die einen Hinweis &quot;Do Not Remove“ enthalten.
+* Entfernen Sie nicht die Regeln, die einen Hinweis „Do Not Remove“ enthalten.
 * Organische Suchregeln werden immer nach den [!UICONTROL gebührenpflichtigen Suchregeln] platziert
 * Sie können keine Regeln erstellen, die auf verschiedenen Subdomains basieren.
 * Wenn Sie einer Zelle im Arbeitsblatt mehr als einen Wert hinzufügen müssen, trennen Sie diese Werte nur durch ein Semikolon `;`. Keine Kommas oder Leerzeichen.
 * Sie müssen kein „.com“ am Ende der verweisenden URL hinzufügen.
 * Wenn Sie eine verweisende URL hinzufügen, dürfen Sie sie nicht wie die anderen API-bezogenen Regeln in Klammern setzen.
 
-## Hochladen Ihrer benutzerspezifischen Kanalregeln {#uploading-your-custom-channels-rules}
+## Hochladen Ihrer benutzerdefinierten Kanalregeln {#uploading-your-custom-channels-rules}
 
 Stellen Sie sicher, dass alle neuen Kanal- und Unterkanalwerte, die Sie in der CSV-Datei hinzufügen, bereits im Kanaleinstellungsbereich Ihres Bizible-Kontos hinzugefügt wurden. Überprüfen Sie, ob alle Kanal- und Subkanalnamen in der CSV dem Kanaleinstellungsbereich Ihres [!DNL Marketo Measure]-Kontos entsprechen. Stellen Sie sicher, dass Sie sie auf Kommas und Leerzeichen überprüfen.
 

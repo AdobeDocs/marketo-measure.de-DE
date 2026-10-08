@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874704
-description: Häufig gestellte Fragen zu Aktivitäten Attribution - [!DNL Marketo Measure]
+description: Häufig gestellte Fragen zur Attribution von Aktivitäten - [!DNL Marketo Measure]
 title: Häufig gestellte Fragen zur Aktivitätszuordnung
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-TQID: https://experienceleague.adobe.com/o26ZNdZWcbIR7ghclTqOZLtKUx10t4wVHbwSahFluIo
+TQID: 'https://experienceleague.adobe.com/o26ZNdZWcbIR7ghclTqOZLtKUx10t4wVHbwSahFluIo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '773'
 ht-degree: 2%
-
 ---
-
 # Häufig gestellte Fragen zur Aktivitätszuordnung {#activities-attribution-faq}
 
 [!DNL Marketo Measure] Aktivitäten importiert alle Ihre Aktivitätsdatensätze und generiert Touchpoints für sie, sodass diese Aktivitäten eine Attribution erhalten können. Der häufigste Anwendungsfall besteht darin, Aktivitäten des Sales-Teams zu verfolgen, da diese in der Regel einen Datensatz mit Telefonanrufen oder E-Mails erstellen, die an Interessenten gesendet werden. Andere einzigartige Dinge, die verfolgt werden können, sind Inhaltsinteraktionen wie Asset-Downloads oder Videoansichten.

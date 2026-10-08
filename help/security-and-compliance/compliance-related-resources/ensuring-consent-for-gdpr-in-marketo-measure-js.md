@@ -1,22 +1,25 @@
 ---
 unique-page-id: 35586069
-description: Sicherstellen der Zustimmung für die DSGVO in Marketo Measure JS – Marketo Measure – Produktdokumentation
-title: Sicherstellen der Zustimmung für die DSGVO in Marketo Measure JS
+description: Sicherstellen des Einverständnisses für die DSGVO in Marketo Measure JS – Marketo Measure – Produktdokumentation
+title: Sicherstellen des Einverständnisses für die DSGVO in Marketo Measure JS
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-TQID: https://experienceleague.adobe.com/hQdhj6JLLiLkBfe-DgklJH-1Zk5WJJea0zADzILEeMY
+TQID: 'https://experienceleague.adobe.com/hQdhj6JLLiLkBfe-DgklJH-1Zk5WJJea0zADzILEeMY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: '425'
 ht-degree: 96%
-
 ---
-
-# Sicherstellen der Zustimmung für die DSGVO in Marketo Measure JS {#ensuring-consent-for-gdpr-in-marketo-measure-js}
+# Sicherstellen des Einverständnisses für die DSGVO in Marketo Measure JS {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 Die Datenschutz-Grundverordnung (DSGVO) ist eine EU-Rechtsvorschrift, die am 25. Mai 2018 in Kraft getreten ist.
 
@@ -26,7 +29,7 @@ Ziel der DSGVO ist es, die Rechte der betroffenen Personen in der Europäischen 
 
 Standardmäßig sammelt [!DNL bizible.js] die Analysedaten der Benutzenden, es sei denn, es ist so konfiguriert, dass es auf die Zustimmung wartet. Wenn [!DNL bizible.js] so konfiguriert ist, dass es auf die Zustimmung der Benutzenden wartet, erstellt es keine Cookies und sendet keine Analysedaten, bis die Zustimmung erteilt wurde.
 
-## Warten auf Zustimmung {#how-to-wait-for-consent}
+## Warten auf Einverständnis {#how-to-wait-for-consent}
 
 Es gibt zwei Möglichkeiten, [!DNL bizible.js] so einzustellen, dass auf die Zustimmung gewartet wird.
 
@@ -57,16 +60,16 @@ Damit wird [!DNL bizible.js] angewiesen, nichts nachzuverfolgen, bis eine Zustim
 
 *Bizible. Push(&#39;Consent&#39;, true);*
 
-**Wenn Sie [!DNL Google Tag Manager] verwenden, um das Skript zu installieren**, denken Sie daran, dass GTM die Datenattribute entfernt. Verwenden Sie stattdessen das folgende Skript:
+**Wenn Sie [!DNL Google Tag Manager] verwenden, um das Skript** zu installieren, denken Sie daran, dass GTM die Datenattribute entfernt. Verwenden Sie stattdessen das folgende Skript:
 
 `<span id="bizible-settings" data-requires-user-consent="true"></span>`
 `<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
 >
->bizible.js erstellt ein Cookie zur Erinnerung daran, dass die Zustimmung der Benutzerin bzw. des Benutzers eingegangen ist, und beginnt mit der Erfassung von Analysedaten wie gewohnt erst, nachdem die JS-API aufgerufen wurde.
+>bizible.js erstellt ein Cookie zur Erinnerung daran, dass das Einverständnis einer Benutzerin bzw. eines Benutzers eingegangen ist, und beginnt mit der Erfassung von Analysedaten wie gewohnt erst, nachdem die JS-API aufgerufen wurde.
 
-Im Gegensatz dazu können Kundinnen und Kunden diese API auch verwenden, um die Zustimmung der Person zu widerrufen:
+Im Gegensatz dazu können Kunden diese API auch verwenden, um das Einverständnis der Benutzerin bzw. des Benutzers zu widerrufen:
 
 `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); } };`
 

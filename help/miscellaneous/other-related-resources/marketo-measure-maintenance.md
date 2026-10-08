@@ -1,23 +1,28 @@
 ---
 unique-page-id: 18874556
-description: '[!DNL Marketo Measure]-Wartung - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure]-Wartung'
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-TQID: https://experienceleague.adobe.com/VEBJQ-MEYJv0wmkGV9kcLO42qQ25ibwinCGYOP5Kk-k
+TQID: 'https://experienceleague.adobe.com/VEBJQ-MEYJv0wmkGV9kcLO42qQ25ibwinCGYOP5Kk-k'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: '636'
 ht-degree: 95%
-
 ---
-
 # [!DNL Marketo Measure]-Wartung {#marketo-measure-maintenance}
 
 [!DNL Marketo Measure] ruft fast alles, was es braucht, täglich aus Ihrem CRM ab. Es gibt jedoch ein paar Wartungsaufgaben, die Sie regelmäßig einplanen sollten, damit [!DNL Marketo Measure] glatt weiterläuft und möglichst genaue Informationen ausgibt.
@@ -28,7 +33,7 @@ Wie Sie beim Onboarding erfahren haben, erhält [!DNL Marketo Measure] durch die
 
 **Hochladen der Ausgaben für alle Kanäle (1x/Monat)**
 
-Um die Vorteile der vollständigen Umsatz- und ROI-Reporting-Funktionen für [!DNL Marketo Measure] zu nutzen, müssen Sie [!DNL Marketo Measure] mitteilen, wie viel Sie für jeden Ihrer Marketing-Kanäle und -Unterkanäle ausgeben. Bestimmen Sie die Inhaberin bzw. den Inhaber jedes Kanals und Unterkanals und lassen Sie diese die Ausgaben an eine einzige Person melden, die für das monatliche Hochladen neuer Kosteninformationen verantwortlich ist.
+Um die Vorteile der vollständigen Umsatz- und ROI-Reporting-Funktionen für [!DNL Marketo Measure] zu nutzen, müssen Sie [!DNL Marketo Measure] mitteilen, wie viel Sie für jeden Ihrer Marketing-Kanäle und -Unterkanäle ausgeben. Bestimmen Sie die Inhaberin bzw. den Inhaber jedes Kanals und Unterkanals und sorgen Sie dafür, dass diese ihre Ausgaben an eine zentrale Person melden, die für das monatliche Hochladen neuer Kosteninformationen verantwortlich ist.
 
 Frischen Sie Ihr Gedächtnis auf, indem Sie [diesen Artikel](/help/marketing-spend/spend-management/marketing-channel-costs.md) lesen, um zu erfahren, wie Sie Kosteninformationen hochladen.
 
@@ -44,7 +49,7 @@ Denken Sie daran, dass [!DNL Marketo Measure] Ihre Daten neu verarbeitet, wenn S
 
 Lesen Sie [diesen Artikel](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md) für die Online-Einrichtung, [diesen Artikel](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md) für die Offline-Einrichtung und die folgende von Kundenseite erstellte Liste mit Best Practices:
 
-* Überprüfen Sie die Touchpoints, die derzeit unter „Andere“ oder „NULL“ Kanäle fallen, die Sie möglicherweise eingerichtet haben. Aktualisieren Sie gegebenenfalls Ihre Zuordnungslogik, um diese Touchpoints in präzisere Kanäle zu kategorisieren.
+* Überprüfen Sie die Touchpoints, die derzeit unter „Andere“ oder „NULL“-Kanäle fallen, die Sie möglicherweise eingerichtet haben. Aktualisieren Sie gegebenenfalls Ihre Zuordnungslogik, um diese Touchpoints in präzisere Kanäle zu kategorisieren.
 * Überprüfen Sie Touchpoints, die derzeit in Ihre direkten Kanäle fallen. Wenn bei einigen Ihrer E-Mail-Marketing-Kampagnen oder anderen Bemühungen UTM-Parameter fehlen, besteht eine gewisse Wahrscheinlichkeit, dass Traffic unangemessen in einem direkten Kanal zusammengefasst wird. Erwägen Sie, Ihre UTM-Parameter zu aktualisieren, um die verweisende Quelle zu erfassen.
 
 **Evaluieren der Einstellungen für die Touchpoint-Unterdrückung (1x/Quartal)**
@@ -57,6 +62,6 @@ Wenn Sie benutzerdefinierte [!UICONTROL Lead]-, [!UICONTROL Kontakt]- oder [!UIC
 
 **Vergleichen des Machine Learning-Modells mit der Gewichtung des benutzerdefinierten Modells (1x/Quartal) (falls anwendbar)**
 
-Wenn Sie für das benutzerdefinierte Modell [!DNL Marketo Measure] lizenziert sind, stehen Ihnen auch Daten aus unserem Machine Learning-Modell (MLM) in [!UICONTROL Einstellungen] > [!UICONTROL Attributionseinstellungen] zur Verfügung. Das MLM berechnet die Wichtigkeit jeder Phase mithilfe von Touchpoint-Daten aus Ihrem Konto und kann Ihnen bei der Entscheidung helfen, die Attributionsgewichtung in Ihrem benutzerdefinierten Modell zuzuweisen. Es wird empfohlen, das MLM einmal pro Quartal mit Ihrem benutzerdefinierten Modell zu vergleichen und die Auswirkungen möglicher Änderungen an Ihrem benutzerdefinierten Modell mit Ihrem SM zu besprechen.
+Wenn Sie für das benutzerdefinierte Modell [!DNL Marketo Measure] lizenziert sind, stehen Ihnen auch Daten aus unserem Machine Learning-Modell (MLM) in [!UICONTROL Einstellungen] > [!UICONTROL Attributionseinstellungen] zur Verfügung. Das MLM berechnet die Bedeutung jedes Schritts mithilfe von Touchpoint-Daten aus Ihrem Konto und kann Ihnen bei der Entscheidung helfen, wie Sie die Attributionsgewichtung in Ihrem benutzerdefinierten Modell zuweisen. Es wird empfohlen, das MLM einmal pro Quartal mit Ihrem benutzerdefinierten Modell zu vergleichen und die Auswirkungen möglicher Änderungen an Ihrem benutzerdefinierten Modell mit Ihrem SM zu besprechen.
 
 Weitere Informationen über das [!DNL Marketo Measure]-Machine Learning-Modell finden Sie in [diesem Artikel](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).

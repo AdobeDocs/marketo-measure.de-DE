@@ -1,21 +1,24 @@
 ---
 unique-page-id: 18874773
-description: Einrichten und Reporting von A/B-Tests – [!DNL Marketo Measure]
-title: Einrichten und Reporting von A/B-Tests
+description: Einrichtung und Reporting von A/B-Tests - [!DNL Marketo Measure]
+title: Einrichtung und Reporting für A/B-Tests
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
-TQID: https://experienceleague.adobe.com/lMtRvc6owu6vx-FsOjCyd40HGhQefpNIr48cnKP5CmM
+TQID: 'https://experienceleague.adobe.com/lMtRvc6owu6vx-FsOjCyd40HGhQefpNIr48cnKP5CmM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 348f752d-f464-5239-ab5e-c1faaeafb983
+    internal-label: A/B Testing
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 427
-ht-degree: 86%
-
+source-wordcount: '427'
+ht-degree: 84%
 ---
-
 # Einrichten und Reporting von A/B-Tests {#a-b-testing-set-up-and-reporting}
 
 Mit der Integration von [!DNL Marketo Measure] A/B-Tests können Sie die Auswirkungen Ihrer Site-Experimente [Optimizely](https://www.optimizely.com/de){target="_blank"} und VWO auf den Umsatz verfolgen. Dieser Artikel enthält Anweisungen, wie Sie in [!DNL Marketo Measure] A/B-Test-Abschnitte zu den Seiten-Layouts Lead, [!UICONTROL Kontakt], Fall und [!UICONTROL Opportunity] hinzufügen können. Außerdem werden allgemeine Berichtspraktiken und Empfehlungen für die Ausführung von A/B-Berichtstypen in [!DNL Marketo Measure] behandelt.
@@ -52,7 +55,7 @@ Kundinnen und Kunden verfügen über einige [!DNL Marketo Measure]-A/B-Berichtst
 
 A/B-Berichtstypen werden verwendet, um zu melden, für welchen Lead oder Kontakt oder welche Opportunity ein A/B-Test durchgeführt wurde. Diese Berichte zeigen Ihnen auch den Umsatz, der mit einer Opportunity verbunden ist, die einem A/B-Test ausgesetzt war.
 
-Beachten Sie, dass Optimizely/VWO eine Inhaltsvarianten-Plattform und kein Marketing-Kanal ist. Daher werden diese [!DNL Marketo Measure]-A/B-Berichtstypen anders verwendet als Buyer-Touchpoint-Berichte. Mit den Buyer-Touchpoint-Berichtstypen können Sie nachvollziehen, welcher Marketing-Kanal (bezahlte Werbung, Web-Direkt, Social) einen Lead oder Kontakt zu einer bestimmten Seite geführt hat. Die [!DNL Marketo Measure]-A/B-Berichtstypen können jedoch nicht verwendet werden, um darüber zu berichten, wie eine Variation einen Lead oder eine Opportunity beeinflusst hat. Da es sich bei einer A/B-Test-Variante nicht um einen Kanal handelt, werden Details zur Variante nicht im Buyer Touchpoint angezeigt.
+Beachten Sie, dass Optimizely/VWO eine Content-Varianten-Plattform und kein Marketing-Kanal ist. Daher werden diese [!DNL Marketo Measure]-A/B-Berichtstypen anders verwendet als Buyer-Touchpoint-Berichte. Mit den Buyer-Touchpoint-Berichtstypen können Sie nachvollziehen, welcher Marketing-Kanal (bezahlte Werbung, Web-Direkt, Social) einen Lead oder Kontakt zu einer bestimmten Seite geführt hat. Die [!DNL Marketo Measure]-A/B-Berichtstypen können jedoch nicht verwendet werden, um darüber zu berichten, wie eine Variation einen Lead oder eine Opportunity beeinflusst hat. Da es sich bei einer A/B-Test-Variante nicht um einen Kanal handelt, werden Details zur Variante nicht im Buyer Touchpoint angezeigt.
 
 Im Folgenden finden Sie einige empfohlene Felder, die für die Berichterstellung zu A/B-Tests verwendet werden sollten, um Klarheit und Erkenntnisse zu verbessern:
 

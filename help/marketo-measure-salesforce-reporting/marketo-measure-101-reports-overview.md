@@ -3,18 +3,22 @@ description: Übersicht über [!DNL Marketo Measure] 101-Berichte - [!DNL Market
 title: '[!DNL Marketo Measure] 101 Berichte - Überblick'
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '949'
 ht-degree: 5%
-
 ---
-
 # [!DNL Marketo Measure] 101 Berichte - Überblick {#marketo-measure-101-reports-overview}
 
 >[!NOTE]
 >
->Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.
+>Möglicherweise werden Anweisungen zu „[!DNL Marketo Measure]“ in der Dokumentation angezeigt, obwohl Sie in Ihrem CRM weiterhin „Bizible“ sehen. Wir arbeiten an dieser Aktualisierung, und das Rebranding sollte bald in Ihrem CRM zu sehen sein.&#x200B;
 
 Alle [!DNL Marketo Measure] Kunden, die [!DNL Marketo Measure] und [!DNL Salesforce] verwenden, haben in ihrer SFDC-Instanz Zugriff auf den Ordner „Buyer Touchpoints Reports“. Dieser Ordner enthält eine Reihe vordefinierter Berichte, die Ihnen bei den ersten Schritten mit dem Reporting mit Buyer Touchpoint-Daten helfen können.
 

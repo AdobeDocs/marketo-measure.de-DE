@@ -3,13 +3,17 @@ description: Anleitung zu Fehlerbenachrichtigungen für Benutzende von Marketo M
 title: Fehlerbenachrichtigungen
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1944'
 ht-degree: 26%
-
 ---
-
 # Fehlerbenachrichtigungen {#error-notifications}
 
 Nachfolgend finden Sie eine Liste mit Fehlern, die Sie möglicherweise über In-App-Benachrichtigungen oder E-Mails erhalten. Wenn Sie eine dieser Optionen erhalten, führen Sie die entsprechenden Schritte zur Fehlerbehebung aus. Falls das Problem durch diese Schritte nicht gelöst werden kann, wenden Sie sich an den [Marketo-Support](https://nation.marketo.com/t5/support/ct-p/Support?profile.language=de).
@@ -34,9 +38,9 @@ Um die vollständige Benachrichtigung in [!DNL Marketo Measure] anzuzeigen, klic
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
-      <td>Fehler beim CRM-Export : API_LIMIT_EXCEEDED</td>
+      <td>Fehler beim CRM-Export : PI_LIMIT_EXCEEDED</td>
       <td>Die API-Grenze des CRM wurde überschritten (24 Stunden).</td>
-      <td>Hilfe zur Anpassung der API-Credits-Zuweisungen finden Sie in der folgenden Dokumentation für Ihr CRM:</p>
+      <td>Hilfe zur Anpassung der API-Credits-Zuordnungen finden Sie in der folgenden Dokumentation für Ihr CRM:</p>
           <ul>
             <li><a href="https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/service-protection-monitoring">Dynamics</a>
             </li>
