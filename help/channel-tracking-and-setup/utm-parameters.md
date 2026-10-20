@@ -25,11 +25,11 @@ UTM-Parameter können manuell zu URLs hinzugefügt oder durch automatisches Tagg
 
 Um zu verstehen, wie UTM-Parameter funktionieren, sehen wir uns eine typische URL ohne UTMs an:
 
-`http://www.adobe.com`
+`http://www.adobe.com/de`
 
 Sehen wir uns nun eine URL mit UTMs an:
 
-`http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
+`http://www.adobe.com/de?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
 Der zweite Link enthält mehr Text. UTM-Parameter folgen immer der Domain der obersten Ebene (.com in diesem Beispiel) und beginnen mit einem Fragezeichen. Danach spielt die Reihenfolge der Parameter keine Rolle, es wird jedoch empfohlen, eine konsistente Namenskonvention einzuhalten. Um jedes UTM zu trennen, müssen zwischen den einzelnen Parametern kaufmännische Und-Zeichen (&amp;) gesetzt werden. Nun können wir detaillierter darauf eingehen, was jeder Parameter darstellt.
 
